@@ -2849,6 +2849,7 @@ public static class CDOTA_Ability_ArcWarden_SparkWraith {
     public const nint wraith_vision_duration = 0x570; // float32
     public const nint wraith_vision_radius = 0x574; // int32
     public const nint spark_damage = 0x578; // float32
+    public const nint creep_damage_bonus_pct = 0x57C; // int32
 }
 
 public static class CDOTA_Ability_ArcWarden_TempestDouble {
@@ -3873,7 +3874,6 @@ public static class CDOTA_Ability_Marci_Companion_Run {
 public static class CDOTA_Ability_Marci_Guardian {
     public const nint buff_duration = 0x568; // float32
     public const nint nearest_ally_search_range = 0x56C; // int32
-    public const nint m_hPartner = 0x570; // CHandle< CBaseEntity >
 }
 
 public static class CDOTA_Ability_Marci_Unleash {
@@ -11162,7 +11162,7 @@ public static class CDOTA_Modifier_Brewmaster_DrunkenBrawler_Passive {
     public const nint crit_chance = 0x12CC; // int32
     public const nint crit_multiplier = 0x12D0; // int32
     public const nint attack_speed = 0x12D4; // int32
-    public const nint active_multiplier = 0x12D8; // int32
+    public const nint active_multiplier = 0x12D8; // float32
     public const nint stun_chance = 0x12DC; // int32
     public const nint bash_cooldown = 0x12E0; // float32
     public const nint stun_duration = 0x12E4; // float32
@@ -11249,7 +11249,7 @@ public static class CDOTA_Modifier_Brewmaster_Void_Astral_Pull_Movement {
 
 public static class CDOTA_Modifier_Brewmaster_Void_Brawler_Slow {
     public const nint movespeed = 0x12C8; // int32
-    public const nint active_multiplier = 0x12CC; // int32
+    public const nint active_multiplier = 0x12CC; // float32
 }
 
 public static class CDOTA_Modifier_Brewmaster_WindWalk {
@@ -13034,6 +13034,7 @@ public static class CDOTA_Modifier_Ethereal_Blade_Ethereal {
 
 public static class CDOTA_Modifier_Eul_Cyclone {
     public const nint m_hBlocker = 0x12E0; // CHandle< CBaseEntity >
+    public const nint m_bBlockerCreated = 0x12E4; // bool
 }
 
 public static class CDOTA_Modifier_FacelessVoid_Arcana_Kill_Effect {
@@ -14378,7 +14379,8 @@ public static class CDOTA_Modifier_Invoker_EMP {
     public const nint damage_per_mana = 0x12D0; // float32
     public const nint spell_lifesteal = 0x12D4; // float32
     public const nint spell_amp = 0x12D8; // float32
-    public const nint m_hPullThinker = 0x12DC; // CHandle< CBaseEntity >
+    public const nint self_mana_restore_pct = 0x12DC; // int32
+    public const nint m_hPullThinker = 0x12E0; // CHandle< CBaseEntity >
 }
 
 public static class CDOTA_Modifier_Invoker_EMP_Pull {
@@ -17548,10 +17550,11 @@ public static class CDOTA_Modifier_Kunkka_Tidebringer_Slow {
 public static class CDOTA_Modifier_Kunkka_Torrent {
     public const nint torrent_damage = 0x12C8; // int32
     public const nint damage_tick_interval = 0x12CC; // float32
-    public const nint flDamagePerTick = 0x12D0; // float32
-    public const nint m_flStartZ = 0x12D4; // float32
-    public const nint m_flCurTime = 0x12D8; // float32
-    public const nint m_bTorrentStorm = 0x12DC; // bool
+    public const nint percent_instant = 0x12D0; // float32
+    public const nint flDamagePerTick = 0x12D4; // float32
+    public const nint m_flStartZ = 0x12D8; // float32
+    public const nint m_flCurTime = 0x12DC; // float32
+    public const nint m_bTorrentStorm = 0x12E0; // bool
 }
 
 public static class CDOTA_Modifier_Kunkka_Torrent_Slow {
@@ -17570,7 +17573,9 @@ public static class CDOTA_Modifier_Kunkka_Torrent_Thinker {
     public const nint m_bTorrentStarted = 0x12CA; // bool
     public const nint m_fTorrentStartTime = 0x12CC; // GameTime_t
     public const nint flDamagePerTick = 0x12D0; // float32
-    public const nint damage_tick_interval = 0x12D4; // float32
+    public const nint flFirstDamage = 0x12D4; // float32
+    public const nint damage_tick_interval = 0x12D8; // float32
+    public const nint percent_instant = 0x12DC; // float32
 }
 
 public static class CDOTA_Modifier_Kunkka_XMarksTheSpot {
@@ -18286,9 +18291,9 @@ public static class CDOTA_Modifier_Marci_Guardian_Buff {
     public const nint creep_lifesteal_reduction_pct = 0x12DC; // int32
     public const nint m_fLifestealPct = 0x12E0; // float32
     public const nint m_fDamageAbsorbed = 0x12E4; // float32
-    public const nint m_hPartner = 0x12E8; // CHandle< CBaseEntity >
-    public const nint m_bActive = 0x12EC; // bool
-    public const nint m_nFxIndex = 0x12F0; // ParticleIndex_t
+    public const nint m_bActive = 0x12E8; // bool
+    public const nint m_nFxIndex = 0x12EC; // ParticleIndex_t
+    public const nint m_hPartner = 0x12F0; // CHandle< CBaseEntity >
 }
 
 public static class CDOTA_Modifier_Marci_Lunge_Arc {

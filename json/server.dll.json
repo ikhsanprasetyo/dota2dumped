@@ -2586,6 +2586,7 @@
   },
   "CDOTA_Ability_ArcWarden_SparkWraith": {
     "activation_delay": 1388,
+    "creep_damage_bonus_pct": 1404,
     "duration": 1384,
     "spark_damage": 1400,
     "wraith_vision_duration": 1392,
@@ -3467,7 +3468,6 @@
   },
   "CDOTA_Ability_Marci_Guardian": {
     "buff_duration": 1384,
-    "m_hPartner": 1392,
     "nearest_ally_search_range": 1388
   },
   "CDOTA_Ability_Marci_Unleash": {
@@ -11375,6 +11375,7 @@
     "ethereal_damage_bonus": 4808
   },
   "CDOTA_Modifier_Eul_Cyclone": {
+    "m_bBlockerCreated": 4836,
     "m_hBlocker": 4832
   },
   "CDOTA_Modifier_FacelessVoid_Arcana_Kill_Effect": {
@@ -12513,8 +12514,9 @@
   "CDOTA_Modifier_Invoker_EMP": {
     "area_of_effect": 4808,
     "damage_per_mana": 4816,
-    "m_hPullThinker": 4828,
+    "m_hPullThinker": 4832,
     "mana_burned": 4812,
+    "self_mana_restore_pct": 4828,
     "spell_amp": 4824,
     "spell_lifesteal": 4820
   },
@@ -15180,10 +15182,11 @@
   },
   "CDOTA_Modifier_Kunkka_Torrent": {
     "damage_tick_interval": 4812,
-    "flDamagePerTick": 4816,
-    "m_bTorrentStorm": 4828,
-    "m_flCurTime": 4824,
-    "m_flStartZ": 4820,
+    "flDamagePerTick": 4820,
+    "m_bTorrentStorm": 4832,
+    "m_flCurTime": 4828,
+    "m_flStartZ": 4824,
+    "percent_instant": 4816,
     "torrent_damage": 4808
   },
   "CDOTA_Modifier_Kunkka_Torrent_Slow": {
@@ -15195,12 +15198,14 @@
     "torrent_min_distance": 4808
   },
   "CDOTA_Modifier_Kunkka_Torrent_Thinker": {
-    "damage_tick_interval": 4820,
+    "damage_tick_interval": 4824,
     "flDamagePerTick": 4816,
+    "flFirstDamage": 4820,
     "m_bShowEnemies": 4808,
     "m_bTorrentStarted": 4810,
     "m_bTorrentStorm": 4809,
-    "m_fTorrentStartTime": 4812
+    "m_fTorrentStartTime": 4812,
+    "percent_instant": 4828
   },
   "CDOTA_Modifier_Kunkka_XMarksTheSpot": {
     "ally_armor": 4812,
@@ -15799,11 +15804,11 @@
     "bonus_damage": 4812,
     "creep_lifesteal_reduction_pct": 4828,
     "lifesteal_pct": 4808,
-    "m_bActive": 4844,
+    "m_bActive": 4840,
     "m_fDamageAbsorbed": 4836,
     "m_fLifestealPct": 4832,
-    "m_hPartner": 4840,
-    "m_nFxIndex": 4848,
+    "m_hPartner": 4848,
+    "m_nFxIndex": 4844,
     "max_partner_distance": 4820,
     "max_partner_penalty": 4824
   },

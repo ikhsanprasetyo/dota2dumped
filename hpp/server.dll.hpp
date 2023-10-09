@@ -1,4 +1,4 @@
-// printed at 2023-10-04 22:59:42.746767500 +07:00	from Dota2 7.34c
+// printed at 2023-10-09 19:44:28.092101300 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -2854,6 +2854,7 @@ namespace Offsets {
         constexpr uint32_t wraith_vision_duration = 0x570; // float32
         constexpr uint32_t wraith_vision_radius = 0x574; // int32
         constexpr uint32_t spark_damage = 0x578; // float32
+        constexpr uint32_t creep_damage_bonus_pct = 0x57C; // int32
     }
 
     namespace CDOTA_Ability_ArcWarden_TempestDouble {
@@ -3878,7 +3879,6 @@ namespace Offsets {
     namespace CDOTA_Ability_Marci_Guardian {
         constexpr uint32_t buff_duration = 0x568; // float32
         constexpr uint32_t nearest_ally_search_range = 0x56C; // int32
-        constexpr uint32_t m_hPartner = 0x570; // CHandle< CBaseEntity >
     }
 
     namespace CDOTA_Ability_Marci_Unleash {
@@ -11167,7 +11167,7 @@ namespace Offsets {
         constexpr uint32_t crit_chance = 0x12CC; // int32
         constexpr uint32_t crit_multiplier = 0x12D0; // int32
         constexpr uint32_t attack_speed = 0x12D4; // int32
-        constexpr uint32_t active_multiplier = 0x12D8; // int32
+        constexpr uint32_t active_multiplier = 0x12D8; // float32
         constexpr uint32_t stun_chance = 0x12DC; // int32
         constexpr uint32_t bash_cooldown = 0x12E0; // float32
         constexpr uint32_t stun_duration = 0x12E4; // float32
@@ -11254,7 +11254,7 @@ namespace Offsets {
 
     namespace CDOTA_Modifier_Brewmaster_Void_Brawler_Slow {
         constexpr uint32_t movespeed = 0x12C8; // int32
-        constexpr uint32_t active_multiplier = 0x12CC; // int32
+        constexpr uint32_t active_multiplier = 0x12CC; // float32
     }
 
     namespace CDOTA_Modifier_Brewmaster_WindWalk {
@@ -13039,6 +13039,7 @@ namespace Offsets {
 
     namespace CDOTA_Modifier_Eul_Cyclone {
         constexpr uint32_t m_hBlocker = 0x12E0; // CHandle< CBaseEntity >
+        constexpr uint32_t m_bBlockerCreated = 0x12E4; // bool
     }
 
     namespace CDOTA_Modifier_FacelessVoid_Arcana_Kill_Effect {
@@ -14383,7 +14384,8 @@ namespace Offsets {
         constexpr uint32_t damage_per_mana = 0x12D0; // float32
         constexpr uint32_t spell_lifesteal = 0x12D4; // float32
         constexpr uint32_t spell_amp = 0x12D8; // float32
-        constexpr uint32_t m_hPullThinker = 0x12DC; // CHandle< CBaseEntity >
+        constexpr uint32_t self_mana_restore_pct = 0x12DC; // int32
+        constexpr uint32_t m_hPullThinker = 0x12E0; // CHandle< CBaseEntity >
     }
 
     namespace CDOTA_Modifier_Invoker_EMP_Pull {
@@ -17553,10 +17555,11 @@ namespace Offsets {
     namespace CDOTA_Modifier_Kunkka_Torrent {
         constexpr uint32_t torrent_damage = 0x12C8; // int32
         constexpr uint32_t damage_tick_interval = 0x12CC; // float32
-        constexpr uint32_t flDamagePerTick = 0x12D0; // float32
-        constexpr uint32_t m_flStartZ = 0x12D4; // float32
-        constexpr uint32_t m_flCurTime = 0x12D8; // float32
-        constexpr uint32_t m_bTorrentStorm = 0x12DC; // bool
+        constexpr uint32_t percent_instant = 0x12D0; // float32
+        constexpr uint32_t flDamagePerTick = 0x12D4; // float32
+        constexpr uint32_t m_flStartZ = 0x12D8; // float32
+        constexpr uint32_t m_flCurTime = 0x12DC; // float32
+        constexpr uint32_t m_bTorrentStorm = 0x12E0; // bool
     }
 
     namespace CDOTA_Modifier_Kunkka_Torrent_Slow {
@@ -17575,7 +17578,9 @@ namespace Offsets {
         constexpr uint32_t m_bTorrentStarted = 0x12CA; // bool
         constexpr uint32_t m_fTorrentStartTime = 0x12CC; // GameTime_t
         constexpr uint32_t flDamagePerTick = 0x12D0; // float32
-        constexpr uint32_t damage_tick_interval = 0x12D4; // float32
+        constexpr uint32_t flFirstDamage = 0x12D4; // float32
+        constexpr uint32_t damage_tick_interval = 0x12D8; // float32
+        constexpr uint32_t percent_instant = 0x12DC; // float32
     }
 
     namespace CDOTA_Modifier_Kunkka_XMarksTheSpot {
@@ -18291,9 +18296,9 @@ namespace Offsets {
         constexpr uint32_t creep_lifesteal_reduction_pct = 0x12DC; // int32
         constexpr uint32_t m_fLifestealPct = 0x12E0; // float32
         constexpr uint32_t m_fDamageAbsorbed = 0x12E4; // float32
-        constexpr uint32_t m_hPartner = 0x12E8; // CHandle< CBaseEntity >
-        constexpr uint32_t m_bActive = 0x12EC; // bool
-        constexpr uint32_t m_nFxIndex = 0x12F0; // ParticleIndex_t
+        constexpr uint32_t m_bActive = 0x12E8; // bool
+        constexpr uint32_t m_nFxIndex = 0x12EC; // ParticleIndex_t
+        constexpr uint32_t m_hPartner = 0x12F0; // CHandle< CBaseEntity >
     }
 
     namespace CDOTA_Modifier_Marci_Lunge_Arc {

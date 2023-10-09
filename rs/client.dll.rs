@@ -980,7 +980,6 @@ pub mod CDOTA_Ability_Marci_Companion_Run {
 pub mod CDOTA_Ability_Marci_Guardian {
     pub const buff_duration: usize = 0x5B0; // float32
     pub const nearest_ally_search_range: usize = 0x5B4; // int32
-    pub const m_hPartner: usize = 0x5B8; // CHandle< C_BaseEntity >
 }
 
 pub mod CDOTA_Ability_Marci_Unleash {
@@ -5646,7 +5645,7 @@ pub mod CDOTA_Modifier_Brewmaster_DrunkenBrawler_Passive {
     pub const crit_chance: usize = 0x12CC; // int32
     pub const crit_multiplier: usize = 0x12D0; // int32
     pub const attack_speed: usize = 0x12D4; // int32
-    pub const active_multiplier: usize = 0x12D8; // int32
+    pub const active_multiplier: usize = 0x12D8; // float32
     pub const stun_chance: usize = 0x12DC; // int32
     pub const bash_cooldown: usize = 0x12E0; // float32
     pub const stun_duration: usize = 0x12E4; // float32
@@ -5730,7 +5729,7 @@ pub mod CDOTA_Modifier_Brewmaster_Void_Astral_Pull_Movement {
 
 pub mod CDOTA_Modifier_Brewmaster_Void_Brawler_Slow {
     pub const movespeed: usize = 0x12C8; // int32
-    pub const active_multiplier: usize = 0x12CC; // int32
+    pub const active_multiplier: usize = 0x12CC; // float32
 }
 
 pub mod CDOTA_Modifier_Brewmaster_WindWalk {
@@ -7383,6 +7382,7 @@ pub mod CDOTA_Modifier_Ethereal_Blade_Ethereal {
 
 pub mod CDOTA_Modifier_Eul_Cyclone {
     pub const m_hBlocker: usize = 0x12D0; // CHandle< C_BaseEntity >
+    pub const m_bBlockerCreated: usize = 0x12D4; // bool
 }
 
 pub mod CDOTA_Modifier_FacelessVoid_Arcana_Kill_Effect {
@@ -8578,7 +8578,8 @@ pub mod CDOTA_Modifier_Invoker_EMP {
     pub const damage_per_mana: usize = 0x12D0; // float32
     pub const spell_lifesteal: usize = 0x12D4; // float32
     pub const spell_amp: usize = 0x12D8; // float32
-    pub const m_hPullThinker: usize = 0x12DC; // CHandle< C_BaseEntity >
+    pub const self_mana_restore_pct: usize = 0x12DC; // int32
+    pub const m_hPullThinker: usize = 0x12E0; // CHandle< C_BaseEntity >
 }
 
 pub mod CDOTA_Modifier_Invoker_EMP_Pull {
@@ -11683,7 +11684,8 @@ pub mod CDOTA_Modifier_Kunkka_Tidebringer_Slow {
 pub mod CDOTA_Modifier_Kunkka_Torrent {
     pub const torrent_damage: usize = 0x12C8; // int32
     pub const damage_tick_interval: usize = 0x12CC; // float32
-    pub const flDamagePerTick: usize = 0x12D0; // float32
+    pub const percent_instant: usize = 0x12D0; // float32
+    pub const flDamagePerTick: usize = 0x12D4; // float32
 }
 
 pub mod CDOTA_Modifier_Kunkka_Torrent_Slow {
@@ -11702,7 +11704,9 @@ pub mod CDOTA_Modifier_Kunkka_Torrent_Thinker {
     pub const m_bTorrentStarted: usize = 0x12CA; // bool
     pub const m_fTorrentStartTime: usize = 0x12CC; // GameTime_t
     pub const flDamagePerTick: usize = 0x12D0; // float32
-    pub const damage_tick_interval: usize = 0x12D4; // float32
+    pub const flFirstDamage: usize = 0x12D4; // float32
+    pub const damage_tick_interval: usize = 0x12D8; // float32
+    pub const percent_instant: usize = 0x12DC; // float32
 }
 
 pub mod CDOTA_Modifier_Kunkka_XMarksTheSpot {
@@ -12344,9 +12348,8 @@ pub mod CDOTA_Modifier_Marci_Guardian_Buff {
     pub const creep_lifesteal_reduction_pct: usize = 0x12DC; // int32
     pub const m_fLifestealPct: usize = 0x12E0; // float32
     pub const m_fDamageAbsorbed: usize = 0x12E4; // float32
-    pub const m_hPartner: usize = 0x12E8; // CHandle< C_BaseEntity >
-    pub const m_bActive: usize = 0x12EC; // bool
-    pub const m_nFxIndex: usize = 0x12F0; // ParticleIndex_t
+    pub const m_bActive: usize = 0x12E8; // bool
+    pub const m_nFxIndex: usize = 0x12EC; // ParticleIndex_t
 }
 
 pub mod CDOTA_Modifier_Marci_Lunge_Arc {
@@ -19748,6 +19751,7 @@ pub mod C_DOTA_Ability_ArcWarden_SparkWraith {
     pub const wraith_vision_duration: usize = 0x5B8; // float32
     pub const wraith_vision_radius: usize = 0x5BC; // int32
     pub const spark_damage: usize = 0x5C0; // float32
+    pub const creep_damage_bonus_pct: usize = 0x5C4; // int32
 }
 
 pub mod C_DOTA_Ability_ArcWarden_TempestDouble {
