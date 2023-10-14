@@ -9915,7 +9915,8 @@
   },
   "CDOTA_Modifier_Kunkka_XMarksTheSpot": {
     "ally_armor": 4812,
-    "ally_ms": 4808
+    "ally_ms": 4808,
+    "hThinker": 4816
   },
   "CDOTA_Modifier_Kunkka_XMarksTheSpot_Thinker": {
     "m_bIsReflection": 4820,

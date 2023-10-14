@@ -1,4 +1,4 @@
-// printed at 2023-10-09 19:44:28.092101300 +07:00	from Dota2 7.34d
+// printed at 2023-10-14 18:40:55.634539300 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -1260,6 +1260,7 @@ namespace Offsets {
         constexpr uint32_t m_nLocStringValue = 0x28; // int32
         constexpr uint32_t m_strHeroAdjective = 0x30; // CUtlString
         constexpr uint32_t m_bNegativeHeroAdjective = 0x38; // bool
+        constexpr uint32_t m_nMinLeaguePhase = 0x3C; // int32
     }
 
     namespace CDOTACameraBounds {
@@ -17586,6 +17587,7 @@ namespace Offsets {
     namespace CDOTA_Modifier_Kunkka_XMarksTheSpot {
         constexpr uint32_t ally_ms = 0x12C8; // int32
         constexpr uint32_t ally_armor = 0x12CC; // int32
+        constexpr uint32_t hThinker = 0x12D0; // CHandle< CBaseEntity >
     }
 
     namespace CDOTA_Modifier_Kunkka_XMarksTheSpot_Thinker {
@@ -28809,6 +28811,7 @@ namespace Offsets {
         constexpr uint32_t m_unTeamID = 0x4; // uint32
         constexpr uint32_t m_eRegion = 0x8; // ELeagueRegion
         constexpr uint32_t m_strPlayerName = 0x10; // CUtlString
+        constexpr uint32_t m_bIsValid = 0x18; // bool
     }
 
     namespace FantasyRoleData_t {

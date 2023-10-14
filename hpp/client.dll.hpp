@@ -1,4 +1,4 @@
-// printed at 2023-10-09 19:44:29.467682400 +07:00	from Dota2 7.34d
+// printed at 2023-10-14 18:40:56.966824900 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -11715,6 +11715,7 @@ namespace Offsets {
     namespace CDOTA_Modifier_Kunkka_XMarksTheSpot {
         constexpr uint32_t ally_ms = 0x12C8; // int32
         constexpr uint32_t ally_armor = 0x12CC; // int32
+        constexpr uint32_t hThinker = 0x12D0; // CHandle< C_BaseEntity >
     }
 
     namespace CDOTA_Modifier_Kunkka_XMarksTheSpot_Thinker {

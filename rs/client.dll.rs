@@ -11712,6 +11712,7 @@ pub mod CDOTA_Modifier_Kunkka_Torrent_Thinker {
 pub mod CDOTA_Modifier_Kunkka_XMarksTheSpot {
     pub const ally_ms: usize = 0x12C8; // int32
     pub const ally_armor: usize = 0x12CC; // int32
+    pub const hThinker: usize = 0x12D0; // CHandle< C_BaseEntity >
 }
 
 pub mod CDOTA_Modifier_Kunkka_XMarksTheSpot_Thinker {

@@ -1153,6 +1153,7 @@
     "m_fStatAverage": 16,
     "m_fStatStdDev": 20,
     "m_nLocStringValue": 40,
+    "m_nMinLeaguePhase": 60,
     "m_sNameLocString": 24,
     "m_sTooltipLocString": 32,
     "m_strHeroAdjective": 48,
@@ -15209,7 +15210,8 @@
   },
   "CDOTA_Modifier_Kunkka_XMarksTheSpot": {
     "ally_armor": 4812,
-    "ally_ms": 4808
+    "ally_ms": 4808,
+    "hThinker": 4816
   },
   "CDOTA_Modifier_Kunkka_XMarksTheSpot_Thinker": {
     "m_bIsReflection": 4820,
@@ -25011,6 +25013,7 @@
     "m_Value": 0
   },
   "FantasyPlayerData_t": {
+    "m_bIsValid": 24,
     "m_eRegion": 8,
     "m_strPlayerName": 16,
     "m_unAccountID": 0,

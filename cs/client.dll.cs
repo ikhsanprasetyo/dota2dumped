@@ -11710,6 +11710,7 @@ public static class CDOTA_Modifier_Kunkka_Torrent_Thinker {
 public static class CDOTA_Modifier_Kunkka_XMarksTheSpot {
     public const nint ally_ms = 0x12C8; // int32
     public const nint ally_armor = 0x12CC; // int32
+    public const nint hThinker = 0x12D0; // CHandle< C_BaseEntity >
 }
 
 public static class CDOTA_Modifier_Kunkka_XMarksTheSpot_Thinker {

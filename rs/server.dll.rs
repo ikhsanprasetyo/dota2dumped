@@ -1257,6 +1257,7 @@ pub mod CDOTABingoStatDefinition {
     pub const m_nLocStringValue: usize = 0x28; // int32
     pub const m_strHeroAdjective: usize = 0x30; // CUtlString
     pub const m_bNegativeHeroAdjective: usize = 0x38; // bool
+    pub const m_nMinLeaguePhase: usize = 0x3C; // int32
 }
 
 pub mod CDOTACameraBounds {
@@ -17583,6 +17584,7 @@ pub mod CDOTA_Modifier_Kunkka_Torrent_Thinker {
 pub mod CDOTA_Modifier_Kunkka_XMarksTheSpot {
     pub const ally_ms: usize = 0x12C8; // int32
     pub const ally_armor: usize = 0x12CC; // int32
+    pub const hThinker: usize = 0x12D0; // CHandle< CBaseEntity >
 }
 
 pub mod CDOTA_Modifier_Kunkka_XMarksTheSpot_Thinker {
@@ -28806,6 +28808,7 @@ pub mod FantasyPlayerData_t {
     pub const m_unTeamID: usize = 0x4; // uint32
     pub const m_eRegion: usize = 0x8; // ELeagueRegion
     pub const m_strPlayerName: usize = 0x10; // CUtlString
+    pub const m_bIsValid: usize = 0x18; // bool
 }
 
 pub mod FantasyRoleData_t {

@@ -1255,6 +1255,7 @@ public static class CDOTABingoStatDefinition {
     public const nint m_nLocStringValue = 0x28; // int32
     public const nint m_strHeroAdjective = 0x30; // CUtlString
     public const nint m_bNegativeHeroAdjective = 0x38; // bool
+    public const nint m_nMinLeaguePhase = 0x3C; // int32
 }
 
 public static class CDOTACameraBounds {
@@ -17581,6 +17582,7 @@ public static class CDOTA_Modifier_Kunkka_Torrent_Thinker {
 public static class CDOTA_Modifier_Kunkka_XMarksTheSpot {
     public const nint ally_ms = 0x12C8; // int32
     public const nint ally_armor = 0x12CC; // int32
+    public const nint hThinker = 0x12D0; // CHandle< CBaseEntity >
 }
 
 public static class CDOTA_Modifier_Kunkka_XMarksTheSpot_Thinker {
@@ -28804,6 +28806,7 @@ public static class FantasyPlayerData_t {
     public const nint m_unTeamID = 0x4; // uint32
     public const nint m_eRegion = 0x8; // ELeagueRegion
     public const nint m_strPlayerName = 0x10; // CUtlString
+    public const nint m_bIsValid = 0x18; // bool
 }
 
 public static class FantasyRoleData_t {
