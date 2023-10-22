@@ -1,4 +1,4 @@
-// printed at 2023-10-14 18:40:55.634539300 +07:00	from Dota2 7.34d
+// printed at 2023-10-22 22:08:41.127752800 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -1261,6 +1261,8 @@ namespace Offsets {
         constexpr uint32_t m_strHeroAdjective = 0x30; // CUtlString
         constexpr uint32_t m_bNegativeHeroAdjective = 0x38; // bool
         constexpr uint32_t m_nMinLeaguePhase = 0x3C; // int32
+        constexpr uint32_t m_fPlayoffsStatAverage = 0x40; // float32
+        constexpr uint32_t m_fPlayoffsStatStdDev = 0x44; // float32
     }
 
     namespace CDOTACameraBounds {

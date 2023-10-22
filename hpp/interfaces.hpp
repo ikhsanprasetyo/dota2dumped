@@ -1,4 +1,4 @@
-// printed at 2023-10-14 18:41:05.064360700 +07:00	from Dota2 7.34d
+// printed at 2023-10-22 22:08:43.351134600 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -9,46 +9,46 @@ namespace Offsets {
     }
 
     namespace client_dll {
-        constexpr uint32_t PanoramaUIClient001 = 0x24233F0;
-        constexpr uint32_t PlayButtonService001 = 0x1F9D0B0;
-        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1B78260;
-        constexpr uint32_t LegacyGameUI001 = 0x1B5BCD0;
-        constexpr uint32_t Source2ClientPrediction001 = 0x154A9D0;
-        constexpr uint32_t ClientToolsInfo_001 = 0x14F9550;
-        constexpr uint32_t Source2Client002 = 0x14F9570;
-        constexpr uint32_t GameClientExports001 = 0x14F9560;
-        constexpr uint32_t Source2ClientConfig001 = 0x128A110;
-        constexpr uint32_t Source2ClientUI001 = 0x3EF5C0;
+        constexpr uint32_t PanoramaUIClient001 = 0x2428C20;
+        constexpr uint32_t PlayButtonService001 = 0x1FA02A0;
+        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1B78CE0;
+        constexpr uint32_t LegacyGameUI001 = 0x1B5C750;
+        constexpr uint32_t Source2ClientPrediction001 = 0x154B4A0;
+        constexpr uint32_t ClientToolsInfo_001 = 0x14FA020;
+        constexpr uint32_t Source2Client002 = 0x14FA040;
+        constexpr uint32_t GameClientExports001 = 0x14FA030;
+        constexpr uint32_t Source2ClientConfig001 = 0x128AC70;
+        constexpr uint32_t Source2ClientUI001 = 0x3EF6A0;
     }
 
     namespace engine2_dll {
-        constexpr uint32_t SimpleEngineLoopService_001 = 0x1E68D0;
-        constexpr uint32_t ClientServerEngineLoopService_001 = 0x1DC4C0;
-        constexpr uint32_t KeyValueCache001 = 0x1D8850;
-        constexpr uint32_t HostStateMgr001 = 0x1D6290;
-        constexpr uint32_t GameEventSystemServerV001 = 0x1D16B0;
-        constexpr uint32_t GameEventSystemClientV001 = 0x1D16A0;
-        constexpr uint32_t EngineServiceMgr001 = 0x1CCFA0;
-        constexpr uint32_t VProfService_001 = 0x1BAE20;
-        constexpr uint32_t ToolService_001 = 0x1B9B80;
-        constexpr uint32_t StatsService_001 = 0x1B4E00;
-        constexpr uint32_t SplitScreenService_001 = 0x1B2070;
-        constexpr uint32_t SoundService_001 = 0x1ACBC0;
-        constexpr uint32_t ScreenshotService001 = 0x1A8A90;
-        constexpr uint32_t RenderService_001 = 0x1A5DF0;
-        constexpr uint32_t NetworkService_001 = 0x1A5900;
-        constexpr uint32_t NetworkServerService_001 = 0x1A0930;
-        constexpr uint32_t NetworkP2PService_001 = 0x19C340;
-        constexpr uint32_t NetworkClientService_001 = 0x195F10;
-        constexpr uint32_t MapListService_001 = 0x18EF50;
-        constexpr uint32_t InputService_001 = 0x17CC50;
-        constexpr uint32_t GameUIService_001 = 0x177280;
-        constexpr uint32_t GameResourceServiceServerV001 = 0x174FE0;
-        constexpr uint32_t GameResourceServiceClientV001 = 0x174FD0;
-        constexpr uint32_t BugService001 = 0x16E000;
-        constexpr uint32_t BenchmarkService001 = 0x16C7D0;
-        constexpr uint32_t VENGINE_GAMEUIFUNCS_VERSION005 = 0x1192F0;
-        constexpr uint32_t EngineGameUI001 = 0x1185B0;
+        constexpr uint32_t SimpleEngineLoopService_001 = 0x1E6900;
+        constexpr uint32_t ClientServerEngineLoopService_001 = 0x1DC4F0;
+        constexpr uint32_t KeyValueCache001 = 0x1D8880;
+        constexpr uint32_t HostStateMgr001 = 0x1D62C0;
+        constexpr uint32_t GameEventSystemServerV001 = 0x1D16E0;
+        constexpr uint32_t GameEventSystemClientV001 = 0x1D16D0;
+        constexpr uint32_t EngineServiceMgr001 = 0x1CCFD0;
+        constexpr uint32_t VProfService_001 = 0x1BAE50;
+        constexpr uint32_t ToolService_001 = 0x1B9BB0;
+        constexpr uint32_t StatsService_001 = 0x1B4E30;
+        constexpr uint32_t SplitScreenService_001 = 0x1B20A0;
+        constexpr uint32_t SoundService_001 = 0x1ACBF0;
+        constexpr uint32_t ScreenshotService001 = 0x1A8AC0;
+        constexpr uint32_t RenderService_001 = 0x1A5E20;
+        constexpr uint32_t NetworkService_001 = 0x1A5930;
+        constexpr uint32_t NetworkServerService_001 = 0x1A0960;
+        constexpr uint32_t NetworkP2PService_001 = 0x19C370;
+        constexpr uint32_t NetworkClientService_001 = 0x195F40;
+        constexpr uint32_t MapListService_001 = 0x18EF80;
+        constexpr uint32_t InputService_001 = 0x17CC80;
+        constexpr uint32_t GameUIService_001 = 0x1772B0;
+        constexpr uint32_t GameResourceServiceServerV001 = 0x175010;
+        constexpr uint32_t GameResourceServiceClientV001 = 0x175000;
+        constexpr uint32_t BugService001 = 0x16E030;
+        constexpr uint32_t BenchmarkService001 = 0x16C800;
+        constexpr uint32_t VENGINE_GAMEUIFUNCS_VERSION005 = 0x119320;
+        constexpr uint32_t EngineGameUI001 = 0x1185E0;
         constexpr uint32_t INETSUPPORT_001 = 0xE7790;
         constexpr uint32_t Source2EngineToServerStringTable001 = 0xA1EA0;
         constexpr uint32_t Source2EngineToServer001 = 0x8B950;
@@ -151,13 +151,13 @@ namespace Offsets {
     }
 
     namespace server_dll {
-        constexpr uint32_t NavGameTest001 = 0x2020F40;
-        constexpr uint32_t Source2GameDirector001 = 0x1ABB0B0;
-        constexpr uint32_t ServerToolsInfo_001 = 0x1758070;
-        constexpr uint32_t Source2GameClients001 = 0x1758080;
-        constexpr uint32_t Source2GameEntities001 = 0x1758090;
-        constexpr uint32_t Source2Server001 = 0x17580A0;
-        constexpr uint32_t Source2ServerConfig001 = 0x14F1970;
+        constexpr uint32_t NavGameTest001 = 0x20213A0;
+        constexpr uint32_t Source2GameDirector001 = 0x1ABB510;
+        constexpr uint32_t ServerToolsInfo_001 = 0x1758370;
+        constexpr uint32_t Source2GameClients001 = 0x1758380;
+        constexpr uint32_t Source2GameEntities001 = 0x1758390;
+        constexpr uint32_t Source2Server001 = 0x17583A0;
+        constexpr uint32_t Source2ServerConfig001 = 0x14F1C70;
         constexpr uint32_t EntitySubclassUtilsV001 = 0x3B6D00;
     }
 

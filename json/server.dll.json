@@ -1150,6 +1150,8 @@
   },
   "CDOTABingoStatDefinition": {
     "m_bNegativeHeroAdjective": 56,
+    "m_fPlayoffsStatAverage": 64,
+    "m_fPlayoffsStatStdDev": 68,
     "m_fStatAverage": 16,
     "m_fStatStdDev": 20,
     "m_nLocStringValue": 40,
