@@ -1258,8 +1258,11 @@ pub mod CDOTABingoStatDefinition {
     pub const m_strHeroAdjective: usize = 0x30; // CUtlString
     pub const m_bNegativeHeroAdjective: usize = 0x38; // bool
     pub const m_nMinLeaguePhase: usize = 0x3C; // int32
-    pub const m_fPlayoffsStatAverage: usize = 0x40; // float32
-    pub const m_fPlayoffsStatStdDev: usize = 0x44; // float32
+    pub const m_nMaxLeaguePhase: usize = 0x40; // int32
+    pub const m_fPlayoffsStatAverage: usize = 0x44; // float32
+    pub const m_fPlayoffsStatStdDev: usize = 0x48; // float32
+    pub const m_fMainEventStatAverage: usize = 0x4C; // float32
+    pub const m_fMainEventStatStdDev: usize = 0x50; // float32
 }
 
 pub mod CDOTACameraBounds {

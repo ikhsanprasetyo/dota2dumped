@@ -1256,8 +1256,11 @@ public static class CDOTABingoStatDefinition {
     public const nint m_strHeroAdjective = 0x30; // CUtlString
     public const nint m_bNegativeHeroAdjective = 0x38; // bool
     public const nint m_nMinLeaguePhase = 0x3C; // int32
-    public const nint m_fPlayoffsStatAverage = 0x40; // float32
-    public const nint m_fPlayoffsStatStdDev = 0x44; // float32
+    public const nint m_nMaxLeaguePhase = 0x40; // int32
+    public const nint m_fPlayoffsStatAverage = 0x44; // float32
+    public const nint m_fPlayoffsStatStdDev = 0x48; // float32
+    public const nint m_fMainEventStatAverage = 0x4C; // float32
+    public const nint m_fMainEventStatStdDev = 0x50; // float32
 }
 
 public static class CDOTACameraBounds {
