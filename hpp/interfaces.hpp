@@ -1,4 +1,4 @@
-// printed at 2023-11-02 22:16:21.330831600 +07:00	from Dota2 7.34d
+// printed at 2023-11-07 22:14:15.207450100 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -9,15 +9,15 @@ namespace Offsets {
     }
 
     namespace client_dll {
-        constexpr uint32_t PanoramaUIClient001 = 0x242F070;
-        constexpr uint32_t PlayButtonService001 = 0x1FA4510;
-        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1B79850;
-        constexpr uint32_t LegacyGameUI001 = 0x1B5D2B0;
-        constexpr uint32_t Source2ClientPrediction001 = 0x154B7B0;
-        constexpr uint32_t ClientToolsInfo_001 = 0x14FA330;
-        constexpr uint32_t Source2Client002 = 0x14FA350;
-        constexpr uint32_t GameClientExports001 = 0x14FA340;
-        constexpr uint32_t Source2ClientConfig001 = 0x128AF80;
+        constexpr uint32_t PanoramaUIClient001 = 0x242F270;
+        constexpr uint32_t PlayButtonService001 = 0x1FA4690;
+        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1B79860;
+        constexpr uint32_t LegacyGameUI001 = 0x1B5D2C0;
+        constexpr uint32_t Source2ClientPrediction001 = 0x154B7C0;
+        constexpr uint32_t ClientToolsInfo_001 = 0x14FA340;
+        constexpr uint32_t Source2Client002 = 0x14FA360;
+        constexpr uint32_t GameClientExports001 = 0x14FA350;
+        constexpr uint32_t Source2ClientConfig001 = 0x128AF90;
         constexpr uint32_t Source2ClientUI001 = 0x3EF860;
     }
 
@@ -151,14 +151,14 @@ namespace Offsets {
     }
 
     namespace server_dll {
-        constexpr uint32_t NavGameTest001 = 0x20214F0;
-        constexpr uint32_t Source2GameDirector001 = 0x1ABB8B0;
-        constexpr uint32_t ServerToolsInfo_001 = 0x1758480;
-        constexpr uint32_t Source2GameClients001 = 0x1758490;
-        constexpr uint32_t Source2GameEntities001 = 0x17584A0;
-        constexpr uint32_t Source2Server001 = 0x17584B0;
-        constexpr uint32_t Source2ServerConfig001 = 0x14F1D70;
-        constexpr uint32_t EntitySubclassUtilsV001 = 0x3B6D90;
+        constexpr uint32_t NavGameTest001 = 0x20214A0;
+        constexpr uint32_t Source2GameDirector001 = 0x1ABB860;
+        constexpr uint32_t ServerToolsInfo_001 = 0x1758430;
+        constexpr uint32_t Source2GameClients001 = 0x1758440;
+        constexpr uint32_t Source2GameEntities001 = 0x1758450;
+        constexpr uint32_t Source2Server001 = 0x1758460;
+        constexpr uint32_t Source2ServerConfig001 = 0x14F1D20;
+        constexpr uint32_t EntitySubclassUtilsV001 = 0x3B6D00;
     }
 
     namespace soundsystem_dll {

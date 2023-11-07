@@ -4,15 +4,15 @@ public static class animationsystem_dll {
 }
 
 public static class client_dll {
-    public const nint PanoramaUIClient001 = 0x242F070;
-    public const nint PlayButtonService001 = 0x1FA4510;
-    public const nint DOTA_CLIENT_GCCLIENT = 0x1B79850;
-    public const nint LegacyGameUI001 = 0x1B5D2B0;
-    public const nint Source2ClientPrediction001 = 0x154B7B0;
-    public const nint ClientToolsInfo_001 = 0x14FA330;
-    public const nint Source2Client002 = 0x14FA350;
-    public const nint GameClientExports001 = 0x14FA340;
-    public const nint Source2ClientConfig001 = 0x128AF80;
+    public const nint PanoramaUIClient001 = 0x242F270;
+    public const nint PlayButtonService001 = 0x1FA4690;
+    public const nint DOTA_CLIENT_GCCLIENT = 0x1B79860;
+    public const nint LegacyGameUI001 = 0x1B5D2C0;
+    public const nint Source2ClientPrediction001 = 0x154B7C0;
+    public const nint ClientToolsInfo_001 = 0x14FA340;
+    public const nint Source2Client002 = 0x14FA360;
+    public const nint GameClientExports001 = 0x14FA350;
+    public const nint Source2ClientConfig001 = 0x128AF90;
     public const nint Source2ClientUI001 = 0x3EF860;
 }
 
@@ -146,14 +146,14 @@ public static class schemasystem_dll {
 }
 
 public static class server_dll {
-    public const nint NavGameTest001 = 0x20214F0;
-    public const nint Source2GameDirector001 = 0x1ABB8B0;
-    public const nint ServerToolsInfo_001 = 0x1758480;
-    public const nint Source2GameClients001 = 0x1758490;
-    public const nint Source2GameEntities001 = 0x17584A0;
-    public const nint Source2Server001 = 0x17584B0;
-    public const nint Source2ServerConfig001 = 0x14F1D70;
-    public const nint EntitySubclassUtilsV001 = 0x3B6D90;
+    public const nint NavGameTest001 = 0x20214A0;
+    public const nint Source2GameDirector001 = 0x1ABB860;
+    public const nint ServerToolsInfo_001 = 0x1758430;
+    public const nint Source2GameClients001 = 0x1758440;
+    public const nint Source2GameEntities001 = 0x1758450;
+    public const nint Source2Server001 = 0x1758460;
+    public const nint Source2ServerConfig001 = 0x14F1D20;
+    public const nint EntitySubclassUtilsV001 = 0x3B6D00;
 }
 
 public static class soundsystem_dll {

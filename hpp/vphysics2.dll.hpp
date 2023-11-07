@@ -1,4 +1,4 @@
-// printed at 2023-11-02 22:16:17.827967800 +07:00	from Dota2 7.34d
+// printed at 2023-11-07 22:14:11.182260800 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
