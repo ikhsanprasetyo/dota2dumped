@@ -8163,7 +8163,8 @@ pub mod CDOTA_Modifier_Grimstroke_SpiritWalk_Buff {
     pub const max_threshold_duration: usize = 0x12F4; // float32
     pub const shard_bonus_damage_pct: usize = 0x12F8; // int32
     pub const shard_heal_pct: usize = 0x12FC; // int32
-    pub const m_bIsReflection: usize = 0x1300; // bool
+    pub const shard_creep_penalty: usize = 0x1300; // float32
+    pub const m_bIsReflection: usize = 0x1304; // bool
 }
 
 pub mod CDOTA_Modifier_GungirChain {
@@ -18856,25 +18857,25 @@ pub mod C_DOTAFogOfWarTempViewers {
 
 pub mod C_DOTAGameManager {
     pub const __m_pChainEntity: usize = 0x30; // CNetworkVarChainer
-    pub const m_bCustomGame: usize = 0x3D0; // bool
-    pub const m_bEventGame: usize = 0x3D1; // bool
-    pub const m_bGameModeWantsDefaultNeutralItemSchema: usize = 0x3D2; // bool
-    pub const m_bGameModeFilteredAbilities: usize = 0x3D3; // bool
-    pub const m_szAddOnGame: usize = 0x3D4; // char[128]
-    pub const m_szAddOnMap: usize = 0x454; // char[128]
-    pub const m_pTutorialLessonKeyValues: usize = 0x838; // KeyValues*
-    pub const m_pDivisionKeyValues: usize = 0x840; // KeyValues*
-    pub const m_pMatchGroupsKeyValues: usize = 0x848; // KeyValues*
-    pub const m_pAnimationStatues: usize = 0x850; // KeyValues*
-    pub const m_pBotScriptsDedicatedServer: usize = 0x858; // KeyValues*
-    pub const m_pkvWardPlacementLocations: usize = 0x860; // KeyValues*
-    pub const m_pRegionKeyValues: usize = 0x868; // KeyValues*
-    pub const m_pSurveyQuestionData: usize = 0x870; // KeyValues*
-    pub const m_AddonInfoKeyValues: usize = 0x878; // KeyValues3
-    pub const m_pCountryKeyValues: usize = 0x8B0; // KeyValues*
-    pub const m_bLoadedPortraits: usize = 0xE18; // bool[8]
-    pub const m_pControlGroupsKeyValues: usize = 0xE20; // KeyValues*
-    pub const m_CurrentHeroAvailable: usize = 0xE28; // bool[256]
+    pub const m_bCustomGame: usize = 0x3E8; // bool
+    pub const m_bEventGame: usize = 0x3E9; // bool
+    pub const m_bGameModeWantsDefaultNeutralItemSchema: usize = 0x3EA; // bool
+    pub const m_bGameModeFilteredAbilities: usize = 0x3EB; // bool
+    pub const m_szAddOnGame: usize = 0x3EC; // char[128]
+    pub const m_szAddOnMap: usize = 0x46C; // char[128]
+    pub const m_pTutorialLessonKeyValues: usize = 0x868; // KeyValues*
+    pub const m_pDivisionKeyValues: usize = 0x870; // KeyValues*
+    pub const m_pMatchGroupsKeyValues: usize = 0x878; // KeyValues*
+    pub const m_pAnimationStatues: usize = 0x880; // KeyValues*
+    pub const m_pBotScriptsDedicatedServer: usize = 0x888; // KeyValues*
+    pub const m_pkvWardPlacementLocations: usize = 0x890; // KeyValues*
+    pub const m_pRegionKeyValues: usize = 0x898; // KeyValues*
+    pub const m_pSurveyQuestionData: usize = 0x8A0; // KeyValues*
+    pub const m_AddonInfoKeyValues: usize = 0x8A8; // KeyValues3
+    pub const m_pCountryKeyValues: usize = 0x8E0; // KeyValues*
+    pub const m_bLoadedPortraits: usize = 0xE48; // bool[8]
+    pub const m_pControlGroupsKeyValues: usize = 0xE50; // KeyValues*
+    pub const m_CurrentHeroAvailable: usize = 0xE58; // bool[256]
 }
 
 pub mod C_DOTAGameManagerProxy {
@@ -21145,10 +21146,6 @@ pub mod C_DOTA_Ability_Undying_Tombstone {
 
 pub mod C_DOTA_Ability_VengefulSpirit_Command_Aura {
     pub const m_hScepterIllusion: usize = 0x5B0; // CHandle< C_BaseEntity >
-}
-
-pub mod C_DOTA_Ability_VengefulSpirit_Magic_Missile {
-    pub const m_bShouldBounce: usize = 0x5B0; // bool
 }
 
 pub mod C_DOTA_Ability_VengefulSpirit_Nether_Swap {

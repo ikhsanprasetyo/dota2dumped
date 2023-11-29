@@ -1,4 +1,4 @@
-// printed at 2023-11-07 22:14:14.052434300 +07:00	from Dota2 7.34d
+// printed at 2023-11-29 20:52:42.911116300 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -8166,7 +8166,8 @@ namespace Offsets {
         constexpr uint32_t max_threshold_duration = 0x12F4; // float32
         constexpr uint32_t shard_bonus_damage_pct = 0x12F8; // int32
         constexpr uint32_t shard_heal_pct = 0x12FC; // int32
-        constexpr uint32_t m_bIsReflection = 0x1300; // bool
+        constexpr uint32_t shard_creep_penalty = 0x1300; // float32
+        constexpr uint32_t m_bIsReflection = 0x1304; // bool
     }
 
     namespace CDOTA_Modifier_GungirChain {
@@ -18859,25 +18860,25 @@ namespace Offsets {
 
     namespace C_DOTAGameManager {
         constexpr uint32_t __m_pChainEntity = 0x30; // CNetworkVarChainer
-        constexpr uint32_t m_bCustomGame = 0x3D0; // bool
-        constexpr uint32_t m_bEventGame = 0x3D1; // bool
-        constexpr uint32_t m_bGameModeWantsDefaultNeutralItemSchema = 0x3D2; // bool
-        constexpr uint32_t m_bGameModeFilteredAbilities = 0x3D3; // bool
-        constexpr uint32_t m_szAddOnGame = 0x3D4; // char[128]
-        constexpr uint32_t m_szAddOnMap = 0x454; // char[128]
-        constexpr uint32_t m_pTutorialLessonKeyValues = 0x838; // KeyValues*
-        constexpr uint32_t m_pDivisionKeyValues = 0x840; // KeyValues*
-        constexpr uint32_t m_pMatchGroupsKeyValues = 0x848; // KeyValues*
-        constexpr uint32_t m_pAnimationStatues = 0x850; // KeyValues*
-        constexpr uint32_t m_pBotScriptsDedicatedServer = 0x858; // KeyValues*
-        constexpr uint32_t m_pkvWardPlacementLocations = 0x860; // KeyValues*
-        constexpr uint32_t m_pRegionKeyValues = 0x868; // KeyValues*
-        constexpr uint32_t m_pSurveyQuestionData = 0x870; // KeyValues*
-        constexpr uint32_t m_AddonInfoKeyValues = 0x878; // KeyValues3
-        constexpr uint32_t m_pCountryKeyValues = 0x8B0; // KeyValues*
-        constexpr uint32_t m_bLoadedPortraits = 0xE18; // bool[8]
-        constexpr uint32_t m_pControlGroupsKeyValues = 0xE20; // KeyValues*
-        constexpr uint32_t m_CurrentHeroAvailable = 0xE28; // bool[256]
+        constexpr uint32_t m_bCustomGame = 0x3E8; // bool
+        constexpr uint32_t m_bEventGame = 0x3E9; // bool
+        constexpr uint32_t m_bGameModeWantsDefaultNeutralItemSchema = 0x3EA; // bool
+        constexpr uint32_t m_bGameModeFilteredAbilities = 0x3EB; // bool
+        constexpr uint32_t m_szAddOnGame = 0x3EC; // char[128]
+        constexpr uint32_t m_szAddOnMap = 0x46C; // char[128]
+        constexpr uint32_t m_pTutorialLessonKeyValues = 0x868; // KeyValues*
+        constexpr uint32_t m_pDivisionKeyValues = 0x870; // KeyValues*
+        constexpr uint32_t m_pMatchGroupsKeyValues = 0x878; // KeyValues*
+        constexpr uint32_t m_pAnimationStatues = 0x880; // KeyValues*
+        constexpr uint32_t m_pBotScriptsDedicatedServer = 0x888; // KeyValues*
+        constexpr uint32_t m_pkvWardPlacementLocations = 0x890; // KeyValues*
+        constexpr uint32_t m_pRegionKeyValues = 0x898; // KeyValues*
+        constexpr uint32_t m_pSurveyQuestionData = 0x8A0; // KeyValues*
+        constexpr uint32_t m_AddonInfoKeyValues = 0x8A8; // KeyValues3
+        constexpr uint32_t m_pCountryKeyValues = 0x8E0; // KeyValues*
+        constexpr uint32_t m_bLoadedPortraits = 0xE48; // bool[8]
+        constexpr uint32_t m_pControlGroupsKeyValues = 0xE50; // KeyValues*
+        constexpr uint32_t m_CurrentHeroAvailable = 0xE58; // bool[256]
     }
 
     namespace C_DOTAGameManagerProxy {
@@ -21148,10 +21149,6 @@ namespace Offsets {
 
     namespace C_DOTA_Ability_VengefulSpirit_Command_Aura {
         constexpr uint32_t m_hScepterIllusion = 0x5B0; // CHandle< C_BaseEntity >
-    }
-
-    namespace C_DOTA_Ability_VengefulSpirit_Magic_Missile {
-        constexpr uint32_t m_bShouldBounce = 0x5B0; // bool
     }
 
     namespace C_DOTA_Ability_VengefulSpirit_Nether_Swap {

@@ -8161,7 +8161,8 @@ public static class CDOTA_Modifier_Grimstroke_SpiritWalk_Buff {
     public const nint max_threshold_duration = 0x12F4; // float32
     public const nint shard_bonus_damage_pct = 0x12F8; // int32
     public const nint shard_heal_pct = 0x12FC; // int32
-    public const nint m_bIsReflection = 0x1300; // bool
+    public const nint shard_creep_penalty = 0x1300; // float32
+    public const nint m_bIsReflection = 0x1304; // bool
 }
 
 public static class CDOTA_Modifier_GungirChain {
@@ -18854,25 +18855,25 @@ public static class C_DOTAFogOfWarTempViewers {
 
 public static class C_DOTAGameManager {
     public const nint __m_pChainEntity = 0x30; // CNetworkVarChainer
-    public const nint m_bCustomGame = 0x3D0; // bool
-    public const nint m_bEventGame = 0x3D1; // bool
-    public const nint m_bGameModeWantsDefaultNeutralItemSchema = 0x3D2; // bool
-    public const nint m_bGameModeFilteredAbilities = 0x3D3; // bool
-    public const nint m_szAddOnGame = 0x3D4; // char[128]
-    public const nint m_szAddOnMap = 0x454; // char[128]
-    public const nint m_pTutorialLessonKeyValues = 0x838; // KeyValues*
-    public const nint m_pDivisionKeyValues = 0x840; // KeyValues*
-    public const nint m_pMatchGroupsKeyValues = 0x848; // KeyValues*
-    public const nint m_pAnimationStatues = 0x850; // KeyValues*
-    public const nint m_pBotScriptsDedicatedServer = 0x858; // KeyValues*
-    public const nint m_pkvWardPlacementLocations = 0x860; // KeyValues*
-    public const nint m_pRegionKeyValues = 0x868; // KeyValues*
-    public const nint m_pSurveyQuestionData = 0x870; // KeyValues*
-    public const nint m_AddonInfoKeyValues = 0x878; // KeyValues3
-    public const nint m_pCountryKeyValues = 0x8B0; // KeyValues*
-    public const nint m_bLoadedPortraits = 0xE18; // bool[8]
-    public const nint m_pControlGroupsKeyValues = 0xE20; // KeyValues*
-    public const nint m_CurrentHeroAvailable = 0xE28; // bool[256]
+    public const nint m_bCustomGame = 0x3E8; // bool
+    public const nint m_bEventGame = 0x3E9; // bool
+    public const nint m_bGameModeWantsDefaultNeutralItemSchema = 0x3EA; // bool
+    public const nint m_bGameModeFilteredAbilities = 0x3EB; // bool
+    public const nint m_szAddOnGame = 0x3EC; // char[128]
+    public const nint m_szAddOnMap = 0x46C; // char[128]
+    public const nint m_pTutorialLessonKeyValues = 0x868; // KeyValues*
+    public const nint m_pDivisionKeyValues = 0x870; // KeyValues*
+    public const nint m_pMatchGroupsKeyValues = 0x878; // KeyValues*
+    public const nint m_pAnimationStatues = 0x880; // KeyValues*
+    public const nint m_pBotScriptsDedicatedServer = 0x888; // KeyValues*
+    public const nint m_pkvWardPlacementLocations = 0x890; // KeyValues*
+    public const nint m_pRegionKeyValues = 0x898; // KeyValues*
+    public const nint m_pSurveyQuestionData = 0x8A0; // KeyValues*
+    public const nint m_AddonInfoKeyValues = 0x8A8; // KeyValues3
+    public const nint m_pCountryKeyValues = 0x8E0; // KeyValues*
+    public const nint m_bLoadedPortraits = 0xE48; // bool[8]
+    public const nint m_pControlGroupsKeyValues = 0xE50; // KeyValues*
+    public const nint m_CurrentHeroAvailable = 0xE58; // bool[256]
 }
 
 public static class C_DOTAGameManagerProxy {
@@ -21143,10 +21144,6 @@ public static class C_DOTA_Ability_Undying_Tombstone {
 
 public static class C_DOTA_Ability_VengefulSpirit_Command_Aura {
     public const nint m_hScepterIllusion = 0x5B0; // CHandle< C_BaseEntity >
-}
-
-public static class C_DOTA_Ability_VengefulSpirit_Magic_Missile {
-    public const nint m_bShouldBounce = 0x5B0; // bool
 }
 
 public static class C_DOTA_Ability_VengefulSpirit_Nether_Swap {

@@ -1219,23 +1219,23 @@
   },
   "CDOTAGameManager": {
     "__m_pChainEntity": 48,
-    "m_AddonInfoKeyValues": 2168,
-    "m_CurrentHeroAvailable": 2424,
-    "m_bCustomGame": 976,
-    "m_bEventGame": 977,
-    "m_bGameModeFilteredAbilities": 979,
-    "m_bGameModeWantsDefaultNeutralItemSchema": 978,
-    "m_pAnimationStatues": 2128,
-    "m_pBotScriptsDedicatedServer": 2136,
-    "m_pCountryKeyValues": 2224,
-    "m_pDivisionKeyValues": 2112,
-    "m_pMatchGroupsKeyValues": 2120,
-    "m_pRegionKeyValues": 2152,
-    "m_pSurveyQuestionData": 2160,
-    "m_pTutorialLessonKeyValues": 2104,
-    "m_pkvWardPlacementLocations": 2144,
-    "m_szAddOnGame": 980,
-    "m_szAddOnMap": 1108
+    "m_AddonInfoKeyValues": 2216,
+    "m_CurrentHeroAvailable": 2472,
+    "m_bCustomGame": 1000,
+    "m_bEventGame": 1001,
+    "m_bGameModeFilteredAbilities": 1003,
+    "m_bGameModeWantsDefaultNeutralItemSchema": 1002,
+    "m_pAnimationStatues": 2176,
+    "m_pBotScriptsDedicatedServer": 2184,
+    "m_pCountryKeyValues": 2272,
+    "m_pDivisionKeyValues": 2160,
+    "m_pMatchGroupsKeyValues": 2168,
+    "m_pRegionKeyValues": 2200,
+    "m_pSurveyQuestionData": 2208,
+    "m_pTutorialLessonKeyValues": 2152,
+    "m_pkvWardPlacementLocations": 2192,
+    "m_szAddOnGame": 1004,
+    "m_szAddOnMap": 1132
   },
   "CDOTAGameManagerProxy": {
     "m_pGameManager": 1192
@@ -4391,9 +4391,6 @@
   "CDOTA_Ability_VengefulSpirit_Command_Aura": {
     "m_hScepterIllusion": 1384
   },
-  "CDOTA_Ability_VengefulSpirit_Magic_Missile": {
-    "m_bShouldBounce": 1384
-  },
   "CDOTA_Ability_VengefulSpirit_Nether_Swap": {
     "damage": 1388,
     "damage_reduction": 1392,
@@ -4630,9 +4627,9 @@
     "tick_rate": 4824
   },
   "CDOTA_AghsFort_Unit_ArcWarden_Boss": {
-    "m_nFXDeath": 7580,
-    "m_nTalkFXIndex": 7576,
-    "m_nTempestFX": 7584
+    "m_nFXDeath": 7572,
+    "m_nTalkFXIndex": 7568,
+    "m_nTempestFX": 7576
   },
   "CDOTA_AghsFort_Unit_Undying_Zombie": {
     "m_ctRespawn": 6032,
@@ -5119,41 +5116,41 @@
     "m_glowThinkTimer": 6272
   },
   "CDOTA_BaseNPC_Hero": {
-    "m_AbilitiesPendingDelete": 7424,
-    "m_BuildingOrBuilt": 7088,
-    "m_Courier": 7232,
-    "m_DirectorAbilityActivity": 6928,
-    "m_Dust": 7136,
-    "m_FlyingCourier": 7256,
-    "m_Gem": 7160,
-    "m_HeroDamageInfoArray": 6240,
-    "m_HeroKillTimer": 6424,
-    "m_KillInfo": 6896,
-    "m_Loadout": 7064,
-    "m_MultipleHeroKillTimer": 6448,
-    "m_MultipleLastHitTimer": 6472,
-    "m_MusicProbabilityGank": 7320,
-    "m_NeutralItemTimer": 6984,
-    "m_ObserverWard": 7208,
-    "m_PurchaseItemTimer": 6960,
-    "m_RequestGoToSecretShopTimer": 7032,
-    "m_RespawnMusicTimer": 6400,
-    "m_RetrieveItemsFromStashTimer": 7008,
-    "m_SentryWard": 7184,
-    "m_TPScroll": 7112,
-    "m_bAutoPurchaseItems": 7280,
-    "m_bBuybackDisabled": 7281,
-    "m_bCustomKillEffect": 6953,
-    "m_bDisableWearables": 6500,
-    "m_bDoesNextItemCompleteRecipe": 7060,
-    "m_bItemsAddedToLoadout": 6192,
-    "m_bPregameItemsAddedToLoadout": 6200,
-    "m_bPreventPetSpawn": 7312,
-    "m_bReincarnating": 6952,
-    "m_bScriptDisableRespawns": 6320,
-    "m_fBuybackCooldown": 6208,
-    "m_fBuybackGoldLimit": 6212,
-    "m_fMostRecentDamageTime": 6288,
+    "m_AbilitiesPendingDelete": 7416,
+    "m_BuildingOrBuilt": 7080,
+    "m_Courier": 7224,
+    "m_DirectorAbilityActivity": 6920,
+    "m_Dust": 7128,
+    "m_FlyingCourier": 7248,
+    "m_Gem": 7152,
+    "m_HeroDamageInfoArray": 6232,
+    "m_HeroKillTimer": 6416,
+    "m_KillInfo": 6888,
+    "m_Loadout": 7056,
+    "m_MultipleHeroKillTimer": 6440,
+    "m_MultipleLastHitTimer": 6464,
+    "m_MusicProbabilityGank": 7312,
+    "m_NeutralItemTimer": 6976,
+    "m_ObserverWard": 7200,
+    "m_PurchaseItemTimer": 6952,
+    "m_RequestGoToSecretShopTimer": 7024,
+    "m_RespawnMusicTimer": 6392,
+    "m_RetrieveItemsFromStashTimer": 7000,
+    "m_SentryWard": 7176,
+    "m_TPScroll": 7104,
+    "m_bAutoPurchaseItems": 7272,
+    "m_bBuybackDisabled": 7273,
+    "m_bCustomKillEffect": 6945,
+    "m_bDisableWearables": 6492,
+    "m_bDoesNextItemCompleteRecipe": 7052,
+    "m_bItemsAddedToLoadout": 6188,
+    "m_bPregameItemsAddedToLoadout": 6189,
+    "m_bPreventPetSpawn": 7304,
+    "m_bReincarnating": 6944,
+    "m_bScriptDisableRespawns": 6312,
+    "m_fBuybackCooldown": 6196,
+    "m_fBuybackGoldLimit": 6200,
+    "m_fMostRecentDamageTime": 6280,
     "m_flAgility": 6140,
     "m_flAgilityGain": 6176,
     "m_flAgilityTotal": 6152,
@@ -5161,44 +5158,42 @@
     "m_flIntellect": 6144,
     "m_flIntellectGain": 6180,
     "m_flIntellectTotal": 6156,
-    "m_flLastHealedTime": 6220,
+    "m_flLastHealedTime": 6208,
     "m_flLastSuggestionTime": 6184,
-    "m_flLastTimeLookedAtByDirector": 7572,
-    "m_flPendingRespawnTime": 6316,
-    "m_flRespawnTime": 6300,
-    "m_flRespawnTimePenalty": 6304,
-    "m_flScriptRespawnTime": 6312,
-    "m_flSpawnedAt": 6956,
+    "m_flLastTimeLookedAtByDirector": 7564,
+    "m_flPendingRespawnTime": 6308,
+    "m_flRespawnTime": 6292,
+    "m_flRespawnTimePenalty": 6296,
+    "m_flScriptRespawnTime": 6304,
+    "m_flSpawnedAt": 6948,
     "m_flStrength": 6136,
     "m_flStrengthGain": 6172,
     "m_flStrengthTotal": 6148,
-    "m_flTimeUntilRespawn": 6308,
-    "m_hLastHealEntity": 6224,
-    "m_hNewARDMHero": 6204,
-    "m_hPets": 7288,
-    "m_hReplicatingOtherHeroModel": 6336,
-    "m_hTogglableWearable": 6504,
-    "m_iAbilityPoints": 6292,
-    "m_iCurrentXP": 6296,
-    "m_iHeroID": 6332,
-    "m_iIllusionOriginalPlayerID": 6328,
-    "m_iMultipleKillCount": 6496,
-    "m_iNextItemToPurchase": 7056,
-    "m_iPlayerID": 6324,
+    "m_flTimeUntilRespawn": 6300,
+    "m_hLastHealEntity": 6212,
+    "m_hNewARDMHero": 6192,
+    "m_hPets": 7280,
+    "m_hReplicatingOtherHeroModel": 6328,
+    "m_hTogglableWearable": 6496,
+    "m_iAbilityPoints": 6284,
+    "m_iCurrentXP": 6288,
+    "m_iHeroID": 6324,
+    "m_iIllusionOriginalPlayerID": 6320,
+    "m_iMultipleKillCount": 6488,
+    "m_iNextItemToPurchase": 7048,
+    "m_iPlayerID": 6316,
     "m_iPrimaryAttribute": 6164,
     "m_iRecentDamage": 6160,
-    "m_nKillStreakFX": 7416,
-    "m_nLastHealedAmount": 6216,
-    "m_nSuggestPregameHandle": 6196,
-    "m_nSuggestionHandle": 6188,
-    "m_strCustomHexModel": 7408,
-    "m_strCustomKillEffect": 7400,
-    "m_vRespawnPosition": 6228,
-    "m_vecAbilitySkillHistory": 7472,
-    "m_vecExpiredIllusions": 7544,
-    "m_vecItemPurchaseHistory": 7448,
-    "m_vecNeutralItemEquippedHistory": 7496,
-    "m_vecRecentModifiers": 6264
+    "m_nKillStreakFX": 7408,
+    "m_nLastHealedAmount": 6204,
+    "m_strCustomHexModel": 7400,
+    "m_strCustomKillEffect": 7392,
+    "m_vRespawnPosition": 6216,
+    "m_vecAbilitySkillHistory": 7464,
+    "m_vecExpiredIllusions": 7536,
+    "m_vecItemPurchaseHistory": 7440,
+    "m_vecNeutralItemEquippedHistory": 7488,
+    "m_vecRecentModifiers": 6256
   },
   "CDOTA_BaseNPC_Hero_KillInfo_t": {
     "m_bEnemyInFOW": 16,
@@ -11393,6 +11388,9 @@
   "CDOTA_Modifier_FacelessVoid_Chronosphere": {
     "radius": 4808
   },
+  "CDOTA_Modifier_FacelessVoid_Chronosphere_Freeze": {
+    "m_vecAbilities": 4808
+  },
   "CDOTA_Modifier_FacelessVoid_Chronosphere_SelfBuff": {
     "radius": 4808
   },
@@ -12068,7 +12066,7 @@
     "buff_duration": 4824,
     "damage_per_tick": 4844,
     "debuff_duration": 4828,
-    "m_bIsReflection": 4864,
+    "m_bIsReflection": 4868,
     "m_fLastEffectsTime": 4816,
     "m_fStartTime": 4808,
     "m_nHeroTickDamageApplied": 4812,
@@ -12078,6 +12076,7 @@
     "movespeed_bonus_pct": 4840,
     "radius": 4820,
     "shard_bonus_damage_pct": 4856,
+    "shard_creep_penalty": 4864,
     "shard_heal_pct": 4860,
     "tick_rate": 4848
   },
@@ -21167,126 +21166,126 @@
     "m_nRuneType": 6252
   },
   "CDOTA_Unit_Hero_ArcWarden": {
-    "m_nFXDeath": 7580,
-    "m_nTalkFXIndex": 7576,
-    "m_nTempestFX": 7584
+    "m_nFXDeath": 7572,
+    "m_nTalkFXIndex": 7568,
+    "m_nTempestFX": 7576
   },
   "CDOTA_Unit_Hero_CrystalMaiden": {
-    "m_iParticleHandRIndex": 7580,
-    "m_iParticleMouthIndex": 7576
+    "m_iParticleHandRIndex": 7572,
+    "m_iParticleMouthIndex": 7568
   },
   "CDOTA_Unit_Hero_DarkSeer": {
-    "m_nNormalPunchBuffIndex": 7576
+    "m_nNormalPunchBuffIndex": 7568
   },
   "CDOTA_Unit_Hero_Dawnbreaker": {
-    "m_flLastAttackAnimAdvanceTime": 7580,
-    "m_nAttackState": 7576
+    "m_flLastAttackAnimAdvanceTime": 7572,
+    "m_nAttackState": 7568
   },
   "CDOTA_Unit_Hero_Earthshaker": {
-    "m_nFXDeath": 7576
+    "m_nFXDeath": 7568
   },
   "CDOTA_Unit_Hero_FacelessVoid": {
-    "m_vecStanceDestinationPoint": 7576
+    "m_vecStanceDestinationPoint": 7568
   },
   "CDOTA_Unit_Hero_Grimstroke": {
-    "m_nFXDeath": 7576
+    "m_nFXDeath": 7568
   },
   "CDOTA_Unit_Hero_Juggernaut": {
-    "m_unOmniKills": 7576
+    "m_unOmniKills": 7568
   },
   "CDOTA_Unit_Hero_Kunkka": {
-    "m_nFXIndex": 7576
+    "m_nFXIndex": 7568
   },
   "CDOTA_Unit_Hero_Legion_Commander": {
-    "m_unDuelsWon": 7576
+    "m_unDuelsWon": 7568
   },
   "CDOTA_Unit_Hero_Lion": {
-    "m_unFingerPrestigeKills": 7576
+    "m_unFingerPrestigeKills": 7568
   },
   "CDOTA_Unit_Hero_Meepo": {
-    "m_nWhichMeepo": 7576
+    "m_nWhichMeepo": 7568
   },
   "CDOTA_Unit_Hero_MonkeyKing": {
-    "m_bIsOnCloud": 7600,
-    "m_fBackOnCloudThresh": 7612,
-    "m_fTotalDistOnCloud": 7604,
-    "m_fTotalDistoffCloud": 7608,
-    "m_nPerchedTree": 7584,
-    "m_nTreeDisguise": 7580,
-    "m_vLastPos": 7588,
-    "mb_MonkeyHasArcana": 7576
+    "m_bIsOnCloud": 7592,
+    "m_fBackOnCloudThresh": 7604,
+    "m_fTotalDistOnCloud": 7596,
+    "m_fTotalDistoffCloud": 7600,
+    "m_nPerchedTree": 7576,
+    "m_nTreeDisguise": 7572,
+    "m_vLastPos": 7580,
+    "mb_MonkeyHasArcana": 7568
   },
   "CDOTA_Unit_Hero_Muerta": {
-    "m_hDoubleShotTarget": 7576
+    "m_hDoubleShotTarget": 7568
   },
   "CDOTA_Unit_Hero_Nevermore": {
-    "m_nFXDeath": 7576
+    "m_nFXDeath": 7568
   },
   "CDOTA_Unit_Hero_Obsidian_Destroyer": {
-    "m_nFXDeath": 7576
+    "m_nFXDeath": 7568
   },
   "CDOTA_Unit_Hero_Oracle": {
-    "m_nFXDeath": 7576
+    "m_nFXDeath": 7568
   },
   "CDOTA_Unit_Hero_PhantomAssassin": {
-    "m_nArcanaLevel": 7580,
-    "m_nFXDeath": 7576
+    "m_nArcanaLevel": 7572,
+    "m_nFXDeath": 7568
   },
   "CDOTA_Unit_Hero_PhantomLancer": {
-    "m_bInventoryEnabled": 7576
+    "m_bInventoryEnabled": 7568
   },
   "CDOTA_Unit_Hero_Razor": {
-    "m_nTargetAngle": 7576,
-    "m_nTargetRange": 7580
+    "m_nTargetAngle": 7568,
+    "m_nTargetRange": 7572
   },
   "CDOTA_Unit_Hero_Rubick": {
-    "m_bHasInitializedAbilityColors": 7612,
-    "m_stolenAbilityColorHSV1": 7576,
-    "m_stolenAbilityColorHSV2": 7588,
-    "m_stolenAbilityFXColorHSV": 7600
+    "m_bHasInitializedAbilityColors": 7604,
+    "m_stolenAbilityColorHSV1": 7568,
+    "m_stolenAbilityColorHSV2": 7580,
+    "m_stolenAbilityFXColorHSV": 7592
   },
   "CDOTA_Unit_Hero_SkeletonKing": {
-    "m_nSkeletonWarriors": 7576,
-    "m_vecInGameHeroKillBitmask": 7600,
-    "m_vecInitialHeroKillBitmask": 7580
+    "m_nSkeletonWarriors": 7568,
+    "m_vecInGameHeroKillBitmask": 7592,
+    "m_vecInitialHeroKillBitmask": 7572
   },
   "CDOTA_Unit_Hero_Spectre": {
-    "m_bArcanaKillstreakCompleted": 7576,
-    "m_bArcanaKillstreakRecordBroken": 7584,
-    "m_nVictimPlayerID": 7580,
-    "m_unBestArcanaKillStreak": 7578,
-    "m_unCurrentArcanaKillStreak": 7577
+    "m_bArcanaKillstreakCompleted": 7568,
+    "m_bArcanaKillstreakRecordBroken": 7576,
+    "m_nVictimPlayerID": 7572,
+    "m_unBestArcanaKillStreak": 7570,
+    "m_unCurrentArcanaKillStreak": 7569
   },
   "CDOTA_Unit_Hero_Techies": {
-    "m_bLastDeathFromSuicide": 7576
+    "m_bLastDeathFromSuicide": 7568
   },
   "CDOTA_Unit_Hero_Terrorblade": {
-    "m_nArcanaColor": 7592,
-    "m_nFXDeath": 7576,
-    "m_szResponseCriteria": 7584
+    "m_nArcanaColor": 7584,
+    "m_nFXDeath": 7568,
+    "m_szResponseCriteria": 7576
   },
   "CDOTA_Unit_Hero_Tiny": {
-    "m_bIllusionHasTree": 7588,
-    "m_hIllusionOwner": 7584,
-    "m_hTreeWearable": 7576,
-    "m_nFXIndexScepterAmbient": 7580
+    "m_bIllusionHasTree": 7580,
+    "m_hIllusionOwner": 7576,
+    "m_hTreeWearable": 7568,
+    "m_nFXIndexScepterAmbient": 7572
   },
   "CDOTA_Unit_Hero_Windrunner": {
-    "m_nFXDeath": 7580,
-    "m_nTargetAngle": 7576
+    "m_nFXDeath": 7572,
+    "m_nTargetAngle": 7568
   },
   "CDOTA_Unit_Hero_Winter_Wyvern": {
-    "m_nFXDeath": 7576
+    "m_nFXDeath": 7568
   },
   "CDOTA_Unit_Hero_Wisp": {
-    "m_bDetermineAmbientEffect": 7594,
-    "m_bParticleHexed": 7592,
-    "m_bParticleStunned": 7593,
-    "m_flPrevHealth": 7596,
-    "m_nAmbientFXIndex": 7576,
-    "m_nIllusionFXIndex": 7588,
-    "m_nStunnedFXIndex": 7580,
-    "m_nTalkFXIndex": 7584
+    "m_bDetermineAmbientEffect": 7586,
+    "m_bParticleHexed": 7584,
+    "m_bParticleStunned": 7585,
+    "m_flPrevHealth": 7588,
+    "m_nAmbientFXIndex": 7568,
+    "m_nIllusionFXIndex": 7580,
+    "m_nStunnedFXIndex": 7572,
+    "m_nTalkFXIndex": 7576
   },
   "CDOTA_Unit_LoopingSound": {
     "m_nLoopingSoundParity": 6240,
@@ -21324,15 +21323,15 @@
     "m_vSpawnLocation": 6016
   },
   "CDOTA_Unit_SpiritBear": {
-    "m_bShouldRespawn": 7576,
-    "m_bStolen": 7577
+    "m_bShouldRespawn": 7568,
+    "m_bStolen": 7569
   },
   "CDOTA_Unit_TargetDummy": {
-    "m_bIsMoving": 7592,
-    "m_flDamageTaken": 7576,
-    "m_flLastHit": 7580,
-    "m_flLastTargetDummyDamageTime": 7588,
-    "m_flStartDamageTime": 7584
+    "m_bIsMoving": 7584,
+    "m_flDamageTaken": 7568,
+    "m_flLastHit": 7572,
+    "m_flLastTargetDummyDamageTime": 7580,
+    "m_flStartDamageTime": 7576
   },
   "CDOTA_Unit_Tidehunter_Anchor": {
     "m_hTarget": 5984,

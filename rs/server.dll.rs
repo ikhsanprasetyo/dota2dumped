@@ -1329,23 +1329,23 @@ pub mod CDOTAGameEvents {
 
 pub mod CDOTAGameManager {
     pub const __m_pChainEntity: usize = 0x30; // CNetworkVarChainer
-    pub const m_bCustomGame: usize = 0x3D0; // bool
-    pub const m_bEventGame: usize = 0x3D1; // bool
-    pub const m_bGameModeWantsDefaultNeutralItemSchema: usize = 0x3D2; // bool
-    pub const m_bGameModeFilteredAbilities: usize = 0x3D3; // bool
-    pub const m_szAddOnGame: usize = 0x3D4; // char[128]
-    pub const m_szAddOnMap: usize = 0x454; // char[128]
-    pub const m_pTutorialLessonKeyValues: usize = 0x838; // KeyValues*
-    pub const m_pDivisionKeyValues: usize = 0x840; // KeyValues*
-    pub const m_pMatchGroupsKeyValues: usize = 0x848; // KeyValues*
-    pub const m_pAnimationStatues: usize = 0x850; // KeyValues*
-    pub const m_pBotScriptsDedicatedServer: usize = 0x858; // KeyValues*
-    pub const m_pkvWardPlacementLocations: usize = 0x860; // KeyValues*
-    pub const m_pRegionKeyValues: usize = 0x868; // KeyValues*
-    pub const m_pSurveyQuestionData: usize = 0x870; // KeyValues*
-    pub const m_AddonInfoKeyValues: usize = 0x878; // KeyValues3
-    pub const m_pCountryKeyValues: usize = 0x8B0; // KeyValues*
-    pub const m_CurrentHeroAvailable: usize = 0x978; // bool[256]
+    pub const m_bCustomGame: usize = 0x3E8; // bool
+    pub const m_bEventGame: usize = 0x3E9; // bool
+    pub const m_bGameModeWantsDefaultNeutralItemSchema: usize = 0x3EA; // bool
+    pub const m_bGameModeFilteredAbilities: usize = 0x3EB; // bool
+    pub const m_szAddOnGame: usize = 0x3EC; // char[128]
+    pub const m_szAddOnMap: usize = 0x46C; // char[128]
+    pub const m_pTutorialLessonKeyValues: usize = 0x868; // KeyValues*
+    pub const m_pDivisionKeyValues: usize = 0x870; // KeyValues*
+    pub const m_pMatchGroupsKeyValues: usize = 0x878; // KeyValues*
+    pub const m_pAnimationStatues: usize = 0x880; // KeyValues*
+    pub const m_pBotScriptsDedicatedServer: usize = 0x888; // KeyValues*
+    pub const m_pkvWardPlacementLocations: usize = 0x890; // KeyValues*
+    pub const m_pRegionKeyValues: usize = 0x898; // KeyValues*
+    pub const m_pSurveyQuestionData: usize = 0x8A0; // KeyValues*
+    pub const m_AddonInfoKeyValues: usize = 0x8A8; // KeyValues3
+    pub const m_pCountryKeyValues: usize = 0x8E0; // KeyValues*
+    pub const m_CurrentHeroAvailable: usize = 0x9A8; // bool[256]
 }
 
 pub mod CDOTAGameManagerProxy {
@@ -4965,10 +4965,6 @@ pub mod CDOTA_Ability_VengefulSpirit_Command_Aura {
     pub const m_hScepterIllusion: usize = 0x568; // CHandle< CBaseEntity >
 }
 
-pub mod CDOTA_Ability_VengefulSpirit_Magic_Missile {
-    pub const m_bShouldBounce: usize = 0x568; // bool
-}
-
 pub mod CDOTA_Ability_VengefulSpirit_Nether_Swap {
     pub const m_nFXIndex: usize = 0x568; // int32
     pub const damage: usize = 0x56C; // int32
@@ -5245,9 +5241,9 @@ pub mod CDOTA_AghsFort_Modifier_Lich_Frost_Giant {
 }
 
 pub mod CDOTA_AghsFort_Unit_ArcWarden_Boss {
-    pub const m_nTalkFXIndex: usize = 0x1D98; // ParticleIndex_t
-    pub const m_nFXDeath: usize = 0x1D9C; // ParticleIndex_t
-    pub const m_nTempestFX: usize = 0x1DA0; // ParticleIndex_t
+    pub const m_nTalkFXIndex: usize = 0x1D90; // ParticleIndex_t
+    pub const m_nFXDeath: usize = 0x1D94; // ParticleIndex_t
+    pub const m_nTempestFX: usize = 0x1D98; // ParticleIndex_t
 }
 
 pub mod CDOTA_AghsFort_Unit_Undying_Zombie {
@@ -5770,73 +5766,71 @@ pub mod CDOTA_BaseNPC_Hero {
     pub const m_flAgilityGain: usize = 0x1820; // float32
     pub const m_flIntellectGain: usize = 0x1824; // float32
     pub const m_flLastSuggestionTime: usize = 0x1828; // float32
-    pub const m_nSuggestionHandle: usize = 0x182C; // int32
-    pub const m_bItemsAddedToLoadout: usize = 0x1830; // bool
-    pub const m_nSuggestPregameHandle: usize = 0x1834; // int32
-    pub const m_bPregameItemsAddedToLoadout: usize = 0x1838; // bool
-    pub const m_hNewARDMHero: usize = 0x183C; // CHandle< CBaseEntity >
-    pub const m_fBuybackCooldown: usize = 0x1840; // GameTime_t
-    pub const m_fBuybackGoldLimit: usize = 0x1844; // GameTime_t
-    pub const m_nLastHealedAmount: usize = 0x1848; // int32
-    pub const m_flLastHealedTime: usize = 0x184C; // float32
-    pub const m_hLastHealEntity: usize = 0x1850; // CHandle< CBaseEntity >
-    pub const m_vRespawnPosition: usize = 0x1854; // Vector
-    pub const m_HeroDamageInfoArray: usize = 0x1860; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroDamageInfo >
-    pub const m_vecRecentModifiers: usize = 0x1878; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo >
-    pub const m_fMostRecentDamageTime: usize = 0x1890; // GameTime_t
-    pub const m_iAbilityPoints: usize = 0x1894; // int32
-    pub const m_iCurrentXP: usize = 0x1898; // int32
-    pub const m_flRespawnTime: usize = 0x189C; // GameTime_t
-    pub const m_flRespawnTimePenalty: usize = 0x18A0; // float32
-    pub const m_flTimeUntilRespawn: usize = 0x18A4; // float32
-    pub const m_flScriptRespawnTime: usize = 0x18A8; // float32
-    pub const m_flPendingRespawnTime: usize = 0x18AC; // float32
-    pub const m_bScriptDisableRespawns: usize = 0x18B0; // bool
-    pub const m_iPlayerID: usize = 0x18B4; // PlayerID_t
-    pub const m_iIllusionOriginalPlayerID: usize = 0x18B8; // PlayerID_t
-    pub const m_iHeroID: usize = 0x18BC; // int32
-    pub const m_hReplicatingOtherHeroModel: usize = 0x18C0; // CHandle< CDOTA_BaseNPC_Hero >
-    pub const m_RespawnMusicTimer: usize = 0x1900; // CountdownTimer
-    pub const m_HeroKillTimer: usize = 0x1918; // CountdownTimer
-    pub const m_MultipleHeroKillTimer: usize = 0x1930; // CountdownTimer
-    pub const m_MultipleLastHitTimer: usize = 0x1948; // CountdownTimer
-    pub const m_iMultipleKillCount: usize = 0x1960; // int32
-    pub const m_bDisableWearables: usize = 0x1964; // bool
-    pub const m_hTogglableWearable: usize = 0x1968; // CHandle< CDOTAWearableItem >[98]
-    pub const m_KillInfo: usize = 0x1AF0; // CDOTA_BaseNPC_Hero::KillInfo_t
-    pub const m_DirectorAbilityActivity: usize = 0x1B10; // CountdownTimer
-    pub const m_bReincarnating: usize = 0x1B28; // bool
-    pub const m_bCustomKillEffect: usize = 0x1B29; // bool
-    pub const m_flSpawnedAt: usize = 0x1B2C; // GameTime_t
-    pub const m_PurchaseItemTimer: usize = 0x1B30; // CountdownTimer
-    pub const m_NeutralItemTimer: usize = 0x1B48; // CountdownTimer
-    pub const m_RetrieveItemsFromStashTimer: usize = 0x1B60; // CountdownTimer
-    pub const m_RequestGoToSecretShopTimer: usize = 0x1B78; // CountdownTimer
-    pub const m_iNextItemToPurchase: usize = 0x1B90; // int32
-    pub const m_bDoesNextItemCompleteRecipe: usize = 0x1B94; // bool
-    pub const m_Loadout: usize = 0x1B98; // CUtlVector< sLoadoutItem >
-    pub const m_BuildingOrBuilt: usize = 0x1BB0; // CUtlVector< CUtlPair< AbilityID_t, bool > >
-    pub const m_TPScroll: usize = 0x1BC8; // sLoadoutItem
-    pub const m_Dust: usize = 0x1BE0; // sLoadoutItem
-    pub const m_Gem: usize = 0x1BF8; // sLoadoutItem
-    pub const m_SentryWard: usize = 0x1C10; // sLoadoutItem
-    pub const m_ObserverWard: usize = 0x1C28; // sLoadoutItem
-    pub const m_Courier: usize = 0x1C40; // sLoadoutItem
-    pub const m_FlyingCourier: usize = 0x1C58; // sLoadoutItem
-    pub const m_bAutoPurchaseItems: usize = 0x1C70; // bool
-    pub const m_bBuybackDisabled: usize = 0x1C71; // bool
-    pub const m_hPets: usize = 0x1C78; // CUtlVector< CHandle< CDOTA_BaseNPC_Pet > >
-    pub const m_bPreventPetSpawn: usize = 0x1C90; // bool
-    pub const m_MusicProbabilityGank: usize = 0x1C98; // CDOTAMusicProbabilityEntry
-    pub const m_strCustomKillEffect: usize = 0x1CE8; // CUtlString
-    pub const m_strCustomHexModel: usize = 0x1CF0; // CUtlString
-    pub const m_nKillStreakFX: usize = 0x1CF8; // ParticleIndex_t
-    pub const m_AbilitiesPendingDelete: usize = 0x1D00; // CUtlVector< CHandle< CBaseEntity > >
-    pub const m_vecItemPurchaseHistory: usize = 0x1D18; // CUtlVector< sAcquireHistory >
-    pub const m_vecAbilitySkillHistory: usize = 0x1D30; // CUtlVector< sAcquireHistory >
-    pub const m_vecNeutralItemEquippedHistory: usize = 0x1D48; // CUtlVector< sAcquireHistory >
-    pub const m_vecExpiredIllusions: usize = 0x1D78; // CUtlVector< CHandle< CDOTA_BaseNPC_Hero > >
-    pub const m_flLastTimeLookedAtByDirector: usize = 0x1D94; // float32
+    pub const m_bItemsAddedToLoadout: usize = 0x182C; // bool
+    pub const m_bPregameItemsAddedToLoadout: usize = 0x182D; // bool
+    pub const m_hNewARDMHero: usize = 0x1830; // CHandle< CBaseEntity >
+    pub const m_fBuybackCooldown: usize = 0x1834; // GameTime_t
+    pub const m_fBuybackGoldLimit: usize = 0x1838; // GameTime_t
+    pub const m_nLastHealedAmount: usize = 0x183C; // int32
+    pub const m_flLastHealedTime: usize = 0x1840; // float32
+    pub const m_hLastHealEntity: usize = 0x1844; // CHandle< CBaseEntity >
+    pub const m_vRespawnPosition: usize = 0x1848; // Vector
+    pub const m_HeroDamageInfoArray: usize = 0x1858; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroDamageInfo >
+    pub const m_vecRecentModifiers: usize = 0x1870; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo >
+    pub const m_fMostRecentDamageTime: usize = 0x1888; // GameTime_t
+    pub const m_iAbilityPoints: usize = 0x188C; // int32
+    pub const m_iCurrentXP: usize = 0x1890; // int32
+    pub const m_flRespawnTime: usize = 0x1894; // GameTime_t
+    pub const m_flRespawnTimePenalty: usize = 0x1898; // float32
+    pub const m_flTimeUntilRespawn: usize = 0x189C; // float32
+    pub const m_flScriptRespawnTime: usize = 0x18A0; // float32
+    pub const m_flPendingRespawnTime: usize = 0x18A4; // float32
+    pub const m_bScriptDisableRespawns: usize = 0x18A8; // bool
+    pub const m_iPlayerID: usize = 0x18AC; // PlayerID_t
+    pub const m_iIllusionOriginalPlayerID: usize = 0x18B0; // PlayerID_t
+    pub const m_iHeroID: usize = 0x18B4; // int32
+    pub const m_hReplicatingOtherHeroModel: usize = 0x18B8; // CHandle< CDOTA_BaseNPC_Hero >
+    pub const m_RespawnMusicTimer: usize = 0x18F8; // CountdownTimer
+    pub const m_HeroKillTimer: usize = 0x1910; // CountdownTimer
+    pub const m_MultipleHeroKillTimer: usize = 0x1928; // CountdownTimer
+    pub const m_MultipleLastHitTimer: usize = 0x1940; // CountdownTimer
+    pub const m_iMultipleKillCount: usize = 0x1958; // int32
+    pub const m_bDisableWearables: usize = 0x195C; // bool
+    pub const m_hTogglableWearable: usize = 0x1960; // CHandle< CDOTAWearableItem >[98]
+    pub const m_KillInfo: usize = 0x1AE8; // CDOTA_BaseNPC_Hero::KillInfo_t
+    pub const m_DirectorAbilityActivity: usize = 0x1B08; // CountdownTimer
+    pub const m_bReincarnating: usize = 0x1B20; // bool
+    pub const m_bCustomKillEffect: usize = 0x1B21; // bool
+    pub const m_flSpawnedAt: usize = 0x1B24; // GameTime_t
+    pub const m_PurchaseItemTimer: usize = 0x1B28; // CountdownTimer
+    pub const m_NeutralItemTimer: usize = 0x1B40; // CountdownTimer
+    pub const m_RetrieveItemsFromStashTimer: usize = 0x1B58; // CountdownTimer
+    pub const m_RequestGoToSecretShopTimer: usize = 0x1B70; // CountdownTimer
+    pub const m_iNextItemToPurchase: usize = 0x1B88; // int32
+    pub const m_bDoesNextItemCompleteRecipe: usize = 0x1B8C; // bool
+    pub const m_Loadout: usize = 0x1B90; // CUtlVector< sLoadoutItem >
+    pub const m_BuildingOrBuilt: usize = 0x1BA8; // CUtlVector< CUtlPair< AbilityID_t, bool > >
+    pub const m_TPScroll: usize = 0x1BC0; // sLoadoutItem
+    pub const m_Dust: usize = 0x1BD8; // sLoadoutItem
+    pub const m_Gem: usize = 0x1BF0; // sLoadoutItem
+    pub const m_SentryWard: usize = 0x1C08; // sLoadoutItem
+    pub const m_ObserverWard: usize = 0x1C20; // sLoadoutItem
+    pub const m_Courier: usize = 0x1C38; // sLoadoutItem
+    pub const m_FlyingCourier: usize = 0x1C50; // sLoadoutItem
+    pub const m_bAutoPurchaseItems: usize = 0x1C68; // bool
+    pub const m_bBuybackDisabled: usize = 0x1C69; // bool
+    pub const m_hPets: usize = 0x1C70; // CUtlVector< CHandle< CDOTA_BaseNPC_Pet > >
+    pub const m_bPreventPetSpawn: usize = 0x1C88; // bool
+    pub const m_MusicProbabilityGank: usize = 0x1C90; // CDOTAMusicProbabilityEntry
+    pub const m_strCustomKillEffect: usize = 0x1CE0; // CUtlString
+    pub const m_strCustomHexModel: usize = 0x1CE8; // CUtlString
+    pub const m_nKillStreakFX: usize = 0x1CF0; // ParticleIndex_t
+    pub const m_AbilitiesPendingDelete: usize = 0x1CF8; // CUtlVector< CHandle< CBaseEntity > >
+    pub const m_vecItemPurchaseHistory: usize = 0x1D10; // CUtlVector< sAcquireHistory >
+    pub const m_vecAbilitySkillHistory: usize = 0x1D28; // CUtlVector< sAcquireHistory >
+    pub const m_vecNeutralItemEquippedHistory: usize = 0x1D40; // CUtlVector< sAcquireHistory >
+    pub const m_vecExpiredIllusions: usize = 0x1D70; // CUtlVector< CHandle< CDOTA_BaseNPC_Hero > >
+    pub const m_flLastTimeLookedAtByDirector: usize = 0x1D8C; // float32
 }
 
 pub mod CDOTA_BaseNPC_Hero_KillInfo_t {
@@ -13057,6 +13051,10 @@ pub mod CDOTA_Modifier_FacelessVoid_Chronosphere {
     pub const radius: usize = 0x12C8; // int32
 }
 
+pub mod CDOTA_Modifier_FacelessVoid_Chronosphere_Freeze {
+    pub const m_vecAbilities: usize = 0x12C8; // CUtlVectorFixedGrowable< CHandle< CDOTABaseAbility > >
+}
+
 pub mod CDOTA_Modifier_FacelessVoid_Chronosphere_SelfBuff {
     pub const radius: usize = 0x12C8; // int32
 }
@@ -13871,7 +13869,8 @@ pub mod CDOTA_Modifier_Grimstroke_SpiritWalk_Buff {
     pub const max_threshold_duration: usize = 0x12F4; // float32
     pub const shard_bonus_damage_pct: usize = 0x12F8; // int32
     pub const shard_heal_pct: usize = 0x12FC; // int32
-    pub const m_bIsReflection: usize = 0x1300; // bool
+    pub const shard_creep_penalty: usize = 0x1300; // float32
+    pub const m_bIsReflection: usize = 0x1304; // bool
 }
 
 pub mod CDOTA_Modifier_GungirChain {
@@ -24544,154 +24543,154 @@ pub mod CDOTA_Unit_Diretide_Portal {
 }
 
 pub mod CDOTA_Unit_Hero_ArcWarden {
-    pub const m_nTalkFXIndex: usize = 0x1D98; // ParticleIndex_t
-    pub const m_nFXDeath: usize = 0x1D9C; // ParticleIndex_t
-    pub const m_nTempestFX: usize = 0x1DA0; // ParticleIndex_t
+    pub const m_nTalkFXIndex: usize = 0x1D90; // ParticleIndex_t
+    pub const m_nFXDeath: usize = 0x1D94; // ParticleIndex_t
+    pub const m_nTempestFX: usize = 0x1D98; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_CrystalMaiden {
-    pub const m_iParticleMouthIndex: usize = 0x1D98; // int32
-    pub const m_iParticleHandRIndex: usize = 0x1D9C; // int32
+    pub const m_iParticleMouthIndex: usize = 0x1D90; // int32
+    pub const m_iParticleHandRIndex: usize = 0x1D94; // int32
 }
 
 pub mod CDOTA_Unit_Hero_DarkSeer {
-    pub const m_nNormalPunchBuffIndex: usize = 0x1D98; // ParticleIndex_t
+    pub const m_nNormalPunchBuffIndex: usize = 0x1D90; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_Dawnbreaker {
-    pub const m_nAttackState: usize = 0x1D98; // int32
-    pub const m_flLastAttackAnimAdvanceTime: usize = 0x1D9C; // GameTime_t
+    pub const m_nAttackState: usize = 0x1D90; // int32
+    pub const m_flLastAttackAnimAdvanceTime: usize = 0x1D94; // GameTime_t
 }
 
 pub mod CDOTA_Unit_Hero_Earthshaker {
-    pub const m_nFXDeath: usize = 0x1D98; // ParticleIndex_t
+    pub const m_nFXDeath: usize = 0x1D90; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_FacelessVoid {
-    pub const m_vecStanceDestinationPoint: usize = 0x1D98; // Vector
+    pub const m_vecStanceDestinationPoint: usize = 0x1D90; // Vector
 }
 
 pub mod CDOTA_Unit_Hero_Grimstroke {
-    pub const m_nFXDeath: usize = 0x1D98; // ParticleIndex_t
+    pub const m_nFXDeath: usize = 0x1D90; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_Juggernaut {
-    pub const m_unOmniKills: usize = 0x1D98; // uint32
+    pub const m_unOmniKills: usize = 0x1D90; // uint32
 }
 
 pub mod CDOTA_Unit_Hero_Kunkka {
-    pub const m_nFXIndex: usize = 0x1D98; // int32
+    pub const m_nFXIndex: usize = 0x1D90; // int32
 }
 
 pub mod CDOTA_Unit_Hero_Legion_Commander {
-    pub const m_unDuelsWon: usize = 0x1D98; // uint32
+    pub const m_unDuelsWon: usize = 0x1D90; // uint32
 }
 
 pub mod CDOTA_Unit_Hero_Lion {
-    pub const m_unFingerPrestigeKills: usize = 0x1D98; // uint32
+    pub const m_unFingerPrestigeKills: usize = 0x1D90; // uint32
 }
 
 pub mod CDOTA_Unit_Hero_Meepo {
-    pub const m_nWhichMeepo: usize = 0x1D98; // int32
+    pub const m_nWhichMeepo: usize = 0x1D90; // int32
 }
 
 pub mod CDOTA_Unit_Hero_MonkeyKing {
-    pub const mb_MonkeyHasArcana: usize = 0x1D98; // bool
-    pub const m_nTreeDisguise: usize = 0x1D9C; // uint32
-    pub const m_nPerchedTree: usize = 0x1DA0; // uint32
-    pub const m_vLastPos: usize = 0x1DA4; // Vector
-    pub const m_bIsOnCloud: usize = 0x1DB0; // bool
-    pub const m_fTotalDistOnCloud: usize = 0x1DB4; // float32
-    pub const m_fTotalDistoffCloud: usize = 0x1DB8; // float32
-    pub const m_fBackOnCloudThresh: usize = 0x1DBC; // float32
+    pub const mb_MonkeyHasArcana: usize = 0x1D90; // bool
+    pub const m_nTreeDisguise: usize = 0x1D94; // uint32
+    pub const m_nPerchedTree: usize = 0x1D98; // uint32
+    pub const m_vLastPos: usize = 0x1D9C; // Vector
+    pub const m_bIsOnCloud: usize = 0x1DA8; // bool
+    pub const m_fTotalDistOnCloud: usize = 0x1DAC; // float32
+    pub const m_fTotalDistoffCloud: usize = 0x1DB0; // float32
+    pub const m_fBackOnCloudThresh: usize = 0x1DB4; // float32
 }
 
 pub mod CDOTA_Unit_Hero_Muerta {
-    pub const m_hDoubleShotTarget: usize = 0x1D98; // CHandle< CBaseEntity >
+    pub const m_hDoubleShotTarget: usize = 0x1D90; // CHandle< CBaseEntity >
 }
 
 pub mod CDOTA_Unit_Hero_Nevermore {
-    pub const m_nFXDeath: usize = 0x1D98; // ParticleIndex_t
+    pub const m_nFXDeath: usize = 0x1D90; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_Obsidian_Destroyer {
-    pub const m_nFXDeath: usize = 0x1D98; // ParticleIndex_t
+    pub const m_nFXDeath: usize = 0x1D90; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_Oracle {
-    pub const m_nFXDeath: usize = 0x1D98; // ParticleIndex_t
+    pub const m_nFXDeath: usize = 0x1D90; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_PhantomAssassin {
-    pub const m_nFXDeath: usize = 0x1D98; // ParticleIndex_t
-    pub const m_nArcanaLevel: usize = 0x1D9C; // uint32
+    pub const m_nFXDeath: usize = 0x1D90; // ParticleIndex_t
+    pub const m_nArcanaLevel: usize = 0x1D94; // uint32
 }
 
 pub mod CDOTA_Unit_Hero_PhantomLancer {
-    pub const m_bInventoryEnabled: usize = 0x1D98; // bool
+    pub const m_bInventoryEnabled: usize = 0x1D90; // bool
 }
 
 pub mod CDOTA_Unit_Hero_Razor {
-    pub const m_nTargetAngle: usize = 0x1D98; // int32
-    pub const m_nTargetRange: usize = 0x1D9C; // int32
+    pub const m_nTargetAngle: usize = 0x1D90; // int32
+    pub const m_nTargetRange: usize = 0x1D94; // int32
 }
 
 pub mod CDOTA_Unit_Hero_Rubick {
-    pub const m_stolenAbilityColorHSV1: usize = 0x1D98; // Vector
-    pub const m_stolenAbilityColorHSV2: usize = 0x1DA4; // Vector
-    pub const m_stolenAbilityFXColorHSV: usize = 0x1DB0; // Vector
-    pub const m_bHasInitializedAbilityColors: usize = 0x1DBC; // bool
+    pub const m_stolenAbilityColorHSV1: usize = 0x1D90; // Vector
+    pub const m_stolenAbilityColorHSV2: usize = 0x1D9C; // Vector
+    pub const m_stolenAbilityFXColorHSV: usize = 0x1DA8; // Vector
+    pub const m_bHasInitializedAbilityColors: usize = 0x1DB4; // bool
 }
 
 pub mod CDOTA_Unit_Hero_SkeletonKing {
-    pub const m_nSkeletonWarriors: usize = 0x1D98; // int32
-    pub const m_vecInitialHeroKillBitmask: usize = 0x1D9C; // int32[5]
-    pub const m_vecInGameHeroKillBitmask: usize = 0x1DB0; // int32[5]
+    pub const m_nSkeletonWarriors: usize = 0x1D90; // int32
+    pub const m_vecInitialHeroKillBitmask: usize = 0x1D94; // int32[5]
+    pub const m_vecInGameHeroKillBitmask: usize = 0x1DA8; // int32[5]
 }
 
 pub mod CDOTA_Unit_Hero_Spectre {
-    pub const m_bArcanaKillstreakCompleted: usize = 0x1D98; // bool
-    pub const m_unCurrentArcanaKillStreak: usize = 0x1D99; // uint8
-    pub const m_unBestArcanaKillStreak: usize = 0x1D9A; // uint8
-    pub const m_nVictimPlayerID: usize = 0x1D9C; // PlayerID_t
-    pub const m_bArcanaKillstreakRecordBroken: usize = 0x1DA0; // bool
+    pub const m_bArcanaKillstreakCompleted: usize = 0x1D90; // bool
+    pub const m_unCurrentArcanaKillStreak: usize = 0x1D91; // uint8
+    pub const m_unBestArcanaKillStreak: usize = 0x1D92; // uint8
+    pub const m_nVictimPlayerID: usize = 0x1D94; // PlayerID_t
+    pub const m_bArcanaKillstreakRecordBroken: usize = 0x1D98; // bool
 }
 
 pub mod CDOTA_Unit_Hero_Techies {
-    pub const m_bLastDeathFromSuicide: usize = 0x1D98; // bool
+    pub const m_bLastDeathFromSuicide: usize = 0x1D90; // bool
 }
 
 pub mod CDOTA_Unit_Hero_Terrorblade {
-    pub const m_nFXDeath: usize = 0x1D98; // ParticleIndex_t
-    pub const m_szResponseCriteria: usize = 0x1DA0; // CUtlString
-    pub const m_nArcanaColor: usize = 0x1DA8; // uint32
+    pub const m_nFXDeath: usize = 0x1D90; // ParticleIndex_t
+    pub const m_szResponseCriteria: usize = 0x1D98; // CUtlString
+    pub const m_nArcanaColor: usize = 0x1DA0; // uint32
 }
 
 pub mod CDOTA_Unit_Hero_Tiny {
-    pub const m_hTreeWearable: usize = 0x1D98; // CHandle< CBaseEntity >
-    pub const m_nFXIndexScepterAmbient: usize = 0x1D9C; // ParticleIndex_t
-    pub const m_hIllusionOwner: usize = 0x1DA0; // CHandle< CDOTA_BaseNPC >
-    pub const m_bIllusionHasTree: usize = 0x1DA4; // bool
+    pub const m_hTreeWearable: usize = 0x1D90; // CHandle< CBaseEntity >
+    pub const m_nFXIndexScepterAmbient: usize = 0x1D94; // ParticleIndex_t
+    pub const m_hIllusionOwner: usize = 0x1D98; // CHandle< CDOTA_BaseNPC >
+    pub const m_bIllusionHasTree: usize = 0x1D9C; // bool
 }
 
 pub mod CDOTA_Unit_Hero_Windrunner {
-    pub const m_nTargetAngle: usize = 0x1D98; // int32
-    pub const m_nFXDeath: usize = 0x1D9C; // ParticleIndex_t
+    pub const m_nTargetAngle: usize = 0x1D90; // int32
+    pub const m_nFXDeath: usize = 0x1D94; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_Winter_Wyvern {
-    pub const m_nFXDeath: usize = 0x1D98; // ParticleIndex_t
+    pub const m_nFXDeath: usize = 0x1D90; // ParticleIndex_t
 }
 
 pub mod CDOTA_Unit_Hero_Wisp {
-    pub const m_nAmbientFXIndex: usize = 0x1D98; // ParticleIndex_t
-    pub const m_nStunnedFXIndex: usize = 0x1D9C; // ParticleIndex_t
-    pub const m_nTalkFXIndex: usize = 0x1DA0; // ParticleIndex_t
-    pub const m_nIllusionFXIndex: usize = 0x1DA4; // ParticleIndex_t
-    pub const m_bParticleHexed: usize = 0x1DA8; // bool
-    pub const m_bParticleStunned: usize = 0x1DA9; // bool
-    pub const m_bDetermineAmbientEffect: usize = 0x1DAA; // bool
-    pub const m_flPrevHealth: usize = 0x1DAC; // float32
+    pub const m_nAmbientFXIndex: usize = 0x1D90; // ParticleIndex_t
+    pub const m_nStunnedFXIndex: usize = 0x1D94; // ParticleIndex_t
+    pub const m_nTalkFXIndex: usize = 0x1D98; // ParticleIndex_t
+    pub const m_nIllusionFXIndex: usize = 0x1D9C; // ParticleIndex_t
+    pub const m_bParticleHexed: usize = 0x1DA0; // bool
+    pub const m_bParticleStunned: usize = 0x1DA1; // bool
+    pub const m_bDetermineAmbientEffect: usize = 0x1DA2; // bool
+    pub const m_flPrevHealth: usize = 0x1DA4; // float32
 }
 
 pub mod CDOTA_Unit_LoopingSound {
@@ -24736,16 +24735,16 @@ pub mod CDOTA_Unit_Scout {
 }
 
 pub mod CDOTA_Unit_SpiritBear {
-    pub const m_bShouldRespawn: usize = 0x1D98; // bool
-    pub const m_bStolen: usize = 0x1D99; // bool
+    pub const m_bShouldRespawn: usize = 0x1D90; // bool
+    pub const m_bStolen: usize = 0x1D91; // bool
 }
 
 pub mod CDOTA_Unit_TargetDummy {
-    pub const m_flDamageTaken: usize = 0x1D98; // float32
-    pub const m_flLastHit: usize = 0x1D9C; // float32
-    pub const m_flStartDamageTime: usize = 0x1DA0; // GameTime_t
-    pub const m_flLastTargetDummyDamageTime: usize = 0x1DA4; // GameTime_t
-    pub const m_bIsMoving: usize = 0x1DA8; // bool
+    pub const m_flDamageTaken: usize = 0x1D90; // float32
+    pub const m_flLastHit: usize = 0x1D94; // float32
+    pub const m_flStartDamageTime: usize = 0x1D98; // GameTime_t
+    pub const m_flLastTargetDummyDamageTime: usize = 0x1D9C; // GameTime_t
+    pub const m_bIsMoving: usize = 0x1DA0; // bool
 }
 
 pub mod CDOTA_Unit_Tidehunter_Anchor {

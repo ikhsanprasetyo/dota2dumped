@@ -4,16 +4,16 @@ public static class animationsystem_dll {
 }
 
 public static class client_dll {
-    public const nint PanoramaUIClient001 = 0x242F270;
-    public const nint PlayButtonService001 = 0x1FA4690;
-    public const nint DOTA_CLIENT_GCCLIENT = 0x1B79860;
-    public const nint LegacyGameUI001 = 0x1B5D2C0;
-    public const nint Source2ClientPrediction001 = 0x154B7C0;
-    public const nint ClientToolsInfo_001 = 0x14FA340;
-    public const nint Source2Client002 = 0x14FA360;
-    public const nint GameClientExports001 = 0x14FA350;
-    public const nint Source2ClientConfig001 = 0x128AF90;
-    public const nint Source2ClientUI001 = 0x3EF860;
+    public const nint PanoramaUIClient001 = 0x24361F0;
+    public const nint PlayButtonService001 = 0x1FAAE80;
+    public const nint DOTA_CLIENT_GCCLIENT = 0x1B7DB90;
+    public const nint LegacyGameUI001 = 0x1B61480;
+    public const nint Source2ClientPrediction001 = 0x154EF20;
+    public const nint ClientToolsInfo_001 = 0x14FDAA0;
+    public const nint Source2Client002 = 0x14FDAC0;
+    public const nint GameClientExports001 = 0x14FDAB0;
+    public const nint Source2ClientConfig001 = 0x128E6F0;
+    public const nint Source2ClientUI001 = 0x3EF960;
 }
 
 public static class engine2_dll {
@@ -146,14 +146,14 @@ public static class schemasystem_dll {
 }
 
 public static class server_dll {
-    public const nint NavGameTest001 = 0x20214A0;
-    public const nint Source2GameDirector001 = 0x1ABB860;
-    public const nint ServerToolsInfo_001 = 0x1758430;
-    public const nint Source2GameClients001 = 0x1758440;
-    public const nint Source2GameEntities001 = 0x1758450;
-    public const nint Source2Server001 = 0x1758460;
-    public const nint Source2ServerConfig001 = 0x14F1D20;
-    public const nint EntitySubclassUtilsV001 = 0x3B6D00;
+    public const nint NavGameTest001 = 0x2024FA0;
+    public const nint Source2GameDirector001 = 0x1ABF710;
+    public const nint ServerToolsInfo_001 = 0x175BAF0;
+    public const nint Source2GameClients001 = 0x175BB00;
+    public const nint Source2GameEntities001 = 0x175BB10;
+    public const nint Source2Server001 = 0x175BB20;
+    public const nint Source2ServerConfig001 = 0x14F53E0;
+    public const nint EntitySubclassUtilsV001 = 0x3B6DA0;
 }
 
 public static class soundsystem_dll {
@@ -164,32 +164,33 @@ public static class soundsystem_dll {
 }
 
 public static class steamclient64_dll {
-    public const nint IVALIDATE001 = 0x83A900;
-    public const nint CLIENTENGINE_INTERFACE_VERSION005 = 0x8367B0;
-    public const nint SteamClient020 = 0x631440;
-    public const nint SteamClient019 = 0x631430;
-    public const nint SteamClient018 = 0x631420;
-    public const nint SteamClient017 = 0x631410;
-    public const nint SteamClient016 = 0x631400;
-    public const nint SteamClient015 = 0x6313F0;
-    public const nint SteamClient014 = 0x6313E0;
-    public const nint SteamClient013 = 0x6313D0;
-    public const nint SteamClient012 = 0x6313C0;
-    public const nint SteamClient011 = 0x6313B0;
-    public const nint SteamClient010 = 0x6313A0;
-    public const nint SteamClient009 = 0x631390;
-    public const nint SteamClient008 = 0x631380;
-    public const nint SteamClient007 = 0x631370;
-    public const nint SteamClient006 = 0x631360;
-    public const nint p2pvoice002 = 0xD93D0;
-    public const nint p2pvoicesingleton002 = 0xD5D70;
+    public const nint IVALIDATE001 = 0x84FD80;
+    public const nint CLIENTENGINE_INTERFACE_VERSION005 = 0x84BC30;
+    public const nint SteamClient021 = 0x6460C0;
+    public const nint SteamClient020 = 0x6460B0;
+    public const nint SteamClient019 = 0x6460A0;
+    public const nint SteamClient018 = 0x646090;
+    public const nint SteamClient017 = 0x646080;
+    public const nint SteamClient016 = 0x646070;
+    public const nint SteamClient015 = 0x646060;
+    public const nint SteamClient014 = 0x646050;
+    public const nint SteamClient013 = 0x646040;
+    public const nint SteamClient012 = 0x646030;
+    public const nint SteamClient011 = 0x646020;
+    public const nint SteamClient010 = 0x646010;
+    public const nint SteamClient009 = 0x646000;
+    public const nint SteamClient008 = 0x645FF0;
+    public const nint SteamClient007 = 0x645FE0;
+    public const nint SteamClient006 = 0x645FD0;
+    public const nint p2pvoice002 = 0xD97D0;
+    public const nint p2pvoicesingleton002 = 0xD6200;
 }
 
 public static class tier0_dll {
-    public const nint VStringTokenSystem001 = 0x18F410;
-    public const nint TestScriptMgr001 = 0x141530;
-    public const nint VProcessUtils002 = 0x131540;
-    public const nint VEngineCvar007 = 0x63530;
+    public const nint VStringTokenSystem001 = 0x18F600;
+    public const nint TestScriptMgr001 = 0x141710;
+    public const nint VProcessUtils002 = 0x131720;
+    public const nint VEngineCvar007 = 0x63550;
 }
 
 public static class v8system_dll {
@@ -214,8 +215,8 @@ public static class vscript_dll {
 }
 
 public static class vstdlib_s64_dll {
-    public const nint IVALIDATE001 = 0x24FF0;
-    public const nint VEngineCvar002 = 0x5750;
+    public const nint IVALIDATE001 = 0x25000;
+    public const nint VEngineCvar002 = 0x5760;
 }
 
 public static class worldrenderer_dll {

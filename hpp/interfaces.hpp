@@ -1,4 +1,4 @@
-// printed at 2023-11-07 22:14:15.207450100 +07:00	from Dota2 7.34d
+// printed at 2023-11-29 20:52:43.988534800 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -9,16 +9,16 @@ namespace Offsets {
     }
 
     namespace client_dll {
-        constexpr uint32_t PanoramaUIClient001 = 0x242F270;
-        constexpr uint32_t PlayButtonService001 = 0x1FA4690;
-        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1B79860;
-        constexpr uint32_t LegacyGameUI001 = 0x1B5D2C0;
-        constexpr uint32_t Source2ClientPrediction001 = 0x154B7C0;
-        constexpr uint32_t ClientToolsInfo_001 = 0x14FA340;
-        constexpr uint32_t Source2Client002 = 0x14FA360;
-        constexpr uint32_t GameClientExports001 = 0x14FA350;
-        constexpr uint32_t Source2ClientConfig001 = 0x128AF90;
-        constexpr uint32_t Source2ClientUI001 = 0x3EF860;
+        constexpr uint32_t PanoramaUIClient001 = 0x24361F0;
+        constexpr uint32_t PlayButtonService001 = 0x1FAAE80;
+        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1B7DB90;
+        constexpr uint32_t LegacyGameUI001 = 0x1B61480;
+        constexpr uint32_t Source2ClientPrediction001 = 0x154EF20;
+        constexpr uint32_t ClientToolsInfo_001 = 0x14FDAA0;
+        constexpr uint32_t Source2Client002 = 0x14FDAC0;
+        constexpr uint32_t GameClientExports001 = 0x14FDAB0;
+        constexpr uint32_t Source2ClientConfig001 = 0x128E6F0;
+        constexpr uint32_t Source2ClientUI001 = 0x3EF960;
     }
 
     namespace engine2_dll {
@@ -151,14 +151,14 @@ namespace Offsets {
     }
 
     namespace server_dll {
-        constexpr uint32_t NavGameTest001 = 0x20214A0;
-        constexpr uint32_t Source2GameDirector001 = 0x1ABB860;
-        constexpr uint32_t ServerToolsInfo_001 = 0x1758430;
-        constexpr uint32_t Source2GameClients001 = 0x1758440;
-        constexpr uint32_t Source2GameEntities001 = 0x1758450;
-        constexpr uint32_t Source2Server001 = 0x1758460;
-        constexpr uint32_t Source2ServerConfig001 = 0x14F1D20;
-        constexpr uint32_t EntitySubclassUtilsV001 = 0x3B6D00;
+        constexpr uint32_t NavGameTest001 = 0x2024FA0;
+        constexpr uint32_t Source2GameDirector001 = 0x1ABF710;
+        constexpr uint32_t ServerToolsInfo_001 = 0x175BAF0;
+        constexpr uint32_t Source2GameClients001 = 0x175BB00;
+        constexpr uint32_t Source2GameEntities001 = 0x175BB10;
+        constexpr uint32_t Source2Server001 = 0x175BB20;
+        constexpr uint32_t Source2ServerConfig001 = 0x14F53E0;
+        constexpr uint32_t EntitySubclassUtilsV001 = 0x3B6DA0;
     }
 
     namespace soundsystem_dll {
@@ -169,32 +169,33 @@ namespace Offsets {
     }
 
     namespace steamclient64_dll {
-        constexpr uint32_t IVALIDATE001 = 0x83A900;
-        constexpr uint32_t CLIENTENGINE_INTERFACE_VERSION005 = 0x8367B0;
-        constexpr uint32_t SteamClient020 = 0x631440;
-        constexpr uint32_t SteamClient019 = 0x631430;
-        constexpr uint32_t SteamClient018 = 0x631420;
-        constexpr uint32_t SteamClient017 = 0x631410;
-        constexpr uint32_t SteamClient016 = 0x631400;
-        constexpr uint32_t SteamClient015 = 0x6313F0;
-        constexpr uint32_t SteamClient014 = 0x6313E0;
-        constexpr uint32_t SteamClient013 = 0x6313D0;
-        constexpr uint32_t SteamClient012 = 0x6313C0;
-        constexpr uint32_t SteamClient011 = 0x6313B0;
-        constexpr uint32_t SteamClient010 = 0x6313A0;
-        constexpr uint32_t SteamClient009 = 0x631390;
-        constexpr uint32_t SteamClient008 = 0x631380;
-        constexpr uint32_t SteamClient007 = 0x631370;
-        constexpr uint32_t SteamClient006 = 0x631360;
-        constexpr uint32_t p2pvoice002 = 0xD93D0;
-        constexpr uint32_t p2pvoicesingleton002 = 0xD5D70;
+        constexpr uint32_t IVALIDATE001 = 0x84FD80;
+        constexpr uint32_t CLIENTENGINE_INTERFACE_VERSION005 = 0x84BC30;
+        constexpr uint32_t SteamClient021 = 0x6460C0;
+        constexpr uint32_t SteamClient020 = 0x6460B0;
+        constexpr uint32_t SteamClient019 = 0x6460A0;
+        constexpr uint32_t SteamClient018 = 0x646090;
+        constexpr uint32_t SteamClient017 = 0x646080;
+        constexpr uint32_t SteamClient016 = 0x646070;
+        constexpr uint32_t SteamClient015 = 0x646060;
+        constexpr uint32_t SteamClient014 = 0x646050;
+        constexpr uint32_t SteamClient013 = 0x646040;
+        constexpr uint32_t SteamClient012 = 0x646030;
+        constexpr uint32_t SteamClient011 = 0x646020;
+        constexpr uint32_t SteamClient010 = 0x646010;
+        constexpr uint32_t SteamClient009 = 0x646000;
+        constexpr uint32_t SteamClient008 = 0x645FF0;
+        constexpr uint32_t SteamClient007 = 0x645FE0;
+        constexpr uint32_t SteamClient006 = 0x645FD0;
+        constexpr uint32_t p2pvoice002 = 0xD97D0;
+        constexpr uint32_t p2pvoicesingleton002 = 0xD6200;
     }
 
     namespace tier0_dll {
-        constexpr uint32_t VStringTokenSystem001 = 0x18F410;
-        constexpr uint32_t TestScriptMgr001 = 0x141530;
-        constexpr uint32_t VProcessUtils002 = 0x131540;
-        constexpr uint32_t VEngineCvar007 = 0x63530;
+        constexpr uint32_t VStringTokenSystem001 = 0x18F600;
+        constexpr uint32_t TestScriptMgr001 = 0x141710;
+        constexpr uint32_t VProcessUtils002 = 0x131720;
+        constexpr uint32_t VEngineCvar007 = 0x63550;
     }
 
     namespace v8system_dll {
@@ -219,8 +220,8 @@ namespace Offsets {
     }
 
     namespace vstdlib_s64_dll {
-        constexpr uint32_t IVALIDATE001 = 0x24FF0;
-        constexpr uint32_t VEngineCvar002 = 0x5750;
+        constexpr uint32_t IVALIDATE001 = 0x25000;
+        constexpr uint32_t VEngineCvar002 = 0x5760;
     }
 
     namespace worldrenderer_dll {

@@ -1327,23 +1327,23 @@ public static class CDOTAGameEvents {
 
 public static class CDOTAGameManager {
     public const nint __m_pChainEntity = 0x30; // CNetworkVarChainer
-    public const nint m_bCustomGame = 0x3D0; // bool
-    public const nint m_bEventGame = 0x3D1; // bool
-    public const nint m_bGameModeWantsDefaultNeutralItemSchema = 0x3D2; // bool
-    public const nint m_bGameModeFilteredAbilities = 0x3D3; // bool
-    public const nint m_szAddOnGame = 0x3D4; // char[128]
-    public const nint m_szAddOnMap = 0x454; // char[128]
-    public const nint m_pTutorialLessonKeyValues = 0x838; // KeyValues*
-    public const nint m_pDivisionKeyValues = 0x840; // KeyValues*
-    public const nint m_pMatchGroupsKeyValues = 0x848; // KeyValues*
-    public const nint m_pAnimationStatues = 0x850; // KeyValues*
-    public const nint m_pBotScriptsDedicatedServer = 0x858; // KeyValues*
-    public const nint m_pkvWardPlacementLocations = 0x860; // KeyValues*
-    public const nint m_pRegionKeyValues = 0x868; // KeyValues*
-    public const nint m_pSurveyQuestionData = 0x870; // KeyValues*
-    public const nint m_AddonInfoKeyValues = 0x878; // KeyValues3
-    public const nint m_pCountryKeyValues = 0x8B0; // KeyValues*
-    public const nint m_CurrentHeroAvailable = 0x978; // bool[256]
+    public const nint m_bCustomGame = 0x3E8; // bool
+    public const nint m_bEventGame = 0x3E9; // bool
+    public const nint m_bGameModeWantsDefaultNeutralItemSchema = 0x3EA; // bool
+    public const nint m_bGameModeFilteredAbilities = 0x3EB; // bool
+    public const nint m_szAddOnGame = 0x3EC; // char[128]
+    public const nint m_szAddOnMap = 0x46C; // char[128]
+    public const nint m_pTutorialLessonKeyValues = 0x868; // KeyValues*
+    public const nint m_pDivisionKeyValues = 0x870; // KeyValues*
+    public const nint m_pMatchGroupsKeyValues = 0x878; // KeyValues*
+    public const nint m_pAnimationStatues = 0x880; // KeyValues*
+    public const nint m_pBotScriptsDedicatedServer = 0x888; // KeyValues*
+    public const nint m_pkvWardPlacementLocations = 0x890; // KeyValues*
+    public const nint m_pRegionKeyValues = 0x898; // KeyValues*
+    public const nint m_pSurveyQuestionData = 0x8A0; // KeyValues*
+    public const nint m_AddonInfoKeyValues = 0x8A8; // KeyValues3
+    public const nint m_pCountryKeyValues = 0x8E0; // KeyValues*
+    public const nint m_CurrentHeroAvailable = 0x9A8; // bool[256]
 }
 
 public static class CDOTAGameManagerProxy {
@@ -4963,10 +4963,6 @@ public static class CDOTA_Ability_VengefulSpirit_Command_Aura {
     public const nint m_hScepterIllusion = 0x568; // CHandle< CBaseEntity >
 }
 
-public static class CDOTA_Ability_VengefulSpirit_Magic_Missile {
-    public const nint m_bShouldBounce = 0x568; // bool
-}
-
 public static class CDOTA_Ability_VengefulSpirit_Nether_Swap {
     public const nint m_nFXIndex = 0x568; // int32
     public const nint damage = 0x56C; // int32
@@ -5243,9 +5239,9 @@ public static class CDOTA_AghsFort_Modifier_Lich_Frost_Giant {
 }
 
 public static class CDOTA_AghsFort_Unit_ArcWarden_Boss {
-    public const nint m_nTalkFXIndex = 0x1D98; // ParticleIndex_t
-    public const nint m_nFXDeath = 0x1D9C; // ParticleIndex_t
-    public const nint m_nTempestFX = 0x1DA0; // ParticleIndex_t
+    public const nint m_nTalkFXIndex = 0x1D90; // ParticleIndex_t
+    public const nint m_nFXDeath = 0x1D94; // ParticleIndex_t
+    public const nint m_nTempestFX = 0x1D98; // ParticleIndex_t
 }
 
 public static class CDOTA_AghsFort_Unit_Undying_Zombie {
@@ -5768,73 +5764,71 @@ public static class CDOTA_BaseNPC_Hero {
     public const nint m_flAgilityGain = 0x1820; // float32
     public const nint m_flIntellectGain = 0x1824; // float32
     public const nint m_flLastSuggestionTime = 0x1828; // float32
-    public const nint m_nSuggestionHandle = 0x182C; // int32
-    public const nint m_bItemsAddedToLoadout = 0x1830; // bool
-    public const nint m_nSuggestPregameHandle = 0x1834; // int32
-    public const nint m_bPregameItemsAddedToLoadout = 0x1838; // bool
-    public const nint m_hNewARDMHero = 0x183C; // CHandle< CBaseEntity >
-    public const nint m_fBuybackCooldown = 0x1840; // GameTime_t
-    public const nint m_fBuybackGoldLimit = 0x1844; // GameTime_t
-    public const nint m_nLastHealedAmount = 0x1848; // int32
-    public const nint m_flLastHealedTime = 0x184C; // float32
-    public const nint m_hLastHealEntity = 0x1850; // CHandle< CBaseEntity >
-    public const nint m_vRespawnPosition = 0x1854; // Vector
-    public const nint m_HeroDamageInfoArray = 0x1860; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroDamageInfo >
-    public const nint m_vecRecentModifiers = 0x1878; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo >
-    public const nint m_fMostRecentDamageTime = 0x1890; // GameTime_t
-    public const nint m_iAbilityPoints = 0x1894; // int32
-    public const nint m_iCurrentXP = 0x1898; // int32
-    public const nint m_flRespawnTime = 0x189C; // GameTime_t
-    public const nint m_flRespawnTimePenalty = 0x18A0; // float32
-    public const nint m_flTimeUntilRespawn = 0x18A4; // float32
-    public const nint m_flScriptRespawnTime = 0x18A8; // float32
-    public const nint m_flPendingRespawnTime = 0x18AC; // float32
-    public const nint m_bScriptDisableRespawns = 0x18B0; // bool
-    public const nint m_iPlayerID = 0x18B4; // PlayerID_t
-    public const nint m_iIllusionOriginalPlayerID = 0x18B8; // PlayerID_t
-    public const nint m_iHeroID = 0x18BC; // int32
-    public const nint m_hReplicatingOtherHeroModel = 0x18C0; // CHandle< CDOTA_BaseNPC_Hero >
-    public const nint m_RespawnMusicTimer = 0x1900; // CountdownTimer
-    public const nint m_HeroKillTimer = 0x1918; // CountdownTimer
-    public const nint m_MultipleHeroKillTimer = 0x1930; // CountdownTimer
-    public const nint m_MultipleLastHitTimer = 0x1948; // CountdownTimer
-    public const nint m_iMultipleKillCount = 0x1960; // int32
-    public const nint m_bDisableWearables = 0x1964; // bool
-    public const nint m_hTogglableWearable = 0x1968; // CHandle< CDOTAWearableItem >[98]
-    public const nint m_KillInfo = 0x1AF0; // CDOTA_BaseNPC_Hero::KillInfo_t
-    public const nint m_DirectorAbilityActivity = 0x1B10; // CountdownTimer
-    public const nint m_bReincarnating = 0x1B28; // bool
-    public const nint m_bCustomKillEffect = 0x1B29; // bool
-    public const nint m_flSpawnedAt = 0x1B2C; // GameTime_t
-    public const nint m_PurchaseItemTimer = 0x1B30; // CountdownTimer
-    public const nint m_NeutralItemTimer = 0x1B48; // CountdownTimer
-    public const nint m_RetrieveItemsFromStashTimer = 0x1B60; // CountdownTimer
-    public const nint m_RequestGoToSecretShopTimer = 0x1B78; // CountdownTimer
-    public const nint m_iNextItemToPurchase = 0x1B90; // int32
-    public const nint m_bDoesNextItemCompleteRecipe = 0x1B94; // bool
-    public const nint m_Loadout = 0x1B98; // CUtlVector< sLoadoutItem >
-    public const nint m_BuildingOrBuilt = 0x1BB0; // CUtlVector< CUtlPair< AbilityID_t, bool > >
-    public const nint m_TPScroll = 0x1BC8; // sLoadoutItem
-    public const nint m_Dust = 0x1BE0; // sLoadoutItem
-    public const nint m_Gem = 0x1BF8; // sLoadoutItem
-    public const nint m_SentryWard = 0x1C10; // sLoadoutItem
-    public const nint m_ObserverWard = 0x1C28; // sLoadoutItem
-    public const nint m_Courier = 0x1C40; // sLoadoutItem
-    public const nint m_FlyingCourier = 0x1C58; // sLoadoutItem
-    public const nint m_bAutoPurchaseItems = 0x1C70; // bool
-    public const nint m_bBuybackDisabled = 0x1C71; // bool
-    public const nint m_hPets = 0x1C78; // CUtlVector< CHandle< CDOTA_BaseNPC_Pet > >
-    public const nint m_bPreventPetSpawn = 0x1C90; // bool
-    public const nint m_MusicProbabilityGank = 0x1C98; // CDOTAMusicProbabilityEntry
-    public const nint m_strCustomKillEffect = 0x1CE8; // CUtlString
-    public const nint m_strCustomHexModel = 0x1CF0; // CUtlString
-    public const nint m_nKillStreakFX = 0x1CF8; // ParticleIndex_t
-    public const nint m_AbilitiesPendingDelete = 0x1D00; // CUtlVector< CHandle< CBaseEntity > >
-    public const nint m_vecItemPurchaseHistory = 0x1D18; // CUtlVector< sAcquireHistory >
-    public const nint m_vecAbilitySkillHistory = 0x1D30; // CUtlVector< sAcquireHistory >
-    public const nint m_vecNeutralItemEquippedHistory = 0x1D48; // CUtlVector< sAcquireHistory >
-    public const nint m_vecExpiredIllusions = 0x1D78; // CUtlVector< CHandle< CDOTA_BaseNPC_Hero > >
-    public const nint m_flLastTimeLookedAtByDirector = 0x1D94; // float32
+    public const nint m_bItemsAddedToLoadout = 0x182C; // bool
+    public const nint m_bPregameItemsAddedToLoadout = 0x182D; // bool
+    public const nint m_hNewARDMHero = 0x1830; // CHandle< CBaseEntity >
+    public const nint m_fBuybackCooldown = 0x1834; // GameTime_t
+    public const nint m_fBuybackGoldLimit = 0x1838; // GameTime_t
+    public const nint m_nLastHealedAmount = 0x183C; // int32
+    public const nint m_flLastHealedTime = 0x1840; // float32
+    public const nint m_hLastHealEntity = 0x1844; // CHandle< CBaseEntity >
+    public const nint m_vRespawnPosition = 0x1848; // Vector
+    public const nint m_HeroDamageInfoArray = 0x1858; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroDamageInfo >
+    public const nint m_vecRecentModifiers = 0x1870; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo >
+    public const nint m_fMostRecentDamageTime = 0x1888; // GameTime_t
+    public const nint m_iAbilityPoints = 0x188C; // int32
+    public const nint m_iCurrentXP = 0x1890; // int32
+    public const nint m_flRespawnTime = 0x1894; // GameTime_t
+    public const nint m_flRespawnTimePenalty = 0x1898; // float32
+    public const nint m_flTimeUntilRespawn = 0x189C; // float32
+    public const nint m_flScriptRespawnTime = 0x18A0; // float32
+    public const nint m_flPendingRespawnTime = 0x18A4; // float32
+    public const nint m_bScriptDisableRespawns = 0x18A8; // bool
+    public const nint m_iPlayerID = 0x18AC; // PlayerID_t
+    public const nint m_iIllusionOriginalPlayerID = 0x18B0; // PlayerID_t
+    public const nint m_iHeroID = 0x18B4; // int32
+    public const nint m_hReplicatingOtherHeroModel = 0x18B8; // CHandle< CDOTA_BaseNPC_Hero >
+    public const nint m_RespawnMusicTimer = 0x18F8; // CountdownTimer
+    public const nint m_HeroKillTimer = 0x1910; // CountdownTimer
+    public const nint m_MultipleHeroKillTimer = 0x1928; // CountdownTimer
+    public const nint m_MultipleLastHitTimer = 0x1940; // CountdownTimer
+    public const nint m_iMultipleKillCount = 0x1958; // int32
+    public const nint m_bDisableWearables = 0x195C; // bool
+    public const nint m_hTogglableWearable = 0x1960; // CHandle< CDOTAWearableItem >[98]
+    public const nint m_KillInfo = 0x1AE8; // CDOTA_BaseNPC_Hero::KillInfo_t
+    public const nint m_DirectorAbilityActivity = 0x1B08; // CountdownTimer
+    public const nint m_bReincarnating = 0x1B20; // bool
+    public const nint m_bCustomKillEffect = 0x1B21; // bool
+    public const nint m_flSpawnedAt = 0x1B24; // GameTime_t
+    public const nint m_PurchaseItemTimer = 0x1B28; // CountdownTimer
+    public const nint m_NeutralItemTimer = 0x1B40; // CountdownTimer
+    public const nint m_RetrieveItemsFromStashTimer = 0x1B58; // CountdownTimer
+    public const nint m_RequestGoToSecretShopTimer = 0x1B70; // CountdownTimer
+    public const nint m_iNextItemToPurchase = 0x1B88; // int32
+    public const nint m_bDoesNextItemCompleteRecipe = 0x1B8C; // bool
+    public const nint m_Loadout = 0x1B90; // CUtlVector< sLoadoutItem >
+    public const nint m_BuildingOrBuilt = 0x1BA8; // CUtlVector< CUtlPair< AbilityID_t, bool > >
+    public const nint m_TPScroll = 0x1BC0; // sLoadoutItem
+    public const nint m_Dust = 0x1BD8; // sLoadoutItem
+    public const nint m_Gem = 0x1BF0; // sLoadoutItem
+    public const nint m_SentryWard = 0x1C08; // sLoadoutItem
+    public const nint m_ObserverWard = 0x1C20; // sLoadoutItem
+    public const nint m_Courier = 0x1C38; // sLoadoutItem
+    public const nint m_FlyingCourier = 0x1C50; // sLoadoutItem
+    public const nint m_bAutoPurchaseItems = 0x1C68; // bool
+    public const nint m_bBuybackDisabled = 0x1C69; // bool
+    public const nint m_hPets = 0x1C70; // CUtlVector< CHandle< CDOTA_BaseNPC_Pet > >
+    public const nint m_bPreventPetSpawn = 0x1C88; // bool
+    public const nint m_MusicProbabilityGank = 0x1C90; // CDOTAMusicProbabilityEntry
+    public const nint m_strCustomKillEffect = 0x1CE0; // CUtlString
+    public const nint m_strCustomHexModel = 0x1CE8; // CUtlString
+    public const nint m_nKillStreakFX = 0x1CF0; // ParticleIndex_t
+    public const nint m_AbilitiesPendingDelete = 0x1CF8; // CUtlVector< CHandle< CBaseEntity > >
+    public const nint m_vecItemPurchaseHistory = 0x1D10; // CUtlVector< sAcquireHistory >
+    public const nint m_vecAbilitySkillHistory = 0x1D28; // CUtlVector< sAcquireHistory >
+    public const nint m_vecNeutralItemEquippedHistory = 0x1D40; // CUtlVector< sAcquireHistory >
+    public const nint m_vecExpiredIllusions = 0x1D70; // CUtlVector< CHandle< CDOTA_BaseNPC_Hero > >
+    public const nint m_flLastTimeLookedAtByDirector = 0x1D8C; // float32
 }
 
 public static class CDOTA_BaseNPC_Hero_KillInfo_t {
@@ -13055,6 +13049,10 @@ public static class CDOTA_Modifier_FacelessVoid_Chronosphere {
     public const nint radius = 0x12C8; // int32
 }
 
+public static class CDOTA_Modifier_FacelessVoid_Chronosphere_Freeze {
+    public const nint m_vecAbilities = 0x12C8; // CUtlVectorFixedGrowable< CHandle< CDOTABaseAbility > >
+}
+
 public static class CDOTA_Modifier_FacelessVoid_Chronosphere_SelfBuff {
     public const nint radius = 0x12C8; // int32
 }
@@ -13869,7 +13867,8 @@ public static class CDOTA_Modifier_Grimstroke_SpiritWalk_Buff {
     public const nint max_threshold_duration = 0x12F4; // float32
     public const nint shard_bonus_damage_pct = 0x12F8; // int32
     public const nint shard_heal_pct = 0x12FC; // int32
-    public const nint m_bIsReflection = 0x1300; // bool
+    public const nint shard_creep_penalty = 0x1300; // float32
+    public const nint m_bIsReflection = 0x1304; // bool
 }
 
 public static class CDOTA_Modifier_GungirChain {
@@ -24542,154 +24541,154 @@ public static class CDOTA_Unit_Diretide_Portal {
 }
 
 public static class CDOTA_Unit_Hero_ArcWarden {
-    public const nint m_nTalkFXIndex = 0x1D98; // ParticleIndex_t
-    public const nint m_nFXDeath = 0x1D9C; // ParticleIndex_t
-    public const nint m_nTempestFX = 0x1DA0; // ParticleIndex_t
+    public const nint m_nTalkFXIndex = 0x1D90; // ParticleIndex_t
+    public const nint m_nFXDeath = 0x1D94; // ParticleIndex_t
+    public const nint m_nTempestFX = 0x1D98; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_CrystalMaiden {
-    public const nint m_iParticleMouthIndex = 0x1D98; // int32
-    public const nint m_iParticleHandRIndex = 0x1D9C; // int32
+    public const nint m_iParticleMouthIndex = 0x1D90; // int32
+    public const nint m_iParticleHandRIndex = 0x1D94; // int32
 }
 
 public static class CDOTA_Unit_Hero_DarkSeer {
-    public const nint m_nNormalPunchBuffIndex = 0x1D98; // ParticleIndex_t
+    public const nint m_nNormalPunchBuffIndex = 0x1D90; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_Dawnbreaker {
-    public const nint m_nAttackState = 0x1D98; // int32
-    public const nint m_flLastAttackAnimAdvanceTime = 0x1D9C; // GameTime_t
+    public const nint m_nAttackState = 0x1D90; // int32
+    public const nint m_flLastAttackAnimAdvanceTime = 0x1D94; // GameTime_t
 }
 
 public static class CDOTA_Unit_Hero_Earthshaker {
-    public const nint m_nFXDeath = 0x1D98; // ParticleIndex_t
+    public const nint m_nFXDeath = 0x1D90; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_FacelessVoid {
-    public const nint m_vecStanceDestinationPoint = 0x1D98; // Vector
+    public const nint m_vecStanceDestinationPoint = 0x1D90; // Vector
 }
 
 public static class CDOTA_Unit_Hero_Grimstroke {
-    public const nint m_nFXDeath = 0x1D98; // ParticleIndex_t
+    public const nint m_nFXDeath = 0x1D90; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_Juggernaut {
-    public const nint m_unOmniKills = 0x1D98; // uint32
+    public const nint m_unOmniKills = 0x1D90; // uint32
 }
 
 public static class CDOTA_Unit_Hero_Kunkka {
-    public const nint m_nFXIndex = 0x1D98; // int32
+    public const nint m_nFXIndex = 0x1D90; // int32
 }
 
 public static class CDOTA_Unit_Hero_Legion_Commander {
-    public const nint m_unDuelsWon = 0x1D98; // uint32
+    public const nint m_unDuelsWon = 0x1D90; // uint32
 }
 
 public static class CDOTA_Unit_Hero_Lion {
-    public const nint m_unFingerPrestigeKills = 0x1D98; // uint32
+    public const nint m_unFingerPrestigeKills = 0x1D90; // uint32
 }
 
 public static class CDOTA_Unit_Hero_Meepo {
-    public const nint m_nWhichMeepo = 0x1D98; // int32
+    public const nint m_nWhichMeepo = 0x1D90; // int32
 }
 
 public static class CDOTA_Unit_Hero_MonkeyKing {
-    public const nint mb_MonkeyHasArcana = 0x1D98; // bool
-    public const nint m_nTreeDisguise = 0x1D9C; // uint32
-    public const nint m_nPerchedTree = 0x1DA0; // uint32
-    public const nint m_vLastPos = 0x1DA4; // Vector
-    public const nint m_bIsOnCloud = 0x1DB0; // bool
-    public const nint m_fTotalDistOnCloud = 0x1DB4; // float32
-    public const nint m_fTotalDistoffCloud = 0x1DB8; // float32
-    public const nint m_fBackOnCloudThresh = 0x1DBC; // float32
+    public const nint mb_MonkeyHasArcana = 0x1D90; // bool
+    public const nint m_nTreeDisguise = 0x1D94; // uint32
+    public const nint m_nPerchedTree = 0x1D98; // uint32
+    public const nint m_vLastPos = 0x1D9C; // Vector
+    public const nint m_bIsOnCloud = 0x1DA8; // bool
+    public const nint m_fTotalDistOnCloud = 0x1DAC; // float32
+    public const nint m_fTotalDistoffCloud = 0x1DB0; // float32
+    public const nint m_fBackOnCloudThresh = 0x1DB4; // float32
 }
 
 public static class CDOTA_Unit_Hero_Muerta {
-    public const nint m_hDoubleShotTarget = 0x1D98; // CHandle< CBaseEntity >
+    public const nint m_hDoubleShotTarget = 0x1D90; // CHandle< CBaseEntity >
 }
 
 public static class CDOTA_Unit_Hero_Nevermore {
-    public const nint m_nFXDeath = 0x1D98; // ParticleIndex_t
+    public const nint m_nFXDeath = 0x1D90; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_Obsidian_Destroyer {
-    public const nint m_nFXDeath = 0x1D98; // ParticleIndex_t
+    public const nint m_nFXDeath = 0x1D90; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_Oracle {
-    public const nint m_nFXDeath = 0x1D98; // ParticleIndex_t
+    public const nint m_nFXDeath = 0x1D90; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_PhantomAssassin {
-    public const nint m_nFXDeath = 0x1D98; // ParticleIndex_t
-    public const nint m_nArcanaLevel = 0x1D9C; // uint32
+    public const nint m_nFXDeath = 0x1D90; // ParticleIndex_t
+    public const nint m_nArcanaLevel = 0x1D94; // uint32
 }
 
 public static class CDOTA_Unit_Hero_PhantomLancer {
-    public const nint m_bInventoryEnabled = 0x1D98; // bool
+    public const nint m_bInventoryEnabled = 0x1D90; // bool
 }
 
 public static class CDOTA_Unit_Hero_Razor {
-    public const nint m_nTargetAngle = 0x1D98; // int32
-    public const nint m_nTargetRange = 0x1D9C; // int32
+    public const nint m_nTargetAngle = 0x1D90; // int32
+    public const nint m_nTargetRange = 0x1D94; // int32
 }
 
 public static class CDOTA_Unit_Hero_Rubick {
-    public const nint m_stolenAbilityColorHSV1 = 0x1D98; // Vector
-    public const nint m_stolenAbilityColorHSV2 = 0x1DA4; // Vector
-    public const nint m_stolenAbilityFXColorHSV = 0x1DB0; // Vector
-    public const nint m_bHasInitializedAbilityColors = 0x1DBC; // bool
+    public const nint m_stolenAbilityColorHSV1 = 0x1D90; // Vector
+    public const nint m_stolenAbilityColorHSV2 = 0x1D9C; // Vector
+    public const nint m_stolenAbilityFXColorHSV = 0x1DA8; // Vector
+    public const nint m_bHasInitializedAbilityColors = 0x1DB4; // bool
 }
 
 public static class CDOTA_Unit_Hero_SkeletonKing {
-    public const nint m_nSkeletonWarriors = 0x1D98; // int32
-    public const nint m_vecInitialHeroKillBitmask = 0x1D9C; // int32[5]
-    public const nint m_vecInGameHeroKillBitmask = 0x1DB0; // int32[5]
+    public const nint m_nSkeletonWarriors = 0x1D90; // int32
+    public const nint m_vecInitialHeroKillBitmask = 0x1D94; // int32[5]
+    public const nint m_vecInGameHeroKillBitmask = 0x1DA8; // int32[5]
 }
 
 public static class CDOTA_Unit_Hero_Spectre {
-    public const nint m_bArcanaKillstreakCompleted = 0x1D98; // bool
-    public const nint m_unCurrentArcanaKillStreak = 0x1D99; // uint8
-    public const nint m_unBestArcanaKillStreak = 0x1D9A; // uint8
-    public const nint m_nVictimPlayerID = 0x1D9C; // PlayerID_t
-    public const nint m_bArcanaKillstreakRecordBroken = 0x1DA0; // bool
+    public const nint m_bArcanaKillstreakCompleted = 0x1D90; // bool
+    public const nint m_unCurrentArcanaKillStreak = 0x1D91; // uint8
+    public const nint m_unBestArcanaKillStreak = 0x1D92; // uint8
+    public const nint m_nVictimPlayerID = 0x1D94; // PlayerID_t
+    public const nint m_bArcanaKillstreakRecordBroken = 0x1D98; // bool
 }
 
 public static class CDOTA_Unit_Hero_Techies {
-    public const nint m_bLastDeathFromSuicide = 0x1D98; // bool
+    public const nint m_bLastDeathFromSuicide = 0x1D90; // bool
 }
 
 public static class CDOTA_Unit_Hero_Terrorblade {
-    public const nint m_nFXDeath = 0x1D98; // ParticleIndex_t
-    public const nint m_szResponseCriteria = 0x1DA0; // CUtlString
-    public const nint m_nArcanaColor = 0x1DA8; // uint32
+    public const nint m_nFXDeath = 0x1D90; // ParticleIndex_t
+    public const nint m_szResponseCriteria = 0x1D98; // CUtlString
+    public const nint m_nArcanaColor = 0x1DA0; // uint32
 }
 
 public static class CDOTA_Unit_Hero_Tiny {
-    public const nint m_hTreeWearable = 0x1D98; // CHandle< CBaseEntity >
-    public const nint m_nFXIndexScepterAmbient = 0x1D9C; // ParticleIndex_t
-    public const nint m_hIllusionOwner = 0x1DA0; // CHandle< CDOTA_BaseNPC >
-    public const nint m_bIllusionHasTree = 0x1DA4; // bool
+    public const nint m_hTreeWearable = 0x1D90; // CHandle< CBaseEntity >
+    public const nint m_nFXIndexScepterAmbient = 0x1D94; // ParticleIndex_t
+    public const nint m_hIllusionOwner = 0x1D98; // CHandle< CDOTA_BaseNPC >
+    public const nint m_bIllusionHasTree = 0x1D9C; // bool
 }
 
 public static class CDOTA_Unit_Hero_Windrunner {
-    public const nint m_nTargetAngle = 0x1D98; // int32
-    public const nint m_nFXDeath = 0x1D9C; // ParticleIndex_t
+    public const nint m_nTargetAngle = 0x1D90; // int32
+    public const nint m_nFXDeath = 0x1D94; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_Winter_Wyvern {
-    public const nint m_nFXDeath = 0x1D98; // ParticleIndex_t
+    public const nint m_nFXDeath = 0x1D90; // ParticleIndex_t
 }
 
 public static class CDOTA_Unit_Hero_Wisp {
-    public const nint m_nAmbientFXIndex = 0x1D98; // ParticleIndex_t
-    public const nint m_nStunnedFXIndex = 0x1D9C; // ParticleIndex_t
-    public const nint m_nTalkFXIndex = 0x1DA0; // ParticleIndex_t
-    public const nint m_nIllusionFXIndex = 0x1DA4; // ParticleIndex_t
-    public const nint m_bParticleHexed = 0x1DA8; // bool
-    public const nint m_bParticleStunned = 0x1DA9; // bool
-    public const nint m_bDetermineAmbientEffect = 0x1DAA; // bool
-    public const nint m_flPrevHealth = 0x1DAC; // float32
+    public const nint m_nAmbientFXIndex = 0x1D90; // ParticleIndex_t
+    public const nint m_nStunnedFXIndex = 0x1D94; // ParticleIndex_t
+    public const nint m_nTalkFXIndex = 0x1D98; // ParticleIndex_t
+    public const nint m_nIllusionFXIndex = 0x1D9C; // ParticleIndex_t
+    public const nint m_bParticleHexed = 0x1DA0; // bool
+    public const nint m_bParticleStunned = 0x1DA1; // bool
+    public const nint m_bDetermineAmbientEffect = 0x1DA2; // bool
+    public const nint m_flPrevHealth = 0x1DA4; // float32
 }
 
 public static class CDOTA_Unit_LoopingSound {
@@ -24734,16 +24733,16 @@ public static class CDOTA_Unit_Scout {
 }
 
 public static class CDOTA_Unit_SpiritBear {
-    public const nint m_bShouldRespawn = 0x1D98; // bool
-    public const nint m_bStolen = 0x1D99; // bool
+    public const nint m_bShouldRespawn = 0x1D90; // bool
+    public const nint m_bStolen = 0x1D91; // bool
 }
 
 public static class CDOTA_Unit_TargetDummy {
-    public const nint m_flDamageTaken = 0x1D98; // float32
-    public const nint m_flLastHit = 0x1D9C; // float32
-    public const nint m_flStartDamageTime = 0x1DA0; // GameTime_t
-    public const nint m_flLastTargetDummyDamageTime = 0x1DA4; // GameTime_t
-    public const nint m_bIsMoving = 0x1DA8; // bool
+    public const nint m_flDamageTaken = 0x1D90; // float32
+    public const nint m_flLastHit = 0x1D94; // float32
+    public const nint m_flStartDamageTime = 0x1D98; // GameTime_t
+    public const nint m_flLastTargetDummyDamageTime = 0x1D9C; // GameTime_t
+    public const nint m_bIsMoving = 0x1DA0; // bool
 }
 
 public static class CDOTA_Unit_Tidehunter_Anchor {

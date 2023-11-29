@@ -1,4 +1,4 @@
-// printed at 2023-11-07 22:14:12.380359400 +07:00	from Dota2 7.34d
+// printed at 2023-11-29 20:52:41.394346700 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -1332,23 +1332,23 @@ namespace Offsets {
 
     namespace CDOTAGameManager {
         constexpr uint32_t __m_pChainEntity = 0x30; // CNetworkVarChainer
-        constexpr uint32_t m_bCustomGame = 0x3D0; // bool
-        constexpr uint32_t m_bEventGame = 0x3D1; // bool
-        constexpr uint32_t m_bGameModeWantsDefaultNeutralItemSchema = 0x3D2; // bool
-        constexpr uint32_t m_bGameModeFilteredAbilities = 0x3D3; // bool
-        constexpr uint32_t m_szAddOnGame = 0x3D4; // char[128]
-        constexpr uint32_t m_szAddOnMap = 0x454; // char[128]
-        constexpr uint32_t m_pTutorialLessonKeyValues = 0x838; // KeyValues*
-        constexpr uint32_t m_pDivisionKeyValues = 0x840; // KeyValues*
-        constexpr uint32_t m_pMatchGroupsKeyValues = 0x848; // KeyValues*
-        constexpr uint32_t m_pAnimationStatues = 0x850; // KeyValues*
-        constexpr uint32_t m_pBotScriptsDedicatedServer = 0x858; // KeyValues*
-        constexpr uint32_t m_pkvWardPlacementLocations = 0x860; // KeyValues*
-        constexpr uint32_t m_pRegionKeyValues = 0x868; // KeyValues*
-        constexpr uint32_t m_pSurveyQuestionData = 0x870; // KeyValues*
-        constexpr uint32_t m_AddonInfoKeyValues = 0x878; // KeyValues3
-        constexpr uint32_t m_pCountryKeyValues = 0x8B0; // KeyValues*
-        constexpr uint32_t m_CurrentHeroAvailable = 0x978; // bool[256]
+        constexpr uint32_t m_bCustomGame = 0x3E8; // bool
+        constexpr uint32_t m_bEventGame = 0x3E9; // bool
+        constexpr uint32_t m_bGameModeWantsDefaultNeutralItemSchema = 0x3EA; // bool
+        constexpr uint32_t m_bGameModeFilteredAbilities = 0x3EB; // bool
+        constexpr uint32_t m_szAddOnGame = 0x3EC; // char[128]
+        constexpr uint32_t m_szAddOnMap = 0x46C; // char[128]
+        constexpr uint32_t m_pTutorialLessonKeyValues = 0x868; // KeyValues*
+        constexpr uint32_t m_pDivisionKeyValues = 0x870; // KeyValues*
+        constexpr uint32_t m_pMatchGroupsKeyValues = 0x878; // KeyValues*
+        constexpr uint32_t m_pAnimationStatues = 0x880; // KeyValues*
+        constexpr uint32_t m_pBotScriptsDedicatedServer = 0x888; // KeyValues*
+        constexpr uint32_t m_pkvWardPlacementLocations = 0x890; // KeyValues*
+        constexpr uint32_t m_pRegionKeyValues = 0x898; // KeyValues*
+        constexpr uint32_t m_pSurveyQuestionData = 0x8A0; // KeyValues*
+        constexpr uint32_t m_AddonInfoKeyValues = 0x8A8; // KeyValues3
+        constexpr uint32_t m_pCountryKeyValues = 0x8E0; // KeyValues*
+        constexpr uint32_t m_CurrentHeroAvailable = 0x9A8; // bool[256]
     }
 
     namespace CDOTAGameManagerProxy {
@@ -4968,10 +4968,6 @@ namespace Offsets {
         constexpr uint32_t m_hScepterIllusion = 0x568; // CHandle< CBaseEntity >
     }
 
-    namespace CDOTA_Ability_VengefulSpirit_Magic_Missile {
-        constexpr uint32_t m_bShouldBounce = 0x568; // bool
-    }
-
     namespace CDOTA_Ability_VengefulSpirit_Nether_Swap {
         constexpr uint32_t m_nFXIndex = 0x568; // int32
         constexpr uint32_t damage = 0x56C; // int32
@@ -5248,9 +5244,9 @@ namespace Offsets {
     }
 
     namespace CDOTA_AghsFort_Unit_ArcWarden_Boss {
-        constexpr uint32_t m_nTalkFXIndex = 0x1D98; // ParticleIndex_t
-        constexpr uint32_t m_nFXDeath = 0x1D9C; // ParticleIndex_t
-        constexpr uint32_t m_nTempestFX = 0x1DA0; // ParticleIndex_t
+        constexpr uint32_t m_nTalkFXIndex = 0x1D90; // ParticleIndex_t
+        constexpr uint32_t m_nFXDeath = 0x1D94; // ParticleIndex_t
+        constexpr uint32_t m_nTempestFX = 0x1D98; // ParticleIndex_t
     }
 
     namespace CDOTA_AghsFort_Unit_Undying_Zombie {
@@ -5773,73 +5769,71 @@ namespace Offsets {
         constexpr uint32_t m_flAgilityGain = 0x1820; // float32
         constexpr uint32_t m_flIntellectGain = 0x1824; // float32
         constexpr uint32_t m_flLastSuggestionTime = 0x1828; // float32
-        constexpr uint32_t m_nSuggestionHandle = 0x182C; // int32
-        constexpr uint32_t m_bItemsAddedToLoadout = 0x1830; // bool
-        constexpr uint32_t m_nSuggestPregameHandle = 0x1834; // int32
-        constexpr uint32_t m_bPregameItemsAddedToLoadout = 0x1838; // bool
-        constexpr uint32_t m_hNewARDMHero = 0x183C; // CHandle< CBaseEntity >
-        constexpr uint32_t m_fBuybackCooldown = 0x1840; // GameTime_t
-        constexpr uint32_t m_fBuybackGoldLimit = 0x1844; // GameTime_t
-        constexpr uint32_t m_nLastHealedAmount = 0x1848; // int32
-        constexpr uint32_t m_flLastHealedTime = 0x184C; // float32
-        constexpr uint32_t m_hLastHealEntity = 0x1850; // CHandle< CBaseEntity >
-        constexpr uint32_t m_vRespawnPosition = 0x1854; // Vector
-        constexpr uint32_t m_HeroDamageInfoArray = 0x1860; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroDamageInfo >
-        constexpr uint32_t m_vecRecentModifiers = 0x1878; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo >
-        constexpr uint32_t m_fMostRecentDamageTime = 0x1890; // GameTime_t
-        constexpr uint32_t m_iAbilityPoints = 0x1894; // int32
-        constexpr uint32_t m_iCurrentXP = 0x1898; // int32
-        constexpr uint32_t m_flRespawnTime = 0x189C; // GameTime_t
-        constexpr uint32_t m_flRespawnTimePenalty = 0x18A0; // float32
-        constexpr uint32_t m_flTimeUntilRespawn = 0x18A4; // float32
-        constexpr uint32_t m_flScriptRespawnTime = 0x18A8; // float32
-        constexpr uint32_t m_flPendingRespawnTime = 0x18AC; // float32
-        constexpr uint32_t m_bScriptDisableRespawns = 0x18B0; // bool
-        constexpr uint32_t m_iPlayerID = 0x18B4; // PlayerID_t
-        constexpr uint32_t m_iIllusionOriginalPlayerID = 0x18B8; // PlayerID_t
-        constexpr uint32_t m_iHeroID = 0x18BC; // int32
-        constexpr uint32_t m_hReplicatingOtherHeroModel = 0x18C0; // CHandle< CDOTA_BaseNPC_Hero >
-        constexpr uint32_t m_RespawnMusicTimer = 0x1900; // CountdownTimer
-        constexpr uint32_t m_HeroKillTimer = 0x1918; // CountdownTimer
-        constexpr uint32_t m_MultipleHeroKillTimer = 0x1930; // CountdownTimer
-        constexpr uint32_t m_MultipleLastHitTimer = 0x1948; // CountdownTimer
-        constexpr uint32_t m_iMultipleKillCount = 0x1960; // int32
-        constexpr uint32_t m_bDisableWearables = 0x1964; // bool
-        constexpr uint32_t m_hTogglableWearable = 0x1968; // CHandle< CDOTAWearableItem >[98]
-        constexpr uint32_t m_KillInfo = 0x1AF0; // CDOTA_BaseNPC_Hero::KillInfo_t
-        constexpr uint32_t m_DirectorAbilityActivity = 0x1B10; // CountdownTimer
-        constexpr uint32_t m_bReincarnating = 0x1B28; // bool
-        constexpr uint32_t m_bCustomKillEffect = 0x1B29; // bool
-        constexpr uint32_t m_flSpawnedAt = 0x1B2C; // GameTime_t
-        constexpr uint32_t m_PurchaseItemTimer = 0x1B30; // CountdownTimer
-        constexpr uint32_t m_NeutralItemTimer = 0x1B48; // CountdownTimer
-        constexpr uint32_t m_RetrieveItemsFromStashTimer = 0x1B60; // CountdownTimer
-        constexpr uint32_t m_RequestGoToSecretShopTimer = 0x1B78; // CountdownTimer
-        constexpr uint32_t m_iNextItemToPurchase = 0x1B90; // int32
-        constexpr uint32_t m_bDoesNextItemCompleteRecipe = 0x1B94; // bool
-        constexpr uint32_t m_Loadout = 0x1B98; // CUtlVector< sLoadoutItem >
-        constexpr uint32_t m_BuildingOrBuilt = 0x1BB0; // CUtlVector< CUtlPair< AbilityID_t, bool > >
-        constexpr uint32_t m_TPScroll = 0x1BC8; // sLoadoutItem
-        constexpr uint32_t m_Dust = 0x1BE0; // sLoadoutItem
-        constexpr uint32_t m_Gem = 0x1BF8; // sLoadoutItem
-        constexpr uint32_t m_SentryWard = 0x1C10; // sLoadoutItem
-        constexpr uint32_t m_ObserverWard = 0x1C28; // sLoadoutItem
-        constexpr uint32_t m_Courier = 0x1C40; // sLoadoutItem
-        constexpr uint32_t m_FlyingCourier = 0x1C58; // sLoadoutItem
-        constexpr uint32_t m_bAutoPurchaseItems = 0x1C70; // bool
-        constexpr uint32_t m_bBuybackDisabled = 0x1C71; // bool
-        constexpr uint32_t m_hPets = 0x1C78; // CUtlVector< CHandle< CDOTA_BaseNPC_Pet > >
-        constexpr uint32_t m_bPreventPetSpawn = 0x1C90; // bool
-        constexpr uint32_t m_MusicProbabilityGank = 0x1C98; // CDOTAMusicProbabilityEntry
-        constexpr uint32_t m_strCustomKillEffect = 0x1CE8; // CUtlString
-        constexpr uint32_t m_strCustomHexModel = 0x1CF0; // CUtlString
-        constexpr uint32_t m_nKillStreakFX = 0x1CF8; // ParticleIndex_t
-        constexpr uint32_t m_AbilitiesPendingDelete = 0x1D00; // CUtlVector< CHandle< CBaseEntity > >
-        constexpr uint32_t m_vecItemPurchaseHistory = 0x1D18; // CUtlVector< sAcquireHistory >
-        constexpr uint32_t m_vecAbilitySkillHistory = 0x1D30; // CUtlVector< sAcquireHistory >
-        constexpr uint32_t m_vecNeutralItemEquippedHistory = 0x1D48; // CUtlVector< sAcquireHistory >
-        constexpr uint32_t m_vecExpiredIllusions = 0x1D78; // CUtlVector< CHandle< CDOTA_BaseNPC_Hero > >
-        constexpr uint32_t m_flLastTimeLookedAtByDirector = 0x1D94; // float32
+        constexpr uint32_t m_bItemsAddedToLoadout = 0x182C; // bool
+        constexpr uint32_t m_bPregameItemsAddedToLoadout = 0x182D; // bool
+        constexpr uint32_t m_hNewARDMHero = 0x1830; // CHandle< CBaseEntity >
+        constexpr uint32_t m_fBuybackCooldown = 0x1834; // GameTime_t
+        constexpr uint32_t m_fBuybackGoldLimit = 0x1838; // GameTime_t
+        constexpr uint32_t m_nLastHealedAmount = 0x183C; // int32
+        constexpr uint32_t m_flLastHealedTime = 0x1840; // float32
+        constexpr uint32_t m_hLastHealEntity = 0x1844; // CHandle< CBaseEntity >
+        constexpr uint32_t m_vRespawnPosition = 0x1848; // Vector
+        constexpr uint32_t m_HeroDamageInfoArray = 0x1858; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroDamageInfo >
+        constexpr uint32_t m_vecRecentModifiers = 0x1870; // CUtlVector< CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo >
+        constexpr uint32_t m_fMostRecentDamageTime = 0x1888; // GameTime_t
+        constexpr uint32_t m_iAbilityPoints = 0x188C; // int32
+        constexpr uint32_t m_iCurrentXP = 0x1890; // int32
+        constexpr uint32_t m_flRespawnTime = 0x1894; // GameTime_t
+        constexpr uint32_t m_flRespawnTimePenalty = 0x1898; // float32
+        constexpr uint32_t m_flTimeUntilRespawn = 0x189C; // float32
+        constexpr uint32_t m_flScriptRespawnTime = 0x18A0; // float32
+        constexpr uint32_t m_flPendingRespawnTime = 0x18A4; // float32
+        constexpr uint32_t m_bScriptDisableRespawns = 0x18A8; // bool
+        constexpr uint32_t m_iPlayerID = 0x18AC; // PlayerID_t
+        constexpr uint32_t m_iIllusionOriginalPlayerID = 0x18B0; // PlayerID_t
+        constexpr uint32_t m_iHeroID = 0x18B4; // int32
+        constexpr uint32_t m_hReplicatingOtherHeroModel = 0x18B8; // CHandle< CDOTA_BaseNPC_Hero >
+        constexpr uint32_t m_RespawnMusicTimer = 0x18F8; // CountdownTimer
+        constexpr uint32_t m_HeroKillTimer = 0x1910; // CountdownTimer
+        constexpr uint32_t m_MultipleHeroKillTimer = 0x1928; // CountdownTimer
+        constexpr uint32_t m_MultipleLastHitTimer = 0x1940; // CountdownTimer
+        constexpr uint32_t m_iMultipleKillCount = 0x1958; // int32
+        constexpr uint32_t m_bDisableWearables = 0x195C; // bool
+        constexpr uint32_t m_hTogglableWearable = 0x1960; // CHandle< CDOTAWearableItem >[98]
+        constexpr uint32_t m_KillInfo = 0x1AE8; // CDOTA_BaseNPC_Hero::KillInfo_t
+        constexpr uint32_t m_DirectorAbilityActivity = 0x1B08; // CountdownTimer
+        constexpr uint32_t m_bReincarnating = 0x1B20; // bool
+        constexpr uint32_t m_bCustomKillEffect = 0x1B21; // bool
+        constexpr uint32_t m_flSpawnedAt = 0x1B24; // GameTime_t
+        constexpr uint32_t m_PurchaseItemTimer = 0x1B28; // CountdownTimer
+        constexpr uint32_t m_NeutralItemTimer = 0x1B40; // CountdownTimer
+        constexpr uint32_t m_RetrieveItemsFromStashTimer = 0x1B58; // CountdownTimer
+        constexpr uint32_t m_RequestGoToSecretShopTimer = 0x1B70; // CountdownTimer
+        constexpr uint32_t m_iNextItemToPurchase = 0x1B88; // int32
+        constexpr uint32_t m_bDoesNextItemCompleteRecipe = 0x1B8C; // bool
+        constexpr uint32_t m_Loadout = 0x1B90; // CUtlVector< sLoadoutItem >
+        constexpr uint32_t m_BuildingOrBuilt = 0x1BA8; // CUtlVector< CUtlPair< AbilityID_t, bool > >
+        constexpr uint32_t m_TPScroll = 0x1BC0; // sLoadoutItem
+        constexpr uint32_t m_Dust = 0x1BD8; // sLoadoutItem
+        constexpr uint32_t m_Gem = 0x1BF0; // sLoadoutItem
+        constexpr uint32_t m_SentryWard = 0x1C08; // sLoadoutItem
+        constexpr uint32_t m_ObserverWard = 0x1C20; // sLoadoutItem
+        constexpr uint32_t m_Courier = 0x1C38; // sLoadoutItem
+        constexpr uint32_t m_FlyingCourier = 0x1C50; // sLoadoutItem
+        constexpr uint32_t m_bAutoPurchaseItems = 0x1C68; // bool
+        constexpr uint32_t m_bBuybackDisabled = 0x1C69; // bool
+        constexpr uint32_t m_hPets = 0x1C70; // CUtlVector< CHandle< CDOTA_BaseNPC_Pet > >
+        constexpr uint32_t m_bPreventPetSpawn = 0x1C88; // bool
+        constexpr uint32_t m_MusicProbabilityGank = 0x1C90; // CDOTAMusicProbabilityEntry
+        constexpr uint32_t m_strCustomKillEffect = 0x1CE0; // CUtlString
+        constexpr uint32_t m_strCustomHexModel = 0x1CE8; // CUtlString
+        constexpr uint32_t m_nKillStreakFX = 0x1CF0; // ParticleIndex_t
+        constexpr uint32_t m_AbilitiesPendingDelete = 0x1CF8; // CUtlVector< CHandle< CBaseEntity > >
+        constexpr uint32_t m_vecItemPurchaseHistory = 0x1D10; // CUtlVector< sAcquireHistory >
+        constexpr uint32_t m_vecAbilitySkillHistory = 0x1D28; // CUtlVector< sAcquireHistory >
+        constexpr uint32_t m_vecNeutralItemEquippedHistory = 0x1D40; // CUtlVector< sAcquireHistory >
+        constexpr uint32_t m_vecExpiredIllusions = 0x1D70; // CUtlVector< CHandle< CDOTA_BaseNPC_Hero > >
+        constexpr uint32_t m_flLastTimeLookedAtByDirector = 0x1D8C; // float32
     }
 
     namespace CDOTA_BaseNPC_Hero_KillInfo_t {
@@ -13060,6 +13054,10 @@ namespace Offsets {
         constexpr uint32_t radius = 0x12C8; // int32
     }
 
+    namespace CDOTA_Modifier_FacelessVoid_Chronosphere_Freeze {
+        constexpr uint32_t m_vecAbilities = 0x12C8; // CUtlVectorFixedGrowable< CHandle< CDOTABaseAbility > >
+    }
+
     namespace CDOTA_Modifier_FacelessVoid_Chronosphere_SelfBuff {
         constexpr uint32_t radius = 0x12C8; // int32
     }
@@ -13874,7 +13872,8 @@ namespace Offsets {
         constexpr uint32_t max_threshold_duration = 0x12F4; // float32
         constexpr uint32_t shard_bonus_damage_pct = 0x12F8; // int32
         constexpr uint32_t shard_heal_pct = 0x12FC; // int32
-        constexpr uint32_t m_bIsReflection = 0x1300; // bool
+        constexpr uint32_t shard_creep_penalty = 0x1300; // float32
+        constexpr uint32_t m_bIsReflection = 0x1304; // bool
     }
 
     namespace CDOTA_Modifier_GungirChain {
@@ -24547,154 +24546,154 @@ namespace Offsets {
     }
 
     namespace CDOTA_Unit_Hero_ArcWarden {
-        constexpr uint32_t m_nTalkFXIndex = 0x1D98; // ParticleIndex_t
-        constexpr uint32_t m_nFXDeath = 0x1D9C; // ParticleIndex_t
-        constexpr uint32_t m_nTempestFX = 0x1DA0; // ParticleIndex_t
+        constexpr uint32_t m_nTalkFXIndex = 0x1D90; // ParticleIndex_t
+        constexpr uint32_t m_nFXDeath = 0x1D94; // ParticleIndex_t
+        constexpr uint32_t m_nTempestFX = 0x1D98; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_CrystalMaiden {
-        constexpr uint32_t m_iParticleMouthIndex = 0x1D98; // int32
-        constexpr uint32_t m_iParticleHandRIndex = 0x1D9C; // int32
+        constexpr uint32_t m_iParticleMouthIndex = 0x1D90; // int32
+        constexpr uint32_t m_iParticleHandRIndex = 0x1D94; // int32
     }
 
     namespace CDOTA_Unit_Hero_DarkSeer {
-        constexpr uint32_t m_nNormalPunchBuffIndex = 0x1D98; // ParticleIndex_t
+        constexpr uint32_t m_nNormalPunchBuffIndex = 0x1D90; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_Dawnbreaker {
-        constexpr uint32_t m_nAttackState = 0x1D98; // int32
-        constexpr uint32_t m_flLastAttackAnimAdvanceTime = 0x1D9C; // GameTime_t
+        constexpr uint32_t m_nAttackState = 0x1D90; // int32
+        constexpr uint32_t m_flLastAttackAnimAdvanceTime = 0x1D94; // GameTime_t
     }
 
     namespace CDOTA_Unit_Hero_Earthshaker {
-        constexpr uint32_t m_nFXDeath = 0x1D98; // ParticleIndex_t
+        constexpr uint32_t m_nFXDeath = 0x1D90; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_FacelessVoid {
-        constexpr uint32_t m_vecStanceDestinationPoint = 0x1D98; // Vector
+        constexpr uint32_t m_vecStanceDestinationPoint = 0x1D90; // Vector
     }
 
     namespace CDOTA_Unit_Hero_Grimstroke {
-        constexpr uint32_t m_nFXDeath = 0x1D98; // ParticleIndex_t
+        constexpr uint32_t m_nFXDeath = 0x1D90; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_Juggernaut {
-        constexpr uint32_t m_unOmniKills = 0x1D98; // uint32
+        constexpr uint32_t m_unOmniKills = 0x1D90; // uint32
     }
 
     namespace CDOTA_Unit_Hero_Kunkka {
-        constexpr uint32_t m_nFXIndex = 0x1D98; // int32
+        constexpr uint32_t m_nFXIndex = 0x1D90; // int32
     }
 
     namespace CDOTA_Unit_Hero_Legion_Commander {
-        constexpr uint32_t m_unDuelsWon = 0x1D98; // uint32
+        constexpr uint32_t m_unDuelsWon = 0x1D90; // uint32
     }
 
     namespace CDOTA_Unit_Hero_Lion {
-        constexpr uint32_t m_unFingerPrestigeKills = 0x1D98; // uint32
+        constexpr uint32_t m_unFingerPrestigeKills = 0x1D90; // uint32
     }
 
     namespace CDOTA_Unit_Hero_Meepo {
-        constexpr uint32_t m_nWhichMeepo = 0x1D98; // int32
+        constexpr uint32_t m_nWhichMeepo = 0x1D90; // int32
     }
 
     namespace CDOTA_Unit_Hero_MonkeyKing {
-        constexpr uint32_t mb_MonkeyHasArcana = 0x1D98; // bool
-        constexpr uint32_t m_nTreeDisguise = 0x1D9C; // uint32
-        constexpr uint32_t m_nPerchedTree = 0x1DA0; // uint32
-        constexpr uint32_t m_vLastPos = 0x1DA4; // Vector
-        constexpr uint32_t m_bIsOnCloud = 0x1DB0; // bool
-        constexpr uint32_t m_fTotalDistOnCloud = 0x1DB4; // float32
-        constexpr uint32_t m_fTotalDistoffCloud = 0x1DB8; // float32
-        constexpr uint32_t m_fBackOnCloudThresh = 0x1DBC; // float32
+        constexpr uint32_t mb_MonkeyHasArcana = 0x1D90; // bool
+        constexpr uint32_t m_nTreeDisguise = 0x1D94; // uint32
+        constexpr uint32_t m_nPerchedTree = 0x1D98; // uint32
+        constexpr uint32_t m_vLastPos = 0x1D9C; // Vector
+        constexpr uint32_t m_bIsOnCloud = 0x1DA8; // bool
+        constexpr uint32_t m_fTotalDistOnCloud = 0x1DAC; // float32
+        constexpr uint32_t m_fTotalDistoffCloud = 0x1DB0; // float32
+        constexpr uint32_t m_fBackOnCloudThresh = 0x1DB4; // float32
     }
 
     namespace CDOTA_Unit_Hero_Muerta {
-        constexpr uint32_t m_hDoubleShotTarget = 0x1D98; // CHandle< CBaseEntity >
+        constexpr uint32_t m_hDoubleShotTarget = 0x1D90; // CHandle< CBaseEntity >
     }
 
     namespace CDOTA_Unit_Hero_Nevermore {
-        constexpr uint32_t m_nFXDeath = 0x1D98; // ParticleIndex_t
+        constexpr uint32_t m_nFXDeath = 0x1D90; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_Obsidian_Destroyer {
-        constexpr uint32_t m_nFXDeath = 0x1D98; // ParticleIndex_t
+        constexpr uint32_t m_nFXDeath = 0x1D90; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_Oracle {
-        constexpr uint32_t m_nFXDeath = 0x1D98; // ParticleIndex_t
+        constexpr uint32_t m_nFXDeath = 0x1D90; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_PhantomAssassin {
-        constexpr uint32_t m_nFXDeath = 0x1D98; // ParticleIndex_t
-        constexpr uint32_t m_nArcanaLevel = 0x1D9C; // uint32
+        constexpr uint32_t m_nFXDeath = 0x1D90; // ParticleIndex_t
+        constexpr uint32_t m_nArcanaLevel = 0x1D94; // uint32
     }
 
     namespace CDOTA_Unit_Hero_PhantomLancer {
-        constexpr uint32_t m_bInventoryEnabled = 0x1D98; // bool
+        constexpr uint32_t m_bInventoryEnabled = 0x1D90; // bool
     }
 
     namespace CDOTA_Unit_Hero_Razor {
-        constexpr uint32_t m_nTargetAngle = 0x1D98; // int32
-        constexpr uint32_t m_nTargetRange = 0x1D9C; // int32
+        constexpr uint32_t m_nTargetAngle = 0x1D90; // int32
+        constexpr uint32_t m_nTargetRange = 0x1D94; // int32
     }
 
     namespace CDOTA_Unit_Hero_Rubick {
-        constexpr uint32_t m_stolenAbilityColorHSV1 = 0x1D98; // Vector
-        constexpr uint32_t m_stolenAbilityColorHSV2 = 0x1DA4; // Vector
-        constexpr uint32_t m_stolenAbilityFXColorHSV = 0x1DB0; // Vector
-        constexpr uint32_t m_bHasInitializedAbilityColors = 0x1DBC; // bool
+        constexpr uint32_t m_stolenAbilityColorHSV1 = 0x1D90; // Vector
+        constexpr uint32_t m_stolenAbilityColorHSV2 = 0x1D9C; // Vector
+        constexpr uint32_t m_stolenAbilityFXColorHSV = 0x1DA8; // Vector
+        constexpr uint32_t m_bHasInitializedAbilityColors = 0x1DB4; // bool
     }
 
     namespace CDOTA_Unit_Hero_SkeletonKing {
-        constexpr uint32_t m_nSkeletonWarriors = 0x1D98; // int32
-        constexpr uint32_t m_vecInitialHeroKillBitmask = 0x1D9C; // int32[5]
-        constexpr uint32_t m_vecInGameHeroKillBitmask = 0x1DB0; // int32[5]
+        constexpr uint32_t m_nSkeletonWarriors = 0x1D90; // int32
+        constexpr uint32_t m_vecInitialHeroKillBitmask = 0x1D94; // int32[5]
+        constexpr uint32_t m_vecInGameHeroKillBitmask = 0x1DA8; // int32[5]
     }
 
     namespace CDOTA_Unit_Hero_Spectre {
-        constexpr uint32_t m_bArcanaKillstreakCompleted = 0x1D98; // bool
-        constexpr uint32_t m_unCurrentArcanaKillStreak = 0x1D99; // uint8
-        constexpr uint32_t m_unBestArcanaKillStreak = 0x1D9A; // uint8
-        constexpr uint32_t m_nVictimPlayerID = 0x1D9C; // PlayerID_t
-        constexpr uint32_t m_bArcanaKillstreakRecordBroken = 0x1DA0; // bool
+        constexpr uint32_t m_bArcanaKillstreakCompleted = 0x1D90; // bool
+        constexpr uint32_t m_unCurrentArcanaKillStreak = 0x1D91; // uint8
+        constexpr uint32_t m_unBestArcanaKillStreak = 0x1D92; // uint8
+        constexpr uint32_t m_nVictimPlayerID = 0x1D94; // PlayerID_t
+        constexpr uint32_t m_bArcanaKillstreakRecordBroken = 0x1D98; // bool
     }
 
     namespace CDOTA_Unit_Hero_Techies {
-        constexpr uint32_t m_bLastDeathFromSuicide = 0x1D98; // bool
+        constexpr uint32_t m_bLastDeathFromSuicide = 0x1D90; // bool
     }
 
     namespace CDOTA_Unit_Hero_Terrorblade {
-        constexpr uint32_t m_nFXDeath = 0x1D98; // ParticleIndex_t
-        constexpr uint32_t m_szResponseCriteria = 0x1DA0; // CUtlString
-        constexpr uint32_t m_nArcanaColor = 0x1DA8; // uint32
+        constexpr uint32_t m_nFXDeath = 0x1D90; // ParticleIndex_t
+        constexpr uint32_t m_szResponseCriteria = 0x1D98; // CUtlString
+        constexpr uint32_t m_nArcanaColor = 0x1DA0; // uint32
     }
 
     namespace CDOTA_Unit_Hero_Tiny {
-        constexpr uint32_t m_hTreeWearable = 0x1D98; // CHandle< CBaseEntity >
-        constexpr uint32_t m_nFXIndexScepterAmbient = 0x1D9C; // ParticleIndex_t
-        constexpr uint32_t m_hIllusionOwner = 0x1DA0; // CHandle< CDOTA_BaseNPC >
-        constexpr uint32_t m_bIllusionHasTree = 0x1DA4; // bool
+        constexpr uint32_t m_hTreeWearable = 0x1D90; // CHandle< CBaseEntity >
+        constexpr uint32_t m_nFXIndexScepterAmbient = 0x1D94; // ParticleIndex_t
+        constexpr uint32_t m_hIllusionOwner = 0x1D98; // CHandle< CDOTA_BaseNPC >
+        constexpr uint32_t m_bIllusionHasTree = 0x1D9C; // bool
     }
 
     namespace CDOTA_Unit_Hero_Windrunner {
-        constexpr uint32_t m_nTargetAngle = 0x1D98; // int32
-        constexpr uint32_t m_nFXDeath = 0x1D9C; // ParticleIndex_t
+        constexpr uint32_t m_nTargetAngle = 0x1D90; // int32
+        constexpr uint32_t m_nFXDeath = 0x1D94; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_Winter_Wyvern {
-        constexpr uint32_t m_nFXDeath = 0x1D98; // ParticleIndex_t
+        constexpr uint32_t m_nFXDeath = 0x1D90; // ParticleIndex_t
     }
 
     namespace CDOTA_Unit_Hero_Wisp {
-        constexpr uint32_t m_nAmbientFXIndex = 0x1D98; // ParticleIndex_t
-        constexpr uint32_t m_nStunnedFXIndex = 0x1D9C; // ParticleIndex_t
-        constexpr uint32_t m_nTalkFXIndex = 0x1DA0; // ParticleIndex_t
-        constexpr uint32_t m_nIllusionFXIndex = 0x1DA4; // ParticleIndex_t
-        constexpr uint32_t m_bParticleHexed = 0x1DA8; // bool
-        constexpr uint32_t m_bParticleStunned = 0x1DA9; // bool
-        constexpr uint32_t m_bDetermineAmbientEffect = 0x1DAA; // bool
-        constexpr uint32_t m_flPrevHealth = 0x1DAC; // float32
+        constexpr uint32_t m_nAmbientFXIndex = 0x1D90; // ParticleIndex_t
+        constexpr uint32_t m_nStunnedFXIndex = 0x1D94; // ParticleIndex_t
+        constexpr uint32_t m_nTalkFXIndex = 0x1D98; // ParticleIndex_t
+        constexpr uint32_t m_nIllusionFXIndex = 0x1D9C; // ParticleIndex_t
+        constexpr uint32_t m_bParticleHexed = 0x1DA0; // bool
+        constexpr uint32_t m_bParticleStunned = 0x1DA1; // bool
+        constexpr uint32_t m_bDetermineAmbientEffect = 0x1DA2; // bool
+        constexpr uint32_t m_flPrevHealth = 0x1DA4; // float32
     }
 
     namespace CDOTA_Unit_LoopingSound {
@@ -24739,16 +24738,16 @@ namespace Offsets {
     }
 
     namespace CDOTA_Unit_SpiritBear {
-        constexpr uint32_t m_bShouldRespawn = 0x1D98; // bool
-        constexpr uint32_t m_bStolen = 0x1D99; // bool
+        constexpr uint32_t m_bShouldRespawn = 0x1D90; // bool
+        constexpr uint32_t m_bStolen = 0x1D91; // bool
     }
 
     namespace CDOTA_Unit_TargetDummy {
-        constexpr uint32_t m_flDamageTaken = 0x1D98; // float32
-        constexpr uint32_t m_flLastHit = 0x1D9C; // float32
-        constexpr uint32_t m_flStartDamageTime = 0x1DA0; // GameTime_t
-        constexpr uint32_t m_flLastTargetDummyDamageTime = 0x1DA4; // GameTime_t
-        constexpr uint32_t m_bIsMoving = 0x1DA8; // bool
+        constexpr uint32_t m_flDamageTaken = 0x1D90; // float32
+        constexpr uint32_t m_flLastHit = 0x1D94; // float32
+        constexpr uint32_t m_flStartDamageTime = 0x1D98; // GameTime_t
+        constexpr uint32_t m_flLastTargetDummyDamageTime = 0x1D9C; // GameTime_t
+        constexpr uint32_t m_bIsMoving = 0x1DA0; // bool
     }
 
     namespace CDOTA_Unit_Tidehunter_Anchor {

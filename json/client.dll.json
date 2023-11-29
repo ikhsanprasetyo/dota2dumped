@@ -6929,7 +6929,7 @@
     "buff_duration": 4824,
     "damage_per_tick": 4844,
     "debuff_duration": 4828,
-    "m_bIsReflection": 4864,
+    "m_bIsReflection": 4868,
     "m_fLastEffectsTime": 4816,
     "m_fStartTime": 4808,
     "m_nHeroTickDamageApplied": 4812,
@@ -6939,6 +6939,7 @@
     "movespeed_bonus_pct": 4840,
     "radius": 4820,
     "shard_bonus_damage_pct": 4856,
+    "shard_creep_penalty": 4864,
     "shard_heal_pct": 4860,
     "tick_rate": 4848
   },
@@ -16050,25 +16051,25 @@
   },
   "C_DOTAGameManager": {
     "__m_pChainEntity": 48,
-    "m_AddonInfoKeyValues": 2168,
-    "m_CurrentHeroAvailable": 3624,
-    "m_bCustomGame": 976,
-    "m_bEventGame": 977,
-    "m_bGameModeFilteredAbilities": 979,
-    "m_bGameModeWantsDefaultNeutralItemSchema": 978,
-    "m_bLoadedPortraits": 3608,
-    "m_pAnimationStatues": 2128,
-    "m_pBotScriptsDedicatedServer": 2136,
-    "m_pControlGroupsKeyValues": 3616,
-    "m_pCountryKeyValues": 2224,
-    "m_pDivisionKeyValues": 2112,
-    "m_pMatchGroupsKeyValues": 2120,
-    "m_pRegionKeyValues": 2152,
-    "m_pSurveyQuestionData": 2160,
-    "m_pTutorialLessonKeyValues": 2104,
-    "m_pkvWardPlacementLocations": 2144,
-    "m_szAddOnGame": 980,
-    "m_szAddOnMap": 1108
+    "m_AddonInfoKeyValues": 2216,
+    "m_CurrentHeroAvailable": 3672,
+    "m_bCustomGame": 1000,
+    "m_bEventGame": 1001,
+    "m_bGameModeFilteredAbilities": 1003,
+    "m_bGameModeWantsDefaultNeutralItemSchema": 1002,
+    "m_bLoadedPortraits": 3656,
+    "m_pAnimationStatues": 2176,
+    "m_pBotScriptsDedicatedServer": 2184,
+    "m_pControlGroupsKeyValues": 3664,
+    "m_pCountryKeyValues": 2272,
+    "m_pDivisionKeyValues": 2160,
+    "m_pMatchGroupsKeyValues": 2168,
+    "m_pRegionKeyValues": 2200,
+    "m_pSurveyQuestionData": 2208,
+    "m_pTutorialLessonKeyValues": 2152,
+    "m_pkvWardPlacementLocations": 2192,
+    "m_szAddOnGame": 1004,
+    "m_szAddOnMap": 1132
   },
   "C_DOTAGameManagerProxy": {
     "m_pGameManager": 1336
@@ -18054,9 +18055,6 @@
   },
   "C_DOTA_Ability_VengefulSpirit_Command_Aura": {
     "m_hScepterIllusion": 1456
-  },
-  "C_DOTA_Ability_VengefulSpirit_Magic_Missile": {
-    "m_bShouldBounce": 1456
   },
   "C_DOTA_Ability_VengefulSpirit_Nether_Swap": {
     "damage": 1460,
