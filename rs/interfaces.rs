@@ -166,24 +166,24 @@ pub mod soundsystem_dll {
 }
 
 pub mod steamclient64_dll {
-    pub const IVALIDATE001: usize = 0x84FD80;
-    pub const CLIENTENGINE_INTERFACE_VERSION005: usize = 0x84BC30;
-    pub const SteamClient021: usize = 0x6460C0;
-    pub const SteamClient020: usize = 0x6460B0;
-    pub const SteamClient019: usize = 0x6460A0;
-    pub const SteamClient018: usize = 0x646090;
-    pub const SteamClient017: usize = 0x646080;
-    pub const SteamClient016: usize = 0x646070;
-    pub const SteamClient015: usize = 0x646060;
-    pub const SteamClient014: usize = 0x646050;
-    pub const SteamClient013: usize = 0x646040;
-    pub const SteamClient012: usize = 0x646030;
-    pub const SteamClient011: usize = 0x646020;
-    pub const SteamClient010: usize = 0x646010;
-    pub const SteamClient009: usize = 0x646000;
-    pub const SteamClient008: usize = 0x645FF0;
-    pub const SteamClient007: usize = 0x645FE0;
-    pub const SteamClient006: usize = 0x645FD0;
+    pub const IVALIDATE001: usize = 0x8503A0;
+    pub const CLIENTENGINE_INTERFACE_VERSION005: usize = 0x84C250;
+    pub const SteamClient021: usize = 0x6466D0;
+    pub const SteamClient020: usize = 0x6466C0;
+    pub const SteamClient019: usize = 0x6466B0;
+    pub const SteamClient018: usize = 0x6466A0;
+    pub const SteamClient017: usize = 0x646690;
+    pub const SteamClient016: usize = 0x646680;
+    pub const SteamClient015: usize = 0x646670;
+    pub const SteamClient014: usize = 0x646660;
+    pub const SteamClient013: usize = 0x646650;
+    pub const SteamClient012: usize = 0x646640;
+    pub const SteamClient011: usize = 0x646630;
+    pub const SteamClient010: usize = 0x646620;
+    pub const SteamClient009: usize = 0x646610;
+    pub const SteamClient008: usize = 0x646600;
+    pub const SteamClient007: usize = 0x6465F0;
+    pub const SteamClient006: usize = 0x6465E0;
     pub const p2pvoice002: usize = 0xD97D0;
     pub const p2pvoicesingleton002: usize = 0xD6200;
 }

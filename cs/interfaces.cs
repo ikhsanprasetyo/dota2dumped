@@ -164,24 +164,24 @@ public static class soundsystem_dll {
 }
 
 public static class steamclient64_dll {
-    public const nint IVALIDATE001 = 0x84FD80;
-    public const nint CLIENTENGINE_INTERFACE_VERSION005 = 0x84BC30;
-    public const nint SteamClient021 = 0x6460C0;
-    public const nint SteamClient020 = 0x6460B0;
-    public const nint SteamClient019 = 0x6460A0;
-    public const nint SteamClient018 = 0x646090;
-    public const nint SteamClient017 = 0x646080;
-    public const nint SteamClient016 = 0x646070;
-    public const nint SteamClient015 = 0x646060;
-    public const nint SteamClient014 = 0x646050;
-    public const nint SteamClient013 = 0x646040;
-    public const nint SteamClient012 = 0x646030;
-    public const nint SteamClient011 = 0x646020;
-    public const nint SteamClient010 = 0x646010;
-    public const nint SteamClient009 = 0x646000;
-    public const nint SteamClient008 = 0x645FF0;
-    public const nint SteamClient007 = 0x645FE0;
-    public const nint SteamClient006 = 0x645FD0;
+    public const nint IVALIDATE001 = 0x8503A0;
+    public const nint CLIENTENGINE_INTERFACE_VERSION005 = 0x84C250;
+    public const nint SteamClient021 = 0x6466D0;
+    public const nint SteamClient020 = 0x6466C0;
+    public const nint SteamClient019 = 0x6466B0;
+    public const nint SteamClient018 = 0x6466A0;
+    public const nint SteamClient017 = 0x646690;
+    public const nint SteamClient016 = 0x646680;
+    public const nint SteamClient015 = 0x646670;
+    public const nint SteamClient014 = 0x646660;
+    public const nint SteamClient013 = 0x646650;
+    public const nint SteamClient012 = 0x646640;
+    public const nint SteamClient011 = 0x646630;
+    public const nint SteamClient010 = 0x646620;
+    public const nint SteamClient009 = 0x646610;
+    public const nint SteamClient008 = 0x646600;
+    public const nint SteamClient007 = 0x6465F0;
+    public const nint SteamClient006 = 0x6465E0;
     public const nint p2pvoice002 = 0xD97D0;
     public const nint p2pvoicesingleton002 = 0xD6200;
 }

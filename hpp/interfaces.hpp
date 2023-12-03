@@ -1,4 +1,4 @@
-// printed at 2023-11-29 20:52:43.988534800 +07:00	from Dota2 7.34d
+// printed at 2023-12-03 10:40:18.080354500 +07:00	from Dota2 7.34d
 #pragma once
 #include <cstdint>
 
@@ -169,24 +169,24 @@ namespace Offsets {
     }
 
     namespace steamclient64_dll {
-        constexpr uint32_t IVALIDATE001 = 0x84FD80;
-        constexpr uint32_t CLIENTENGINE_INTERFACE_VERSION005 = 0x84BC30;
-        constexpr uint32_t SteamClient021 = 0x6460C0;
-        constexpr uint32_t SteamClient020 = 0x6460B0;
-        constexpr uint32_t SteamClient019 = 0x6460A0;
-        constexpr uint32_t SteamClient018 = 0x646090;
-        constexpr uint32_t SteamClient017 = 0x646080;
-        constexpr uint32_t SteamClient016 = 0x646070;
-        constexpr uint32_t SteamClient015 = 0x646060;
-        constexpr uint32_t SteamClient014 = 0x646050;
-        constexpr uint32_t SteamClient013 = 0x646040;
-        constexpr uint32_t SteamClient012 = 0x646030;
-        constexpr uint32_t SteamClient011 = 0x646020;
-        constexpr uint32_t SteamClient010 = 0x646010;
-        constexpr uint32_t SteamClient009 = 0x646000;
-        constexpr uint32_t SteamClient008 = 0x645FF0;
-        constexpr uint32_t SteamClient007 = 0x645FE0;
-        constexpr uint32_t SteamClient006 = 0x645FD0;
+        constexpr uint32_t IVALIDATE001 = 0x8503A0;
+        constexpr uint32_t CLIENTENGINE_INTERFACE_VERSION005 = 0x84C250;
+        constexpr uint32_t SteamClient021 = 0x6466D0;
+        constexpr uint32_t SteamClient020 = 0x6466C0;
+        constexpr uint32_t SteamClient019 = 0x6466B0;
+        constexpr uint32_t SteamClient018 = 0x6466A0;
+        constexpr uint32_t SteamClient017 = 0x646690;
+        constexpr uint32_t SteamClient016 = 0x646680;
+        constexpr uint32_t SteamClient015 = 0x646670;
+        constexpr uint32_t SteamClient014 = 0x646660;
+        constexpr uint32_t SteamClient013 = 0x646650;
+        constexpr uint32_t SteamClient012 = 0x646640;
+        constexpr uint32_t SteamClient011 = 0x646630;
+        constexpr uint32_t SteamClient010 = 0x646620;
+        constexpr uint32_t SteamClient009 = 0x646610;
+        constexpr uint32_t SteamClient008 = 0x646600;
+        constexpr uint32_t SteamClient007 = 0x6465F0;
+        constexpr uint32_t SteamClient006 = 0x6465E0;
         constexpr uint32_t p2pvoice002 = 0xD97D0;
         constexpr uint32_t p2pvoicesingleton002 = 0xD6200;
     }
