@@ -1,4 +1,4 @@
-// printed at 2023-12-05 22:45:11.914559200 +07:00
+// printed at 2023-12-16 12:03:37.770867100 +07:00
 #pragma once
 #include <cstdint>
 
@@ -475,6 +475,7 @@ namespace Offsets {
         constexpr uint32_t m_HitboxSetName = 0xF50; // char[128]
         constexpr uint32_t m_bLocalCoords = 0xFD0; // bool
         constexpr uint32_t m_bUseBones = 0xFD1; // bool
+        constexpr uint32_t m_bUseMesh = 0xFD2; // bool
         constexpr uint32_t m_flShellSize = 0xFD8; // CParticleCollectionFloatInput
     }
 

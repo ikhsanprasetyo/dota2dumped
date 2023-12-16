@@ -470,6 +470,7 @@ public static class C_INIT_CreateOnModel {
     public const nint m_HitboxSetName = 0xF50; // char[128]
     public const nint m_bLocalCoords = 0xFD0; // bool
     public const nint m_bUseBones = 0xFD1; // bool
+    public const nint m_bUseMesh = 0xFD2; // bool
     public const nint m_flShellSize = 0xFD8; // CParticleCollectionFloatInput
 }
 

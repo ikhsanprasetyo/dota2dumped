@@ -472,6 +472,7 @@ pub mod C_INIT_CreateOnModel {
     pub const m_HitboxSetName: usize = 0xF50; // char[128]
     pub const m_bLocalCoords: usize = 0xFD0; // bool
     pub const m_bUseBones: usize = 0xFD1; // bool
+    pub const m_bUseMesh: usize = 0xFD2; // bool
     pub const m_flShellSize: usize = 0xFD8; // CParticleCollectionFloatInput
 }
 

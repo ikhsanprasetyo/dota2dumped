@@ -433,6 +433,7 @@
     "m_HitboxSetName": 3920,
     "m_bLocalCoords": 4048,
     "m_bUseBones": 4049,
+    "m_bUseMesh": 4050,
     "m_flBoneVelocity": 2288,
     "m_flMaxBoneVelocity": 2292,
     "m_flShellSize": 4056,
