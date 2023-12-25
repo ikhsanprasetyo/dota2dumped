@@ -1,4 +1,4 @@
-// printed at 2023-12-22 22:34:47.290363300 +07:00
+// printed at 2023-12-25 22:26:23.318612600 +07:00
 #pragma once
 #include <cstdint>
 
@@ -18015,7 +18015,7 @@ namespace Offsets {
         constexpr uint32_t fiery_soul_stack_duration = 0x1344; // float32
         constexpr uint32_t m_nFXIndex = 0x1348; // ParticleIndex_t
         constexpr uint32_t m_flFierySoulDieTime = 0x134C; // GameTime_t
-        constexpr uint32_t m_flLastFierySoalFullStackTime = 0x1350; // GameTime_t
+        constexpr uint32_t m_flLastFierySoulFullStackTime = 0x1350; // GameTime_t
     }
 
     namespace CDOTA_Modifier_Lina_Fiery_Cloak {

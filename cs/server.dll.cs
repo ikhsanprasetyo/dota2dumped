@@ -18010,7 +18010,7 @@ public static class CDOTA_Modifier_Lina_FierySoul {
     public const nint fiery_soul_stack_duration = 0x1344; // float32
     public const nint m_nFXIndex = 0x1348; // ParticleIndex_t
     public const nint m_flFierySoulDieTime = 0x134C; // GameTime_t
-    public const nint m_flLastFierySoalFullStackTime = 0x1350; // GameTime_t
+    public const nint m_flLastFierySoulFullStackTime = 0x1350; // GameTime_t
 }
 
 public static class CDOTA_Modifier_Lina_Fiery_Cloak {

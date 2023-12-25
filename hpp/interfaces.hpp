@@ -1,4 +1,4 @@
-// printed at 2023-12-21 22:00:24.331613700 +07:00
+// printed at 2023-12-25 22:26:25.999884100 +07:00
 #pragma once
 #include <cstdint>
 
@@ -9,16 +9,16 @@ namespace Offsets {
     }
 
     namespace client_dll {
-        constexpr uint32_t PanoramaUIClient001 = 0x2486940;
-        constexpr uint32_t PlayButtonService001 = 0x1FF9B80;
-        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1BB1E00;
-        constexpr uint32_t LegacyGameUI001 = 0x1B957D0;
-        constexpr uint32_t Source2ClientPrediction001 = 0x157A430;
-        constexpr uint32_t ClientToolsInfo_001 = 0x1528F40;
-        constexpr uint32_t Source2Client002 = 0x1528F60;
-        constexpr uint32_t GameClientExports001 = 0x1528F50;
-        constexpr uint32_t Source2ClientConfig001 = 0x12B89F0;
-        constexpr uint32_t Source2ClientUI001 = 0x3F39E0;
+        constexpr uint32_t PanoramaUIClient001 = 0x248AB50;
+        constexpr uint32_t PlayButtonService001 = 0x1FFDA00;
+        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1BB1FF0;
+        constexpr uint32_t LegacyGameUI001 = 0x1B959C0;
+        constexpr uint32_t Source2ClientPrediction001 = 0x157A3A0;
+        constexpr uint32_t ClientToolsInfo_001 = 0x1528EB0;
+        constexpr uint32_t Source2Client002 = 0x1528ED0;
+        constexpr uint32_t GameClientExports001 = 0x1528EC0;
+        constexpr uint32_t Source2ClientConfig001 = 0x12B8960;
+        constexpr uint32_t Source2ClientUI001 = 0x3F3AF0;
     }
 
     namespace engine2_dll {
@@ -151,14 +151,14 @@ namespace Offsets {
     }
 
     namespace server_dll {
-        constexpr uint32_t NavGameTest001 = 0x2044210;
-        constexpr uint32_t Source2GameDirector001 = 0x1AD9E80;
-        constexpr uint32_t ServerToolsInfo_001 = 0x1774EA0;
-        constexpr uint32_t Source2GameClients001 = 0x1774EB0;
-        constexpr uint32_t Source2GameEntities001 = 0x1774EC0;
-        constexpr uint32_t Source2Server001 = 0x1774ED0;
-        constexpr uint32_t Source2ServerConfig001 = 0x150E6B0;
-        constexpr uint32_t EntitySubclassUtilsV001 = 0x3BA080;
+        constexpr uint32_t NavGameTest001 = 0x2043FC0;
+        constexpr uint32_t Source2GameDirector001 = 0x1AD9C30;
+        constexpr uint32_t ServerToolsInfo_001 = 0x1774C50;
+        constexpr uint32_t Source2GameClients001 = 0x1774C60;
+        constexpr uint32_t Source2GameEntities001 = 0x1774C70;
+        constexpr uint32_t Source2Server001 = 0x1774C80;
+        constexpr uint32_t Source2ServerConfig001 = 0x150E460;
+        constexpr uint32_t EntitySubclassUtilsV001 = 0x3BA0B0;
     }
 
     namespace soundsystem_dll {

@@ -18012,7 +18012,7 @@ pub mod CDOTA_Modifier_Lina_FierySoul {
     pub const fiery_soul_stack_duration: usize = 0x1344; // float32
     pub const m_nFXIndex: usize = 0x1348; // ParticleIndex_t
     pub const m_flFierySoulDieTime: usize = 0x134C; // GameTime_t
-    pub const m_flLastFierySoalFullStackTime: usize = 0x1350; // GameTime_t
+    pub const m_flLastFierySoulFullStackTime: usize = 0x1350; // GameTime_t
 }
 
 pub mod CDOTA_Modifier_Lina_Fiery_Cloak {

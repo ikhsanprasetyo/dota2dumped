@@ -15573,7 +15573,7 @@
     "fiery_soul_move_speed_bonus": 4924,
     "fiery_soul_stack_duration": 4932,
     "m_flFierySoulDieTime": 4940,
-    "m_flLastFierySoalFullStackTime": 4944,
+    "m_flLastFierySoulFullStackTime": 4944,
     "m_nFXIndex": 4936
   },
   "CDOTA_Modifier_Lina_Fiery_Cloak": {
