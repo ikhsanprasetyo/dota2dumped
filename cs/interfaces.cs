@@ -4,15 +4,15 @@ public static class animationsystem_dll {
 }
 
 public static class client_dll {
-    public const nint PanoramaUIClient001 = 0x248AB50;
-    public const nint PlayButtonService001 = 0x1FFDA00;
-    public const nint DOTA_CLIENT_GCCLIENT = 0x1BB1FF0;
-    public const nint LegacyGameUI001 = 0x1B959C0;
-    public const nint Source2ClientPrediction001 = 0x157A3A0;
-    public const nint ClientToolsInfo_001 = 0x1528EB0;
-    public const nint Source2Client002 = 0x1528ED0;
-    public const nint GameClientExports001 = 0x1528EC0;
-    public const nint Source2ClientConfig001 = 0x12B8960;
+    public const nint PanoramaUIClient001 = 0x248AC90;
+    public const nint PlayButtonService001 = 0x1FFDAF0;
+    public const nint DOTA_CLIENT_GCCLIENT = 0x1BB2080;
+    public const nint LegacyGameUI001 = 0x1B95A50;
+    public const nint Source2ClientPrediction001 = 0x157A430;
+    public const nint ClientToolsInfo_001 = 0x1528F40;
+    public const nint Source2Client002 = 0x1528F60;
+    public const nint GameClientExports001 = 0x1528F50;
+    public const nint Source2ClientConfig001 = 0x12B89F0;
     public const nint Source2ClientUI001 = 0x3F3AF0;
 }
 
@@ -146,13 +146,13 @@ public static class schemasystem_dll {
 }
 
 public static class server_dll {
-    public const nint NavGameTest001 = 0x2043FC0;
-    public const nint Source2GameDirector001 = 0x1AD9C30;
-    public const nint ServerToolsInfo_001 = 0x1774C50;
-    public const nint Source2GameClients001 = 0x1774C60;
-    public const nint Source2GameEntities001 = 0x1774C70;
-    public const nint Source2Server001 = 0x1774C80;
-    public const nint Source2ServerConfig001 = 0x150E460;
+    public const nint NavGameTest001 = 0x2044010;
+    public const nint Source2GameDirector001 = 0x1AD9C60;
+    public const nint ServerToolsInfo_001 = 0x1774C80;
+    public const nint Source2GameClients001 = 0x1774C90;
+    public const nint Source2GameEntities001 = 0x1774CA0;
+    public const nint Source2Server001 = 0x1774CB0;
+    public const nint Source2ServerConfig001 = 0x150E490;
     public const nint EntitySubclassUtilsV001 = 0x3BA0B0;
 }
 
@@ -187,10 +187,10 @@ public static class steamclient64_dll {
 }
 
 public static class tier0_dll {
-    public const nint VStringTokenSystem001 = 0x18F5A0;
-    public const nint TestScriptMgr001 = 0x141530;
-    public const nint VProcessUtils002 = 0x131520;
-    public const nint VEngineCvar007 = 0x63550;
+    public const nint VStringTokenSystem001 = 0x18F630;
+    public const nint TestScriptMgr001 = 0x1415C0;
+    public const nint VProcessUtils002 = 0x1315B0;
+    public const nint VEngineCvar007 = 0x635E0;
 }
 
 public static class v8system_dll {

@@ -6,15 +6,15 @@ pub mod animationsystem_dll {
 }
 
 pub mod client_dll {
-    pub const PanoramaUIClient001: usize = 0x248AB50;
-    pub const PlayButtonService001: usize = 0x1FFDA00;
-    pub const DOTA_CLIENT_GCCLIENT: usize = 0x1BB1FF0;
-    pub const LegacyGameUI001: usize = 0x1B959C0;
-    pub const Source2ClientPrediction001: usize = 0x157A3A0;
-    pub const ClientToolsInfo_001: usize = 0x1528EB0;
-    pub const Source2Client002: usize = 0x1528ED0;
-    pub const GameClientExports001: usize = 0x1528EC0;
-    pub const Source2ClientConfig001: usize = 0x12B8960;
+    pub const PanoramaUIClient001: usize = 0x248AC90;
+    pub const PlayButtonService001: usize = 0x1FFDAF0;
+    pub const DOTA_CLIENT_GCCLIENT: usize = 0x1BB2080;
+    pub const LegacyGameUI001: usize = 0x1B95A50;
+    pub const Source2ClientPrediction001: usize = 0x157A430;
+    pub const ClientToolsInfo_001: usize = 0x1528F40;
+    pub const Source2Client002: usize = 0x1528F60;
+    pub const GameClientExports001: usize = 0x1528F50;
+    pub const Source2ClientConfig001: usize = 0x12B89F0;
     pub const Source2ClientUI001: usize = 0x3F3AF0;
 }
 
@@ -148,13 +148,13 @@ pub mod schemasystem_dll {
 }
 
 pub mod server_dll {
-    pub const NavGameTest001: usize = 0x2043FC0;
-    pub const Source2GameDirector001: usize = 0x1AD9C30;
-    pub const ServerToolsInfo_001: usize = 0x1774C50;
-    pub const Source2GameClients001: usize = 0x1774C60;
-    pub const Source2GameEntities001: usize = 0x1774C70;
-    pub const Source2Server001: usize = 0x1774C80;
-    pub const Source2ServerConfig001: usize = 0x150E460;
+    pub const NavGameTest001: usize = 0x2044010;
+    pub const Source2GameDirector001: usize = 0x1AD9C60;
+    pub const ServerToolsInfo_001: usize = 0x1774C80;
+    pub const Source2GameClients001: usize = 0x1774C90;
+    pub const Source2GameEntities001: usize = 0x1774CA0;
+    pub const Source2Server001: usize = 0x1774CB0;
+    pub const Source2ServerConfig001: usize = 0x150E490;
     pub const EntitySubclassUtilsV001: usize = 0x3BA0B0;
 }
 
@@ -189,10 +189,10 @@ pub mod steamclient64_dll {
 }
 
 pub mod tier0_dll {
-    pub const VStringTokenSystem001: usize = 0x18F5A0;
-    pub const TestScriptMgr001: usize = 0x141530;
-    pub const VProcessUtils002: usize = 0x131520;
-    pub const VEngineCvar007: usize = 0x63550;
+    pub const VStringTokenSystem001: usize = 0x18F630;
+    pub const TestScriptMgr001: usize = 0x1415C0;
+    pub const VProcessUtils002: usize = 0x1315B0;
+    pub const VEngineCvar007: usize = 0x635E0;
 }
 
 pub mod v8system_dll {

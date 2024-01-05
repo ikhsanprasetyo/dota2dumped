@@ -1,4 +1,4 @@
-// printed at 2023-12-28 00:11:38.011066900 +07:00
+// printed at 2024-01-05 22:44:53.350953100 +07:00
 #pragma once
 #include <cstdint>
 
@@ -9,15 +9,15 @@ namespace Offsets {
     }
 
     namespace client_dll {
-        constexpr uint32_t PanoramaUIClient001 = 0x248AB50;
-        constexpr uint32_t PlayButtonService001 = 0x1FFDA00;
-        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1BB1FF0;
-        constexpr uint32_t LegacyGameUI001 = 0x1B959C0;
-        constexpr uint32_t Source2ClientPrediction001 = 0x157A3A0;
-        constexpr uint32_t ClientToolsInfo_001 = 0x1528EB0;
-        constexpr uint32_t Source2Client002 = 0x1528ED0;
-        constexpr uint32_t GameClientExports001 = 0x1528EC0;
-        constexpr uint32_t Source2ClientConfig001 = 0x12B8960;
+        constexpr uint32_t PanoramaUIClient001 = 0x248AC90;
+        constexpr uint32_t PlayButtonService001 = 0x1FFDAF0;
+        constexpr uint32_t DOTA_CLIENT_GCCLIENT = 0x1BB2080;
+        constexpr uint32_t LegacyGameUI001 = 0x1B95A50;
+        constexpr uint32_t Source2ClientPrediction001 = 0x157A430;
+        constexpr uint32_t ClientToolsInfo_001 = 0x1528F40;
+        constexpr uint32_t Source2Client002 = 0x1528F60;
+        constexpr uint32_t GameClientExports001 = 0x1528F50;
+        constexpr uint32_t Source2ClientConfig001 = 0x12B89F0;
         constexpr uint32_t Source2ClientUI001 = 0x3F3AF0;
     }
 
@@ -151,13 +151,13 @@ namespace Offsets {
     }
 
     namespace server_dll {
-        constexpr uint32_t NavGameTest001 = 0x2043FC0;
-        constexpr uint32_t Source2GameDirector001 = 0x1AD9C30;
-        constexpr uint32_t ServerToolsInfo_001 = 0x1774C50;
-        constexpr uint32_t Source2GameClients001 = 0x1774C60;
-        constexpr uint32_t Source2GameEntities001 = 0x1774C70;
-        constexpr uint32_t Source2Server001 = 0x1774C80;
-        constexpr uint32_t Source2ServerConfig001 = 0x150E460;
+        constexpr uint32_t NavGameTest001 = 0x2044010;
+        constexpr uint32_t Source2GameDirector001 = 0x1AD9C60;
+        constexpr uint32_t ServerToolsInfo_001 = 0x1774C80;
+        constexpr uint32_t Source2GameClients001 = 0x1774C90;
+        constexpr uint32_t Source2GameEntities001 = 0x1774CA0;
+        constexpr uint32_t Source2Server001 = 0x1774CB0;
+        constexpr uint32_t Source2ServerConfig001 = 0x150E490;
         constexpr uint32_t EntitySubclassUtilsV001 = 0x3BA0B0;
     }
 
@@ -192,10 +192,10 @@ namespace Offsets {
     }
 
     namespace tier0_dll {
-        constexpr uint32_t VStringTokenSystem001 = 0x18F5A0;
-        constexpr uint32_t TestScriptMgr001 = 0x141530;
-        constexpr uint32_t VProcessUtils002 = 0x131520;
-        constexpr uint32_t VEngineCvar007 = 0x63550;
+        constexpr uint32_t VStringTokenSystem001 = 0x18F630;
+        constexpr uint32_t TestScriptMgr001 = 0x1415C0;
+        constexpr uint32_t VProcessUtils002 = 0x1315B0;
+        constexpr uint32_t VEngineCvar007 = 0x635E0;
     }
 
     namespace v8system_dll {
