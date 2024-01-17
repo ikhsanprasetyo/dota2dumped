@@ -6,15 +6,15 @@ pub mod animationsystem_dll {
 }
 
 pub mod client_dll {
-    pub const PanoramaUIClient001: usize = 0x248AC90;
-    pub const PlayButtonService001: usize = 0x1FFDAF0;
-    pub const DOTA_CLIENT_GCCLIENT: usize = 0x1BB2080;
-    pub const LegacyGameUI001: usize = 0x1B95A50;
-    pub const Source2ClientPrediction001: usize = 0x157A430;
-    pub const ClientToolsInfo_001: usize = 0x1528F40;
-    pub const Source2Client002: usize = 0x1528F60;
-    pub const GameClientExports001: usize = 0x1528F50;
-    pub const Source2ClientConfig001: usize = 0x12B89F0;
+    pub const PanoramaUIClient001: usize = 0x248AFC0;
+    pub const PlayButtonService001: usize = 0x1FFDE20;
+    pub const DOTA_CLIENT_GCCLIENT: usize = 0x1BB23B0;
+    pub const LegacyGameUI001: usize = 0x1B95D80;
+    pub const Source2ClientPrediction001: usize = 0x157A6D0;
+    pub const ClientToolsInfo_001: usize = 0x15291E0;
+    pub const Source2Client002: usize = 0x1529200;
+    pub const GameClientExports001: usize = 0x15291F0;
+    pub const Source2ClientConfig001: usize = 0x12B8C60;
     pub const Source2ClientUI001: usize = 0x3F3AF0;
 }
 
@@ -148,13 +148,13 @@ pub mod schemasystem_dll {
 }
 
 pub mod server_dll {
-    pub const NavGameTest001: usize = 0x2044010;
-    pub const Source2GameDirector001: usize = 0x1AD9C60;
-    pub const ServerToolsInfo_001: usize = 0x1774C80;
-    pub const Source2GameClients001: usize = 0x1774C90;
-    pub const Source2GameEntities001: usize = 0x1774CA0;
-    pub const Source2Server001: usize = 0x1774CB0;
-    pub const Source2ServerConfig001: usize = 0x150E490;
+    pub const NavGameTest001: usize = 0x2043C10;
+    pub const Source2GameDirector001: usize = 0x1AD9850;
+    pub const ServerToolsInfo_001: usize = 0x1774870;
+    pub const Source2GameClients001: usize = 0x1774880;
+    pub const Source2GameEntities001: usize = 0x1774890;
+    pub const Source2Server001: usize = 0x17748A0;
+    pub const Source2ServerConfig001: usize = 0x150E080;
     pub const EntitySubclassUtilsV001: usize = 0x3BA0B0;
 }
 
@@ -166,26 +166,26 @@ pub mod soundsystem_dll {
 }
 
 pub mod steamclient64_dll {
-    pub const IVALIDATE001: usize = 0x84FE60;
-    pub const CLIENTENGINE_INTERFACE_VERSION005: usize = 0x84BD10;
-    pub const SteamClient021: usize = 0x646160;
-    pub const SteamClient020: usize = 0x646150;
-    pub const SteamClient019: usize = 0x646140;
-    pub const SteamClient018: usize = 0x646130;
-    pub const SteamClient017: usize = 0x646120;
-    pub const SteamClient016: usize = 0x646110;
-    pub const SteamClient015: usize = 0x646100;
-    pub const SteamClient014: usize = 0x6460F0;
-    pub const SteamClient013: usize = 0x6460E0;
-    pub const SteamClient012: usize = 0x6460D0;
-    pub const SteamClient011: usize = 0x6460C0;
-    pub const SteamClient010: usize = 0x6460B0;
-    pub const SteamClient009: usize = 0x6460A0;
-    pub const SteamClient008: usize = 0x646090;
-    pub const SteamClient007: usize = 0x646080;
-    pub const SteamClient006: usize = 0x646070;
-    pub const p2pvoice002: usize = 0xD97C0;
-    pub const p2pvoicesingleton002: usize = 0xD6220;
+    pub const IVALIDATE001: usize = 0x861720;
+    pub const CLIENTENGINE_INTERFACE_VERSION005: usize = 0x85D5D0;
+    pub const SteamClient021: usize = 0x65E570;
+    pub const SteamClient020: usize = 0x65E560;
+    pub const SteamClient019: usize = 0x65E550;
+    pub const SteamClient018: usize = 0x65E540;
+    pub const SteamClient017: usize = 0x65E530;
+    pub const SteamClient016: usize = 0x65E520;
+    pub const SteamClient015: usize = 0x65E510;
+    pub const SteamClient014: usize = 0x65E500;
+    pub const SteamClient013: usize = 0x65E4F0;
+    pub const SteamClient012: usize = 0x65E4E0;
+    pub const SteamClient011: usize = 0x65E4D0;
+    pub const SteamClient010: usize = 0x65E4C0;
+    pub const SteamClient009: usize = 0x65E4B0;
+    pub const SteamClient008: usize = 0x65E4A0;
+    pub const SteamClient007: usize = 0x65E490;
+    pub const SteamClient006: usize = 0x65E480;
+    pub const p2pvoice002: usize = 0xD9EB0;
+    pub const p2pvoicesingleton002: usize = 0xD6910;
 }
 
 pub mod tier0_dll {
@@ -217,7 +217,7 @@ pub mod vscript_dll {
 }
 
 pub mod vstdlib_s64_dll {
-    pub const IVALIDATE001: usize = 0x25000;
+    pub const IVALIDATE001: usize = 0x250E0;
     pub const VEngineCvar002: usize = 0x5760;
 }
 
