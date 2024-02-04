@@ -6,15 +6,15 @@ pub mod animationsystem_dll {
 }
 
 pub mod client_dll {
-    pub const PanoramaUIClient001: usize = 0x248AFC0;
-    pub const PlayButtonService001: usize = 0x1FFDE20;
-    pub const DOTA_CLIENT_GCCLIENT: usize = 0x1BB23B0;
-    pub const LegacyGameUI001: usize = 0x1B95D80;
-    pub const Source2ClientPrediction001: usize = 0x157A6D0;
-    pub const ClientToolsInfo_001: usize = 0x15291E0;
-    pub const Source2Client002: usize = 0x1529200;
-    pub const GameClientExports001: usize = 0x15291F0;
-    pub const Source2ClientConfig001: usize = 0x12B8C60;
+    pub const PanoramaUIClient001: usize = 0x248B190;
+    pub const PlayButtonService001: usize = 0x1FFDEA0;
+    pub const DOTA_CLIENT_GCCLIENT: usize = 0x1BB2350;
+    pub const LegacyGameUI001: usize = 0x1B95D20;
+    pub const Source2ClientPrediction001: usize = 0x157A670;
+    pub const ClientToolsInfo_001: usize = 0x1529180;
+    pub const Source2Client002: usize = 0x15291A0;
+    pub const GameClientExports001: usize = 0x1529190;
+    pub const Source2ClientConfig001: usize = 0x12B8C00;
     pub const Source2ClientUI001: usize = 0x3F3AF0;
 }
 
@@ -148,14 +148,14 @@ pub mod schemasystem_dll {
 }
 
 pub mod server_dll {
-    pub const NavGameTest001: usize = 0x2043C10;
-    pub const Source2GameDirector001: usize = 0x1AD9850;
-    pub const ServerToolsInfo_001: usize = 0x1774870;
-    pub const Source2GameClients001: usize = 0x1774880;
-    pub const Source2GameEntities001: usize = 0x1774890;
-    pub const Source2Server001: usize = 0x17748A0;
-    pub const Source2ServerConfig001: usize = 0x150E080;
-    pub const EntitySubclassUtilsV001: usize = 0x3BA0B0;
+    pub const NavGameTest001: usize = 0x2048AB0;
+    pub const Source2GameDirector001: usize = 0x1ADC2E0;
+    pub const ServerToolsInfo_001: usize = 0x1777880;
+    pub const Source2GameClients001: usize = 0x1777890;
+    pub const Source2GameEntities001: usize = 0x17778A0;
+    pub const Source2Server001: usize = 0x17778B0;
+    pub const Source2ServerConfig001: usize = 0x1511040;
+    pub const EntitySubclassUtilsV001: usize = 0x3BA130;
 }
 
 pub mod soundsystem_dll {

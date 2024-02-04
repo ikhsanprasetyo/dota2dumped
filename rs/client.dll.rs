@@ -9275,7 +9275,7 @@ pub mod CDOTA_Modifier_Item_DivineRapier {
 pub mod CDOTA_Modifier_Item_Doubloon {
     pub const conversion_pct: usize = 0x1338; // float32
     pub const bonus_health_regen: usize = 0x133C; // int32
-    pub const bonus_mana_regen: usize = 0x1340; // int32
+    pub const bonus_mana_regen: usize = 0x1340; // float32
 }
 
 pub mod CDOTA_Modifier_Item_DragonLance {
@@ -17168,7 +17168,7 @@ pub mod CDOTA_Modifier_Viper_PoisonAttack_Slow {
     pub const damage: usize = 0x1338; // float32
     pub const shard_armor_reduction: usize = 0x133C; // int32
     pub const shard_building_dmg_pct: usize = 0x1340; // int32
-    pub const movement_speed: usize = 0x1344; // int32
+    pub const movement_speed: usize = 0x1344; // float32
     pub const magic_resistance: usize = 0x1348; // int32
 }
 

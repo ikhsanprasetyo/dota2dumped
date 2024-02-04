@@ -1,4 +1,4 @@
-// printed at 2024-01-17 13:01:04.210047500 +07:00
+// printed at 2024-02-04 18:54:54.543976400 +07:00
 #pragma once
 #include <cstdint>
 
@@ -15127,7 +15127,7 @@ namespace Offsets {
     namespace CDOTA_Modifier_Item_Doubloon {
         constexpr uint32_t conversion_pct = 0x1338; // float32
         constexpr uint32_t bonus_health_regen = 0x133C; // int32
-        constexpr uint32_t bonus_mana_regen = 0x1340; // int32
+        constexpr uint32_t bonus_mana_regen = 0x1340; // float32
     }
 
     namespace CDOTA_Modifier_Item_DragonLance {
@@ -23685,7 +23685,7 @@ namespace Offsets {
         constexpr uint32_t damage = 0x1338; // float32
         constexpr uint32_t shard_armor_reduction = 0x133C; // int32
         constexpr uint32_t shard_building_dmg_pct = 0x1340; // int32
-        constexpr uint32_t movement_speed = 0x1344; // int32
+        constexpr uint32_t movement_speed = 0x1344; // float32
         constexpr uint32_t magic_resistance = 0x1348; // int32
     }
 
@@ -24499,77 +24499,78 @@ namespace Offsets {
         constexpr uint32_t m_bRankCalibrated = 0x39F8; // bool[24]
         constexpr uint32_t m_bLowPriority = 0x3A10; // bool[24]
         constexpr uint32_t m_bWasHeroPickDotaPlusSuggestion = 0x3A28; // bool[24]
-        constexpr uint32_t m_bIdleInFountain = 0x3A40; // bool[24]
-        constexpr uint32_t m_bLoggedInElsewhere = 0x3A58; // bool[24]
-        constexpr uint32_t m_bPlayerLoadedCompletely = 0x3A70; // bool[64]
-        constexpr uint32_t m_iDisconnectionReason = 0x3AB0; // int32[64]
-        constexpr uint32_t m_SelectedGuide = 0x41B0; // uint64[64]
-        constexpr uint32_t m_bIsUsingPlusGuide = 0x43B0; // bool[64]
-        constexpr uint32_t m_iCustomTeamAssignments = 0x43F0; // int32[24]
-        constexpr uint32_t m_vecPlayerLevelUpTimes = 0x4450; // CUtlVector< float32 >[24]
-        constexpr uint32_t m_iManaSpent = 0x4690; // int32[6][64]
-        constexpr uint32_t m_iNeutralOption = 0x4C90; // int32[6][6][64]
-        constexpr uint32_t m_bLeaverAlreadyDetected = 0x7090; // bool
-        constexpr uint32_t m_TimedKillList = 0x74B8; // CUtlVector< TimedKillEvent_t >
-        constexpr uint32_t m_TimedAssistList = 0x74D0; // CUtlVector< TimedKillEvent_t >
-        constexpr uint32_t m_TimedDeathList = 0x74E8; // CUtlVector< TimedKillEvent_t >
-        constexpr uint32_t m_unLastHeroPickOrder = 0x7500; // uint32
-        constexpr uint32_t m_iBountyGoldEarned = 0x7504; // int32[24]
-        constexpr uint32_t m_iRangeCreepUpgradeGoldEarned = 0x7564; // int32[24]
-        constexpr uint32_t m_iObserverWardsDestroyed = 0x75C4; // int32[24]
-        constexpr uint32_t m_iReliableGoldEarned = 0x7624; // int32[24]
-        constexpr uint32_t m_iGoldLossPrevented = 0x7684; // int32[24]
-        constexpr uint32_t m_hTeamCouriers = 0x7740; // CUtlVector< CHandle< CDOTA_Unit_Courier > >[15]
-        constexpr uint32_t m_hPlayerCouriers = 0x78A8; // CUtlVector< CHandle< CDOTA_Unit_Courier > >[64]
-        constexpr uint32_t m_flAvailableLaneGold = 0x7EA8; // float32[15]
-        constexpr uint32_t m_DamageShareList = 0x7EE8; // CUtlVector< DamageShareEvent_t >[24]
-        constexpr uint32_t m_AbsorbedDamageRollup = 0x8128; // DamageShareEvent_t[25][24]
-        constexpr uint32_t m_playerAbilityUpgradeOrder = 0x9D48; // AbilityID_t[25][24]
-        constexpr uint32_t m_playerAbilityUpgradeTimes = 0xA6A8; // int32[25][24]
-        constexpr uint32_t m_playerAbilityUpgradeCount = 0xB008; // int32[24]
-        constexpr uint32_t m_fullUpdateCount = 0xB0A8; // int32[64]
-        constexpr uint32_t m_iCouriersDeployed = 0xB1A8; // int32[24]
-        constexpr uint32_t m_iCouriersPotentiallyKilled = 0xB208; // int32[24]
-        constexpr uint32_t m_iCommandsIssued = 0xB268; // int32[24]
-        constexpr uint32_t m_hHeroSpawnGroup = 0xB2C8; // uint32[24]
-        constexpr uint32_t m_fNextLaneDetectionUpdate = 0xCAE8; // float32
-        constexpr uint32_t m_fNextTimedHeroStatsUpdate = 0xCAEC; // float32
-        constexpr uint32_t m_bInitializedLaneWaypoints = 0xCD90; // bool
-        constexpr uint32_t m_nLastWardSuggestionBuildingState = 0xD4E8; // uint32
-        constexpr uint32_t m_nLastWardSuggestionUpdateNum = 0xD4EC; // uint32
-        constexpr uint32_t m_bLastWardSuggestionRoshanAlive = 0xD4F0; // bool
-        constexpr uint32_t bDoFinalPregameSuggestion = 0xD4F1; // bool[10]
-        constexpr uint32_t m_hAbilitiesSuggestion = 0xD4FC; // int32[10]
-        constexpr uint32_t m_hPregameItemsSuggestion = 0xD524; // int32[10]
-        constexpr uint32_t m_hItemsSuggestion = 0xD54C; // int32[10]
-        constexpr uint32_t m_hTopNItemsSuggestion = 0xD574; // int32[10]
-        constexpr uint32_t m_hNeutralItemsSuggestion = 0xD59C; // int32[5][10]
-        constexpr uint32_t m_hLanesSuggestion = 0xD664; // int32[15]
-        constexpr uint32_t m_hWinProbabilitySuggestion = 0xD6A0; // int32
-        constexpr uint32_t m_hHeroSuggestion = 0xD6A4; // int32[10]
-        constexpr uint32_t m_hWardLocationsSuggestion = 0xD6CC; // int32[15]
-        constexpr uint32_t m_fNextCreepDistanceUpdate = 0xD708; // float32
-        constexpr uint32_t m_fCreepDistanceSafe = 0xD70C; // float32[15]
-        constexpr uint32_t m_fCreepDistanceMid = 0xD748; // float32[15]
-        constexpr uint32_t m_fCreepDistanceOff = 0xD784; // float32[15]
-        constexpr uint32_t m_fLastSuggestionTime = 0xD7C0; // GameTime_t
-        constexpr uint32_t m_bHasRevealedAnonymizedEnemyPlayerInfo = 0xD7C4; // bool
-        constexpr uint32_t m_nRequestedBotPlayerID = 0xDDC8; // PlayerID_t
-        constexpr uint32_t m_fNextCombatLogLocationUpdateTime = 0xDDCC; // float32
-        constexpr uint32_t m_fNextAPMUpdateTime = 0xDDD0; // float32
-        constexpr uint32_t m_vecPendingPlayerResourceRequests = 0xDDD8; // CUtlVector< uint32 >
-        constexpr uint32_t m_iRampages = 0xDDF0; // int32[24]
-        constexpr uint32_t m_iTripleKills = 0xDE50; // int32[24]
-        constexpr uint32_t m_iCouriersKilled = 0xDEB0; // int32[24]
-        constexpr uint32_t m_iAegisesSnatched = 0xDF10; // int32[24]
-        constexpr uint32_t m_iCheesesEaten = 0xDF70; // int32[24]
-        constexpr uint32_t m_iRapiersPurchased = 0xDFD0; // int32[24]
-        constexpr uint32_t m_flPushingDamage = 0xE030; // float32[24]
-        constexpr uint32_t m_iRoshanKillsNight = 0xE090; // int32[24]
-        constexpr uint32_t m_iRoshanKillsDay = 0xE0F0; // int32[24]
-        constexpr uint32_t m_iPortalsUsed = 0xE150; // int32[24]
-        constexpr uint32_t m_iWisdomRunesGained = 0xE1B0; // int32[24]
-        constexpr uint32_t m_iShieldRunesGained = 0xE210; // int32[24]
+        constexpr uint32_t m_flLastActiveTime = 0x3A40; // GameTime_t[24]
+        constexpr uint32_t m_flIdleTime = 0x3AA0; // float32[24]
+        constexpr uint32_t m_bLoggedInElsewhere = 0x3B00; // bool[24]
+        constexpr uint32_t m_bPlayerLoadedCompletely = 0x3B18; // bool[64]
+        constexpr uint32_t m_iDisconnectionReason = 0x3B58; // int32[64]
+        constexpr uint32_t m_SelectedGuide = 0x4258; // uint64[64]
+        constexpr uint32_t m_bIsUsingPlusGuide = 0x4458; // bool[64]
+        constexpr uint32_t m_iCustomTeamAssignments = 0x4498; // int32[24]
+        constexpr uint32_t m_vecPlayerLevelUpTimes = 0x44F8; // CUtlVector< float32 >[24]
+        constexpr uint32_t m_iManaSpent = 0x4738; // int32[6][64]
+        constexpr uint32_t m_iNeutralOption = 0x4D38; // int32[6][6][64]
+        constexpr uint32_t m_bLeaverAlreadyDetected = 0x7138; // bool
+        constexpr uint32_t m_TimedKillList = 0x7560; // CUtlVector< TimedKillEvent_t >
+        constexpr uint32_t m_TimedAssistList = 0x7578; // CUtlVector< TimedKillEvent_t >
+        constexpr uint32_t m_TimedDeathList = 0x7590; // CUtlVector< TimedKillEvent_t >
+        constexpr uint32_t m_unLastHeroPickOrder = 0x75A8; // uint32
+        constexpr uint32_t m_iBountyGoldEarned = 0x75AC; // int32[24]
+        constexpr uint32_t m_iRangeCreepUpgradeGoldEarned = 0x760C; // int32[24]
+        constexpr uint32_t m_iObserverWardsDestroyed = 0x766C; // int32[24]
+        constexpr uint32_t m_iReliableGoldEarned = 0x76CC; // int32[24]
+        constexpr uint32_t m_iGoldLossPrevented = 0x772C; // int32[24]
+        constexpr uint32_t m_hTeamCouriers = 0x77E8; // CUtlVector< CHandle< CDOTA_Unit_Courier > >[15]
+        constexpr uint32_t m_hPlayerCouriers = 0x7950; // CUtlVector< CHandle< CDOTA_Unit_Courier > >[64]
+        constexpr uint32_t m_flAvailableLaneGold = 0x7F50; // float32[15]
+        constexpr uint32_t m_DamageShareList = 0x7F90; // CUtlVector< DamageShareEvent_t >[24]
+        constexpr uint32_t m_AbsorbedDamageRollup = 0x81D0; // DamageShareEvent_t[25][24]
+        constexpr uint32_t m_playerAbilityUpgradeOrder = 0x9DF0; // AbilityID_t[25][24]
+        constexpr uint32_t m_playerAbilityUpgradeTimes = 0xA750; // int32[25][24]
+        constexpr uint32_t m_playerAbilityUpgradeCount = 0xB0B0; // int32[24]
+        constexpr uint32_t m_fullUpdateCount = 0xB150; // int32[64]
+        constexpr uint32_t m_iCouriersDeployed = 0xB250; // int32[24]
+        constexpr uint32_t m_iCouriersPotentiallyKilled = 0xB2B0; // int32[24]
+        constexpr uint32_t m_iCommandsIssued = 0xB310; // int32[24]
+        constexpr uint32_t m_hHeroSpawnGroup = 0xB370; // uint32[24]
+        constexpr uint32_t m_fNextLaneDetectionUpdate = 0xCB90; // float32
+        constexpr uint32_t m_fNextTimedHeroStatsUpdate = 0xCB94; // float32
+        constexpr uint32_t m_bInitializedLaneWaypoints = 0xCE38; // bool
+        constexpr uint32_t m_nLastWardSuggestionBuildingState = 0xD590; // uint32
+        constexpr uint32_t m_nLastWardSuggestionUpdateNum = 0xD594; // uint32
+        constexpr uint32_t m_bLastWardSuggestionRoshanAlive = 0xD598; // bool
+        constexpr uint32_t bDoFinalPregameSuggestion = 0xD599; // bool[10]
+        constexpr uint32_t m_hAbilitiesSuggestion = 0xD5A4; // int32[10]
+        constexpr uint32_t m_hPregameItemsSuggestion = 0xD5CC; // int32[10]
+        constexpr uint32_t m_hItemsSuggestion = 0xD5F4; // int32[10]
+        constexpr uint32_t m_hTopNItemsSuggestion = 0xD61C; // int32[10]
+        constexpr uint32_t m_hNeutralItemsSuggestion = 0xD644; // int32[5][10]
+        constexpr uint32_t m_hLanesSuggestion = 0xD70C; // int32[15]
+        constexpr uint32_t m_hWinProbabilitySuggestion = 0xD748; // int32
+        constexpr uint32_t m_hHeroSuggestion = 0xD74C; // int32[10]
+        constexpr uint32_t m_hWardLocationsSuggestion = 0xD774; // int32[15]
+        constexpr uint32_t m_fNextCreepDistanceUpdate = 0xD7B0; // float32
+        constexpr uint32_t m_fCreepDistanceSafe = 0xD7B4; // float32[15]
+        constexpr uint32_t m_fCreepDistanceMid = 0xD7F0; // float32[15]
+        constexpr uint32_t m_fCreepDistanceOff = 0xD82C; // float32[15]
+        constexpr uint32_t m_fLastSuggestionTime = 0xD868; // GameTime_t
+        constexpr uint32_t m_bHasRevealedAnonymizedEnemyPlayerInfo = 0xD86C; // bool
+        constexpr uint32_t m_nRequestedBotPlayerID = 0xDE70; // PlayerID_t
+        constexpr uint32_t m_fNextCombatLogLocationUpdateTime = 0xDE74; // float32
+        constexpr uint32_t m_fNextAPMUpdateTime = 0xDE78; // float32
+        constexpr uint32_t m_vecPendingPlayerResourceRequests = 0xDE80; // CUtlVector< uint32 >
+        constexpr uint32_t m_iRampages = 0xDE98; // int32[24]
+        constexpr uint32_t m_iTripleKills = 0xDEF8; // int32[24]
+        constexpr uint32_t m_iCouriersKilled = 0xDF58; // int32[24]
+        constexpr uint32_t m_iAegisesSnatched = 0xDFB8; // int32[24]
+        constexpr uint32_t m_iCheesesEaten = 0xE018; // int32[24]
+        constexpr uint32_t m_iRapiersPurchased = 0xE078; // int32[24]
+        constexpr uint32_t m_flPushingDamage = 0xE0D8; // float32[24]
+        constexpr uint32_t m_iRoshanKillsNight = 0xE138; // int32[24]
+        constexpr uint32_t m_iRoshanKillsDay = 0xE198; // int32[24]
+        constexpr uint32_t m_iPortalsUsed = 0xE1F8; // int32[24]
+        constexpr uint32_t m_iWisdomRunesGained = 0xE258; // int32[24]
+        constexpr uint32_t m_iShieldRunesGained = 0xE2B8; // int32[24]
     }
 
     namespace CDOTA_ReconnectInfo {

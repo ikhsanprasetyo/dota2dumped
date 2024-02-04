@@ -1,4 +1,4 @@
-// printed at 2024-01-17 13:01:06.462390 +07:00
+// printed at 2024-02-04 18:54:56.248489700 +07:00
 #pragma once
 #include <cstdint>
 
@@ -9278,7 +9278,7 @@ namespace Offsets {
     namespace CDOTA_Modifier_Item_Doubloon {
         constexpr uint32_t conversion_pct = 0x1338; // float32
         constexpr uint32_t bonus_health_regen = 0x133C; // int32
-        constexpr uint32_t bonus_mana_regen = 0x1340; // int32
+        constexpr uint32_t bonus_mana_regen = 0x1340; // float32
     }
 
     namespace CDOTA_Modifier_Item_DragonLance {
@@ -17171,7 +17171,7 @@ namespace Offsets {
         constexpr uint32_t damage = 0x1338; // float32
         constexpr uint32_t shard_armor_reduction = 0x133C; // int32
         constexpr uint32_t shard_building_dmg_pct = 0x1340; // int32
-        constexpr uint32_t movement_speed = 0x1344; // int32
+        constexpr uint32_t movement_speed = 0x1344; // float32
         constexpr uint32_t magic_resistance = 0x1348; // int32
     }
 

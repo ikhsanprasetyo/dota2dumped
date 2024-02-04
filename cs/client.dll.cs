@@ -9273,7 +9273,7 @@ public static class CDOTA_Modifier_Item_DivineRapier {
 public static class CDOTA_Modifier_Item_Doubloon {
     public const nint conversion_pct = 0x1338; // float32
     public const nint bonus_health_regen = 0x133C; // int32
-    public const nint bonus_mana_regen = 0x1340; // int32
+    public const nint bonus_mana_regen = 0x1340; // float32
 }
 
 public static class CDOTA_Modifier_Item_DragonLance {
@@ -17166,7 +17166,7 @@ public static class CDOTA_Modifier_Viper_PoisonAttack_Slow {
     public const nint damage = 0x1338; // float32
     public const nint shard_armor_reduction = 0x133C; // int32
     public const nint shard_building_dmg_pct = 0x1340; // int32
-    public const nint movement_speed = 0x1344; // int32
+    public const nint movement_speed = 0x1344; // float32
     public const nint magic_resistance = 0x1348; // int32
 }
 
