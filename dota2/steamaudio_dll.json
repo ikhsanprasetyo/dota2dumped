@@ -1,0 +1,182 @@
+{
+  "steamaudio.dll": {
+    "classes": {
+      "CSteamAudioAmbisonicsField": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedDimensionsData": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedMaterialsData": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedOcclusionData": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedPathingData": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioBakedReverbData": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioCompressedReverb": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioProbeData": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioProbeGrid": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioProbeLineSegment": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSteamAudioSceneData": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioCustomDataDimensionsSettings_t": {
+        "fields": {
+          "": 0,
+          "\u001f": 5373954,
+          "l": -1139360378
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioCustomDataOcclusionSettings_t": {
+        "fields": {
+          "": 0,
+          "\u001f": 5373954,
+          "l": -1139360378
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioPathSettings_t": {
+        "fields": {
+          "": 0,
+          "\u001f": 5373954,
+          "l": -1139360378
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioReverbClusteringSettings_t": {
+        "fields": {
+          "": 0,
+          "\u001f": 5373954,
+          "l": -1139360378
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioReverbCompressionSettings_t": {
+        "fields": {
+          "": 0,
+          "\u001f": 5373954,
+          "l": -1139360378
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "SteamAudioReverbSettings_t": {
+        "fields": {
+          "": 0,
+          "\u001f": 5373954,
+          "l": -1139360378
+        },
+        "metadata": [],
+        "parent": null
+      }
+    },
+    "enums": {}
+  }
+}

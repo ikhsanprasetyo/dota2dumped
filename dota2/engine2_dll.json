@@ -1,0 +1,487 @@
+{
+  "engine2.dll": {
+    "classes": {
+      "CEmptyEntityInstance": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityAttributeTable": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityComponent": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityComponentHelper": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityIOOutput": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityIdentity": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityInstance": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityKeyValues": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CNetworkVarChainer": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CScriptComponent": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CVariantDefaultAllocator": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EngineLoopState_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EntComponentInfo_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EntInput_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EntityIOQueuePrioritizedEvent_t": {
+        "fields": {
+          "": 65776,
+          "\b": 0,
+          "P\u0007\u0001": 65872,
+          "`": 0,
+          "�\u000f\u0001": 61440
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventAdvanceTick_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "�[�\b�"
+      },
+      "EventAppShutdown_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientAdvanceNonRenderedFrame_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientAdvanceTick_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": "engine2"
+      },
+      "EventClientFrameSimulate_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientOutput_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientPauseSimulate_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "�[�\b�"
+      },
+      "EventClientPollInput_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientPollNetworking_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientPostAdvanceTick_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": "engine2"
+      },
+      "EventClientPostOutput_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientPostSimulate_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "engine2"
+      },
+      "EventClientPreOutputParallelWithServer_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "�[�\b�"
+      },
+      "EventClientPreOutput_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientPreSimulate_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "engine2"
+      },
+      "EventClientProcessGameInput_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientProcessInput_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientProcessNetworking_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientSceneSystemThreadStateChange_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventClientSimulate_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "engine2"
+      },
+      "EventFrameBoundary_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventModInitialized_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventPostAdvanceTick_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "engine2"
+      },
+      "EventPostDataUpdate_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventPreDataUpdate_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventProfileStorageAvailable_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventServerAdvanceTick_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": "�[�\b�"
+      },
+      "EventServerBeginAsyncPostTickWork_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventServerBeginSimulate_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "�[�\b�"
+      },
+      "EventServerEndAsyncPostTickWork_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventServerEndSimulate_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventServerPollNetworking_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "�[�\b�"
+      },
+      "EventServerPostAdvanceTick_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": "�[�\b�"
+      },
+      "EventServerPostSimulate_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "�[�\b�"
+      },
+      "EventServerProcessNetworking_t": {
+        "fields": {
+          "": 197,
+          "\u0003\u0001": -2147483584,
+          "\b": 0,
+          "\b8\u0001": 40560640,
+          "\n": 191,
+          "r": 43436032,
+          "��\u0001": 1088192512
+        },
+        "metadata": [],
+        "parent": "engine2"
+      },
+      "EventSetTime_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventSimpleLoopFrameUpdate_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventSimulate_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "EventSplitScreenStateChanged_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "GameTick_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "GameTime_t": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      }
+    },
+    "enums": {
+      "EntityDormancyType_t": {
+        "alignment": 4,
+        "members": {
+          "ENTITY_DORMANT": 1,
+          "ENTITY_NOT_DORMANT": 0,
+          "ENTITY_SUSPENDED": 2
+        },
+        "type": "uint32"
+      },
+      "EntityIOTargetType_t": {
+        "alignment": 4,
+        "members": {
+          "ENTITY_IO_TARGET_EHANDLE": 6,
+          "ENTITY_IO_TARGET_ENTITYNAME": 2,
+          "ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME": 7,
+          "ENTITY_IO_TARGET_INVALID": -1
+        },
+        "type": "uint32"
+      }
+    }
+  }
+}
