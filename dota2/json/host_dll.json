@@ -1,0 +1,14 @@
+{
+  "host.dll": {
+    "classes": {
+      "CAnimScriptBase": {
+        "fields": {
+          "": 17825792
+        },
+        "metadata": [],
+        "parent": null
+      }
+    },
+    "enums": {}
+  }
+}

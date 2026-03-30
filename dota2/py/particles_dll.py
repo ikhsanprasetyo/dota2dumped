@@ -1,0 +1,3845 @@
+# Generated using https://github.com/ikhsanprasetyo/source2-dumper
+# 2026-03-30 13:31:39.632920200 +07:00
+
+class Schemas:
+    # Module: particles.dll
+    class ParticlesDll:
+        class PulseBestOutflowRules_t:
+            SORT_BY_NUMBER_OF_VALID_CRITERIA = 0x0
+            SORT_BY_OUTFLOW_INDEX = 0x1
+        class PulseCursorCancelPriority_t:
+            None_ = 0x0
+            CancelOnSucceeded = 0x1
+            SoftCancel = 0x2
+            HardCancel = 0x3
+        class PulseMethodCallMode_t:
+            SYNC_WAIT_FOR_COMPLETION = 0x0
+            ASYNC_FIRE_AND_FORGET = 0x1
+        class Detail2Combo_t:
+            DETAIL_2_COMBO_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF
+            DETAIL_2_COMBO_OFF = 0x0
+            DETAIL_2_COMBO_ADD = 0x1
+            DETAIL_2_COMBO_ADD_SELF_ILLUM = 0x2
+            DETAIL_2_COMBO_MOD2X = 0x3
+            DETAIL_2_COMBO_MUL = 0x4
+            DETAIL_2_COMBO_CROSSFADE = 0x5
+        class MissingParentInheritBehavior_t:
+            MISSING_PARENT_DO_NOTHING = 0xFFFFFFFFFFFFFFFF
+            MISSING_PARENT_KILL = 0x0
+            MISSING_PARENT_FIND_NEW = 0x1
+            MISSING_PARENT_SAME_INDEX = 0x2
+        class ParticleTraceMissBehavior_t:
+            PARTICLE_TRACE_MISS_BEHAVIOR_NONE = 0x0
+            PARTICLE_TRACE_MISS_BEHAVIOR_KILL = 0x1
+            PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END = 0x2
+        class PFuncVisualizationType_t:
+            PFUNC_VISUALIZATION_SPHERE_WIREFRAME = 0x0
+            PFUNC_VISUALIZATION_SPHERE_SOLID = 0x1
+            PFUNC_VISUALIZATION_BOX = 0x2
+            PFUNC_VISUALIZATION_RING = 0x3
+            PFUNC_VISUALIZATION_PLANE = 0x4
+            PFUNC_VISUALIZATION_LINE = 0x5
+            PFUNC_VISUALIZATION_CYLINDER = 0x6
+        class ParticleVRHandChoiceList_t:
+            PARTICLE_VRHAND_LEFT = 0x0
+            PARTICLE_VRHAND_RIGHT = 0x1
+            PARTICLE_VRHAND_CP = 0x2
+            PARTICLE_VRHAND_CP_OBJECT = 0x3
+        class ParticleReplicationMode_t:
+            PARTICLE_REPLICATIONMODE_NONE = 0x0
+            PARTICLE_REPLICATIONMODE_REPLICATE_FOR_EACH_PARENT_PARTICLE = 0x1
+        class ParticleEntityPos_t:
+            PARTICLE_ABS_ORIGIN = 0x0
+            PARTICLE_WORLDSPACE_CENTER = 0x1
+            PARTICLE_EYES = 0x2
+        class ParticleFanType_t:
+            PARTICLE_FAN_TYPE_FAN = 0x0
+            PARTICLE_FAN_TYPE_ROTOR_WASH = 0x1
+            PARTICLE_FAN_TYPE_RADIAL = 0x2
+        class PetGroundType_t:
+            PET_GROUND_NONE = 0x0
+            PET_GROUND_GRID = 0x1
+            PET_GROUND_PLANE = 0x2
+        class InheritableBoolType_t:
+            INHERITABLE_BOOL_INHERIT = 0x0
+            INHERITABLE_BOOL_FALSE = 0x1
+            INHERITABLE_BOOL_TRUE = 0x2
+        class ParticlePostProcessPriorityGroup_t:
+            PARTICLE_POST_PROCESS_PRIORITY_LEVEL_VOLUME = 0x0
+            PARTICLE_POST_PROCESS_PRIORITY_LEVEL_OVERRIDE = 0x1
+            PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_EFFECT = 0x2
+            PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_LOW = 0x3
+            PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_HIGH = 0x4
+            PARTICLE_POST_PROCESS_PRIORITY_GLOBAL_UI = 0x5
+        class ParticleCollisionGroup_t:
+            PARTICLE_COLLISION_GROUP_DEFAULT = 0x4
+            PARTICLE_COLLISION_GROUP_DEBRIS = 0x5
+            PARTICLE_COLLISION_GROUP_INTERACTIVE = 0x7
+            PARTICLE_COLLISION_GROUP_PLAYER = 0x8
+            PARTICLE_COLLISION_GROUP_VEHICLE = 0xA
+            PARTICLE_COLLISION_GROUP_NPC = 0xC
+            PARTICLE_COLLISION_GROUP_PROPS = 0x18
+        class DetailCombo_t:
+            DETAIL_COMBO_OFF = 0x0
+            DETAIL_COMBO_ADD = 0x1
+            DETAIL_COMBO_ADD_SELF_ILLUM = 0x2
+            DETAIL_COMBO_MOD2X = 0x3
+        class ScalarExpressionType_t:
+            SCALAR_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF
+            SCALAR_EXPRESSION_ADD = 0x0
+            SCALAR_EXPRESSION_SUBTRACT = 0x1
+            SCALAR_EXPRESSION_MUL = 0x2
+            SCALAR_EXPRESSION_DIVIDE = 0x3
+            SCALAR_EXPRESSION_INPUT_1 = 0x4
+            SCALAR_EXPRESSION_MIN = 0x5
+            SCALAR_EXPRESSION_MAX = 0x6
+            SCALAR_EXPRESSION_MOD = 0x7
+            SCALAR_EXPRESSION_EQUAL = 0x8
+            SCALAR_EXPRESSION_GT = 0x9
+            SCALAR_EXPRESSION_LT = 0xA
+        class SpriteCardPerParticleScale_t:
+            SPRITECARD_TEXTURE_PP_SCALE_NONE = 0x0
+            SPRITECARD_TEXTURE_PP_SCALE_PARTICLE_AGE = 0x1
+            SPRITECARD_TEXTURE_PP_SCALE_ANIMATION_FRAME = 0x2
+            SPRITECARD_TEXTURE_PP_SCALE_SHADER_EXTRA_DATA1 = 0x3
+            SPRITECARD_TEXTURE_PP_SCALE_SHADER_EXTRA_DATA2 = 0x4
+            SPRITECARD_TEXTURE_PP_SCALE_PARTICLE_ALPHA = 0x5
+            SPRITECARD_TEXTURE_PP_SCALE_SHADER_RADIUS = 0x6
+            SPRITECARD_TEXTURE_PP_SCALE_ROLL = 0x7
+            SPRITECARD_TEXTURE_PP_SCALE_YAW = 0x8
+            SPRITECARD_TEXTURE_PP_SCALE_PITCH = 0x9
+            SPRITECARD_TEXTURE_PP_SCALE_RANDOM = 0xA
+            SPRITECARD_TEXTURE_PP_SCALE_NEG_RANDOM = 0xB
+            SPRITECARD_TEXTURE_PP_SCALE_RANDOM_TIME = 0xC
+            SPRITECARD_TEXTURE_PP_SCALE_NEG_RANDOM_TIME = 0xD
+        class BlurFilterType_t:
+            BLURFILTER_GAUSSIAN = 0x0
+            BLURFILTER_BOX = 0x1
+        class StandardLightingAttenuationStyle_t:
+            LIGHT_STYLE_OLD = 0x0
+            LIGHT_STYLE_NEW = 0x1
+        class ParticleParentSetMode_t:
+            PARTICLE_SET_PARENT_NO = 0x0
+            PARTICLE_SET_PARENT_IMMEDIATE = 0x1
+            PARTICLE_SET_PARENT_ROOT = 0x2
+        class ParticleLightingQuality_t:
+            PARTICLE_LIGHTING_PER_PARTICLE = 0x0
+            PARTICLE_LIGHTING_PER_VERTEX = 0x1
+            PARTICLE_LIGHTING_PER_PIXEL = 0xFFFFFFFFFFFFFFFF
+            PARTICLE_LIGHTING_OVERRIDE_POSITION = 0x2
+            PARTICLE_LIGHTING_OVERRIDE_COLOR = 0x3
+            PARTICLE_LIGHTING_ADD_EXTRA_LIGHT = 0x4
+        class ParticleVolumetricSmokeCreationType_t:
+            PARTICLE_VOLUMETRIC_SMOKE_TYPE_CONTINUOUS = 0x0
+            PARTICLE_VOLUMETRIC_SMOKE_TYPE_IMPULSE = 0x1
+        class SetStatisticExpressionType_t:
+            SET_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF
+            SET_EXPRESSION_SUM = 0x0
+            SET_EXPRESSION_MEAN = 0x1
+            SET_EXPRESSION_MEDIAN = 0x2
+            SET_EXPRESSION_MODE = 0x3
+            SET_EXPRESSION_STANDARD_DEVIATION = 0x4
+            SET_EXPRESSION_MIN = 0x5
+            SET_EXPRESSION_MAX = 0x6
+        class EventTypeSelection_t:
+            PARTICLE_EVENT_TYPE_MASK_NONE = 0x0
+            PARTICLE_EVENT_TYPE_MASK_SPAWNED = 0x1
+            PARTICLE_EVENT_TYPE_MASK_KILLED = 0x2
+            PARTICLE_EVENT_TYPE_MASK_COLLISION = 0x4
+            PARTICLE_EVENT_TYPE_MASK_FIRST_COLLISION = 0x8
+            PARTICLE_EVENT_TYPE_MASK_COLLISION_STOPPED = 0x10
+            PARTICLE_EVENT_TYPE_MASK_KILLED_ON_COLLISION = 0x20
+            PARTICLE_EVENT_TYPE_MASK_USER_1 = 0x40
+            PARTICLE_EVENT_TYPE_MASK_USER_2 = 0x80
+            PARTICLE_EVENT_TYPE_MASK_USER_3 = 0x100
+            PARTICLE_EVENT_TYPE_MASK_USER_4 = 0x200
+        class ParticleMassMode_t:
+            PARTICLE_MASSMODE_RADIUS_CUBED = 0x0
+            PARTICLE_MASSMODE_RADIUS_SQUARED = 0x2
+        class ParticleHitboxBiasType_t:
+            PARTICLE_HITBOX_BIAS_ENTITY = 0x0
+            PARTICLE_HITBOX_BIAS_HITBOX = 0x1
+        class ParticleControlPointAxis_t:
+            PARTICLE_CP_AXIS_X = 0x0
+            PARTICLE_CP_AXIS_Y = 0x1
+            PARTICLE_CP_AXIS_Z = 0x2
+            PARTICLE_CP_AXIS_NEGATIVE_X = 0x3
+            PARTICLE_CP_AXIS_NEGATIVE_Y = 0x4
+            PARTICLE_CP_AXIS_NEGATIVE_Z = 0x5
+        class ParticlePinDistance_t:
+            PARTICLE_PIN_DISTANCE_NONE = 0xFFFFFFFFFFFFFFFF
+            PARTICLE_PIN_DISTANCE_NEIGHBOR = 0x0
+            PARTICLE_PIN_DISTANCE_FARTHEST = 0x1
+            PARTICLE_PIN_DISTANCE_FIRST = 0x2
+            PARTICLE_PIN_DISTANCE_LAST = 0x3
+            PARTICLE_PIN_DISTANCE_CENTER = 0x5
+            PARTICLE_PIN_DISTANCE_CP = 0x6
+            PARTICLE_PIN_DISTANCE_CP_PAIR_EITHER = 0x7
+            PARTICLE_PIN_DISTANCE_CP_PAIR_BOTH = 0x8
+            PARTICLE_PIN_SPEED = 0x9
+            PARTICLE_PIN_COLLECTION_AGE = 0xA
+            PARTICLE_PIN_FLOAT_VALUE = 0xB
+        class VectorFloatExpressionType_t:
+            VECTOR_FLOAT_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF
+            VECTOR_FLOAT_EXPRESSION_DOTPRODUCT = 0x0
+            VECTOR_FLOAT_EXPRESSION_DISTANCE = 0x1
+            VECTOR_FLOAT_EXPRESSION_DISTANCESQR = 0x2
+            VECTOR_FLOAT_EXPRESSION_INPUT1_LENGTH = 0x3
+            VECTOR_FLOAT_EXPRESSION_INPUT1_LENGTHSQR = 0x4
+            VECTOR_FLOAT_EXPRESSION_INPUT1_NOISE = 0x5
+        class ParticleFogType_t:
+            PARTICLE_FOG_GAME_DEFAULT = 0x0
+            PARTICLE_FOG_ENABLED = 0x1
+            PARTICLE_FOG_DISABLED = 0x2
+        class VectorExpressionType_t:
+            VECTOR_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF
+            VECTOR_EXPRESSION_ADD = 0x0
+            VECTOR_EXPRESSION_SUBTRACT = 0x1
+            VECTOR_EXPRESSION_MUL = 0x2
+            VECTOR_EXPRESSION_DIVIDE = 0x3
+            VECTOR_EXPRESSION_INPUT_1 = 0x4
+            VECTOR_EXPRESSION_MIN = 0x5
+            VECTOR_EXPRESSION_MAX = 0x6
+            VECTOR_EXPRESSION_CROSSPRODUCT = 0x7
+            VECTOR_EXPRESSION_LERP = 0x8
+        class ParticleMultiSegmentInputSelection_t:
+            PARTICLE_MULTISEGMENT_SELECTION_FLOAT = 0x0
+            PARTICLE_MULTISEGMENT_SELECTION_STRING = 0x1
+        class ParticleRotationLockType_t:
+            PARTICLE_ROTATION_LOCK_NONE = 0x0
+            PARTICLE_ROTATION_LOCK_ROTATIONS = 0x1
+            PARTICLE_ROTATION_LOCK_NORMAL = 0x2
+        class HitboxLerpType_t:
+            HITBOX_LERP_LIFETIME = 0x0
+            HITBOX_LERP_CONSTANT = 0x1
+        class ParticleAttrBoxFlags_t:
+            PARTICLE_ATTR_BOX_FLAGS_NONE = 0x0
+            PARTICLE_ATTR_BOX_FLAGS_WATER = 0x1
+            PARTICLE_ATTR_BOX_FLAGS_ON_FIRE = 0x2
+            PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED = 0x4
+            PARTICLE_ATTR_BOX_FLAGS_ASLEEP = 0x8
+            PARTICLE_ATTR_BOX_FLAGS_FROZEN = 0x10
+            PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY = 0x20
+        class ParticleTopology_t:
+            PARTICLE_TOPOLOGY_POINTS = 0x0
+            PARTICLE_TOPOLOGY_LINES = 0x1
+            PARTICLE_TOPOLOGY_TRIS = 0x2
+            PARTICLE_TOPOLOGY_QUADS = 0x3
+            PARTICLE_TOPOLOGY_CUBES = 0x4
+        class ParticleLightBehaviorChoiceList_t:
+            PARTICLE_LIGHT_BEHAVIOR_FOLLOW_DIRECTION = 0x0
+            PARTICLE_LIGHT_BEHAVIOR_ROPE = 0x1
+            PARTICLE_LIGHT_BEHAVIOR_TRAILS = 0x2
+        class ModelHitboxType_t:
+            MODEL_HITBOX_TYPE_STANDARD = 0x0
+            MODEL_HITBOX_TYPE_RAW_BONES = 0x1
+            MODEL_HITBOX_TYPE_RENDERBOUNDS = 0x2
+            MODEL_HITBOX_TYPE_SNAPSHOT = 0x3
+        class ParticleMultiSegmentCountSelection_t:
+            PARTICLE_MULTISEGMENT_SEG_COUNT_7 = 0x7
+            PARTICLE_MULTISEGMENT_SEG_COUNT_14 = 0xE
+            PARTICLE_MULTISEGMENT_SEG_COUNT_16 = 0x10
+        class ParticleOrientationType_t:
+            PARTICLE_ORIENTATION_NONE = 0x0
+            PARTICLE_ORIENTATION_VELOCITY = 0x1
+            PARTICLE_ORIENTATION_NORMAL = 0x2
+            PARTICLE_ORIENTATION_ROTATION = 0x4
+        class ParticleTraceSet_t:
+            PARTICLE_TRACE_SET_ALL = 0x0
+            PARTICLE_TRACE_SET_STATIC = 0x1
+            PARTICLE_TRACE_SET_STATIC_AND_KEYFRAMED = 0x2
+            PARTICLE_TRACE_SET_DYNAMIC = 0x3
+        class ParticleTextureLayerBlendType_t:
+            SPRITECARD_TEXTURE_BLEND_MULTIPLY = 0x0
+            SPRITECARD_TEXTURE_BLEND_MOD2X = 0x1
+            SPRITECARD_TEXTURE_BLEND_REPLACE = 0x2
+            SPRITECARD_TEXTURE_BLEND_ADD = 0x3
+            SPRITECARD_TEXTURE_BLEND_SUBTRACT = 0x4
+            SPRITECARD_TEXTURE_BLEND_AVERAGE = 0x5
+            SPRITECARD_TEXTURE_BLEND_LUMINANCE = 0x6
+        class ParticleSelection_t:
+            PARTICLE_SELECTION_FIRST = 0x0
+            PARTICLE_SELECTION_LAST = 0x1
+            PARTICLE_SELECTION_NUMBER = 0x2
+        class ParticleToolsState_t:
+            PARTICLE_TOOLS_STATE_ALWAYS_ON = 0xFFFFFFFFFFFFFFFF
+            PARTICLE_TOOLS_STATE_TOOLS_ONLY = 0x0
+            PARTICLE_TOOLS_STATE_GAME_ONLY = 0x1
+        class SnapshotIndexType_t:
+            SNAPSHOT_INDEX_INCREMENT = 0x0
+            SNAPSHOT_INDEX_DIRECT = 0x1
+        class ParticleOutputBlendMode_t:
+            PARTICLE_OUTPUT_BLEND_MODE_ALPHA = 0x0
+            PARTICLE_OUTPUT_BLEND_MODE_ADD = 0x1
+            PARTICLE_OUTPUT_BLEND_MODE_BLEND_ADD = 0x2
+            PARTICLE_OUTPUT_BLEND_MODE_HALF_BLEND_ADD = 0x3
+            PARTICLE_OUTPUT_BLEND_MODE_NEG_HALF_BLEND_ADD = 0x4
+            PARTICLE_OUTPUT_BLEND_MODE_MOD2X = 0x5
+            PARTICLE_OUTPUT_BLEND_MODE_LIGHTEN = 0x6
+        class ParticleLightnintBranchBehavior_t:
+            PARTICLE_LIGHTNING_BRANCH_CURRENT_DIR = 0x0
+            PARTICLE_LIGHTNING_BRANCH_ENDPOINT_DIR = 0x1
+        class MaterialProxyType_t:
+            MATERIAL_PROXY_STATUS_EFFECT = 0x0
+            MATERIAL_PROXY_TINT = 0x1
+        class ParticleDepthFeatheringMode_t:
+            PARTICLE_DEPTH_FEATHERING_OFF = 0x0
+            PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL = 0x1
+            PARTICLE_DEPTH_FEATHERING_ON_REQUIRED = 0x2
+        class ParticleLightUnitChoiceList_t:
+            PARTICLE_LIGHT_UNIT_CANDELAS = 0x0
+            PARTICLE_LIGHT_UNIT_LUMENS = 0x1
+        class ParticleMultiSegmentSpecialCharacter_t:
+            PARTICLE_MULTISEGMENT_SPECIAL_NONE = 0xFFFFFFFFFFFFFFFF
+            PARTICLE_MULTISEGMENT_SPECIAL_DECIMAL = 0x0
+            PARTICLE_MULTISEGMENT_SPECIAL_COLON = 0x1
+            PARTICLE_MULTISEGMENT_SPECIAL_DEGREES = 0x2
+        class ParticleFalloffFunction_t:
+            PARTICLE_FALLOFF_CONSTANT = 0x0
+            PARTICLE_FALLOFF_LINEAR = 0x1
+            PARTICLE_FALLOFF_EXPONENTIAL = 0x2
+        class ParticleSequenceCropOverride_t:
+            PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT = 0xFFFFFFFFFFFFFFFF
+            PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_OFF = 0x0
+            PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_ON = 0x1
+        class ParticleDetailLevel_t:
+            PARTICLEDETAIL_LOW = 0x0
+            PARTICLEDETAIL_MEDIUM = 0x1
+            PARTICLEDETAIL_HIGH = 0x2
+            PARTICLEDETAIL_ULTRA = 0x3
+        class BBoxVolumeType_t:
+            BBOX_VOLUME = 0x0
+            BBOX_DIMENSIONS = 0x1
+            BBOX_MINS_MAXS = 0x2
+            BBOX_RADIUS = 0x3
+        class SpriteCardTextureType_t:
+            SPRITECARD_TEXTURE_DIFFUSE = 0x0
+            SPRITECARD_TEXTURE_ZOOM = 0x1
+            SPRITECARD_TEXTURE_1D_COLOR_LOOKUP = 0x2
+            SPRITECARD_TEXTURE_UVDISTORTION = 0x3
+            SPRITECARD_TEXTURE_UVDISTORTION_ZOOM = 0x4
+            SPRITECARD_TEXTURE_NORMALMAP = 0x5
+            SPRITECARD_TEXTURE_ANIMMOTIONVEC = 0x6
+            SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_A = 0x7
+            SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_B = 0x8
+            SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_C = 0x9
+            SPRITECARD_TEXTURE_DEPTH = 0xA
+            SPRITECARD_TEXTURE_ILLUMINATION_GRADIENT = 0xB
+        class ParticleAlphaReferenceType_t:
+            PARTICLE_ALPHA_REFERENCE_ALPHA_ALPHA = 0x0
+            PARTICLE_ALPHA_REFERENCE_OPAQUE_ALPHA = 0x1
+            PARTICLE_ALPHA_REFERENCE_ALPHA_OPAQUE = 0x2
+            PARTICLE_ALPHA_REFERENCE_OPAQUE_OPAQUE = 0x3
+        class SpriteCardTextureChannel_t:
+            SPRITECARD_TEXTURE_CHANNEL_MIX_RGB = 0x0
+            SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA = 0x1
+            SPRITECARD_TEXTURE_CHANNEL_MIX_A = 0x2
+            SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A = 0x3
+            SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_ALPHAMASK = 0x4
+            SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_RGBMASK = 0x5
+            SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA_RGBALPHA = 0x6
+            SPRITECARD_TEXTURE_CHANNEL_MIX_A_RGBALPHA = 0x7
+            SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A_RGBALPHA = 0x8
+            SPRITECARD_TEXTURE_CHANNEL_MIX_R = 0x9
+            SPRITECARD_TEXTURE_CHANNEL_MIX_G = 0xA
+            SPRITECARD_TEXTURE_CHANNEL_MIX_B = 0xB
+            SPRITECARD_TEXTURE_CHANNEL_MIX_RALPHA = 0xC
+            SPRITECARD_TEXTURE_CHANNEL_MIX_GALPHA = 0xD
+            SPRITECARD_TEXTURE_CHANNEL_MIX_BALPHA = 0xE
+        class ParticleVolumetricSmokeType_t:
+            PARTICLE_VOLUMETRIC_SMOKE_TYPE_EMISSION = 0x0
+            PARTICLE_VOLUMETRIC_SMOKE_TYPE_SINK = 0x1
+            PARTICLE_VOLUMETRIC_SMOKE_TYPE_REPEL = 0x2
+        class RenderModelSubModelFieldType_t:
+            SUBMODEL_AS_BODYGROUP_SUBMODEL = 0x0
+            SUBMODEL_AS_MESHGROUP_INDEX = 0x1
+            SUBMODEL_AS_MESHGROUP_MASK = 0x2
+            SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK = 0x3
+        class ParticleHitboxDataSelection_t:
+            PARTICLE_HITBOX_AVERAGE_SPEED = 0x0
+            PARTICLE_HITBOX_COUNT = 0x1
+        class ParticleOrientationChoiceList_t:
+            PARTICLE_ORIENTATION_SCREEN_ALIGNED = 0x0
+            PARTICLE_ORIENTATION_SCREEN_Z_ALIGNED = 0x1
+            PARTICLE_ORIENTATION_WORLD_Z_ALIGNED = 0x2
+            PARTICLE_ORIENTATION_ALIGN_TO_PARTICLE_NORMAL = 0x3
+            PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL = 0x4
+            PARTICLE_ORIENTATION_FULL_3AXIS_ROTATION = 0x5
+        class ParticleCollisionMode_t:
+            COLLISION_MODE_PER_PARTICLE_TRACE = 0x3
+            COLLISION_MODE_USE_NEAREST_TRACE = 0x2
+            COLLISION_MODE_PER_FRAME_PLANESET = 0x1
+            COLLISION_MODE_INITIAL_TRACE_DOWN = 0x0
+            COLLISION_MODE_DISABLED = 0xFFFFFFFFFFFFFFFF
+        class ParticleSortingChoiceList_t:
+            PARTICLE_SORTING_NEAREST = 0x0
+            PARTICLE_SORTING_CREATION_TIME = 0x1
+        class ParticleEndcapMode_t:
+            PARTICLE_ENDCAP_ALWAYS_ON = 0xFFFFFFFFFFFFFFFF
+            PARTICLE_ENDCAP_ENDCAP_OFF = 0x0
+            PARTICLE_ENDCAP_ENDCAP_ON = 0x1
+        class ClosestPointTestType_t:
+            PARTICLE_CLOSEST_TYPE_BOX = 0x0
+            PARTICLE_CLOSEST_TYPE_CAPSULE = 0x1
+            PARTICLE_CLOSEST_TYPE_HYBRID = 0x2
+        class ParticleImpulseType_t:
+            IMPULSE_TYPE_NONE = 0x0
+            IMPULSE_TYPE_GENERIC = 0x1
+            IMPULSE_TYPE_ROPE = 0x2
+            IMPULSE_TYPE_EXPLOSION = 0x4
+            IMPULSE_TYPE_EXPLOSION_UNDERWATER = 0x8
+            IMPULSE_TYPE_PARTICLE_SYSTEM = 0x10
+        class ParticleLiquidContents_t:
+            PARTICLE_LIQUID_NONE = 0x0
+            PARTICLE_LIQUID_OIL = 0x1
+            PARTICLE_LIQUID_WATER = 0x2
+        class SpriteCardShaderType_t:
+            SPRITECARD_SHADER_BASE = 0x0
+            SPRITECARD_SHADER_CUSTOM = 0x1
+        class ParticleOmni2LightTypeChoiceList_t:
+            PARTICLE_OMNI2_LIGHT_TYPE_POINT = 0x0
+            PARTICLE_OMNI2_LIGHT_TYPE_SPHERE = 0x1
+        class ParticleLightFogLightingMode_t:
+            PARTICLE_LIGHT_FOG_LIGHTING_MODE_NONE = 0x0
+            PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC = 0x2
+            PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC_NOSHADOWS = 0x4
+        class ParticleLightTypeChoiceList_t:
+            PARTICLE_LIGHT_TYPE_POINT = 0x0
+            PARTICLE_LIGHT_TYPE_SPOT = 0x1
+            PARTICLE_LIGHT_TYPE_FX = 0x2
+            PARTICLE_LIGHT_TYPE_CAPSULE = 0x3
+        class ParticleOrientationSetMode_t:
+            PARTICLE_ORIENTATION_SET_NONE = 0xFFFFFFFFFFFFFFFF
+            PARTICLE_ORIENTATION_SET_FROM_VELOCITY = 0x0
+            PARTICLE_ORIENTATION_SET_FROM_NORMAL = 0x1
+            PARTICLE_ORIENTATION_SET_FROM_ROTATIONS = 0x2
+        class ParticleCollisionMask_t:
+            PARTICLE_MASK_ALL = 0xFFFFFFFFFFFFFFFF
+            PARTICLE_MASK_SOLID = 0xC3001
+            PARTICLE_MASK_WATER = 0x18000
+            PARTICLE_MASK_SOLID_WATER = 0xDB001
+            PARTICLE_MASK_SHOT = 0x1C1003
+            PARTICLE_MASK_SHOT_BRUSHONLY = 0x101001
+            PARTICLE_MASK_SHOT_HULL = 0x1C3001
+            PARTICLE_MASK_OPAQUE = 0x80
+            PARTICLE_MASK_DEFAULTPLAYERSOLID = 0xC3011
+            PARTICLE_MASK_NPCSOLID = 0xC3021
+        class TextureRepetitionMode_t:
+            TEXTURE_REPETITION_PARTICLE = 0x0
+            TEXTURE_REPETITION_PATH = 0x1
+        class CPulseCell_WaitForCursorsWithTag:
+            pass
+        class CPulseCell_Base:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulse_ResumePoint:
+            pass
+        class CPulseCell_PickBestOutflowSelector:
+            pass
+        class CParticleBindingRealPulse:
+            pass
+        class CPulseCell_WaitForObservable:
+            pass
+        class CPulse_OutflowConnection:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class CPulseGraphDef:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_FireCursors:
+            pass
+        class CPulseCell_Timeline__TimelineEvent_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_IntervalTimer__CursorState_t:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class CPulseCell_BaseRequirement:
+            pass
+        class CPulseCell_BaseState:
+            pass
+        class OutflowWithRequirements_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_IsRequirementValid:
+            pass
+        class CPulseCell_Value_Gradient:
+            pass
+        class CPulseCursorFuncs:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class PulseNodeDynamicOutflows_t__DynamicOutflow_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CBasePulseGraphInstance:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class CPulseCell_Inflow_GraphHook:
+            pass
+        class SignatureOutflow_Resume:
+            pass
+        class CPulseCell_Inflow_BaseEntrypoint:
+            pass
+        class CPulseCell_WaitForCursorsWithTagBase:
+            pass
+        class CPulse_InvokeBinding:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_IntervalTimer:
+            pass
+        class CPulseTestScriptLib:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class CPulseCell_BaseLerp:
+            pass
+        class CPulseCell_Value_Curve:
+            pass
+        class CPulseCell_Inflow_EventHandler:
+            pass
+        class CPulseCell_BaseFlow:
+            pass
+        class CPulseCell_Outflow_CycleShuffled__InstanceState_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_BaseLerp__CursorState_t:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class CPulseCell_WaitForCursorsWithTagBase__CursorState_t:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class CPulseArraylib:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class SignatureOutflow_Continue:
+            pass
+        class CPulseCell_Timeline:
+            pass
+        class CPulseCell_Inflow_EntOutputHandler:
+            pass
+        class CPulseCell_Outflow_CycleOrdered__InstanceState_t:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class CParticleCollectionBindingInstance:
+            pass
+        class CPulseCell_LimitCount__InstanceState_t:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class CPulseCell_Step_DebugLog:
+            pass
+        class CPulseCell_BaseYieldingInflow:
+            pass
+        class PulseNodeDynamicOutflows_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_IsRequirementValid__Criteria_t:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class CPulseCell_Inflow_ObservableVariableListener:
+            pass
+        class CPulseCell_Outflow_CycleOrdered:
+            pass
+        class PulseSelectorOutflowList_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_Inflow_Wait:
+            pass
+        class CPulseCell_Outflow_CycleShuffled:
+            pass
+        class CPulseCell_Inflow_Method:
+            pass
+        class CPulseCell_BaseValue:
+            pass
+        class CPulseCell_BooleanSwitchState:
+            pass
+        class CPulseCell_Inflow_Yield:
+            pass
+        class CPulseMathlib:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class CPulseCell_Unknown:
+            pass
+        class CPulseCell_Outflow_CycleRandom:
+            pass
+        class CPulseCell_Step_PublicOutput:
+            pass
+        class CPulse_BlackboardReference:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_Value_RandomInt:
+            pass
+        class CPulse_CallInfo:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_InlineNodeSkipSelector:
+            pass
+        class CPulseCell_LimitCount:
+            pass
+        class CPulseCell_Step_CallExternalMethod:
+            pass
+        class PulseObservableBoolExpression_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CPulseCell_LimitCount__Criteria_t:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class CPulseCell_CursorQueue:
+            pass
+        class CPulseCell_Value_RandomFloat:
+            pass
+        class CPulseExecCursor:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class IParticleCollection:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class ParticleAttributeIndex_t:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class C_OP_RemapGravityToVector:
+            pass
+        class C_OP_Decay:
+            pass
+        class C_OP_RenderDeferredLight:
+            pass
+        class C_OP_RemapSpeedtoCP:
+            pass
+        class C_OP_RemapTransformToVelocity:
+            pass
+        class CollisionGroupContext_t:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class CParticleFunctionPreEmission:
+            pass
+        class C_OP_FadeOutSimple:
+            pass
+        class C_OP_SpringToVectorConstraint:
+            pass
+        class C_OP_RenderRopes:
+            pass
+        class C_INIT_StatusEffectCitadel:
+            pass
+        class C_OP_RenderSound:
+            pass
+        class CParticleVisibilityInputs:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class C_OP_SetControlPointsToParticle:
+            pass
+        class C_OP_RemapCPVelocityToVector:
+            pass
+        class C_OP_PointVectorAtNextParticle:
+            pass
+        class ParticlePreviewBodyGroup_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_OP_OscillateScalarSimple:
+            pass
+        class C_INIT_StatusEffect:
+            pass
+        class C_INIT_RtEnvCull:
+            pass
+        class C_OP_ConstrainDistance:
+            pass
+        class C_INIT_RandomVector:
+            pass
+        class C_INIT_InitialVelocityNoise:
+            pass
+        class ParticleChildrenInfo_t:
+             = 0x10120 # 
+             = 0x10740 # 
+             = 0x0 # 
+             = 0x100000 # 
+             = 0x88 # 
+            � = 0x1F # �
+             = 0x10018 # 
+             = 0x0 # 
+            P = 0x102C0 # P
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x8B7F8EA0 # 
+             = 0x0 # 
+             = 0x0 # 
+            P = 0x4 # P
+             = 0xE02FA840 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6D0061 # 
+             = 0x57005C # 
+             = 0x5C0072 # 
+             = 0x360032 # 
+             = 0x6C0064 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x360000 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0x96 # 
+             = 0x3 # 
+             = 0x10150 # 
+            P = 0x310038 # P
+             = 0x4E002E # 
+             = 0x55002D # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x20004D # 
+             = 0x10150 # 
+             = 0x640064 # 
+             = 0x0 # 
+             = 0x20009 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x5467122E # 
+             = 0x10150 # 
+            � = 0x10060 # �
+             = 0x0 # 
+        class C_OP_RemapScalarOnceTimed:
+            pass
+        class C_INIT_RandomNamedModelSequence:
+            pass
+        class C_OP_PlaneCull:
+            pass
+        class C_INIT_VelocityRandom:
+            pass
+        class C_OP_ModelDampenMovement:
+            pass
+        class C_OP_TwistAroundAxis:
+            pass
+        class C_OP_TeleportBeam:
+            pass
+        class C_OP_RemapExternalWindToCP:
+            pass
+        class CBaseRendererSource2:
+            pass
+        class CSpinUpdateBase:
+            pass
+        class C_OP_OrientTo2dDirection:
+            pass
+        class C_OP_RemapDotProductToCP:
+            pass
+        class C_INIT_RemapParticleCountToNamedModelElementScalar:
+            pass
+        class C_OP_RenderTrails:
+            pass
+        class C_OP_SetControlPointPositionToTimeOfDayValue:
+            pass
+        class C_OP_DecayMaintainCount:
+            pass
+        class C_INIT_RandomModelSequence:
+            pass
+        class C_OP_ExternalGameImpulseForce:
+            pass
+        class C_OP_RemapAverageHitboxSpeedtoCP:
+            pass
+        class C_INIT_RandomAlpha:
+            pass
+        class C_OP_NormalizeVector:
+            pass
+        class C_OP_FadeInSimple:
+            pass
+        class C_OP_RepeatedTriggerChildGroup:
+            pass
+        class C_OP_RemapVelocityToVector:
+            pass
+        class C_INIT_SetHitboxToClosest:
+            pass
+        class C_INIT_RingWave:
+            pass
+        class C_INIT_RandomTrailLength:
+            pass
+        class C_OP_RemapScalar:
+            pass
+        class C_OP_DistanceBetweenTransforms:
+            pass
+        class C_OP_DecayOffscreen:
+            pass
+        class C_INIT_CreateSequentialPath:
+            pass
+        class C_OP_EndCapTimedDecay:
+            pass
+        class C_OP_RemapDistanceToLineSegmentBase:
+            pass
+        class C_OP_ContinuousEmitter:
+            pass
+        class C_OP_OscillateVectorSimple:
+            pass
+        class C_INIT_SequenceLifeTime:
+            pass
+        class C_INIT_MoveBetweenPoints:
+            pass
+        class C_OP_SetUserEvent:
+            pass
+        class C_OP_QuantizeFloat:
+            pass
+        class C_OP_BasicMovement:
+            pass
+        class C_INIT_RandomNamedModelElement:
+            pass
+        class C_INIT_InitFromParentKilled:
+            pass
+        class C_OP_Callback:
+            pass
+        class CParticleFunction:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class C_OP_GlobalLight:
+            pass
+        class C_INIT_OffsetVectorToVector:
+            pass
+        class C_OP_SetPerChildControlPointFromAttribute:
+            pass
+        class C_OP_SetParentControlPointsToChildCP:
+            pass
+        class C_OP_BoxConstraint:
+            pass
+        class C_INIT_CreatePhyllotaxis:
+            pass
+        class C_OP_AttractToControlPoint:
+            pass
+        class C_INIT_RandomLifeTime:
+            pass
+        class C_INIT_RemapParticleCountToNamedModelSequenceScalar:
+            pass
+        class C_INIT_VelocityRadialRandom:
+            pass
+        class C_INIT_RandomRadius:
+            pass
+        class C_OP_Orient2DRelToCP:
+            pass
+        class TextureControls_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class ControlPointReference_t:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class C_OP_SetControlPointToVectorExpression:
+            pass
+        class C_OP_LightningSnapshotGenerator:
+            pass
+        class C_OP_RemapNamedModelMeshGroupOnceTimed:
+            pass
+        class C_INIT_RemapQAnglesToRotation:
+            pass
+        class C_INIT_PositionWarp:
+            pass
+        class C_OP_SetControlPointFieldToScalarExpression:
+            pass
+        class C_OP_CreateParticleSystemRenderer:
+            pass
+        class CParticleFunctionForce:
+            pass
+        class C_INIT_RandomVectorComponent:
+            pass
+        class C_OP_InheritFromParentParticles:
+            pass
+        class C_INIT_SetVectorAttributeToVectorExpression:
+            pass
+        class C_OP_RemapTransformVisibilityToVector:
+            pass
+        class C_OP_DirectionBetweenVecsToVec:
+            pass
+        class C_OP_MovementLoopInsideSphere:
+            pass
+        class C_OP_RenderSimpleModelCollection:
+            pass
+        class C_OP_QuantizeCPComponent:
+            pass
+        class C_OP_PlayEndCapWhenFinished:
+            pass
+        class C_INIT_InitFloatCollection:
+            pass
+        class CPathParameters:
+             = 0x10120 # 
+             = 0x10740 # 
+             = 0x0 # 
+             = 0x100000 # 
+             = 0x88 # 
+            � = 0x1F # �
+             = 0x10018 # 
+             = 0x0 # 
+            P = 0x102C0 # P
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x8B7F8EA0 # 
+             = 0x0 # 
+             = 0x0 # 
+            P = 0x4 # P
+             = 0xE02FA840 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6D0061 # 
+             = 0x57005C # 
+             = 0x5C0072 # 
+             = 0x360032 # 
+             = 0x6C0064 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x360000 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0x96 # 
+             = 0x3 # 
+             = 0x10150 # 
+            P = 0x310038 # P
+             = 0x4E002E # 
+             = 0x55002D # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x20004D # 
+             = 0x10150 # 
+             = 0x640064 # 
+             = 0x0 # 
+             = 0x20009 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x5467122E # 
+             = 0x10150 # 
+            � = 0x10060 # �
+             = 0x0 # 
+        class C_OP_RemapScalarEndCap:
+            pass
+        class C_INIT_CreateFromPlaneCache:
+            pass
+        class C_OP_LazyCullCompareFloat:
+            pass
+        class C_OP_ControlPointToRadialScreenSpace:
+            pass
+        class C_OP_SpinUpdate:
+            pass
+        class C_INIT_NormalOffset:
+            pass
+        class C_OP_RemapDistanceToLineSegmentToVector:
+            pass
+        class C_OP_RenderAsModels:
+            pass
+        class C_INIT_CreationNoise:
+            pass
+        class C_OP_Spin:
+            pass
+        class C_OP_GameLiquidSpill:
+            pass
+        class C_OP_InstantaneousEmitter:
+            pass
+        class C_OP_ConstrainLineLength:
+            pass
+        class C_INIT_LifespanFromVelocity:
+            pass
+        class CBaseTrailRenderer:
+            pass
+        class C_INIT_VelocityFromCP:
+            pass
+        class C_OP_SetControlPointOrientation:
+            pass
+        class C_OP_MovementSkinnedPositionFromCPSnapshot:
+            pass
+        class C_OP_MultiSegmentDisplaySnapshotGenerator:
+            pass
+        class C_OP_OscillateVector:
+            pass
+        class C_OP_PositionLock:
+            pass
+        class C_OP_RenderVRHapticEvent:
+            pass
+        class C_OP_SetControlPointToImpactPoint:
+            pass
+        class C_OP_InterpolateRadius:
+            pass
+        class C_OP_ReinitializeScalarEndCap:
+            pass
+        class C_OP_TurbulenceForce:
+            pass
+        class C_OP_RemapNamedModelElementOnceTimed:
+            pass
+        class C_OP_SetControlPointToPlayer:
+            pass
+        class C_OP_EndCapTimedFreeze:
+            pass
+        class C_OP_RenderGpuImplicit:
+            pass
+        class C_OP_SetRandomControlPointPosition:
+            pass
+        class C_OP_RenderVolumetricEmitter:
+            pass
+        class C_OP_RemapTransformVisibilityToScalar:
+            pass
+        class C_OP_RemapControlPointDirectionToVector:
+            pass
+        class C_OP_ScreenSpacePositionOfTarget:
+            pass
+        class CParticleFunctionOperator:
+            pass
+        class C_OP_DragRelativeToPlane:
+            pass
+        class C_OP_SetCPtoVector:
+            pass
+        class C_INIT_RandomYaw:
+            pass
+        class C_OP_SnapshotRigidSkinToBones:
+            pass
+        class C_OP_SetSingleControlPointPosition:
+            pass
+        class C_INIT_DistanceToNeighborCull:
+            pass
+        class C_OP_RemapCPtoScalar:
+            pass
+        class CParticleFunctionRenderer:
+            pass
+        class CParticleSystemDefinition:
+            pass
+        class C_OP_RemapNamedModelMeshGroupEndCap:
+            pass
+        class C_OP_PercentageBetweenTransformsVector:
+            pass
+        class C_OP_RenderScreenVelocityRotate:
+            pass
+        class C_OP_UpdateLightSource:
+            pass
+        class C_INIT_CreateWithinBox:
+            pass
+        class C_OP_ChooseRandomChildrenInGroup:
+            pass
+        class C_OP_ControlpointLight:
+            pass
+        class C_OP_VectorFieldSnapshot:
+            pass
+        class C_OP_CylindricalDistanceToTransform:
+            pass
+        class C_INIT_PositionPlaceOnGround:
+            pass
+        class C_INIT_RandomScalar:
+            pass
+        class C_OP_RenderPostProcessing:
+            pass
+        class C_OP_WorldTraceConstraint:
+            pass
+        class C_OP_RenderBlobs:
+            pass
+        class C_OP_OscillateScalar:
+            pass
+        class C_OP_FadeOut:
+            pass
+        class C_OP_WaterImpulseRenderer:
+            pass
+        class C_INIT_RandomSequence:
+            pass
+        class C_OP_RampScalarSplineSimple:
+            pass
+        class C_INIT_DistanceCull:
+            pass
+        class C_OP_CollideWithParentParticles:
+            pass
+        class C_INIT_InitFromVectorFieldSnapshot:
+            pass
+        class C_OP_SetVectorAttributeToVectorExpression:
+            pass
+        class C_INIT_AddVectorToVector:
+            pass
+        class C_INIT_RemapInitialVisibilityScalar:
+            pass
+        class C_OP_RemapTransformOrientationToYaw:
+            pass
+        class C_OP_RenderStatusEffect:
+            pass
+        class C_OP_RandomForce:
+            pass
+        class C_OP_RemapParticleCountOnScalarEndCap:
+            pass
+        class ParticlePreviewState_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_OP_LocalAccelerationForce:
+            pass
+        class C_OP_ModelCull:
+            pass
+        class C_OP_SetFloat:
+            pass
+        class C_INIT_RemapTransformToVector:
+            pass
+        class C_OP_ScreenSpaceDistanceToEdge:
+            pass
+        class C_OP_RemapDistanceToLineSegmentToScalar:
+            pass
+        class C_OP_RemapVectortoCP:
+            pass
+        class C_OP_SetFromCPSnapshot:
+            pass
+        class C_OP_DistanceBetweenCPsToCP:
+            pass
+        class C_OP_SetControlPointToHand:
+            pass
+        class C_OP_ConstrainDistanceToPath:
+            pass
+        class C_OP_DistanceCull:
+            pass
+        class C_INIT_CreateAlongPath:
+            pass
+        class C_OP_GameDecalRenderer:
+            pass
+        class C_OP_SetControlPointsToModelParticles:
+            pass
+        class C_OP_ColorInterpolateRandom:
+            pass
+        class C_INIT_RemapNamedModelSequenceToScalar:
+            pass
+        class C_OP_RenderLights:
+            pass
+        class C_OP_DecayClampCount:
+            pass
+        class CRandomNumberGeneratorParameters:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class C_INIT_ColorLitPerParticle:
+            pass
+        class C_OP_RenderPoints:
+            pass
+        class C_INIT_SetAttributeToScalarExpression:
+            pass
+        class C_INIT_CreateOnGrid:
+            pass
+        class C_OP_RampCPLinearRandom:
+            pass
+        class C_OP_VelocityMatchingForce:
+            pass
+        class C_INIT_RandomAlphaWindowThreshold:
+            pass
+        class C_INIT_CreateOnModelAtHeight:
+            pass
+        class C_OP_ModelSurfaceSnapshotGenerator:
+            pass
+        class C_OP_RestartAfterDuration:
+            pass
+        class C_OP_RenderClothForce:
+            pass
+        class C_OP_RemapVisibilityScalar:
+            pass
+        class C_INIT_CreateSequentialPathV2:
+            pass
+        class VecInputMaterialVariable_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_INIT_RemapInitialDirectionToTransformToVector:
+            pass
+        class C_OP_LockToSavedSequentialPathV2:
+            pass
+        class C_OP_NormalLock:
+            pass
+        class C_INIT_RemapTransformOrientationToRotations:
+            pass
+        class C_OP_Cull:
+            pass
+        class C_INIT_RandomYawFlip:
+            pass
+        class SequenceWeightedList_t:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class C_OP_ReadFromNeighboringParticle:
+            pass
+        class C_OP_RenderText:
+            pass
+        class C_OP_LerpToInitialPosition:
+            pass
+        class C_INIT_RandomRotation:
+            pass
+        class C_OP_LerpEndCapVector:
+            pass
+        class C_OP_VelocityDecay:
+            pass
+        class C_OP_SetCPOrientationToPointAtCP:
+            pass
+        class C_OP_LockToPointList:
+            pass
+        class C_OP_MovementPlaceOnGround:
+            pass
+        class C_OP_SetCPOrientationToDirection:
+            pass
+        class C_OP_RemapCrossProductOfTwoVectorsToVector:
+            pass
+        class C_OP_RemapTransformOrientationToRotations:
+            pass
+        class C_INIT_RandomRotationSpeed:
+            pass
+        class C_OP_InheritFromParentParticlesV2:
+            pass
+        class C_INIT_RandomSecondSequence:
+            pass
+        class C_OP_SetFloatCollection:
+            pass
+        class PointDefinition_t:
+             = 0x1 # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x0 # 
+             = 0xFF00 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x50005C # 
+             = 0x6F0072 # 
+             = 0x660065 # 
+             = 0x34005C # 
+             = 0x70004D # 
+             = 0x670069 # 
+             = 0x610074 # 
+             = 0x6F0064 # 
+             = 0x740061 # 
+             = 0x2E0030 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xE02FB640 # 
+             = 0x700073 # 
+             = 0x0 # 
+             = 0x730069 # 
+             = 0x720065 # 
+             = 0xEE # 
+             = 0x80 # 
+             = 0x20004D # 
+             = 0x520002 # 
+             = 0x0 # 
+             = 0x15 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+        class C_OP_SetControlPointPositionToRandomActiveCP:
+            pass
+        class C_OP_Diffusion:
+            pass
+        class C_INIT_AgeNoise:
+            pass
+        class C_OP_RemapVectorComponentToScalar:
+            pass
+        class CGeneralRandomRotation:
+            pass
+        class C_OP_DistanceBetweenVecs:
+            pass
+        class C_OP_DampenToCP:
+            pass
+        class C_OP_CalculateVectorAttribute:
+            pass
+        class C_OP_LockToBone:
+            pass
+        class C_OP_RemapNamedModelBodyPartOnceTimed:
+            pass
+        class C_OP_ScreenSpaceRotateTowardTarget:
+            pass
+        class C_OP_MovementMaintainOffset:
+            pass
+        class C_INIT_CreateWithinCapsuleTransform:
+            pass
+        class C_OP_SetVec:
+            pass
+        class C_INIT_CreateFromParentParticles:
+            pass
+        class C_INIT_CheckParticleForWater:
+            pass
+        class C_INIT_RandomNamedModelBodyPart:
+            pass
+        class C_OP_RenderOmni2Light:
+            pass
+        class C_OP_ConnectParentParticleToNearest:
+            pass
+        class CPAssignment_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_INIT_RemapParticleCountToNamedModelBodyPartScalar:
+            pass
+        class C_INIT_InitSkinnedPositionFromCPSnapshot:
+            pass
+        class C_OP_LagCompensation:
+            pass
+        class C_OP_CollideWithSelf:
+            pass
+        class C_OP_Noise:
+            pass
+        class C_OP_FadeAndKillForTracers:
+            pass
+        class C_OP_ColorAdjustHSL:
+            pass
+        class CParticleMassCalculationParameters:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_OP_SequenceFromModel:
+            pass
+        class C_OP_AlphaDecay:
+            pass
+        class C_OP_RemapDensityGradientToVectorAttribute:
+            pass
+        class C_INIT_InitVec:
+            pass
+        class C_INIT_SetHitboxToModel:
+            pass
+        class C_OP_MovementMoveAlongSkinnedCPSnapshot:
+            pass
+        class C_OP_LerpScalar:
+            pass
+        class C_INIT_InitialRepulsionVelocity:
+            pass
+        class C_OP_ClampScalar:
+            pass
+        class C_OP_SetControlPointToHMD:
+            pass
+        class C_OP_DifferencePreviousParticle:
+            pass
+        class C_OP_SetControlPointFieldFromVectorExpression:
+            pass
+        class C_OP_PercentageBetweenTransforms:
+            pass
+        class C_INIT_PlaneCull:
+            pass
+        class C_OP_RemapNamedModelSequenceEndCap:
+            pass
+        class C_INIT_InitFromCPSnapshot:
+            pass
+        class C_OP_RenderCables:
+            pass
+        class C_INIT_InheritVelocity:
+            pass
+        class C_OP_SetControlPointToWaterSurface:
+            pass
+        class C_INIT_PositionOffset:
+            pass
+        class C_INIT_NormalAlignToCP:
+            pass
+        class C_OP_ShapeMatchingConstraint:
+            pass
+        class C_OP_SetChildControlPoints:
+            pass
+        class C_OP_ChladniWave:
+            pass
+        class C_OP_RemapDirectionToCPToVector:
+            pass
+        class C_OP_DriveCPFromGlobalSoundFloat:
+            pass
+        class C_INIT_ScreenSpacePositionOfTarget:
+            pass
+        class C_OP_RtEnvCull:
+            pass
+        class C_OP_PinParticleToCP:
+            pass
+        class C_OP_RemapCPtoVector:
+            pass
+        class C_INIT_CreateParticleImpulse:
+            pass
+        class C_OP_DensityForce:
+            pass
+        class C_INIT_CreateInEpitrochoid:
+            pass
+        class C_OP_ConstrainDistanceToUserSpecifiedPath:
+            pass
+        class C_OP_SetControlPointPositions:
+            pass
+        class C_OP_SetFloatAttributeToVectorExpression:
+            pass
+        class C_OP_MovementRotateParticleAroundAxis:
+            pass
+        class C_OP_IntraParticleForce:
+            pass
+        class C_INIT_InitFloat:
+            pass
+        class C_INIT_CreateOnModel:
+            pass
+        class C_OP_InheritFromPeerSystem:
+            pass
+        class C_OP_PerParticleForce:
+            pass
+        class C_INIT_RandomNamedModelMeshGroup:
+            pass
+        class C_OP_RenderProjected:
+            pass
+        class C_OP_MaxVelocity:
+            pass
+        class C_INIT_VelocityFromNormal:
+            pass
+        class C_OP_MaintainEmitter:
+            pass
+        class C_INIT_PositionOffsetToCP:
+            pass
+        class C_INIT_RemapInitialTransformDirectionToRotation:
+            pass
+        class C_OP_FadeAndKill:
+            pass
+        class C_OP_ColorInterpolate:
+            pass
+        class C_OP_RampScalarSpline:
+            pass
+        class C_OP_RemapNamedModelSequenceOnceTimed:
+            pass
+        class C_OP_SetControlPointFromObjectScale:
+            pass
+        class C_OP_MaintainSequentialPath:
+            pass
+        class C_OP_RemapNamedModelBodyPartEndCap:
+            pass
+        class C_OP_StopAfterCPDuration:
+            pass
+        class CGeneralSpin:
+            pass
+        class C_OP_LockToSavedSequentialPath:
+            pass
+        class C_INIT_RemapNamedModelElementToScalar:
+            pass
+        class C_OP_ClampVector:
+            pass
+        class C_OP_RenderStatusEffectCitadel:
+            pass
+        class IParticleSystemDefinition:
+             = 0x10110FF # 
+             = 0x0 # 
+             = 0x45 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x400 # 
+             = 0x0 # 
+             = 0x1032000 # 
+             = 0x0 # 
+             = 0x1015000 # 
+             = 0x0 # 
+             = 0x61007400 # 
+             = 0x6F006400 # 
+             = 0x74006100 # 
+             = 0x2E003000 # 
+             = 0x3A004300 # 
+             = 0x63006900 # 
+             = 0x44002000 # 
+             = 0x6D007200 # 
+             = 0x5C003000 # 
+             = 0x66006E00 # 
+             = 0x61004400 # 
+             = 0x6E006900 # 
+             = 0x6C005000 # 
+             = 0x32003000 # 
+             = 0x6E006500 # 
+             = 0x7FF98B # 
+             = 0x0 # 
+             = 0x1 # 
+             = 0x69006400 # 
+             = 0x1015000 # 
+             = 0x44005C00 # 
+             = 0x6E006900 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x7700 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4D004D00 # 
+             = 0x600 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x100F003 # 
+             = 0x1100000 # 
+        class C_OP_WindForce:
+            pass
+        class C_OP_SetVariable:
+            pass
+        class C_OP_RenderStandardLight:
+            pass
+        class C_OP_DistanceToTransform:
+            pass
+        class C_OP_RemapControlPointOrientationToRotation:
+            pass
+        class C_OP_SetControlPointToCenter:
+            pass
+        class C_OP_RemapAverageScalarValuetoCP:
+            pass
+        class C_OP_RemapDotProductToScalar:
+            pass
+        class C_OP_RemapCPtoCP:
+            pass
+        class C_OP_SetControlPointRotation:
+            pass
+        class C_OP_CurlNoiseForce:
+            pass
+        class C_INIT_Orient2DRelToCP:
+            pass
+        class C_OP_SetSimulationRate:
+            pass
+        class C_OP_FadeIn:
+            pass
+        class C_OP_RenderScreenShake:
+            pass
+        class C_OP_RemapBoundingVolumetoCP:
+            pass
+        class C_OP_HSVShiftToCP:
+            pass
+        class C_OP_RemapVectorToRotations:
+            pass
+        class C_INIT_GlobalScale:
+            pass
+        class C_INIT_RadiusFromCPObject:
+            pass
+        class C_INIT_InitialVelocityFromHitbox:
+            pass
+        class C_OP_LerpVector:
+            pass
+        class C_OP_SetControlPointFieldToWater:
+            pass
+        class TextureGroup_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_OP_TimeVaryingForce:
+            pass
+        class C_OP_SetCPOrientationToGroundNormal:
+            pass
+        class C_OP_SnapshotSkinToBones:
+            pass
+        class C_INIT_CreateWithinSphereTransform:
+            pass
+        class C_OP_RadiusDecay:
+            pass
+        class C_INIT_RemapNamedModelBodyPartToScalar:
+            pass
+        class C_INIT_RemapScalarToVector:
+            pass
+        class C_INIT_InitialSequenceFromModel:
+            pass
+        class C_OP_NoiseEmitter:
+            pass
+        class CParticleFunctionInitializer:
+            pass
+        class C_OP_SelectivelyEnableChildren:
+            pass
+        class ModelReference_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_OP_PlanarConstraint:
+            pass
+        class C_INIT_CreateFromCPs:
+            pass
+        class C_OP_LockPoints:
+            pass
+        class C_INIT_CreateSpiralSphere:
+            pass
+        class C_OP_CPVelocityForce:
+            pass
+        class C_OP_RemapNamedModelElementEndCap:
+            pass
+        class C_INIT_ScaleVelocity:
+            pass
+        class C_OP_MoveToHitbox:
+            pass
+        class C_OP_PinRopeSegmentParticleToParent:
+            pass
+        class C_INIT_PointList:
+            pass
+        class C_OP_LerpToOtherAttribute:
+            pass
+        class C_INIT_RandomColor:
+            pass
+        class C_OP_SetGravityToCP:
+            pass
+        class C_INIT_RemapParticleCountToScalar:
+            pass
+        class C_INIT_InheritFromParentParticles:
+            pass
+        class C_OP_RampScalarLinearSimple:
+            pass
+        class C_INIT_ChaoticAttractor:
+            pass
+        class C_OP_MovementRigidAttachToCP:
+            pass
+        class C_OP_RenderFlattenGrass:
+            pass
+        class C_OP_RenderLightBeam:
+            pass
+        class C_OP_EnableChildrenFromParentParticleCount:
+            pass
+        class C_INIT_DistanceToCPInit:
+            pass
+        class CReplicationParameters:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_OP_EndCapDecay:
+            pass
+        class C_OP_ForceBasedOnDistanceToPlane:
+            pass
+        class C_OP_RemapDensityToVector:
+            pass
+        class ParticleControlPointConfiguration_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_INIT_SetRigidAttachment:
+            pass
+        class MaterialVariable_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class CParticleFunctionConstraint:
+            pass
+        class C_OP_RemapSpeed:
+            pass
+        class C_OP_RenderModels:
+            pass
+        class C_OP_RenderClientPhysicsImpulse:
+            pass
+        class CParticleFunctionEmitter:
+            pass
+        class C_INIT_RemapNamedModelMeshGroupToScalar:
+            pass
+        class C_OP_SetControlPointOrientationToCPVelocity:
+            pass
+        class C_OP_RopeSpringConstraint:
+            pass
+        class C_INIT_PositionWarpScalar:
+            pass
+        class C_OP_ForceControlPointStub:
+            pass
+        class C_OP_VectorNoise:
+            pass
+        class C_OP_RemapParticleCountToScalar:
+            pass
+        class C_INIT_QuantizeFloat:
+            pass
+        class C_OP_RemapModelVolumetoCP:
+            pass
+        class C_OP_SetToCP:
+            pass
+        class ParticleControlPointDriver_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_OP_ParentVortices:
+            pass
+        class C_OP_SetControlPointToCPVelocity:
+            pass
+        class C_OP_ClientPhysics:
+            pass
+        class C_OP_SpinYaw:
+            pass
+        class PointDefinitionWithTimeValues_t:
+            pass
+        class RenderProjectedMaterial_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_INIT_SetFloatAttributeToVectorExpression:
+            pass
+        class C_OP_ExternalWindForce:
+            pass
+        class C_INIT_ModelCull:
+            pass
+        class C_OP_RenderSprites:
+            pass
+        class C_OP_PercentageBetweenTransformLerpCPs:
+            pass
+        class C_OP_SetPerChildControlPoint:
+            pass
+        class C_OP_RenderTreeShake:
+            pass
+        class C_OP_WorldCollideConstraint:
+            pass
+        class C_OP_SetAttributeToScalarExpression:
+            pass
+        class C_OP_CycleScalar:
+            pass
+        class C_OP_RenderMaterialProxy:
+            pass
+        class FloatInputMaterialVariable_t:
+             = 0x10120 # 
+             = 0x10 # 
+             = 0x0 # 
+            ` = 0x0 # 
+             = 0xEEFFEEFF # 
+             = 0x1000 # 
+             = 0x0 # 
+             = 0x10FD0 # �
+             = 0x10110 # 
+             = 0x10750 # P
+             = 0x1FE000 # 
+             = 0x1 # 
+            P = 0x10330 # 
+             = 0x10150 # P
+             = 0xE02FA810 # 
+             = 0x630069 # 
+             = 0x440020 # 
+             = 0x6D0072 # 
+             = 0x5C0030 # 
+             = 0x6F0072 # 
+             = 0x6F0073 # 
+             = 0x6E0065 # 
+             = 0x31002E # 
+             = 0x61004F # 
+             = 0x6C0000 # 
+             = 0x4D005C # 
+             = 0x730077 # 
+             = 0x6F0066 # 
+             = 0x2D0036 # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0x4B # 
+             = 0x0 # 
+             = 0x5D00005D # 
+            P = 0x10150 # P
+             = 0x6C0070 # 
+             = 0x5C # 
+             = 0x0 # 
+             = 0x0 # 
+             = 0xEE # 
+             = 0x3 # 
+             = 0x790079 # 
+             = 0x70 # 
+             = 0x0 # 
+             = 0x99A46D76 # 
+             = 0x1D00001D # 
+             = 0x100F0 # �
+            � = 0xF000 # 
+        class C_OP_RampScalarLinear:
+            pass
+        class C_OP_RotateVector:
+            pass
+        class C_INIT_InitVecCollection:
+            pass
+        class C_INIT_RemapParticleCountToNamedModelMeshGroupScalar:
+            pass
+        class C_INIT_SequenceFromCP:
+            pass
+        class C_OP_CPOffsetToPercentageBetweenCPs:
+            pass
+        class C_OP_LerpEndCapScalar:
+            pass
