@@ -1,0 +1,99 @@
+# Generated using https://github.com/ikhsanprasetyo/source2-dumper
+# 2026-04-29 12:46:53.186668100 +07:00
+
+class Schemas:
+    # Module: steamaudio.dll
+    class SteamaudioDll:
+        class SteamAudioReverbClusteringSettings_t:
+            m_bEnableClustering = 0x0 # bool
+            m_nCubeMapResolution = 0x4 # int32
+            m_flDepthThreshold = 0x8 # float32
+        class SteamAudioCustomDataDimensionsSettings_t:
+            m_nAmbisonicsOrderOutsideField = 0x0 # int32
+            m_nAmbisonicsOrderInsideSizeField = 0x4 # int32
+            m_flOutsideThreshold = 0x8 # float32
+            m_flSizeThreshold = 0xC # float32
+            m_flInsideThreshold = 0x10 # float32
+        class SteamAudioPathSettings_t:
+            m_nNumVisSamples = 0x0 # int32
+            m_flProbeVisRadius = 0x4 # float32
+            m_flProbeVisThreshold = 0x8 # float32
+            m_flProbePathRange = 0xC # float32
+        class CSteamAudioAmbisonicsField:
+            m_field = 0x0 # CUtlVector<float32>
+        class CSteamAudioBakedPathingData:
+            m_nBands = 0x0 # int32
+            m_probes = 0x8 # CSteamAudioProbeData
+            m_movables = 0x10 # CSteamAudioMovableBakedData<CSteamAudioBakedPathingData>
+        class SteamAudioReverbSettings_t:
+            m_nNumRays = 0x0 # int32
+            m_nNumBounces = 0x4 # int32
+            m_flIRDuration = 0x8 # float32
+            m_nAmbisonicsOrder = 0xC # int32
+            m_bExportScene = 0x10 # bool
+        class CSteamAudioProbeData:
+            m_pProbeBatch = 0x0 # IPLProbeBatch
+        class SteamAudioReverbCompressionSettings_t:
+            m_bEnableCompression = 0x0 # bool
+            m_flQuality = 0x4 # float32
+        class CSteamAudioBakedMaterialsData:
+            m_probes = 0x0 # CSteamAudioProbeData
+            m_vecMaterialTokens = 0x8 # CUtlVector<uint32>
+            m_vecMaterialWeights = 0x20 # CUtlVector<float32>
+        class CSteamAudioBakedOcclusionData:
+            m_settings = 0x0 # SteamAudioCustomDataOcclusionSettings_t
+            m_probes = 0x10 # CSteamAudioProbeData
+            m_vecPathingRatio = 0x18 # CUtlVector<float32>
+            m_vecPathingDeviation = 0x30 # CUtlVector<float32>
+            m_vecReflectionRatio = 0x48 # CUtlVector<float32>
+        class CSteamAudioBakedReverbData:
+            m_nBands = 0x0 # int32
+            m_scene = 0x8 # CSteamAudioSceneData
+            m_probes = 0x18 # CSteamAudioProbeData
+            m_grid = 0x20 # CSteamAudioProbeGrid
+            m_reverbSettings = 0x78 # SteamAudioReverbSettings_t
+            m_reverbClusteringSettings = 0x8C # SteamAudioReverbClusteringSettings_t
+            m_reverbCompressionSettings = 0x98 # SteamAudioReverbCompressionSettings_t
+            m_clusteredProbes = 0xA0 # CSteamAudioProbeData
+            m_vecClusterForProbe = 0xA8 # CUtlVector<int16>
+            m_compressedData = 0xC0 # CSteamAudioCompressedReverb
+            m_compressedClusteredData = 0x120 # CSteamAudioCompressedReverb
+            m_movables = 0x180 # CSteamAudioMovableBakedData<CSteamAudioBakedReverbData>
+        class CSteamAudioProbeLineSegment:
+            m_vStart = 0x0 # Vector
+            m_vEnd = 0xC # Vector
+            m_vecIntervals = 0x18 # CUtlVector<float32>
+            m_vecProbeIndices = 0x30 # CUtlVector<int32>
+        class SteamAudioCustomDataOcclusionSettings_t:
+            m_bEnablePathing = 0x0 # bool
+            m_bEnableReflections = 0x1 # bool
+            m_nReflectionRays = 0x4 # int32
+            m_nReflectionBounces = 0x8 # int32
+        class CSteamAudioBakedDimensionsData:
+            m_settings = 0x0 # SteamAudioCustomDataDimensionsSettings_t
+            m_probes = 0x18 # CSteamAudioProbeData
+            m_vecInOut = 0x20 # CUtlVector<float32>
+            m_vecSize = 0x38 # CUtlVector<float32>
+            m_vecOutsideField = 0x50 # CUtlVector<CSteamAudioAmbisonicsField>
+            m_vecInsideSmallSizeField = 0x68 # CUtlVector<CSteamAudioAmbisonicsField>
+            m_movables = 0x80 # CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+        class CSteamAudioSceneData:
+            m_pScene = 0x0 # IPLScene
+            m_pStaticMesh = 0x8 # IPLStaticMesh
+        class CSteamAudioProbeGrid:
+            m_aabb = 0x0 # AABB_t
+            m_flSpacing = 0x18 # float32
+            m_nx = 0x1C # int32
+            m_ny = 0x20 # int32
+            m_nz = 0x24 # int32
+            m_vecLineSegments = 0x28 # CUtlVector<CSteamAudioProbeLineSegment>
+            m_vecProbes = 0x40 # CUtlVector<Vector>
+        class CSteamAudioCompressedReverb:
+            m_nChannels = 0x0 # int32
+            m_nBands = 0x4 # int32
+            m_nBins = 0x8 # int32
+            m_nProbes = 0xC # int32
+            m_vecNumSingularValues = 0x10 # CUtlVector<int32>
+            m_vecDictionary = 0x28 # CUtlVector<float32>
+            m_vecCompressedData = 0x40 # CUtlVector<float32>
+            m_pCompressedData = 0x58 # IPLCompressedEnergyFields
