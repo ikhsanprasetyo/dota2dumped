@@ -77,34 +77,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -131,11 +103,15 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -160,11 +136,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -182,151 +154,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "UnitLabel",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSndSeqInstMidiSampler": {
-        "fields": {
-          "m_bBeatEnvelopes": 52,
-          "m_bIsSoundEvent": 32,
-          "m_bStopPrevious": 33,
-          "m_flAttack": 44,
-          "m_flMaxVelocityAtten": 40,
-          "m_flMinVelocityAtten": 36,
-          "m_flRelease": 48,
-          "m_hSoundEventHash": 216,
-          "m_nMaxNote": 35,
-          "m_nMinNote": 34,
-          "m_nNextVoiceSlot": 212
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "UnitLabel",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSndSeqInstSndEvtSchema": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "UnitLabel",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSndSeqInstruments": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "CSosGroupActionLimitSchema": {
-        "fields": {
-          "m_bCountStopped": 21,
-          "m_bStopImmediate": 20,
-          "m_nMaxCount": 8,
-          "m_nSortType": 16,
-          "m_nStopType": 12
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "kBranch",
-            "type": "Unknown"
-          },
-          {
-            "name": "kMatch",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_GROUPTYPE_STATIC",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_STOPTYPE_TIME",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_STOPTYPE_OPVAR",
             "type": "Unknown"
           },
           {
@@ -492,6 +319,439 @@
           {
             "name": "SNDLVL_180dB",
             "type": "Unknown"
+          },
+          {
+            "name": "UnitLabel",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSndSeqInstMidiSampler": {
+        "fields": {
+          "m_bBeatEnvelopes": 52,
+          "m_bIsSoundEvent": 32,
+          "m_bStopPrevious": 33,
+          "m_flAttack": 44,
+          "m_flMaxVelocityAtten": 40,
+          "m_flMinVelocityAtten": 36,
+          "m_flRelease": 48,
+          "m_hSoundEventHash": 216,
+          "m_nMaxNote": 35,
+          "m_nMinNote": 34,
+          "m_nNextVoiceSlot": 212
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstMidiSampler",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeMidiSeq",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOn",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusKeyPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusCtrlChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusProgramChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusChannelPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusPitchBend",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_20dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_25dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_30dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_35dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_40dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_45dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_50dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_55dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_60dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_65dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_70dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_NORM",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_75dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_80dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_TALKING",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_85dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_90dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_95dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_100dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_105dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_110dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_120dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_130dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_GUNFIRE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_140dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_150dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_180dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "UnitLabel",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSndSeqInstSndEvtSchema": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstMidiSampler",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeMidiSeq",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOn",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusKeyPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusCtrlChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusProgramChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusChannelPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusPitchBend",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_20dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_25dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_30dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_35dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_40dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_45dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_50dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_55dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_60dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_65dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_70dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_NORM",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_75dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_80dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_TALKING",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_85dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_90dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_95dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_100dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_105dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_110dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_120dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_130dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_GUNFIRE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_140dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_150dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_180dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "UnitLabel",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSndSeqInstruments": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSosGroupActionLimitSchema": {
+        "fields": {
+          "m_bCountStopped": 21,
+          "m_bStopImmediate": 20,
+          "m_nMaxCount": 8,
+          "m_nSortType": 16,
+          "m_nStopType": 12
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -625,7 +885,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "kBranch",
+            "type": "Unknown"
+          },
+          {
+            "name": "kMatch",
             "type": "Unknown"
           },
           {
@@ -637,11 +901,43 @@
             "type": "Unknown"
           },
           {
+            "name": "SOS_GROUPTYPE_STATIC",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_TIME",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_OPVAR",
             "type": "Unknown"
           },
           {
@@ -670,6 +966,62 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstMidiSampler",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeMidiSeq",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOn",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusKeyPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusCtrlChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusProgramChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusChannelPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusPitchBend",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_20dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_25dB",
             "type": "Unknown"
           }
         ],
@@ -714,66 +1066,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -814,7 +1106,27 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -871,20 +1183,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSosGroupActionSchema": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -893,6 +1191,14 @@
           },
           {
             "name": "kMatch",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -933,6 +1239,176 @@
           },
           {
             "name": "SOS_STOPTYPE_OPVAR",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstMidiSampler",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeMidiSeq",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOn",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusKeyPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusCtrlChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusProgramChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusChannelPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusPitchBend",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSosGroupActionSchema": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "kBranch",
+            "type": "Unknown"
+          },
+          {
+            "name": "kMatch",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_GROUPTYPE_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_TIME",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_OPVAR",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1124,6 +1600,84 @@
             "type": "Unknown"
           },
           {
+            "name": "(",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSosGroupActionSoundeventClusterSchema": {
+        "fields": {
+          "m_clusterSizeOpvar": 32,
+          "m_flClusterEpsilon": 12,
+          "m_groupBoundingBoxMaxsOpvar": 48,
+          "m_groupBoundingBoxMinsOpvar": 40,
+          "m_nMinNearby": 8,
+          "m_shouldPlayClusterChild": 24,
+          "m_shouldPlayOpvar": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -1137,6 +1691,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -1145,6 +1703,14 @@
           },
           {
             "name": "kMatch",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -1185,6 +1751,752 @@
           },
           {
             "name": "SOS_STOPTYPE_OPVAR",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstMidiSampler",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeMidiSeq",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOn",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusKeyPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusCtrlChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusProgramChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusChannelPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusPitchBend",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_20dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_25dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_30dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_35dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_40dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_45dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_50dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_55dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_60dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_65dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_70dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_NORM",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_75dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_80dB",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSosGroupActionSoundeventCountSchema": {
+        "fields": {
+          "m_bExcludeStoppedSounds": 8,
+          "m_strCountKeyName": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "(",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "(",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSosGroupActionSoundeventMinMaxValuesSchema": {
+        "fields": {
+          "m_bExcludSoundsAboveThreshold": 32,
+          "m_bExcludeDelayedSounds": 25,
+          "m_bExcludeSoundsBelowThreshold": 26,
+          "m_bExcludeStoppedSounds": 24,
+          "m_flExcludeSoundsMaxThresholdValue": 36,
+          "m_flExcludeSoundsMinThresholdValue": 28,
+          "m_strDelayPublicFieldName": 16,
+          "m_strMaxValueName": 48,
+          "m_strMinValueName": 40,
+          "m_strQueryPublicFieldName": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "(",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "(",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSosGroupActionSoundeventPrioritySchema": {
+        "fields": {
+          "m_bPriorityReadButDontContribute": 32,
+          "m_priorityContributeButDontRead": 24,
+          "m_priorityValue": 8,
+          "m_priorityVolumeScalar": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "kBranch",
+            "type": "Unknown"
+          },
+          {
+            "name": "kMatch",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_GROUPTYPE_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_TIME",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_OPVAR",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqInstMidiSampler",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeSndEvt",
+            "type": "Unknown"
+          },
+          {
+            "name": "eSndSeqRegionTypeMidiSeq",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOn",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusKeyPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusCtrlChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusProgramChange",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusChannelPressure",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusPitchBend",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_20dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_25dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_30dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_35dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_40dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_45dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_50dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_55dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "SNDLVL_60dB",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSosGroupActionTimeBlockLimitSchema": {
+        "fields": {
+          "m_flMaxDuration": 12,
+          "m_nMaxCount": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSosGroupActionTimeLimitSchema": {
+        "fields": {
+          "m_flMaxDuration": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "kBranch",
+            "type": "Unknown"
+          },
+          {
+            "name": "kMatch",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_GROUPTYPE_STATIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_TIME",
+            "type": "Unknown"
+          },
+          {
+            "name": "SOS_STOPTYPE_OPVAR",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1326,741 +2638,29 @@
           {
             "name": "SNDLVL_110dB",
             "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSosGroupActionSoundeventClusterSchema": {
-        "fields": {
-          "m_clusterSizeOpvar": 32,
-          "m_flClusterEpsilon": 12,
-          "m_groupBoundingBoxMaxsOpvar": 48,
-          "m_groupBoundingBoxMinsOpvar": 40,
-          "m_nMinNearby": 8,
-          "m_shouldPlayClusterChild": 24,
-          "m_shouldPlayOpvar": 16
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSosGroupActionSoundeventCountSchema": {
-        "fields": {
-          "m_bExcludeStoppedSounds": 8,
-          "m_strCountKeyName": 16
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "kBranch",
-            "type": "Unknown"
-          },
-          {
-            "name": "kMatch",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_GROUPTYPE_STATIC",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_STOPTYPE_TIME",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_STOPTYPE_OPVAR",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqInstSndEvt",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqInstMidiSampler",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqRegionTypeSndEvt",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqRegionTypeMidiSeq",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusNoteOff",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusNoteOn",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusKeyPressure",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusCtrlChange",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusProgramChange",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusChannelPressure",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusPitchBend",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSosGroupActionSoundeventMinMaxValuesSchema": {
-        "fields": {
-          "m_bExcludSoundsAboveThreshold": 32,
-          "m_bExcludeDelayedSounds": 25,
-          "m_bExcludeSoundsBelowThreshold": 26,
-          "m_bExcludeStoppedSounds": 24,
-          "m_flExcludeSoundsMaxThresholdValue": 36,
-          "m_flExcludeSoundsMinThresholdValue": 28,
-          "m_strDelayPublicFieldName": 16,
-          "m_strMaxValueName": 48,
-          "m_strMinValueName": 40,
-          "m_strQueryPublicFieldName": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "kBranch",
-            "type": "Unknown"
-          },
-          {
-            "name": "kMatch",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_GROUPTYPE_STATIC",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_SETPARAM_SORTTYPE_LOWEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_LIMIT_SORTTYPE_LOWEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_STOPTYPE_TIME",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_STOPTYPE_OPVAR",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqInstSndEvt",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqInstMidiSampler",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqRegionTypeSndEvt",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSndSeqRegionTypeMidiSeq",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusNoteOff",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusNoteOn",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusKeyPressure",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusCtrlChange",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusProgramChange",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusChannelPressure",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusPitchBend",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSosGroupActionSoundeventPrioritySchema": {
-        "fields": {
-          "m_bPriorityReadButDontContribute": 32,
-          "m_priorityContributeButDontRead": 24,
-          "m_priorityValue": 8,
-          "m_priorityVolumeScalar": 16
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSosGroupActionTimeBlockLimitSchema": {
-        "fields": {
-          "m_flMaxDuration": 12,
-          "m_nMaxCount": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSosGroupActionTimeLimitSchema": {
-        "fields": {
-          "m_flMaxDuration": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "SNDLVL_120dB",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "SNDLVL_130dB",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "SNDLVL_GUNFIRE",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "SNDLVL_140dB",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "SNDLVL_150dB",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "SNDLVL_180dB",
             "type": "Unknown"
           }
         ],
@@ -2091,27 +2691,23 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyReadonlyExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
           {
             "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyReadonlyExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyReadonlyExpr",
             "type": "Unknown"
           }
         ],
@@ -2135,6 +2731,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "hZ",
             "type": "Unknown"
           }
         ],
@@ -2652,10 +3252,6 @@
             "type": "Unknown"
           },
           {
-            "name": "i",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2901,10 +3497,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "i",
             "type": "Unknown"
           },
           {
@@ -4656,10 +5248,6 @@
             "type": "Unknown"
           },
           {
-            "name": "i",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -4869,10 +5457,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "i",
             "type": "Unknown"
           },
           {
@@ -5680,10 +6264,6 @@
             "type": "Unknown"
           },
           {
-            "name": "i",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -5853,10 +6433,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "i",
             "type": "Unknown"
           },
           {
@@ -6652,10 +7228,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "i",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -6715,10 +7287,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "i",
             "type": "Unknown"
           },
           {
@@ -6981,6 +7549,14 @@
             "type": "Unknown"
           },
           {
+            "name": "Pl",
+            "type": "Unknown"
+          },
+          {
+            "name": "hl",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -6990,6 +7566,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hs",
             "type": "Unknown"
           },
           {
@@ -7056,6 +7636,10 @@
             "type": "Unknown"
           },
           {
+            "name": " [",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -7092,11 +7676,47 @@
             "type": "Unknown"
           },
           {
+            "name": "Hb",
+            "type": "Unknown"
+          },
+          {
+            "name": "pb",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "xj",
+            "type": "Unknown"
+          },
+          {
+            "name": "0j",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "0j",
             "type": "Unknown"
           },
           {
@@ -7116,19 +7736,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "8m",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "Xm",
             "type": "Unknown"
           },
           {
@@ -7177,6 +7789,14 @@
             "type": "Unknown"
           },
           {
+            "name": "XY",
+            "type": "Unknown"
+          },
+          {
+            "name": "pY",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7186,6 +7806,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "hZ",
             "type": "Unknown"
           },
           {
@@ -7209,6 +7833,10 @@
             "type": "Unknown"
           },
           {
+            "name": "hZ",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7221,7 +7849,15 @@
             "type": "Unknown"
           },
           {
+            "name": "h`",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": " b",
             "type": "Unknown"
           },
           {
@@ -7416,23 +8052,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "Pk",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "hk",
             "type": "Unknown"
           },
           {
@@ -7445,6 +8069,38 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pl",
+            "type": "Unknown"
+          },
+          {
+            "name": "hl",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hs",
             "type": "Unknown"
           }
         ],
@@ -7486,6 +8142,10 @@
             "type": "Unknown"
           },
           {
+            "name": " [",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -7519,6 +8179,14 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hb",
+            "type": "Unknown"
+          },
+          {
+            "name": "pb",
             "type": "Unknown"
           },
           {
@@ -7989,6 +8657,10 @@
             "type": "Unknown"
           },
           {
+            "name": " [",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -8025,11 +8697,47 @@
             "type": "Unknown"
           },
           {
+            "name": "Hb",
+            "type": "Unknown"
+          },
+          {
+            "name": "pb",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "xj",
+            "type": "Unknown"
+          },
+          {
+            "name": "0j",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "0j",
             "type": "Unknown"
           },
           {
@@ -8049,19 +8757,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "8m",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "Xm",
             "type": "Unknown"
           },
           {
@@ -8111,6 +8811,14 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "@~",
+            "type": "Unknown"
+          },
+          {
+            "name": "`~",
             "type": "Unknown"
           },
           {
@@ -8405,6 +9113,10 @@
             "type": "Unknown"
           },
           {
+            "name": "hZ",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertySuppressExpr",
             "type": "Unknown"
           },
@@ -8425,6 +9137,10 @@
             "type": "Unknown"
           },
           {
+            "name": "hZ",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8437,7 +9153,15 @@
             "type": "Unknown"
           },
           {
+            "name": "h`",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": " b",
             "type": "Unknown"
           },
           {
@@ -8482,6 +9206,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "0j",
             "type": "Unknown"
           }
         ],
@@ -8705,11 +9433,47 @@
             "type": "Unknown"
           },
           {
+            "name": "Hb",
+            "type": "Unknown"
+          },
+          {
+            "name": "pb",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "xj",
+            "type": "Unknown"
+          },
+          {
+            "name": "0j",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "0j",
             "type": "Unknown"
           },
           {
@@ -8729,19 +9493,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "8m",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "Xm",
             "type": "Unknown"
           }
         ],
@@ -8764,6 +9520,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hs",
             "type": "Unknown"
           },
           {
@@ -8809,15 +9569,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "0j",
             "type": "Unknown"
           },
           {
@@ -8841,11 +9593,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "Pk",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "hk",
             "type": "Unknown"
           },
           {
@@ -8858,6 +9610,38 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pl",
+            "type": "Unknown"
+          },
+          {
+            "name": "hl",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hs",
             "type": "Unknown"
           }
         ],
@@ -9352,6 +10136,14 @@
             "type": "Unknown"
           },
           {
+            "name": "@~",
+            "type": "Unknown"
+          },
+          {
+            "name": "`~",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -9413,6 +10205,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "SOS_EDIT_ITEM_TYPE_SOUNDEVENT",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -9428,14 +10224,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_EDIT_ITEM_TYPE_SOUNDEVENT",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOS_EDIT_ITEM_TYPE_LIBRARYSTACKS",
             "type": "Unknown"
           }
         ],

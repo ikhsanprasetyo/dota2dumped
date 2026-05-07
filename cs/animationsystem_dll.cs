@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1604,7 +1604,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
-        // amData=C:\ProgramData
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -1749,7 +1748,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
-        // amData=C:\ProgramData
         public static class CPulseCell_WaitForCursorsWithTagBase {
             public const nint m_nCursorsAllowedToWait = 0x48; // int32
             public const nint m_WaitComplete = 0x50; // CPulse_ResumePoint
@@ -1774,7 +1772,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        //  
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -1826,7 +1823,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseTestScriptLib {
         }
         // Parent: None
@@ -1855,15 +1852,13 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
-        //  
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        //  
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseLerp {
             public const nint m_WakeResume = 0x48; // CPulse_ResumePoint
@@ -2070,7 +2065,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Step_DebugLog {
         }
         // Parent: None
@@ -2100,15 +2095,13 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
-        //  
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        //  
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseYieldingInflow {
         }
@@ -2153,7 +2146,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Inflow_ObservableVariableListener {
             public const nint m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
             public const nint m_bSelfReference = 0x82; // bool
@@ -2174,7 +2167,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Outflow_CycleOrdered {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
@@ -2207,7 +2200,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Inflow_Wait {
             public const nint m_WakeResume = 0x48; // CPulse_ResumePoint
         }
@@ -2226,7 +2219,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Outflow_CycleShuffled {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
@@ -2273,7 +2266,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_BaseValue {
         }
         // Parent: None
@@ -2378,7 +2371,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Step_PublicOutput {
             public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
         }
@@ -2409,7 +2402,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Value_RandomInt {
         }
         // Parent: None
@@ -2517,8 +2510,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
-        //  
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Step_CallExternalMethod {
             public const nint m_MethodName = 0x48; // PulseSymbol_t
             public const nint m_nBlackboardIndex = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
@@ -2574,7 +2566,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Value_RandomFloat {
         }
         // Parent: None
@@ -2960,7 +2952,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmTransitionEventConditionNode__CDefinition {
@@ -3338,7 +3329,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3450,7 +3440,6 @@ namespace Source2Dumper.Schemas {
         // Pose
         // Special
         // Pose
-        // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3686,7 +3675,6 @@ namespace Source2Dumper.Schemas {
         // Pose
         // Special
         // Pose
-        // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4162,7 +4150,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4669,7 +4656,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5195,7 +5181,6 @@ namespace Source2Dumper.Schemas {
         // Pose
         // Special
         // Pose
-        // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5617,7 +5602,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -6309,7 +6293,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmFloatCurveEventNode__CDefinition {
@@ -6538,7 +6521,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmCurrentSyncEventIDNode__CDefinition {
@@ -6608,7 +6590,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         public static class CNmTargetWarpEvent {
             public const nint m_rule = 0x18; // NmTargetWarpRule_t
             public const nint m_algorithm = 0x19; // NmTargetWarpAlgorithm_t
@@ -6800,7 +6781,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmSyncEventIndexConditionNode__CDefinition {
@@ -7209,7 +7189,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         public static class CNmOrientationWarpEvent {
         }
         // Parent: None
@@ -8391,7 +8370,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmFootstepEventPercentageThroughNode__CDefinition {
@@ -9026,7 +9004,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 60,0x0926/0x8888,0x1345/0x3008,0x0079/0x0006,0x1d79/0x0301,0x12bd/0xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102
+        // \ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\Bytesee
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -9993,7 +9971,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -10892,7 +10869,6 @@ namespace Source2Dumper.Schemas {
         // Pose
         // Special
         // Pose
-        // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
         public static class CNmTargetWarpNode__CDefinition {
             public const nint m_nClipReferenceNodeIdx = 0x10; // int16
             public const nint m_nTargetValueNodeIdx = 0x12; // int16
@@ -11085,7 +11061,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11329,7 +11304,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmFootstepEventIDNode__CDefinition {
@@ -12062,7 +12036,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmCurrentSyncEventNode__CDefinition {
@@ -12571,9 +12544,7 @@ namespace Source2Dumper.Schemas {
         // BlendKey_Velocity
         // BlendKey_Distance
         // BlendKey_RemainingDistance
-        // g
         // Blend2DMode_Directional
-        // e
         // MGetKV3ClassDefaults
         // WeightedRandomNoRepeat
         // Iterate
@@ -12730,7 +12701,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 60,0x0926/0x8888,0x1345/0x3008,0x0079/0x0006,0x1d79/0x0301,0x12bd/0xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102
+        // \ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\Bytesee
         public static class CNmVectorNegateNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
         }

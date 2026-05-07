@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -292,7 +292,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Step_TestDomainDestroyFakeEntity {
             }
             // Parent: None
@@ -349,7 +348,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Test_NoInflow {
             }
             // Parent: None
@@ -505,7 +503,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -639,7 +636,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -712,7 +708,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Test_MultiOutflow_WithParams {
                 pub const m_Out1: usize = 0x48; // SignatureOutflow_Continue
                 pub const m_Out2: usize = 0x90; // SignatureOutflow_Continue
@@ -745,7 +740,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_GraphHook {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
@@ -847,7 +842,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Test_MultiInflow_NoDefault {
             }
             // Parent: None
@@ -912,7 +906,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            //  
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -962,7 +955,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Value_TestValue50 {
             }
             // Parent: None
@@ -1010,7 +1002,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -1047,7 +1038,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EventHandler {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
@@ -1099,7 +1090,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Step_TestDomainTracepoint {
             }
             // Parent: None
@@ -1221,7 +1211,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EntOutputHandler {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
@@ -1278,7 +1268,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Outflow_TestExplicitYesNo {
                 pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_No: usize = 0x90; // CPulse_OutflowConnection
@@ -1294,7 +1283,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Outflow_TestRandomYesNo {
                 pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_No: usize = 0x90; // CPulse_OutflowConnection
@@ -1326,7 +1314,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Test_MultiInflow_WithDefault {
             }
             // Parent: None
@@ -1335,7 +1322,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_DebugLog {
@@ -1408,7 +1395,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleOrdered {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1454,7 +1441,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Wait {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
@@ -1510,7 +1497,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_TestWaitWithCursorState {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
                 pub const m_WakeCancel: usize = 0x90; // CPulse_ResumePoint
@@ -1531,7 +1517,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleShuffled {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1638,7 +1624,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Yield {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
@@ -1712,7 +1698,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomInt {
             }
@@ -1790,7 +1776,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 67,0x057e/0x2007,0x057e/0x2066,0x057e/0x2008,0x057e/0x2068,0x057e/0x2009,0x057e/0x2069,0x0f0d/0x00c1,0x0f0d/0x0092,0x0f0d/0x00f6
+            // Files\Cloudflare\Cloudflare WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scrip
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_InlineNodeSkipSelector {
@@ -1843,7 +1829,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_CallExternalMethod {
@@ -1879,7 +1865,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // g
             pub mod CPulseCell_Step_TestDomainCreateFakeEntity {
             }
             // Parent: None
@@ -1915,7 +1900,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomFloat {
             }
@@ -2045,7 +2030,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 67,0x057e/0x2007,0x057e/0x2066,0x057e/0x2008,0x057e/0x2068,0x057e/0x2009,0x057e/0x2069,0x0f0d/0x00c1,0x0f0d/0x0092,0x0f0d/0x00f6
+            // Files\Cloudflare\Cloudflare WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scrip
             pub mod CPulse_OutputConnection {
                 pub const m_SourceOutput: usize = 0x0; // PulseSymbol_t
                 pub const m_TargetEntity: usize = 0x10; // PulseSymbol_t
@@ -2270,7 +2255,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 67,0x057e/0x2007,0x057e/0x2066,0x057e/0x2008,0x057e/0x2068,0x057e/0x2009,0x057e/0x2069,0x0f0d/0x00c1,0x0f0d/0x0092,0x0f0d/0x00f6
+            // Files\Cloudflare\Cloudflare WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scrip
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseRuntimeMethodArg {

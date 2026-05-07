@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-29 12:46:53.186668100 +07:00
+# 2026-05-07 15:06:58.093220400 +07:00
 
 class Schemas:
     # Module: soundsystem.dll
@@ -271,14 +271,12 @@ class Schemas:
             m_clusterSizeOpvar = 0x20 # CUtlString
             m_groupBoundingBoxMinsOpvar = 0x28 # CUtlString
             m_groupBoundingBoxMaxsOpvar = 0x30 # CUtlString
-            m_nMinNearby = 0x8 # int32
         class CSosGroupActionSetSoundeventParameterSchema:
             m_nMaxCount = 0x8 # int32
             m_flMinValue = 0xC # float32
             m_flMaxValue = 0x10 # float32
             m_opvarName = 0x18 # CUtlString
             m_nSortType = 0x20 # SosActionSetParamSortType_t
-            m_nMaxCount = 0x8 # int32
         class CSoundContainerReference:
             m_namespace = 0x0 # CUtlString
             m_bUseReference = 0x8 # bool
@@ -307,7 +305,6 @@ class Schemas:
             m_flExcludeSoundsMaxThresholdValue = 0x24 # float32
             m_strMinValueName = 0x28 # CUtlString
             m_strMaxValueName = 0x30 # CUtlString
-            m_strQueryPublicFieldName = 0x8 # CUtlString
         class CVMixEnvelopeProcessorDesc:
             m_desc = 0x20 # VMixEnvelopeDesc_t
         class CVMixCommand:
@@ -335,7 +332,6 @@ class Schemas:
             m_priorityVolumeScalar = 0x10 # CUtlString
             m_priorityContributeButDontRead = 0x18 # CUtlString
             m_bPriorityReadButDontContribute = 0x20 # CUtlString
-            m_priorityValue = 0x8 # CUtlString
         class CVoiceContainerRealtimeFMSineWave:
             m_flCarrierFrequency = 0xA8 # float32
             m_flModulatorFrequency = 0xAC # float32
@@ -728,6 +724,7 @@ class Schemas:
         class CSosGroupActionTimeBlockLimitSchema:
             m_nMaxCount = 0x8 # int32
             m_flMaxDuration = 0xC # float32
+            m_nMaxCount = 0x8 # int32
         class CSosGroupActionMemberCountEnvelopeSchema:
             m_nBaseCount = 0x8 # int32
             m_nTargetCount = 0xC # int32
@@ -737,6 +734,7 @@ class Schemas:
             m_flDecay = 0x1C # float32
             m_resultVarName = 0x20 # CUtlString
             m_bSaveToGroup = 0x28 # bool
+            m_nBaseCount = 0x8 # int32
         class CVMixDualCompressorProcessorDesc:
             m_desc = 0x20 # VMixDualCompressorDesc_t
         class CVoiceContainerSwitch:

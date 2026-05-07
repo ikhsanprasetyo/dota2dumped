@@ -577,10 +577,6 @@
             "type": "Unknown"
           },
           {
-            "name": "e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x0160,0x0e6",
-            "type": "Unknown"
-          },
-          {
             "name": "1",
             "type": "Unknown"
           }
@@ -727,10 +723,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x0160,0x0e6",
             "type": "Unknown"
           },
           {

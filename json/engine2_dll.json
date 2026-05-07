@@ -419,92 +419,14 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "aming",
-            "type": "Unknown"
-          },
-          {
-            "name": "Local",
-            "type": "Unknown"
-          },
-          {
-            "name": "GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD=1",
-            "type": "Unknown"
-          },
-          {
-            "name": "onProgramW6432=C:\\Program Files\\Common Files",
-            "type": "Unknown"
-          },
-          {
-            "name": "A=C:\\Users\\ByteseekerPC\\AppData\\Local",
-            "type": "Unknown"
-          },
-          {
-            "name": "A=C:\\Users\\ByteseekerPC\\AppData\\Local",
-            "type": "Unknown"
-          },
-          {
-            "name": "_SHADER_DISK_CACHE_APP_NAME=steamapp_shader_cache",
-            "type": "Unknown"
-          },
-          {
-            "name": "ILE_STRING=Internet Explorer",
-            "type": "Unknown"
-          },
-          {
-            "name": "ILE_STRING=Internet Explorer",
-            "type": "Unknown"
-          },
-          {
-            "name": "ogram Files\\Common Files",
-            "type": "Unknown"
-          },
-          {
-            "name": "ogram Files\\Common Files",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "GameTime_t": {
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD=1",
-            "type": "Unknown"
-          },
-          {
-            "name": "Local",
-            "type": "Unknown"
-          },
-          {
-            "name": "aming",
-            "type": "Unknown"
-          },
-          {
-            "name": "onProgramW6432=C:\\Program Files\\Common Files",
-            "type": "Unknown"
-          },
-          {
-            "name": "ILE_STRING=Internet Explorer",
-            "type": "Unknown"
-          },
-          {
-            "name": "ILE_STRING=Internet Explorer",
-            "type": "Unknown"
-          },
-          {
-            "name": "ogram Files\\Common Files",
-            "type": "Unknown"
-          },
-          {
-            "name": "ogram Files\\Common Files",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       }
     },

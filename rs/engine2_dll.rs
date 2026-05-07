@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -110,16 +110,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD=1
-            // Local
-            // aming
-            // onProgramW6432=C:\Program Files\Common Files
-            // ILE_STRING=Internet Explorer
-            // ILE_STRING=Internet Explorer
-            // ogram Files\Common Files
-            // ogram Files\Common Files
             pub mod GameTime_t {
                 pub const m_Value: usize = 0x0; // float32
             }
@@ -175,19 +165,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // aming
-            // Local
-            // GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD=1
-            // onProgramW6432=C:\Program Files\Common Files
-            // A=C:\Users\ByteseekerPC\AppData\Local
-            // A=C:\Users\ByteseekerPC\AppData\Local
-            // _SHADER_DISK_CACHE_APP_NAME=steamapp_shader_cache
-            // ILE_STRING=Internet Explorer
-            // ILE_STRING=Internet Explorer
-            // ogram Files\Common Files
-            // ogram Files\Common Files
             pub mod GameTick_t {
                 pub const m_Value: usize = 0x0; // int32
             }

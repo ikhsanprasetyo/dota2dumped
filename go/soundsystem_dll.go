@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 package schemas
 
@@ -228,13 +228,11 @@ const (
     SoundsystemDll_CSosGroupActionSoundeventClusterSchema_m_clusterSizeOpvar = 0x20 // CUtlString
     SoundsystemDll_CSosGroupActionSoundeventClusterSchema_m_groupBoundingBoxMinsOpvar = 0x28 // CUtlString
     SoundsystemDll_CSosGroupActionSoundeventClusterSchema_m_groupBoundingBoxMaxsOpvar = 0x30 // CUtlString
-    SoundsystemDll_CSosGroupActionSoundeventClusterSchema_m_nMinNearby = 0x8 // int32
     SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_nMaxCount = 0x8 // int32
     SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_flMinValue = 0xC // float32
     SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_flMaxValue = 0x10 // float32
     SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_opvarName = 0x18 // CUtlString
     SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_nSortType = 0x20 // SosActionSetParamSortType_t
-    SoundsystemDll_CSosGroupActionSetSoundeventParameterSchema_m_nMaxCount = 0x8 // int32
     SoundsystemDll_CSoundContainerReference_m_namespace = 0x0 // CUtlString
     SoundsystemDll_CSoundContainerReference_m_bUseReference = 0x8 // bool
     SoundsystemDll_CSoundContainerReference_m_sound = 0x10 // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
@@ -257,7 +255,6 @@ const (
     SoundsystemDll_CSosGroupActionSoundeventMinMaxValuesSchema_m_flExcludeSoundsMaxThresholdValue = 0x24 // float32
     SoundsystemDll_CSosGroupActionSoundeventMinMaxValuesSchema_m_strMinValueName = 0x28 // CUtlString
     SoundsystemDll_CSosGroupActionSoundeventMinMaxValuesSchema_m_strMaxValueName = 0x30 // CUtlString
-    SoundsystemDll_CSosGroupActionSoundeventMinMaxValuesSchema_m_strQueryPublicFieldName = 0x8 // CUtlString
     SoundsystemDll_CVMixEnvelopeProcessorDesc_m_desc = 0x20 // VMixEnvelopeDesc_t
     SoundsystemDll_CVMixCommand_m_nCommand = 0x0 // VMixGraphCommandID_t
     SoundsystemDll_CVMixCommand_m_nParameterNameHash = 0x4 // uint32
@@ -277,7 +274,6 @@ const (
     SoundsystemDll_CSosGroupActionSoundeventPrioritySchema_m_priorityVolumeScalar = 0x10 // CUtlString
     SoundsystemDll_CSosGroupActionSoundeventPrioritySchema_m_priorityContributeButDontRead = 0x18 // CUtlString
     SoundsystemDll_CSosGroupActionSoundeventPrioritySchema_m_bPriorityReadButDontContribute = 0x20 // CUtlString
-    SoundsystemDll_CSosGroupActionSoundeventPrioritySchema_m_priorityValue = 0x8 // CUtlString
     SoundsystemDll_CVoiceContainerRealtimeFMSineWave_m_flCarrierFrequency = 0xA8 // float32
     SoundsystemDll_CVoiceContainerRealtimeFMSineWave_m_flModulatorFrequency = 0xAC // float32
     SoundsystemDll_CVoiceContainerRealtimeFMSineWave_m_flModulatorAmount = 0xB0 // float32
@@ -570,6 +566,7 @@ const (
     SoundsystemDll_CVoiceContainerSelector_m_fProbabilityWeights = 0xE8 // CUtlVector<float32>
     SoundsystemDll_CSosGroupActionTimeBlockLimitSchema_m_nMaxCount = 0x8 // int32
     SoundsystemDll_CSosGroupActionTimeBlockLimitSchema_m_flMaxDuration = 0xC // float32
+    SoundsystemDll_CSosGroupActionTimeBlockLimitSchema_m_nMaxCount = 0x8 // int32
     SoundsystemDll_CSosGroupActionMemberCountEnvelopeSchema_m_nBaseCount = 0x8 // int32
     SoundsystemDll_CSosGroupActionMemberCountEnvelopeSchema_m_nTargetCount = 0xC // int32
     SoundsystemDll_CSosGroupActionMemberCountEnvelopeSchema_m_flBaseValue = 0x10 // float32
@@ -578,6 +575,7 @@ const (
     SoundsystemDll_CSosGroupActionMemberCountEnvelopeSchema_m_flDecay = 0x1C // float32
     SoundsystemDll_CSosGroupActionMemberCountEnvelopeSchema_m_resultVarName = 0x20 // CUtlString
     SoundsystemDll_CSosGroupActionMemberCountEnvelopeSchema_m_bSaveToGroup = 0x28 // bool
+    SoundsystemDll_CSosGroupActionMemberCountEnvelopeSchema_m_nBaseCount = 0x8 // int32
     SoundsystemDll_CVMixDualCompressorProcessorDesc_m_desc = 0x20 // VMixDualCompressorDesc_t
     SoundsystemDll_CVoiceContainerSwitch_m_soundsToPlay = 0xA8 // CUtlVector<CSoundContainerReference>
     SoundsystemDll_CVMixControlMeter_m_nValueIndex = 0x10 // int32

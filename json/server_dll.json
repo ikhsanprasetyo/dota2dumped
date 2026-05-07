@@ -28,82 +28,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_PHYSICS_FORCE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_EFFECTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_PREVENT_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_NEVER_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_REMOVE_NO_RAGDOLL",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_DAMAGE_MODIFICATION",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_RADIUS_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCEREDUCEARMOR_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_INTERRUPT_FLINCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_IGNORE_DESTRUCTIBLE_PARTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_BREAKABLES",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_PHYSICS_FORCE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALLOW_NON_AUTHORITATIVE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DMG_LASTDFLAG",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -131,10 +55,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MDebugSnapshotDataSummaryFn",
             "type": "Unknown"
           },
@@ -156,62 +76,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_PHYSICS_FORCE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_EFFECTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_PREVENT_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_NEVER_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_REMOVE_NO_RAGDOLL",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_DAMAGE_MODIFICATION",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_RADIUS_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCEREDUCEARMOR_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_INTERRUPT_FLINCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_IGNORE_DESTRUCTIBLE_PARTS",
             "type": "Unknown"
           }
         ],
@@ -229,30 +93,6 @@
           "tactic_interrupt_conditions": 32
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MDebugSnapshotDataSummaryFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -383,7 +223,15 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "n",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
@@ -413,10 +261,6 @@
           "movement_setting_id": 24
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -605,82 +449,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_PHYSICS_FORCE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_EFFECTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_PREVENT_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_NEVER_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_REMOVE_NO_RAGDOLL",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_DAMAGE_MODIFICATION",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_RADIUS_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCEREDUCEARMOR_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_INTERRUPT_FLINCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_IGNORE_DESTRUCTIBLE_PARTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_BREAKABLES",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_PHYSICS_FORCE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALLOW_NON_AUTHORITATIVE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DMG_LASTDFLAG",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -692,10 +460,6 @@
           "position": 0
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -736,244 +500,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "ANIM_LOOP_MODE_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "ANIM_LOOP_MODE_LOOPING",
-            "type": "Unknown"
-          },
-          {
-            "name": "ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS",
-            "type": "Unknown"
-          },
-          {
-            "name": "ANIM_LOOP_MODE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "eLowerBody",
-            "type": "Unknown"
-          },
-          {
-            "name": "eUpperBody",
-            "type": "Unknown"
-          },
-          {
-            "name": "eFullBody",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCenter",
-            "type": "Unknown"
-          },
-          {
-            "name": "eEyes",
-            "type": "Unknown"
-          },
-          {
-            "name": "eAttachment",
-            "type": "Unknown"
-          },
-          {
-            "name": "SUBCLASS_SCOPE_NONE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SUBCLASS_VDATA_SUBCLASS_CHANGED",
-            "type": "Unknown"
-          },
-          {
-            "name": "SUBCLASS_VDATA_RELOADED",
-            "type": "Unknown"
-          },
-          {
-            "name": "NeverConnected",
-            "type": "Unknown"
-          },
-          {
-            "name": "Connecting",
-            "type": "Unknown"
-          },
-          {
-            "name": "Reconnecting",
-            "type": "Unknown"
-          },
-          {
-            "name": "Disconnecting",
-            "type": "Unknown"
-          },
-          {
-            "name": "Disconnected",
-            "type": "Unknown"
-          },
-          {
-            "name": "Reserved",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCenterToCenter",
-            "type": "Unknown"
-          },
-          {
-            "name": "eAxisToAxis",
-            "type": "Unknown"
-          },
-          {
-            "name": "eEquipped",
-            "type": "Unknown"
-          },
-          {
-            "name": "eUserInitiatedSwitchToLast",
-            "type": "Unknown"
-          },
-          {
-            "name": "eUserInitiatedUIKeyPress",
-            "type": "Unknown"
-          },
-          {
-            "name": "eInvalid",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSecondary",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCount",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_TRANSITIONING_PLAYERS",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_RATE_EXCEEDED",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_YES_MUST_EXCEED_NO",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_QUORUM_FAILURE",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_ISSUE_DISABLED",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_MAP_NOT_FOUND",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_MAP_NAME_REQUIRED",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_FAILED_RECENTLY",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_TEAM_CANT_CALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_WAITINGFORPLAYERS",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_PLAYERNOTFOUND",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_CANNOT_KICK_ADMIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_SCRAMBLE_IN_PROGRESS",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_SPECTATOR",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_MAX",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_NOAUTORELOAD",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_NOAUTOSWITCHEMPTY",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_LIMITINWORLD",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_EXHAUSTIBLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_DOHITLOCATIONDMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_NOAMMOPICKUPS",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_NOITEMPICKUP",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY_DISSOLVE_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY_DISSOLVE_ELECTRICAL",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY_DISSOLVE_ELECTRICAL_LIGHT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY_DISSOLVE_CORE",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_HEAD",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_CHEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_STOMACH",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_LEFTARM",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "AmmoTypeInfo_t": {
@@ -1026,7 +553,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MVDataUniqueMonotonicInt",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           },
           {
@@ -1034,7 +565,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1070,7 +601,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MVDataUniqueMonotonicInt",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           },
           {
@@ -1078,7 +613,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1154,7 +689,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MVDataUniqueMonotonicInt",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           },
           {
@@ -1162,7 +701,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1291,14 +830,6 @@
           "m_hExternalGraph": 24
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -1542,7 +1073,35 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeEditor",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
             "type": "Unknown"
           },
           {
@@ -1554,11 +1113,35 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
             "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1589,10 +1172,6 @@
           },
           {
             "name": "reset_cycle",
-            "type": "Unknown"
-          },
-          {
-            "name": "39,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x0160",
             "type": "Unknown"
           }
         ],
@@ -16910,6 +16489,7 @@
       "CDOTA_Ability_Wisp_Spirits": {
         "fields": {
           "m_SpiritDefs": 1408,
+          "m_flStartSpiritRadius": 1440,
           "m_nWispDirection": 1432,
           "spirit_amount": 1436
         },
@@ -17229,8 +16809,8 @@
       },
       "CDOTA_BaseNPC": {
         "fields": {
-          "m_AbilitiesPendingDelete": 6176,
-          "m_ActivitiesStarted": 6056,
+          "m_AbilitiesPendingDelete": 6184,
+          "m_ActivitiesStarted": 6064,
           "m_ActivityModifiers": 5376,
           "m_ActivityModifiersFromScript": 5408,
           "m_AlertTimer": 3480,
@@ -17267,7 +16847,7 @@
           "m_bCreepIgnoreAggro": 4812,
           "m_bCurrentOrderIsMovement": 5356,
           "m_bCursorTargetingNothing": 3856,
-          "m_bDisableDamageDisplay": 6046,
+          "m_bDisableDamageDisplay": 6050,
           "m_bExpired": 5317,
           "m_bFacePlayer": 5536,
           "m_bFirstSpawn": 3672,
@@ -17310,7 +16890,7 @@
           "m_bResumePreviousMovement": 5358,
           "m_bRunAIWhenControllableByPlayer": 3773,
           "m_bSelectionRingVisible": 2301,
-          "m_bShouldComputeRemainingPathLength": 6128,
+          "m_bShouldComputeRemainingPathLength": 6136,
           "m_bShouldDoFlyHeightVisual": 5700,
           "m_bStolenScepter": 5440,
           "m_bTargetMovedOutOfRange": 5364,
@@ -17322,7 +16902,7 @@
           "m_bWasKilledPassively": 3454,
           "m_body": 4864,
           "m_colorGemColor": 2296,
-          "m_defaultColorGemColor": 6042,
+          "m_defaultColorGemColor": 6046,
           "m_fAttackPhaseEndTime": 3736,
           "m_fBotAttackDesire": 3068,
           "m_fMaxModelScaleMultiplier": 5304,
@@ -17331,7 +16911,7 @@
           "m_fModelScaleMultiplierChangeTime": 5296,
           "m_fRevealRadius": 2988,
           "m_flAccumulatedHeal": 2920,
-          "m_flAccumulatedHealthRegenSinceLastLogged": 6208,
+          "m_flAccumulatedHealthRegenSinceLastLogged": 6216,
           "m_flAdditionalBattleMusicWeight": 5436,
           "m_flAttackAnimationPoint": 2968,
           "m_flAttackRegulator": 3728,
@@ -17366,15 +16946,15 @@
           "m_flManaRegenCounter": 2916,
           "m_flManaThinkRegen": 2348,
           "m_flMaxMana": 2344,
-          "m_flPathfindingSearchDepthScale": 6052,
+          "m_flPathfindingSearchDepthScale": 6056,
           "m_flPhysicalArmorValue": 3076,
           "m_flPositionUpdateTime": 3740,
-          "m_flPrevHealthThinkRegen": 6200,
+          "m_flPrevHealthThinkRegen": 6208,
           "m_flPreviousModelScale": 5300,
           "m_flProjectileCollisionSize": 2992,
           "m_flRefresherLastCooldown": 2400,
           "m_flRefresherUseTime": 2396,
-          "m_flRemainingPathLength": 6132,
+          "m_flRemainingPathLength": 6140,
           "m_flRun": 5772,
           "m_flStartSequenceCycle": 5704,
           "m_flTauntCooldown": 2980,
@@ -17382,7 +16962,7 @@
           "m_flTimeDisparityTolerance": 3732,
           "m_flTimeSinceLastAbilityNag": 3568,
           "m_flTurnRate": 2948,
-          "m_gibTintColor": 6048,
+          "m_gibTintColor": 6052,
           "m_hActiveAbility": 3832,
           "m_hAggroTarget": 3680,
           "m_hAlertTarget": 3508,
@@ -17391,10 +16971,10 @@
           "m_hChaseEntity": 5372,
           "m_hCommandAttackTarget": 3684,
           "m_hCursorTarget": 3848,
-          "m_hDirectionalRangedFakeTarget": 6084,
+          "m_hDirectionalRangedFakeTarget": 6092,
           "m_hForceAttackTarget": 3512,
           "m_hGoalEntity": 4876,
-          "m_hIllusionOriginal": 6080,
+          "m_hIllusionOriginal": 6088,
           "m_hItemToDrop": 5256,
           "m_hLastNearShop": 5264,
           "m_hNeutralSpawner": 2872,
@@ -17457,15 +17037,16 @@
           "m_iszUnitToAbilityMapping": 3776,
           "m_iszVoiceFile": 3016,
           "m_locomotor": 4856,
-          "m_nArcanaLevel": 6040,
+          "m_nArcanaLevel": 6044,
           "m_nAttackHeightBonus": 5668,
           "m_nControllingPlayerID": 3768,
-          "m_nDefaultArcanaLevel": 6041,
+          "m_nDefaultArcanaLevel": 6045,
           "m_nFOWVisibilityRadius": 5648,
           "m_nFarmClaimPlayerID": 3120,
           "m_nFoWFadeStartTime": 5588,
           "m_nHealthBarOffset": 2364,
           "m_nHealthBarOffsetOverride": 2360,
+          "m_nIsOriginalModel": 6036,
           "m_nNextModelScaleThink": 2888,
           "m_nNextModifierThink": 2884,
           "m_nNextRegenThink": 2880,
@@ -17480,8 +17061,8 @@
           "m_nUnitModelVariant": 3696,
           "m_nUnitModelVariantCount": 3697,
           "m_nUnitState64": 3576,
-          "m_nWearableDefIndex": 6036,
-          "m_prevRegenChangeTime": 6204,
+          "m_nWearableDefIndex": 6040,
+          "m_prevRegenChangeTime": 6212,
           "m_strAnimationModifier": 4832,
           "m_strLastKillerAbility": 5680,
           "m_szCurShopEntName": 5272,
@@ -17508,23 +17089,23 @@
       },
       "CDOTA_BaseNPC_AghsFort_Watch_Tower": {
         "fields": {
-          "m_bIsAscensionLevelPicker": 6569,
-          "m_bIsBeingChanneled": 6620,
-          "m_bIsEliteEncounter": 6568,
-          "m_flGoalCaptureProgress": 6624,
-          "m_flMovePlayersRadius": 6540,
-          "m_hEffigy": 6592,
-          "m_hParticleSystem": 6604,
-          "m_hPedestal": 6600,
-          "m_hRoomGate": 6616,
-          "m_nDepth": 6596,
-          "m_nEncounterType": 6564,
-          "m_nExitDirection": 6544,
-          "m_nOptionNumber": 6536,
-          "m_nPathSelectedID": 6560,
-          "m_strAscensionAbilities": 6584,
-          "m_strEncounterName": 6576,
-          "m_vExitLocation": 6548
+          "m_bIsAscensionLevelPicker": 6577,
+          "m_bIsBeingChanneled": 6628,
+          "m_bIsEliteEncounter": 6576,
+          "m_flGoalCaptureProgress": 6632,
+          "m_flMovePlayersRadius": 6548,
+          "m_hEffigy": 6600,
+          "m_hParticleSystem": 6612,
+          "m_hPedestal": 6608,
+          "m_hRoomGate": 6624,
+          "m_nDepth": 6604,
+          "m_nEncounterType": 6572,
+          "m_nExitDirection": 6552,
+          "m_nOptionNumber": 6544,
+          "m_nPathSelectedID": 6568,
+          "m_strAscensionAbilities": 6592,
+          "m_strEncounterName": 6584,
+          "m_vExitLocation": 6556
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
@@ -17536,44 +17117,44 @@
       },
       "CDOTA_BaseNPC_Building": {
         "fields": {
-          "m_HeroStatueInscription": 6294,
-          "m_IdleRareAnimationTime": 6488,
-          "m_Lane": 6444,
-          "m_ParticleTintColor": 6332,
-          "m_angInitialAngles": 6264,
-          "m_bBattleCup": 6293,
-          "m_bHasOverriddenDestructionEffect": 6425,
-          "m_bHeroStatue": 6292,
-          "m_bIsDireSide": 6440,
-          "m_bVulnerableOnCreepSpawn": 6424,
-          "m_fAmountAlongLane": 6448,
-          "m_fHeroStatueCycle": 6284,
-          "m_flDamageThresholdLevel1": 6416,
-          "m_flDamageThresholdLevel2": 6420,
-          "m_hConstantLayerSequence": 6280,
-          "m_hHeroStatueSequence": 6276,
-          "m_iDamageLevel": 6240,
-          "m_iHeroStatueOwnerPlayerID": 6328,
-          "m_iHeroStatueStatusEffectIndex": 6288,
-          "m_iInvulnCount": 6432,
-          "m_iPlayerOwner": 6436,
-          "m_iUpgradeIdentifier": 6428,
-          "m_iszAmbientEffectName": 6368,
-          "m_iszDamageEffectLevel1": 6400,
-          "m_iszDamageEffectLevel2": 6408,
-          "m_iszDamageModelLevel1": 6384,
-          "m_iszDamageModelLevel2": 6392,
-          "m_iszDestructionEffectName": 6376,
-          "m_iszLinkedUnit": 6360,
-          "m_nFXIndex": 6248,
-          "m_nFXIndexDestruction": 6256,
-          "m_nFoWTeam": 6512,
-          "m_nOverrideInitialAngles": 6480,
-          "m_sDestroySnd": 6336,
-          "m_sDmgLvl1Snd": 6344,
-          "m_sDmgLvl2Snd": 6352,
-          "m_vOverrideInitialAngles": 6456,
-          "m_vOverrideInitialAnglesBG": 6468
+          "m_HeroStatueInscription": 6302,
+          "m_IdleRareAnimationTime": 6496,
+          "m_Lane": 6452,
+          "m_ParticleTintColor": 6340,
+          "m_angInitialAngles": 6272,
+          "m_bBattleCup": 6301,
+          "m_bHasOverriddenDestructionEffect": 6433,
+          "m_bHeroStatue": 6300,
+          "m_bIsDireSide": 6448,
+          "m_bVulnerableOnCreepSpawn": 6432,
+          "m_fAmountAlongLane": 6456,
+          "m_fHeroStatueCycle": 6292,
+          "m_flDamageThresholdLevel1": 6424,
+          "m_flDamageThresholdLevel2": 6428,
+          "m_hConstantLayerSequence": 6288,
+          "m_hHeroStatueSequence": 6284,
+          "m_iDamageLevel": 6248,
+          "m_iHeroStatueOwnerPlayerID": 6336,
+          "m_iHeroStatueStatusEffectIndex": 6296,
+          "m_iInvulnCount": 6440,
+          "m_iPlayerOwner": 6444,
+          "m_iUpgradeIdentifier": 6436,
+          "m_iszAmbientEffectName": 6376,
+          "m_iszDamageEffectLevel1": 6408,
+          "m_iszDamageEffectLevel2": 6416,
+          "m_iszDamageModelLevel1": 6392,
+          "m_iszDamageModelLevel2": 6400,
+          "m_iszDestructionEffectName": 6384,
+          "m_iszLinkedUnit": 6368,
+          "m_nFXIndex": 6256,
+          "m_nFXIndexDestruction": 6264,
+          "m_nFoWTeam": 6520,
+          "m_nOverrideInitialAngles": 6488,
+          "m_sDestroySnd": 6344,
+          "m_sDmgLvl1Snd": 6352,
+          "m_sDmgLvl2Snd": 6360,
+          "m_vOverrideInitialAngles": 6464,
+          "m_vOverrideInitialAnglesBG": 6476
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC"
@@ -17585,78 +17166,78 @@
       },
       "CDOTA_BaseNPC_Creature": {
         "fields": {
-          "m_bAggroOwnerOnDamage": 6293,
-          "m_bCreatureCanRespawn": 6289,
-          "m_bDisableClumpingBehavior": 6402,
-          "m_bHasDefensiveAbility": 6440,
-          "m_bHasEscapeAbility": 6472,
-          "m_bHasOffensiveAbility": 6412,
-          "m_bInitialized": 6288,
-          "m_bIsBuildingAggressive": 6400,
-          "m_bIsChampion": 6556,
-          "m_bIsCurrentlyChanneling": 6612,
-          "m_bIsHeroAggressive": 6401,
-          "m_bIsHybridFlyer": 6291,
-          "m_bReceivedAggroOnDamageOrder": 6294,
-          "m_bRequiresReachingEndPath": 6292,
-          "m_bUsesGestureBasedAttackAnimation": 6290,
-          "m_flArmorGain": 6356,
-          "m_flAttackTimeGain": 6368,
-          "m_flChannelCycle": 6616,
-          "m_flDisableResistGain": 6364,
-          "m_flDisableResistance": 6404,
-          "m_flHPRegenGain": 6344,
-          "m_flMagicResistGain": 6360,
-          "m_flManaRegenGain": 6348,
-          "m_flRespawnTime": 6608,
-          "m_flUltimateDisableResistance": 6408,
-          "m_nBountyGain": 6376,
-          "m_nCreatureDesire": 6388,
-          "m_nCurrentCastBehavior": 6392,
-          "m_nDamageGain": 6352,
-          "m_nEconItemGroup": 6396,
-          "m_nHPGain": 6336,
-          "m_nManaGain": 6340,
-          "m_nMoveSpeedGain": 6372,
-          "m_nPermanentDesire": 6384,
-          "m_nXPGain": 6380,
-          "m_pDesiredNPCTarget": 6528,
-          "m_pEscortTarget": 6536,
-          "m_pLastUsedAbility": 6504,
-          "m_pszCurrentState": 6328,
-          "m_pszDefaultState": 6320,
-          "m_vCreatureStates": 6296,
-          "m_vDefensiveAbilities": 6448,
-          "m_vDesiredCastLocation": 6512,
-          "m_vEscapeAbilities": 6480,
-          "m_vItemDropData": 6560,
-          "m_vLastDamageSource": 6544,
-          "m_vOffensiveAbilities": 6416,
-          "m_vecAttachWearableItemDefs": 6584
+          "m_bAggroOwnerOnDamage": 6301,
+          "m_bCreatureCanRespawn": 6297,
+          "m_bDisableClumpingBehavior": 6410,
+          "m_bHasDefensiveAbility": 6448,
+          "m_bHasEscapeAbility": 6480,
+          "m_bHasOffensiveAbility": 6420,
+          "m_bInitialized": 6296,
+          "m_bIsBuildingAggressive": 6408,
+          "m_bIsChampion": 6564,
+          "m_bIsCurrentlyChanneling": 6620,
+          "m_bIsHeroAggressive": 6409,
+          "m_bIsHybridFlyer": 6299,
+          "m_bReceivedAggroOnDamageOrder": 6302,
+          "m_bRequiresReachingEndPath": 6300,
+          "m_bUsesGestureBasedAttackAnimation": 6298,
+          "m_flArmorGain": 6364,
+          "m_flAttackTimeGain": 6376,
+          "m_flChannelCycle": 6624,
+          "m_flDisableResistGain": 6372,
+          "m_flDisableResistance": 6412,
+          "m_flHPRegenGain": 6352,
+          "m_flMagicResistGain": 6368,
+          "m_flManaRegenGain": 6356,
+          "m_flRespawnTime": 6616,
+          "m_flUltimateDisableResistance": 6416,
+          "m_nBountyGain": 6384,
+          "m_nCreatureDesire": 6396,
+          "m_nCurrentCastBehavior": 6400,
+          "m_nDamageGain": 6360,
+          "m_nEconItemGroup": 6404,
+          "m_nHPGain": 6344,
+          "m_nManaGain": 6348,
+          "m_nMoveSpeedGain": 6380,
+          "m_nPermanentDesire": 6392,
+          "m_nXPGain": 6388,
+          "m_pDesiredNPCTarget": 6536,
+          "m_pEscortTarget": 6544,
+          "m_pLastUsedAbility": 6512,
+          "m_pszCurrentState": 6336,
+          "m_pszDefaultState": 6328,
+          "m_vCreatureStates": 6304,
+          "m_vDefensiveAbilities": 6456,
+          "m_vDesiredCastLocation": 6520,
+          "m_vEscapeAbilities": 6488,
+          "m_vItemDropData": 6568,
+          "m_vLastDamageSource": 6552,
+          "m_vOffensiveAbilities": 6424,
+          "m_vecAttachWearableItemDefs": 6592
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creep"
       },
       "CDOTA_BaseNPC_Creep": {
         "fields": {
-          "m_KillInfo": 6240,
-          "m_Lane": 6272,
-          "m_bPushback": 6276,
-          "m_flAim": 6280
+          "m_KillInfo": 6248,
+          "m_Lane": 6280,
+          "m_bPushback": 6284,
+          "m_flAim": 6288
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_BaseNPC_Creep_Lane": {
         "fields": {
-          "m_nFoWTeam": 6316
+          "m_nFoWTeam": 6324
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creep"
       },
       "CDOTA_BaseNPC_Creep_Neutral": {
         "fields": {
-          "m_ThinkTimer": 6288
+          "m_ThinkTimer": 6296
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creep"
@@ -17673,15 +17254,15 @@
       },
       "CDOTA_BaseNPC_CustomEffigy": {
         "fields": {
-          "m_hPedestal": 6524,
-          "m_unStatusEffectIndex": 6520
+          "m_hPedestal": 6532,
+          "m_unStatusEffectIndex": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
       },
       "CDOTA_BaseNPC_Effigy_AghsFort": {
         "fields": {
-          "m_unStatusEffectIndex": 6520
+          "m_unStatusEffectIndex": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
@@ -17703,15 +17284,15 @@
       },
       "CDOTA_BaseNPC_Fort": {
         "fields": {
-          "m_unRandomSeed": 6520
+          "m_unRandomSeed": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
       },
       "CDOTA_BaseNPC_HallofFame": {
         "fields": {
-          "m_event_dota_player_team_changed": 6536,
-          "m_glowThinkTimer": 6544
+          "m_event_dota_player_team_changed": 6544,
+          "m_glowThinkTimer": 6552
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
@@ -17723,92 +17304,92 @@
       },
       "CDOTA_BaseNPC_Hero": {
         "fields": {
-          "m_BuildingOrBuilt": 7448,
-          "m_DirectorAbilityActivity": 7240,
-          "m_Dust": 7520,
-          "m_Gem": 7544,
-          "m_HeroDamageInfoArray": 6496,
-          "m_HeroKillTimer": 6712,
-          "m_KillInfo": 7208,
-          "m_Loadout": 7424,
-          "m_MultipleHeroKillTimer": 6736,
-          "m_MultipleLastHitTimer": 6760,
-          "m_MusicProbabilityGank": 7656,
-          "m_NeutralItemTimer": 7344,
-          "m_ObserverWard": 7592,
-          "m_PurchaseItemTimer": 7320,
-          "m_RequestGoToSecretShopTimer": 7392,
-          "m_RespawnMusicTimer": 6688,
-          "m_RetrieveItemsFromStashTimer": 7368,
-          "m_SentryWard": 7568,
-          "m_Smoke": 7496,
-          "m_TPScroll": 7472,
-          "m_bAutoPurchaseItems": 7616,
-          "m_bBuybackDisabled": 7617,
-          "m_bCustomKillEffect": 7265,
-          "m_bDisableWearables": 6792,
-          "m_bDoesNextItemCompleteRecipe": 7420,
-          "m_bItemsAddedToLoadout": 6456,
-          "m_bPregameItemsAddedToLoadout": 6457,
-          "m_bPreventPetSpawn": 7648,
-          "m_bReincarnating": 7264,
-          "m_bScriptDisableRespawns": 6588,
-          "m_fBuybackCooldown": 6464,
-          "m_fBuybackGoldLimit": 6468,
-          "m_fMostRecentDamageTime": 6544,
-          "m_flAgility": 6396,
-          "m_flAgilityGain": 6436,
-          "m_flAgilityTotal": 6408,
-          "m_flDeathTime": 6424,
-          "m_flIntellect": 6400,
-          "m_flIntellectGain": 6440,
-          "m_flIntellectTotal": 6412,
-          "m_flKillStreakStartTime": 6788,
-          "m_flLastDispellTime": 6428,
-          "m_flLastExtraHealth": 6444,
-          "m_flLastHealedTime": 6476,
-          "m_flLastMaxHealth": 6448,
-          "m_flLastSuggestionTime": 6452,
-          "m_flLastTimeLookedAtByDirector": 7868,
-          "m_flPendingRespawnTime": 6584,
-          "m_flRespawnTime": 6568,
-          "m_flRespawnTimePenalty": 6572,
-          "m_flScriptRespawnTime": 6580,
-          "m_flSpawnedAt": 7268,
-          "m_flStrength": 6392,
-          "m_flStrengthGain": 6432,
-          "m_flStrengthTotal": 6404,
-          "m_flTimeUntilRespawn": 6576,
-          "m_hFacetAbilities": 7272,
-          "m_hLastHealEntity": 6480,
-          "m_hNewARDMHero": 6460,
-          "m_hPets": 7624,
-          "m_hReplicatingOtherHeroModel": 6616,
-          "m_hTogglableWearable": 6796,
-          "m_iAbilityPoints": 6548,
-          "m_iAghanimsAbilityPoints": 6556,
-          "m_iCurrentXP": 6564,
-          "m_iEconSpecifyingPlayerID": 6608,
-          "m_iHeroFacetKey": 6600,
-          "m_iHeroID": 6612,
-          "m_iMultipleKillCount": 6784,
-          "m_iNextItemToPurchase": 7416,
-          "m_iPlayerID": 6592,
-          "m_iPrimaryAttribute": 6420,
-          "m_iRecentDamage": 6416,
-          "m_iTotalAbilityPoints": 6552,
-          "m_iTotalAghanimsAbilityPoints": 6560,
-          "m_nKillStreakFX": 7752,
-          "m_nLastHealedAmount": 6472,
-          "m_strCustomHexModel": 7744,
-          "m_strCustomKillEffect": 7736,
-          "m_vRespawnPosition": 6484,
-          "m_vecAbilitySkillHistory": 7784,
-          "m_vecExpiredIllusions": 7840,
-          "m_vecHiddenLoadoutSlots": 7296,
-          "m_vecItemPurchaseHistory": 7760,
-          "m_vecNeutralItemEquippedHistory": 7808,
-          "m_vecRecentModifiers": 6520
+          "m_BuildingOrBuilt": 7456,
+          "m_DirectorAbilityActivity": 7248,
+          "m_Dust": 7528,
+          "m_Gem": 7552,
+          "m_HeroDamageInfoArray": 6504,
+          "m_HeroKillTimer": 6720,
+          "m_KillInfo": 7216,
+          "m_Loadout": 7432,
+          "m_MultipleHeroKillTimer": 6744,
+          "m_MultipleLastHitTimer": 6768,
+          "m_MusicProbabilityGank": 7664,
+          "m_NeutralItemTimer": 7352,
+          "m_ObserverWard": 7600,
+          "m_PurchaseItemTimer": 7328,
+          "m_RequestGoToSecretShopTimer": 7400,
+          "m_RespawnMusicTimer": 6696,
+          "m_RetrieveItemsFromStashTimer": 7376,
+          "m_SentryWard": 7576,
+          "m_Smoke": 7504,
+          "m_TPScroll": 7480,
+          "m_bAutoPurchaseItems": 7624,
+          "m_bBuybackDisabled": 7625,
+          "m_bCustomKillEffect": 7273,
+          "m_bDisableWearables": 6800,
+          "m_bDoesNextItemCompleteRecipe": 7428,
+          "m_bItemsAddedToLoadout": 6464,
+          "m_bPregameItemsAddedToLoadout": 6465,
+          "m_bPreventPetSpawn": 7656,
+          "m_bReincarnating": 7272,
+          "m_bScriptDisableRespawns": 6596,
+          "m_fBuybackCooldown": 6472,
+          "m_fBuybackGoldLimit": 6476,
+          "m_fMostRecentDamageTime": 6552,
+          "m_flAgility": 6404,
+          "m_flAgilityGain": 6444,
+          "m_flAgilityTotal": 6416,
+          "m_flDeathTime": 6432,
+          "m_flIntellect": 6408,
+          "m_flIntellectGain": 6448,
+          "m_flIntellectTotal": 6420,
+          "m_flKillStreakStartTime": 6796,
+          "m_flLastDispellTime": 6436,
+          "m_flLastExtraHealth": 6452,
+          "m_flLastHealedTime": 6484,
+          "m_flLastMaxHealth": 6456,
+          "m_flLastSuggestionTime": 6460,
+          "m_flLastTimeLookedAtByDirector": 7876,
+          "m_flPendingRespawnTime": 6592,
+          "m_flRespawnTime": 6576,
+          "m_flRespawnTimePenalty": 6580,
+          "m_flScriptRespawnTime": 6588,
+          "m_flSpawnedAt": 7276,
+          "m_flStrength": 6400,
+          "m_flStrengthGain": 6440,
+          "m_flStrengthTotal": 6412,
+          "m_flTimeUntilRespawn": 6584,
+          "m_hFacetAbilities": 7280,
+          "m_hLastHealEntity": 6488,
+          "m_hNewARDMHero": 6468,
+          "m_hPets": 7632,
+          "m_hReplicatingOtherHeroModel": 6624,
+          "m_hTogglableWearable": 6804,
+          "m_iAbilityPoints": 6556,
+          "m_iAghanimsAbilityPoints": 6564,
+          "m_iCurrentXP": 6572,
+          "m_iEconSpecifyingPlayerID": 6616,
+          "m_iHeroFacetKey": 6608,
+          "m_iHeroID": 6620,
+          "m_iMultipleKillCount": 6792,
+          "m_iNextItemToPurchase": 7424,
+          "m_iPlayerID": 6600,
+          "m_iPrimaryAttribute": 6428,
+          "m_iRecentDamage": 6424,
+          "m_iTotalAbilityPoints": 6560,
+          "m_iTotalAghanimsAbilityPoints": 6568,
+          "m_nKillStreakFX": 7760,
+          "m_nLastHealedAmount": 6480,
+          "m_strCustomHexModel": 7752,
+          "m_strCustomKillEffect": 7744,
+          "m_vRespawnPosition": 6492,
+          "m_vecAbilitySkillHistory": 7792,
+          "m_vecExpiredIllusions": 7848,
+          "m_vecHiddenLoadoutSlots": 7304,
+          "m_vecItemPurchaseHistory": 7768,
+          "m_vecNeutralItemEquippedHistory": 7816,
+          "m_vecRecentModifiers": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -17845,7 +17426,7 @@
       },
       "CDOTA_BaseNPC_HoldoutTower": {
         "fields": {
-          "m_iTowerType": 6560
+          "m_iTowerType": 6568
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Tower"
@@ -17877,15 +17458,15 @@
       },
       "CDOTA_BaseNPC_Largo_Frogling": {
         "fields": {
-          "m_hHeroHandle": 6240,
-          "m_nFroglingIndex": 6244
+          "m_hHeroHandle": 6248,
+          "m_nFroglingIndex": 6252
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_BaseNPC_Launchpad": {
         "fields": {
-          "m_iStrength": 6520
+          "m_iStrength": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
@@ -17902,23 +17483,23 @@
       },
       "CDOTA_BaseNPC_Pet": {
         "fields": {
-          "m_bReadyToPerformCoopTeleport": 6248,
-          "m_bSupportsCoopTeleport": 6249,
-          "m_flPetThreatLevel": 6244,
-          "m_hCarriedItem": 6264,
-          "m_hHeroHandle": 6240,
-          "m_nCoopState": 6252,
-          "m_nLevelupRule": 6272,
-          "m_nPetLevel": 6268,
-          "m_nXPCompendiumEventID": 6280,
-          "m_strPickupItemModel": 6256
+          "m_bReadyToPerformCoopTeleport": 6256,
+          "m_bSupportsCoopTeleport": 6257,
+          "m_flPetThreatLevel": 6252,
+          "m_hCarriedItem": 6272,
+          "m_hHeroHandle": 6248,
+          "m_nCoopState": 6260,
+          "m_nLevelupRule": 6280,
+          "m_nPetLevel": 6276,
+          "m_nXPCompendiumEventID": 6288,
+          "m_strPickupItemModel": 6264
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC"
       },
       "CDOTA_BaseNPC_Phantom_Assassin_GroundDagger": {
         "fields": {
-          "m_nFXIndex": 6240
+          "m_nFXIndex": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -17990,48 +17571,48 @@
       },
       "CDOTA_BaseNPC_ShadowShaman_SerpentWard": {
         "fields": {
-          "m_angle": 6240,
-          "m_iPoseParameterAim": 6252
+          "m_angle": 6248,
+          "m_iPoseParameterAim": 6260
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_BaseNPC_Shop": {
         "fields": {
-          "m_ShopType": 6520
+          "m_ShopType": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
       },
       "CDOTA_BaseNPC_Thinker": {
         "fields": {
-          "m_bSendToAllPlayers": 6240,
-          "m_bSendToClients": 6241
+          "m_bSendToAllPlayers": 6248,
+          "m_bSendToClients": 6249
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC"
       },
       "CDOTA_BaseNPC_Tinker_Turret": {
         "fields": {
-          "m_angle": 6240,
-          "m_iPoseParameterAim": 6252
+          "m_angle": 6248,
+          "m_iPoseParameterAim": 6260
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_BaseNPC_Tower": {
         "fields": {
-          "m_OnTowerKilled": 6520,
-          "m_hTowerAttackTarget": 6544,
-          "m_hTowerHighFiveTarget": 6548
+          "m_OnTowerKilled": 6528,
+          "m_hTowerAttackTarget": 6552,
+          "m_hTowerHighFiveTarget": 6556
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
       },
       "CDOTA_BaseNPC_Trap_Ward": {
         "fields": {
-          "m_iszDefaultAnim": 6624,
-          "m_vTrapTargetLocal": 6632
+          "m_iszDefaultAnim": 6632,
+          "m_vTrapTargetLocal": 6640
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creature"
@@ -18043,9 +17624,9 @@
       },
       "CDOTA_BaseNPC_Venomancer_PlagueWard": {
         "fields": {
-          "m_angle": 6244,
-          "m_bIsMovable": 6240,
-          "m_iPoseParameterAim": 6256
+          "m_angle": 6252,
+          "m_bIsMovable": 6248,
+          "m_iPoseParameterAim": 6264
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -18057,8 +17638,8 @@
       },
       "CDOTA_BaseNPC_Watch_Tower": {
         "fields": {
-          "m_szInteractAbilityName": 6528,
-          "m_szOutpostName": 6520
+          "m_szInteractAbilityName": 6536,
+          "m_szOutpostName": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
@@ -18390,14 +17971,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -32863,6 +32436,11 @@
         "metadata": [],
         "parent": null
       },
+      "CDOTA_Modifier_Item_Foragers_Nuts_Consumed": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "CDOTA_Modifier_Item_Foragers_Stats": {
         "fields": {
           "bonus_move_speed": 6616
@@ -37826,13 +37404,14 @@
       },
       "CDOTA_Modifier_LoneDruid_SpiritLink": {
         "fields": {
-          "active_bonus": 6632,
-          "armor": 6628,
+          "active_bonus": 6636,
+          "armor": 6632,
           "bonus_movement_speed_bear": 6620,
           "bonus_movement_speed_druid": 6616,
-          "lifesteal_both_ways": 6636,
+          "creep_lifesteal_penalty": 6628,
+          "lifesteal_both_ways": 6640,
           "lifesteal_percent": 6624,
-          "m_hTarget": 6640
+          "m_hTarget": 6644
         },
         "metadata": [],
         "parent": null
@@ -46563,12 +46142,11 @@
       },
       "CDOTA_Modifier_Sniper_Headshot": {
         "fields": {
-          "bonus_damage_creeps": 6632,
-          "damage": 6636,
-          "knockback_distance": 6628,
+          "bonus_damage_creeps": 6628,
+          "damage": 6632,
+          "knockback_distance": 6624,
           "proc_chance": 6616,
-          "slow_duration": 6620,
-          "slow_duration_with_take_aim": 6624
+          "slow_duration": 6620
         },
         "metadata": [],
         "parent": null
@@ -51167,7 +50745,8 @@
           "bonus_attack_speed": 6628,
           "damage_reduction": 6624,
           "m_flCurseDuration": 6632,
-          "m_flCurseStartTime": 6636,
+          "m_flCurseStartTime": 6640,
+          "m_flTotalBonusTime": 6636,
           "m_hDesiredTarget": 6620,
           "m_hZombieTarget": 6616
         },
@@ -51661,7 +51240,7 @@
       },
       "CDOTA_NPC_Lantern": {
         "fields": {
-          "m_szInteractAbilityName": 6520
+          "m_szInteractAbilityName": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
@@ -51673,18 +51252,18 @@
       },
       "CDOTA_NPC_Observer_Ward": {
         "fields": {
-          "m_bPlacedInSpawnBox": 6244,
-          "m_flSpawnTime": 6248,
-          "m_iDuration": 6240,
-          "m_nFoWTeam": 6252
+          "m_bPlacedInSpawnBox": 6252,
+          "m_flSpawnTime": 6256,
+          "m_iDuration": 6248,
+          "m_nFoWTeam": 6260
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_NPC_Observer_Ward_TrueSight": {
         "fields": {
-          "m_flTrueSight": 6256,
-          "m_hAbilityEntity": 6260
+          "m_flTrueSight": 6264,
+          "m_hAbilityEntity": 6268
         },
         "metadata": [],
         "parent": "CDOTA_NPC_Observer_Ward"
@@ -51696,7 +51275,7 @@
       },
       "CDOTA_NPC_TechiesMines": {
         "fields": {
-          "m_bShowPlacementRadius": 6240
+          "m_bShowPlacementRadius": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -51708,15 +51287,15 @@
       },
       "CDOTA_NPC_Treant_EyesInTheForest": {
         "fields": {
-          "m_bIsBlind": 6240
+          "m_bIsBlind": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_NPC_WitchDoctor_Ward": {
         "fields": {
-          "m_nTargetFlags": 6244,
-          "m_nTargetType": 6240
+          "m_nTargetFlags": 6252,
+          "m_nTargetType": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -51770,7 +51349,7 @@
       },
       "CDOTA_PhantomAssassin_Gravestone": {
         "fields": {
-          "m_nVictimPlayerID": 6240
+          "m_nVictimPlayerID": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -52152,7 +51731,7 @@
       },
       "CDOTA_Unit_AghsFort_Creature_DungeonBat": {
         "fields": {
-          "m_nFXAmbient": 6624
+          "m_nFXAmbient": 6632
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creature"
@@ -52164,14 +51743,14 @@
       },
       "CDOTA_Unit_Aghsfort_Aziyog_Underlord_Portal": {
         "fields": {
-          "m_hOtherPortal": 6240
+          "m_hOtherPortal": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_Unit_Announcer": {
         "fields": {
-          "m_iAudienceTeam": 6240
+          "m_iAudienceTeam": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC"
@@ -52183,23 +51762,23 @@
       },
       "CDOTA_Unit_Brewmaster_PrimalEarth": {
         "fields": {
-          "m_nFXEarthAmbient1": 6288,
-          "m_nFXEarthAmbient2": 6292
+          "m_nFXEarthAmbient1": 6296,
+          "m_nFXEarthAmbient2": 6300
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creep"
       },
       "CDOTA_Unit_Brewmaster_PrimalFire": {
         "fields": {
-          "m_nFXAmbient": 6288
+          "m_nFXAmbient": 6296
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creep"
       },
       "CDOTA_Unit_Brewmaster_PrimalStorm": {
         "fields": {
-          "m_nFXStormAmbient1": 6288,
-          "m_nFXStormAmbient2": 6292
+          "m_nFXStormAmbient1": 6296,
+          "m_nFXStormAmbient2": 6300
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creep"
@@ -52211,25 +51790,25 @@
       },
       "CDOTA_Unit_Broodmother_Web": {
         "fields": {
-          "m_nFXIndex": 6240,
-          "m_vecOrigin": 6244
+          "m_nFXIndex": 6248,
+          "m_vecOrigin": 6252
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_Unit_Courier": {
         "fields": {
-          "m_bFlyingCourier": 6248,
-          "m_bPreUpdateFlyingCourier": 6241,
-          "m_bUnitRespawned": 6240,
-          "m_flLastLeavingFountainToastTime": 6292,
-          "m_flRespawnTime": 6252,
-          "m_hCourierStateEntity": 6260,
-          "m_nCourierState": 6256,
-          "m_nSoleControllingPlayer": 6244,
-          "m_strCourierModel": 6264,
-          "m_strFlyingCourierModel": 6272,
-          "m_vSpawnLocation": 6280
+          "m_bFlyingCourier": 6256,
+          "m_bPreUpdateFlyingCourier": 6249,
+          "m_bUnitRespawned": 6248,
+          "m_flLastLeavingFountainToastTime": 6300,
+          "m_flRespawnTime": 6260,
+          "m_hCourierStateEntity": 6268,
+          "m_nCourierState": 6264,
+          "m_nSoleControllingPlayer": 6252,
+          "m_strCourierModel": 6272,
+          "m_strFlyingCourierModel": 6280,
+          "m_vSpawnLocation": 6288
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -52266,8 +51845,8 @@
       },
       "CDOTA_Unit_Frogling_Event": {
         "fields": {
-          "m_hHeroHandle": 6240,
-          "m_nFroglingIndex": 6244
+          "m_hHeroHandle": 6248,
+          "m_nFroglingIndex": 6252
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -52304,9 +51883,9 @@
       },
       "CDOTA_Unit_Hero_ArcWarden": {
         "fields": {
-          "m_nFXDeath": 7876,
-          "m_nTalkFXIndex": 7872,
-          "m_nTempestFX": 7880
+          "m_nFXDeath": 7884,
+          "m_nTalkFXIndex": 7880,
+          "m_nTempestFX": 7888
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52393,15 +51972,15 @@
       },
       "CDOTA_Unit_Hero_CrystalMaiden": {
         "fields": {
-          "m_iParticleHandRIndex": 7876,
-          "m_iParticleMouthIndex": 7872
+          "m_iParticleHandRIndex": 7884,
+          "m_iParticleMouthIndex": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
       },
       "CDOTA_Unit_Hero_DarkSeer": {
         "fields": {
-          "m_nNormalPunchBuffIndex": 7872
+          "m_nNormalPunchBuffIndex": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52413,8 +51992,8 @@
       },
       "CDOTA_Unit_Hero_Dawnbreaker": {
         "fields": {
-          "m_flLastAttackAnimAdvanceTime": 7876,
-          "m_nAttackState": 7872
+          "m_flLastAttackAnimAdvanceTime": 7884,
+          "m_nAttackState": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52456,7 +52035,7 @@
       },
       "CDOTA_Unit_Hero_Earthshaker": {
         "fields": {
-          "m_nFXDeath": 7872
+          "m_nFXDeath": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52483,7 +52062,7 @@
       },
       "CDOTA_Unit_Hero_FacelessVoid": {
         "fields": {
-          "m_vecStanceDestinationPoint": 7872
+          "m_vecStanceDestinationPoint": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52495,7 +52074,7 @@
       },
       "CDOTA_Unit_Hero_Grimstroke": {
         "fields": {
-          "m_nFXDeath": 7872
+          "m_nFXDeath": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52527,7 +52106,7 @@
       },
       "CDOTA_Unit_Hero_Juggernaut": {
         "fields": {
-          "m_unOmniKills": 7872
+          "m_unOmniKills": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52544,7 +52123,7 @@
       },
       "CDOTA_Unit_Hero_Kunkka": {
         "fields": {
-          "m_nFXIndex": 7872
+          "m_nFXIndex": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52556,7 +52135,7 @@
       },
       "CDOTA_Unit_Hero_Legion_Commander": {
         "fields": {
-          "m_unDuelsWon": 7872
+          "m_unDuelsWon": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52583,7 +52162,7 @@
       },
       "CDOTA_Unit_Hero_Lion": {
         "fields": {
-          "m_unFingerPrestigeKills": 7872
+          "m_unFingerPrestigeKills": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52625,8 +52204,8 @@
       },
       "CDOTA_Unit_Hero_Meepo": {
         "fields": {
-          "m_bRecursionGuard": 7872,
-          "m_nWhichMeepo": 7904
+          "m_bRecursionGuard": 7880,
+          "m_nWhichMeepo": 7912
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52638,13 +52217,13 @@
       },
       "CDOTA_Unit_Hero_MonkeyKing": {
         "fields": {
-          "m_bIsOnCloud": 7892,
-          "m_fBackOnCloudThresh": 7904,
-          "m_fTotalDistOnCloud": 7896,
-          "m_fTotalDistoffCloud": 7900,
-          "m_nPerchedTree": 7876,
-          "m_nTreeDisguise": 7872,
-          "m_vLastPos": 7880
+          "m_bIsOnCloud": 7900,
+          "m_fBackOnCloudThresh": 7912,
+          "m_fTotalDistOnCloud": 7904,
+          "m_fTotalDistoffCloud": 7908,
+          "m_nPerchedTree": 7884,
+          "m_nTreeDisguise": 7880,
+          "m_vLastPos": 7888
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52656,7 +52235,7 @@
       },
       "CDOTA_Unit_Hero_Muerta": {
         "fields": {
-          "m_hDoubleShotTarget": 7872
+          "m_hDoubleShotTarget": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52673,7 +52252,7 @@
       },
       "CDOTA_Unit_Hero_Nevermore": {
         "fields": {
-          "m_nFXDeath": 7872
+          "m_nFXDeath": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52690,7 +52269,7 @@
       },
       "CDOTA_Unit_Hero_Obsidian_Destroyer": {
         "fields": {
-          "m_nFXDeath": 7872
+          "m_nFXDeath": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52707,7 +52286,7 @@
       },
       "CDOTA_Unit_Hero_Oracle": {
         "fields": {
-          "m_nFXDeath": 7872
+          "m_nFXDeath": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52719,22 +52298,22 @@
       },
       "CDOTA_Unit_Hero_PhantomAssassin": {
         "fields": {
-          "m_nFXDeath": 7872
+          "m_nFXDeath": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
       },
       "CDOTA_Unit_Hero_PhantomLancer": {
         "fields": {
-          "m_bInventoryEnabled": 7872
+          "m_bInventoryEnabled": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
       },
       "CDOTA_Unit_Hero_Phoenix": {
         "fields": {
-          "m_bDetermineAmbientEffect": 7876,
-          "m_nFXAmbientSpirits": 7872
+          "m_bDetermineAmbientEffect": 7884,
+          "m_nFXAmbientSpirits": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52756,7 +52335,7 @@
       },
       "CDOTA_Unit_Hero_Pugna": {
         "fields": {
-          "m_nAimAngle": 7872
+          "m_nAimAngle": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52773,8 +52352,8 @@
       },
       "CDOTA_Unit_Hero_Razor": {
         "fields": {
-          "m_nTargetAngle": 7872,
-          "m_nTargetRange": 7876
+          "m_nTargetAngle": 7880,
+          "m_nTargetRange": 7884
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52791,10 +52370,10 @@
       },
       "CDOTA_Unit_Hero_Rubick": {
         "fields": {
-          "m_bHasInitializedAbilityColors": 7908,
-          "m_stolenAbilityColorHSV1": 7872,
-          "m_stolenAbilityColorHSV2": 7884,
-          "m_stolenAbilityFXColorHSV": 7896
+          "m_bHasInitializedAbilityColors": 7916,
+          "m_stolenAbilityColorHSV1": 7880,
+          "m_stolenAbilityColorHSV2": 7892,
+          "m_stolenAbilityFXColorHSV": 7904
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52826,16 +52405,16 @@
       },
       "CDOTA_Unit_Hero_SkeletonKing": {
         "fields": {
-          "m_nSkeletonWarriors": 7872,
-          "m_vecInGameHeroKillBitmask": 7900,
-          "m_vecInitialHeroKillBitmask": 7876
+          "m_nSkeletonWarriors": 7880,
+          "m_vecInGameHeroKillBitmask": 7908,
+          "m_vecInitialHeroKillBitmask": 7884
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
       },
       "CDOTA_Unit_Hero_Skywrath_Mage": {
         "fields": {
-          "m_bArcanaEquipped": 7872
+          "m_bArcanaEquipped": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52862,11 +52441,11 @@
       },
       "CDOTA_Unit_Hero_Spectre": {
         "fields": {
-          "m_bArcanaKillstreakCompleted": 7872,
-          "m_bArcanaKillstreakRecordBroken": 7880,
-          "m_nVictimPlayerID": 7876,
-          "m_unBestArcanaKillStreak": 7874,
-          "m_unCurrentArcanaKillStreak": 7873
+          "m_bArcanaKillstreakCompleted": 7880,
+          "m_bArcanaKillstreakRecordBroken": 7888,
+          "m_nVictimPlayerID": 7884,
+          "m_unBestArcanaKillStreak": 7882,
+          "m_unCurrentArcanaKillStreak": 7881
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52888,7 +52467,7 @@
       },
       "CDOTA_Unit_Hero_Techies": {
         "fields": {
-          "m_bLastDeathFromSuicide": 7872
+          "m_bLastDeathFromSuicide": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52900,9 +52479,9 @@
       },
       "CDOTA_Unit_Hero_Terrorblade": {
         "fields": {
-          "m_nArcanaColor": 7888,
-          "m_nFXDeath": 7872,
-          "m_szResponseCriteria": 7880
+          "m_nArcanaColor": 7896,
+          "m_nFXDeath": 7880,
+          "m_szResponseCriteria": 7888
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52919,10 +52498,10 @@
       },
       "CDOTA_Unit_Hero_Tiny": {
         "fields": {
-          "m_bIllusionHasTree": 7884,
-          "m_hIllusionOwner": 7880,
-          "m_hTreeWearable": 7872,
-          "m_nFXIndexScepterAmbient": 7876
+          "m_bIllusionHasTree": 7892,
+          "m_hIllusionOwner": 7888,
+          "m_hTreeWearable": 7880,
+          "m_nFXIndexScepterAmbient": 7884
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52954,7 +52533,7 @@
       },
       "CDOTA_Unit_Hero_VengefulSpirit": {
         "fields": {
-          "m_bArcanaEquipped": 7872
+          "m_bArcanaEquipped": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -52991,29 +52570,29 @@
       },
       "CDOTA_Unit_Hero_Windrunner": {
         "fields": {
-          "m_nFXDeath": 7876,
-          "m_nTargetAngle": 7872
+          "m_nFXDeath": 7884,
+          "m_nTargetAngle": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
       },
       "CDOTA_Unit_Hero_Winter_Wyvern": {
         "fields": {
-          "m_nFXDeath": 7872
+          "m_nFXDeath": 7880
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
       },
       "CDOTA_Unit_Hero_Wisp": {
         "fields": {
-          "m_bDetermineAmbientEffect": 7890,
-          "m_bParticleHexed": 7888,
-          "m_bParticleStunned": 7889,
-          "m_flPrevHealth": 7892,
-          "m_nAmbientFXIndex": 7872,
-          "m_nIllusionFXIndex": 7884,
-          "m_nStunnedFXIndex": 7876,
-          "m_nTalkFXIndex": 7880
+          "m_bDetermineAmbientEffect": 7898,
+          "m_bParticleHexed": 7896,
+          "m_bParticleStunned": 7897,
+          "m_flPrevHealth": 7900,
+          "m_nAmbientFXIndex": 7880,
+          "m_nIllusionFXIndex": 7892,
+          "m_nStunnedFXIndex": 7884,
+          "m_nTalkFXIndex": 7888
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -53035,19 +52614,19 @@
       },
       "CDOTA_Unit_LoopingSound": {
         "fields": {
-          "m_nLoopingSoundParity": 6496,
-          "m_pszNetworkedSoundLoop": 6240
+          "m_nLoopingSoundParity": 6504,
+          "m_pszNetworkedSoundLoop": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_Unit_Miniboss": {
         "fields": {
-          "m_flTransitionTimestamp": 6248,
-          "m_hAttackingHeroes": 6256,
-          "m_nTempViewer": 6252,
-          "m_nVisualTeam": 6240,
-          "nShieldFX": 6288
+          "m_flTransitionTimestamp": 6256,
+          "m_hAttackingHeroes": 6264,
+          "m_nTempViewer": 6260,
+          "m_nVisualTeam": 6248,
+          "nShieldFX": 6296
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -53059,18 +52638,18 @@
       },
       "CDOTA_Unit_Nian": {
         "fields": {
-          "m_hHorn": 6652,
-          "m_hTail": 6648,
-          "m_vecRecentDamage": 6624
+          "m_hHorn": 6660,
+          "m_hTail": 6656,
+          "m_vecRecentDamage": 6632
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creature"
       },
       "CDOTA_Unit_Nian_Attachment": {
         "fields": {
-          "m_bAttachmentBroken": 6240,
-          "m_nfxIndex_tailgrow": 6244,
-          "m_vecRecentDamage": 6248
+          "m_bAttachmentBroken": 6248,
+          "m_nfxIndex_tailgrow": 6252,
+          "m_vecRecentDamage": 6256
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -53082,14 +52661,14 @@
       },
       "CDOTA_Unit_Roshan": {
         "fields": {
-          "m_bGoldenRoshan": 6288,
-          "m_hAttackingHeroes": 6264,
-          "m_hDireRoshanPit": 6256,
-          "m_hRadiantRoshanPit": 6252,
-          "m_hRiverMidpoint": 6260,
-          "m_iKillerTeam": 6240,
-          "m_iLastHealthPercent": 6244,
-          "m_nFXIndex": 6248
+          "m_bGoldenRoshan": 6296,
+          "m_hAttackingHeroes": 6272,
+          "m_hDireRoshanPit": 6264,
+          "m_hRadiantRoshanPit": 6260,
+          "m_hRiverMidpoint": 6268,
+          "m_iKillerTeam": 6248,
+          "m_iLastHealthPercent": 6252,
+          "m_nFXIndex": 6256
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
@@ -53101,38 +52680,38 @@
       },
       "CDOTA_Unit_Scout": {
         "fields": {
-          "m_bUnitRespawned": 6240,
-          "m_flRespawnTime": 6248,
-          "m_hScoutStateEntity": 6256,
-          "m_nScoutState": 6252,
-          "m_nSoleControllingPlayer": 6244,
-          "m_strScoutModel": 6264,
-          "m_vSpawnLocation": 6272
+          "m_bUnitRespawned": 6248,
+          "m_flRespawnTime": 6256,
+          "m_hScoutStateEntity": 6264,
+          "m_nScoutState": 6260,
+          "m_nSoleControllingPlayer": 6252,
+          "m_strScoutModel": 6272,
+          "m_vSpawnLocation": 6280
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_Unit_Side_Gunner": {
         "fields": {
-          "m_hOwningNPC": 6240
+          "m_hOwningNPC": 6248
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_Unit_SpiritBear": {
         "fields": {
-          "m_bShouldRespawn": 7872,
-          "m_bStolen": 7873
+          "m_bShouldRespawn": 7880,
+          "m_bStolen": 7881
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
       },
       "CDOTA_Unit_TargetDummy": {
         "fields": {
-          "m_flDamageTaken": 7872,
-          "m_flLastHit": 7876,
-          "m_flLastTargetDummyDamageTime": 7884,
-          "m_flStartDamageTime": 7880
+          "m_flDamageTaken": 7880,
+          "m_flLastHit": 7884,
+          "m_flLastTargetDummyDamageTime": 7892,
+          "m_flStartDamageTime": 7888
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Hero"
@@ -53144,29 +52723,29 @@
       },
       "CDOTA_Unit_Templar_Gate": {
         "fields": {
-          "m_hOtherPortal": 6520
+          "m_hOtherPortal": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
       },
       "CDOTA_Unit_Tidehunter_Anchor": {
         "fields": {
-          "m_hTarget": 6240,
-          "m_vProjectilePosition": 6244
+          "m_hTarget": 6248,
+          "m_vProjectilePosition": 6252
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Additive"
       },
       "CDOTA_Unit_Twin_Gate": {
         "fields": {
-          "m_hOtherPortal": 6520
+          "m_hOtherPortal": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
       },
       "CDOTA_Unit_Underlord_Portal": {
         "fields": {
-          "m_hOtherPortal": 6520
+          "m_hOtherPortal": 6528
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Building"
@@ -53178,16 +52757,16 @@
       },
       "CDOTA_Unit_Undying_Zombie": {
         "fields": {
-          "m_ctRespawn": 6288,
-          "m_pTombstone": 6312
+          "m_ctRespawn": 6296,
+          "m_pTombstone": 6320
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creep"
       },
       "CDOTA_Unit_VisageFamiliar": {
         "fields": {
-          "ctTimer": 6288,
-          "m_nFXAmbient": 6312
+          "ctTimer": 6296,
+          "m_nFXAmbient": 6320
         },
         "metadata": [],
         "parent": "CDOTA_BaseNPC_Creep"
@@ -53575,26 +53154,6 @@
         },
         "metadata": [
           {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -53607,7 +53166,51 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "MPropertyAttributeEditor",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
             "type": "Unknown"
           },
           {
@@ -53615,7 +53218,27 @@
             "type": "Unknown"
           },
           {
-            "name": "MFgdHelper",
+            "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           }
         ],
@@ -53768,38 +53391,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MDebugSnapshotDataSummaryFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
             "type": "Unknown"
           },
@@ -53813,14 +53404,6 @@
           },
           {
             "name": "DFLAG_PREVENT_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_GIB",
             "type": "Unknown"
           }
         ],
@@ -53961,11 +53544,7 @@
         },
         "metadata": [
           {
-            "name": "MPulseEditorHeaderExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -54117,10 +53696,6 @@
           },
           {
             "name": "BLOCK_LOS_FORCE_TRUE",
-            "type": "Unknown"
-          },
-          {
-            "name": "56",
             "type": "Unknown"
           },
           {
@@ -54698,7 +54273,12 @@
           "m_fog": 1176,
           "m_iChangedVariables": 1284
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "t",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseEntity"
       },
       "CFogTrigger": {
@@ -54724,118 +54304,6 @@
         "metadata": [
           {
             "name": "MPropertyCustomFGDType",
-            "type": "Unknown"
-          },
-          {
-            "name": "GENERIC_SHAPE_SPHERE",
-            "type": "Unknown"
-          },
-          {
-            "name": "GENERIC_SHAPE_AABB",
-            "type": "Unknown"
-          },
-          {
-            "name": "GENERIC_SHAPE_CAPSULE",
-            "type": "Unknown"
-          },
-          {
-            "name": "GENERIC_SHAPE_HULL",
-            "type": "Unknown"
-          },
-          {
-            "name": "kDecalInvalid",
-            "type": "Unknown"
-          },
-          {
-            "name": "kDecalCloak",
-            "type": "Unknown"
-          },
-          {
-            "name": "kDecalMax",
-            "type": "Unknown"
-          },
-          {
-            "name": "PIID_IPHYSICSBODY",
-            "type": "Unknown"
-          },
-          {
-            "name": "PIID_IPHYSAGGREGATE",
-            "type": "Unknown"
-          },
-          {
-            "name": "PIID_IPHYSICSJOINT",
-            "type": "Unknown"
-          },
-          {
-            "name": "PIID_IPHYSICSMOTIONCONTROLLER",
-            "type": "Unknown"
-          },
-          {
-            "name": "PIID_IPHYSICSPARTICLEROPE",
-            "type": "Unknown"
-          },
-          {
-            "name": "PIID_IPHYSICSRAGDOLLCONTROL",
-            "type": "Unknown"
-          },
-          {
-            "name": "PIID_NUM_TYPES",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ESceneViewDebugOverlaysListenerDataType_Sphere",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ESceneViewDebugOverlaysListenerDataType_Capsule",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ESceneViewDebugOverlaysListenerDataType_BoxAngles",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ESceneViewDebugOverlaysListenerDataType_Line",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ESceneViewDebugOverlaysListenerDataType_SolidBoxAngles",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ESceneViewDebugOverlaysListenerDataType_Text3D",
-            "type": "Unknown"
-          },
-          {
-            "name": "eAir",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCount",
-            "type": "Unknown"
-          },
-          {
-            "name": "eInvalid",
-            "type": "Unknown"
-          },
-          {
-            "name": "eGround",
-            "type": "Unknown"
-          },
-          {
-            "name": "eAir",
-            "type": "Unknown"
-          },
-          {
-            "name": "eAll",
-            "type": "Unknown"
-          },
-          {
-            "name": "MAX_RESPONSE_NAME",
-            "type": "Unknown"
-          },
-          {
-            "name": "MAX_RULE_NAME",
             "type": "Unknown"
           }
         ],
@@ -58806,6 +58274,10 @@
           {
             "name": "eEyesForward",
             "type": "Unknown"
+          },
+          {
+            "name": "t",
+            "type": "Unknown"
           }
         ],
         "parent": "CBaseEntity"
@@ -58958,7 +58430,12 @@
           "m_nConstraint": 1196,
           "m_nGoalDirection": 1192
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "t",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseEntity"
       },
       "CPointPrefab": {
@@ -59299,10 +58776,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -59407,7 +58880,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -59416,10 +58889,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -59694,7 +59163,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -59800,7 +59269,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -59809,10 +59278,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -60071,10 +59536,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -60418,7 +59879,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -60502,7 +59963,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -60966,7 +60427,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -61070,7 +60531,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -61192,7 +60653,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -61201,10 +60662,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -61222,7 +60679,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -61314,7 +60771,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -61445,10 +60902,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -61518,10 +60971,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -61595,7 +61044,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -61653,7 +61102,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -61959,10 +61408,6 @@
           {
             "name": "MPropertyDescription",
             "type": "Unknown"
-          },
-          {
-            "name": "amData=C:\\ProgramData",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62257,7 +61702,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -63670,14 +63115,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
@@ -63716,6 +63153,14 @@
           "strValueB": 8
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -64184,12 +63629,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": " ",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CavernCrawlPathID_t": {
@@ -64731,10 +64171,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MDebugSnapshotDataSummaryFn",
             "type": "Unknown"
           },
@@ -64756,62 +64192,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_PHYSICS_FORCE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_EFFECTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_PREVENT_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_NEVER_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_REMOVE_NO_RAGDOLL",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_DAMAGE_MODIFICATION",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_RADIUS_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCEREDUCEARMOR_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_INTERRUPT_FLINCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_IGNORE_DESTRUCTIBLE_PARTS",
             "type": "Unknown"
           }
         ],
@@ -64943,10 +64323,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -64972,7 +64348,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -65163,11 +64543,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -65195,11 +64571,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -65227,11 +64599,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -65276,7 +64644,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -65297,10 +64669,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -65378,7 +64746,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -65402,11 +64774,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -65471,7 +64839,7 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0111,0x0e6f/0x0114,0x0e6f/0x0119,0x0e6f/0x011a,0x20d6/0x571d,0x1949/0x0419,0x1dd8/0x000b,0x20d6/0x57e5,0x11c0/0x5213,0x0e6f/0x",
+            "name": "pData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Prog",
             "type": "Unknown"
           }
         ],
@@ -65754,11 +65122,67 @@
         },
         "metadata": [
           {
-            "name": "MPropertyDescription",
+            "name": "TEXT",
             "type": "Unknown"
           },
           {
-            "name": "MKV3TransferSaveOpsForField",
+            "name": "ENTITY",
+            "type": "Unknown"
+          },
+          {
+            "name": "COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "TACTICAL_SEARCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "AI_SCHEDULE",
+            "type": "Unknown"
+          },
+          {
+            "name": "AI_TASK",
+            "type": "Unknown"
+          },
+          {
+            "name": "AI_EVENT",
+            "type": "Unknown"
+          },
+          {
+            "name": "AI_PATHFINDING",
+            "type": "Unknown"
+          },
+          {
+            "name": "END_SIM_HISTORY_TYPES",
+            "type": "Unknown"
+          },
+          {
+            "name": "COMBINED",
+            "type": "Unknown"
+          },
+          {
+            "name": "MATCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "HIERARCHY",
+            "type": "Unknown"
+          },
+          {
+            "name": "COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ANY",
+            "type": "Unknown"
+          },
+          {
+            "name": "COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -67354,244 +66778,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "ANIM_LOOP_MODE_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "ANIM_LOOP_MODE_LOOPING",
-            "type": "Unknown"
-          },
-          {
-            "name": "ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS",
-            "type": "Unknown"
-          },
-          {
-            "name": "ANIM_LOOP_MODE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "eLowerBody",
-            "type": "Unknown"
-          },
-          {
-            "name": "eUpperBody",
-            "type": "Unknown"
-          },
-          {
-            "name": "eFullBody",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCenter",
-            "type": "Unknown"
-          },
-          {
-            "name": "eEyes",
-            "type": "Unknown"
-          },
-          {
-            "name": "eAttachment",
-            "type": "Unknown"
-          },
-          {
-            "name": "SUBCLASS_SCOPE_NONE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SUBCLASS_VDATA_SUBCLASS_CHANGED",
-            "type": "Unknown"
-          },
-          {
-            "name": "SUBCLASS_VDATA_RELOADED",
-            "type": "Unknown"
-          },
-          {
-            "name": "NeverConnected",
-            "type": "Unknown"
-          },
-          {
-            "name": "Connecting",
-            "type": "Unknown"
-          },
-          {
-            "name": "Reconnecting",
-            "type": "Unknown"
-          },
-          {
-            "name": "Disconnecting",
-            "type": "Unknown"
-          },
-          {
-            "name": "Disconnected",
-            "type": "Unknown"
-          },
-          {
-            "name": "Reserved",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCenterToCenter",
-            "type": "Unknown"
-          },
-          {
-            "name": "eAxisToAxis",
-            "type": "Unknown"
-          },
-          {
-            "name": "eEquipped",
-            "type": "Unknown"
-          },
-          {
-            "name": "eUserInitiatedSwitchToLast",
-            "type": "Unknown"
-          },
-          {
-            "name": "eUserInitiatedUIKeyPress",
-            "type": "Unknown"
-          },
-          {
-            "name": "eInvalid",
-            "type": "Unknown"
-          },
-          {
-            "name": "eSecondary",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCount",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_TRANSITIONING_PLAYERS",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_RATE_EXCEEDED",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_YES_MUST_EXCEED_NO",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_QUORUM_FAILURE",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_ISSUE_DISABLED",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_MAP_NOT_FOUND",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_MAP_NAME_REQUIRED",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_FAILED_RECENTLY",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_TEAM_CANT_CALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_WAITINGFORPLAYERS",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_PLAYERNOTFOUND",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_CANNOT_KICK_ADMIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_SCRAMBLE_IN_PROGRESS",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_SPECTATOR",
-            "type": "Unknown"
-          },
-          {
-            "name": "VOTE_FAILED_MAX",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_NOAUTORELOAD",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_NOAUTOSWITCHEMPTY",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_LIMITINWORLD",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_EXHAUSTIBLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_DOHITLOCATIONDMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_NOAMMOPICKUPS",
-            "type": "Unknown"
-          },
-          {
-            "name": "ITEM_FLAG_NOITEMPICKUP",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY_DISSOLVE_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY_DISSOLVE_ELECTRICAL",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY_DISSOLVE_ELECTRICAL_LIGHT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENTITY_DISSOLVE_CORE",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_HEAD",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_CHEST",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_STOMACH",
-            "type": "Unknown"
-          },
-          {
-            "name": "HITGROUP_LEFTARM",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "ParticleNode_t": {
@@ -68181,10 +67368,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
@@ -77270,6 +76453,15 @@
         },
         "type": "uint32"
       },
+      "OriginalModelFlags_t": {
+        "alignment": 1,
+        "members": {
+          "ORIGINAL_MODEL_FLAGS_NOT_SET": 0,
+          "ORIGINAL_MODEL_IS_NOT_ORIGINAL_MODEL": 2,
+          "ORIGINAL_MODEL_IS_ORIGINAL_MODEL": 1
+        },
+        "type": "uint8"
+      },
       "PARTICLE_MESSAGE": {
         "alignment": 4,
         "members": {
@@ -78154,22 +77346,27 @@
         },
         "type": "uint32"
       },
-      "_M_": {
+      "_I____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___": {
+      "___M__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "__w_w_": {
+      "______": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_p_": {
+      "___Ï_": {
+        "alignment": 101,
+        "members": {},
+        "type": "unknown"
+      },
+      "_v____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

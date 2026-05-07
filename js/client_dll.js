@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1523,10 +1523,9 @@ export const Schemas = {
         CDOTA_Modifier_Sniper_Headshot: {
             proc_chance: 0x19D8, // int32
             slow_duration: 0x19DC, // float32
-            slow_duration_with_take_aim: 0x19E0, // float32
-            knockback_distance: 0x19E4, // float32
-            bonus_damage_creeps: 0x19E8, // int32
-            damage: 0x19EC, // int32
+            knockback_distance: 0x19E0, // float32
+            bonus_damage_creeps: 0x19E4, // int32
+            damage: 0x19E8, // int32
         },
         CDOTA_Modifier_Tiny_Tree_Channel_Bonus: {
             bonus_damage: 0x19D8, // int32
@@ -7502,7 +7501,8 @@ export const Schemas = {
             damage_reduction: 0x19E0, // int32
             bonus_attack_speed: 0x19E4, // int32
             m_flCurseDuration: 0x19E8, // float32
-            m_flCurseStartTime: 0x19EC, // float32
+            m_flTotalBonusTime: 0x19EC, // float32
+            m_flCurseStartTime: 0x19F0, // float32
         },
         CDOTA_Modifier_Winter_Wyvern_Arctic_Burn_Frost_Attack: {
             m_InFlightAttackRecords: 0x19D8, // CUtlVector<AttackRecord_t>
@@ -13271,10 +13271,11 @@ export const Schemas = {
             bonus_movement_speed_druid: 0x19D8, // int32
             bonus_movement_speed_bear: 0x19DC, // int32
             lifesteal_percent: 0x19E0, // int32
-            armor: 0x19E4, // int32
-            active_bonus: 0x19E8, // int32
-            lifesteal_both_ways: 0x19EC, // int32
-            m_hTarget: 0x19F0, // CHandle<C_BaseEntity>
+            creep_lifesteal_penalty: 0x19E4, // int32
+            armor: 0x19E8, // int32
+            active_bonus: 0x19EC, // int32
+            lifesteal_both_ways: 0x19F0, // int32
+            m_hTarget: 0x19F4, // CHandle<C_BaseEntity>
         },
         CDOTA_Modifier_Gyrocopter_Call_Down_Thinker_Tracking: {
             m_hTarget: 0x19D8, // CHandle<C_BaseEntity>
@@ -14543,6 +14544,8 @@ export const Schemas = {
         },
         C_DOTA_Ability_Special_Bonus_HP_250: {
         },
+        CDOTA_Modifier_Item_Foragers_Nuts_Consumed: {
+        },
         CDOTA_Modifier_Item_Force_Field: {
             m_bAppliesToCreeps: 0x19D8, // bool
             bonus_aoe_radius: 0x19DC, // float32
@@ -15641,15 +15644,16 @@ export const Schemas = {
             m_hOldWearableSkins: 0x1830, // CUtlVector<CUtlStringToken>
             m_CustomHealthLabel: 0x1848, // char[256]
             m_CustomHealthLabelColor: 0x1948, // Color
-            m_nWearableDefIndex: 0x194C, // item_definition_index_t
-            m_gibTintColor: 0x1951, // Color
-            m_bForceMaterialCombine: 0x1955, // bool
-            m_bShouldDrawParticlesWhileHidden: 0x1956, // bool
-            m_bIsClientThinkPending: 0x1957, // bool
-            m_bActivityModifiersDirty: 0x1958, // bool
-            m_bUnitModelVariantChanged: 0x1959, // bool
-            m_bWearablesAreTaunting: 0x195A, // bool
-            m_bWearablesLoadoutOverride: 0x195B, // bool
+            m_nIsOriginalModel: 0x194C, // OriginalModelFlags_t
+            m_nWearableDefIndex: 0x1950, // item_definition_index_t
+            m_gibTintColor: 0x1955, // Color
+            m_bForceMaterialCombine: 0x1959, // bool
+            m_bShouldDrawParticlesWhileHidden: 0x195A, // bool
+            m_bIsClientThinkPending: 0x195B, // bool
+            m_bActivityModifiersDirty: 0x195C, // bool
+            m_bUnitModelVariantChanged: 0x195D, // bool
+            m_bWearablesAreTaunting: 0x195E, // bool
+            m_bWearablesLoadoutOverride: 0x195F, // bool
             m_bShowCannotBeDisabledIcon: 0x1970, // bool
             m_nVisionPreviewViewer: 0x1990, // int32
         },
@@ -20739,7 +20743,7 @@ export const Schemas = {
         },
         CDOTA_Modifier_DoomBringer_ScorchedEarthEffect: {
             bonus_movement_speed_pct: 0x19D8, // int32
-            bonus_health_regen: 0x19DC, // int32
+            bonus_health_regen: 0x19DC, // float32
         },
         CDOTA_Modifier_Death_Prophet_Attack_Scepter: {
         },
@@ -26262,6 +26266,7 @@ export const Schemas = {
             m_SpiritDefs: 0x6A8, // CUtlVector<sSpiritDef>
             m_nWispDirection: 0x6C0, // int32
             spirit_amount: 0x6C4, // int32
+            m_flStartSpiritRadius: 0x6C8, // float32
         },
         CDOTA_Modifier_Aghsfort_Aziyog_Underlord_Firestorm_Burn: {
             burn_damage: 0x19D8, // float32

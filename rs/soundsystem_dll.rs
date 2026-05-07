@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -422,21 +422,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -447,7 +432,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -462,7 +452,38 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // kBranch
+            // kMatch
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
             pub mod CSosGroupActionOcclusionSchema {
                 pub const m_flCalculationInterval: usize = 0x8; // float32
                 pub const m_flRadius: usize = 0xC; // float32
@@ -479,16 +500,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Hb
+            // pb
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyDescription
+            // xj
+            // 0j
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 0j
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // 8m
+            // Xm
             pub mod CVoiceContainerRandomSampler {
                 pub const m_flAmplitude: usize = 0xB8; // float32
                 pub const m_flAmplitudeJitter: usize = 0xBC; // float32
@@ -546,6 +574,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            //  [
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -555,6 +584,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Hb
+            // pb
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod CVoiceContainerDefault {
@@ -585,13 +616,14 @@ pub mod source2_dumper {
             // MVDataNodeType
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod CDSPPresetMixgroupModifierTable {
                 pub const m_table: usize = 0x0; // CUtlVector<CDspPresetModifierList>
             }
             // Parent: None
-            // Field count: 8
+            // Field count: 7
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -607,41 +639,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            pub mod CSosGroupActionSoundeventClusterSchema {
-                pub const m_nMinNearby: usize = 0x8; // int32
-                pub const m_flClusterEpsilon: usize = 0xC; // float32
-                pub const m_shouldPlayOpvar: usize = 0x10; // CUtlString
-                pub const m_shouldPlayClusterChild: usize = 0x18; // CUtlString
-                pub const m_clusterSizeOpvar: usize = 0x20; // CUtlString
-                pub const m_groupBoundingBoxMinsOpvar: usize = 0x28; // CUtlString
-                pub const m_groupBoundingBoxMaxsOpvar: usize = 0x30; // CUtlString
-                pub const m_nMinNearby: usize = 0x8; // int32
-            }
-            // Parent: None
-            // Field count: 6
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -652,6 +653,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
             // eSndSeqRegionTypeSndEvt
@@ -680,20 +688,36 @@ pub mod source2_dumper {
             // SNDLVL_NORM
             // SNDLVL_75dB
             // SNDLVL_80dB
-            // SNDLVL_TALKING
-            // SNDLVL_85dB
-            // SNDLVL_90dB
-            // SNDLVL_95dB
-            // SNDLVL_100dB
-            // SNDLVL_105dB
-            // SNDLVL_110dB
+            pub mod CSosGroupActionSoundeventClusterSchema {
+                pub const m_nMinNearby: usize = 0x8; // int32
+                pub const m_flClusterEpsilon: usize = 0xC; // float32
+                pub const m_shouldPlayOpvar: usize = 0x10; // CUtlString
+                pub const m_shouldPlayClusterChild: usize = 0x18; // CUtlString
+                pub const m_clusterSizeOpvar: usize = 0x20; // CUtlString
+                pub const m_groupBoundingBoxMinsOpvar: usize = 0x28; // CUtlString
+                pub const m_groupBoundingBoxMaxsOpvar: usize = 0x30; // CUtlString
+            }
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // (
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod CSosGroupActionSetSoundeventParameterSchema {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_flMinValue: usize = 0xC; // float32
                 pub const m_flMaxValue: usize = 0x10; // float32
                 pub const m_opvarName: usize = 0x18; // CUtlString
                 pub const m_nSortType: usize = 0x20; // SosActionSetParamSortType_t
-                pub const m_nMaxCount: usize = 0x8; // int32
             }
             // Parent: None
             // Field count: 4
@@ -702,6 +726,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             pub mod CSoundContainerReference {
                 pub const m_namespace: usize = 0x0; // CUtlString
                 pub const m_bUseReference: usize = 0x8; // bool
@@ -715,15 +740,19 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // h`
             // MPropertyFriendlyName
+            //  b
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // RandomNoRepeats
@@ -735,6 +764,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0j
             pub mod CVoiceContainerNull {
             }
             // Parent: None
@@ -763,7 +793,7 @@ pub mod source2_dumper {
                 pub const m_curve: usize = 0x10; // CPiecewiseCurve
             }
             // Parent: None
-            // Field count: 11
+            // Field count: 10
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -778,41 +808,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // (
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // (
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // kBranch
-            // kMatch
-            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // SOS_LIMIT_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // SOS_STOPTYPE_TIME
-            // SOS_STOPTYPE_OPVAR
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
-            // MGetKV3ClassDefaults
             pub mod CSosGroupActionSoundeventMinMaxValuesSchema {
                 pub const m_strQueryPublicFieldName: usize = 0x8; // CUtlString
                 pub const m_strDelayPublicFieldName: usize = 0x10; // CUtlString
@@ -824,7 +835,6 @@ pub mod source2_dumper {
                 pub const m_flExcludeSoundsMaxThresholdValue: usize = 0x24; // float32
                 pub const m_strMinValueName: usize = 0x28; // CUtlString
                 pub const m_strMaxValueName: usize = 0x30; // CUtlString
-                pub const m_strQueryPublicFieldName: usize = 0x8; // CUtlString
             }
             // Parent: None
             // Field count: 1
@@ -854,7 +864,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -955,7 +964,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1030,7 +1038,7 @@ pub mod source2_dumper {
                 pub const m_flStrength: usize = 0x4; // float32
             }
             // Parent: None
-            // Field count: 5
+            // Field count: 4
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -1052,11 +1060,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // kBranch
+            // kMatch
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -1064,12 +1081,33 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
             pub mod CSosGroupActionSoundeventPrioritySchema {
                 pub const m_priorityValue: usize = 0x8; // CUtlString
                 pub const m_priorityVolumeScalar: usize = 0x10; // CUtlString
                 pub const m_priorityContributeButDontRead: usize = 0x18; // CUtlString
                 pub const m_bPriorityReadButDontContribute: usize = 0x20; // CUtlString
-                pub const m_priorityValue: usize = 0x8; // CUtlString
             }
             // Parent: None
             // Field count: 3
@@ -1078,6 +1116,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Hs
             // PCM8
             // MP3
             // ADPCM
@@ -1093,6 +1132,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // SOS_EDIT_ITEM_TYPE_SOUNDEVENT
             pub mod SelectedEditItemInfo_t {
                 pub const m_EditItems: usize = 0x0; // CUtlVector<SosEditItemInfo_t>
             }
@@ -1120,6 +1160,47 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             // UnitLabel
             pub mod CSndSeqInstSndEvtSchema {
             }
@@ -1204,8 +1285,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -1216,6 +1300,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
             // eSndSeqRegionTypeSndEvt
@@ -1264,12 +1355,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyReadonlyExpr
+            // MPropertySuppressExpr
+            // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertySuppressExpr
-            // MPropertyAttributeEditor
-            // MPropertyReadonlyExpr
-            // MPropertySuppressExpr
-            // MPropertyReadonlyExpr
             pub mod CSosSoundEventGroupSchema {
                 pub const m_nGroupType: usize = 0x8; // SosGroupType_t
                 pub const m_bBlocksEvents: usize = 0xC; // bool
@@ -1297,6 +1387,47 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             // UnitLabel
             pub mod CSndSeqInstMidiSampler {
                 pub const m_bIsSoundEvent: usize = 0x20; // bool
@@ -1316,6 +1447,47 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             // UnitLabel
             pub mod CSndSeqInstBaseSchema {
                 pub const m_nType: usize = 0x8; // SndSeqInstrumentType_t
@@ -1383,13 +1555,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             pub mod CDSPMixgroupModifier {
                 pub const m_mixgroup: usize = 0x0; // CUtlString
                 pub const m_flModifier: usize = 0x8; // float32
@@ -1517,8 +1682,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod CDspPresetModifierList {
                 pub const m_dspName: usize = 0x0; // CUtlString
                 pub const m_modifiers: usize = 0x8; // CUtlVector<CDSPMixgroupModifier>
@@ -1532,18 +1696,24 @@ pub mod source2_dumper {
             // MVDataFileExtension
             // MPropertyFriendlyName
             // MPropertyDescription
+            // XY
+            // pY
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // h`
             // MPropertyFriendlyName
+            //  b
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // RandomNoRepeats
@@ -1639,7 +1809,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             pub mod CVMixUtilityProcessorDesc {
                 pub const m_desc: usize = 0x20; // VMixUtilityDesc_t
             }
@@ -1652,6 +1821,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // @~
+            // `~
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -1689,7 +1860,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1884,37 +2054,19 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // (
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // (
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // kBranch
-            // kMatch
-            // SOS_GROUPTYPE_STATIC
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_SETPARAM_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_LIMIT_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // SOS_STOPTYPE_TIME
-            // SOS_STOPTYPE_OPVAR
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
-            // MGetKV3ClassDefaults
             pub mod CSosGroupActionSoundeventCountSchema {
                 pub const m_bExcludeStoppedSounds: usize = 0x8; // bool
                 pub const m_strCountKeyName: usize = 0x10; // CUtlString
@@ -2158,7 +2310,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2228,6 +2379,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            //  [
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -2237,16 +2389,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Hb
+            // pb
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyDescription
+            // xj
+            // 0j
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 0j
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // 8m
+            // Xm
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -2302,6 +2461,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            //  [
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -2311,16 +2471,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Hb
+            // pb
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyDescription
+            // xj
+            // 0j
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 0j
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // 8m
+            // Xm
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -2339,8 +2506,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // SOS_EDIT_ITEM_TYPE_SOUNDEVENT
-            // SOS_EDIT_ITEM_TYPE_LIBRARYSTACKS
             pub mod SosEditItemInfo_t {
                 pub const itemType: usize = 0x0; // SosEditItemType_t
                 pub const itemName: usize = 0x8; // CUtlString
@@ -2407,7 +2572,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2553,6 +2717,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // @~
+            // `~
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -2859,7 +3025,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2897,60 +3062,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // kBranch
-            // kMatch
-            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_LIMIT_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // SOS_STOPTYPE_TIME
-            // SOS_STOPTYPE_OPVAR
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
-            // MGetKV3ClassDefaults
-            // SNDLVL_20dB
-            // SNDLVL_25dB
-            // SNDLVL_30dB
-            // SNDLVL_35dB
-            // SNDLVL_40dB
-            // SNDLVL_45dB
-            // SNDLVL_50dB
-            // SNDLVL_55dB
-            // SNDLVL_IDLE
-            // SNDLVL_60dB
-            // SNDLVL_65dB
-            // SNDLVL_STATIC
-            // SNDLVL_70dB
-            // SNDLVL_NORM
-            // SNDLVL_75dB
-            // SNDLVL_80dB
-            // SNDLVL_TALKING
-            // SNDLVL_85dB
-            // SNDLVL_90dB
-            // SNDLVL_95dB
-            // SNDLVL_100dB
-            // SNDLVL_105dB
-            // SNDLVL_110dB
-            // SNDLVL_120dB
-            // SNDLVL_130dB
-            // SNDLVL_GUNFIRE
-            // SNDLVL_140dB
-            // SNDLVL_150dB
-            // SNDLVL_180dB
             pub mod CSosGroupActionLimitSchema {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_nStopType: usize = 0xC; // SosActionStopType_t
@@ -2967,9 +3081,12 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pl
+            // hl
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Hs
             // PCM8
             // MP3
             // ADPCM
@@ -3195,26 +3312,32 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0j
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pk
+            // hk
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pl
+            // hl
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Hs
             pub mod CVoiceContainerSelector {
                 pub const m_mode: usize = 0xA8; // PlayBackMode_t
                 pub const m_soundsToPlay: usize = 0xB0; // CSoundContainerReferenceArray
                 pub const m_fProbabilityWeights: usize = 0xE8; // CUtlVector<float32>
             }
             // Parent: None
-            // Field count: 2
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -3224,21 +3347,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub mod CSosGroupActionTimeBlockLimitSchema {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_flMaxDuration: usize = 0xC; // float32
+                pub const m_nMaxCount: usize = 0x8; // int32
             }
             // Parent: None
-            // Field count: 8
+            // Field count: 9
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -3270,11 +3385,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // kBranch
+            // kMatch
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3282,6 +3406,20 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
             pub mod CSosGroupActionMemberCountEnvelopeSchema {
                 pub const m_nBaseCount: usize = 0x8; // int32
                 pub const m_nTargetCount: usize = 0xC; // int32
@@ -3291,6 +3429,7 @@ pub mod source2_dumper {
                 pub const m_flDecay: usize = 0x1C; // float32
                 pub const m_resultVarName: usize = 0x20; // CUtlString
                 pub const m_bSaveToGroup: usize = 0x28; // bool
+                pub const m_nBaseCount: usize = 0x8; // int32
             }
             // Parent: None
             // Field count: 1
@@ -3402,11 +3541,22 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // kBranch
+            // kMatch
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3414,6 +3564,47 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             pub mod CSosGroupActionTimeLimitSchema {
                 pub const m_flMaxDuration: usize = 0x8; // float32
             }
@@ -3487,14 +3678,19 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pk
+            // hk
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pl
+            // hl
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Hs
             pub mod CVoiceContainerDecayingSineWave {
                 pub const m_flFrequency: usize = 0xA8; // float32
                 pub const m_flDecayTime: usize = 0xAC; // float32
@@ -3557,7 +3753,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName

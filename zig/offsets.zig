@@ -1,20 +1,20 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 pub const source2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
-            pub const dwEntityList: usize = 0x66DE178;
-            pub const dwGameEntitySystem: usize = 0x66DE178;
+            pub const dwEntityList: usize = 0x66DF288;
+            pub const dwGameEntitySystem: usize = 0x66DF288;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
-            pub const dwGlobalVars: usize = 0x5C9B458;
-            pub const dwLocalPlayerPawn: usize = 0x5CA6688;
-            pub const dwPrediction: usize = 0x5CA65B0;
-            pub const dwSensitivity: usize = 0x6384798;
+            pub const dwGlobalVars: usize = 0x5C9C4D0;
+            pub const dwLocalPlayerPawn: usize = 0x5CA76F8;
+            pub const dwPrediction: usize = 0x5CA7620;
+            pub const dwSensitivity: usize = 0x6385898;
             pub const dwSensitivity_sensitivity: usize = 0x58;
-            pub const dwViewMatrix: usize = 0x638C3D0;
-            pub const dwViewRender: usize = 0x638BAB8;
+            pub const dwViewMatrix: usize = 0x638D4D0;
+            pub const dwViewRender: usize = 0x638CBB8;
         };
         // Module: engine2.dll
         pub const engine2_dll = struct {
@@ -39,7 +39,7 @@ pub const source2_dumper = struct {
         };
         // Module: soundsystem.dll
         pub const soundsystem_dll = struct {
-            pub const dwSoundSystem: usize = 0x513380;
+            pub const dwSoundSystem: usize = 0x5133A0;
             pub const dwSoundSystem_engineViewData: usize = 0x7C;
         };
     };

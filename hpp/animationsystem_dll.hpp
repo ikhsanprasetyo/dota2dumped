@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 #pragma once
 
@@ -1610,7 +1610,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // amData=C:\ProgramData
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -1755,7 +1754,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // amData=C:\ProgramData
             namespace CPulseCell_WaitForCursorsWithTagBase {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToWait = 0x48; // int32
                 constexpr std::ptrdiff_t m_WaitComplete = 0x50; // CPulse_ResumePoint
@@ -1780,7 +1778,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1832,7 +1829,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseTestScriptLib {
             }
             // Parent: None
@@ -1861,15 +1858,13 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
-            //  
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            //  
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
@@ -2076,7 +2071,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Step_DebugLog {
             }
             // Parent: None
@@ -2106,15 +2101,13 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
-            //  
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            //  
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseYieldingInflow {
             }
@@ -2159,7 +2152,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Inflow_ObservableVariableListener {
                 constexpr std::ptrdiff_t m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 constexpr std::ptrdiff_t m_bSelfReference = 0x82; // bool
@@ -2180,7 +2173,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Outflow_CycleOrdered {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -2213,7 +2206,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Inflow_Wait {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
             }
@@ -2232,7 +2225,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Outflow_CycleShuffled {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -2279,7 +2272,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_BaseValue {
             }
             // Parent: None
@@ -2384,7 +2377,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Step_PublicOutput {
                 constexpr std::ptrdiff_t m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -2415,7 +2408,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Value_RandomInt {
             }
             // Parent: None
@@ -2523,8 +2516,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
-            //  
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Step_CallExternalMethod {
                 constexpr std::ptrdiff_t m_MethodName = 0x48; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_nBlackboardIndex = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
@@ -2580,7 +2572,7 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Value_RandomFloat {
             }
             // Parent: None
@@ -2966,7 +2958,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CNmTransitionEventConditionNode__CDefinition {
@@ -3344,7 +3335,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3456,7 +3446,6 @@ namespace source2_dumper {
             // Pose
             // Special
             // Pose
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3692,7 +3681,6 @@ namespace source2_dumper {
             // Pose
             // Special
             // Pose
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4168,7 +4156,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4675,7 +4662,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5201,7 +5187,6 @@ namespace source2_dumper {
             // Pose
             // Special
             // Pose
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5623,7 +5608,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6315,7 +6299,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CNmFloatCurveEventNode__CDefinition {
@@ -6544,7 +6527,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CNmCurrentSyncEventIDNode__CDefinition {
@@ -6614,7 +6596,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             namespace CNmTargetWarpEvent {
                 constexpr std::ptrdiff_t m_rule = 0x18; // NmTargetWarpRule_t
                 constexpr std::ptrdiff_t m_algorithm = 0x19; // NmTargetWarpAlgorithm_t
@@ -6806,7 +6787,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CNmSyncEventIndexConditionNode__CDefinition {
@@ -7215,7 +7195,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             namespace CNmOrientationWarpEvent {
             }
             // Parent: None
@@ -8397,7 +8376,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CNmFootstepEventPercentageThroughNode__CDefinition {
@@ -9032,7 +9010,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 60,0x0926/0x8888,0x1345/0x3008,0x0079/0x0006,0x1d79/0x0301,0x12bd/0xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102
+            // \ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\Bytesee
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9999,7 +9977,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10898,7 +10875,6 @@ namespace source2_dumper {
             // Pose
             // Special
             // Pose
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             namespace CNmTargetWarpNode__CDefinition {
                 constexpr std::ptrdiff_t m_nClipReferenceNodeIdx = 0x10; // int16
                 constexpr std::ptrdiff_t m_nTargetValueNodeIdx = 0x12; // int16
@@ -11091,7 +11067,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11335,7 +11310,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CNmFootstepEventIDNode__CDefinition {
@@ -12068,7 +12042,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CNmCurrentSyncEventNode__CDefinition {
@@ -12577,9 +12550,7 @@ namespace source2_dumper {
             // BlendKey_Velocity
             // BlendKey_Distance
             // BlendKey_RemainingDistance
-            // g
             // Blend2DMode_Directional
-            // e
             // MGetKV3ClassDefaults
             // WeightedRandomNoRepeat
             // Iterate
@@ -12736,7 +12707,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 60,0x0926/0x8888,0x1345/0x3008,0x0079/0x0006,0x1d79/0x0301,0x12bd/0xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102
+            // \ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\Bytesee
             namespace CNmVectorNegateNode__CDefinition {
                 constexpr std::ptrdiff_t m_nInputValueNodeIdx = 0x10; // int16
             }

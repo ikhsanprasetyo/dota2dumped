@@ -886,10 +886,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -1065,7 +1061,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -1165,7 +1161,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -1261,7 +1257,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -1450,7 +1446,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -1538,7 +1534,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -1605,7 +1601,7 @@
             "type": "Unknown"
           },
           {
-            "name": "67,0x057e/0x2007,0x057e/0x2066,0x057e/0x2008,0x057e/0x2068,0x057e/0x2009,0x057e/0x2069,0x0f0d/0x00c1,0x0f0d/0x0092,0x0f0d/0x00f6",
+            "name": "Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files\\CMake\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Python\\Python312\\Scrip",
             "type": "Unknown"
           },
           {
@@ -1934,7 +1930,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -2026,7 +2022,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -2240,10 +2236,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "g",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2272,10 +2264,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "g",
             "type": "Unknown"
           }
         ],
@@ -2364,7 +2352,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -2390,7 +2378,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -2457,10 +2445,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "g",
             "type": "Unknown"
           }
         ],
@@ -2543,10 +2527,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "g",
             "type": "Unknown"
           }
         ],
@@ -2715,10 +2695,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "g",
             "type": "Unknown"
           }
         ],
@@ -2918,10 +2894,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "g",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3105,10 +3077,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "g",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3122,10 +3090,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "g",
             "type": "Unknown"
           }
         ],
@@ -3247,10 +3211,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "g",
             "type": "Unknown"
           }
         ],
@@ -3434,10 +3394,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "g",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3603,10 +3559,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -3676,10 +3628,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -3753,7 +3701,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -3807,7 +3755,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -3878,10 +3826,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "g",
             "type": "Unknown"
           }
         ],
@@ -4316,7 +4260,7 @@
             "type": "Unknown"
           },
           {
-            "name": "67,0x057e/0x2007,0x057e/0x2066,0x057e/0x2008,0x057e/0x2068,0x057e/0x2009,0x057e/0x2069,0x0f0d/0x00c1,0x0f0d/0x0092,0x0f0d/0x00f6",
+            "name": "Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files\\CMake\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Python\\Python312\\Scrip",
             "type": "Unknown"
           },
           {
@@ -4409,10 +4353,6 @@
         "metadata": [
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -4610,7 +4550,7 @@
             "type": "Unknown"
           },
           {
-            "name": "67,0x057e/0x2007,0x057e/0x2066,0x057e/0x2008,0x057e/0x2068,0x057e/0x2009,0x057e/0x2069,0x0f0d/0x00c1,0x0f0d/0x0092,0x0f0d/0x00f6",
+            "name": "Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files\\CMake\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Python\\Python312\\Scrip",
             "type": "Unknown"
           }
         ],

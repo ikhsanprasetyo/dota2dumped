@@ -1,19 +1,19 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-04-29 12:46:53.186668100 +07:00
+# 2026-05-07 15:06:58.093220400 +07:00
 
 class Offsets:
     # Module: client.dll
     class ClientDll:
-        dwEntityList = 0x66DE178
-        dwGameEntitySystem = 0x66DE178
+        dwEntityList = 0x66DF288
+        dwGameEntitySystem = 0x66DF288
         dwGameEntitySystem_highestEntityIndex = 0x2090
-        dwGlobalVars = 0x5C9B458
-        dwLocalPlayerPawn = 0x5CA6688
-        dwPrediction = 0x5CA65B0
-        dwSensitivity = 0x6384798
+        dwGlobalVars = 0x5C9C4D0
+        dwLocalPlayerPawn = 0x5CA76F8
+        dwPrediction = 0x5CA7620
+        dwSensitivity = 0x6385898
         dwSensitivity_sensitivity = 0x58
-        dwViewMatrix = 0x638C3D0
-        dwViewRender = 0x638BAB8
+        dwViewMatrix = 0x638D4D0
+        dwViewRender = 0x638CBB8
     # Module: engine2.dll
     class Engine2Dll:
         dwBuildNumber = 0x610CA4
@@ -34,5 +34,5 @@ class Offsets:
     class PanoramaDll:
     # Module: soundsystem.dll
     class SoundsystemDll:
-        dwSoundSystem = 0x513380
+        dwSoundSystem = 0x5133A0
         dwSoundSystem_engineViewData = 0x7C

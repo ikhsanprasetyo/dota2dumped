@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 package schemas
 
@@ -1249,10 +1249,9 @@ const (
     ClientDll_CDOTA_Modifier_Omniknight_Marty_magic_resist = 0x19DC // int32
     ClientDll_CDOTA_Modifier_Sniper_Headshot_proc_chance = 0x19D8 // int32
     ClientDll_CDOTA_Modifier_Sniper_Headshot_slow_duration = 0x19DC // float32
-    ClientDll_CDOTA_Modifier_Sniper_Headshot_slow_duration_with_take_aim = 0x19E0 // float32
-    ClientDll_CDOTA_Modifier_Sniper_Headshot_knockback_distance = 0x19E4 // float32
-    ClientDll_CDOTA_Modifier_Sniper_Headshot_bonus_damage_creeps = 0x19E8 // int32
-    ClientDll_CDOTA_Modifier_Sniper_Headshot_damage = 0x19EC // int32
+    ClientDll_CDOTA_Modifier_Sniper_Headshot_knockback_distance = 0x19E0 // float32
+    ClientDll_CDOTA_Modifier_Sniper_Headshot_bonus_damage_creeps = 0x19E4 // int32
+    ClientDll_CDOTA_Modifier_Sniper_Headshot_damage = 0x19E8 // int32
     ClientDll_CDOTA_Modifier_Tiny_Tree_Channel_Bonus_bonus_damage = 0x19D8 // int32
     ClientDll_CDOTA_Modifier_Razor_EyeOfTheStorm_radius = 0x19D8 // float32
     ClientDll_CDOTA_Modifier_Razor_EyeOfTheStorm_armor_reduction = 0x19DC // int32
@@ -4194,7 +4193,8 @@ const (
     ClientDll_CDOTA_Modifier_Winter_Wyvern_Winters_Curse_damage_reduction = 0x19E0 // int32
     ClientDll_CDOTA_Modifier_Winter_Wyvern_Winters_Curse_bonus_attack_speed = 0x19E4 // int32
     ClientDll_CDOTA_Modifier_Winter_Wyvern_Winters_Curse_m_flCurseDuration = 0x19E8 // float32
-    ClientDll_CDOTA_Modifier_Winter_Wyvern_Winters_Curse_m_flCurseStartTime = 0x19EC // float32
+    ClientDll_CDOTA_Modifier_Winter_Wyvern_Winters_Curse_m_flTotalBonusTime = 0x19EC // float32
+    ClientDll_CDOTA_Modifier_Winter_Wyvern_Winters_Curse_m_flCurseStartTime = 0x19F0 // float32
     ClientDll_CDOTA_Modifier_Winter_Wyvern_Arctic_Burn_Frost_Attack_m_InFlightAttackRecords = 0x19D8 // CUtlVector<AttackRecord_t>
     ClientDll_CDOTA_Modifier_EarthSpirit_Polarization_damage_per_second = 0x19D8 // float32
     ClientDll_CDOTA_Modifier_EarthSpirit_Polarization_damage_interval = 0x19DC // float32
@@ -7093,10 +7093,11 @@ const (
     ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_bonus_movement_speed_druid = 0x19D8 // int32
     ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_bonus_movement_speed_bear = 0x19DC // int32
     ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_lifesteal_percent = 0x19E0 // int32
-    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_armor = 0x19E4 // int32
-    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_active_bonus = 0x19E8 // int32
-    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_lifesteal_both_ways = 0x19EC // int32
-    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_m_hTarget = 0x19F0 // CHandle<C_BaseEntity>
+    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_creep_lifesteal_penalty = 0x19E4 // int32
+    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_armor = 0x19E8 // int32
+    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_active_bonus = 0x19EC // int32
+    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_lifesteal_both_ways = 0x19F0 // int32
+    ClientDll_CDOTA_Modifier_LoneDruid_SpiritLink_m_hTarget = 0x19F4 // CHandle<C_BaseEntity>
     ClientDll_CDOTA_Modifier_Gyrocopter_Call_Down_Thinker_Tracking_m_hTarget = 0x19D8 // CHandle<C_BaseEntity>
     ClientDll_CDOTA_Modifier_Gyrocopter_Call_Down_Thinker_Tracking_m_vLastKnownLocation = 0x19DC // Vector
     ClientDll_CDOTA_Modifier_Chen_Divine_Favor_Armor_bonus_armor = 0x19D8 // int32
@@ -8379,15 +8380,16 @@ const (
     ClientDll_C_DOTA_BaseNPC_m_hOldWearableSkins = 0x1830 // CUtlVector<CUtlStringToken>
     ClientDll_C_DOTA_BaseNPC_m_CustomHealthLabel = 0x1848 // char[256]
     ClientDll_C_DOTA_BaseNPC_m_CustomHealthLabelColor = 0x1948 // Color
-    ClientDll_C_DOTA_BaseNPC_m_nWearableDefIndex = 0x194C // item_definition_index_t
-    ClientDll_C_DOTA_BaseNPC_m_gibTintColor = 0x1951 // Color
-    ClientDll_C_DOTA_BaseNPC_m_bForceMaterialCombine = 0x1955 // bool
-    ClientDll_C_DOTA_BaseNPC_m_bShouldDrawParticlesWhileHidden = 0x1956 // bool
-    ClientDll_C_DOTA_BaseNPC_m_bIsClientThinkPending = 0x1957 // bool
-    ClientDll_C_DOTA_BaseNPC_m_bActivityModifiersDirty = 0x1958 // bool
-    ClientDll_C_DOTA_BaseNPC_m_bUnitModelVariantChanged = 0x1959 // bool
-    ClientDll_C_DOTA_BaseNPC_m_bWearablesAreTaunting = 0x195A // bool
-    ClientDll_C_DOTA_BaseNPC_m_bWearablesLoadoutOverride = 0x195B // bool
+    ClientDll_C_DOTA_BaseNPC_m_nIsOriginalModel = 0x194C // OriginalModelFlags_t
+    ClientDll_C_DOTA_BaseNPC_m_nWearableDefIndex = 0x1950 // item_definition_index_t
+    ClientDll_C_DOTA_BaseNPC_m_gibTintColor = 0x1955 // Color
+    ClientDll_C_DOTA_BaseNPC_m_bForceMaterialCombine = 0x1959 // bool
+    ClientDll_C_DOTA_BaseNPC_m_bShouldDrawParticlesWhileHidden = 0x195A // bool
+    ClientDll_C_DOTA_BaseNPC_m_bIsClientThinkPending = 0x195B // bool
+    ClientDll_C_DOTA_BaseNPC_m_bActivityModifiersDirty = 0x195C // bool
+    ClientDll_C_DOTA_BaseNPC_m_bUnitModelVariantChanged = 0x195D // bool
+    ClientDll_C_DOTA_BaseNPC_m_bWearablesAreTaunting = 0x195E // bool
+    ClientDll_C_DOTA_BaseNPC_m_bWearablesLoadoutOverride = 0x195F // bool
     ClientDll_C_DOTA_BaseNPC_m_bShowCannotBeDisabledIcon = 0x1970 // bool
     ClientDll_C_DOTA_BaseNPC_m_nVisionPreviewViewer = 0x1990 // int32
     ClientDll_CDOTA_Ability_AbyssalUnderlord_PitOfMalice_m_nFXIndex = 0x6A8 // ParticleIndex_t
@@ -11021,7 +11023,7 @@ const (
     ClientDll_CDOTA_Modifier_KeeperOfTheLight_BlindingLight_Thinker_m_nFXIndex = 0x19DC // ParticleIndex_t
     ClientDll_CDOTA_Modifier_Lycan_Apex_Predator_damage_amp = 0x19D8 // float32
     ClientDll_CDOTA_Modifier_DoomBringer_ScorchedEarthEffect_bonus_movement_speed_pct = 0x19D8 // int32
-    ClientDll_CDOTA_Modifier_DoomBringer_ScorchedEarthEffect_bonus_health_regen = 0x19DC // int32
+    ClientDll_CDOTA_Modifier_DoomBringer_ScorchedEarthEffect_bonus_health_regen = 0x19DC // float32
     ClientDll_CDOTA_Modifier_Tinker_Repair_Bots_heal_per_second = 0x19D8 // int32
     ClientDll_CDOTA_Modifier_StormSpirit_Overload_Attack_Speed_Buff_hit_attack_speed = 0x19D8 // int32
     ClientDll_CDOTA_Modifier_Sven_GodsStrength_gods_strength_damage = 0x19D8 // int32
@@ -13796,6 +13798,7 @@ const (
     ClientDll_C_DOTA_Ability_Wisp_Spirits_m_SpiritDefs = 0x6A8 // CUtlVector<sSpiritDef>
     ClientDll_C_DOTA_Ability_Wisp_Spirits_m_nWispDirection = 0x6C0 // int32
     ClientDll_C_DOTA_Ability_Wisp_Spirits_spirit_amount = 0x6C4 // int32
+    ClientDll_C_DOTA_Ability_Wisp_Spirits_m_flStartSpiritRadius = 0x6C8 // float32
     ClientDll_CDOTA_Modifier_Aghsfort_Aziyog_Underlord_Firestorm_Burn_burn_damage = 0x19D8 // float32
     ClientDll_CDOTA_Modifier_Aghsfort_Aziyog_Underlord_Firestorm_Burn_burn_interval = 0x19DC // float32
     ClientDll_CDOTA_Modifier_Item_DuelistGloves_bonus_attack_speed = 0x19D8 // int32

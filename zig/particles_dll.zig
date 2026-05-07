@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -886,7 +886,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // amData=C:\ProgramData
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -1017,7 +1016,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // amData=C:\ProgramData
             pub const CPulseCell_WaitForCursorsWithTagBase = struct {
                 pub const m_nCursorsAllowedToWait: usize = 0x48; // int32
                 pub const m_WaitComplete: usize = 0x50; // CPulse_ResumePoint
@@ -1042,7 +1040,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1094,7 +1091,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseTestScriptLib = struct {
             };
             // Parent: None
@@ -1123,17 +1120,15 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            //  
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            //  
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseLerp = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
@@ -1144,14 +1139,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            //  
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1320,7 +1313,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Step_DebugLog = struct {
@@ -1352,17 +1345,15 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            //  
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            //  
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseYieldingInflow = struct {
             };
@@ -1407,7 +1398,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseCell_Inflow_ObservableVariableListener = struct {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -1428,7 +1419,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Outflow_CycleOrdered = struct {
@@ -1463,7 +1454,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseCell_Inflow_Wait = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
             };
@@ -1482,7 +1473,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Outflow_CycleShuffled = struct {
@@ -1531,7 +1522,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseCell_BaseValue = struct {
             };
             // Parent: None
@@ -1634,7 +1625,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseCell_Step_PublicOutput = struct {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             };
@@ -1665,7 +1656,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Value_RandomInt = struct {
@@ -1743,7 +1734,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Step_CallExternalMethod = struct {
@@ -1801,7 +1792,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Value_RandomFloat = struct {
@@ -1859,6 +1850,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PFUNC_VISUALIZATION_SPHERE_SOLID
             // PFUNC_VISUALIZATION_BOX
             // PFUNC_VISUALIZATION_RING
@@ -1867,7 +1859,6 @@ pub const source2_dumper = struct {
             // PFUNC_VISUALIZATION_CYLINDER
             // MPropertyFriendlyName
             // PARTICLE_HITBOX_BIAS_HITBOX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_CLOSEST_TYPE_CAPSULE
             // PARTICLE_CLOSEST_TYPE_HYBRID
@@ -1887,8 +1878,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // PARTICLE_WORLDSPACE_CENTER
             // PARTICLE_EYES
             // MPropertyFriendlyName
@@ -1962,8 +1953,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // SPRITECARD_SHADER_CUSTOM
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -1987,7 +1978,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -1998,7 +1988,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2026,8 +2018,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_RemapGravityToVector = struct {
@@ -2050,8 +2042,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -2081,12 +2073,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2095,9 +2088,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2111,6 +2103,9 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -2118,16 +2113,12 @@ pub const source2_dumper = struct {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_RenderDeferredLight = struct {
@@ -2155,15 +2146,20 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2174,12 +2170,10 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const C_OP_RemapSpeedtoCP = struct {
                 pub const m_nInControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nOutControlPointNumber: usize = 0x1E4; // int32
@@ -2195,6 +2189,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2203,6 +2198,9 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2246,16 +2244,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // SET_EXPRESSION_UNINITIALIZED
-            // SET_EXPRESSION_MEAN
-            // SET_EXPRESSION_MEDIAN
-            // SET_EXPRESSION_MODE
-            // SET_EXPRESSION_STANDARD_DEVIATION
-            // SET_EXPRESSION_MIN
-            // SET_EXPRESSION_MAX
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2272,10 +2260,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MISSING_PARENT_DO_NOTHING
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
@@ -2284,7 +2272,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24c6/0x5b00,0x24c6/0x5b02,0x24c6/0x5b03,0
+            // ta 2 beta\game\bin\win64\dota2.exe
+            // "S
             pub const CParticleFunctionPreEmission = struct {
                 pub const m_bRunOnce: usize = 0x1D8; // bool
             };
@@ -2306,8 +2295,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2319,6 +2308,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2398,32 +2388,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2431,9 +2422,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -2482,8 +2472,48 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2491,9 +2521,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2502,51 +2530,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             pub const C_INIT_StatusEffectCitadel = struct {
                 pub const m_flSFXColorWarpAmount: usize = 0x1E0; // float32
                 pub const m_flSFXNormalAmount: usize = 0x1E4; // float32
@@ -2573,24 +2562,20 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2602,14 +2587,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2619,22 +2605,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
@@ -2658,53 +2643,47 @@ pub const source2_dumper = struct {
             // F_SELF_ILLUM_PER_PARTICLE
             // F_REFRACT_SOLID
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2712,18 +2691,16 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             pub const C_OP_RenderSound = struct {
                 pub const m_flDurationScale: usize = 0x228; // float32
                 pub const m_flSndLvlScale: usize = 0x22C; // float32
@@ -2821,8 +2798,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -2852,12 +2829,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2866,9 +2844,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2936,9 +2913,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // PARTICLE_WORLDSPACE_CENTER
             // PARTICLE_EYES
-            // MPropertyFriendlyName
             pub const ParticlePreviewBodyGroup_t = struct {
                 pub const m_bodyGroupName: usize = 0x0; // CUtlString
                 pub const m_nValue: usize = 0x8; // int32
@@ -2952,7 +2929,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2982,8 +2958,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -2991,8 +2967,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // (
-            // p
+            // x
+            //  
             pub const C_OP_OscillateScalarSimple = struct {
                 pub const m_Rate: usize = 0x1D8; // float32
                 pub const m_Frequency: usize = 0x1DC; // float32
@@ -3006,7 +2982,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3044,9 +3019,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -3055,27 +3029,29 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_StatusEffect = struct {
                 pub const m_nDetail2Combo: usize = 0x1E0; // Detail2Combo_t
                 pub const m_flDetail2Rotation: usize = 0x1E4; // float32
@@ -3103,7 +3079,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
@@ -3116,21 +3097,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3153,8 +3127,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -3187,9 +3161,9 @@ pub const source2_dumper = struct {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3219,9 +3193,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3229,7 +3202,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3287,11 +3259,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             pub const C_INIT_RandomVector = struct {
                 pub const m_vecMin: usize = 0x1E0; // Vector
@@ -3300,7 +3275,7 @@ pub const source2_dumper = struct {
                 pub const m_randomnessParameters: usize = 0x1FC; // CRandomNumberGeneratorParameters
             };
             // Parent: None
-            // Field count: 10
+            // Field count: 11
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -3317,10 +3292,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3334,24 +3313,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_InitialVelocityNoise = struct {
                 pub const m_vecAbsVal: usize = 0x1E0; // Vector
                 pub const m_vecAbsValInv: usize = 0x1EC; // Vector
@@ -3363,6 +3341,7 @@ pub const source2_dumper = struct {
                 pub const m_flNoiseScaleLoc: usize = 0x1900; // CPerParticleFloatInput
                 pub const m_TransformInput: usize = 0x1A70; // CParticleTransformInput
                 pub const m_bIgnoreDt: usize = 0x1AD8; // bool
+                pub const m_vecScale: usize = 0x1E0; // Vector
             };
             // Parent: None
             // Field count: 5
@@ -3390,6 +3369,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3439,12 +3419,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3452,16 +3431,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3472,9 +3452,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             pub const C_INIT_RandomNamedModelSequence = struct {
             };
             // Parent: None
@@ -3482,6 +3459,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3513,8 +3491,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3528,38 +3506,35 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3574,7 +3549,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_VelocityRandom = struct {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
@@ -3612,17 +3591,16 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3640,7 +3618,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3655,23 +3632,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -3681,11 +3642,26 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3714,30 +3690,22 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const C_OP_RemapExternalWindToCP = struct {
                 pub const m_nCP: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -3751,15 +3719,14 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_FOG_ENABLED
             // PARTICLE_FOG_DISABLED
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -3782,26 +3749,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // PARTICLE_LIGHT_UNIT_LUMENS
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
@@ -3810,6 +3774,9 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3817,15 +3784,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertySortPriority
             // PARTICLE_SORTING_CREATION_TIME
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // PARTICLE_VRHAND_RIGHT
             // PARTICLE_VRHAND_CP
             // PARTICLE_VRHAND_CP_OBJECT
@@ -3852,8 +3819,11 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertySuppressExpr
             // SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA
             // SPRITECARD_TEXTURE_CHANNEL_MIX_A
             // SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A
@@ -3869,23 +3839,20 @@ pub const source2_dumper = struct {
             // SPRITECARD_TEXTURE_CHANNEL_MIX_GALPHA
             // SPRITECARD_TEXTURE_CHANNEL_MIX_BALPHA
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // PARTICLE_ORIENTATION_SCREEN_Z_ALIGNED
             // PARTICLE_ORIENTATION_WORLD_Z_ALIGNED
             // PARTICLE_ORIENTATION_ALIGN_TO_PARTICLE_NORMAL
             // PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL
             // PARTICLE_ORIENTATION_FULL_3AXIS_ROTATION
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertySortPriority
             // MPropertySuppressExpr
@@ -3893,7 +3860,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -3902,15 +3868,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3919,8 +3886,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeRange
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -3932,13 +3899,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3947,12 +3913,13 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
             // PARTICLE_LIGHT_BEHAVIOR_ROPE
             // PARTICLE_LIGHT_BEHAVIOR_TRAILS
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
@@ -3978,13 +3945,13 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // BLURFILTER_BOX
             // PARTICLE_POST_PROCESS_PRIORITY_LEVEL_OVERRIDE
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_EFFECT
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_LOW
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_HIGH
             // PARTICLE_POST_PROCESS_PRIORITY_GLOBAL_UI
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_OUTPUT_BLEND_MODE_ADD
@@ -3997,8 +3964,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // SPRITECARD_TEXTURE_BLEND_MOD2X
             // SPRITECARD_TEXTURE_BLEND_REPLACE
             // SPRITECARD_TEXTURE_BLEND_ADD
@@ -4006,19 +3971,21 @@ pub const source2_dumper = struct {
             // SPRITECARD_TEXTURE_BLEND_AVERAGE
             // SPRITECARD_TEXTURE_BLEND_LUMINANCE
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
             pub const CBaseRendererSource2 = struct {
                 pub const m_flRadiusScale: usize = 0x228; // CParticleCollectionRendererFloatInput
                 pub const m_flAlphaScale: usize = 0x398; // CParticleCollectionRendererFloatInput
@@ -4092,6 +4059,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4124,9 +4092,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4139,10 +4108,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // x
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4150,8 +4120,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const CSpinUpdateBase = struct {
             };
@@ -4186,24 +4154,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4223,43 +4201,46 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4275,18 +4256,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4298,21 +4276,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub const C_INIT_RemapParticleCountToNamedModelElementScalar = struct {
                 pub const m_hModel: usize = 0x210; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_outputMinName: usize = 0x218; // CUtlString
@@ -4331,17 +4307,15 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -4360,10 +4334,11 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
@@ -4396,20 +4371,16 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4421,21 +4392,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const C_OP_SetControlPointPositionToTimeOfDayValue = struct {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_pszTimeOfDayParameter: usize = 0x1E4; // char[128]
@@ -4447,9 +4420,9 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4458,8 +4431,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -4494,12 +4467,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -4516,10 +4485,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4533,14 +4506,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_RandomModelSequence = struct {
@@ -4555,6 +4526,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4588,26 +4561,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub const C_OP_RemapAverageHitboxSpeedtoCP = struct {
                 pub const m_nInControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nOutControlPointNumber: usize = 0x1E4; // int32
@@ -4632,11 +4592,48 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4645,50 +4642,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_RandomAlpha = struct {
@@ -4716,18 +4676,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -4736,20 +4696,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4758,6 +4719,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -4765,12 +4729,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4790,8 +4750,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -4799,11 +4759,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // (
-            // p
+            // x
+            //  
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_FadeInSimple = struct {
                 pub const m_flFadeInTime: usize = 0x1D8; // float32
@@ -4815,25 +4774,28 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4856,8 +4818,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -4865,11 +4827,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // (
-            // p
+            // x
+            //  
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_RemapVelocityToVector = struct {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -4959,18 +4920,16 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4982,20 +4941,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5037,14 +4999,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_RingWave = struct {
@@ -5073,9 +5035,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -5089,16 +5049,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5118,36 +5079,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_RandomTrailLength = struct {
@@ -5162,10 +5121,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // x
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5176,10 +5136,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5209,6 +5166,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5311,15 +5269,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreateSequentialPath = struct {
                 pub const m_fMaxDistance: usize = 0x1E0; // float32
@@ -5342,7 +5299,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -5360,6 +5316,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5374,23 +5331,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -5400,29 +5341,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -5436,16 +5356,54 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -5458,20 +5416,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_OP_RemapDistanceToLineSegmentBase = struct {
                 pub const m_nCP0: usize = 0x1D8; // int32
                 pub const m_nCP1: usize = 0x1DC; // int32
@@ -5485,6 +5442,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -5508,14 +5467,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MParticleMaxVersion
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5557,9 +5515,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5567,12 +5523,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5589,16 +5549,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5611,7 +5571,9 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub const C_OP_OscillateVectorSimple = struct {
                 pub const m_Rate: usize = 0x1D8; // Vector
                 pub const m_Frequency: usize = 0x1E4; // Vector
@@ -5625,7 +5587,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5650,9 +5611,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -5662,18 +5620,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5685,20 +5640,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5720,6 +5678,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_MoveBetweenPoints = struct {
@@ -5737,8 +5698,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5746,8 +5707,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5760,7 +5719,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5769,8 +5727,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             pub const C_OP_SetUserEvent = struct {
                 pub const m_flInput: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_flRisingEdge: usize = 0x348; // CPerParticleFloatInput
@@ -5791,32 +5749,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5824,21 +5765,38 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_OP_QuantizeFloat = struct {
                 pub const m_InputValue: usize = 0x1D8; // CPerParticleFloatInput
@@ -5853,35 +5811,37 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5891,8 +5851,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_BasicMovement = struct {
@@ -5912,14 +5870,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5944,50 +5901,50 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6003,12 +5960,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6024,14 +5976,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             pub const C_INIT_InitFromParentKilled = struct {
                 pub const m_nAttributeToCopy: usize = 0x1E0; // ParticleAttributeIndex_t
                 pub const m_nEventType: usize = 0x1E4; // EventTypeSelection_t
@@ -6041,6 +5985,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -6049,10 +5995,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
@@ -6063,27 +6009,19 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             pub const C_OP_Callback = struct {
             };
             // Parent: None
@@ -6093,13 +6031,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6108,11 +6046,9 @@ pub const source2_dumper = struct {
             // PARTICLE_ORIENTATION_SET_NONE
             // PARTICLE_ORIENTATION_SET_FROM_NORMAL
             // PARTICLE_ORIENTATION_SET_FROM_ROTATIONS
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC
             // PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC_NOSHADOWS
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6132,8 +6068,10 @@ pub const source2_dumper = struct {
             // PARTICLE_EVENT_TYPE_MASK_USER_2
             // PARTICLE_EVENT_TYPE_MASK_USER_3
             // PARTICLE_EVENT_TYPE_MASK_USER_4
+            // MPropertyFriendlyName
             // PARTICLE_ROTATION_LOCK_ROTATIONS
             // PARTICLE_ROTATION_LOCK_NORMAL
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // VECTOR_EXPRESSION_UNINITIALIZED
             // VECTOR_EXPRESSION_SUBTRACT
@@ -6148,10 +6086,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6168,7 +6105,6 @@ pub const source2_dumper = struct {
             // PARTICLE_PIN_COLLECTION_AGE
             // PARTICLE_PIN_FLOAT_VALUE
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -6180,11 +6116,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // PARTICLE_LIGHTNING_BRANCH_ENDPOINT_DIR
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -6194,7 +6131,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_ENDCAP_ALWAYS_ON
             // PARTICLE_ENDCAP_ENDCAP_ON
-            // MPropertyFriendlyName
             // PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT
             // PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_ON
             // MPropertyFriendlyName
@@ -6203,26 +6139,26 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_TOOLS_STATE_ALWAYS_ON
             // PARTICLE_TOOLS_STATE_GAME_ONLY
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6231,7 +6167,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // SCALAR_EXPRESSION_UNINITIALIZED
             // SCALAR_EXPRESSION_SUBTRACT
             // SCALAR_EXPRESSION_MUL
@@ -6243,6 +6179,7 @@ pub const source2_dumper = struct {
             // SCALAR_EXPRESSION_EQUAL
             // SCALAR_EXPRESSION_GT
             // SCALAR_EXPRESSION_LT
+            // MGetKV3ClassDefaults
             // PARTICLE_COLLISION_GROUP_DEFAULT
             // PARTICLE_COLLISION_GROUP_DEBRIS
             // PARTICLE_COLLISION_GROUP_INTERACTIVE
@@ -6250,6 +6187,7 @@ pub const source2_dumper = struct {
             // PARTICLE_COLLISION_GROUP_VEHICLE
             // PARTICLE_COLLISION_GROUP_NPC
             // PARTICLE_COLLISION_GROUP_PROPS
+            // MPropertyFriendlyName
             pub const CParticleFunction = struct {
                 pub const m_flOpStrength: usize = 0x8; // CParticleCollectionFloatInput
                 pub const m_nOpEndCapState: usize = 0x178; // ParticleEndcapMode_t
@@ -6275,6 +6213,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
@@ -6286,12 +6225,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6303,11 +6240,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6331,12 +6266,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MParticleMinVersion
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -6362,7 +6299,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6371,13 +6307,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6399,6 +6335,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6434,14 +6371,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6459,8 +6401,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -6493,9 +6435,9 @@ pub const source2_dumper = struct {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -6523,13 +6465,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -6538,35 +6479,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub const C_INIT_CreatePhyllotaxis = struct {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
@@ -6618,6 +6533,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_OP_AttractToControlPoint = struct {
                 pub const m_vecComponentScale: usize = 0x1E8; // Vector
                 pub const m_fForceAmount: usize = 0x1F8; // CPerParticleFloatInput
@@ -6633,17 +6549,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6685,9 +6601,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -6696,12 +6611,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_INIT_RandomLifeTime = struct {
                 pub const m_fLifetimeMin: usize = 0x1E0; // float32
@@ -6714,27 +6633,23 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6747,6 +6662,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6754,33 +6670,32 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_RemapParticleCountToNamedModelSequenceScalar = struct {
             };
@@ -6799,7 +6714,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6809,33 +6723,32 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             pub const C_INIT_VelocityRadialRandom = struct {
                 pub const m_bPerParticleCenter: usize = 0x1E0; // bool
@@ -6853,24 +6766,26 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -6878,9 +6793,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6936,8 +6851,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub const C_INIT_RandomRadius = struct {
                 pub const m_flRadiusMin: usize = 0x1E0; // float32
                 pub const m_flRadiusMax: usize = 0x1E4; // float32
@@ -6979,16 +6892,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7010,11 +6923,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertySortPriority
             pub const TextureControls_t = struct {
                 pub const m_flFinalTextureScaleU: usize = 0x0; // CParticleCollectionRendererFloatInput
                 pub const m_flFinalTextureScaleV: usize = 0x170; // CParticleCollectionRendererFloatInput
@@ -7049,25 +6962,21 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7088,7 +6997,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_SetControlPointToVectorExpression = struct {
                 pub const m_nExpression: usize = 0x1E0; // VectorExpressionType_t
                 pub const m_nOutputCP: usize = 0x1E4; // int32
@@ -7102,44 +7011,54 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             pub const C_OP_LightningSnapshotGenerator = struct {
                 pub const m_nCPSnapshot: usize = 0x1E0; // int32
                 pub const m_nCPStartPnt: usize = 0x1E4; // int32
@@ -7193,25 +7112,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7222,12 +7128,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7238,40 +7154,39 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7292,38 +7207,34 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7383,8 +7294,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7392,18 +7302,26 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             pub const C_OP_SetControlPointFieldToScalarExpression = struct {
                 pub const m_nExpression: usize = 0x1E0; // ScalarExpressionType_t
                 pub const m_flInput1: usize = 0x1E8; // CParticleCollectionFloatInput
@@ -7418,8 +7336,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -7428,17 +7344,17 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             pub const C_OP_CreateParticleSystemRenderer = struct {
                 pub const m_hEffect: usize = 0x228; // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
                 pub const m_nEventType: usize = 0x230; // EventTypeSelection_t
@@ -7456,11 +7372,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
             // SET_EXPRESSION_MEDIAN
@@ -7468,6 +7379,11 @@ pub const source2_dumper = struct {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7484,10 +7400,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MISSING_PARENT_DO_NOTHING
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
@@ -7496,7 +7412,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24c6/0x5b00,0x24c6/0x5b02,0x24c6/0x5b03,0
+            // ta 2 beta\game\bin\win64\dota2.exe
+            // "S
             pub const CParticleFunctionForce = struct {
             };
             // Parent: None
@@ -7504,8 +7421,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7547,9 +7462,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -7558,15 +7472,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_INIT_RandomVectorComponent = struct {
                 pub const m_flMin: usize = 0x1E0; // float32
@@ -7583,13 +7498,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -7602,24 +7515,24 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7645,15 +7558,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_SetVectorAttributeToVectorExpression = struct {
                 pub const m_nExpression: usize = 0x1E0; // VectorExpressionType_t
@@ -7674,18 +7586,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -7698,9 +7609,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
@@ -7711,9 +7622,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_OP_RemapTransformVisibilityToVector = struct {
                 pub const m_nSetMethod: usize = 0x1D8; // ParticleSetMethod_t
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
@@ -7742,7 +7653,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7790,131 +7700,52 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // UNUSED
-            // F_NORMAL_MAP
-            // F_TEXTURE_LAYERS
-            // F_REFRACT_BLUR
-            // F_PARTICLE_SHADOWS
-            // F_DIRECTIONAL_LIGHTING
-            // F_REVERSE_DEPTH
-            // F_LIGHTEN_MODE
-            // F_MIXED_RENDERING
-            // F_PARTICLE_ORIENTATION
-            // F_SATURATE_COLOR_PRE_ALPHA_BLEND
-            // F_FOG_PARTICLES
-            // F_SELF_ILLUM_OVER_1
-            // F_PER_PIXEL_LIGHTING
-            // F_HAS_NO_NORMAL_FOR_LIGHTING
-            // F_NUM_SEQUENCES_PER_PARTICLE
-            // F_SELF_ILLUM_PER_PARTICLE
-            // F_REFRACT_SOLID
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // F_DRAW_AS_TRAIL
+            // F_MOTION_VECTORS
+            // F_REFRACT
+            // F_HSV_SHIFT
+            // F_SPHERICAL_HARMONIC_LIGHTING
+            // F_DEPTH_MAP
+            // F_DISABLE_DEPTHTEST
+            // F_OPAQUE
+            // F_MOD2X
+            // F_ADDSELF
+            // F_TINT_BY_FOW
+            // F_GLOBAL_LIGHT
+            // F_BLENDFRAMES_SEQ0
             pub const C_OP_RenderSimpleModelCollection = struct {
                 pub const m_bCenterOffset: usize = 0x228; // bool
                 pub const m_hModel: usize = 0x230; // CStrongHandle<InfoForResourceTypeCModel>
@@ -7940,19 +7771,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7960,7 +7778,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_QuantizeCPComponent = struct {
                 pub const m_flInputValue: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -7975,9 +7801,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7989,11 +7813,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             pub const C_OP_PlayEndCapWhenFinished = struct {
                 pub const m_bFireOnEmissionEnd: usize = 0x1E0; // bool
@@ -8008,21 +7828,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8031,26 +7852,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_INIT_InitFloatCollection = struct {
                 pub const m_InputValue: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -8109,8 +7913,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8145,19 +7949,14 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8169,20 +7968,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8224,14 +8026,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreateFromPlaneCache = struct {
@@ -8267,10 +8069,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8288,16 +8090,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -8310,25 +8113,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub const C_OP_ControlPointToRadialScreenSpace = struct {
                 pub const m_nCPIn: usize = 0x1E0; // int32
                 pub const m_vecCP1Pos: usize = 0x1E4; // Vector
@@ -8360,12 +8171,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8378,6 +8188,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8385,41 +8196,41 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8441,23 +8252,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -8467,6 +8262,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -8475,14 +8287,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8498,48 +8305,49 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8547,9 +8355,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -8597,19 +8404,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8617,14 +8423,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreationNoise = struct {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
@@ -8708,7 +8515,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -8717,10 +8524,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
@@ -8731,26 +8538,19 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             pub const C_OP_GameLiquidSpill = struct {
                 pub const m_flLiquidContentsField: usize = 0x228; // CParticleCollectionFloatInput
@@ -8778,14 +8578,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MParticleMaxVersion
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8805,6 +8604,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8828,33 +8628,33 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8870,18 +8670,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8893,20 +8690,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8937,19 +8737,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             pub const CBaseTrailRenderer = struct {
@@ -8975,7 +8774,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8985,8 +8783,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8994,7 +8790,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_VelocityFromCP = struct {
                 pub const m_velocityInput: usize = 0x1E0; // CParticleCollectionVecInput
@@ -9013,21 +8813,25 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9037,8 +8841,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub const C_OP_SetControlPointOrientation = struct {
@@ -9056,7 +8858,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9097,22 +8898,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9124,11 +8913,27 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_OP_MultiSegmentDisplaySnapshotGenerator = struct {
                 pub const m_nCPSnapshot: usize = 0x1E0; // int32
                 pub const m_nSegCount: usize = 0x1E4; // ParticleMultiSegmentCountSelection_t
@@ -9171,8 +8976,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9206,8 +9011,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub const C_OP_OscillateVector = struct {
                 pub const m_RateMin: usize = 0x1D8; // Vector
                 pub const m_RateMax: usize = 0x1E4; // Vector
@@ -9230,10 +9035,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -9268,12 +9069,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
@@ -9289,19 +9090,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             pub const C_OP_RenderVRHapticEvent = struct {
@@ -9319,32 +9119,31 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub const C_OP_SetControlPointToImpactPoint = struct {
                 pub const m_nCPOut: usize = 0x1E0; // int32
                 pub const m_nCPIn: usize = 0x1E4; // int32
@@ -9360,10 +9159,11 @@ pub const source2_dumper = struct {
                 pub const m_bIncludeWater: usize = 0x3FA; // bool
             };
             // Parent: None
-            // Field count: 6
+            // Field count: 7
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9391,8 +9191,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9419,6 +9219,7 @@ pub const source2_dumper = struct {
                 pub const m_flEndScale: usize = 0x1E4; // float32
                 pub const m_bEaseInAndOut: usize = 0x1E8; // bool
                 pub const m_flBias: usize = 0x1EC; // float32
+                pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
             };
             // Parent: None
             // Field count: 3
@@ -9436,8 +9237,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9471,8 +9272,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -9493,18 +9294,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9526,6 +9327,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9537,6 +9339,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9562,6 +9365,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9576,7 +9380,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             pub const C_OP_RemapNamedModelElementOnceTimed = struct {
                 pub const m_hModel: usize = 0x1D8; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_inNames: usize = 0x1E0; // CUtlVector<CUtlString>
@@ -9598,33 +9401,25 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub const C_OP_SetControlPointToPlayer = struct {
                 pub const m_nCP1: usize = 0x1E0; // int32
@@ -9637,6 +9432,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9677,6 +9473,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -9696,15 +9494,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -9727,6 +9525,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9736,18 +9539,35 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_SetRandomControlPointPosition = struct {
@@ -9770,7 +9590,7 @@ pub const source2_dumper = struct {
             // MPropertyEditContextOverrideKey
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -9778,10 +9598,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9790,6 +9610,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -9799,17 +9620,15 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             pub const C_OP_RenderVolumetricEmitter = struct {
@@ -9854,8 +9673,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -9863,8 +9682,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // (
-            // p
+            // x
+            //  
             pub const C_OP_RemapTransformVisibilityToScalar = struct {
                 pub const m_nSetMethod: usize = 0x1D8; // ParticleSetMethod_t
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
@@ -9881,10 +9700,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             pub const C_OP_RemapControlPointDirectionToVector = struct {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flScale: usize = 0x1DC; // float32
@@ -9985,11 +9802,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
             // SET_EXPRESSION_MEDIAN
@@ -9997,6 +9809,11 @@ pub const source2_dumper = struct {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10013,10 +9830,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MISSING_PARENT_DO_NOTHING
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
@@ -10025,7 +9842,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24c6/0x5b00,0x24c6/0x5b02,0x24c6/0x5b03,0
+            // ta 2 beta\game\bin\win64\dota2.exe
+            // "S
             pub const CParticleFunctionOperator = struct {
             };
             // Parent: None
@@ -10034,12 +9852,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10051,11 +9867,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10077,6 +9891,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -10102,13 +9917,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_SetCPtoVector = struct {
@@ -10122,32 +9936,25 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10164,11 +9971,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10209,61 +10021,34 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_OP_SetSingleControlPointPosition = struct {
                 pub const m_bSetOnce: usize = 0x1E0; // bool
                 pub const m_nCP1: usize = 0x1E4; // int32
@@ -10275,49 +10060,59 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // PARTICLE_CP_AXIS_Y
+            // PARTICLE_CP_AXIS_Z
+            // PARTICLE_CP_AXIS_NEGATIVE_X
+            // PARTICLE_CP_AXIS_NEGATIVE_Y
+            // PARTICLE_CP_AXIS_NEGATIVE_Z
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10343,16 +10138,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             pub const C_INIT_DistanceToNeighborCull = struct {
                 pub const m_flDistance: usize = 0x1E0; // CPerParticleFloatInput
                 pub const m_bIncludeRadii: usize = 0x350; // bool
@@ -10369,12 +10154,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10386,11 +10169,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10420,13 +10201,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // PARTICLE_HITBOX_COUNT
-            // SNAPSHOT_INDEX_DIRECT
             // MPropertyFriendlyName
+            // SNAPSHOT_INDEX_DIRECT
             // PARTICLE_LIGHTING_PER_VERTEX
             // PARTICLE_LIGHTING_PER_PIXEL
             // PARTICLE_LIGHTING_OVERRIDE_POSITION
             // PARTICLE_LIGHTING_OVERRIDE_COLOR
             // PARTICLE_LIGHTING_ADD_EXTRA_LIGHT
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -10436,16 +10218,17 @@ pub const source2_dumper = struct {
             // PARTICLE_VOLUMETRIC_SMOKE_TYPE_REPEL
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10454,11 +10237,9 @@ pub const source2_dumper = struct {
             // PARTICLE_ORIENTATION_SET_NONE
             // PARTICLE_ORIENTATION_SET_FROM_NORMAL
             // PARTICLE_ORIENTATION_SET_FROM_ROTATIONS
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC
             // PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC_NOSHADOWS
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10478,8 +10259,10 @@ pub const source2_dumper = struct {
             // PARTICLE_EVENT_TYPE_MASK_USER_2
             // PARTICLE_EVENT_TYPE_MASK_USER_3
             // PARTICLE_EVENT_TYPE_MASK_USER_4
+            // MPropertyFriendlyName
             // PARTICLE_ROTATION_LOCK_ROTATIONS
             // PARTICLE_ROTATION_LOCK_NORMAL
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // VECTOR_EXPRESSION_UNINITIALIZED
             // VECTOR_EXPRESSION_SUBTRACT
@@ -10494,10 +10277,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10514,7 +10296,6 @@ pub const source2_dumper = struct {
             // PARTICLE_PIN_COLLECTION_AGE
             // PARTICLE_PIN_FLOAT_VALUE
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -10526,11 +10307,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // PARTICLE_LIGHTNING_BRANCH_ENDPOINT_DIR
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -10540,7 +10322,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_ENDCAP_ALWAYS_ON
             // PARTICLE_ENDCAP_ENDCAP_ON
-            // MPropertyFriendlyName
             // PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT
             // PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_ON
             // MPropertyFriendlyName
@@ -10549,26 +10330,26 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_TOOLS_STATE_ALWAYS_ON
             // PARTICLE_TOOLS_STATE_GAME_ONLY
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10577,7 +10358,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // SCALAR_EXPRESSION_UNINITIALIZED
             // SCALAR_EXPRESSION_SUBTRACT
             // SCALAR_EXPRESSION_MUL
@@ -10589,6 +10370,7 @@ pub const source2_dumper = struct {
             // SCALAR_EXPRESSION_EQUAL
             // SCALAR_EXPRESSION_GT
             // SCALAR_EXPRESSION_LT
+            // MGetKV3ClassDefaults
             // PARTICLE_COLLISION_GROUP_DEFAULT
             // PARTICLE_COLLISION_GROUP_DEBRIS
             // PARTICLE_COLLISION_GROUP_INTERACTIVE
@@ -10600,19 +10382,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10621,12 +10405,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_TRACE_MISS_BEHAVIOR_KILL
             // PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SELECTION_STRING
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10648,16 +10430,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // HITBOX_LERP_CONSTANT
-            // MPropertyFriendlyName
             // MATERIAL_PROXY_TINT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // BBOX_DIMENSIONS
             // BBOX_MINS_MAXS
             // BBOX_RADIUS
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10676,11 +10458,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
             // SET_EXPRESSION_MEDIAN
@@ -10688,6 +10465,11 @@ pub const source2_dumper = struct {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10704,10 +10486,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MISSING_PARENT_DO_NOTHING
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
@@ -10729,9 +10511,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
@@ -10743,10 +10525,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10770,13 +10552,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -10870,6 +10652,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10903,8 +10688,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10953,23 +10738,29 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -10979,16 +10770,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -11002,20 +10786,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -11032,43 +10812,47 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11097,22 +10881,23 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -11126,16 +10911,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11155,19 +10941,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreateWithinBox = struct {
                 pub const m_vecMin: usize = 0x1E0; // CPerParticleVecInput
@@ -11193,12 +10977,20 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11223,19 +11015,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11321,7 +11113,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // H
             // MPropertyFriendlyName
             pub const C_OP_VectorFieldSnapshot = struct {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
@@ -11340,7 +11131,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11349,19 +11139,21 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11378,6 +11170,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11400,6 +11193,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_PositionPlaceOnGround = struct {
                 pub const m_flOffset: usize = 0x1E0; // CPerParticleFloatInput
@@ -11424,6 +11218,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11432,39 +11228,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_INIT_RandomScalar = struct {
                 pub const m_flMin: usize = 0x1E0; // float32
@@ -11484,24 +11250,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertySortPriority
             // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             pub const C_OP_RenderPostProcessing = struct {
                 pub const m_flPostProcessStrength: usize = 0x228; // CPerParticleFloatInput
@@ -11596,8 +11357,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11650,8 +11411,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11661,7 +11420,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11670,8 +11428,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11691,13 +11449,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyAttributeEditor
-            // MPropertyEditContextOverrideKey
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -11705,10 +11456,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11717,6 +11468,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11726,17 +11478,15 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             pub const C_OP_WaterImpulseRenderer = struct {
@@ -11754,6 +11504,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11761,39 +11512,38 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -11801,9 +11551,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11878,15 +11628,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11899,6 +11649,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11906,41 +11657,37 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_INIT_DistanceCull = struct {
                 pub const m_nControlPoint: usize = 0x1E0; // int32
@@ -11970,15 +11717,19 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11987,30 +11738,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_InitFromVectorFieldSnapshot = struct {
@@ -12026,41 +11755,37 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // x
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_SetVectorAttributeToVectorExpression = struct {
@@ -12115,15 +11840,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_AddVectorToVector = struct {
                 pub const m_vecScale: usize = 0x1E0; // Vector
@@ -12144,7 +11868,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_RemapInitialVisibilityScalar = struct {
                 pub const m_nFieldOutput: usize = 0x1E4; // ParticleAttributeIndex_t
@@ -12163,35 +11891,37 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12201,7 +11931,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_RemapTransformOrientationToYaw = struct {
@@ -12218,13 +11947,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -12234,16 +11967,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -12257,20 +11983,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -12284,7 +12006,7 @@ pub const source2_dumper = struct {
                 pub const m_pTextureEnvMap: usize = 0x258; // CStrongHandle<InfoForResourceTypeCTextureBase>
             };
             // Parent: None
-            // Field count: 2
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -12292,18 +12014,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -12313,6 +12035,7 @@ pub const source2_dumper = struct {
             pub const C_OP_RandomForce = struct {
                 pub const m_MinForce: usize = 0x1E8; // Vector
                 pub const m_MaxForce: usize = 0x1F4; // Vector
+                pub const m_flStartLerpTime: usize = 0x1E8; // float32
             };
             // Parent: None
             // Field count: 7
@@ -12331,7 +12054,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12340,18 +12062,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub const C_OP_RemapParticleCountOnScalarEndCap = struct {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nInputMin: usize = 0x1DC; // int32
@@ -12394,7 +12114,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub const C_OP_LocalAccelerationForce = struct {
                 pub const m_nCP: usize = 0x1E8; // int32
                 pub const m_nScaleCP: usize = 0x1EC; // int32
@@ -12433,9 +12152,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12448,6 +12168,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // x
             pub const C_OP_ModelCull = struct {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_bBoundBox: usize = 0x1DC; // bool
@@ -12479,12 +12200,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12493,9 +12215,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12514,14 +12235,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -12533,14 +12252,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_RemapTransformToVector = struct {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
                 pub const m_vInputMin: usize = 0x1E4; // Vector
@@ -12582,8 +12300,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -12591,8 +12309,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // (
-            // p
+            // x
+            //  
             pub const C_OP_ScreenSpaceDistanceToEdge = struct {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flMaxDistFromEdge: usize = 0x1E0; // CPerParticleFloatInput
@@ -12605,6 +12323,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -12627,22 +12347,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12699,9 +12415,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12714,10 +12431,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // x
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12725,8 +12443,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_SetFromCPSnapshot = struct {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
@@ -12751,11 +12467,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12765,20 +12476,20 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub const C_OP_DistanceBetweenCPsToCP = struct {
                 pub const m_nStartCP: usize = 0x1E0; // int32
@@ -12803,39 +12514,38 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12904,7 +12614,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // H
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -12925,12 +12634,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -12942,14 +12645,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_CreateAlongPath = struct {
                 pub const m_fMaxDistance: usize = 0x1E0; // float32
                 pub const m_PathParams: usize = 0x1F0; // CPathParameters
@@ -12963,24 +12665,21 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertySortPriority
             pub const C_OP_GameDecalRenderer = struct {
                 pub const m_sDecalGroupName: usize = 0x228; // CGlobalSymbol
                 pub const m_nEventType: usize = 0x230; // EventTypeSelection_t
@@ -13005,7 +12704,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -13014,20 +12712,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13036,13 +12735,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -13055,9 +12752,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_SetControlPointsToModelParticles = struct {
                 pub const m_HitboxSetName: usize = 0x1D8; // char[128]
                 pub const m_AttachmentName: usize = 0x258; // char[128]
@@ -13076,11 +12773,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13088,11 +12780,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13117,29 +12807,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13150,12 +12829,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13166,40 +12855,39 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13221,13 +12909,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -13235,10 +12923,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             pub const C_OP_RenderLights = struct {
                 pub const m_flAnimationRate: usize = 0x230; // float32
@@ -13314,7 +12998,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             pub const CRandomNumberGeneratorParameters = struct {
                 pub const m_bDistributeEvenly: usize = 0x0; // bool
                 pub const m_nSeed: usize = 0x4; // int32
@@ -13324,16 +13007,15 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13345,20 +13027,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -13400,9 +13085,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -13426,6 +13110,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13433,9 +13118,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -13452,25 +13136,24 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13513,6 +13196,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_SetAttributeToScalarExpression = struct {
                 pub const m_nExpression: usize = 0x1E0; // ScalarExpressionType_t
                 pub const m_flInput1: usize = 0x1E8; // CPerParticleFloatInput
@@ -13528,15 +13212,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13555,8 +13235,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13564,7 +13242,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreateOnGrid = struct {
                 pub const m_nXCount: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -13589,23 +13271,62 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
             pub const C_OP_RampCPLinearRandom = struct {
                 pub const m_nOutControlPointNumber: usize = 0x1E0; // int32
                 pub const m_vecRateMin: usize = 0x1E4; // Vector
@@ -13617,6 +13338,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13652,6 +13374,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -13661,55 +13385,69 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MParticleMaxVersion
+            // MParticleReplacementOp
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_RandomAlphaWindowThreshold = struct {
@@ -13726,33 +13464,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13768,18 +13506,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13791,20 +13526,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -13836,29 +13574,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -13871,20 +13614,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_OP_ModelSurfaceSnapshotGenerator = struct {
                 pub const m_nCPSnapshot: usize = 0x1E0; // int32
                 pub const m_modelInput: usize = 0x1E8; // CParticleModelInput
@@ -13906,9 +13648,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13937,7 +13682,7 @@ pub const source2_dumper = struct {
                 pub const m_bOnlyChildren: usize = 0x1EC; // bool
             };
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -13948,23 +13693,22 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13973,8 +13717,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const C_OP_RenderClothForce = struct {
+                pub const m_sDecalGroupName: usize = 0x228; // CGlobalSymbol
             };
             // Parent: None
             // Field count: 7
@@ -13986,8 +13739,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13998,8 +13751,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14022,18 +13775,8 @@ pub const source2_dumper = struct {
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14044,12 +13787,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14060,40 +13813,39 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14120,8 +13872,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -14140,33 +13892,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14182,18 +13934,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14205,15 +13954,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14221,8 +13971,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_RemapInitialDirectionToTransformToVector = struct {
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
                 pub const m_nFieldOutput: usize = 0x248; // ParticleAttributeIndex_t
@@ -14277,9 +14032,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14292,10 +14048,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // x
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14303,8 +14060,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_NormalLock = struct {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
@@ -14315,34 +14070,36 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -14350,9 +14107,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14396,8 +14153,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub const C_INIT_RemapTransformOrientationToRotations = struct {
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
                 pub const m_vecRotation: usize = 0x248; // Vector
@@ -14413,11 +14168,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14430,7 +14184,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14439,8 +14192,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14452,13 +14205,12 @@ pub const source2_dumper = struct {
                 pub const m_flCullExp: usize = 0x1E4; // float32
             };
             // Parent: None
-            // Field count: 2
+            // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14467,9 +14219,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14477,12 +14228,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14493,40 +14244,39 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14540,7 +14290,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             pub const C_INIT_RandomYawFlip = struct {
                 pub const m_flPercent: usize = 0x1E0; // float32
-                pub const m_nFieldInput: usize = 0x1E0; // ParticleAttributeIndex_t
             };
             // Parent: None
             // Field count: 2
@@ -14577,8 +14326,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -14586,8 +14335,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // (
-            // p
+            // x
+            //  
             pub const C_OP_ReadFromNeighboringParticle = struct {
                 pub const m_nFieldInput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -14601,19 +14350,24 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -14623,16 +14377,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -14646,20 +14393,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -14676,9 +14419,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14699,11 +14442,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_RandomRotation = struct {
             };
@@ -14712,24 +14456,22 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14760,13 +14502,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -14792,8 +14533,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub const C_OP_VelocityDecay = struct {
                 pub const m_flMinVelocity: usize = 0x1D8; // float32
             };
@@ -14803,6 +14542,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14810,23 +14550,62 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
             pub const C_OP_SetCPOrientationToPointAtCP = struct {
                 pub const m_nInputCP: usize = 0x1E0; // int32
                 pub const m_nOutputCP: usize = 0x1E4; // int32
@@ -14882,13 +14661,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             pub const C_OP_MovementPlaceOnGround = struct {
@@ -14923,13 +14701,14 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // PARTICLE_MASSMODE_RADIUS_SQUARED
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -14961,8 +14740,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const C_OP_RemapCrossProductOfTwoVectorsToVector = struct {
                 pub const m_InputVec1: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_InputVec2: usize = 0x890; // CPerParticleVecInput
@@ -14981,11 +14760,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15004,9 +14783,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15021,8 +14803,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15032,9 +14812,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -15048,16 +14826,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15077,7 +14856,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15086,19 +14871,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -15115,6 +14894,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MParticleMinVersion
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15147,19 +14927,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15178,23 +14958,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             pub const C_INIT_RandomSecondSequence = struct {
                 pub const m_nSequenceMin: usize = 0x1E0; // int32
                 pub const m_nSequenceMax: usize = 0x1E4; // int32
@@ -15207,8 +14979,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15217,9 +14989,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15273,31 +15044,39 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub const C_OP_SetControlPointPositionToRandomActiveCP = struct {
                 pub const m_nCP1: usize = 0x1E0; // int32
@@ -15310,8 +15089,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15333,8 +15112,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15346,6 +15125,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15366,13 +15146,16 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -15414,9 +15197,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -15425,14 +15207,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_INIT_AgeNoise = struct {
                 pub const m_bAbsVal: usize = 0x1E0; // bool
                 pub const m_bAbsValInv: usize = 0x1E1; // bool
@@ -15500,42 +15285,38 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -15552,10 +15333,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15569,38 +15354,35 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15615,7 +15397,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const CGeneralRandomRotation = struct {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
@@ -15630,10 +15416,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15734,8 +15517,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -15752,23 +15535,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -15778,11 +15545,26 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_OP_CalculateVectorAttribute = struct {
                 pub const m_vStartValue: usize = 0x1D8; // Vector
@@ -15817,8 +15599,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const C_OP_LockToBone = struct {
                 pub const m_modelInput: usize = 0x1D8; // CParticleModelInput
                 pub const m_transformInput: usize = 0x238; // CParticleTransformInput
@@ -15843,8 +15625,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15861,32 +15645,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15899,12 +15663,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15924,7 +15710,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15949,23 +15734,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub const C_OP_ScreenSpaceRotateTowardTarget = struct {
                 pub const m_vecTargetPosition: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_flOutputRemap: usize = 0x890; // CParticleRemapFloatInput
@@ -15983,12 +15766,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16000,11 +15781,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16030,16 +15809,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16102,19 +15881,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16128,16 +15907,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreateFromParentParticles = struct {
                 pub const m_flVelocityScale: usize = 0x1E0; // float32
@@ -16159,32 +15928,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16195,12 +15954,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16211,10 +15980,11 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16231,9 +16001,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16241,7 +16010,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16299,11 +16067,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             pub const C_INIT_RandomNamedModelBodyPart = struct {
             };
@@ -16313,25 +16084,24 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16339,54 +16109,52 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub const C_OP_RenderOmni2Light = struct {
                 pub const m_nLightType: usize = 0x228; // ParticleOmni2LightTypeChoiceList_t
                 pub const m_nMaxAllowed: usize = 0x22C; // uint16
@@ -16424,23 +16192,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -16450,6 +16202,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -16458,14 +16227,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_ConnectParentParticleToNearest = struct {
@@ -16480,10 +16244,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub const CPAssignment_t = struct {
                 pub const m_nCPNumber: usize = 0x0; // int32
                 pub const m_Pos: usize = 0x8; // CPerParticleVecInput
@@ -16504,14 +16267,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_RemapParticleCountToNamedModelBodyPartScalar = struct {
             };
             // Parent: None
@@ -16529,28 +16291,28 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -16562,14 +16324,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_InitSkinnedPositionFromCPSnapshot = struct {
                 pub const m_nSnapshotControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nControlPointNumber: usize = 0x1E4; // int32
@@ -16710,19 +16471,21 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16739,6 +16502,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16767,7 +16531,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16776,6 +16539,9 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16818,19 +16584,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_ColorAdjustHSL = struct {
                 pub const m_flHueAdjust: usize = 0x1D8; // CPerParticleFloatInput
@@ -16844,7 +16609,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             pub const CParticleMassCalculationParameters = struct {
@@ -16863,9 +16628,9 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16874,8 +16639,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -16914,18 +16679,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -16934,20 +16699,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16956,6 +16722,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -16963,12 +16732,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16983,17 +16748,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17002,8 +16761,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_OP_RemapDensityGradientToVectorAttribute = struct {
                 pub const m_flRadiusScale: usize = 0x1D8; // float32
@@ -17020,46 +16785,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_InitVec = struct {
@@ -17080,32 +16807,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17116,12 +16833,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17132,11 +16859,11 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17145,12 +16872,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_SetHitboxToModel = struct {
@@ -17221,7 +16948,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // H
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -17252,28 +16978,28 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -17285,14 +17011,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_InitialRepulsionVelocity = struct {
                 pub const m_CollisionGroupName: usize = 0x1E0; // char[128]
                 pub const m_nTraceSet: usize = 0x260; // ParticleTraceSet_t
@@ -17336,9 +17061,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17346,12 +17069,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17368,6 +17095,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -17386,8 +17114,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -17401,17 +17129,39 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17435,7 +17185,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17450,8 +17199,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17463,6 +17212,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17493,7 +17243,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17504,18 +17259,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const C_OP_SetControlPointFieldFromVectorExpression = struct {
                 pub const m_nExpression: usize = 0x1E0; // VectorFloatExpressionType_t
                 pub const m_vecInput1: usize = 0x1E8; // CParticleCollectionVecInput
@@ -17536,6 +17294,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17576,24 +17335,25 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17606,6 +17366,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17613,36 +17374,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_INIT_PlaneCull = struct {
                 pub const m_nControlPoint: usize = 0x1E0; // int32
                 pub const m_flDistance: usize = 0x1E8; // CParticleCollectionFloatInput
@@ -17677,13 +17435,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_RemapNamedModelSequenceEndCap = struct {
@@ -17693,28 +17450,32 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17730,18 +17491,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17753,20 +17511,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -17802,29 +17563,29 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -17847,24 +17608,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertySortPriority
             pub const C_OP_RenderCables = struct {
                 pub const m_flRadiusScale: usize = 0x228; // CParticleCollectionFloatInput
                 pub const m_flAlphaScale: usize = 0x398; // CParticleCollectionFloatInput
@@ -17900,8 +17658,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -17942,9 +17698,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -17953,15 +17708,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_INIT_InheritVelocity = struct {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
@@ -17974,16 +17730,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18004,12 +17754,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18031,15 +17775,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_PositionOffset = struct {
                 pub const m_OffsetMin: usize = 0x1E0; // CPerParticleVecInput
@@ -18055,32 +17798,32 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18159,6 +17902,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18183,6 +17929,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18251,9 +17998,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18261,12 +18006,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18296,6 +18045,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18303,20 +18056,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18325,13 +18079,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -18344,9 +18096,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_RemapDirectionToCPToVector = struct {
                 pub const m_nCP: usize = 0x1D8; // int32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -18362,23 +18114,25 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_DriveCPFromGlobalSoundFloat = struct {
@@ -18400,18 +18154,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18422,40 +18174,39 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18480,6 +18231,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18522,32 +18274,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18560,12 +18292,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18575,8 +18329,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18620,13 +18374,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -18634,11 +18388,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub const C_OP_RemapCPtoVector = struct {
                 pub const m_nCPInput: usize = 0x1D8; // int32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -18659,45 +18415,48 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18751,9 +18510,13 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -18782,38 +18545,35 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18828,7 +18588,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreateInEpitrochoid = struct {
                 pub const m_nComponent1: usize = 0x1E0; // int32
@@ -18883,8 +18647,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18896,25 +18658,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub const C_OP_SetControlPointPositions = struct {
                 pub const m_bUseWorldLocation: usize = 0x1E0; // bool
                 pub const m_bOrient: usize = 0x1E1; // bool
@@ -18958,6 +18728,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // x
             pub const C_OP_SetFloatAttributeToVectorExpression = struct {
                 pub const m_nExpression: usize = 0x1D8; // VectorFloatExpressionType_t
                 pub const m_vInput1: usize = 0x1E0; // CPerParticleVecInput
@@ -18988,9 +18759,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18998,12 +18767,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19020,16 +18793,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19042,7 +18815,10 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_OP_MovementRotateParticleAroundAxis = struct {
                 pub const m_vecRotAxis: usize = 0x1D8; // CParticleCollectionVecInput
                 pub const m_flRotRate: usize = 0x890; // CParticleCollectionFloatInput
@@ -19053,6 +18829,8 @@ pub const source2_dumper = struct {
             // Field count: 7
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_OP_IntraParticleForce = struct {
@@ -19071,7 +18849,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_InitFloat = struct {
                 pub const m_InputValue: usize = 0x1E0; // CPerParticleFloatInput
                 pub const m_nOutputField: usize = 0x350; // ParticleAttributeIndex_t
@@ -19088,74 +18869,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MParticleMaxVersion
-            // MParticleReplacementOp
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyAttributeRange
             pub const C_INIT_CreateOnModel = struct {
                 pub const m_modelInput: usize = 0x1E0; // CParticleModelInput
                 pub const m_transformInput: usize = 0x240; // CParticleTransformInput
@@ -19192,9 +18916,11 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -19207,12 +18933,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19227,15 +18951,15 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -19255,25 +18979,24 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19322,16 +19045,16 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             pub const C_OP_RenderProjected = struct {
@@ -19374,32 +19097,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19412,12 +19115,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19427,8 +19152,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_MaxVelocity = struct {
@@ -19448,19 +19173,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19468,19 +19192,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19507,14 +19231,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MParticleMaxVersion
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19538,6 +19261,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19550,6 +19274,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19557,39 +19282,38 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -19597,8 +19321,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             pub const C_INIT_PositionOffsetToCP = struct {
                 pub const m_nControlPointNumberStart: usize = 0x1E0; // int32
                 pub const m_nControlPointNumberEnd: usize = 0x1E4; // int32
@@ -19611,13 +19333,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19632,11 +19350,14 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19653,32 +19374,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19691,12 +19392,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19724,7 +19447,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19733,8 +19455,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19768,13 +19490,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -19801,10 +19522,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             pub const C_OP_RampScalarSpline = struct {
                 pub const m_RateMin: usize = 0x1D8; // float32
                 pub const m_RateMax: usize = 0x1DC; // float32
@@ -19827,14 +19546,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19856,13 +19574,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_RemapNamedModelSequenceOnceTimed = struct {
             };
             // Parent: None
@@ -19873,15 +19592,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19894,16 +19612,24 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_OP_SetControlPointFromObjectScale = struct {
                 pub const m_nCPInput: usize = 0x1E0; // int32
@@ -19918,14 +19644,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // PARTICLE_MASSMODE_RADIUS_SQUARED
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19960,14 +19685,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19984,32 +19712,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20022,12 +19730,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20049,12 +19779,20 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20069,9 +19807,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20084,10 +19823,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // x
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20095,8 +19835,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20109,7 +19847,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20118,8 +19855,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20221,12 +19958,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20234,19 +19970,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20265,33 +20001,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -20300,16 +20036,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_RemapNamedModelElementToScalar = struct {
                 pub const m_hModel: usize = 0x1E0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_names: usize = 0x1E8; // CUtlVector<CUtlString>
@@ -20325,9 +20055,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20335,12 +20063,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20357,32 +20089,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20395,12 +20107,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20416,63 +20150,66 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -20513,6 +20250,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PFUNC_VISUALIZATION_SPHERE_SOLID
             // PFUNC_VISUALIZATION_BOX
             // PFUNC_VISUALIZATION_RING
@@ -20521,7 +20259,6 @@ pub const source2_dumper = struct {
             // PFUNC_VISUALIZATION_CYLINDER
             // MPropertyFriendlyName
             // PARTICLE_HITBOX_BIAS_HITBOX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_CLOSEST_TYPE_CAPSULE
             // PARTICLE_CLOSEST_TYPE_HYBRID
@@ -20541,8 +20278,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // PARTICLE_WORLDSPACE_CENTER
             // PARTICLE_EYES
             // MPropertyFriendlyName
@@ -20616,8 +20353,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // SPRITECARD_SHADER_CUSTOM
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -20647,8 +20384,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20675,26 +20412,29 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -20707,24 +20447,23 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20737,9 +20476,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20760,13 +20508,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -20776,16 +20528,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -20799,20 +20544,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -20943,8 +20684,8 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -20952,8 +20693,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // (
-            // p
+            // x
+            //  
             pub const C_OP_RemapControlPointOrientationToRotation = struct {
                 pub const m_nCP: usize = 0x1D8; // int32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -20966,42 +20707,48 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             pub const C_OP_SetControlPointToCenter = struct {
                 pub const m_nCP1: usize = 0x1E0; // int32
                 pub const m_vecCP1Pos: usize = 0x1E4; // Vector
@@ -21015,28 +20762,30 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21119,7 +20868,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21129,15 +20877,20 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21147,13 +20900,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_RemapCPtoCP = struct {
                 pub const m_nInputControlPoint: usize = 0x1E0; // int32
                 pub const m_nOutputControlPoint: usize = 0x1E4; // int32
@@ -21172,6 +20924,19 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21181,10 +20946,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -21196,14 +20958,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_SetControlPointRotation = struct {
                 pub const m_vecRotAxis: usize = 0x1E0; // CParticleCollectionVecInput
@@ -21212,7 +20974,7 @@ pub const source2_dumper = struct {
                 pub const m_nLocalCP: usize = 0xA0C; // int32
             };
             // Parent: None
-            // Field count: 7
+            // Field count: 8
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -21227,6 +20989,7 @@ pub const source2_dumper = struct {
                 pub const m_vecOffsetRate: usize = 0x1618; // CPerParticleVecInput
                 pub const m_flWorleySeed: usize = 0x1CD0; // CPerParticleFloatInput
                 pub const m_flWorleyJitter: usize = 0x1E40; // CPerParticleFloatInput
+                pub const m_nCP: usize = 0x1E8; // int32
             };
             // Parent: None
             // Field count: 3
@@ -21236,21 +20999,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21261,12 +21017,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21277,40 +21043,39 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21341,21 +21106,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21368,9 +21125,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21394,8 +21160,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21410,8 +21176,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -21436,13 +21200,11 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21462,10 +21224,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_HSVShiftToCP = struct {
                 pub const m_nColorCP: usize = 0x1E0; // int32
                 pub const m_nColorGemEnableCP: usize = 0x1E4; // int32
@@ -21492,9 +21252,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21507,10 +21268,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // x
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21518,8 +21280,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_RemapVectorToRotations = struct {
                 pub const m_vecInput: usize = 0x1D8; // CPerParticleVecInput
@@ -21531,10 +21291,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21545,35 +21303,32 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21590,7 +21345,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_INIT_GlobalScale = struct {
                 pub const m_flScale: usize = 0x1E0; // float32
                 pub const m_nScaleControlPointNumber: usize = 0x1E4; // int32
@@ -21606,22 +21366,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21638,10 +21395,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21655,7 +21416,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub const C_INIT_RadiusFromCPObject = struct {
                 pub const m_nControlPoint: usize = 0x1E0; // int32
             };
@@ -21666,18 +21427,16 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21694,10 +21453,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21710,7 +21473,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -21738,6 +21500,9 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21775,27 +21540,35 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_SetControlPointFieldToWater = struct {
@@ -21809,9 +21582,9 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // PARTICLE_VRHAND_RIGHT
+            // MPropertyAttributeRange
+            // MPropertySortPriority
+            // PARTICLE_SORTING_CREATION_TIME
             pub const TextureGroup_t = struct {
                 pub const m_bEnabled: usize = 0x0; // bool
                 pub const m_bReplaceTextureWithGradient: usize = 0x1; // bool
@@ -21828,8 +21601,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21886,18 +21659,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -21906,20 +21679,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21928,6 +21702,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -21935,12 +21712,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21958,6 +21731,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21965,7 +21739,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21984,8 +21757,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21993,7 +21764,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreateWithinSphereTransform = struct {
                 pub const m_fRadiusMin: usize = 0x1E0; // CPerParticleFloatInput
@@ -22022,24 +21797,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_RadiusDecay = struct {
@@ -22050,19 +21822,22 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22078,18 +21853,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22101,20 +21873,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -22126,7 +21901,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             pub const C_INIT_RemapNamedModelBodyPartToScalar = struct {
             };
             // Parent: None
@@ -22135,29 +21909,25 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22173,18 +21943,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22196,20 +21963,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -22239,16 +22009,19 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -22260,14 +22033,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_InitialSequenceFromModel = struct {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nFieldOutput: usize = 0x1E4; // ParticleAttributeIndex_t
@@ -22285,10 +22057,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MParticleMaxVersion
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22315,17 +22087,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // SCALAR_EXPRESSION_UNINITIALIZED
-            // SCALAR_EXPRESSION_SUBTRACT
-            // SCALAR_EXPRESSION_MUL
-            // SCALAR_EXPRESSION_DIVIDE
-            // SCALAR_EXPRESSION_INPUT_1
-            // SCALAR_EXPRESSION_MIN
-            // SCALAR_EXPRESSION_MAX
-            // SCALAR_EXPRESSION_MOD
-            // SCALAR_EXPRESSION_EQUAL
-            // SCALAR_EXPRESSION_GT
-            // SCALAR_EXPRESSION_LT
             // PARTICLE_COLLISION_GROUP_DEFAULT
             // PARTICLE_COLLISION_GROUP_DEBRIS
             // PARTICLE_COLLISION_GROUP_INTERACTIVE
@@ -22337,19 +22098,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22358,12 +22121,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_TRACE_MISS_BEHAVIOR_KILL
             // PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SELECTION_STRING
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22385,16 +22146,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // HITBOX_LERP_CONSTANT
-            // MPropertyFriendlyName
             // MATERIAL_PROXY_TINT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // BBOX_DIMENSIONS
             // BBOX_MINS_MAXS
             // BBOX_RADIUS
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22413,11 +22174,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
             // SET_EXPRESSION_MEDIAN
@@ -22425,6 +22181,11 @@ pub const source2_dumper = struct {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22441,10 +22202,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MISSING_PARENT_DO_NOTHING
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
@@ -22453,7 +22214,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24c6/0x5b00,0x24c6/0x5b02,0x24c6/0x5b03,0
+            // ta 2 beta\game\bin\win64\dota2.exe
             pub const CParticleFunctionInitializer = struct {
                 pub const m_nAssociatedEmitterIndex: usize = 0x1D8; // int32
             };
@@ -22468,7 +22229,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22477,7 +22237,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22487,16 +22246,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22518,7 +22283,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             pub const ModelReference_t = struct {
                 pub const m_model: usize = 0x0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_flRelativeProbabilityOfSpawn: usize = 0x8; // float32
@@ -22571,11 +22336,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22589,11 +22350,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22613,37 +22378,40 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22677,17 +22445,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22696,8 +22458,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_OP_LockPoints = struct {
                 pub const m_nMinCol: usize = 0x1D8; // int32
@@ -22712,7 +22480,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22770,15 +22537,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_CreateSpiralSphere = struct {
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
@@ -22798,6 +22564,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22840,8 +22607,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22851,9 +22616,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -22867,16 +22630,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22896,7 +22660,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22905,19 +22675,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -22934,8 +22698,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -22948,12 +22712,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22965,11 +22727,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22996,32 +22756,35 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23038,7 +22801,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23058,9 +22820,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -23074,28 +22833,28 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -23107,14 +22866,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_PointList = struct {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
                 pub const m_pointList: usize = 0x1E8; // CUtlVector<PointDefinition_t>
@@ -23186,50 +22944,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             pub const C_INIT_RandomColor = struct {
                 pub const m_ColorMin: usize = 0x1FC; // Color
@@ -23248,6 +22965,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_SetGravityToCP = struct {
                 pub const m_nCPInput: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -23265,40 +22983,40 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23360,25 +23078,29 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23436,10 +23158,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             pub const C_INIT_InheritFromParentParticles = struct {
                 pub const m_flScale: usize = 0x1E0; // float32
                 pub const m_nFieldOutput: usize = 0x1E4; // ParticleAttributeIndex_t
@@ -23454,7 +23175,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -23465,6 +23185,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23476,12 +23197,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -23490,15 +23210,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_RampScalarLinearSimple = struct {
                 pub const m_Rate: usize = 0x1D8; // float32
@@ -23510,6 +23230,7 @@ pub const source2_dumper = struct {
             // Field count: 9
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -23549,9 +23270,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -23560,27 +23280,29 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_ChaoticAttractor = struct {
                 pub const m_flAParm: usize = 0x1E0; // float32
                 pub const m_flBParm: usize = 0x1E4; // float32
@@ -23609,8 +23331,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23637,48 +23359,49 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23686,9 +23409,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -23712,32 +23434,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23745,16 +23468,14 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
             pub const C_OP_RenderLightBeam = struct {
                 pub const m_nMaxAllowed: usize = 0x228; // uint16
                 pub const m_vColorBlend: usize = 0x230; // CParticleCollectionVecInput
@@ -23787,19 +23508,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23819,6 +23538,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23830,19 +23553,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23850,14 +23576,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MParticleMinVersion
             pub const C_INIT_DistanceToCPInit = struct {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
                 pub const m_flInputMin: usize = 0x1E8; // CPerParticleFloatInput
@@ -23912,6 +23631,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23941,10 +23661,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -23980,25 +23702,25 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_RemapDensityToVector = struct {
                 pub const m_flRadiusScale: usize = 0x1D8; // float32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -24014,8 +23736,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // PARTICLE_WORLDSPACE_CENTER
             // PARTICLE_EYES
             pub const ParticleControlPointConfiguration_t = struct {
@@ -24065,9 +23787,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -24076,27 +23797,41 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_SetRigidAttachment = struct {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
@@ -24109,11 +23844,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub const MaterialVariable_t = struct {
@@ -24127,17 +23862,17 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24146,12 +23881,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_TRACE_MISS_BEHAVIOR_KILL
             // PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SELECTION_STRING
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24173,16 +23906,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // HITBOX_LERP_CONSTANT
-            // MPropertyFriendlyName
             // MATERIAL_PROXY_TINT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // BBOX_DIMENSIONS
             // BBOX_MINS_MAXS
             // BBOX_RADIUS
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24201,11 +23934,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
             // SET_EXPRESSION_MEDIAN
@@ -24213,6 +23941,11 @@ pub const source2_dumper = struct {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24229,10 +23962,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MISSING_PARENT_DO_NOTHING
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
@@ -24241,7 +23974,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24c6/0x5b00,0x24c6/0x5b02,0x24c6/0x5b03,0
+            // ta 2 beta\game\bin\win64\dota2.exe
             pub const CParticleFunctionConstraint = struct {
             };
             // Parent: None
@@ -24259,32 +23992,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24297,12 +24010,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24312,8 +24047,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24337,19 +24072,16 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
@@ -24373,53 +24105,47 @@ pub const source2_dumper = struct {
             // F_SELF_ILLUM_PER_PARTICLE
             // F_REFRACT_SOLID
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24427,18 +24153,16 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             pub const C_OP_RenderModels = struct {
                 pub const m_bOnlyRenderInEffectsBloomPass: usize = 0x228; // bool
                 pub const m_bOnlyRenderInEffectsWaterPass: usize = 0x229; // bool
@@ -24505,43 +24229,44 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24549,9 +24274,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -24575,7 +24299,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // SCALAR_EXPRESSION_UNINITIALIZED
             // SCALAR_EXPRESSION_SUBTRACT
             // SCALAR_EXPRESSION_MUL
@@ -24587,6 +24311,7 @@ pub const source2_dumper = struct {
             // SCALAR_EXPRESSION_EQUAL
             // SCALAR_EXPRESSION_GT
             // SCALAR_EXPRESSION_LT
+            // MGetKV3ClassDefaults
             // PARTICLE_COLLISION_GROUP_DEFAULT
             // PARTICLE_COLLISION_GROUP_DEBRIS
             // PARTICLE_COLLISION_GROUP_INTERACTIVE
@@ -24598,19 +24323,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24619,12 +24346,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_TRACE_MISS_BEHAVIOR_KILL
             // PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SELECTION_STRING
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24646,16 +24371,16 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // HITBOX_LERP_CONSTANT
-            // MPropertyFriendlyName
             // MATERIAL_PROXY_TINT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // BBOX_DIMENSIONS
             // BBOX_MINS_MAXS
             // BBOX_RADIUS
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24674,11 +24399,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
             // SET_EXPRESSION_MEDIAN
@@ -24686,6 +24406,11 @@ pub const source2_dumper = struct {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24702,10 +24427,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MISSING_PARENT_DO_NOTHING
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
@@ -24714,7 +24439,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24c6/0x5b00,0x24c6/0x5b02,0x24c6/0x5b03,0
+            // ta 2 beta\game\bin\win64\dota2.exe
             pub const CParticleFunctionEmitter = struct {
                 pub const m_nEmitterIndex: usize = 0x1D8; // int32
             };
@@ -24724,17 +24449,17 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24750,18 +24475,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24773,20 +24495,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -24810,20 +24535,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             pub const C_OP_SetControlPointOrientationToCPVelocity = struct {
                 pub const m_nCPInput: usize = 0x1E0; // int32
@@ -24891,6 +24611,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24899,6 +24621,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24907,8 +24631,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -24934,7 +24658,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24943,15 +24666,17 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const C_INIT_PositionWarpScalar = struct {
                 pub const m_vecWarpMin: usize = 0x1E0; // Vector
@@ -24969,19 +24694,29 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25036,6 +24771,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -25062,10 +24798,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             pub const C_OP_RemapParticleCountToScalar = struct {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nInputMin: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -25097,9 +24831,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -25108,30 +24841,27 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25145,11 +24875,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25171,21 +24905,19 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25206,7 +24938,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub const C_OP_RemapModelVolumetoCP = struct {
                 pub const m_nBBoxType: usize = 0x1E0; // BBoxVolumeType_t
                 pub const m_nInControlPointNumber: usize = 0x1E4; // int32
@@ -25231,13 +24963,14 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // PARTICLE_MASSMODE_RADIUS_SQUARED
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -25272,6 +25005,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25293,25 +25027,33 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub const C_OP_SetControlPointToCPVelocity = struct {
                 pub const m_nCPInput: usize = 0x1E0; // int32
                 pub const m_nCPOutputVel: usize = 0x1E4; // int32
@@ -25325,22 +25067,22 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25348,9 +25090,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -25393,7 +25134,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub const C_OP_SpinYaw = struct {
             };
@@ -25418,8 +25158,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25464,8 +25204,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const RenderProjectedMaterial_t = struct {
                 pub const m_hMaterial: usize = 0x0; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -25475,10 +25215,10 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25498,28 +25238,28 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -25531,14 +25271,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_SetFloatAttributeToVectorExpression = struct {
                 pub const m_nExpression: usize = 0x1E0; // VectorFloatExpressionType_t
                 pub const m_vInput1: usize = 0x1E8; // CPerParticleVecInput
@@ -25553,6 +25292,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -25580,28 +25321,28 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -25613,14 +25354,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_ModelCull = struct {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_bBoundBox: usize = 0x1E4; // bool
@@ -25633,8 +25373,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // PARTICLE_LIGHT_BEHAVIOR_ROPE
-            // PARTICLE_LIGHT_BEHAVIOR_TRAILS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
@@ -25660,13 +25398,13 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // BLURFILTER_BOX
             // PARTICLE_POST_PROCESS_PRIORITY_LEVEL_OVERRIDE
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_EFFECT
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_LOW
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_HIGH
             // PARTICLE_POST_PROCESS_PRIORITY_GLOBAL_UI
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_OUTPUT_BLEND_MODE_ADD
@@ -25679,8 +25417,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // SPRITECARD_TEXTURE_BLEND_MOD2X
             // SPRITECARD_TEXTURE_BLEND_REPLACE
             // SPRITECARD_TEXTURE_BLEND_ADD
@@ -25688,19 +25424,21 @@ pub const source2_dumper = struct {
             // SPRITECARD_TEXTURE_BLEND_AVERAGE
             // SPRITECARD_TEXTURE_BLEND_LUMINANCE
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
             pub const C_OP_RenderSprites = struct {
                 pub const m_nSequenceOverride: usize = 0x2DF0; // CParticleCollectionRendererFloatInput
                 pub const m_bSequenceNumbersAreRawSequenceIndices: usize = 0x2F60; // bool
@@ -25748,6 +25486,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25810,40 +25549,40 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -25891,32 +25630,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25929,12 +25648,34 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25944,8 +25685,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25974,19 +25715,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_OP_CycleScalar = struct {
                 pub const m_nDestField: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -26008,14 +25748,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26025,22 +25766,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
@@ -26064,53 +25804,47 @@ pub const source2_dumper = struct {
             // F_SELF_ILLUM_PER_PARTICLE
             // F_REFRACT_SOLID
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26118,18 +25852,16 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             pub const C_OP_RenderMaterialProxy = struct {
                 pub const m_nMaterialControlPoint: usize = 0x228; // int32
                 pub const m_nProxyType: usize = 0x22C; // MaterialProxyType_t
@@ -26150,8 +25882,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
             pub const FloatInputMaterialVariable_t = struct {
                 pub const m_strVariable: usize = 0x0; // CUtlString
                 pub const m_flInput: usize = 0x8; // CParticleCollectionFloatInput
@@ -26175,8 +25907,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26227,7 +25959,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -26254,31 +25985,31 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26294,18 +26025,15 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26317,20 +26045,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -26352,28 +26083,28 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -26385,14 +26116,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const C_INIT_RemapParticleCountToNamedModelMeshGroupScalar = struct {
             };
             // Parent: None
@@ -26400,7 +26130,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26419,32 +26148,32 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const C_INIT_SequenceFromCP = struct {
@@ -26463,18 +26192,18 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -26483,20 +26212,21 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26505,6 +26235,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -26512,12 +26245,8 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26542,6 +26271,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -26551,11 +26281,11 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName

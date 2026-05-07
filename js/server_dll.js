@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -6609,6 +6609,11 @@ export const Schemas = {
             ePosition: 0x1,
             eAngles: 0x2,
         },
+        OriginalModelFlags_t: {
+            ORIGINAL_MODEL_FLAGS_NOT_SET: 0x0,
+            ORIGINAL_MODEL_IS_ORIGINAL_MODEL: 0x1,
+            ORIGINAL_MODEL_IS_NOT_ORIGINAL_MODEL: 0x2,
+        },
         DOTABotDifficulty: {
             BOT_DIFFICULTY_PASSIVE: 0x0,
             BOT_DIFFICULTY_EASY: 0x1,
@@ -8082,21 +8087,19 @@ export const Schemas = {
             MOVETYPE_CUSTOM: 0x9,
             MOVETYPE_LAST: 0xA,
         },
-        ___: {
+        ___Ï_: {
         },
-        __w_w_: {
+        ______: {
         },
-        _M_: {
+        ______: {
         },
-        ___: {
+        ___M__: {
         },
-        ___: {
+        _v____: {
         },
-        ___: {
+        ______: {
         },
-        ___: {
-        },
-        _p_: {
+        _I____: {
         },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x19D8, // int32
@@ -8161,10 +8164,9 @@ export const Schemas = {
         CDOTA_Modifier_Sniper_Headshot: {
             proc_chance: 0x19D8, // int32
             slow_duration: 0x19DC, // float32
-            slow_duration_with_take_aim: 0x19E0, // float32
-            knockback_distance: 0x19E4, // float32
-            bonus_damage_creeps: 0x19E8, // int32
-            damage: 0x19EC, // int32
+            knockback_distance: 0x19E0, // float32
+            bonus_damage_creeps: 0x19E4, // int32
+            damage: 0x19E8, // int32
         },
         CDOTA_Ability_Riki_SmokeScreen: {
         },
@@ -8231,8 +8233,8 @@ export const Schemas = {
             m_pOwner: 0x150, // CBaseAnimatingController*
         },
         CDOTA_Unit_Hero_Razor: {
-            m_nTargetAngle: 0x1EC0, // int32
-            m_nTargetRange: 0x1EC4, // int32
+            m_nTargetAngle: 0x1EC8, // int32
+            m_nTargetRange: 0x1ECC, // int32
         },
         CDOTA_Modifier_AghsFort_Creature_Phoenix_Sun: {
             aura_radius: 0x19D8, // float32
@@ -8382,8 +8384,8 @@ export const Schemas = {
             m_bValueIsMask: 0x3D, // bool
         },
         CDOTA_Unit_Brewmaster_PrimalStorm: {
-            m_nFXStormAmbient1: 0x1890, // ParticleIndex_t
-            m_nFXStormAmbient2: 0x1894, // ParticleIndex_t
+            m_nFXStormAmbient1: 0x1898, // ParticleIndex_t
+            m_nFXStormAmbient2: 0x189C, // ParticleIndex_t
         },
         CDOTA_BaseNPC_JungleVarmint: {
         },
@@ -8975,7 +8977,7 @@ export const Schemas = {
         CBaseTriggerAPI: {
         },
         CDOTA_Unit_Hero_FacelessVoid: {
-            m_vecStanceDestinationPoint: 0x1EC0, // Vector
+            m_vecStanceDestinationPoint: 0x1EC8, // Vector
         },
         CDOTA_Item_UnstableWand: {
         },
@@ -9342,7 +9344,7 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Spell_Lifesteal_15: {
         },
         CDOTA_Unit_AghsFort_Creature_DungeonBat: {
-            m_nFXAmbient: 0x19E0, // ParticleIndex_t
+            m_nFXAmbient: 0x19E8, // ParticleIndex_t
         },
         CDOTA_Unit_Hero_Marci: {
         },
@@ -9480,7 +9482,7 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Mana_Break_35: {
         },
         CDOTA_BaseNPC_Shop: {
-            m_ShopType: 0x1978, // DOTA_SHOP_TYPE
+            m_ShopType: 0x1980, // DOTA_SHOP_TYPE
         },
         CDOTA_BaseNPC_LotusPool: {
         },
@@ -10120,10 +10122,10 @@ export const Schemas = {
             m_OnGameStarted: 0x510, // CEntityIOOutput
         },
         CDOTA_Unit_Hero_Oracle: {
-            m_nFXDeath: 0x1EC0, // ParticleIndex_t
+            m_nFXDeath: 0x1EC8, // ParticleIndex_t
         },
         CDOTA_Unit_Hero_Juggernaut: {
-            m_unOmniKills: 0x1EC0, // uint32
+            m_unOmniKills: 0x1EC8, // uint32
         },
         CDOTA_Modifier_PolarFurbolgUrsaWarrior_ThunderClap: {
             movespeed_slow: 0x19D8, // int32
@@ -10226,8 +10228,8 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Reincarnation_200: {
         },
         CDOTA_BaseNPC_HallofFame: {
-            m_event_dota_player_team_changed: 0x1988, // int32
-            m_glowThinkTimer: 0x1990, // CountdownTimer
+            m_event_dota_player_team_changed: 0x1990, // int32
+            m_glowThinkTimer: 0x1998, // CountdownTimer
         },
         CDOTA_Modifier_Wave_Blast_Knockback: {
             disarm_duration: 0x19D8, // float32
@@ -10306,7 +10308,7 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Unique_Enigma_3: {
         },
         CDOTA_Unit_Side_Gunner: {
-            m_hOwningNPC: 0x1860, // CHandle<CBaseEntity>
+            m_hOwningNPC: 0x1868, // CHandle<CBaseEntity>
         },
         CDOTA_Unit_Broodmother_Spiderling: {
         },
@@ -10581,12 +10583,12 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Cleave_150: {
         },
         CDOTA_BaseNPC_Effigy_AghsFort: {
-            m_unStatusEffectIndex: 0x1978, // uint32
+            m_unStatusEffectIndex: 0x1980, // uint32
         },
         CDOTA_Unit_Falconers_Glove_Hawk: {
         },
         CDOTA_Unit_Hero_Lion: {
-            m_unFingerPrestigeKills: 0x1EC0, // uint32
+            m_unFingerPrestigeKills: 0x1EC8, // uint32
         },
         CDOTA_BaseNPC_Effigy_BattleCup: {
         },
@@ -10676,7 +10678,7 @@ export const Schemas = {
         CDOTA_Unit_Hero_Zuus: {
         },
         CDOTA_Unit_Hero_VengefulSpirit: {
-            m_bArcanaEquipped: 0x1EC0, // bool
+            m_bArcanaEquipped: 0x1EC8, // bool
         },
         CTriggerDetectBulletFire: {
             m_bPlayerFireOnly: 0x8D0, // bool
@@ -10804,7 +10806,7 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Corruption_5: {
         },
         CDOTA_Unit_Hero_DarkSeer: {
-            m_nNormalPunchBuffIndex: 0x1EC0, // ParticleIndex_t
+            m_nNormalPunchBuffIndex: 0x1EC8, // ParticleIndex_t
         },
         CDOTA_Modifier_BerserkerTroll_Break: {
             duration: 0x19D8, // float32
@@ -11206,8 +11208,8 @@ export const Schemas = {
             m_bGamePaused: 0xC8, // bool
         },
         CDOTA_Unit_VisageFamiliar: {
-            ctTimer: 0x1890, // CountdownTimer
-            m_nFXAmbient: 0x18A8, // ParticleIndex_t
+            ctTimer: 0x1898, // CountdownTimer
+            m_nFXAmbient: 0x18B0, // ParticleIndex_t
         },
         CDOTA_Modifier_Item_Pavise_Shield: {
             absorb_amount: 0x19D8, // int32
@@ -11646,8 +11648,8 @@ export const Schemas = {
         CDOTA_Unit_Hero_DarkWillow: {
         },
         CDOTA_Unit_LoopingSound: {
-            m_pszNetworkedSoundLoop: 0x1860, // char[256]
-            m_nLoopingSoundParity: 0x1960, // int32
+            m_pszNetworkedSoundLoop: 0x1868, // char[256]
+            m_nLoopingSoundParity: 0x1968, // int32
         },
         CIngameEvent_MuertaReleaseSpring2023_DummyModifierHolder: {
         },
@@ -12027,7 +12029,7 @@ export const Schemas = {
             m_nLeagueID: 0x508, // LeagueID_t
         },
         CDOTA_Unit_Aghsfort_Aziyog_Underlord_Portal: {
-            m_hOtherPortal: 0x1860, // CHandle<CBaseEntity>
+            m_hOtherPortal: 0x1868, // CHandle<CBaseEntity>
         },
         CDOTA_Modifier_OgreSmash_Swing: {
         },
@@ -12164,7 +12166,7 @@ export const Schemas = {
             m_flBoundsExpandRadius: 0x14, // float32
         },
         CDOTA_Unit_Hero_Winter_Wyvern: {
-            m_nFXDeath: 0x1EC0, // ParticleIndex_t
+            m_nFXDeath: 0x1EC8, // ParticleIndex_t
         },
         CDOTA_Unit_Hero_Visage: {
         },
@@ -12278,9 +12280,9 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Attack_Damage_18: {
         },
         CDOTA_BaseNPC_Venomancer_PlagueWard: {
-            m_bIsMovable: 0x1860, // bool
-            m_angle: 0x1864, // QAngle
-            m_iPoseParameterAim: 0x1870, // int32
+            m_bIsMovable: 0x1868, // bool
+            m_angle: 0x186C, // QAngle
+            m_iPoseParameterAim: 0x1878, // int32
         },
         CDOTA_Modifier_Wildkin_Tornado: {
             radius: 0x19D8, // int32
@@ -12374,26 +12376,26 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Cleave_175: {
         },
         CDOTA_BaseNPC_AghsFort_Watch_Tower: {
-            m_nOptionNumber: 0x1988, // int32
-            m_flMovePlayersRadius: 0x198C, // float32
-            m_nExitDirection: 0x1990, // CDOTA_BaseNPC_AghsFort_Watch_Tower::ExitDirection_t
-            m_vExitLocation: 0x1994, // Vector
-            m_nPathSelectedID: 0x19A0, // int32
-            m_nEncounterType: 0x19A4, // int32
-            m_bIsEliteEncounter: 0x19A8, // bool
-            m_bIsAscensionLevelPicker: 0x19A9, // bool
-            m_strEncounterName: 0x19B0, // CUtlSymbolLarge
-            m_strAscensionAbilities: 0x19B8, // CUtlSymbolLarge
-            m_hEffigy: 0x19C0, // CHandle<CBaseEntity>
-            m_nDepth: 0x19C4, // int32
-            m_hPedestal: 0x19C8, // CHandle<CDOTA_BaseNPC_Effigy_AghsFort>
-            m_hParticleSystem: 0x19CC, // CHandle<CBaseEntity>
-            m_hRoomGate: 0x19D8, // CHandle<CBaseAnimatingActivity>
-            m_bIsBeingChanneled: 0x19DC, // bool
-            m_flGoalCaptureProgress: 0x19E0, // float32
+            m_nOptionNumber: 0x1990, // int32
+            m_flMovePlayersRadius: 0x1994, // float32
+            m_nExitDirection: 0x1998, // CDOTA_BaseNPC_AghsFort_Watch_Tower::ExitDirection_t
+            m_vExitLocation: 0x199C, // Vector
+            m_nPathSelectedID: 0x19A8, // int32
+            m_nEncounterType: 0x19AC, // int32
+            m_bIsEliteEncounter: 0x19B0, // bool
+            m_bIsAscensionLevelPicker: 0x19B1, // bool
+            m_strEncounterName: 0x19B8, // CUtlSymbolLarge
+            m_strAscensionAbilities: 0x19C0, // CUtlSymbolLarge
+            m_hEffigy: 0x19C8, // CHandle<CBaseEntity>
+            m_nDepth: 0x19CC, // int32
+            m_hPedestal: 0x19D0, // CHandle<CDOTA_BaseNPC_Effigy_AghsFort>
+            m_hParticleSystem: 0x19D4, // CHandle<CBaseEntity>
+            m_hRoomGate: 0x19E0, // CHandle<CBaseAnimatingActivity>
+            m_bIsBeingChanneled: 0x19E4, // bool
+            m_flGoalCaptureProgress: 0x19E8, // float32
         },
         CDOTA_Unit_Hero_Kunkka: {
-            m_nFXIndex: 0x1EC0, // int32
+            m_nFXIndex: 0x1EC8, // int32
         },
         CDOTA_Modifier_EnragedWildkin_Hurricane: {
             m_vDirection: 0x19D8, // Vector
@@ -12469,22 +12471,22 @@ export const Schemas = {
         CPathQueryComponent: {
         },
         CDOTA_Unit_Hero_MonkeyKing: {
-            m_nTreeDisguise: 0x1EC0, // uint32
-            m_nPerchedTree: 0x1EC4, // uint32
-            m_vLastPos: 0x1EC8, // Vector
-            m_bIsOnCloud: 0x1ED4, // bool
-            m_fTotalDistOnCloud: 0x1ED8, // float32
-            m_fTotalDistoffCloud: 0x1EDC, // float32
-            m_fBackOnCloudThresh: 0x1EE0, // float32
+            m_nTreeDisguise: 0x1EC8, // uint32
+            m_nPerchedTree: 0x1ECC, // uint32
+            m_vLastPos: 0x1ED0, // Vector
+            m_bIsOnCloud: 0x1EDC, // bool
+            m_fTotalDistOnCloud: 0x1EE0, // float32
+            m_fTotalDistoffCloud: 0x1EE4, // float32
+            m_fBackOnCloudThresh: 0x1EE8, // float32
         },
         CDOTA_Unit_Earth_Spirit_Stone: {
         },
         CDOTA_Unit_Hero_Spectre: {
-            m_bArcanaKillstreakCompleted: 0x1EC0, // bool
-            m_unCurrentArcanaKillStreak: 0x1EC1, // uint8
-            m_unBestArcanaKillStreak: 0x1EC2, // uint8
-            m_nVictimPlayerID: 0x1EC4, // PlayerID_t
-            m_bArcanaKillstreakRecordBroken: 0x1EC8, // bool
+            m_bArcanaKillstreakCompleted: 0x1EC8, // bool
+            m_unCurrentArcanaKillStreak: 0x1EC9, // uint8
+            m_unBestArcanaKillStreak: 0x1ECA, // uint8
+            m_nVictimPlayerID: 0x1ECC, // PlayerID_t
+            m_bArcanaKillstreakRecordBroken: 0x1ED0, // bool
         },
         CDOTA_Unit_Hero_QueenOfPain: {
         },
@@ -12848,16 +12850,16 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Intelligence_12: {
         },
         CDOTA_Unit_Hero_Phoenix: {
-            m_nFXAmbientSpirits: 0x1EC0, // ParticleIndex_t
-            m_bDetermineAmbientEffect: 0x1EC4, // bool
+            m_nFXAmbientSpirits: 0x1EC8, // ParticleIndex_t
+            m_bDetermineAmbientEffect: 0x1ECC, // bool
         },
         CDOTA_Unit_SpiritBear: {
-            m_bShouldRespawn: 0x1EC0, // bool
-            m_bStolen: 0x1EC1, // bool
+            m_bShouldRespawn: 0x1EC8, // bool
+            m_bStolen: 0x1EC9, // bool
         },
         CDOTA_BaseNPC_CustomEffigy: {
-            m_unStatusEffectIndex: 0x1978, // uint32
-            m_hPedestal: 0x197C, // CHandle<CBaseEntity>
+            m_unStatusEffectIndex: 0x1980, // uint32
+            m_hPedestal: 0x1984, // CHandle<CBaseEntity>
         },
         CDOTA_Modifier_BlackDragon_SplashAttack: {
             range: 0x19D8, // float32
@@ -13456,7 +13458,7 @@ export const Schemas = {
             m_bInterpolationReadyToDraw: 0xA8, // bool
         },
         CDOTA_Unit_Brewmaster_PrimalFire: {
-            m_nFXAmbient: 0x1890, // ParticleIndex_t
+            m_nFXAmbient: 0x1898, // ParticleIndex_t
         },
         CTriggerSoundscape: {
             m_hSoundscape: 0x8D0, // CHandle<CEnvSoundscapeTriggerable>
@@ -13672,8 +13674,8 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_HP_800: {
         },
         CDOTA_Unit_Undying_Zombie: {
-            m_ctRespawn: 0x1890, // CountdownTimer
-            m_pTombstone: 0x18A8, // CDOTA_BaseNPC*
+            m_ctRespawn: 0x1898, // CountdownTimer
+            m_pTombstone: 0x18B0, // CDOTA_BaseNPC*
         },
         CDOTA_Modifier_Frogmen_Riverborn_Aura: {
             radius: 0x19D8, // float32
@@ -13787,10 +13789,10 @@ export const Schemas = {
             m_particleSystemName: 0x498, // CUtlSymbolLarge
         },
         CDOTA_NPC_Observer_Ward: {
-            m_iDuration: 0x1860, // int32
-            m_bPlacedInSpawnBox: 0x1864, // bool
-            m_flSpawnTime: 0x1868, // GameTime_t
-            m_nFoWTeam: 0x186C, // FowCustomTeams_t
+            m_iDuration: 0x1868, // int32
+            m_bPlacedInSpawnBox: 0x186C, // bool
+            m_flSpawnTime: 0x1870, // GameTime_t
+            m_nFoWTeam: 0x1874, // FowCustomTeams_t
         },
         CDOTA_Modifier_Aghsfort_Elemental_Wisp_Tether_Haste: {
             movement_speed: 0x19D8, // int32
@@ -13956,8 +13958,8 @@ export const Schemas = {
         CDOTA_Unit_Hero_AbyssalUnderlord: {
         },
         CDOTA_Unit_Brewmaster_PrimalEarth: {
-            m_nFXEarthAmbient1: 0x1890, // ParticleIndex_t
-            m_nFXEarthAmbient2: 0x1894, // ParticleIndex_t
+            m_nFXEarthAmbient1: 0x1898, // ParticleIndex_t
+            m_nFXEarthAmbient2: 0x189C, // ParticleIndex_t
         },
         CDOTA_Modifier_Watch_Tower_Capturing: {
         },
@@ -14126,8 +14128,8 @@ export const Schemas = {
             m_vecOldViewAngles: 0x240, // QAngle
         },
         CDOTA_Unit_Hero_Dawnbreaker: {
-            m_nAttackState: 0x1EC0, // int32
-            m_flLastAttackAnimAdvanceTime: 0x1EC4, // GameTime_t
+            m_nAttackState: 0x1EC8, // int32
+            m_flLastAttackAnimAdvanceTime: 0x1ECC, // GameTime_t
         },
         CRagdollPropAlias_physics_prop_ragdoll: {
         },
@@ -14776,7 +14778,7 @@ export const Schemas = {
             m_sceneNode: 0x80, // CGameSceneNode
         },
         CDOTA_NPC_Treant_EyesInTheForest: {
-            m_bIsBlind: 0x1860, // bool
+            m_bIsBlind: 0x1868, // bool
         },
         CDOTA_Unit_Hero_StormSpirit: {
         },
@@ -15002,7 +15004,7 @@ export const Schemas = {
         CDOTA_Unit_Hero_Ogre_Magi: {
         },
         CDOTA_BaseNPC_Fort: {
-            m_unRandomSeed: 0x1978, // uint32
+            m_unRandomSeed: 0x1980, // uint32
         },
         CDOTA_Modifier_AghsFort_Creature_SpikedCarapace: {
             stun_duration: 0x19D8, // float32
@@ -15067,7 +15069,8 @@ export const Schemas = {
             damage_reduction: 0x19E0, // int32
             bonus_attack_speed: 0x19E4, // int32
             m_flCurseDuration: 0x19E8, // float32
-            m_flCurseStartTime: 0x19EC, // float32
+            m_flTotalBonusTime: 0x19EC, // float32
+            m_flCurseStartTime: 0x19F0, // float32
         },
         CDOTA_Modifier_Winter_Wyvern_Arctic_Burn_Frost_Attack: {
             m_InFlightAttackRecords: 0x19D8, // CUtlVector<AttackRecord_t>
@@ -15899,9 +15902,9 @@ export const Schemas = {
         CDOTA_Unit_Hero_BountyHunter: {
         },
         CDOTA_Unit_Nian_Attachment: {
-            m_bAttachmentBroken: 0x1860, // bool
-            m_nfxIndex_tailgrow: 0x1864, // ParticleIndex_t
-            m_vecRecentDamage: 0x1868, // CUtlVector<NianDamageTaken_t>
+            m_bAttachmentBroken: 0x1868, // bool
+            m_nfxIndex_tailgrow: 0x186C, // ParticleIndex_t
+            m_vecRecentDamage: 0x1870, // CUtlVector<NianDamageTaken_t>
         },
         CDOTA_Modifier_Tornado_ExpirationTime: {
         },
@@ -16245,11 +16248,11 @@ export const Schemas = {
         CInfoData: {
         },
         CDOTA_Unit_Broodmother_Web: {
-            m_nFXIndex: 0x1860, // ParticleIndex_t
-            m_vecOrigin: 0x1864, // Vector
+            m_nFXIndex: 0x1868, // ParticleIndex_t
+            m_vecOrigin: 0x186C, // Vector
         },
         CDOTA_PhantomAssassin_Gravestone: {
-            m_nVictimPlayerID: 0x1860, // PlayerID_t
+            m_nVictimPlayerID: 0x1868, // PlayerID_t
         },
         CDOTA_Modifier_Ghost_FrostAttack_Slow: {
             movespeed_slow: 0x19D8, // int32
@@ -16357,7 +16360,7 @@ export const Schemas = {
         CDOTA_BaseNPC_Tusk_Sigil: {
         },
         CDOTA_Unit_Hero_Earthshaker: {
-            m_nFXDeath: 0x1EC0, // ParticleIndex_t
+            m_nFXDeath: 0x1EC8, // ParticleIndex_t
         },
         CDOTA_Item_Courier: {
         },
@@ -16684,9 +16687,9 @@ export const Schemas = {
         CPathSimpleAPI: {
         },
         CDOTA_Unit_Hero_Terrorblade: {
-            m_nFXDeath: 0x1EC0, // ParticleIndex_t
-            m_szResponseCriteria: 0x1EC8, // CUtlString
-            m_nArcanaColor: 0x1ED0, // uint32
+            m_nFXDeath: 0x1EC8, // ParticleIndex_t
+            m_szResponseCriteria: 0x1ED0, // CUtlString
+            m_nArcanaColor: 0x1ED8, // uint32
         },
         CDOTA_HeroTrigger: {
         },
@@ -16970,7 +16973,7 @@ export const Schemas = {
         CDOTA_BaseNPC_HoldoutTower_HeavySlow: {
         },
         CDOTA_BaseNPC_HoldoutTower: {
-            m_iTowerType: 0x19A0, // DOTA_HOLDOUT_TOWER_TYPE
+            m_iTowerType: 0x19A8, // DOTA_HOLDOUT_TOWER_TYPE
         },
         CEconEntity: {
             m_AttributeManager: 0x798, // CAttributeContainer
@@ -17087,7 +17090,7 @@ export const Schemas = {
             m_InZone3: 0x4E0, // CEntityIOOutput
         },
         CDOTA_Unit_Hero_PhantomLancer: {
-            m_bInventoryEnabled: 0x1EC0, // bool
+            m_bInventoryEnabled: 0x1EC8, // bool
         },
         CDOTAPropPlusPlayerGuildBanner: {
             m_nPlayerID: 0x9F0, // int32
@@ -17714,8 +17717,8 @@ export const Schemas = {
             m_WaitComplete: 0x50, // CPulse_ResumePoint
         },
         CDOTA_BaseNPC_ShadowShaman_SerpentWard: {
-            m_angle: 0x1860, // QAngle
-            m_iPoseParameterAim: 0x186C, // int32
+            m_angle: 0x1868, // QAngle
+            m_iPoseParameterAim: 0x1874, // int32
         },
         CDOTA_Ability_Aghsfort_Elemental_Wisp_Tether: {
             m_hTarget: 0x590, // CHandle<CBaseEntity>
@@ -18069,8 +18072,8 @@ export const Schemas = {
             m_vRenderOrigin: 0x10C, // Vector
         },
         CDOTA_BaseNPC_Trap_Ward: {
-            m_iszDefaultAnim: 0x19E0, // CUtlSymbolLarge
-            m_vTrapTargetLocal: 0x19E8, // Vector
+            m_iszDefaultAnim: 0x19E8, // CUtlSymbolLarge
+            m_vTrapTargetLocal: 0x19F0, // Vector
         },
         CDOTA_Modifier_ForestTrollHighPriest_HealAutocast: {
             health: 0x19D8, // int32
@@ -18617,92 +18620,92 @@ export const Schemas = {
             m_stickyItemSlot: 0x78, // QuickBuySlot_t
         },
         CDOTA_BaseNPC_Hero: {
-            m_flStrength: 0x18F8, // float32
-            m_flAgility: 0x18FC, // float32
-            m_flIntellect: 0x1900, // float32
-            m_flStrengthTotal: 0x1904, // float32
-            m_flAgilityTotal: 0x1908, // float32
-            m_flIntellectTotal: 0x190C, // float32
-            m_iRecentDamage: 0x1910, // int32
-            m_iPrimaryAttribute: 0x1914, // int32
-            m_flDeathTime: 0x1918, // GameTime_t
-            m_flLastDispellTime: 0x191C, // GameTime_t
-            m_flStrengthGain: 0x1920, // float32
-            m_flAgilityGain: 0x1924, // float32
-            m_flIntellectGain: 0x1928, // float32
-            m_flLastExtraHealth: 0x192C, // float32
-            m_flLastMaxHealth: 0x1930, // float32
-            m_flLastSuggestionTime: 0x1934, // float32
-            m_bItemsAddedToLoadout: 0x1938, // bool
-            m_bPregameItemsAddedToLoadout: 0x1939, // bool
-            m_hNewARDMHero: 0x193C, // CHandle<CBaseEntity>
-            m_fBuybackCooldown: 0x1940, // GameTime_t
-            m_fBuybackGoldLimit: 0x1944, // GameTime_t
-            m_nLastHealedAmount: 0x1948, // int32
-            m_flLastHealedTime: 0x194C, // float32
-            m_hLastHealEntity: 0x1950, // CHandle<CBaseEntity>
-            m_vRespawnPosition: 0x1954, // Vector
-            m_HeroDamageInfoArray: 0x1960, // CUtlVector<CDOTA_BaseNPC_Hero::sHeroDamageInfo>
-            m_vecRecentModifiers: 0x1978, // CUtlVector<CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo>
-            m_fMostRecentDamageTime: 0x1990, // GameTime_t
-            m_iAbilityPoints: 0x1994, // int32
-            m_iTotalAbilityPoints: 0x1998, // int32
-            m_iAghanimsAbilityPoints: 0x199C, // int32
-            m_iTotalAghanimsAbilityPoints: 0x19A0, // int32
-            m_iCurrentXP: 0x19A4, // int32
-            m_flRespawnTime: 0x19A8, // GameTime_t
-            m_flRespawnTimePenalty: 0x19AC, // float32
-            m_flTimeUntilRespawn: 0x19B0, // float32
-            m_flScriptRespawnTime: 0x19B4, // float32
-            m_flPendingRespawnTime: 0x19B8, // float32
-            m_bScriptDisableRespawns: 0x19BC, // bool
-            m_iPlayerID: 0x19C0, // PlayerID_t
-            m_iHeroFacetKey: 0x19C8, // HeroFacetKey_t
-            m_iEconSpecifyingPlayerID: 0x19D0, // PlayerID_t
-            m_iHeroID: 0x19D4, // HeroID_t
-            m_hReplicatingOtherHeroModel: 0x19D8, // CHandle<CDOTA_BaseNPC_Hero>
-            m_RespawnMusicTimer: 0x1A20, // CountdownTimer
-            m_HeroKillTimer: 0x1A38, // CountdownTimer
-            m_MultipleHeroKillTimer: 0x1A50, // CountdownTimer
-            m_MultipleLastHitTimer: 0x1A68, // CountdownTimer
-            m_iMultipleKillCount: 0x1A80, // int32
-            m_flKillStreakStartTime: 0x1A84, // float32
-            m_bDisableWearables: 0x1A88, // bool
-            m_hTogglableWearable: 0x1A8C, // CHandle<CDOTAWearableItem>[103]
-            m_KillInfo: 0x1C28, // CDOTA_BaseNPC_Hero::KillInfo_t
-            m_DirectorAbilityActivity: 0x1C48, // CountdownTimer
-            m_bReincarnating: 0x1C60, // bool
-            m_bCustomKillEffect: 0x1C61, // bool
-            m_flSpawnedAt: 0x1C64, // GameTime_t
-            m_hFacetAbilities: 0x1C68, // CNetworkUtlVectorBase<CHandle<CBaseEntity>>
-            m_vecHiddenLoadoutSlots: 0x1C80, // CNetworkUtlVectorBase<int32>
-            m_PurchaseItemTimer: 0x1C98, // CountdownTimer
-            m_NeutralItemTimer: 0x1CB0, // CountdownTimer
-            m_RetrieveItemsFromStashTimer: 0x1CC8, // CountdownTimer
-            m_RequestGoToSecretShopTimer: 0x1CE0, // CountdownTimer
-            m_iNextItemToPurchase: 0x1CF8, // int32
-            m_bDoesNextItemCompleteRecipe: 0x1CFC, // bool
-            m_Loadout: 0x1D00, // CUtlVector<sLoadoutItem>
-            m_BuildingOrBuilt: 0x1D18, // CUtlVector<std::pair<AbilityID_t,bool>>
-            m_TPScroll: 0x1D30, // sLoadoutItem
-            m_Smoke: 0x1D48, // sLoadoutItem
-            m_Dust: 0x1D60, // sLoadoutItem
-            m_Gem: 0x1D78, // sLoadoutItem
-            m_SentryWard: 0x1D90, // sLoadoutItem
-            m_ObserverWard: 0x1DA8, // sLoadoutItem
-            m_bAutoPurchaseItems: 0x1DC0, // bool
-            m_bBuybackDisabled: 0x1DC1, // bool
-            m_hPets: 0x1DC8, // CUtlVector<CHandle<CDOTA_BaseNPC_Pet>>
-            m_bPreventPetSpawn: 0x1DE0, // bool
-            m_MusicProbabilityGank: 0x1DE8, // CDOTAMusicProbabilityEntry
-            m_strCustomKillEffect: 0x1E38, // CUtlString
-            m_strCustomHexModel: 0x1E40, // CUtlString
-            m_nKillStreakFX: 0x1E48, // ParticleIndex_t
-            m_vecItemPurchaseHistory: 0x1E50, // CUtlVector<sAcquireHistory>
-            m_vecAbilitySkillHistory: 0x1E68, // CUtlVector<sAcquireHistory>
-            m_vecNeutralItemEquippedHistory: 0x1E80, // CUtlVector<sAcquireHistory>
-            m_vecExpiredIllusions: 0x1EA0, // CUtlVector<CHandle<CDOTA_BaseNPC_Hero>>
-            m_flLastTimeLookedAtByDirector: 0x1EBC, // float32
+            m_flStrength: 0x1900, // float32
+            m_flAgility: 0x1904, // float32
+            m_flIntellect: 0x1908, // float32
+            m_flStrengthTotal: 0x190C, // float32
+            m_flAgilityTotal: 0x1910, // float32
+            m_flIntellectTotal: 0x1914, // float32
+            m_iRecentDamage: 0x1918, // int32
+            m_iPrimaryAttribute: 0x191C, // int32
+            m_flDeathTime: 0x1920, // GameTime_t
+            m_flLastDispellTime: 0x1924, // GameTime_t
+            m_flStrengthGain: 0x1928, // float32
+            m_flAgilityGain: 0x192C, // float32
+            m_flIntellectGain: 0x1930, // float32
+            m_flLastExtraHealth: 0x1934, // float32
+            m_flLastMaxHealth: 0x1938, // float32
+            m_flLastSuggestionTime: 0x193C, // float32
+            m_bItemsAddedToLoadout: 0x1940, // bool
+            m_bPregameItemsAddedToLoadout: 0x1941, // bool
+            m_hNewARDMHero: 0x1944, // CHandle<CBaseEntity>
+            m_fBuybackCooldown: 0x1948, // GameTime_t
+            m_fBuybackGoldLimit: 0x194C, // GameTime_t
+            m_nLastHealedAmount: 0x1950, // int32
+            m_flLastHealedTime: 0x1954, // float32
+            m_hLastHealEntity: 0x1958, // CHandle<CBaseEntity>
+            m_vRespawnPosition: 0x195C, // Vector
+            m_HeroDamageInfoArray: 0x1968, // CUtlVector<CDOTA_BaseNPC_Hero::sHeroDamageInfo>
+            m_vecRecentModifiers: 0x1980, // CUtlVector<CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo>
+            m_fMostRecentDamageTime: 0x1998, // GameTime_t
+            m_iAbilityPoints: 0x199C, // int32
+            m_iTotalAbilityPoints: 0x19A0, // int32
+            m_iAghanimsAbilityPoints: 0x19A4, // int32
+            m_iTotalAghanimsAbilityPoints: 0x19A8, // int32
+            m_iCurrentXP: 0x19AC, // int32
+            m_flRespawnTime: 0x19B0, // GameTime_t
+            m_flRespawnTimePenalty: 0x19B4, // float32
+            m_flTimeUntilRespawn: 0x19B8, // float32
+            m_flScriptRespawnTime: 0x19BC, // float32
+            m_flPendingRespawnTime: 0x19C0, // float32
+            m_bScriptDisableRespawns: 0x19C4, // bool
+            m_iPlayerID: 0x19C8, // PlayerID_t
+            m_iHeroFacetKey: 0x19D0, // HeroFacetKey_t
+            m_iEconSpecifyingPlayerID: 0x19D8, // PlayerID_t
+            m_iHeroID: 0x19DC, // HeroID_t
+            m_hReplicatingOtherHeroModel: 0x19E0, // CHandle<CDOTA_BaseNPC_Hero>
+            m_RespawnMusicTimer: 0x1A28, // CountdownTimer
+            m_HeroKillTimer: 0x1A40, // CountdownTimer
+            m_MultipleHeroKillTimer: 0x1A58, // CountdownTimer
+            m_MultipleLastHitTimer: 0x1A70, // CountdownTimer
+            m_iMultipleKillCount: 0x1A88, // int32
+            m_flKillStreakStartTime: 0x1A8C, // float32
+            m_bDisableWearables: 0x1A90, // bool
+            m_hTogglableWearable: 0x1A94, // CHandle<CDOTAWearableItem>[103]
+            m_KillInfo: 0x1C30, // CDOTA_BaseNPC_Hero::KillInfo_t
+            m_DirectorAbilityActivity: 0x1C50, // CountdownTimer
+            m_bReincarnating: 0x1C68, // bool
+            m_bCustomKillEffect: 0x1C69, // bool
+            m_flSpawnedAt: 0x1C6C, // GameTime_t
+            m_hFacetAbilities: 0x1C70, // CNetworkUtlVectorBase<CHandle<CBaseEntity>>
+            m_vecHiddenLoadoutSlots: 0x1C88, // CNetworkUtlVectorBase<int32>
+            m_PurchaseItemTimer: 0x1CA0, // CountdownTimer
+            m_NeutralItemTimer: 0x1CB8, // CountdownTimer
+            m_RetrieveItemsFromStashTimer: 0x1CD0, // CountdownTimer
+            m_RequestGoToSecretShopTimer: 0x1CE8, // CountdownTimer
+            m_iNextItemToPurchase: 0x1D00, // int32
+            m_bDoesNextItemCompleteRecipe: 0x1D04, // bool
+            m_Loadout: 0x1D08, // CUtlVector<sLoadoutItem>
+            m_BuildingOrBuilt: 0x1D20, // CUtlVector<std::pair<AbilityID_t,bool>>
+            m_TPScroll: 0x1D38, // sLoadoutItem
+            m_Smoke: 0x1D50, // sLoadoutItem
+            m_Dust: 0x1D68, // sLoadoutItem
+            m_Gem: 0x1D80, // sLoadoutItem
+            m_SentryWard: 0x1D98, // sLoadoutItem
+            m_ObserverWard: 0x1DB0, // sLoadoutItem
+            m_bAutoPurchaseItems: 0x1DC8, // bool
+            m_bBuybackDisabled: 0x1DC9, // bool
+            m_hPets: 0x1DD0, // CUtlVector<CHandle<CDOTA_BaseNPC_Pet>>
+            m_bPreventPetSpawn: 0x1DE8, // bool
+            m_MusicProbabilityGank: 0x1DF0, // CDOTAMusicProbabilityEntry
+            m_strCustomKillEffect: 0x1E40, // CUtlString
+            m_strCustomHexModel: 0x1E48, // CUtlString
+            m_nKillStreakFX: 0x1E50, // ParticleIndex_t
+            m_vecItemPurchaseHistory: 0x1E58, // CUtlVector<sAcquireHistory>
+            m_vecAbilitySkillHistory: 0x1E70, // CUtlVector<sAcquireHistory>
+            m_vecNeutralItemEquippedHistory: 0x1E88, // CUtlVector<sAcquireHistory>
+            m_vecExpiredIllusions: 0x1EA8, // CUtlVector<CHandle<CDOTA_BaseNPC_Hero>>
+            m_flLastTimeLookedAtByDirector: 0x1EC4, // float32
         },
         CDOTA_Item_Enhancement_Titanic: {
         },
@@ -19402,10 +19405,10 @@ export const Schemas = {
         CDOTA_Unit_Hero_Omniknight: {
         },
         CDOTA_BaseNPC_Creep: {
-            m_KillInfo: 0x1860, // CDOTA_CreepKillInfo
-            m_Lane: 0x1880, // DOTA_LANE
-            m_bPushback: 0x1884, // bool
-            m_flAim: 0x1888, // float32
+            m_KillInfo: 0x1868, // CDOTA_CreepKillInfo
+            m_Lane: 0x1888, // DOTA_LANE
+            m_bPushback: 0x188C, // bool
+            m_flAim: 0x1890, // float32
         },
         CTriggerRemove: {
             m_OnRemove: 0x8D0, // CEntityIOOutput
@@ -19534,8 +19537,8 @@ export const Schemas = {
             m_nAbilityID: 0x38, // CNetworkUtlVectorBase<AbilityID_t>
         },
         CDOTA_Unit_Frogling_Event: {
-            m_hHeroHandle: 0x1860, // CHandle<CDOTA_BaseNPC_Hero>
-            m_nFroglingIndex: 0x1864, // int32
+            m_hHeroHandle: 0x1868, // CHandle<CDOTA_BaseNPC_Hero>
+            m_nFroglingIndex: 0x186C, // int32
         },
         CDOTA_Modifier_ForestTrollHighPriest_HealAmp_Bonus: {
             heal_amp: 0x19D8, // float32
@@ -19966,9 +19969,9 @@ export const Schemas = {
             m_WakeResume: 0x48, // CPulse_ResumePoint
         },
         CDOTA_Unit_Nian: {
-            m_vecRecentDamage: 0x19E0, // CUtlVector<NianDamageTaken_t>
-            m_hTail: 0x19F8, // CHandle<CBaseEntity>
-            m_hHorn: 0x19FC, // CHandle<CBaseEntity>
+            m_vecRecentDamage: 0x19E8, // CUtlVector<NianDamageTaken_t>
+            m_hTail: 0x1A00, // CHandle<CBaseEntity>
+            m_hHorn: 0x1A04, // CHandle<CBaseEntity>
         },
         CDOTA_Unit_Hero_Pudge: {
         },
@@ -20100,16 +20103,16 @@ export const Schemas = {
         CDOTA_Unit_Hero_DrowRanger: {
         },
         CDOTA_BaseNPC_Pet: {
-            m_hHeroHandle: 0x1860, // CHandle<CDOTA_BaseNPC_Hero>
-            m_flPetThreatLevel: 0x1864, // float32
-            m_bReadyToPerformCoopTeleport: 0x1868, // bool
-            m_bSupportsCoopTeleport: 0x1869, // bool
-            m_nCoopState: 0x186C, // PetCoopStates_t
-            m_strPickupItemModel: 0x1870, // CUtlString
-            m_hCarriedItem: 0x1878, // CHandle<CDOTA_Pet_CarriedItem>
-            m_nPetLevel: 0x187C, // int32
-            m_nLevelupRule: 0x1880, // PetLevelup_Rule_t
-            m_nXPCompendiumEventID: 0x1888, // int32
+            m_hHeroHandle: 0x1868, // CHandle<CDOTA_BaseNPC_Hero>
+            m_flPetThreatLevel: 0x186C, // float32
+            m_bReadyToPerformCoopTeleport: 0x1870, // bool
+            m_bSupportsCoopTeleport: 0x1871, // bool
+            m_nCoopState: 0x1874, // PetCoopStates_t
+            m_strPickupItemModel: 0x1878, // CUtlString
+            m_hCarriedItem: 0x1880, // CHandle<CDOTA_Pet_CarriedItem>
+            m_nPetLevel: 0x1884, // int32
+            m_nLevelupRule: 0x1888, // PetLevelup_Rule_t
+            m_nXPCompendiumEventID: 0x1890, // int32
         },
         CDOTA_Modifier_OgreMagi_FrostArmor: {
             armor_bonus: 0x19D8, // int32
@@ -20427,7 +20430,7 @@ export const Schemas = {
             m_flPrevCycleForAnimEventDetection: 0x24, // float32
         },
         CDOTA_BaseNPC_Creep_Lane: {
-            m_nFoWTeam: 0x18AC, // FowCustomTeams_t
+            m_nFoWTeam: 0x18B4, // FowCustomTeams_t
         },
         CPhysMagnet: {
             m_OnMagnetAttach: 0x780, // CEntityIOOutput
@@ -20670,44 +20673,44 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_All_Stats_15: {
         },
         CDOTA_BaseNPC_Building: {
-            m_iDamageLevel: 0x1860, // int32
-            m_nFXIndex: 0x1868, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_nFXIndexDestruction: 0x1870, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_angInitialAngles: 0x1878, // QAngle
-            m_hHeroStatueSequence: 0x1884, // HSequence
-            m_hConstantLayerSequence: 0x1888, // HSequence
-            m_fHeroStatueCycle: 0x188C, // float32
-            m_iHeroStatueStatusEffectIndex: 0x1890, // int32
-            m_bHeroStatue: 0x1894, // bool
-            m_bBattleCup: 0x1895, // bool
-            m_HeroStatueInscription: 0x1896, // char[32]
-            m_iHeroStatueOwnerPlayerID: 0x18B8, // PlayerID_t
-            m_ParticleTintColor: 0x18BC, // Color
-            m_sDestroySnd: 0x18C0, // CUtlSymbolLarge
-            m_sDmgLvl1Snd: 0x18C8, // CUtlSymbolLarge
-            m_sDmgLvl2Snd: 0x18D0, // CUtlSymbolLarge
-            m_iszLinkedUnit: 0x18D8, // CUtlSymbolLarge
-            m_iszAmbientEffectName: 0x18E0, // CUtlSymbolLarge
-            m_iszDestructionEffectName: 0x18E8, // CUtlSymbolLarge
-            m_iszDamageModelLevel1: 0x18F0, // CUtlSymbolLarge
-            m_iszDamageModelLevel2: 0x18F8, // CUtlSymbolLarge
-            m_iszDamageEffectLevel1: 0x1900, // CUtlSymbolLarge
-            m_iszDamageEffectLevel2: 0x1908, // CUtlSymbolLarge
-            m_flDamageThresholdLevel1: 0x1910, // float32
-            m_flDamageThresholdLevel2: 0x1914, // float32
-            m_bVulnerableOnCreepSpawn: 0x1918, // bool
-            m_bHasOverriddenDestructionEffect: 0x1919, // bool
-            m_iUpgradeIdentifier: 0x191C, // int32
-            m_iInvulnCount: 0x1920, // int32
-            m_iPlayerOwner: 0x1924, // int32
-            m_bIsDireSide: 0x1928, // bool
-            m_Lane: 0x192C, // DOTA_LANE
-            m_fAmountAlongLane: 0x1930, // float32[2]
-            m_vOverrideInitialAngles: 0x1938, // Vector
-            m_vOverrideInitialAnglesBG: 0x1944, // Vector
-            m_nOverrideInitialAngles: 0x1950, // int32
-            m_IdleRareAnimationTime: 0x1958, // CountdownTimer
-            m_nFoWTeam: 0x1970, // FowCustomTeams_t
+            m_iDamageLevel: 0x1868, // int32
+            m_nFXIndex: 0x1870, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
+            m_nFXIndexDestruction: 0x1878, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
+            m_angInitialAngles: 0x1880, // QAngle
+            m_hHeroStatueSequence: 0x188C, // HSequence
+            m_hConstantLayerSequence: 0x1890, // HSequence
+            m_fHeroStatueCycle: 0x1894, // float32
+            m_iHeroStatueStatusEffectIndex: 0x1898, // int32
+            m_bHeroStatue: 0x189C, // bool
+            m_bBattleCup: 0x189D, // bool
+            m_HeroStatueInscription: 0x189E, // char[32]
+            m_iHeroStatueOwnerPlayerID: 0x18C0, // PlayerID_t
+            m_ParticleTintColor: 0x18C4, // Color
+            m_sDestroySnd: 0x18C8, // CUtlSymbolLarge
+            m_sDmgLvl1Snd: 0x18D0, // CUtlSymbolLarge
+            m_sDmgLvl2Snd: 0x18D8, // CUtlSymbolLarge
+            m_iszLinkedUnit: 0x18E0, // CUtlSymbolLarge
+            m_iszAmbientEffectName: 0x18E8, // CUtlSymbolLarge
+            m_iszDestructionEffectName: 0x18F0, // CUtlSymbolLarge
+            m_iszDamageModelLevel1: 0x18F8, // CUtlSymbolLarge
+            m_iszDamageModelLevel2: 0x1900, // CUtlSymbolLarge
+            m_iszDamageEffectLevel1: 0x1908, // CUtlSymbolLarge
+            m_iszDamageEffectLevel2: 0x1910, // CUtlSymbolLarge
+            m_flDamageThresholdLevel1: 0x1918, // float32
+            m_flDamageThresholdLevel2: 0x191C, // float32
+            m_bVulnerableOnCreepSpawn: 0x1920, // bool
+            m_bHasOverriddenDestructionEffect: 0x1921, // bool
+            m_iUpgradeIdentifier: 0x1924, // int32
+            m_iInvulnCount: 0x1928, // int32
+            m_iPlayerOwner: 0x192C, // int32
+            m_bIsDireSide: 0x1930, // bool
+            m_Lane: 0x1934, // DOTA_LANE
+            m_fAmountAlongLane: 0x1938, // float32[2]
+            m_vOverrideInitialAngles: 0x1940, // Vector
+            m_vOverrideInitialAnglesBG: 0x194C, // Vector
+            m_nOverrideInitialAngles: 0x1958, // int32
+            m_IdleRareAnimationTime: 0x1960, // CountdownTimer
+            m_nFoWTeam: 0x1978, // FowCustomTeams_t
         },
         CDOTA_Modifier_BigThunderLizard_Wardrums_Aura: {
             speed_bonus: 0x19D8, // int32
@@ -21492,10 +21495,10 @@ export const Schemas = {
         CDOTA_Unit_Fountain: {
         },
         CDOTA_Unit_Hero_Tiny: {
-            m_hTreeWearable: 0x1EC0, // CHandle<CBaseEntity>
-            m_nFXIndexScepterAmbient: 0x1EC4, // ParticleIndex_t
-            m_hIllusionOwner: 0x1EC8, // CHandle<CDOTA_BaseNPC>
-            m_bIllusionHasTree: 0x1ECC, // bool
+            m_hTreeWearable: 0x1EC8, // CHandle<CBaseEntity>
+            m_nFXIndexScepterAmbient: 0x1ECC, // ParticleIndex_t
+            m_hIllusionOwner: 0x1ED0, // CHandle<CDOTA_BaseNPC>
+            m_bIllusionHasTree: 0x1ED4, // bool
         },
         CDOTA_NPC_DataDriven: {
         },
@@ -21540,10 +21543,11 @@ export const Schemas = {
             bonus_movement_speed_druid: 0x19D8, // int32
             bonus_movement_speed_bear: 0x19DC, // int32
             lifesteal_percent: 0x19E0, // int32
-            armor: 0x19E4, // int32
-            active_bonus: 0x19E8, // int32
-            lifesteal_both_ways: 0x19EC, // int32
-            m_hTarget: 0x19F0, // CHandle<CBaseEntity>
+            creep_lifesteal_penalty: 0x19E4, // int32
+            armor: 0x19E8, // int32
+            active_bonus: 0x19EC, // int32
+            lifesteal_both_ways: 0x19F0, // int32
+            m_hTarget: 0x19F4, // CHandle<CBaseEntity>
         },
         CDOTA_Ability_Alchemist_UnstableConcoctionThrow: {
             m_fCookTime: 0x580, // float32
@@ -21671,6 +21675,7 @@ export const Schemas = {
             m_SpiritDefs: 0x580, // CUtlVector<sSpiritDef>
             m_nWispDirection: 0x598, // int32
             spirit_amount: 0x59C, // int32
+            m_flStartSpiritRadius: 0x5A0, // float32
         },
         CEnvSoundscapeProxy: {
             m_MainSoundscapeName: 0x528, // CUtlSymbolLarge
@@ -22401,7 +22406,7 @@ export const Schemas = {
             m_pGameRules: 0x498, // CDOTAGameRules*
         },
         CDOTA_Unit_Hero_Nevermore: {
-            m_nFXDeath: 0x1EC0, // ParticleIndex_t
+            m_nFXDeath: 0x1EC8, // ParticleIndex_t
         },
         CDOTA_Modifier_DarkTrollWarlord_Ensnare: {
         },
@@ -22784,6 +22789,8 @@ export const Schemas = {
             m_nDotaTeam: 0x788, // int32
             m_flLastSpawnTime: 0x78C, // float32
             m_flNextSpawnTime: 0x790, // float32
+        },
+        CDOTA_Modifier_Item_Foragers_Nuts_Consumed: {
         },
         CDOTA_Modifier_Item_Force_Field: {
             m_bAppliesToCreeps: 0x19D8, // bool
@@ -24150,7 +24157,7 @@ export const Schemas = {
             strValueB: 0x8, // CUtlSymbolLarge
         },
         CDOTA_NPC_Lantern: {
-            m_szInteractAbilityName: 0x1978, // CUtlSymbolLarge
+            m_szInteractAbilityName: 0x1980, // CUtlSymbolLarge
         },
         CTriggerCallback: {
         },
@@ -24234,8 +24241,8 @@ export const Schemas = {
             m_flSizeSqr: 0x668, // float32
         },
         CDOTA_NPC_Observer_Ward_TrueSight: {
-            m_flTrueSight: 0x1870, // float32
-            m_hAbilityEntity: 0x1874, // CEntityHandle
+            m_flTrueSight: 0x1878, // float32
+            m_hAbilityEntity: 0x187C, // CEntityHandle
         },
         CDOTA_Modifier_Mutation_CritChance_Team_Aura: {
         },
@@ -24747,8 +24754,8 @@ export const Schemas = {
         CGameRulesProxy: {
         },
         CDOTA_BaseNPC_Thinker: {
-            m_bSendToAllPlayers: 0x1860, // bool
-            m_bSendToClients: 0x1861, // bool
+            m_bSendToAllPlayers: 0x1868, // bool
+            m_bSendToClients: 0x1869, // bool
         },
         CDOTA_Modifier_Fountain_Glyph: {
         },
@@ -24972,7 +24979,7 @@ export const Schemas = {
         CIngameEvent_TI2020: {
         },
         CDOTA_BaseNPC_Launchpad: {
-            m_iStrength: 0x1978, // int32
+            m_iStrength: 0x1980, // int32
         },
         CDOTA_Modifier_Seasonal_Summon_TI9_Balloon_Thinker: {
             speed: 0x19D8, // float32
@@ -25113,7 +25120,7 @@ export const Schemas = {
             nPrevDamageLevel: 0xC, // int32
         },
         CDOTA_BaseNPC_Phantom_Assassin_GroundDagger: {
-            m_nFXIndex: 0x1860, // ParticleIndex_t
+            m_nFXIndex: 0x1868, // ParticleIndex_t
         },
         CDOTA_Unit_Hero_Sven: {
         },
@@ -26330,23 +26337,23 @@ export const Schemas = {
             m_bSelfReference: 0x82, // bool
         },
         CDOTA_BaseNPC_Largo_Frogling: {
-            m_hHeroHandle: 0x1860, // CHandle<CDOTA_BaseNPC_Hero>
-            m_nFroglingIndex: 0x1864, // int32
+            m_hHeroHandle: 0x1868, // CHandle<CDOTA_BaseNPC_Hero>
+            m_nFroglingIndex: 0x186C, // int32
         },
         CDOTA_Unit_Hero_Undying: {
         },
         CDOTA_Unit_Courier: {
-            m_bUnitRespawned: 0x1860, // bool
-            m_bPreUpdateFlyingCourier: 0x1861, // bool
-            m_nSoleControllingPlayer: 0x1864, // PlayerID_t
-            m_bFlyingCourier: 0x1868, // bool
-            m_flRespawnTime: 0x186C, // GameTime_t
-            m_nCourierState: 0x1870, // CourierState_t
-            m_hCourierStateEntity: 0x1874, // CHandle<CBaseEntity>
-            m_strCourierModel: 0x1878, // CUtlString
-            m_strFlyingCourierModel: 0x1880, // CUtlString
-            m_vSpawnLocation: 0x1888, // Vector
-            m_flLastLeavingFountainToastTime: 0x1894, // GameTime_t
+            m_bUnitRespawned: 0x1868, // bool
+            m_bPreUpdateFlyingCourier: 0x1869, // bool
+            m_nSoleControllingPlayer: 0x186C, // PlayerID_t
+            m_bFlyingCourier: 0x1870, // bool
+            m_flRespawnTime: 0x1874, // GameTime_t
+            m_nCourierState: 0x1878, // CourierState_t
+            m_hCourierStateEntity: 0x187C, // CHandle<CBaseEntity>
+            m_strCourierModel: 0x1880, // CUtlString
+            m_strFlyingCourierModel: 0x1888, // CUtlString
+            m_vSpawnLocation: 0x1890, // Vector
+            m_flLastLeavingFountainToastTime: 0x189C, // GameTime_t
         },
         CDOTA_NPC_Lich_Ice_Spire: {
         },
@@ -26631,54 +26638,54 @@ export const Schemas = {
         CFilterMultipleAPI: {
         },
         CDOTA_BaseNPC_Creature: {
-            m_bInitialized: 0x1890, // bool
-            m_bCreatureCanRespawn: 0x1891, // bool
-            m_bUsesGestureBasedAttackAnimation: 0x1892, // bool
-            m_bIsHybridFlyer: 0x1893, // bool
-            m_bRequiresReachingEndPath: 0x1894, // bool
-            m_bAggroOwnerOnDamage: 0x1895, // bool
-            m_bReceivedAggroOnDamageOrder: 0x1896, // bool
-            m_vCreatureStates: 0x1898, // CUtlVector<CreatureStateData_t>
-            m_pszDefaultState: 0x18B0, // char*
-            m_pszCurrentState: 0x18B8, // char*
-            m_nHPGain: 0x18C0, // int32
-            m_nManaGain: 0x18C4, // int32
-            m_flHPRegenGain: 0x18C8, // float32
-            m_flManaRegenGain: 0x18CC, // float32
-            m_nDamageGain: 0x18D0, // int32
-            m_flArmorGain: 0x18D4, // float32
-            m_flMagicResistGain: 0x18D8, // float32
-            m_flDisableResistGain: 0x18DC, // float32
-            m_flAttackTimeGain: 0x18E0, // float32
-            m_nMoveSpeedGain: 0x18E4, // int32
-            m_nBountyGain: 0x18E8, // int32
-            m_nXPGain: 0x18EC, // int32
-            m_nPermanentDesire: 0x18F0, // int32
-            m_nCreatureDesire: 0x18F4, // int32
-            m_nCurrentCastBehavior: 0x18F8, // int32
-            m_nEconItemGroup: 0x18FC, // int32
-            m_bIsBuildingAggressive: 0x1900, // bool
-            m_bIsHeroAggressive: 0x1901, // bool
-            m_bDisableClumpingBehavior: 0x1902, // bool
-            m_flDisableResistance: 0x1904, // float32
-            m_flUltimateDisableResistance: 0x1908, // float32
-            m_bHasOffensiveAbility: 0x190C, // bool
-            m_vOffensiveAbilities: 0x1910, // CUtlVector<CreatureAbilityData_t>
-            m_bHasDefensiveAbility: 0x1928, // bool
-            m_vDefensiveAbilities: 0x1930, // CUtlVector<CreatureAbilityData_t>
-            m_bHasEscapeAbility: 0x1948, // bool
-            m_vEscapeAbilities: 0x1950, // CUtlVector<CreatureAbilityData_t>
-            m_pLastUsedAbility: 0x1968, // CDOTABaseAbility*
-            m_vDesiredCastLocation: 0x1970, // Vector
-            m_pDesiredNPCTarget: 0x1980, // CDOTA_BaseNPC*
-            m_pEscortTarget: 0x1988, // CDOTA_BaseNPC*
-            m_vLastDamageSource: 0x1990, // Vector
-            m_bIsChampion: 0x199C, // bool
-            m_vItemDropData: 0x19A0, // CUtlVector<ItemDropData_t*>
-            m_vecAttachWearableItemDefs: 0x19B8, // CUtlVector<WearableData_t>
-            m_flRespawnTime: 0x19D0, // GameTime_t
-            m_bIsCurrentlyChanneling: 0x19D4, // bool
-            m_flChannelCycle: 0x19D8, // float32
+            m_bInitialized: 0x1898, // bool
+            m_bCreatureCanRespawn: 0x1899, // bool
+            m_bUsesGestureBasedAttackAnimation: 0x189A, // bool
+            m_bIsHybridFlyer: 0x189B, // bool
+            m_bRequiresReachingEndPath: 0x189C, // bool
+            m_bAggroOwnerOnDamage: 0x189D, // bool
+            m_bReceivedAggroOnDamageOrder: 0x189E, // bool
+            m_vCreatureStates: 0x18A0, // CUtlVector<CreatureStateData_t>
+            m_pszDefaultState: 0x18B8, // char*
+            m_pszCurrentState: 0x18C0, // char*
+            m_nHPGain: 0x18C8, // int32
+            m_nManaGain: 0x18CC, // int32
+            m_flHPRegenGain: 0x18D0, // float32
+            m_flManaRegenGain: 0x18D4, // float32
+            m_nDamageGain: 0x18D8, // int32
+            m_flArmorGain: 0x18DC, // float32
+            m_flMagicResistGain: 0x18E0, // float32
+            m_flDisableResistGain: 0x18E4, // float32
+            m_flAttackTimeGain: 0x18E8, // float32
+            m_nMoveSpeedGain: 0x18EC, // int32
+            m_nBountyGain: 0x18F0, // int32
+            m_nXPGain: 0x18F4, // int32
+            m_nPermanentDesire: 0x18F8, // int32
+            m_nCreatureDesire: 0x18FC, // int32
+            m_nCurrentCastBehavior: 0x1900, // int32
+            m_nEconItemGroup: 0x1904, // int32
+            m_bIsBuildingAggressive: 0x1908, // bool
+            m_bIsHeroAggressive: 0x1909, // bool
+            m_bDisableClumpingBehavior: 0x190A, // bool
+            m_flDisableResistance: 0x190C, // float32
+            m_flUltimateDisableResistance: 0x1910, // float32
+            m_bHasOffensiveAbility: 0x1914, // bool
+            m_vOffensiveAbilities: 0x1918, // CUtlVector<CreatureAbilityData_t>
+            m_bHasDefensiveAbility: 0x1930, // bool
+            m_vDefensiveAbilities: 0x1938, // CUtlVector<CreatureAbilityData_t>
+            m_bHasEscapeAbility: 0x1950, // bool
+            m_vEscapeAbilities: 0x1958, // CUtlVector<CreatureAbilityData_t>
+            m_pLastUsedAbility: 0x1970, // CDOTABaseAbility*
+            m_vDesiredCastLocation: 0x1978, // Vector
+            m_pDesiredNPCTarget: 0x1988, // CDOTA_BaseNPC*
+            m_pEscortTarget: 0x1990, // CDOTA_BaseNPC*
+            m_vLastDamageSource: 0x1998, // Vector
+            m_bIsChampion: 0x19A4, // bool
+            m_vItemDropData: 0x19A8, // CUtlVector<ItemDropData_t*>
+            m_vecAttachWearableItemDefs: 0x19C0, // CUtlVector<WearableData_t>
+            m_flRespawnTime: 0x19D8, // GameTime_t
+            m_bIsCurrentlyChanneling: 0x19DC, // bool
+            m_flChannelCycle: 0x19E0, // float32
         },
         CDOTA_Modifier_Aghsfort_Aziyog_Underlord_Portal_Warp_Channel: {
             m_nfxTargetTp: 0x19D8, // ParticleIndex_t
@@ -27162,8 +27169,8 @@ export const Schemas = {
             m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
         },
         CDOTA_BaseNPC_Tinker_Turret: {
-            m_angle: 0x1860, // QAngle
-            m_iPoseParameterAim: 0x186C, // int32
+            m_angle: 0x1868, // QAngle
+            m_iPoseParameterAim: 0x1874, // int32
         },
         CDOTA_Modifier_FelBeast_Haunt_OnDeath: {
             projectile_speed: 0x19D8, // int32
@@ -27405,8 +27412,8 @@ export const Schemas = {
         CDOTA_Unit_Hero_Brewmaster: {
         },
         CDOTA_Unit_Hero_Windrunner: {
-            m_nTargetAngle: 0x1EC0, // int32
-            m_nFXDeath: 0x1EC4, // ParticleIndex_t
+            m_nTargetAngle: 0x1EC8, // int32
+            m_nFXDeath: 0x1ECC, // ParticleIndex_t
         },
         CDOTA_NPCSpawnerGoodMid: {
         },
@@ -27586,7 +27593,7 @@ export const Schemas = {
             m_Item: 0x68, // CEconItemView
         },
         CDOTA_Unit_Announcer: {
-            m_iAudienceTeam: 0x1860, // int32
+            m_iAudienceTeam: 0x1868, // int32
         },
         CDOTA_Modifier_Passive_Lotus_Pool_Building: {
         },
@@ -28616,7 +28623,7 @@ export const Schemas = {
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Crystal_Maiden_6: {
         },
         CDOTA_Unit_Hero_Muerta: {
-            m_hDoubleShotTarget: 0x1EC0, // CHandle<CBaseEntity>
+            m_hDoubleShotTarget: 0x1EC8, // CHandle<CBaseEntity>
         },
         CDOTA_Modifier_EnragedWildkin_ToughnessAura_Bonus: {
             bonus_armor: 0x19D8, // int32
@@ -28841,8 +28848,8 @@ export const Schemas = {
         CDOTA_Unit_Hero_Bristleback: {
         },
         CDOTA_Unit_Tidehunter_Anchor: {
-            m_hTarget: 0x1860, // CHandle<CBaseEntity>
-            m_vProjectilePosition: 0x1864, // Vector
+            m_hTarget: 0x1868, // CHandle<CBaseEntity>
+            m_vProjectilePosition: 0x186C, // Vector
         },
         CDOTA_Modifier_AghsFort_PlayerTransform: {
             m_nCourierItemId: 0x19D8, // itemid_t
@@ -29008,13 +29015,13 @@ export const Schemas = {
         DestructiblePartDamageRequestAPI: {
         },
         CDOTA_Unit_Hero_Grimstroke: {
-            m_nFXDeath: 0x1EC0, // ParticleIndex_t
+            m_nFXDeath: 0x1EC8, // ParticleIndex_t
         },
         CDOTA_Unit_Hero_Rubick: {
-            m_stolenAbilityColorHSV1: 0x1EC0, // Vector
-            m_stolenAbilityColorHSV2: 0x1ECC, // Vector
-            m_stolenAbilityFXColorHSV: 0x1ED8, // Vector
-            m_bHasInitializedAbilityColors: 0x1EE4, // bool
+            m_stolenAbilityColorHSV1: 0x1EC8, // Vector
+            m_stolenAbilityColorHSV2: 0x1ED4, // Vector
+            m_stolenAbilityFXColorHSV: 0x1EE0, // Vector
+            m_bHasInitializedAbilityColors: 0x1EEC, // bool
         },
         CDOTA_Modifier_Foragers_Kit_Thinker: {
             tree_radius: 0x19D8, // int32
@@ -29322,7 +29329,7 @@ export const Schemas = {
         },
         CDOTA_Modifier_DoomBringer_ScorchedEarthEffect: {
             bonus_movement_speed_pct: 0x19D8, // int32
-            bonus_health_regen: 0x19DC, // int32
+            bonus_health_regen: 0x19DC, // float32
         },
         CDOTA_Ability_Night_Stalker_MidnightFeast: {
         },
@@ -29760,18 +29767,18 @@ export const Schemas = {
             m_iEffectName: 0x6C, // uint16
         },
         CDOTA_Unit_Hero_Obsidian_Destroyer: {
-            m_nFXDeath: 0x1EC0, // ParticleIndex_t
+            m_nFXDeath: 0x1EC8, // ParticleIndex_t
         },
         CDOTA_BaseNPC_Invoker_Forged_Spirit: {
         },
         CDOTA_Unit_Scout: {
-            m_bUnitRespawned: 0x1860, // bool
-            m_nSoleControllingPlayer: 0x1864, // PlayerID_t
-            m_flRespawnTime: 0x1868, // GameTime_t
-            m_nScoutState: 0x186C, // ScoutState_t
-            m_hScoutStateEntity: 0x1870, // CHandle<CBaseEntity>
-            m_strScoutModel: 0x1878, // CUtlString
-            m_vSpawnLocation: 0x1880, // Vector
+            m_bUnitRespawned: 0x1868, // bool
+            m_nSoleControllingPlayer: 0x186C, // PlayerID_t
+            m_flRespawnTime: 0x1870, // GameTime_t
+            m_nScoutState: 0x1874, // ScoutState_t
+            m_hScoutStateEntity: 0x1878, // CHandle<CBaseEntity>
+            m_strScoutModel: 0x1880, // CUtlString
+            m_vSpawnLocation: 0x1888, // Vector
         },
         CDOTA_Item_Recipe_Orb_Of_Revelations: {
         },
@@ -29935,9 +29942,9 @@ export const Schemas = {
             m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
         },
         CDOTA_Unit_Hero_ArcWarden: {
-            m_nTalkFXIndex: 0x1EC0, // ParticleIndex_t
-            m_nFXDeath: 0x1EC4, // ParticleIndex_t
-            m_nTempestFX: 0x1EC8, // ParticleIndex_t
+            m_nTalkFXIndex: 0x1EC8, // ParticleIndex_t
+            m_nFXDeath: 0x1ECC, // ParticleIndex_t
+            m_nTempestFX: 0x1ED0, // ParticleIndex_t
         },
         CDOTA_Unit_Hero_Clinkz: {
         },
@@ -30006,9 +30013,9 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Status_Resistance_10: {
         },
         CDOTA_Unit_Hero_SkeletonKing: {
-            m_nSkeletonWarriors: 0x1EC0, // int32
-            m_vecInitialHeroKillBitmask: 0x1EC4, // int32[6]
-            m_vecInGameHeroKillBitmask: 0x1EDC, // int32[6]
+            m_nSkeletonWarriors: 0x1EC8, // int32
+            m_vecInitialHeroKillBitmask: 0x1ECC, // int32[6]
+            m_vecInGameHeroKillBitmask: 0x1EE4, // int32[6]
         },
         CDOTA_Modifier_Legion_Commander_Duel: {
             reward_damage: 0x19D8, // int32
@@ -30180,7 +30187,7 @@ export const Schemas = {
             m_bPvsModifyEntity: 0x1B8, // bool
         },
         CDOTA_BaseNPC_Creep_Neutral: {
-            m_ThinkTimer: 0x1890, // CountdownTimer
+            m_ThinkTimer: 0x1898, // CountdownTimer
         },
         CDOTA_Ability_Grimstroke_DarkArtistry: {
             m_vCastDir: 0x580, // Vector
@@ -30292,14 +30299,14 @@ export const Schemas = {
         CTestPulseIOComponent_API: {
         },
         CDOTA_Unit_Hero_Wisp: {
-            m_nAmbientFXIndex: 0x1EC0, // ParticleIndex_t
-            m_nStunnedFXIndex: 0x1EC4, // ParticleIndex_t
-            m_nTalkFXIndex: 0x1EC8, // ParticleIndex_t
-            m_nIllusionFXIndex: 0x1ECC, // ParticleIndex_t
-            m_bParticleHexed: 0x1ED0, // bool
-            m_bParticleStunned: 0x1ED1, // bool
-            m_bDetermineAmbientEffect: 0x1ED2, // bool
-            m_flPrevHealth: 0x1ED4, // float32
+            m_nAmbientFXIndex: 0x1EC8, // ParticleIndex_t
+            m_nStunnedFXIndex: 0x1ECC, // ParticleIndex_t
+            m_nTalkFXIndex: 0x1ED0, // ParticleIndex_t
+            m_nIllusionFXIndex: 0x1ED4, // ParticleIndex_t
+            m_bParticleHexed: 0x1ED8, // bool
+            m_bParticleStunned: 0x1ED9, // bool
+            m_bDetermineAmbientEffect: 0x1EDA, // bool
+            m_flPrevHealth: 0x1EDC, // float32
         },
         CDOTA_Modifier_ContextualTips: {
             m_bAllEnemiesBots: 0x19D8, // bool
@@ -31222,17 +31229,17 @@ export const Schemas = {
         CDOTA_Unit_Hero_Gyrocopter: {
         },
         CDOTA_Unit_TargetDummy: {
-            m_flDamageTaken: 0x1EC0, // float32
-            m_flLastHit: 0x1EC4, // float32
-            m_flStartDamageTime: 0x1EC8, // GameTime_t
-            m_flLastTargetDummyDamageTime: 0x1ECC, // GameTime_t
+            m_flDamageTaken: 0x1EC8, // float32
+            m_flLastHit: 0x1ECC, // float32
+            m_flStartDamageTime: 0x1ED0, // GameTime_t
+            m_flLastTargetDummyDamageTime: 0x1ED4, // GameTime_t
         },
         CDOTA_Unit_Miniboss: {
-            m_nVisualTeam: 0x1860, // int32
-            m_flTransitionTimestamp: 0x1868, // GameTime_t
-            m_nTempViewer: 0x186C, // int32
-            m_hAttackingHeroes: 0x1870, // CUtlVector<CHandle<CBaseEntity>>
-            nShieldFX: 0x1890, // ParticleIndex_t
+            m_nVisualTeam: 0x1868, // int32
+            m_flTransitionTimestamp: 0x1870, // GameTime_t
+            m_nTempViewer: 0x1874, // int32
+            m_hAttackingHeroes: 0x1878, // CUtlVector<CHandle<CBaseEntity>>
+            nShieldFX: 0x1898, // ParticleIndex_t
         },
         CDOTA_BaseNPC_Barracks: {
         },
@@ -31448,7 +31455,7 @@ export const Schemas = {
         CIngameEvent_PermanentGrants: {
         },
         CDOTA_Unit_Templar_Gate: {
-            m_hOtherPortal: 0x1978, // CHandle<CBaseEntity>
+            m_hOtherPortal: 0x1980, // CHandle<CBaseEntity>
         },
         CDOTA_Unit_Hero_Sniper: {
         },
@@ -32088,8 +32095,8 @@ export const Schemas = {
         CDOTA_Unit_Grimstroke_InkCreature: {
         },
         CDOTA_Unit_Hero_Meepo: {
-            m_bRecursionGuard: 0x1EC0, // bool
-            m_nWhichMeepo: 0x1EE0, // int32
+            m_bRecursionGuard: 0x1EC8, // bool
+            m_nWhichMeepo: 0x1EE8, // int32
         },
         CDOTA_Modifier_Watch_Tower_Invulnerable_Temporary: {
         },
@@ -32212,7 +32219,7 @@ export const Schemas = {
         CDOTA_Unit_Hero_Rattletrap: {
         },
         CDOTA_Unit_Hero_Pugna: {
-            m_nAimAngle: 0x1EC0, // int32
+            m_nAimAngle: 0x1EC8, // int32
         },
         CDOTA_BaseNPC_Filler: {
         },
@@ -32752,7 +32759,7 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Gold_lvl20_r: {
         },
         CDOTA_Unit_Hero_Techies: {
-            m_bLastDeathFromSuicide: 0x1EC0, // bool
+            m_bLastDeathFromSuicide: 0x1EC8, // bool
         },
         CDOTA_Unit_Hero_DeathProphet: {
         },
@@ -34621,14 +34628,14 @@ export const Schemas = {
         CDOTA_Unit_Hero_Batrider: {
         },
         CDOTA_Unit_Roshan: {
-            m_iKillerTeam: 0x1860, // int32
-            m_iLastHealthPercent: 0x1864, // int32
-            m_nFXIndex: 0x1868, // ParticleIndex_t
-            m_hRadiantRoshanPit: 0x186C, // CHandle<CBaseEntity>
-            m_hDireRoshanPit: 0x1870, // CHandle<CBaseEntity>
-            m_hRiverMidpoint: 0x1874, // CHandle<CBaseEntity>
-            m_hAttackingHeroes: 0x1878, // CUtlVector<CHandle<CBaseEntity>>
-            m_bGoldenRoshan: 0x1890, // bool
+            m_iKillerTeam: 0x1868, // int32
+            m_iLastHealthPercent: 0x186C, // int32
+            m_nFXIndex: 0x1870, // ParticleIndex_t
+            m_hRadiantRoshanPit: 0x1874, // CHandle<CBaseEntity>
+            m_hDireRoshanPit: 0x1878, // CHandle<CBaseEntity>
+            m_hRiverMidpoint: 0x187C, // CHandle<CBaseEntity>
+            m_hAttackingHeroes: 0x1880, // CUtlVector<CHandle<CBaseEntity>>
+            m_bGoldenRoshan: 0x1898, // bool
         },
         CFuncElectrifiedVolume: {
             m_EffectName: 0x790, // CUtlSymbolLarge
@@ -34865,7 +34872,7 @@ export const Schemas = {
         CIngameEvent_FV2019: {
         },
         CDOTA_Unit_Hero_Legion_Commander: {
-            m_unDuelsWon: 0x1EC0, // uint32
+            m_unDuelsWon: 0x1EC8, // uint32
         },
         CDOTA_Modifier_MudGolem_CloakAura_Bonus: {
             bonus_magical_armor: 0x19D8, // int32
@@ -34988,8 +34995,8 @@ export const Schemas = {
             m_DecalType: 0xF8, // CGlobalSymbol
         },
         CDOTA_NPC_WitchDoctor_Ward: {
-            m_nTargetType: 0x1860, // int32
-            m_nTargetFlags: 0x1864, // int32
+            m_nTargetType: 0x1868, // int32
+            m_nTargetFlags: 0x186C, // int32
         },
         CDOTA_Modifier_Watch_Tower_Marker: {
         },
@@ -35378,9 +35385,9 @@ export const Schemas = {
             m_vExtent: 0x958, // Vector
         },
         CDOTA_BaseNPC_Tower: {
-            m_OnTowerKilled: 0x1978, // CEntityIOOutput
-            m_hTowerAttackTarget: 0x1990, // CHandle<CBaseEntity>
-            m_hTowerHighFiveTarget: 0x1994, // CHandle<CBaseEntity>
+            m_OnTowerKilled: 0x1980, // CEntityIOOutput
+            m_hTowerAttackTarget: 0x1998, // CHandle<CBaseEntity>
+            m_hTowerHighFiveTarget: 0x199C, // CHandle<CBaseEntity>
         },
         CDOTA_Modifier_PathMoveSpeed: {
             m_flActualMovespeedBonus: 0x19D8, // float32
@@ -36227,7 +36234,7 @@ export const Schemas = {
         CDOTA_BaseNPC_Seasonal_TI9_Drums: {
         },
         CDOTA_Unit_Hero_Skywrath_Mage: {
-            m_bArcanaEquipped: 0x1EC0, // bool
+            m_bArcanaEquipped: 0x1EC8, // bool
         },
         CDOTA_Modifier_Special_Bonus_Haste: {
             value: 0x19D8, // float32
@@ -37471,7 +37478,7 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_HP_900: {
         },
         CDOTA_NPC_TechiesMines: {
-            m_bShowPlacementRadius: 0x1860, // bool
+            m_bShowPlacementRadius: 0x1868, // bool
         },
         CInfoPlayerStartGoodGuys: {
         },
@@ -37740,8 +37747,8 @@ export const Schemas = {
         CDOTA_Unit_Hero_EarthSpirit: {
         },
         CDOTA_BaseNPC_Watch_Tower: {
-            m_szOutpostName: 0x1978, // CUtlSymbolLarge
-            m_szInteractAbilityName: 0x1980, // CUtlSymbolLarge
+            m_szOutpostName: 0x1980, // CUtlSymbolLarge
+            m_szInteractAbilityName: 0x1988, // CUtlSymbolLarge
         },
         CDOTA_Modifier_Special_Bonus_Spell_Immunity: {
         },
@@ -38690,8 +38697,8 @@ export const Schemas = {
         CDOTA_Unit_Hero_Pangolier: {
         },
         CDOTA_Unit_Hero_CrystalMaiden: {
-            m_iParticleMouthIndex: 0x1EC0, // int32
-            m_iParticleHandRIndex: 0x1EC4, // int32
+            m_iParticleMouthIndex: 0x1EC8, // int32
+            m_iParticleHandRIndex: 0x1ECC, // int32
         },
         CTriggerImpact: {
             m_flMagnitude: 0x8E8, // float32
@@ -38753,12 +38760,12 @@ export const Schemas = {
         CPulseExecCursor: {
         },
         CDOTA_Unit_Underlord_Portal: {
-            m_hOtherPortal: 0x1978, // CHandle<CBaseEntity>
+            m_hOtherPortal: 0x1980, // CHandle<CBaseEntity>
         },
         CDOTA_Unit_Hero_Bane: {
         },
         CDOTA_Unit_Twin_Gate: {
-            m_hOtherPortal: 0x1978, // CHandle<CBaseEntity>
+            m_hOtherPortal: 0x1980, // CHandle<CBaseEntity>
         },
         CDOTA_Modifier_AghsFort_Watch_Tower_Capturing: {
         },
@@ -39248,22 +39255,23 @@ export const Schemas = {
             m_flRun: 0x168C, // float32
             m_CustomHealthLabel: 0x1690, // char[256]
             m_CustomHealthLabelColor: 0x1790, // Color
-            m_nWearableDefIndex: 0x1794, // item_definition_index_t
-            m_nArcanaLevel: 0x1798, // int8
-            m_nDefaultArcanaLevel: 0x1799, // int8
-            m_defaultColorGemColor: 0x179A, // Color
-            m_bDisableDamageDisplay: 0x179E, // bool
-            m_gibTintColor: 0x17A0, // Color
-            m_flPathfindingSearchDepthScale: 0x17A4, // float32
-            m_ActivitiesStarted: 0x17A8, // CUtlVector<int32>
-            m_hIllusionOriginal: 0x17C0, // CHandle<CBaseEntity>
-            m_hDirectionalRangedFakeTarget: 0x17C4, // CHandle<CDOTA_BaseNPC>
-            m_bShouldComputeRemainingPathLength: 0x17F0, // bool
-            m_flRemainingPathLength: 0x17F4, // float32
-            m_AbilitiesPendingDelete: 0x1820, // CUtlVector<CHandle<CBaseEntity>>
-            m_flPrevHealthThinkRegen: 0x1838, // float32
-            m_prevRegenChangeTime: 0x183C, // GameTime_t
-            m_flAccumulatedHealthRegenSinceLastLogged: 0x1840, // float32
+            m_nIsOriginalModel: 0x1794, // OriginalModelFlags_t
+            m_nWearableDefIndex: 0x1798, // item_definition_index_t
+            m_nArcanaLevel: 0x179C, // int8
+            m_nDefaultArcanaLevel: 0x179D, // int8
+            m_defaultColorGemColor: 0x179E, // Color
+            m_bDisableDamageDisplay: 0x17A2, // bool
+            m_gibTintColor: 0x17A4, // Color
+            m_flPathfindingSearchDepthScale: 0x17A8, // float32
+            m_ActivitiesStarted: 0x17B0, // CUtlVector<int32>
+            m_hIllusionOriginal: 0x17C8, // CHandle<CBaseEntity>
+            m_hDirectionalRangedFakeTarget: 0x17CC, // CHandle<CDOTA_BaseNPC>
+            m_bShouldComputeRemainingPathLength: 0x17F8, // bool
+            m_flRemainingPathLength: 0x17FC, // float32
+            m_AbilitiesPendingDelete: 0x1828, // CUtlVector<CHandle<CBaseEntity>>
+            m_flPrevHealthThinkRegen: 0x1840, // float32
+            m_prevRegenChangeTime: 0x1844, // GameTime_t
+            m_flAccumulatedHealthRegenSinceLastLogged: 0x1848, // float32
         },
         CFilterTeam: {
             m_iFilterTeam: 0x4D0, // int32
@@ -39569,7 +39577,7 @@ export const Schemas = {
             m_aShootSounds: 0x4E8, // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
         },
         CDOTA_Unit_Hero_PhantomAssassin: {
-            m_nFXDeath: 0x1EC0, // ParticleIndex_t
+            m_nFXDeath: 0x1EC8, // ParticleIndex_t
         },
         CDOTA_Modifier_AlphaWolf_CommandAura: {
             radius: 0x19D8, // float32

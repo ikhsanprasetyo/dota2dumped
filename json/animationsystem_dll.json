@@ -2730,15 +2730,7 @@
             "type": "Unknown"
           },
           {
-            "name": "g",
-            "type": "Unknown"
-          },
-          {
             "name": "Blend2DMode_Directional",
-            "type": "Unknown"
-          },
-          {
-            "name": "e",
             "type": "Unknown"
           },
           {
@@ -5208,7 +5200,7 @@
             "type": "Unknown"
           },
           {
-            "name": "60,0x0926/0x8888,0x1345/0x3008,0x0079/0x0006,0x1d79/0x0301,0x12bd/0xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102",
+            "name": "\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Users\\Bytesee",
             "type": "Unknown"
           },
           {
@@ -9786,10 +9778,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9844,10 +9832,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
             "type": "Unknown"
           },
           {
@@ -10294,10 +10278,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10418,10 +10398,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10448,10 +10424,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
             "type": "Unknown"
           },
           {
@@ -10549,10 +10521,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
             "type": "Unknown"
           },
           {
@@ -11357,10 +11325,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11432,10 +11396,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
             "type": "Unknown"
           },
           {
@@ -12070,10 +12030,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -12132,10 +12088,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -12187,10 +12139,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
             "type": "Unknown"
           },
           {
@@ -13078,10 +13026,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
             "type": "Unknown"
           }
         ],
@@ -14569,10 +14513,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -15133,10 +15073,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -15286,10 +15222,6 @@
           },
           {
             "name": "Pose",
-            "type": "Unknown"
-          },
-          {
-            "name": "e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6",
             "type": "Unknown"
           }
         ],
@@ -15449,10 +15381,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -15568,10 +15496,6 @@
           },
           {
             "name": "Pose",
-            "type": "Unknown"
-          },
-          {
-            "name": "e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6",
             "type": "Unknown"
           },
           {
@@ -15725,10 +15649,6 @@
             "type": "Unknown"
           },
           {
-            "name": "e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -15830,10 +15750,6 @@
             "type": "Unknown"
           },
           {
-            "name": "e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -15914,7 +15830,7 @@
             "type": "Unknown"
           },
           {
-            "name": "60,0x0926/0x8888,0x1345/0x3008,0x0079/0x0006,0x1d79/0x0301,0x12bd/0xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102",
+            "name": "\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Users\\Bytesee",
             "type": "Unknown"
           }
         ],
@@ -19384,11 +19300,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -19413,10 +19325,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -19583,10 +19491,6 @@
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
-          },
-          {
-            "name": "amData=C:\\ProgramData",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -19671,7 +19575,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -19773,11 +19677,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -19802,10 +19702,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -20419,7 +20315,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -20499,7 +20395,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -20584,10 +20480,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -21063,7 +20955,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -21167,7 +21059,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -21349,11 +21241,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -21371,7 +21259,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -21455,7 +21343,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -21776,7 +21664,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -21826,7 +21714,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -21941,10 +21829,6 @@
           },
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "amData=C:\\ProgramData",
             "type": "Unknown"
           }
         ],
@@ -22276,7 +22160,7 @@
             "type": "Unknown"
           },
           {
-            "name": "00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00",
+            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],

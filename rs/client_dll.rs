@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 7181
+        // Class count: 7182
         // Enum count: 109
         pub mod client_dll {
             // Alignment: 4
@@ -1910,14 +1910,13 @@ pub mod source2_dumper {
                 pub const magic_resist: usize = 0x19DC; // int32
             }
             // Parent: None
-            // Field count: 6
+            // Field count: 5
             pub mod CDOTA_Modifier_Sniper_Headshot {
                 pub const proc_chance: usize = 0x19D8; // int32
                 pub const slow_duration: usize = 0x19DC; // float32
-                pub const slow_duration_with_take_aim: usize = 0x19E0; // float32
-                pub const knockback_distance: usize = 0x19E4; // float32
-                pub const bonus_damage_creeps: usize = 0x19E8; // int32
-                pub const damage: usize = 0x19EC; // int32
+                pub const knockback_distance: usize = 0x19E0; // float32
+                pub const bonus_damage_creeps: usize = 0x19E4; // int32
+                pub const damage: usize = 0x19E8; // int32
             }
             // Parent: None
             // Field count: 1
@@ -5294,7 +5293,10 @@ pub mod source2_dumper {
             // Field count: 12
             //
             // Metadata:
-            // PM_NO_GIBS
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // MPropertyDescription
+            // MPropertyDescription
             pub mod C_PostProcessingVolume {
                 pub const m_hPostSettings: usize = 0xB60; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
                 pub const m_flFadeDuration: usize = 0xB68; // float32
@@ -6781,6 +6783,11 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyAttributeSuggestionName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyAttributeSuggestionName
             pub mod CPulseCell_Step_EntFire {
@@ -8559,6 +8566,7 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10351,12 +10359,10 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
@@ -11110,14 +11116,15 @@ pub mod source2_dumper {
                 pub const scepter_movement_slow_pct: usize = 0x19D8; // int32
             }
             // Parent: None
-            // Field count: 6
+            // Field count: 7
             pub mod CDOTA_Modifier_Winter_Wyvern_Winters_Curse {
                 pub const m_hZombieTarget: usize = 0x19D8; // CHandle<C_BaseEntity>
                 pub const m_hDesiredTarget: usize = 0x19DC; // CHandle<C_BaseEntity>
                 pub const damage_reduction: usize = 0x19E0; // int32
                 pub const bonus_attack_speed: usize = 0x19E4; // int32
                 pub const m_flCurseDuration: usize = 0x19E8; // float32
-                pub const m_flCurseStartTime: usize = 0x19EC; // float32
+                pub const m_flTotalBonusTime: usize = 0x19EC; // float32
+                pub const m_flCurseStartTime: usize = 0x19F0; // float32
             }
             // Parent: None
             // Field count: 1
@@ -11857,6 +11864,7 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -13127,7 +13135,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_GraphHook {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
@@ -20022,15 +20030,16 @@ pub mod source2_dumper {
                 pub const m_bHasMadeAttack: usize = 0x19F8; // bool
             }
             // Parent: None
-            // Field count: 7
+            // Field count: 8
             pub mod CDOTA_Modifier_LoneDruid_SpiritLink {
                 pub const bonus_movement_speed_druid: usize = 0x19D8; // int32
                 pub const bonus_movement_speed_bear: usize = 0x19DC; // int32
                 pub const lifesteal_percent: usize = 0x19E0; // int32
-                pub const armor: usize = 0x19E4; // int32
-                pub const active_bonus: usize = 0x19E8; // int32
-                pub const lifesteal_both_ways: usize = 0x19EC; // int32
-                pub const m_hTarget: usize = 0x19F0; // CHandle<C_BaseEntity>
+                pub const creep_lifesteal_penalty: usize = 0x19E4; // int32
+                pub const armor: usize = 0x19E8; // int32
+                pub const active_bonus: usize = 0x19EC; // int32
+                pub const lifesteal_both_ways: usize = 0x19F0; // int32
+                pub const m_hTarget: usize = 0x19F4; // CHandle<C_BaseEntity>
             }
             // Parent: None
             // Field count: 2
@@ -20286,7 +20295,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EventHandler {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
@@ -20486,7 +20495,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // amData=C:\ProgramData
             pub mod CPulseCell_BaseFlow {
             }
             // Parent: C_DOTA_BaseNPC_Hero
@@ -21975,6 +21983,10 @@ pub mod source2_dumper {
             pub mod C_DOTA_Ability_Special_Bonus_HP_250 {
             }
             // Parent: None
+            // Field count: 0
+            pub mod CDOTA_Modifier_Item_Foragers_Nuts_Consumed {
+            }
+            // Parent: None
             // Field count: 4
             pub mod CDOTA_Modifier_Item_Force_Field {
                 pub const m_bAppliesToCreeps: usize = 0x19D8; // bool
@@ -22414,7 +22426,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EntOutputHandler {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
@@ -23400,7 +23412,7 @@ pub mod source2_dumper {
             pub mod C_DOTA_Unit_Hero_Tusk {
             }
             // Parent: C_NextBotCombatCharacter
-            // Field count: 207
+            // Field count: 208
             pub mod C_DOTA_BaseNPC {
                 pub const m_bIsPhantom: usize = 0xB78; // bool
                 pub const m_iUnitType: usize = 0xB7C; // uint32
@@ -23598,15 +23610,16 @@ pub mod source2_dumper {
                 pub const m_hOldWearableSkins: usize = 0x1830; // CUtlVector<CUtlStringToken>
                 pub const m_CustomHealthLabel: usize = 0x1848; // char[256]
                 pub const m_CustomHealthLabelColor: usize = 0x1948; // Color
-                pub const m_nWearableDefIndex: usize = 0x194C; // item_definition_index_t
-                pub const m_gibTintColor: usize = 0x1951; // Color
-                pub const m_bForceMaterialCombine: usize = 0x1955; // bool
-                pub const m_bShouldDrawParticlesWhileHidden: usize = 0x1956; // bool
-                pub const m_bIsClientThinkPending: usize = 0x1957; // bool
-                pub const m_bActivityModifiersDirty: usize = 0x1958; // bool
-                pub const m_bUnitModelVariantChanged: usize = 0x1959; // bool
-                pub const m_bWearablesAreTaunting: usize = 0x195A; // bool
-                pub const m_bWearablesLoadoutOverride: usize = 0x195B; // bool
+                pub const m_nIsOriginalModel: usize = 0x194C; // OriginalModelFlags_t
+                pub const m_nWearableDefIndex: usize = 0x1950; // item_definition_index_t
+                pub const m_gibTintColor: usize = 0x1955; // Color
+                pub const m_bForceMaterialCombine: usize = 0x1959; // bool
+                pub const m_bShouldDrawParticlesWhileHidden: usize = 0x195A; // bool
+                pub const m_bIsClientThinkPending: usize = 0x195B; // bool
+                pub const m_bActivityModifiersDirty: usize = 0x195C; // bool
+                pub const m_bUnitModelVariantChanged: usize = 0x195D; // bool
+                pub const m_bWearablesAreTaunting: usize = 0x195E; // bool
+                pub const m_bWearablesLoadoutOverride: usize = 0x195F; // bool
                 pub const m_bShowCannotBeDisabledIcon: usize = 0x1970; // bool
                 pub const m_nVisionPreviewViewer: usize = 0x1990; // int32
             }
@@ -26040,7 +26053,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_DebugLog {
             }
@@ -28304,7 +28317,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleOrdered {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -31242,7 +31255,7 @@ pub mod source2_dumper {
             // Field count: 2
             pub mod CDOTA_Modifier_DoomBringer_ScorchedEarthEffect {
                 pub const bonus_movement_speed_pct: usize = 0x19D8; // int32
-                pub const bonus_health_regen: usize = 0x19DC; // int32
+                pub const bonus_health_regen: usize = 0x19DC; // float32
             }
             // Parent: None
             // Field count: 0
@@ -31568,7 +31581,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Wait {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
@@ -31977,7 +31990,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleShuffled {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -33974,7 +33987,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Yield {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
@@ -36692,7 +36705,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomInt {
             }
@@ -39671,11 +39684,12 @@ pub mod source2_dumper {
             pub mod CDOTAEmptyAbility {
             }
             // Parent: C_DOTABaseAbility
-            // Field count: 3
+            // Field count: 4
             pub mod C_DOTA_Ability_Wisp_Spirits {
                 pub const m_SpiritDefs: usize = 0x6A8; // CUtlVector<sSpiritDef>
                 pub const m_nWispDirection: usize = 0x6C0; // int32
                 pub const spirit_amount: usize = 0x6C4; // int32
+                pub const m_flStartSpiritRadius: usize = 0x6C8; // float32
             }
             // Parent: None
             // Field count: 2
@@ -40136,7 +40150,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod C_DOTA_LightInfo {
             }
             // Parent: None
@@ -40392,9 +40405,16 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // AMMO_FORCE_DROP_IF_CARRIED
+            // AMMO_RESERVE_STAYS_WITH_WEAPON
+            // AMMO_FLAG_MAX
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // WATER_WAKE_IDLE
+            // WATER_WAKE_WALKING
+            // WATER_WAKE_RUNNING
+            // WATER_WAKE_WATER_OVERHEAD
             pub mod CLogicalEntity {
             }
             // Parent: C_DOTA_Item_Diffusal_Blade
@@ -41179,9 +41199,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
-            // amData=C:\ProgramData
             pub mod CPulseCell_Step_CallExternalMethod {
                 pub const m_MethodName: usize = 0x48; // PulseSymbol_t
                 pub const m_nBlackboardIndex: usize = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
@@ -43201,7 +43220,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 00aa,0x20d6/0xa711,0x20d6/0xa712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x00
+            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomFloat {
             }
@@ -43805,6 +43824,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // binary
             pub mod CBasePlayerWeaponVData {
                 pub const m_szClassName: usize = 0x10; // CUtlString
                 pub const m_szWorldModel: usize = 0x18; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -44259,7 +44279,6 @@ pub mod source2_dumper {
             // Field count: 29
             //
             // Metadata:
-            // o
             // WORLDTEXT_HORIZONTAL_ALIGN_CENTER
             // WORLDTEXT_HORIZONTAL_ALIGN_RIGHT
             // WORLDTEXT_VERTICAL_ALIGN_CENTER
@@ -44840,6 +44859,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // k_eCircle
             // k_eLine
             // k_eRay
@@ -44894,7 +44914,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // generic
             pub mod CDOTAFightingGameActionDefinition {
                 pub const m_nActionID: usize = 0x0; // EFightingGameActionID
                 pub const m_strCustomActionName: usize = 0x8; // CUtlString
@@ -44994,13 +45013,8 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // k_eMatch3LevelFlag_Boss
-            // k_eMatch3LevelFlag_Friendly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             pub mod Match3GameModeID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -45054,6 +45068,7 @@ pub mod source2_dumper {
             // Field count: 3
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45144,6 +45159,31 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // INVALID_TARGET
+            // RANDOM_TARGET_IN_RANGE
+            // STRONGEST_TARGET_IN_RANGE
+            // RANDOM_TARGET_AT_RANGE
+            // PLAYER_FACING
+            // INVALID_ORIGIN
+            // RANDOM_ENEMY_ORIGIN
+            // RARITY_INVALID
+            // RARITY_COUNT
+            // INVALID_SPAWN_BEHAVIOR
+            // FIXED_DIRECTION_PERPENDICULAR_WALL
+            // OVAL_AROUND_PLAYER
+            // STATIC_IN_MAP
+            // STATIC_IN_MAP_IGNORE_PLAYER_RADIUS
+            // RANDOM_DIRECTION
+            // SPAWNER_ORIGIN_RADIUS
+            // OFF
+            // SMALL
+            // LARGE
+            // ELITE
+            // INVALID
+            // ENEMY_MAIN
+            // DESTRUCTIBLE_MAIN
+            // ENEMY_BOSS_ROOM
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45158,7 +45198,30 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // INVALID_TARGET
+            // RANDOM_TARGET_IN_RANGE
+            // STRONGEST_TARGET_IN_RANGE
+            // RANDOM_TARGET_AT_RANGE
+            // PLAYER_FACING
+            // INVALID_ORIGIN
+            // RANDOM_ENEMY_ORIGIN
+            // RARITY_INVALID
+            // RARITY_COUNT
+            // INVALID_SPAWN_BEHAVIOR
+            // FIXED_DIRECTION_PERPENDICULAR_WALL
+            // OVAL_AROUND_PLAYER
+            // STATIC_IN_MAP
+            // STATIC_IN_MAP_IGNORE_PLAYER_RADIUS
+            // RANDOM_DIRECTION
+            // SPAWNER_ORIGIN_RADIUS
+            // OFF
+            // SMALL
+            // LARGE
+            // ELITE
+            // INVALID
+            // ENEMY_MAIN
+            // DESTRUCTIBLE_MAIN
+            // ENEMY_BOSS_ROOM
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45315,13 +45378,8 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // k_eMatch3LevelFlag_Boss
-            // k_eMatch3LevelFlag_Friendly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             pub mod Match3AbilityID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -45356,15 +45414,15 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45568,7 +45626,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45796,6 +45853,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // text
             pub mod SZooSetAnnotationsConfig_t {
                 pub const m_allAnnotations: usize = 0x0; // CUtlVector<SZooSetAnnotations_t>
             }
@@ -45854,13 +45912,8 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // k_eMatch3LevelFlag_Boss
-            // k_eMatch3LevelFlag_Friendly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             pub mod Match3OpponentActionID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -45896,6 +45949,26 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // INVALID_TARGET
+            // RANDOM_TARGET_IN_RANGE
+            // STRONGEST_TARGET_IN_RANGE
+            // RANDOM_TARGET_AT_RANGE
+            // PLAYER_FACING
+            // INVALID_ORIGIN
+            // RANDOM_ENEMY_ORIGIN
+            // RARITY_INVALID
+            // RARITY_COUNT
+            // INVALID_SPAWN_BEHAVIOR
+            // FIXED_DIRECTION_PERPENDICULAR_WALL
+            // OVAL_AROUND_PLAYER
+            // STATIC_IN_MAP
+            // STATIC_IN_MAP_IGNORE_PLAYER_RADIUS
+            // RANDOM_DIRECTION
+            // SPAWNER_ORIGIN_RADIUS
+            // OFF
+            // SMALL
+            // LARGE
+            // ELITE
             pub mod CSurvivorsPowerUpDefinition_InstantAttack {
                 pub const m_eTargeting: usize = 0x6A0; // ESurvivorsAttackTargeting
                 pub const m_sParticle: usize = 0x6A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -45909,7 +45982,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45946,6 +46018,20 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            //  
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CSurvivorsPowerUpDefinition_MagicMissile {
                 pub const m_flShardDamageMultiplier: usize = 0x798; // float32
                 pub const m_flScepterDamageIncreasePerEnemyKilled: usize = 0x79C; // float32
@@ -45978,9 +46064,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             // MGetKV3ClassDefaults
-            // 39,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6f/0x0160
+            // )
+            // )
             pub mod CMatch3OpponentActionDefinition {
                 pub const m_unOpponentActionID: usize = 0x38; // Match3OpponentActionID_t
             }
@@ -46149,7 +46235,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46168,7 +46253,6 @@ pub mod source2_dumper {
             // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
             // MVDataNodeType
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
@@ -46376,30 +46460,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // INVALID_TARGET
-            // RANDOM_TARGET_IN_RANGE
-            // STRONGEST_TARGET_IN_RANGE
-            // RANDOM_TARGET_AT_RANGE
-            // PLAYER_FACING
-            // INVALID_ORIGIN
-            // RANDOM_ENEMY_ORIGIN
-            // RARITY_INVALID
-            // RARITY_COUNT
-            // INVALID_SPAWN_BEHAVIOR
-            // FIXED_DIRECTION_PERPENDICULAR_WALL
-            // OVAL_AROUND_PLAYER
-            // STATIC_IN_MAP
-            // STATIC_IN_MAP_IGNORE_PLAYER_RADIUS
-            // RANDOM_DIRECTION
-            // SPAWNER_ORIGIN_RADIUS
-            // OFF
-            // SMALL
-            // LARGE
-            // ELITE
-            // INVALID
-            // ENEMY_MAIN
-            // DESTRUCTIBLE_MAIN
-            // ENEMY_BOSS_ROOM
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46515,7 +46576,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46756,7 +46816,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46863,13 +46922,8 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // k_eMatch3LevelFlag_Boss
-            // k_eMatch3LevelFlag_Friendly
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // e6f/0x0139,0x0e6f/0x013b,0x0e6f/0x013a,0x0e6f/0x0145,0x0e6f/0x0146,0x0e6f/0x015b,0x0e6f/0x015c,0x0e6f/0x015d,0x0e6f/0x015f,0x0e6
             pub mod Match3OpponentID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46928,7 +46982,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CSurvivorsPowerUpDefinition_Stampede {
                 pub const m_flMovementSpeedPercentDamageMultiplier: usize = 0x6A0; // float32
                 pub const m_sParticle: usize = 0x6A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -46961,7 +47014,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47092,7 +47144,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CSurvivorsPowerUpDefinition_Snotty {
                 pub const m_flRotationSpeedDeg: usize = 0x868; // float32
                 pub const m_flRotationDist: usize = 0x86C; // float32
@@ -47180,7 +47231,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47526,30 +47576,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // INVALID_TARGET
-            // RANDOM_TARGET_IN_RANGE
-            // STRONGEST_TARGET_IN_RANGE
-            // RANDOM_TARGET_AT_RANGE
-            // PLAYER_FACING
-            // INVALID_ORIGIN
-            // RANDOM_ENEMY_ORIGIN
-            // RARITY_INVALID
-            // RARITY_COUNT
-            // INVALID_SPAWN_BEHAVIOR
-            // FIXED_DIRECTION_PERPENDICULAR_WALL
-            // OVAL_AROUND_PLAYER
-            // STATIC_IN_MAP
-            // STATIC_IN_MAP_IGNORE_PLAYER_RADIUS
-            // RANDOM_DIRECTION
-            // SPAWNER_ORIGIN_RADIUS
-            // OFF
-            // SMALL
-            // LARGE
-            // ELITE
-            // INVALID
-            // ENEMY_MAIN
-            // DESTRUCTIBLE_MAIN
-            // ENEMY_BOSS_ROOM
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47805,7 +47832,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CSurvivorsPowerUpDefinition_LandMine {
                 pub const m_flScepterVacuumRadius: usize = 0x6A0; // float32
                 pub const m_flScepterVacuumDistance: usize = 0x6A4; // float32
@@ -47834,10 +47860,36 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // k_eCircle
+            // k_eLine
+            // k_eRay
+            // k_eAnimatedSprite
+            // k_eProgressBar
+            // k_eUnit
+            // k_eHero
+            // k_eParticle
+            // k_eTypeShot
+            // k_eTypeTrail
+            // k_eTypeCannon
+            // k_eTypePlayer
+            // k_eTypeEnemy
+            // k_eTypeFX
+            // k_eTypeUI
+            // k_eDefault
+            // k_eTerrain
+            // k_eShots
+            // k_eRays
+            // k_eFX
+            // k_ePhysical
+            // k_eFullObjects
+            // k_eAllLayers
+            // k_eYou
+            // k_eThem
+            // k_eNeutral
+            // k_ePlayers
+            // k_eAllTeams
             pub mod ArtyEnemyDef_t {
             }
             // Parent: None
@@ -47932,6 +47984,26 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // INVALID_TARGET
+            // RANDOM_TARGET_IN_RANGE
+            // STRONGEST_TARGET_IN_RANGE
+            // RANDOM_TARGET_AT_RANGE
+            // PLAYER_FACING
+            // INVALID_ORIGIN
+            // RANDOM_ENEMY_ORIGIN
+            // RARITY_INVALID
+            // RARITY_COUNT
+            // INVALID_SPAWN_BEHAVIOR
+            // FIXED_DIRECTION_PERPENDICULAR_WALL
+            // OVAL_AROUND_PLAYER
+            // STATIC_IN_MAP
+            // STATIC_IN_MAP_IGNORE_PLAYER_RADIUS
+            // RANDOM_DIRECTION
+            // SPAWNER_ORIGIN_RADIUS
+            // OFF
+            // SMALL
+            // LARGE
+            // ELITE
             pub mod CSurvivorsPowerUpDefinition_ProjectileAttack {
                 pub const m_eTargeting: usize = 0x6A0; // ESurvivorsAttackTargeting
                 pub const m_eBounceTargeting: usize = 0x6A4; // ESurvivorsAttackTargeting
@@ -48141,7 +48213,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48214,7 +48285,30 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // INVALID_TARGET
+            // RANDOM_TARGET_IN_RANGE
+            // STRONGEST_TARGET_IN_RANGE
+            // RANDOM_TARGET_AT_RANGE
+            // PLAYER_FACING
+            // INVALID_ORIGIN
+            // RANDOM_ENEMY_ORIGIN
+            // RARITY_INVALID
+            // RARITY_COUNT
+            // INVALID_SPAWN_BEHAVIOR
+            // FIXED_DIRECTION_PERPENDICULAR_WALL
+            // OVAL_AROUND_PLAYER
+            // STATIC_IN_MAP
+            // STATIC_IN_MAP_IGNORE_PLAYER_RADIUS
+            // RANDOM_DIRECTION
+            // SPAWNER_ORIGIN_RADIUS
+            // OFF
+            // SMALL
+            // LARGE
+            // ELITE
+            // INVALID
+            // ENEMY_MAIN
+            // DESTRUCTIBLE_MAIN
+            // ENEMY_BOSS_ROOM
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults

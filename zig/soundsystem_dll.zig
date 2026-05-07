@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -394,21 +394,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -419,7 +404,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -434,7 +424,38 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // kBranch
+            // kMatch
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
             pub const CSosGroupActionOcclusionSchema = struct {
                 pub const m_flCalculationInterval: usize = 0x8; // float32
                 pub const m_flRadius: usize = 0xC; // float32
@@ -451,16 +472,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Hb
+            // pb
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyDescription
+            // xj
+            // 0j
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 0j
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // 8m
+            // Xm
             pub const CVoiceContainerRandomSampler = struct {
                 pub const m_flAmplitude: usize = 0xB8; // float32
                 pub const m_flAmplitudeJitter: usize = 0xBC; // float32
@@ -518,6 +546,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            //  [
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -527,6 +556,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Hb
+            // pb
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub const CVoiceContainerDefault = struct {
@@ -557,13 +588,14 @@ pub const source2_dumper = struct {
             // MVDataNodeType
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const CDSPPresetMixgroupModifierTable = struct {
                 pub const m_table: usize = 0x0; // CUtlVector<CDspPresetModifierList>
             };
             // Parent: None
-            // Field count: 8
+            // Field count: 7
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -579,41 +611,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            pub const CSosGroupActionSoundeventClusterSchema = struct {
-                pub const m_nMinNearby: usize = 0x8; // int32
-                pub const m_flClusterEpsilon: usize = 0xC; // float32
-                pub const m_shouldPlayOpvar: usize = 0x10; // CUtlString
-                pub const m_shouldPlayClusterChild: usize = 0x18; // CUtlString
-                pub const m_clusterSizeOpvar: usize = 0x20; // CUtlString
-                pub const m_groupBoundingBoxMinsOpvar: usize = 0x28; // CUtlString
-                pub const m_groupBoundingBoxMaxsOpvar: usize = 0x30; // CUtlString
-                pub const m_nMinNearby: usize = 0x8; // int32
-            };
-            // Parent: None
-            // Field count: 6
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -624,6 +625,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
             // eSndSeqRegionTypeSndEvt
@@ -652,20 +660,36 @@ pub const source2_dumper = struct {
             // SNDLVL_NORM
             // SNDLVL_75dB
             // SNDLVL_80dB
-            // SNDLVL_TALKING
-            // SNDLVL_85dB
-            // SNDLVL_90dB
-            // SNDLVL_95dB
-            // SNDLVL_100dB
-            // SNDLVL_105dB
-            // SNDLVL_110dB
+            pub const CSosGroupActionSoundeventClusterSchema = struct {
+                pub const m_nMinNearby: usize = 0x8; // int32
+                pub const m_flClusterEpsilon: usize = 0xC; // float32
+                pub const m_shouldPlayOpvar: usize = 0x10; // CUtlString
+                pub const m_shouldPlayClusterChild: usize = 0x18; // CUtlString
+                pub const m_clusterSizeOpvar: usize = 0x20; // CUtlString
+                pub const m_groupBoundingBoxMinsOpvar: usize = 0x28; // CUtlString
+                pub const m_groupBoundingBoxMaxsOpvar: usize = 0x30; // CUtlString
+            };
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // (
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub const CSosGroupActionSetSoundeventParameterSchema = struct {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_flMinValue: usize = 0xC; // float32
                 pub const m_flMaxValue: usize = 0x10; // float32
                 pub const m_opvarName: usize = 0x18; // CUtlString
                 pub const m_nSortType: usize = 0x20; // SosActionSetParamSortType_t
-                pub const m_nMaxCount: usize = 0x8; // int32
             };
             // Parent: None
             // Field count: 4
@@ -674,6 +698,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             pub const CSoundContainerReference = struct {
                 pub const m_namespace: usize = 0x0; // CUtlString
                 pub const m_bUseReference: usize = 0x8; // bool
@@ -687,15 +712,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // h`
             // MPropertyFriendlyName
+            //  b
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // RandomNoRepeats
@@ -707,6 +736,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0j
             pub const CVoiceContainerNull = struct {
             };
             // Parent: None
@@ -735,7 +765,7 @@ pub const source2_dumper = struct {
                 pub const m_curve: usize = 0x10; // CPiecewiseCurve
             };
             // Parent: None
-            // Field count: 11
+            // Field count: 10
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -750,41 +780,22 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // (
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // (
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // kBranch
-            // kMatch
-            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // SOS_LIMIT_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // SOS_STOPTYPE_TIME
-            // SOS_STOPTYPE_OPVAR
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
-            // MGetKV3ClassDefaults
             pub const CSosGroupActionSoundeventMinMaxValuesSchema = struct {
                 pub const m_strQueryPublicFieldName: usize = 0x8; // CUtlString
                 pub const m_strDelayPublicFieldName: usize = 0x10; // CUtlString
@@ -796,7 +807,6 @@ pub const source2_dumper = struct {
                 pub const m_flExcludeSoundsMaxThresholdValue: usize = 0x24; // float32
                 pub const m_strMinValueName: usize = 0x28; // CUtlString
                 pub const m_strMaxValueName: usize = 0x30; // CUtlString
-                pub const m_strQueryPublicFieldName: usize = 0x8; // CUtlString
             };
             // Parent: None
             // Field count: 1
@@ -826,7 +836,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -927,7 +936,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1002,7 +1010,7 @@ pub const source2_dumper = struct {
                 pub const m_flStrength: usize = 0x4; // float32
             };
             // Parent: None
-            // Field count: 5
+            // Field count: 4
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -1024,11 +1032,20 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // kBranch
+            // kMatch
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -1036,12 +1053,33 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
             pub const CSosGroupActionSoundeventPrioritySchema = struct {
                 pub const m_priorityValue: usize = 0x8; // CUtlString
                 pub const m_priorityVolumeScalar: usize = 0x10; // CUtlString
                 pub const m_priorityContributeButDontRead: usize = 0x18; // CUtlString
                 pub const m_bPriorityReadButDontContribute: usize = 0x20; // CUtlString
-                pub const m_priorityValue: usize = 0x8; // CUtlString
             };
             // Parent: None
             // Field count: 3
@@ -1050,6 +1088,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Hs
             // PCM8
             // MP3
             // ADPCM
@@ -1065,6 +1104,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // SOS_EDIT_ITEM_TYPE_SOUNDEVENT
             pub const SelectedEditItemInfo_t = struct {
                 pub const m_EditItems: usize = 0x0; // CUtlVector<SosEditItemInfo_t>
             };
@@ -1092,6 +1132,47 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             // UnitLabel
             pub const CSndSeqInstSndEvtSchema = struct {
             };
@@ -1176,8 +1257,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // kBranch
             // kMatch
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -1188,6 +1272,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
             // eSndSeqRegionTypeSndEvt
@@ -1236,12 +1327,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyReadonlyExpr
+            // MPropertySuppressExpr
+            // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertySuppressExpr
-            // MPropertyAttributeEditor
-            // MPropertyReadonlyExpr
-            // MPropertySuppressExpr
-            // MPropertyReadonlyExpr
             pub const CSosSoundEventGroupSchema = struct {
                 pub const m_nGroupType: usize = 0x8; // SosGroupType_t
                 pub const m_bBlocksEvents: usize = 0xC; // bool
@@ -1269,6 +1359,47 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             // UnitLabel
             pub const CSndSeqInstMidiSampler = struct {
                 pub const m_bIsSoundEvent: usize = 0x20; // bool
@@ -1288,6 +1419,47 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             // UnitLabel
             pub const CSndSeqInstBaseSchema = struct {
                 pub const m_nType: usize = 0x8; // SndSeqInstrumentType_t
@@ -1355,13 +1527,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             pub const CDSPMixgroupModifier = struct {
                 pub const m_mixgroup: usize = 0x0; // CUtlString
                 pub const m_flModifier: usize = 0x8; // float32
@@ -1489,8 +1654,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub const CDspPresetModifierList = struct {
                 pub const m_dspName: usize = 0x0; // CUtlString
                 pub const m_modifiers: usize = 0x8; // CUtlVector<CDSPMixgroupModifier>
@@ -1504,18 +1668,24 @@ pub const source2_dumper = struct {
             // MVDataFileExtension
             // MPropertyFriendlyName
             // MPropertyDescription
+            // XY
+            // pY
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // hZ
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // h`
             // MPropertyFriendlyName
+            //  b
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // RandomNoRepeats
@@ -1611,7 +1781,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             pub const CVMixUtilityProcessorDesc = struct {
                 pub const m_desc: usize = 0x20; // VMixUtilityDesc_t
             };
@@ -1624,6 +1793,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // @~
+            // `~
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -1661,7 +1832,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1856,37 +2026,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // (
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // (
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // kBranch
-            // kMatch
-            // SOS_GROUPTYPE_STATIC
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_SETPARAM_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_LIMIT_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // SOS_STOPTYPE_TIME
-            // SOS_STOPTYPE_OPVAR
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
-            // MGetKV3ClassDefaults
             pub const CSosGroupActionSoundeventCountSchema = struct {
                 pub const m_bExcludeStoppedSounds: usize = 0x8; // bool
                 pub const m_strCountKeyName: usize = 0x10; // CUtlString
@@ -2130,7 +2282,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2200,6 +2351,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            //  [
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -2209,16 +2361,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Hb
+            // pb
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyDescription
+            // xj
+            // 0j
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 0j
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // 8m
+            // Xm
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -2274,6 +2433,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            //  [
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -2283,16 +2443,23 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Hb
+            // pb
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyDescription
+            // xj
+            // 0j
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // 0j
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // 8m
+            // Xm
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -2311,8 +2478,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // SOS_EDIT_ITEM_TYPE_SOUNDEVENT
-            // SOS_EDIT_ITEM_TYPE_LIBRARYSTACKS
             pub const SosEditItemInfo_t = struct {
                 pub const itemType: usize = 0x0; // SosEditItemType_t
                 pub const itemName: usize = 0x8; // CUtlString
@@ -2379,7 +2544,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2525,6 +2689,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // @~
+            // `~
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -2831,7 +2997,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2869,60 +3034,9 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // kBranch
-            // kMatch
-            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_LIMIT_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // SOS_STOPTYPE_TIME
-            // SOS_STOPTYPE_OPVAR
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
-            // MGetKV3ClassDefaults
-            // SNDLVL_20dB
-            // SNDLVL_25dB
-            // SNDLVL_30dB
-            // SNDLVL_35dB
-            // SNDLVL_40dB
-            // SNDLVL_45dB
-            // SNDLVL_50dB
-            // SNDLVL_55dB
-            // SNDLVL_IDLE
-            // SNDLVL_60dB
-            // SNDLVL_65dB
-            // SNDLVL_STATIC
-            // SNDLVL_70dB
-            // SNDLVL_NORM
-            // SNDLVL_75dB
-            // SNDLVL_80dB
-            // SNDLVL_TALKING
-            // SNDLVL_85dB
-            // SNDLVL_90dB
-            // SNDLVL_95dB
-            // SNDLVL_100dB
-            // SNDLVL_105dB
-            // SNDLVL_110dB
-            // SNDLVL_120dB
-            // SNDLVL_130dB
-            // SNDLVL_GUNFIRE
-            // SNDLVL_140dB
-            // SNDLVL_150dB
-            // SNDLVL_180dB
             pub const CSosGroupActionLimitSchema = struct {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_nStopType: usize = 0xC; // SosActionStopType_t
@@ -2939,9 +3053,12 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pl
+            // hl
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Hs
             // PCM8
             // MP3
             // ADPCM
@@ -3167,26 +3284,32 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0j
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pk
+            // hk
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pl
+            // hl
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Hs
             pub const CVoiceContainerSelector = struct {
                 pub const m_mode: usize = 0xA8; // PlayBackMode_t
                 pub const m_soundsToPlay: usize = 0xB0; // CSoundContainerReferenceArray
                 pub const m_fProbabilityWeights: usize = 0xE8; // CUtlVector<float32>
             };
             // Parent: None
-            // Field count: 2
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -3196,21 +3319,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub const CSosGroupActionTimeBlockLimitSchema = struct {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_flMaxDuration: usize = 0xC; // float32
+                pub const m_nMaxCount: usize = 0x8; // int32
             };
             // Parent: None
-            // Field count: 8
+            // Field count: 9
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -3242,11 +3357,20 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // kBranch
+            // kMatch
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3254,6 +3378,20 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
             pub const CSosGroupActionMemberCountEnvelopeSchema = struct {
                 pub const m_nBaseCount: usize = 0x8; // int32
                 pub const m_nTargetCount: usize = 0xC; // int32
@@ -3263,6 +3401,7 @@ pub const source2_dumper = struct {
                 pub const m_flDecay: usize = 0x1C; // float32
                 pub const m_resultVarName: usize = 0x20; // CUtlString
                 pub const m_bSaveToGroup: usize = 0x28; // bool
+                pub const m_nBaseCount: usize = 0x8; // int32
             };
             // Parent: None
             // Field count: 1
@@ -3374,11 +3513,22 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // kBranch
+            // kMatch
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3386,6 +3536,47 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // eSndSeqRegionTypeSndEvt
+            // eSndSeqRegionTypeMidiSeq
+            // SndSeqMidiStatusNoteOff
+            // SndSeqMidiStatusNoteOn
+            // SndSeqMidiStatusKeyPressure
+            // SndSeqMidiStatusCtrlChange
+            // SndSeqMidiStatusProgramChange
+            // SndSeqMidiStatusChannelPressure
+            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             pub const CSosGroupActionTimeLimitSchema = struct {
                 pub const m_flMaxDuration: usize = 0x8; // float32
             };
@@ -3459,14 +3650,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pk
+            // hk
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Pl
+            // hl
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Hs
             pub const CVoiceContainerDecayingSineWave = struct {
                 pub const m_flFrequency: usize = 0xA8; // float32
                 pub const m_flDecayTime: usize = 0xAC; // float32
@@ -3529,7 +3725,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName

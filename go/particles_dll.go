@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 package schemas
 
@@ -659,6 +659,7 @@ const (
     ParticlesDll_C_INIT_InitialVelocityNoise_m_flNoiseScaleLoc = 0x1900 // CPerParticleFloatInput
     ParticlesDll_C_INIT_InitialVelocityNoise_m_TransformInput = 0x1A70 // CParticleTransformInput
     ParticlesDll_C_INIT_InitialVelocityNoise_m_bIgnoreDt = 0x1AD8 // bool
+    ParticlesDll_C_INIT_InitialVelocityNoise_m_vecScale = 0x1E0 // Vector
     ParticlesDll_ParticleChildrenInfo_t_m_ChildRef = 0x0 // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
     ParticlesDll_ParticleChildrenInfo_t_m_flDelay = 0x8 // float32
     ParticlesDll_ParticleChildrenInfo_t_m_bEndCap = 0xC // bool
@@ -1318,6 +1319,7 @@ const (
     ParticlesDll_C_OP_InterpolateRadius_m_flEndScale = 0x1E4 // float32
     ParticlesDll_C_OP_InterpolateRadius_m_bEaseInAndOut = 0x1E8 // bool
     ParticlesDll_C_OP_InterpolateRadius_m_flBias = 0x1EC // float32
+    ParticlesDll_C_OP_InterpolateRadius_m_nFieldOutput = 0x1D8 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_ReinitializeScalarEndCap_m_nFieldOutput = 0x1D8 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_ReinitializeScalarEndCap_m_flOutputMin = 0x1DC // float32
     ParticlesDll_C_OP_ReinitializeScalarEndCap_m_flOutputMax = 0x1E0 // float32
@@ -1702,6 +1704,7 @@ const (
     ParticlesDll_C_OP_RenderStatusEffect_m_pTextureEnvMap = 0x258 // CStrongHandle<InfoForResourceTypeCTextureBase>
     ParticlesDll_C_OP_RandomForce_m_MinForce = 0x1E8 // Vector
     ParticlesDll_C_OP_RandomForce_m_MaxForce = 0x1F4 // Vector
+    ParticlesDll_C_OP_RandomForce_m_flStartLerpTime = 0x1E8 // float32
     ParticlesDll_C_OP_RemapParticleCountOnScalarEndCap_m_nFieldOutput = 0x1D8 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_RemapParticleCountOnScalarEndCap_m_nInputMin = 0x1DC // int32
     ParticlesDll_C_OP_RemapParticleCountOnScalarEndCap_m_nInputMax = 0x1E0 // int32
@@ -1916,6 +1919,7 @@ const (
     ParticlesDll_C_OP_RestartAfterDuration_m_nCPField = 0x1E4 // int32
     ParticlesDll_C_OP_RestartAfterDuration_m_nChildGroupID = 0x1E8 // int32
     ParticlesDll_C_OP_RestartAfterDuration_m_bOnlyChildren = 0x1EC // bool
+    ParticlesDll_C_OP_RenderClothForce_m_sDecalGroupName = 0x228 // CGlobalSymbol
     ParticlesDll_C_OP_RemapVisibilityScalar_m_nFieldInput = 0x1D8 // ParticleAttributeIndex_t
     ParticlesDll_C_OP_RemapVisibilityScalar_m_nFieldOutput = 0x1DC // ParticleAttributeIndex_t
     ParticlesDll_C_OP_RemapVisibilityScalar_m_flInputMin = 0x1E0 // float32
@@ -1951,7 +1955,6 @@ const (
     ParticlesDll_C_OP_Cull_m_flCullEnd = 0x1E0 // float32
     ParticlesDll_C_OP_Cull_m_flCullExp = 0x1E4 // float32
     ParticlesDll_C_INIT_RandomYawFlip_m_flPercent = 0x1E0 // float32
-    ParticlesDll_C_INIT_RandomYawFlip_m_nFieldInput = 0x1E0 // ParticleAttributeIndex_t
     ParticlesDll_SequenceWeightedList_t_m_nSequence = 0x0 // int32
     ParticlesDll_SequenceWeightedList_t_m_flRelativeWeight = 0x4 // float32
     ParticlesDll_C_OP_ReadFromNeighboringParticle_m_nFieldInput = 0x1D8 // ParticleAttributeIndex_t
@@ -2680,6 +2683,7 @@ const (
     ParticlesDll_C_OP_CurlNoiseForce_m_vecOffsetRate = 0x1618 // CPerParticleVecInput
     ParticlesDll_C_OP_CurlNoiseForce_m_flWorleySeed = 0x1CD0 // CPerParticleFloatInput
     ParticlesDll_C_OP_CurlNoiseForce_m_flWorleyJitter = 0x1E40 // CPerParticleFloatInput
+    ParticlesDll_C_OP_CurlNoiseForce_m_nCP = 0x1E8 // int32
     ParticlesDll_C_INIT_Orient2DRelToCP_m_nCP = 0x1E0 // int32
     ParticlesDll_C_INIT_Orient2DRelToCP_m_nFieldOutput = 0x1E4 // ParticleAttributeIndex_t
     ParticlesDll_C_INIT_Orient2DRelToCP_m_flRotOffset = 0x1E8 // float32

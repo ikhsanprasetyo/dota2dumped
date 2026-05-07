@@ -1,19 +1,19 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 namespace Source2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
-        public const nint dwEntityList = 0x66DE178;
-        public const nint dwGameEntitySystem = 0x66DE178;
+        public const nint dwEntityList = 0x66DF288;
+        public const nint dwGameEntitySystem = 0x66DF288;
         public const nint dwGameEntitySystem_highestEntityIndex = 0x2090;
-        public const nint dwGlobalVars = 0x5C9B458;
-        public const nint dwLocalPlayerPawn = 0x5CA6688;
-        public const nint dwPrediction = 0x5CA65B0;
-        public const nint dwSensitivity = 0x6384798;
+        public const nint dwGlobalVars = 0x5C9C4D0;
+        public const nint dwLocalPlayerPawn = 0x5CA76F8;
+        public const nint dwPrediction = 0x5CA7620;
+        public const nint dwSensitivity = 0x6385898;
         public const nint dwSensitivity_sensitivity = 0x58;
-        public const nint dwViewMatrix = 0x638C3D0;
-        public const nint dwViewRender = 0x638BAB8;
+        public const nint dwViewMatrix = 0x638D4D0;
+        public const nint dwViewRender = 0x638CBB8;
     }
     // Module: engine2.dll
     public static class Engine2Dll {
@@ -38,7 +38,7 @@ namespace Source2Dumper.Offsets {
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {
-        public const nint dwSoundSystem = 0x513380;
+        public const nint dwSoundSystem = 0x5133A0;
         public const nint dwSoundSystem_engineViewData = 0x7C;
     }
 }

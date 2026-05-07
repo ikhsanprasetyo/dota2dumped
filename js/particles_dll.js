@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-04-29 12:46:53.186668100 +07:00
+// 2026-05-07 15:06:58.093220400 +07:00
 
 export const Schemas = {
     particles_dll: {
@@ -995,6 +995,7 @@ export const Schemas = {
             m_flNoiseScaleLoc: 0x1900, // CPerParticleFloatInput
             m_TransformInput: 0x1A70, // CParticleTransformInput
             m_bIgnoreDt: 0x1AD8, // bool
+            m_vecScale: 0x1E0, // Vector
         },
         ParticleChildrenInfo_t: {
             m_ChildRef: 0x0, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
@@ -1858,6 +1859,7 @@ export const Schemas = {
             m_flEndScale: 0x1E4, // float32
             m_bEaseInAndOut: 0x1E8, // bool
             m_flBias: 0x1EC, // float32
+            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
         },
         C_OP_ReinitializeScalarEndCap: {
             m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
@@ -2340,6 +2342,7 @@ export const Schemas = {
         C_OP_RandomForce: {
             m_MinForce: 0x1E8, // Vector
             m_MaxForce: 0x1F4, // Vector
+            m_flStartLerpTime: 0x1E8, // float32
         },
         C_OP_RemapParticleCountOnScalarEndCap: {
             m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
@@ -2620,6 +2623,7 @@ export const Schemas = {
             m_bOnlyChildren: 0x1EC, // bool
         },
         C_OP_RenderClothForce: {
+            m_sDecalGroupName: 0x228, // CGlobalSymbol
         },
         C_OP_RemapVisibilityScalar: {
             m_nFieldInput: 0x1D8, // ParticleAttributeIndex_t
@@ -2673,7 +2677,6 @@ export const Schemas = {
         },
         C_INIT_RandomYawFlip: {
             m_flPercent: 0x1E0, // float32
-            m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
         },
         SequenceWeightedList_t: {
             m_nSequence: 0x0, // int32
@@ -3642,6 +3645,7 @@ export const Schemas = {
             m_vecOffsetRate: 0x1618, // CPerParticleVecInput
             m_flWorleySeed: 0x1CD0, // CPerParticleFloatInput
             m_flWorleyJitter: 0x1E40, // CPerParticleFloatInput
+            m_nCP: 0x1E8, // int32
         },
         C_INIT_Orient2DRelToCP: {
             m_nCP: 0x1E0, // int32
