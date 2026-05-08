@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-05-07 15:06:58.093220400 +07:00
+# 2026-05-08 10:01:14.691628500 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -27996,3 +27996,145 @@ class Schemas:
             m_flRadius = 0x8 # float32
             m_nHitRegionIndex = 0xC # int32
             m_nDamageMultiplier = 0x10 # int32
+        class _Nw_i_:
+            pass
+        class _Cw_i_:
+            pass
+        class _Cw_i_:
+            pass
+        class ____i_:
+            pass
+        class _Cw_i_:
+            pass
+        class __w_i_:
+            pass
+        class _Cw_i_:
+            pass
+        class _Cw_i_:
+            pass
+        class _Cw_i_:
+            pass
+        class _Cw_i_:
+            pass
+        class _Cw_i_:
+            pass
+        class __w_i_:
+            pass
+        class __w_i_:
+            pass
+        class ____i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class _댿i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class _猿i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class _쌿i_:
+            pass
+        class ____i_:
+            pass
+        class ____i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class ____i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class ____i_:
+            pass
+        class _ٌ_i_:
+            pass
+        class __i_:
+            pass
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            pass
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            pass
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            pass
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class ____i_:
+            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class _뀿i_:
+            pass
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class __M_i_:
+            EVENT_ID_NONE = 0xFC2D5570 # EEvent
+            k_ERankType_Max = 0xFC2D5570 # ERankType
+            DOTA_CM_RANDOM = 0xFC2D5570 # DOTA_CM_PICK
+            LANE_TYPE_SAFE = 0xFC2D5570 # ELaneType
+            LANE_TYPE_OFF = 0xFC2D5570 # ELaneType
+            LANE_TYPE_MID = 0xFC2D5570 # ELaneType
+            LANE_TYPE_ROAM = 0xFC2D5570 # ELaneType
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class __M_i_:
+            pass
+        class _ꀿi_:
+            pass

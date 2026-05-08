@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -476,23 +476,16 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // Hb
-        // pb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyDescription
-        // xj
-        // 0j
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // 0j
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 8m
-        // Xm
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class CVoiceContainerRandomSampler {
             public const nint m_flAmplitude = 0xB8; // float32
             public const nint m_flAmplitudeJitter = 0xBC; // float32
@@ -550,7 +543,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        //  [
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -560,8 +552,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // Hb
-        // pb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         public static class CVoiceContainerDefault {
@@ -680,7 +670,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -702,7 +691,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // hZ
         public static class CSoundContainerReference {
             public const nint m_namespace = 0x0; // CUtlString
             public const nint m_bUseReference = 0x8; // bool
@@ -716,19 +704,15 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // hZ
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // hZ
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // h`
         // MPropertyFriendlyName
-        //  b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // RandomNoRepeats
@@ -740,7 +724,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 0j
         public static class CVoiceContainerNull {
         }
         // Parent: None
@@ -788,11 +771,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -1092,7 +1073,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Hs
         // PCM8
         // MP3
         // ADPCM
@@ -1672,24 +1652,18 @@ namespace Source2Dumper.Schemas {
         // MVDataFileExtension
         // MPropertyFriendlyName
         // MPropertyDescription
-        // XY
-        // pY
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // hZ
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // hZ
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // h`
         // MPropertyFriendlyName
-        //  b
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // RandomNoRepeats
@@ -1797,8 +1771,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @~
-        // `~
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -2031,11 +2003,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // (
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -2355,7 +2325,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        //  [
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -2365,23 +2334,16 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // Hb
-        // pb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyDescription
-        // xj
-        // 0j
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // 0j
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 8m
-        // Xm
+        // MPropertyFriendlyName
+        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -2437,7 +2399,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        //  [
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
@@ -2447,23 +2408,16 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // Hb
-        // pb
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyDescription
-        // xj
-        // 0j
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // 0j
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 8m
-        // Xm
+        // MPropertyFriendlyName
+        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -2693,8 +2647,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // @~
-        // `~
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -3057,12 +3009,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Pl
-        // hl
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Hs
         // PCM8
         // MP3
         // ADPCM
@@ -3210,6 +3159,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // l
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -3288,25 +3238,19 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 0j
         // MPropertyFriendlyName
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Pk
-        // hk
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Pl
-        // hl
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Hs
         public static class CVoiceContainerSelector {
             public const nint m_mode = 0xA8; // PlayBackMode_t
             public const nint m_soundsToPlay = 0xB0; // CSoundContainerReferenceArray
@@ -3654,19 +3598,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Pk
-        // hk
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Pl
-        // hl
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // Hs
         public static class CVoiceContainerDecayingSineWave {
             public const nint m_flFrequency = 0xA8; // float32
             public const nint m_flDecayTime = 0xAC; // float32

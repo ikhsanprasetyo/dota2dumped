@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 #pragma once
 
@@ -723,9 +723,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             namespace CPulseCell_PickBestOutflowSelector {
                 constexpr std::ptrdiff_t m_nCheckType = 0x48; // PulseBestOutflowRules_t
@@ -805,6 +807,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -861,6 +864,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseRequirement {
@@ -921,6 +925,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             namespace CPulseCell_IsRequirementValid {
             }
             // Parent: None
@@ -988,6 +993,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_GraphHook {
@@ -1009,6 +1015,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_BaseEntrypoint {
@@ -1096,7 +1103,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseTestScriptLib {
             }
             // Parent: None
@@ -1125,7 +1131,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1168,6 +1173,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EventHandler {
@@ -1179,6 +1185,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1218,6 +1225,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -1284,6 +1292,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EntOutputHandler {
@@ -1318,7 +1327,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Step_DebugLog {
@@ -1350,7 +1358,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1403,7 +1410,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Inflow_ObservableVariableListener {
                 constexpr std::ptrdiff_t m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 constexpr std::ptrdiff_t m_bSelfReference = 0x82; // bool
@@ -1424,7 +1430,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Outflow_CycleOrdered {
@@ -1459,7 +1464,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Inflow_Wait {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
             }
@@ -1478,7 +1482,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Outflow_CycleShuffled {
@@ -1495,6 +1498,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Method {
@@ -1527,7 +1531,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_BaseValue {
             }
             // Parent: None
@@ -1580,6 +1583,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Yield {
@@ -1602,9 +1606,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             namespace CPulseCell_Outflow_CycleRandom {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -1630,7 +1636,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             namespace CPulseCell_Step_PublicOutput {
                 constexpr std::ptrdiff_t m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -1661,7 +1666,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Value_RandomInt {
@@ -1716,9 +1720,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -1739,7 +1745,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Step_CallExternalMethod {
@@ -1797,7 +1802,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Value_RandomFloat {
@@ -2277,8 +2281,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             namespace CParticleFunctionPreEmission {
                 constexpr std::ptrdiff_t m_bRunOnce = 0x1D8; // bool
             }
@@ -2771,6 +2773,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             namespace C_OP_SetControlPointsToParticle {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nFirstControlPoint = 0x1DC; // int32
@@ -3582,6 +3585,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             namespace C_OP_ModelDampenMovement {
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_bBoundBox = 0x1DC; // bool
@@ -3612,6 +3616,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             namespace C_OP_TwistAroundAxis {
                 constexpr std::ptrdiff_t m_fForceAmount = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_TwistAxis = 0x1EC; // Vector
@@ -4142,6 +4147,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             namespace C_OP_OrientTo2dDirection {
                 constexpr std::ptrdiff_t m_vecInput = 0x1D8; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_flRotOffset = 0x890; // float32
@@ -7417,8 +7423,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             namespace CParticleFunctionForce {
             }
             // Parent: None
@@ -8169,6 +8173,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             namespace C_OP_SpinUpdate {
             }
             // Parent: None
@@ -9847,8 +9852,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             namespace CParticleFunctionOperator {
             }
             // Parent: None
@@ -12119,6 +12122,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
+            // a
             namespace C_OP_LocalAccelerationForce {
                 constexpr std::ptrdiff_t m_nCP = 0x1E8; // int32
                 constexpr std::ptrdiff_t m_nScaleCP = 0x1EC; // int32
@@ -15868,6 +15873,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             namespace C_OP_SetVec {
                 constexpr std::ptrdiff_t m_InputValue = 0x1D8; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_nOutputField = 0x890; // ParticleAttributeIndex_t
@@ -18528,6 +18534,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             namespace C_OP_DensityForce {
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_flForceScale = 0x1EC; // float32
@@ -18838,6 +18845,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
+            // a
             namespace C_OP_IntraParticleForce {
                 constexpr std::ptrdiff_t m_flAttractionMinDistance = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_flAttractionMaxDistance = 0x1EC; // float32
@@ -18971,6 +18980,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             namespace C_OP_PerParticleForce {
                 constexpr std::ptrdiff_t m_flForceScale = 0x1E8; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_vForce = 0x358; // CPerParticleVecInput
@@ -20443,6 +20453,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             namespace C_OP_WindForce {
                 constexpr std::ptrdiff_t m_vForce = 0x1E8; // Vector
             }
@@ -20986,6 +20997,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             namespace C_OP_CurlNoiseForce {
                 constexpr std::ptrdiff_t m_nNoiseType = 0x1E8; // ParticleDirectionNoiseType_t
                 constexpr std::ptrdiff_t m_vecNoiseFreq = 0x1F0; // CPerParticleVecInput
@@ -21231,6 +21243,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // h
             namespace C_OP_HSVShiftToCP {
                 constexpr std::ptrdiff_t m_nColorCP = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nColorGemEnableCP = 0x1E4; // int32
@@ -21614,6 +21627,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             namespace C_OP_TimeVaryingForce {
                 constexpr std::ptrdiff_t m_flStartLerpTime = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_StartingForce = 0x1EC; // Vector
@@ -22219,7 +22233,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             namespace CParticleFunctionInitializer {
                 constexpr std::ptrdiff_t m_nAssociatedEmitterIndex = 0x1D8; // int32
             }
@@ -22971,6 +22984,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // h
             namespace C_OP_SetGravityToCP {
                 constexpr std::ptrdiff_t m_nCPInput = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nCPOutput = 0x1E4; // int32
@@ -23675,6 +23689,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             namespace C_OP_ForceBasedOnDistanceToPlane {
                 constexpr std::ptrdiff_t m_flMinDist = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_vecForceAtMinDist = 0x1EC; // Vector
@@ -23979,7 +23994,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             namespace CParticleFunctionConstraint {
             }
             // Parent: None
@@ -24444,7 +24458,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             namespace CParticleFunctionEmitter {
                 constexpr std::ptrdiff_t m_nEmitterIndex = 0x1D8; // int32
             }
@@ -25015,6 +25028,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             namespace C_OP_ParentVortices {
                 constexpr std::ptrdiff_t m_flForceScale = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_vecTwistAxis = 0x1EC; // Vector
@@ -25302,6 +25316,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             namespace C_OP_ExternalWindForce {
                 constexpr std::ptrdiff_t m_vecSamplePosition = 0x1E8; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_vecScale = 0x8A0; // CPerParticleVecInput
@@ -25537,6 +25552,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             namespace C_OP_SetPerChildControlPoint {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nFirstControlPoint = 0x1DC; // int32

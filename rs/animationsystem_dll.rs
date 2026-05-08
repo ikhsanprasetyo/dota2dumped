@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1662,6 +1662,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1718,6 +1719,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseRequirement {
@@ -1859,6 +1861,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_GraphHook {
@@ -1880,6 +1883,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_BaseEntrypoint {
@@ -1967,7 +1971,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseTestScriptLib {
             }
             // Parent: None
@@ -1996,7 +1999,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2014,6 +2016,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -2043,6 +2046,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EventHandler {
@@ -2056,6 +2060,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -2175,6 +2180,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EntOutputHandler {
@@ -2209,7 +2215,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Step_DebugLog {
             }
             // Parent: None
@@ -2239,7 +2244,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2290,7 +2294,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Inflow_ObservableVariableListener {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -2311,7 +2314,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Outflow_CycleOrdered {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -2344,7 +2346,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Inflow_Wait {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
             }
@@ -2363,7 +2364,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Outflow_CycleShuffled {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -2378,6 +2378,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Method {
@@ -2410,7 +2411,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_BaseValue {
             }
             // Parent: None
@@ -2463,6 +2463,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Yield {
@@ -2485,11 +2486,13 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // \570
             pub mod CPulseCell_Outflow_CycleRandom {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -2515,7 +2518,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Step_PublicOutput {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -2546,7 +2548,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Value_RandomInt {
             }
             // Parent: None
@@ -2590,6 +2591,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             pub mod CPulseCell_InlineNodeSkipSelector {
                 pub const m_nFlowNodeID: usize = 0x48; // PulseDocNodeID_t
                 pub const m_bAnd: usize = 0x4C; // bool
@@ -2654,7 +2656,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Step_CallExternalMethod {
                 pub const m_MethodName: usize = 0x48; // PulseSymbol_t
                 pub const m_nBlackboardIndex: usize = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
@@ -2710,7 +2711,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Value_RandomFloat {
             }
             // Parent: None
@@ -3797,6 +3797,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // Y
             // Z
             // Length
@@ -3918,6 +3919,7 @@ pub mod source2_dumper {
             // MatchTimeInSeconds
             // OffsetTimeInSeconds
             // MGetKV3ClassDefaults
+            // \570
             // Y
             // Z
             // Length
@@ -4500,6 +4502,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4848,6 +4851,7 @@ pub mod source2_dumper {
             // GreaterThanEqualToEventIndex
             // IndexOnly
             // PercentageOnly
+            // r
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CNmCachedBoolNode__CDefinition {
@@ -4902,7 +4906,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // d
@@ -4935,6 +4941,7 @@ pub mod source2_dumper {
             // GreaterThanEqualToEventIndex
             // IndexOnly
             // PercentageOnly
+            // r
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CNmCachedFloatNode__CDefinition {
@@ -4961,6 +4968,7 @@ pub mod source2_dumper {
             // NearEqual
             // GreaterThan
             // LessThan
+            //  
             // ClampTo360
             // FlipHemisphere
             // FlipHemisphereNegate
@@ -5113,6 +5121,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CFootAdjustmentUpdateNode {
@@ -5229,6 +5238,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5480,6 +5490,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6305,6 +6316,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             pub mod CBlend2DUpdateNode {
                 pub const m_items: usize = 0x60; // CUtlVector<BlendItem_t>
                 pub const m_tags: usize = 0x78; // CUtlVector<TagSpan_t>
@@ -6387,6 +6399,7 @@ pub mod source2_dumper {
             // GreaterThanEqualToEventIndex
             // IndexOnly
             // PercentageOnly
+            // r
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CNmCachedIDNode__CDefinition {
@@ -6698,6 +6711,7 @@ pub mod source2_dumper {
             // MatchTimeInSeconds
             // OffsetTimeInSeconds
             // MGetKV3ClassDefaults
+            // \570
             // Y
             // Z
             // Length
@@ -7259,6 +7273,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7286,6 +7301,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -7769,6 +7785,7 @@ pub mod source2_dumper {
             // GreaterThanEqualToEventIndex
             // IndexOnly
             // PercentageOnly
+            // r
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CNmCachedVectorNode__CDefinition {
@@ -7795,7 +7812,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CFootPositionMetricEvaluator {
@@ -7889,6 +7908,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             pub mod CBlendUpdateNode {
                 pub const m_children: usize = 0x60; // CUtlVector<CAnimUpdateNodeRef>
                 pub const m_sortedOrder: usize = 0x78; // CUtlVector<uint8>
@@ -8396,6 +8416,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
             pub mod CCurrentVelocityMetricEvaluator {
             }
@@ -8442,6 +8463,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // kLh
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8488,7 +8510,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // d
@@ -8562,6 +8586,7 @@ pub mod source2_dumper {
             // GreaterThanEqualToEventIndex
             // IndexOnly
             // PercentageOnly
+            // r
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Sub
@@ -8654,7 +8679,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CFutureFacingMetricEvaluator {
@@ -8786,6 +8813,7 @@ pub mod source2_dumper {
             // GreaterThanEqualToEventIndex
             // IndexOnly
             // PercentageOnly
+            // r
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CNmCachedTargetNode__CDefinition {
@@ -9148,7 +9176,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // \ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\Bytesee
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10000,6 +10027,7 @@ pub mod source2_dumper {
             // NearEqual
             // GreaterThan
             // LessThan
+            //  
             // ClampTo360
             // FlipHemisphere
             // FlipHemisphereNegate
@@ -10287,6 +10315,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
             pub mod CDistanceRemainingMetricEvaluator {
                 pub const m_flMaxDistance: usize = 0x50; // float32
@@ -10605,6 +10634,7 @@ pub mod source2_dumper {
             // MatchTimeInSeconds
             // OffsetTimeInSeconds
             // MGetKV3ClassDefaults
+            // \570
             // Y
             // Z
             // Length
@@ -10991,6 +11021,7 @@ pub mod source2_dumper {
             // MatchTimeInSeconds
             // OffsetTimeInSeconds
             // MGetKV3ClassDefaults
+            // \570
             // Y
             // Z
             // Length
@@ -11121,6 +11152,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             pub mod CCurrentRotationVelocityMetricEvaluator {
             }
             // Parent: None
@@ -11302,6 +11334,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11356,6 +11389,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12287,6 +12321,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
             pub mod CFollowPathUpdateNode {
                 pub const m_flBlendOutTime: usize = 0x74; // float32
@@ -12376,6 +12411,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // d
@@ -12409,6 +12445,7 @@ pub mod source2_dumper {
             // GreaterThanEqualToEventIndex
             // IndexOnly
             // PercentageOnly
+            // r
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Sub
@@ -12624,6 +12661,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CFollowTargetUpdateNode {
@@ -12764,6 +12802,7 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // MPropertyCustomEditor
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12841,11 +12880,11 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // a
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // \ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\Bytesee
             pub mod CNmVectorNegateNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
             }

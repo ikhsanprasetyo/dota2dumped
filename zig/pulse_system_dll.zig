@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -481,6 +481,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -540,6 +541,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseRequirement = struct {
             };
@@ -726,7 +728,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_GraphHook = struct {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
@@ -778,6 +779,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_BaseEntrypoint = struct {
                 pub const m_EntryChunk: usize = 0x48; // PulseRuntimeChunkIndex_t
@@ -912,6 +914,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -962,6 +965,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // ameId=570
             pub const CPulseCell_Test_MultiOutflow_WithParams_Yielding = struct {
                 pub const m_Out1: usize = 0x48; // SignatureOutflow_Continue
                 pub const m_AsyncChild1: usize = 0x90; // SignatureOutflow_Continue
@@ -980,6 +984,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1024,7 +1029,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_EventHandler = struct {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
@@ -1197,7 +1201,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_EntOutputHandler = struct {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
@@ -1308,7 +1311,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Step_DebugLog = struct {
@@ -1325,6 +1327,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1360,6 +1363,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_ObservableVariableListener = struct {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
@@ -1381,7 +1385,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleOrdered = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1404,6 +1407,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // ameId=570
             pub const CPulseCell_Val_TestDomainGetEntityName = struct {
             };
             // Parent: None
@@ -1427,7 +1431,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Wait = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
@@ -1503,7 +1506,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleShuffled = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1522,6 +1524,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Method = struct {
                 pub const m_MethodName: usize = 0x80; // PulseSymbol_t
@@ -1538,6 +1541,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseValue = struct {
             };
@@ -1610,7 +1614,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Yield = struct {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
@@ -1632,6 +1635,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             pub const CPulseCell_Outflow_CycleRandom = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1643,6 +1647,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             pub const CPulseCell_Step_PublicOutput = struct {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
@@ -1655,6 +1660,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // ameId=570
             pub const CPulseCell_Val_TestDomainFindEntityByName = struct {
             };
             // Parent: None
@@ -1684,7 +1690,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Value_RandomInt = struct {
             };
@@ -1700,6 +1705,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // ameId=570
             pub const CPulseCell_Step_TestDomainEntFire = struct {
                 pub const m_Input: usize = 0x48; // CUtlString
                 pub const flWaitValue: usize = 0x0; // float32
@@ -1762,7 +1768,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Files\Cloudflare\Cloudflare WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scrip
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_InlineNodeSkipSelector = struct {
@@ -1815,7 +1820,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Step_CallExternalMethod = struct {
@@ -1886,7 +1890,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             pub const CPulseCell_Value_RandomFloat = struct {
             };
@@ -1899,6 +1902,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1923,6 +1927,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1944,6 +1949,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1956,6 +1962,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2016,7 +2023,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Files\Cloudflare\Cloudflare WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scrip
             pub const CPulse_OutputConnection = struct {
                 pub const m_SourceOutput: usize = 0x0; // PulseSymbol_t
                 pub const m_TargetEntity: usize = 0x10; // PulseSymbol_t
@@ -2112,6 +2118,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2134,6 +2141,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2145,6 +2153,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2181,6 +2190,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2217,6 +2227,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2228,6 +2239,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -2241,7 +2253,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Files\Cloudflare\Cloudflare WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scrip
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseRuntimeMethodArg = struct {
@@ -2254,6 +2265,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x0049,
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults

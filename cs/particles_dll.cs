@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -717,9 +717,11 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
         // MPropertyDescription
         // MPulseExpressionAlias
         // MPulseExpressionAlias
+        // s
         // MPulseExpressionAlias
         public static class CPulseCell_PickBestOutflowSelector {
             public const nint m_nCheckType = 0x48; // PulseBestOutflowRules_t
@@ -799,6 +801,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // \570
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -855,6 +858,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseRequirement {
@@ -915,6 +919,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
         public static class CPulseCell_IsRequirementValid {
         }
         // Parent: None
@@ -982,6 +987,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_GraphHook {
@@ -1003,6 +1009,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_BaseEntrypoint {
@@ -1090,7 +1097,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseTestScriptLib {
         }
         // Parent: None
@@ -1119,7 +1125,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -1162,6 +1167,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_EventHandler {
@@ -1173,6 +1179,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // \570
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -1212,6 +1219,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseExpressionAlias
         // MPulseExpressionAlias
+        // s
         // MPulseExpressionAlias
         // MPulseExpressionAlias
         // MPulseExpressionAlias
@@ -1278,6 +1286,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_EntOutputHandler {
@@ -1312,7 +1321,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class CPulseCell_Step_DebugLog {
@@ -1344,7 +1352,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -1397,7 +1404,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Inflow_ObservableVariableListener {
             public const nint m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
             public const nint m_bSelfReference = 0x82; // bool
@@ -1418,7 +1424,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class CPulseCell_Outflow_CycleOrdered {
@@ -1453,7 +1458,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Inflow_Wait {
             public const nint m_WakeResume = 0x48; // CPulse_ResumePoint
         }
@@ -1472,7 +1476,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class CPulseCell_Outflow_CycleShuffled {
@@ -1489,6 +1492,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Method {
@@ -1521,7 +1525,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_BaseValue {
         }
         // Parent: None
@@ -1574,6 +1577,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Yield {
@@ -1596,9 +1600,11 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // \570
         public static class CPulseCell_Outflow_CycleRandom {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
@@ -1624,7 +1630,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         public static class CPulseCell_Step_PublicOutput {
             public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
         }
@@ -1655,7 +1660,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class CPulseCell_Value_RandomInt {
@@ -1710,9 +1714,11 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
         // MPropertyDescription
         // MPulseExpressionAlias
         // MPulseExpressionAlias
+        // s
         // MPulseExpressionAlias
         // MPulseExpressionAlias
         // MPulseExpressionAlias
@@ -1733,7 +1739,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class CPulseCell_Step_CallExternalMethod {
@@ -1791,7 +1796,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class CPulseCell_Value_RandomFloat {
@@ -2271,8 +2275,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // ta 2 beta\game\bin\win64\dota2.exe
-        // "S
         public static class CParticleFunctionPreEmission {
             public const nint m_bRunOnce = 0x1D8; // bool
         }
@@ -2765,6 +2767,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 03,0x1c10/0x1c17,
         public static class C_OP_SetControlPointsToParticle {
             public const nint m_nChildGroupID = 0x1D8; // int32
             public const nint m_nFirstControlPoint = 0x1DC; // int32
@@ -3576,6 +3579,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 03,0x1c10/0x1c17,
         public static class C_OP_ModelDampenMovement {
             public const nint m_nControlPointNumber = 0x1D8; // int32
             public const nint m_bBoundBox = 0x1DC; // bool
@@ -3606,6 +3610,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // \570
         public static class C_OP_TwistAroundAxis {
             public const nint m_fForceAmount = 0x1E8; // float32
             public const nint m_TwistAxis = 0x1EC; // Vector
@@ -4136,6 +4141,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 03,0x1c10/0x1c17,
         public static class C_OP_OrientTo2dDirection {
             public const nint m_vecInput = 0x1D8; // CPerParticleVecInput
             public const nint m_flRotOffset = 0x890; // float32
@@ -7411,8 +7417,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // ta 2 beta\game\bin\win64\dota2.exe
-        // "S
         public static class CParticleFunctionForce {
         }
         // Parent: None
@@ -8163,6 +8167,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 03,0x1c10/0x1c17,
         public static class C_OP_SpinUpdate {
         }
         // Parent: None
@@ -9841,8 +9846,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // ta 2 beta\game\bin\win64\dota2.exe
-        // "S
         public static class CParticleFunctionOperator {
         }
         // Parent: None
@@ -12113,6 +12116,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // a
+        // a
         public static class C_OP_LocalAccelerationForce {
             public const nint m_nCP = 0x1E8; // int32
             public const nint m_nScaleCP = 0x1EC; // int32
@@ -15862,6 +15867,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 03,0x1c10/0x1c17,
         public static class C_OP_SetVec {
             public const nint m_InputValue = 0x1D8; // CPerParticleVecInput
             public const nint m_nOutputField = 0x890; // ParticleAttributeIndex_t
@@ -18522,6 +18528,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // \570
         public static class C_OP_DensityForce {
             public const nint m_flRadiusScale = 0x1E8; // float32
             public const nint m_flForceScale = 0x1EC; // float32
@@ -18832,6 +18839,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // a
+        // a
         public static class C_OP_IntraParticleForce {
             public const nint m_flAttractionMinDistance = 0x1E8; // float32
             public const nint m_flAttractionMaxDistance = 0x1EC; // float32
@@ -18965,6 +18974,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // \570
         public static class C_OP_PerParticleForce {
             public const nint m_flForceScale = 0x1E8; // CPerParticleFloatInput
             public const nint m_vForce = 0x358; // CPerParticleVecInput
@@ -20437,6 +20447,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // a
         public static class C_OP_WindForce {
             public const nint m_vForce = 0x1E8; // Vector
         }
@@ -20980,6 +20991,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // \570
         public static class C_OP_CurlNoiseForce {
             public const nint m_nNoiseType = 0x1E8; // ParticleDirectionNoiseType_t
             public const nint m_vecNoiseFreq = 0x1F0; // CPerParticleVecInput
@@ -21225,6 +21237,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // h
         public static class C_OP_HSVShiftToCP {
             public const nint m_nColorCP = 0x1E0; // int32
             public const nint m_nColorGemEnableCP = 0x1E4; // int32
@@ -21608,6 +21621,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // \570
         public static class C_OP_TimeVaryingForce {
             public const nint m_flStartLerpTime = 0x1E8; // float32
             public const nint m_StartingForce = 0x1EC; // Vector
@@ -22213,7 +22227,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // ta 2 beta\game\bin\win64\dota2.exe
         public static class CParticleFunctionInitializer {
             public const nint m_nAssociatedEmitterIndex = 0x1D8; // int32
         }
@@ -22965,6 +22978,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // h
         public static class C_OP_SetGravityToCP {
             public const nint m_nCPInput = 0x1E0; // int32
             public const nint m_nCPOutput = 0x1E4; // int32
@@ -23669,6 +23683,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // a
         public static class C_OP_ForceBasedOnDistanceToPlane {
             public const nint m_flMinDist = 0x1E8; // float32
             public const nint m_vecForceAtMinDist = 0x1EC; // Vector
@@ -23973,7 +23988,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // ta 2 beta\game\bin\win64\dota2.exe
         public static class CParticleFunctionConstraint {
         }
         // Parent: None
@@ -24438,7 +24452,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
-        // ta 2 beta\game\bin\win64\dota2.exe
         public static class CParticleFunctionEmitter {
             public const nint m_nEmitterIndex = 0x1D8; // int32
         }
@@ -25009,6 +25022,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // \570
         public static class C_OP_ParentVortices {
             public const nint m_flForceScale = 0x1E8; // float32
             public const nint m_vecTwistAxis = 0x1EC; // Vector
@@ -25296,6 +25310,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // a
         public static class C_OP_ExternalWindForce {
             public const nint m_vecSamplePosition = 0x1E8; // CPerParticleVecInput
             public const nint m_vecScale = 0x8A0; // CPerParticleVecInput
@@ -25531,6 +25546,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 03,0x1c10/0x1c17,
         public static class C_OP_SetPerChildControlPoint {
             public const nint m_nChildGroupID = 0x1D8; // int32
             public const nint m_nFirstControlPoint = 0x1DC; // int32

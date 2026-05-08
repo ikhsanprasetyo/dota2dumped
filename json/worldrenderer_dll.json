@@ -589,6 +589,10 @@
           {
             "name": "MResourceTypeForInfoType",
             "type": "Unknown"
+          },
+          {
+            "name": "kLh",
+            "type": "Unknown"
           }
         ],
         "parent": null

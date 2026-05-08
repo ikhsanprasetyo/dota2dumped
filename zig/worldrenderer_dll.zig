@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -404,6 +404,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            // kLh
             pub const InfoForResourceTypeVMapResourceData_t = struct {
             };
             // Parent: None

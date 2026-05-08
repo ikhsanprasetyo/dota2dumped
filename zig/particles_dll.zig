@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -718,9 +718,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             pub const CPulseCell_PickBestOutflowSelector = struct {
                 pub const m_nCheckType: usize = 0x48; // PulseBestOutflowRules_t
@@ -800,6 +802,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -856,6 +859,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_BaseRequirement = struct {
@@ -916,6 +920,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             pub const CPulseCell_IsRequirementValid = struct {
             };
             // Parent: None
@@ -983,6 +988,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_GraphHook = struct {
@@ -1004,6 +1010,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_BaseEntrypoint = struct {
@@ -1091,7 +1098,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseTestScriptLib = struct {
             };
             // Parent: None
@@ -1120,7 +1126,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1163,6 +1168,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_EventHandler = struct {
@@ -1174,6 +1180,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1213,6 +1220,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -1279,6 +1287,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_EntOutputHandler = struct {
@@ -1313,7 +1322,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Step_DebugLog = struct {
@@ -1345,7 +1353,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1398,7 +1405,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseCell_Inflow_ObservableVariableListener = struct {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -1419,7 +1425,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Outflow_CycleOrdered = struct {
@@ -1454,7 +1459,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseCell_Inflow_Wait = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
             };
@@ -1473,7 +1477,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Outflow_CycleShuffled = struct {
@@ -1490,6 +1493,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Method = struct {
@@ -1522,7 +1526,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseCell_BaseValue = struct {
             };
             // Parent: None
@@ -1575,6 +1578,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_Inflow_Yield = struct {
@@ -1597,9 +1601,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             pub const CPulseCell_Outflow_CycleRandom = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             };
@@ -1625,7 +1631,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub const CPulseCell_Step_PublicOutput = struct {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             };
@@ -1656,7 +1661,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Value_RandomInt = struct {
@@ -1711,9 +1715,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -1734,7 +1740,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Step_CallExternalMethod = struct {
@@ -1792,7 +1797,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Value_RandomFloat = struct {
@@ -2272,8 +2276,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             pub const CParticleFunctionPreEmission = struct {
                 pub const m_bRunOnce: usize = 0x1D8; // bool
             };
@@ -2766,6 +2768,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub const C_OP_SetControlPointsToParticle = struct {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32
@@ -3577,6 +3580,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub const C_OP_ModelDampenMovement = struct {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_bBoundBox: usize = 0x1DC; // bool
@@ -3607,6 +3611,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub const C_OP_TwistAroundAxis = struct {
                 pub const m_fForceAmount: usize = 0x1E8; // float32
                 pub const m_TwistAxis: usize = 0x1EC; // Vector
@@ -4137,6 +4142,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub const C_OP_OrientTo2dDirection = struct {
                 pub const m_vecInput: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_flRotOffset: usize = 0x890; // float32
@@ -7412,8 +7418,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             pub const CParticleFunctionForce = struct {
             };
             // Parent: None
@@ -8164,6 +8168,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub const C_OP_SpinUpdate = struct {
             };
             // Parent: None
@@ -9842,8 +9847,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             pub const CParticleFunctionOperator = struct {
             };
             // Parent: None
@@ -12114,6 +12117,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
+            // a
             pub const C_OP_LocalAccelerationForce = struct {
                 pub const m_nCP: usize = 0x1E8; // int32
                 pub const m_nScaleCP: usize = 0x1EC; // int32
@@ -15863,6 +15868,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub const C_OP_SetVec = struct {
                 pub const m_InputValue: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_nOutputField: usize = 0x890; // ParticleAttributeIndex_t
@@ -18523,6 +18529,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub const C_OP_DensityForce = struct {
                 pub const m_flRadiusScale: usize = 0x1E8; // float32
                 pub const m_flForceScale: usize = 0x1EC; // float32
@@ -18833,6 +18840,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
+            // a
             pub const C_OP_IntraParticleForce = struct {
                 pub const m_flAttractionMinDistance: usize = 0x1E8; // float32
                 pub const m_flAttractionMaxDistance: usize = 0x1EC; // float32
@@ -18966,6 +18975,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub const C_OP_PerParticleForce = struct {
                 pub const m_flForceScale: usize = 0x1E8; // CPerParticleFloatInput
                 pub const m_vForce: usize = 0x358; // CPerParticleVecInput
@@ -20438,6 +20448,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             pub const C_OP_WindForce = struct {
                 pub const m_vForce: usize = 0x1E8; // Vector
             };
@@ -20981,6 +20992,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub const C_OP_CurlNoiseForce = struct {
                 pub const m_nNoiseType: usize = 0x1E8; // ParticleDirectionNoiseType_t
                 pub const m_vecNoiseFreq: usize = 0x1F0; // CPerParticleVecInput
@@ -21226,6 +21238,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // h
             pub const C_OP_HSVShiftToCP = struct {
                 pub const m_nColorCP: usize = 0x1E0; // int32
                 pub const m_nColorGemEnableCP: usize = 0x1E4; // int32
@@ -21609,6 +21622,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub const C_OP_TimeVaryingForce = struct {
                 pub const m_flStartLerpTime: usize = 0x1E8; // float32
                 pub const m_StartingForce: usize = 0x1EC; // Vector
@@ -22214,7 +22228,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             pub const CParticleFunctionInitializer = struct {
                 pub const m_nAssociatedEmitterIndex: usize = 0x1D8; // int32
             };
@@ -22966,6 +22979,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // h
             pub const C_OP_SetGravityToCP = struct {
                 pub const m_nCPInput: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -23670,6 +23684,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             pub const C_OP_ForceBasedOnDistanceToPlane = struct {
                 pub const m_flMinDist: usize = 0x1E8; // float32
                 pub const m_vecForceAtMinDist: usize = 0x1EC; // Vector
@@ -23974,7 +23989,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             pub const CParticleFunctionConstraint = struct {
             };
             // Parent: None
@@ -24439,7 +24453,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             pub const CParticleFunctionEmitter = struct {
                 pub const m_nEmitterIndex: usize = 0x1D8; // int32
             };
@@ -25010,6 +25023,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub const C_OP_ParentVortices = struct {
                 pub const m_flForceScale: usize = 0x1E8; // float32
                 pub const m_vecTwistAxis: usize = 0x1EC; // Vector
@@ -25297,6 +25311,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             pub const C_OP_ExternalWindForce = struct {
                 pub const m_vecSamplePosition: usize = 0x1E8; // CPerParticleVecInput
                 pub const m_vecScale: usize = 0x8A0; // CPerParticleVecInput
@@ -25532,6 +25547,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub const C_OP_SetPerChildControlPoint = struct {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32

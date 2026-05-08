@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -56,8 +56,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -243,8 +243,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // t
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -433,6 +433,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOutlinerLeafNameFn
+            // kLh
             // generic
             pub const FeBuildSphereRigid_t = struct {
                 pub const m_nPriority: usize = 0x20; // int32
@@ -1459,6 +1460,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOutlinerLeafNameFn
+            // kLh
             // generic
             pub const FeBuildTaperedCapsuleRigid_t = struct {
                 pub const m_nPriority: usize = 0x30; // int32

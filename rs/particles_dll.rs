@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -796,9 +796,11 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             pub mod CPulseCell_PickBestOutflowSelector {
                 pub const m_nCheckType: usize = 0x48; // PulseBestOutflowRules_t
@@ -878,6 +880,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -934,6 +937,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseRequirement {
@@ -994,6 +998,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             pub mod CPulseCell_IsRequirementValid {
             }
             // Parent: None
@@ -1061,6 +1066,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_GraphHook {
@@ -1082,6 +1088,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_BaseEntrypoint {
@@ -1169,7 +1176,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseTestScriptLib {
             }
             // Parent: None
@@ -1198,7 +1204,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1241,6 +1246,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EventHandler {
@@ -1252,6 +1258,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1291,6 +1298,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -1357,6 +1365,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EntOutputHandler {
@@ -1391,7 +1400,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod CPulseCell_Step_DebugLog {
@@ -1423,7 +1431,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1476,7 +1483,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Inflow_ObservableVariableListener {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -1497,7 +1503,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod CPulseCell_Outflow_CycleOrdered {
@@ -1532,7 +1537,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Inflow_Wait {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
             }
@@ -1551,7 +1555,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod CPulseCell_Outflow_CycleShuffled {
@@ -1568,6 +1571,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Method {
@@ -1600,7 +1604,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_BaseValue {
             }
             // Parent: None
@@ -1653,6 +1656,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Yield {
@@ -1675,9 +1679,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // \570
             pub mod CPulseCell_Outflow_CycleRandom {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -1703,7 +1709,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             pub mod CPulseCell_Step_PublicOutput {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -1734,7 +1739,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod CPulseCell_Value_RandomInt {
@@ -1789,9 +1793,11 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
+            // s
             // MPulseExpressionAlias
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -1812,7 +1818,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod CPulseCell_Step_CallExternalMethod {
@@ -1870,7 +1875,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod CPulseCell_Value_RandomFloat {
@@ -2350,8 +2354,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             pub mod CParticleFunctionPreEmission {
                 pub const m_bRunOnce: usize = 0x1D8; // bool
             }
@@ -2844,6 +2846,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub mod C_OP_SetControlPointsToParticle {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32
@@ -3655,6 +3658,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub mod C_OP_ModelDampenMovement {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_bBoundBox: usize = 0x1DC; // bool
@@ -3685,6 +3689,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub mod C_OP_TwistAroundAxis {
                 pub const m_fForceAmount: usize = 0x1E8; // float32
                 pub const m_TwistAxis: usize = 0x1EC; // Vector
@@ -4215,6 +4220,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub mod C_OP_OrientTo2dDirection {
                 pub const m_vecInput: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_flRotOffset: usize = 0x890; // float32
@@ -7490,8 +7496,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             pub mod CParticleFunctionForce {
             }
             // Parent: None
@@ -8242,6 +8246,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub mod C_OP_SpinUpdate {
             }
             // Parent: None
@@ -9920,8 +9925,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
-            // "S
             pub mod CParticleFunctionOperator {
             }
             // Parent: None
@@ -12192,6 +12195,8 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
+            // a
             pub mod C_OP_LocalAccelerationForce {
                 pub const m_nCP: usize = 0x1E8; // int32
                 pub const m_nScaleCP: usize = 0x1EC; // int32
@@ -15941,6 +15946,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub mod C_OP_SetVec {
                 pub const m_InputValue: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_nOutputField: usize = 0x890; // ParticleAttributeIndex_t
@@ -18601,6 +18607,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub mod C_OP_DensityForce {
                 pub const m_flRadiusScale: usize = 0x1E8; // float32
                 pub const m_flForceScale: usize = 0x1EC; // float32
@@ -18911,6 +18918,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
+            // a
             pub mod C_OP_IntraParticleForce {
                 pub const m_flAttractionMinDistance: usize = 0x1E8; // float32
                 pub const m_flAttractionMaxDistance: usize = 0x1EC; // float32
@@ -19044,6 +19053,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub mod C_OP_PerParticleForce {
                 pub const m_flForceScale: usize = 0x1E8; // CPerParticleFloatInput
                 pub const m_vForce: usize = 0x358; // CPerParticleVecInput
@@ -20516,6 +20526,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             pub mod C_OP_WindForce {
                 pub const m_vForce: usize = 0x1E8; // Vector
             }
@@ -21059,6 +21070,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub mod C_OP_CurlNoiseForce {
                 pub const m_nNoiseType: usize = 0x1E8; // ParticleDirectionNoiseType_t
                 pub const m_vecNoiseFreq: usize = 0x1F0; // CPerParticleVecInput
@@ -21304,6 +21316,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // h
             pub mod C_OP_HSVShiftToCP {
                 pub const m_nColorCP: usize = 0x1E0; // int32
                 pub const m_nColorGemEnableCP: usize = 0x1E4; // int32
@@ -21687,6 +21700,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub mod C_OP_TimeVaryingForce {
                 pub const m_flStartLerpTime: usize = 0x1E8; // float32
                 pub const m_StartingForce: usize = 0x1EC; // Vector
@@ -22292,7 +22306,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             pub mod CParticleFunctionInitializer {
                 pub const m_nAssociatedEmitterIndex: usize = 0x1D8; // int32
             }
@@ -23044,6 +23057,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // h
             pub mod C_OP_SetGravityToCP {
                 pub const m_nCPInput: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -23748,6 +23762,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             pub mod C_OP_ForceBasedOnDistanceToPlane {
                 pub const m_flMinDist: usize = 0x1E8; // float32
                 pub const m_vecForceAtMinDist: usize = 0x1EC; // Vector
@@ -24052,7 +24067,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             pub mod CParticleFunctionConstraint {
             }
             // Parent: None
@@ -24517,7 +24531,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // ta 2 beta\game\bin\win64\dota2.exe
             pub mod CParticleFunctionEmitter {
                 pub const m_nEmitterIndex: usize = 0x1D8; // int32
             }
@@ -25088,6 +25101,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // \570
             pub mod C_OP_ParentVortices {
                 pub const m_flForceScale: usize = 0x1E8; // float32
                 pub const m_vecTwistAxis: usize = 0x1EC; // Vector
@@ -25375,6 +25389,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             pub mod C_OP_ExternalWindForce {
                 pub const m_vecSamplePosition: usize = 0x1E8; // CPerParticleVecInput
                 pub const m_vecScale: usize = 0x8A0; // CPerParticleVecInput
@@ -25610,6 +25625,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 03,0x1c10/0x1c17,
             pub mod C_OP_SetPerChildControlPoint {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32

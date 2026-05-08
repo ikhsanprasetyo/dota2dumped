@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 package schemas
 
@@ -17200,4 +17200,28 @@ const (
     ClientDll_CShmupBossBodyPart_m_flRadius = 0x8 // float32
     ClientDll_CShmupBossBodyPart_m_nHitRegionIndex = 0xC // int32
     ClientDll_CShmupBossBodyPart_m_nDamageMultiplier = 0x10 // int32
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
+    ClientDll___M_i__EVENT_ID_NONE = 0xFC2D5570 // EEvent
+    ClientDll___M_i__k_ERankType_Max = 0xFC2D5570 // ERankType
+    ClientDll___M_i__DOTA_CM_RANDOM = 0xFC2D5570 // DOTA_CM_PICK
+    ClientDll___M_i__LANE_TYPE_SAFE = 0xFC2D5570 // ELaneType
+    ClientDll___M_i__LANE_TYPE_OFF = 0xFC2D5570 // ELaneType
+    ClientDll___M_i__LANE_TYPE_MID = 0xFC2D5570 // ELaneType
+    ClientDll___M_i__LANE_TYPE_ROAM = 0xFC2D5570 // ELaneType
 )

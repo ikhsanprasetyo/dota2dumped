@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7529
-    // Enum count: 431
+    // Enum count: 429
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -13075,6 +13075,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
         // MPropertyDescription
         // MPulseExpressionAlias
         // MPulseExpressionAlias
@@ -19339,6 +19340,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseRequirement {
         }
@@ -19526,6 +19528,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
+        // kLh
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -19748,6 +19751,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
         public static class CPulseCell_IsRequirementValid {
         }
         // Parent: None
@@ -21403,6 +21407,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_GraphHook {
             public const nint m_HookName = 0x80; // PulseSymbol_t
@@ -23072,6 +23077,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_BaseEntrypoint {
             public const nint m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
@@ -23258,6 +23264,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
+        // kLh
         public static class CPulseCell_WaitForCursorsWithTagBase {
             public const nint m_nCursorsAllowedToWait = 0x48; // int32
             public const nint m_WaitComplete = 0x50; // CPulse_ResumePoint
@@ -26346,7 +26353,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         public static class CPulseTestScriptLib {
         }
@@ -26579,7 +26585,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyDescription
@@ -28528,6 +28533,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // \570
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -29187,6 +29193,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_EventHandler {
             public const nint m_EventName = 0x80; // PulseSymbol_t
@@ -30737,9 +30744,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 3
-        //
-        // Metadata:
-        // t
         public static class CFogController {
             public const nint m_fog = 0x498; // fogparams_t
             public const nint m_bUseAngles = 0x500; // bool
@@ -31372,6 +31376,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_EntOutputHandler {
             public const nint m_SourceEntity = 0x80; // PulseSymbol_t
@@ -34451,9 +34456,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 7
-        //
-        // Metadata:
-        // t
         public static class CPointOrient {
             public const nint m_iszSpawnTargetName = 0x498; // CUtlSymbolLarge
             public const nint m_hTarget = 0x4A0; // CHandle<CBaseEntity>
@@ -34914,7 +34916,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_DebugLog {
@@ -35422,7 +35423,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyDescription
@@ -36184,7 +36184,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_ObservableVariableListener {
             public const nint m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
@@ -37365,7 +37364,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_CycleOrdered {
@@ -40961,7 +40959,6 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
-        // t
         public static class CPointCamera {
             public const nint m_FOV = 0x498; // float32
             public const nint m_Resolution = 0x49C; // float32
@@ -41035,7 +41032,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Wait {
             public const nint m_WakeResume = 0x48; // CPulse_ResumePoint
@@ -41454,7 +41450,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_CycleShuffled {
@@ -42092,6 +42087,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Method {
             public const nint m_MethodName = 0x80; // PulseSymbol_t
@@ -42697,7 +42693,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseValue {
         }
@@ -43502,6 +43497,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Yield {
             public const nint m_UnyieldResume = 0x48; // CPulse_ResumePoint
@@ -44991,9 +44987,11 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // u
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // \570
         public static class CPulseCell_Outflow_CycleRandom {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
@@ -45019,7 +45017,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_PublicOutput {
             public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
@@ -47215,7 +47212,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Value_RandomInt {
@@ -51889,6 +51885,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
         // MPropertyDescription
         // MPulseExpressionAlias
         // MPulseExpressionAlias
@@ -51916,7 +51913,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_CallExternalMethod {
@@ -54304,7 +54300,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Value_RandomFloat {
@@ -56585,6 +56580,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomFGDType
+        // C
         public static class CFootstepTableHandle {
         }
         // Parent: None
@@ -56853,6 +56849,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // 03,0x1c10/0x1c17,
         // DFLAG_SUPPRESS_HEALTH_CHANGES
         // DFLAG_SUPPRESS_PHYSICS_FORCE
         // DFLAG_SUPPRESS_EFFECTS
@@ -56917,6 +56914,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
         // MPropertyDescription
@@ -56933,7 +56931,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // pData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\ByteseekerPC\AppData\Local\Prog
         public static class GAME_HEADER {
             public const nint m_sComment = 0x0; // CUtlString
             public const nint m_nSpawnGroupCount = 0x8; // int32
@@ -57735,6 +57732,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
         public static class CMonsterHunterCraftableRewardDefinition {
             public const nint m_unActionID = 0x0; // uint32
             public const nint m_mapRequiredMaterials = 0x8; // CUtlOrderedMap<CUtlString,int32>
@@ -58158,6 +58156,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // \570
         // MGetKV3ClassDefaults
         public static class SceneEventId_t {
             public const nint m_Value = 0x0; // uint32
@@ -58740,6 +58739,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
         // MPropertyDescription
@@ -59765,6 +59765,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
         // MPropertyDescription
@@ -60355,6 +60356,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 03,0x1c10/0x1c17,
         // DFLAG_SUPPRESS_HEALTH_CHANGES
         // DFLAG_SUPPRESS_PHYSICS_FORCE
         // DFLAG_SUPPRESS_EFFECTS
@@ -60481,6 +60483,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 03,0x1c10/0x1c17,
         // DFLAG_SUPPRESS_HEALTH_CHANGES
         // DFLAG_SUPPRESS_PHYSICS_FORCE
         // DFLAG_SUPPRESS_EFFECTS
@@ -60506,6 +60509,7 @@ namespace Source2Dumper.Schemas {
         // COUNT
         // ANY
         // COUNT
+        // d/0x005b,0x0f0d/0x005c,0xf000/0x0003,0xf000/0x00f1,0x0079/0x0011,0x0e6f/0x012f,0x1a34/0x0802,0x1a34/0x0809,0x0079/0x0006,0x0079/
         // MPropertyDescription
         public static class ModelConfigHandle_t {
             public const nint m_Value = 0x0; // uint32

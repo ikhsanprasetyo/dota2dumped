@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7182
+        // Class count: 7250
         // Enum count: 109
         namespace client_dll {
             // Alignment: 4
@@ -5480,6 +5480,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -6369,6 +6370,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Gl
+            // \570
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
@@ -6679,6 +6682,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // u
             // MPropertyAttributeSuggestionName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11123,6 +11127,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseRequirement {
             }
@@ -11437,6 +11442,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -13030,7 +13036,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_GraphHook {
                 constexpr std::ptrdiff_t m_HookName = 0x80; // PulseSymbol_t
@@ -14512,6 +14517,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_BaseEntrypoint {
                 constexpr std::ptrdiff_t m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
@@ -17452,6 +17458,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -17626,7 +17633,9 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
+            // kLh
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
             }
@@ -19433,6 +19442,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -20190,7 +20200,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EventHandler {
                 constexpr std::ptrdiff_t m_EventName = 0x80; // PulseSymbol_t
@@ -22321,7 +22330,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EntOutputHandler {
                 constexpr std::ptrdiff_t m_SourceEntity = 0x80; // PulseSymbol_t
@@ -25948,7 +25956,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_DebugLog {
             }
@@ -26425,7 +26432,9 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
+            // kLh
             namespace CPulseCell_BaseYieldingInflow {
             }
             // Parent: None
@@ -27263,6 +27272,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_ObservableVariableListener {
                 constexpr std::ptrdiff_t m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
@@ -28212,7 +28222,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleOrdered {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -29952,6 +29961,7 @@ namespace source2_dumper {
             // Field count: 27
             //
             // Metadata:
+            // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             namespace C_DynamicProp {
@@ -31476,7 +31486,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Wait {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
@@ -31885,7 +31894,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleShuffled {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -32497,6 +32505,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Method {
                 constexpr std::ptrdiff_t m_MethodName = 0x80; // PulseSymbol_t
@@ -33041,6 +33050,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseValue {
             }
@@ -33882,7 +33892,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Yield {
                 constexpr std::ptrdiff_t m_UnyieldResume = 0x48; // CPulse_ResumePoint
@@ -35099,6 +35108,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleRandom {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -35110,6 +35120,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_PublicOutput {
                 constexpr std::ptrdiff_t m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
@@ -36600,7 +36611,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Value_RandomInt {
             }
@@ -40306,6 +40316,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // ,0x1c10/0x1c17,
             // WATER_WAKE_IDLE
             // WATER_WAKE_WALKING
             // WATER_WAKE_RUNNING
@@ -41067,6 +41078,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -41094,7 +41106,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_CallExternalMethod {
                 constexpr std::ptrdiff_t m_MethodName = 0x48; // PulseSymbol_t
@@ -43115,7 +43126,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Window
             // MGetKV3ClassDefaults
             namespace CPulseCell_Value_RandomFloat {
             }
@@ -45960,8 +45970,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // )
-            // )
             namespace CMatch3OpponentActionDefinition {
                 constexpr std::ptrdiff_t m_unOpponentActionID = 0x38; // Match3OpponentActionID_t
             }
@@ -47253,6 +47261,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // \570
             namespace CSurvivorsPlayerSnapshot {
                 constexpr std::ptrdiff_t m_heroID = 0x0; // SurvivorsHeroID_t
                 constexpr std::ptrdiff_t m_nCurrentLevel = 0x4; // int32
@@ -48382,6 +48391,1489 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flRadius = 0x8; // float32
                 constexpr std::ptrdiff_t m_nHitRegionIndex = 0xC; // int32
                 constexpr std::ptrdiff_t m_nDamageMultiplier = 0x10; // int32
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // dota_shared_enums.proto
+            // g
+            // dota_match_metadata.proto
+            // netmessages.proto
+            // gameevents.proto
+            // te.proto
+            // e
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // `
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // irit
+            // FowCustomTeams_t
+            // FowCustomTeams_t
+            // CDOTA_NPC_Observer_Ward
+            // int
+            // int32
+            // C_DOTA_Item_RiverPainter
+            namespace _Nw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _Cw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _Cw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // dota_shared_enums.proto
+            // g
+            // dota_match_metadata.proto
+            // netmessages.proto
+            // gameevents.proto
+            // te.proto
+            // e
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // `
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // irit
+            // FowCustomTeams_t
+            // FowCustomTeams_t
+            // CDOTA_NPC_Observer_Ward
+            // int
+            // int32
+            // C_DOTA_Item_RiverPainter
+            // irit
+            // int
+            // int32
+            // C_DOTA_Item_EmptyBottle
+            // int
+            // int32
+            // C_DOTA_Item_PowerTreads
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _Cw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // dota_shared_enums.proto
+            // g
+            // dota_match_metadata.proto
+            // netmessages.proto
+            // gameevents.proto
+            // te.proto
+            // e
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // `
+            namespace __w_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _Cw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _Cw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // dota_shared_enums.proto
+            // g
+            // dota_match_metadata.proto
+            // netmessages.proto
+            // gameevents.proto
+            // te.proto
+            // e
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // `
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // irit
+            // FowCustomTeams_t
+            // FowCustomTeams_t
+            // CDOTA_NPC_Observer_Ward
+            // int
+            // int32
+            // C_DOTA_Item_RiverPainter
+            // irit
+            // int
+            // int32
+            // C_DOTA_Item_EmptyBottle
+            // int
+            // int32
+            // C_DOTA_Item_PowerTreads
+            // AbilityID_t[DOTA_NEUTRAL_ITEM_TIER_CHOICES]
+            // AbilityID_t
+            // C_DOTA_Item_TierToken
+            // Toggle
+            // SetSpeed
+            // Start
+            // StartForward
+            // StartReverse
+            // Stop
+            // StopImmediate
+            // ToggleDirection
+            // Pause
+            // Unpause
+            // TeleportToPathNode
+            // MoveToPathNode
+            // TransitionToPathNode
+            // TransitionToPathNodeStartForward
+            // TransitionToPathNodeStartReverse
+            // TransitionToPath
+            // TransitionToPathStartForward
+            // TransitionToPathStartReverse
+            // SetSpeedImmediate
+            // SetTimeToReachMaxSpeed
+            // SetTimeToReachZeroSpeed
+            // SetTimeToBlendToNewOrientation
+            // SetOrientationMode
+            // SetFollowEntity
+            // SetFollowEntityForward
+            // SetFollowEntityReverse
+            // SetFaceEntity
+            // SetFollowDistance
+            // SetFollowMinimumSpeed
+            // SetFollowMoverConstraintType
+            // SetFollowMoverSpringStrength
+            // SetTimeToTraverseToNextNode
+            // SetMoveType
+            // SetFollowMoverEntity
+            // ClearFollowMoverEntity
+            // ClearPathEnd
+            // SetFollowMoverEntityToClosestOnSpline
+            // DeleteFollowMoverSpringConstraint
+            // SetKinematic
+            // SetScale
+            // TeamNum
+            // SetTeam
+            // Kill
+            // KillHierarchy
+            // KillConstrained
+            // Use
+            // AlternativeSorting
+            // SetParent
+            // SetParentAttachment
+            // SetParentAttachmentMaintainOffset
+            // ClearParent
+            // FollowEntity
+            // SetDamageFilter
+            // EnableDamageForces
+            // DisableDamageForces
+            // DispatchResponse
+            // AddContext
+            // RemoveContext
+            // ClearContext
+            // AddAttribute
+            // RemoveAttribute
+            // DisableShadow
+            // EnableShadow
+            // FireUser1
+            // FireUser2
+            // FireUser3
+            // FireUser4
+            // ChangeSubclass
+            // EnablePlatform
+            // DisablePlatform
+            // PlatformFollowYaw
+            // PlatformIgnoreYaw
+            // RedirectOutput
+            // Adds an I/O connection that will call the named function on the passed entity when the specified output fires.
+            // OnDefault
+            // OnCase01
+            // OnCase02
+            // OnCase03
+            // OnCase04
+            // OnCase05
+            // OnCase06
+            // OnCase07
+            // OnCase08
+            // OnCase09
+            // OnCase10
+            // OnCase11
+            // OnCase12
+            // OnCase13
+            // OnCase14
+            // OnCase15
+            // OnCase16
+            // OnCase17
+            // OnCase18
+            // OnCase19
+            // OnCase20
+            // OnCase21
+            // OnCase22
+            // OnCase23
+            // OnCase24
+            // OnCase25
+            // OnCase26
+            // OnCase27
+            // OnCase28
+            // OnCase29
+            // OnCase30
+            // OnCase31
+            // OnCase32
+            // ResetSequence
+            // Sets the active sequence by name, resetting the current cycle.
+            // ScriptLookupAttachment
+            // GetAttachmentOrigin
+            // Get the attachment id's origin vector.
+            // GetAttachmentAngles
+            // Get the attachment id's angles as a p,y,r vector.
+            // SetModel
+            // IsGrabbable
+            // Returns whether this entity is grabbable.
+            // IgnoreUserInput
+            // Tells the panel to ignore user input.
+            // AcceptUserInput
+            // Tells the panel to accept user input.
+            // AddCSSClasses
+            // Adds CSS class(es) to the panel
+            // RemoveCSSClasses
+            // Remove CSS class(es) from the panel
+            // AddVelocity
+            // Add linear and angular velocity to the physics object
+            // AddImpulseAtPosition
+            // Apply an impulse at a worldspace position to the physics
+            // SetVelocity
+            // SetAngularVelocity
+            // SetMaterialGroup
+            // DetachFromParent
+            // Detach from its parent
+            // IsAttachedToParent
+            // Is attached to parent
+            // QueryFloat
+            // Query float data for this key
+            // QueryInt
+            // Query int data for this key
+            // QueryNumber
+            // Query number data for this key
+            // QueryColor
+            // Query color data for this key
+            // QueryVector
+            // Query vector data for this key
+            // QueryString
+            // Query string data for this key
+            // CDOTA_Tiny_ScepterTree
+            // CDOTA_Tiny_ScepterTree
+            // StopFacing
+            // CBodyComponentBaseAnimatingOverlay
+            // CBodyComponentBaseAnimatingOverlay
+            // GetUltimateDisableResistance
+            // Set creature's current disable resistance from ultimates
+            // CEntityIdentity
+            // CEntityIdentity
+            // SetPlayerID
+            // IsLoot
+            // Is this drop flagged as a loot drop?
+            // SetIsLoot
+            // Set if this drop is flagged as a loot drop
+            // SetContainedItem
+            // Set the contained item.
+            // GetContainedItem
+            // Returned the contained item.
+            // GetCreationTime
+            // Returns the game time when this item was created in the world
+            // CSkeletonInstance
+            // CSkeletonInstance
+            // IsAbilityUpgradeWhitelisted
+            // const char* pszAbilityName
+            // CNetworkOriginCellCoordQuantizedVector
+            // CNetworkOriginCellCoordQuantizedVector
+            // SetMusicStatus
+            // (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable
+            // EstimateLength
+            // Returns length of this scene in seconds.
+            // IsPlayingBack
+            // If this scene is currently playing.
+            // IsPaused
+            // If this scene is currently paused.
+            // Start
+            // Start scene playback, takes activatorEntity as param
+            // Cancel
+            // Cancel scene playback
+            // AddBroadcastTeamTarget
+            // Adds a team (by index) to the broadcast list
+            // RemoveBroadcastTeamTarget
+            // Removes a team (by index) from the broadcast list
+            // FindNamedEntity
+            // given an entity reference, such as !target, get actual entity from scene object
+            // CModelState
+            // CModelState
+            // GetPlayerCount
+            // Includes spectators and players not assigned to a team
+            // CompleteQuest
+            // Mark this quest complete
+            // AddSubquest
+            // Add a subquest to this quest
+            // RemoveSubquest
+            // Remove a subquest from this quest
+            // GetSubquestByName
+            // Finds a subquest from this quest by name
+            // GetSubquest
+            // Finds a subquest from this quest by index
+            // SetTextReplaceValue
+            // Set a quest value
+            // SetTextReplaceString
+            // Set the text replace string for this quest
+            // ddi)
+            // CBaseAnimatingOverlayController
+            // CBaseAnimatingOverlayController
+            // CNetworkedSequenceOperation
+            // CNetworkedSequenceOperation
+            // CNetworkedSequenceOperation
+            // CNetworkedSequenceOperation
+            // CAnimationLayer
+            // CAnimationLayer
+            // GetAbsOrigin
+            // GetTeamNumber
+            // GetMaxHealth
+            // GetHealth
+            // SetContextThink
+            // Set a think function on this entity.
+            // AddVelocity
+            // Add linear and angular velocity to the physics object
+            // AddImpulseAtPosition
+            // Apply an impulse at a worldspace position to the physics
+            // SetVelocity
+            // SetAngularVelocity
+            // SetMaterialGroup
+            // DetachFromParent
+            // Detach from its parent
+            // IsAttachedToParent
+            // Is attached to parent
+            // CHitboxComponent
+            // CNetworkVelocityVector
+            // CNetworkVelocityVector
+            // CDestructiblePartsComponent
+            // CDestructiblePartsComponent
+            // The number of charges remaining on this ability.
+            // EntityRenderAttribute_t
+            // EntityRenderAttribute_t
+            // GetEffectiveCastRange
+            // Return cast range of this ability, accounting for modifiers.
+            // VPhysicsCollisionAttribute_t
+            // VPhysicsCollisionAttribute_t
+            // CCollisionProperty
+            // CCollisionProperty
+            // entindex_attacker
+            // damagebits
+            // Get the current health percent of the unit.
+            // GetMana
+            // GetMaxMana
+            // Get the maximum mana of this unit.
+            // GetManaRegen
+            // Script_GetAttackRange
+            // Gets this unit's attack range after all modifiers.
+            // #
+            // 8
+            // CGlowProperty
+            // CGlowProperty
+            // hero_entindex
+            // item_ability_id
+            // e_25
+            // dropped
+            // Toggle whether a panel has the given CSS class.
+            // in_sellback_windown
+            // Remove then immediately add back a CSS class from a panel. Useful to re-trigger events like animations or sound effects.
+            // CCompressedFullFloat
+            // CCompressedStaticFullVector3
+            // CCompressedDeltaVector3
+            // CCompressedStaticQuaternion
+            // CCompressedFullQuaternion
+            // CCompressedFullChar
+            // CCompressedFullShort
+            // CCompressedFullInt
+            // CCompressedFullBool
+            // CCompressedFullColor32
+            // CCompressedFullVector2D
+            // CCompressedFullVector4D
+            // default
+            // head
+            // custom
+            // select_high
+            // select_low
+            // CPlayer_FlashlightServices
+            // zoom
+            // y
+            // pitch
+            // player_id
+            // item_name
+            // gift
+            // class
+            // overwrite_twitch_stream
+            // Switch which class the panel has for a given attribute slot. Allows easily changing between multiple states.
+            // class
+            // modifier_aghsfort_swamp_sickness
+            // #DOTA_Patch_7_36_muerta_hero_innate_Title
+            // InnateSnippet
+            // #DOTA_Tooltip_Facet_muerta_dance_of_the_dead
+            // Facets
+            // FacetSnippet
+            // muerta_dance_of_the_dead
+            // #DOTA_Tooltip_Facet_muerta_ofrenda
+            // Facets
+            // FacetSnippet
+            // muerta_ofrenda
+            // attacker
+            // priority
+            // EntKilled
+            // HeroKill
+            // player_id
+            // D
+            // hero_entindex
+            // G
+            // F
+            // H
+            // I
+            // inventory_player_id
+            // item_entindex
+            // is_courier
+            // nav
+            // recipe
+            // killer_id
+            // killer_multikill
+            // victim_streak
+            // teamnumber
+            // tier
+            // pos_y
+            // teamnumber
+            // tier
+            // pos_y
+            // CNetworkViewOffsetVector
+            // CNetworkViewOffsetVector
+            // CAttributeContainer
+            // CAttributeContainer
+            // CEconItemView
+            // CEconItemView
+            // CAttributeList
+            // CAttributeList
+            // SetGravityScale
+            // SetVelocityLimit
+            // SetVelocityDamping
+            // SetAngVelocityLimit
+            // SetAngVelocityDamping
+            // SetLinearForce
+            // LinearForcePointAt
+            // CollapseToForcePoint
+            // SetFrequency
+            // SetDampingRatio
+            // SetLinearForcePointAt
+            // userid_pawn
+            // p
+            // r
+            // CEconItemAttribute
+            // CEconItemAttribute
+            // param1
+            // team
+            // Start
+            // Pause
+            // Resume
+            // Cancel
+            // CancelAtNextInterrupt
+            // PitchShift
+            // InterjectResponse
+            // StopWaitingForActor
+            // SetTarget1
+            // SetTarget2
+            // ScriptPlayerDeath
+            // PauseAtNextInterrupt
+            // Break
+            // ConstraintBroken
+            // TurnOn
+            // TurnOff
+            // EnableLinearConstraint
+            // DisableLinearConstraint
+            // EnableAngularConstraint
+            // DisableAngularConstraint
+            // TurnMotorOn
+            // TurnMotorOff
+            // SetMotorTorqueFactor
+            // SetMotorTargetVelocity
+            // hint_name
+            // vr_movement_type
+            // vr_controller_type
+            // Start
+            // Stop
+            // StartForward
+            // StartReverse
+            // ReturnToPreviousOrientation
+            // ReturnToInitialOrientation
+            // SetRotateType
+            // Pitch
+            // Yaw
+            // Roll
+            // SetRotatorTarget
+            // SetSpeed
+            // Add
+            // Divide
+            // Multiply
+            // SetValue
+            // SetValueNoFire
+            // Subtract
+            // SetHitMax
+            // SetHitMin
+            // GetValue
+            // Enable
+            // Disable
+            // fademindist
+            // fademaxdist
+            // Alpha
+            // Color
+            // Skin
+            // Ignite
+            // IgniteLifetime
+            // IgniteNumHitboxFires
+            // IgniteHitboxFireScale
+            // Extinguish
+            // SetSpeed
+            // Start
+            // Stop
+            // Toggle
+            // Reverse
+            // StartForward
+            // StartBackward
+            // StopAtStartPos
+            // SnapToStartPos
+            // SetStartPos
+            // EnableAccelDecel
+            // DisableAccelDecel
+            // ChangeFOV
+            // SetOnAndTurnOthersOff
+            // SetOn
+            // SetOff
+            // Activate
+            // Deactivate
+            // EnableDOF
+            // DisableDOF
+            // SetDOFNearBlurry
+            // SetDOFNearCrisp
+            // SetDOFFarCrisp
+            // SetDOFFarBlurry
+            // userid_pawn
+            // player_thrown
+            // index
+            // networkid
+            // userid_pawn
+            // oldteam
+            // silent
+            // isbot
+            // reason
+            // networkid
+            // PlayerID
+            // userid_pawn
+            // attacker_pawn
+            // target2
+            // theta
+            // inertia
+            // posy
+            // theta
+            // offset
+            // target
+            namespace _Cw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // dota_shared_enums.proto
+            // g
+            // dota_match_metadata.proto
+            // netmessages.proto
+            // gameevents.proto
+            // te.proto
+            // e
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            namespace _Cw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _Cw_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace __w_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // `
+            // "-
+            // "-
+            // Xh
+            // Xh
+            // Xh
+            //  
+            // !
+            // "
+            // #
+            // $
+            // %
+            // &
+            // '
+            // (
+            // )
+            // *
+            // +
+            // ,
+            // -
+            // .
+            // /
+            // 0
+            // 1
+            // 2
+            // 3
+            // 4
+            // 5
+            // 6
+            // 7
+            // 8
+            // 9
+            // :
+            // ;
+            // <
+            // =
+            // >
+            // ?
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            // &0
+            namespace __w_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _댿i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _猿i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _쌿i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ٌ_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace __i_ {
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____i_ {
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 1
+            namespace ____i_ {
+                constexpr std::ptrdiff_t CMsgDOTACombatLogEntry = 0xBF520C80; // CDOTAUserMsg_DebugChallenge[591]
+            }
+            // Parent: None
+            // Field count: 0
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace _뀿i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            // item_definition_index_t
+            // CEHandleNetworkableInt
+            // CEHandleNetworkableInt
+            // dota_shared_enums.proto
+            // g
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 7
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+                constexpr std::ptrdiff_t EVENT_ID_NONE = 0xFC2D5570; // EEvent
+                constexpr std::ptrdiff_t k_ERankType_Max = 0xFC2D5570; // ERankType
+                constexpr std::ptrdiff_t DOTA_CM_RANDOM = 0xFC2D5570; // DOTA_CM_PICK
+                constexpr std::ptrdiff_t LANE_TYPE_SAFE = 0xFC2D5570; // ELaneType
+                constexpr std::ptrdiff_t LANE_TYPE_OFF = 0xFC2D5570; // ELaneType
+                constexpr std::ptrdiff_t LANE_TYPE_MID = 0xFC2D5570; // ELaneType
+                constexpr std::ptrdiff_t LANE_TYPE_ROAM = 0xFC2D5570; // ELaneType
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // id
+            // id.Pick
+            // pirit_collector
+            // raith_anger_04
+            // r_cogs
+            // ragon_tail
+            // rag_spawn_01
+            // n_meld
+            // DOTAChannelType_PostGame
+            // RBO
+            // RBO
+            // CM_ClientUIEvent
+            // DOTA_GAMERULES_STATE_DISCONNECT
+            // DOTA_GAMEMODE_TUTORIAL
+            // DOTA_GAMEMODE_LP
+            // DOTA_GAMEMODE_LP
+            // TATE_LAST
+            // CustomGame
+            // DOTAChannelType_Cafe
+            // TOM_6
+            // EVENT_ID_FROSTIVUS
+            // EVENT_ID_TEAM_FANDOM_FALL_2021
+            // 21_2022_TOUR3
+            // EVENT_ID_INTERNATIONAL_2025
+            // DOTAChannelType_GameSpectator
+            // DOTAChannelType_Guild
+            // N_PRE_SEASON
+            // Team
+            // DOTAChannelType_PrivateCoaching
+            // GameEvents
+            // GameEvents
+            // edLegacy
+            // CH
+            // DOTA_LEAVER_DISCONNECTED
+            // INVALID
+            // FANTASY_ROLE_SUPPORT
+            // FANTASY_ROLE_SUPPORT
+            // FIRST_BLOOD
+            // CDOTAClientMsg_ModifierAlert
+            // -1
+            // CEntityIndex
+            // -1
+            // ause
+            // etUnitShareFlag
+            // P
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace __M_i_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // GameStats.BuildingDetails.team
+            // s
+            // dota_ability_contribution_common.h
+            // dota_craftworks.h
+            // dota_cavern_crawl_types.h
+            // CDOTAMatchMetadata.Team.Player.team_number
+            // ta.Team.Player.couriers_killed
+            // AbilityContributionType_t
+            // CSVCMsg_Sounds.sounddata_t.volume
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ta.Team.SubChallenge.slot_id
+            namespace _ꀿi_ {
             }
         }
     }

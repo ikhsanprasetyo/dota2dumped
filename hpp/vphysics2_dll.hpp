@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-07 15:06:58.093220400 +07:00
+// 2026-05-08 10:01:14.691628500 +07:00
 
 #pragma once
 
@@ -61,8 +61,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -248,8 +248,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // t
             // MGetKV3ClassDefaults
+            // \570
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -438,6 +438,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOutlinerLeafNameFn
+            // kLh
             // generic
             namespace FeBuildSphereRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x20; // int32
@@ -1464,6 +1465,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOutlinerLeafNameFn
+            // kLh
             // generic
             namespace FeBuildTaperedCapsuleRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x30; // int32

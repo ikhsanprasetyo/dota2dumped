@@ -3221,10 +3221,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "ta 2 beta\\game\\bin\\win64\\dota2.exe",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3825,10 +3821,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "ta 2 beta\\game\\bin\\win64\\dota2.exe",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4018,14 +4010,6 @@
           },
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ta 2 beta\\game\\bin\\win64\\dota2.exe",
-            "type": "Unknown"
-          },
-          {
-            "name": "\"S",
             "type": "Unknown"
           }
         ],
@@ -4547,10 +4531,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "ta 2 beta\\game\\bin\\win64\\dota2.exe",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4789,14 +4769,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "ta 2 beta\\game\\bin\\win64\\dota2.exe",
-            "type": "Unknown"
-          },
-          {
-            "name": "\"S",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4920,14 +4892,6 @@
           },
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ta 2 beta\\game\\bin\\win64\\dota2.exe",
-            "type": "Unknown"
-          },
-          {
-            "name": "\"S",
             "type": "Unknown"
           }
         ],
@@ -6624,6 +6588,10 @@
             "type": "Unknown"
           },
           {
+            "name": "s",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulseExpressionAlias",
             "type": "Unknown"
           },
@@ -6735,6 +6703,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\570",
             "type": "Unknown"
           },
           {
@@ -6858,10 +6830,6 @@
             "type": "Unknown"
           },
           {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -6954,6 +6922,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "u",
             "type": "Unknown"
           },
           {
@@ -7139,10 +7111,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7240,10 +7208,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -7513,6 +7477,10 @@
             "type": "Unknown"
           },
           {
+            "name": "\\570",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7618,6 +7586,10 @@
             "type": "Unknown"
           },
           {
+            "name": "u",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7649,6 +7621,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "u",
             "type": "Unknown"
           },
           {
@@ -7692,6 +7668,10 @@
             "type": "Unknown"
           },
           {
+            "name": "u",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7725,6 +7705,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "u",
             "type": "Unknown"
           },
           {
@@ -7773,6 +7757,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "u",
             "type": "Unknown"
           },
           {
@@ -7887,10 +7875,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7967,10 +7951,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7990,6 +7970,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "u",
             "type": "Unknown"
           },
           {
@@ -8253,6 +8237,10 @@
           {
             "name": "MPropertyDescription",
             "type": "Unknown"
+          },
+          {
+            "name": "0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -8282,6 +8270,10 @@
             "type": "Unknown"
           },
           {
+            "name": "0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -8291,6 +8283,10 @@
           },
           {
             "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
             "type": "Unknown"
           },
           {
@@ -8417,10 +8413,6 @@
             "type": "Unknown"
           },
           {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8457,7 +8449,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "u",
             "type": "Unknown"
           },
           {
@@ -8466,6 +8458,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\570",
             "type": "Unknown"
           }
         ],
@@ -8518,10 +8518,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -8599,6 +8595,10 @@
             "type": "Unknown"
           },
           {
+            "name": "0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -8608,6 +8608,10 @@
           },
           {
             "name": "MPulseExpressionAlias",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
             "type": "Unknown"
           },
           {
@@ -8631,10 +8635,6 @@
             "type": "Unknown"
           },
           {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8654,10 +8654,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -8746,10 +8742,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -9046,10 +9038,6 @@
             "type": "Unknown"
           },
           {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9101,10 +9089,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           },
           {
@@ -9555,10 +9539,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": ";C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Window",
             "type": "Unknown"
           }
         ],
@@ -42041,6 +42021,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "\\570",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -43314,6 +43298,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\570",
             "type": "Unknown"
           }
         ],
@@ -45388,6 +45376,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -46463,6 +46455,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -47056,6 +47052,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "h",
             "type": "Unknown"
           }
         ],
@@ -47872,6 +47872,14 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
             "type": "Unknown"
           }
         ],
@@ -49328,6 +49336,14 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -50759,6 +50775,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "03,0x1c10/0x1c17,",
             "type": "Unknown"
           }
         ],
@@ -53382,6 +53402,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "03,0x1c10/0x1c17,",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -54395,6 +54419,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "\\570",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -54468,6 +54496,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\570",
             "type": "Unknown"
           }
         ],
@@ -78082,6 +78114,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "03,0x1c10/0x1c17,",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -78774,6 +78810,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "h",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -78928,6 +78968,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "03,0x1c10/0x1c17,",
             "type": "Unknown"
           }
         ],
@@ -80089,6 +80133,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "03,0x1c10/0x1c17,",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -80999,6 +81047,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "03,0x1c10/0x1c17,",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -81620,6 +81672,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "\\570",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -81801,6 +81857,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\570",
             "type": "Unknown"
           }
         ],
@@ -82936,6 +82996,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "a",
             "type": "Unknown"
           }
         ],
