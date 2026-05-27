@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-05-08 10:01:14.691628500 +07:00
+# 2026-05-27 21:57:09.220275200 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -8,16 +8,16 @@ class Interfaces:
         AnimationSystem_001 = 0x80BCB0
     # Module: client.dll
     class ClientDll:
-        ClientToolsInfo_001 = 0x5CA10C0
-        DOTA_CLIENT_GCCLIENT = 0x6523298
-        GameClientExports001 = 0x5C9CDE8
-        LegacyGameUI001 = 0x5D12300
-        PanoramaUIClient001 = 0x5D3CDB0
-        PlayButtonService001 = 0x5D1E240
-        Source2Client002 = 0x63837A0
-        Source2ClientConfig001 = 0x6330390
-        Source2ClientPrediction001 = 0x5CA7620
-        Source2ClientUI001 = 0x5A72870
+        ClientToolsInfo_001 = 0x5CA20C0
+        DOTA_CLIENT_GCCLIENT = 0x6524208
+        GameClientExports001 = 0x5C9DDE8
+        LegacyGameUI001 = 0x5D13300
+        PanoramaUIClient001 = 0x5D3DDB0
+        PlayButtonService001 = 0x5D1F240
+        Source2Client002 = 0x6384720
+        Source2ClientConfig001 = 0x6331360
+        Source2ClientPrediction001 = 0x5CA8620
+        Source2ClientUI001 = 0x5A73870
     # Module: engine2.dll
     class Engine2Dll:
         BenchmarkService001 = 0x616A30
@@ -131,14 +131,14 @@ class Interfaces:
         SchemaSystem_001 = 0x77710
     # Module: server.dll
     class ServerDll:
-        EntitySubclassUtilsV001 = 0x472FEF0
-        NavGameTest001 = 0x4A03720
-        ServerToolsInfo_001 = 0x4959E20
-        Source2GameClients001 = 0x494F4D0
-        Source2GameDirector001 = 0x4FE28A0
-        Source2GameEntities001 = 0x4959530
-        Source2Server001 = 0x4959380
-        Source2ServerConfig001 = 0x4F208B8
+        EntitySubclassUtilsV001 = 0x4731EF0
+        NavGameTest001 = 0x4A057C0
+        ServerToolsInfo_001 = 0x495BEB0
+        Source2GameClients001 = 0x4951560
+        Source2GameDirector001 = 0x4FE49C0
+        Source2GameEntities001 = 0x495B5C0
+        Source2Server001 = 0x495B410
+        Source2ServerConfig001 = 0x4F22A38
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundOpSystem001 = 0x5139F0

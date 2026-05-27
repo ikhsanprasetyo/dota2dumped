@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-05-08 10:01:14.691628500 +07:00
+# 2026-05-27 21:57:09.220275200 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1328,6 +1328,8 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
+        class DOTAChatAutocompleteEntrySteamFriend:
+            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1A08 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1A30 # ParticleIndex_t
@@ -20205,7 +20207,7 @@ class Schemas:
             leap_bonus_duration = 0x19E8 # float32
             m_bLaunched = 0x19EC # bool
         class CDOTA_Modifier_Nevermore_Presence:
-            presence_armor_reduction = 0x19D8 # int32
+            presence_armor_reduction = 0x19D8 # float32
             bonus_armor_per_stack = 0x19DC # int32
             m_bWasHidden = 0x19E0 # bool
         class C_DOTACustomGameHeroPickRules:
@@ -27996,145 +27998,75 @@ class Schemas:
             m_flRadius = 0x8 # float32
             m_nHitRegionIndex = 0xC # int32
             m_nDamageMultiplier = 0x10 # int32
-        class _Nw_i_:
+        class ______:
             pass
-        class _Cw_i_:
+        class ______:
             pass
-        class _Cw_i_:
+        class ______:
             pass
-        class ____i_:
+        class ______:
             pass
-        class _Cw_i_:
+        class ______:
             pass
-        class __w_i_:
+        class ______:
             pass
-        class _Cw_i_:
+        class ______:
             pass
-        class _Cw_i_:
+        class _n____:
             pass
-        class _Cw_i_:
+        class ______:
             pass
-        class _Cw_i_:
+        class _Z____:
             pass
-        class _Cw_i_:
+        class __L___:
             pass
-        class __w_i_:
+        class __L___:
             pass
-        class __w_i_:
+        class __L___:
             pass
-        class ____i_:
+        class __L___:
             pass
-        class _ٌ_i_:
+        class __L___:
             pass
-        class _ٌ_i_:
+        class __L___:
             pass
-        class _댿i_:
+        class __L___:
             pass
-        class _ٌ_i_:
+        class __L___:
             pass
-        class _猿i_:
+        class __L___:
             pass
-        class _ٌ_i_:
+        class __L___:
             pass
-        class _ٌ_i_:
+        class __L___:
             pass
-        class _ٌ_i_:
+        class __M___:
             pass
-        class _ٌ_i_:
+        class __L___:
             pass
-        class _쌿i_:
+        class _J____:
             pass
-        class ____i_:
+        class _F____:
             pass
-        class ____i_:
+        class _J____:
             pass
-        class _ٌ_i_:
+        class _J____:
             pass
-        class ____i_:
+        class _J____:
             pass
-        class _ٌ_i_:
+        class _J____:
             pass
-        class _ٌ_i_:
+        class _J____:
             pass
-        class ____i_:
+        class _G____:
             pass
-        class _ٌ_i_:
+        class _F____:
             pass
-        class __i_:
+        class _J____:
             pass
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
+        class _J____:
             pass
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
+        class _J____:
             pass
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            pass
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class ____i_:
-            CMsgDOTACombatLogEntry = 0xBF520C80 # CDOTAUserMsg_DebugChallenge[591]
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class _뀿i_:
-            pass
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class __M_i_:
-            EVENT_ID_NONE = 0xFC2D5570 # EEvent
-            k_ERankType_Max = 0xFC2D5570 # ERankType
-            DOTA_CM_RANDOM = 0xFC2D5570 # DOTA_CM_PICK
-            LANE_TYPE_SAFE = 0xFC2D5570 # ELaneType
-            LANE_TYPE_OFF = 0xFC2D5570 # ELaneType
-            LANE_TYPE_MID = 0xFC2D5570 # ELaneType
-            LANE_TYPE_ROAM = 0xFC2D5570 # ELaneType
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class __M_i_:
-            pass
-        class _ꀿi_:
+        class _P____:
             pass

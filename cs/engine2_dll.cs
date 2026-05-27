@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 10:01:14.691628500 +07:00
+// 2026-05-27 21:57:09.220275200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
@@ -105,6 +105,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // ommon\dota 2 beta\game\bin\win64\dota2.exe" -steam +voice_fadeouttime 0 -prewarm_panorama +r_legacy_vsync 1 -novid -high
         public static class GameTime_t {
             public const nint m_Value = 0x0; // float32
         }

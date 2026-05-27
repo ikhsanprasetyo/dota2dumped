@@ -426,7 +426,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ommon\\dota 2 beta\\game\\bin\\win64\\dota2.exe\" -steam +voice_fadeouttime 0 -prewarm_panorama +r_legacy_vsync 1 -novid -high",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       }
     },

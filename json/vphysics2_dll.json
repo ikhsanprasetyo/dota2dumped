@@ -651,10 +651,6 @@
             "type": "Unknown"
           },
           {
-            "name": "kLh",
-            "type": "Unknown"
-          },
-          {
             "name": "generic",
             "type": "Unknown"
           }
@@ -790,10 +786,6 @@
           },
           {
             "name": "MVDataOutlinerLeafNameFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "kLh",
             "type": "Unknown"
           },
           {
@@ -2263,11 +2255,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24",
             "type": "Unknown"
           },
           {
-            "name": "\\570",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -2453,11 +2445,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24",
             "type": "Unknown"
           },
           {
-            "name": "\\570",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {

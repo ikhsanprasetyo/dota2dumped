@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-05-08 10:01:14.691628500 +07:00
+# 2026-05-27 21:57:09.220275200 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -7664,15 +7664,23 @@ class Schemas:
             MOVETYPE_OBSERVER = 0x8
             MOVETYPE_CUSTOM = 0x9
             MOVETYPE_LAST = 0xA
-        class ____i_:
+        class ___3__:
             pass
-        class _CD_i_:
+        class ___3__:
             pass
-        class _8D_i_:
+        class _H_3__:
             pass
-        class ____i_:
+        class ___3__:
             pass
-        class __D_i_:
+        class _i_3__:
+            pass
+        class ___3__:
+            pass
+        class ___3__:
+            pass
+        class ___3__:
+            pass
+        class ___3__:
             pass
         class CDOTA_Modifier_AghsFort_Arcanist_Potion:
             m_nCooldownReductionPct = 0x19D8 # int32
@@ -28526,7 +28534,7 @@ class Schemas:
             leap_bonus_duration = 0x1A20 # float32
             m_bLaunched = 0x1A24 # bool
         class CDOTA_Modifier_Nevermore_Presence:
-            presence_armor_reduction = 0x19D8 # int32
+            presence_armor_reduction = 0x19D8 # float32
             bonus_armor_per_stack = 0x19DC # int32
             m_bWasHidden = 0x19E0 # bool
         class CDOTA_Ability_AncientApparition_IceBlast:

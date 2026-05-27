@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 10:01:14.691628500 +07:00
+// 2026-05-27 21:57:09.220275200 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7529
-        // Enum count: 429
+        // Enum count: 433
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -13081,7 +13081,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -14288,6 +14287,8 @@ namespace source2_dumper {
             // Field count: 9
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -19346,7 +19347,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseRequirement {
             }
@@ -19531,10 +19531,10 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
+            // em32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // kLh
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -19757,7 +19757,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             namespace CPulseCell_IsRequirementValid {
             }
             // Parent: None
@@ -21413,7 +21412,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_GraphHook {
                 constexpr std::ptrdiff_t m_HookName = 0x80; // PulseSymbol_t
@@ -23083,7 +23081,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_BaseEntrypoint {
                 constexpr std::ptrdiff_t m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
@@ -23270,7 +23267,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // kLh
             namespace CPulseCell_WaitForCursorsWithTagBase {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToWait = 0x48; // int32
                 constexpr std::ptrdiff_t m_WaitComplete = 0x50; // CPulse_ResumePoint
@@ -24282,6 +24278,12 @@ namespace source2_dumper {
             }
             // Parent: CBaseTrigger
             // Field count: 12
+            //
+            // Metadata:
+            // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
+            // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
+            // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
+            // PM_NO_GIBS
             namespace CPostProcessingVolume {
                 constexpr std::ptrdiff_t m_hPostSettings = 0x8E0; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
                 constexpr std::ptrdiff_t m_flFadeDuration = 0x8E8; // float32
@@ -26358,7 +26360,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseTestScriptLib {
             }
@@ -26590,7 +26594,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyDescription
@@ -28539,7 +28545,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // \570
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -29199,7 +29204,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EventHandler {
                 constexpr std::ptrdiff_t m_EventName = 0x80; // PulseSymbol_t
@@ -30366,17 +30370,6 @@ namespace source2_dumper {
             }
             // Parent: CEconEntity
             // Field count: 0
-            //
-            // Metadata:
-            // none
-            // second
-            // minute
-            // hour
-            // day
-            // week
-            // month
-            // year
-            // forever
             namespace CEconWearable {
             }
             // Parent: CDOTA_Item
@@ -30750,6 +30743,9 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 3
+            //
+            // Metadata:
+            // 24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24
             namespace CFogController {
                 constexpr std::ptrdiff_t m_fog = 0x498; // fogparams_t
                 constexpr std::ptrdiff_t m_bUseAngles = 0x500; // bool
@@ -31382,7 +31378,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EntOutputHandler {
                 constexpr std::ptrdiff_t m_SourceEntity = 0x80; // PulseSymbol_t
@@ -31518,38 +31513,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MKV3TransferSaveOpsForField
             // MPropertyDescription
-            // PrioritizeClosestPart
-            // MPropertyDescription
-            // Absorb
-            // InvincibleAbsorb
-            // InvinciblePassthrough
             // MPropertyDescription
             // MPropertyDescription
-            // eKill
-            // eGib
-            // eRemove
-            // GenerateBreakpieces
-            // SetBodyGroupAndCollisionState
-            // EnableFlinches
-            // ForceDamageApply
-            // IgnoreKillEntityFlag
-            // IgnoreHealthCheck
-            // Default
-            // eMovementBegin
-            // eStopBegin
-            // eStopComplete
-            // eReversing
-            // eEventsDispatched
-            // MOVE_OSCILLATE
-            // MOVE_STOP_AT_END
-            // ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH
-            // ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT
-            // ORIENTATION_MATCH_CONTROL_POINT
-            // ORIENTATION_FIXED
-            // ORIENTATION_FACE_PLAYER
-            // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
-            // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
-            // ORIENTATION_FACE_ENTITY
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             namespace CPulseFuncs_GameParticleManager {
             }
             // Parent: None
@@ -32902,7 +32871,6 @@ namespace source2_dumper {
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CTestPulseIO__EntityNameStringArgs_t {
@@ -34462,6 +34430,9 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 7
+            //
+            // Metadata:
+            // 24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24
             namespace CPointOrient {
                 constexpr std::ptrdiff_t m_iszSpawnTargetName = 0x498; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_hTarget = 0x4A0; // CHandle<CBaseEntity>
@@ -34921,7 +34892,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_DebugLog {
@@ -35428,7 +35401,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyDescription
@@ -36189,7 +36164,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_ObservableVariableListener {
                 constexpr std::ptrdiff_t m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
@@ -37369,7 +37346,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleOrdered {
@@ -40965,6 +40944,7 @@ namespace source2_dumper {
             // eHead
             // eForward
             // eEyesForward
+            // 24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24
             namespace CPointCamera {
                 constexpr std::ptrdiff_t m_FOV = 0x498; // float32
                 constexpr std::ptrdiff_t m_Resolution = 0x49C; // float32
@@ -41037,7 +41017,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Wait {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
@@ -41455,7 +41437,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleShuffled {
@@ -42093,7 +42077,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Method {
                 constexpr std::ptrdiff_t m_MethodName = 0x80; // PulseSymbol_t
@@ -42698,7 +42681,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseValue {
             }
@@ -43503,7 +43488,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // u
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Yield {
                 constexpr std::ptrdiff_t m_UnyieldResume = 0x48; // CPulse_ResumePoint
@@ -44185,7 +44169,7 @@ namespace source2_dumper {
             // Parent: None
             // Field count: 3
             namespace CDOTA_Modifier_Nevermore_Presence {
-                constexpr std::ptrdiff_t presence_armor_reduction = 0x19D8; // int32
+                constexpr std::ptrdiff_t presence_armor_reduction = 0x19D8; // float32
                 constexpr std::ptrdiff_t bonus_armor_per_stack = 0x19DC; // int32
                 constexpr std::ptrdiff_t m_bWasHidden = 0x19E0; // bool
             }
@@ -44993,11 +44977,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // u
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // \570
             namespace CPulseCell_Outflow_CycleRandom {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -45022,7 +45004,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_PublicOutput {
                 constexpr std::ptrdiff_t m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
@@ -47217,7 +47201,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Value_RandomInt {
@@ -48164,6 +48150,14 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 9
+            //
+            // Metadata:
+            // ePreserveUpAxis
+            // eCenter
+            // eHead
+            // eForward
+            // eEyesForward
+            // 24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24
             namespace CEnvWindVolume {
                 constexpr std::ptrdiff_t m_bActive = 0x498; // bool
                 constexpr std::ptrdiff_t m_vBoxMins = 0x49C; // Vector
@@ -51891,7 +51885,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // 0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x
             // MPropertyDescription
             // MPulseExpressionAlias
             // MPulseExpressionAlias
@@ -51919,6 +51912,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_CallExternalMethod {
@@ -54305,7 +54299,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
+            // p
             // MGetKV3ClassDefaults
+            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Value_RandomFloat {
@@ -54432,8 +54428,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
             namespace CDOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0x9D0; // bool
                 constexpr std::ptrdiff_t m_bPlaySpawnAnimation = 0x9D1; // bool
@@ -54466,12 +54460,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyStartGroup
-            // MPropertyDescription
-            // MPropertyAttributeEditor
             namespace CDynamicProp {
                 constexpr std::ptrdiff_t m_bRandomAnimator = 0x910; // bool
                 constexpr std::ptrdiff_t m_flNextRandAnim = 0x914; // GameTime_t
@@ -56351,6 +56339,7 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyDescription
             // MPropertyDescription
+            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
@@ -56586,7 +56575,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyCustomFGDType
-            // C
+            // f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x12f8,0x28d
             namespace CFootstepTableHandle {
             }
             // Parent: None
@@ -56604,9 +56593,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // generic
             namespace PingWheelMessageID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -56733,8 +56719,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace AI_BaseNPCAnimGraph_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t e_action_desired = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t e_action_handshake_restart = 0x10; // CGlobalSymbol
@@ -56795,6 +56779,7 @@ namespace source2_dumper {
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
+            // x0925/0x8866,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0
             namespace CTestPulseIOComponent_Derived {
             }
             // Parent: None
@@ -56823,7 +56808,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyCustomEditor
             namespace CSkillDamage {
                 constexpr std::ptrdiff_t m_flDamage = 0x0; // CSkillFloat
                 constexpr std::ptrdiff_t m_flNPCDamageScalarVsNPC = 0x10; // float32
@@ -56855,7 +56839,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 03,0x1c10/0x1c17,
             // DFLAG_SUPPRESS_HEALTH_CHANGES
             // DFLAG_SUPPRESS_PHYSICS_FORCE
             // DFLAG_SUPPRESS_EFFECTS
@@ -56920,9 +56903,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
-            // MVDataUniqueMonotonicInt
-            // MPropertyAttributeEditor
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
@@ -56937,6 +56917,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // x24c6/0x530a,0x24c6/0x531a,0x24c6/0x5397,0x24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x2
             namespace GAME_HEADER {
                 constexpr std::ptrdiff_t m_sComment = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nSpawnGroupCount = 0x8; // int32
@@ -56953,9 +56934,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -57005,7 +56985,16 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -57047,7 +57036,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -57350,6 +57338,7 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyDescription
             // MPropertyDescription
+            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
@@ -57363,7 +57352,25 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // DFLAG_SUPPRESS_HEALTH_CHANGES
+            // DFLAG_SUPPRESS_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_EFFECTS
+            // DFLAG_PREVENT_DEATH
+            // DFLAG_FORCE_DEATH
+            // DFLAG_ALWAYS_GIB
+            // DFLAG_NEVER_GIB
+            // DFLAG_REMOVE_NO_RAGDOLL
+            // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
+            // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
+            // DFLAG_RADIUS_DMG
+            // DFLAG_FORCEREDUCEARMOR_DMG
+            // DFLAG_SUPPRESS_INTERRUPT_FLINCH
+            // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
+            // DFLAG_SUPPRESS_BREAKABLES
+            // DFLAG_FORCE_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
+            // DFLAG_ALLOW_NON_AUTHORITATIVE
+            // DMG_LASTDFLAG
             namespace AI_Navigator_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t s_npc_nav_authority = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t s_goal_nav_search_id = 0x10; // CGlobalSymbol
@@ -57589,7 +57596,16 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -57738,7 +57754,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
             namespace CMonsterHunterCraftableRewardDefinition {
                 constexpr std::ptrdiff_t m_unActionID = 0x0; // uint32
                 constexpr std::ptrdiff_t m_mapRequiredMaterials = 0x8; // CUtlOrderedMap<CUtlString,int32>
@@ -57759,12 +57774,18 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MDebugSnapshotDataSummaryFn
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // DFLAG_SUPPRESS_HEALTH_CHANGES
+            // DFLAG_SUPPRESS_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_EFFECTS
+            // DFLAG_PREVENT_DEATH
+            // DFLAG_FORCE_DEATH
+            // DFLAG_ALWAYS_GIB
+            // DFLAG_NEVER_GIB
+            // DFLAG_REMOVE_NO_RAGDOLL
+            // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
+            // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
+            // DFLAG_RADIUS_DMG
             namespace DebugDrawBoneTransforms_t {
                 constexpr std::ptrdiff_t vecBones = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
             }
@@ -57786,7 +57807,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // n
-            // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             namespace AI_MotorGroundAnimgraph_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t state = 0x8; // CGlobalSymbol
@@ -57908,8 +57928,8 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
             namespace FantasyGemQuality_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -58058,9 +58078,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyDescription
-            // MPropertyDescription
             namespace CBaseAnimGraphDestructibleParts_GraphController {
             }
             // Parent: None
@@ -58132,9 +58149,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // generic
             namespace HeroFacetID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -58162,7 +58176,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // \570
             // MGetKV3ClassDefaults
             namespace SceneEventId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
@@ -58349,8 +58362,8 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
             namespace FantasyGemShape_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -58423,8 +58436,8 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
             namespace FantasyTitle_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -58745,9 +58758,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
-            // MVDataUniqueMonotonicInt
-            // MPropertyAttributeEditor
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
@@ -58799,8 +58809,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // CHAT_IGNORE_ALL
             // CHAT_IGNORE_TEAM
-            // MKV3TransferSaveOpsForField
             // reset_cycle
+            // 5/0x8866,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0e8f/
             namespace CBaseAnimGraphVariationUserData {
             }
             // Parent: None
@@ -58880,6 +58890,8 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             namespace CSkillInt {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // int32[4]
             }
@@ -58938,6 +58950,8 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             namespace CSkillFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -59508,6 +59522,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // ws\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Tool
             namespace CavernCrawlMapVariant_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59771,9 +59788,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1
-            // MVDataUniqueMonotonicInt
-            // MPropertyAttributeEditor
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
@@ -59802,9 +59816,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // generic
             namespace AttackRecord_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -60031,17 +60042,8 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // OVERLAY_TEXT_BIT
             // OVERLAY_NAME_BIT
-            // OVERLAY_BBOX_BIT
             namespace CNmEventConsumerSound {
             }
             // Parent: None
@@ -60050,6 +60052,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -60090,13 +60093,17 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
             namespace CNmEventConsumerLegacy {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // generic
             namespace HeroFacetKey_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint64
             }
@@ -60152,8 +60159,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace FantasyCraftDataID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -60332,6 +60339,14 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace CNmEventConsumerParticle {
             }
             // Parent: None
@@ -60362,26 +60377,10 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 03,0x1c10/0x1c17,
-            // DFLAG_SUPPRESS_HEALTH_CHANGES
-            // DFLAG_SUPPRESS_PHYSICS_FORCE
-            // DFLAG_SUPPRESS_EFFECTS
-            // DFLAG_PREVENT_DEATH
-            // DFLAG_FORCE_DEATH
-            // DFLAG_ALWAYS_GIB
-            // DFLAG_NEVER_GIB
-            // DFLAG_REMOVE_NO_RAGDOLL
-            // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
-            // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
-            // DFLAG_RADIUS_DMG
-            // DFLAG_FORCEREDUCEARMOR_DMG
-            // DFLAG_SUPPRESS_INTERRUPT_FLINCH
-            // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
-            // DFLAG_SUPPRESS_BREAKABLES
-            // DFLAG_FORCE_PHYSICS_FORCE
-            // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
-            // DFLAG_ALLOW_NON_AUTHORITATIVE
-            // DMG_LASTDFLAG
+            // MDebugSnapshotDataSummaryFn
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace AI_DefaultNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t s_npc_current_ability = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -60489,11 +60488,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 03,0x1c10/0x1c17,
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // DFLAG_SUPPRESS_HEALTH_CHANGES
             // DFLAG_SUPPRESS_PHYSICS_FORCE
             // DFLAG_SUPPRESS_EFFECTS
-            // DFLAG_PREVENT_DEATH
             namespace CEmptyGraphController {
             }
             // Parent: None
@@ -60515,8 +60514,9 @@ namespace source2_dumper {
             // COUNT
             // ANY
             // COUNT
-            // d/0x005b,0x0f0d/0x005c,0xf000/0x0003,0xf000/0x00f1,0x0079/0x0011,0x0e6f/0x012f,0x1a34/0x0802,0x1a34/0x0809,0x0079/0x0006,0x0079/
             // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             namespace ModelConfigHandle_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -60582,6 +60582,7 @@ namespace source2_dumper {
             // Field count: 3
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace AI_Navigator_DebugSnapshotData_t__Waypoint_t {
                 constexpr std::ptrdiff_t position = 0x0; // VectorWS
@@ -60663,8 +60664,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults

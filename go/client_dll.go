@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 10:01:14.691628500 +07:00
+// 2026-05-27 21:57:09.220275200 +07:00
 
 package schemas
 
@@ -12193,7 +12193,7 @@ const (
     ClientDll_CDOTA_Modifier_Mirana_Leap_leap_radius = 0x19E4 // int32
     ClientDll_CDOTA_Modifier_Mirana_Leap_leap_bonus_duration = 0x19E8 // float32
     ClientDll_CDOTA_Modifier_Mirana_Leap_m_bLaunched = 0x19EC // bool
-    ClientDll_CDOTA_Modifier_Nevermore_Presence_presence_armor_reduction = 0x19D8 // int32
+    ClientDll_CDOTA_Modifier_Nevermore_Presence_presence_armor_reduction = 0x19D8 // float32
     ClientDll_CDOTA_Modifier_Nevermore_Presence_bonus_armor_per_stack = 0x19DC // int32
     ClientDll_CDOTA_Modifier_Nevermore_Presence_m_bWasHidden = 0x19E0 // bool
     ClientDll_C_DOTACustomGameHeroPickRules_m_Phase = 0x5F0 // DOTACustomHeroPickRulesPhase_t
@@ -17200,28 +17200,4 @@ const (
     ClientDll_CShmupBossBodyPart_m_flRadius = 0x8 // float32
     ClientDll_CShmupBossBodyPart_m_nHitRegionIndex = 0xC // int32
     ClientDll_CShmupBossBodyPart_m_nDamageMultiplier = 0x10 // int32
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll_____i__CMsgDOTACombatLogEntry = 0xBF520C80 // CDOTAUserMsg_DebugChallenge[591]
-    ClientDll___M_i__EVENT_ID_NONE = 0xFC2D5570 // EEvent
-    ClientDll___M_i__k_ERankType_Max = 0xFC2D5570 // ERankType
-    ClientDll___M_i__DOTA_CM_RANDOM = 0xFC2D5570 // DOTA_CM_PICK
-    ClientDll___M_i__LANE_TYPE_SAFE = 0xFC2D5570 // ELaneType
-    ClientDll___M_i__LANE_TYPE_OFF = 0xFC2D5570 // ELaneType
-    ClientDll___M_i__LANE_TYPE_MID = 0xFC2D5570 // ELaneType
-    ClientDll___M_i__LANE_TYPE_ROAM = 0xFC2D5570 // ELaneType
 )

@@ -577,6 +577,10 @@
             "type": "Unknown"
           },
           {
+            "name": "66,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0e8f/0x3075",
+            "type": "Unknown"
+          },
+          {
             "name": "1",
             "type": "Unknown"
           }
@@ -588,10 +592,6 @@
         "metadata": [
           {
             "name": "MResourceTypeForInfoType",
-            "type": "Unknown"
-          },
-          {
-            "name": "kLh",
             "type": "Unknown"
           }
         ],
@@ -727,6 +727,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "66,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0e8f/0x3075",
             "type": "Unknown"
           },
           {

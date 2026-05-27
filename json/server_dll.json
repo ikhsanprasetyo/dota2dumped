@@ -20,14 +20,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -55,15 +47,11 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MDebugSnapshotDataSummaryFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -102,83 +90,19 @@
             "type": "Unknown"
           },
           {
-            "name": "03,0x1c10/0x1c17,",
+            "name": "MDebugSnapshotDataSummaryFn",
             "type": "Unknown"
           },
           {
-            "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "DFLAG_SUPPRESS_PHYSICS_FORCE",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "DFLAG_SUPPRESS_EFFECTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_PREVENT_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_DEATH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_NEVER_GIB",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_REMOVE_NO_RAGDOLL",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_DAMAGE_MODIFICATION",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_RADIUS_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCEREDUCEARMOR_DMG",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_INTERRUPT_FLINCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_IGNORE_DESTRUCTIBLE_PARTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_BREAKABLES",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_FORCE_PHYSICS_FORCE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_ALLOW_NON_AUTHORITATIVE",
-            "type": "Unknown"
-          },
-          {
-            "name": "DMG_LASTDFLAG",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -237,10 +161,6 @@
           {
             "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -267,10 +187,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "03,0x1c10/0x1c17,",
             "type": "Unknown"
           },
           {
@@ -455,7 +371,79 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_PHYSICS_FORCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_EFFECTS",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_PREVENT_DEATH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_FORCE_DEATH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_ALWAYS_GIB",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_NEVER_GIB",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_REMOVE_NO_RAGDOLL",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_DAMAGE_MODIFICATION",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_RADIUS_DMG",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_FORCEREDUCEARMOR_DMG",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_INTERRUPT_FLINCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_IGNORE_DESTRUCTIBLE_PARTS",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_BREAKABLES",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_FORCE_PHYSICS_FORCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_ALLOW_NON_AUTHORITATIVE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_LASTDFLAG",
             "type": "Unknown"
           }
         ],
@@ -468,6 +456,10 @@
           "position": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -531,12 +523,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "generic",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "AutoRoomDoorwayPairs_t": {
@@ -558,18 +545,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataUniqueMonotonicInt",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           },
           {
@@ -610,18 +585,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataUniqueMonotonicInt",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           },
           {
@@ -702,18 +665,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataUniqueMonotonicInt",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           },
           {
@@ -868,14 +819,6 @@
           },
           {
             "name": "MDebugSnapshotDataSummaryFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -1155,18 +1098,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1187,11 +1118,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MKV3TransferSaveOpsForField",
+            "name": "reset_cycle",
             "type": "Unknown"
           },
           {
-            "name": "reset_cycle",
+            "name": "5/0x8866,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0e8f/",
             "type": "Unknown"
           }
         ],
@@ -17991,14 +17922,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -53236,30 +53159,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
           }
         ],
         "parent": "CBreakableProp"
@@ -53329,44 +53228,7 @@
       },
       "CEconWearable": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "none",
-            "type": "Unknown"
-          },
-          {
-            "name": "second",
-            "type": "Unknown"
-          },
-          {
-            "name": "minute",
-            "type": "Unknown"
-          },
-          {
-            "name": "hour",
-            "type": "Unknown"
-          },
-          {
-            "name": "day",
-            "type": "Unknown"
-          },
-          {
-            "name": "week",
-            "type": "Unknown"
-          },
-          {
-            "name": "month",
-            "type": "Unknown"
-          },
-          {
-            "name": "year",
-            "type": "Unknown"
-          },
-          {
-            "name": "forever",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "CEconEntity"
       },
       "CEffectData": {
@@ -53411,7 +53273,11 @@
             "type": "Unknown"
           },
           {
-            "name": "03,0x1c10/0x1c17,",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -53424,10 +53290,6 @@
           },
           {
             "name": "DFLAG_SUPPRESS_EFFECTS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_PREVENT_DEATH",
             "type": "Unknown"
           }
         ],
@@ -54128,7 +53990,32 @@
           "m_vBoxMaxs": 1192,
           "m_vBoxMins": 1180
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ePreserveUpAxis",
+            "type": "Unknown"
+          },
+          {
+            "name": "eCenter",
+            "type": "Unknown"
+          },
+          {
+            "name": "eHead",
+            "type": "Unknown"
+          },
+          {
+            "name": "eForward",
+            "type": "Unknown"
+          },
+          {
+            "name": "eEyesForward",
+            "type": "Unknown"
+          },
+          {
+            "name": "24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseEntity"
       },
       "CExplosionTypeData": {
@@ -54297,7 +54184,12 @@
           "m_fog": 1176,
           "m_iChangedVariables": 1284
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseEntity"
       },
       "CFogTrigger": {
@@ -54326,7 +54218,7 @@
             "type": "Unknown"
           },
           {
-            "name": "C",
+            "name": "f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x12f8,0x28d",
             "type": "Unknown"
           }
         ],
@@ -56251,10 +56143,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "x12bd/0xd015,0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x1",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -56660,7 +56548,43 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -56814,7 +56738,43 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -56984,11 +56944,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
@@ -57141,6 +57097,42 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           }
         ],
@@ -57155,6 +57147,38 @@
           },
           {
             "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -57456,47 +57480,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "OVERLAY_TEXT_BIT",
             "type": "Unknown"
           },
           {
             "name": "OVERLAY_NAME_BIT",
-            "type": "Unknown"
-          },
-          {
-            "name": "OVERLAY_BBOX_BIT",
             "type": "Unknown"
           }
         ],
@@ -58301,6 +58289,10 @@
           {
             "name": "eEyesForward",
             "type": "Unknown"
+          },
+          {
+            "name": "24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24",
+            "type": "Unknown"
           }
         ],
         "parent": "CBaseEntity"
@@ -58453,7 +58445,12 @@
           "m_nConstraint": 1196,
           "m_nGoalDirection": 1192
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseEntity"
       },
       "CPointPrefab": {
@@ -58609,7 +58606,24 @@
           "m_flTonemapEVSmoothingRange": 2312,
           "m_hPostSettings": 2272
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP",
+            "type": "Unknown"
+          },
+          {
+            "name": "INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP",
+            "type": "Unknown"
+          },
+          {
+            "name": "CREATE_FOR_CLIENTS_WHO_CONNECT_LATER",
+            "type": "Unknown"
+          },
+          {
+            "name": "PM_NO_GIBS",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseTrigger"
       },
       "CPrecipitationVData": {
@@ -58625,6 +58639,14 @@
           "m_szParticlePrecipitationEffect": 40
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -58894,7 +58916,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -58997,10 +59027,6 @@
             "type": "Unknown"
           },
           {
-            "name": "u",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -59087,6 +59113,10 @@
             "type": "Unknown"
           },
           {
+            "name": "em32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Window",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -59096,10 +59126,6 @@
           },
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "kLh",
             "type": "Unknown"
           }
         ],
@@ -59181,7 +59207,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -59283,7 +59317,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -59642,10 +59684,6 @@
             "type": "Unknown"
           },
           {
-            "name": "u",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -59673,10 +59711,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "u",
             "type": "Unknown"
           },
           {
@@ -59716,10 +59750,6 @@
             "type": "Unknown"
           },
           {
-            "name": "u",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -59749,10 +59779,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "u",
             "type": "Unknown"
           },
           {
@@ -59797,10 +59823,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "u",
             "type": "Unknown"
           },
           {
@@ -59909,7 +59931,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -59989,7 +60019,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -60014,10 +60052,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "u",
             "type": "Unknown"
           },
           {
@@ -60277,10 +60311,6 @@
           {
             "name": "MPropertyDescription",
             "type": "Unknown"
-          },
-          {
-            "name": "0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -60307,10 +60337,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x",
             "type": "Unknown"
           },
           {
@@ -60461,7 +60487,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -60501,10 +60535,6 @@
             "type": "Unknown"
           },
           {
-            "name": "u",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60514,10 +60544,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "\\570",
             "type": "Unknown"
           }
         ],
@@ -60569,7 +60595,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -60647,10 +60681,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0x050d/0x0803,0x2836/0x0001,0x2378/0x100a,0x146b/0xa101,0x1209/0x2f07,0x2563/0x0623,0x05e3/0x0596,0x6666/0x0667,0x146b/0x0303,0x",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -60695,6 +60725,10 @@
             "type": "Unknown"
           },
           {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60713,7 +60747,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -60801,7 +60843,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -60897,10 +60947,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "\\570",
             "type": "Unknown"
           },
           {
@@ -61074,7 +61120,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -61128,7 +61182,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -61251,10 +61313,6 @@
           },
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "kLh",
             "type": "Unknown"
           }
         ],
@@ -61463,23 +61521,11 @@
             "type": "Unknown"
           },
           {
-            "name": "PrioritizeClosestPart",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "Absorb",
-            "type": "Unknown"
-          },
-          {
-            "name": "InvincibleAbsorb",
-            "type": "Unknown"
-          },
-          {
-            "name": "InvinciblePassthrough",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -61491,103 +61537,11 @@
             "type": "Unknown"
           },
           {
-            "name": "eKill",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "eGib",
-            "type": "Unknown"
-          },
-          {
-            "name": "eRemove",
-            "type": "Unknown"
-          },
-          {
-            "name": "GenerateBreakpieces",
-            "type": "Unknown"
-          },
-          {
-            "name": "SetBodyGroupAndCollisionState",
-            "type": "Unknown"
-          },
-          {
-            "name": "EnableFlinches",
-            "type": "Unknown"
-          },
-          {
-            "name": "ForceDamageApply",
-            "type": "Unknown"
-          },
-          {
-            "name": "IgnoreKillEntityFlag",
-            "type": "Unknown"
-          },
-          {
-            "name": "IgnoreHealthCheck",
-            "type": "Unknown"
-          },
-          {
-            "name": "Default",
-            "type": "Unknown"
-          },
-          {
-            "name": "eMovementBegin",
-            "type": "Unknown"
-          },
-          {
-            "name": "eStopBegin",
-            "type": "Unknown"
-          },
-          {
-            "name": "eStopComplete",
-            "type": "Unknown"
-          },
-          {
-            "name": "eReversing",
-            "type": "Unknown"
-          },
-          {
-            "name": "eEventsDispatched",
-            "type": "Unknown"
-          },
-          {
-            "name": "MOVE_OSCILLATE",
-            "type": "Unknown"
-          },
-          {
-            "name": "MOVE_STOP_AT_END",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORIENTATION_MATCH_CONTROL_POINT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORIENTATION_FIXED",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORIENTATION_FACE_PLAYER",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORIENTATION_FORWARD_MOVEMENT_DIRECTION",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORIENTATION_FACE_ENTITY",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -61728,7 +61682,15 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -62534,10 +62496,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MPropertyCustomEditor",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62558,6 +62516,14 @@
           {
             "name": "MPropertyDescription",
             "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62573,6 +62539,14 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -63151,6 +63125,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "x0925/0x8866,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63179,10 +63157,6 @@
           "strValueB": 8
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -63655,7 +63629,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ws\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Tool",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CavernCrawlPathID_t": {
@@ -64197,27 +64176,51 @@
             "type": "Unknown"
           },
           {
-            "name": "MDebugSnapshotDataSummaryFn",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "DFLAG_SUPPRESS_PHYSICS_FORCE",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "DFLAG_SUPPRESS_EFFECTS",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "DFLAG_PREVENT_DEATH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_FORCE_DEATH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_ALWAYS_GIB",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_NEVER_GIB",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_REMOVE_NO_RAGDOLL",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_DAMAGE_MODIFICATION",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_RADIUS_DMG",
             "type": "Unknown"
           }
         ],
@@ -64374,11 +64377,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -64569,11 +64572,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -64597,11 +64600,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -64614,10 +64617,6 @@
         "metadata": [
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -64663,6 +64662,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -64768,6 +64771,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -64800,11 +64807,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -64863,6 +64870,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "x24c6/0x530a,0x24c6/0x531a,0x24c6/0x5397,0x24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x2",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -64915,24 +64926,14 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "generic",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "HeroFacetKey_t": {
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "generic",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "HeroID_t": {
@@ -65204,11 +65205,15 @@
             "type": "Unknown"
           },
           {
-            "name": "d/0x005b,0x0f0d/0x005c,0xf000/0x0003,0xf000/0x00f1,0x0079/0x0011,0x0e6f/0x012f,0x1a34/0x0802,0x1a34/0x0809,0x0079/0x0006,0x0079/",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -66958,12 +66963,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "generic",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "PlayerID_t": {
@@ -67394,10 +67394,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "\\570",
             "type": "Unknown"
           },
           {
@@ -77376,22 +77372,17 @@
         },
         "type": "uint32"
       },
-      "_8D_i_": {
+      "_H_3__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_CD_i_": {
-        "alignment": 116,
-        "members": {},
-        "type": "unknown"
-      },
-      "__D_i_": {
+      "___3__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "____i_": {
+      "_i_3__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

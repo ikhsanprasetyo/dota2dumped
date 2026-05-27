@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 10:01:14.691628500 +07:00
+// 2026-05-27 21:57:09.220275200 +07:00
 
 package schemas
 
@@ -20191,7 +20191,7 @@ const (
     ServerDll_CDOTA_Modifier_Mirana_Leap_leap_radius = 0x1A1C // int32
     ServerDll_CDOTA_Modifier_Mirana_Leap_leap_bonus_duration = 0x1A20 // float32
     ServerDll_CDOTA_Modifier_Mirana_Leap_m_bLaunched = 0x1A24 // bool
-    ServerDll_CDOTA_Modifier_Nevermore_Presence_presence_armor_reduction = 0x19D8 // int32
+    ServerDll_CDOTA_Modifier_Nevermore_Presence_presence_armor_reduction = 0x19D8 // float32
     ServerDll_CDOTA_Modifier_Nevermore_Presence_bonus_armor_per_stack = 0x19DC // int32
     ServerDll_CDOTA_Modifier_Nevermore_Presence_m_bWasHidden = 0x19E0 // bool
     ServerDll_CDOTA_Ability_AncientApparition_IceBlast_m_PathTimer = 0x580 // CountdownTimer

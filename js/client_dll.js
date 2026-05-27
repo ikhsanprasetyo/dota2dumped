@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 10:01:14.691628500 +07:00
+// 2026-05-27 21:57:09.220275200 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1435,6 +1435,8 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
+        },
+        DOTAChatAutocompleteEntrySteamFriend: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A08, // DOTA_SHOP_TYPE
@@ -22939,7 +22941,7 @@ export const Schemas = {
             m_bLaunched: 0x19EC, // bool
         },
         CDOTA_Modifier_Nevermore_Presence: {
-            presence_armor_reduction: 0x19D8, // int32
+            presence_armor_reduction: 0x19D8, // float32
             bonus_armor_per_stack: 0x19DC, // int32
             m_bWasHidden: 0x19E0, // bool
         },
@@ -31781,165 +31783,77 @@ export const Schemas = {
             m_nHitRegionIndex: 0xC, // int32
             m_nDamageMultiplier: 0x10, // int32
         },
-        _Nw_i_: {
+        ______: {
         },
-        _Cw_i_: {
+        ______: {
         },
-        _Cw_i_: {
+        ______: {
         },
-        ____i_: {
+        ______: {
         },
-        _Cw_i_: {
+        ______: {
         },
-        __w_i_: {
+        ______: {
         },
-        _Cw_i_: {
+        ______: {
         },
-        _Cw_i_: {
+        _n____: {
         },
-        _Cw_i_: {
+        ______: {
         },
-        _Cw_i_: {
+        _Z____: {
         },
-        _Cw_i_: {
+        __L___: {
         },
-        __w_i_: {
+        __L___: {
         },
-        __w_i_: {
+        __L___: {
         },
-        ____i_: {
+        __L___: {
         },
-        _ٌ_i_: {
+        __L___: {
         },
-        _ٌ_i_: {
+        __L___: {
         },
-        _댿i_: {
+        __L___: {
         },
-        _ٌ_i_: {
+        __L___: {
         },
-        _猿i_: {
+        __L___: {
         },
-        _ٌ_i_: {
+        __L___: {
         },
-        _ٌ_i_: {
+        __L___: {
         },
-        _ٌ_i_: {
+        __M___: {
         },
-        _ٌ_i_: {
+        __L___: {
         },
-        _쌿i_: {
+        _J____: {
         },
-        ____i_: {
+        _F____: {
         },
-        ____i_: {
+        _J____: {
         },
-        _ٌ_i_: {
+        _J____: {
         },
-        ____i_: {
+        _J____: {
         },
-        _ٌ_i_: {
+        _J____: {
         },
-        _ٌ_i_: {
+        _J____: {
         },
-        ____i_: {
+        _G____: {
         },
-        _ٌ_i_: {
+        _F____: {
         },
-        __i_: {
+        _J____: {
         },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
+        _J____: {
         },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
+        _J____: {
         },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        ____i_: {
-            CMsgDOTACombatLogEntry: 0xBF520C80, // CDOTAUserMsg_DebugChallenge[591]
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        _뀿i_: {
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-            EVENT_ID_NONE: 0xFC2D5570, // EEvent
-            k_ERankType_Max: 0xFC2D5570, // ERankType
-            DOTA_CM_RANDOM: 0xFC2D5570, // DOTA_CM_PICK
-            LANE_TYPE_SAFE: 0xFC2D5570, // ELaneType
-            LANE_TYPE_OFF: 0xFC2D5570, // ELaneType
-            LANE_TYPE_MID: 0xFC2D5570, // ELaneType
-            LANE_TYPE_ROAM: 0xFC2D5570, // ELaneType
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        __M_i_: {
-        },
-        _ꀿi_: {
+        _P____: {
         },
     },
 };

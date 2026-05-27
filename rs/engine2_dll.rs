@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-08 10:01:14.691628500 +07:00
+// 2026-05-27 21:57:09.220275200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -110,6 +110,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // ommon\dota 2 beta\game\bin\win64\dota2.exe" -steam +voice_fadeouttime 0 -prewarm_panorama +r_legacy_vsync 1 -novid -high
             pub mod GameTime_t {
                 pub const m_Value: usize = 0x0; // float32
             }
