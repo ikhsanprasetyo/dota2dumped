@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -103,7 +103,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // +
+            // ,
             pub const MaterialParamInt_t = struct {
                 pub const m_nValue: usize = 0x8; // int32
             };
@@ -182,7 +182,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // +
+            // ,
             pub const MaterialParamBuffer_t = struct {
                 pub const m_value: usize = 0x8; // CUtlBinaryBlock
             };
@@ -238,7 +238,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // +
+            // ,
             pub const MaterialParamFloat_t = struct {
                 pub const m_flValue: usize = 0x8; // float32
             };
@@ -248,7 +248,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // +
+            // ,
             pub const MaterialParamTexture_t = struct {
                 pub const m_pValue: usize = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
             };

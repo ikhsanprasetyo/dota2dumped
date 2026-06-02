@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1435,8 +1435,6 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
-        },
-        DOTAChatAutocompleteEntrySteamFriend: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A08, // DOTA_SHOP_TYPE
@@ -31782,78 +31780,6 @@ export const Schemas = {
             m_flRadius: 0x8, // float32
             m_nHitRegionIndex: 0xC, // int32
             m_nDamageMultiplier: 0x10, // int32
-        },
-        ______: {
-        },
-        ______: {
-        },
-        ______: {
-        },
-        ______: {
-        },
-        ______: {
-        },
-        ______: {
-        },
-        ______: {
-        },
-        _n____: {
-        },
-        ______: {
-        },
-        _Z____: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __L___: {
-        },
-        __M___: {
-        },
-        __L___: {
-        },
-        _J____: {
-        },
-        _F____: {
-        },
-        _J____: {
-        },
-        _J____: {
-        },
-        _J____: {
-        },
-        _J____: {
-        },
-        _J____: {
-        },
-        _G____: {
-        },
-        _F____: {
-        },
-        _J____: {
-        },
-        _J____: {
-        },
-        _J____: {
-        },
-        _P____: {
         },
     },
 };

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -883,7 +883,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
-            // em32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
@@ -1092,7 +1091,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             pub const CPulseTestScriptLib = struct {
             };
             // Parent: None
@@ -1121,7 +1119,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1314,7 +1311,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Step_DebugLog = struct {
@@ -1346,7 +1342,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1399,7 +1394,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             pub const CPulseCell_Inflow_ObservableVariableListener = struct {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -1420,7 +1414,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Outflow_CycleOrdered = struct {
@@ -1455,7 +1448,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             pub const CPulseCell_Inflow_Wait = struct {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
             };
@@ -1474,7 +1466,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Outflow_CycleShuffled = struct {
@@ -1523,7 +1514,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             pub const CPulseCell_BaseValue = struct {
             };
             // Parent: None
@@ -1626,7 +1616,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             pub const CPulseCell_Step_PublicOutput = struct {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             };
@@ -1657,7 +1646,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Value_RandomInt = struct {
@@ -1735,7 +1723,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Step_CallExternalMethod = struct {
@@ -1793,7 +1780,6 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Value_RandomFloat = struct {
@@ -2113,9 +2099,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // @z
-            // pf
-            // `c
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2276,7 +2259,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
+            // $
             pub const CParticleFunctionPreEmission = struct {
                 pub const m_bRunOnce: usize = 0x1D8; // bool
             };
@@ -2433,7 +2416,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
             pub const C_OP_RenderRopes = struct {
                 pub const m_bEnableFadingAndClamping: usize = 0x2DF0; // bool
                 pub const m_flMinSize: usize = 0x2DF4; // float32
@@ -2627,8 +2609,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // (b
-            // 0y
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -2706,10 +2686,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // x{
-            // H{
-            // Hy
-            // pe
             pub const C_OP_RenderSound = struct {
                 pub const m_flDurationScale: usize = 0x228; // float32
                 pub const m_flSndLvlScale: usize = 0x22C; // float32
@@ -4327,9 +4303,6 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -6032,9 +6005,6 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             pub const C_OP_Callback = struct {
@@ -7351,15 +7321,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Hy
-            // pb
-            // Xw
-            // 8w
-            // 0j
-            // 0y
-            // `y
-            // @u
-            // (t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -7436,7 +7397,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
+            // $
             pub const CParticleFunctionForce = struct {
             };
             // Parent: None
@@ -7721,23 +7682,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // `q
-            // (c
-            // `c
-            // 0{
-            // pb
-            // Hw
-            // 8w
-            // hx
-            // @x
-            // 8f
-            // @c
-            // 0s
-            // $s
-            // `t
-            // hi
-            // (c
-            // @l
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
@@ -8589,9 +8533,6 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -8794,12 +8735,7 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // pt
-            // hu
-            // Xu
-            //  v
-            // 8v
-            // x0e6f/0x011a,0x20d6/0x571d,0x1949/0x0419,0x1dd8/0x000b,0x20d6/0x57e5,0x11c0/0x5213,0x0e6f/0x0132,0x20bc/0x1260,0x20bc/0x1263,0x2
+            // g
             pub const CBaseTrailRenderer = struct {
                 pub const m_nOrientationType: usize = 0x2DF0; // ParticleOrientationChoiceList_t
                 pub const m_nOrientationControlPoint: usize = 0x2DF4; // int32
@@ -9153,11 +9089,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // pt
-            // hu
-            // Xu
-            //  v
-            // 8v
             pub const C_OP_RenderVRHapticEvent = struct {
                 pub const m_nHand: usize = 0x228; // ParticleVRHandChoiceList_t
                 pub const m_nOutputHandCP: usize = 0x22C; // int32
@@ -9564,12 +9495,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // x{
-            // H{
-            // xc
-            // xu
-            // Hy
-            // Pr
             pub const C_OP_RenderGpuImplicit = struct {
                 pub const m_bUsePerParticleRadius: usize = 0x228; // bool
                 pub const m_nVertexCountKb: usize = 0x22C; // uint32
@@ -9691,9 +9616,6 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             pub const C_OP_RenderVolumetricEmitter = struct {
                 pub const m_strChannelType: usize = 0x228; // CUtlString
                 pub const m_nType: usize = 0x230; // ParticleVolumetricSmokeType_t
@@ -9905,7 +9827,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
+            // $
             pub const CParticleFunctionOperator = struct {
             };
             // Parent: None
@@ -10635,7 +10557,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 05,0x0925/0x8866,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008
             pub const CParticleSystemDefinition = struct {
                 pub const m_nBehaviorVersion: usize = 0x8; // int32
                 pub const m_PreEmissionOperators: usize = 0x10; // CUtlVector<CParticleFunctionPreEmission*>
@@ -10818,13 +10739,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 8w
-            // 0s
-            // $s
-            // Hb
-            // (b
-            // (g
-            // 0u
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -10846,7 +10760,6 @@ pub const source2_dumper = struct {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0i
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
@@ -11335,9 +11248,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // @z
-            // pf
-            // `c
             pub const C_OP_RenderPostProcessing = struct {
                 pub const m_flPostProcessStrength: usize = 0x228; // CPerParticleFloatInput
                 pub const m_hPostTexture: usize = 0x398; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -11404,16 +11314,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // x{
-            // H{
-            // xc
-            // xu
-            // Hy
-            // Pr
-            // Xr
-            // Xv
-            // Hv
-            // xc
             pub const C_OP_RenderBlobs = struct {
                 pub const m_cubeWidth: usize = 0x228; // CParticleCollectionRendererFloatInput
                 pub const m_cutoffRadius: usize = 0x398; // CParticleCollectionRendererFloatInput
@@ -11573,9 +11473,6 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             pub const C_OP_WaterImpulseRenderer = struct {
                 pub const m_vecPos: usize = 0x228; // CPerParticleVecInput
                 pub const m_flRadius: usize = 0x8E0; // CPerParticleFloatInput
@@ -12039,13 +11936,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 8w
-            // 0s
-            // $s
-            // Hb
-            // (b
-            // (g
-            // 0u
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -12067,7 +11957,6 @@ pub const source2_dumper = struct {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0i
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
@@ -12775,10 +12664,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0{
-            // Pi
-            // hl
-            // (x
             pub const C_OP_GameDecalRenderer = struct {
                 pub const m_sDecalGroupName: usize = 0x228; // CGlobalSymbol
                 pub const m_nEventType: usize = 0x230; // EventTypeSelection_t
@@ -13022,9 +12907,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // @z
-            // pf
-            // `c
             // MPropertyFriendlyName
             pub const C_OP_RenderLights = struct {
                 pub const m_flAnimationRate: usize = 0x230; // float32
@@ -13228,8 +13110,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
-            // s\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs
             pub const C_OP_RenderPoints = struct {
                 pub const m_hMaterial: usize = 0x228; // CStrongHandle<InfoForResourceTypeIMaterial2>
             };
@@ -13820,13 +13700,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // hu
-            // Hb
-            // (d
-            // (k
-            // 0z
-            // @c
-            // 8v
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13836,16 +13709,6 @@ pub const source2_dumper = struct {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `q
-            // (c
-            // `c
-            // 0{
-            // pb
-            // Hw
-            // 8w
-            // hx
-            // @x
-            // 8f
             pub const C_OP_RenderClothForce = struct {
                 pub const m_sDecalGroupName: usize = 0x228; // CGlobalSymbol
             };
@@ -14482,13 +14345,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 8w
-            // 0s
-            // $s
-            // Hb
-            // (b
-            // (g
-            // 0u
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -14510,7 +14366,6 @@ pub const source2_dumper = struct {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0i
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
@@ -16247,13 +16102,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // x{
-            // H{
-            // Hy
-            // pe
-            // 0{
-            // x{
-            // H{
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -19192,11 +19040,7 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // pt
-            // hu
-            // Xu
-            //  v
-            // 8v
+            // g
             pub const C_OP_RenderProjected = struct {
                 pub const m_bProjectCharacter: usize = 0x228; // bool
                 pub const m_bProjectWorld: usize = 0x229; // bool
@@ -20653,13 +20497,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 8w
-            // 0s
-            // $s
-            // Hb
-            // (b
-            // (g
-            // 0u
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -20681,7 +20518,6 @@ pub const source2_dumper = struct {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0i
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
@@ -21330,8 +21166,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
-            // s\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs
             pub const C_OP_RenderScreenShake = struct {
                 pub const m_flDurationScale: usize = 0x228; // float32
                 pub const m_flRadiusScale: usize = 0x22C; // float32
@@ -21375,7 +21209,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // 6/0x5397,0x24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/
             pub const C_OP_HSVShiftToCP = struct {
                 pub const m_nColorCP: usize = 0x1E0; // int32
                 pub const m_nColorGemEnableCP: usize = 0x1E4; // int32
@@ -22364,7 +22197,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
             pub const CParticleFunctionInitializer = struct {
                 pub const m_nAssociatedEmitterIndex: usize = 0x1D8; // int32
             };
@@ -23116,7 +22948,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // 6/0x5397,0x24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/
             pub const C_OP_SetGravityToCP = struct {
                 pub const m_nCPInput: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -24125,7 +23956,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
             pub const CParticleFunctionConstraint = struct {
             };
             // Parent: None
@@ -24237,8 +24067,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // (b
-            // 0y
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -24316,11 +24144,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // x{
-            // H{
-            // Hy
-            // pe
-            // 0{
             pub const C_OP_RenderModels = struct {
                 pub const m_bOnlyRenderInEffectsBloomPass: usize = 0x228; // bool
                 pub const m_bOnlyRenderInEffectsWaterPass: usize = 0x229; // bool
@@ -24597,7 +24420,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
             pub const CParticleFunctionEmitter = struct {
                 pub const m_nEmitterIndex: usize = 0x1D8; // int32
             };
@@ -25256,8 +25078,6 @@ pub const source2_dumper = struct {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
-            // s\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs
             pub const C_OP_ClientPhysics = struct {
                 pub const m_strPhysicsType: usize = 0x228; // CUtlString
                 pub const m_bStartAsleep: usize = 0x230; // bool
@@ -25944,8 +25764,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // (b
-            // 0y
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -26023,10 +25841,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // x{
-            // H{
-            // Hy
-            // pe
             pub const C_OP_RenderMaterialProxy = struct {
                 pub const m_nMaterialControlPoint: usize = 0x228; // int32
                 pub const m_nProxyType: usize = 0x22C; // MaterialProxyType_t

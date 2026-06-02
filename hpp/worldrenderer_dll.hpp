@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 #pragma once
 
@@ -183,8 +183,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 66,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0e8f/0x3075
-            // 1
+            // 2
             namespace ExtraVertexStreamOverride_t {
                 constexpr std::ptrdiff_t m_nSubSceneObject = 0x4; // uint32
                 constexpr std::ptrdiff_t m_nDrawCallIndex = 0x8; // uint32
@@ -510,8 +509,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 66,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0e8f/0x3075
-            // 1
+            // 2
             namespace MaterialOverride_t {
                 constexpr std::ptrdiff_t m_nSubSceneObject = 0x4; // uint32
                 constexpr std::ptrdiff_t m_nDrawCallIndex = 0x8; // uint32

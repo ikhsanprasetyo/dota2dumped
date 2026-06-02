@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 #pragma once
 
@@ -888,7 +888,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
-            // em32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
@@ -1097,7 +1096,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             namespace CPulseTestScriptLib {
             }
             // Parent: None
@@ -1126,7 +1124,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1319,7 +1316,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Step_DebugLog {
@@ -1351,7 +1347,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1404,7 +1399,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             namespace CPulseCell_Inflow_ObservableVariableListener {
                 constexpr std::ptrdiff_t m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 constexpr std::ptrdiff_t m_bSelfReference = 0x82; // bool
@@ -1425,7 +1419,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Outflow_CycleOrdered {
@@ -1460,7 +1453,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             namespace CPulseCell_Inflow_Wait {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
             }
@@ -1479,7 +1471,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Outflow_CycleShuffled {
@@ -1528,7 +1519,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             namespace CPulseCell_BaseValue {
             }
             // Parent: None
@@ -1631,7 +1621,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             namespace CPulseCell_Step_PublicOutput {
                 constexpr std::ptrdiff_t m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -1662,7 +1651,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Value_RandomInt {
@@ -1740,7 +1728,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Step_CallExternalMethod {
@@ -1798,7 +1785,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Value_RandomFloat {
@@ -2118,9 +2104,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // @z
-            // pf
-            // `c
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2281,7 +2264,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
+            // $
             namespace CParticleFunctionPreEmission {
                 constexpr std::ptrdiff_t m_bRunOnce = 0x1D8; // bool
             }
@@ -2438,7 +2421,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
             namespace C_OP_RenderRopes {
                 constexpr std::ptrdiff_t m_bEnableFadingAndClamping = 0x2DF0; // bool
                 constexpr std::ptrdiff_t m_flMinSize = 0x2DF4; // float32
@@ -2632,8 +2614,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // (b
-            // 0y
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -2711,10 +2691,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // x{
-            // H{
-            // Hy
-            // pe
             namespace C_OP_RenderSound {
                 constexpr std::ptrdiff_t m_flDurationScale = 0x228; // float32
                 constexpr std::ptrdiff_t m_flSndLvlScale = 0x22C; // float32
@@ -4332,9 +4308,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -6037,9 +6010,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             namespace C_OP_Callback {
@@ -7356,15 +7326,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Hy
-            // pb
-            // Xw
-            // 8w
-            // 0j
-            // 0y
-            // `y
-            // @u
-            // (t
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -7441,7 +7402,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
+            // $
             namespace CParticleFunctionForce {
             }
             // Parent: None
@@ -7726,23 +7687,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // `q
-            // (c
-            // `c
-            // 0{
-            // pb
-            // Hw
-            // 8w
-            // hx
-            // @x
-            // 8f
-            // @c
-            // 0s
-            // $s
-            // `t
-            // hi
-            // (c
-            // @l
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
@@ -8594,9 +8538,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -8799,12 +8740,7 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // pt
-            // hu
-            // Xu
-            //  v
-            // 8v
-            // x0e6f/0x011a,0x20d6/0x571d,0x1949/0x0419,0x1dd8/0x000b,0x20d6/0x57e5,0x11c0/0x5213,0x0e6f/0x0132,0x20bc/0x1260,0x20bc/0x1263,0x2
+            // g
             namespace CBaseTrailRenderer {
                 constexpr std::ptrdiff_t m_nOrientationType = 0x2DF0; // ParticleOrientationChoiceList_t
                 constexpr std::ptrdiff_t m_nOrientationControlPoint = 0x2DF4; // int32
@@ -9158,11 +9094,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // pt
-            // hu
-            // Xu
-            //  v
-            // 8v
             namespace C_OP_RenderVRHapticEvent {
                 constexpr std::ptrdiff_t m_nHand = 0x228; // ParticleVRHandChoiceList_t
                 constexpr std::ptrdiff_t m_nOutputHandCP = 0x22C; // int32
@@ -9569,12 +9500,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // x{
-            // H{
-            // xc
-            // xu
-            // Hy
-            // Pr
             namespace C_OP_RenderGpuImplicit {
                 constexpr std::ptrdiff_t m_bUsePerParticleRadius = 0x228; // bool
                 constexpr std::ptrdiff_t m_nVertexCountKb = 0x22C; // uint32
@@ -9696,9 +9621,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             namespace C_OP_RenderVolumetricEmitter {
                 constexpr std::ptrdiff_t m_strChannelType = 0x228; // CUtlString
                 constexpr std::ptrdiff_t m_nType = 0x230; // ParticleVolumetricSmokeType_t
@@ -9910,7 +9832,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
+            // $
             namespace CParticleFunctionOperator {
             }
             // Parent: None
@@ -10640,7 +10562,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 05,0x0925/0x8866,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008
             namespace CParticleSystemDefinition {
                 constexpr std::ptrdiff_t m_nBehaviorVersion = 0x8; // int32
                 constexpr std::ptrdiff_t m_PreEmissionOperators = 0x10; // CUtlVector<CParticleFunctionPreEmission*>
@@ -10823,13 +10744,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 8w
-            // 0s
-            // $s
-            // Hb
-            // (b
-            // (g
-            // 0u
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -10851,7 +10765,6 @@ namespace source2_dumper {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0i
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
@@ -11340,9 +11253,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // @z
-            // pf
-            // `c
             namespace C_OP_RenderPostProcessing {
                 constexpr std::ptrdiff_t m_flPostProcessStrength = 0x228; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_hPostTexture = 0x398; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -11409,16 +11319,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // x{
-            // H{
-            // xc
-            // xu
-            // Hy
-            // Pr
-            // Xr
-            // Xv
-            // Hv
-            // xc
             namespace C_OP_RenderBlobs {
                 constexpr std::ptrdiff_t m_cubeWidth = 0x228; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_cutoffRadius = 0x398; // CParticleCollectionRendererFloatInput
@@ -11578,9 +11478,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // pk
-            // @k
-            //  w
             namespace C_OP_WaterImpulseRenderer {
                 constexpr std::ptrdiff_t m_vecPos = 0x228; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_flRadius = 0x8E0; // CPerParticleFloatInput
@@ -12044,13 +11941,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 8w
-            // 0s
-            // $s
-            // Hb
-            // (b
-            // (g
-            // 0u
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -12072,7 +11962,6 @@ namespace source2_dumper {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0i
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
@@ -12780,10 +12669,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0{
-            // Pi
-            // hl
-            // (x
             namespace C_OP_GameDecalRenderer {
                 constexpr std::ptrdiff_t m_sDecalGroupName = 0x228; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_nEventType = 0x230; // EventTypeSelection_t
@@ -13027,9 +12912,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // @z
-            // pf
-            // `c
             // MPropertyFriendlyName
             namespace C_OP_RenderLights {
                 constexpr std::ptrdiff_t m_flAnimationRate = 0x230; // float32
@@ -13233,8 +13115,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
-            // s\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs
             namespace C_OP_RenderPoints {
                 constexpr std::ptrdiff_t m_hMaterial = 0x228; // CStrongHandle<InfoForResourceTypeIMaterial2>
             }
@@ -13825,13 +13705,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // hu
-            // Hb
-            // (d
-            // (k
-            // 0z
-            // @c
-            // 8v
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13841,16 +13714,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `q
-            // (c
-            // `c
-            // 0{
-            // pb
-            // Hw
-            // 8w
-            // hx
-            // @x
-            // 8f
             namespace C_OP_RenderClothForce {
                 constexpr std::ptrdiff_t m_sDecalGroupName = 0x228; // CGlobalSymbol
             }
@@ -14487,13 +14350,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 8w
-            // 0s
-            // $s
-            // Hb
-            // (b
-            // (g
-            // 0u
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -14515,7 +14371,6 @@ namespace source2_dumper {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0i
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
@@ -16252,13 +16107,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // x{
-            // H{
-            // Hy
-            // pe
-            // 0{
-            // x{
-            // H{
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -19197,11 +19045,7 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // pt
-            // hu
-            // Xu
-            //  v
-            // 8v
+            // g
             namespace C_OP_RenderProjected {
                 constexpr std::ptrdiff_t m_bProjectCharacter = 0x228; // bool
                 constexpr std::ptrdiff_t m_bProjectWorld = 0x229; // bool
@@ -20658,13 +20502,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 8w
-            // 0s
-            // $s
-            // Hb
-            // (b
-            // (g
-            // 0u
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -20686,7 +20523,6 @@ namespace source2_dumper {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0i
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
@@ -21335,8 +21171,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
-            // s\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs
             namespace C_OP_RenderScreenShake {
                 constexpr std::ptrdiff_t m_flDurationScale = 0x228; // float32
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x22C; // float32
@@ -21380,7 +21214,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // 6/0x5397,0x24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/
             namespace C_OP_HSVShiftToCP {
                 constexpr std::ptrdiff_t m_nColorCP = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nColorGemEnableCP = 0x1E4; // int32
@@ -22369,7 +22202,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
             namespace CParticleFunctionInitializer {
                 constexpr std::ptrdiff_t m_nAssociatedEmitterIndex = 0x1D8; // int32
             }
@@ -23121,7 +22953,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // 6/0x5397,0x24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/
             namespace C_OP_SetGravityToCP {
                 constexpr std::ptrdiff_t m_nCPInput = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nCPOutput = 0x1E4; // int32
@@ -24130,7 +23961,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
             namespace CParticleFunctionConstraint {
             }
             // Parent: None
@@ -24242,8 +24072,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // (b
-            // 0y
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -24321,11 +24149,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // x{
-            // H{
-            // Hy
-            // pe
-            // 0{
             namespace C_OP_RenderModels {
                 constexpr std::ptrdiff_t m_bOnlyRenderInEffectsBloomPass = 0x228; // bool
                 constexpr std::ptrdiff_t m_bOnlyRenderInEffectsWaterPass = 0x229; // bool
@@ -24602,7 +24425,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // 0x01ab,0x0f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x
             namespace CParticleFunctionEmitter {
                 constexpr std::ptrdiff_t m_nEmitterIndex = 0x1D8; // int32
             }
@@ -25261,8 +25083,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
-            // s\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs
             namespace C_OP_ClientPhysics {
                 constexpr std::ptrdiff_t m_strPhysicsType = 0x228; // CUtlString
                 constexpr std::ptrdiff_t m_bStartAsleep = 0x230; // bool
@@ -25949,8 +25769,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // (b
-            // 0y
             // UNUSED
             // F_NORMAL_MAP
             // F_TEXTURE_LAYERS
@@ -26028,10 +25846,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // x{
-            // H{
-            // Hy
-            // pe
             namespace C_OP_RenderMaterialProxy {
                 constexpr std::ptrdiff_t m_nMaterialControlPoint = 0x228; // int32
                 constexpr std::ptrdiff_t m_nProxyType = 0x22C; // MaterialProxyType_t

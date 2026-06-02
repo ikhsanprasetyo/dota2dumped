@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -418,7 +418,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            // 2
+            // 3
             pub mod CPulseTestFuncs_LibraryA {
             }
             // Parent: None
@@ -580,7 +580,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
-            // em32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
@@ -741,7 +740,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_GraphHook {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
@@ -1039,7 +1037,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EventHandler {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
@@ -1212,7 +1209,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EntOutputHandler {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
@@ -1323,7 +1319,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_DebugLog {
@@ -1396,7 +1391,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleOrdered {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1442,7 +1436,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Wait {
                 pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
@@ -1518,7 +1511,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleShuffled {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1625,7 +1617,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Yield {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
@@ -1699,7 +1690,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomInt {
             }
@@ -1743,7 +1733,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            // 2
+            // 3
             pub mod CPulseCell_ExampleSelector {
                 pub const m_OutflowList: usize = 0x48; // PulseSelectorOutflowList_t
             }
@@ -1777,7 +1767,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_InlineNodeSkipSelector {
@@ -1804,7 +1793,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            // 2
+            // 3
             pub mod CPulseCell_ExampleCriteria {
             }
             // Parent: None
@@ -1830,7 +1819,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_CallExternalMethod {
@@ -1901,7 +1889,6 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomFloat {
             }
@@ -2031,7 +2018,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
             pub mod CPulse_OutputConnection {
                 pub const m_SourceOutput: usize = 0x0; // PulseSymbol_t
                 pub const m_TargetEntity: usize = 0x10; // PulseSymbol_t
@@ -2256,7 +2242,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseRuntimeMethodArg {

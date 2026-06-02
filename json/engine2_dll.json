@@ -419,7 +419,52 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "-",
+            "type": "Unknown"
+          },
+          {
+            "name": "1",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
+          },
+          {
+            "name": "F",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "L",
+            "type": "Unknown"
+          },
+          {
+            "name": "-",
+            "type": "Unknown"
+          },
+          {
+            "name": "9",
+            "type": "Unknown"
+          },
+          {
+            "name": "$",
+            "type": "Unknown"
+          },
+          {
+            "name": "I",
+            "type": "Unknown"
+          },
+          {
+            "name": "I",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "GameTime_t": {
@@ -428,7 +473,63 @@
         },
         "metadata": [
           {
-            "name": "ommon\\dota 2 beta\\game\\bin\\win64\\dota2.exe\" -steam +voice_fadeouttime 0 -prewarm_panorama +r_legacy_vsync 1 -novid -high",
+            "name": "D",
+            "type": "Unknown"
+          },
+          {
+            "name": "R",
+            "type": "Unknown"
+          },
+          {
+            "name": "N",
+            "type": "Unknown"
+          },
+          {
+            "name": "4",
+            "type": "Unknown"
+          },
+          {
+            "name": "-",
+            "type": "Unknown"
+          },
+          {
+            "name": "D",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "-",
+            "type": "Unknown"
+          },
+          {
+            "name": "E",
+            "type": "Unknown"
+          },
+          {
+            "name": "E",
+            "type": "Unknown"
+          },
+          {
+            "name": "-",
+            "type": "Unknown"
+          },
+          {
+            "name": "$",
+            "type": "Unknown"
+          },
+          {
+            "name": "9",
+            "type": "Unknown"
+          },
+          {
+            "name": "I",
+            "type": "Unknown"
+          },
+          {
+            "name": "I",
             "type": "Unknown"
           }
         ],

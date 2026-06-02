@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 package interfaces
 
@@ -13,7 +13,7 @@ const (
     ClientDll_PanoramaUIClient001 = 0x5D3DDB0
     ClientDll_PlayButtonService001 = 0x5D1F240
     ClientDll_Source2Client002 = 0x6384720
-    ClientDll_Source2ClientConfig001 = 0x6331360
+    ClientDll_Source2ClientConfig001 = 0x6331320
     ClientDll_Source2ClientPrediction001 = 0x5CA8620
     ClientDll_Source2ClientUI001 = 0x5A73870
     Engine2Dll_BenchmarkService001 = 0x616A30
@@ -89,48 +89,26 @@ const (
     ScenesystemDll_SceneSystem_002 = 0x8DE3F0
     ScenesystemDll_SceneUtils_001 = 0x667A90
     SchemasystemDll_SchemaSystem_001 = 0x77710
-    ServerDll_EntitySubclassUtilsV001 = 0x4731EF0
-    ServerDll_NavGameTest001 = 0x4A057C0
-    ServerDll_ServerToolsInfo_001 = 0x495BEB0
-    ServerDll_Source2GameClients001 = 0x4951560
-    ServerDll_Source2GameDirector001 = 0x4FE49C0
-    ServerDll_Source2GameEntities001 = 0x495B5C0
-    ServerDll_Source2Server001 = 0x495B410
-    ServerDll_Source2ServerConfig001 = 0x4F22A38
+    ServerDll_EntitySubclassUtilsV001 = 0x4732EF0
+    ServerDll_NavGameTest001 = 0x4A067C0
+    ServerDll_ServerToolsInfo_001 = 0x495CEB0
+    ServerDll_Source2GameClients001 = 0x4952560
+    ServerDll_Source2GameDirector001 = 0x4FE5AC0
+    ServerDll_Source2GameEntities001 = 0x495C5C0
+    ServerDll_Source2Server001 = 0x495C410
+    ServerDll_Source2ServerConfig001 = 0x4F23B18
     SoundsystemDll_SoundOpSystem001 = 0x5139F0
     SoundsystemDll_SoundOpSystemEdit001 = 0x5138B0
     SoundsystemDll_SoundSystem001 = 0x5133A0
     SoundsystemDll_VMixEditTool001 = 0x594873F
     SteamaudioDll_SteamAudio001 = 0x25E520
-    Steamclient64Dll_IVALIDATE001 = 0x16BE0B8
-    Steamclient64Dll_SteamClient006 = 0x16BB520
-    Steamclient64Dll_SteamClient007 = 0x16BB528
-    Steamclient64Dll_SteamClient008 = 0x16BB530
-    Steamclient64Dll_SteamClient009 = 0x16BB538
-    Steamclient64Dll_SteamClient010 = 0x16BB540
-    Steamclient64Dll_SteamClient011 = 0x16BB548
-    Steamclient64Dll_SteamClient012 = 0x16BB550
-    Steamclient64Dll_SteamClient013 = 0x16BB558
-    Steamclient64Dll_SteamClient014 = 0x16BB560
-    Steamclient64Dll_SteamClient015 = 0x16BB568
-    Steamclient64Dll_SteamClient016 = 0x16BB570
-    Steamclient64Dll_SteamClient017 = 0x16BB578
-    Steamclient64Dll_SteamClient018 = 0x16BB580
-    Steamclient64Dll_SteamClient019 = 0x16BB588
-    Steamclient64Dll_SteamClient020 = 0x16BB590
-    Steamclient64Dll_SteamClient021 = 0x16BB598
-    Steamclient64Dll_SteamClient022 = 0x16BB5A0
-    Steamclient64Dll_SteamClient023 = 0x16BB5A8
-    Steamclient64Dll_p2pvoice002 = 0x14E627F
-    Steamclient64Dll_p2pvoicesingleton002 = 0x16960F0
     Tier0Dll_TestScriptMgr001 = 0x39E6F0
     Tier0Dll_VEngineCvar007 = 0x3A93B0
     Tier0Dll_VProcessUtils002 = 0x39E690
     Tier0Dll_VStringTokenSystem001 = 0x3D00B0
     V8systemDll_Source2V8System001 = 0x31730
+    VconcommDll_VConComm001 = 0x395C0
     Vphysics2Dll_VPhysics2_Interface_001 = 0x40FD60
     VscriptDll_VScriptManager010 = 0x13B410
-    VstdlibS64Dll_IVALIDATE001 = 0x6F990
-    VstdlibS64Dll_VEngineCvar002 = 0x6E070
     WorldrendererDll_WorldRendererMgr001 = 0x225B60
 )

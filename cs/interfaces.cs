@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -16,7 +16,7 @@ namespace Source2Dumper.Interfaces {
         public const nint PanoramaUIClient001 = 0x5D3DDB0;
         public const nint PlayButtonService001 = 0x5D1F240;
         public const nint Source2Client002 = 0x6384720;
-        public const nint Source2ClientConfig001 = 0x6331360;
+        public const nint Source2ClientConfig001 = 0x6331320;
         public const nint Source2ClientPrediction001 = 0x5CA8620;
         public const nint Source2ClientUI001 = 0x5A73870;
     }
@@ -152,14 +152,14 @@ namespace Source2Dumper.Interfaces {
     }
     // Module: server.dll
     public static class ServerDll {
-        public const nint EntitySubclassUtilsV001 = 0x4731EF0;
-        public const nint NavGameTest001 = 0x4A057C0;
-        public const nint ServerToolsInfo_001 = 0x495BEB0;
-        public const nint Source2GameClients001 = 0x4951560;
-        public const nint Source2GameDirector001 = 0x4FE49C0;
-        public const nint Source2GameEntities001 = 0x495B5C0;
-        public const nint Source2Server001 = 0x495B410;
-        public const nint Source2ServerConfig001 = 0x4F22A38;
+        public const nint EntitySubclassUtilsV001 = 0x4732EF0;
+        public const nint NavGameTest001 = 0x4A067C0;
+        public const nint ServerToolsInfo_001 = 0x495CEB0;
+        public const nint Source2GameClients001 = 0x4952560;
+        public const nint Source2GameDirector001 = 0x4FE5AC0;
+        public const nint Source2GameEntities001 = 0x495C5C0;
+        public const nint Source2Server001 = 0x495C410;
+        public const nint Source2ServerConfig001 = 0x4F23B18;
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {
@@ -172,30 +172,6 @@ namespace Source2Dumper.Interfaces {
     public static class SteamaudioDll {
         public const nint SteamAudio001 = 0x25E520;
     }
-    // Module: steamclient64.dll
-    public static class Steamclient64Dll {
-        public const nint IVALIDATE001 = 0x16BE0B8;
-        public const nint SteamClient006 = 0x16BB520;
-        public const nint SteamClient007 = 0x16BB528;
-        public const nint SteamClient008 = 0x16BB530;
-        public const nint SteamClient009 = 0x16BB538;
-        public const nint SteamClient010 = 0x16BB540;
-        public const nint SteamClient011 = 0x16BB548;
-        public const nint SteamClient012 = 0x16BB550;
-        public const nint SteamClient013 = 0x16BB558;
-        public const nint SteamClient014 = 0x16BB560;
-        public const nint SteamClient015 = 0x16BB568;
-        public const nint SteamClient016 = 0x16BB570;
-        public const nint SteamClient017 = 0x16BB578;
-        public const nint SteamClient018 = 0x16BB580;
-        public const nint SteamClient019 = 0x16BB588;
-        public const nint SteamClient020 = 0x16BB590;
-        public const nint SteamClient021 = 0x16BB598;
-        public const nint SteamClient022 = 0x16BB5A0;
-        public const nint SteamClient023 = 0x16BB5A8;
-        public const nint p2pvoice002 = 0x14E627F;
-        public const nint p2pvoicesingleton002 = 0x16960F0;
-    }
     // Module: tier0.dll
     public static class Tier0Dll {
         public const nint TestScriptMgr001 = 0x39E6F0;
@@ -207,6 +183,10 @@ namespace Source2Dumper.Interfaces {
     public static class V8systemDll {
         public const nint Source2V8System001 = 0x31730;
     }
+    // Module: vconcomm.dll
+    public static class VconcommDll {
+        public const nint VConComm001 = 0x395C0;
+    }
     // Module: vphysics2.dll
     public static class Vphysics2Dll {
         public const nint VPhysics2_Interface_001 = 0x40FD60;
@@ -214,11 +194,6 @@ namespace Source2Dumper.Interfaces {
     // Module: vscript.dll
     public static class VscriptDll {
         public const nint VScriptManager010 = 0x13B410;
-    }
-    // Module: vstdlib_s64.dll
-    public static class VstdlibS64Dll {
-        public const nint IVALIDATE001 = 0x6F990;
-        public const nint VEngineCvar002 = 0x6E070;
     }
     // Module: worldrenderer.dll
     public static class WorldrendererDll {

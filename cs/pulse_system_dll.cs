@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -403,7 +403,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        // 2
+        // 3
         public static class CPulseTestFuncs_LibraryA {
         }
         // Parent: None
@@ -565,7 +565,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
         // MPulseEditorHeaderIcon
-        // em32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Window
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
@@ -726,7 +725,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_GraphHook {
             public const nint m_HookName = 0x80; // PulseSymbol_t
@@ -1024,7 +1022,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_EventHandler {
             public const nint m_EventName = 0x80; // PulseSymbol_t
@@ -1197,7 +1194,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_EntOutputHandler {
             public const nint m_SourceEntity = 0x80; // PulseSymbol_t
@@ -1308,7 +1304,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_DebugLog {
@@ -1381,7 +1376,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_CycleOrdered {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1427,7 +1421,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Wait {
             public const nint m_WakeResume = 0x48; // CPulse_ResumePoint
@@ -1503,7 +1496,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_CycleShuffled {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1610,7 +1602,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Yield {
             public const nint m_UnyieldResume = 0x48; // CPulse_ResumePoint
@@ -1684,7 +1675,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Value_RandomInt {
         }
@@ -1728,7 +1718,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        // 2
+        // 3
         public static class CPulseCell_ExampleSelector {
             public const nint m_OutflowList = 0x48; // PulseSelectorOutflowList_t
         }
@@ -1762,7 +1752,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_InlineNodeSkipSelector {
@@ -1789,7 +1778,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        // 2
+        // 3
         public static class CPulseCell_ExampleCriteria {
         }
         // Parent: None
@@ -1815,7 +1804,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_CallExternalMethod {
@@ -1886,7 +1874,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Value_RandomFloat {
         }
@@ -2016,7 +2003,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
         public static class CPulse_OutputConnection {
             public const nint m_SourceOutput = 0x0; // PulseSymbol_t
             public const nint m_TargetEntity = 0x10; // PulseSymbol_t
@@ -2241,7 +2227,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseRuntimeMethodArg {

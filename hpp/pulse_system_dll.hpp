@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 #pragma once
 
@@ -409,7 +409,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            // 2
+            // 3
             namespace CPulseTestFuncs_LibraryA {
             }
             // Parent: None
@@ -571,7 +571,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPulseEditorHeaderIcon
-            // em32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Window
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
@@ -732,7 +731,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_GraphHook {
                 constexpr std::ptrdiff_t m_HookName = 0x80; // PulseSymbol_t
@@ -1030,7 +1028,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EventHandler {
                 constexpr std::ptrdiff_t m_EventName = 0x80; // PulseSymbol_t
@@ -1203,7 +1200,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EntOutputHandler {
                 constexpr std::ptrdiff_t m_SourceEntity = 0x80; // PulseSymbol_t
@@ -1314,7 +1310,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_DebugLog {
@@ -1387,7 +1382,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleOrdered {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1433,7 +1427,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Wait {
                 constexpr std::ptrdiff_t m_WakeResume = 0x48; // CPulse_ResumePoint
@@ -1509,7 +1502,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleShuffled {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1616,7 +1608,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Yield {
                 constexpr std::ptrdiff_t m_UnyieldResume = 0x48; // CPulse_ResumePoint
@@ -1690,7 +1681,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Value_RandomInt {
             }
@@ -1734,7 +1724,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            // 2
+            // 3
             namespace CPulseCell_ExampleSelector {
                 constexpr std::ptrdiff_t m_OutflowList = 0x48; // PulseSelectorOutflowList_t
             }
@@ -1768,7 +1758,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_InlineNodeSkipSelector {
@@ -1795,7 +1784,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyLeafSuggestionProviderFn
             // MPulseExpressionAlias
-            // 2
+            // 3
             namespace CPulseCell_ExampleCriteria {
             }
             // Parent: None
@@ -1821,7 +1810,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_Step_CallExternalMethod {
@@ -1892,7 +1880,6 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
             // MGetKV3ClassDefaults
             namespace CPulseCell_Value_RandomFloat {
             }
@@ -2022,7 +2009,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
             namespace CPulse_OutputConnection {
                 constexpr std::ptrdiff_t m_SourceOutput = 0x0; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_TargetEntity = 0x10; // PulseSymbol_t
@@ -2247,7 +2233,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseRuntimeMethodArg {

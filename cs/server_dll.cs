@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 7529
-    // Enum count: 433
+    // Class count: 7650
+    // Enum count: 432
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -14282,6 +14282,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // r
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
         public static class CPrecipitationVData {
@@ -19525,7 +19526,6 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
         // MPulseEditorHeaderIcon
-        // em32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Window
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
@@ -26354,9 +26354,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseTestScriptLib {
         }
@@ -26588,9 +26586,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyDescription
@@ -30737,9 +30733,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 3
-        //
-        // Metadata:
-        // 24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24
         public static class CFogController {
             public const nint m_fog = 0x498; // fogparams_t
             public const nint m_bUseAngles = 0x500; // bool
@@ -32559,7 +32552,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MCustomFGDMetadata
-        // w
         public static class CDOTA_Ability_AntiMage_BlinkParticleAPI {
         }
         // Parent: CBaseTrigger
@@ -34424,9 +34416,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 7
-        //
-        // Metadata:
-        // 24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24
         public static class CPointOrient {
             public const nint m_iszSpawnTargetName = 0x498; // CUtlSymbolLarge
             public const nint m_hTarget = 0x4A0; // CHandle<CBaseEntity>
@@ -34886,9 +34875,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_DebugLog {
@@ -35395,9 +35382,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyDescription
@@ -36158,9 +36143,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_ObservableVariableListener {
             public const nint m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
@@ -37340,9 +37323,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_CycleOrdered {
@@ -40938,7 +40919,6 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
-        // 24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24
         public static class CPointCamera {
             public const nint m_FOV = 0x498; // float32
             public const nint m_Resolution = 0x49C; // float32
@@ -41011,9 +40991,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Inflow_Wait {
             public const nint m_WakeResume = 0x48; // CPulse_ResumePoint
@@ -41431,9 +41409,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Outflow_CycleShuffled {
@@ -42675,9 +42651,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_BaseValue {
         }
@@ -44998,9 +44972,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_PublicOutput {
             public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
@@ -47195,9 +47167,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Value_RandomInt {
@@ -48151,7 +48121,6 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
-        // 24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x24c6/0x550e,0x24c6/0x5508,0x24c6/0x5510,0x24
         public static class CEnvWindVolume {
             public const nint m_bActive = 0x498; // bool
             public const nint m_vBoxMins = 0x49C; // Vector
@@ -51906,7 +51875,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Step_CallExternalMethod {
@@ -54293,9 +54261,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // p
         // MGetKV3ClassDefaults
-        // 62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_Value_RandomFloat {
@@ -56569,7 +56535,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomFGDType
-        // f0d/0x0196,0x28de/0x12ff,0x28de/0x12fe,0x28de/0x12fd,0x28de/0x12fc,0x28de/0x12fb,0x28de/0x12fa,0x28de/0x12f9,0x28de/0x12f8,0x28d
         public static class CFootstepTableHandle {
         }
         // Parent: None
@@ -56773,7 +56738,6 @@ namespace Source2Dumper.Schemas {
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
-        // x0925/0x8866,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0
         public static class CTestPulseIOComponent_Derived {
         }
         // Parent: None
@@ -56911,7 +56875,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // x24c6/0x530a,0x24c6/0x531a,0x24c6/0x5397,0x24c6/0x5500,0x24c6/0x5501,0x24c6/0x5502,0x24c6/0x5503,0x24c6/0x5506,0x24c6/0x550d,0x2
         public static class GAME_HEADER {
             public const nint m_sComment = 0x0; // CUtlString
             public const nint m_nSpawnGroupCount = 0x8; // int32
@@ -57030,6 +56993,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
+        // 0
+        // h
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -57082,6 +57047,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // o
+        // w
         public static class AmmoIndex_t {
             public const nint m_Value = 0x0; // int8
         }
@@ -58555,6 +58524,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // |
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -58804,7 +58776,7 @@ namespace Source2Dumper.Schemas {
         // CHAT_IGNORE_ALL
         // CHAT_IGNORE_TEAM
         // reset_cycle
-        // 5/0x8866,0x0925/0x8888,0x0e6f/0x0109,0x0e6f/0x011e,0x0e6f/0x0128,0x0e6f/0x0214,0x0e6f/0x1314,0x0e6f/0x6302,0x0e8f/0x0008,0x0e8f/
+        // -
         public static class CBaseAnimGraphVariationUserData {
         }
         // Parent: None
@@ -59516,9 +59488,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // ws\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Tool
         public static class CavernCrawlMapVariant_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59966,6 +59935,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // o
+        // w
         public static class ParticleIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -60152,6 +60125,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // 0
+        // h
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -60737,6 +60712,24720 @@ namespace Source2Dumper.Schemas {
         public static class TrackedStatAggregateData_t {
             public const nint m_strIndividualStat = 0x0; // CUtlString
             public const nint m_eAggregate = 0x8; // ETrackedStatAggregate
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // $
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class p_v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class c_______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // $
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // $
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class P_v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class ____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // $
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class H_______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // W___
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class 0_v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class 8___ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // $
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class ____u___ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // $
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class __E_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // $
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class _____NH_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // -
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class ____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // -
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class __v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // lk
+        // crease
+        // en_4
+        // lk
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // lk
+        // lk
+        // crease
+        // lk
+        // en_4
+        public static class Ă______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // -
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class _9v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // lk
+        // crease
+        // en_4
+        // lk
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // lk
+        // lk
+        // crease
+        // lk
+        // en_4
+        public static class __P_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // -
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class _8v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class ________ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class _8v_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class Uɠ_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class _U__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class ____M___ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class ___6g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        // en_4
+        public static class __6_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class _4____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class ______S_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        // dHero
+        public static class MF7_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class _5____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class _c__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class ___Fg_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class ________ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class p6____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        //  
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class __9g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class __U_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // w_helmet_sylph_ally_217
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class 4___8_2_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class 9M_Sg_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class o___ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class ____g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class _____k__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class ___g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class ____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class _뗂g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class EP__ӮM_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        // dHero
+        public static class ___Sg_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // O&V
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class ____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class _V____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // O&V
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class _A______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class __c_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class 0_____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class __J_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class U___g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class ______A_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class p2____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class __Jg_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class ____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // {font-size: 12px;margin-top: -4px;font-weight: medium;}.NoLeaderboardData,.NoWeeklyLeaderboardData{margin-left: 14px;visibility:
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class P_____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class _j______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class __S5g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class 7___ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class ______W_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class qA__g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class _a__g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class __X_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        // crease
+        public static class J_______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        // dHero
+        public static class 0_____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class 4___g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class ____g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        public static class ________ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class _____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class __jRg_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        public static class _L__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class _A____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        // en_4
+        public static class ________ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class _2____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class ____g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        public static class _v__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class p3____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        public static class _h____J_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class ____g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // $
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        public static class ع__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class __JTg_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        // ial_bonus_mana_break_35
+        // ial_bonus_mana_break_35
+        public static class _9___H__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // (
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        // dHero
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class P_w_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        public static class ٮL_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        public static class _8__d___ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class ___yg_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        public static class ____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class __w_g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        // crease
+        public static class _3______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class p_____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class _m____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        public static class _l1_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ker
+        // core
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class ____g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        public static class ___J_T_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ker
+        // core
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class _o____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ker
+        // core
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class ___cg_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        // en_4
+        public static class _2__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ker
+        // core
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class _Q_ug_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // @
+        // @
+        // @
+        // @
+        // `
+        // @
+        // @
+        // en_4
+        // crease
+        public static class ____H__ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ker
+        // core
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class P_____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ker
+        // core
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // adient( linear, 0% 0%, 0% 100%, from( #156300ff ), to( #158f00ff ) );background-color: gradient( linear, 0% 0%, 0% 100%, from( #
+        // hop_hud_layout_grid_png.vtex");}#BuybackProtection{width: 30px;height: 30px;vertical-align: center;tooltip-position: top;backgro
+        // ng: 8px 8px;padding-right: 5px;border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 1) ), to( rgba(255, 255
+        // msTierCount{text-transform: uppercase;font-size: 13px;letter-spacing: 2px;color: #dedede;text-align: right;margin-bottom: 2px;ma
+        // CDOTA_Ability_DoomBringer_Empty2
+        // CDOTA_Ability_DoomBringer_Empty2
+        // ormBuffer
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Unit_Miniboss_Minion
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_BountyHunter_Big_Game_Hunter
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_SatyrHellcaller_Shockwave
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Omniknight_Martyr
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_Largo_AmphibianRhapsody_GoodVibrations
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7
+        // CDOTA_Item_Skadi
+        // CDOTA_Item_Skadi
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_NagaSiren_RipTide
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_Ability_Mirana_Starfall
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_BaseNPC_LotusPool
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_Ability_Special_Bonus_All_Stats_20
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_NPC_Observer_Ward_TrueSight
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_AbyssalUnderlord_Firestorm
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Zuus_Heavenly_Jump
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Ability_Special_Bonus_Intelligence_35
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Item_Recipe_Phoenix_Ash
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_DarkWillow_ShadowRealm
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Ability_Hoodwink_TomokanTracker
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Item_Recipe_Moonshard
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Ability_Mars_ArenaOfBlood
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Unit_Hero_Mirana
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Invoker_Tornado_AD
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_Ability_Slark_DarkPact
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_BaseNPC_Creature
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Ability_Special_Bonus_Unique_Juggernaut_4
+        // CDOTA_Item_Ironwood_tree
+        // CDOTA_Item_Ironwood_tree
+        // `
+        public static class ___g_ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ker
+        // core
+        // order
+        //  
+        // ent_dragon_back_color_tga_a4360f3
+        // _journey_color_vmat_g_tdetail2_8149ba91
+        // ient!C_DOTA_Ability_Special_Bonus_Magic_Resistance_5
+        // 01
+        // 254400_0_mat.vmat
+        // Item_Guards_of_Vincere
+        // haTexCoordScale
+        // hat aren't demons. Everything.
+        // und-size: contain;background-repeat: no-repeat;background-position: center;horizontal-align: right;vertical-align: center;}.Usin
+        // dHero
+        // b_magnataur_magnataur_skewer_2
+        //  the Flame Loading Screen
+        // nd_morty_killing_spree_CustomIsKillMessageIsMaxSpreeIsPlayerTeam_DireIsAnnouncerKillingSpreeVoice_RickMorty
+        // C
+        // OTA_BattlePassLog_SiltbreakerReward_reefs_edge_2_Star
+        // erTargetSize
+        // w_helmet_sylph_ally_217
+        // atWorldToView
+        // _flFogMaxDensity
+        // ility: visible;}#BountyCancelButton{padding: 2px;margin-top: 48px;horizontal-align: center;}#BountyCancelButton Label{font-size:
+        // ht: 16px;margin-top: 7px;margin-right: 9px;wash-color: dotaPlusLightGold;background-image: url("s2r://panorama/images/control_ic
+        // =4
+        // guard_2
+        // d) #LevelProgress{margin: 0px 36px 1px 0px;}.RewardLevel:not(.Achieved) #LevelProgress{visibility: collapse;}.Achieved .LevelAct
+        // mp_wei_respawn_15
+        // cretShop
+        // ading Screen
+        // t
+        // Size
+        // nied
+        // 842_0_mat.vmat
+        // \
+        // e{background-image: url("s2r://panorama/images/events/monster_hunter/materials/mh_material_gunpowder.vsvg");}.MaterialName_iron_
+        // abel
+        // ortrait.vpcf
+        // lyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl
+        // dHero
+        // ?
+        // ?
+        // ZRange
+        // a?
+        // ama\images\items\power_treads_agi_png.vtex
+        // !
+        // a
+        // S
+        // ViewportMinZ
+        // . Cooldown: 30s.
+        // S
+        // rsus_screen/target_background_cap_winner_left_psd.vtex
+        // ding_screen
+        // ntent/season_5/8597976/wallpaper0.png
+        // .000000 217.500015 0.000000
+        // h
+        // fectnoise_c80a5cf6
+        // =
+        // _jensen_ann_pick_meepo_follow_001
+        // ills_after_twin_gates' ) >= 3
+        // ackerColor{background-color: #361003aa;}.npc_dota_hero_bristleback #PortraitBackerColor{background-color: #36100399;}.npc_dota_h
+        // `
+        // model
+        // o
+        // er>
+        // @
+        // x
+        // imstroke_grimstroke_spirit_walk_2
+        // 5T
+        // asureVotingVoteForSelectedItem( -1 )
+        // ndying/undying_flesh_golem.vmdl
+        // ane_01
+        // 3
+        // m_Taunt__Pleasant_Distraction
+        // ergodsWrath
+        // `
+        // eAtlasSize
+        // &
+        // ouncerVoice_VoG_TI
+        // er.vmdl
+        // nataur_empower
+        // (
+        // rtToGBufferRatio
+        // _vInvShadowDepthTextureSize
+        // 07
+        // _OffsetMax
+        // w_left.vsvg
+        // L
+        // `@
+        // vSizeAndUvScale
+        // F
+        // ?
+        // thbars
+        // ious_plague
+        // le{height: 200px;width: 100%;background-size: cover;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);overflow: clip;border-radius: 1px
+        // emName,#InnerPanel,#ItemLore{opacity: 0;margin-top: 36px;transition-property: opacity;transition-duration: 0.0s;transition-timin
+        // s/weapons/hero/slardar/slithereen_crush.vsnd
+        // tScrollUpButton
+        // les/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf
+        // 0
+        // 2
+        // IsAncient
+        // Is this unit an Ancient?
+        // IsNeutralUnitType
+        // Is this a neutral?
+        // IsSummoned
+        // Is this unit summoned?
+        // GetHealthPercent
+        // Get the current health percent of the unit.
+        // GetMana
+        // Get the mana on this unit.
+        // GetMaxMana
+        // Get the maximum mana of this unit.
+        // GetManaRegen
+        // Script_GetAttackRange
+        // Gets this unit's attack range after all modifiers.
+        // GetPhysicalArmorBaseValue
+        // Returns base physical armor value.
+        // GetPhysicalArmorValue
+        // Returns current physical armor value.
+        // Script_GetMagicalArmorValue
+        // Returns current magical armor value.
+        // GetBaseMagicalResistanceValue
+        // Returns base magical armor value.
+        // GetBaseAttackTime
+        // GetIncreasedAttackSpeed
+        // GetAttacksPerSecond
+        // GetSecondsPerAttack
+        // GetHasteFactor
+        // GetAttackSpeed
+        // GetBaseMoveSpeed
+        // GetIdealSpeed
+        // Returns speed after all modifiers.
+        // GetIdealSpeedNoSlows
+        // Returns speed after all modifiers, but excluding those that reduce speed.
+        // GetMoveSpeedModifier
+        // GetCastRangeBonus
+        // GetCooldownReduction
+        // IsConsideredHero
+        // Is this unit a considered a hero for targeting purposes?
+        // IsCreepHero
+        // Is this a creep hero?
+        // IsOther
+        // Is this unit a ward-type unit?
+        // IsBuilding
+        // Is this unit a building?
+        // IsCreep
+        // Is this unit a creep?
+        // IsCreature
+        // Is this a Creature type NPC?
+        // UnitCanRespawn
+        // Can the unit respawn?
+        // IsControllableByAnyPlayer
+        // Is this unit controlled by any non-bot player?
+        // IsOwnedByAnyPlayer
+        // Is this unit owned by any non-bot player?
+        // GetOpposingTeamNumber
+        // GetAbilityCount
+        // GetTotalPurchasedUpgradeGoldCost
+        // Get how much gold has been spent on ability upgrades.
+        // FindAbilityByName
+        // Retrieve an ability by name from the unit.
+        // GetUnitLabel
+        // GetDayTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetNightTimeVisionRange
+        // Returns the vision range after modifiers.
+        // GetCurrentVisionRange
+        // Gets the current vision range.
+        // GetDamageMin
+        // GetDamageMax
+        // GetHullRadius
+        // Get the collision hull radius of this NPC.
+        // GetCollisionPadding
+        // Returns the size of the collision padding around the hull.
+        // GetPaddedCollisionRadius
+        // Get the collision hull radius (including padding) of this NPC.
+        // IsRooted
+        // IsDisarmed
+        // IsAttackImmune
+        // IsSilenced
+        // IsMuted
+        // IsStunned
+        // IsHexed
+        // IsFeared
+        // IsTaunted
+        // IsInvisible
+        // IsInvulnerable
+        // IsMagicImmune
+        // IsDebuffImmune
+        // NoUnitCollision
+        // ProvidesVision
+        // IsNightmared
+        // IsEvadeDisabled
+        // IsUnselectable
+        // IsSpeciallyDeniable
+        // IsSpeciallyUndeniable
+        // IsFrozen
+        // IsCommandRestricted
+        // NotOnMinimap
+        // NotOnMinimapForEnemies
+        // IsLowAttackPriority
+        // NoTeamMoveTo
+        // NoTeamSelect
+        // PassivesDisabled
+        // IsDominated
+        // IsBlind
+        // IsOutOfGame
+        // IsUntargetableFrom
+        // IsUntargetable
+        // Script_IsDeniable
+        // HasGroundMovementCapability
+        // HasFlyMovementCapability
+        // HasMovementCapability
+        // HasAttackCapability
+        // IsRangedAttacker
+        // Is this unit a ranged attacker?
+        // HasFlyingVision
+        // HasItemInInventory
+        // See whether this unit has an item by name.
+        // HasScepter
+        // IsIllusion
+        // IsStrongIllusion
+        // IsMoving
+        // Is this unit moving?
+        // GetModelRadius
+        // GetPlayerOwnerID
+        // Get the owner player ID for this unit.
+        // HasModifier
+        // Sees if this unit has a given modifier.
+        // GetModifierStackCount
+        // Gets the stack count of a given modifier.
+        // IsBoss
+        // Is this unit a boss?
+        // GetUnitName
+        // Get the name of this unit.
+        // GetUnitLocToken
+        // Get the localization token for this unit's name.
+        // NoHealthBar
+        // IsHero
+        // Is this a hero or hero illusion?
+        // IsRealHero
+        // Is this a real hero?
+        // IsInventoryEnabled
+        // Does this unit have an inventory.
+        // IsPhantom
+        // Is this a phantom unit?
+        // IsCourier
+        // Is this unit a courier?
+        // IsTower
+        // Is this a tower?
+        // IsFort
+        // Is this unit an Ancient?
+        // IsBarracks
+        // Is this unit a Barracks?
+        // GetLevel
+        // Returns the level of this unit.
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Unit_Hero_NightStalker
+        // CDOTA_Ability_Invoker_IceWall_AD
+        // CDOTA_Ability_Invoker_IceWall_AD
+        public static class ______ {
         }
     }
 }

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-05-27 21:57:09.220275200 +07:00
+# 2026-06-02 12:19:44.928950100 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -7664,23 +7664,21 @@ class Schemas:
             MOVETYPE_OBSERVER = 0x8
             MOVETYPE_CUSTOM = 0x9
             MOVETYPE_LAST = 0xA
-        class ___3__:
+        class ____g_:
             pass
-        class ___3__:
+        class ____g_:
             pass
-        class _H_3__:
+        class _F__g_:
             pass
-        class ___3__:
+        class ____g_:
             pass
-        class _i_3__:
+        class ____g_:
             pass
-        class ___3__:
+        class _K__g_:
             pass
-        class ___3__:
+        class ____g_:
             pass
-        class ___3__:
-            pass
-        class ___3__:
+        class ____g_:
             pass
         class CDOTA_Modifier_AghsFort_Arcanist_Potion:
             m_nCooldownReductionPct = 0x19D8 # int32
@@ -38065,3 +38063,245 @@ class Schemas:
         class TrackedStatAggregateData_t:
             m_strIndividualStat = 0x0 # CUtlString
             m_eAggregate = 0x8 # ETrackedStatAggregate
+        class p_v_g_:
+            pass
+        class c_______:
+            pass
+        class __v_g_:
+            pass
+        class P_v_g_:
+            pass
+        class ____:
+            pass
+        class __v_g_:
+            pass
+        class H_______:
+            pass
+        class 0_v_g_:
+            pass
+        class __v_g_:
+            pass
+        class 8___:
+            pass
+        class __v_g_:
+            pass
+        class ____u___:
+            pass
+        class __v_g_:
+            pass
+        class __E_:
+            pass
+        class __v_g_:
+            pass
+        class _____NH_:
+            pass
+        class __v_g_:
+            pass
+        class __v_g_:
+            pass
+        class ____:
+            pass
+        class __v_g_:
+            pass
+        class Ă______:
+            pass
+        class _9v_g_:
+            pass
+        class __P_:
+            pass
+        class _8v_g_:
+            pass
+        class ________:
+            pass
+        class _8v_g_:
+            pass
+        class Uɠ_g_:
+            pass
+        class _U__:
+            pass
+        class ______:
+            pass
+        class ____M___:
+            pass
+        class ___6g_:
+            pass
+        class ______:
+            pass
+        class __6_:
+            pass
+        class _4____:
+            pass
+        class ______S_:
+            pass
+        class MF7_g_:
+            pass
+        class _5____:
+            pass
+        class _c__:
+            pass
+        class ___Fg_:
+            pass
+        class ________:
+            pass
+        class p6____:
+            pass
+        class __9g_:
+            pass
+        class __U_:
+            pass
+        class ______:
+            pass
+        class 4___8_2_:
+            pass
+        class 9M_Sg_:
+            pass
+        class ______:
+            pass
+        class o___:
+            pass
+        class ____g_:
+            pass
+        class _____k__:
+            pass
+        class ___g_:
+            pass
+        class ____:
+            pass
+        class _뗂g_:
+            pass
+        class EP__ӮM_:
+            pass
+        class ______:
+            pass
+        class ___Sg_:
+            pass
+        class ____:
+            pass
+        class _V____:
+            pass
+        class _A______:
+            pass
+        class __c_g_:
+            pass
+        class 0_____:
+            pass
+        class __J_:
+            pass
+        class U___g_:
+            pass
+        class ______A_:
+            pass
+        class p2____:
+            pass
+        class __Jg_:
+            pass
+        class ____:
+            pass
+        class P_____:
+            pass
+        class _j______:
+            pass
+        class __S5g_:
+            pass
+        class ______:
+            pass
+        class 7___:
+            pass
+        class ______:
+            pass
+        class ______W_:
+            pass
+        class qA__g_:
+            pass
+        class _a__g_:
+            pass
+        class __X_:
+            pass
+        class ______:
+            pass
+        class J_______:
+            pass
+        class 0_____:
+            pass
+        class 4___g_:
+            pass
+        class ____g_:
+            pass
+        class ________:
+            pass
+        class _____:
+            pass
+        class __jRg_:
+            pass
+        class _L__:
+            pass
+        class _A____:
+            pass
+        class ________:
+            pass
+        class _2____:
+            pass
+        class ____g_:
+            pass
+        class _v__:
+            pass
+        class p3____:
+            pass
+        class _h____J_:
+            pass
+        class ____g_:
+            pass
+        class ______:
+            pass
+        class ع__:
+            pass
+        class __JTg_:
+            pass
+        class _9___H__:
+            pass
+        class ______:
+            pass
+        class P_w_g_:
+            pass
+        class ٮL_:
+            pass
+        class ______:
+            pass
+        class _8__d___:
+            pass
+        class ___yg_:
+            pass
+        class ______:
+            pass
+        class ____:
+            pass
+        class __w_g_:
+            pass
+        class _3______:
+            pass
+        class p_____:
+            pass
+        class _m____:
+            pass
+        class _l1_:
+            pass
+        class ____g_:
+            pass
+        class ___J_T_:
+            pass
+        class _o____:
+            pass
+        class ___cg_:
+            pass
+        class _2__:
+            pass
+        class _Q_ug_:
+            pass
+        class ____H__:
+            pass
+        class P_____:
+            pass
+        class ___g_:
+            pass
+        class ______:
+            pass

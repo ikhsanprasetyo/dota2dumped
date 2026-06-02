@@ -381,10 +381,6 @@
             "type": "Unknown"
           },
           {
-            "name": "em32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Window",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -758,7 +754,7 @@
             "type": "Unknown"
           },
           {
-            "name": "2",
+            "name": "3",
             "type": "Unknown"
           }
         ],
@@ -839,7 +835,7 @@
             "type": "Unknown"
           },
           {
-            "name": "2",
+            "name": "3",
             "type": "Unknown"
           }
         ],
@@ -1065,10 +1061,6 @@
             "type": "Unknown"
           },
           {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -1165,10 +1157,6 @@
             "type": "Unknown"
           },
           {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -1258,10 +1246,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -1450,10 +1434,6 @@
             "type": "Unknown"
           },
           {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -1538,10 +1518,6 @@
             "type": "Unknown"
           },
           {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -1602,10 +1578,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/",
             "type": "Unknown"
           },
           {
@@ -1934,10 +1906,6 @@
             "type": "Unknown"
           },
           {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -2023,10 +1991,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -2356,10 +2320,6 @@
             "type": "Unknown"
           },
           {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2379,10 +2339,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -3705,10 +3661,6 @@
             "type": "Unknown"
           },
           {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -3756,10 +3708,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "62e/0xbeef,0x1689/0xfd00,0x1689/0xfd01,0x1689/0xfe00,0x1949/0x041a,0x1bad/0x0002,0x1bad/0x0003,0x1bad/0x0130,0x1bad/0x02a6,0x1ba",
             "type": "Unknown"
           },
           {
@@ -4264,10 +4212,6 @@
             "type": "Unknown"
           },
           {
-            "name": "b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -4346,7 +4290,7 @@
             "type": "Unknown"
           },
           {
-            "name": "2",
+            "name": "3",
             "type": "Unknown"
           }
         ],
@@ -4551,10 +4495,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "b/0x0004,0x12ab/0x0301,0x12ab/0x0303,0x1430/0x02a0,0x1430/0x02a7,0x1430/0x02a8,0x1430/0x0705,0x1430/0x070b,0x1430/0x0805,0x1430/",
             "type": "Unknown"
           }
         ],

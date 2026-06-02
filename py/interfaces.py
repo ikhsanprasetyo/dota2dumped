@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-05-27 21:57:09.220275200 +07:00
+# 2026-06-02 12:19:44.928950100 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -15,7 +15,7 @@ class Interfaces:
         PanoramaUIClient001 = 0x5D3DDB0
         PlayButtonService001 = 0x5D1F240
         Source2Client002 = 0x6384720
-        Source2ClientConfig001 = 0x6331360
+        Source2ClientConfig001 = 0x6331320
         Source2ClientPrediction001 = 0x5CA8620
         Source2ClientUI001 = 0x5A73870
     # Module: engine2.dll
@@ -131,14 +131,14 @@ class Interfaces:
         SchemaSystem_001 = 0x77710
     # Module: server.dll
     class ServerDll:
-        EntitySubclassUtilsV001 = 0x4731EF0
-        NavGameTest001 = 0x4A057C0
-        ServerToolsInfo_001 = 0x495BEB0
-        Source2GameClients001 = 0x4951560
-        Source2GameDirector001 = 0x4FE49C0
-        Source2GameEntities001 = 0x495B5C0
-        Source2Server001 = 0x495B410
-        Source2ServerConfig001 = 0x4F22A38
+        EntitySubclassUtilsV001 = 0x4732EF0
+        NavGameTest001 = 0x4A067C0
+        ServerToolsInfo_001 = 0x495CEB0
+        Source2GameClients001 = 0x4952560
+        Source2GameDirector001 = 0x4FE5AC0
+        Source2GameEntities001 = 0x495C5C0
+        Source2Server001 = 0x495C410
+        Source2ServerConfig001 = 0x4F23B18
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundOpSystem001 = 0x5139F0
@@ -148,29 +148,6 @@ class Interfaces:
     # Module: steamaudio.dll
     class SteamaudioDll:
         SteamAudio001 = 0x25E520
-    # Module: steamclient64.dll
-    class Steamclient64Dll:
-        IVALIDATE001 = 0x16BE0B8
-        SteamClient006 = 0x16BB520
-        SteamClient007 = 0x16BB528
-        SteamClient008 = 0x16BB530
-        SteamClient009 = 0x16BB538
-        SteamClient010 = 0x16BB540
-        SteamClient011 = 0x16BB548
-        SteamClient012 = 0x16BB550
-        SteamClient013 = 0x16BB558
-        SteamClient014 = 0x16BB560
-        SteamClient015 = 0x16BB568
-        SteamClient016 = 0x16BB570
-        SteamClient017 = 0x16BB578
-        SteamClient018 = 0x16BB580
-        SteamClient019 = 0x16BB588
-        SteamClient020 = 0x16BB590
-        SteamClient021 = 0x16BB598
-        SteamClient022 = 0x16BB5A0
-        SteamClient023 = 0x16BB5A8
-        p2pvoice002 = 0x14E627F
-        p2pvoicesingleton002 = 0x16960F0
     # Module: tier0.dll
     class Tier0Dll:
         TestScriptMgr001 = 0x39E6F0
@@ -180,16 +157,15 @@ class Interfaces:
     # Module: v8system.dll
     class V8systemDll:
         Source2V8System001 = 0x31730
+    # Module: vconcomm.dll
+    class VconcommDll:
+        VConComm001 = 0x395C0
     # Module: vphysics2.dll
     class Vphysics2Dll:
         VPhysics2_Interface_001 = 0x40FD60
     # Module: vscript.dll
     class VscriptDll:
         VScriptManager010 = 0x13B410
-    # Module: vstdlib_s64.dll
-    class VstdlibS64Dll:
-        IVALIDATE001 = 0x6F990
-        VEngineCvar002 = 0x6E070
     # Module: worldrenderer.dll
     class WorldrendererDll:
         WorldRendererMgr001 = 0x225B60

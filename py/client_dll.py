@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-05-27 21:57:09.220275200 +07:00
+# 2026-06-02 12:19:44.928950100 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1328,8 +1328,6 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
-        class DOTAChatAutocompleteEntrySteamFriend:
-            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1A08 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1A30 # ParticleIndex_t
@@ -27998,75 +27996,3 @@ class Schemas:
             m_flRadius = 0x8 # float32
             m_nHitRegionIndex = 0xC # int32
             m_nDamageMultiplier = 0x10 # int32
-        class ______:
-            pass
-        class ______:
-            pass
-        class ______:
-            pass
-        class ______:
-            pass
-        class ______:
-            pass
-        class ______:
-            pass
-        class ______:
-            pass
-        class _n____:
-            pass
-        class ______:
-            pass
-        class _Z____:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __L___:
-            pass
-        class __M___:
-            pass
-        class __L___:
-            pass
-        class _J____:
-            pass
-        class _F____:
-            pass
-        class _J____:
-            pass
-        class _J____:
-            pass
-        class _J____:
-            pass
-        class _J____:
-            pass
-        class _J____:
-            pass
-        class _G____:
-            pass
-        class _F____:
-            pass
-        class _J____:
-            pass
-        class _J____:
-            pass
-        class _J____:
-            pass
-        class _P____:
-            pass

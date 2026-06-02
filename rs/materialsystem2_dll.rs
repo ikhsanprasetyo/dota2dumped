@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-05-27 21:57:09.220275200 +07:00
+// 2026-06-02 12:19:44.928950100 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -110,7 +110,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // +
+            // ,
             pub mod MaterialParamInt_t {
                 pub const m_nValue: usize = 0x8; // int32
             }
@@ -189,7 +189,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // +
+            // ,
             pub mod MaterialParamBuffer_t {
                 pub const m_value: usize = 0x8; // CUtlBinaryBlock
             }
@@ -245,7 +245,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // +
+            // ,
             pub mod MaterialParamFloat_t {
                 pub const m_flValue: usize = 0x8; // float32
             }
@@ -255,7 +255,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // +
+            // ,
             pub mod MaterialParamTexture_t {
                 pub const m_pValue: usize = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
             }
