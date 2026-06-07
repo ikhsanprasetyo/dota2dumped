@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-02 12:19:44.928950100 +07:00
+// 2026-06-07 13:26:24.850451500 +07:00
 
 export const Schemas = {
     particles_dll: {
@@ -995,7 +995,6 @@ export const Schemas = {
             m_flNoiseScaleLoc: 0x1900, // CPerParticleFloatInput
             m_TransformInput: 0x1A70, // CParticleTransformInput
             m_bIgnoreDt: 0x1AD8, // bool
-            m_vecScale: 0x1E0, // Vector
         },
         ParticleChildrenInfo_t: {
             m_ChildRef: 0x0, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
@@ -1859,7 +1858,6 @@ export const Schemas = {
             m_flEndScale: 0x1E4, // float32
             m_bEaseInAndOut: 0x1E8, // bool
             m_flBias: 0x1EC, // float32
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
         },
         C_OP_ReinitializeScalarEndCap: {
             m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
@@ -2342,7 +2340,6 @@ export const Schemas = {
         C_OP_RandomForce: {
             m_MinForce: 0x1E8, // Vector
             m_MaxForce: 0x1F4, // Vector
-            m_flStartLerpTime: 0x1E8, // float32
         },
         C_OP_RemapParticleCountOnScalarEndCap: {
             m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
@@ -2623,7 +2620,6 @@ export const Schemas = {
             m_bOnlyChildren: 0x1EC, // bool
         },
         C_OP_RenderClothForce: {
-            m_sDecalGroupName: 0x228, // CGlobalSymbol
         },
         C_OP_RemapVisibilityScalar: {
             m_nFieldInput: 0x1D8, // ParticleAttributeIndex_t
@@ -3405,10 +3401,8 @@ export const Schemas = {
             m_nColorBlendType: 0xEF0, // ParticleColorBlendType_t
         },
         C_OP_MaxVelocity: {
-            m_flMaxVelocity: 0x1D8, // float32
-            m_flMinVelocity: 0x1DC, // float32
-            m_nOverrideCP: 0x1E0, // int32
-            m_nOverrideCPField: 0x1E4, // int32
+            m_flMaxVelocity: 0x1D8, // CPerParticleFloatInput
+            m_flMinVelocity: 0x348, // CPerParticleFloatInput
         },
         C_INIT_VelocityFromNormal: {
             m_fSpeedMin: 0x1E0, // float32

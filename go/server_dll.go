@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-02 12:19:44.928950100 +07:00
+// 2026-06-07 13:26:24.850451500 +07:00
 
 package schemas
 
@@ -2740,6 +2740,7 @@ const (
     ServerDll_DOTA_CHAT_MESSAGE_CHAT_MESSAGE_ROSHAN_ROAR = 0x7B
     ServerDll_DOTA_CHAT_MESSAGE_CHAT_MESSAGE_STONE_OF_RECALL_USED = 0x7C
     ServerDll_DOTA_CHAT_MESSAGE_CHAT_MESSAGE_DEITY_BLESSING = 0x7D
+    ServerDll_DOTA_CHAT_MESSAGE_CHAT_MESSAGE_SMOKE_ACTIVATED = 0x7E
     ServerDll_ESource2PlayStatsFieldType_Source2PlayStats_Invalid = 0x0
     ServerDll_ESource2PlayStatsFieldType_Source2PlayStats_UInt64 = 0x1
     ServerDll_ESource2PlayStatsFieldType_Source2PlayStats_UInt32 = 0x2
@@ -6467,6 +6468,7 @@ const (
     ServerDll_EEvent_EVENT_ID_SUMMER_2026 = 0x39
     ServerDll_EEvent_EVENT_ID_FALL_2026 = 0x3A
     ServerDll_EEvent_EVENT_ID_WINTER_2026 = 0x3B
+    ServerDll_EEvent_EVENT_ID_INTERNATIONAL_2026 = 0x3C
     ServerDll_DOTATeam_t_DOTA_TEAM_FIRST = 0x2
     ServerDll_DOTATeam_t_DOTA_TEAM_BADGUYS = 0x3
     ServerDll_DOTATeam_t_DOTA_TEAM_NEUTRALS = 0x4
@@ -9659,11 +9661,12 @@ const (
     ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_outpost_channel_time = 0x588 // float32
     ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_jungle_outpost_channel_time = 0x58C // float32
     ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_hTeleportTarget = 0x590 // CHandle<CBaseEntity>
-    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_nFXOrigin = 0x594 // ParticleIndex_t
-    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_nFXDestination = 0x598 // ParticleIndex_t
-    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_vDestination = 0x59C // VectorWS
-    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_iMinDistance = 0x5A8 // int32
-    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_flBaseTeleportTime = 0x5AC // float32
+    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_nFXCaster = 0x594 // ParticleIndex_t
+    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_nFXOrigin = 0x598 // ParticleIndex_t
+    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_nFXDestination = 0x59C // ParticleIndex_t
+    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_vDestination = 0x5A0 // VectorWS
+    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_iMinDistance = 0x5AC // int32
+    ServerDll_CDOTA_Ability_Tinker_Keen_Teleport_m_flBaseTeleportTime = 0x5B0 // float32
     ServerDll_CDOTA_Modifier_Bloodseeker_Bloodbath_Thinker_radius = 0x19D8 // float32
     ServerDll_CDOTA_Ability_Sand_King_Scorpion_Strike_hEntitiesToIgnore = 0x580 // CUtlVector<CHandle<CBaseEntity>>
     ServerDll_CDOTA_Ability_Pudge_Rot_rot_damage = 0x580 // int32
@@ -12332,10 +12335,9 @@ const (
     ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_damage_per_tree_pct = 0x19D8 // float32
     ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_radius_base = 0x19DC // float32
     ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_multiplier = 0x19E0 // float32
-    ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_radius_treant = 0x19E4 // float32
-    ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_m_nTreeAmount = 0x19E8 // int32
-    ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_m_flMultiplierToUse = 0x19EC // float32
-    ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_m_flRadiusToUse = 0x19F0 // float32
+    ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_m_nTreeAmount = 0x19E4 // int32
+    ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_m_flMultiplierToUse = 0x19E8 // float32
+    ServerDll_CDOTA_Modifier_Furion_SpiritOfTheForest_m_flRadiusToUse = 0x19EC // float32
     ServerDll_CDOTA_Modifier_Plague_Wards_Bonus_Range_value = 0x19D8 // int32
     ServerDll_CDOTA_Modifier_ShadowShaman_Chicken_Speed_movespeed_bonus_pct = 0x19D8 // int32
     ServerDll_CDOTA_Ability_Nevermore_Necromastery_attack_range_bonus = 0x580 // int32
@@ -15314,6 +15316,7 @@ const (
     ServerDll_CDOTA_Modifier_Roshans_Banner_Aura_damage_bonus = 0x19E0 // int32
     ServerDll_CDOTA_Modifier_Roshans_Banner_Aura_model_scale = 0x19E4 // int32
     ServerDll_CDOTA_Modifier_Roshans_Banner_Aura_buff_linger_duration = 0x19E8 // float32
+    ServerDll_CDOTA_Ability_Mars_GodsRebuke_m_bHadBulwarkEnabled = 0x580 // bool
     ServerDll_CDOTA_Modifier_Mars_ArenaOfBlood_Kill_Buff_arena_kill_buff_damage_pct = 0x19D8 // int32
     ServerDll_CDOTA_Modifier_Mars_ArenaOfBlood_Kill_Buff_arena_kill_buff_heal_pct = 0x19DC // int32
     ServerDll_CDOTA_Modifier_Mars_ArenaOfBlood_Kill_Buff_allied_reduction_pct = 0x19E0 // int32
@@ -17733,7 +17736,8 @@ const (
     ServerDll_CDOTA_Modifier_Item_The_Leveller_bonus_attack_speed = 0x19D8 // int32
     ServerDll_CDOTA_Modifier_Item_The_Leveller_bonus_armor = 0x19DC // int32
     ServerDll_CDOTA_Modifier_Item_The_Leveller_demolish = 0x19E0 // int32
-    ServerDll_CDOTA_Ability_LoneDruid_SpiritBear_Return_m_nFXOrigin = 0x580 // ParticleIndex_t
+    ServerDll_CDOTA_Ability_LoneDruid_SpiritBear_Return_m_nFXCaster = 0x580 // ParticleIndex_t
+    ServerDll_CDOTA_Ability_LoneDruid_SpiritBear_Return_m_nFXOrigin = 0x584 // ParticleIndex_t
     ServerDll_CDOTA_Modifier_Chen_HandOfGod_Invuln_debuff_immune_resist = 0x19D8 // float32
     ServerDll_CDOTA_Ability_Tinker_Laser_m_vProjectileLocation = 0x580 // Vector
     ServerDll_CDOTA_Ability_Tinker_Laser_bBlocked = 0x58C // bool
@@ -24950,12 +24954,13 @@ const (
     ServerDll_CDOTA_Modifier_Royal_Jelly_Regen_mana_regen = 0x19DC // float32
     ServerDll_CDOTA_Modifier_Royal_Jelly_Regen_charges = 0x19E0 // int32
     ServerDll_CDOTA_Item_TeleportScroll_m_hTeleportTarget = 0x658 // CHandle<CBaseEntity>
-    ServerDll_CDOTA_Item_TeleportScroll_m_nFXOrigin = 0x65C // ParticleIndex_t
-    ServerDll_CDOTA_Item_TeleportScroll_m_nFXDestination = 0x660 // ParticleIndex_t
-    ServerDll_CDOTA_Item_TeleportScroll_m_vDestination = 0x664 // VectorWS
-    ServerDll_CDOTA_Item_TeleportScroll_m_iMinDistance = 0x670 // int32
-    ServerDll_CDOTA_Item_TeleportScroll_m_flBaseTeleportTime = 0x674 // float32
-    ServerDll_CDOTA_Item_TeleportScroll_m_flExtraTeleportTime = 0x678 // float32
+    ServerDll_CDOTA_Item_TeleportScroll_m_nFXCaster = 0x65C // ParticleIndex_t
+    ServerDll_CDOTA_Item_TeleportScroll_m_nFXOrigin = 0x660 // ParticleIndex_t
+    ServerDll_CDOTA_Item_TeleportScroll_m_nFXDestination = 0x664 // ParticleIndex_t
+    ServerDll_CDOTA_Item_TeleportScroll_m_vDestination = 0x668 // VectorWS
+    ServerDll_CDOTA_Item_TeleportScroll_m_iMinDistance = 0x674 // int32
+    ServerDll_CDOTA_Item_TeleportScroll_m_flBaseTeleportTime = 0x678 // float32
+    ServerDll_CDOTA_Item_TeleportScroll_m_flExtraTeleportTime = 0x67C // float32
     ServerDll_CDOTA_Modifier_Skywrath_Mage_Shard_Bonus_Counter_bonus_intelligence = 0x19D8 // int32
     ServerDll_CDOTA_Modifier_Rubick_Might_And_Magus_magic_resist_bonus = 0x19D8 // int32
     ServerDll_CDOTA_Modifier_Rubick_Might_And_Magus_aoe_bonus = 0x19DC // float32

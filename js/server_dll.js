@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-02 12:19:44.928950100 +07:00
+// 2026-06-07 13:26:24.850451500 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -2966,6 +2966,7 @@ export const Schemas = {
             CHAT_MESSAGE_ROSHAN_ROAR: 0x7B,
             CHAT_MESSAGE_STONE_OF_RECALL_USED: 0x7C,
             CHAT_MESSAGE_DEITY_BLESSING: 0x7D,
+            CHAT_MESSAGE_SMOKE_ACTIVATED: 0x7E,
         },
         ESource2PlayStatsFieldType: {
             Source2PlayStats_Invalid: 0x0,
@@ -7143,6 +7144,7 @@ export const Schemas = {
             EVENT_ID_SUMMER_2026: 0x39,
             EVENT_ID_FALL_2026: 0x3A,
             EVENT_ID_WINTER_2026: 0x3B,
+            EVENT_ID_INTERNATIONAL_2026: 0x3C,
         },
         DOTATeam_t: {
             DOTA_TEAM_FIRST: 0x2,
@@ -8087,21 +8089,21 @@ export const Schemas = {
             MOVETYPE_CUSTOM: 0x9,
             MOVETYPE_LAST: 0xA,
         },
-        ____g_: {
+        ______: {
         },
-        ____g_: {
+        ______: {
         },
-        _F__g_: {
+        _z____: {
         },
-        ____g_: {
+        _B____: {
         },
-        ____g_: {
+        ______: {
         },
-        _K__g_: {
+        ______: {
         },
-        ____g_: {
+        _____: {
         },
-        ____g_: {
+        _C____: {
         },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x19D8, // int32
@@ -12441,11 +12443,12 @@ export const Schemas = {
             outpost_channel_time: 0x588, // float32
             jungle_outpost_channel_time: 0x58C, // float32
             m_hTeleportTarget: 0x590, // CHandle<CBaseEntity>
-            m_nFXOrigin: 0x594, // ParticleIndex_t
-            m_nFXDestination: 0x598, // ParticleIndex_t
-            m_vDestination: 0x59C, // VectorWS
-            m_iMinDistance: 0x5A8, // int32
-            m_flBaseTeleportTime: 0x5AC, // float32
+            m_nFXCaster: 0x594, // ParticleIndex_t
+            m_nFXOrigin: 0x598, // ParticleIndex_t
+            m_nFXDestination: 0x59C, // ParticleIndex_t
+            m_vDestination: 0x5A0, // VectorWS
+            m_iMinDistance: 0x5AC, // int32
+            m_flBaseTeleportTime: 0x5B0, // float32
         },
         CDOTA_Modifier_Bloodseeker_Bloodbath_Thinker: {
             radius: 0x19D8, // float32
@@ -17554,10 +17557,9 @@ export const Schemas = {
             damage_per_tree_pct: 0x19D8, // float32
             radius_base: 0x19DC, // float32
             multiplier: 0x19E0, // float32
-            radius_treant: 0x19E4, // float32
-            m_nTreeAmount: 0x19E8, // int32
-            m_flMultiplierToUse: 0x19EC, // float32
-            m_flRadiusToUse: 0x19F0, // float32
+            m_nTreeAmount: 0x19E4, // int32
+            m_flMultiplierToUse: 0x19E8, // float32
+            m_flRadiusToUse: 0x19EC, // float32
         },
         CDOTA_Modifier_Plague_Wards_Bonus_Range: {
             value: 0x19D8, // int32
@@ -23140,6 +23142,7 @@ export const Schemas = {
         CDOTA_Item_RingOfAquila: {
         },
         CDOTA_Ability_Mars_GodsRebuke: {
+            m_bHadBulwarkEnabled: 0x580, // bool
         },
         CDOTA_Modifier_Mars_ArenaOfBlood_Kill_Buff: {
             arena_kill_buff_damage_pct: 0x19D8, // int32
@@ -27535,7 +27538,8 @@ export const Schemas = {
         CDOTA_Modifier_Undying_Tombstone_Bunker_Cooldown: {
         },
         CDOTA_Ability_LoneDruid_SpiritBear_Return: {
-            m_nFXOrigin: 0x580, // ParticleIndex_t
+            m_nFXCaster: 0x580, // ParticleIndex_t
+            m_nFXOrigin: 0x584, // ParticleIndex_t
         },
         CDOTA_Modifier_Chen_HandOfGod_Invuln: {
             debuff_immune_resist: 0x19D8, // float32
@@ -40096,12 +40100,13 @@ export const Schemas = {
         },
         CDOTA_Item_TeleportScroll: {
             m_hTeleportTarget: 0x658, // CHandle<CBaseEntity>
-            m_nFXOrigin: 0x65C, // ParticleIndex_t
-            m_nFXDestination: 0x660, // ParticleIndex_t
-            m_vDestination: 0x664, // VectorWS
-            m_iMinDistance: 0x670, // int32
-            m_flBaseTeleportTime: 0x674, // float32
-            m_flExtraTeleportTime: 0x678, // float32
+            m_nFXCaster: 0x65C, // ParticleIndex_t
+            m_nFXOrigin: 0x660, // ParticleIndex_t
+            m_nFXDestination: 0x664, // ParticleIndex_t
+            m_vDestination: 0x668, // VectorWS
+            m_iMinDistance: 0x674, // int32
+            m_flBaseTeleportTime: 0x678, // float32
+            m_flExtraTeleportTime: 0x67C, // float32
         },
         CDOTA_Item_VitalityBooster: {
         },
@@ -42590,248 +42595,6 @@ export const Schemas = {
         TrackedStatAggregateData_t: {
             m_strIndividualStat: 0x0, // CUtlString
             m_eAggregate: 0x8, // ETrackedStatAggregate
-        },
-        p_v_g_: {
-        },
-        c_______: {
-        },
-        __v_g_: {
-        },
-        P_v_g_: {
-        },
-        ____: {
-        },
-        __v_g_: {
-        },
-        H_______: {
-        },
-        0_v_g_: {
-        },
-        __v_g_: {
-        },
-        8___: {
-        },
-        __v_g_: {
-        },
-        ____u___: {
-        },
-        __v_g_: {
-        },
-        __E_: {
-        },
-        __v_g_: {
-        },
-        _____NH_: {
-        },
-        __v_g_: {
-        },
-        __v_g_: {
-        },
-        ____: {
-        },
-        __v_g_: {
-        },
-        Ă______: {
-        },
-        _9v_g_: {
-        },
-        __P_: {
-        },
-        _8v_g_: {
-        },
-        ________: {
-        },
-        _8v_g_: {
-        },
-        Uɠ_g_: {
-        },
-        _U__: {
-        },
-        ______: {
-        },
-        ____M___: {
-        },
-        ___6g_: {
-        },
-        ______: {
-        },
-        __6_: {
-        },
-        _4____: {
-        },
-        ______S_: {
-        },
-        MF7_g_: {
-        },
-        _5____: {
-        },
-        _c__: {
-        },
-        ___Fg_: {
-        },
-        ________: {
-        },
-        p6____: {
-        },
-        __9g_: {
-        },
-        __U_: {
-        },
-        ______: {
-        },
-        4___8_2_: {
-        },
-        9M_Sg_: {
-        },
-        ______: {
-        },
-        o___: {
-        },
-        ____g_: {
-        },
-        _____k__: {
-        },
-        ___g_: {
-        },
-        ____: {
-        },
-        _뗂g_: {
-        },
-        EP__ӮM_: {
-        },
-        ______: {
-        },
-        ___Sg_: {
-        },
-        ____: {
-        },
-        _V____: {
-        },
-        _A______: {
-        },
-        __c_g_: {
-        },
-        0_____: {
-        },
-        __J_: {
-        },
-        U___g_: {
-        },
-        ______A_: {
-        },
-        p2____: {
-        },
-        __Jg_: {
-        },
-        ____: {
-        },
-        P_____: {
-        },
-        _j______: {
-        },
-        __S5g_: {
-        },
-        ______: {
-        },
-        7___: {
-        },
-        ______: {
-        },
-        ______W_: {
-        },
-        qA__g_: {
-        },
-        _a__g_: {
-        },
-        __X_: {
-        },
-        ______: {
-        },
-        J_______: {
-        },
-        0_____: {
-        },
-        4___g_: {
-        },
-        ____g_: {
-        },
-        ________: {
-        },
-        _____: {
-        },
-        __jRg_: {
-        },
-        _L__: {
-        },
-        _A____: {
-        },
-        ________: {
-        },
-        _2____: {
-        },
-        ____g_: {
-        },
-        _v__: {
-        },
-        p3____: {
-        },
-        _h____J_: {
-        },
-        ____g_: {
-        },
-        ______: {
-        },
-        ع__: {
-        },
-        __JTg_: {
-        },
-        _9___H__: {
-        },
-        ______: {
-        },
-        P_w_g_: {
-        },
-        ٮL_: {
-        },
-        ______: {
-        },
-        _8__d___: {
-        },
-        ___yg_: {
-        },
-        ______: {
-        },
-        ____: {
-        },
-        __w_g_: {
-        },
-        _3______: {
-        },
-        p_____: {
-        },
-        _m____: {
-        },
-        _l1_: {
-        },
-        ____g_: {
-        },
-        ___J_T_: {
-        },
-        _o____: {
-        },
-        ___cg_: {
-        },
-        _2__: {
-        },
-        _Q_ug_: {
-        },
-        ____H__: {
-        },
-        P_____: {
-        },
-        ___g_: {
-        },
-        ______: {
         },
     },
 };

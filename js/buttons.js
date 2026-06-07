@@ -1,19 +1,19 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-02 12:19:44.928950100 +07:00
+// 2026-06-07 13:26:24.850451500 +07:00
 
 export const Buttons = {
-    attack: 0x5CA28B0,
-    attack2: 0x5CA2940,
-    back: 0x5CA2B80,
-    duck: 0x5CA2E50,
-    forward: 0x5CA2AF0,
-    jump: 0x5CA2DC0,
-    left: 0x5CA2C10,
-    query: 0x63CEBC0,
-    reload: 0x5CA2820,
-    right: 0x5CA2CA0,
-    sprint: 0x5CA2790,
-    turnleft: 0x5CA29D0,
-    turnright: 0x5CA2A60,
-    use: 0x5CA2D30,
+    attack: 0x5CAA930,
+    attack2: 0x5CAA9C0,
+    back: 0x5CAAC00,
+    duck: 0x5CAAED0,
+    forward: 0x5CAAB70,
+    jump: 0x5CAAE40,
+    left: 0x5CAAC90,
+    query: 0x63D73B0,
+    reload: 0x5CAA8A0,
+    right: 0x5CAAD20,
+    sprint: 0x5CAA810,
+    turnleft: 0x5CAAA50,
+    turnright: 0x5CAAAE0,
+    use: 0x5CAADB0,
 };

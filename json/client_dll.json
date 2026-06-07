@@ -39,6 +39,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "k_eCircle",
             "type": "Unknown"
           },
@@ -128,26 +132,6 @@
           },
           {
             "name": "k_eAllLayers",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eYou",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eThem",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eNeutral",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ePlayers",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eAllTeams",
             "type": "Unknown"
           }
         ],
@@ -285,26 +269,6 @@
           {
             "name": "k_eAllLayers",
             "type": "Unknown"
-          },
-          {
-            "name": "k_eYou",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eThem",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eNeutral",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ePlayers",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eAllTeams",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -407,7 +371,60 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "k_EArtyOrderFlag_MoveLeft",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveRight",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_AimUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_AimDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_NextWeapon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PrevWeapon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FireStart",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FireStop",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FineControl",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PowerUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PowerDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveDown",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "ArtyGameObjectInstance_t": {
@@ -432,7 +449,60 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "k_EArtyOrderFlag_MoveLeft",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveRight",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_AimUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_AimDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_NextWeapon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PrevWeapon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FireStart",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FireStop",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FineControl",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PowerUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PowerDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveDown",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "ArtyGraphicInfo_t": {
@@ -463,7 +533,60 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "k_EArtyOrderFlag_MoveLeft",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveRight",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_AimUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_AimDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_NextWeapon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PrevWeapon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FireStart",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FireStop",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FineControl",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PowerUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PowerDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveDown",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "ArtyLevelInfo_t": {
@@ -530,10 +653,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyCustomFGDType",
             "type": "Unknown"
           },
@@ -567,34 +686,6 @@
       },
       "ArtyPlayerDef_t": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyCustomFGDType",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "ArtyProgressBarDef_t": {
-        "fields": {
-          "m_flNotchSize": 176
-        },
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
@@ -703,25 +794,33 @@
           {
             "name": "k_eAllLayers",
             "type": "Unknown"
-          },
+          }
+        ],
+        "parent": null
+      },
+      "ArtyProgressBarDef_t": {
+        "fields": {
+          "m_flNotchSize": 176
+        },
+        "metadata": [
           {
-            "name": "k_eYou",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "k_eThem",
+            "name": "MPropertyCustomFGDType",
             "type": "Unknown"
           },
           {
-            "name": "k_eNeutral",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "k_ePlayers",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "k_eAllTeams",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -835,26 +934,6 @@
           {
             "name": "k_eAllLayers",
             "type": "Unknown"
-          },
-          {
-            "name": "k_eYou",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eThem",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eNeutral",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ePlayers",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eAllTeams",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -875,10 +954,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyCustomFGDType",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -888,6 +963,98 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eCircle",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eLine",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eRay",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eAnimatedSprite",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eProgressBar",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eUnit",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eHero",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eParticle",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eTypeShot",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eTypeTrail",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eTypeCannon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eTypePlayer",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eTypeEnemy",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eTypeFX",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eTypeUI",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eDefault",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eTerrain",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eShots",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eRays",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eFX",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_ePhysical",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eFullObjects",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eAllLayers",
             "type": "Unknown"
           }
         ],
@@ -897,7 +1064,60 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "k_EArtyOrderFlag_MoveLeft",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveRight",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_AimUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_AimDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_NextWeapon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PrevWeapon",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FireStart",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FireStop",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_FineControl",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PowerUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_PowerDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveUp",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_EArtyOrderFlag_MoveDown",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "ArtyWeaponInfo_t": {
@@ -1254,10 +1474,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "binary",
             "type": "Unknown"
           }
         ],
@@ -2143,6 +2359,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "k_eGoodkind",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2218,10 +2438,6 @@
           "m_vecNodes": 40
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -13173,12 +13389,11 @@
       "CDOTA_Modifier_Furion_SpiritOfTheForest": {
         "fields": {
           "damage_per_tree_pct": 6616,
-          "m_flMultiplierToUse": 6636,
-          "m_flRadiusToUse": 6640,
-          "m_nTreeAmount": 6632,
+          "m_flMultiplierToUse": 6632,
+          "m_flRadiusToUse": 6636,
+          "m_nTreeAmount": 6628,
           "multiplier": 6624,
-          "radius_base": 6620,
-          "radius_treant": 6628
+          "radius_base": 6620
         },
         "metadata": [],
         "parent": null
@@ -34260,12 +34475,30 @@
       },
       "CDOTA_Survivors_EffectsEntity": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "AbilityCooldown",
+            "type": "Unknown"
+          },
+          {
+            "name": "AbilityCharges",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_BaseModelEntity"
       },
       "CDOTA_Survivors_UnitEntity": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "AbilityCooldown",
+            "type": "Unknown"
+          },
+          {
+            "name": "AbilityCharges",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_PortraitWorldUnit"
       },
       "CDOTA_UI_ScenePanelAPI": {
@@ -34918,12 +35151,54 @@
       },
       "CInfoParticleTarget": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ePreserveUpAxis",
+            "type": "Unknown"
+          },
+          {
+            "name": "eCenter",
+            "type": "Unknown"
+          },
+          {
+            "name": "eHead",
+            "type": "Unknown"
+          },
+          {
+            "name": "eForward",
+            "type": "Unknown"
+          },
+          {
+            "name": "eEyesForward",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_PointEntity"
       },
       "CInfoTarget": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ePreserveUpAxis",
+            "type": "Unknown"
+          },
+          {
+            "name": "eCenter",
+            "type": "Unknown"
+          },
+          {
+            "name": "eHead",
+            "type": "Unknown"
+          },
+          {
+            "name": "eForward",
+            "type": "Unknown"
+          },
+          {
+            "name": "eEyesForward",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_PointEntity"
       },
       "CInfoWorldLayer": {
@@ -35287,6 +35562,18 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "WATER_WAKE_IDLE",
             "type": "Unknown"
           },
@@ -35325,10 +35612,6 @@
           "m_unAbilityID": 56
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -35422,10 +35705,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "-",
             "type": "Unknown"
           }
         ],
@@ -35557,7 +35836,28 @@
           "m_bClosedLoop": 1784,
           "m_pathString": 1776
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "TIMELINE_COMPRESSION_COUNT_PER_INTERVAL",
+            "type": "Unknown"
+          },
+          {
+            "name": "TIMELINE_COMPRESSION_AVERAGE",
+            "type": "Unknown"
+          },
+          {
+            "name": "TIMELINE_COMPRESSION_AVERAGE_BLEND",
+            "type": "Unknown"
+          },
+          {
+            "name": "TIMELINE_COMPRESSION_TOTAL",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_BaseEntity"
       },
       "CPathSimpleAPI": {
@@ -35763,6 +36063,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "are WARP\\;C:\\Program Files\\CMake\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\ByteseekerP",
             "type": "Unknown"
           }
         ],
@@ -36117,6 +36421,10 @@
           },
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          },
+          {
+            "name": "AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\P",
             "type": "Unknown"
           }
         ],
@@ -37395,20 +37703,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CPulseCell_LerpCameraSettings__CursorState_t": {
-        "fields": {
-          "m_OverlaidEnd": 28,
-          "m_OverlaidStart": 12,
-          "m_hCamera": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           },
           {
             "name": "ePreserveUpAxis",
@@ -37428,6 +37722,20 @@
           },
           {
             "name": "eEyesForward",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_LerpCameraSettings__CursorState_t": {
+        "fields": {
+          "m_OverlaidEnd": 28,
+          "m_OverlaidStart": 12,
+          "m_hCamera": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -37883,7 +38191,7 @@
             "type": "Unknown"
           },
           {
-            "name": "CGCClientDOTAGetEventPointsResponse",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -37945,26 +38253,6 @@
           "m_Input": 72
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeSuggestionName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -38427,6 +38715,10 @@
             "type": "Unknown"
           },
           {
+            "name": "AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\P",
+            "type": "Unknown"
+          },
+          {
             "name": "kDHr",
             "type": "Unknown"
           }
@@ -38572,10 +38864,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -38936,7 +39224,7 @@
             "type": "Unknown"
           },
           {
-            "name": "CGCClientJobCMsgGCGetHeroStatsHistoryResponse",
+            "name": "CGCClientJobCMsgGCGetHeroStandingsResponse",
             "type": "Unknown"
           }
         ],
@@ -39176,6 +39464,10 @@
           "m_vecEvents": 8
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -39890,6 +40182,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -40369,114 +40665,6 @@
             "type": "Unknown"
           },
           {
-            "name": "INVALID_TARGET",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_TARGET_IN_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "STRONGEST_TARGET_IN_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_TARGET_AT_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "PLAYER_FACING",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_ORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_ENEMY_ORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "RARITY_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "RARITY_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_SPAWN_BEHAVIOR",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIXED_DIRECTION_PERPENDICULAR_WALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "OVAL_AROUND_PLAYER",
-            "type": "Unknown"
-          },
-          {
-            "name": "STATIC_IN_MAP",
-            "type": "Unknown"
-          },
-          {
-            "name": "STATIC_IN_MAP_IGNORE_PLAYER_RADIUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_DIRECTION",
-            "type": "Unknown"
-          },
-          {
-            "name": "SPAWNER_ORIGIN_RADIUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "OFF",
-            "type": "Unknown"
-          },
-          {
-            "name": "SMALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "LARGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "ELITE",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENEMY_MAIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "DESTRUCTIBLE_MAIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENEMY_BOSS_ROOM",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -40486,114 +40674,6 @@
       "CSurvivorsPowerUpDefinition_AreaAttack_Circle": {
         "fields": {},
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_TARGET",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_TARGET_IN_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "STRONGEST_TARGET_IN_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_TARGET_AT_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "PLAYER_FACING",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_ORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_ENEMY_ORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "RARITY_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "RARITY_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_SPAWN_BEHAVIOR",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIXED_DIRECTION_PERPENDICULAR_WALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "OVAL_AROUND_PLAYER",
-            "type": "Unknown"
-          },
-          {
-            "name": "STATIC_IN_MAP",
-            "type": "Unknown"
-          },
-          {
-            "name": "STATIC_IN_MAP_IGNORE_PLAYER_RADIUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_DIRECTION",
-            "type": "Unknown"
-          },
-          {
-            "name": "SPAWNER_ORIGIN_RADIUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "OFF",
-            "type": "Unknown"
-          },
-          {
-            "name": "SMALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "LARGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "ELITE",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENEMY_MAIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "DESTRUCTIBLE_MAIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "ENEMY_BOSS_ROOM",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -40621,6 +40701,26 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSurvivorsPowerUpDefinition_AreaAttack_Line": {
+        "fields": {
+          "m_bUseFacingDirection": 2152
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "INVALID_TARGET",
             "type": "Unknown"
           },
@@ -40714,46 +40814,6 @@
           },
           {
             "name": "ENEMY_BOSS_ROOM",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSurvivorsPowerUpDefinition_AreaAttack_Line": {
-        "fields": {
-          "m_bUseFacingDirection": 2152
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -40787,10 +40847,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "p",
             "type": "Unknown"
           },
           {
@@ -40840,11 +40896,99 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "INVALID_TARGET",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "RANDOM_TARGET_IN_RANGE",
+            "type": "Unknown"
+          },
+          {
+            "name": "STRONGEST_TARGET_IN_RANGE",
+            "type": "Unknown"
+          },
+          {
+            "name": "RANDOM_TARGET_AT_RANGE",
+            "type": "Unknown"
+          },
+          {
+            "name": "PLAYER_FACING",
+            "type": "Unknown"
+          },
+          {
+            "name": "INVALID_ORIGIN",
+            "type": "Unknown"
+          },
+          {
+            "name": "RANDOM_ENEMY_ORIGIN",
+            "type": "Unknown"
+          },
+          {
+            "name": "RARITY_INVALID",
+            "type": "Unknown"
+          },
+          {
+            "name": "RARITY_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "INVALID_SPAWN_BEHAVIOR",
+            "type": "Unknown"
+          },
+          {
+            "name": "FIXED_DIRECTION_PERPENDICULAR_WALL",
+            "type": "Unknown"
+          },
+          {
+            "name": "OVAL_AROUND_PLAYER",
+            "type": "Unknown"
+          },
+          {
+            "name": "STATIC_IN_MAP",
+            "type": "Unknown"
+          },
+          {
+            "name": "STATIC_IN_MAP_IGNORE_PLAYER_RADIUS",
+            "type": "Unknown"
+          },
+          {
+            "name": "RANDOM_DIRECTION",
+            "type": "Unknown"
+          },
+          {
+            "name": "SPAWNER_ORIGIN_RADIUS",
+            "type": "Unknown"
+          },
+          {
+            "name": "OFF",
+            "type": "Unknown"
+          },
+          {
+            "name": "SMALL",
+            "type": "Unknown"
+          },
+          {
+            "name": "LARGE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ELITE",
+            "type": "Unknown"
+          },
+          {
+            "name": "INVALID",
+            "type": "Unknown"
+          },
+          {
+            "name": "ENEMY_MAIN",
+            "type": "Unknown"
+          },
+          {
+            "name": "DESTRUCTIBLE_MAIN",
+            "type": "Unknown"
+          },
+          {
+            "name": "ENEMY_BOSS_ROOM",
             "type": "Unknown"
           },
           {
@@ -40951,86 +41095,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "INVALID_TARGET",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_TARGET_IN_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "STRONGEST_TARGET_IN_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_TARGET_AT_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "PLAYER_FACING",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_ORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_ENEMY_ORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "RARITY_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "RARITY_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_SPAWN_BEHAVIOR",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIXED_DIRECTION_PERPENDICULAR_WALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "OVAL_AROUND_PLAYER",
-            "type": "Unknown"
-          },
-          {
-            "name": "STATIC_IN_MAP",
-            "type": "Unknown"
-          },
-          {
-            "name": "STATIC_IN_MAP_IGNORE_PLAYER_RADIUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_DIRECTION",
-            "type": "Unknown"
-          },
-          {
-            "name": "SPAWNER_ORIGIN_RADIUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "OFF",
-            "type": "Unknown"
-          },
-          {
-            "name": "SMALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "LARGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "ELITE",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41052,10 +41116,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "p",
             "type": "Unknown"
           },
           {
@@ -41111,10 +41171,6 @@
             "type": "Unknown"
           },
           {
-            "name": "p",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -41165,6 +41221,46 @@
           "m_sStasisTrapParticle": 2152
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -41258,10 +41354,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41296,86 +41388,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "INVALID_TARGET",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_TARGET_IN_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "STRONGEST_TARGET_IN_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_TARGET_AT_RANGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "PLAYER_FACING",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_ORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_ENEMY_ORIGIN",
-            "type": "Unknown"
-          },
-          {
-            "name": "RARITY_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "RARITY_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "INVALID_SPAWN_BEHAVIOR",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIXED_DIRECTION_PERPENDICULAR_WALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "OVAL_AROUND_PLAYER",
-            "type": "Unknown"
-          },
-          {
-            "name": "STATIC_IN_MAP",
-            "type": "Unknown"
-          },
-          {
-            "name": "STATIC_IN_MAP_IGNORE_PLAYER_RADIUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "RANDOM_DIRECTION",
-            "type": "Unknown"
-          },
-          {
-            "name": "SPAWNER_ORIGIN_RADIUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "OFF",
-            "type": "Unknown"
-          },
-          {
-            "name": "SMALL",
-            "type": "Unknown"
-          },
-          {
-            "name": "LARGE",
-            "type": "Unknown"
-          },
-          {
-            "name": "ELITE",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41386,22 +41398,6 @@
           "m_flRotationSpeedDeg": 2152
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -41495,6 +41491,46 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41504,6 +41540,22 @@
           "m_sParticle": 1696
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -42638,6 +42690,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "k_eCircle",
             "type": "Unknown"
           },
@@ -42727,26 +42783,6 @@
           },
           {
             "name": "k_eAllLayers",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eYou",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eThem",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eNeutral",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ePlayers",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eAllTeams",
             "type": "Unknown"
           }
         ],
@@ -42776,6 +42812,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "k_eCircle",
             "type": "Unknown"
           },
@@ -42865,26 +42905,6 @@
           },
           {
             "name": "k_eAllLayers",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eYou",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eThem",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eNeutral",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_ePlayers",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eAllTeams",
             "type": "Unknown"
           }
         ],
@@ -43546,40 +43566,7 @@
       },
       "C_DOTAReflectionSkybox": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "MCustomFGDMetadata",
-            "type": "Unknown"
-          },
-          {
-            "name": "DOTA_ORDER_ISSUER_CURRENT_UNIT_ONLY",
-            "type": "Unknown"
-          },
-          {
-            "name": "DOTA_ORDER_ISSUER_HERO_ONLY",
-            "type": "Unknown"
-          },
-          {
-            "name": "DOTA_ORDER_ISSUER_PASSED_UNIT_ONLY",
-            "type": "Unknown"
-          },
-          {
-            "name": "DOTA_ORDER_QUEUE_NEVER",
-            "type": "Unknown"
-          },
-          {
-            "name": "DOTA_ORDER_QUEUE_ALWAYS",
-            "type": "Unknown"
-          },
-          {
-            "name": "DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_STACK",
-            "type": "Unknown"
-          },
-          {
-            "name": "DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_PULL",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_BaseEntity"
       },
       "C_DOTASceneEntity": {
@@ -47957,7 +47944,8 @@
       },
       "C_DOTA_Ability_LoneDruid_SpiritBear_Return": {
         "fields": {
-          "m_nFXOrigin": 1704
+          "m_nFXCaster": 1704,
+          "m_nFXOrigin": 1708
         },
         "metadata": [],
         "parent": "C_DOTABaseAbility"
@@ -53105,12 +53093,13 @@
           "creep_teleport_level": 1704,
           "hero_teleport_level": 1708,
           "jungle_outpost_channel_time": 1716,
-          "m_flBaseTeleportTime": 1748,
+          "m_flBaseTeleportTime": 1752,
           "m_hTeleportTarget": 1720,
-          "m_iMinDistance": 1744,
-          "m_nFXDestination": 1728,
-          "m_nFXOrigin": 1724,
-          "m_vDestination": 1732,
+          "m_iMinDistance": 1748,
+          "m_nFXCaster": 1724,
+          "m_nFXDestination": 1732,
+          "m_nFXOrigin": 1728,
+          "m_vDestination": 1736,
           "outpost_channel_time": 1712
         },
         "metadata": [],
@@ -57085,13 +57074,14 @@
       },
       "C_DOTA_Item_TeleportScroll": {
         "fields": {
-          "m_flBaseTeleportTime": 1908,
-          "m_flExtraTeleportTime": 1912,
+          "m_flBaseTeleportTime": 1912,
+          "m_flExtraTeleportTime": 1916,
           "m_hTeleportTarget": 1880,
-          "m_iMinDistance": 1904,
-          "m_nFXDestination": 1888,
-          "m_nFXOrigin": 1884,
-          "m_vDestination": 1892
+          "m_iMinDistance": 1908,
+          "m_nFXCaster": 1884,
+          "m_nFXDestination": 1892,
+          "m_nFXOrigin": 1888,
+          "m_vDestination": 1896
         },
         "metadata": [],
         "parent": "C_DOTA_Item"
@@ -57374,6 +57364,14 @@
       "C_DOTA_LightInfo": {
         "fields": {},
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -58692,16 +58690,7 @@
           "m_vecCachedRenderMaxs": 3304,
           "m_vecCachedRenderMins": 3292
         },
-        "metadata": [
-          {
-            "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_BreakableProp"
       },
       "C_DynamicPropAlias_cable_dynamic": {
@@ -58860,7 +58849,32 @@
           "m_Entity_vBoxMins": 5832,
           "m_Entity_vEdgeFadeDists": 5880
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "BC_EMPTY",
+            "type": "Unknown"
+          },
+          {
+            "name": "BC_PROP_GROUP_OVERRIDE",
+            "type": "Unknown"
+          },
+          {
+            "name": "BC_PARTICLE_SYSTEM_OVERRIDE",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eNotifyWhenFinished",
+            "type": "Unknown"
+          },
+          {
+            "name": "eNotifyTriggered",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_BaseEntity"
       },
       "C_EnvCubemap": {
@@ -59177,6 +59191,26 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "ePreserveUpAxis",
+            "type": "Unknown"
+          },
+          {
+            "name": "eCenter",
+            "type": "Unknown"
+          },
+          {
+            "name": "eHead",
+            "type": "Unknown"
+          },
+          {
+            "name": "eForward",
+            "type": "Unknown"
+          },
+          {
+            "name": "eEyesForward",
+            "type": "Unknown"
           }
         ],
         "parent": "C_BaseEntity"
@@ -59200,28 +59234,7 @@
           "m_fog": 1520,
           "m_iChangedVariables": 1628
         },
-        "metadata": [
-          {
-            "name": "ePreserveUpAxis",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCenter",
-            "type": "Unknown"
-          },
-          {
-            "name": "eHead",
-            "type": "Unknown"
-          },
-          {
-            "name": "eForward",
-            "type": "Unknown"
-          },
-          {
-            "name": "eEyesForward",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_BaseEntity"
       },
       "C_FuncBrush": {
@@ -59423,7 +59436,28 @@
         "fields": {
           "m_CLightComponent": 2688
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "ePreserveUpAxis",
+            "type": "Unknown"
+          },
+          {
+            "name": "eCenter",
+            "type": "Unknown"
+          },
+          {
+            "name": "eHead",
+            "type": "Unknown"
+          },
+          {
+            "name": "eForward",
+            "type": "Unknown"
+          },
+          {
+            "name": "eEyesForward",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_BaseModelEntity"
       },
       "C_LightEnvironmentEntity": {
@@ -59633,28 +59667,7 @@
           "m_flZNear": 1568,
           "m_pNext": 1616
         },
-        "metadata": [
-          {
-            "name": "ePreserveUpAxis",
-            "type": "Unknown"
-          },
-          {
-            "name": "eCenter",
-            "type": "Unknown"
-          },
-          {
-            "name": "eHead",
-            "type": "Unknown"
-          },
-          {
-            "name": "eForward",
-            "type": "Unknown"
-          },
-          {
-            "name": "eEyesForward",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_BaseEntity"
       },
       "C_PointCameraVFOV": {
@@ -59723,32 +59736,7 @@
           "m_unVerticalAlign": 3224,
           "m_vecCSSClasses": 3240
         },
-        "metadata": [
-          {
-            "name": "WORLDTEXT_HORIZONTAL_ALIGN_CENTER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_HORIZONTAL_ALIGN_RIGHT",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_VERTICAL_ALIGN_CENTER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_VERTICAL_ALIGN_BOTTOM",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_ORIENTATION_FACEUSER",
-            "type": "Unknown"
-          },
-          {
-            "name": "WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_BaseClientUIEntity"
       },
       "C_PointClientUIWorldTextPanel": {
@@ -60484,10 +60472,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -60546,6 +60530,10 @@
           "m_condition": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -60768,6 +60756,22 @@
         },
         "metadata": [
           {
+            "name": "k_eMatch3LevelFlag_Boss",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eMatch3LevelFlag_Friendly",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60783,6 +60787,22 @@
           "m_Value": 0
         },
         "metadata": [
+          {
+            "name": "k_eMatch3LevelFlag_Boss",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eMatch3LevelFlag_Friendly",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -60800,6 +60820,22 @@
         },
         "metadata": [
           {
+            "name": "k_eMatch3LevelFlag_Boss",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eMatch3LevelFlag_Friendly",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60815,6 +60851,22 @@
           "m_Value": 0
         },
         "metadata": [
+          {
+            "name": "k_eMatch3LevelFlag_Boss",
+            "type": "Unknown"
+          },
+          {
+            "name": "k_eMatch3LevelFlag_Friendly",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -61250,6 +61302,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61261,10 +61317,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "text",
             "type": "Unknown"
           }
         ],
@@ -61320,12 +61372,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "CInlineJob_CMsgGCToClientArcanaVotesUpdate",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "ShmupEventID_t": {
@@ -61334,15 +61381,7 @@
         },
         "metadata": [
           {
-            "name": "CInlineJob_CMsgGCToClientWageringUpdate",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "CInlineJob_CMsgGCToClientClaimEventActionUsingItemCompleted",
             "type": "Unknown"
           }
         ],
@@ -61354,15 +61393,7 @@
         },
         "metadata": [
           {
-            "name": "CInlineJob_CMsgGCToClientWageringUpdate",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
+            "name": "CInlineJob_CMsgGCToClientClaimEventActionUsingItemCompleted",
             "type": "Unknown"
           }
         ],
@@ -61402,6 +61433,10 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
+          },
+          {
+            "name": "$",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61430,6 +61465,10 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
+          },
+          {
+            "name": "$",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61441,6 +61480,10 @@
         "metadata": [
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
+            "type": "Unknown"
+          },
+          {
+            "name": "$",
             "type": "Unknown"
           }
         ],
@@ -61470,6 +61513,10 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
+          },
+          {
+            "name": "$",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61498,6 +61545,10 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
+          },
+          {
+            "name": "$",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61525,6 +61576,10 @@
         "metadata": [
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
+            "type": "Unknown"
+          },
+          {
+            "name": "$",
             "type": "Unknown"
           }
         ],
@@ -62023,13 +62078,34 @@
         },
         "type": "uint32"
       },
+      "DOTAVisualNovelDialogueActorOverlayEffect_t": {
+        "alignment": 4,
+        "members": {
+          "VN_DIALOGUE_EFFECT_ACTOR_ANGER": 1,
+          "VN_DIALOGUE_EFFECT_ACTOR_ANNOYED": 64,
+          "VN_DIALOGUE_EFFECT_ACTOR_ANXIETY": 2,
+          "VN_DIALOGUE_EFFECT_ACTOR_ASLEEP": 128,
+          "VN_DIALOGUE_EFFECT_ACTOR_CONFUSED": 32,
+          "VN_DIALOGUE_EFFECT_ACTOR_DAZED": 8,
+          "VN_DIALOGUE_EFFECT_ACTOR_DEPRESSED": 2048,
+          "VN_DIALOGUE_EFFECT_ACTOR_HEART": 16384,
+          "VN_DIALOGUE_EFFECT_ACTOR_HUFF": 8192,
+          "VN_DIALOGUE_EFFECT_ACTOR_NOISY": 512,
+          "VN_DIALOGUE_EFFECT_ACTOR_NONE": 0,
+          "VN_DIALOGUE_EFFECT_ACTOR_POWER": 4096,
+          "VN_DIALOGUE_EFFECT_ACTOR_POWERDOWN": 32768,
+          "VN_DIALOGUE_EFFECT_ACTOR_SMOKE": 1024,
+          "VN_DIALOGUE_EFFECT_ACTOR_SPARKLE": 256,
+          "VN_DIALOGUE_EFFECT_ACTOR_SURPRISE": 16,
+          "VN_DIALOGUE_EFFECT_ACTOR_SWEATDROP": 4
+        },
+        "type": "uint32"
+      },
       "DOTAVisualNovelDialogueEffect_t": {
         "alignment": 4,
         "members": {
-          "VN_DIALOGUE_EFFECT_ACTOR_ANGER": 1048576,
-          "VN_DIALOGUE_EFFECT_ACTOR_ANXIETY": 2097152,
-          "VN_DIALOGUE_EFFECT_ACTOR_SWEATDROP": 4194304,
-          "VN_DIALOGUE_EFFECT_CLEAR_STAGE": 134217728,
+          "VN_DIALOGUE_EFFECT_AUTO_ADVANCE": 33554432,
+          "VN_DIALOGUE_EFFECT_CLEAR_STAGE": 1048576,
           "VN_DIALOGUE_EFFECT_ENTRANCE_FALLING": 8,
           "VN_DIALOGUE_EFFECT_ENTRANCE_LEFT": 16,
           "VN_DIALOGUE_EFFECT_ENTRANCE_RIGHT": 32,
@@ -62042,23 +62118,33 @@
           "VN_DIALOGUE_EFFECT_EXIT_SLIDE_FAST": 256,
           "VN_DIALOGUE_EFFECT_EXIT_SLIDE_SLOW": 128,
           "VN_DIALOGUE_EFFECT_NONE": 0,
-          "VN_DIALOGUE_EFFECT_NO_WAIT": 524288,
-          "VN_DIALOGUE_EFFECT_POPUP_FOCUS_BOTTOM": 16777216,
-          "VN_DIALOGUE_EFFECT_POPUP_FOCUS_TOP": 33554432,
-          "VN_DIALOGUE_EFFECT_POPUP_WET": 8388608,
-          "VN_DIALOGUE_EFFECT_PORTRAIT_BIG": 67108864,
-          "VN_DIALOGUE_EFFECT_PORTRAIT_BORDER_FROZEN": 536870912,
+          "VN_DIALOGUE_EFFECT_NO_WAIT": 32768,
+          "VN_DIALOGUE_EFFECT_POPUP_FOCUS_BOTTOM": 131072,
+          "VN_DIALOGUE_EFFECT_POPUP_FOCUS_TOP": 262144,
+          "VN_DIALOGUE_EFFECT_POPUP_WET": 65536,
+          "VN_DIALOGUE_EFFECT_PORTRAIT_BIG": 524288,
+          "VN_DIALOGUE_EFFECT_PORTRAIT_BORDER_FROZEN": 4194304,
           "VN_DIALOGUE_EFFECT_PORTRAIT_FLIP": 16384,
-          "VN_DIALOGUE_EFFECT_PORTRAIT_JITTER": 268435456,
-          "VN_DIALOGUE_EFFECT_PORTRAIT_NO_BLUR_OTHER": 2147483648,
+          "VN_DIALOGUE_EFFECT_PORTRAIT_JITTER": 2097152,
+          "VN_DIALOGUE_EFFECT_PORTRAIT_NO_BLUR_OTHER": 16777216,
+          "VN_DIALOGUE_EFFECT_PORTRAIT_NO_OIMBLUR_OTHER": 67108864,
           "VN_DIALOGUE_EFFECT_PORTRAIT_SHAKE": 4096,
-          "VN_DIALOGUE_EFFECT_PORTRAIT_SMALL": 1073741824,
+          "VN_DIALOGUE_EFFECT_PORTRAIT_SMALL": 8388608,
           "VN_DIALOGUE_EFFECT_PORTRAIT_WEAVE": 8192,
-          "VN_DIALOGUE_EFFECT_TEXT_BOLD": 131072,
-          "VN_DIALOGUE_EFFECT_TEXT_FAST": 65536,
-          "VN_DIALOGUE_EFFECT_TEXT_INSTANT": 32768,
-          "VN_DIALOGUE_EFFECT_TEXT_SMALL": 262144,
           "VN_DIALOGUE_EFFECT_WINDOW_SHAKE": 2048
+        },
+        "type": "uint32"
+      },
+      "DOTAVisualNovelDialogueTextEffect_t": {
+        "alignment": 4,
+        "members": {
+          "VN_DIALOGUE_EFFECT_TEXT_BOLD": 4,
+          "VN_DIALOGUE_EFFECT_TEXT_FAST": 2,
+          "VN_DIALOGUE_EFFECT_TEXT_INSTANT": 1,
+          "VN_DIALOGUE_EFFECT_TEXT_NONE": 0,
+          "VN_DIALOGUE_EFFECT_TEXT_NO_NAMEPLATE": 16,
+          "VN_DIALOGUE_EFFECT_TEXT_NO_TEXT": 32,
+          "VN_DIALOGUE_EFFECT_TEXT_SMALL": 8
         },
         "type": "uint32"
       },
@@ -62072,6 +62158,7 @@
           "VN_TEXT_COLOR_GRAY": 1,
           "VN_TEXT_COLOR_GREEN": 4,
           "VN_TEXT_COLOR_LIGHT_BLUE": 3,
+          "VN_TEXT_COLOR_LIGHT_BROWN": 13,
           "VN_TEXT_COLOR_LIGHT_GRAY": 6,
           "VN_TEXT_COLOR_ORANGE": 9,
           "VN_TEXT_COLOR_PURPLE": 11,
@@ -63571,12 +63658,16 @@
       "VisualNovelDialogueLineType_t": {
         "alignment": 4,
         "members": {
+          "k_eVisualNovelDialogueLineType_ActionSwipe": 9,
           "k_eVisualNovelDialogueLineType_Comic": 3,
-          "k_eVisualNovelDialogueLineType_ConditionalElse": 7,
-          "k_eVisualNovelDialogueLineType_ConditionalIf": 6,
+          "k_eVisualNovelDialogueLineType_ConditionalElse": 8,
+          "k_eVisualNovelDialogueLineType_ConditionalIf": 7,
           "k_eVisualNovelDialogueLineType_ExternalComic": 4,
           "k_eVisualNovelDialogueLineType_Invalid": 0,
+          "k_eVisualNovelDialogueLineType_MotionComic": 10,
+          "k_eVisualNovelDialogueLineType_PopupImage": 6,
           "k_eVisualNovelDialogueLineType_PopupText": 2,
+          "k_eVisualNovelDialogueLineType_PortraitSwap": 11,
           "k_eVisualNovelDialogueLineType_Text": 1,
           "k_eVisualNovelDialogueLineType_Video": 5
         },

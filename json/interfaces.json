@@ -4,16 +4,16 @@
     "AnimationSystem_001": 8436912
   },
   "client.dll": {
-    "ClientToolsInfo_001": 97132736,
-    "DOTA_CLIENT_GCCLIENT": 106054152,
-    "GameClientExports001": 97115624,
-    "LegacyGameUI001": 97596160,
-    "PanoramaUIClient001": 97770928,
-    "PlayButtonService001": 97645120,
-    "Source2Client002": 104351520,
-    "Source2ClientConfig001": 104010528,
-    "Source2ClientPrediction001": 97158688,
-    "Source2ClientUI001": 94845040
+    "ClientToolsInfo_001": 97165632,
+    "DOTA_CLIENT_GCCLIENT": 106088056,
+    "GameClientExports001": 97148520,
+    "LegacyGameUI001": 97629280,
+    "PanoramaUIClient001": 97803984,
+    "PlayButtonService001": 97678280,
+    "Source2Client002": 104385440,
+    "Source2ClientConfig001": 104045776,
+    "Source2ClientPrediction001": 97191584,
+    "Source2ClientUI001": 94877824
   },
   "engine2.dll": {
     "BenchmarkService001": 6384176,
@@ -101,7 +101,7 @@
     "PanoramaTextServices001": 2853440
   },
   "particles.dll": {
-    "ParticleSystemMgr003": 5613344
+    "ParticleSystemMgr003": 5613248
   },
   "pulse_system.dll": {
     "IPulseSystem_001": 2049440
@@ -128,13 +128,13 @@
   },
   "server.dll": {
     "EntitySubclassUtilsV001": 74657520,
-    "NavGameTest001": 77621184,
-    "ServerToolsInfo_001": 76926640,
-    "Source2GameClients001": 76883296,
-    "Source2GameDirector001": 83778240,
-    "Source2GameEntities001": 76924352,
-    "Source2Server001": 76923920,
-    "Source2ServerConfig001": 82983704
+    "NavGameTest001": 77621296,
+    "ServerToolsInfo_001": 76926768,
+    "Source2GameClients001": 76883424,
+    "Source2GameDirector001": 83778512,
+    "Source2GameEntities001": 76924480,
+    "Source2Server001": 76924048,
+    "Source2ServerConfig001": 82984024
   },
   "soundsystem.dll": {
     "SoundOpSystem001": 5323248,
@@ -146,9 +146,9 @@
     "SteamAudio001": 2483488
   },
   "tier0.dll": {
-    "TestScriptMgr001": 3794672,
+    "TestScriptMgr001": 3794704,
     "VEngineCvar007": 3838896,
-    "VProcessUtils002": 3794576,
+    "VProcessUtils002": 3794608,
     "VStringTokenSystem001": 3997872
   },
   "v8system.dll": {

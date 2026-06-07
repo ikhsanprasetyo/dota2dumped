@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-02 12:19:44.928950100 +07:00
+// 2026-06-07 13:26:24.850451500 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -36,8 +36,12 @@ export const Schemas = {
             k_eVisualNovelDialogueLineType_Comic: 0x3,
             k_eVisualNovelDialogueLineType_ExternalComic: 0x4,
             k_eVisualNovelDialogueLineType_Video: 0x5,
-            k_eVisualNovelDialogueLineType_ConditionalIf: 0x6,
-            k_eVisualNovelDialogueLineType_ConditionalElse: 0x7,
+            k_eVisualNovelDialogueLineType_PopupImage: 0x6,
+            k_eVisualNovelDialogueLineType_ConditionalIf: 0x7,
+            k_eVisualNovelDialogueLineType_ConditionalElse: 0x8,
+            k_eVisualNovelDialogueLineType_ActionSwipe: 0x9,
+            k_eVisualNovelDialogueLineType_MotionComic: 0xA,
+            k_eVisualNovelDialogueLineType_PortraitSwap: 0xB,
         },
         EOverworldEncounterRewardStyle: {
             k_eOverworldEncounterRewardStyle_Invalid: 0x0,
@@ -344,23 +348,18 @@ export const Schemas = {
             VN_DIALOGUE_EFFECT_PORTRAIT_SHAKE: 0x1000,
             VN_DIALOGUE_EFFECT_PORTRAIT_WEAVE: 0x2000,
             VN_DIALOGUE_EFFECT_PORTRAIT_FLIP: 0x4000,
-            VN_DIALOGUE_EFFECT_TEXT_INSTANT: 0x8000,
-            VN_DIALOGUE_EFFECT_TEXT_FAST: 0x10000,
-            VN_DIALOGUE_EFFECT_TEXT_BOLD: 0x20000,
-            VN_DIALOGUE_EFFECT_TEXT_SMALL: 0x40000,
-            VN_DIALOGUE_EFFECT_NO_WAIT: 0x80000,
-            VN_DIALOGUE_EFFECT_ACTOR_ANGER: 0x100000,
-            VN_DIALOGUE_EFFECT_ACTOR_ANXIETY: 0x200000,
-            VN_DIALOGUE_EFFECT_ACTOR_SWEATDROP: 0x400000,
-            VN_DIALOGUE_EFFECT_POPUP_WET: 0x800000,
-            VN_DIALOGUE_EFFECT_POPUP_FOCUS_BOTTOM: 0x1000000,
-            VN_DIALOGUE_EFFECT_POPUP_FOCUS_TOP: 0x2000000,
-            VN_DIALOGUE_EFFECT_PORTRAIT_BIG: 0x4000000,
-            VN_DIALOGUE_EFFECT_CLEAR_STAGE: 0x8000000,
-            VN_DIALOGUE_EFFECT_PORTRAIT_JITTER: 0x10000000,
-            VN_DIALOGUE_EFFECT_PORTRAIT_BORDER_FROZEN: 0x20000000,
-            VN_DIALOGUE_EFFECT_PORTRAIT_SMALL: 0x40000000,
-            VN_DIALOGUE_EFFECT_PORTRAIT_NO_BLUR_OTHER: 0x80000000,
+            VN_DIALOGUE_EFFECT_NO_WAIT: 0x8000,
+            VN_DIALOGUE_EFFECT_POPUP_WET: 0x10000,
+            VN_DIALOGUE_EFFECT_POPUP_FOCUS_BOTTOM: 0x20000,
+            VN_DIALOGUE_EFFECT_POPUP_FOCUS_TOP: 0x40000,
+            VN_DIALOGUE_EFFECT_PORTRAIT_BIG: 0x80000,
+            VN_DIALOGUE_EFFECT_CLEAR_STAGE: 0x100000,
+            VN_DIALOGUE_EFFECT_PORTRAIT_JITTER: 0x200000,
+            VN_DIALOGUE_EFFECT_PORTRAIT_BORDER_FROZEN: 0x400000,
+            VN_DIALOGUE_EFFECT_PORTRAIT_SMALL: 0x800000,
+            VN_DIALOGUE_EFFECT_PORTRAIT_NO_BLUR_OTHER: 0x1000000,
+            VN_DIALOGUE_EFFECT_AUTO_ADVANCE: 0x2000000,
+            VN_DIALOGUE_EFFECT_PORTRAIT_NO_OIMBLUR_OTHER: 0x4000000,
         },
         EArtyHitboxType: {
             k_eAABB: 0x0,
@@ -847,6 +846,7 @@ export const Schemas = {
             VN_TEXT_COLOR_WHITE: 0xA,
             VN_TEXT_COLOR_PURPLE: 0xB,
             VN_TEXT_COLOR_YELLOW: 0xC,
+            VN_TEXT_COLOR_LIGHT_BROWN: 0xD,
         },
         ECandyShopAuditAction: {
             k_ECandyShopAuditAction_Invalid: 0x0,
@@ -1099,6 +1099,25 @@ export const Schemas = {
             k_eTalentContentAssetStatus_None: 0x0,
             k_eTalentContentAssetStatus_Approved: 0x1,
             k_eTalentContentAssetStatus_Rejected: 0x2,
+        },
+        DOTAVisualNovelDialogueActorOverlayEffect_t: {
+            VN_DIALOGUE_EFFECT_ACTOR_NONE: 0x0,
+            VN_DIALOGUE_EFFECT_ACTOR_ANGER: 0x1,
+            VN_DIALOGUE_EFFECT_ACTOR_ANXIETY: 0x2,
+            VN_DIALOGUE_EFFECT_ACTOR_SWEATDROP: 0x4,
+            VN_DIALOGUE_EFFECT_ACTOR_DAZED: 0x8,
+            VN_DIALOGUE_EFFECT_ACTOR_SURPRISE: 0x10,
+            VN_DIALOGUE_EFFECT_ACTOR_CONFUSED: 0x20,
+            VN_DIALOGUE_EFFECT_ACTOR_ANNOYED: 0x40,
+            VN_DIALOGUE_EFFECT_ACTOR_ASLEEP: 0x80,
+            VN_DIALOGUE_EFFECT_ACTOR_SPARKLE: 0x100,
+            VN_DIALOGUE_EFFECT_ACTOR_NOISY: 0x200,
+            VN_DIALOGUE_EFFECT_ACTOR_SMOKE: 0x400,
+            VN_DIALOGUE_EFFECT_ACTOR_DEPRESSED: 0x800,
+            VN_DIALOGUE_EFFECT_ACTOR_POWER: 0x1000,
+            VN_DIALOGUE_EFFECT_ACTOR_HUFF: 0x2000,
+            VN_DIALOGUE_EFFECT_ACTOR_HEART: 0x4000,
+            VN_DIALOGUE_EFFECT_ACTOR_POWERDOWN: 0x8000,
         },
         EUnderDraftResponse: {
             k_eInternalError: 0x0,
@@ -1377,6 +1396,15 @@ export const Schemas = {
             PLAYER_ULTIMATE_STATE_NO_MANA: 0xFFFFFFFFFFFFFFFF,
             PLAYER_ULTIMATE_STATE_NOT_LEVELED: 0xFFFFFFFFFFFFFFFE,
             PLAYER_ULTIMATE_STATE_HIDDEN: 0xFFFFFFFFFFFFFFFD,
+        },
+        DOTAVisualNovelDialogueTextEffect_t: {
+            VN_DIALOGUE_EFFECT_TEXT_NONE: 0x0,
+            VN_DIALOGUE_EFFECT_TEXT_INSTANT: 0x1,
+            VN_DIALOGUE_EFFECT_TEXT_FAST: 0x2,
+            VN_DIALOGUE_EFFECT_TEXT_BOLD: 0x4,
+            VN_DIALOGUE_EFFECT_TEXT_SMALL: 0x8,
+            VN_DIALOGUE_EFFECT_TEXT_NO_NAMEPLATE: 0x10,
+            VN_DIALOGUE_EFFECT_TEXT_NO_TEXT: 0x20,
         },
         EArtyGameObjectType: {
             k_eTypeObject: 0x0,
@@ -2510,11 +2538,12 @@ export const Schemas = {
             outpost_channel_time: 0x6B0, // float32
             jungle_outpost_channel_time: 0x6B4, // float32
             m_hTeleportTarget: 0x6B8, // CHandle<C_BaseEntity>
-            m_nFXOrigin: 0x6BC, // ParticleIndex_t
-            m_nFXDestination: 0x6C0, // ParticleIndex_t
-            m_vDestination: 0x6C4, // VectorWS
-            m_iMinDistance: 0x6D0, // int32
-            m_flBaseTeleportTime: 0x6D4, // float32
+            m_nFXCaster: 0x6BC, // ParticleIndex_t
+            m_nFXOrigin: 0x6C0, // ParticleIndex_t
+            m_nFXDestination: 0x6C4, // ParticleIndex_t
+            m_vDestination: 0x6C8, // VectorWS
+            m_iMinDistance: 0x6D4, // int32
+            m_flBaseTeleportTime: 0x6D8, // float32
         },
         C_DOTA_Ability_Zuus_ArcLightning: {
         },
@@ -6833,12 +6862,13 @@ export const Schemas = {
         },
         C_DOTA_Item_TeleportScroll: {
             m_hTeleportTarget: 0x758, // CHandle<C_BaseEntity>
-            m_nFXOrigin: 0x75C, // ParticleIndex_t
-            m_nFXDestination: 0x760, // ParticleIndex_t
-            m_vDestination: 0x764, // VectorWS
-            m_iMinDistance: 0x770, // int32
-            m_flBaseTeleportTime: 0x774, // float32
-            m_flExtraTeleportTime: 0x778, // float32
+            m_nFXCaster: 0x75C, // ParticleIndex_t
+            m_nFXOrigin: 0x760, // ParticleIndex_t
+            m_nFXDestination: 0x764, // ParticleIndex_t
+            m_vDestination: 0x768, // VectorWS
+            m_iMinDistance: 0x774, // int32
+            m_flBaseTeleportTime: 0x778, // float32
+            m_flExtraTeleportTime: 0x77C, // float32
         },
         C_DOTA_Item_BootsOfTravel: {
             m_flTeleportTimeOverride: 0x758, // float32
@@ -9648,10 +9678,9 @@ export const Schemas = {
             damage_per_tree_pct: 0x19D8, // float32
             radius_base: 0x19DC, // float32
             multiplier: 0x19E0, // float32
-            radius_treant: 0x19E4, // float32
-            m_nTreeAmount: 0x19E8, // int32
-            m_flMultiplierToUse: 0x19EC, // float32
-            m_flRadiusToUse: 0x19F0, // float32
+            m_nTreeAmount: 0x19E4, // int32
+            m_flMultiplierToUse: 0x19E8, // float32
+            m_flRadiusToUse: 0x19EC, // float32
         },
         CDOTA_Modifier_Plague_Wards_Bonus_Range: {
             value: 0x19D8, // int32
@@ -12000,7 +12029,8 @@ export const Schemas = {
         C_DOTA_Ability_Slark_EssenceShift: {
         },
         C_DOTA_Ability_LoneDruid_SpiritBear_Return: {
-            m_nFXOrigin: 0x6A8, // ParticleIndex_t
+            m_nFXCaster: 0x6A8, // ParticleIndex_t
+            m_nFXOrigin: 0x6AC, // ParticleIndex_t
         },
         CDOTA_Ability_DoomBringer_Lvl_Pain: {
         },

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-02 12:19:44.928950100 +07:00
+# 2026-06-07 13:26:24.850451500 +07:00
 
 class Schemas:
     # Module: particles.dll
@@ -849,7 +849,6 @@ class Schemas:
             m_flNoiseScaleLoc = 0x1900 # CPerParticleFloatInput
             m_TransformInput = 0x1A70 # CParticleTransformInput
             m_bIgnoreDt = 0x1AD8 # bool
-            m_vecScale = 0x1E0 # Vector
         class ParticleChildrenInfo_t:
             m_ChildRef = 0x0 # CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
             m_flDelay = 0x8 # float32
@@ -1619,7 +1618,6 @@ class Schemas:
             m_flEndScale = 0x1E4 # float32
             m_bEaseInAndOut = 0x1E8 # bool
             m_flBias = 0x1EC # float32
-            m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
         class C_OP_ReinitializeScalarEndCap:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_flOutputMin = 0x1DC # float32
@@ -2056,7 +2054,6 @@ class Schemas:
         class C_OP_RandomForce:
             m_MinForce = 0x1E8 # Vector
             m_MaxForce = 0x1F4 # Vector
-            m_flStartLerpTime = 0x1E8 # float32
         class C_OP_RemapParticleCountOnScalarEndCap:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_nInputMin = 0x1DC # int32
@@ -2305,7 +2302,7 @@ class Schemas:
             m_nChildGroupID = 0x1E8 # int32
             m_bOnlyChildren = 0x1EC # bool
         class C_OP_RenderClothForce:
-            m_sDecalGroupName = 0x228 # CGlobalSymbol
+            pass
         class C_OP_RemapVisibilityScalar:
             m_nFieldInput = 0x1D8 # ParticleAttributeIndex_t
             m_nFieldOutput = 0x1DC # ParticleAttributeIndex_t
@@ -2994,10 +2991,8 @@ class Schemas:
             m_vecColorScale = 0x838 # CParticleCollectionVecInput
             m_nColorBlendType = 0xEF0 # ParticleColorBlendType_t
         class C_OP_MaxVelocity:
-            m_flMaxVelocity = 0x1D8 # float32
-            m_flMinVelocity = 0x1DC # float32
-            m_nOverrideCP = 0x1E0 # int32
-            m_nOverrideCPField = 0x1E4 # int32
+            m_flMaxVelocity = 0x1D8 # CPerParticleFloatInput
+            m_flMinVelocity = 0x348 # CPerParticleFloatInput
         class C_INIT_VelocityFromNormal:
             m_fSpeedMin = 0x1E0 # float32
             m_fSpeedMax = 0x1E4 # float32

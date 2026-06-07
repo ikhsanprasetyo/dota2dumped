@@ -396,6 +396,10 @@
             "type": "Unknown"
           },
           {
+            "name": "c",
+            "type": "Unknown"
+          },
+          {
             "name": "JOINT_FLAGS_BODY1_FIXED",
             "type": "Unknown"
           },
@@ -2680,7 +2684,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "on312\\;C:\\Users\\ByteseekerPC\\.cargo\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\",
             "type": "Unknown"
           },
           {

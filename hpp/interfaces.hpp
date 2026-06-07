@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-02 12:19:44.928950100 +07:00
+// 2026-06-07 13:26:24.850451500 +07:00
 
 #pragma once
 
@@ -15,16 +15,16 @@ namespace source2_dumper {
         }
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x5CA20C0;
-            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x6524208;
-            constexpr std::ptrdiff_t GameClientExports001 = 0x5C9DDE8;
-            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5D13300;
-            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5D3DDB0;
-            constexpr std::ptrdiff_t PlayButtonService001 = 0x5D1F240;
-            constexpr std::ptrdiff_t Source2Client002 = 0x6384720;
-            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x6331320;
-            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5CA8620;
-            constexpr std::ptrdiff_t Source2ClientUI001 = 0x5A73870;
+            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x5CAA140;
+            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x652C678;
+            constexpr std::ptrdiff_t GameClientExports001 = 0x5CA5E68;
+            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5D1B460;
+            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5D45ED0;
+            constexpr std::ptrdiff_t PlayButtonService001 = 0x5D273C8;
+            constexpr std::ptrdiff_t Source2Client002 = 0x638CBA0;
+            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x6339CD0;
+            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5CB06A0;
+            constexpr std::ptrdiff_t Source2ClientUI001 = 0x5A7B880;
         }
         // Module: engine2.dll
         namespace engine2_dll {
@@ -125,7 +125,7 @@ namespace source2_dumper {
         }
         // Module: particles.dll
         namespace particles_dll {
-            constexpr std::ptrdiff_t ParticleSystemMgr003 = 0x55A720;
+            constexpr std::ptrdiff_t ParticleSystemMgr003 = 0x55A6C0;
         }
         // Module: pulse_system.dll
         namespace pulse_system_dll {
@@ -159,13 +159,13 @@ namespace source2_dumper {
         // Module: server.dll
         namespace server_dll {
             constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x4732EF0;
-            constexpr std::ptrdiff_t NavGameTest001 = 0x4A067C0;
-            constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x495CEB0;
-            constexpr std::ptrdiff_t Source2GameClients001 = 0x4952560;
-            constexpr std::ptrdiff_t Source2GameDirector001 = 0x4FE5AC0;
-            constexpr std::ptrdiff_t Source2GameEntities001 = 0x495C5C0;
-            constexpr std::ptrdiff_t Source2Server001 = 0x495C410;
-            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F23B18;
+            constexpr std::ptrdiff_t NavGameTest001 = 0x4A06830;
+            constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x495CF30;
+            constexpr std::ptrdiff_t Source2GameClients001 = 0x49525E0;
+            constexpr std::ptrdiff_t Source2GameDirector001 = 0x4FE5BD0;
+            constexpr std::ptrdiff_t Source2GameEntities001 = 0x495C640;
+            constexpr std::ptrdiff_t Source2Server001 = 0x495C490;
+            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F23C58;
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {
@@ -180,9 +180,9 @@ namespace source2_dumper {
         }
         // Module: tier0.dll
         namespace tier0_dll {
-            constexpr std::ptrdiff_t TestScriptMgr001 = 0x39E6F0;
+            constexpr std::ptrdiff_t TestScriptMgr001 = 0x39E710;
             constexpr std::ptrdiff_t VEngineCvar007 = 0x3A93B0;
-            constexpr std::ptrdiff_t VProcessUtils002 = 0x39E690;
+            constexpr std::ptrdiff_t VProcessUtils002 = 0x39E6B0;
             constexpr std::ptrdiff_t VStringTokenSystem001 = 0x3D00B0;
         }
         // Module: v8system.dll

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-02 12:19:44.928950100 +07:00
+// 2026-06-07 13:26:24.850451500 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -12,16 +12,16 @@ pub mod source2_dumper {
         }
         // Module: client.dll
         pub mod client_dll {
-            pub const ClientToolsInfo_001: usize = 0x5CA20C0;
-            pub const DOTA_CLIENT_GCCLIENT: usize = 0x6524208;
-            pub const GameClientExports001: usize = 0x5C9DDE8;
-            pub const LegacyGameUI001: usize = 0x5D13300;
-            pub const PanoramaUIClient001: usize = 0x5D3DDB0;
-            pub const PlayButtonService001: usize = 0x5D1F240;
-            pub const Source2Client002: usize = 0x6384720;
-            pub const Source2ClientConfig001: usize = 0x6331320;
-            pub const Source2ClientPrediction001: usize = 0x5CA8620;
-            pub const Source2ClientUI001: usize = 0x5A73870;
+            pub const ClientToolsInfo_001: usize = 0x5CAA140;
+            pub const DOTA_CLIENT_GCCLIENT: usize = 0x652C678;
+            pub const GameClientExports001: usize = 0x5CA5E68;
+            pub const LegacyGameUI001: usize = 0x5D1B460;
+            pub const PanoramaUIClient001: usize = 0x5D45ED0;
+            pub const PlayButtonService001: usize = 0x5D273C8;
+            pub const Source2Client002: usize = 0x638CBA0;
+            pub const Source2ClientConfig001: usize = 0x6339CD0;
+            pub const Source2ClientPrediction001: usize = 0x5CB06A0;
+            pub const Source2ClientUI001: usize = 0x5A7B880;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
@@ -122,7 +122,7 @@ pub mod source2_dumper {
         }
         // Module: particles.dll
         pub mod particles_dll {
-            pub const ParticleSystemMgr003: usize = 0x55A720;
+            pub const ParticleSystemMgr003: usize = 0x55A6C0;
         }
         // Module: pulse_system.dll
         pub mod pulse_system_dll {
@@ -156,13 +156,13 @@ pub mod source2_dumper {
         // Module: server.dll
         pub mod server_dll {
             pub const EntitySubclassUtilsV001: usize = 0x4732EF0;
-            pub const NavGameTest001: usize = 0x4A067C0;
-            pub const ServerToolsInfo_001: usize = 0x495CEB0;
-            pub const Source2GameClients001: usize = 0x4952560;
-            pub const Source2GameDirector001: usize = 0x4FE5AC0;
-            pub const Source2GameEntities001: usize = 0x495C5C0;
-            pub const Source2Server001: usize = 0x495C410;
-            pub const Source2ServerConfig001: usize = 0x4F23B18;
+            pub const NavGameTest001: usize = 0x4A06830;
+            pub const ServerToolsInfo_001: usize = 0x495CF30;
+            pub const Source2GameClients001: usize = 0x49525E0;
+            pub const Source2GameDirector001: usize = 0x4FE5BD0;
+            pub const Source2GameEntities001: usize = 0x495C640;
+            pub const Source2Server001: usize = 0x495C490;
+            pub const Source2ServerConfig001: usize = 0x4F23C58;
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
@@ -177,9 +177,9 @@ pub mod source2_dumper {
         }
         // Module: tier0.dll
         pub mod tier0_dll {
-            pub const TestScriptMgr001: usize = 0x39E6F0;
+            pub const TestScriptMgr001: usize = 0x39E710;
             pub const VEngineCvar007: usize = 0x3A93B0;
-            pub const VProcessUtils002: usize = 0x39E690;
+            pub const VProcessUtils002: usize = 0x39E6B0;
             pub const VStringTokenSystem001: usize = 0x3D00B0;
         }
         // Module: v8system.dll

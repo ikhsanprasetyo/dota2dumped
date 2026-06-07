@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-02 12:19:44.928950100 +07:00
+# 2026-06-07 13:26:24.850451500 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -8,16 +8,16 @@ class Interfaces:
         AnimationSystem_001 = 0x80BCB0
     # Module: client.dll
     class ClientDll:
-        ClientToolsInfo_001 = 0x5CA20C0
-        DOTA_CLIENT_GCCLIENT = 0x6524208
-        GameClientExports001 = 0x5C9DDE8
-        LegacyGameUI001 = 0x5D13300
-        PanoramaUIClient001 = 0x5D3DDB0
-        PlayButtonService001 = 0x5D1F240
-        Source2Client002 = 0x6384720
-        Source2ClientConfig001 = 0x6331320
-        Source2ClientPrediction001 = 0x5CA8620
-        Source2ClientUI001 = 0x5A73870
+        ClientToolsInfo_001 = 0x5CAA140
+        DOTA_CLIENT_GCCLIENT = 0x652C678
+        GameClientExports001 = 0x5CA5E68
+        LegacyGameUI001 = 0x5D1B460
+        PanoramaUIClient001 = 0x5D45ED0
+        PlayButtonService001 = 0x5D273C8
+        Source2Client002 = 0x638CBA0
+        Source2ClientConfig001 = 0x6339CD0
+        Source2ClientPrediction001 = 0x5CB06A0
+        Source2ClientUI001 = 0x5A7B880
     # Module: engine2.dll
     class Engine2Dll:
         BenchmarkService001 = 0x616A30
@@ -105,7 +105,7 @@ class Interfaces:
         PanoramaTextServices001 = 0x2B8A40
     # Module: particles.dll
     class ParticlesDll:
-        ParticleSystemMgr003 = 0x55A720
+        ParticleSystemMgr003 = 0x55A6C0
     # Module: pulse_system.dll
     class PulseSystemDll:
         IPulseSystem_001 = 0x1F45A0
@@ -132,13 +132,13 @@ class Interfaces:
     # Module: server.dll
     class ServerDll:
         EntitySubclassUtilsV001 = 0x4732EF0
-        NavGameTest001 = 0x4A067C0
-        ServerToolsInfo_001 = 0x495CEB0
-        Source2GameClients001 = 0x4952560
-        Source2GameDirector001 = 0x4FE5AC0
-        Source2GameEntities001 = 0x495C5C0
-        Source2Server001 = 0x495C410
-        Source2ServerConfig001 = 0x4F23B18
+        NavGameTest001 = 0x4A06830
+        ServerToolsInfo_001 = 0x495CF30
+        Source2GameClients001 = 0x49525E0
+        Source2GameDirector001 = 0x4FE5BD0
+        Source2GameEntities001 = 0x495C640
+        Source2Server001 = 0x495C490
+        Source2ServerConfig001 = 0x4F23C58
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundOpSystem001 = 0x5139F0
@@ -150,9 +150,9 @@ class Interfaces:
         SteamAudio001 = 0x25E520
     # Module: tier0.dll
     class Tier0Dll:
-        TestScriptMgr001 = 0x39E6F0
+        TestScriptMgr001 = 0x39E710
         VEngineCvar007 = 0x3A93B0
-        VProcessUtils002 = 0x39E690
+        VProcessUtils002 = 0x39E6B0
         VStringTokenSystem001 = 0x3D00B0
     # Module: v8system.dll
     class V8systemDll:

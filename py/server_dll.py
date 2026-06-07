@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-02 12:19:44.928950100 +07:00
+# 2026-06-07 13:26:24.850451500 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -2854,6 +2854,7 @@ class Schemas:
             CHAT_MESSAGE_ROSHAN_ROAR = 0x7B
             CHAT_MESSAGE_STONE_OF_RECALL_USED = 0x7C
             CHAT_MESSAGE_DEITY_BLESSING = 0x7D
+            CHAT_MESSAGE_SMOKE_ACTIVATED = 0x7E
         class ESource2PlayStatsFieldType:
             Source2PlayStats_Invalid = 0x0
             Source2PlayStats_UInt64 = 0x1
@@ -6806,6 +6807,7 @@ class Schemas:
             EVENT_ID_SUMMER_2026 = 0x39
             EVENT_ID_FALL_2026 = 0x3A
             EVENT_ID_WINTER_2026 = 0x3B
+            EVENT_ID_INTERNATIONAL_2026 = 0x3C
         class DOTATeam_t:
             DOTA_TEAM_FIRST = 0x2
             DOTA_TEAM_BADGUYS = 0x3
@@ -7664,21 +7666,21 @@ class Schemas:
             MOVETYPE_OBSERVER = 0x8
             MOVETYPE_CUSTOM = 0x9
             MOVETYPE_LAST = 0xA
-        class ____g_:
+        class ______:
             pass
-        class ____g_:
+        class ______:
             pass
-        class _F__g_:
+        class _z____:
             pass
-        class ____g_:
+        class _B____:
             pass
-        class ____g_:
+        class ______:
             pass
-        class _K__g_:
+        class ______:
             pass
-        class ____g_:
+        class _____:
             pass
-        class ____g_:
+        class _C____:
             pass
         class CDOTA_Modifier_AghsFort_Arcanist_Potion:
             m_nCooldownReductionPct = 0x19D8 # int32
@@ -11527,11 +11529,12 @@ class Schemas:
             outpost_channel_time = 0x588 # float32
             jungle_outpost_channel_time = 0x58C # float32
             m_hTeleportTarget = 0x590 # CHandle<CBaseEntity>
-            m_nFXOrigin = 0x594 # ParticleIndex_t
-            m_nFXDestination = 0x598 # ParticleIndex_t
-            m_vDestination = 0x59C # VectorWS
-            m_iMinDistance = 0x5A8 # int32
-            m_flBaseTeleportTime = 0x5AC # float32
+            m_nFXCaster = 0x594 # ParticleIndex_t
+            m_nFXOrigin = 0x598 # ParticleIndex_t
+            m_nFXDestination = 0x59C # ParticleIndex_t
+            m_vDestination = 0x5A0 # VectorWS
+            m_iMinDistance = 0x5AC # int32
+            m_flBaseTeleportTime = 0x5B0 # float32
         class CDOTA_Modifier_Bloodseeker_Bloodbath_Thinker:
             radius = 0x19D8 # float32
         class CDOTA_Ability_Sand_King_Scorpion_Strike:
@@ -16018,10 +16021,9 @@ class Schemas:
             damage_per_tree_pct = 0x19D8 # float32
             radius_base = 0x19DC # float32
             multiplier = 0x19E0 # float32
-            radius_treant = 0x19E4 # float32
-            m_nTreeAmount = 0x19E8 # int32
-            m_flMultiplierToUse = 0x19EC # float32
-            m_flRadiusToUse = 0x19F0 # float32
+            m_nTreeAmount = 0x19E4 # int32
+            m_flMultiplierToUse = 0x19E8 # float32
+            m_flRadiusToUse = 0x19EC # float32
         class CDOTA_Modifier_Plague_Wards_Bonus_Range:
             value = 0x19D8 # int32
         class CDOTA_Modifier_ShadowShaman_Chicken_Speed:
@@ -20894,7 +20896,7 @@ class Schemas:
         class CDOTA_Item_RingOfAquila:
             pass
         class CDOTA_Ability_Mars_GodsRebuke:
-            pass
+            m_bHadBulwarkEnabled = 0x580 # bool
         class CDOTA_Modifier_Mars_ArenaOfBlood_Kill_Buff:
             arena_kill_buff_damage_pct = 0x19D8 # int32
             arena_kill_buff_heal_pct = 0x19DC # int32
@@ -24771,7 +24773,8 @@ class Schemas:
         class CDOTA_Modifier_Undying_Tombstone_Bunker_Cooldown:
             pass
         class CDOTA_Ability_LoneDruid_SpiritBear_Return:
-            m_nFXOrigin = 0x580 # ParticleIndex_t
+            m_nFXCaster = 0x580 # ParticleIndex_t
+            m_nFXOrigin = 0x584 # ParticleIndex_t
         class CDOTA_Modifier_Chen_HandOfGod_Invuln:
             debuff_immune_resist = 0x19D8 # float32
         class CDOTA_Ability_Witch_Doctor_Innate_Maledict_Heal_Reduction:
@@ -35906,12 +35909,13 @@ class Schemas:
             pass
         class CDOTA_Item_TeleportScroll:
             m_hTeleportTarget = 0x658 # CHandle<CBaseEntity>
-            m_nFXOrigin = 0x65C # ParticleIndex_t
-            m_nFXDestination = 0x660 # ParticleIndex_t
-            m_vDestination = 0x664 # VectorWS
-            m_iMinDistance = 0x670 # int32
-            m_flBaseTeleportTime = 0x674 # float32
-            m_flExtraTeleportTime = 0x678 # float32
+            m_nFXCaster = 0x65C # ParticleIndex_t
+            m_nFXOrigin = 0x660 # ParticleIndex_t
+            m_nFXDestination = 0x664 # ParticleIndex_t
+            m_vDestination = 0x668 # VectorWS
+            m_iMinDistance = 0x674 # int32
+            m_flBaseTeleportTime = 0x678 # float32
+            m_flExtraTeleportTime = 0x67C # float32
         class CDOTA_Item_VitalityBooster:
             pass
         class CDOTA_Item_Circlet:
@@ -38063,245 +38067,3 @@ class Schemas:
         class TrackedStatAggregateData_t:
             m_strIndividualStat = 0x0 # CUtlString
             m_eAggregate = 0x8 # ETrackedStatAggregate
-        class p_v_g_:
-            pass
-        class c_______:
-            pass
-        class __v_g_:
-            pass
-        class P_v_g_:
-            pass
-        class ____:
-            pass
-        class __v_g_:
-            pass
-        class H_______:
-            pass
-        class 0_v_g_:
-            pass
-        class __v_g_:
-            pass
-        class 8___:
-            pass
-        class __v_g_:
-            pass
-        class ____u___:
-            pass
-        class __v_g_:
-            pass
-        class __E_:
-            pass
-        class __v_g_:
-            pass
-        class _____NH_:
-            pass
-        class __v_g_:
-            pass
-        class __v_g_:
-            pass
-        class ____:
-            pass
-        class __v_g_:
-            pass
-        class Ă______:
-            pass
-        class _9v_g_:
-            pass
-        class __P_:
-            pass
-        class _8v_g_:
-            pass
-        class ________:
-            pass
-        class _8v_g_:
-            pass
-        class Uɠ_g_:
-            pass
-        class _U__:
-            pass
-        class ______:
-            pass
-        class ____M___:
-            pass
-        class ___6g_:
-            pass
-        class ______:
-            pass
-        class __6_:
-            pass
-        class _4____:
-            pass
-        class ______S_:
-            pass
-        class MF7_g_:
-            pass
-        class _5____:
-            pass
-        class _c__:
-            pass
-        class ___Fg_:
-            pass
-        class ________:
-            pass
-        class p6____:
-            pass
-        class __9g_:
-            pass
-        class __U_:
-            pass
-        class ______:
-            pass
-        class 4___8_2_:
-            pass
-        class 9M_Sg_:
-            pass
-        class ______:
-            pass
-        class o___:
-            pass
-        class ____g_:
-            pass
-        class _____k__:
-            pass
-        class ___g_:
-            pass
-        class ____:
-            pass
-        class _뗂g_:
-            pass
-        class EP__ӮM_:
-            pass
-        class ______:
-            pass
-        class ___Sg_:
-            pass
-        class ____:
-            pass
-        class _V____:
-            pass
-        class _A______:
-            pass
-        class __c_g_:
-            pass
-        class 0_____:
-            pass
-        class __J_:
-            pass
-        class U___g_:
-            pass
-        class ______A_:
-            pass
-        class p2____:
-            pass
-        class __Jg_:
-            pass
-        class ____:
-            pass
-        class P_____:
-            pass
-        class _j______:
-            pass
-        class __S5g_:
-            pass
-        class ______:
-            pass
-        class 7___:
-            pass
-        class ______:
-            pass
-        class ______W_:
-            pass
-        class qA__g_:
-            pass
-        class _a__g_:
-            pass
-        class __X_:
-            pass
-        class ______:
-            pass
-        class J_______:
-            pass
-        class 0_____:
-            pass
-        class 4___g_:
-            pass
-        class ____g_:
-            pass
-        class ________:
-            pass
-        class _____:
-            pass
-        class __jRg_:
-            pass
-        class _L__:
-            pass
-        class _A____:
-            pass
-        class ________:
-            pass
-        class _2____:
-            pass
-        class ____g_:
-            pass
-        class _v__:
-            pass
-        class p3____:
-            pass
-        class _h____J_:
-            pass
-        class ____g_:
-            pass
-        class ______:
-            pass
-        class ع__:
-            pass
-        class __JTg_:
-            pass
-        class _9___H__:
-            pass
-        class ______:
-            pass
-        class P_w_g_:
-            pass
-        class ٮL_:
-            pass
-        class ______:
-            pass
-        class _8__d___:
-            pass
-        class ___yg_:
-            pass
-        class ______:
-            pass
-        class ____:
-            pass
-        class __w_g_:
-            pass
-        class _3______:
-            pass
-        class p_____:
-            pass
-        class _m____:
-            pass
-        class _l1_:
-            pass
-        class ____g_:
-            pass
-        class ___J_T_:
-            pass
-        class _o____:
-            pass
-        class ___cg_:
-            pass
-        class _2__:
-            pass
-        class _Q_ug_:
-            pass
-        class ____H__:
-            pass
-        class P_____:
-            pass
-        class ___g_:
-            pass
-        class ______:
-            pass

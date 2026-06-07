@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-02 12:19:44.928950100 +07:00
+// 2026-06-07 13:26:24.850451500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -108,21 +108,27 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // D
-            // R
-            // N
-            // 4
-            // -
-            // D
-            // C
-            // -
-            // E
-            // E
-            // -
-            // $
-            // 9
-            // I
-            // I
+            // r
+            // pdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshou
+            // :b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+            // gger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+            // ghttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // gger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+            // :b0,y:b3,
+            // Proto
+            // r
+            // l
+            //  
+            // a
+            // k
+            // :b0,y:b3,
+            // .
+            // l
+            // s
+            // YDOCS=C:\Users\Public\Documents
+            // YDOCS=C:\Users\Public\Documents
             pub const GameTime_t = struct {
                 pub const m_Value: usize = 0x0; // float32
             };
@@ -180,17 +186,29 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // -
-            // 1
-            // B
-            // F
-            // C
-            // L
-            // -
-            // 9
-            // $
-            // I
-            // I
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // pup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b
+            // stick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // k
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // 6,0x0738/0x3384,0x0738/0x5262,0x0738/0x3480,0x0738/0x8818,0x0738/0x3285,0x062a/0x2410,0x0925/0x2801,0x0e8f/0x3010,0x0925/0x03e8,
+            // iceDescriptorProto
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // d
+            // P
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // :b0,y:b3,
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:
+            // l
+            // .
+            // s
+            // s
+            // s
+            // ESSOR_ARCHITECTURE=AMD64
+            // YDOCS=C:\Users\Public\Documents
+            // YDOCS=C:\Users\Public\Documents
             pub const GameTick_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };

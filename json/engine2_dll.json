@@ -421,47 +421,95 @@
         },
         "metadata": [
           {
-            "name": "-",
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
             "type": "Unknown"
           },
           {
-            "name": "1",
+            "name": "pup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b",
             "type": "Unknown"
           },
           {
-            "name": "B",
+            "name": "stick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,",
             "type": "Unknown"
           },
           {
-            "name": "F",
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
             "type": "Unknown"
           },
           {
-            "name": "C",
+            "name": "k",
             "type": "Unknown"
           },
           {
-            "name": "L",
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
             "type": "Unknown"
           },
           {
-            "name": "-",
+            "name": "6,0x0738/0x3384,0x0738/0x5262,0x0738/0x3480,0x0738/0x8818,0x0738/0x3285,0x062a/0x2410,0x0925/0x2801,0x0e8f/0x3010,0x0925/0x03e8,",
             "type": "Unknown"
           },
           {
-            "name": "9",
+            "name": "iceDescriptorProto",
             "type": "Unknown"
           },
           {
-            "name": "$",
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
             "type": "Unknown"
           },
           {
-            "name": "I",
+            "name": "d",
             "type": "Unknown"
           },
           {
-            "name": "I",
+            "name": "P",
+            "type": "Unknown"
+          },
+          {
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
+            "type": "Unknown"
+          },
+          {
+            "name": ":b0,y:b3,",
+            "type": "Unknown"
+          },
+          {
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
+            "type": "Unknown"
+          },
+          {
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
+            "type": "Unknown"
+          },
+          {
+            "name": "l",
+            "type": "Unknown"
+          },
+          {
+            "name": ".",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          },
+          {
+            "name": "ESSOR_ARCHITECTURE=AMD64",
+            "type": "Unknown"
+          },
+          {
+            "name": "YDOCS=C:\\Users\\Public\\Documents",
+            "type": "Unknown"
+          },
+          {
+            "name": "YDOCS=C:\\Users\\Public\\Documents",
             "type": "Unknown"
           }
         ],
@@ -473,63 +521,87 @@
         },
         "metadata": [
           {
-            "name": "D",
+            "name": "r",
             "type": "Unknown"
           },
           {
-            "name": "R",
+            "name": "pdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshou",
             "type": "Unknown"
           },
           {
-            "name": "N",
+            "name": ":b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,",
             "type": "Unknown"
           },
           {
-            "name": "4",
+            "name": "gger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,",
             "type": "Unknown"
           },
           {
-            "name": "-",
+            "name": "ghttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,",
             "type": "Unknown"
           },
           {
-            "name": "D",
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
             "type": "Unknown"
           },
           {
-            "name": "C",
+            "name": "leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:",
             "type": "Unknown"
           },
           {
-            "name": "-",
+            "name": "gger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,",
             "type": "Unknown"
           },
           {
-            "name": "E",
+            "name": ":b0,y:b3,",
             "type": "Unknown"
           },
           {
-            "name": "E",
+            "name": "Proto",
             "type": "Unknown"
           },
           {
-            "name": "-",
+            "name": "r",
             "type": "Unknown"
           },
           {
-            "name": "$",
+            "name": "l",
             "type": "Unknown"
           },
           {
-            "name": "9",
+            "name": " ",
             "type": "Unknown"
           },
           {
-            "name": "I",
+            "name": "a",
             "type": "Unknown"
           },
           {
-            "name": "I",
+            "name": "k",
+            "type": "Unknown"
+          },
+          {
+            "name": ":b0,y:b3,",
+            "type": "Unknown"
+          },
+          {
+            "name": ".",
+            "type": "Unknown"
+          },
+          {
+            "name": "l",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          },
+          {
+            "name": "YDOCS=C:\\Users\\Public\\Documents",
+            "type": "Unknown"
+          },
+          {
+            "name": "YDOCS=C:\\Users\\Public\\Documents",
             "type": "Unknown"
           }
         ],
