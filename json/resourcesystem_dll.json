@@ -1,0 +1,6199 @@
+{
+  "resourcesystem.dll": {
+    "classes": {
+      "AABBWS_t": {
+        "fields": {
+          "m_vMaxBounds": 12,
+          "m_vMinBounds": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "AABB_t": {
+        "fields": {
+          "m_vMaxBounds": 12,
+          "m_vMinBounds": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CFuseProgram": {
+        "fields": {
+          "m_nMaxTempVarsUsed": 72,
+          "m_programBuffer": 0,
+          "m_variablesRead": 24,
+          "m_variablesWritten": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CFuseSymbolTable": {
+        "fields": {
+          "m_constantMap": 72,
+          "m_constants": 0,
+          "m_functionMap": 136,
+          "m_functions": 48,
+          "m_variableMap": 104,
+          "m_variables": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "ConstantInfo_t": {
+        "fields": {
+          "m_flValue": 12,
+          "m_name": 0,
+          "m_nameToken": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "FourQuaternions": {
+        "fields": {
+          "w": 48,
+          "x": 0,
+          "y": 16,
+          "z": 32
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "FunctionInfo_t": {
+        "fields": {
+          "m_bIsPure": 26,
+          "m_nIndex": 24,
+          "m_nParamCount": 20,
+          "m_name": 8,
+          "m_nameToken": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "FuseFunctionIndex_t": {
+        "fields": {
+          "m_Value": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyCustomFGDType",
+            "type": "Unknown"
+          },
+          {
+            "name": "vrman",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "FuseVariableIndex_t": {
+        "fields": {
+          "m_Value": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyCustomFGDType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "VApplication001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VEngineCvar007",
+            "type": "Unknown"
+          },
+          {
+            "name": "VStringTokenSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "TestScriptMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VProcessUtils002",
+            "type": "Unknown"
+          },
+          {
+            "name": "VFileSystem017",
+            "type": "Unknown"
+          },
+          {
+            "name": "VAsyncFileSystem2_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceSystem013",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceManifestRegistry001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceHandleUtils001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ResourceCompilerSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VMaterialSystem2_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PostProcessingSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "InputSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "InputStackSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderDeviceMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundOpSystemEdit001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundOpSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SteamAudio001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VP4003",
+            "type": "Unknown"
+          },
+          {
+            "name": "Localize_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VMediaFoundation001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VAvi001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VWebm001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VBik001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MeshSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MeshUtils001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderDevice003",
+            "type": "Unknown"
+          },
+          {
+            "name": "VRenderDeviceSetupV001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderHardwareConfig002",
+            "type": "Unknown"
+          },
+          {
+            "name": "SceneSystem_002",
+            "type": "Unknown"
+          },
+          {
+            "name": "IPulseSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SceneUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "WorldRendererMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetSystemTest001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ParticleSystemMgr003",
+            "type": "Unknown"
+          },
+          {
+            "name": "VScriptManager010",
+            "type": "Unknown"
+          },
+          {
+            "name": "PropertyEditorSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MATCHFRAMEWORK_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2V8System001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaUIEngine001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaUIClient001",
+            "type": "Unknown"
+          },
+          {
+            "name": "PanoramaTextServices001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ToolFramework2_002",
+            "type": "Unknown"
+          },
+          {
+            "name": "PhysicsBuilderMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VisBuilder_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "BakedLODBuilderMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "HelpSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ToolSceneNodeFactory_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "EconItemToolModel_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaTestExternal_Two_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SchemaTestExternal_One_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AnimationSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AnimationSystemUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "HammerMapLoader001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MaterialUtils_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "FontManager_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "TextLayout_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetPreviewSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetBrowserSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AssetRenameSystem_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VConComm001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MODEL_PROCESSING_SERVICES_INTERFACE_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkSystemVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkMessagesVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "FlattenedSerializersVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SerializedEntitiesVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "DemoUpconverterVersion001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Client002",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ClientUI001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ClientPrediction001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Server001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2Host001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2ModTools001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2GameClients001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2GameEntities001",
+            "type": "Unknown"
+          },
+          {
+            "name": "EngineServiceMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "HostStateMgr001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkClientService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkP2PService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NetworkServerService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ToolService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "RenderService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "StatsService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VProfService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "InputService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "MapListService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "GameUIService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "SoundService_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "BenchmarkService001",
+            "type": "Unknown"
+          },
+          {
+            "name": "KeyValueCache001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ClientServerSharedHandleSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "GameResourceServiceClientV001",
+            "type": "Unknown"
+          },
+          {
+            "name": "GameResourceServiceServerV001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2EngineToClient001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2EngineToServer001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2EngineToServerStringTable001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Source2EngineToClientStringTable001",
+            "type": "Unknown"
+          },
+          {
+            "name": "VPhysics2_Interface_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ModelDocUtils001",
+            "type": "Unknown"
+          },
+          {
+            "name": "AnimGraphEditorUtils001",
+            "type": "Unknown"
+          },
+          {
+            "name": "EXPORTSYSTEM_INTERFACE_VERSION_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ServerToolsInfo_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "ClientToolsInfo_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "Vrad3_001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NavSystem001",
+            "type": "Unknown"
+          },
+          {
+            "name": "NavGameTest001",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCAnimData": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCAnimationGroup": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCCSGOEconItem": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCChoreoSceneResource": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCCompositeMaterialKit": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCDOTANovelsList": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCDOTAPatchNotesList": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCDotaItemDefinitionResource": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCEntityLump": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCGcExportableExternalData": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCJavaScriptResource": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCModel": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCMorphSetData": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCNmClip": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCNmGraphDefinition": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCNmSkeleton": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCPanoramaDynamicImages": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCPanoramaLayout": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCPanoramaStyle": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCPhysAggregateData": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCPostProcessingResource": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCRenderMesh": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCResponseRulesList": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCSequenceGroupData": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCSmartProp": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCSurfaceGraph": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCTestResourceData": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCTextureBase": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCTypeScriptResource": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCVDataItemDefs": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCVDataResource": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCVMixListResource": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCVPhysXSurfacePropertiesList": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCVSoundEventScriptList": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCVSoundStackScriptList": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCVoiceContainerBase": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCVoxelVisibility": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeCWorldNode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeIAnimGraphModelBinding": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeIMaterial2": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeIParticleSnapshot": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeIParticleSystemDefinition": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeIPulseGraphDef": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeIVectorGraphic": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeManifestTestResource_t": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeProceduralTestResource_t": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "InfoForResourceTypeWorld_t": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "ManifestTestResource_t": {
+        "fields": {
+          "m_child": 8,
+          "m_name": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "PackedAABB_t": {
+        "fields": {
+          "m_nPackedMax": 4,
+          "m_nPackedMin": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "VariableInfo_t": {
+        "fields": {
+          "m_eAccess": 16,
+          "m_eVarType": 15,
+          "m_nIndex": 12,
+          "m_nNumComponents": 14,
+          "m_name": 0,
+          "m_nameToken": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      }
+    },
+    "enums": {
+      "FuseVariableAccess_t": {
+        "alignment": 1,
+        "members": {
+          "READ_ONLY": 1,
+          "WRITABLE": 0
+        },
+        "type": "uint8"
+      },
+      "FuseVariableType_t": {
+        "alignment": 1,
+        "members": {
+          "BOOL": 1,
+          "FLOAT32": 8,
+          "INT16": 3,
+          "INT32": 4,
+          "INT8": 2,
+          "INVALID": 0,
+          "UINT16": 6,
+          "UINT32": 7,
+          "UINT8": 5
+        },
+        "type": "uint8"
+      }
+    }
+  }
+}
