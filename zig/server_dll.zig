@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7529
-        // Enum count: 432
+        // Enum count: 430
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -9560,6 +9560,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -14251,7 +14252,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MKV3TransferSaveOpsForField
             pub const CPrecipitationVData = struct {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -14454,6 +14454,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -15980,7 +15981,7 @@ pub const source2_dumper = struct {
                 pub const m_Activity: usize = 0x1A50; // GameActivity_t
                 pub const m_flTimeLeftForActivity: usize = 0x1A54; // float32
                 pub const m_nGrappleAttackRecord: usize = 0x1A58; // AttackRecord_t
-                pub const m_pTree: usize = 0x1A60; // CDOTA_Tree*
+                pub const m_hTree: usize = 0x1A5C; // CHandle<CBaseEntity>
             };
             // Parent: None
             // Field count: 10
@@ -19482,6 +19483,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -19828,6 +19830,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             pub const CPulseCell_Value_Gradient = struct {
@@ -20507,6 +20510,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -22463,7 +22467,10 @@ pub const source2_dumper = struct {
             // Field count: 29
             //
             // Metadata:
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
             // MGetKV3ClassDefaults
+            //  
             pub const CEnvCombinedLightProbeVolume = struct {
                 pub const m_Entity_Color: usize = 0x1510; // Color
                 pub const m_Entity_flBrightness: usize = 0x1514; // float32
@@ -24241,6 +24248,7 @@ pub const source2_dumper = struct {
             // Field count: 12
             //
             // Metadata:
+            // z
             // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
             // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
             // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
@@ -26298,7 +26306,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
-            // @
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -28519,6 +28526,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             pub const CPulseCell_Value_Curve = struct {
                 pub const m_Curve: usize = 0x48; // CPiecewiseCurve
             };
@@ -30701,6 +30709,9 @@ pub const source2_dumper = struct {
             };
             // Parent: CBaseEntity
             // Field count: 3
+            //
+            // Metadata:
+            // i
             pub const CFogController = struct {
                 pub const m_fog: usize = 0x498; // fogparams_t
                 pub const m_bUseAngles: usize = 0x500; // bool
@@ -31316,6 +31327,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -34386,6 +34398,9 @@ pub const source2_dumper = struct {
             };
             // Parent: CBaseEntity
             // Field count: 7
+            //
+            // Metadata:
+            // i
             pub const CPointOrient = struct {
                 pub const m_iszSpawnTargetName: usize = 0x498; // CUtlSymbolLarge
                 pub const m_hTarget: usize = 0x4A0; // CHandle<CBaseEntity>
@@ -38333,6 +38348,7 @@ pub const source2_dumper = struct {
             // Field count: 9
             //
             // Metadata:
+            // +
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -40890,6 +40906,7 @@ pub const source2_dumper = struct {
             // eHead
             // eForward
             // eEyesForward
+            // i
             pub const CPointCamera = struct {
                 pub const m_FOV: usize = 0x498; // float32
                 pub const m_Resolution: usize = 0x49C; // float32
@@ -42814,6 +42831,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -48092,6 +48110,7 @@ pub const source2_dumper = struct {
             // eHead
             // eForward
             // eEyesForward
+            // i
             pub const CEnvWindVolume = struct {
                 pub const m_bActive: usize = 0x498; // bool
                 pub const m_vBoxMins: usize = 0x49C; // Vector
@@ -54210,6 +54229,7 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -56270,12 +56290,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const FantasyLeagueID_t = struct {
                 pub const m_Value: usize = 0x0; // uint16
             };
@@ -56508,6 +56527,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyCustomFGDType
+            // r
             pub const CFootstepTableHandle = struct {
             };
             // Parent: None
@@ -56838,6 +56858,8 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // w
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -56967,6 +56989,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const FantasyGemSlot_t = struct {
@@ -57018,6 +57041,10 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // n
+            // n
             pub const AmmoIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int8
             };
@@ -57267,12 +57294,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const FantasyTabletID_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -57773,6 +57799,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // +
             pub const BlessingType_t = struct {
                 pub const nID: usize = 0x0; // BlessingTypeID_t
                 pub const szIconImage: usize = 0x10; // CPanoramaImageName
@@ -57859,9 +57886,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
             pub const FantasyGemQuality_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -58294,9 +58319,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
             pub const FantasyGemShape_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -58367,7 +58390,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
@@ -58415,6 +58437,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub const attrib_definition_index_db32_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -58554,6 +58577,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub const itemid_t = struct {
                 pub const m_Value: usize = 0x0; // uint64
             };
@@ -58696,6 +58720,8 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // w
+            // w
             // MGetKV3ClassDefaults
             pub const BlessingTypeID_t = struct {
                 pub const m_Value: usize = 0x0; // int32
@@ -58744,6 +58770,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // CHAT_IGNORE_ALL
             // CHAT_IGNORE_TEAM
+            // MKV3TransferSaveOpsForField
             // reset_cycle
             pub const CBaseAnimGraphVariationUserData = struct {
             };
@@ -59001,6 +59028,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub const style_index_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -59233,6 +59261,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub const item_definition_index_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -59380,6 +59409,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub const item_steam_cache_version_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -59691,9 +59721,6 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // generic
             pub const ChatWheelMessageID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -59723,6 +59750,8 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // w
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59811,6 +59840,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub const HeroPersona_t = struct {
                 pub const m_Value: usize = 0x0; // int8
             };
@@ -59904,6 +59934,10 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // n
+            // n
             pub const ParticleIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -60092,9 +60126,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
             pub const FantasyCraftDataID_t = struct {
                 pub const m_Value: usize = 0x0; // uint16
             };
@@ -60426,27 +60458,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // DFLAG_SUPPRESS_HEALTH_CHANGES
             // DFLAG_SUPPRESS_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_EFFECTS
             pub const CEmptyGraphController = struct {
             };
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // TEXT
-            // ENTITY
-            // COUNT
-            // TACTICAL_SEARCH
-            // AI_SCHEDULE
-            // AI_TASK
-            // AI_EVENT
-            // AI_PATHFINDING
-            // END_SIM_HISTORY_TYPES
-            // COMBINED
-            // MATCH
-            // HIERARCHY
-            // COUNT
-            // ANY
-            // COUNT
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
@@ -60538,6 +60556,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub const attrib_definition_index_t = struct {
                 pub const m_Value: usize = 0x0; // uint16
             };

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #pragma once
 
@@ -717,7 +717,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // 0ru
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -822,6 +821,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             namespace CPulseCell_FireCursors {
                 constexpr std::ptrdiff_t m_Outflows = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 constexpr std::ptrdiff_t m_bWaitForChildOutflows = 0x60; // bool
@@ -859,14 +859,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             namespace CPulseCell_BaseRequirement {
             }
@@ -881,6 +877,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -920,7 +917,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // 0ru
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -949,6 +945,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             namespace CPulseCell_Value_Gradient {
@@ -991,14 +988,10 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_GraphHook {
                 constexpr std::ptrdiff_t m_HookName = 0x80; // PulseSymbol_t
@@ -1016,14 +1009,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_BaseEntrypoint {
                 constexpr std::ptrdiff_t m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
@@ -1060,7 +1049,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
-            // @U7
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1101,7 +1089,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1130,7 +1117,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1166,7 +1152,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
-            // @U7
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1181,14 +1166,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EventHandler {
                 constexpr std::ptrdiff_t m_EventName = 0x80; // PulseSymbol_t
@@ -1198,7 +1179,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // `Zm
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1269,7 +1249,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @U7
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1303,14 +1282,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_EntOutputHandler {
                 constexpr std::ptrdiff_t m_SourceEntity = 0x80; // PulseSymbol_t
@@ -1365,7 +1340,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1418,7 +1392,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1439,7 +1412,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1474,7 +1446,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1493,7 +1464,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1517,14 +1487,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Method {
                 constexpr std::ptrdiff_t m_MethodName = 0x80; // PulseSymbol_t
@@ -1546,7 +1512,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1609,9 +1574,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             namespace CPulseCell_Inflow_Yield {
                 constexpr std::ptrdiff_t m_UnyieldResume = 0x48; // CPulse_ResumePoint
@@ -1633,11 +1596,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
-            // `Zm
             // MGetKV3ClassDefaults
             namespace CPulseCell_Outflow_CycleRandom {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1654,7 +1614,6 @@ namespace source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1718,17 +1677,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @Ak
-            // ppu
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            //  8k
-            //  :k
-            // @;k
-            // @tu
-            // Ptu
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
@@ -2020,8 +1972,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2146,8 +2096,6 @@ namespace source2_dumper {
             // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            //  t_
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2240,8 +2188,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -2323,9 +2269,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
-            // \Python\Python312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\Byteseeke
-            // 8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x1071,0x28de/
+            // LL
             namespace CParticleFunctionPreEmission {
                 constexpr std::ptrdiff_t m_bRunOnce = 0x1D8; // bool
             }
@@ -2335,7 +2279,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2357,7 +2300,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             namespace C_OP_FadeOutSimple {
                 constexpr std::ptrdiff_t m_flFadeOutTime = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -2401,7 +2343,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
             namespace C_OP_SpringToVectorConstraint {
                 constexpr std::ptrdiff_t m_flRestLength = 0x1D8; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flMinDistance = 0x348; // CPerParticleFloatInput
@@ -2800,6 +2741,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             namespace C_OP_SetControlPointsToParticle {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nFirstControlPoint = 0x1DC; // int32
@@ -2938,7 +2881,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             namespace C_OP_PointVectorAtNextParticle {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flInterpolation = 0x1E0; // CPerParticleFloatInput
@@ -2969,8 +2911,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -2991,7 +2931,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @U7
             namespace C_OP_OscillateScalarSimple {
                 constexpr std::ptrdiff_t m_Rate = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_Frequency = 0x1DC; // float32
@@ -3118,10 +3057,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            //  4I
-            // @T|
-            // `AL
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3205,8 +3140,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
-            // 0XC
             namespace C_OP_ConstrainDistance {
                 constexpr std::ptrdiff_t m_fMinDistance = 0x1D8; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_fMaxDistance = 0x348; // CParticleCollectionFloatInput
@@ -3322,7 +3255,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3404,7 +3336,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3474,9 +3405,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3498,10 +3426,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `LT
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // @(V
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3598,8 +3524,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             namespace C_INIT_VelocityRandom {
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_fSpeedMin = 0x1E8; // CPerParticleFloatInput
@@ -3625,6 +3549,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             namespace C_OP_ModelDampenMovement {
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_bBoundBox = 0x1DC; // bool
@@ -3655,29 +3581,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             namespace C_OP_TwistAroundAxis {
                 constexpr std::ptrdiff_t m_fForceAmount = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_TwistAxis = 0x1EC; // Vector
@@ -3735,7 +3638,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             namespace C_OP_TeleportBeam {
@@ -4131,15 +4033,10 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // h
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4178,7 +4075,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4212,6 +4108,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             namespace C_OP_OrientTo2dDirection {
                 constexpr std::ptrdiff_t m_vecInput = 0x1D8; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_flRotOffset = 0x890; // float32
@@ -4223,7 +4121,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -4452,7 +4349,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  :Y
             namespace C_OP_SetControlPointPositionToTimeOfDayValue {
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_pszTimeOfDayParameter = 0x1E4; // char[128]
@@ -4525,7 +4421,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -4573,9 +4468,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
-            // XV|
-            // PZ|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4601,12 +4493,9 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @>Y
-            // 0`Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -4725,14 +4614,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4763,7 +4650,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -4819,7 +4705,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4896,7 +4781,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4959,7 +4843,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -4972,8 +4855,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             namespace C_INIT_SetHitboxToClosest {
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0x1E0; // int32
@@ -5192,7 +5073,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5265,7 +5145,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
@@ -5276,10 +5155,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             namespace C_OP_DistanceBetweenTransforms {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_TransformStart = 0x1E0; // CParticleTransformInput
@@ -5356,7 +5233,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -5409,7 +5285,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // P7V
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -5473,7 +5348,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -5496,12 +5370,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @>Y
-            // 0`Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -5555,7 +5426,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // XA|
             namespace C_OP_ContinuousEmitter {
                 constexpr std::ptrdiff_t m_flEmissionDuration = 0x1E0; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flStartTime = 0x350; // CParticleCollectionFloatInput
@@ -5625,8 +5495,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5667,7 +5535,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5679,7 +5546,6 @@ namespace source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             //  
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -5810,10 +5676,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `LT
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // @(V
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5850,7 +5714,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -5903,7 +5766,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  AT
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -5975,18 +5837,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
-            // ` |
-            // ` |
-            // PWL
-            // @U7
-            // PFL
-            // pA|
-            // ` |
-            // @T|
-            // @Q|
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6355,9 +6205,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6452,7 +6300,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6483,7 +6330,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -6514,8 +6360,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // pwR
-            // ` |
             namespace C_OP_SetPerChildControlPointFromAttribute {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nFirstControlPoint = 0x1DC; // int32
@@ -6616,8 +6460,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
-            // 0XC
             namespace C_OP_BoxConstraint {
                 constexpr std::ptrdiff_t m_vecMin = 0x1D8; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_vecMax = 0x890; // CParticleCollectionVecInput
@@ -6644,7 +6486,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -6704,9 +6545,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
-            // XV|
-            // PZ|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6899,9 +6737,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7090,7 +6925,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7264,7 +7098,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7410,8 +7243,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7509,7 +7340,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7587,9 +7417,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
-            // \Python\Python312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\Byteseeke
-            // 8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x1071,0x28de/
+            // LL
             namespace CParticleFunctionForce {
             }
             // Parent: None
@@ -7695,9 +7523,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // pwR
-            // ` |
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7752,7 +7577,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -7817,10 +7641,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7936,7 +7756,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
@@ -8048,7 +7867,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @SY
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -8088,7 +7906,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8151,7 +7968,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8171,7 +7987,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             namespace C_OP_RemapScalarEndCap {
                 constexpr std::ptrdiff_t m_nFieldInput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -8291,7 +8106,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `3U
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8401,6 +8215,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             namespace C_OP_SpinUpdate {
             }
             // Parent: None
@@ -8519,7 +8335,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             namespace C_OP_RemapDistanceToLineSegmentToVector {
@@ -8714,7 +8529,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8727,8 +8541,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             namespace C_OP_Spin {
@@ -8810,7 +8622,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // XA|
             namespace C_OP_InstantaneousEmitter {
                 constexpr std::ptrdiff_t m_nParticlesToEmit = 0x1E0; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flStartTime = 0x350; // CParticleCollectionFloatInput
@@ -8841,11 +8652,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
-            // 0XC
-            // x |
-            // ` |
-            // 8$|
             namespace C_OP_ConstrainLineLength {
                 constexpr std::ptrdiff_t m_flMinDistance = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_flMaxDistance = 0x1DC; // float32
@@ -8979,8 +8785,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0<a
-            // @`_
             namespace CBaseTrailRenderer {
                 constexpr std::ptrdiff_t m_nOrientationType = 0x2DF0; // ParticleOrientationChoiceList_t
                 constexpr std::ptrdiff_t m_nOrientationControlPoint = 0x2DF4; // int32
@@ -9026,8 +8830,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             namespace C_INIT_VelocityFromCP {
                 constexpr std::ptrdiff_t m_velocityInput = 0x1E0; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_transformInput = 0x898; // CParticleTransformInput
@@ -9117,7 +8919,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -9213,7 +9014,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -9247,8 +9047,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9280,11 +9078,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @{U
-            //  ZV
-            // ` |
-            // ([|
-            // ` |
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -9353,8 +9146,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0<a
-            // @`_
             namespace C_OP_RenderVRHapticEvent {
                 constexpr std::ptrdiff_t m_nHand = 0x228; // ParticleVRHandChoiceList_t
                 constexpr std::ptrdiff_t m_nOutputHandCP = 0x22C; // int32
@@ -9526,8 +9317,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9579,26 +9368,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
             namespace C_OP_TurbulenceForce {
                 constexpr std::ptrdiff_t m_flNoiseCoordScale0 = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_flNoiseCoordScale1 = 0x1EC; // float32
@@ -9643,7 +9412,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9653,15 +9421,10 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9701,12 +9464,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @>Y
-            // 0`Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9732,15 +9492,10 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9810,7 +9565,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             namespace C_OP_RenderGpuImplicit {
                 constexpr std::ptrdiff_t m_bUsePerParticleRadius = 0x228; // bool
                 constexpr std::ptrdiff_t m_nVertexCountKb = 0x22C; // uint32
@@ -9966,7 +9720,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10023,17 +9776,14 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             namespace C_OP_RemapControlPointDirectionToVector {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flScale = 0x1DC; // float32
@@ -10173,9 +9923,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
-            // \Python\Python312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\Byteseeke
-            // 8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x1071,0x28de/
+            // LL
             namespace CParticleFunctionOperator {
             }
             // Parent: None
@@ -10208,9 +9956,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10236,7 +9982,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10247,7 +9992,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `3U
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10316,7 +10060,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10350,7 +10093,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -10395,12 +10137,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @>Y
-            // 0`Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10417,8 +10156,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
-            // @qL
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10464,9 +10201,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10951,8 +10686,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -11296,7 +11029,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `3U
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11387,7 +11119,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11400,8 +11131,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11434,10 +11163,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11488,10 +11214,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
-            // @U7
-            // ` |
             namespace C_INIT_PositionPlaceOnGround {
                 constexpr std::ptrdiff_t m_flOffset = 0x1E0; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flMaxTraceLength = 0x350; // CPerParticleFloatInput
@@ -11524,7 +11246,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11593,8 +11314,6 @@ namespace source2_dumper {
             // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            //  t_
-            // ` |
             namespace C_OP_RenderPostProcessing {
                 constexpr std::ptrdiff_t m_flPostProcessStrength = 0x228; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_hPostTexture = 0x398; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -11625,10 +11344,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
             namespace C_OP_WorldTraceConstraint {
                 constexpr std::ptrdiff_t m_nCP = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_vecCpOffset = 0x1DC; // Vector
@@ -11663,7 +11378,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             namespace C_OP_RenderBlobs {
                 constexpr std::ptrdiff_t m_cubeWidth = 0x228; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_cutoffRadius = 0x398; // CParticleCollectionRendererFloatInput
@@ -11775,8 +11489,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12050,17 +11762,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
-            // (A|
-            // `B|
-            // p?|
-            // @A|
-            // 8@|
-            // 8@|
-            // `2D
             namespace C_OP_CollideWithParentParticles {
                 constexpr std::ptrdiff_t m_flParentRadiusScale = 0x1D8; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x348; // CPerParticleFloatInput
@@ -12091,7 +11792,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -12165,7 +11865,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `LT
             namespace C_OP_SetVectorAttributeToVectorExpression {
                 constexpr std::ptrdiff_t m_nExpression = 0x1D8; // VectorExpressionType_t
                 constexpr std::ptrdiff_t m_vInput1 = 0x1E0; // CPerParticleVecInput
@@ -12227,7 +11926,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -12290,10 +11988,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
-            // @U7
-            // ` |
             namespace C_INIT_RemapInitialVisibilityScalar {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1E4; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flInputMin = 0x1E8; // float32
@@ -12323,10 +12017,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12441,25 +12132,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
             namespace C_OP_RandomForce {
                 constexpr std::ptrdiff_t m_MinForce = 0x1E8; // Vector
                 constexpr std::ptrdiff_t m_MaxForce = 0x1F4; // Vector
@@ -12478,10 +12150,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -12549,10 +12219,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12683,8 +12349,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
             namespace C_INIT_RemapTransformToVector {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1E0; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_vInputMin = 0x1E4; // Vector
@@ -12722,7 +12386,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12803,7 +12466,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -12883,7 +12545,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13034,15 +12695,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
-            // (A|
-            // `B|
-            // p?|
-            // @A|
-            // 8@|
             namespace C_OP_ConstrainDistanceToPath {
                 constexpr std::ptrdiff_t m_fMinDistance = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_flMaxDistance0 = 0x1DC; // float32
@@ -13068,8 +12720,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13089,8 +12739,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             namespace C_OP_DistanceCull {
                 constexpr std::ptrdiff_t m_nControlPoint = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_vecPointOffset = 0x1DC; // Vector
@@ -13120,8 +12768,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
             namespace C_INIT_CreateAlongPath {
                 constexpr std::ptrdiff_t m_fMaxDistance = 0x1E0; // float32
                 constexpr std::ptrdiff_t m_PathParams = 0x1F0; // CPathParameters
@@ -13196,7 +12842,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -13227,9 +12872,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // pwR
-            // ` |
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -13272,9 +12914,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13419,8 +13059,6 @@ namespace source2_dumper {
             // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            //  t_
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13626,7 +13264,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
             namespace C_OP_RenderPoints {
                 constexpr std::ptrdiff_t m_hMaterial = 0x228; // CStrongHandle<InfoForResourceTypeIMaterial2>
             }
@@ -13656,8 +13293,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13752,8 +13387,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             namespace C_INIT_CreateOnGrid {
                 constexpr std::ptrdiff_t m_nXCount = 0x1E0; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_nYCount = 0x350; // CParticleCollectionFloatInput
@@ -13859,8 +13492,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13895,8 +13526,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
-            // @qL
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14120,8 +13749,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14198,7 +13825,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
             namespace C_OP_RenderClothForce {
             }
             // Parent: None
@@ -14208,7 +13834,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -14242,8 +13867,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14533,7 +14156,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14690,8 +14312,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14821,7 +14441,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14943,7 +14562,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -14968,7 +14586,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -15062,7 +14679,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15121,7 +14737,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // ` |
             namespace C_OP_VelocityDecay {
                 constexpr std::ptrdiff_t m_flMinVelocity = 0x1D8; // float32
             }
@@ -15209,7 +14824,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15295,7 +14909,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // P7V
             namespace C_OP_SetCPOrientationToDirection {
                 constexpr std::ptrdiff_t m_nInputControlPoint = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nOutputControlPoint = 0x1DC; // int32
@@ -15326,7 +14939,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -15368,7 +14980,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15503,7 +15114,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -15547,9 +15157,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15609,7 +15216,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15706,7 +15312,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15956,7 +15561,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -16025,8 +15629,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             namespace CGeneralRandomRotation {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1E0; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flDegrees = 0x1E4; // float32
@@ -16044,9 +15646,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16061,7 +15661,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -16109,7 +15708,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -16122,8 +15720,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16198,7 +15794,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             namespace C_OP_CalculateVectorAttribute {
                 constexpr std::ptrdiff_t m_vStartValue = 0x1D8; // Vector
@@ -16231,7 +15826,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
             namespace C_OP_LockToBone {
                 constexpr std::ptrdiff_t m_modelInput = 0x1D8; // CParticleModelInput
                 constexpr std::ptrdiff_t m_transformInput = 0x238; // CParticleTransformInput
@@ -16270,8 +15864,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16376,8 +15968,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             namespace C_OP_ScreenSpaceRotateTowardTarget {
                 constexpr std::ptrdiff_t m_vecTargetPosition = 0x1D8; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_flOutputRemap = 0x890; // CParticleRemapFloatInput
@@ -16418,9 +16008,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16463,9 +16051,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @S|
-            // @Q|
-            //  KI
             namespace C_INIT_CreateWithinCapsuleTransform {
                 constexpr std::ptrdiff_t m_fRadiusMin = 0x1E0; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_fRadiusMax = 0x350; // CPerParticleFloatInput
@@ -16487,7 +16072,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             namespace C_OP_SetVec {
                 constexpr std::ptrdiff_t m_InputValue = 0x1D8; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_nOutputField = 0x890; // ParticleAttributeIndex_t
@@ -16518,9 +16102,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16859,7 +16440,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             namespace C_OP_ConnectParentParticleToNearest {
@@ -16902,8 +16482,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
             namespace C_INIT_RemapParticleCountToNamedModelBodyPartScalar {
             }
             // Parent: None
@@ -17081,7 +16659,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
             namespace C_OP_CollideWithSelf {
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x1D8; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flMinimumSpeed = 0x348; // CPerParticleFloatInput
@@ -17135,7 +16712,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
             namespace C_OP_Noise {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
@@ -17163,8 +16739,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -17206,7 +16780,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -17254,13 +16827,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -17272,7 +16843,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17304,14 +16874,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17342,7 +16910,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -17389,7 +16956,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -17427,7 +16993,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -17582,8 +17147,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17614,8 +17177,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17635,8 +17196,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             namespace C_OP_LerpScalar {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flOutput = 0x1E0; // CPerParticleFloatInput
@@ -17717,10 +17276,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -17744,7 +17301,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @{U
             namespace C_OP_ClampScalar {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flOutputMin = 0x1E0; // CPerParticleFloatInput
@@ -17934,7 +17490,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             namespace C_OP_PercentageBetweenTransforms {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flInputMin = 0x1DC; // float32
@@ -18033,7 +17588,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18044,7 +17598,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `3U
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18378,7 +17931,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -18470,8 +18022,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18538,11 +18088,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
-            // (A|
             namespace C_OP_ShapeMatchingConstraint {
                 constexpr std::ptrdiff_t m_flShapeRestorationTime = 0x1D8; // float32
             }
@@ -18564,9 +18109,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18604,7 +18147,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -18701,7 +18243,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -18732,9 +18273,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // pwR
-            // ` |
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -18781,7 +18319,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @SY
             namespace C_OP_DriveCPFromGlobalSoundFloat {
                 constexpr std::ptrdiff_t m_nOutputControlPoint = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nOutputField = 0x1E4; // int32
@@ -18866,7 +18403,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             namespace C_INIT_ScreenSpacePositionOfTarget {
                 constexpr std::ptrdiff_t m_vecTargetPosition = 0x1E0; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_bOututBehindness = 0x898; // bool
@@ -18900,8 +18436,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18937,8 +18471,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19057,10 +18589,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             namespace C_OP_RemapCPtoVector {
                 constexpr std::ptrdiff_t m_nCPInput = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -19125,8 +18654,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19190,29 +18717,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             namespace C_OP_DensityForce {
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_flForceScale = 0x1EC; // float32
@@ -19283,8 +18787,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             namespace C_INIT_CreateInEpitrochoid {
                 constexpr std::ptrdiff_t m_nComponent1 = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nComponent2 = 0x1E4; // int32
@@ -19325,10 +18827,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
             namespace C_OP_ConstrainDistanceToUserSpecifiedPath {
                 constexpr std::ptrdiff_t m_fMinDistance = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_flMaxDistance = 0x1DC; // float32
@@ -19407,7 +18905,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19417,7 +18914,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             namespace C_OP_SetFloatAttributeToVectorExpression {
                 constexpr std::ptrdiff_t m_nExpression = 0x1D8; // VectorFloatExpressionType_t
                 constexpr std::ptrdiff_t m_vInput1 = 0x1E0; // CPerParticleVecInput
@@ -19475,8 +18971,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19538,9 +19032,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
-            // ` |
             namespace C_INIT_InitFloat {
                 constexpr std::ptrdiff_t m_InputValue = 0x1E0; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_nOutputField = 0x350; // ParticleAttributeIndex_t
@@ -19559,7 +19050,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19571,7 +19061,6 @@ namespace source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             //  
-            // ` |
             namespace C_INIT_CreateOnModel {
                 constexpr std::ptrdiff_t m_modelInput = 0x1E0; // CParticleModelInput
                 constexpr std::ptrdiff_t m_transformInput = 0x240; // CParticleTransformInput
@@ -19631,8 +19120,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             namespace C_OP_InheritFromPeerSystem {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_nFieldInput = 0x1DC; // ParticleAttributeIndex_t
@@ -19659,29 +19146,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             namespace C_OP_PerParticleForce {
                 constexpr std::ptrdiff_t m_flForceScale = 0x1E8; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_vForce = 0x358; // CPerParticleVecInput
@@ -19715,8 +19179,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19772,8 +19234,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0<a
-            // @`_
             namespace C_OP_RenderProjected {
                 constexpr std::ptrdiff_t m_bProjectCharacter = 0x228; // bool
                 constexpr std::ptrdiff_t m_bProjectWorld = 0x229; // bool
@@ -19816,11 +19276,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @{U
-            //  ZV
-            // ` |
-            // ([|
-            // ` |
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -19875,9 +19330,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19915,7 +19367,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // XA|
             namespace C_OP_MaintainEmitter {
                 constexpr std::ptrdiff_t m_nParticlesToMaintain = 0x1E0; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flStartTime = 0x350; // float32
@@ -20012,9 +19463,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @S|
-            // @Q|
-            //  KI
             namespace C_INIT_RemapInitialTransformDirectionToRotation {
                 constexpr std::ptrdiff_t m_TransformInput = 0x1E0; // CParticleTransformInput
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x248; // ParticleAttributeIndex_t
@@ -20049,8 +19497,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20135,8 +19581,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20188,7 +19632,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -20232,8 +19675,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -20322,7 +19763,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // P7V
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -20372,8 +19812,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20480,7 +19918,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20521,8 +19958,6 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20592,7 +20027,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -20605,8 +20039,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             namespace C_OP_LockToSavedSequentialPath {
@@ -20646,9 +20078,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20701,7 +20130,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -20755,8 +20183,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21342,7 +20768,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21509,7 +20934,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -21522,8 +20946,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21661,29 +21083,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             namespace C_OP_CurlNoiseForce {
                 constexpr std::ptrdiff_t m_nNoiseType = 0x1E8; // ParticleDirectionNoiseType_t
                 constexpr std::ptrdiff_t m_vecNoiseFreq = 0x1F0; // CPerParticleVecInput
@@ -21868,7 +21267,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -21892,7 +21290,6 @@ namespace source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
             namespace C_OP_RenderScreenShake {
                 constexpr std::ptrdiff_t m_flDurationScale = 0x228; // float32
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x22C; // float32
@@ -21972,7 +21369,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22056,7 +21452,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -22109,7 +21504,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -22166,7 +21560,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -22216,8 +21609,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -22335,29 +21726,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             namespace C_OP_TimeVaryingForce {
                 constexpr std::ptrdiff_t m_flStartLerpTime = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_StartingForce = 0x1EC; // Vector
@@ -22378,7 +21746,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22433,14 +21800,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22471,7 +21836,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -22554,8 +21918,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             namespace C_INIT_CreateWithinSphereTransform {
                 constexpr std::ptrdiff_t m_fRadiusMin = 0x1E0; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_fRadiusMax = 0x350; // CPerParticleFloatInput
@@ -22596,11 +21958,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @{U
-            //  ZV
-            // ` |
-            // ([|
-            // ` |
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -22859,7 +22216,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // XA|
             namespace C_OP_NoiseEmitter {
                 constexpr std::ptrdiff_t m_flEmissionDuration = 0x1E0; // float32
                 constexpr std::ptrdiff_t m_flStartTime = 0x1E4; // float32
@@ -23009,7 +22365,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
+            // LL
             namespace CParticleFunctionInitializer {
                 constexpr std::ptrdiff_t m_nAssociatedEmitterIndex = 0x1D8; // int32
             }
@@ -23024,7 +22380,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  :Y
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -23112,9 +22467,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
             namespace C_OP_PlanarConstraint {
                 constexpr std::ptrdiff_t m_PointOnPlane = 0x1D8; // Vector
                 constexpr std::ptrdiff_t m_PlaneNormal = 0x1E4; // Vector
@@ -23244,7 +22596,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -23344,7 +22695,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -23382,9 +22732,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
-            // XV|
-            // PZ|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23402,7 +22749,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             namespace C_OP_RemapNamedModelElementEndCap {
                 constexpr std::ptrdiff_t m_hModel = 0x1D8; // CStrongHandle<InfoForResourceTypeCModel>
                 constexpr std::ptrdiff_t m_inNames = 0x1E0; // CUtlVector<CUtlString>
@@ -23546,9 +22892,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23587,10 +22931,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23763,12 +23104,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PRJ
             namespace C_INIT_RandomColor {
                 constexpr std::ptrdiff_t m_ColorMin = 0x1FC; // Color
                 constexpr std::ptrdiff_t m_ColorMax = 0x200; // Color
@@ -23839,8 +23178,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24009,7 +23346,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24019,7 +23355,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             namespace C_OP_RampScalarLinearSimple {
                 constexpr std::ptrdiff_t m_Rate = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_flStartTime = 0x1DC; // float32
@@ -24128,7 +23463,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -24354,10 +23688,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            //  4I
-            // @T|
-            // `AL
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24432,7 +23762,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24442,15 +23771,10 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24525,10 +23849,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             namespace C_OP_RemapDensityToVector {
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -24782,7 +24103,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
+            // LL
             namespace CParticleFunctionConstraint {
             }
             // Parent: None
@@ -24797,8 +24118,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25252,7 +24571,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
+            // LL
             namespace CParticleFunctionEmitter {
                 constexpr std::ptrdiff_t m_nEmitterIndex = 0x1D8; // int32
             }
@@ -25352,11 +24671,9 @@ namespace source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @SY
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // \C{
             namespace C_OP_SetControlPointOrientationToCPVelocity {
                 constexpr std::ptrdiff_t m_nCPInput = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nCPOutput = 0x1E4; // int32
@@ -25541,8 +24858,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25589,7 +24904,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -25770,7 +25084,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // P7V
             namespace C_OP_SetToCP {
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_vecOffset = 0x1DC; // Vector
@@ -25804,29 +25117,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             namespace C_OP_ParentVortices {
                 constexpr std::ptrdiff_t m_flForceScale = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_vecTwistAxis = 0x1EC; // Vector
@@ -25838,7 +25128,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -26320,7 +25609,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             namespace C_OP_PercentageBetweenTransformLerpCPs {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flInputMin = 0x1DC; // float32
@@ -26348,6 +25636,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             namespace C_OP_SetPerChildControlPoint {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nFirstControlPoint = 0x1DC; // int32
@@ -26431,11 +25721,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
-            // 0XC
-            // x |
-            // ` |
-            // 8$|
             namespace C_OP_WorldCollideConstraint {
             }
             // Parent: None
@@ -26446,8 +25731,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26532,7 +25815,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -26814,7 +26096,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -26998,9 +26279,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @S|
-            // @Q|
-            //  KI
             namespace C_INIT_SequenceFromCP {
                 constexpr std::ptrdiff_t m_bKillUnused = 0x1E0; // bool
                 constexpr std::ptrdiff_t m_bRadiusScale = 0x1E1; // bool
@@ -27016,14 +26294,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -27054,7 +26330,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -27136,7 +26411,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName

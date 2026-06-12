@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 package schemas
 
@@ -3162,7 +3162,6 @@ const (
     ClientDll_CDOTA_Modifier_Kez_GrapplingClaw_Movement_m_Activity = 0x1A50 // GameActivity_t
     ClientDll_CDOTA_Modifier_Kez_GrapplingClaw_Movement_m_flTimeLeftForActivity = 0x1A54 // float32
     ClientDll_CDOTA_Modifier_Kez_GrapplingClaw_Movement_m_nGrappleAttackRecord = 0x1A58 // AttackRecord_t
-    ClientDll_CDOTA_Modifier_Kez_GrapplingClaw_Movement_m_pTree = 0x1A60 // C_DotaTree*
     ClientDll_CDOTA_Modifier_Ringmaster_Spotlight_Thinker_self_spotlight = 0x19D8 // bool
     ClientDll_CDOTA_Modifier_Ringmaster_Spotlight_Thinker_radius = 0x19DC // float32
     ClientDll_CDOTA_Modifier_Ringmaster_Spotlight_Thinker_initial_speed = 0x19E0 // float32

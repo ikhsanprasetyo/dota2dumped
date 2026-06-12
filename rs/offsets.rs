@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -7,16 +7,16 @@ pub mod source2_dumper {
     pub mod offsets {
         // Module: client.dll
         pub mod client_dll {
-            pub const dwEntityList: usize = 0x66E86A8;
-            pub const dwGameEntitySystem: usize = 0x66E86A8;
+            pub const dwEntityList: usize = 0x66EB688;
+            pub const dwGameEntitySystem: usize = 0x66EB688;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
-            pub const dwGlobalVars: usize = 0x5CA55B0;
-            pub const dwLocalPlayerPawn: usize = 0x5CB0778;
-            pub const dwPrediction: usize = 0x5CB06A0;
-            pub const dwSensitivity: usize = 0x638EC68;
+            pub const dwGlobalVars: usize = 0x5CA85B0;
+            pub const dwLocalPlayerPawn: usize = 0x5CB3778;
+            pub const dwPrediction: usize = 0x5CB36A0;
+            pub const dwSensitivity: usize = 0x6391B68;
             pub const dwSensitivity_sensitivity: usize = 0x58;
-            pub const dwViewMatrix: usize = 0x63968A0;
-            pub const dwViewRender: usize = 0x6395F88;
+            pub const dwViewMatrix: usize = 0x63997A0;
+            pub const dwViewRender: usize = 0x6398E88;
         }
         // Module: engine2.dll
         pub mod engine2_dll {

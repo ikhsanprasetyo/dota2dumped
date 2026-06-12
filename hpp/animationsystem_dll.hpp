@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #pragma once
 
@@ -1540,6 +1540,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             namespace CPulseCell_FireCursors {
                 constexpr std::ptrdiff_t m_Outflows = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 constexpr std::ptrdiff_t m_bWaitForChildOutflows = 0x60; // bool
@@ -1595,6 +1596,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1676,6 +1678,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             namespace CPulseCell_Value_Gradient {
@@ -1890,6 +1893,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             namespace CPulseCell_Value_Curve {
                 constexpr std::ptrdiff_t m_Curve = 0x48; // CPiecewiseCurve
             }
@@ -2800,6 +2804,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // s
             namespace PerTickSettings_t {
                 constexpr std::ptrdiff_t m_startingLocalToWorld = 0x0; // CTransform
                 constexpr std::ptrdiff_t m_prevLocalToWorld = 0x20; // CTransform
@@ -3100,6 +3105,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // s
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3328,6 +3334,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             namespace CNmIDEventNode__CDefinition {
                 constexpr std::ptrdiff_t m_nSourceStateNodeIdx = 0x10; // int16
                 constexpr std::ptrdiff_t m_eventConditionRules = 0x14; // CNmBitFlags
@@ -3463,6 +3470,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // s
             namespace AnimationSnapshot_t {
                 constexpr std::ptrdiff_t m_nEntIndex = 0x110; // int32
                 constexpr std::ptrdiff_t m_modelName = 0x118; // CUtlString
@@ -3690,6 +3698,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3742,6 +3751,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // s
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3825,6 +3835,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3985,6 +3996,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             namespace CAnimGraphNetworkSettings {
                 constexpr std::ptrdiff_t m_bNetworkingEnabled = 0x20; // bool
             }
@@ -4149,6 +4161,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             namespace CNmIDEventConditionNode__CDefinition {
                 constexpr std::ptrdiff_t m_nSourceStateNodeIdx = 0x10; // int16
                 constexpr std::ptrdiff_t m_eventConditionRules = 0x14; // CNmBitFlags
@@ -4268,6 +4281,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // s
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4655,6 +4669,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             namespace CNmIDEventPercentageThroughNode__CDefinition {
                 constexpr std::ptrdiff_t m_nSourceStateNodeIdx = 0x10; // int16
                 constexpr std::ptrdiff_t m_eventConditionRules = 0x14; // CNmBitFlags
@@ -4903,9 +4918,11 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // k
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // s
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPathHelperUpdateNode {
@@ -5028,6 +5045,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             namespace CFootFallAnimTag {
                 constexpr std::ptrdiff_t m_foot = 0x58; // FootFallTagFoot_t
             }
@@ -5601,6 +5619,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5704,7 +5723,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // dota_healing_campfire
-            // on312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             namespace CBaseConstraint {
@@ -6319,6 +6337,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7141,6 +7160,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // h
             // MGetKV3ClassDefaults
+            // k
             namespace CFootLockUpdateNode {
                 constexpr std::ptrdiff_t m_opFixedSettings = 0x70; // FootLockPoseOpFixedSettings
                 constexpr std::ptrdiff_t m_footSettings = 0xE0; // CUtlVector<FootFixedSettings>
@@ -7208,6 +7228,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // k
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7689,6 +7710,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // s
             namespace HSequence {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -8099,6 +8121,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // k
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CLookAtUpdateNode {
@@ -8998,6 +9021,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // s
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9970,6 +9994,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10743,6 +10768,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11060,6 +11086,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11260,6 +11287,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11918,6 +11946,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // h
             // MGetKV3ClassDefaults
+            // k
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12193,9 +12222,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // k
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // s
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12236,6 +12267,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // a
             namespace CMaterialAttributeAnimTag {
                 constexpr std::ptrdiff_t m_AttributeName = 0x58; // CUtlString
                 constexpr std::ptrdiff_t m_AttributeType = 0x60; // MatterialAttributeTagType_t
@@ -12625,7 +12657,6 @@ namespace source2_dumper {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
-            // c
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY

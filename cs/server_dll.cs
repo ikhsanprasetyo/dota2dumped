@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7529
-    // Enum count: 432
+    // Enum count: 430
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -9593,6 +9593,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
+        // @
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
@@ -14284,7 +14285,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MKV3TransferSaveOpsForField
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_flInnerDistance = 0x108; // float32
@@ -14487,6 +14487,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
+        // @
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
@@ -16013,7 +16014,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_Activity = 0x1A50; // GameActivity_t
             public const nint m_flTimeLeftForActivity = 0x1A54; // float32
             public const nint m_nGrappleAttackRecord = 0x1A58; // AttackRecord_t
-            public const nint m_pTree = 0x1A60; // CDOTA_Tree*
+            public const nint m_hTree = 0x1A5C; // CHandle<CBaseEntity>
         }
         // Parent: None
         // Field count: 10
@@ -19515,6 +19516,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -19861,6 +19863,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         public static class CPulseCell_Value_Gradient {
@@ -20540,6 +20543,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyDescription
         // MPropertyDescription
+        // @
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
@@ -22496,7 +22500,10 @@ namespace Source2Dumper.Schemas {
         // Field count: 29
         //
         // Metadata:
+        // MPulseEditorHeaderExpr
+        // MPulsePolymorphicDependentReturn
         // MGetKV3ClassDefaults
+        //  
         public static class CEnvCombinedLightProbeVolume {
             public const nint m_Entity_Color = 0x1510; // Color
             public const nint m_Entity_flBrightness = 0x1514; // float32
@@ -24274,6 +24281,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 12
         //
         // Metadata:
+        // z
         // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
         // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
         // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
@@ -26331,7 +26339,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
-        // @
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -28552,6 +28559,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // n
         public static class CPulseCell_Value_Curve {
             public const nint m_Curve = 0x48; // CPiecewiseCurve
         }
@@ -30734,6 +30742,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 3
+        //
+        // Metadata:
+        // i
         public static class CFogController {
             public const nint m_fog = 0x498; // fogparams_t
             public const nint m_bUseAngles = 0x500; // bool
@@ -31349,6 +31360,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -34419,6 +34431,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 7
+        //
+        // Metadata:
+        // i
         public static class CPointOrient {
             public const nint m_iszSpawnTargetName = 0x498; // CUtlSymbolLarge
             public const nint m_hTarget = 0x4A0; // CHandle<CBaseEntity>
@@ -38366,6 +38381,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 9
         //
         // Metadata:
+        // +
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -40923,6 +40939,7 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
+        // i
         public static class CPointCamera {
             public const nint m_FOV = 0x498; // float32
             public const nint m_Resolution = 0x49C; // float32
@@ -42847,6 +42864,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
+        // @
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
@@ -48125,6 +48143,7 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
+        // i
         public static class CEnvWindVolume {
             public const nint m_bActive = 0x498; // bool
             public const nint m_vBoxMins = 0x49C; // Vector
@@ -54243,6 +54262,7 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
+        // @
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
         // MPropertyDescription
@@ -56303,12 +56323,11 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
-        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FantasyLeagueID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -56541,6 +56560,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomFGDType
+        // r
         public static class CFootstepTableHandle {
         }
         // Parent: None
@@ -56871,6 +56891,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
+        // w
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -57000,6 +57022,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
+        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FantasyGemSlot_t {
@@ -57051,6 +57074,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // n
+        // n
         public static class AmmoIndex_t {
             public const nint m_Value = 0x0; // int8
         }
@@ -57300,12 +57327,11 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
-        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FantasyTabletID_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -57806,6 +57832,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
+        // +
         public static class BlessingType_t {
             public const nint nID = 0x0; // BlessingTypeID_t
             public const nint szIconImage = 0x10; // CPanoramaImageName
@@ -57892,9 +57919,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
+        // MGetKV3ClassDefaults
         public static class FantasyGemQuality_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -58327,9 +58352,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
+        // MGetKV3ClassDefaults
         public static class FantasyGemShape_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -58400,7 +58423,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
-        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
@@ -58448,6 +58470,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // +
         public static class attrib_definition_index_db32_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -58587,6 +58610,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // +
         public static class itemid_t {
             public const nint m_Value = 0x0; // uint64
         }
@@ -58729,6 +58753,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
+        // w
+        // w
         // MGetKV3ClassDefaults
         public static class BlessingTypeID_t {
             public const nint m_Value = 0x0; // int32
@@ -58777,6 +58803,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // CHAT_IGNORE_ALL
         // CHAT_IGNORE_TEAM
+        // MKV3TransferSaveOpsForField
         // reset_cycle
         public static class CBaseAnimGraphVariationUserData {
         }
@@ -59034,6 +59061,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // +
         public static class style_index_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59266,6 +59294,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // +
         public static class item_definition_index_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -59413,6 +59442,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // +
         public static class item_steam_cache_version_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59724,9 +59754,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // generic
         public static class ChatWheelMessageID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -59756,6 +59783,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
+        // w
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -59844,6 +59873,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // +
         public static class HeroPersona_t {
             public const nint m_Value = 0x0; // int8
         }
@@ -59937,6 +59967,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // n
+        // n
         public static class ParticleIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -60125,9 +60159,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
+        // MGetKV3ClassDefaults
         public static class FantasyCraftDataID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -60459,27 +60491,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // DFLAG_SUPPRESS_HEALTH_CHANGES
         // DFLAG_SUPPRESS_PHYSICS_FORCE
+        // DFLAG_SUPPRESS_EFFECTS
         public static class CEmptyGraphController {
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
-        // TEXT
-        // ENTITY
-        // COUNT
-        // TACTICAL_SEARCH
-        // AI_SCHEDULE
-        // AI_TASK
-        // AI_EVENT
-        // AI_PATHFINDING
-        // END_SIM_HISTORY_TYPES
-        // COMBINED
-        // MATCH
-        // HIERARCHY
-        // COUNT
-        // ANY
-        // COUNT
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
@@ -60571,6 +60589,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // +
         public static class attrib_definition_index_t {
             public const nint m_Value = 0x0; // uint16
         }

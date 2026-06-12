@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -790,7 +790,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // 0ru
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -895,6 +894,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             pub mod CPulseCell_FireCursors {
                 pub const m_Outflows: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 pub const m_bWaitForChildOutflows: usize = 0x60; // bool
@@ -932,14 +932,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseRequirement {
             }
@@ -954,6 +950,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -993,7 +990,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
-            // 0ru
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1022,6 +1018,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             pub mod CPulseCell_Value_Gradient {
@@ -1064,14 +1061,10 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_GraphHook {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
@@ -1089,14 +1082,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_BaseEntrypoint {
                 pub const m_EntryChunk: usize = 0x48; // PulseRuntimeChunkIndex_t
@@ -1133,7 +1122,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
-            // @U7
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1174,7 +1162,6 @@ pub mod source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1203,7 +1190,6 @@ pub mod source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1239,7 +1225,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
-            // @U7
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1254,14 +1239,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EventHandler {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
@@ -1271,7 +1252,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // `Zm
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1342,7 +1322,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @U7
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1376,14 +1355,10 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_EntOutputHandler {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
@@ -1438,7 +1413,6 @@ pub mod source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1491,7 +1465,6 @@ pub mod source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1512,7 +1485,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1547,7 +1519,6 @@ pub mod source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1566,7 +1537,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1590,14 +1560,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @U7
-            // @U7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Method {
                 pub const m_MethodName: usize = 0x80; // PulseSymbol_t
@@ -1619,7 +1585,6 @@ pub mod source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1682,9 +1647,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_Yield {
                 pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
@@ -1706,11 +1669,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  zl
             // MGetKV3ClassDefaults
-            // p}l
             // MGetKV3ClassDefaults
-            // `Zm
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleRandom {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
@@ -1727,7 +1687,6 @@ pub mod source2_dumper {
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // P|l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1791,17 +1750,10 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @Ak
-            // ppu
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            //  8k
-            //  :k
-            // @;k
-            // @tu
-            // Ptu
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
@@ -2093,8 +2045,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2219,8 +2169,6 @@ pub mod source2_dumper {
             // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            //  t_
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2313,8 +2261,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -2396,9 +2342,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
-            // \Python\Python312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\Byteseeke
-            // 8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x1071,0x28de/
+            // LL
             pub mod CParticleFunctionPreEmission {
                 pub const m_bRunOnce: usize = 0x1D8; // bool
             }
@@ -2408,7 +2352,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2430,7 +2373,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             pub mod C_OP_FadeOutSimple {
                 pub const m_flFadeOutTime: usize = 0x1D8; // float32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -2474,7 +2416,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
             pub mod C_OP_SpringToVectorConstraint {
                 pub const m_flRestLength: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_flMinDistance: usize = 0x348; // CPerParticleFloatInput
@@ -2873,6 +2814,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             pub mod C_OP_SetControlPointsToParticle {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32
@@ -3011,7 +2954,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             pub mod C_OP_PointVectorAtNextParticle {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flInterpolation: usize = 0x1E0; // CPerParticleFloatInput
@@ -3042,8 +2984,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3064,7 +3004,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @U7
             pub mod C_OP_OscillateScalarSimple {
                 pub const m_Rate: usize = 0x1D8; // float32
                 pub const m_Frequency: usize = 0x1DC; // float32
@@ -3191,10 +3130,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            //  4I
-            // @T|
-            // `AL
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3278,8 +3213,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
-            // 0XC
             pub mod C_OP_ConstrainDistance {
                 pub const m_fMinDistance: usize = 0x1D8; // CParticleCollectionFloatInput
                 pub const m_fMaxDistance: usize = 0x348; // CParticleCollectionFloatInput
@@ -3395,7 +3328,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3477,7 +3409,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3547,9 +3478,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3571,10 +3499,8 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `LT
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // @(V
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3671,8 +3597,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             pub mod C_INIT_VelocityRandom {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_fSpeedMin: usize = 0x1E8; // CPerParticleFloatInput
@@ -3698,6 +3622,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             pub mod C_OP_ModelDampenMovement {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_bBoundBox: usize = 0x1DC; // bool
@@ -3728,29 +3654,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             pub mod C_OP_TwistAroundAxis {
                 pub const m_fForceAmount: usize = 0x1E8; // float32
                 pub const m_TwistAxis: usize = 0x1EC; // Vector
@@ -3808,7 +3711,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub mod C_OP_TeleportBeam {
@@ -4204,15 +4106,10 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // h
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4251,7 +4148,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4285,6 +4181,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             pub mod C_OP_OrientTo2dDirection {
                 pub const m_vecInput: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_flRotOffset: usize = 0x890; // float32
@@ -4296,7 +4194,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -4525,7 +4422,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  :Y
             pub mod C_OP_SetControlPointPositionToTimeOfDayValue {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_pszTimeOfDayParameter: usize = 0x1E4; // char[128]
@@ -4598,7 +4494,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -4646,9 +4541,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
-            // XV|
-            // PZ|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4674,12 +4566,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @>Y
-            // 0`Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -4798,14 +4687,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4836,7 +4723,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -4892,7 +4778,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4969,7 +4854,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5032,7 +4916,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -5045,8 +4928,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             pub mod C_INIT_SetHitboxToClosest {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
@@ -5265,7 +5146,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5338,7 +5218,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
@@ -5349,10 +5228,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             pub mod C_OP_DistanceBetweenTransforms {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_TransformStart: usize = 0x1E0; // CParticleTransformInput
@@ -5429,7 +5306,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -5482,7 +5358,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // P7V
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -5546,7 +5421,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -5569,12 +5443,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @>Y
-            // 0`Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -5628,7 +5499,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // XA|
             pub mod C_OP_ContinuousEmitter {
                 pub const m_flEmissionDuration: usize = 0x1E0; // CParticleCollectionFloatInput
                 pub const m_flStartTime: usize = 0x350; // CParticleCollectionFloatInput
@@ -5698,8 +5568,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5740,7 +5608,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5752,7 +5619,6 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             //  
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -5883,10 +5749,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `LT
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // @(V
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5923,7 +5787,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -5976,7 +5839,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  AT
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -6048,18 +5910,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
-            // ` |
-            // ` |
-            // PWL
-            // @U7
-            // PFL
-            // pA|
-            // ` |
-            // @T|
-            // @Q|
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6428,9 +6278,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6525,7 +6373,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6556,7 +6403,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -6587,8 +6433,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // pwR
-            // ` |
             pub mod C_OP_SetPerChildControlPointFromAttribute {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32
@@ -6689,8 +6533,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
-            // 0XC
             pub mod C_OP_BoxConstraint {
                 pub const m_vecMin: usize = 0x1D8; // CParticleCollectionVecInput
                 pub const m_vecMax: usize = 0x890; // CParticleCollectionVecInput
@@ -6717,7 +6559,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -6777,9 +6618,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
-            // XV|
-            // PZ|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6972,9 +6810,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7163,7 +6998,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7337,7 +7171,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7483,8 +7316,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7582,7 +7413,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7660,9 +7490,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
-            // \Python\Python312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\Byteseeke
-            // 8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x1071,0x28de/
+            // LL
             pub mod CParticleFunctionForce {
             }
             // Parent: None
@@ -7768,9 +7596,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // pwR
-            // ` |
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7825,7 +7650,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -7890,10 +7714,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8009,7 +7829,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
@@ -8121,7 +7940,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @SY
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -8161,7 +7979,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8224,7 +8041,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8244,7 +8060,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             pub mod C_OP_RemapScalarEndCap {
                 pub const m_nFieldInput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -8364,7 +8179,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `3U
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8474,6 +8288,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             pub mod C_OP_SpinUpdate {
             }
             // Parent: None
@@ -8592,7 +8408,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub mod C_OP_RemapDistanceToLineSegmentToVector {
@@ -8787,7 +8602,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8800,8 +8614,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             pub mod C_OP_Spin {
@@ -8883,7 +8695,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // XA|
             pub mod C_OP_InstantaneousEmitter {
                 pub const m_nParticlesToEmit: usize = 0x1E0; // CParticleCollectionFloatInput
                 pub const m_flStartTime: usize = 0x350; // CParticleCollectionFloatInput
@@ -8914,11 +8725,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
-            // 0XC
-            // x |
-            // ` |
-            // 8$|
             pub mod C_OP_ConstrainLineLength {
                 pub const m_flMinDistance: usize = 0x1D8; // float32
                 pub const m_flMaxDistance: usize = 0x1DC; // float32
@@ -9052,8 +8858,6 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0<a
-            // @`_
             pub mod CBaseTrailRenderer {
                 pub const m_nOrientationType: usize = 0x2DF0; // ParticleOrientationChoiceList_t
                 pub const m_nOrientationControlPoint: usize = 0x2DF4; // int32
@@ -9099,8 +8903,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             pub mod C_INIT_VelocityFromCP {
                 pub const m_velocityInput: usize = 0x1E0; // CParticleCollectionVecInput
                 pub const m_transformInput: usize = 0x898; // CParticleTransformInput
@@ -9190,7 +8992,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -9286,7 +9087,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -9320,8 +9120,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9353,11 +9151,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @{U
-            //  ZV
-            // ` |
-            // ([|
-            // ` |
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -9426,8 +9219,6 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0<a
-            // @`_
             pub mod C_OP_RenderVRHapticEvent {
                 pub const m_nHand: usize = 0x228; // ParticleVRHandChoiceList_t
                 pub const m_nOutputHandCP: usize = 0x22C; // int32
@@ -9599,8 +9390,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9652,26 +9441,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
             pub mod C_OP_TurbulenceForce {
                 pub const m_flNoiseCoordScale0: usize = 0x1E8; // float32
                 pub const m_flNoiseCoordScale1: usize = 0x1EC; // float32
@@ -9716,7 +9485,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9726,15 +9494,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9774,12 +9537,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @>Y
-            // 0`Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9805,15 +9565,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9883,7 +9638,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             pub mod C_OP_RenderGpuImplicit {
                 pub const m_bUsePerParticleRadius: usize = 0x228; // bool
                 pub const m_nVertexCountKb: usize = 0x22C; // uint32
@@ -10039,7 +9793,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10096,17 +9849,14 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             pub mod C_OP_RemapControlPointDirectionToVector {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flScale: usize = 0x1DC; // float32
@@ -10246,9 +9996,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
-            // \Python\Python312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\Byteseeke
-            // 8/0x6001,0x2dc8/0x6101,0x2dc8/0x6003,0x2dc8/0x6006,0x2dc8/0x6009,0x2dc8/0x6012,0x28de/0x1002,0x28de/0x1003,0x28de/0x1071,0x28de/
+            // LL
             pub mod CParticleFunctionOperator {
             }
             // Parent: None
@@ -10281,9 +10029,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10309,7 +10055,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10320,7 +10065,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `3U
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10389,7 +10133,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10423,7 +10166,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -10468,12 +10210,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @>Y
-            // 0`Y
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10490,8 +10229,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
-            // @qL
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10537,9 +10274,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11024,8 +10759,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -11369,7 +11102,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `3U
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11460,7 +11192,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11473,8 +11204,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11507,10 +11236,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11561,10 +11287,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
-            // @U7
-            // ` |
             pub mod C_INIT_PositionPlaceOnGround {
                 pub const m_flOffset: usize = 0x1E0; // CPerParticleFloatInput
                 pub const m_flMaxTraceLength: usize = 0x350; // CPerParticleFloatInput
@@ -11597,7 +11319,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11666,8 +11387,6 @@ pub mod source2_dumper {
             // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            //  t_
-            // ` |
             pub mod C_OP_RenderPostProcessing {
                 pub const m_flPostProcessStrength: usize = 0x228; // CPerParticleFloatInput
                 pub const m_hPostTexture: usize = 0x398; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
@@ -11698,10 +11417,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
             pub mod C_OP_WorldTraceConstraint {
                 pub const m_nCP: usize = 0x1D8; // int32
                 pub const m_vecCpOffset: usize = 0x1DC; // Vector
@@ -11736,7 +11451,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             pub mod C_OP_RenderBlobs {
                 pub const m_cubeWidth: usize = 0x228; // CParticleCollectionRendererFloatInput
                 pub const m_cutoffRadius: usize = 0x398; // CParticleCollectionRendererFloatInput
@@ -11848,8 +11562,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12123,17 +11835,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
-            // (A|
-            // `B|
-            // p?|
-            // @A|
-            // 8@|
-            // 8@|
-            // `2D
             pub mod C_OP_CollideWithParentParticles {
                 pub const m_flParentRadiusScale: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_flRadiusScale: usize = 0x348; // CPerParticleFloatInput
@@ -12164,7 +11865,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -12238,7 +11938,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `LT
             pub mod C_OP_SetVectorAttributeToVectorExpression {
                 pub const m_nExpression: usize = 0x1D8; // VectorExpressionType_t
                 pub const m_vInput1: usize = 0x1E0; // CPerParticleVecInput
@@ -12300,7 +11999,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -12363,10 +12061,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
-            // @U7
-            // ` |
             pub mod C_INIT_RemapInitialVisibilityScalar {
                 pub const m_nFieldOutput: usize = 0x1E4; // ParticleAttributeIndex_t
                 pub const m_flInputMin: usize = 0x1E8; // float32
@@ -12396,10 +12090,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12514,25 +12205,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
             pub mod C_OP_RandomForce {
                 pub const m_MinForce: usize = 0x1E8; // Vector
                 pub const m_MaxForce: usize = 0x1F4; // Vector
@@ -12551,10 +12223,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -12622,10 +12292,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12756,8 +12422,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
             pub mod C_INIT_RemapTransformToVector {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
                 pub const m_vInputMin: usize = 0x1E4; // Vector
@@ -12795,7 +12459,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12876,7 +12539,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -12956,7 +12618,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13107,15 +12768,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
-            // (A|
-            // `B|
-            // p?|
-            // @A|
-            // 8@|
             pub mod C_OP_ConstrainDistanceToPath {
                 pub const m_fMinDistance: usize = 0x1D8; // float32
                 pub const m_flMaxDistance0: usize = 0x1DC; // float32
@@ -13141,8 +12793,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13162,8 +12812,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             pub mod C_OP_DistanceCull {
                 pub const m_nControlPoint: usize = 0x1D8; // int32
                 pub const m_vecPointOffset: usize = 0x1DC; // Vector
@@ -13193,8 +12841,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
             pub mod C_INIT_CreateAlongPath {
                 pub const m_fMaxDistance: usize = 0x1E0; // float32
                 pub const m_PathParams: usize = 0x1F0; // CPathParameters
@@ -13269,7 +12915,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -13300,9 +12945,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // pwR
-            // ` |
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -13345,9 +12987,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13492,8 +13132,6 @@ pub mod source2_dumper {
             // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            //  t_
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13699,7 +13337,6 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
             pub mod C_OP_RenderPoints {
                 pub const m_hMaterial: usize = 0x228; // CStrongHandle<InfoForResourceTypeIMaterial2>
             }
@@ -13729,8 +13366,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13825,8 +13460,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             pub mod C_INIT_CreateOnGrid {
                 pub const m_nXCount: usize = 0x1E0; // CParticleCollectionFloatInput
                 pub const m_nYCount: usize = 0x350; // CParticleCollectionFloatInput
@@ -13932,8 +13565,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13968,8 +13599,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
-            // @qL
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14193,8 +13822,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14271,7 +13898,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
             pub mod C_OP_RenderClothForce {
             }
             // Parent: None
@@ -14281,7 +13907,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -14315,8 +13940,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14606,7 +14229,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14763,8 +14385,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14894,7 +14514,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15016,7 +14635,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -15041,7 +14659,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -15135,7 +14752,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15194,7 +14810,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // ` |
             pub mod C_OP_VelocityDecay {
                 pub const m_flMinVelocity: usize = 0x1D8; // float32
             }
@@ -15282,7 +14897,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15368,7 +14982,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // P7V
             pub mod C_OP_SetCPOrientationToDirection {
                 pub const m_nInputControlPoint: usize = 0x1D8; // int32
                 pub const m_nOutputControlPoint: usize = 0x1DC; // int32
@@ -15399,7 +15012,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -15441,7 +15053,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15576,7 +15187,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -15620,9 +15230,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15682,7 +15289,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15779,7 +15385,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16029,7 +15634,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -16098,8 +15702,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             pub mod CGeneralRandomRotation {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
                 pub const m_flDegrees: usize = 0x1E4; // float32
@@ -16117,9 +15719,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16134,7 +15734,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -16182,7 +15781,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -16195,8 +15793,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16271,7 +15867,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             pub mod C_OP_CalculateVectorAttribute {
                 pub const m_vStartValue: usize = 0x1D8; // Vector
@@ -16304,7 +15899,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
             pub mod C_OP_LockToBone {
                 pub const m_modelInput: usize = 0x1D8; // CParticleModelInput
                 pub const m_transformInput: usize = 0x238; // CParticleTransformInput
@@ -16343,8 +15937,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16449,8 +16041,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             pub mod C_OP_ScreenSpaceRotateTowardTarget {
                 pub const m_vecTargetPosition: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_flOutputRemap: usize = 0x890; // CParticleRemapFloatInput
@@ -16491,9 +16081,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16536,9 +16124,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @S|
-            // @Q|
-            //  KI
             pub mod C_INIT_CreateWithinCapsuleTransform {
                 pub const m_fRadiusMin: usize = 0x1E0; // CPerParticleFloatInput
                 pub const m_fRadiusMax: usize = 0x350; // CPerParticleFloatInput
@@ -16560,7 +16145,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             pub mod C_OP_SetVec {
                 pub const m_InputValue: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_nOutputField: usize = 0x890; // ParticleAttributeIndex_t
@@ -16591,9 +16175,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16932,7 +16513,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub mod C_OP_ConnectParentParticleToNearest {
@@ -16975,8 +16555,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
             pub mod C_INIT_RemapParticleCountToNamedModelBodyPartScalar {
             }
             // Parent: None
@@ -17154,7 +16732,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
             pub mod C_OP_CollideWithSelf {
                 pub const m_flRadiusScale: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_flMinimumSpeed: usize = 0x348; // CPerParticleFloatInput
@@ -17208,7 +16785,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
             pub mod C_OP_Noise {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -17236,8 +16812,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -17279,7 +16853,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -17327,13 +16900,11 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -17345,7 +16916,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17377,14 +16947,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17415,7 +16983,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -17462,7 +17029,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -17500,7 +17066,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -17655,8 +17220,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17687,8 +17250,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17708,8 +17269,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             pub mod C_OP_LerpScalar {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flOutput: usize = 0x1E0; // CPerParticleFloatInput
@@ -17790,10 +17349,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -17817,7 +17374,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @{U
             pub mod C_OP_ClampScalar {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flOutputMin: usize = 0x1E0; // CPerParticleFloatInput
@@ -18007,7 +17563,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             pub mod C_OP_PercentageBetweenTransforms {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flInputMin: usize = 0x1DC; // float32
@@ -18106,7 +17661,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18117,7 +17671,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // `3U
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18451,7 +18004,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -18543,8 +18095,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18611,11 +18161,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
-            // (A|
             pub mod C_OP_ShapeMatchingConstraint {
                 pub const m_flShapeRestorationTime: usize = 0x1D8; // float32
             }
@@ -18637,9 +18182,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18677,7 +18220,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -18774,7 +18316,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -18805,9 +18346,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // pwR
-            // ` |
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -18854,7 +18392,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @SY
             pub mod C_OP_DriveCPFromGlobalSoundFloat {
                 pub const m_nOutputControlPoint: usize = 0x1E0; // int32
                 pub const m_nOutputField: usize = 0x1E4; // int32
@@ -18939,7 +18476,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             pub mod C_INIT_ScreenSpacePositionOfTarget {
                 pub const m_vecTargetPosition: usize = 0x1E0; // CPerParticleVecInput
                 pub const m_bOututBehindness: usize = 0x898; // bool
@@ -18973,8 +18509,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19010,8 +18544,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19130,10 +18662,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             pub mod C_OP_RemapCPtoVector {
                 pub const m_nCPInput: usize = 0x1D8; // int32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -19198,8 +18727,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19263,29 +18790,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             pub mod C_OP_DensityForce {
                 pub const m_flRadiusScale: usize = 0x1E8; // float32
                 pub const m_flForceScale: usize = 0x1EC; // float32
@@ -19356,8 +18860,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             pub mod C_INIT_CreateInEpitrochoid {
                 pub const m_nComponent1: usize = 0x1E0; // int32
                 pub const m_nComponent2: usize = 0x1E4; // int32
@@ -19398,10 +18900,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
-            // pA|
             pub mod C_OP_ConstrainDistanceToUserSpecifiedPath {
                 pub const m_fMinDistance: usize = 0x1D8; // float32
                 pub const m_flMaxDistance: usize = 0x1DC; // float32
@@ -19480,7 +18978,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19490,7 +18987,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             pub mod C_OP_SetFloatAttributeToVectorExpression {
                 pub const m_nExpression: usize = 0x1D8; // VectorFloatExpressionType_t
                 pub const m_vInput1: usize = 0x1E0; // CPerParticleVecInput
@@ -19548,8 +19044,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19611,9 +19105,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 0`J
-            // `,L
-            // ` |
             pub mod C_INIT_InitFloat {
                 pub const m_InputValue: usize = 0x1E0; // CPerParticleFloatInput
                 pub const m_nOutputField: usize = 0x350; // ParticleAttributeIndex_t
@@ -19632,7 +19123,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19644,7 +19134,6 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             //  
-            // ` |
             pub mod C_INIT_CreateOnModel {
                 pub const m_modelInput: usize = 0x1E0; // CParticleModelInput
                 pub const m_transformInput: usize = 0x240; // CParticleTransformInput
@@ -19704,8 +19193,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             pub mod C_OP_InheritFromPeerSystem {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nFieldInput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -19732,29 +19219,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             pub mod C_OP_PerParticleForce {
                 pub const m_flForceScale: usize = 0x1E8; // CPerParticleFloatInput
                 pub const m_vForce: usize = 0x358; // CPerParticleVecInput
@@ -19788,8 +19252,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19845,8 +19307,6 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // 0<a
-            // @`_
             pub mod C_OP_RenderProjected {
                 pub const m_bProjectCharacter: usize = 0x228; // bool
                 pub const m_bProjectWorld: usize = 0x229; // bool
@@ -19889,11 +19349,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @{U
-            //  ZV
-            // ` |
-            // ([|
-            // ` |
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -19948,9 +19403,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19988,7 +19440,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // XA|
             pub mod C_OP_MaintainEmitter {
                 pub const m_nParticlesToMaintain: usize = 0x1E0; // CParticleCollectionFloatInput
                 pub const m_flStartTime: usize = 0x350; // float32
@@ -20085,9 +19536,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @S|
-            // @Q|
-            //  KI
             pub mod C_INIT_RemapInitialTransformDirectionToRotation {
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
                 pub const m_nFieldOutput: usize = 0x248; // ParticleAttributeIndex_t
@@ -20122,8 +19570,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20208,8 +19654,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20261,7 +19705,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -20305,8 +19748,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // p*R
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -20395,7 +19836,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // P7V
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -20445,8 +19885,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20553,7 +19991,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20594,8 +20031,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // `#T
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20665,7 +20100,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -20678,8 +20112,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             pub mod C_OP_LockToSavedSequentialPath {
@@ -20719,9 +20151,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // ` |
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20774,7 +20203,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0vJ
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -20828,8 +20256,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21415,7 +20841,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 0uU
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21582,7 +21007,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -21595,8 +21019,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // 8D|
-            // ` |
             // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21734,29 +21156,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             pub mod C_OP_CurlNoiseForce {
                 pub const m_nNoiseType: usize = 0x1E8; // ParticleDirectionNoiseType_t
                 pub const m_vecNoiseFreq: usize = 0x1F0; // CPerParticleVecInput
@@ -21941,7 +21340,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -21965,7 +21363,6 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // T
             pub mod C_OP_RenderScreenShake {
                 pub const m_flDurationScale: usize = 0x228; // float32
                 pub const m_flRadiusScale: usize = 0x22C; // float32
@@ -22045,7 +21442,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22129,7 +21525,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -22182,7 +21577,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -22239,7 +21633,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @Q|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -22289,8 +21682,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -22408,29 +21799,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             pub mod C_OP_TimeVaryingForce {
                 pub const m_flStartLerpTime: usize = 0x1E8; // float32
                 pub const m_StartingForce: usize = 0x1EC; // Vector
@@ -22451,7 +21819,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22506,14 +21873,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22544,7 +21909,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -22627,8 +21991,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // @A|
             pub mod C_INIT_CreateWithinSphereTransform {
                 pub const m_fRadiusMin: usize = 0x1E0; // CPerParticleFloatInput
                 pub const m_fRadiusMax: usize = 0x350; // CPerParticleFloatInput
@@ -22669,11 +22031,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // @{U
-            //  ZV
-            // ` |
-            // ([|
-            // ` |
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -22932,7 +22289,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // XA|
             pub mod C_OP_NoiseEmitter {
                 pub const m_flEmissionDuration: usize = 0x1E0; // float32
                 pub const m_flStartTime: usize = 0x1E4; // float32
@@ -23082,7 +22438,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
+            // LL
             pub mod CParticleFunctionInitializer {
                 pub const m_nAssociatedEmitterIndex: usize = 0x1D8; // int32
             }
@@ -23097,7 +22453,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  :Y
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -23185,9 +22540,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // P?|
-            // h=|
-            // 8=|
             pub mod C_OP_PlanarConstraint {
                 pub const m_PointOnPlane: usize = 0x1D8; // Vector
                 pub const m_PlaneNormal: usize = 0x1E4; // Vector
@@ -23317,7 +22669,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -23417,7 +22768,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // @S|
             // PARTICLE_CP_AXIS_Y
             // PARTICLE_CP_AXIS_Z
             // PARTICLE_CP_AXIS_NEGATIVE_X
@@ -23455,9 +22805,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
-            // XV|
-            // PZ|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23475,7 +22822,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             pub mod C_OP_RemapNamedModelElementEndCap {
                 pub const m_hModel: usize = 0x1D8; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_inNames: usize = 0x1E0; // CUtlVector<CUtlString>
@@ -23619,9 +22965,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // ` |
             // h
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23660,10 +23004,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23836,12 +23177,10 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PRJ
             pub mod C_INIT_RandomColor {
                 pub const m_ColorMin: usize = 0x1FC; // Color
                 pub const m_ColorMax: usize = 0x200; // Color
@@ -23912,8 +23251,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `B|
-            // @ K
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24082,7 +23419,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24092,7 +23428,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             pub mod C_OP_RampScalarLinearSimple {
                 pub const m_Rate: usize = 0x1D8; // float32
                 pub const m_flStartTime: usize = 0x1DC; // float32
@@ -24201,7 +23536,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ([|
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -24427,10 +23761,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            //  4I
-            // @T|
-            // `AL
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24505,7 +23835,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24515,15 +23844,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // h
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
-            // ` |
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24598,10 +23922,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  lV
-            // pVU
             // MPropertyFriendlyName
-            // ` |
             pub mod C_OP_RemapDensityToVector {
                 pub const m_flRadiusScale: usize = 0x1D8; // float32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -24855,7 +24176,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
+            // LL
             pub mod CParticleFunctionConstraint {
             }
             // Parent: None
@@ -24870,8 +24191,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25325,7 +24644,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
-            // T
+            // LL
             pub mod CParticleFunctionEmitter {
                 pub const m_nEmitterIndex: usize = 0x1D8; // int32
             }
@@ -25425,11 +24744,9 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @SY
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // \C{
             pub mod C_OP_SetControlPointOrientationToCPVelocity {
                 pub const m_nCPInput: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -25614,8 +24931,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25662,7 +24977,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // ` |
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -25843,7 +25157,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // P7V
             pub mod C_OP_SetToCP {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_vecOffset: usize = 0x1DC; // Vector
@@ -25877,29 +25190,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  Z|
-            // PQ|
-            // @S|
-            // pQ|
-            // hV|
-            // XV|
-            // 8Z|
-            // hV|
-            // hZ|
-            //  X|
-            // 0S|
-            // XV|
-            // `[|
-            // @T|
-            //  W|
-            // XW|
-            // HX|
-            // xX|
-            // P[|
-            // `Q|
-            // XW|
-            // @$E
-            // (T|
             pub mod C_OP_ParentVortices {
                 pub const m_flForceScale: usize = 0x1E8; // float32
                 pub const m_vecTwistAxis: usize = 0x1EC; // Vector
@@ -25911,7 +25201,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // p@Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -26393,7 +25682,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
             pub mod C_OP_PercentageBetweenTransformLerpCPs {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flInputMin: usize = 0x1DC; // float32
@@ -26421,6 +25709,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // e
+            // e
             pub mod C_OP_SetPerChildControlPoint {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32
@@ -26504,11 +25794,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // ` |
-            // 0XC
-            // x |
-            // ` |
-            // 8$|
             pub mod C_OP_WorldCollideConstraint {
             }
             // Parent: None
@@ -26519,8 +25804,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // ` |
-            // pRS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26605,7 +25888,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -26887,7 +26169,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -27071,9 +26352,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @S|
-            // @Q|
-            //  KI
             pub mod C_INIT_SequenceFromCP {
                 pub const m_bKillUnused: usize = 0x1E0; // bool
                 pub const m_bRadiusScale: usize = 0x1E1; // bool
@@ -27089,14 +26367,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ` |
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             //  
-            // @U7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -27127,7 +26403,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // `mR
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -27209,7 +26484,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // h
-            // POV
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName

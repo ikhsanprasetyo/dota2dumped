@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7529
-        // Enum count: 432
+        // Enum count: 430
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -9986,6 +9986,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -14677,7 +14678,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MKV3TransferSaveOpsForField
             pub mod CPrecipitationVData {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -14880,6 +14880,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -16406,7 +16407,7 @@ pub mod source2_dumper {
                 pub const m_Activity: usize = 0x1A50; // GameActivity_t
                 pub const m_flTimeLeftForActivity: usize = 0x1A54; // float32
                 pub const m_nGrappleAttackRecord: usize = 0x1A58; // AttackRecord_t
-                pub const m_pTree: usize = 0x1A60; // CDOTA_Tree*
+                pub const m_hTree: usize = 0x1A5C; // CHandle<CBaseEntity>
             }
             // Parent: None
             // Field count: 10
@@ -19908,6 +19909,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -20254,6 +20256,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             pub mod CPulseCell_Value_Gradient {
@@ -20933,6 +20936,7 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -22889,7 +22893,10 @@ pub mod source2_dumper {
             // Field count: 29
             //
             // Metadata:
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
             // MGetKV3ClassDefaults
+            //  
             pub mod CEnvCombinedLightProbeVolume {
                 pub const m_Entity_Color: usize = 0x1510; // Color
                 pub const m_Entity_flBrightness: usize = 0x1514; // float32
@@ -24667,6 +24674,7 @@ pub mod source2_dumper {
             // Field count: 12
             //
             // Metadata:
+            // z
             // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
             // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
             // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
@@ -26724,7 +26732,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // @
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -28945,6 +28952,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             pub mod CPulseCell_Value_Curve {
                 pub const m_Curve: usize = 0x48; // CPiecewiseCurve
             }
@@ -31127,6 +31135,9 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 3
+            //
+            // Metadata:
+            // i
             pub mod CFogController {
                 pub const m_fog: usize = 0x498; // fogparams_t
                 pub const m_bUseAngles: usize = 0x500; // bool
@@ -31742,6 +31753,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -34812,6 +34824,9 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 7
+            //
+            // Metadata:
+            // i
             pub mod CPointOrient {
                 pub const m_iszSpawnTargetName: usize = 0x498; // CUtlSymbolLarge
                 pub const m_hTarget: usize = 0x4A0; // CHandle<CBaseEntity>
@@ -38759,6 +38774,7 @@ pub mod source2_dumper {
             // Field count: 9
             //
             // Metadata:
+            // +
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -41316,6 +41332,7 @@ pub mod source2_dumper {
             // eHead
             // eForward
             // eEyesForward
+            // i
             pub mod CPointCamera {
                 pub const m_FOV: usize = 0x498; // float32
                 pub const m_Resolution: usize = 0x49C; // float32
@@ -43240,6 +43257,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -48518,6 +48536,7 @@ pub mod source2_dumper {
             // eHead
             // eForward
             // eEyesForward
+            // i
             pub mod CEnvWindVolume {
                 pub const m_bActive: usize = 0x498; // bool
                 pub const m_vBoxMins: usize = 0x49C; // Vector
@@ -54636,6 +54655,7 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // @
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -56696,12 +56716,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod FantasyLeagueID_t {
                 pub const m_Value: usize = 0x0; // uint16
             }
@@ -56934,6 +56953,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyCustomFGDType
+            // r
             pub mod CFootstepTableHandle {
             }
             // Parent: None
@@ -57264,6 +57284,8 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // w
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -57393,6 +57415,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod FantasyGemSlot_t {
@@ -57444,6 +57467,10 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // n
+            // n
             pub mod AmmoIndex_t {
                 pub const m_Value: usize = 0x0; // int8
             }
@@ -57693,12 +57720,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod FantasyTabletID_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -58199,6 +58225,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // +
             pub mod BlessingType_t {
                 pub const nID: usize = 0x0; // BlessingTypeID_t
                 pub const szIconImage: usize = 0x10; // CPanoramaImageName
@@ -58285,9 +58312,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
             pub mod FantasyGemQuality_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -58720,9 +58745,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
             pub mod FantasyGemShape_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -58793,7 +58816,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
@@ -58841,6 +58863,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub mod attrib_definition_index_db32_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -58980,6 +59003,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub mod itemid_t {
                 pub const m_Value: usize = 0x0; // uint64
             }
@@ -59122,6 +59146,8 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // w
+            // w
             // MGetKV3ClassDefaults
             pub mod BlessingTypeID_t {
                 pub const m_Value: usize = 0x0; // int32
@@ -59170,6 +59196,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // CHAT_IGNORE_ALL
             // CHAT_IGNORE_TEAM
+            // MKV3TransferSaveOpsForField
             // reset_cycle
             pub mod CBaseAnimGraphVariationUserData {
             }
@@ -59427,6 +59454,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub mod style_index_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -59659,6 +59687,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub mod item_definition_index_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -59806,6 +59835,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub mod item_steam_cache_version_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -60117,9 +60147,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // generic
             pub mod ChatWheelMessageID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -60149,6 +60176,8 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // w
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -60237,6 +60266,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub mod HeroPersona_t {
                 pub const m_Value: usize = 0x0; // int8
             }
@@ -60330,6 +60360,10 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // n
+            // n
             pub mod ParticleIndex_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -60518,9 +60552,7 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
+            // MGetKV3ClassDefaults
             pub mod FantasyCraftDataID_t {
                 pub const m_Value: usize = 0x0; // uint16
             }
@@ -60852,27 +60884,13 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // DFLAG_SUPPRESS_HEALTH_CHANGES
             // DFLAG_SUPPRESS_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_EFFECTS
             pub mod CEmptyGraphController {
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // TEXT
-            // ENTITY
-            // COUNT
-            // TACTICAL_SEARCH
-            // AI_SCHEDULE
-            // AI_TASK
-            // AI_EVENT
-            // AI_PATHFINDING
-            // END_SIM_HISTORY_TYPES
-            // COMBINED
-            // MATCH
-            // HIERARCHY
-            // COUNT
-            // ANY
-            // COUNT
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
@@ -60964,6 +60982,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+            // +
             pub mod attrib_definition_index_t {
                 pub const m_Value: usize = 0x0; // uint16
             }

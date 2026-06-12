@@ -1,21 +1,21 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 package interfaces
 
 const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x813D90
     AnimationsystemDll_AnimationSystem_001 = 0x80BCB0
-    ClientDll_ClientToolsInfo_001 = 0x5CAA140
-    ClientDll_DOTA_CLIENT_GCCLIENT = 0x652C678
-    ClientDll_GameClientExports001 = 0x5CA5E68
-    ClientDll_LegacyGameUI001 = 0x5D1B460
-    ClientDll_PanoramaUIClient001 = 0x5D45ED0
-    ClientDll_PlayButtonService001 = 0x5D273C8
-    ClientDll_Source2Client002 = 0x638CBA0
-    ClientDll_Source2ClientConfig001 = 0x6339CD0
-    ClientDll_Source2ClientPrediction001 = 0x5CB06A0
-    ClientDll_Source2ClientUI001 = 0x5A7B880
+    ClientDll_ClientToolsInfo_001 = 0x5CAD140
+    ClientDll_DOTA_CLIENT_GCCLIENT = 0x652F658
+    ClientDll_GameClientExports001 = 0x5CA8E68
+    ClientDll_LegacyGameUI001 = 0x5D1E370
+    ClientDll_PanoramaUIClient001 = 0x5D48DD0
+    ClientDll_PlayButtonService001 = 0x5D2A2D8
+    ClientDll_Source2Client002 = 0x638FAA0
+    ClientDll_Source2ClientConfig001 = 0x633CC10
+    ClientDll_Source2ClientPrediction001 = 0x5CB36A0
+    ClientDll_Source2ClientUI001 = 0x5A7E880
     Engine2Dll_BenchmarkService001 = 0x616A30
     Engine2Dll_BugService001 = 0x8CED40
     Engine2Dll_ClientServerEngineLoopService_001 = 0x910440
@@ -89,14 +89,14 @@ const (
     ScenesystemDll_SceneSystem_002 = 0x8DE3F0
     ScenesystemDll_SceneUtils_001 = 0x667A90
     SchemasystemDll_SchemaSystem_001 = 0x77710
-    ServerDll_EntitySubclassUtilsV001 = 0x4732EF0
-    ServerDll_NavGameTest001 = 0x4A06830
-    ServerDll_ServerToolsInfo_001 = 0x495CF30
-    ServerDll_Source2GameClients001 = 0x49525E0
-    ServerDll_Source2GameDirector001 = 0x4FE5BD0
-    ServerDll_Source2GameEntities001 = 0x495C640
-    ServerDll_Source2Server001 = 0x495C490
-    ServerDll_Source2ServerConfig001 = 0x4F23C58
+    ServerDll_EntitySubclassUtilsV001 = 0x472BEF0
+    ServerDll_NavGameTest001 = 0x49FF820
+    ServerDll_ServerToolsInfo_001 = 0x4955F40
+    ServerDll_Source2GameClients001 = 0x494B5F0
+    ServerDll_Source2GameDirector001 = 0x4FDEB70
+    ServerDll_Source2GameEntities001 = 0x4955650
+    ServerDll_Source2Server001 = 0x49554A0
+    ServerDll_Source2ServerConfig001 = 0x4F1CC38
     SoundsystemDll_SoundOpSystem001 = 0x5139F0
     SoundsystemDll_SoundOpSystemEdit001 = 0x5138B0
     SoundsystemDll_SoundSystem001 = 0x5133A0

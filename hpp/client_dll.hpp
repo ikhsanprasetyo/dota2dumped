@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7182
-        // Enum count: 111
+        // Class count: 7189
+        // Enum count: 112
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -6407,7 +6407,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // are WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ByteseekerP
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
@@ -7837,7 +7836,7 @@ namespace source2_dumper {
             namespace CDOTA_Modifier_Largo_FroglingBand2_Frogling_Leave {
             }
             // Parent: None
-            // Field count: 27
+            // Field count: 26
             namespace CDOTA_Modifier_Kez_GrapplingClaw_Movement {
                 constexpr std::ptrdiff_t m_vGrappleHookPos = 0x19D8; // Vector
                 constexpr std::ptrdiff_t m_vInitialDir = 0x19E4; // Vector
@@ -7865,7 +7864,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_Activity = 0x1A50; // GameActivity_t
                 constexpr std::ptrdiff_t m_flTimeLeftForActivity = 0x1A54; // float32
                 constexpr std::ptrdiff_t m_nGrappleAttackRecord = 0x1A58; // AttackRecord_t
-                constexpr std::ptrdiff_t m_pTree = 0x1A60; // C_DotaTree*
             }
             // Parent: None
             // Field count: 10
@@ -8521,18 +8519,21 @@ namespace source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             namespace C_CrownfallShmupEnemy {
             }
             // Parent: C_DynamicProp
             // Field count: 11
+            //
+            // Metadata:
+            // FOW_TEAM_NIGHTSTALKER
+            // FOW_TEAM_ARENA_OF_BLOOD
+            // FOW_TEAM_TUNNEL_VISION
+            // FOW_TEAM_WEIGHTED_PIE
+            // FOW_TEAM_BLOB
+            // FOW_TEAM_UNUSED5
+            // FOW_TEAM_UNUSED6
+            // FOW_TEAM_UNUSED7
+            // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
             namespace C_DOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0xD00; // bool
                 constexpr std::ptrdiff_t m_bPlaySpawnAnimation = 0xD01; // bool
@@ -10302,6 +10303,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             namespace CPulseCell_FireCursors {
                 constexpr std::ptrdiff_t m_Outflows = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 constexpr std::ptrdiff_t m_bWaitForChildOutflows = 0x60; // bool
@@ -11307,6 +11309,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -11322,7 +11325,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // AppData\Roaming\npm;C:\Users\ByteseekerPC\AppData\Roaming\npm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\P
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -11810,14 +11812,6 @@ namespace source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             namespace C_CrownfallShmupCamera {
             }
             // Parent: C_DOTA_Item
@@ -14697,7 +14691,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // AppData\Roaming\npm;C:\Users\ByteseekerPC\AppData\Roaming\npm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\P
             // kDHr
             namespace CPulseCell_WaitForCursorsWithTagBase {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToWait = 0x48; // int32
@@ -16061,6 +16054,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // CGCClientJobProfileCardStatsUpdated
+            // w
             namespace C_DOTAPortraitWorldCallbackHandler {
             }
             // Parent: None
@@ -18808,12 +18802,9 @@ namespace source2_dumper {
             // Field count: 29
             //
             // Metadata:
-            // BC_EMPTY
-            // BC_PROP_GROUP_OVERRIDE
-            // BC_PARTICLE_SYSTEM_OVERRIDE
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
             // MGetKV3ClassDefaults
-            // eNotifyWhenFinished
-            // eNotifyTriggered
             namespace C_EnvCombinedLightProbeVolume {
                 constexpr std::ptrdiff_t m_Entity_Color = 0x1668; // Color
                 constexpr std::ptrdiff_t m_Entity_flBrightness = 0x166C; // float32
@@ -22210,13 +22201,6 @@ namespace source2_dumper {
             }
             // Parent: C_PointEntity
             // Field count: 0
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             namespace CInfoTarget {
             }
             // Parent: C_DOTABaseAbility
@@ -22328,6 +22312,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -26264,6 +26249,7 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // +
             // AbilityCooldown
             // AbilityCharges
             namespace CDOTA_Survivors_EffectsEntity {
@@ -30586,6 +30572,7 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // +
             // AbilityCooldown
             // AbilityCharges
             namespace CDOTA_Survivors_UnitEntity {
@@ -37590,6 +37577,23 @@ namespace source2_dumper {
             }
             // Parent: C_BaseModelEntity
             // Field count: 9
+            //
+            // Metadata:
+            // TEXT
+            // ENTITY
+            // COUNT
+            // TACTICAL_SEARCH
+            // AI_SCHEDULE
+            // AI_TASK
+            // AI_EVENT
+            // AI_PATHFINDING
+            // END_SIM_HISTORY_TYPES
+            // COMBINED
+            // MATCH
+            // HIERARCHY
+            // COUNT
+            // ANY
+            // COUNT
             namespace C_EnvDecal {
                 constexpr std::ptrdiff_t m_hDecalMaterial = 0xA80; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 constexpr std::ptrdiff_t m_flWidth = 0xA88; // float32
@@ -39819,13 +39823,6 @@ namespace source2_dumper {
             }
             // Parent: C_BaseModelEntity
             // Field count: 1
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             namespace C_LightEntity {
                 constexpr std::ptrdiff_t m_CLightComponent = 0xA80; // CLightComponent*
             }
@@ -40080,8 +40077,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // k_eFishingGameFishCategory_Trash
+            // k_eFishingGameFishCategory_Common
+            // k_eFishingGameFishCategory_Uncommon
+            // k_eFishingGameFishCategory_Rare
+            // k_eFishingGameFishCategory_UltraRare
+            // FOW_TEAM_NIGHTSTALKER
+            // FOW_TEAM_ARENA_OF_BLOOD
+            // FOW_TEAM_TUNNEL_VISION
+            // FOW_TEAM_WEIGHTED_PIE
+            // FOW_TEAM_BLOB
+            // FOW_TEAM_UNUSED5
+            // FOW_TEAM_UNUSED6
+            // FOW_TEAM_UNUSED7
+            // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
             namespace C_DOTA_LightInfo {
             }
             // Parent: None
@@ -41292,6 +41301,17 @@ namespace source2_dumper {
             }
             // Parent: C_DynamicProp
             // Field count: 0
+            //
+            // Metadata:
+            // FOW_TEAM_NIGHTSTALKER
+            // FOW_TEAM_ARENA_OF_BLOOD
+            // FOW_TEAM_TUNNEL_VISION
+            // FOW_TEAM_WEIGHTED_PIE
+            // FOW_TEAM_BLOB
+            // FOW_TEAM_UNUSED5
+            // FOW_TEAM_UNUSED6
+            // FOW_TEAM_UNUSED7
+            // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
             namespace C_DOTA_GuildBannerProp {
             }
             // Parent: C_DOTA_Item
@@ -44018,13 +44038,6 @@ namespace source2_dumper {
             }
             // Parent: C_PointEntity
             // Field count: 0
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             namespace CInfoParticleTarget {
             }
             // Parent: C_DOTABaseAbility
@@ -44906,6 +44919,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45004,14 +45018,6 @@ namespace source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             namespace ArtyCannonDef_t {
                 constexpr std::ptrdiff_t m_bDirectAimAtTarget = 0xB0; // bool
                 constexpr std::ptrdiff_t m_vecWeapons = 0xB8; // CUtlVector<CUtlString>
@@ -45181,6 +45187,12 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
             namespace SettingsSectionIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -45409,6 +45421,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45427,6 +45440,12 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
             namespace SettingsSubSectionIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -45569,6 +45588,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45846,6 +45866,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             namespace CSurvivorsPowerUpDefinition_Frostbite {
                 constexpr std::ptrdiff_t m_flScepterExplodeRadius = 0x788; // float32
             }
@@ -45874,6 +45895,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46042,14 +46064,6 @@ namespace source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             namespace ArtySpawnerDef_t {
                 constexpr std::ptrdiff_t m_flInitialDelay = 0xB0; // float32
                 constexpr std::ptrdiff_t m_flDelayBetween = 0xB4; // float32
@@ -46148,6 +46162,12 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
             namespace NewSettingsID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46182,6 +46202,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46265,7 +46286,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             namespace SurvivorsPhysicsBodyID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46300,7 +46320,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             namespace SurvivorsHeroID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46470,6 +46489,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             namespace CSurvivorsEnemyDefinition_Snotty {
             }
             // Parent: None
@@ -46693,7 +46713,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             namespace SurvivorsUpgradeID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -46721,14 +46740,6 @@ namespace source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             namespace ArtyUnitDef_t {
                 constexpr std::ptrdiff_t m_bRotateReloadBar = 0xB0; // bool
                 constexpr std::ptrdiff_t m_flMaxMana = 0xB4; // float32
@@ -46799,7 +46810,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             namespace SurvivorsLevelID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46897,6 +46907,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46946,6 +46957,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             namespace CSurvivorsEnemyDefinition_Golem {
             }
             // Parent: None
@@ -47044,6 +47056,12 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
             namespace SettingsSearchDataIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -47157,6 +47175,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             namespace CSurvivorsEnemyDefinition_Resurrector {
                 constexpr std::ptrdiff_t m_nNumResurrectionTimes = 0x288; // int32
@@ -47313,7 +47332,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             namespace SurvivorsPowerUpID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -47664,7 +47682,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             namespace SurvivorsEnemyID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -47788,6 +47805,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47842,14 +47860,6 @@ namespace source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             namespace ArtyEnemyDef_t {
             }
             // Parent: None
@@ -48176,14 +48186,6 @@ namespace source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             namespace ArtyPlayerDef_t {
             }
             // Parent: None
@@ -48427,6 +48429,73 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flRadius = 0x8; // float32
                 constexpr std::ptrdiff_t m_nHitRegionIndex = 0xC; // int32
                 constexpr std::ptrdiff_t m_nDamageMultiplier = 0x10; // int32
+            }
+            // Parent: None
+            // Field count: 0
+            namespace dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MyCoachRating
+            // BecomeACoach
+            // RequestACoach
+            // CoachSessionSearching
+            // CoachSessionActiveAsCoach
+            // CoachSessionActiveAsStudent
+            // OtherSessionMemberAvatarImage
+            // InfoIcon
+            // CoachSectionButton PopupButton
+            // InfoIcon
+            // CoachSectionButton PopupButton
+            // CoachSectionButton PopupButton
+            // CoachSectionButton PopupButton
+            // CoachSectionButton PopupButton
+            // CoachSectionButton PopupButton
+            // GuildLogoFrame
+            // GuildLogoFrame
+            // GuildLogoFrame
+            // GuildLogoFrame
+            // SpeedDropdownDropDownMenu
+            // Contracts
+            // ContractSlotList
+            // GuildChallenge
+            // GuildChallenge
+            // ClaimRewardsGuildButton
+            // ContractSlot
+            // Invite
+            // GuildTierDescription
+            // UnshownRewards
+            // TierRewards
+            // TierRewards
+            // GuildPerkUnlockLevel
+            // LastWeekTierProgressBar
+            // CurrentWeekTierProgressBar
+            // RewardGallery
+            // CoachSessionSearching
+            // CoachSessionActiveAsStudent
+            namespace dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ______ {
             }
         }
     }

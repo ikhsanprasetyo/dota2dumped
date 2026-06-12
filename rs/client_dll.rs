@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 7182
-        // Enum count: 111
+        // Class count: 7189
+        // Enum count: 112
         pub mod client_dll {
             // Alignment: 4
             // Member count: 5
@@ -6514,7 +6514,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // are WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ByteseekerP
             pub mod CPrecipitationVData {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -7944,7 +7943,7 @@ pub mod source2_dumper {
             pub mod CDOTA_Modifier_Largo_FroglingBand2_Frogling_Leave {
             }
             // Parent: None
-            // Field count: 27
+            // Field count: 26
             pub mod CDOTA_Modifier_Kez_GrapplingClaw_Movement {
                 pub const m_vGrappleHookPos: usize = 0x19D8; // Vector
                 pub const m_vInitialDir: usize = 0x19E4; // Vector
@@ -7972,7 +7971,6 @@ pub mod source2_dumper {
                 pub const m_Activity: usize = 0x1A50; // GameActivity_t
                 pub const m_flTimeLeftForActivity: usize = 0x1A54; // float32
                 pub const m_nGrappleAttackRecord: usize = 0x1A58; // AttackRecord_t
-                pub const m_pTree: usize = 0x1A60; // C_DotaTree*
             }
             // Parent: None
             // Field count: 10
@@ -8628,18 +8626,21 @@ pub mod source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             pub mod C_CrownfallShmupEnemy {
             }
             // Parent: C_DynamicProp
             // Field count: 11
+            //
+            // Metadata:
+            // FOW_TEAM_NIGHTSTALKER
+            // FOW_TEAM_ARENA_OF_BLOOD
+            // FOW_TEAM_TUNNEL_VISION
+            // FOW_TEAM_WEIGHTED_PIE
+            // FOW_TEAM_BLOB
+            // FOW_TEAM_UNUSED5
+            // FOW_TEAM_UNUSED6
+            // FOW_TEAM_UNUSED7
+            // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
             pub mod C_DOTA_GuildBannerDynamic {
                 pub const m_bRespawnClientEntity: usize = 0xD00; // bool
                 pub const m_bPlaySpawnAnimation: usize = 0xD01; // bool
@@ -10409,6 +10410,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             pub mod CPulseCell_FireCursors {
                 pub const m_Outflows: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 pub const m_bWaitForChildOutflows: usize = 0x60; // bool
@@ -11414,6 +11416,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -11429,7 +11432,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // AppData\Roaming\npm;C:\Users\ByteseekerPC\AppData\Roaming\npm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\P
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -11917,14 +11919,6 @@ pub mod source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             pub mod C_CrownfallShmupCamera {
             }
             // Parent: C_DOTA_Item
@@ -14804,7 +14798,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // AppData\Roaming\npm;C:\Users\ByteseekerPC\AppData\Roaming\npm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\P
             // kDHr
             pub mod CPulseCell_WaitForCursorsWithTagBase {
                 pub const m_nCursorsAllowedToWait: usize = 0x48; // int32
@@ -16168,6 +16161,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CGCClientJobProfileCardStatsUpdated
+            // w
             pub mod C_DOTAPortraitWorldCallbackHandler {
             }
             // Parent: None
@@ -18915,12 +18909,9 @@ pub mod source2_dumper {
             // Field count: 29
             //
             // Metadata:
-            // BC_EMPTY
-            // BC_PROP_GROUP_OVERRIDE
-            // BC_PARTICLE_SYSTEM_OVERRIDE
+            // MPulseEditorHeaderExpr
+            // MPulsePolymorphicDependentReturn
             // MGetKV3ClassDefaults
-            // eNotifyWhenFinished
-            // eNotifyTriggered
             pub mod C_EnvCombinedLightProbeVolume {
                 pub const m_Entity_Color: usize = 0x1668; // Color
                 pub const m_Entity_flBrightness: usize = 0x166C; // float32
@@ -22317,13 +22308,6 @@ pub mod source2_dumper {
             }
             // Parent: C_PointEntity
             // Field count: 0
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             pub mod CInfoTarget {
             }
             // Parent: C_DOTABaseAbility
@@ -22435,6 +22419,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -26371,6 +26356,7 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // +
             // AbilityCooldown
             // AbilityCharges
             pub mod CDOTA_Survivors_EffectsEntity {
@@ -30693,6 +30679,7 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // +
             // AbilityCooldown
             // AbilityCharges
             pub mod CDOTA_Survivors_UnitEntity {
@@ -37697,6 +37684,23 @@ pub mod source2_dumper {
             }
             // Parent: C_BaseModelEntity
             // Field count: 9
+            //
+            // Metadata:
+            // TEXT
+            // ENTITY
+            // COUNT
+            // TACTICAL_SEARCH
+            // AI_SCHEDULE
+            // AI_TASK
+            // AI_EVENT
+            // AI_PATHFINDING
+            // END_SIM_HISTORY_TYPES
+            // COMBINED
+            // MATCH
+            // HIERARCHY
+            // COUNT
+            // ANY
+            // COUNT
             pub mod C_EnvDecal {
                 pub const m_hDecalMaterial: usize = 0xA80; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 pub const m_flWidth: usize = 0xA88; // float32
@@ -39926,13 +39930,6 @@ pub mod source2_dumper {
             }
             // Parent: C_BaseModelEntity
             // Field count: 1
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             pub mod C_LightEntity {
                 pub const m_CLightComponent: usize = 0xA80; // CLightComponent*
             }
@@ -40187,8 +40184,20 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // k_eFishingGameFishCategory_Trash
+            // k_eFishingGameFishCategory_Common
+            // k_eFishingGameFishCategory_Uncommon
+            // k_eFishingGameFishCategory_Rare
+            // k_eFishingGameFishCategory_UltraRare
+            // FOW_TEAM_NIGHTSTALKER
+            // FOW_TEAM_ARENA_OF_BLOOD
+            // FOW_TEAM_TUNNEL_VISION
+            // FOW_TEAM_WEIGHTED_PIE
+            // FOW_TEAM_BLOB
+            // FOW_TEAM_UNUSED5
+            // FOW_TEAM_UNUSED6
+            // FOW_TEAM_UNUSED7
+            // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
             pub mod C_DOTA_LightInfo {
             }
             // Parent: None
@@ -41399,6 +41408,17 @@ pub mod source2_dumper {
             }
             // Parent: C_DynamicProp
             // Field count: 0
+            //
+            // Metadata:
+            // FOW_TEAM_NIGHTSTALKER
+            // FOW_TEAM_ARENA_OF_BLOOD
+            // FOW_TEAM_TUNNEL_VISION
+            // FOW_TEAM_WEIGHTED_PIE
+            // FOW_TEAM_BLOB
+            // FOW_TEAM_UNUSED5
+            // FOW_TEAM_UNUSED6
+            // FOW_TEAM_UNUSED7
+            // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
             pub mod C_DOTA_GuildBannerProp {
             }
             // Parent: C_DOTA_Item
@@ -44125,13 +44145,6 @@ pub mod source2_dumper {
             }
             // Parent: C_PointEntity
             // Field count: 0
-            //
-            // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             pub mod CInfoParticleTarget {
             }
             // Parent: C_DOTABaseAbility
@@ -45013,6 +45026,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45111,14 +45125,6 @@ pub mod source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             pub mod ArtyCannonDef_t {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
                 pub const m_vecWeapons: usize = 0xB8; // CUtlVector<CUtlString>
@@ -45288,6 +45294,12 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
             pub mod SettingsSectionIndex_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -45516,6 +45528,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45534,6 +45547,12 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
             pub mod SettingsSubSectionIndex_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -45676,6 +45695,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45953,6 +45973,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             pub mod CSurvivorsPowerUpDefinition_Frostbite {
                 pub const m_flScepterExplodeRadius: usize = 0x788; // float32
             }
@@ -45981,6 +46002,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46149,14 +46171,6 @@ pub mod source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             pub mod ArtySpawnerDef_t {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
                 pub const m_flDelayBetween: usize = 0xB4; // float32
@@ -46255,6 +46269,12 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
             pub mod NewSettingsID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46289,6 +46309,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46372,7 +46393,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             pub mod SurvivorsPhysicsBodyID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46407,7 +46427,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             pub mod SurvivorsHeroID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46577,6 +46596,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             pub mod CSurvivorsEnemyDefinition_Snotty {
             }
             // Parent: None
@@ -46800,7 +46820,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             pub mod SurvivorsUpgradeID_t {
                 pub const m_Value: usize = 0x0; // uint16
             }
@@ -46828,14 +46847,6 @@ pub mod source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             pub mod ArtyUnitDef_t {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
                 pub const m_flMaxMana: usize = 0xB4; // float32
@@ -46906,7 +46917,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             pub mod SurvivorsLevelID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47004,6 +47014,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47053,6 +47064,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             pub mod CSurvivorsEnemyDefinition_Golem {
             }
             // Parent: None
@@ -47151,6 +47163,12 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
             pub mod SettingsSearchDataIndex_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -47264,6 +47282,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             pub mod CSurvivorsEnemyDefinition_Resurrector {
                 pub const m_nNumResurrectionTimes: usize = 0x288; // int32
@@ -47420,7 +47439,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             pub mod SurvivorsPowerUpID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47771,7 +47789,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
-            // $
             pub mod SurvivorsEnemyID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47895,6 +47912,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47949,14 +47967,6 @@ pub mod source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             pub mod ArtyEnemyDef_t {
             }
             // Parent: None
@@ -48283,14 +48293,6 @@ pub mod source2_dumper {
             // k_eTypeEnemy
             // k_eTypeFX
             // k_eTypeUI
-            // k_eDefault
-            // k_eTerrain
-            // k_eShots
-            // k_eRays
-            // k_eFX
-            // k_ePhysical
-            // k_eFullObjects
-            // k_eAllLayers
             pub mod ArtyPlayerDef_t {
             }
             // Parent: None
@@ -48534,6 +48536,73 @@ pub mod source2_dumper {
                 pub const m_flRadius: usize = 0x8; // float32
                 pub const m_nHitRegionIndex: usize = 0xC; // int32
                 pub const m_nDamageMultiplier: usize = 0x10; // int32
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MyCoachRating
+            // BecomeACoach
+            // RequestACoach
+            // CoachSessionSearching
+            // CoachSessionActiveAsCoach
+            // CoachSessionActiveAsStudent
+            // OtherSessionMemberAvatarImage
+            // InfoIcon
+            // CoachSectionButton PopupButton
+            // InfoIcon
+            // CoachSectionButton PopupButton
+            // CoachSectionButton PopupButton
+            // CoachSectionButton PopupButton
+            // CoachSectionButton PopupButton
+            // CoachSectionButton PopupButton
+            // GuildLogoFrame
+            // GuildLogoFrame
+            // GuildLogoFrame
+            // GuildLogoFrame
+            // SpeedDropdownDropDownMenu
+            // Contracts
+            // ContractSlotList
+            // GuildChallenge
+            // GuildChallenge
+            // ClaimRewardsGuildButton
+            // ContractSlot
+            // Invite
+            // GuildTierDescription
+            // UnshownRewards
+            // TierRewards
+            // TierRewards
+            // GuildPerkUnlockLevel
+            // LastWeekTierProgressBar
+            // CurrentWeekTierProgressBar
+            // RewardGallery
+            // CoachSessionSearching
+            // CoachSessionActiveAsStudent
+            pub mod dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod dota_healing_campfire {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod ______ {
             }
         }
     }

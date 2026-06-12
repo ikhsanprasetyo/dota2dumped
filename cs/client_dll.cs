@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7182
-    // Enum count: 111
+    // Class count: 7189
+    // Enum count: 112
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -6401,7 +6401,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // are WARP\;C:\Program Files\CMake\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ByteseekerP
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_flInnerDistance = 0x108; // float32
@@ -7831,7 +7830,7 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_Largo_FroglingBand2_Frogling_Leave {
         }
         // Parent: None
-        // Field count: 27
+        // Field count: 26
         public static class CDOTA_Modifier_Kez_GrapplingClaw_Movement {
             public const nint m_vGrappleHookPos = 0x19D8; // Vector
             public const nint m_vInitialDir = 0x19E4; // Vector
@@ -7859,7 +7858,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_Activity = 0x1A50; // GameActivity_t
             public const nint m_flTimeLeftForActivity = 0x1A54; // float32
             public const nint m_nGrappleAttackRecord = 0x1A58; // AttackRecord_t
-            public const nint m_pTree = 0x1A60; // C_DotaTree*
         }
         // Parent: None
         // Field count: 10
@@ -8515,18 +8513,21 @@ namespace Source2Dumper.Schemas {
         // k_eTypeEnemy
         // k_eTypeFX
         // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
         public static class C_CrownfallShmupEnemy {
         }
         // Parent: C_DynamicProp
         // Field count: 11
+        //
+        // Metadata:
+        // FOW_TEAM_NIGHTSTALKER
+        // FOW_TEAM_ARENA_OF_BLOOD
+        // FOW_TEAM_TUNNEL_VISION
+        // FOW_TEAM_WEIGHTED_PIE
+        // FOW_TEAM_BLOB
+        // FOW_TEAM_UNUSED5
+        // FOW_TEAM_UNUSED6
+        // FOW_TEAM_UNUSED7
+        // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
         public static class C_DOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0xD00; // bool
             public const nint m_bPlaySpawnAnimation = 0xD01; // bool
@@ -10296,6 +10297,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // n
         public static class CPulseCell_FireCursors {
             public const nint m_Outflows = 0x48; // CUtlVector<CPulse_OutflowConnection>
             public const nint m_bWaitForChildOutflows = 0x60; // bool
@@ -11301,6 +11303,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -11316,7 +11319,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
-        // AppData\Roaming\npm;C:\Users\ByteseekerPC\AppData\Roaming\npm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\P
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -11804,14 +11806,6 @@ namespace Source2Dumper.Schemas {
         // k_eTypeEnemy
         // k_eTypeFX
         // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
         public static class C_CrownfallShmupCamera {
         }
         // Parent: C_DOTA_Item
@@ -14691,7 +14685,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
-        // AppData\Roaming\npm;C:\Users\ByteseekerPC\AppData\Roaming\npm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\P
         // kDHr
         public static class CPulseCell_WaitForCursorsWithTagBase {
             public const nint m_nCursorsAllowedToWait = 0x48; // int32
@@ -16055,6 +16048,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CGCClientJobProfileCardStatsUpdated
+        // w
         public static class C_DOTAPortraitWorldCallbackHandler {
         }
         // Parent: None
@@ -18802,12 +18796,9 @@ namespace Source2Dumper.Schemas {
         // Field count: 29
         //
         // Metadata:
-        // BC_EMPTY
-        // BC_PROP_GROUP_OVERRIDE
-        // BC_PARTICLE_SYSTEM_OVERRIDE
+        // MPulseEditorHeaderExpr
+        // MPulsePolymorphicDependentReturn
         // MGetKV3ClassDefaults
-        // eNotifyWhenFinished
-        // eNotifyTriggered
         public static class C_EnvCombinedLightProbeVolume {
             public const nint m_Entity_Color = 0x1668; // Color
             public const nint m_Entity_flBrightness = 0x166C; // float32
@@ -22204,13 +22195,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_PointEntity
         // Field count: 0
-        //
-        // Metadata:
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
         public static class CInfoTarget {
         }
         // Parent: C_DOTABaseAbility
@@ -22322,6 +22306,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -26258,6 +26243,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
+        // +
         // AbilityCooldown
         // AbilityCharges
         public static class CDOTA_Survivors_EffectsEntity {
@@ -30580,6 +30566,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
+        // +
         // AbilityCooldown
         // AbilityCharges
         public static class CDOTA_Survivors_UnitEntity {
@@ -37584,6 +37571,23 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_BaseModelEntity
         // Field count: 9
+        //
+        // Metadata:
+        // TEXT
+        // ENTITY
+        // COUNT
+        // TACTICAL_SEARCH
+        // AI_SCHEDULE
+        // AI_TASK
+        // AI_EVENT
+        // AI_PATHFINDING
+        // END_SIM_HISTORY_TYPES
+        // COMBINED
+        // MATCH
+        // HIERARCHY
+        // COUNT
+        // ANY
+        // COUNT
         public static class C_EnvDecal {
             public const nint m_hDecalMaterial = 0xA80; // CStrongHandle<InfoForResourceTypeIMaterial2>
             public const nint m_flWidth = 0xA88; // float32
@@ -39813,13 +39817,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_BaseModelEntity
         // Field count: 1
-        //
-        // Metadata:
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
         public static class C_LightEntity {
             public const nint m_CLightComponent = 0xA80; // CLightComponent*
         }
@@ -40074,8 +40071,20 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // k_eFishingGameFishCategory_Trash
+        // k_eFishingGameFishCategory_Common
+        // k_eFishingGameFishCategory_Uncommon
+        // k_eFishingGameFishCategory_Rare
+        // k_eFishingGameFishCategory_UltraRare
+        // FOW_TEAM_NIGHTSTALKER
+        // FOW_TEAM_ARENA_OF_BLOOD
+        // FOW_TEAM_TUNNEL_VISION
+        // FOW_TEAM_WEIGHTED_PIE
+        // FOW_TEAM_BLOB
+        // FOW_TEAM_UNUSED5
+        // FOW_TEAM_UNUSED6
+        // FOW_TEAM_UNUSED7
+        // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
         public static class C_DOTA_LightInfo {
         }
         // Parent: None
@@ -41286,6 +41295,17 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_DynamicProp
         // Field count: 0
+        //
+        // Metadata:
+        // FOW_TEAM_NIGHTSTALKER
+        // FOW_TEAM_ARENA_OF_BLOOD
+        // FOW_TEAM_TUNNEL_VISION
+        // FOW_TEAM_WEIGHTED_PIE
+        // FOW_TEAM_BLOB
+        // FOW_TEAM_UNUSED5
+        // FOW_TEAM_UNUSED6
+        // FOW_TEAM_UNUSED7
+        // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
         public static class C_DOTA_GuildBannerProp {
         }
         // Parent: C_DOTA_Item
@@ -44012,13 +44032,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_PointEntity
         // Field count: 0
-        //
-        // Metadata:
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
         public static class CInfoParticleTarget {
         }
         // Parent: C_DOTABaseAbility
@@ -44900,6 +44913,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -44998,14 +45012,6 @@ namespace Source2Dumper.Schemas {
         // k_eTypeEnemy
         // k_eTypeFX
         // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
         public static class ArtyCannonDef_t {
             public const nint m_bDirectAimAtTarget = 0xB0; // bool
             public const nint m_vecWeapons = 0xB8; // CUtlVector<CUtlString>
@@ -45175,6 +45181,12 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // MPropertyDescription
+        // MVDataUniqueMonotonicInt
+        // MPropertyAttributeEditor
+        // MGetKV3ClassDefaults
         public static class SettingsSectionIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -45403,6 +45415,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -45421,6 +45434,12 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // MPropertyDescription
+        // MVDataUniqueMonotonicInt
+        // MPropertyAttributeEditor
+        // MGetKV3ClassDefaults
         public static class SettingsSubSectionIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -45563,6 +45582,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -45840,6 +45860,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         public static class CSurvivorsPowerUpDefinition_Frostbite {
             public const nint m_flScepterExplodeRadius = 0x788; // float32
         }
@@ -45868,6 +45889,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -46036,14 +46058,6 @@ namespace Source2Dumper.Schemas {
         // k_eTypeEnemy
         // k_eTypeFX
         // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
         public static class ArtySpawnerDef_t {
             public const nint m_flInitialDelay = 0xB0; // float32
             public const nint m_flDelayBetween = 0xB4; // float32
@@ -46142,6 +46156,12 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // MPropertyDescription
+        // MVDataUniqueMonotonicInt
+        // MPropertyAttributeEditor
+        // MGetKV3ClassDefaults
         public static class NewSettingsID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46176,6 +46196,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -46259,7 +46280,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // $
         public static class SurvivorsPhysicsBodyID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46294,7 +46314,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // $
         public static class SurvivorsHeroID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46464,6 +46483,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         public static class CSurvivorsEnemyDefinition_Snotty {
         }
         // Parent: None
@@ -46687,7 +46707,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // $
         public static class SurvivorsUpgradeID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -46715,14 +46734,6 @@ namespace Source2Dumper.Schemas {
         // k_eTypeEnemy
         // k_eTypeFX
         // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
         public static class ArtyUnitDef_t {
             public const nint m_bRotateReloadBar = 0xB0; // bool
             public const nint m_flMaxMana = 0xB4; // float32
@@ -46793,7 +46804,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // $
         public static class SurvivorsLevelID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46891,6 +46901,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -46940,6 +46951,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         public static class CSurvivorsEnemyDefinition_Golem {
         }
         // Parent: None
@@ -47038,6 +47050,12 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // MPropertyDescription
+        // MVDataUniqueMonotonicInt
+        // MPropertyAttributeEditor
+        // MGetKV3ClassDefaults
         public static class SettingsSearchDataIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -47151,6 +47169,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         public static class CSurvivorsEnemyDefinition_Resurrector {
             public const nint m_nNumResurrectionTimes = 0x288; // int32
@@ -47307,7 +47326,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // $
         public static class SurvivorsPowerUpID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47658,7 +47676,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // $
         public static class SurvivorsEnemyID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47782,6 +47799,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -47836,14 +47854,6 @@ namespace Source2Dumper.Schemas {
         // k_eTypeEnemy
         // k_eTypeFX
         // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
         public static class ArtyEnemyDef_t {
         }
         // Parent: None
@@ -48170,14 +48180,6 @@ namespace Source2Dumper.Schemas {
         // k_eTypeEnemy
         // k_eTypeFX
         // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
         public static class ArtyPlayerDef_t {
         }
         // Parent: None
@@ -48421,6 +48423,73 @@ namespace Source2Dumper.Schemas {
             public const nint m_flRadius = 0x8; // float32
             public const nint m_nHitRegionIndex = 0xC; // int32
             public const nint m_nDamageMultiplier = 0x10; // int32
+        }
+        // Parent: None
+        // Field count: 0
+        public static class dota_healing_campfire {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MyCoachRating
+        // BecomeACoach
+        // RequestACoach
+        // CoachSessionSearching
+        // CoachSessionActiveAsCoach
+        // CoachSessionActiveAsStudent
+        // OtherSessionMemberAvatarImage
+        // InfoIcon
+        // CoachSectionButton PopupButton
+        // InfoIcon
+        // CoachSectionButton PopupButton
+        // CoachSectionButton PopupButton
+        // CoachSectionButton PopupButton
+        // CoachSectionButton PopupButton
+        // CoachSectionButton PopupButton
+        // GuildLogoFrame
+        // GuildLogoFrame
+        // GuildLogoFrame
+        // GuildLogoFrame
+        // SpeedDropdownDropDownMenu
+        // Contracts
+        // ContractSlotList
+        // GuildChallenge
+        // GuildChallenge
+        // ClaimRewardsGuildButton
+        // ContractSlot
+        // Invite
+        // GuildTierDescription
+        // UnshownRewards
+        // TierRewards
+        // TierRewards
+        // GuildPerkUnlockLevel
+        // LastWeekTierProgressBar
+        // CurrentWeekTierProgressBar
+        // RewardGallery
+        // CoachSessionSearching
+        // CoachSessionActiveAsStudent
+        public static class dota_healing_campfire {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class dota_healing_campfire {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class dota_healing_campfire {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class dota_healing_campfire {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class dota_healing_campfire {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ______ {
         }
     }
 }

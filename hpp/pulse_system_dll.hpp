@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #pragma once
 
@@ -502,6 +502,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             namespace CPulseCell_FireCursors {
                 constexpr std::ptrdiff_t m_Outflows = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 constexpr std::ptrdiff_t m_bWaitForChildOutflows = 0x60; // bool
@@ -559,6 +560,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -635,6 +637,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             namespace CPulseCell_Value_Gradient {
@@ -966,6 +969,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // i
             namespace CPulseCell_Test_MultiOutflow_WithParams_Yielding {
                 constexpr std::ptrdiff_t m_Out1 = 0x48; // SignatureOutflow_Continue
                 constexpr std::ptrdiff_t m_AsyncChild1 = 0x90; // SignatureOutflow_Continue
@@ -1000,6 +1004,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             namespace CPulseCell_Value_Curve {
                 constexpr std::ptrdiff_t m_Curve = 0x48; // CPiecewiseCurve
             }
@@ -1168,6 +1173,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1404,6 +1410,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // i
             namespace CPulseCell_Val_TestDomainGetEntityName {
             }
             // Parent: None
@@ -1652,6 +1659,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // i
             namespace CPulseCell_Val_TestDomainFindEntityByName {
             }
             // Parent: None
@@ -1696,6 +1704,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // i
             namespace CPulseCell_Step_TestDomainEntFire {
                 constexpr std::ptrdiff_t m_Input = 0x48; // CUtlString
                 constexpr std::ptrdiff_t flWaitValue = 0x0; // float32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1463,6 +1463,8 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
+        },
+        _________: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A08, // DOTA_SHOP_TYPE
@@ -5444,7 +5446,6 @@ export const Schemas = {
             m_Activity: 0x1A50, // GameActivity_t
             m_flTimeLeftForActivity: 0x1A54, // float32
             m_nGrappleAttackRecord: 0x1A58, // AttackRecord_t
-            m_pTree: 0x1A60, // C_DotaTree*
         },
         CDOTA_Modifier_Ringmaster_Spotlight_Thinker: {
             self_spotlight: 0x19D8, // bool
@@ -31810,6 +31811,20 @@ export const Schemas = {
             m_flRadius: 0x8, // float32
             m_nHitRegionIndex: 0xC, // int32
             m_nDamageMultiplier: 0x10, // int32
+        },
+        dota_healing_campfire: {
+        },
+        dota_healing_campfire: {
+        },
+        dota_healing_campfire: {
+        },
+        dota_healing_campfire: {
+        },
+        dota_healing_campfire: {
+        },
+        dota_healing_campfire: {
+        },
+        ______: {
         },
     },
 };

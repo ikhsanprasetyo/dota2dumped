@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -860,6 +860,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // z
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // `
@@ -1180,6 +1181,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // z
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // `
@@ -1474,6 +1476,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // z
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // `
@@ -1815,6 +1818,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // z
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // `
@@ -2509,6 +2513,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // z
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // `
@@ -2575,6 +2580,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // z
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // `
@@ -2960,6 +2966,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // z
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // `
@@ -3674,6 +3681,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // z
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // `

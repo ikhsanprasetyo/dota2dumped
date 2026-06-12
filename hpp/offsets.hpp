@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-07 13:26:24.850451500 +07:00
+// 2026-06-12 16:11:20.255778400 +07:00
 
 #pragma once
 
@@ -10,16 +10,16 @@ namespace source2_dumper {
     namespace offsets {
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t dwEntityList = 0x66E86A8;
-            constexpr std::ptrdiff_t dwGameEntitySystem = 0x66E86A8;
+            constexpr std::ptrdiff_t dwEntityList = 0x66EB688;
+            constexpr std::ptrdiff_t dwGameEntitySystem = 0x66EB688;
             constexpr std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2090;
-            constexpr std::ptrdiff_t dwGlobalVars = 0x5CA55B0;
-            constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x5CB0778;
-            constexpr std::ptrdiff_t dwPrediction = 0x5CB06A0;
-            constexpr std::ptrdiff_t dwSensitivity = 0x638EC68;
+            constexpr std::ptrdiff_t dwGlobalVars = 0x5CA85B0;
+            constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x5CB3778;
+            constexpr std::ptrdiff_t dwPrediction = 0x5CB36A0;
+            constexpr std::ptrdiff_t dwSensitivity = 0x6391B68;
             constexpr std::ptrdiff_t dwSensitivity_sensitivity = 0x58;
-            constexpr std::ptrdiff_t dwViewMatrix = 0x63968A0;
-            constexpr std::ptrdiff_t dwViewRender = 0x6395F88;
+            constexpr std::ptrdiff_t dwViewMatrix = 0x63997A0;
+            constexpr std::ptrdiff_t dwViewRender = 0x6398E88;
         }
         // Module: engine2.dll
         namespace engine2_dll {
