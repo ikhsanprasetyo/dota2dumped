@@ -1,19 +1,19 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-12 16:11:20.255778400 +07:00
+# 2026-06-20 21:32:50.034446100 +07:00
 
 class Offsets:
     # Module: client.dll
     class ClientDll:
-        dwEntityList = 0x66EB688
-        dwGameEntitySystem = 0x66EB688
+        dwEntityList = 0x66EB888
+        dwGameEntitySystem = 0x66EB888
         dwGameEntitySystem_highestEntityIndex = 0x2090
-        dwGlobalVars = 0x5CA85B0
-        dwLocalPlayerPawn = 0x5CB3778
-        dwPrediction = 0x5CB36A0
-        dwSensitivity = 0x6391B68
+        dwGlobalVars = 0x5CA8730
+        dwLocalPlayerPawn = 0x5CB38F8
+        dwPrediction = 0x5CB3820
+        dwSensitivity = 0x6391D68
         dwSensitivity_sensitivity = 0x58
-        dwViewMatrix = 0x63997A0
-        dwViewRender = 0x6398E88
+        dwViewMatrix = 0x63999A0
+        dwViewRender = 0x6399088
     # Module: engine2.dll
     class Engine2Dll:
         dwBuildNumber = 0x610CA4

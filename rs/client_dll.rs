@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-12 16:11:20.255778400 +07:00
+// 2026-06-20 21:32:50.034446100 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 7189
-        // Enum count: 112
+        // Class count: 7209
+        // Enum count: 113
         pub mod client_dll {
             // Alignment: 4
             // Member count: 5
@@ -8619,13 +8619,6 @@ pub mod source2_dumper {
             // k_eUnit
             // k_eHero
             // k_eParticle
-            // k_eTypeShot
-            // k_eTypeTrail
-            // k_eTypeCannon
-            // k_eTypePlayer
-            // k_eTypeEnemy
-            // k_eTypeFX
-            // k_eTypeUI
             pub mod C_CrownfallShmupEnemy {
             }
             // Parent: C_DynamicProp
@@ -10410,7 +10403,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // n
             pub mod CPulseCell_FireCursors {
                 pub const m_Outflows: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
                 pub const m_bWaitForChildOutflows: usize = 0x60; // bool
@@ -10643,6 +10635,10 @@ pub mod source2_dumper {
             // Parent: C_DOTABaseAbility
             // Field count: 0
             pub mod C_DOTA_Ability_BlueDragonspawnOverseer_DevotionAura {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod CDOTA_Modifier_Foreboding2 {
             }
             // Parent: None
             // Field count: 2
@@ -11416,7 +11412,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -11432,6 +11427,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            // e/0x1220,0x28de/0x1302,0x28de/0x1303,0x28de/0x1304,0x28de/0x1305,0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -11912,13 +11908,6 @@ pub mod source2_dumper {
             // k_eUnit
             // k_eHero
             // k_eParticle
-            // k_eTypeShot
-            // k_eTypeTrail
-            // k_eTypeCannon
-            // k_eTypePlayer
-            // k_eTypeEnemy
-            // k_eTypeFX
-            // k_eTypeUI
             pub mod C_CrownfallShmupCamera {
             }
             // Parent: C_DOTA_Item
@@ -14798,6 +14787,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            // e/0x1220,0x28de/0x1302,0x28de/0x1303,0x28de/0x1304,0x28de/0x1305,0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/
             // kDHr
             pub mod CPulseCell_WaitForCursorsWithTagBase {
                 pub const m_nCursorsAllowedToWait: usize = 0x48; // int32
@@ -16161,7 +16151,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CGCClientJobProfileCardStatsUpdated
-            // w
             pub mod C_DOTAPortraitWorldCallbackHandler {
             }
             // Parent: None
@@ -16297,6 +16286,10 @@ pub mod source2_dumper {
             // Field count: 1
             pub mod CDOTA_Item_Tidehunter_Fish {
                 pub const m_hPickupOwner: usize = 0x758; // CHandle<C_BaseEntity>
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod CDOTA_Modifier_Foreboding {
             }
             // Parent: C_ModelPointEntity
             // Field count: 19
@@ -22419,7 +22412,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // n
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -26356,7 +26348,6 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
-            // +
             // AbilityCooldown
             // AbilityCharges
             pub mod CDOTA_Survivors_EffectsEntity {
@@ -30679,7 +30670,6 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
-            // +
             // AbilityCooldown
             // AbilityCharges
             pub mod CDOTA_Survivors_UnitEntity {
@@ -40184,20 +40174,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // k_eFishingGameFishCategory_Trash
-            // k_eFishingGameFishCategory_Common
-            // k_eFishingGameFishCategory_Uncommon
-            // k_eFishingGameFishCategory_Rare
-            // k_eFishingGameFishCategory_UltraRare
-            // FOW_TEAM_NIGHTSTALKER
-            // FOW_TEAM_ARENA_OF_BLOOD
-            // FOW_TEAM_TUNNEL_VISION
-            // FOW_TEAM_WEIGHTED_PIE
-            // FOW_TEAM_BLOB
-            // FOW_TEAM_UNUSED5
-            // FOW_TEAM_UNUSED6
-            // FOW_TEAM_UNUSED7
-            // FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod C_DOTA_LightInfo {
             }
             // Parent: None
@@ -45026,7 +45004,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45118,13 +45095,6 @@ pub mod source2_dumper {
             // k_eUnit
             // k_eHero
             // k_eParticle
-            // k_eTypeShot
-            // k_eTypeTrail
-            // k_eTypeCannon
-            // k_eTypePlayer
-            // k_eTypeEnemy
-            // k_eTypeFX
-            // k_eTypeUI
             pub mod ArtyCannonDef_t {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
                 pub const m_vecWeapons: usize = 0xB8; // CUtlVector<CUtlString>
@@ -45528,7 +45498,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45695,7 +45664,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45973,7 +45941,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             pub mod CSurvivorsPowerUpDefinition_Frostbite {
                 pub const m_flScepterExplodeRadius: usize = 0x788; // float32
             }
@@ -46002,7 +45969,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46164,13 +46130,6 @@ pub mod source2_dumper {
             // k_eUnit
             // k_eHero
             // k_eParticle
-            // k_eTypeShot
-            // k_eTypeTrail
-            // k_eTypeCannon
-            // k_eTypePlayer
-            // k_eTypeEnemy
-            // k_eTypeFX
-            // k_eTypeUI
             pub mod ArtySpawnerDef_t {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
                 pub const m_flDelayBetween: usize = 0xB4; // float32
@@ -46309,7 +46268,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46393,6 +46351,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
+            // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
             pub mod SurvivorsPhysicsBodyID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46427,6 +46386,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
+            // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
             pub mod SurvivorsHeroID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46596,7 +46556,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             pub mod CSurvivorsEnemyDefinition_Snotty {
             }
             // Parent: None
@@ -46820,6 +46779,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
+            // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
             pub mod SurvivorsUpgradeID_t {
                 pub const m_Value: usize = 0x0; // uint16
             }
@@ -46840,13 +46800,6 @@ pub mod source2_dumper {
             // k_eUnit
             // k_eHero
             // k_eParticle
-            // k_eTypeShot
-            // k_eTypeTrail
-            // k_eTypeCannon
-            // k_eTypePlayer
-            // k_eTypeEnemy
-            // k_eTypeFX
-            // k_eTypeUI
             pub mod ArtyUnitDef_t {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
                 pub const m_flMaxMana: usize = 0xB4; // float32
@@ -46917,6 +46870,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
+            // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
             pub mod SurvivorsLevelID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47014,7 +46968,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47064,7 +47017,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             pub mod CSurvivorsEnemyDefinition_Golem {
             }
             // Parent: None
@@ -47282,7 +47234,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             // MGetKV3ClassDefaults
             pub mod CSurvivorsEnemyDefinition_Resurrector {
                 pub const m_nNumResurrectionTimes: usize = 0x288; // int32
@@ -47439,6 +47390,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
+            // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
             pub mod SurvivorsPowerUpID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47789,6 +47741,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgDOTATeamsInfo
+            // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
             pub mod SurvivorsEnemyID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47912,7 +47865,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47960,13 +47912,6 @@ pub mod source2_dumper {
             // k_eUnit
             // k_eHero
             // k_eParticle
-            // k_eTypeShot
-            // k_eTypeTrail
-            // k_eTypeCannon
-            // k_eTypePlayer
-            // k_eTypeEnemy
-            // k_eTypeFX
-            // k_eTypeUI
             pub mod ArtyEnemyDef_t {
             }
             // Parent: None
@@ -48286,13 +48231,6 @@ pub mod source2_dumper {
             // k_eUnit
             // k_eHero
             // k_eParticle
-            // k_eTypeShot
-            // k_eTypeTrail
-            // k_eTypeCannon
-            // k_eTypePlayer
-            // k_eTypeEnemy
-            // k_eTypeFX
-            // k_eTypeUI
             pub mod ArtyPlayerDef_t {
             }
             // Parent: None
@@ -48539,70 +48477,1569 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 0
-            pub mod dota_healing_campfire {
+            //
+            // Metadata:
+            // Wings
+            // Legs
+            // Nose
+            // Fuzzy
+            // Bearded
+            // BadTeeth
+            // Cape
+            // NicePecs
+            // Potbelly
+            // Parent
+            // Arachnophobic
+            // Demon
+            // Spirit
+            // Flying
+            // Cute
+            // Fiery
+            // Icy
+            // Blue
+            // Red
+            // Green
+            // GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK
+            // Start
+            // Stop
+            // Freeze
+            // Thaw
+            // StopPlayEndCap
+            // DestroyImmediately
+            // SetControlPoint
+            // SetDataControlPointX
+            // SetDataControlPointY
+            // SetDataControlPointZ
+            // Break
+            // SetHealth
+            // AddHealth
+            // RemoveHealth
+            // SetEnableBreaking
+            // SetEnableCollisions
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // dota_healing_campfire
+            // lity_CDOTA_Ability_Special_Bonus_Unique_Viper_2
+            // _Unique_Viper_2
+            // y_CDOTA_Ability_Special_Bonus_Unique_Viper_5
+            // ique_Viper_5
+            // DOTA_Ability_Special_Bonus_Unique_Luna_1
+            // e_Luna_1
+            // _Ability_Special_Bonus_Unique_Luna_2
+            // na_2
+            // lity_Special_Bonus_Unique_Luna_3
+            // CMsgAddItemToSocketData.socket_index
+            // CMsgSetItemPositions.ItemPosition.position
+            // CMsgSetItemPositions.ItemPosition.item_id
+            // k_EMsgGCToClientPollConvarRequest
+            // CMsgGCServerVersionUpdated.server_version
+            // H*
+            // item_arcane_boots item_guardian_greaves item_pipe item_crimson_guard item_essence_distiller item_spirit_vessel item_boots_of_bea
+            // m_flOverride_dota_strategy_time
+            // m_hGameModeEntity
+            // m_iCMModePickBanOrder
+            // m_iCDModePickBanOrder
+            // m_BannedHeroes
+            // m_SelectedHeroes
+            // m_iActiveTeam
+            // m_flGameStartTime
+            // m_nCustomGameDifficulty
+            // m_flOutpostTimes
+            // m_bTier2TowerDestroyed
+            // m_iNetTimeOfDay
+            // m_BotDebugPushLane
+            // m_hBotDebugRoamTarget
+            // m_BotDebugRoshan
+            // m_AbilityDraftHeroes
+            // m_bExperimentalGameplay
+            // m_RegionTriggerBoxes
+            // basic_attack
+            // activity_animation
+            // spawn_animation
+            // death_animation
+            // stage_intro
+            // healing_salve
+            // walrus_punch
+            // crit_attack
+            // chaos_bolt
+            // chaos_strike
+            // cold_feet
+            // ice_blast
+            // icefire_bomb
+            // butt_slam
+            // hypothermia
+            // gust
+            // black_king_bar
+            // frost_attack
+            // eTime
+            // mune
+            // mune
+            // llow
+            // centage
+            // OTA_Modifier_Dominated
+            // axe_counter_helix
+            // axe_culling_blade
+            // broodmother_spawn_spiderlings
+            // broodmother_spin_web
+            // broodmother_insatiable_hunger
+            // centaur_hoof_stomp
+            // centaur_stampede
+            // crystal_maiden_crystal_nova
+            // crystal_maiden_freezing_field
+            // lich_frost_nova
+            // lich_chain_frost
+            // lina_dragon_slave
+            // lina_light_strike_array
+            // pangolier_shield_crash
+            // pangolier_gyroshell
+            // skywrath_mage_arcane_bolt
+            // skywrath_mage_mystic_flare
+            // vengefulspirit_magic_missile
+            // vengefulspirit_nether_swap
+            // winter_wyvern_splinter_blast
+            // winter_wyvern_cold_embrace
+            // y_DrowRanger_WaveOfSilence
+            // DOTA_Modifier_DrowRanger_WaveOfSilence_Buff
+            // ilence_Buff
+            // rowRanger_WaveOfSilence
+            // A_Modifier_DrowRanger_WaveOfSilence_Knockback
+            // nce_Knockback
+            // DrowRanger_Trueshot
+            // difier_DrowRanger_Trueshot
+            // DOTA_Ability_DrowRanger_Marksmanship
+            // H*
+            // m_bIsInCinematicMode
+            // m_hCustomHeroPickRulesEntity
+            // m_iPlayerIDsInControl
+            // m_bCreepSpawningEnabled
+            // m_flHeroSelectPenaltyTime
+            // m_bCustomGameAllowMusicAtGameStart
+            // m_bCustomGameAllowBattleMusic
+            // m_nSeriesType
+            // m_flPreGameStartTime
+            // m_nRiverType
+            // m_nTeamFeaturedPlayerID
+            // m_hTeamFountains
+            // m_arrTier2TowerDestroyed
+            // m_vWeatherWindDirection
+            // m_AbilityDraftAbilities
+            // m_nAbilityDraftRoundNumber
+            // m_bAllowOverrideVPK
+            // m_lobbyType
+            // m_lobbyGameName
+            // m_nPrimaryIngameEventIndex
+            // Legs
+            // Nose
+            // Fuzzy
+            // Bearded
+            // BadTeeth
+            // NicePecs
+            // Potbelly
+            // Parent
+            // Arachnophobic
+            // Aquatic
+            // Demon
+            // Cute
+            // Fiery
+            // Icy
+            // Red
+            // Female
+            // Cape
+            // Undead
+            // Blue
+            // Green
+            // Wings
+            // Horns
+            // Legs
+            // Nose
+            // Fuzzy
+            // Bearded
+            // NicePecs
+            // Potbelly
+            // Parent
+            // Arachnophobic
+            // Undead
+            // Aquatic
+            // Flying
+            // Fiery
+            // Icy
+            // Blue
+            // Red
+            // Green
+            // Female
+            // Cape
+            // Cute
+            // player_changename
+            // Wings
+            // Horns
+            // Nose
+            // Bearded
+            // BadTeeth
+            // Cape
+            // Potbelly
+            // Parent
+            // Arachnophobic
+            // Undead
+            // Aquatic
+            // Demon
+            // Spirit
+            // Flying
+            // Fiery
+            // Icy
+            // Blue
+            // Red
+            // Legs
+            // Fuzzy
+            // Female
+            // Cute
+            // Green
+            // con/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
+            // Legs
+            // Nose
+            // Fuzzy
+            // Bearded
+            // BadTeeth
+            // NicePecs
+            // Potbelly
+            // Parent
+            // Arachnophobic
+            // Undead
+            // Aquatic
+            // Flying
+            // Cute
+            // Fiery
+            // Icy
+            // Blue
+            // Green
+            // Red
+            // Steed
+            // Female
+            // OnInternalTestVoid
+            // OnInternalTestBool
+            // OnInternalTestInt
+            // OnInternalTestFloat
+            // OnInternalTestEntityHandle
+            // OnInternalTestSchemaEnum
+            // OnInternalTestFloatString
+            // OnInternalTestEntityNameString
+            // OnInternalTestEntityHandleInt
+            // OnInternalTestStringStringString
+            // OnComponentTestFunc
+            // @Z
+            // Lu
+            // H*
+            // .google.protobuf.EnumValueOptions
+            // .google.protobuf.EnumValueOptions
+            // ESteamLearnSnapshotProjectResult
+            // EPrivateCoachingSessionMemberFlag
+            // CWorkshop_SetItemPaymentRules_Request
+            // CWorkshop_GetSpecialPayments_Response
+            // CWorkshop_GetPackageDailyRevenue_Response
+            // CWorkshop_GetItemDailyRevenue_Request
+            // CWorkshop_AddSpecialPayment_Request
+            // CUserMessage_Diagnostic_Response
+            // CUserMessageCloseCaptionPlaceholder
+            // CSource2Metrics_MatchPerfSummary_Notification
+            // CPublishedFile_Unsubscribe_Response
+            // CPublishedFile_Subscribe_Request
+            // CPublishedFile_GetUserFiles_Request
+            // CPlayer_SetPerFriendPreferences_Response
+            // CPlayer_SetCommunityPreferences_Request
+            // [premium points] - Calls dota_event_override_premium_points for the current event
+            // <challenger account id> Show the popup pretending you received a fighting game challenge.
+            // [is coach] Shows the rate coaching session popup with fake data as a student or coach.
+            // Enter demo mode with given hero. Usage: dota_demo_hero <hero_name> <optional: demo|fullmap>
+            // <fantasy league id> <period id> <token_amount> Sets available roll tokens for the account
+            // [output_file] [-binary] [-nopretty] save scenario of the game currently being spectated
+            // Attempt to fix up keyvalues files with bad UTF8 newline characters in UTF16 files
+            // CMsgGCMsgMasterSetWebAPIRouting_Response
+            // CMsgGCMsgMasterSetClientMsgRouting_Response
+            // CMsgGCGetAppFriendsList_Response
+            // CDOTA_Modifier_Ursa_Earthshock_Move
+            // CDOTA_Modifier_Ursa_Damage_Increase
+            // CDOTA_Modifier_Lion_FingerOfDeath_Kill_Counter
+            // CDOTA_Modifier_Courier_Morph_Effect
+            // CDOTA_Modifier_Lion_Innate_ToHellAndBack
+            // Legs
+            // Nose
+            // Fuzzy
+            // Female
+            // Cape
+            // Potbelly
+            // Parent
+            // Arachnophobic
+            // Undead
+            // Aquatic
+            // Demon
+            // Cute
+            // Fiery
+            // Icy
+            // Blue
+            // Red
+            // Green
+            // Bearded
+            // NicePecs
+            // Spirit
+            // CMsgDOTASDOHeroStatsHistory.lobby_type
+            // CMsgInGamePrediction.InvalidQuery
+            // CMsgDOTASDOHeroStatsHistory.start_time
+            // CNETMsg_SpawnGroup_ManifestUpdate
+            // Wings
+            // Legs
+            // Nose
+            // Bearded
+            // Female
+            // Cape
+            // NicePecs
+            // Potbelly
+            // Arachnophobic
+            // Undead
+            // Aquatic
+            // Demon
+            // Spirit
+            // Flying
+            // Cute
+            // Fiery
+            // Icy
+            // Blue
+            // Green
+            // Fuzzy
+            // Parent
+            // Red
+            // Legs
+            // Steed
+            // Nose
+            // Fuzzy
+            // Female
+            // Cape
+            // Potbelly
+            // Arachnophobic
+            // Undead
+            // Aquatic
+            // Demon
+            // Spirit
+            // Flying
+            // Cute
+            // Fiery
+            // Icy
+            // Blue
+            // Green
+            // Bearded
+            // NicePecs
+            // Parent
+            // Red
+            // Wings
+            // Horns
+            // Steed
+            // Nose
+            // Fuzzy
+            // Female
+            // BadTeeth
+            // Cape
+            // NicePecs
+            // Potbelly
+            // Parent
+            // Arachnophobic
+            // Aquatic
+            // Demon
+            // Spirit
+            // Cute
+            // Fiery
+            // Icy
+            // Blue
+            // Red
+            // Green
+            // Legs
+            // Flying
+            // Undead
+            // Bearded
+            // @
+            // H*
+            // Legs
+            // Nose
+            // Fuzzy
+            // Bearded
+            // BadTeeth
+            // NicePecs
+            // Potbelly
+            // Parent
+            // Arachnophobic
+            // Undead
+            // Aquatic
+            // Demon
+            // Fiery
+            // Icy
+            // Blue
+            // Red
+            // Wings
+            // Female
+            // Flying
+            // Cute
+            // Green
+            // CDOTAMatchPrivateMetadata.Team.Player.team_slot
+            // CDOTAMatchPrivateMetadata.Team.buildings
+            // CSVCMsg_SplitScreen.player_index
+            // .k_PackBundle_Failed_ItemInvalidQuality
+            // t_id
+            // ckBundleResponse.k_PackBundle_Failed_SOCacheError
+            // iled_ItemIsNonEconomy
+            // CMsgClientToGCUnpackBundleResponse.k_UnpackBundle_Failed_ItemIsInvalid
+            // CurrentPartyContents
+            // CurrentPartyContainer
+            // FriendlistBottom
+            // SocialControls
+            // DashboardForeground
+            // DashboardCore
+            // DashboardCenter
+            // Dashboard
+            // DotaDashboard
+            // CMsgClientToGCRemoveItemAttribute.item_id
+            // CMsgClientToGCRemoveItemAttributeResponse
+            // k_EMsgClientToGCUnlockItemStyleResponse
+            // k_EMsgClientToGCEquipItemsResponse
+            // k_EMsgClientToGCUnpackBundleResponse
+            // CMsgClientToGCNameItem.subject_item_id
+            // k_EMsgClientToGCWrapAndDeliverGiftResponse
+            // CMsgClientToGCNameItemResponse.response
+            // CMsgClientToGCNameItemResponse.item_id
+            // k_EMsgGCToGCItemConsumptionRollback
+            // CAttribute_ItemDynamicRecipeComponent
+            // CAttribute_ItemDynamicRecipeComponent.item_def
+            // CAttribute_ItemDynamicRecipeComponent.lootlist
+            // k_EMsgGCToGCGetUserServerMembersResponse
+            // CurrentPartyReadyCheck
+            // CurrentPartyContents
+            // CurrentPartyContainer
+            // FriendlistBottom
+            // SocialControls
+            // DashboardForeground
+            // DashboardCore
+            // DashboardCenter
+            // Dashboard
+            // DotaDashboard
+            // CurrentPartyReadyCheckHeader
+            // CurrentPartyReadyCheck
+            // CurrentPartyContents
+            // CurrentPartyContainer
+            // FriendlistBottom
+            // SocialControls
+            // DashboardForeground
+            // DashboardCore
+            // DashboardCenter
+            // Dashboard
+            // DotaDashboard
+            // PartyMembers
+            // CurrentParty
+            // CurrentPartyMain
+            // CurrentPartyContents
+            // CurrentPartyContainer
+            // FriendlistBottom
+            // SocialControls
+            // DashboardForeground
+            // DashboardCore
+            // DashboardCenter
+            // Dashboard
+            // DotaDashboard
+            pub mod __8___ {
             }
             // Parent: None
             // Field count: 0
             //
             // Metadata:
-            // MyCoachRating
-            // BecomeACoach
-            // RequestACoach
-            // CoachSessionSearching
-            // CoachSessionActiveAsCoach
-            // CoachSessionActiveAsStudent
-            // OtherSessionMemberAvatarImage
-            // InfoIcon
-            // CoachSectionButton PopupButton
-            // InfoIcon
-            // CoachSectionButton PopupButton
-            // CoachSectionButton PopupButton
-            // CoachSectionButton PopupButton
-            // CoachSectionButton PopupButton
-            // CoachSectionButton PopupButton
-            // GuildLogoFrame
-            // GuildLogoFrame
-            // GuildLogoFrame
-            // GuildLogoFrame
-            // SpeedDropdownDropDownMenu
-            // Contracts
-            // ContractSlotList
-            // GuildChallenge
-            // GuildChallenge
-            // ClaimRewardsGuildButton
-            // ContractSlot
-            // Invite
-            // GuildTierDescription
-            // UnshownRewards
-            // TierRewards
-            // TierRewards
-            // GuildPerkUnlockLevel
-            // LastWeekTierProgressBar
-            // CurrentWeekTierProgressBar
-            // RewardGallery
-            // CoachSessionSearching
-            // CoachSessionActiveAsStudent
-            pub mod dota_healing_campfire {
+            // ERankType
+            // Fantasy_Scoring
+            // DOTACommType_t
+            pub mod Pt5___ {
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // C
+            // C
+            pub mod _____ {
+                pub const eResult_Success: usize = 0xFAD51770; // EResult
+                pub const eResult_Dropped: usize = 0xFAD51770; // EResult
             }
             // Parent: None
             // Field count: 0
-            pub mod dota_healing_campfire {
+            pub mod Pt5___ {
             }
             // Parent: None
             // Field count: 0
-            pub mod dota_healing_campfire {
+            //
+            // Metadata:
+            // CUserMessageAudioParameter.parameter_type
+            // eManager.update_particle
+            // _npc_dota_hero_nevermore.vpcf
+            // dota_ability_contribution_common.h
+            // dota_cavern_crawl_types.h
+            // dota_craftworks.h
+            // AbilityContributionType_t
+            // er_entity
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ChatUntilDate
+            // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
+            pub mod __8___ {
             }
             // Parent: None
             // Field count: 0
-            pub mod dota_healing_campfire {
+            pub mod ability {
             }
             // Parent: None
             // Field count: 0
-            pub mod dota_healing_campfire {
+            pub mod _ {
             }
             // Parent: None
             // Field count: 0
-            pub mod ______ {
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CUserMessageAudioParameter.parameter_type
+            // eManager.update_particle
+            // _npc_dota_hero_nevermore.vpcf
+            // dota_ability_contribution_common.h
+            // dota_cavern_crawl_types.h
+            // dota_craftworks.h
+            // AbilityContributionType_t
+            // er_entity
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ChatUntilDate
+            // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
+            pub mod __8___ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod Pt5___ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _S____ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod ___ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CUserMessageAudioParameter.parameter_type
+            // eManager.update_particle
+            // _npc_dota_hero_nevermore.vpcf
+            // dota_ability_contribution_common.h
+            // dota_cavern_crawl_types.h
+            // dota_craftworks.h
+            // AbilityContributionType_t
+            // er_entity
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ChatUntilDate
+            // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
+            pub mod __8___ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // shop_slots
+            // total_gold
+            // BenchSlot
+            // slot_id
+            // stars
+            // hero_id
+            // title
+            // active
+            // category
+            // question_value
+            // picked_count
+            // value
+            // name
+            // is_percentage
+            // bonuses
+            // values_scepter
+            // required_facet
+            // values
+            // id
+            // name_loc
+            // lore_loc
+            // shard_loc
+            // facets_loc
+            // behavior
+            // target_type
+            // damage
+            // dispellable
+            // cast_ranges
+            // channel_times
+            // durations
+            // mana_costs
+            // health_costs
+            // is_item
+            // item_cost
+            // item_stock_time
+            // abilities
+            // name
+            // name_loc
+            // hype_loc
+            // facets
+            // str_gain
+            // agi_gain
+            // int_gain
+            // complexity
+            // role_levels
+            // damage_max
+            // attack_range
+            // armor
+            // movement_speed
+            // sight_range_day
+            // max_health
+            // max_mana
+            // abilities
+            // facet_abilities
+            // color
+            // description_loc
+            // icon
+            // index
+            // items
+            // heroes
+            // id
+            // name_loc
+            // primary_attr
+            // itemabilities
+            // id
+            // name_loc
+            // recipes
+            // Recipe
+            // expiration_date
+            // bonus_count
+            // def_index
+            // booster_type
+            // league_id
+            // version
+            // reward_flags
+            // sticker_num
+            // position_x
+            // position_z
+            // scale
+            // depth_bias
+            // event_id
+            // stickers
+            // page_numbers
+            // hero_id
+            // quality
+            // heroes
+            // match_count
+            // hero_id
+            // rank_tier
+            // start_timestamp
+            // rank_stats
+            // lotuses_gained
+            // portals_used
+            // tormentor_kills
+            // window_start
+            // tracked_stat_id
+            // result
+            // action_id
+            // Success
+            // InvalidEvent
+            // EventNotActive
+            // InvalidAction
+            // ServerError
+            // AlreadyClaimed
+            // SDOLockFailure
+            // SDOLoadFailure
+            // EventNotOwned
+            // Timeout
+            // InvalidItem
+            // AsyncRewards
+            // item_def
+            // item_def
+            // TokenQuantity
+            // token_count
+            // material_count
+            // score_index
+            // reward_data
+            // language
+            // feedback
+            // EResponse
+            // match_id
+            // predictions
+            // item_def
+            // num_fails
+            // ability_level
+            // kPassive
+            // kAutocast
+            // kToggle
+            // kChanneled
+            // kUnknown
+            // kDuration
+            // kManaCost
+            // kHealthCost
+            // kCastRange
+            // kPhysicalDamage
+            // kMagicalDamage
+            // kPureDamage
+            // kCooldown
+            // kDebuffValue
+            // kBuffPercentage
+            // kBuffValue
+            // kManaPercentage
+            // kNumCharges
+            // kDebuffDuration
+            // kBuffDuration
+            // kDispellability
+            // AttributeValue
+            // is_active_value
+            // values
+            // next
+            // single
+            // delta
+            // value
+            // desc_loc_token
+            // basic
+            // specific
+            // attributes
+            // content_chunk
+            // secondaryLeaverCount
+            // lowPriorityUntilDate
+            // preventTextChatUntilDate
+            // preventVoiceUntilDate
+            // preventPublicTextChatUntilDate
+            // preventNewPlayerChatUntilDate
+            // lastAbandonedGameDate
+            // lastSecondaryAbandonedGameDate
+            // leaverPenaltyCount
+            // completedGameStreak
+            // accountDisabledUntilDate
+            // accountDisabledCount
+            // matchDisabledUntilDate
+            // matchDisabledCount
+            // lowPriorityGamesRemaining
+            // recruitmentLevel
+            // hasNewNotifications
+            // casualGamesPlayed
+            // soloCompetitiveGamesPlayed
+            // partyCompetitiveGamesPlayed
+            // casual1v1GamesPlayed
+            // currAllHeroChallengeId
+            // playTimePoints
+            // playerBehaviorSeqNumLastReport
+            // playerBehaviorScoreLastReport
+            // playerBehaviorReportOldData
+            // tourneySkillLevel
+            // tourneyRecentParticipationDate
+            // anchoredPhoneNumberId
+            // rankedMatchmakingBanUntilDate
+            // recentGameTime1
+            // recentGameTime2
+            // recentGameTime3
+            // favoriteTeamPacked
+            // recentReportTime
+            // customGameDisabledUntilDate
+            // recentWinTime1
+            // recentWinTime2
+            // recentWinTime3
+            // eventModeRecentTime
+            // mmrRecalibrationTime
+            // originalStartDate
+            // prepaidTimeStart
+            // prepaidTimeBalance
+            // nextPaymentDate
+            // steamAgreementId
+            // CMsgLobbyFeaturedGamemodeProgress.AccountProgress
+            // statusEffectIndex
+            // bountyRuneGold
+            // rangeCreepUpgradeGold
+            // observerWardsDewarded
+            // reliableGoldEarned
+            // goldLossPrevented
+            // experimentalGold
+            // experimental2Gold
+            // tpScrollsPurchased1
+            // tpScrollsPurchased2
+            // tpScrollsPurchased3
+            // tpScrollsPurchased4
+            // tpScrollsPurchased5
+            // supportGoldSpent
+            // enemyTowersKilled
+            // enemyBarracksKilled
+            // enemyTowersStatus
+            // enemyBarracksStatus
+            // playerAccountId
+            // gameTimeSeconds
+            // durationSeconds
+            // playerCardItemIds
+            // playerCardInfos
+            // CMsgGCGetPlayerCardItemInfoResponse.PlayerCardInfo
+            // playerCardItemId
+            // recentBattleCupVictory
+            // leaderboardRank
+            // isPlusSubscriber
+            // plusOriginalStartDate
+            // leaderboardRankCore
+            // favoriteTeamPacked
+            // CMsgDOTAProfileCard.EStatID
+            // CMsgDOTAProfileCard.k_eStat_Wins
+            // CMsgDOTAProfileCard.k_eStat_Commends
+            // CMsgDOTAProfileCard.k_eStat_GamesPlayed
+            // CMsgDOTAProfileCard.k_eStat_FirstMatchDate
+            // CMsgDOTAProfileCard.k_eStat_PreviousSeasonRank
+            // CMsgDOTAProfileCard.k_eStat_GamesMVP
+            // CMsgDOTAProfileCard.Slot
+            // CMsgDOTAProfileCard.Slot.Trophy
+            // CMsgDOTAProfileCard.Slot.Stat
+            // CMsgDOTAProfileCard.Slot.Item
+            // CMsgDOTAProfileCard.Slot.Hero
+            // CMsgDOTAProfileCard.Slot.Emoticon
+            // CMsgDOTAProfileCard.Slot.Team
+            // CMsgGCRerollPlayerChallengeResponse.EResult
+            // CMsgGCRerollPlayerChallengeResponse.eResult_Success
+            // CMsgGCRerollPlayerChallengeResponse.eResult_Dropped
+            // CMsgGCRerollPlayerChallengeResponse.eResult_NotFound
+            // CMsgGCRerollPlayerChallengeResponse.eResult_CantReroll
+            // CMsgGCRerollPlayerChallengeResponse.eResult_ServerError
+            // topCustomGames
+            // CMsgDOTARealtimeGameStats.TeamDetails
+            // CMsgDOTARealtimeGameStats.ItemDetails
+            // CMsgDOTARealtimeGameStats.AbilityDetails
+            // CMsgDOTARealtimeGameStats.HeroToHeroStats
+            // CMsgDOTARealtimeGameStats.AbilityList
+            // CMsgDOTARealtimeGameStats.PlayerDetails
+            // baseIntelligence
+            // ultimateCooldown
+            // heroToHeroStats
+            // hasUltimateMana
+            // CMsgDOTARealtimeGameStats.BuildingDetails
+            // CMsgDOTARealtimeGameStats.KillDetails
+            // killerPlayerId
+            // CMsgDOTARealtimeGameStats.BroadcasterDetails
+            // CMsgDOTARealtimeGameStats.PickBanDetails
+            // CMsgDOTARealtimeGameStats.MatchDetails
+            // isNightstalkerNight
+            // CMsgDOTARealtimeGameStats.GraphData
+            // CMsgDOTARealtimeGameStats.GraphData.eStat
+            // CMsgDOTARealtimeGameStats.GraphData.CreepGoldEarned
+            // CMsgDOTARealtimeGameStats.GraphData.KillGoldEarned
+            // CMsgDOTARealtimeGameStats.GraphData.DeathAndBuybackGoldLost
+            // CMsgDOTARealtimeGameStats.GraphData.XPEarned
+            // CMsgDOTARealtimeGameStats.GraphData.eLocation
+            // CMsgDOTARealtimeGameStats.GraphData.BotLane
+            // CMsgDOTARealtimeGameStats.GraphData.MidLane
+            // CMsgDOTARealtimeGameStats.GraphData.TopLane
+            // CMsgDOTARealtimeGameStats.GraphData.Jungle
+            // CMsgDOTARealtimeGameStats.GraphData.Ancients
+            // CMsgDOTARealtimeGameStats.GraphData.Other
+            // CMsgDOTARealtimeGameStats.GraphData.LocationStats
+            // CMsgDOTARealtimeGameStats.GraphData.TeamLocationStats
+            // CMsgDOTARealtimeGameStatsTerse.TeamDetails
+            // CMsgDOTARealtimeGameStatsTerse.PlayerDetails
+            // CMsgDOTARealtimeGameStatsTerse.BuildingDetails
+            // CMsgDOTARealtimeGameStatsTerse.PickBanDetails
+            // CMsgDOTARealtimeGameStatsTerse.MatchDetails
+            // steamBroadcasterAccountIds
+            // CMsgDOTARealtimeGameStatsTerse.GraphData
+            // matchgroupsVersion
+            // answerResolutionType
+            // debugForceSelection
+            // CMsgInGamePrediction.ERawValueType_t
+            // CMsgInGamePrediction.Number
+            // CMsgInGamePrediction.Time
+            // CMsgInGamePrediction.EPredictionType
+            // CMsgInGamePrediction.Generic
+            // CMsgInGamePrediction.Hero
+            // CMsgInGamePrediction.Team
+            // CMsgInGamePrediction.Player
+            // CMsgInGamePrediction.Special
+            // CMsgInGamePrediction.YesNo
+            // CMsgInGamePrediction.QualifiersTeam
+            // CMsgInGamePrediction.EResolutionType_t
+            // CMsgInGamePrediction.InvalidQuery
+            // CMsgInGamePrediction.FirstToPassQuery
+            // CMsgInGamePrediction.LastToPassQuery
+            // CMsgInGamePrediction.LastRemainingQuery
+            // CMsgInGamePrediction.MaxToPassQuery
+            // CMsgInGamePrediction.MinToPassQuery
+            // CMsgInGamePrediction.SumQuery
+            // CMsgInGamePrediction.MaxTeamSumToPassQuery
+            // CMsgInGamePrediction.MinTeamSumToPassQuery
+            // CMsgInGamePrediction.ERandomSelectionGroup_t
+            // CMsgInGamePrediction.EarlyGame
+            // CMsgInGamePrediction.MidGame
+            // CMsgInGamePrediction.LateGame
+            // CMsgInGamePrediction.Count
+            // CMsgInGamePrediction.QueryKeyValues
+            // inGamePredictions
+            // inGamePredictionCountPerGame
+            // inGamePredictionVotingPeriodMinutes
+            // CMsgDOTASeasonPredictions.Prediction
+            // lockOnSelectionId
+            // lockOnSelectionValue
+            // lockOnSelectionSet
+            // useAnswerValueRanges
+            // rewardEventAction
+            // CMsgDOTASeasonPredictions.Prediction.EPredictionType
+            // CMsgDOTASeasonPredictions.Prediction.Generic
+            // CMsgDOTASeasonPredictions.Prediction.Hero
+            // CMsgDOTASeasonPredictions.Prediction.Team
+            // CMsgDOTASeasonPredictions.Prediction.Player
+            // CMsgDOTASeasonPredictions.Prediction.Special
+            // CMsgDOTASeasonPredictions.Prediction.YesNo
+            // CMsgDOTASeasonPredictions.Prediction.QualifiersTeam
+            // CMsgDOTASeasonPredictions.Prediction.LastChanceTeam
+            // CMsgDOTASeasonPredictions.Prediction.EAnswerType
+            // CMsgDOTASeasonPredictions.Prediction.SingleInt
+            // CMsgDOTASeasonPredictions.Prediction.SingleFloat
+            // CMsgDOTASeasonPredictions.Prediction.MultipleInt
+            // CMsgDOTASeasonPredictions.Prediction.MultipleFloat
+            // CMsgDOTASeasonPredictions.Prediction.AnswerTeam
+            // CMsgDOTASeasonPredictions.Prediction.SingleTime
+            // CMsgDOTASeasonPredictions.Prediction.MultipleTime
+            // CMsgDOTASeasonPredictions.Prediction.NoAnswer
+            // CMsgDOTASeasonPredictions.Prediction.Answers
+            // matchPredictions
+            // CMsgAvailablePredictions.MatchPrediction
+            // CMsgLeagueWatchedGames.Series
+            // CMsgLeagueWatchedGames.League
+            // firstBloodTime
+            // radiantTeamName
+            // radiantTeamLogo
+            // radiantTeamLogoUrl
+            // direTeamLogoUrl
+            // radiantTeamComplete
+            // direTeamComplete
+            // radiantGuildId
+            // radiantTeamTag
+            // broadcasterChannels
+            // customGameData
+            // privateMetadataKey
+            // radiantTeamScore
+            // tournamentRound
+            // preGameDuration
+            // CMsgDOTAMatch.ReplayState
+            // CMsgDOTAMatch.REPLAY_AVAILABLE
+            // CMsgDOTAMatch.REPLAY_NOT_RECORDED
+            // CMsgDOTAMatch.REPLAY_EXPIRED
+            // CMsgDOTAMatch.Player
+            // expectedTeamContribution
+            // disableDuration
+            // supportAbilityValue
+            // feedingDetected
+            // searchRankUncertainty
+            // rankUncertaintyChange
+            // scaledHeroDamage
+            // scaledTowerDamage
+            // scaledHeroHealing
+            // claimedFarmGold
+            // abilityUpgrades
+            // additionalUnitsInventory
+            // customGameData
+            // activePlusSubscription
+            // heroWasRandomed
+            // heroWasDotaPlusSuggestion
+            // heroDamageReceived
+            // heroDamageDealt
+            // goldLostToDeath
+            // laneSelectionFlags
+            // outpostsCaptured
+            // CMsgDOTAMatch.Player.HeroDamageType
+            // CMsgDOTAMatch.Player.HERO_DAMAGE_PHYSICAL
+            // CMsgDOTAMatch.Player.HERO_DAMAGE_MAGICAL
+            // CMsgDOTAMatch.Player.HERO_DAMAGE_PURE
+            // CMsgDOTAMatch.Player.CustomGameData
+            // CMsgDOTAMatch.Player.HeroDamageReceived
+            // CMsgDOTAMatch.BroadcasterInfo
+            // CMsgDOTAMatch.BroadcasterChannel
+            // broadcasterInfos
+            // CMsgDOTAMatch.Coach
+            // isPrivateCoach
+            // CMsgDOTAMatch.CustomGameData
+            // CMsgPlayerCard.StatModifier
+            // playerAccountId
+            // teamfightParticipation
+            // desirePushLaneTop
+            // desirePushLaneMid
+            // desirePushLaneBot
+            // desireDefendLaneTop
+            // desireDefendLaneMid
+            // desireDefendLaneBot
+            // desireFarmLaneTop
+            // desireFarmLaneMid
+            // desireFarmLaneBot
+            // desireFarmRoshan
+            // CMsgDOTABotDebugInfo.Bot
+            // CMsgDOTABotDebugInfo.Bot.Mode
+            // CMsgDOTABotDebugInfo.Bot.Action
+            // CMsgMatchTips.SingleTip
+            // sourceAccountId
+            // targetAccountId
+            // CMsgDOTAMatchMinimal.Player
+            // CMsgDOTAMatchMinimal.Tourney
+            // weekendTourneyTournamentId
+            // weekendTourneySeasonTrophyId
+            // weekendTourneyDivision
+            // weekendTourneySkillLevel
+            // radiantTeamName
+            // radiantTeamLogo
+            // radiantTeamLogoUrl
+            // direTeamLogoUrl
+            // playerConsumablesUsed
+            // CMsgMatchConsumableUsage.PlayerUsage
+            // consumablesUsed
+            // CMsgMatchEventActionGrants.PlayerGrants
+            // customGamesWhitelist
+            // disableWhitelist
+            // whitelistEntries
+            // CMsgCustomGameWhitelistForEdit.WhitelistEntry
+            // predictionStreak
+            // plusPredictionStreak
+            // firstMatchTimestamp
+            // playerAccomplishments
+            // heroAccomplishments
+            // playerAccomplishments
+            // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
+            // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eInternalError
+            // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eSuccess
+            // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eTooBusy
+            // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eDisabled
+            // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eForbidden
+            // numMatchesToSearch
+            // minSharedMatchCount
+            // numAdditionalPlayers
+            // CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Account
+            // numCommonMatches
+            // earliestCommonMatch
+            // latestCommonMatch
+            // CMsgPullTabsData.Slot
+            // CMsgPullTabsData.Jackpot
+            // CMsgUnderDraftData.BenchSlot
+            // CMsgUnderDraftData.ShopSlot
+            // isSpecialReward
+            // correctAnswerIndex
+            // summaryAvailable
+            // abilityHasScepter
+            // abilityHasShard
+            // abilityIsGrantedByScepter
+            // abilityIsGrantedByShard
+            // abilityIsInnate
+            // itemInitialCharges
+            // itemNeutralTier
+            // attackCapability
+            // projectileSpeed
+            // magicResistance
+            // sightRangeNight
+            // CMsgGameDataHero.Facet
+            // CMsgGameDataHeroList.HeroInfo
+            // nameEnglishLoc
+            // CMsgGameDataItemAbilityList.ItemAbilityInfo
+            // nameEnglishLoc
+            // neutralItemTier
+            // isPregameSuggested
+            // isEarlygameSuggested
+            // isLategameSuggested
+            // CMsgGameDataItemAbilityList.ItemAbilityInfo.Recipe
+            // shuffleDraftOrder
+            // originalPurchaserId
+            // passportsBought
+            // teamPageOrderSequence
+            // favoritePageNum
+            // laneSelectionFlags
+            // wisdomRunesGained
+            // roshanKillsDay
+            // roshanKillsNight
+            // outpostsCaptured
+            // shieldRunesGained
+            // trackedStatValue
+            // CMsgDOTAClaimEventActionResponse.ResultCode
+            // CMsgDOTAClaimEventActionResponse.Success
+            // CMsgDOTAClaimEventActionResponse.InvalidEvent
+            // CMsgDOTAClaimEventActionResponse.EventNotActive
+            // CMsgDOTAClaimEventActionResponse.InvalidAction
+            // CMsgDOTAClaimEventActionResponse.ServerError
+            // CMsgDOTAClaimEventActionResponse.InsufficientPoints
+            // CMsgDOTAClaimEventActionResponse.InsufficentLevel
+            // CMsgDOTAClaimEventActionResponse.AlreadyClaimed
+            // CMsgDOTAClaimEventActionResponse.SDOLockFailure
+            // CMsgDOTAClaimEventActionResponse.SDOLoadFailure
+            // CMsgDOTAClaimEventActionResponse.EventNotOwned
+            // CMsgDOTAClaimEventActionResponse.Timeout
+            // CMsgDOTAClaimEventActionResponse.RequiresPlusSubscription
+            // CMsgDOTAClaimEventActionResponse.InvalidItem
+            // CMsgDOTAClaimEventActionResponse.AsyncRewards
+            // CMsgDOTAClaimEventActionResponse.MysteryItemRewardData
+            // CMsgDOTAClaimEventActionResponse.LootListRewardData
+            // CMsgDOTAClaimEventActionResponse.ActionListRewardData
+            // resultRewardData
+            // CMsgDOTAClaimEventActionResponse.OverworldTokenRewardData
+            // CMsgDOTAClaimEventActionResponse.OverworldTokenRewardData.TokenQuantity
+            // CMsgDOTAClaimEventActionResponse.MonsterHunterMaterialRewardData
+            // CMsgDOTAClaimEventActionResponse.MonsterHunterMaterialRewardData.MaterialQuantity
+            // CMsgDOTAClaimEventActionResponse.GrantedRewardData
+            // CMsgClientToGCDotaLabsFeedbackResponse.EResponse
+            // CMsgClientToGCDotaLabsFeedbackResponse.k_eInternalError
+            // CMsgClientToGCDotaLabsFeedbackResponse.k_eSuccess
+            // CMsgClientToGCDotaLabsFeedbackResponse.k_eTooBusy
+            // CMsgClientToGCDotaLabsFeedbackResponse.k_eDisabled
+            // CMsgClientToGCDotaLabsFeedbackResponse.k_eTimeout
+            // CMsgClientToGCDotaLabsFeedbackResponse.k_eNotAllowed
+            // CMsgClientToGCDotaLabsFeedbackResponse.k_eInvalidItem
+            // CDotaMsg_PredictionResult.Prediction
+            // grantedItemDefs
+            // CDotaMsg_PredictionResult.Prediction.EResult
+            // CDotaMsg_PredictionResult.Prediction.k_eResult_ItemGranted
+            // CDotaMsg_PredictionResult.Prediction.k_eResult_Destroyed
+            // abilityNameLocToken
+            // abilityCategory
+            // currentManaCost
+            // currentHealthCost
+            // currentCooldown
+            // summaryDescriptionLocToken
+            // summaryDescriptionEmbedValues
+            // summaryDescriptionSurfacedLines
+            // summaryDescriptionEmbeddedSubAbilities
+            // summaryDescriptionAghsScepter
+            // summaryDescriptionAghsShard
+            // previewVideoUrl
+            // CDotaMsgStructuredTooltipProperties.EAbilityTooltipCategory
+            // CDotaMsgStructuredTooltipProperties.kPassive
+            // CDotaMsgStructuredTooltipProperties.kAutocast
+            // CDotaMsgStructuredTooltipProperties.kToggle
+            // CDotaMsgStructuredTooltipProperties.kChanneled
+            // CDotaMsgStructuredTooltipProperties.EAttributeType
+            // CDotaMsgStructuredTooltipProperties.kUnknown
+            // CDotaMsgStructuredTooltipProperties.kDuration
+            // CDotaMsgStructuredTooltipProperties.kManaCost
+            // CDotaMsgStructuredTooltipProperties.kHealthCost
+            // CDotaMsgStructuredTooltipProperties.kCastRange
+            // CDotaMsgStructuredTooltipProperties.kAreaOfEffectRadius
+            // CDotaMsgStructuredTooltipProperties.kPhysicalDamage
+            // CDotaMsgStructuredTooltipProperties.kMagicalDamage
+            // CDotaMsgStructuredTooltipProperties.kPureDamage
+            // CDotaMsgStructuredTooltipProperties.kCooldown
+            // CDotaMsgStructuredTooltipProperties.kDebuffPercentage
+            // CDotaMsgStructuredTooltipProperties.kDebuffValue
+            // CDotaMsgStructuredTooltipProperties.kBuffPercentage
+            // CDotaMsgStructuredTooltipProperties.kBuffValue
+            // CDotaMsgStructuredTooltipProperties.kMagicalDamagePercentage
+            // CDotaMsgStructuredTooltipProperties.kHealthPercentage
+            // CDotaMsgStructuredTooltipProperties.kManaPercentage
+            // CDotaMsgStructuredTooltipProperties.kNumCharges
+            // CDotaMsgStructuredTooltipProperties.kDebuffDuration
+            // CDotaMsgStructuredTooltipProperties.kBuffDuration
+            // CDotaMsgStructuredTooltipProperties.kAbilityDefinedDamage
+            // CDotaMsgStructuredTooltipProperties.kDispellability
+            // CDotaMsgStructuredTooltipProperties.kSpellImmunityPiercing
+            // CDotaMsgStructuredTooltipProperties.AttributeValueValue
+            // CDotaMsgStructuredTooltipProperties.AttributeValue_Single
+            // CDotaMsgStructuredTooltipProperties.AttributeValue_Variable
+            // CDotaMsgStructuredTooltipProperties.AttributeValue_Delta
+            // CDotaMsgStructuredTooltipProperties.AttributeValue
+            // CDotaMsgStructuredTooltipProperties.AttributeValue.attr_value
+            // CDotaMsgStructuredTooltipProperties.Attribute
+            // localizedNameText
+            // CDotaMsgStructuredTooltipProperties.AttributeGroupDesc_Basic
+            // CDotaMsgStructuredTooltipProperties.AttributeGroupDesc_Specific
+            // CDotaMsgStructuredTooltipProperties.AttributeGroupDescription
+            // CDotaMsgStructuredTooltipProperties.AttributeGroupDescription.attr_group_desc
+            // CDotaMsgStructuredTooltipProperties.AttributeGroup
+            // CDotaMsgStructuredTooltipProperties.ContentChunk_AttributeGroup
+            // CDotaMsgStructuredTooltipProperties.TooltipContentChunk
+            // CDotaMsgStructuredTooltipProperties.TooltipContentChunk.content_chunk
+            // CDotaMsgStructuredTooltipProperties.SummaryDescriptionEmbeddedSubAbility
+            // abilityNameLocToken
+            // abilityDescLocToken
+            // abilityIconUrl
+            // k_ESpecialPingValue_NoData
+            // k_ESpecialPingValue_Failed
+            // k_EDOTAGCSessionNeed_Unknown
+            // k_EDOTAGCSessionNeed_UserNoSessionNeeded
+            // k_EDOTAGCSessionNeed_UserInOnlineGame
+            // k_EDOTAGCSessionNeed_UserInLocalGame
+            // k_EDOTAGCSessionNeed_UserInUIWasConnected
+            // k_EDOTAGCSessionNeed_UserInUINeverConnected
+            // k_EDOTAGCSessionNeed_UserTutorials
+            // k_EDOTAGCSessionNeed_UserInUIWasConnectedIdle
+            // k_EDOTAGCSessionNeed_UserInUINeverConnectedIdle
+            // k_EDOTAGCSessionNeed_GameServerOnline
+            // k_EDOTAGCSessionNeed_GameServerLocal
+            // k_EDOTAGCSessionNeed_GameServerIdle
+            // k_EDOTAGCSessionNeed_GameServerRelay
+            // k_EDOTAGCSessionNeed_GameServerLocalUpload
+            // k_EDOTA_MatchPlayerTimeCustomStat_HPRegenUnderT1Towers
+            // k_EDOTA_MatchPlayerTimeCustomStat_MagicDamageReducedWithNewFormula_Absolute
+            // k_EDOTA_MatchPlayerTimeCustomStat_MagicDamageReducedWithNewFormula_PercentOfTotalHP
+            // EBroadcastTimelineEvent_MatchStarted
+            // EBroadcastTimelineEvent_GameStateChanged
+            // EBroadcastTimelineEvent_TowerDeath
+            // EBroadcastTimelineEvent_BarracksDeath
+            // EBroadcastTimelineEvent_AncientDeath
+            // EBroadcastTimelineEvent_RoshanDeath
+            // EBroadcastTimelineEvent_HeroDeath
+            // EBroadcastTimelineEvent_TeamFight
+            // EBroadcastTimelineEvent_FirstBlood
+            // CUSTOM_GAME_WHITELIST_STATE_UNKNOWN
+            // CUSTOM_GAME_WHITELIST_STATE_APPROVED
+            // CUSTOM_GAME_WHITELIST_STATE_REJECTED
+            // k_EDOTATriviaQuestionCategory_AbilityIcon
+            // k_EDOTATriviaQuestionCategory_AbilityCooldown
+            // k_EDOTATriviaQuestionCategory_HeroAttributes
+            // k_EDOTATriviaQuestionCategory_HeroMovementSpeed
+            // k_EDOTATriviaQuestionCategory_TalentTree
+            // k_EDOTATriviaQuestionCategory_HeroStats
+            // k_EDOTATriviaQuestionCategory_ItemPrice
+            // k_EDOTATriviaQuestionCategory_AbilitySound
+            // k_EDOTATriviaQuestionCategory_InvokerSpells
+            // k_EDOTATriviaQuestionCategory_AbilityManaCost
+            // k_EDOTATriviaQuestionCategory_HeroAttackSound
+            // k_EDOTATriviaQuestionCategory_AbilityName
+            // k_EDOTATriviaQuestionCategory_ItemComponents
+            // k_EDOTATriviaQuestionCategory_ItemLore
+            // k_EDOTATriviaQuestionCategory_ItemPassives
+            // k_EDOTATriviaQuestionCategory_STATIC_QUESTIONS_END
+            // k_EDOTATriviaQuestionCategory_DYNAMIC_QUESTIONS_START
+            // k_EDOTATriviaQuestionCategory_Dynamic_ItemBuild
+            // k_EOverwatchConviction_None
+            // k_EOverwatchConviction_NotGuilty
+            // k_EOverwatchConviction_GuiltUnclear
+            // k_EOverwatchConviction_Guilty
+            // HERO_RELIC_RARITY_INVALID
+            // HERO_RELIC_RARITY_COMMON
+            // HERO_RELIC_RARITY_RARE
+            // STICKERBOOK_AUDIT_CREATE_PAGE
+            // STICKERBOOK_AUDIT_DELETE_PAGE
+            // STICKERBOOK_AUDIT_STICK_STICKERS
+            // STICKERBOOK_AUDIT_REPLACE_STICKERS
+            // STICKERBOOK_AUDIT_HERO_STICKER
+            // STICKER_PAGE_GENERIC
+            // STICKER_PAGE_TEAM
+            // STICKER_PAGE_TALENT
+            // kENewBloomGifting_Success
+            // kENewBloomGifting_UnknownFailure
+            // kENewBloomGifting_MalformedRequest
+            // kENewBloomGifting_FeatureDisabled
+            // kENewBloomGifting_ItemNotFound
+            // kENewBloomGifting_PlayerNotAllowedToGiveGifts
+            // kENewBloomGifting_TargetNotAllowedToReceiveGifts
+            // kENewBloomGifting_ServerNotAuthorized
+            // kENewBloomGifting_PlayerNotInLobby
+            // kENewBloomGifting_TargetNotInLobby
+            // kENewBloomGifting_LobbyNotEligible
+            // kENewBloomGifting_TargetNotFriend
+            // kENewBloomGifting_TargetFriendDurationTooShort
+            // roID_t
+            // roID_t
+            // yle_index_t
+            // ilityID_t
+            // roID_t
+            // emid_t
+            // emid_t
+            // roID_t
+            // roID_t
+            // ilityID_t
+            // ayerID_t
+            // ayerID_t
+            // ayerID_t
+            // ayerID_t
+            // tchID_t
+            // agueNodeID_t
+            // roID_t
+            // ilityID_t
+            // tchID_t
+            // agueNodeID_t
+            // agueNodeID_t
+            // agueNodeID_t
+            // tchID_t
+            // PlayerSlot_t
+            // ilityID_t
+            // ilityID_t
+            // ilityID_t
+            // ilityID_t
+            // ilityID_t
+            // ilityID_t
+            // tchID_t
+            // ayerID_t
+            // ntityIndex
+            // tchID_t
+            // tchID_t
+            // ilityID_t
+            // agueID_t
+            // tchID_t
+            // roID_t
+            // roID_t
+            // roID_t
+            // ilityID_t
+            // roID_t
+            // ilityID_t
+            // agueID_t
+            // emid_t
+            // roID_t
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // les/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // Events
+            // Decals
+            // Signon
+            // Signon
+            // Events
+            // User Messages
+            // Events
+            // Events
+            // Events
+            // Decals
+            // User Messages
+            // Decals
+            // nts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
+            // User Messages
+            // Events
+            // User Messages
+            // Sounds
+            // Sounds
+            // Sounds
+            // Sounds
+            // Sounds
+            // Events
+            // Events
+            // Decals
+            // Events
+            // Events
+            // User Messages
+            // User Messages
+            // Events
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // Events
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            // User Messages
+            pub mod _s5___ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod ___ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _____ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _s5___ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CUserMessageAudioParameter.parameter_type
+            // eManager.update_particle
+            // _npc_dota_hero_nevermore.vpcf
+            // dota_ability_contribution_common.h
+            // dota_cavern_crawl_types.h
+            // dota_craftworks.h
+            // AbilityContributionType_t
+            // er_entity
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ChatUntilDate
+            // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
+            pub mod __8___ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _____ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod ___ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CUserMessageAudioParameter.parameter_type
+            // eManager.update_particle
+            // _npc_dota_hero_nevermore.vpcf
+            // dota_ability_contribution_common.h
+            // dota_cavern_crawl_types.h
+            // dota_craftworks.h
+            // AbilityContributionType_t
+            // er_entity
+            // AbilityContributionType_t
+            // AbilityContributionType_t
+            // ChatUntilDate
+            // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
+            pub mod __8___ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod 0 {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod __________ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod __ {
             }
         }
     }

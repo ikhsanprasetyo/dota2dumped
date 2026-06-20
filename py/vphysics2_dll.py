@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-12 16:11:20.255778400 +07:00
+# 2026-06-20 21:32:50.034446100 +07:00
 
 class Schemas:
     # Module: vphysics2.dll

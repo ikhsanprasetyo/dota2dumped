@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-12 16:11:20.255778400 +07:00
+# 2026-06-20 21:32:50.034446100 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -8,15 +8,15 @@ class Interfaces:
         AnimationSystem_001 = 0x80BCB0
     # Module: client.dll
     class ClientDll:
-        ClientToolsInfo_001 = 0x5CAD140
-        DOTA_CLIENT_GCCLIENT = 0x652F658
-        GameClientExports001 = 0x5CA8E68
-        LegacyGameUI001 = 0x5D1E370
-        PanoramaUIClient001 = 0x5D48DD0
-        PlayButtonService001 = 0x5D2A2D8
-        Source2Client002 = 0x638FAA0
-        Source2ClientConfig001 = 0x633CC10
-        Source2ClientPrediction001 = 0x5CB36A0
+        ClientToolsInfo_001 = 0x5CAD2C0
+        DOTA_CLIENT_GCCLIENT = 0x652F858
+        GameClientExports001 = 0x5CA8FE8
+        LegacyGameUI001 = 0x5D1E4F0
+        PanoramaUIClient001 = 0x5D48F50
+        PlayButtonService001 = 0x5D2A458
+        Source2Client002 = 0x638FCA0
+        Source2ClientConfig001 = 0x633D110
+        Source2ClientPrediction001 = 0x5CB3820
         Source2ClientUI001 = 0x5A7E880
     # Module: engine2.dll
     class Engine2Dll:
@@ -132,13 +132,13 @@ class Interfaces:
     # Module: server.dll
     class ServerDll:
         EntitySubclassUtilsV001 = 0x472BEF0
-        NavGameTest001 = 0x49FF820
-        ServerToolsInfo_001 = 0x4955F40
-        Source2GameClients001 = 0x494B5F0
-        Source2GameDirector001 = 0x4FDEB70
-        Source2GameEntities001 = 0x4955650
-        Source2Server001 = 0x49554A0
-        Source2ServerConfig001 = 0x4F1CC38
+        NavGameTest001 = 0x49FF920
+        ServerToolsInfo_001 = 0x4956040
+        Source2GameClients001 = 0x494B6F0
+        Source2GameDirector001 = 0x4FDEE50
+        Source2GameEntities001 = 0x4955750
+        Source2Server001 = 0x49555A0
+        Source2ServerConfig001 = 0x4F1CE88
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundOpSystem001 = 0x5139F0
@@ -157,9 +157,6 @@ class Interfaces:
     # Module: v8system.dll
     class V8systemDll:
         Source2V8System001 = 0x31730
-    # Module: vconcomm.dll
-    class VconcommDll:
-        VConComm001 = 0x395C0
     # Module: vphysics2.dll
     class Vphysics2Dll:
         VPhysics2_Interface_001 = 0x40FD60

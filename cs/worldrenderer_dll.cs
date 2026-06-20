@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-12 16:11:20.255778400 +07:00
+// 2026-06-20 21:32:50.034446100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: worldrenderer.dll
@@ -177,7 +177,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 2
+        // 1
         public static class ExtraVertexStreamOverride_t {
             public const nint m_nSubSceneObject = 0x4; // uint32
             public const nint m_nDrawCallIndex = 0x8; // uint32
@@ -403,7 +403,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MResourceTypeForInfoType
-        // e
+        // T!
         public static class InfoForResourceTypeVMapResourceData_t {
         }
         // Parent: None
@@ -504,7 +504,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 2
+        // 1
         public static class MaterialOverride_t {
             public const nint m_nSubSceneObject = 0x4; // uint32
             public const nint m_nDrawCallIndex = 0x8; // uint32

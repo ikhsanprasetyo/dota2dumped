@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-12 16:11:20.255778400 +07:00
+// 2026-06-20 21:32:50.034446100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 7529
-    // Enum count: 430
+    // Class count: 7531
+    // Enum count: 432
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -5890,7 +5890,7 @@ namespace Source2Dumper.Schemas {
             LIE = 0x4
         }
         // Alignment: 4
-        // Member count: 27
+        // Member count: 32
         public enum EBadgeType : uint {
             k_EBadgeType_Invalid = 0x0,
             k_EBadgeType_TI7_Midweek = 0x1,
@@ -5918,7 +5918,12 @@ namespace Source2Dumper.Schemas {
             k_EBadgeType_TI14_FinalsDay2 = 0x17,
             k_EBadgeType_TI14_FinalsDay3 = 0x18,
             k_EBadgeType_TI14_FinalsDay4 = 0x19,
-            k_EBadgeType_TI14_Special = 0x1A
+            k_EBadgeType_TI14_Special = 0x1A,
+            k_EBadgeType_TI15_FinalsDay1 = 0x1B,
+            k_EBadgeType_TI15_FinalsDay2 = 0x1C,
+            k_EBadgeType_TI15_FinalsDay3 = 0x1D,
+            k_EBadgeType_TI15_FinalsDay4 = 0x1E,
+            k_EBadgeType_TI15_Special = 0x1F
         }
         // Alignment: 1
         // Member count: 4
@@ -18678,6 +18683,10 @@ namespace Source2Dumper.Schemas {
         public static class CDOTAMutationGameMode {
         }
         // Parent: None
+        // Field count: 0
+        public static class CDOTA_Modifier_Foreboding2 {
+        }
+        // Parent: None
         // Field count: 2
         public static class CDOTA_Modifier_Seasonal_Summon_TI11_Balloon_Visuals {
             public const nint model_scale_per_stack = 0x19D8; // float32
@@ -19516,7 +19525,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -19863,7 +19871,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         public static class CPulseCell_Value_Gradient {
@@ -22502,8 +22509,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPulseEditorHeaderExpr
         // MPulsePolymorphicDependentReturn
-        // MGetKV3ClassDefaults
-        //  
         public static class CEnvCombinedLightProbeVolume {
             public const nint m_Entity_Color = 0x1510; // Color
             public const nint m_Entity_flBrightness = 0x1514; // float32
@@ -24281,7 +24286,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 12
         //
         // Metadata:
-        // z
         // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
         // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
         // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
@@ -24873,6 +24877,10 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CMultiplayRules {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class CDOTA_Modifier_Foreboding {
         }
         // Parent: CDOTA_Item
         // Field count: 0
@@ -28559,7 +28567,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         public static class CPulseCell_Value_Curve {
             public const nint m_Curve = 0x48; // CPiecewiseCurve
         }
@@ -30742,9 +30749,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 3
-        //
-        // Metadata:
-        // i
         public static class CFogController {
             public const nint m_fog = 0x498; // fogparams_t
             public const nint m_bUseAngles = 0x500; // bool
@@ -31360,7 +31364,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -32566,7 +32569,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MCustomFGDMetadata
-        // w
         public static class CDOTA_Ability_AntiMage_BlinkParticleAPI {
         }
         // Parent: CBaseTrigger
@@ -34431,9 +34433,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 7
-        //
-        // Metadata:
-        // i
         public static class CPointOrient {
             public const nint m_iszSpawnTargetName = 0x498; // CUtlSymbolLarge
             public const nint m_hTarget = 0x4A0; // CHandle<CBaseEntity>
@@ -38381,7 +38380,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 9
         //
         // Metadata:
-        // +
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -40939,7 +40937,6 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
-        // i
         public static class CPointCamera {
             public const nint m_FOV = 0x498; // float32
             public const nint m_Resolution = 0x49C; // float32
@@ -46641,7 +46638,7 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Ability_Special_Bonus_Agility_100 {
         }
         // Parent: None
-        // Field count: 326
+        // Field count: 327
         public static class CDOTAGameRules {
             public const nint m_nRuneCycle = 0x120; // int32
             public const nint m_nNextPowerRuneType = 0x124; // int32
@@ -46668,6 +46665,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_flGoldTickTime = 0x38C; // float32
             public const nint m_bEnableSuggestAbilities = 0x390; // bool
             public const nint m_bEnableSuggestItems = 0x391; // bool
+            public const nint m_bHackWhyAreYouGuysReadingOurVariableNames = 0x392; // bool
             public const nint m_unFanfareGoodGuys = 0x3B0; // uint32
             public const nint m_unFanfareBadGuys = 0x3B4; // uint32
             public const nint m_flFanfareTime = 0x3B8; // GameTime_t
@@ -48143,7 +48141,6 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
-        // i
         public static class CEnvWindVolume {
             public const nint m_bActive = 0x498; // bool
             public const nint m_vBoxMins = 0x49C; // Vector
@@ -54106,6 +54103,10 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // AMMO_POSITION_INVALID
+        // AMMO_POSITION_SECONDARY
+        // AMMO_POSITION_COUNT
+        // MGetKV3ClassDefaults
         public static class CBasePlayerVData {
             public const nint m_sModelName = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_sModelNameAg2Override = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
@@ -56560,7 +56561,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomFGDType
-        // r
         public static class CFootstepTableHandle {
         }
         // Parent: None
@@ -56891,8 +56891,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // w
-        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -57074,10 +57072,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // n
-        // n
         public static class AmmoIndex_t {
             public const nint m_Value = 0x0; // int8
         }
@@ -57832,7 +57826,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        // +
         public static class BlessingType_t {
             public const nint nID = 0x0; // BlessingTypeID_t
             public const nint szIconImage = 0x10; // CPanoramaImageName
@@ -58470,7 +58463,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
-        // +
         public static class attrib_definition_index_db32_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -58610,7 +58602,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
-        // +
         public static class itemid_t {
             public const nint m_Value = 0x0; // uint64
         }
@@ -58753,8 +58744,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // w
-        // w
         // MGetKV3ClassDefaults
         public static class BlessingTypeID_t {
             public const nint m_Value = 0x0; // int32
@@ -59061,7 +59050,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
-        // +
         public static class style_index_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59294,7 +59282,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
-        // +
         public static class item_definition_index_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -59442,7 +59429,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
-        // +
         public static class item_steam_cache_version_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59783,8 +59769,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // w
-        // w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -59873,7 +59857,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
-        // +
         public static class HeroPersona_t {
             public const nint m_Value = 0x0; // int8
         }
@@ -59967,10 +59950,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // n
-        // n
         public static class ParticleIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -60589,7 +60568,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
-        // +
         public static class attrib_definition_index_t {
             public const nint m_Value = 0x0; // uint16
         }

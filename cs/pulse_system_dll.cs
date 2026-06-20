@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-12 16:11:20.255778400 +07:00
+// 2026-06-20 21:32:50.034446100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -403,7 +403,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        // 3
+        // 2
         public static class CPulseTestFuncs_LibraryA {
         }
         // Parent: None
@@ -496,7 +496,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         public static class CPulseCell_FireCursors {
             public const nint m_Outflows = 0x48; // CUtlVector<CPulse_OutflowConnection>
             public const nint m_bWaitForChildOutflows = 0x60; // bool
@@ -554,7 +553,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -631,7 +629,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         public static class CPulseCell_Value_Gradient {
@@ -963,7 +960,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // i
         public static class CPulseCell_Test_MultiOutflow_WithParams_Yielding {
             public const nint m_Out1 = 0x48; // SignatureOutflow_Continue
             public const nint m_AsyncChild1 = 0x90; // SignatureOutflow_Continue
@@ -998,7 +994,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         public static class CPulseCell_Value_Curve {
             public const nint m_Curve = 0x48; // CPiecewiseCurve
         }
@@ -1167,7 +1162,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // n
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -1404,7 +1398,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // i
         public static class CPulseCell_Val_TestDomainGetEntityName {
         }
         // Parent: None
@@ -1653,7 +1646,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // i
         public static class CPulseCell_Val_TestDomainFindEntityByName {
         }
         // Parent: None
@@ -1698,7 +1690,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // i
         public static class CPulseCell_Step_TestDomainEntFire {
             public const nint m_Input = 0x48; // CUtlString
             public const nint flWaitValue = 0x0; // float32
@@ -1727,7 +1718,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        // 3
+        // 2
         public static class CPulseCell_ExampleSelector {
             public const nint m_OutflowList = 0x48; // PulseSelectorOutflowList_t
         }
@@ -1787,7 +1778,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyLeafSuggestionProviderFn
         // MPulseExpressionAlias
-        // 3
+        // 2
         public static class CPulseCell_ExampleCriteria {
         }
         // Parent: None
@@ -1895,6 +1886,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1919,6 +1911,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1940,6 +1933,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1952,6 +1946,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2107,6 +2102,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2129,6 +2125,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2140,6 +2137,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2176,6 +2174,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2212,6 +2211,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2223,6 +2223,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2248,6 +2249,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // v
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults

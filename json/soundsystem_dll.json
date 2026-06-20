@@ -3272,10 +3272,6 @@
             "type": "Unknown"
           },
           {
-            "name": "z",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -3564,10 +3560,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "z",
             "type": "Unknown"
           },
           {
@@ -3936,10 +3928,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "z",
             "type": "Unknown"
           },
           {
@@ -4576,10 +4564,6 @@
             "type": "Unknown"
           },
           {
-            "name": "z",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -5064,10 +5048,6 @@
             "type": "Unknown"
           },
           {
-            "name": "z",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -5285,10 +5265,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "z",
             "type": "Unknown"
           },
           {
@@ -6305,10 +6281,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "z",
             "type": "Unknown"
           },
           {
@@ -7335,10 +7307,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "z",
             "type": "Unknown"
           },
           {
