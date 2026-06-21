@@ -589,10 +589,6 @@
           {
             "name": "MResourceTypeForInfoType",
             "type": "Unknown"
-          },
-          {
-            "name": "T!",
-            "type": "Unknown"
           }
         ],
         "parent": null

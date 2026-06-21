@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-20 21:32:50.034446100 +07:00
+// 2026-06-21 22:55:14.944997300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -112,15 +112,17 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // i
+            // E
+            // n
+            // e
+            // f
+            // 0
+            // n
+            // e
             // a
             // a
-            // i
-            // i
-            // i
-            // R
-            // f
-            // f
+            // u
+            // u
             pub mod GameTime_t {
                 pub const m_Value: usize = 0x0; // float32
             }
@@ -179,17 +181,17 @@ pub mod source2_dumper {
             //
             // Metadata:
             // u
-            // -
+            // )
+            // s
+            // (
+            // e
+            // e
+            // k
+            // k
             // a
-            // o
-            // p
-            // i
-            // R
-            // n
-            // n
+            // a
             // u
-            // f
-            // f
+            // u
             pub mod GameTick_t {
                 pub const m_Value: usize = 0x0; // int32
             }

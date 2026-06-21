@@ -1,11 +1,6 @@
 {
   "client.dll": {
     "classes": {
-      "0": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "ActiveModelConfig_t": {
         "fields": {
           "m_AssociatedEntities": 64,
@@ -646,6 +641,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "rogram Files\\LLVM\\bin;C:\\cloudflared;G:\\Android\\Sdk;C:\\Users\\ByteseekerPC\\.local\\bin;C:\\Program Files\\Cloudflare\\Cloudflare WARP",
             "type": "Unknown"
           }
         ],
@@ -36090,10 +36089,6 @@
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
             "type": "Unknown"
-          },
-          {
-            "name": "e/0x1220,0x28de/0x1302,0x28de/0x1303,0x28de/0x1304,0x28de/0x1305,0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -38380,10 +38375,6 @@
           },
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "e/0x1220,0x28de/0x1302,0x28de/0x1303,0x28de/0x1304,0x28de/0x1305,0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/",
             "type": "Unknown"
           },
           {
@@ -57138,7 +57129,12 @@
       },
       "C_DOTA_PortraitBaseModel": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": ".",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CBaseAnimatingActivity"
       },
       "C_DOTA_PortraitBuilding": {
@@ -57188,6 +57184,10 @@
           },
           {
             "name": "DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_PULL",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -57280,6 +57280,10 @@
           },
           {
             "name": "DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_PULL",
+            "type": "Unknown"
+          },
+          {
+            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -60855,11 +60859,6 @@
         ],
         "parent": null
       },
-      "Pt5___": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "PulseNodeDynamicOutflows_t": {
         "fields": {
           "m_Outflows": 0
@@ -61156,10 +61155,6 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
-          },
-          {
-            "name": "s (x86)\\Byteseeker Engine\\other\\KDU;C:\\Program Files\\Git\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61188,10 +61183,6 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
-          },
-          {
-            "name": "s (x86)\\Byteseeker Engine\\other\\KDU;C:\\Program Files\\Git\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61203,10 +61194,6 @@
         "metadata": [
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
-            "type": "Unknown"
-          },
-          {
-            "name": "s (x86)\\Byteseeker Engine\\other\\KDU;C:\\Program Files\\Git\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA",
             "type": "Unknown"
           }
         ],
@@ -61236,10 +61223,6 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
-          },
-          {
-            "name": "s (x86)\\Byteseeker Engine\\other\\KDU;C:\\Program Files\\Git\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61268,10 +61251,6 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
-          },
-          {
-            "name": "s (x86)\\Byteseeker Engine\\other\\KDU;C:\\Program Files\\Git\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61299,10 +61278,6 @@
         "metadata": [
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
-            "type": "Unknown"
-          },
-          {
-            "name": "s (x86)\\Byteseeker Engine\\other\\KDU;C:\\Program Files\\Git\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA",
             "type": "Unknown"
           }
         ],
@@ -61386,97 +61361,201 @@
         "metadata": [],
         "parent": null
       },
-      "_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_S____": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "__8___": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "CUserMessageAudioParameter.parameter_type",
-            "type": "Unknown"
-          },
-          {
-            "name": "eManager.update_particle",
-            "type": "Unknown"
-          },
-          {
-            "name": "_npc_dota_hero_nevermore.vpcf",
-            "type": "Unknown"
-          },
-          {
-            "name": "dota_ability_contribution_common.h",
-            "type": "Unknown"
-          },
-          {
-            "name": "dota_cavern_crawl_types.h",
-            "type": "Unknown"
-          },
-          {
-            "name": "dota_craftworks.h",
-            "type": "Unknown"
-          },
-          {
-            "name": "AbilityContributionType_t",
-            "type": "Unknown"
-          },
-          {
-            "name": "er_entity",
-            "type": "Unknown"
-          },
-          {
-            "name": "AbilityContributionType_t",
-            "type": "Unknown"
-          },
-          {
-            "name": "AbilityContributionType_t",
-            "type": "Unknown"
-          },
-          {
-            "name": "ChatUntilDate",
-            "type": "Unknown"
-          },
-          {
-            "name": "ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "___": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_____": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "__________": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_s5___": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "ability": {
-        "fields": {},
+      "_oS_L_": {
+        "fields": {
+          "armor_reduction": 6616,
+          "attack_interval": 6644,
+          "attack_radius": 6636,
+          "bExploding": 6636,
+          "bPurchasable": 50,
+          "bonus_magical_armor": 6616,
+          "burn_damage": 6616,
+          "burn_interval": 6620,
+          "damage": 6620,
+          "damage_interval": 6624,
+          "damage_pct_per_second": 6632,
+          "disable_duration": 1704,
+          "disarm_duration": 6616,
+          "duration": 6616,
+          "forward_angle": 6624,
+          "heal": 6620,
+          "leap_acceleration": 6620,
+          "leap_speed": 6616,
+          "m_ActiveRingOwners": 2680,
+          "m_ControlGroups": 3456,
+          "m_LightInfoWeatherEffect": 2728,
+          "m_MapDefaultWeatherEffect": 2744,
+          "m_NeutralCampAlarms": 3216,
+          "m_RingedEntities": 2656,
+          "m_bAutoPurchaseItems": 2375,
+          "m_bCenterOnHero": 2224,
+          "m_bChannelRequiresHalt": 2373,
+          "m_bDirtySelection": 10336,
+          "m_bDisableHUDErrorMessages": 2376,
+          "m_bDynamicSoundHandled": 2393,
+          "m_bDynamicWeatherSystemActive": 2392,
+          "m_bHasWorldTreesChanged": 10337,
+          "m_bHeroAssigned": 2225,
+          "m_bInQuery": 2544,
+          "m_bInShowCaseMode": 3200,
+          "m_bInitialized": 2784,
+          "m_bInteractionChannelsRequireHalt": 2374,
+          "m_bIsNextCastOrderFromMouseClick": 2860,
+          "m_bIsSelectHeroHeld": 2944,
+          "m_bMapUsesDynamicWeather": 2752,
+          "m_bNextDoubleclickIsOnlyAClick": 2716,
+          "m_bOverridingQuery": 2704,
+          "m_bPrecachedInventory": 3421,
+          "m_bPreviousWasLightInfoWeather": 2736,
+          "m_bRequestedInventory": 3420,
+          "m_bRetract": 1720,
+          "m_bSelectionChangedInDataUpdate": 2545,
+          "m_bSetupWarning": 6648,
+          "m_bSwapWillingness": 10339,
+          "m_bTeleportRequiresHalt": 2372,
+          "m_bUsingAssistedCameraOperator": 2233,
+          "m_bUsingCameraMan": 2232,
+          "m_bWasDataUpdateCreated": 1536,
+          "m_bWorldTreeModelsChanged": 10338,
+          "m_entitiesHit": 6624,
+          "m_fCurRadius": 6616,
+          "m_fLastNetworkStatsSent": 2960,
+          "m_fLastThink": 6620,
+          "m_flAltHeldStartTime": 3792,
+          "m_flAspectRatio": 3004,
+          "m_flAttackDamage": 6628,
+          "m_flCameraZoomAmount": 3204,
+          "m_flCenterTime": 2216,
+          "m_flConsumeDoubleclickTime": 2720,
+          "m_flDynamicWeatherIntensity": 2404,
+          "m_flDynamicWeatherNextSwitchTime": 2396,
+          "m_flDynamicWeatherScaleFinishedTime": 2400,
+          "m_flKillCamUnitReceivedTime": 2324,
+          "m_flLastAttack": 6624,
+          "m_flLastAutoRepeatTime": 2712,
+          "m_flLastPingTime": 2364,
+          "m_flLastRareLinePlayTime": 2348,
+          "m_flLastReportedMissedSnapshotRate": 2440,
+          "m_flLastUnitOrdersSendTime": 2356,
+          "m_flLastUnitOrdersTotalLatency": 2360,
+          "m_flMouseDragStartX": 2380,
+          "m_flMouseDragStartY": 2384,
+          "m_flMusicOperatorVals": 3424,
+          "m_flPingAllowance": 2368,
+          "m_flQueryInhibitDuration": 2652,
+          "m_flQueryInhibitingActionTime": 2648,
+          "m_flRangeHintFXLastRadius": 2428,
+          "m_flRotation": 6616,
+          "m_flSelectHeroHeldStartTime": 2952,
+          "m_flStartTime": 6616,
+          "m_flUnfilteredFrameTime": 3212,
+          "m_flUnitOrdersSendTime": 2352,
+          "m_hActiveAbility": 2444,
+          "m_hAssignedHero": 2308,
+          "m_hFreeDrawAbility": 2288,
+          "m_hKillCamUnit": 2316,
+          "m_hLastAssignedHero": 2312,
+          "m_hPlayerCouriers": 10784,
+          "m_hPreviousKillCamUnit": 2320,
+          "m_hQueryUnit": 2540,
+          "m_hRangeHintAbility": 2420,
+          "m_hSmartCastNPC": 2848,
+          "m_hSpectatorQueryUnit": 3008,
+          "m_hTeamCouriers": 10424,
+          "m_hWisp": 6620,
+          "m_iActions": 2536,
+          "m_iConfirmationIndex": 2220,
+          "m_iCursor": 2992,
+          "m_iDamage": 6616,
+          "m_iHighPriorityScore": 3208,
+          "m_iMinimapMove": 2200,
+          "m_iMusicOperatorVals": 3436,
+          "m_iMusicStatus": 3412,
+          "m_iPositionHistoryTail": 3408,
+          "m_iPrevCursor": 3240,
+          "m_iPreviousMusicStatus": 3416,
+          "m_iShopPanel": 3016,
+          "m_iShopViewMode": 3020,
+          "m_iSpectatorClickBehavior": 3000,
+          "m_iStatsDropdownCategory": 3024,
+          "m_iStatsDropdownSort": 3028,
+          "m_iStatsPanel": 3012,
+          "m_ifirefly_Active": 6624,
+          "m_iszFilteredHTMLSafeName": 3424,
+          "m_iszHTMLSafeName": 2912,
+          "m_iszName": 2400,
+          "m_nCachedCoachedTeam": 2436,
+          "m_nCastRangeEffectCreationRadius": 2792,
+          "m_nEventNPCReplaced": 12560,
+          "m_nEventPlayerInfo": 12564,
+          "m_nFXAmbient": 6644,
+          "m_nFXIndex": 1704,
+          "m_nFXPreview": 1704,
+          "m_nInventoryUpdated": 12568,
+          "m_nKeyBindHeroID": 2228,
+          "m_nMaxSentOutgoingOrderSequenceNumber": 2480,
+          "m_nNextOutgoingOrderSequenceNumber": 2472,
+          "m_nNumSteps": 6628,
+          "m_nObsoleteEventIDAssociatedWithEventData": 1884,
+          "m_nPlayerAssistFlags": 2236,
+          "m_nPlayerID": 2304,
+          "m_nPreviewFX": 6652,
+          "m_nPrimaryEventIndex": 1880,
+          "m_nRadiusStep": 6632,
+          "m_nRangeHintFXIndex": 2424,
+          "m_nRareLineClickCount": 2336,
+          "m_nRareLineGroup": 2344,
+          "m_nRareLinesPlayed": 2340,
+          "m_nScanCastIndicatorParticleIndex": 2856,
+          "m_nSelectedControlGroup": 2432,
+          "m_nSelectedUnits": 2488,
+          "m_nServerOrderSequenceNumber": 2476,
+          "m_nTeamSprayParticleIndex": 2852,
+          "m_nTicksRemaining": 6624,
+          "m_nVisionRangeFXIndex": 2412,
+          "m_nWaypoints": 2512,
+          "m_nWeatherType": 2388,
+          "m_nXPRangeFXIndex": 2408,
+          "m_pClickBehaviorKeys": 2208,
+          "m_pPlayerIDToOnstageSlot": 12344,
+          "m_pkvControlGroupKV": 3696,
+          "m_playerIDToPawn": 2144,
+          "m_playerIDToPlayer": 1888,
+          "m_szShopString": 3032,
+          "m_unitorders": 2448,
+          "m_vDir": 6640,
+          "m_vLastFreeDrawPosition": 2292,
+          "m_vLatestEvent": 2240,
+          "m_vProjectileVelocity": 1708,
+          "m_vecBrodcasterData": 1752,
+          "m_vecClientQuickBuyState": 3096,
+          "m_vecEventsForDisplay": 1856,
+          "m_vecOnstageHomeTeams": 12320,
+          "m_vecOnstagePlayerSeats": 12536,
+          "m_vecPlayerData": 1648,
+          "m_vecPlayerTeamData": 1544,
+          "m_vecSuggestedWardLocationEffects": 2824,
+          "max_steps": 6620,
+          "model_scale": 6632,
+          "movement_speed": 6636,
+          "nItemType": 48,
+          "physical_damage_reduction": 6616,
+          "physical_damage_reduction_side": 6620,
+          "pool_duration": 6616,
+          "radius": 6620,
+          "reversed": 6628,
+          "roaming_radius": 6632,
+          "roaming_seconds_per_rotation": 6640,
+          "side_angle": 6628,
+          "slow_amount": 6616,
+          "speed": 6648,
+          "start_radius": 6656,
+          "stun_duration": 6616,
+          "trail_placement_duration": 6640,
+          "tree_radius": 6628,
+          "vision_duration": 6628,
+          "vision_radius": 6624
+        },
         "metadata": [],
         "parent": null
       },
@@ -61622,15 +61701,6 @@
           "WATER_WAKE_WATER_OVERHEAD": 4
         },
         "type": "uint32"
-      },
-      "DOTAChat": {
-        "alignment": 205,
-        "members": {
-          "": 0,
-          "\u0001": 0,
-          "C": 6755400973287424
-        },
-        "type": "unknown"
       },
       "DOTAKeybindCommand_t": {
         "alignment": 4,
@@ -63217,14 +63287,6 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
-      },
-      "H____WH___H__H_ڹ_": {
-        "alignment": 100,
-        "members": {
-          "": -3689348814742528674,
-          "�Sͦ\r��\u0017�\u00163wZ��rU3 ��e\u001bZ�.�.�i\u0016]'3p��N�%�h���:��\u0014���'.<\u0015�\n��f\u000b�m[K>k�Y+��m�۬���׃�i�q2s/\\��9���y�\u0005u\u0015�c�d�'�\u0003�J\u0013���ǥ\b���\u0018�71": 8286623589256364360
-        },
-        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

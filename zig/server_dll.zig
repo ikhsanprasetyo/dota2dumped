@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-20 21:32:50.034446100 +07:00
+// 2026-06-21 22:55:14.944997300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -14257,6 +14257,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // s
             pub const CPrecipitationVData = struct {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -30716,6 +30717,9 @@ pub const source2_dumper = struct {
             };
             // Parent: CBaseEntity
             // Field count: 3
+            //
+            // Metadata:
+            //  
             pub const CFogController = struct {
                 pub const m_fog: usize = 0x498; // fogparams_t
                 pub const m_bUseAngles: usize = 0x500; // bool
@@ -34400,6 +34404,9 @@ pub const source2_dumper = struct {
             };
             // Parent: CBaseEntity
             // Field count: 7
+            //
+            // Metadata:
+            //  
             pub const CPointOrient = struct {
                 pub const m_iszSpawnTargetName: usize = 0x498; // CUtlSymbolLarge
                 pub const m_hTarget: usize = 0x4A0; // CHandle<CBaseEntity>
@@ -40904,6 +40911,7 @@ pub const source2_dumper = struct {
             // eHead
             // eForward
             // eEyesForward
+            //  
             pub const CPointCamera = struct {
                 pub const m_FOV: usize = 0x498; // float32
                 pub const m_Resolution: usize = 0x49C; // float32
@@ -44932,6 +44940,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub const CPulseCell_Outflow_CycleRandom = struct {
@@ -48108,6 +48117,7 @@ pub const source2_dumper = struct {
             // eHead
             // eForward
             // eEyesForward
+            //  
             pub const CEnvWindVolume = struct {
                 pub const m_bActive: usize = 0x498; // bool
                 pub const m_vBoxMins: usize = 0x49C; // Vector
@@ -56956,6 +56966,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -57039,6 +57050,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // _|
             pub const AmmoIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int8
             };
@@ -57567,6 +57581,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -59917,6 +59932,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // _|
             pub const ParticleIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -60016,6 +60034,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -60262,6 +60281,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName

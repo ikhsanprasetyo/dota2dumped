@@ -2530,6 +2530,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3244,6 +3248,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3451,6 +3459,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "s",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3464,6 +3476,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "s",
             "type": "Unknown"
           }
         ],
@@ -4871,7 +4887,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -4899,7 +4915,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -4927,7 +4943,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -4959,7 +4975,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -4987,7 +5003,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -5015,7 +5031,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -5075,7 +5091,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -5107,7 +5123,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -5135,7 +5151,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -5163,7 +5179,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {
@@ -5191,7 +5207,7 @@
             "type": "Unknown"
           },
           {
-            "name": "v",
+            "name": "N",
             "type": "Unknown"
           },
           {

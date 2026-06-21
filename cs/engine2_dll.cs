@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-20 21:32:50.034446100 +07:00
+// 2026-06-21 22:55:14.944997300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
@@ -107,15 +107,17 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // i
+        // E
+        // n
+        // e
+        // f
+        // 0
+        // n
+        // e
         // a
         // a
-        // i
-        // i
-        // i
-        // R
-        // f
-        // f
+        // u
+        // u
         public static class GameTime_t {
             public const nint m_Value = 0x0; // float32
         }
@@ -174,17 +176,17 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // u
-        // -
+        // )
+        // s
+        // (
+        // e
+        // e
+        // k
+        // k
         // a
-        // o
-        // p
-        // i
-        // R
-        // n
-        // n
+        // a
         // u
-        // f
-        // f
+        // u
         public static class GameTick_t {
             public const nint m_Value = 0x0; // int32
         }

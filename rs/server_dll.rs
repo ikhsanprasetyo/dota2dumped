@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-20 21:32:50.034446100 +07:00
+// 2026-06-21 22:55:14.944997300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -14683,6 +14683,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // s
             pub mod CPrecipitationVData {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_flInnerDistance: usize = 0x108; // float32
@@ -31142,6 +31143,9 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 3
+            //
+            // Metadata:
+            //  
             pub mod CFogController {
                 pub const m_fog: usize = 0x498; // fogparams_t
                 pub const m_bUseAngles: usize = 0x500; // bool
@@ -34826,6 +34830,9 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 7
+            //
+            // Metadata:
+            //  
             pub mod CPointOrient {
                 pub const m_iszSpawnTargetName: usize = 0x498; // CUtlSymbolLarge
                 pub const m_hTarget: usize = 0x4A0; // CHandle<CBaseEntity>
@@ -41330,6 +41337,7 @@ pub mod source2_dumper {
             // eHead
             // eForward
             // eEyesForward
+            //  
             pub mod CPointCamera {
                 pub const m_FOV: usize = 0x498; // float32
                 pub const m_Resolution: usize = 0x49C; // float32
@@ -45358,6 +45366,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod CPulseCell_Outflow_CycleRandom {
@@ -48534,6 +48543,7 @@ pub mod source2_dumper {
             // eHead
             // eForward
             // eEyesForward
+            //  
             pub mod CEnvWindVolume {
                 pub const m_bActive: usize = 0x498; // bool
                 pub const m_vBoxMins: usize = 0x49C; // Vector
@@ -57382,6 +57392,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -57465,6 +57476,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // _|
             pub mod AmmoIndex_t {
                 pub const m_Value: usize = 0x0; // int8
             }
@@ -57993,6 +58007,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -60343,6 +60358,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // _|
             pub mod ParticleIndex_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -60442,6 +60460,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -60688,6 +60707,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName

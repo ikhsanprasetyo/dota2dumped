@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-20 21:32:50.034446100 +07:00
+// 2026-06-21 22:55:14.944997300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7209
-    // Enum count: 113
+    // Class count: 7185
+    // Enum count: 111
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -11314,7 +11314,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
-        // e/0x1220,0x28de/0x1302,0x28de/0x1303,0x28de/0x1304,0x28de/0x1305,0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -14674,7 +14673,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
-        // e/0x1220,0x28de/0x1302,0x28de/0x1303,0x28de/0x1304,0x28de/0x1305,0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/
         // kDHr
         public static class CPulseCell_WaitForCursorsWithTagBase {
             public const nint m_nCursorsAllowedToWait = 0x48; // int32
@@ -22413,6 +22411,7 @@ namespace Source2Dumper.Schemas {
         // DOTA_ORDER_QUEUE_ALWAYS
         // DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_STACK
         // DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_PULL
+        // r
         public static class C_DOTA_TrackingProjectileInfoParticleAPI {
         }
         // Parent: None
@@ -25760,6 +25759,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseAnimatingActivity
         // Field count: 0
+        //
+        // Metadata:
+        // .
         public static class C_DOTA_PortraitBaseModel {
         }
         // Parent: C_EnvDeferredLight
@@ -38625,6 +38627,7 @@ namespace Source2Dumper.Schemas {
         // DOTA_ORDER_QUEUE_ALWAYS
         // DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_STACK
         // DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_PULL
+        // r
         public static class C_DOTA_PortraitEntity {
             public const nint m_PetIdleTimer = 0x1998; // CountdownTimer
             public const nint m_nMouthFX = 0x19B0; // ParticleIndex_t
@@ -44769,6 +44772,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // rogram Files\LLVM\bin;C:\cloudflared;G:\Android\Sdk;C:\Users\ByteseekerPC\.local\bin;C:\Program Files\Cloudflare\Cloudflare WARP
         public static class ArtyProgressBarDef_t {
             public const nint m_flNotchSize = 0xB0; // float32
         }
@@ -46238,7 +46242,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
         public static class SurvivorsPhysicsBodyID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46273,7 +46276,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
         public static class SurvivorsHeroID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46666,7 +46668,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
         public static class SurvivorsUpgradeID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -46757,7 +46758,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
         public static class SurvivorsLevelID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47277,7 +47277,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
         public static class SurvivorsPowerUpID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47628,7 +47627,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgDOTATeamsInfo
-        // s (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA
         public static class SurvivorsEnemyID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -48363,1570 +48361,213 @@ namespace Source2Dumper.Schemas {
             public const nint m_nDamageMultiplier = 0x10; // int32
         }
         // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // Wings
-        // Legs
-        // Nose
-        // Fuzzy
-        // Bearded
-        // BadTeeth
-        // Cape
-        // NicePecs
-        // Potbelly
-        // Parent
-        // Arachnophobic
-        // Demon
-        // Spirit
-        // Flying
-        // Cute
-        // Fiery
-        // Icy
-        // Blue
-        // Red
-        // Green
-        // GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK
-        // Start
-        // Stop
-        // Freeze
-        // Thaw
-        // StopPlayEndCap
-        // DestroyImmediately
-        // SetControlPoint
-        // SetDataControlPointX
-        // SetDataControlPointY
-        // SetDataControlPointZ
-        // Break
-        // SetHealth
-        // AddHealth
-        // RemoveHealth
-        // SetEnableBreaking
-        // SetEnableCollisions
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // dota_healing_campfire
-        // lity_CDOTA_Ability_Special_Bonus_Unique_Viper_2
-        // _Unique_Viper_2
-        // y_CDOTA_Ability_Special_Bonus_Unique_Viper_5
-        // ique_Viper_5
-        // DOTA_Ability_Special_Bonus_Unique_Luna_1
-        // e_Luna_1
-        // _Ability_Special_Bonus_Unique_Luna_2
-        // na_2
-        // lity_Special_Bonus_Unique_Luna_3
-        // CMsgAddItemToSocketData.socket_index
-        // CMsgSetItemPositions.ItemPosition.position
-        // CMsgSetItemPositions.ItemPosition.item_id
-        // k_EMsgGCToClientPollConvarRequest
-        // CMsgGCServerVersionUpdated.server_version
-        // H*
-        // item_arcane_boots item_guardian_greaves item_pipe item_crimson_guard item_essence_distiller item_spirit_vessel item_boots_of_bea
-        // m_flOverride_dota_strategy_time
-        // m_hGameModeEntity
-        // m_iCMModePickBanOrder
-        // m_iCDModePickBanOrder
-        // m_BannedHeroes
-        // m_SelectedHeroes
-        // m_iActiveTeam
-        // m_flGameStartTime
-        // m_nCustomGameDifficulty
-        // m_flOutpostTimes
-        // m_bTier2TowerDestroyed
-        // m_iNetTimeOfDay
-        // m_BotDebugPushLane
-        // m_hBotDebugRoamTarget
-        // m_BotDebugRoshan
-        // m_AbilityDraftHeroes
-        // m_bExperimentalGameplay
-        // m_RegionTriggerBoxes
-        // basic_attack
-        // activity_animation
-        // spawn_animation
-        // death_animation
-        // stage_intro
-        // healing_salve
-        // walrus_punch
-        // crit_attack
-        // chaos_bolt
-        // chaos_strike
-        // cold_feet
-        // ice_blast
-        // icefire_bomb
-        // butt_slam
-        // hypothermia
-        // gust
-        // black_king_bar
-        // frost_attack
-        // eTime
-        // mune
-        // mune
-        // llow
-        // centage
-        // OTA_Modifier_Dominated
-        // axe_counter_helix
-        // axe_culling_blade
-        // broodmother_spawn_spiderlings
-        // broodmother_spin_web
-        // broodmother_insatiable_hunger
-        // centaur_hoof_stomp
-        // centaur_stampede
-        // crystal_maiden_crystal_nova
-        // crystal_maiden_freezing_field
-        // lich_frost_nova
-        // lich_chain_frost
-        // lina_dragon_slave
-        // lina_light_strike_array
-        // pangolier_shield_crash
-        // pangolier_gyroshell
-        // skywrath_mage_arcane_bolt
-        // skywrath_mage_mystic_flare
-        // vengefulspirit_magic_missile
-        // vengefulspirit_nether_swap
-        // winter_wyvern_splinter_blast
-        // winter_wyvern_cold_embrace
-        // y_DrowRanger_WaveOfSilence
-        // DOTA_Modifier_DrowRanger_WaveOfSilence_Buff
-        // ilence_Buff
-        // rowRanger_WaveOfSilence
-        // A_Modifier_DrowRanger_WaveOfSilence_Knockback
-        // nce_Knockback
-        // DrowRanger_Trueshot
-        // difier_DrowRanger_Trueshot
-        // DOTA_Ability_DrowRanger_Marksmanship
-        // H*
-        // m_bIsInCinematicMode
-        // m_hCustomHeroPickRulesEntity
-        // m_iPlayerIDsInControl
-        // m_bCreepSpawningEnabled
-        // m_flHeroSelectPenaltyTime
-        // m_bCustomGameAllowMusicAtGameStart
-        // m_bCustomGameAllowBattleMusic
-        // m_nSeriesType
-        // m_flPreGameStartTime
-        // m_nRiverType
-        // m_nTeamFeaturedPlayerID
-        // m_hTeamFountains
-        // m_arrTier2TowerDestroyed
-        // m_vWeatherWindDirection
-        // m_AbilityDraftAbilities
-        // m_nAbilityDraftRoundNumber
-        // m_bAllowOverrideVPK
-        // m_lobbyType
-        // m_lobbyGameName
-        // m_nPrimaryIngameEventIndex
-        // Legs
-        // Nose
-        // Fuzzy
-        // Bearded
-        // BadTeeth
-        // NicePecs
-        // Potbelly
-        // Parent
-        // Arachnophobic
-        // Aquatic
-        // Demon
-        // Cute
-        // Fiery
-        // Icy
-        // Red
-        // Female
-        // Cape
-        // Undead
-        // Blue
-        // Green
-        // Wings
-        // Horns
-        // Legs
-        // Nose
-        // Fuzzy
-        // Bearded
-        // NicePecs
-        // Potbelly
-        // Parent
-        // Arachnophobic
-        // Undead
-        // Aquatic
-        // Flying
-        // Fiery
-        // Icy
-        // Blue
-        // Red
-        // Green
-        // Female
-        // Cape
-        // Cute
-        // player_changename
-        // Wings
-        // Horns
-        // Nose
-        // Bearded
-        // BadTeeth
-        // Cape
-        // Potbelly
-        // Parent
-        // Arachnophobic
-        // Undead
-        // Aquatic
-        // Demon
-        // Spirit
-        // Flying
-        // Fiery
-        // Icy
-        // Blue
-        // Red
-        // Legs
-        // Fuzzy
-        // Female
-        // Cute
-        // Green
-        // con/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
-        // Legs
-        // Nose
-        // Fuzzy
-        // Bearded
-        // BadTeeth
-        // NicePecs
-        // Potbelly
-        // Parent
-        // Arachnophobic
-        // Undead
-        // Aquatic
-        // Flying
-        // Cute
-        // Fiery
-        // Icy
-        // Blue
-        // Green
-        // Red
-        // Steed
-        // Female
-        // OnInternalTestVoid
-        // OnInternalTestBool
-        // OnInternalTestInt
-        // OnInternalTestFloat
-        // OnInternalTestEntityHandle
-        // OnInternalTestSchemaEnum
-        // OnInternalTestFloatString
-        // OnInternalTestEntityNameString
-        // OnInternalTestEntityHandleInt
-        // OnInternalTestStringStringString
-        // OnComponentTestFunc
-        // @Z
-        // Lu
-        // H*
-        // .google.protobuf.EnumValueOptions
-        // .google.protobuf.EnumValueOptions
-        // ESteamLearnSnapshotProjectResult
-        // EPrivateCoachingSessionMemberFlag
-        // CWorkshop_SetItemPaymentRules_Request
-        // CWorkshop_GetSpecialPayments_Response
-        // CWorkshop_GetPackageDailyRevenue_Response
-        // CWorkshop_GetItemDailyRevenue_Request
-        // CWorkshop_AddSpecialPayment_Request
-        // CUserMessage_Diagnostic_Response
-        // CUserMessageCloseCaptionPlaceholder
-        // CSource2Metrics_MatchPerfSummary_Notification
-        // CPublishedFile_Unsubscribe_Response
-        // CPublishedFile_Subscribe_Request
-        // CPublishedFile_GetUserFiles_Request
-        // CPlayer_SetPerFriendPreferences_Response
-        // CPlayer_SetCommunityPreferences_Request
-        // [premium points] - Calls dota_event_override_premium_points for the current event
-        // <challenger account id> Show the popup pretending you received a fighting game challenge.
-        // [is coach] Shows the rate coaching session popup with fake data as a student or coach.
-        // Enter demo mode with given hero. Usage: dota_demo_hero <hero_name> <optional: demo|fullmap>
-        // <fantasy league id> <period id> <token_amount> Sets available roll tokens for the account
-        // [output_file] [-binary] [-nopretty] save scenario of the game currently being spectated
-        // Attempt to fix up keyvalues files with bad UTF8 newline characters in UTF16 files
-        // CMsgGCMsgMasterSetWebAPIRouting_Response
-        // CMsgGCMsgMasterSetClientMsgRouting_Response
-        // CMsgGCGetAppFriendsList_Response
-        // CDOTA_Modifier_Ursa_Earthshock_Move
-        // CDOTA_Modifier_Ursa_Damage_Increase
-        // CDOTA_Modifier_Lion_FingerOfDeath_Kill_Counter
-        // CDOTA_Modifier_Courier_Morph_Effect
-        // CDOTA_Modifier_Lion_Innate_ToHellAndBack
-        // Legs
-        // Nose
-        // Fuzzy
-        // Female
-        // Cape
-        // Potbelly
-        // Parent
-        // Arachnophobic
-        // Undead
-        // Aquatic
-        // Demon
-        // Cute
-        // Fiery
-        // Icy
-        // Blue
-        // Red
-        // Green
-        // Bearded
-        // NicePecs
-        // Spirit
-        // CMsgDOTASDOHeroStatsHistory.lobby_type
-        // CMsgInGamePrediction.InvalidQuery
-        // CMsgDOTASDOHeroStatsHistory.start_time
-        // CNETMsg_SpawnGroup_ManifestUpdate
-        // Wings
-        // Legs
-        // Nose
-        // Bearded
-        // Female
-        // Cape
-        // NicePecs
-        // Potbelly
-        // Arachnophobic
-        // Undead
-        // Aquatic
-        // Demon
-        // Spirit
-        // Flying
-        // Cute
-        // Fiery
-        // Icy
-        // Blue
-        // Green
-        // Fuzzy
-        // Parent
-        // Red
-        // Legs
-        // Steed
-        // Nose
-        // Fuzzy
-        // Female
-        // Cape
-        // Potbelly
-        // Arachnophobic
-        // Undead
-        // Aquatic
-        // Demon
-        // Spirit
-        // Flying
-        // Cute
-        // Fiery
-        // Icy
-        // Blue
-        // Green
-        // Bearded
-        // NicePecs
-        // Parent
-        // Red
-        // Wings
-        // Horns
-        // Steed
-        // Nose
-        // Fuzzy
-        // Female
-        // BadTeeth
-        // Cape
-        // NicePecs
-        // Potbelly
-        // Parent
-        // Arachnophobic
-        // Aquatic
-        // Demon
-        // Spirit
-        // Cute
-        // Fiery
-        // Icy
-        // Blue
-        // Red
-        // Green
-        // Legs
-        // Flying
-        // Undead
-        // Bearded
-        // @
-        // H*
-        // Legs
-        // Nose
-        // Fuzzy
-        // Bearded
-        // BadTeeth
-        // NicePecs
-        // Potbelly
-        // Parent
-        // Arachnophobic
-        // Undead
-        // Aquatic
-        // Demon
-        // Fiery
-        // Icy
-        // Blue
-        // Red
-        // Wings
-        // Female
-        // Flying
-        // Cute
-        // Green
-        // CDOTAMatchPrivateMetadata.Team.Player.team_slot
-        // CDOTAMatchPrivateMetadata.Team.buildings
-        // CSVCMsg_SplitScreen.player_index
-        // .k_PackBundle_Failed_ItemInvalidQuality
-        // t_id
-        // ckBundleResponse.k_PackBundle_Failed_SOCacheError
-        // iled_ItemIsNonEconomy
-        // CMsgClientToGCUnpackBundleResponse.k_UnpackBundle_Failed_ItemIsInvalid
-        // CurrentPartyContents
-        // CurrentPartyContainer
-        // FriendlistBottom
-        // SocialControls
-        // DashboardForeground
-        // DashboardCore
-        // DashboardCenter
-        // Dashboard
-        // DotaDashboard
-        // CMsgClientToGCRemoveItemAttribute.item_id
-        // CMsgClientToGCRemoveItemAttributeResponse
-        // k_EMsgClientToGCUnlockItemStyleResponse
-        // k_EMsgClientToGCEquipItemsResponse
-        // k_EMsgClientToGCUnpackBundleResponse
-        // CMsgClientToGCNameItem.subject_item_id
-        // k_EMsgClientToGCWrapAndDeliverGiftResponse
-        // CMsgClientToGCNameItemResponse.response
-        // CMsgClientToGCNameItemResponse.item_id
-        // k_EMsgGCToGCItemConsumptionRollback
-        // CAttribute_ItemDynamicRecipeComponent
-        // CAttribute_ItemDynamicRecipeComponent.item_def
-        // CAttribute_ItemDynamicRecipeComponent.lootlist
-        // k_EMsgGCToGCGetUserServerMembersResponse
-        // CurrentPartyReadyCheck
-        // CurrentPartyContents
-        // CurrentPartyContainer
-        // FriendlistBottom
-        // SocialControls
-        // DashboardForeground
-        // DashboardCore
-        // DashboardCenter
-        // Dashboard
-        // DotaDashboard
-        // CurrentPartyReadyCheckHeader
-        // CurrentPartyReadyCheck
-        // CurrentPartyContents
-        // CurrentPartyContainer
-        // FriendlistBottom
-        // SocialControls
-        // DashboardForeground
-        // DashboardCore
-        // DashboardCenter
-        // Dashboard
-        // DotaDashboard
-        // PartyMembers
-        // CurrentParty
-        // CurrentPartyMain
-        // CurrentPartyContents
-        // CurrentPartyContainer
-        // FriendlistBottom
-        // SocialControls
-        // DashboardForeground
-        // DashboardCore
-        // DashboardCenter
-        // Dashboard
-        // DotaDashboard
-        public static class __8___ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // ERankType
-        // Fantasy_Scoring
-        // DOTACommType_t
-        public static class Pt5___ {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // C
-        // C
-        public static class _____ {
-            public const nint eResult_Success = 0xFAD51770; // EResult
-            public const nint eResult_Dropped = 0xFAD51770; // EResult
-        }
-        // Parent: None
-        // Field count: 0
-        public static class Pt5___ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CUserMessageAudioParameter.parameter_type
-        // eManager.update_particle
-        // _npc_dota_hero_nevermore.vpcf
-        // dota_ability_contribution_common.h
-        // dota_cavern_crawl_types.h
-        // dota_craftworks.h
-        // AbilityContributionType_t
-        // er_entity
-        // AbilityContributionType_t
-        // AbilityContributionType_t
-        // ChatUntilDate
-        // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
-        public static class __8___ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ability {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CUserMessageAudioParameter.parameter_type
-        // eManager.update_particle
-        // _npc_dota_hero_nevermore.vpcf
-        // dota_ability_contribution_common.h
-        // dota_cavern_crawl_types.h
-        // dota_craftworks.h
-        // AbilityContributionType_t
-        // er_entity
-        // AbilityContributionType_t
-        // AbilityContributionType_t
-        // ChatUntilDate
-        // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
-        public static class __8___ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class Pt5___ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _S____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ___ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CUserMessageAudioParameter.parameter_type
-        // eManager.update_particle
-        // _npc_dota_hero_nevermore.vpcf
-        // dota_ability_contribution_common.h
-        // dota_cavern_crawl_types.h
-        // dota_craftworks.h
-        // AbilityContributionType_t
-        // er_entity
-        // AbilityContributionType_t
-        // AbilityContributionType_t
-        // ChatUntilDate
-        // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
-        public static class __8___ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // shop_slots
-        // total_gold
-        // BenchSlot
-        // slot_id
-        // stars
-        // hero_id
-        // title
-        // active
-        // category
-        // question_value
-        // picked_count
-        // value
-        // name
-        // is_percentage
-        // bonuses
-        // values_scepter
-        // required_facet
-        // values
-        // id
-        // name_loc
-        // lore_loc
-        // shard_loc
-        // facets_loc
-        // behavior
-        // target_type
-        // damage
-        // dispellable
-        // cast_ranges
-        // channel_times
-        // durations
-        // mana_costs
-        // health_costs
-        // is_item
-        // item_cost
-        // item_stock_time
-        // abilities
-        // name
-        // name_loc
-        // hype_loc
-        // facets
-        // str_gain
-        // agi_gain
-        // int_gain
-        // complexity
-        // role_levels
-        // damage_max
-        // attack_range
-        // armor
-        // movement_speed
-        // sight_range_day
-        // max_health
-        // max_mana
-        // abilities
-        // facet_abilities
-        // color
-        // description_loc
-        // icon
-        // index
-        // items
-        // heroes
-        // id
-        // name_loc
-        // primary_attr
-        // itemabilities
-        // id
-        // name_loc
-        // recipes
-        // Recipe
-        // expiration_date
-        // bonus_count
-        // def_index
-        // booster_type
-        // league_id
-        // version
-        // reward_flags
-        // sticker_num
-        // position_x
-        // position_z
-        // scale
-        // depth_bias
-        // event_id
-        // stickers
-        // page_numbers
-        // hero_id
-        // quality
-        // heroes
-        // match_count
-        // hero_id
-        // rank_tier
-        // start_timestamp
-        // rank_stats
-        // lotuses_gained
-        // portals_used
-        // tormentor_kills
-        // window_start
-        // tracked_stat_id
-        // result
-        // action_id
-        // Success
-        // InvalidEvent
-        // EventNotActive
-        // InvalidAction
-        // ServerError
-        // AlreadyClaimed
-        // SDOLockFailure
-        // SDOLoadFailure
-        // EventNotOwned
-        // Timeout
-        // InvalidItem
-        // AsyncRewards
-        // item_def
-        // item_def
-        // TokenQuantity
-        // token_count
-        // material_count
-        // score_index
-        // reward_data
-        // language
-        // feedback
-        // EResponse
-        // match_id
-        // predictions
-        // item_def
-        // num_fails
-        // ability_level
-        // kPassive
-        // kAutocast
-        // kToggle
-        // kChanneled
-        // kUnknown
-        // kDuration
-        // kManaCost
-        // kHealthCost
-        // kCastRange
-        // kPhysicalDamage
-        // kMagicalDamage
-        // kPureDamage
-        // kCooldown
-        // kDebuffValue
-        // kBuffPercentage
-        // kBuffValue
-        // kManaPercentage
-        // kNumCharges
-        // kDebuffDuration
-        // kBuffDuration
-        // kDispellability
-        // AttributeValue
-        // is_active_value
-        // values
-        // next
-        // single
-        // delta
-        // value
-        // desc_loc_token
-        // basic
-        // specific
-        // attributes
-        // content_chunk
-        // secondaryLeaverCount
-        // lowPriorityUntilDate
-        // preventTextChatUntilDate
-        // preventVoiceUntilDate
-        // preventPublicTextChatUntilDate
-        // preventNewPlayerChatUntilDate
-        // lastAbandonedGameDate
-        // lastSecondaryAbandonedGameDate
-        // leaverPenaltyCount
-        // completedGameStreak
-        // accountDisabledUntilDate
-        // accountDisabledCount
-        // matchDisabledUntilDate
-        // matchDisabledCount
-        // lowPriorityGamesRemaining
-        // recruitmentLevel
-        // hasNewNotifications
-        // casualGamesPlayed
-        // soloCompetitiveGamesPlayed
-        // partyCompetitiveGamesPlayed
-        // casual1v1GamesPlayed
-        // currAllHeroChallengeId
-        // playTimePoints
-        // playerBehaviorSeqNumLastReport
-        // playerBehaviorScoreLastReport
-        // playerBehaviorReportOldData
-        // tourneySkillLevel
-        // tourneyRecentParticipationDate
-        // anchoredPhoneNumberId
-        // rankedMatchmakingBanUntilDate
-        // recentGameTime1
-        // recentGameTime2
-        // recentGameTime3
-        // favoriteTeamPacked
-        // recentReportTime
-        // customGameDisabledUntilDate
-        // recentWinTime1
-        // recentWinTime2
-        // recentWinTime3
-        // eventModeRecentTime
-        // mmrRecalibrationTime
-        // originalStartDate
-        // prepaidTimeStart
-        // prepaidTimeBalance
-        // nextPaymentDate
-        // steamAgreementId
-        // CMsgLobbyFeaturedGamemodeProgress.AccountProgress
-        // statusEffectIndex
-        // bountyRuneGold
-        // rangeCreepUpgradeGold
-        // observerWardsDewarded
-        // reliableGoldEarned
-        // goldLossPrevented
-        // experimentalGold
-        // experimental2Gold
-        // tpScrollsPurchased1
-        // tpScrollsPurchased2
-        // tpScrollsPurchased3
-        // tpScrollsPurchased4
-        // tpScrollsPurchased5
-        // supportGoldSpent
-        // enemyTowersKilled
-        // enemyBarracksKilled
-        // enemyTowersStatus
-        // enemyBarracksStatus
-        // playerAccountId
-        // gameTimeSeconds
-        // durationSeconds
-        // playerCardItemIds
-        // playerCardInfos
-        // CMsgGCGetPlayerCardItemInfoResponse.PlayerCardInfo
-        // playerCardItemId
-        // recentBattleCupVictory
-        // leaderboardRank
-        // isPlusSubscriber
-        // plusOriginalStartDate
-        // leaderboardRankCore
-        // favoriteTeamPacked
-        // CMsgDOTAProfileCard.EStatID
-        // CMsgDOTAProfileCard.k_eStat_Wins
-        // CMsgDOTAProfileCard.k_eStat_Commends
-        // CMsgDOTAProfileCard.k_eStat_GamesPlayed
-        // CMsgDOTAProfileCard.k_eStat_FirstMatchDate
-        // CMsgDOTAProfileCard.k_eStat_PreviousSeasonRank
-        // CMsgDOTAProfileCard.k_eStat_GamesMVP
-        // CMsgDOTAProfileCard.Slot
-        // CMsgDOTAProfileCard.Slot.Trophy
-        // CMsgDOTAProfileCard.Slot.Stat
-        // CMsgDOTAProfileCard.Slot.Item
-        // CMsgDOTAProfileCard.Slot.Hero
-        // CMsgDOTAProfileCard.Slot.Emoticon
-        // CMsgDOTAProfileCard.Slot.Team
-        // CMsgGCRerollPlayerChallengeResponse.EResult
-        // CMsgGCRerollPlayerChallengeResponse.eResult_Success
-        // CMsgGCRerollPlayerChallengeResponse.eResult_Dropped
-        // CMsgGCRerollPlayerChallengeResponse.eResult_NotFound
-        // CMsgGCRerollPlayerChallengeResponse.eResult_CantReroll
-        // CMsgGCRerollPlayerChallengeResponse.eResult_ServerError
-        // topCustomGames
-        // CMsgDOTARealtimeGameStats.TeamDetails
-        // CMsgDOTARealtimeGameStats.ItemDetails
-        // CMsgDOTARealtimeGameStats.AbilityDetails
-        // CMsgDOTARealtimeGameStats.HeroToHeroStats
-        // CMsgDOTARealtimeGameStats.AbilityList
-        // CMsgDOTARealtimeGameStats.PlayerDetails
-        // baseIntelligence
-        // ultimateCooldown
-        // heroToHeroStats
-        // hasUltimateMana
-        // CMsgDOTARealtimeGameStats.BuildingDetails
-        // CMsgDOTARealtimeGameStats.KillDetails
-        // killerPlayerId
-        // CMsgDOTARealtimeGameStats.BroadcasterDetails
-        // CMsgDOTARealtimeGameStats.PickBanDetails
-        // CMsgDOTARealtimeGameStats.MatchDetails
-        // isNightstalkerNight
-        // CMsgDOTARealtimeGameStats.GraphData
-        // CMsgDOTARealtimeGameStats.GraphData.eStat
-        // CMsgDOTARealtimeGameStats.GraphData.CreepGoldEarned
-        // CMsgDOTARealtimeGameStats.GraphData.KillGoldEarned
-        // CMsgDOTARealtimeGameStats.GraphData.DeathAndBuybackGoldLost
-        // CMsgDOTARealtimeGameStats.GraphData.XPEarned
-        // CMsgDOTARealtimeGameStats.GraphData.eLocation
-        // CMsgDOTARealtimeGameStats.GraphData.BotLane
-        // CMsgDOTARealtimeGameStats.GraphData.MidLane
-        // CMsgDOTARealtimeGameStats.GraphData.TopLane
-        // CMsgDOTARealtimeGameStats.GraphData.Jungle
-        // CMsgDOTARealtimeGameStats.GraphData.Ancients
-        // CMsgDOTARealtimeGameStats.GraphData.Other
-        // CMsgDOTARealtimeGameStats.GraphData.LocationStats
-        // CMsgDOTARealtimeGameStats.GraphData.TeamLocationStats
-        // CMsgDOTARealtimeGameStatsTerse.TeamDetails
-        // CMsgDOTARealtimeGameStatsTerse.PlayerDetails
-        // CMsgDOTARealtimeGameStatsTerse.BuildingDetails
-        // CMsgDOTARealtimeGameStatsTerse.PickBanDetails
-        // CMsgDOTARealtimeGameStatsTerse.MatchDetails
-        // steamBroadcasterAccountIds
-        // CMsgDOTARealtimeGameStatsTerse.GraphData
-        // matchgroupsVersion
-        // answerResolutionType
-        // debugForceSelection
-        // CMsgInGamePrediction.ERawValueType_t
-        // CMsgInGamePrediction.Number
-        // CMsgInGamePrediction.Time
-        // CMsgInGamePrediction.EPredictionType
-        // CMsgInGamePrediction.Generic
-        // CMsgInGamePrediction.Hero
-        // CMsgInGamePrediction.Team
-        // CMsgInGamePrediction.Player
-        // CMsgInGamePrediction.Special
-        // CMsgInGamePrediction.YesNo
-        // CMsgInGamePrediction.QualifiersTeam
-        // CMsgInGamePrediction.EResolutionType_t
-        // CMsgInGamePrediction.InvalidQuery
-        // CMsgInGamePrediction.FirstToPassQuery
-        // CMsgInGamePrediction.LastToPassQuery
-        // CMsgInGamePrediction.LastRemainingQuery
-        // CMsgInGamePrediction.MaxToPassQuery
-        // CMsgInGamePrediction.MinToPassQuery
-        // CMsgInGamePrediction.SumQuery
-        // CMsgInGamePrediction.MaxTeamSumToPassQuery
-        // CMsgInGamePrediction.MinTeamSumToPassQuery
-        // CMsgInGamePrediction.ERandomSelectionGroup_t
-        // CMsgInGamePrediction.EarlyGame
-        // CMsgInGamePrediction.MidGame
-        // CMsgInGamePrediction.LateGame
-        // CMsgInGamePrediction.Count
-        // CMsgInGamePrediction.QueryKeyValues
-        // inGamePredictions
-        // inGamePredictionCountPerGame
-        // inGamePredictionVotingPeriodMinutes
-        // CMsgDOTASeasonPredictions.Prediction
-        // lockOnSelectionId
-        // lockOnSelectionValue
-        // lockOnSelectionSet
-        // useAnswerValueRanges
-        // rewardEventAction
-        // CMsgDOTASeasonPredictions.Prediction.EPredictionType
-        // CMsgDOTASeasonPredictions.Prediction.Generic
-        // CMsgDOTASeasonPredictions.Prediction.Hero
-        // CMsgDOTASeasonPredictions.Prediction.Team
-        // CMsgDOTASeasonPredictions.Prediction.Player
-        // CMsgDOTASeasonPredictions.Prediction.Special
-        // CMsgDOTASeasonPredictions.Prediction.YesNo
-        // CMsgDOTASeasonPredictions.Prediction.QualifiersTeam
-        // CMsgDOTASeasonPredictions.Prediction.LastChanceTeam
-        // CMsgDOTASeasonPredictions.Prediction.EAnswerType
-        // CMsgDOTASeasonPredictions.Prediction.SingleInt
-        // CMsgDOTASeasonPredictions.Prediction.SingleFloat
-        // CMsgDOTASeasonPredictions.Prediction.MultipleInt
-        // CMsgDOTASeasonPredictions.Prediction.MultipleFloat
-        // CMsgDOTASeasonPredictions.Prediction.AnswerTeam
-        // CMsgDOTASeasonPredictions.Prediction.SingleTime
-        // CMsgDOTASeasonPredictions.Prediction.MultipleTime
-        // CMsgDOTASeasonPredictions.Prediction.NoAnswer
-        // CMsgDOTASeasonPredictions.Prediction.Answers
-        // matchPredictions
-        // CMsgAvailablePredictions.MatchPrediction
-        // CMsgLeagueWatchedGames.Series
-        // CMsgLeagueWatchedGames.League
-        // firstBloodTime
-        // radiantTeamName
-        // radiantTeamLogo
-        // radiantTeamLogoUrl
-        // direTeamLogoUrl
-        // radiantTeamComplete
-        // direTeamComplete
-        // radiantGuildId
-        // radiantTeamTag
-        // broadcasterChannels
-        // customGameData
-        // privateMetadataKey
-        // radiantTeamScore
-        // tournamentRound
-        // preGameDuration
-        // CMsgDOTAMatch.ReplayState
-        // CMsgDOTAMatch.REPLAY_AVAILABLE
-        // CMsgDOTAMatch.REPLAY_NOT_RECORDED
-        // CMsgDOTAMatch.REPLAY_EXPIRED
-        // CMsgDOTAMatch.Player
-        // expectedTeamContribution
-        // disableDuration
-        // supportAbilityValue
-        // feedingDetected
-        // searchRankUncertainty
-        // rankUncertaintyChange
-        // scaledHeroDamage
-        // scaledTowerDamage
-        // scaledHeroHealing
-        // claimedFarmGold
-        // abilityUpgrades
-        // additionalUnitsInventory
-        // customGameData
-        // activePlusSubscription
-        // heroWasRandomed
-        // heroWasDotaPlusSuggestion
-        // heroDamageReceived
-        // heroDamageDealt
-        // goldLostToDeath
-        // laneSelectionFlags
-        // outpostsCaptured
-        // CMsgDOTAMatch.Player.HeroDamageType
-        // CMsgDOTAMatch.Player.HERO_DAMAGE_PHYSICAL
-        // CMsgDOTAMatch.Player.HERO_DAMAGE_MAGICAL
-        // CMsgDOTAMatch.Player.HERO_DAMAGE_PURE
-        // CMsgDOTAMatch.Player.CustomGameData
-        // CMsgDOTAMatch.Player.HeroDamageReceived
-        // CMsgDOTAMatch.BroadcasterInfo
-        // CMsgDOTAMatch.BroadcasterChannel
-        // broadcasterInfos
-        // CMsgDOTAMatch.Coach
-        // isPrivateCoach
-        // CMsgDOTAMatch.CustomGameData
-        // CMsgPlayerCard.StatModifier
-        // playerAccountId
-        // teamfightParticipation
-        // desirePushLaneTop
-        // desirePushLaneMid
-        // desirePushLaneBot
-        // desireDefendLaneTop
-        // desireDefendLaneMid
-        // desireDefendLaneBot
-        // desireFarmLaneTop
-        // desireFarmLaneMid
-        // desireFarmLaneBot
-        // desireFarmRoshan
-        // CMsgDOTABotDebugInfo.Bot
-        // CMsgDOTABotDebugInfo.Bot.Mode
-        // CMsgDOTABotDebugInfo.Bot.Action
-        // CMsgMatchTips.SingleTip
-        // sourceAccountId
-        // targetAccountId
-        // CMsgDOTAMatchMinimal.Player
-        // CMsgDOTAMatchMinimal.Tourney
-        // weekendTourneyTournamentId
-        // weekendTourneySeasonTrophyId
-        // weekendTourneyDivision
-        // weekendTourneySkillLevel
-        // radiantTeamName
-        // radiantTeamLogo
-        // radiantTeamLogoUrl
-        // direTeamLogoUrl
-        // playerConsumablesUsed
-        // CMsgMatchConsumableUsage.PlayerUsage
-        // consumablesUsed
-        // CMsgMatchEventActionGrants.PlayerGrants
-        // customGamesWhitelist
-        // disableWhitelist
-        // whitelistEntries
-        // CMsgCustomGameWhitelistForEdit.WhitelistEntry
-        // predictionStreak
-        // plusPredictionStreak
-        // firstMatchTimestamp
-        // playerAccomplishments
-        // heroAccomplishments
-        // playerAccomplishments
-        // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
-        // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eInternalError
-        // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eSuccess
-        // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eTooBusy
-        // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eDisabled
-        // CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.k_eForbidden
-        // numMatchesToSearch
-        // minSharedMatchCount
-        // numAdditionalPlayers
-        // CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Account
-        // numCommonMatches
-        // earliestCommonMatch
-        // latestCommonMatch
-        // CMsgPullTabsData.Slot
-        // CMsgPullTabsData.Jackpot
-        // CMsgUnderDraftData.BenchSlot
-        // CMsgUnderDraftData.ShopSlot
-        // isSpecialReward
-        // correctAnswerIndex
-        // summaryAvailable
-        // abilityHasScepter
-        // abilityHasShard
-        // abilityIsGrantedByScepter
-        // abilityIsGrantedByShard
-        // abilityIsInnate
-        // itemInitialCharges
-        // itemNeutralTier
-        // attackCapability
-        // projectileSpeed
-        // magicResistance
-        // sightRangeNight
-        // CMsgGameDataHero.Facet
-        // CMsgGameDataHeroList.HeroInfo
-        // nameEnglishLoc
-        // CMsgGameDataItemAbilityList.ItemAbilityInfo
-        // nameEnglishLoc
-        // neutralItemTier
-        // isPregameSuggested
-        // isEarlygameSuggested
-        // isLategameSuggested
-        // CMsgGameDataItemAbilityList.ItemAbilityInfo.Recipe
-        // shuffleDraftOrder
-        // originalPurchaserId
-        // passportsBought
-        // teamPageOrderSequence
-        // favoritePageNum
-        // laneSelectionFlags
-        // wisdomRunesGained
-        // roshanKillsDay
-        // roshanKillsNight
-        // outpostsCaptured
-        // shieldRunesGained
-        // trackedStatValue
-        // CMsgDOTAClaimEventActionResponse.ResultCode
-        // CMsgDOTAClaimEventActionResponse.Success
-        // CMsgDOTAClaimEventActionResponse.InvalidEvent
-        // CMsgDOTAClaimEventActionResponse.EventNotActive
-        // CMsgDOTAClaimEventActionResponse.InvalidAction
-        // CMsgDOTAClaimEventActionResponse.ServerError
-        // CMsgDOTAClaimEventActionResponse.InsufficientPoints
-        // CMsgDOTAClaimEventActionResponse.InsufficentLevel
-        // CMsgDOTAClaimEventActionResponse.AlreadyClaimed
-        // CMsgDOTAClaimEventActionResponse.SDOLockFailure
-        // CMsgDOTAClaimEventActionResponse.SDOLoadFailure
-        // CMsgDOTAClaimEventActionResponse.EventNotOwned
-        // CMsgDOTAClaimEventActionResponse.Timeout
-        // CMsgDOTAClaimEventActionResponse.RequiresPlusSubscription
-        // CMsgDOTAClaimEventActionResponse.InvalidItem
-        // CMsgDOTAClaimEventActionResponse.AsyncRewards
-        // CMsgDOTAClaimEventActionResponse.MysteryItemRewardData
-        // CMsgDOTAClaimEventActionResponse.LootListRewardData
-        // CMsgDOTAClaimEventActionResponse.ActionListRewardData
-        // resultRewardData
-        // CMsgDOTAClaimEventActionResponse.OverworldTokenRewardData
-        // CMsgDOTAClaimEventActionResponse.OverworldTokenRewardData.TokenQuantity
-        // CMsgDOTAClaimEventActionResponse.MonsterHunterMaterialRewardData
-        // CMsgDOTAClaimEventActionResponse.MonsterHunterMaterialRewardData.MaterialQuantity
-        // CMsgDOTAClaimEventActionResponse.GrantedRewardData
-        // CMsgClientToGCDotaLabsFeedbackResponse.EResponse
-        // CMsgClientToGCDotaLabsFeedbackResponse.k_eInternalError
-        // CMsgClientToGCDotaLabsFeedbackResponse.k_eSuccess
-        // CMsgClientToGCDotaLabsFeedbackResponse.k_eTooBusy
-        // CMsgClientToGCDotaLabsFeedbackResponse.k_eDisabled
-        // CMsgClientToGCDotaLabsFeedbackResponse.k_eTimeout
-        // CMsgClientToGCDotaLabsFeedbackResponse.k_eNotAllowed
-        // CMsgClientToGCDotaLabsFeedbackResponse.k_eInvalidItem
-        // CDotaMsg_PredictionResult.Prediction
-        // grantedItemDefs
-        // CDotaMsg_PredictionResult.Prediction.EResult
-        // CDotaMsg_PredictionResult.Prediction.k_eResult_ItemGranted
-        // CDotaMsg_PredictionResult.Prediction.k_eResult_Destroyed
-        // abilityNameLocToken
-        // abilityCategory
-        // currentManaCost
-        // currentHealthCost
-        // currentCooldown
-        // summaryDescriptionLocToken
-        // summaryDescriptionEmbedValues
-        // summaryDescriptionSurfacedLines
-        // summaryDescriptionEmbeddedSubAbilities
-        // summaryDescriptionAghsScepter
-        // summaryDescriptionAghsShard
-        // previewVideoUrl
-        // CDotaMsgStructuredTooltipProperties.EAbilityTooltipCategory
-        // CDotaMsgStructuredTooltipProperties.kPassive
-        // CDotaMsgStructuredTooltipProperties.kAutocast
-        // CDotaMsgStructuredTooltipProperties.kToggle
-        // CDotaMsgStructuredTooltipProperties.kChanneled
-        // CDotaMsgStructuredTooltipProperties.EAttributeType
-        // CDotaMsgStructuredTooltipProperties.kUnknown
-        // CDotaMsgStructuredTooltipProperties.kDuration
-        // CDotaMsgStructuredTooltipProperties.kManaCost
-        // CDotaMsgStructuredTooltipProperties.kHealthCost
-        // CDotaMsgStructuredTooltipProperties.kCastRange
-        // CDotaMsgStructuredTooltipProperties.kAreaOfEffectRadius
-        // CDotaMsgStructuredTooltipProperties.kPhysicalDamage
-        // CDotaMsgStructuredTooltipProperties.kMagicalDamage
-        // CDotaMsgStructuredTooltipProperties.kPureDamage
-        // CDotaMsgStructuredTooltipProperties.kCooldown
-        // CDotaMsgStructuredTooltipProperties.kDebuffPercentage
-        // CDotaMsgStructuredTooltipProperties.kDebuffValue
-        // CDotaMsgStructuredTooltipProperties.kBuffPercentage
-        // CDotaMsgStructuredTooltipProperties.kBuffValue
-        // CDotaMsgStructuredTooltipProperties.kMagicalDamagePercentage
-        // CDotaMsgStructuredTooltipProperties.kHealthPercentage
-        // CDotaMsgStructuredTooltipProperties.kManaPercentage
-        // CDotaMsgStructuredTooltipProperties.kNumCharges
-        // CDotaMsgStructuredTooltipProperties.kDebuffDuration
-        // CDotaMsgStructuredTooltipProperties.kBuffDuration
-        // CDotaMsgStructuredTooltipProperties.kAbilityDefinedDamage
-        // CDotaMsgStructuredTooltipProperties.kDispellability
-        // CDotaMsgStructuredTooltipProperties.kSpellImmunityPiercing
-        // CDotaMsgStructuredTooltipProperties.AttributeValueValue
-        // CDotaMsgStructuredTooltipProperties.AttributeValue_Single
-        // CDotaMsgStructuredTooltipProperties.AttributeValue_Variable
-        // CDotaMsgStructuredTooltipProperties.AttributeValue_Delta
-        // CDotaMsgStructuredTooltipProperties.AttributeValue
-        // CDotaMsgStructuredTooltipProperties.AttributeValue.attr_value
-        // CDotaMsgStructuredTooltipProperties.Attribute
-        // localizedNameText
-        // CDotaMsgStructuredTooltipProperties.AttributeGroupDesc_Basic
-        // CDotaMsgStructuredTooltipProperties.AttributeGroupDesc_Specific
-        // CDotaMsgStructuredTooltipProperties.AttributeGroupDescription
-        // CDotaMsgStructuredTooltipProperties.AttributeGroupDescription.attr_group_desc
-        // CDotaMsgStructuredTooltipProperties.AttributeGroup
-        // CDotaMsgStructuredTooltipProperties.ContentChunk_AttributeGroup
-        // CDotaMsgStructuredTooltipProperties.TooltipContentChunk
-        // CDotaMsgStructuredTooltipProperties.TooltipContentChunk.content_chunk
-        // CDotaMsgStructuredTooltipProperties.SummaryDescriptionEmbeddedSubAbility
-        // abilityNameLocToken
-        // abilityDescLocToken
-        // abilityIconUrl
-        // k_ESpecialPingValue_NoData
-        // k_ESpecialPingValue_Failed
-        // k_EDOTAGCSessionNeed_Unknown
-        // k_EDOTAGCSessionNeed_UserNoSessionNeeded
-        // k_EDOTAGCSessionNeed_UserInOnlineGame
-        // k_EDOTAGCSessionNeed_UserInLocalGame
-        // k_EDOTAGCSessionNeed_UserInUIWasConnected
-        // k_EDOTAGCSessionNeed_UserInUINeverConnected
-        // k_EDOTAGCSessionNeed_UserTutorials
-        // k_EDOTAGCSessionNeed_UserInUIWasConnectedIdle
-        // k_EDOTAGCSessionNeed_UserInUINeverConnectedIdle
-        // k_EDOTAGCSessionNeed_GameServerOnline
-        // k_EDOTAGCSessionNeed_GameServerLocal
-        // k_EDOTAGCSessionNeed_GameServerIdle
-        // k_EDOTAGCSessionNeed_GameServerRelay
-        // k_EDOTAGCSessionNeed_GameServerLocalUpload
-        // k_EDOTA_MatchPlayerTimeCustomStat_HPRegenUnderT1Towers
-        // k_EDOTA_MatchPlayerTimeCustomStat_MagicDamageReducedWithNewFormula_Absolute
-        // k_EDOTA_MatchPlayerTimeCustomStat_MagicDamageReducedWithNewFormula_PercentOfTotalHP
-        // EBroadcastTimelineEvent_MatchStarted
-        // EBroadcastTimelineEvent_GameStateChanged
-        // EBroadcastTimelineEvent_TowerDeath
-        // EBroadcastTimelineEvent_BarracksDeath
-        // EBroadcastTimelineEvent_AncientDeath
-        // EBroadcastTimelineEvent_RoshanDeath
-        // EBroadcastTimelineEvent_HeroDeath
-        // EBroadcastTimelineEvent_TeamFight
-        // EBroadcastTimelineEvent_FirstBlood
-        // CUSTOM_GAME_WHITELIST_STATE_UNKNOWN
-        // CUSTOM_GAME_WHITELIST_STATE_APPROVED
-        // CUSTOM_GAME_WHITELIST_STATE_REJECTED
-        // k_EDOTATriviaQuestionCategory_AbilityIcon
-        // k_EDOTATriviaQuestionCategory_AbilityCooldown
-        // k_EDOTATriviaQuestionCategory_HeroAttributes
-        // k_EDOTATriviaQuestionCategory_HeroMovementSpeed
-        // k_EDOTATriviaQuestionCategory_TalentTree
-        // k_EDOTATriviaQuestionCategory_HeroStats
-        // k_EDOTATriviaQuestionCategory_ItemPrice
-        // k_EDOTATriviaQuestionCategory_AbilitySound
-        // k_EDOTATriviaQuestionCategory_InvokerSpells
-        // k_EDOTATriviaQuestionCategory_AbilityManaCost
-        // k_EDOTATriviaQuestionCategory_HeroAttackSound
-        // k_EDOTATriviaQuestionCategory_AbilityName
-        // k_EDOTATriviaQuestionCategory_ItemComponents
-        // k_EDOTATriviaQuestionCategory_ItemLore
-        // k_EDOTATriviaQuestionCategory_ItemPassives
-        // k_EDOTATriviaQuestionCategory_STATIC_QUESTIONS_END
-        // k_EDOTATriviaQuestionCategory_DYNAMIC_QUESTIONS_START
-        // k_EDOTATriviaQuestionCategory_Dynamic_ItemBuild
-        // k_EOverwatchConviction_None
-        // k_EOverwatchConviction_NotGuilty
-        // k_EOverwatchConviction_GuiltUnclear
-        // k_EOverwatchConviction_Guilty
-        // HERO_RELIC_RARITY_INVALID
-        // HERO_RELIC_RARITY_COMMON
-        // HERO_RELIC_RARITY_RARE
-        // STICKERBOOK_AUDIT_CREATE_PAGE
-        // STICKERBOOK_AUDIT_DELETE_PAGE
-        // STICKERBOOK_AUDIT_STICK_STICKERS
-        // STICKERBOOK_AUDIT_REPLACE_STICKERS
-        // STICKERBOOK_AUDIT_HERO_STICKER
-        // STICKER_PAGE_GENERIC
-        // STICKER_PAGE_TEAM
-        // STICKER_PAGE_TALENT
-        // kENewBloomGifting_Success
-        // kENewBloomGifting_UnknownFailure
-        // kENewBloomGifting_MalformedRequest
-        // kENewBloomGifting_FeatureDisabled
-        // kENewBloomGifting_ItemNotFound
-        // kENewBloomGifting_PlayerNotAllowedToGiveGifts
-        // kENewBloomGifting_TargetNotAllowedToReceiveGifts
-        // kENewBloomGifting_ServerNotAuthorized
-        // kENewBloomGifting_PlayerNotInLobby
-        // kENewBloomGifting_TargetNotInLobby
-        // kENewBloomGifting_LobbyNotEligible
-        // kENewBloomGifting_TargetNotFriend
-        // kENewBloomGifting_TargetFriendDurationTooShort
-        // roID_t
-        // roID_t
-        // yle_index_t
-        // ilityID_t
-        // roID_t
-        // emid_t
-        // emid_t
-        // roID_t
-        // roID_t
-        // ilityID_t
-        // ayerID_t
-        // ayerID_t
-        // ayerID_t
-        // ayerID_t
-        // tchID_t
-        // agueNodeID_t
-        // roID_t
-        // ilityID_t
-        // tchID_t
-        // agueNodeID_t
-        // agueNodeID_t
-        // agueNodeID_t
-        // tchID_t
-        // PlayerSlot_t
-        // ilityID_t
-        // ilityID_t
-        // ilityID_t
-        // ilityID_t
-        // ilityID_t
-        // ilityID_t
-        // tchID_t
-        // ayerID_t
-        // ntityIndex
-        // tchID_t
-        // tchID_t
-        // ilityID_t
-        // agueID_t
-        // tchID_t
-        // roID_t
-        // roID_t
-        // roID_t
-        // ilityID_t
-        // roID_t
-        // ilityID_t
-        // agueID_t
-        // emid_t
-        // roID_t
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // les/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // Events
-        // Decals
-        // Signon
-        // Signon
-        // Events
-        // User Messages
-        // Events
-        // Events
-        // Events
-        // Decals
-        // User Messages
-        // Decals
-        // nts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
-        // User Messages
-        // Events
-        // User Messages
-        // Sounds
-        // Sounds
-        // Sounds
-        // Sounds
-        // Sounds
-        // Events
-        // Events
-        // Decals
-        // Events
-        // Events
-        // User Messages
-        // User Messages
-        // Events
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // Events
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        // User Messages
-        public static class _s5___ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ___ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _s5___ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CUserMessageAudioParameter.parameter_type
-        // eManager.update_particle
-        // _npc_dota_hero_nevermore.vpcf
-        // dota_ability_contribution_common.h
-        // dota_cavern_crawl_types.h
-        // dota_craftworks.h
-        // AbilityContributionType_t
-        // er_entity
-        // AbilityContributionType_t
-        // AbilityContributionType_t
-        // ChatUntilDate
-        // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
-        public static class __8___ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ___ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CUserMessageAudioParameter.parameter_type
-        // eManager.update_particle
-        // _npc_dota_hero_nevermore.vpcf
-        // dota_ability_contribution_common.h
-        // dota_cavern_crawl_types.h
-        // dota_craftworks.h
-        // AbilityContributionType_t
-        // er_entity
-        // AbilityContributionType_t
-        // AbilityContributionType_t
-        // ChatUntilDate
-        // ts/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf
-        public static class __8___ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class 0 {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __________ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ {
+        // Field count: 205
+        public static class _oS_L_ {
+            public const nint nItemType = 0x30; // int16
+            public const nint bPurchasable = 0x32; // bool
+            public const nint m_iMinimapMove = 0x898; // int32
+            public const nint m_pClickBehaviorKeys = 0x8A0; // KeyValues*
+            public const nint m_flCenterTime = 0x8A8; // GameTime_t
+            public const nint m_iConfirmationIndex = 0x8AC; // int32
+            public const nint m_bCenterOnHero = 0x8B0; // bool
+            public const nint m_bHeroAssigned = 0x8B1; // bool
+            public const nint m_nKeyBindHeroID = 0x8B4; // int32
+            public const nint m_bUsingCameraMan = 0x8B8; // bool
+            public const nint m_bUsingAssistedCameraOperator = 0x8B9; // bool
+            public const nint m_nPlayerAssistFlags = 0x8BC; // int32
+            public const nint m_vLatestEvent = 0x8C0; // Vector
+            public const nint m_hFreeDrawAbility = 0x8F0; // CHandle<C_DOTABaseAbility>
+            public const nint m_vLastFreeDrawPosition = 0x8F4; // Vector
+            public const nint m_nPlayerID = 0x900; // PlayerID_t
+            public const nint m_hAssignedHero = 0x904; // CHandle<C_BaseEntity>
+            public const nint m_hLastAssignedHero = 0x908; // CHandle<C_BaseEntity>
+            public const nint m_hKillCamUnit = 0x90C; // CHandle<C_BaseEntity>
+            public const nint m_hPreviousKillCamUnit = 0x910; // CHandle<C_BaseEntity>
+            public const nint m_flKillCamUnitReceivedTime = 0x914; // float32
+            public const nint m_nRareLineClickCount = 0x920; // int32
+            public const nint m_nRareLinesPlayed = 0x924; // int32
+            public const nint m_nRareLineGroup = 0x928; // int32
+            public const nint m_flLastRareLinePlayTime = 0x92C; // float32
+            public const nint m_flUnitOrdersSendTime = 0x930; // float32
+            public const nint m_flLastUnitOrdersSendTime = 0x934; // float32
+            public const nint m_flLastUnitOrdersTotalLatency = 0x938; // float32
+            public const nint m_flLastPingTime = 0x93C; // float32
+            public const nint m_flPingAllowance = 0x940; // float32
+            public const nint m_bTeleportRequiresHalt = 0x944; // bool
+            public const nint m_bChannelRequiresHalt = 0x945; // bool
+            public const nint m_bInteractionChannelsRequireHalt = 0x946; // bool
+            public const nint m_bAutoPurchaseItems = 0x947; // bool
+            public const nint m_bDisableHUDErrorMessages = 0x948; // bool
+            public const nint m_flMouseDragStartX = 0x94C; // float32
+            public const nint m_flMouseDragStartY = 0x950; // float32
+            public const nint m_nWeatherType = 0x954; // int32
+            public const nint m_bDynamicWeatherSystemActive = 0x958; // bool
+            public const nint m_bDynamicSoundHandled = 0x959; // bool
+            public const nint m_flDynamicWeatherNextSwitchTime = 0x95C; // GameTime_t
+            public const nint m_flDynamicWeatherScaleFinishedTime = 0x960; // GameTime_t
+            public const nint m_flDynamicWeatherIntensity = 0x964; // float32
+            public const nint m_nXPRangeFXIndex = 0x968; // ParticleIndex_t
+            public const nint m_nVisionRangeFXIndex = 0x96C; // ParticleIndex_t
+            public const nint m_hRangeHintAbility = 0x974; // CHandle<C_DOTABaseAbility>
+            public const nint m_nRangeHintFXIndex = 0x978; // ParticleIndex_t
+            public const nint m_flRangeHintFXLastRadius = 0x97C; // float32
+            public const nint m_nSelectedControlGroup = 0x980; // int32
+            public const nint m_nCachedCoachedTeam = 0x984; // int32
+            public const nint m_flLastReportedMissedSnapshotRate = 0x988; // float32
+            public const nint m_hActiveAbility = 0x98C; // CHandle<C_DOTABaseAbility>
+            public const nint m_unitorders = 0x990; // CUtlVector<CUnitOrders>
+            public const nint m_nNextOutgoingOrderSequenceNumber = 0x9A8; // int32
+            public const nint m_nServerOrderSequenceNumber = 0x9AC; // int32
+            public const nint m_nMaxSentOutgoingOrderSequenceNumber = 0x9B0; // int32
+            public const nint m_nSelectedUnits = 0x9B8; // CUtlVector<CEntityIndex>
+            public const nint m_nWaypoints = 0x9D0; // CUtlVector<ParticleIndex_t>
+            public const nint m_iActions = 0x9E8; // int32
+            public const nint m_hQueryUnit = 0x9EC; // CHandle<C_DOTA_BaseNPC>
+            public const nint m_bInQuery = 0x9F0; // bool
+            public const nint m_bSelectionChangedInDataUpdate = 0x9F1; // bool
+            public const nint m_flQueryInhibitingActionTime = 0xA58; // GameTime_t
+            public const nint m_flQueryInhibitDuration = 0xA5C; // float32
+            public const nint m_RingedEntities = 0xA60; // CUtlVector<CHandle<C_BaseEntity>>
+            public const nint m_ActiveRingOwners = 0xA78; // CUtlVector<CHandle<C_BaseEntity>>
+            public const nint m_bOverridingQuery = 0xA90; // bool
+            public const nint m_flLastAutoRepeatTime = 0xA98; // float32
+            public const nint m_bNextDoubleclickIsOnlyAClick = 0xA9C; // bool
+            public const nint m_flConsumeDoubleclickTime = 0xAA0; // float32
+            public const nint m_LightInfoWeatherEffect = 0xAA8; // CUtlString
+            public const nint m_bPreviousWasLightInfoWeather = 0xAB0; // bool
+            public const nint m_MapDefaultWeatherEffect = 0xAB8; // CUtlString
+            public const nint m_bMapUsesDynamicWeather = 0xAC0; // bool
+            public const nint m_nCastRangeEffectCreationRadius = 0xAE8; // int32
+            public const nint m_vecSuggestedWardLocationEffects = 0xB08; // CUtlVector<ParticleIndex_t>
+            public const nint m_hSmartCastNPC = 0xB20; // CHandle<C_DOTA_BaseNPC>
+            public const nint m_nTeamSprayParticleIndex = 0xB24; // ParticleIndex_t
+            public const nint m_nScanCastIndicatorParticleIndex = 0xB28; // ParticleIndex_t
+            public const nint m_bIsNextCastOrderFromMouseClick = 0xB2C; // bool
+            public const nint m_bIsSelectHeroHeld = 0xB80; // bool
+            public const nint m_flSelectHeroHeldStartTime = 0xB88; // float64
+            public const nint m_fLastNetworkStatsSent = 0xB90; // float64
+            public const nint m_iCursor = 0xBB0; // int32[2]
+            public const nint m_iSpectatorClickBehavior = 0xBB8; // int32
+            public const nint m_flAspectRatio = 0xBBC; // float32
+            public const nint m_hSpectatorQueryUnit = 0xBC0; // CHandle<C_BaseEntity>
+            public const nint m_iStatsPanel = 0xBC4; // int32
+            public const nint m_iShopPanel = 0xBC8; // int32
+            public const nint m_iShopViewMode = 0xBCC; // ShopItemViewMode_t
+            public const nint m_iStatsDropdownCategory = 0xBD0; // int32
+            public const nint m_iStatsDropdownSort = 0xBD4; // int32
+            public const nint m_szShopString = 0xBD8; // char[64]
+            public const nint m_vecClientQuickBuyState = 0xC18; // C_UtlVectorEmbeddedNetworkVar<ClientQuickBuyItemState>
+            public const nint m_bInShowCaseMode = 0xC80; // bool
+            public const nint m_flCameraZoomAmount = 0xC84; // float32
+            public const nint m_iHighPriorityScore = 0xC88; // int32
+            public const nint m_flUnfilteredFrameTime = 0xC8C; // float32
+            public const nint m_NeutralCampAlarms = 0xC90; // CUtlVector<NeutralCampStackPullAlarm_t>
+            public const nint m_iPrevCursor = 0xCA8; // int32[2]
+            public const nint m_iPositionHistoryTail = 0xD50; // int32
+            public const nint m_iMusicStatus = 0xD54; // int32
+            public const nint m_iPreviousMusicStatus = 0xD58; // int32
+            public const nint m_bRequestedInventory = 0xD5C; // bool
+            public const nint m_bPrecachedInventory = 0xD5D; // bool
+            public const nint m_flMusicOperatorVals = 0xD60; // float32[3]
+            public const nint m_iMusicOperatorVals = 0xD6C; // int32[4]
+            public const nint m_ControlGroups = 0xD80; // CUtlVector<sControlGroupElem>[10]
+            public const nint m_pkvControlGroupKV = 0xE70; // KeyValues*
+            public const nint m_flAltHeldStartTime = 0xED0; // float32
+            public const nint m_bWasDataUpdateCreated = 0x600; // bool
+            public const nint m_vecPlayerTeamData = 0x608; // C_UtlVectorEmbeddedNetworkVar<PlayerResourcePlayerTeamData_t>
+            public const nint m_vecPlayerData = 0x670; // C_UtlVectorEmbeddedNetworkVar<PlayerResourcePlayerData_t>
+            public const nint m_vecBrodcasterData = 0x6D8; // C_UtlVectorEmbeddedNetworkVar<PlayerResourceBroadcasterData_t>
+            public const nint m_vecEventsForDisplay = 0x740; // C_NetworkUtlVectorBase<uint32>
+            public const nint m_nPrimaryEventIndex = 0x758; // int8
+            public const nint m_nObsoleteEventIDAssociatedWithEventData = 0x75C; // uint32
+            public const nint m_playerIDToPlayer = 0x760; // CHandle<C_BaseEntity>[64]
+            public const nint m_playerIDToPawn = 0x860; // CHandle<C_BaseEntity>[64]
+            public const nint m_iszName = 0x960; // CUtlSymbolLarge[64]
+            public const nint m_iszHTMLSafeName = 0xB60; // CUtlSymbolLarge[64]
+            public const nint m_iszFilteredHTMLSafeName = 0xD60; // CUtlSymbolLarge[64]
+            public const nint m_bDirtySelection = 0x2860; // bool
+            public const nint m_bHasWorldTreesChanged = 0x2861; // bool
+            public const nint m_bWorldTreeModelsChanged = 0x2862; // bool
+            public const nint m_bSwapWillingness = 0x2863; // bool[24]
+            public const nint m_hTeamCouriers = 0x28B8; // CUtlVector<CHandle<C_DOTA_Unit_Courier>>[15]
+            public const nint m_hPlayerCouriers = 0x2A20; // CUtlVector<CHandle<C_DOTA_Unit_Courier>>[64]
+            public const nint m_vecOnstageHomeTeams = 0x3020; // CUtlVector<uint32>
+            public const nint m_pPlayerIDToOnstageSlot = 0x3038; // PlayerSeatAssignment_t*[24]
+            public const nint m_vecOnstagePlayerSeats = 0x30F8; // CUtlVector<PlayerSeatAssignment_t>
+            public const nint m_nEventNPCReplaced = 0x3110; // int32
+            public const nint m_nEventPlayerInfo = 0x3114; // int32
+            public const nint m_nInventoryUpdated = 0x3118; // int32
+            public const nint m_bInitialized = 0xAE0; // bool
+            public const nint disable_duration = 0x6A8; // float32
+            public const nint damage = 0x6AC; // float32
+            public const nint m_nPreviewFX = 0x6B0; // ParticleIndex_t
+            public const nint m_flStartTime = 0x19D8; // GameTime_t
+            public const nint bonus_magical_armor = 0x19D8; // int32
+            public const nint disarm_duration = 0x19D8; // float32
+            public const nint radius = 0x19D8; // float32
+            public const nint leap_speed = 0x19D8; // float32
+            public const nint leap_acceleration = 0x19DC; // float32
+            public const nint radius = 0x19D8; // int32
+            public const nint heal = 0x19DC; // int32
+            public const nint vision_radius = 0x19E0; // int32
+            public const nint vision_duration = 0x19E4; // float32
+            public const nint model_scale = 0x19E8; // int32
+            public const nint bExploding = 0x19EC; // bool
+            public const nint stun_duration = 0x19F0; // float32
+            public const nint m_nFXAmbient = 0x19F4; // ParticleIndex_t
+            public const nint m_nFXPreview = 0x6A8; // ParticleIndex_t
+            public const nint radius = 0x6AC; // float32
+            public const nint slow_amount = 0x19D8; // int32
+            public const nint m_fCurRadius = 0x19D8; // float32
+            public const nint m_fLastThink = 0x19DC; // GameTime_t
+            public const nint m_entitiesHit = 0x19E0; // CUtlVector<CHandle<C_BaseEntity>>
+            public const nint speed = 0x19F8; // int32
+            public const nint radius = 0x19FC; // int32
+            public const nint start_radius = 0x1A00; // int32
+            public const nint duration = 0x1A04; // float32
+            public const nint radius = 0x19D8; // int32
+            public const nint max_steps = 0x19DC; // int32
+            public const nint damage_interval = 0x19E0; // float32
+            public const nint m_nNumSteps = 0x19E4; // int32
+            public const nint m_nRadiusStep = 0x19E8; // int32
+            public const nint m_nFXIndex = 0x19EC; // ParticleIndex_t
+            public const nint m_vDir = 0x19F0; // Vector
+            public const nint damage = 0x19D8; // int32
+            public const nint m_flRotation = 0x19D8; // float32
+            public const nint m_hWisp = 0x19DC; // CHandle<C_BaseEntity>
+            public const nint m_flLastAttack = 0x19E0; // GameTime_t
+            public const nint reversed = 0x19E4; // bool
+            public const nint roaming_radius = 0x19E8; // int32
+            public const nint attack_radius = 0x19EC; // int32
+            public const nint roaming_seconds_per_rotation = 0x19F0; // float32
+            public const nint attack_interval = 0x19F4; // float32
+            public const nint m_bSetupWarning = 0x19F8; // bool
+            public const nint m_nPreviewFX = 0x19FC; // ParticleIndex_t
+            public const nint physical_damage_reduction = 0x19D8; // float32
+            public const nint physical_damage_reduction_side = 0x19DC; // float32
+            public const nint forward_angle = 0x19E0; // float32
+            public const nint side_angle = 0x19E4; // float32
+            public const nint duration = 0x19D8; // float32
+            public const nint damage = 0x19DC; // int32
+            public const nint stun_duration = 0x19D8; // float32
+            public const nint m_nFXIndex = 0x6A8; // ParticleIndex_t
+            public const nint m_vProjectileVelocity = 0x6AC; // Vector
+            public const nint m_bRetract = 0x6B8; // bool
+            public const nint m_iDamage = 0x19D8; // int32
+            public const nint movement_speed = 0x19DC; // int32
+            public const nint m_nTicksRemaining = 0x19E0; // int32
+            public const nint m_flAttackDamage = 0x19E4; // float32
+            public const nint m_nFXIndex = 0x6A8; // ParticleIndex_t
+            public const nint armor_reduction = 0x19D8; // int32
+            public const nint burn_damage = 0x19D8; // float32
+            public const nint burn_interval = 0x19DC; // float32
+            public const nint pool_duration = 0x19D8; // float32
+            public const nint radius = 0x19DC; // int32
+            public const nint m_ifirefly_Active = 0x19E0; // int32
+            public const nint tree_radius = 0x19E4; // int32
+            public const nint damage_pct_per_second = 0x19E8; // int32
+            public const nint movement_speed = 0x19EC; // int32
+            public const nint trail_placement_duration = 0x19F0; // float32
         }
     }
 }

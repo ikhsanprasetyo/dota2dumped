@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-20 21:32:50.034446100 +07:00
+// 2026-06-21 22:55:14.944997300 +07:00
 
 #pragma once
 
@@ -14296,6 +14296,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // s
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_flInnerDistance = 0x108; // float32
@@ -30755,6 +30756,9 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 3
+            //
+            // Metadata:
+            //  
             namespace CFogController {
                 constexpr std::ptrdiff_t m_fog = 0x498; // fogparams_t
                 constexpr std::ptrdiff_t m_bUseAngles = 0x500; // bool
@@ -34439,6 +34443,9 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 7
+            //
+            // Metadata:
+            //  
             namespace CPointOrient {
                 constexpr std::ptrdiff_t m_iszSpawnTargetName = 0x498; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_hTarget = 0x4A0; // CHandle<CBaseEntity>
@@ -40943,6 +40950,7 @@ namespace source2_dumper {
             // eHead
             // eForward
             // eEyesForward
+            //  
             namespace CPointCamera {
                 constexpr std::ptrdiff_t m_FOV = 0x498; // float32
                 constexpr std::ptrdiff_t m_Resolution = 0x49C; // float32
@@ -44971,6 +44979,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 0
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             namespace CPulseCell_Outflow_CycleRandom {
@@ -48147,6 +48156,7 @@ namespace source2_dumper {
             // eHead
             // eForward
             // eEyesForward
+            //  
             namespace CEnvWindVolume {
                 constexpr std::ptrdiff_t m_bActive = 0x498; // bool
                 constexpr std::ptrdiff_t m_vBoxMins = 0x49C; // Vector
@@ -56995,6 +57005,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -57078,6 +57089,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // _|
             namespace AmmoIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int8
             }
@@ -57606,6 +57620,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -59956,6 +59971,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // _|
             namespace ParticleIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -60055,6 +60073,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -60301,6 +60320,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // Z
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-20 21:32:50.034446100 +07:00
+# 2026-06-21 22:55:14.944997300 +07:00
 
 class Schemas:
     # Module: engine2.dll

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-20 21:32:50.034446100 +07:00
+// 2026-06-21 22:55:14.944997300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -108,15 +108,17 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // i
+            // E
+            // n
+            // e
+            // f
+            // 0
+            // n
+            // e
             // a
             // a
-            // i
-            // i
-            // i
-            // R
-            // f
-            // f
+            // u
+            // u
             pub const GameTime_t = struct {
                 pub const m_Value: usize = 0x0; // float32
             };
@@ -175,17 +177,17 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // u
-            // -
+            // )
+            // s
+            // (
+            // e
+            // e
+            // k
+            // k
             // a
-            // o
-            // p
-            // i
-            // R
-            // n
-            // n
+            // a
             // u
-            // f
-            // f
+            // u
             pub const GameTick_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };

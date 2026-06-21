@@ -1268,10 +1268,6 @@
           {
             "name": "MPropertySortPriority",
             "type": "Unknown"
-          },
-          {
-            "name": "01,0x1a5c/0x3033,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3225,10 +3221,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "033,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x004",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3829,10 +3821,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "033,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x004",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4026,14 +4014,6 @@
           },
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
-            "type": "Unknown"
-          },
-          {
-            "name": "033,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x004",
-            "type": "Unknown"
-          },
-          {
-            "name": "a712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x0002,0x33dd/0x0003,0x0f0d/0x00",
             "type": "Unknown"
           }
         ],
@@ -4555,10 +4535,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "033,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x004",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4797,14 +4773,6 @@
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
             "type": "Unknown"
-          },
-          {
-            "name": "033,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x004",
-            "type": "Unknown"
-          },
-          {
-            "name": "a712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x0002,0x33dd/0x0003,0x0f0d/0x00",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -4956,14 +4924,6 @@
           },
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
-            "type": "Unknown"
-          },
-          {
-            "name": "033,0x0583/0xb031,0x0583/0xa009,0x25f0/0x83c4,0x25f0/0x83c2,0x18d1/0x9400,0x2563/0x0526,0x0925/0x1700,0x1a34/0x0203,0x0f0d/0x004",
-            "type": "Unknown"
-          },
-          {
-            "name": "a712,0x20d6/0xa713,0x20d6/0xa714,0x20d6/0xa715,0x20d6/0xa716,0x20d6/0xa718,0x33dd/0x0001,0x33dd/0x0002,0x33dd/0x0003,0x0f0d/0x00",
             "type": "Unknown"
           }
         ],
@@ -6882,6 +6842,10 @@
             "type": "Unknown"
           },
           {
+            "name": "0",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7256,6 +7220,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "0",
             "type": "Unknown"
           },
           {
@@ -7975,6 +7943,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "0",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -8421,6 +8393,10 @@
             "type": "Unknown"
           },
           {
+            "name": "0",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8518,6 +8494,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "0",
             "type": "Unknown"
           },
           {
@@ -8627,6 +8607,10 @@
             "type": "Unknown"
           },
           {
+            "name": "0",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8646,6 +8630,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "0",
             "type": "Unknown"
           },
           {
@@ -9030,6 +9018,10 @@
             "type": "Unknown"
           },
           {
+            "name": "0",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9081,6 +9073,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "0",
             "type": "Unknown"
           },
           {
@@ -40494,10 +40490,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "2/0x0a14,0x1532/0x0a15,0x20d6/0x2001,0x20d6/0x2002,0x20d6/0x2003,0x20d6/0x2004,0x20d6/0x2005,0x20d6/0x2006,0x20d6/0x2009,0x20d6/",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -66114,10 +66106,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "2/0x0a14,0x1532/0x0a15,0x20d6/0x2001,0x20d6/0x2002,0x20d6/0x2003,0x20d6/0x2004,0x20d6/0x2005,0x20d6/0x2006,0x20d6/0x2009,0x20d6/",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -66552,10 +66540,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "2/0x0a14,0x1532/0x0a15,0x20d6/0x2001,0x20d6/0x2002,0x20d6/0x2003,0x20d6/0x2004,0x20d6/0x2005,0x20d6/0x2006,0x20d6/0x2009,0x20d6/",
             "type": "Unknown"
           }
         ],
@@ -67148,10 +67132,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "2/0x0a14,0x1532/0x0a15,0x20d6/0x2001,0x20d6/0x2002,0x20d6/0x2003,0x20d6/0x2004,0x20d6/0x2005,0x20d6/0x2006,0x20d6/0x2009,0x20d6/",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -67545,10 +67525,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "2/0x0a14,0x1532/0x0a15,0x20d6/0x2001,0x20d6/0x2002,0x20d6/0x2003,0x20d6/0x2004,0x20d6/0x2005,0x20d6/0x2006,0x20d6/0x2009,0x20d6/",
             "type": "Unknown"
           }
         ],
@@ -69016,10 +68992,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "2/0x0a14,0x1532/0x0a15,0x20d6/0x2001,0x20d6/0x2002,0x20d6/0x2003,0x20d6/0x2004,0x20d6/0x2005,0x20d6/0x2006,0x20d6/0x2009,0x20d6/",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -69422,10 +69394,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "2/0x0a14,0x1532/0x0a15,0x20d6/0x2001,0x20d6/0x2002,0x20d6/0x2003,0x20d6/0x2004,0x20d6/0x2005,0x20d6/0x2006,0x20d6/0x2009,0x20d6/",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -69461,10 +69429,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "2/0x0a14,0x1532/0x0a15,0x20d6/0x2001,0x20d6/0x2002,0x20d6/0x2003,0x20d6/0x2004,0x20d6/0x2005,0x20d6/0x2006,0x20d6/0x2009,0x20d6/",
             "type": "Unknown"
           }
         ],
@@ -85533,6 +85497,10 @@
           },
           {
             "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102,0x0f0d/0x0027,0x0f30/0x010b,0x0079/0x0122,0xf766/0x0001,0x1949/0x0402,0x05ac/0x033d,0x",
             "type": "Unknown"
           }
         ],

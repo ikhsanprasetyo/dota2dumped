@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-20 21:32:50.034446100 +07:00
+// 2026-06-21 22:55:14.944997300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
@@ -14290,6 +14290,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // s
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_flInnerDistance = 0x108; // float32
@@ -30749,6 +30750,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 3
+        //
+        // Metadata:
+        //  
         public static class CFogController {
             public const nint m_fog = 0x498; // fogparams_t
             public const nint m_bUseAngles = 0x500; // bool
@@ -34433,6 +34437,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 7
+        //
+        // Metadata:
+        //  
         public static class CPointOrient {
             public const nint m_iszSpawnTargetName = 0x498; // CUtlSymbolLarge
             public const nint m_hTarget = 0x4A0; // CHandle<CBaseEntity>
@@ -40937,6 +40944,7 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
+        //  
         public static class CPointCamera {
             public const nint m_FOV = 0x498; // float32
             public const nint m_Resolution = 0x49C; // float32
@@ -44965,6 +44973,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 0
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class CPulseCell_Outflow_CycleRandom {
@@ -48141,6 +48150,7 @@ namespace Source2Dumper.Schemas {
         // eHead
         // eForward
         // eEyesForward
+        //  
         public static class CEnvWindVolume {
             public const nint m_bActive = 0x498; // bool
             public const nint m_vBoxMins = 0x49C; // Vector
@@ -56989,6 +56999,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // Z
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -57072,6 +57083,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // _|
         public static class AmmoIndex_t {
             public const nint m_Value = 0x0; // int8
         }
@@ -57600,6 +57614,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // Z
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -59950,6 +59965,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // _|
         public static class ParticleIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -60049,6 +60067,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // Z
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -60295,6 +60314,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // Z
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
