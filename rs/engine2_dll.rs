@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: engine2.dll
-        // Class count: 56
+        // Class count: 58
         // Enum count: 2
         pub mod engine2_dll {
             // Alignment: 4
@@ -39,11 +39,17 @@ pub mod source2_dumper {
             }
             // Parent: CEntityComponent
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             pub mod CScriptComponent {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             }
             // Parent: None
             // Field count: 12
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             pub mod CEntityIdentity {
                 pub const m_nameStringTableIndex: usize = 0x14; // int32
                 pub const m_name: usize = 0x18; // CUtlSymbolLarge
@@ -110,19 +116,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // E
-            // n
-            // e
-            // f
-            // 0
-            // n
-            // e
-            // a
-            // a
-            // u
-            // u
             pub mod GameTime_t {
                 pub const m_Value: usize = 0x0; // float32
             }
@@ -131,7 +124,7 @@ pub mod source2_dumper {
             pub mod EventServerBeginSimulate_t {
             }
             // Parent: None
-            // Field count: 9
+            // Field count: 8
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -142,8 +135,7 @@ pub mod source2_dumper {
                 pub const m_pTargetInput: usize = 0x18; // CUtlSymbolLarge
                 pub const m_hActivator: usize = 0x20; // CEntityHandle
                 pub const m_hCaller: usize = 0x24; // CEntityHandle
-                pub const m_nOutputID: usize = 0x28; // int32
-                pub const m_hEntTarget: usize = 0x2C; // CEntityHandle
+                pub const m_hEntTarget: usize = 0x28; // CEntityHandle
                 pub const m_variantValue: usize = 0x30; // CVariantBase<CVariantDefaultAllocator>
             }
             // Parent: None
@@ -178,20 +170,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // u
-            // )
-            // s
-            // (
-            // e
-            // e
-            // k
-            // k
-            // a
-            // a
-            // u
-            // u
             pub mod GameTick_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -254,8 +232,8 @@ pub mod source2_dumper {
             // Parent: None
             // Field count: 2
             pub mod CEntityAttributeTable {
-                pub const m_Attributes: usize = 0x0; // CUtlOrderedMap<CUtlStringToken,Attribute_t>
-                pub const m_Names: usize = 0x28; // CUtlOrderedMap<CUtlStringToken,CUtlString>
+                pub const m_Attributes: usize = 0x0; // CUtlOrderedMap<CUtlStringTokenNoRegistration,Attribute_t>
+                pub const m_Names: usize = 0x28; // CUtlOrderedMap<CUtlStringTokenNoRegistration,CUtlString>
             }
             // Parent: None
             // Field count: 0
@@ -279,7 +257,16 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 0
+            pub mod EventBugBug_t {
+            }
+            // Parent: None
+            // Field count: 0
             pub mod CVariantDefaultAllocator {
+            }
+            // Parent: None
+            // Field count: 1
+            pub mod EventBugBugComplete_t {
+                pub const m_pPayload: usize = 0x0; // EventBugBug_t*
             }
             // Parent: None
             // Field count: 0

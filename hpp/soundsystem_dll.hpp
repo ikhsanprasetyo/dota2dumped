@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: soundsystem.dll
-        // Class count: 136
-        // Enum count: 26
+        // Class count: 151
+        // Enum count: 28
         namespace soundsystem_dll {
             // Alignment: 4
             // Member count: 3
@@ -26,7 +26,18 @@ namespace source2_dumper {
                 RMS = 0x1
             };
             // Alignment: 4
-            // Member count: 39
+            // Member count: 7
+            enum class SndBeatMidiStatusType_t : uint32_t {
+                SndSeqMidiStatusNoteOff = 0x8,
+                SndSeqMidiStatusNoteOn = 0x9,
+                SndSeqMidiStatusKeyPressure = 0xA,
+                SndSeqMidiStatusCtrlChange = 0xB,
+                SndSeqMidiStatusProgramChange = 0xC,
+                SndSeqMidiStatusChannelPressure = 0xD,
+                SndSeqMidiStatusPitchBend = 0xE
+            };
+            // Alignment: 4
+            // Member count: 40
             enum class VMixGraphCommandID_t : uint32_t {
                 CMD_INVALID = 0xFFFFFFFF,
                 CMD_CONTROL_INPUT_STORE = 0x1,
@@ -53,20 +64,21 @@ namespace source2_dumper {
                 CMD_SUBMIX_PROCESS = 0x16,
                 CMD_SUBMIX_GENERATE = 0x17,
                 CMD_SUBMIX_GENERATE_SIDECHAIN = 0x18,
-                CMD_SUBMIX_DEBUG = 0x19,
-                CMD_SUBMIX_MIX2x1 = 0x1A,
-                CMD_SUBMIX_OUTPUT = 0x1B,
-                CMD_SUBMIX_OUTPUTx2 = 0x1C,
-                CMD_SUBMIX_COPY = 0x1D,
-                CMD_SUBMIX_ACCUMULATE = 0x1E,
-                CMD_SUBMIX_METER = 0x1F,
-                CMD_SUBMIX_METER_SPECTRUM = 0x20,
-                CMD_IMPULSERESPONSE_INPUT_STORE = 0x21,
-                CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE = 0x22,
-                CMD_REMAP_VSND_TO_IMPULSERESPONSE = 0x23,
-                CMD_IMPULSERESPONSE_RESET = 0x24,
-                CMD_BLEND_VSNDS_TO_IMPULSERESPONSE = 0x25,
-                CMD_IMPULSERESPONSE_DELAY = 0x26
+                CMD_SUBMIX_EXTRACTCONTAINER = 0x19,
+                CMD_SUBMIX_DEBUG = 0x1A,
+                CMD_SUBMIX_MIX2x1 = 0x1B,
+                CMD_SUBMIX_OUTPUT = 0x1C,
+                CMD_SUBMIX_OUTPUTx2 = 0x1D,
+                CMD_SUBMIX_COPY = 0x1E,
+                CMD_SUBMIX_ACCUMULATE = 0x1F,
+                CMD_SUBMIX_METER = 0x20,
+                CMD_SUBMIX_METER_SPECTRUM = 0x21,
+                CMD_IMPULSERESPONSE_INPUT_STORE = 0x22,
+                CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE = 0x23,
+                CMD_REMAP_VSND_TO_IMPULSERESPONSE = 0x24,
+                CMD_IMPULSERESPONSE_RESET = 0x25,
+                CMD_BLEND_VSNDS_TO_IMPULSERESPONSE = 0x26,
+                CMD_IMPULSERESPONSE_DELAY = 0x27
             };
             // Alignment: 1
             // Member count: 5
@@ -101,6 +113,22 @@ namespace source2_dumper {
                 FILTER_PASSTHROUGH = 0x8
             };
             // Alignment: 4
+            // Member count: 2
+            enum class SndBeatTrackPlaybackType_t : uint32_t {
+                eSndBeatTrackPlaybackTypeStep = 0x0,
+                eSndBeatTrackPlaybackTypeFwd = 0x1
+            };
+            // Alignment: 4
+            // Member count: 6
+            enum class SndBeatEventType_t : uint32_t {
+                eSndBeatEventTypeInvalid = 0x0,
+                eSndBeatEventTypeBeat = 0x1,
+                eSndBeatEventTypeBar = 0x2,
+                eSndBeatEventTypePhrase = 0x3,
+                eSndBeatEventTypeLength = 0x4,
+                eSndBeatEventTypeKeys = 0x5
+            };
+            // Alignment: 4
             // Member count: 3
             enum class SosActionStopType_t : uint32_t {
                 SOS_STOPTYPE_NONE = 0x0,
@@ -108,10 +136,13 @@ namespace source2_dumper {
                 SOS_STOPTYPE_OPVAR = 0x2
             };
             // Alignment: 4
-            // Member count: 2
-            enum class SndSeqTrackPlaybackType_t : uint32_t {
-                eSndSeqTrackPlaybackTypeStep = 0x0,
-                eSndSeqTrackPlaybackTypeFwd = 0x1
+            // Member count: 5
+            enum class SndBeatKeyType_t : uint32_t {
+                eSndBeatPatternTypeNone = 0x0,
+                eSndBeatPatternTypeKeys = 0x1,
+                eSndBeatPatternTypeKeyedFloats = 0x2,
+                eSndBeatPatternTypeKeyedSndEvts = 0x3,
+                eSndBeatPatternTypeKeyedMidi = 0x4
             };
             // Alignment: 4
             // Member count: 6
@@ -124,15 +155,11 @@ namespace source2_dumper {
                 SOS_EDIT_ITEM_TYPE_FIELD = 0x5
             };
             // Alignment: 4
-            // Member count: 7
-            enum class SndSeqQuantizeType_t : uint32_t {
-                eSndSeqQuantizeInvalid = 0xFFFFFFFF,
-                eSndSeqQuantizeNone = 0x0,
-                eSndSeqQuantizeBeat = 0x1,
-                eSndSeqQuantizeBar = 0x2,
-                eSndSeqQuantizeSequence = 0x3,
-                eSndSeqQuantizeSeek = 0x4,
-                eSndSeqQuantizeReset = 0x5
+            // Member count: 3
+            enum class SndBeatSyncType_t : uint32_t {
+                eSndBeatSyncTypeInvalid = 0x0,
+                eSndBeatSyncTypeReset = 0x1,
+                eSndBeatSyncTypeSeekImmediate = 0x2
             };
             // Alignment: 4
             // Member count: 5
@@ -144,18 +171,17 @@ namespace source2_dumper {
                 RandomWeights = 0x4
             };
             // Alignment: 4
+            // Member count: 2
+            enum class EVsndTriggerMode : uint32_t {
+                Trigger = 0x0,
+                Gate = 0x1
+            };
+            // Alignment: 4
             // Member count: 3
             enum class SosGroupFieldBehavior_t : uint32_t {
                 kIgnore = 0x0,
                 kBranch = 0x1,
                 kMatch = 0x2
-            };
-            // Alignment: 4
-            // Member count: 3
-            enum class SndSeqSyncType_t : uint32_t {
-                eSndSeqSyncTypeNone = 0x0,
-                eSndSeqSyncTypeWait = 0x1,
-                eSndSeqSyncTypeSeek = 0x2
             };
             // Alignment: 4
             // Member count: 30
@@ -224,13 +250,6 @@ namespace source2_dumper {
                 B = 0xB,
                 Count = 0xC
             };
-            // Alignment: 4
-            // Member count: 3
-            enum class SndSeqRegionType_t : uint32_t {
-                eSndSeqRegionTypeNull = 0x0,
-                eSndSeqRegionTypeSndEvt = 0x1,
-                eSndSeqRegionTypeMidiSeq = 0x2
-            };
             // Alignment: 1
             // Member count: 4
             enum class CVSoundFormat_t : uint8_t {
@@ -253,13 +272,6 @@ namespace source2_dumper {
                 FILTER_SLOPE_MAX = 0x7
             };
             // Alignment: 4
-            // Member count: 3
-            enum class SndSeqPlayerType_t : uint32_t {
-                eSndSeqPlayerNull = 0x0,
-                eSndSeqPlayerSndEvt = 0x1,
-                eSndSeqPlayerMidiSeq = 0x2
-            };
-            // Alignment: 4
             // Member count: 2
             enum class SosActionLimitSortType_t : uint32_t {
                 SOS_LIMIT_SORTTYPE_HIGHEST = 0x0,
@@ -279,26 +291,29 @@ namespace source2_dumper {
                 SOS_GROUPTYPE_STATIC = 0x1
             };
             // Alignment: 4
+            // Member count: 3
+            enum class SndBeatSyncStartType_t : uint32_t {
+                eSndBeatSyncStartTypeInvalid = 0x0,
+                eSndBeatSyncStartTypeImmediate = 0x1,
+                eSndBeatSyncStartTypeQueue = 0x2
+            };
+            // Alignment: 4
             // Member count: 2
             enum class SosActionSetParamSortType_t : uint32_t {
                 SOS_SETPARAM_SORTTYPE_HIGHEST = 0x0,
                 SOS_SETPARAM_SORTTYPE_LOWEST = 0x1
             };
             // Alignment: 4
-            // Member count: 7
-            enum class SndSeqMidiStatusType_t : uint32_t {
-                SndSeqMidiStatusNoteOff = 0x8,
-                SndSeqMidiStatusNoteOn = 0x9,
-                SndSeqMidiStatusKeyPressure = 0xA,
-                SndSeqMidiStatusCtrlChange = 0xB,
-                SndSeqMidiStatusProgramChange = 0xC,
-                SndSeqMidiStatusChannelPressure = 0xD,
-                SndSeqMidiStatusPitchBend = 0xE
+            // Member count: 2
+            enum class EVsndPlaybackMode : uint32_t {
+                Trigger = 0x0,
+                Gate = 0x1
             };
             // Parent: None
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CVMixInputBase {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
@@ -319,27 +334,24 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
             namespace CVoiceContainerBlender {
-                constexpr std::ptrdiff_t m_firstSound = 0xA8; // CSoundContainerReference
-                constexpr std::ptrdiff_t m_secondSound = 0xC8; // CSoundContainerReference
-                constexpr std::ptrdiff_t m_flBlendFactor = 0xE8; // float32
+                constexpr std::ptrdiff_t m_firstSound = 0x70; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_secondSound = 0x90; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_flBlendFactor = 0xB0; // float32
             }
             // Parent: None
             // Field count: 1
@@ -354,6 +366,39 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             namespace CVMixPitchShiftProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixPitchShiftDesc_t
             }
@@ -384,6 +429,29 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_volumeScaling = 0x50; // CVoiceContainerStaticAdditiveSynth::CGainScalePerInstance
             }
             // Parent: None
+            // Field count: 9
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            namespace CVsndTriggerSlot {
+                constexpr std::ptrdiff_t m_bEnableVsnd = 0x0; // bool
+                constexpr std::ptrdiff_t m_vsnd = 0x8; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_bEnableEndcap = 0x28; // bool
+                constexpr std::ptrdiff_t m_endcapVsnd = 0x30; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_bEnableLoopcap = 0x50; // bool
+                constexpr std::ptrdiff_t m_loopcapVsnd = 0x58; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_volume = 0x78; // float32
+                constexpr std::ptrdiff_t m_fadeOut = 0x7C; // float32
+                constexpr std::ptrdiff_t m_mode = 0x80; // EVsndTriggerMode
+            }
+            // Parent: None
             // Field count: 3
             //
             // Metadata:
@@ -394,7 +462,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bSyncInstances = 0x58; // bool
             }
             // Parent: None
-            // Field count: 6
+            // Field count: 7
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -441,31 +509,23 @@ namespace source2_dumper {
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
             namespace CSosGroupActionOcclusionSchema {
                 constexpr std::ptrdiff_t m_flCalculationInterval = 0x8; // float32
                 constexpr std::ptrdiff_t m_flRadius = 0xC; // float32
@@ -473,6 +533,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flOcclusionMin = 0x14; // float32
                 constexpr std::ptrdiff_t m_flOcclusionMax = 0x18; // float32
                 constexpr std::ptrdiff_t m_flTestDepth = 0x1C; // float32
+                constexpr std::ptrdiff_t m_flCalculationInterval = 0x8; // float32
             }
             // Parent: None
             // Field count: 6
@@ -493,12 +554,12 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CVoiceContainerRandomSampler {
-                constexpr std::ptrdiff_t m_flAmplitude = 0xB8; // float32
-                constexpr std::ptrdiff_t m_flAmplitudeJitter = 0xBC; // float32
-                constexpr std::ptrdiff_t m_flTimeJitter = 0xC0; // float32
-                constexpr std::ptrdiff_t m_flMaxLength = 0xC4; // float32
-                constexpr std::ptrdiff_t m_nNumDelayVariations = 0xC8; // int32
-                constexpr std::ptrdiff_t m_grainResources = 0xD0; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
+                constexpr std::ptrdiff_t m_flAmplitude = 0x80; // float32
+                constexpr std::ptrdiff_t m_flAmplitudeJitter = 0x84; // float32
+                constexpr std::ptrdiff_t m_flTimeJitter = 0x88; // float32
+                constexpr std::ptrdiff_t m_flMaxLength = 0x8C; // float32
+                constexpr std::ptrdiff_t m_nNumDelayVariations = 0x90; // int32
+                constexpr std::ptrdiff_t m_grainResources = 0x98; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
             }
             // Parent: None
             // Field count: 0
@@ -508,24 +569,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CVMixSteamAudioDirectProcessorDesc {
@@ -534,6 +579,38 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CVMixSteamAudioHRTFProcessorDesc {
             }
@@ -546,39 +623,46 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // '
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // RandomNoRepeats
+            // RandomAvoidLast
+            // Sequential
+            // RandomWeights
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace CVoiceContainerDefault {
             }
             // Parent: None
-            // Field count: 11
+            // Field count: 9
             //
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CVSound {
-                constexpr std::ptrdiff_t m_nRate = 0x0; // int32
-                constexpr std::ptrdiff_t m_nFormat = 0x4; // CVSoundFormat_t
-                constexpr std::ptrdiff_t m_nChannels = 0x8; // uint32
-                constexpr std::ptrdiff_t m_nLoopStart = 0xC; // int32
-                constexpr std::ptrdiff_t m_nSampleCount = 0x10; // uint32
-                constexpr std::ptrdiff_t m_flDuration = 0x14; // float32
-                constexpr std::ptrdiff_t m_Sentences = 0x18; // CUtlVector<CAudioSentence>
-                constexpr std::ptrdiff_t m_nStreamingSize = 0x30; // uint32
-                constexpr std::ptrdiff_t m_nSeekTable = 0x38; // CUtlVector<int32>
-                constexpr std::ptrdiff_t m_nLoopEnd = 0x50; // int32
-                constexpr std::ptrdiff_t m_encodedHeader = 0x58; // CUtlBinaryBlock
+                constexpr std::ptrdiff_t m_Sentences = 0x0; // CUtlLeanVector<CAudioSentence>
+                constexpr std::ptrdiff_t m_nRate = 0x10; // int32
+                constexpr std::ptrdiff_t m_nFormat = 0x14; // CVSoundFormat_t
+                constexpr std::ptrdiff_t m_nChannels = 0x18; // uint32
+                constexpr std::ptrdiff_t m_nLoopStart = 0x1C; // int32
+                constexpr std::ptrdiff_t m_nSampleCount = 0x20; // uint32
+                constexpr std::ptrdiff_t m_flDuration = 0x24; // float32
+                constexpr std::ptrdiff_t m_nStreamingSize = 0x28; // uint32
+                constexpr std::ptrdiff_t m_nLoopEnd = 0x2C; // int32
             }
             // Parent: None
             // Field count: 1
@@ -586,8 +670,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataNodeType
-            // MPropertyDescription
-            // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -618,31 +700,21 @@ namespace source2_dumper {
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
             // MGetKV3ClassDefaults
             // SNDLVL_20dB
             // SNDLVL_25dB
@@ -660,6 +732,19 @@ namespace source2_dumper {
             // SNDLVL_NORM
             // SNDLVL_75dB
             // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
             namespace CSosGroupActionSoundeventClusterSchema {
                 constexpr std::ptrdiff_t m_nMinNearby = 0x8; // int32
                 constexpr std::ptrdiff_t m_flClusterEpsilon = 0xC; // float32
@@ -683,7 +768,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // trollers=0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/
+            // MGetKV3ClassDefaults
             namespace CSosGroupActionSetSoundeventParameterSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_flMinValue = 0xC; // float32
@@ -711,24 +796,18 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // RandomNoRepeats
-            // RandomAvoidLast
-            // Sequential
-            // RandomWeights
             // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CVoiceContainerNull {
@@ -747,7 +826,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flInterpolationTime = 0x30; // float32
             }
             // Parent: None
-            // Field count: 2
+            // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -755,8 +834,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CVoiceContainerAnalysisBase {
-                constexpr std::ptrdiff_t m_bRegenerateCurveOnCompile = 0x8; // bool
-                constexpr std::ptrdiff_t m_curve = 0x10; // CPiecewiseCurve
+                constexpr std::ptrdiff_t m_curve = 0x8; // CPiecewiseCurve
             }
             // Parent: None
             // Field count: 10
@@ -788,6 +866,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             namespace CSosGroupActionSoundeventMinMaxValuesSchema {
                 constexpr std::ptrdiff_t m_strQueryPublicFieldName = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_strDelayPublicFieldName = 0x10; // CUtlString
@@ -805,6 +884,14 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
@@ -812,12 +899,31 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -827,18 +933,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
             namespace CVMixEnvelopeProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixEnvelopeDesc_t
             }
@@ -867,31 +962,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // `
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -905,9 +977,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -915,29 +985,26 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             namespace CVMixBoxverbProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixBoxverbDesc_t
             }
@@ -947,47 +1014,32 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CVMixDynamicsCompressorProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixDynamicsCompressorDesc_t
@@ -1031,109 +1083,21 @@ namespace source2_dumper {
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
-            // MGetKV3ClassDefaults
-            // SNDLVL_20dB
-            // SNDLVL_25dB
-            // SNDLVL_30dB
-            // SNDLVL_35dB
-            // SNDLVL_40dB
-            // SNDLVL_45dB
-            // SNDLVL_50dB
-            // SNDLVL_55dB
-            // SNDLVL_IDLE
-            // SNDLVL_60dB
-            namespace CSosGroupActionSoundeventPrioritySchema {
-                constexpr std::ptrdiff_t m_priorityValue = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_priorityVolumeScalar = 0x10; // CUtlString
-                constexpr std::ptrdiff_t m_priorityContributeButDontRead = 0x18; // CUtlString
-                constexpr std::ptrdiff_t m_bPriorityReadButDontContribute = 0x20; // CUtlString
-            }
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // PCM8
-            // MP3
-            // ADPCM
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVoiceContainerRealtimeFMSineWave {
-                constexpr std::ptrdiff_t m_flCarrierFrequency = 0xA8; // float32
-                constexpr std::ptrdiff_t m_flModulatorFrequency = 0xAC; // float32
-                constexpr std::ptrdiff_t m_flModulatorAmount = 0xB0; // float32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // SOS_EDIT_ITEM_TYPE_SOUNDEVENT
-            namespace SelectedEditItemInfo_t {
-                constexpr std::ptrdiff_t m_EditItems = 0x0; // CUtlVector<SosEditItemInfo_t>
-            }
-            // Parent: None
-            // Field count: 9
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace VMixModDelayDesc_t {
-                constexpr std::ptrdiff_t m_feedbackFilter = 0x0; // VMixFilterDesc_t
-                constexpr std::ptrdiff_t m_bPhaseInvert = 0x10; // bool
-                constexpr std::ptrdiff_t m_flGlideTime = 0x14; // float32
-                constexpr std::ptrdiff_t m_flDelay = 0x18; // float32
-                constexpr std::ptrdiff_t m_flOutputGain = 0x1C; // float32
-                constexpr std::ptrdiff_t m_flFeedbackGain = 0x20; // float32
-                constexpr std::ptrdiff_t m_flModRate = 0x24; // float32
-                constexpr std::ptrdiff_t m_flModDepth = 0x28; // float32
-                constexpr std::ptrdiff_t m_bApplyAntialiasing = 0x2C; // bool
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
             // MGetKV3ClassDefaults
             // SNDLVL_20dB
             // SNDLVL_25dB
@@ -1164,7 +1128,94 @@ namespace source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // dota_healing_campfire
+            namespace CSosGroupActionSoundeventPrioritySchema {
+                constexpr std::ptrdiff_t m_priorityValue = 0x8; // CUtlString
+                constexpr std::ptrdiff_t m_priorityVolumeScalar = 0x10; // CUtlString
+                constexpr std::ptrdiff_t m_priorityContributeButDontRead = 0x18; // CUtlString
+                constexpr std::ptrdiff_t m_bPriorityReadButDontContribute = 0x20; // CUtlString
+            }
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // PCM8
+            // MP3
+            // ADPCM
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVoiceContainerRealtimeFMSineWave {
+                constexpr std::ptrdiff_t m_flCarrierFrequency = 0x70; // float32
+                constexpr std::ptrdiff_t m_flModulatorFrequency = 0x74; // float32
+                constexpr std::ptrdiff_t m_flModulatorAmount = 0x78; // float32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace SelectedEditItemInfo_t {
+                constexpr std::ptrdiff_t m_EditItems = 0x0; // CUtlVector<SosEditItemInfo_t>
+            }
+            // Parent: None
+            // Field count: 9
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace VMixModDelayDesc_t {
+                constexpr std::ptrdiff_t m_feedbackFilter = 0x0; // VMixFilterDesc_t
+                constexpr std::ptrdiff_t m_bPhaseInvert = 0x10; // bool
+                constexpr std::ptrdiff_t m_flGlideTime = 0x14; // float32
+                constexpr std::ptrdiff_t m_flDelay = 0x18; // float32
+                constexpr std::ptrdiff_t m_flOutputGain = 0x1C; // float32
+                constexpr std::ptrdiff_t m_flFeedbackGain = 0x20; // float32
+                constexpr std::ptrdiff_t m_flModRate = 0x24; // float32
+                constexpr std::ptrdiff_t m_flModDepth = 0x28; // float32
+                constexpr std::ptrdiff_t m_bApplyAntialiasing = 0x2C; // bool
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            // SNDLVL_120dB
+            // SNDLVL_130dB
+            // SNDLVL_GUNFIRE
+            // SNDLVL_140dB
+            // SNDLVL_150dB
+            // SNDLVL_180dB
+            // npc_dota_juggernaut_healing_ward
             namespace CSndSeqInstSndEvtSchema {
             }
             // Parent: None
@@ -1174,7 +1225,46 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CVMixNameInputMeter {
@@ -1191,31 +1281,37 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // `
+            // FILTER_UNKNOWN
+            // FILTER_HIGHPASS
+            // FILTER_BANDPASS
+            // FILTER_NOTCH
+            // FILTER_PEAKING_EQ
+            // FILTER_LOW_SHELF
+            // FILTER_HIGH_SHELF
+            // FILTER_ALLPASS
+            // FILTER_PASSTHROUGH
             // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // FILTER_SLOPE_1POLE_12dB
+            // FILTER_SLOPE_1POLE_18dB
+            // FILTER_SLOPE_1POLE_24dB
+            // FILTER_SLOPE_12dB
+            // FILTER_SLOPE_24dB
+            // FILTER_SLOPE_36dB
+            // FILTER_SLOPE_48dB
+            // FILTER_SLOPE_MAX
+            // LFO_SHAPE_SQUARE
+            // LFO_SHAPE_TRI
+            // LFO_SHAPE_SAW
+            // LFO_SHAPE_NOISE
+            // PANNER_TYPE_EQUAL_POWER
+            // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+            // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
             namespace CVMixDynamics3BandProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixDynamics3BandDesc_t
             }
@@ -1224,6 +1320,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             namespace VMixBoxverbDesc_t {
                 constexpr std::ptrdiff_t m_flSizeMax = 0x0; // float32
                 constexpr std::ptrdiff_t m_flSizeMin = 0x4; // float32
@@ -1256,31 +1353,21 @@ namespace source2_dumper {
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
             // MGetKV3ClassDefaults
             // SNDLVL_20dB
             // SNDLVL_25dB
@@ -1349,18 +1436,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
             // MGetKV3ClassDefaults
             // SNDLVL_20dB
             // SNDLVL_25dB
@@ -1391,7 +1468,7 @@ namespace source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // dota_healing_campfire
+            // npc_dota_juggernaut_healing_ward
             namespace CSndSeqInstMidiSampler {
                 constexpr std::ptrdiff_t m_bIsSoundEvent = 0x20; // bool
                 constexpr std::ptrdiff_t m_bStopPrevious = 0x21; // bool
@@ -1406,64 +1483,26 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_hSoundEventHash = 0xD8; // uint32
             }
             // Parent: None
-            // Field count: 6
+            // Field count: 5
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
             // MGetKV3ClassDefaults
-            // SNDLVL_20dB
-            // SNDLVL_25dB
-            // SNDLVL_30dB
-            // SNDLVL_35dB
-            // SNDLVL_40dB
-            // SNDLVL_45dB
-            // SNDLVL_50dB
-            // SNDLVL_55dB
-            // SNDLVL_IDLE
-            // SNDLVL_60dB
-            // SNDLVL_65dB
-            // SNDLVL_STATIC
-            // SNDLVL_70dB
-            // SNDLVL_NORM
-            // SNDLVL_75dB
-            // SNDLVL_80dB
-            // SNDLVL_TALKING
-            // SNDLVL_85dB
-            // SNDLVL_90dB
-            // SNDLVL_95dB
-            // SNDLVL_100dB
-            // SNDLVL_105dB
-            // SNDLVL_110dB
-            // SNDLVL_120dB
-            // SNDLVL_130dB
-            // SNDLVL_GUNFIRE
-            // SNDLVL_140dB
-            // SNDLVL_150dB
-            // SNDLVL_180dB
-            // dota_healing_campfire
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // npc_dota_juggernaut_healing_ward
             namespace CSndSeqInstBaseSchema {
                 constexpr std::ptrdiff_t m_nType = 0x8; // SndSeqInstrumentType_t
-                constexpr std::ptrdiff_t m_nPlayerType = 0xC; // SndSeqPlayerType_t
-                constexpr std::ptrdiff_t m_bStopCurrentEvents = 0x12; // bool
-                constexpr std::ptrdiff_t m_flBPM = 0x14; // float32
-                constexpr std::ptrdiff_t m_flBPMFactor = 0x18; // float32
-                constexpr std::ptrdiff_t m_flBPMInvFactor = 0x1C; // float32
+                constexpr std::ptrdiff_t m_bStopCurrentEvents = 0xE; // bool
+                constexpr std::ptrdiff_t m_flBPM = 0x10; // float32
+                constexpr std::ptrdiff_t m_flBPMFactor = 0x14; // float32
+                constexpr std::ptrdiff_t m_flBPMInvFactor = 0x18; // float32
             }
             // Parent: None
             // Field count: 10
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace VMixDynamics3BandDesc_t {
                 constexpr std::ptrdiff_t m_fldbGainOutput = 0x0; // float32
@@ -1482,30 +1521,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // `
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1518,6 +1540,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace CDSPMixgroupModifier {
                 constexpr std::ptrdiff_t m_mixgroup = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_flModifier = 0x8; // float32
@@ -1540,10 +1569,18 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flEaseOut = 0x64; // float32
             }
             // Parent: None
-            // Field count: 5
+            // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            namespace SndBeatEventKeyedFloats_t {
+                constexpr std::ptrdiff_t m_flFloat = 0x10; // float32
+            }
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
             // MGetKV3ClassDefaults
             namespace VMixDualCompressorDesc_t {
                 constexpr std::ptrdiff_t m_flRMSTimeMS = 0x0; // float32
@@ -1553,41 +1590,108 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bandDesc = 0x10; // VMixDynamicsBand_t
             }
             // Parent: None
+            // Field count: 24
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CVMixRuntimeGraph {
+                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_nGraphOutputChannels = 0x8; // int32
+                constexpr std::ptrdiff_t m_bIsMainGraph = 0xC; // bool
+                constexpr std::ptrdiff_t m_submixes = 0x10; // CUtlVector<CVMixSubmix>
+                constexpr std::ptrdiff_t m_processorNodes = 0x28; // CUtlVector<std::unique_ptr<CVMixBaseProcessorDesc>>
+                constexpr std::ptrdiff_t m_controlInputs = 0x40; // CUtlVector<CVMixControlInput>
+                constexpr std::ptrdiff_t m_controlTransientInputs = 0x58; // CUtlVector<CVMixControlInput>
+                constexpr std::ptrdiff_t m_controlInputArrays = 0x70; // CUtlVector<CVMixControlInputArray>
+                constexpr std::ptrdiff_t m_controlOutputs = 0x88; // CUtlVector<CVMixControlOutput>
+                constexpr std::ptrdiff_t m_nameInputs = 0xA0; // CUtlVector<CVMixNameInput>
+                constexpr std::ptrdiff_t m_vsndInputs = 0xB8; // CUtlVector<CVMixVsndInput>
+                constexpr std::ptrdiff_t m_impulseResponseInputs = 0xD0; // CUtlVector<CVMixImpulseResponseInput>
+                constexpr std::ptrdiff_t m_mixCommands = 0xE8; // CUtlVector<CVMixCommand>
+                constexpr std::ptrdiff_t m_values = 0x100; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_valueArrays = 0x118; // CUtlVector<CUtlVector<float32>>
+                constexpr std::ptrdiff_t m_impulseResponseValues = 0x130; // CUtlVector<uint64>
+                constexpr std::ptrdiff_t m_controlPoints = 0x148; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_curves = 0x160; // CUtlVector<CVMixCurveHeader>
+                constexpr std::ptrdiff_t m_audioMeters = 0x178; // CUtlVector<CVMixAudioMeter>
+                constexpr std::ptrdiff_t m_controlMeters = 0x190; // CUtlVector<CVMixControlMeter>
+                constexpr std::ptrdiff_t m_nameInputMeters = 0x1A8; // CUtlVector<CVMixNameInputMeter>
+                constexpr std::ptrdiff_t m_additionalOutputs = 0x1C0; // CUtlVector<CVMixAdditionalOutput>
+                constexpr std::ptrdiff_t m_automaticControlInputs = 0x1D8; // CUtlVector<CVMixAutomaticControlInput>
+                constexpr std::ptrdiff_t m_sources = 0x1F0; // KeyValues3
+            }
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Gate
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // Gate
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             namespace CVoiceContainerStaticAdditiveSynth {
-                constexpr std::ptrdiff_t m_tones = 0xB8; // CUtlVector<CVoiceContainerStaticAdditiveSynth::CTone>
+                constexpr std::ptrdiff_t m_tones = 0x80; // CUtlVector<CVoiceContainerStaticAdditiveSynth::CTone>
             }
             // Parent: None
             // Field count: 9
@@ -1596,47 +1700,78 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // C_Sharp
-            // D
-            // D_Sharp
-            // E
-            // F
-            // F_Sharp
-            // G
-            // G_Sharp
-            // A
-            // A_Sharp
-            // B
-            // Count
-            // Square
-            // Saw
-            // Triangle
-            // Noise
+            // MPropertyFriendlyName
+            // Gate
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // Gate
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             namespace CVoiceContainerShapedNoise {
-                constexpr std::ptrdiff_t m_bUseCurveForFrequency = 0xA8; // bool
-                constexpr std::ptrdiff_t m_flFrequency = 0xAC; // float32
-                constexpr std::ptrdiff_t m_frequencySweep = 0xB0; // CPiecewiseCurve
-                constexpr std::ptrdiff_t m_bUseCurveForResonance = 0xF0; // bool
-                constexpr std::ptrdiff_t m_flResonance = 0xF4; // float32
-                constexpr std::ptrdiff_t m_resonanceSweep = 0xF8; // CPiecewiseCurve
-                constexpr std::ptrdiff_t m_bUseCurveForAmplitude = 0x138; // bool
-                constexpr std::ptrdiff_t m_flGainInDecibels = 0x13C; // float32
-                constexpr std::ptrdiff_t m_gainSweep = 0x140; // CPiecewiseCurve
+                constexpr std::ptrdiff_t m_bUseCurveForFrequency = 0x70; // bool
+                constexpr std::ptrdiff_t m_flFrequency = 0x74; // float32
+                constexpr std::ptrdiff_t m_frequencySweep = 0x78; // CPiecewiseCurve
+                constexpr std::ptrdiff_t m_bUseCurveForResonance = 0xB8; // bool
+                constexpr std::ptrdiff_t m_flResonance = 0xBC; // float32
+                constexpr std::ptrdiff_t m_resonanceSweep = 0xC0; // CPiecewiseCurve
+                constexpr std::ptrdiff_t m_bUseCurveForAmplitude = 0x100; // bool
+                constexpr std::ptrdiff_t m_flGainInDecibels = 0x104; // float32
+                constexpr std::ptrdiff_t m_gainSweep = 0x108; // CPiecewiseCurve
             }
             // Parent: None
             // Field count: 2
@@ -1645,7 +1780,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
             namespace CDspPresetModifierList {
                 constexpr std::ptrdiff_t m_dspName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_modifiers = 0x8; // CUtlVector<CDSPMixgroupModifier>
@@ -1662,14 +1798,9 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // '
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -1682,9 +1813,14 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace CVoiceContainerBase {
                 constexpr std::ptrdiff_t m_vSound = 0x28; // CVSound
-                constexpr std::ptrdiff_t m_pEnvelopeAnalyzer = 0xA0; // CVoiceContainerAnalysisBase*
+                constexpr std::ptrdiff_t m_pEnvelopeAnalyzer = 0x68; // CVoiceContainerAnalysisBase*
             }
             // Parent: None
             // Field count: 1
@@ -1696,41 +1832,27 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CVMixDiffusorProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixDiffusorDesc_t
@@ -1742,7 +1864,13 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
@@ -1750,12 +1878,31 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -1765,9 +1912,23 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             namespace CVMixUtilityProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixUtilityDesc_t
+            }
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            namespace CRandomPannerControls {
+                constexpr std::ptrdiff_t m_panningControlInputName = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_volumeControlInputName = 0x8; // CUtlString
+                constexpr std::ptrdiff_t m_flMinVolume = 0x10; // float32
+                constexpr std::ptrdiff_t m_flMaxVolume = 0x14; // float32
+                constexpr std::ptrdiff_t m_strVectorStackParam = 0x18; // CUtlString
             }
             // Parent: None
             // Field count: 6
@@ -1775,50 +1936,61 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // PCM8
+            // MP3
+            // ADPCM
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // RMS
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyDescription
+            // C_Sharp
+            // D
+            // D_Sharp
+            // E
+            // F
+            // F_Sharp
+            // G
+            // G_Sharp
+            // A
+            // A_Sharp
+            // B
+            // Count
             namespace CVoiceContainerGranulator {
-                constexpr std::ptrdiff_t m_flGrainLength = 0xB8; // float32
-                constexpr std::ptrdiff_t m_flGrainCrossfadeAmount = 0xBC; // float32
-                constexpr std::ptrdiff_t m_flStartJitter = 0xC0; // float32
-                constexpr std::ptrdiff_t m_flPlaybackJitter = 0xC4; // float32
-                constexpr std::ptrdiff_t m_bShouldWraparound = 0xC8; // bool
-                constexpr std::ptrdiff_t m_sourceAudio = 0xD0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                constexpr std::ptrdiff_t m_flGrainLength = 0x80; // float32
+                constexpr std::ptrdiff_t m_flGrainCrossfadeAmount = 0x84; // float32
+                constexpr std::ptrdiff_t m_flStartJitter = 0x88; // float32
+                constexpr std::ptrdiff_t m_flPlaybackJitter = 0x8C; // float32
+                constexpr std::ptrdiff_t m_bShouldWraparound = 0x90; // bool
+                constexpr std::ptrdiff_t m_sourceAudio = 0x98; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -1826,10 +1998,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // `
-            // MGetKV3ClassDefaults
             namespace CVMixPresetDSPProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixPresetDSPDesc_t
             }
@@ -1860,60 +2028,63 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
+            // Y
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // FILTER_UNKNOWN
+            // FILTER_HIGHPASS
+            // FILTER_BANDPASS
+            // FILTER_NOTCH
+            // FILTER_PEAKING_EQ
+            // FILTER_LOW_SHELF
+            // FILTER_HIGH_SHELF
+            // FILTER_ALLPASS
+            // FILTER_PASSTHROUGH
             // MGetKV3ClassDefaults
             namespace CVMixDynamicsProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixDynamicsDesc_t
-            }
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixGraphDescData {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_nGraphOutputChannels = 0x8; // int32
-                constexpr std::ptrdiff_t m_bIsMainGraph = 0xC; // bool
             }
             // Parent: None
             // Field count: 8
@@ -1922,30 +2093,41 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // l
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace CVoiceContainerLoopXFade {
-                constexpr std::ptrdiff_t m_sound = 0xA8; // CSoundContainerReference
-                constexpr std::ptrdiff_t m_flLoopEnd = 0xC8; // float32
-                constexpr std::ptrdiff_t m_flLoopStart = 0xCC; // float32
-                constexpr std::ptrdiff_t m_flFadeOut = 0xD0; // float32
-                constexpr std::ptrdiff_t m_flFadeIn = 0xD4; // float32
-                constexpr std::ptrdiff_t m_bPlayHead = 0xD8; // bool
-                constexpr std::ptrdiff_t m_bPlayTail = 0xD9; // bool
-                constexpr std::ptrdiff_t m_bEqualPow = 0xDA; // bool
+                constexpr std::ptrdiff_t m_sound = 0x70; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_flLoopEnd = 0x90; // float32
+                constexpr std::ptrdiff_t m_flLoopStart = 0x94; // float32
+                constexpr std::ptrdiff_t m_flFadeOut = 0x98; // float32
+                constexpr std::ptrdiff_t m_flFadeIn = 0x9C; // float32
+                constexpr std::ptrdiff_t m_bPlayHead = 0xA0; // bool
+                constexpr std::ptrdiff_t m_bPlayTail = 0xA1; // bool
+                constexpr std::ptrdiff_t m_bEqualPow = 0xA2; // bool
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace VMixPresetDSPDesc_t {
                 constexpr std::ptrdiff_t m_effectName = 0x0; // CUtlString
@@ -1968,36 +2150,30 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CVMixControlInputArray {
                 constexpr std::ptrdiff_t m_nArrayIndex = 0x10; // int32
+            }
+            // Parent: None
+            // Field count: 10
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CVsndRadioButtonSlot {
+                constexpr std::ptrdiff_t m_bEnableVsnd = 0x0; // bool
+                constexpr std::ptrdiff_t m_vsnd = 0x8; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_bEnableEndcap = 0x28; // bool
+                constexpr std::ptrdiff_t m_endcapVsnd = 0x30; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_bEnableLoopcap = 0x50; // bool
+                constexpr std::ptrdiff_t m_loopcapVsnd = 0x58; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_group = 0x78; // int32
+                constexpr std::ptrdiff_t m_volume = 0x7C; // float32
+                constexpr std::ptrdiff_t m_fadeOut = 0x80; // float32
+                constexpr std::ptrdiff_t m_mode = 0x84; // EVsndPlaybackMode
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CVMixNameInput {
                 constexpr std::ptrdiff_t m_defaultValue = 0x10; // CUtlString
@@ -2020,7 +2196,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // trollers=0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/
+            // MGetKV3ClassDefaults
             namespace CSosGroupActionSoundeventCountSchema {
                 constexpr std::ptrdiff_t m_bExcludeStoppedSounds = 0x8; // bool
                 constexpr std::ptrdiff_t m_strCountKeyName = 0x10; // CUtlString
@@ -2029,23 +2205,6 @@ namespace source2_dumper {
             // Field count: 3
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -2068,64 +2227,78 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // Gate
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyGroupName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             namespace CVoiceContainerEnvelopeAnalyzer {
-                constexpr std::ptrdiff_t m_mode = 0x50; // EMode_t
-                constexpr std::ptrdiff_t m_fAnalysisWindowMs = 0x54; // float32
-                constexpr std::ptrdiff_t m_flThreshold = 0x58; // float32
+                constexpr std::ptrdiff_t m_mode = 0x48; // EMode_t
+                constexpr std::ptrdiff_t m_fAnalysisWindowMs = 0x4C; // float32
+                constexpr std::ptrdiff_t m_flThreshold = 0x50; // float32
             }
             // Parent: None
-            // Field count: 3
+            // Field count: 4
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             namespace CVMixBaseProcessorDesc {
                 constexpr std::ptrdiff_t m_name = 0x8; // CUtlString
+                constexpr std::ptrdiff_t m_nDebugId = 0x10; // uint32
                 constexpr std::ptrdiff_t m_nChannels = 0x14; // int32
                 constexpr std::ptrdiff_t m_flxfade = 0x18; // float32
             }
@@ -2136,669 +2309,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CVMixImpulseResponseInput {
             }
             // Parent: None
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixSteamAudioHybridReverbProcessorDesc {
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CSoundEventMetaData {
-                constexpr std::ptrdiff_t m_soundEventVMix = 0x0; // CStrongHandle<InfoForResourceTypeCVMixListResource>
-            }
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace VMixPitchShiftDesc_t {
-                constexpr std::ptrdiff_t m_nGrainSampleCount = 0x0; // int32
-                constexpr std::ptrdiff_t m_flPitchShift = 0x4; // float32
-                constexpr std::ptrdiff_t m_nQuality = 0x8; // int32
-                constexpr std::ptrdiff_t m_nProcType = 0xC; // int32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixControlOutput {
-                constexpr std::ptrdiff_t m_flDefaultValue = 0x10; // float32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixModDelayProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixModDelayDesc_t
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixShaperProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixShaperDesc_t
-            }
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CVMixAutomaticControlInput {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_nControlInputIndex = 0x8; // int32
-                constexpr std::ptrdiff_t m_bIsTrackSend = 0xC; // bool
-                constexpr std::ptrdiff_t m_bIsStackVar = 0xD; // bool
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CAudioEmphasisSample {
-                constexpr std::ptrdiff_t m_flTime = 0x0; // float32
-                constexpr std::ptrdiff_t m_flValue = 0x4; // float32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixOscProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixOscDesc_t
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CVMixCurveHeader {
-                constexpr std::ptrdiff_t m_nControlPointCount = 0x0; // uint32
-                constexpr std::ptrdiff_t m_nControlPointStart = 0x4; // uint32
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            namespace CVoiceContainerGenerator {
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            namespace CVoiceContainerSet {
-                constexpr std::ptrdiff_t m_soundsToPlay = 0xA8; // CUtlVector<CVoiceContainerSetElement>
-            }
-            // Parent: None
-            // Field count: 8
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace VMixConvolutionDesc_t {
-                constexpr std::ptrdiff_t m_fldbGain = 0x0; // float32
-                constexpr std::ptrdiff_t m_flPreDelayMS = 0x4; // float32
-                constexpr std::ptrdiff_t m_flWetMix = 0x8; // float32
-                constexpr std::ptrdiff_t m_fldbLow = 0xC; // float32
-                constexpr std::ptrdiff_t m_fldbMid = 0x10; // float32
-                constexpr std::ptrdiff_t m_fldbHigh = 0x14; // float32
-                constexpr std::ptrdiff_t m_flLowCutoffFreq = 0x18; // float32
-                constexpr std::ptrdiff_t m_flHighCutoffFreq = 0x1C; // float32
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            namespace CVoiceContainerSetElement {
-                constexpr std::ptrdiff_t m_sound = 0x0; // CSoundContainerReference
-                constexpr std::ptrdiff_t m_flVolumeDB = 0x20; // float32
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            namespace CVoiceContainerAsyncGenerator {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CSoundInfoHeader {
-            }
-            // Parent: None
-            // Field count: 5
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace SosEditItemInfo_t {
-                constexpr std::ptrdiff_t itemType = 0x0; // SosEditItemType_t
-                constexpr std::ptrdiff_t itemName = 0x8; // CUtlString
-                constexpr std::ptrdiff_t itemTypeName = 0x10; // CUtlString
-                constexpr std::ptrdiff_t itemKVString = 0x20; // CUtlString
-                constexpr std::ptrdiff_t itemPos = 0x28; // Vector2D
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixFlangerProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixFlangerDesc_t
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // `
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixEffectChainProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixEffectChainDesc_t
-            }
-            // Parent: None
-            // Field count: 5
-            namespace KeyGroup_t {
-                constexpr std::ptrdiff_t nCenterNote = 0x0; // uint8
-                constexpr std::ptrdiff_t nMinNote = 0x1; // uint8
-                constexpr std::ptrdiff_t nMaxNote = 0x2; // uint8
-                constexpr std::ptrdiff_t nNumVelocityZones = 0x3; // uint8
-                constexpr std::ptrdiff_t pVelocityZones = 0x8; // VelocityZone_t*
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CVMixFreeverbProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixFreeverbDesc_t
-            }
-            // Parent: None
-            // Field count: 7
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace VMixPlateverbDesc_t {
-                constexpr std::ptrdiff_t m_flPrefilter = 0x0; // float32
-                constexpr std::ptrdiff_t m_flInputDiffusion1 = 0x4; // float32
-                constexpr std::ptrdiff_t m_flInputDiffusion2 = 0x8; // float32
-                constexpr std::ptrdiff_t m_flDecay = 0xC; // float32
-                constexpr std::ptrdiff_t m_flDamp = 0x10; // float32
-                constexpr std::ptrdiff_t m_flFeedbackDiffusion1 = 0x14; // float32
-                constexpr std::ptrdiff_t m_flFeedbackDiffusion2 = 0x18; // float32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // `
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixConvolutionProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixConvolutionDesc_t
-            }
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            namespace CSoundContainerReferenceArray {
-                constexpr std::ptrdiff_t m_bUseReference = 0x0; // bool
-                constexpr std::ptrdiff_t m_sounds = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
-                constexpr std::ptrdiff_t m_pSounds = 0x20; // CUtlVector<CVoiceContainerBase*>
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixFilterProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixFilterDesc_t
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixAdditionalOutput {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-            }
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            namespace CVoiceContainerTapePlayer {
-                constexpr std::ptrdiff_t m_bShouldWraparound = 0xB8; // bool
-                constexpr std::ptrdiff_t m_sourceAudio = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-                constexpr std::ptrdiff_t m_flTapeSpeedAttackTime = 0xC8; // float32
-                constexpr std::ptrdiff_t m_flTapeSpeedReleaseTime = 0xCC; // float32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixSubgraphSwitchProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixSubgraphSwitchDesc_t
-            }
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace VMixDiffusorDesc_t {
-                constexpr std::ptrdiff_t m_flSize = 0x0; // float32
-                constexpr std::ptrdiff_t m_flComplexity = 0x4; // float32
-                constexpr std::ptrdiff_t m_flFeedback = 0x8; // float32
-                constexpr std::ptrdiff_t m_flOutputGain = 0xC; // float32
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixSteamAudioPathingProcessorDesc {
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixPannerProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixPannerDesc_t
-            }
-            // Parent: None
-            // Field count: 9
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace VMixDynamicsCompressorDesc_t {
-                constexpr std::ptrdiff_t m_fldbOutputGain = 0x0; // float32
-                constexpr std::ptrdiff_t m_fldbCompressionThreshold = 0x4; // float32
-                constexpr std::ptrdiff_t m_fldbKneeWidth = 0x8; // float32
-                constexpr std::ptrdiff_t m_flCompressionRatio = 0xC; // float32
-                constexpr std::ptrdiff_t m_flAttackTimeMS = 0x10; // float32
-                constexpr std::ptrdiff_t m_flReleaseTimeMS = 0x14; // float32
-                constexpr std::ptrdiff_t m_flRMSTimeMS = 0x18; // float32
-                constexpr std::ptrdiff_t m_flWetMix = 0x1C; // float32
-                constexpr std::ptrdiff_t m_bPeakMode = 0x20; // bool
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // FILTER_SLOPE_1POLE_12dB
-            // FILTER_SLOPE_1POLE_18dB
-            // FILTER_SLOPE_1POLE_24dB
-            // FILTER_SLOPE_12dB
-            // FILTER_SLOPE_24dB
-            // FILTER_SLOPE_36dB
-            // FILTER_SLOPE_48dB
-            // FILTER_SLOPE_MAX
-            // LFO_SHAPE_SQUARE
-            // LFO_SHAPE_TRI
-            // LFO_SHAPE_SAW
-            // LFO_SHAPE_NOISE
-            // PANNER_TYPE_EQUAL_POWER
-            // MGetKV3ClassDefaults
-            // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
-            // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
-            // VMIX_CHAN_LEFT
-            // VMIX_CHAN_RIGHT
-            // VMIX_CHAN_SWAP
-            // VMIX_CHAN_MONO
-            // VMIX_CHAN_MID_SIDE
             // MGetKV3ClassDefaults
             // CMD_INVALID
             // CMD_CONTROL_INPUT_STORE
@@ -2825,6 +2341,7 @@ namespace source2_dumper {
             // CMD_SUBMIX_PROCESS
             // CMD_SUBMIX_GENERATE
             // CMD_SUBMIX_GENERATE_SIDECHAIN
+            // CMD_SUBMIX_EXTRACTCONTAINER
             // CMD_SUBMIX_DEBUG
             // CMD_SUBMIX_MIX2x1
             // CMD_SUBMIX_OUTPUT
@@ -2839,6 +2356,1014 @@ namespace source2_dumper {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
+            // o
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixSteamAudioHybridReverbProcessorDesc {
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CSoundEventMetaData {
+                constexpr std::ptrdiff_t m_soundEventVMix = 0x0; // CStrongHandle<InfoForResourceTypeCVMixListResource>
+            }
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace VMixPitchShiftDesc_t {
+                constexpr std::ptrdiff_t m_nGrainSampleCount = 0x0; // int32
+                constexpr std::ptrdiff_t m_flPitchShift = 0x4; // float32
+                constexpr std::ptrdiff_t m_nQuality = 0x8; // int32
+                constexpr std::ptrdiff_t m_nProcType = 0xC; // int32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // FILTER_UNKNOWN
+            // FILTER_HIGHPASS
+            // FILTER_BANDPASS
+            // FILTER_NOTCH
+            // FILTER_PEAKING_EQ
+            // FILTER_LOW_SHELF
+            // FILTER_HIGH_SHELF
+            // FILTER_ALLPASS
+            // FILTER_PASSTHROUGH
+            // MGetKV3ClassDefaults
+            // FILTER_SLOPE_1POLE_12dB
+            // FILTER_SLOPE_1POLE_18dB
+            // FILTER_SLOPE_1POLE_24dB
+            // FILTER_SLOPE_12dB
+            // FILTER_SLOPE_24dB
+            // FILTER_SLOPE_36dB
+            // FILTER_SLOPE_48dB
+            // FILTER_SLOPE_MAX
+            // LFO_SHAPE_SQUARE
+            // LFO_SHAPE_TRI
+            // LFO_SHAPE_SAW
+            // LFO_SHAPE_NOISE
+            // PANNER_TYPE_EQUAL_POWER
+            // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+            // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
+            namespace CVMixControlOutput {
+                constexpr std::ptrdiff_t m_flDefaultValue = 0x10; // float32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // FILTER_SLOPE_1POLE_12dB
+            // FILTER_SLOPE_1POLE_18dB
+            // FILTER_SLOPE_1POLE_24dB
+            // FILTER_SLOPE_12dB
+            // FILTER_SLOPE_24dB
+            // FILTER_SLOPE_36dB
+            // FILTER_SLOPE_48dB
+            // FILTER_SLOPE_MAX
+            // LFO_SHAPE_SQUARE
+            // LFO_SHAPE_TRI
+            // LFO_SHAPE_SAW
+            // LFO_SHAPE_NOISE
+            // PANNER_TYPE_EQUAL_POWER
+            // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+            // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
+            namespace CVMixModDelayProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixModDelayDesc_t
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixShaperProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixShaperDesc_t
+            }
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CVMixAutomaticControlInput {
+                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_nControlInputIndex = 0x8; // int32
+                constexpr std::ptrdiff_t m_bIsTrackSend = 0xC; // bool
+                constexpr std::ptrdiff_t m_bIsStackVar = 0xD; // bool
+            }
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MPropertyArrayElementNameKey
+            // MVDataOutlinerNameExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            namespace CSndBeatTrack {
+                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_playbackType = 0x20; // SndBeatTrackPlaybackType_t
+                constexpr std::ptrdiff_t m_nTranspose = 0x24; // int32
+                constexpr std::ptrdiff_t m_bSyncToVoice = 0x28; // bool
+                constexpr std::ptrdiff_t m_flBPM = 0x2C; // float32
+            }
+            // Parent: None
+            // Field count: 17
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            namespace CVoiceContainerVsndRadioButton {
+                constexpr std::ptrdiff_t m_namespace = 0x70; // CUtlString
+                constexpr std::ptrdiff_t m_slot1 = 0x78; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot2 = 0x100; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot3 = 0x188; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot4 = 0x210; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot5 = 0x298; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot6 = 0x320; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot7 = 0x3A8; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot8 = 0x430; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot9 = 0x4B8; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot10 = 0x540; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot11 = 0x5C8; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot12 = 0x650; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot13 = 0x6D8; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot14 = 0x760; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot15 = 0x7E8; // CVsndRadioButtonSlot
+                constexpr std::ptrdiff_t m_slot16 = 0x870; // CVsndRadioButtonSlot
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CAudioEmphasisSample {
+                constexpr std::ptrdiff_t m_flTime = 0x0; // float32
+                constexpr std::ptrdiff_t m_flValue = 0x4; // float32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixOscProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixOscDesc_t
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CVMixCurveHeader {
+                constexpr std::ptrdiff_t m_nControlPointCount = 0x0; // uint32
+                constexpr std::ptrdiff_t m_nControlPointStart = 0x4; // uint32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            namespace CVoiceContainerLoopTriggerWithRandomPanner {
+                constexpr std::ptrdiff_t m_randomPannerControls = 0xA0; // CRandomPannerControls
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // '
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // RandomNoRepeats
+            // RandomAvoidLast
+            // Sequential
+            // RandomWeights
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // PCM8
+            // MP3
+            // ADPCM
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVoiceContainerGenerator {
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // l
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            namespace CVoiceContainerSet {
+                constexpr std::ptrdiff_t m_soundsToPlay = 0x70; // CUtlVector<CVoiceContainerSetElement>
+            }
+            // Parent: None
+            // Field count: 8
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace VMixConvolutionDesc_t {
+                constexpr std::ptrdiff_t m_fldbGain = 0x0; // float32
+                constexpr std::ptrdiff_t m_flPreDelayMS = 0x4; // float32
+                constexpr std::ptrdiff_t m_flWetMix = 0x8; // float32
+                constexpr std::ptrdiff_t m_fldbLow = 0xC; // float32
+                constexpr std::ptrdiff_t m_fldbMid = 0x10; // float32
+                constexpr std::ptrdiff_t m_fldbHigh = 0x14; // float32
+                constexpr std::ptrdiff_t m_flLowCutoffFreq = 0x18; // float32
+                constexpr std::ptrdiff_t m_flHighCutoffFreq = 0x1C; // float32
+            }
+            // Parent: None
+            // Field count: 19
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            namespace CVoiceContainerVsndTrigger {
+                constexpr std::ptrdiff_t m_namespace = 0x70; // CUtlString
+                constexpr std::ptrdiff_t m_slot1 = 0x78; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot2 = 0x100; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot3 = 0x188; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot4 = 0x210; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot5 = 0x298; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot6 = 0x320; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot7 = 0x3A8; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot8 = 0x430; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot9 = 0x4B8; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot10 = 0x540; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot11 = 0x5C8; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot12 = 0x650; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot13 = 0x6D8; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot14 = 0x760; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot15 = 0x7E8; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_slot16 = 0x870; // CVsndTriggerSlot
+                constexpr std::ptrdiff_t m_flTime = 0x0; // float32
+                constexpr std::ptrdiff_t m_flValue = 0x4; // float32
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CVoiceContainerSetElement {
+                constexpr std::ptrdiff_t m_sound = 0x0; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_flVolumeDB = 0x20; // float32
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            namespace CSndBeatPatternManager {
+                constexpr std::ptrdiff_t m_vecPatterns = 0x38; // CUtlVector<CSndBeatPattern>
+                constexpr std::ptrdiff_t m_vecActiveTracks = 0x70; // CUtlVector<CSndBeatTrack>
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // '
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // RandomNoRepeats
+            // RandomAvoidLast
+            // Sequential
+            // RandomWeights
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // PCM8
+            // MP3
+            // ADPCM
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVoiceContainerAsyncGenerator {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CSoundInfoHeader {
+            }
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // SOS_EDIT_ITEM_TYPE_SOUNDEVENT
+            // SOS_EDIT_ITEM_TYPE_LIBRARYSTACKS
+            namespace SosEditItemInfo_t {
+                constexpr std::ptrdiff_t itemType = 0x0; // SosEditItemType_t
+                constexpr std::ptrdiff_t itemName = 0x8; // CUtlString
+                constexpr std::ptrdiff_t itemTypeName = 0x10; // CUtlString
+                constexpr std::ptrdiff_t itemKVString = 0x20; // CUtlString
+                constexpr std::ptrdiff_t itemPos = 0x28; // Vector2D
+            }
+            // Parent: None
+            // Field count: 6
+            namespace CVMixSubmix {
+                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_sendOperator = 0x8; // CUtlString
+                constexpr std::ptrdiff_t m_SendNames = 0x10; // CUtlString[4]
+                constexpr std::ptrdiff_t m_nSoloNameHash = 0x30; // uint32
+                constexpr std::ptrdiff_t m_nChannels = 0x34; // int32
+                constexpr std::ptrdiff_t m_nMixDownRule = 0x38; // int32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // FILTER_UNKNOWN
+            // FILTER_HIGHPASS
+            // FILTER_BANDPASS
+            // FILTER_NOTCH
+            // FILTER_PEAKING_EQ
+            // FILTER_LOW_SHELF
+            // FILTER_HIGH_SHELF
+            // FILTER_ALLPASS
+            // FILTER_PASSTHROUGH
+            // MGetKV3ClassDefaults
+            // FILTER_SLOPE_1POLE_12dB
+            // FILTER_SLOPE_1POLE_18dB
+            // FILTER_SLOPE_1POLE_24dB
+            // FILTER_SLOPE_12dB
+            // FILTER_SLOPE_24dB
+            // FILTER_SLOPE_36dB
+            // FILTER_SLOPE_48dB
+            // FILTER_SLOPE_MAX
+            // LFO_SHAPE_SQUARE
+            // LFO_SHAPE_TRI
+            // LFO_SHAPE_SAW
+            // LFO_SHAPE_NOISE
+            // PANNER_TYPE_EQUAL_POWER
+            // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+            // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
+            namespace CVMixFlangerProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixFlangerDesc_t
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixEffectChainProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixEffectChainDesc_t
+            }
+            // Parent: None
+            // Field count: 5
+            namespace KeyGroup_t {
+                constexpr std::ptrdiff_t nCenterNote = 0x0; // uint8
+                constexpr std::ptrdiff_t nMinNote = 0x1; // uint8
+                constexpr std::ptrdiff_t nMaxNote = 0x2; // uint8
+                constexpr std::ptrdiff_t nNumVelocityZones = 0x3; // uint8
+                constexpr std::ptrdiff_t pVelocityZones = 0x8; // VelocityZone_t*
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixFreeverbProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixFreeverbDesc_t
+            }
+            // Parent: None
+            // Field count: 7
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace VMixPlateverbDesc_t {
+                constexpr std::ptrdiff_t m_flPrefilter = 0x0; // float32
+                constexpr std::ptrdiff_t m_flInputDiffusion1 = 0x4; // float32
+                constexpr std::ptrdiff_t m_flInputDiffusion2 = 0x8; // float32
+                constexpr std::ptrdiff_t m_flDecay = 0xC; // float32
+                constexpr std::ptrdiff_t m_flDamp = 0x10; // float32
+                constexpr std::ptrdiff_t m_flFeedbackDiffusion1 = 0x14; // float32
+                constexpr std::ptrdiff_t m_flFeedbackDiffusion2 = 0x18; // float32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // FILTER_UNKNOWN
+            // FILTER_HIGHPASS
+            // FILTER_BANDPASS
+            // FILTER_NOTCH
+            // FILTER_PEAKING_EQ
+            // FILTER_LOW_SHELF
+            // FILTER_HIGH_SHELF
+            // FILTER_ALLPASS
+            // FILTER_PASSTHROUGH
+            // MGetKV3ClassDefaults
+            // FILTER_SLOPE_1POLE_12dB
+            // FILTER_SLOPE_1POLE_18dB
+            // FILTER_SLOPE_1POLE_24dB
+            // FILTER_SLOPE_12dB
+            // FILTER_SLOPE_24dB
+            // FILTER_SLOPE_36dB
+            // FILTER_SLOPE_48dB
+            // FILTER_SLOPE_MAX
+            // LFO_SHAPE_SQUARE
+            // LFO_SHAPE_TRI
+            // LFO_SHAPE_SAW
+            // LFO_SHAPE_NOISE
+            // PANNER_TYPE_EQUAL_POWER
+            // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+            // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
+            namespace CVMixConvolutionProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixConvolutionDesc_t
+            }
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            namespace CSoundContainerReferenceArray {
+                constexpr std::ptrdiff_t m_bUseReference = 0x0; // bool
+                constexpr std::ptrdiff_t m_sounds = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
+                constexpr std::ptrdiff_t m_pSounds = 0x20; // CUtlVector<CVoiceContainerBase*>
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixFilterProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixFilterDesc_t
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixAdditionalOutput {
+                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
+            }
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            namespace CVoiceContainerTapePlayer {
+                constexpr std::ptrdiff_t m_bShouldWraparound = 0x80; // bool
+                constexpr std::ptrdiff_t m_sourceAudio = 0x88; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                constexpr std::ptrdiff_t m_flTapeSpeedAttackTime = 0x90; // float32
+                constexpr std::ptrdiff_t m_flTapeSpeedReleaseTime = 0x94; // float32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // FILTER_UNKNOWN
+            // FILTER_HIGHPASS
+            // FILTER_BANDPASS
+            // FILTER_NOTCH
+            // FILTER_PEAKING_EQ
+            // FILTER_LOW_SHELF
+            // FILTER_HIGH_SHELF
+            // FILTER_ALLPASS
+            // FILTER_PASSTHROUGH
+            // MGetKV3ClassDefaults
+            // FILTER_SLOPE_1POLE_12dB
+            // FILTER_SLOPE_1POLE_18dB
+            // FILTER_SLOPE_1POLE_24dB
+            // FILTER_SLOPE_12dB
+            // FILTER_SLOPE_24dB
+            namespace CVMixSubgraphSwitchProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixSubgraphSwitchDesc_t
+            }
+            // Parent: None
+            // Field count: 4
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace VMixDiffusorDesc_t {
+                constexpr std::ptrdiff_t m_flSize = 0x0; // float32
+                constexpr std::ptrdiff_t m_flComplexity = 0x4; // float32
+                constexpr std::ptrdiff_t m_flFeedback = 0x8; // float32
+                constexpr std::ptrdiff_t m_flOutputGain = 0xC; // float32
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixSteamAudioPathingProcessorDesc {
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixPannerProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixPannerDesc_t
+            }
+            // Parent: None
+            // Field count: 9
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace VMixDynamicsCompressorDesc_t {
+                constexpr std::ptrdiff_t m_fldbOutputGain = 0x0; // float32
+                constexpr std::ptrdiff_t m_fldbCompressionThreshold = 0x4; // float32
+                constexpr std::ptrdiff_t m_fldbKneeWidth = 0x8; // float32
+                constexpr std::ptrdiff_t m_flCompressionRatio = 0xC; // float32
+                constexpr std::ptrdiff_t m_flAttackTimeMS = 0x10; // float32
+                constexpr std::ptrdiff_t m_flReleaseTimeMS = 0x14; // float32
+                constexpr std::ptrdiff_t m_flRMSTimeMS = 0x18; // float32
+                constexpr std::ptrdiff_t m_flWetMix = 0x1C; // float32
+                constexpr std::ptrdiff_t m_bPeakMode = 0x20; // bool
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // npc_dota_juggernaut_healing_ward
+            namespace CVoiceContainerVMixSnd {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             namespace CVMixStereoDelayProcessorDesc {
             }
@@ -2884,65 +3409,25 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // VApplication001
-            // VEngineCvar007
-            // VStringTokenSystem001
-            // TestScriptMgr001
-            // VProcessUtils002
-            // VFileSystem017
-            // VAsyncFileSystem2_001
-            // ResourceSystem013
-            // ResourceManifestRegistry001
-            // ResourceHandleUtils001
-            // SchemaSystem_001
-            // ResourceCompilerSystem001
-            // VMaterialSystem2_001
-            // PostProcessingSystem_001
-            // InputSystemVersion001
-            // InputStackSystemVersion001
-            // RenderDeviceMgr001
-            // RenderUtils_001
-            // SoundSystem001
-            // SoundOpSystemEdit001
-            // SoundOpSystem001
-            // SteamAudio001
-            // VP4003
-            // Localize_001
-            // VMediaFoundation001
-            // VAvi001
-            // VWebm001
-            // VBik001
-            // MeshSystem001
-            // MeshUtils001
-            // RenderDevice003
-            // VRenderDeviceSetupV001
-            // RenderHardwareConfig002
-            // SceneSystem_002
-            // IPulseSystem_001
-            // SceneUtils_001
-            // WorldRendererMgr001
-            // AssetSystem001
-            // AssetSystemTest001
-            // ParticleSystemMgr003
-            // VScriptManager010
             namespace CVoiceContainerParameterBlender {
-                constexpr std::ptrdiff_t m_firstSound = 0xA8; // CSoundContainerReference
-                constexpr std::ptrdiff_t m_secondSound = 0xC8; // CSoundContainerReference
-                constexpr std::ptrdiff_t m_bEnableOcclusionBlend = 0xE8; // bool
-                constexpr std::ptrdiff_t m_curve1 = 0xF0; // CPiecewiseCurve
-                constexpr std::ptrdiff_t m_curve2 = 0x130; // CPiecewiseCurve
-                constexpr std::ptrdiff_t m_bEnableDistanceBlend = 0x170; // bool
-                constexpr std::ptrdiff_t m_curve3 = 0x178; // CPiecewiseCurve
-                constexpr std::ptrdiff_t m_curve4 = 0x1B8; // CPiecewiseCurve
+                constexpr std::ptrdiff_t m_firstSound = 0x70; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_secondSound = 0x90; // CSoundContainerReference
+                constexpr std::ptrdiff_t m_bEnableOcclusionBlend = 0xB0; // bool
+                constexpr std::ptrdiff_t m_curve1 = 0xB8; // CPiecewiseCurve
+                constexpr std::ptrdiff_t m_curve2 = 0xF8; // CPiecewiseCurve
+                constexpr std::ptrdiff_t m_bEnableDistanceBlend = 0x138; // bool
+                constexpr std::ptrdiff_t m_curve3 = 0x140; // CPiecewiseCurve
+                constexpr std::ptrdiff_t m_curve4 = 0x180; // CPiecewiseCurve
             }
             // Parent: None
-            // Field count: 2
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CVMixAudioMeter {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_displayName = 0x8; // CUtlString
+                constexpr std::ptrdiff_t m_nDebugId = 0x10; // uint32
             }
             // Parent: None
             // Field count: 1
@@ -2952,19 +3437,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -2972,19 +3449,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // `
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3001,7 +3465,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // trollers=0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/
+            // MGetKV3ClassDefaults
             namespace CSosGroupActionLimitSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_nStopType = 0xC; // SosActionStopType_t
@@ -3021,66 +3485,21 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // PCM8
             // MP3
             // ADPCM
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CVoiceContainerAmpedDecayingSineWave {
-                constexpr std::ptrdiff_t m_flGainAmount = 0xB0; // float32
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // C_Sharp
-            // D
-            // D_Sharp
-            // E
-            // F
-            // F_Sharp
-            // G
-            // G_Sharp
-            // A
-            // A_Sharp
-            // B
-            // Count
-            // Square
-            // Saw
-            // Triangle
-            // Noise
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            namespace CVoiceContainerEnvelope {
-                constexpr std::ptrdiff_t m_sound = 0xA8; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-                constexpr std::ptrdiff_t m_analysisContainer = 0xB0; // CVoiceContainerAnalysisBase*
+                constexpr std::ptrdiff_t m_flGainAmount = 0x78; // float32
             }
             // Parent: None
             // Field count: 8
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace VMixAutoFilterDesc_t {
                 constexpr std::ptrdiff_t m_flEnvelopeAmount = 0x0; // float32
@@ -3114,10 +3533,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // CMD_INVALID
-            // CMD_CONTROL_INPUT_STORE
-            // CMD_CONTROL_INPUT_STORE_DB
-            // CMD_CONTROL_TRANSIENT_INPUT_STORE
             namespace VMixEffectChainDesc_t {
                 constexpr std::ptrdiff_t m_effectName = 0x0; // CUtlString
             }
@@ -3127,7 +3542,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3144,20 +3560,31 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // FILTER_UNKNOWN
+            // FILTER_HIGHPASS
+            // FILTER_BANDPASS
+            // FILTER_NOTCH
+            // FILTER_PEAKING_EQ
+            // FILTER_LOW_SHELF
+            // FILTER_HIGH_SHELF
+            // FILTER_ALLPASS
+            // FILTER_PASSTHROUGH
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // FILTER_SLOPE_1POLE_12dB
+            // FILTER_SLOPE_1POLE_18dB
+            // FILTER_SLOPE_1POLE_24dB
+            // FILTER_SLOPE_12dB
+            // FILTER_SLOPE_24dB
+            // FILTER_SLOPE_36dB
+            // FILTER_SLOPE_48dB
+            // FILTER_SLOPE_MAX
+            // LFO_SHAPE_SQUARE
+            // LFO_SHAPE_TRI
+            // LFO_SHAPE_SAW
+            // LFO_SHAPE_NOISE
+            // PANNER_TYPE_EQUAL_POWER
+            // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+            // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
             namespace CVMixPlateReverbProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixPlateverbDesc_t
             }
@@ -3173,6 +3600,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -3180,29 +3608,52 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // l
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace CVoiceContainerMultiBlender {
-                constexpr std::ptrdiff_t m_soundsToPlay = 0xA8; // CSoundContainerReferenceArray
-                constexpr std::ptrdiff_t m_flBlendFactor = 0xE0; // float32
-                constexpr std::ptrdiff_t m_flCrossover = 0xE4; // float32
+                constexpr std::ptrdiff_t m_soundsToPlay = 0x70; // CSoundContainerReferenceArray
+                constexpr std::ptrdiff_t m_flBlendFactor = 0xA8; // float32
+                constexpr std::ptrdiff_t m_flCrossover = 0xAC; // float32
             }
             // Parent: None
             // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MKV3TransferName
             // MKV3TransferName
             // MKV3TransferName
             // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3211,11 +3662,14 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             namespace CVMixVsndInput {
                 constexpr std::ptrdiff_t m_defaultValue = 0x10; // CUtlString
                 constexpr std::ptrdiff_t m_nProcessor = 0x18; // int32
@@ -3230,6 +3684,15 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nInstancesAtMinVolume = 0x4; // int32
                 constexpr std::ptrdiff_t m_flMaxVolume = 0x8; // float32
                 constexpr std::ptrdiff_t m_nInstancesAtMaxVolume = 0xC; // int32
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace SndBeatTimeSignature_t {
+                constexpr std::ptrdiff_t nNumerator = 0x0; // uint8
+                constexpr std::ptrdiff_t nDenominator = 0x1; // uint8
             }
             // Parent: None
             // Field count: 4
@@ -3259,106 +3722,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             namespace CVoiceContainerSelector {
-                constexpr std::ptrdiff_t m_mode = 0xA8; // PlayBackMode_t
-                constexpr std::ptrdiff_t m_soundsToPlay = 0xB0; // CSoundContainerReferenceArray
-                constexpr std::ptrdiff_t m_fProbabilityWeights = 0xE8; // CUtlVector<float32>
-            }
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // trollers=0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/
-            namespace CSosGroupActionTimeBlockLimitSchema {
-                constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
-                constexpr std::ptrdiff_t m_flMaxDuration = 0xC; // float32
-                constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
-            }
-            // Parent: None
-            // Field count: 9
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // kBranch
-            // kMatch
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_GROUPTYPE_STATIC
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_SETPARAM_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SOS_LIMIT_SORTTYPE_LOWEST
-            // MPropertyFriendlyName
-            // SOS_STOPTYPE_TIME
-            // SOS_STOPTYPE_OPVAR
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // eSndSeqInstSndEvt
-            // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
-            // MGetKV3ClassDefaults
-            // SNDLVL_20dB
-            // SNDLVL_25dB
-            namespace CSosGroupActionMemberCountEnvelopeSchema {
-                constexpr std::ptrdiff_t m_nBaseCount = 0x8; // int32
-                constexpr std::ptrdiff_t m_nTargetCount = 0xC; // int32
-                constexpr std::ptrdiff_t m_flBaseValue = 0x10; // float32
-                constexpr std::ptrdiff_t m_flTargetValue = 0x14; // float32
-                constexpr std::ptrdiff_t m_flAttack = 0x18; // float32
-                constexpr std::ptrdiff_t m_flDecay = 0x1C; // float32
-                constexpr std::ptrdiff_t m_resultVarName = 0x20; // CUtlString
-                constexpr std::ptrdiff_t m_bSaveToGroup = 0x28; // bool
-                constexpr std::ptrdiff_t m_nBaseCount = 0x8; // int32
+                constexpr std::ptrdiff_t m_mode = 0x70; // PlayBackMode_t
+                constexpr std::ptrdiff_t m_soundsToPlay = 0x78; // CSoundContainerReferenceArray
+                constexpr std::ptrdiff_t m_fProbabilityWeights = 0xB0; // CUtlVector<float32>
             }
             // Parent: None
             // Field count: 1
@@ -3367,105 +3736,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixDualCompressorProcessorDesc {
-                constexpr std::ptrdiff_t m_desc = 0x20; // VMixDualCompressorDesc_t
+            namespace SndBeatEventKeyedSndEvts_t {
+                constexpr std::ptrdiff_t m_strSoundEventName = 0x10; // CUtlString
             }
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            namespace CVoiceContainerSwitch {
-                constexpr std::ptrdiff_t m_soundsToPlay = 0xA8; // CUtlVector<CSoundContainerReference>
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVMixControlMeter {
-                constexpr std::ptrdiff_t m_nValueIndex = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            namespace CVoiceContainerEnum {
-                constexpr std::ptrdiff_t m_soundsToPlay = 0xA8; // CSoundContainerReferenceArray
-                constexpr std::ptrdiff_t m_iSelection = 0xE0; // int32
-                constexpr std::ptrdiff_t m_flCrossfadeTime = 0xE4; // float32
-            }
-            // Parent: None
-            // Field count: 1
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -3479,31 +3754,21 @@ namespace source2_dumper {
             // SOS_GROUPTYPE_STATIC
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SOS_SETPARAM_SORTTYPE_LOWEST
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SOS_STOPTYPE_TIME
             // SOS_STOPTYPE_OPVAR
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // eSndSeqInstSndEvt
             // eSndSeqInstMidiSampler
-            // eSndSeqRegionTypeSndEvt
-            // eSndSeqRegionTypeMidiSeq
-            // SndSeqMidiStatusNoteOff
-            // SndSeqMidiStatusNoteOn
-            // SndSeqMidiStatusKeyPressure
-            // SndSeqMidiStatusCtrlChange
-            // SndSeqMidiStatusProgramChange
-            // SndSeqMidiStatusChannelPressure
-            // SndSeqMidiStatusPitchBend
             // MGetKV3ClassDefaults
             // SNDLVL_20dB
             // SNDLVL_25dB
@@ -3534,6 +3799,256 @@ namespace source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
+            namespace CSosGroupActionTimeBlockLimitSchema {
+                constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
+                constexpr std::ptrdiff_t m_flMaxDuration = 0xC; // float32
+            }
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            namespace SndBeatEventKeyedMidiNotes_t {
+                constexpr std::ptrdiff_t m_nStatus = 0x10; // uint8
+                constexpr std::ptrdiff_t m_nNote = 0x11; // uint8
+                constexpr std::ptrdiff_t m_nVelocity = 0x12; // uint8
+            }
+            // Parent: None
+            // Field count: 8
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // kBranch
+            // kMatch
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_GROUPTYPE_STATIC
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_SETPARAM_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // SOS_LIMIT_SORTTYPE_LOWEST
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SOS_STOPTYPE_TIME
+            // SOS_STOPTYPE_OPVAR
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // eSndSeqInstSndEvt
+            // eSndSeqInstMidiSampler
+            // MGetKV3ClassDefaults
+            // SNDLVL_20dB
+            // SNDLVL_25dB
+            // SNDLVL_30dB
+            // SNDLVL_35dB
+            // SNDLVL_40dB
+            // SNDLVL_45dB
+            // SNDLVL_50dB
+            // SNDLVL_55dB
+            // SNDLVL_IDLE
+            // SNDLVL_60dB
+            // SNDLVL_65dB
+            // SNDLVL_STATIC
+            // SNDLVL_70dB
+            // SNDLVL_NORM
+            // SNDLVL_75dB
+            // SNDLVL_80dB
+            // SNDLVL_TALKING
+            // SNDLVL_85dB
+            // SNDLVL_90dB
+            // SNDLVL_95dB
+            // SNDLVL_100dB
+            // SNDLVL_105dB
+            // SNDLVL_110dB
+            namespace CSosGroupActionMemberCountEnvelopeSchema {
+                constexpr std::ptrdiff_t m_nBaseCount = 0x8; // int32
+                constexpr std::ptrdiff_t m_nTargetCount = 0xC; // int32
+                constexpr std::ptrdiff_t m_flBaseValue = 0x10; // float32
+                constexpr std::ptrdiff_t m_flTargetValue = 0x14; // float32
+                constexpr std::ptrdiff_t m_flAttack = 0x18; // float32
+                constexpr std::ptrdiff_t m_flDecay = 0x1C; // float32
+                constexpr std::ptrdiff_t m_resultVarName = 0x20; // CUtlString
+                constexpr std::ptrdiff_t m_bSaveToGroup = 0x28; // bool
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixDualCompressorProcessorDesc {
+                constexpr std::ptrdiff_t m_desc = 0x20; // VMixDualCompressorDesc_t
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // l
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            namespace CVoiceContainerSwitch {
+                constexpr std::ptrdiff_t m_soundsToPlay = 0x70; // CUtlVector<CSoundContainerReference>
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MKV3TransferName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CVMixControlMeter {
+                constexpr std::ptrdiff_t m_nValueIndex = 0x10; // int32
+            }
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // l
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            namespace CVoiceContainerEnum {
+                constexpr std::ptrdiff_t m_soundsToPlay = 0x70; // CSoundContainerReferenceArray
+                constexpr std::ptrdiff_t m_iSelection = 0xA8; // int32
+                constexpr std::ptrdiff_t m_flCrossfadeTime = 0xAC; // float32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             namespace CSosGroupActionTimeLimitSchema {
                 constexpr std::ptrdiff_t m_flMaxDuration = 0x8; // float32
             }
@@ -3576,29 +4091,40 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
             namespace CVoiceContainerLoopTrigger {
-                constexpr std::ptrdiff_t m_sound = 0xA8; // CSoundContainerReference
-                constexpr std::ptrdiff_t m_flRetriggerTimeMin = 0xC8; // float32
-                constexpr std::ptrdiff_t m_flRetriggerTimeMax = 0xCC; // float32
-                constexpr std::ptrdiff_t m_flFadeTime = 0xD0; // float32
-                constexpr std::ptrdiff_t m_bCrossFade = 0xD4; // bool
+                constexpr std::ptrdiff_t m_flRetriggerTimeMin = 0x70; // float32
+                constexpr std::ptrdiff_t m_flRetriggerTimeMax = 0x74; // float32
+                constexpr std::ptrdiff_t m_flFadeTime = 0x78; // float32
+                constexpr std::ptrdiff_t m_bCrossFade = 0x7C; // bool
+                constexpr std::ptrdiff_t m_sound = 0x80; // CSoundContainerReference
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MVDataNodeType
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // SndSeqMidiStatusNoteOff
+            namespace SndBeatEventKeys_t {
+                constexpr std::ptrdiff_t m_flKey = 0x8; // float32
             }
             // Parent: None
             // Field count: 2
@@ -3615,9 +4141,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             namespace CVoiceContainerDecayingSineWave {
-                constexpr std::ptrdiff_t m_flFrequency = 0xA8; // float32
-                constexpr std::ptrdiff_t m_flDecayTime = 0xAC; // float32
+                constexpr std::ptrdiff_t m_flFrequency = 0x70; // float32
+                constexpr std::ptrdiff_t m_flDecayTime = 0x74; // float32
             }
             // Parent: None
             // Field count: 1
@@ -3626,6 +4154,9 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
@@ -3640,12 +4171,18 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // Y
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
@@ -3658,16 +4195,13 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             namespace CVMixDelayProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixDelayDesc_t
             }
@@ -3677,8 +4211,32 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // Y
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3688,30 +4246,27 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // `
+            // FILTER_UNKNOWN
+            // FILTER_HIGHPASS
+            // FILTER_BANDPASS
+            // FILTER_NOTCH
+            // FILTER_PEAKING_EQ
+            // FILTER_LOW_SHELF
+            // FILTER_HIGH_SHELF
+            // FILTER_ALLPASS
+            // FILTER_PASSTHROUGH
             // MGetKV3ClassDefaults
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MKV3TransferName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // FILTER_SLOPE_1POLE_12dB
+            // FILTER_SLOPE_1POLE_18dB
+            // FILTER_SLOPE_1POLE_24dB
+            // FILTER_SLOPE_12dB
+            // FILTER_SLOPE_24dB
             namespace CVMixBoxverb2ProcessorDesc {
                 constexpr std::ptrdiff_t m_desc = 0x20; // VMixBoxverbDesc_t
             }
@@ -3729,10 +4284,39 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flQ = 0xC; // float32
             }
             // Parent: None
+            // Field count: 17
+            //
+            // Metadata:
+            // MPropertyArrayElementNameKey
+            // MVDataOutlinerNameExpr
+            // MGetKV3ClassDefaults
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyStartGroup
+            namespace CSndBeatPattern {
+                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_flSyncPriority = 0xC; // float32
+                constexpr std::ptrdiff_t m_syncStartType = 0x10; // SndBeatSyncStartType_t
+                constexpr std::ptrdiff_t m_syncType = 0x14; // SndBeatSyncType_t
+                constexpr std::ptrdiff_t m_timeSignature = 0x18; // SndBeatTimeSignature_t
+                constexpr std::ptrdiff_t m_flLength = 0x20; // float32
+                constexpr std::ptrdiff_t m_bLooping = 0x24; // bool
+                constexpr std::ptrdiff_t m_playEventType = 0x28; // SndBeatEventType_t
+                constexpr std::ptrdiff_t m_flPlayBeatMult = 0x2C; // float32
+                constexpr std::ptrdiff_t m_playKeyType = 0x30; // SndBeatKeyType_t
+                constexpr std::ptrdiff_t m_vecPatternKeys = 0x38; // CUtlVector<SndBeatEventKeys_t>
+                constexpr std::ptrdiff_t m_vecPatternFloats = 0x50; // CUtlVector<SndBeatEventKeyedFloats_t>
+                constexpr std::ptrdiff_t m_vecPatternSndEvts = 0x68; // CUtlVector<SndBeatEventKeyedSndEvts_t>
+                constexpr std::ptrdiff_t m_vecPatternMidi = 0x80; // CUtlVector<SndBeatEventKeyedMidiNotes_t>
+                constexpr std::ptrdiff_t m_syncEventType = 0x98; // SndBeatEventType_t
+                constexpr std::ptrdiff_t m_flSyncBeatMult = 0x9C; // float32
+                constexpr std::ptrdiff_t m_vecSyncPatternKeys = 0xA0; // CUtlVector<SndBeatEventKeys_t>
+            }
+            // Parent: None
             // Field count: 3
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace VMixOscDesc_t {
                 constexpr std::ptrdiff_t oscType = 0x0; // VMixLFOShape_t
@@ -3744,59 +4328,29 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
-            // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
-            // VMIX_CHAN_LEFT
-            // VMIX_CHAN_RIGHT
-            // VMIX_CHAN_SWAP
-            // VMIX_CHAN_MONO
-            // VMIX_CHAN_MID_SIDE
             // MGetKV3ClassDefaults
-            // CMD_INVALID
-            // CMD_CONTROL_INPUT_STORE
-            // CMD_CONTROL_INPUT_STORE_DB
-            // CMD_CONTROL_TRANSIENT_INPUT_STORE
-            // CMD_CONTROL_TRANSIENT_INPUT_RESET
-            // CMD_CONTROL_OUTPUT_STORE
-            // CMD_CONTROL_EVALUATE_CURVE
-            // CMD_CONTROL_COPY
-            // CMD_CONTROL_COND_COPY_IF_NEGATIVE
-            // CMD_CONTROL_REMAP_LINEAR
-            // CMD_CONTROL_REMAP_SINE
-            // CMD_CONTROL_REMAP_LOGLINEAR
-            // CMD_CONTROL_MAX
-            // CMD_CONTROL_RESET_TIMER
-            // CMD_CONTROL_INCREMENT_TIMER
-            // CMD_CONTROL_EVAL_ENVELOPE
-            // CMD_CONTROL_SINE_BLEND
-            // CMD_PROCESSOR_SET_CONTROL_VALUE
-            // CMD_PROCESSOR_SET_NAME_INPUT
-            // CMD_PROCESSOR_SET_CONTROL_ARRAYVALUE
-            // CMD_PROCESSOR_STORE_CONTROL_VALUE
-            // CMD_PROCESSOR_SET_VSND_VALUE
-            // CMD_SUBMIX_PROCESS
-            // CMD_SUBMIX_GENERATE
-            // CMD_SUBMIX_GENERATE_SIDECHAIN
-            // CMD_SUBMIX_DEBUG
-            // CMD_SUBMIX_MIX2x1
-            // CMD_SUBMIX_OUTPUT
-            // CMD_SUBMIX_OUTPUTx2
-            // CMD_SUBMIX_COPY
-            // CMD_SUBMIX_ACCUMULATE
-            // CMD_SUBMIX_METER
-            // CMD_SUBMIX_METER_SPECTRUM
-            // CMD_IMPULSERESPONSE_INPUT_STORE
-            // CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE
-            // CMD_REMAP_VSND_TO_IMPULSERESPONSE
-            // CMD_IMPULSERESPONSE_RESET
-            // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
-            // CMD_IMPULSERESPONSE_DELAY
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             namespace CVMixAutoFilterProcessorDesc {

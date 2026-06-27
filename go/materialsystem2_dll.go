@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 package schemas
 
@@ -37,6 +37,8 @@ const (
     Materialsystem2Dll_PostProcessingResource_t_m_bHasColorCorrection = 0x120 // bool
     Materialsystem2Dll_PostProcessingResource_t_m_bHasFogScatteringParams = 0x121 // bool
     Materialsystem2Dll_PostProcessingResource_t_m_fogScatteringParams = 0x124 // PostProcessingFogScatteringParameters_t
+    Materialsystem2Dll_PostProcessingResource_t_m_bHasLocalExposureParams = 0x144 // bool
+    Materialsystem2Dll_PostProcessingResource_t_m_localExposureParams = 0x148 // PostProcessingLocalExposureParameters_t
     Materialsystem2Dll_MaterialParamInt_t_m_nValue = 0x8 // int32
     Materialsystem2Dll_PostProcessingVignetteParameters_t_m_flVignetteStrength = 0x0 // float32
     Materialsystem2Dll_PostProcessingVignetteParameters_t_m_vCenter = 0x4 // Vector2D
@@ -69,6 +71,9 @@ const (
     Materialsystem2Dll_PostProcessingFogScatteringParameters_t_m_fCubemapScale = 0x8 // float32
     Materialsystem2Dll_PostProcessingFogScatteringParameters_t_m_fVolumetricScale = 0xC // float32
     Materialsystem2Dll_PostProcessingFogScatteringParameters_t_m_fGradientScale = 0x10 // float32
+    Materialsystem2Dll_PostProcessingFogScatteringParameters_t_m_fWaterScale = 0x14 // float32
+    Materialsystem2Dll_PostProcessingFogScatteringParameters_t_m_fWaterDensity = 0x18 // float32
+    Materialsystem2Dll_PostProcessingFogScatteringParameters_t_m_fWaterDepthBlurRadius = 0x1C // float32
     Materialsystem2Dll_MaterialParamBuffer_t_m_value = 0x8 // CUtlBinaryBlock
     Materialsystem2Dll_MaterialResourceData_t_m_materialName = 0x0 // CUtlString
     Materialsystem2Dll_MaterialResourceData_t_m_shaderName = 0x8 // CUtlString
@@ -101,5 +106,9 @@ const (
     Materialsystem2Dll_PostProcessingBloomParameters_t_m_flBlurWeight = 0x38 // float32[5]
     Materialsystem2Dll_PostProcessingBloomParameters_t_m_vBlurTint = 0x4C // Vector[5]
     Materialsystem2Dll_MaterialParamFloat_t_m_flValue = 0x8 // float32
+    Materialsystem2Dll_PostProcessingLocalExposureParameters_t_m_fShadowOffsetEV = 0x0 // float32
+    Materialsystem2Dll_PostProcessingLocalExposureParameters_t_m_fHighlightOffsetEV = 0x4 // float32
+    Materialsystem2Dll_PostProcessingLocalExposureParameters_t_m_fSigma = 0x8 // float32
+    Materialsystem2Dll_PostProcessingLocalExposureParameters_t_m_fBoostLocalContrast = 0xC // float32
     Materialsystem2Dll_MaterialParamTexture_t_m_pValue = 0x8 // CStrongHandle<InfoForResourceTypeCTextureBase>
 )

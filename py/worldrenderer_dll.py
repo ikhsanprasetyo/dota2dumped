@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-21 22:55:14.944997300 +07:00
+# 2026-06-27 11:00:13.970046600 +07:00
 
 class Schemas:
     # Module: worldrenderer.dll
@@ -53,10 +53,13 @@ class Schemas:
         class RTProxyInstanceInfo_t:
             m_nFlags = 0x0 # RTProxyInstanceFlags_t
             m_albedoFormat = 0x1 # VertexAlbedoFormat_t
-            m_nBLASCount = 0x2 # uint16
-            m_nBLASIndex = 0x4 # uint32
-            m_nVertexAlbedoByteOffset = 0x8 # uint32
-            m_mWorldFromLocal = 0xC # matrix3x4_t
+            m_emissiveFormat = 0x2 # VertexAlbedoFormat_t
+            m_nBLASCount = 0x4 # uint16
+            m_nBLASIndex = 0x8 # uint32
+            m_nVertexAlbedoByteOffset = 0xC # uint32
+            m_nVertexEmissiveByteOffset = 0x10 # uint32
+            m_fEmissiveFactor = 0x14 # float32
+            m_mWorldFromLocal = 0x18 # matrix3x4_t
         class AggregateVertexAlbedoStreamOnDiskData_t:
             m_BufferData = 0x0 # CUtlBinaryBlock
         class SceneObject_t:
@@ -93,6 +96,7 @@ class Schemas:
             m_nLayer = 0x8 # int16
             m_instanceStream = 0xA # int16
             m_vertexAlbedoStream = 0xC # int16
+            m_vertexEmissiveStream = 0xE # int16
             m_aggregateMeshes = 0x10 # CUtlVector<AggregateMeshInfo_t>
             m_lodSetups = 0x28 # CUtlVector<AggregateLODSetup_t>
             m_visClusterMembership = 0x40 # CUtlVector<uint16>
@@ -121,6 +125,8 @@ class Schemas:
             m_boundLs = 0x14 # AABB_t
             m_vVertexOriginLs = 0x2C # Vector
             m_vVertexExtentLs = 0x38 # Vector
+        class AggregateVertexEmissiveStreamOnDiskData_t:
+            m_BufferData = 0x0 # CUtlBinaryBlock
         class ClutterSceneObject_t:
             m_Bounds = 0x0 # AABB_t
             m_flags = 0x18 # ObjectTypeFlags_t
@@ -155,11 +161,12 @@ class Schemas:
             m_extraVertexStreams = 0xA8 # CUtlVector<WorldNodeOnDiskBufferData_t>
             m_aggregateInstanceStreams = 0xC0 # CUtlVector<AggregateInstanceStreamOnDiskData_t>
             m_vertexAlbedoStreams = 0xD8 # CUtlVector<AggregateVertexAlbedoStreamOnDiskData_t>
-            m_layerNames = 0xF0 # CUtlVector<CUtlString>
-            m_sceneObjectLayerIndices = 0x108 # CUtlVector<uint8>
-            m_grassFileName = 0x120 # CUtlString
-            m_nodeLightingInfo = 0x128 # BakedLightingInfo_t
-            m_bHasBakedGeometryFlag = 0x170 # bool
+            m_vertexEmissiveStreams = 0xF0 # CUtlVector<AggregateVertexEmissiveStreamOnDiskData_t>
+            m_layerNames = 0x108 # CUtlVector<CUtlString>
+            m_sceneObjectLayerIndices = 0x120 # CUtlVector<uint8>
+            m_grassFileName = 0x138 # CUtlString
+            m_nodeLightingInfo = 0x140 # BakedLightingInfo_t
+            m_bHasBakedGeometryFlag = 0x188 # bool
         class BaseSceneObjectOverride_t:
             m_nSceneObjectIndex = 0x0 # uint32
         class EntityIOConnectionData_t:
@@ -205,7 +212,9 @@ class Schemas:
             m_nLightProbeVolumePrecomputedHandshake = 0x14 # int32
             m_nInstanceStreamOffset = 0x18 # uint32
             m_nVertexAlbedoStreamOffset = 0x1C # uint32
-            m_instanceStreams = 0x20 # AggregateInstanceStream_t
+            m_nVertexEmissiveStreamOffset = 0x20 # uint32
+            m_instanceStreams = 0x24 # AggregateInstanceStream_t
+            m_fEmissiveFactor = 0x28 # float32
         class World_t:
             m_builderParams = 0x0 # WorldBuilderParams_t
             m_worldNodes = 0x60 # CUtlVector<NodeData_t>
@@ -227,6 +236,7 @@ class Schemas:
             m_VBData = 0x38 # CUtlBinaryBlock
             m_IBData = 0x48 # CUtlBinaryBlock
             m_InstanceAlbedoData = 0x58 # CUtlBinaryBlock
+            m_InstanceEmissiveData = 0x68 # CUtlBinaryBlock
         class EntityKeyValueData_t:
             m_connections = 0x8 # CUtlVector<EntityIOConnectionData_t>
             m_keyValuesData = 0x20 # CUtlBinaryBlock

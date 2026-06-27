@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 export const Schemas = {
     engine2_dll: {
@@ -84,8 +84,7 @@ export const Schemas = {
             m_pTargetInput: 0x18, // CUtlSymbolLarge
             m_hActivator: 0x20, // CEntityHandle
             m_hCaller: 0x24, // CEntityHandle
-            m_nOutputID: 0x28, // int32
-            m_hEntTarget: 0x2C, // CEntityHandle
+            m_hEntTarget: 0x28, // CEntityHandle
             m_variantValue: 0x30, // CVariantBase<CVariantDefaultAllocator>
         },
         EventServerEndAsyncPostTickWork_t: {
@@ -144,8 +143,8 @@ export const Schemas = {
             m_nTickCount: 0x0, // int32
         },
         CEntityAttributeTable: {
-            m_Attributes: 0x0, // CUtlOrderedMap<CUtlStringToken,Attribute_t>
-            m_Names: 0x28, // CUtlOrderedMap<CUtlStringToken,CUtlString>
+            m_Attributes: 0x0, // CUtlOrderedMap<CUtlStringTokenNoRegistration,Attribute_t>
+            m_Names: 0x28, // CUtlOrderedMap<CUtlStringTokenNoRegistration,CUtlString>
         },
         EventClientPreOutputParallelWithServer_t: {
         },
@@ -159,7 +158,12 @@ export const Schemas = {
         },
         EventClientPostAdvanceTick_t: {
         },
+        EventBugBug_t: {
+        },
         CVariantDefaultAllocator: {
+        },
+        EventBugBugComplete_t: {
+            m_pPayload: 0x0, // EventBugBug_t*
         },
         EventModInitialized_t: {
         },

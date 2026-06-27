@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 export const Schemas = {
     steamaudio_dll: {
@@ -53,7 +53,7 @@ export const Schemas = {
             m_probes: 0x10, // CSteamAudioProbeData
             m_vecPathingRatio: 0x18, // CUtlVector<float32>
             m_vecPathingDeviation: 0x30, // CUtlVector<float32>
-            m_vecReflectionRatio: 0x48, // CUtlVector<float32>
+            m_vecReflectionEnergy: 0x48, // CUtlVector<float32>
         },
         CSteamAudioBakedReverbData: {
             m_nBands: 0x0, // int32

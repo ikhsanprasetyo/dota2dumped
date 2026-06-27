@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -144,7 +144,7 @@ pub mod source2_dumper {
                 pub const m_probes: usize = 0x10; // CSteamAudioProbeData
                 pub const m_vecPathingRatio: usize = 0x18; // CUtlVector<float32>
                 pub const m_vecPathingDeviation: usize = 0x30; // CUtlVector<float32>
-                pub const m_vecReflectionRatio: usize = 0x48; // CUtlVector<float32>
+                pub const m_vecReflectionEnergy: usize = 0x48; // CUtlVector<float32>
             }
             // Parent: None
             // Field count: 12

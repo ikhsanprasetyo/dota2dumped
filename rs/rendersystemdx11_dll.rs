@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: rendersystemdx11.dll
         // Class count: 8
-        // Enum count: 8
+        // Enum count: 9
         pub mod rendersystemdx11_dll {
             // Alignment: 4
             // Member count: 14
@@ -29,7 +29,7 @@ pub mod source2_dumper {
                 RENDER_PRIM_TYPE_COUNT = 0xD
             }
             // Alignment: 4
-            // Member count: 13
+            // Member count: 14
             #[repr(u32)]
             pub enum RenderBufferFlags_t {
                 RENDER_BUFFER_USAGE_NONE = 0x0,
@@ -44,7 +44,8 @@ pub mod source2_dumper {
                 RENDER_BUFFER_SHADER_BINDING_TABLE = 0x400,
                 RENDER_BUFFER_POOL_ALLOCATED = 0x800,
                 RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING = 0x1000,
-                RENDER_BUFFER_IMMOVABLE_ALLOCATION = 0x2000
+                RENDER_BUFFER_IMMOVABLE_ALLOCATION = 0x2000,
+                RENDER_BUFFER_DYNAMIC_ZERO_COPY = 0x4000
             }
             // Alignment: 1
             // Member count: 3
@@ -55,7 +56,7 @@ pub mod source2_dumper {
                 RS_CULL_FRONT = 0x2
             }
             // Alignment: 1
-            // Member count: 8
+            // Member count: 14
             #[repr(u8)]
             pub enum RsComparison_t {
                 RS_CMP_NEVER = 0x0,
@@ -65,7 +66,12 @@ pub mod source2_dumper {
                 RS_CMP_GREATER = 0x4,
                 RS_CMP_NOT_EQUAL = 0x5,
                 RS_CMP_GREATER_EQUAL = 0x6,
-                RS_CMP_ALWAYS = 0x7
+                RS_CMP_ALWAYS = 0x7,
+                RS_CMP_CLOSER_FARTHER_FLAG = 0x8,
+                RS_CMP_CLOSER = 0x9,
+                RS_CMP_CLOSER_EQUAL = 0xB,
+                RS_CMP_FARTHER = 0xC,
+                RS_CMP_FARTHER_EQUAL = 0xE
             }
             // Alignment: 1
             // Member count: 2
@@ -96,6 +102,17 @@ pub mod source2_dumper {
                 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID = 0x2,
                 INPUT_LAYOUT_VARIATION_MAX = 0x3
             }
+            // Alignment: 4
+            // Member count: 6
+            #[repr(u32)]
+            pub enum UpscalerType_t {
+                UPSCALER_NONE = 0x0,
+                UPSCALER_AMD_FSR2 = 0x1,
+                UPSCALER_AMD_FSR3 = 0x2,
+                UPSCALER_NVIDIA_DLSS = 0x3,
+                UPSCALER_INTEL_XESS = 0x4,
+                UPSCALER_COUNT = 0x5
+            }
             // Alignment: 1
             // Member count: 3
             #[repr(u8)]
@@ -109,50 +126,15 @@ pub mod source2_dumper {
             pub mod RsDepthStencilStateDesc_t {
                 pub const m_bDepthTestEnable: usize = 0x0; // bitfield:1
                 pub const m_bDepthWriteEnable: usize = 0x0; // bitfield:1
-                pub const m_depthFunc: usize = 0x1; // RsComparison_t
+                pub const m_depthFunc: usize = 0x0; // bitfield:4
                 pub const m_stencilState: usize = 0x2; // RsStencilStateDesc_t
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // RENDER_MULTISAMPLE_INVALID
-            // RENDER_MULTISAMPLE_2X
-            // RENDER_MULTISAMPLE_4X
-            // RENDER_MULTISAMPLE_6X
-            // RENDER_MULTISAMPLE_8X
-            // RENDER_MULTISAMPLE_16X
-            // RENDER_MULTISAMPLE_TYPE_COUNT
-            // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
-            // INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
-            // INPUT_LAYOUT_VARIATION_MAX
-            // RENDER_PRIM_LINES
-            // RENDER_PRIM_LINES_WITH_ADJACENCY
-            // RENDER_PRIM_LINE_STRIP
-            // RENDER_PRIM_LINE_STRIP_WITH_ADJACENCY
-            // RENDER_PRIM_TRIANGLES
-            // RENDER_PRIM_TRIANGLES_WITH_ADJACENCY
-            // RENDER_PRIM_TRIANGLE_STRIP
-            // RENDER_PRIM_TRIANGLE_STRIP_WITH_ADJACENCY
-            // RENDER_PRIM_INSTANCED_QUADS
-            // RENDER_PRIM_HETEROGENOUS
-            // RENDER_PRIM_COMPUTE_SHADER
-            // RENDER_PRIM_MESH_SHADER
-            // RENDER_PRIM_TYPE_COUNT
-            // RENDER_BUFFER_USAGE_VERTEX_BUFFER
-            // RENDER_BUFFER_USAGE_INDEX_BUFFER
-            // RENDER_BUFFER_USAGE_SHADER_RESOURCE
-            // RENDER_BUFFER_USAGE_UNORDERED_ACCESS
-            // RENDER_BUFFER_BYTEADDRESS_BUFFER
-            // RENDER_BUFFER_STRUCTURED_BUFFER
-            // RENDER_BUFFER_UAV_DRAW_INDIRECT_ARGS
-            // RENDER_BUFFER_ACCELERATION_STRUCTURE
-            // RENDER_BUFFER_SHADER_BINDING_TABLE
-            // RENDER_BUFFER_POOL_ALLOCATED
-            // RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING
-            // RENDER_BUFFER_IMMOVABLE_ALLOCATION
-            // RENDER_SLOT_INVALID
-            // RENDER_SLOT_PER_INSTANCE
+            // 2,0x06a3/0xf623,0x06a3/0xf51a,0x0f30/0x0112,0x06a3/0xff0c,0x06a3/0x040c,0x0f30/0x0110,0x06a3/0x040b,0x06a3/0x040b,0x06a3/0x0621,
+            // /0xb304,0x044f/0xb300,0x6666/0x8804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0
             pub mod SheetSequenceIntegerId_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -193,15 +175,15 @@ pub mod source2_dumper {
             // Parent: None
             // Field count: 11
             pub mod RsStencilStateDesc_t {
+                pub const m_frontStencilFunc: usize = 0x0; // bitfield:4
+                pub const m_backStencilFunc: usize = 0x0; // bitfield:4
                 pub const m_bStencilEnable: usize = 0x0; // bitfield:1
                 pub const m_frontStencilFailOp: usize = 0x0; // bitfield:3
                 pub const m_frontStencilDepthFailOp: usize = 0x0; // bitfield:3
                 pub const m_frontStencilPassOp: usize = 0x0; // bitfield:3
-                pub const m_frontStencilFunc: usize = 0x0; // bitfield:3
                 pub const m_backStencilFailOp: usize = 0x0; // bitfield:3
                 pub const m_backStencilDepthFailOp: usize = 0x0; // bitfield:3
                 pub const m_backStencilPassOp: usize = 0x0; // bitfield:3
-                pub const m_backStencilFunc: usize = 0x0; // bitfield:3
                 pub const m_nStencilReadMask: usize = 0x4; // uint8
                 pub const m_nStencilWriteMask: usize = 0x5; // uint8
             }

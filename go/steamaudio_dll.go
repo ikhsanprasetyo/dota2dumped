@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 package schemas
 
@@ -35,7 +35,7 @@ const (
     SteamaudioDll_CSteamAudioBakedOcclusionData_m_probes = 0x10 // CSteamAudioProbeData
     SteamaudioDll_CSteamAudioBakedOcclusionData_m_vecPathingRatio = 0x18 // CUtlVector<float32>
     SteamaudioDll_CSteamAudioBakedOcclusionData_m_vecPathingDeviation = 0x30 // CUtlVector<float32>
-    SteamaudioDll_CSteamAudioBakedOcclusionData_m_vecReflectionRatio = 0x48 // CUtlVector<float32>
+    SteamaudioDll_CSteamAudioBakedOcclusionData_m_vecReflectionEnergy = 0x48 // CUtlVector<float32>
     SteamaudioDll_CSteamAudioBakedReverbData_m_nBands = 0x0 // int32
     SteamaudioDll_CSteamAudioBakedReverbData_m_scene = 0x8 // CSteamAudioSceneData
     SteamaudioDll_CSteamAudioBakedReverbData_m_probes = 0x18 // CSteamAudioProbeData

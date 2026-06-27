@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-21 22:55:14.944997300 +07:00
+# 2026-06-27 11:00:13.970046600 +07:00
 
 class Schemas:
     # Module: materialsystem2.dll
@@ -46,6 +46,8 @@ class Schemas:
             m_bHasColorCorrection = 0x120 # bool
             m_bHasFogScatteringParams = 0x121 # bool
             m_fogScatteringParams = 0x124 # PostProcessingFogScatteringParameters_t
+            m_bHasLocalExposureParams = 0x144 # bool
+            m_localExposureParams = 0x148 # PostProcessingLocalExposureParameters_t
         class MaterialParamInt_t:
             m_nValue = 0x8 # int32
         class PostProcessingVignetteParameters_t:
@@ -83,6 +85,9 @@ class Schemas:
             m_fCubemapScale = 0x8 # float32
             m_fVolumetricScale = 0xC # float32
             m_fGradientScale = 0x10 # float32
+            m_fWaterScale = 0x14 # float32
+            m_fWaterDensity = 0x18 # float32
+            m_fWaterDepthBlurRadius = 0x1C # float32
         class MaterialParamBuffer_t:
             m_value = 0x8 # CUtlBinaryBlock
         class MaterialResourceData_t:
@@ -119,5 +124,10 @@ class Schemas:
             m_vBlurTint = 0x4C # Vector[5]
         class MaterialParamFloat_t:
             m_flValue = 0x8 # float32
+        class PostProcessingLocalExposureParameters_t:
+            m_fShadowOffsetEV = 0x0 # float32
+            m_fHighlightOffsetEV = 0x4 # float32
+            m_fSigma = 0x8 # float32
+            m_fBoostLocalContrast = 0xC # float32
         class MaterialParamTexture_t:
             m_pValue = 0x8 # CStrongHandle<InfoForResourceTypeCTextureBase>

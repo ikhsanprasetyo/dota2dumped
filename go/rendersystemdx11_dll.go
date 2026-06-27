@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 package schemas
 
@@ -31,6 +31,7 @@ const (
     Rendersystemdx11Dll_RenderBufferFlags_t_RENDER_BUFFER_POOL_ALLOCATED = 0x800
     Rendersystemdx11Dll_RenderBufferFlags_t_RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING = 0x1000
     Rendersystemdx11Dll_RenderBufferFlags_t_RENDER_BUFFER_IMMOVABLE_ALLOCATION = 0x2000
+    Rendersystemdx11Dll_RenderBufferFlags_t_RENDER_BUFFER_DYNAMIC_ZERO_COPY = 0x4000
     Rendersystemdx11Dll_RsCullMode_t_RS_CULL_NONE = 0x0
     Rendersystemdx11Dll_RsCullMode_t_RS_CULL_BACK = 0x1
     Rendersystemdx11Dll_RsCullMode_t_RS_CULL_FRONT = 0x2
@@ -42,6 +43,11 @@ const (
     Rendersystemdx11Dll_RsComparison_t_RS_CMP_NOT_EQUAL = 0x5
     Rendersystemdx11Dll_RsComparison_t_RS_CMP_GREATER_EQUAL = 0x6
     Rendersystemdx11Dll_RsComparison_t_RS_CMP_ALWAYS = 0x7
+    Rendersystemdx11Dll_RsComparison_t_RS_CMP_CLOSER_FARTHER_FLAG = 0x8
+    Rendersystemdx11Dll_RsComparison_t_RS_CMP_CLOSER = 0x9
+    Rendersystemdx11Dll_RsComparison_t_RS_CMP_CLOSER_EQUAL = 0xB
+    Rendersystemdx11Dll_RsComparison_t_RS_CMP_FARTHER = 0xC
+    Rendersystemdx11Dll_RsComparison_t_RS_CMP_FARTHER_EQUAL = 0xE
     Rendersystemdx11Dll_RsFillMode_t_RS_FILL_SOLID = 0x0
     Rendersystemdx11Dll_RsFillMode_t_RS_FILL_WIREFRAME = 0x1
     Rendersystemdx11Dll_RenderMultisampleType_t_RENDER_MULTISAMPLE_INVALID = 0xFFFFFFFFFFFFFFFF
@@ -56,12 +62,18 @@ const (
     Rendersystemdx11Dll_InputLayoutVariation_t_INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID = 0x1
     Rendersystemdx11Dll_InputLayoutVariation_t_INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID = 0x2
     Rendersystemdx11Dll_InputLayoutVariation_t_INPUT_LAYOUT_VARIATION_MAX = 0x3
+    Rendersystemdx11Dll_UpscalerType_t_UPSCALER_NONE = 0x0
+    Rendersystemdx11Dll_UpscalerType_t_UPSCALER_AMD_FSR2 = 0x1
+    Rendersystemdx11Dll_UpscalerType_t_UPSCALER_AMD_FSR3 = 0x2
+    Rendersystemdx11Dll_UpscalerType_t_UPSCALER_NVIDIA_DLSS = 0x3
+    Rendersystemdx11Dll_UpscalerType_t_UPSCALER_INTEL_XESS = 0x4
+    Rendersystemdx11Dll_UpscalerType_t_UPSCALER_COUNT = 0x5
     Rendersystemdx11Dll_RenderSlotType_t_RENDER_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF
     Rendersystemdx11Dll_RenderSlotType_t_RENDER_SLOT_PER_VERTEX = 0x0
     Rendersystemdx11Dll_RenderSlotType_t_RENDER_SLOT_PER_INSTANCE = 0x1
     Rendersystemdx11Dll_RsDepthStencilStateDesc_t_m_bDepthTestEnable = 0x0 // bitfield:1
     Rendersystemdx11Dll_RsDepthStencilStateDesc_t_m_bDepthWriteEnable = 0x0 // bitfield:1
-    Rendersystemdx11Dll_RsDepthStencilStateDesc_t_m_depthFunc = 0x1 // RsComparison_t
+    Rendersystemdx11Dll_RsDepthStencilStateDesc_t_m_depthFunc = 0x0 // bitfield:4
     Rendersystemdx11Dll_RsDepthStencilStateDesc_t_m_stencilState = 0x2 // RsStencilStateDesc_t
     Rendersystemdx11Dll_SheetSequenceIntegerId_t_m_Value = 0x0 // uint32
     Rendersystemdx11Dll_RsBlendStateDesc_t_m_srcBlendBits = 0x0 // uint32
@@ -86,15 +98,15 @@ const (
     Rendersystemdx11Dll_RsRasterizerStateDesc_t_m_nDepthBias = 0x4 // int32
     Rendersystemdx11Dll_RsRasterizerStateDesc_t_m_flDepthBiasClamp = 0x8 // float32
     Rendersystemdx11Dll_RsRasterizerStateDesc_t_m_flSlopeScaledDepthBias = 0xC // float32
+    Rendersystemdx11Dll_RsStencilStateDesc_t_m_frontStencilFunc = 0x0 // bitfield:4
+    Rendersystemdx11Dll_RsStencilStateDesc_t_m_backStencilFunc = 0x0 // bitfield:4
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_bStencilEnable = 0x0 // bitfield:1
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_frontStencilFailOp = 0x0 // bitfield:3
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_frontStencilDepthFailOp = 0x0 // bitfield:3
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_frontStencilPassOp = 0x0 // bitfield:3
-    Rendersystemdx11Dll_RsStencilStateDesc_t_m_frontStencilFunc = 0x0 // bitfield:3
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_backStencilFailOp = 0x0 // bitfield:3
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_backStencilDepthFailOp = 0x0 // bitfield:3
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_backStencilPassOp = 0x0 // bitfield:3
-    Rendersystemdx11Dll_RsStencilStateDesc_t_m_backStencilFunc = 0x0 // bitfield:3
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_nStencilReadMask = 0x4 // uint8
     Rendersystemdx11Dll_RsStencilStateDesc_t_m_nStencilWriteMask = 0x5 // uint8
     Rendersystemdx11Dll_VsInputSignature_t_m_elems = 0x0 // CUtlVector<VsInputSignatureElement_t>

@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: particles.dll
-        // Class count: 501
-        // Enum count: 76
+        // Class count: 496
+        // Enum count: 77
         pub mod particles_dll {
             // Alignment: 4
             // Member count: 2
@@ -31,6 +31,13 @@ pub mod source2_dumper {
             pub enum PulseMethodCallMode_t {
                 SYNC_WAIT_FOR_COMPLETION = 0x0,
                 ASYNC_FIRE_AND_FORGET = 0x1
+            }
+            // Alignment: 4
+            // Member count: 2
+            #[repr(u32)]
+            pub enum PulseCursorWakePriority_t {
+                WakeElegantly = 0x0,
+                WakeImmediate = 0x1
             }
             // Alignment: 4
             // Member count: 7
@@ -90,12 +97,13 @@ pub mod source2_dumper {
                 PARTICLE_REPLICATIONMODE_REPLICATE_FOR_EACH_PARENT_PARTICLE = 0x1
             }
             // Alignment: 4
-            // Member count: 3
+            // Member count: 4
             #[repr(u32)]
             pub enum ParticleEntityPos_t {
                 PARTICLE_ABS_ORIGIN = 0x0,
                 PARTICLE_WORLDSPACE_CENTER = 0x1,
-                PARTICLE_EYES = 0x2
+                PARTICLE_EYES = 0x2,
+                PARTICLE_FLASHLIGHT = 0x3
             }
             // Alignment: 4
             // Member count: 3
@@ -243,7 +251,7 @@ pub mod source2_dumper {
                 SET_EXPRESSION_MAX = 0x6
             }
             // Alignment: 4
-            // Member count: 11
+            // Member count: 13
             #[repr(u32)]
             pub enum EventTypeSelection_t {
                 PARTICLE_EVENT_TYPE_MASK_NONE = 0x0,
@@ -253,6 +261,8 @@ pub mod source2_dumper {
                 PARTICLE_EVENT_TYPE_MASK_FIRST_COLLISION = 0x8,
                 PARTICLE_EVENT_TYPE_MASK_COLLISION_STOPPED = 0x10,
                 PARTICLE_EVENT_TYPE_MASK_KILLED_ON_COLLISION = 0x20,
+                PARTICLE_EVENT_TYPE_MASK_KILLED_ON_CULL = 0x400,
+                PARTICLE_EVENT_TYPE_MASK_CULLED_ON_SPAWN = 0x800,
                 PARTICLE_EVENT_TYPE_MASK_USER_1 = 0x40,
                 PARTICLE_EVENT_TYPE_MASK_USER_2 = 0x80,
                 PARTICLE_EVENT_TYPE_MASK_USER_3 = 0x100,
@@ -358,7 +368,7 @@ pub mod source2_dumper {
                 HITBOX_LERP_CONSTANT = 0x1
             }
             // Alignment: 4
-            // Member count: 7
+            // Member count: 11
             #[repr(u32)]
             pub enum ParticleAttrBoxFlags_t {
                 PARTICLE_ATTR_BOX_FLAGS_NONE = 0x0,
@@ -367,7 +377,11 @@ pub mod source2_dumper {
                 PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED = 0x4,
                 PARTICLE_ATTR_BOX_FLAGS_ASLEEP = 0x8,
                 PARTICLE_ATTR_BOX_FLAGS_FROZEN = 0x10,
-                PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY = 0x20
+                PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY = 0x20,
+                PARTICLE_ATTR_BOX_FLAGS_DISABLE_NONSTATIC_COLLISION = 0x40,
+                PARTICLE_ATTR_BOX_FLAGS_WAKE_DECAY = 0x80,
+                PARTICLE_ATTR_BOX_FLAGS_MOTION_DISABLED = 0x100,
+                PARTICLE_ATTR_BOX_FLAGS_ZERO_GRAVITY = 0x200
             }
             // Alignment: 4
             // Member count: 5
@@ -588,12 +602,13 @@ pub mod source2_dumper {
                 SPRITECARD_TEXTURE_CHANNEL_MIX_BALPHA = 0xE
             }
             // Alignment: 4
-            // Member count: 3
+            // Member count: 4
             #[repr(u32)]
             pub enum ParticleVolumetricSmokeType_t {
                 PARTICLE_VOLUMETRIC_SMOKE_TYPE_EMISSION = 0x0,
                 PARTICLE_VOLUMETRIC_SMOKE_TYPE_SINK = 0x1,
-                PARTICLE_VOLUMETRIC_SMOKE_TYPE_REPEL = 0x2
+                PARTICLE_VOLUMETRIC_SMOKE_TYPE_REPEL = 0x2,
+                PARTICLE_VOLUMETRIC_SMOKE_TYPE_TRACE = 0x3
             }
             // Alignment: 4
             // Member count: 4
@@ -751,7 +766,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -762,16 +776,28 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
             pub mod CPulseCell_WaitForCursorsWithTag {
-                pub const m_bTagSelfWhenComplete: usize = 0x98; // bool
-                pub const m_nDesiredKillPriority: usize = 0x9C; // PulseCursorCancelPriority_t
+                pub const m_bTagSelfWhenComplete: usize = 0x128; // bool
+                pub const m_nDesiredKillPriority: usize = 0x12C; // PulseCursorCancelPriority_t
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Base {
@@ -793,13 +819,29 @@ pub mod source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             pub mod CPulseCell_PickBestOutflowSelector {
                 pub const m_nCheckType: usize = 0x48; // PulseBestOutflowRules_t
                 pub const m_OutflowList: usize = 0x50; // PulseSelectorOutflowList_t
@@ -816,33 +858,14 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
+            // CURSOR_ADD_TAG
+            // CURSOR_REMOVE_TAG
+            // CURSOR_RETIRED
+            // REQUIREMENT_PASS
+            // REQUIREMENT_FAIL
             pub mod CPulseCell_WaitForObservable {
-                pub const m_Condition: usize = 0x48; // PulseObservableBoolExpression_t
-                pub const m_OnTrue: usize = 0xC0; // CPulse_ResumePoint
+                pub const m_Condition: usize = 0xD8; // CPulseObservableExpression<bool>
+                pub const m_OnTrue: usize = 0x150; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 4
@@ -874,31 +897,24 @@ pub mod source2_dumper {
                 pub const m_OutputConnections: usize = 0x128; // CUtlVector<CPulse_OutputConnection*>
             }
             // Parent: None
-            // Field count: 4
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MGetKV3ClassDefaults
             // MPropertyDescription
             pub mod CPulseCell_FireCursors {
-                pub const m_Outflows: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
-                pub const m_bWaitForChildOutflows: usize = 0x60; // bool
-                pub const m_OnFinished: usize = 0x68; // CPulse_ResumePoint
-                pub const m_OnCanceled: usize = 0xB0; // CPulse_ResumePoint
+                pub const m_Outflows: usize = 0xD8; // CUtlVector<CPulse_OutflowConnection>
+                pub const m_bWaitForChildOutflows: usize = 0xF0; // bool
+                pub const m_OnFinished: usize = 0xF8; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 2
@@ -932,10 +948,38 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_BaseRequirement {
             }
             // Parent: None
@@ -947,30 +991,21 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPulseEditorCanvasItemSpecKV3
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // vers\DriverData
+            // 3
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
             // Field count: 4
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod OutflowWithRequirements_t {
                 pub const m_Connection: usize = 0x0; // CPulse_OutflowConnection
@@ -984,6 +1019,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
@@ -991,9 +1027,25 @@ pub mod source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             pub mod CPulseCell_IsRequirementValid {
             }
             // Parent: None
@@ -1003,41 +1055,22 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            pub mod CPulseCell_Value_Gradient {
-                pub const m_Gradient: usize = 0x48; // CColorGradient
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MPropertyDescription
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            // MGetKV3ClassDefaults
             // MPropertyDescription
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            pub mod CPulseCursorFuncs {
+            pub mod CPulseCell_Value_Gradient {
+                pub const m_Gradient: usize = 0x48; // CColorGradient
             }
             // Parent: None
             // Field count: 2
@@ -1059,10 +1092,38 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_Inflow_GraphHook {
                 pub const m_HookName: usize = 0x80; // PulseSymbol_t
             }
@@ -1080,10 +1141,38 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_Inflow_BaseEntrypoint {
                 pub const m_EntryChunk: usize = 0x48; // PulseRuntimeChunkIndex_t
                 pub const m_RegisterMap: usize = 0x50; // PulseRegisterMap_t
@@ -1094,9 +1183,21 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_WaitForCursorsWithTagBase {
-                pub const m_nCursorsAllowedToWait: usize = 0x48; // int32
-                pub const m_WaitComplete: usize = 0x50; // CPulse_ResumePoint
+                pub const m_nCursorsAllowedToWait: usize = 0xD8; // int32
+                pub const m_WaitComplete: usize = 0xE0; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 5
@@ -1118,58 +1219,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPropertyDescription
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
             pub mod CPulseCell_IntervalTimer {
-                pub const m_Completed: usize = 0x48; // CPulse_ResumePoint
-                pub const m_OnInterval: usize = 0x90; // SignatureOutflow_Continue
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub mod CPulseTestScriptLib {
+                pub const m_Completed: usize = 0xD8; // CPulse_ResumePoint
+                pub const m_OnInterval: usize = 0x120; // SignatureOutflow_Continue
             }
             // Parent: None
             // Field count: 1
@@ -1180,35 +1257,21 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
+            // MPropertyDescription
+            // MPulseSignatureForOutflow
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
+            // V
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 0
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseLerp {
-                pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
+                pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 1
@@ -1216,17 +1279,16 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_Curve {
                 pub const m_Curve: usize = 0x48; // CPiecewiseCurve
             }
@@ -1238,10 +1300,38 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_Inflow_EventHandler {
                 pub const m_EventName: usize = 0x80; // PulseSymbol_t
             }
@@ -1252,11 +1342,43 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPulseSignatureForOutflow
-            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_BaseFlow {
             }
             // Parent: None
@@ -1279,74 +1401,33 @@ pub mod source2_dumper {
                 pub const m_EndTime: usize = 0x4; // GameTime_t
             }
             // Parent: None
-            // Field count: 1
-            pub mod CPulseCell_WaitForCursorsWithTagBase__CursorState_t {
-                pub const m_TagName: usize = 0x0; // PulseSymbol_t
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MPropertyDescription
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            pub mod CPulseArraylib {
-            }
-            // Parent: None
             // Field count: 0
             pub mod SignatureOutflow_Continue {
             }
             // Parent: None
-            // Field count: 4
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPulseEditorHeaderIcon
-            // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             // MPulseEditorHeaderIcon
             // MPropertyDescription
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_Timeline {
-                pub const m_TimelineEvents: usize = 0x48; // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
-                pub const m_bWaitForChildOutflows: usize = 0x60; // bool
-                pub const m_OnFinished: usize = 0x68; // CPulse_ResumePoint
-                pub const m_OnCanceled: usize = 0xB0; // CPulse_ResumePoint
+                pub const m_TimelineEvents: usize = 0xD8; // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
+                pub const m_bWaitForChildOutflows: usize = 0xF0; // bool
+                pub const m_OnFinished: usize = 0xF8; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 3
@@ -1354,10 +1435,38 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_Inflow_EntOutputHandler {
                 pub const m_SourceEntity: usize = 0x80; // PulseSymbol_t
                 pub const m_SourceOutput: usize = 0x90; // PulseSymbol_t
@@ -1367,7 +1476,6 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleOrdered__InstanceState_t {
                 pub const m_nNextIndex: usize = 0x0; // int32
@@ -1381,6 +1489,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_LimitCount__InstanceState_t {
                 pub const m_nCurrentCount: usize = 0x0; // int32
             }
@@ -1390,20 +1499,46 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_DebugLog {
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -1411,28 +1546,20 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 0
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
             pub mod CPulseCell_BaseYieldingInflow {
+                pub const m_BaseFlow_OnAfterCancel: usize = 0x48; // CPulse_ResumePoint
+                pub const m_BaseFlow_WhileActive: usize = 0x90; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 1
@@ -1457,24 +1584,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_ObservableVariableListener {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -1484,20 +1593,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
+            // MPulseSignatureForOutflow
+            // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 0
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             pub mod CPulseCell_Outflow_CycleOrdered {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -1519,20 +1619,13 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 0
             pub mod CPulseCell_Inflow_Wait {
-                pub const m_WakeResume: usize = 0x48; // CPulse_ResumePoint
+                pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 1
@@ -1549,9 +1642,39 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleShuffled {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -1564,10 +1687,38 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_Inflow_Method {
                 pub const m_MethodName: usize = 0x80; // PulseSymbol_t
                 pub const m_Description: usize = 0x90; // CUtlString
@@ -1582,66 +1733,34 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPulseSignatureForOutflow
             pub mod CPulseCell_BaseValue {
             }
             // Parent: None
-            // Field count: 4
+            // Field count: 3
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPulseEditorHeaderIcon
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPropertyDescription
-            // MPropertyDescription
+            // CURSOR_ADD_TAG
+            // CURSOR_REMOVE_TAG
+            // CURSOR_RETIRED
+            // REQUIREMENT_PASS
+            // REQUIREMENT_FAIL
             pub mod CPulseCell_BooleanSwitchState {
-                pub const m_Condition: usize = 0x48; // PulseObservableBoolExpression_t
-                pub const m_Always: usize = 0xC0; // CPulse_OutflowConnection
-                pub const m_WhenTrue: usize = 0x108; // CPulse_OutflowConnection
-                pub const m_WhenFalse: usize = 0x150; // CPulse_OutflowConnection
+                pub const m_Condition: usize = 0xD8; // CPulseObservableExpression<bool>
+                pub const m_WhenTrue: usize = 0x150; // CPulse_OutflowConnection
+                pub const m_WhenFalse: usize = 0x198; // CPulse_OutflowConnection
             }
             // Parent: None
             // Field count: 1
@@ -1649,18 +1768,17 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub mod CPulseCell_Inflow_Yield {
-                pub const m_UnyieldResume: usize = 0x48; // CPulse_ResumePoint
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
+            // MPropertyFriendlyName
             // MPropertyDescription
-            pub mod CPulseMathlib {
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            pub mod CPulseCell_Inflow_Yield {
+                pub const m_UnyieldResume: usize = 0xD8; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 1
@@ -1675,6 +1793,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Outflow_CycleRandom {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -1684,22 +1808,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MPulseEditorCanvasItemSpecKV3
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPulseSignatureForOutflow
             pub mod CPulseCell_Step_PublicOutput {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -1730,15 +1841,46 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Value_RandomInt {
             }
             // Parent: None
             // Field count: 6
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulse_CallInfo {
@@ -1754,24 +1896,33 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentReturn
-            // MPulsePolymorphicDependentArg
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
             pub mod CPulseCell_InlineNodeSkipSelector {
                 pub const m_nFlowNodeID: usize = 0x48; // PulseDocNodeID_t
                 pub const m_bAnd: usize = 0x4C; // bool
@@ -1785,21 +1936,28 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyDescription
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
-            // MPulseExpressionAlias
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
+            // SORT_BY_OUTFLOW_INDEX
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_LimitCount {
                 pub const m_nLimitCount: usize = 0x48; // int32
             }
@@ -1808,25 +1966,19 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 0
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CPulseCell_Step_CallExternalMethod {
-                pub const m_MethodName: usize = 0x48; // PulseSymbol_t
-                pub const m_nBlackboardIndex: usize = 0x58; // PulseRuntimeBlackboardReferenceIndex_t
-                pub const m_ExpectedArgs: usize = 0x60; // CUtlLeanVector<CPulseRuntimeMethodArg>
-                pub const m_nAsyncCallMode: usize = 0x70; // PulseMethodCallMode_t
-                pub const m_OnFinished: usize = 0x78; // CPulse_ResumePoint
-            }
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub mod PulseObservableBoolExpression_t {
-                pub const m_EvaluateConnection: usize = 0x0; // CPulse_OutflowConnection
-                pub const m_DependentObservableVars: usize = 0x48; // CUtlVector<PulseRuntimeVarIndex_t>
-                pub const m_DependentObservableBlackboardReferences: usize = 0x60; // CUtlVector<PulseRuntimeBlackboardReferenceIndex_t>
+                pub const m_MethodName: usize = 0xD8; // PulseSymbol_t
+                pub const m_nBlackboardIndex: usize = 0xE8; // PulseRuntimeBlackboardReferenceIndex_t
+                pub const m_ExpectedArgs: usize = 0xF0; // CUtlLeanVector<CPulseRuntimeMethodArg>
+                pub const m_nAsyncCallMode: usize = 0x100; // PulseMethodCallMode_t
+                pub const m_OnFinished: usize = 0x108; // CPulse_ResumePoint
             }
             // Parent: None
             // Field count: 1
@@ -1842,7 +1994,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPropertyDescription
-            // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
             // MPropertyDescription
@@ -1853,8 +2004,22 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentReturn
+            // MPulsePolymorphicDependentArg
             pub mod CPulseCell_CursorQueue {
-                pub const m_nCursorsAllowedToRunParallel: usize = 0x98; // int32
+                pub const m_nCursorsAllowedToRunParallel: usize = 0x128; // int32
             }
             // Parent: None
             // Field count: 0
@@ -1866,9 +2031,44 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 0
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MCustomFGDMetadata
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MPulseLegacyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
+            // MPulseEditorCanvasItemSpecKV3
             pub mod CPulseCell_Value_RandomFloat {
             }
             // Parent: None
@@ -1884,165 +2084,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MPropertyFriendlyName
-            // PET_GROUND_GRID
-            // PET_GROUND_PLANE
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // PARTICLE_FALLOFF_LINEAR
-            // PARTICLE_FALLOFF_EXPONENTIAL
-            // SUBMODEL_AS_MESHGROUP_INDEX
-            // SUBMODEL_AS_MESHGROUP_MASK
-            // SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // PARTICLE_ORIENTATION_VELOCITY
-            // PARTICLE_ORIENTATION_NORMAL
-            // PARTICLE_ORIENTATION_ROTATION
-            // MPropertyFriendlyName
-            // IMPULSE_TYPE_GENERIC
-            // IMPULSE_TYPE_ROPE
-            // IMPULSE_TYPE_EXPLOSION
-            // IMPULSE_TYPE_EXPLOSION_UNDERWATER
-            // IMPULSE_TYPE_PARTICLE_SYSTEM
-            // MPropertyFriendlyName
-            // PARTICLE_ATTR_BOX_FLAGS_WATER
-            // PARTICLE_ATTR_BOX_FLAGS_ON_FIRE
-            // PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED
-            // PARTICLE_ATTR_BOX_FLAGS_ASLEEP
-            // PARTICLE_ATTR_BOX_FLAGS_FROZEN
-            // PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // PFUNC_VISUALIZATION_SPHERE_SOLID
-            // PFUNC_VISUALIZATION_BOX
-            // PFUNC_VISUALIZATION_RING
-            // PFUNC_VISUALIZATION_PLANE
-            // PFUNC_VISUALIZATION_LINE
-            // PFUNC_VISUALIZATION_CYLINDER
-            // MPropertyFriendlyName
-            // PARTICLE_HITBOX_BIAS_HITBOX
-            // MPropertyFriendlyName
-            // PARTICLE_CLOSEST_TYPE_CAPSULE
-            // PARTICLE_CLOSEST_TYPE_HYBRID
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // INHERITABLE_BOOL_FALSE
-            // INHERITABLE_BOOL_TRUE
-            // MGetKV3ClassDefaults
-            // PARTICLE_FAN_TYPE_ROTOR_WASH
-            // PARTICLE_FAN_TYPE_RADIAL
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // PARTICLE_WORLDSPACE_CENTER
-            // PARTICLE_EYES
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MODEL_HITBOX_TYPE_RAW_BONES
-            // MODEL_HITBOX_TYPE_RENDERBOUNDS
-            // MODEL_HITBOX_TYPE_SNAPSHOT
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // PARTICLE_TOPOLOGY_LINES
-            // PARTICLE_TOPOLOGY_TRIS
-            // PARTICLE_TOPOLOGY_QUADS
-            // PARTICLE_TOPOLOGY_CUBES
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // PARTICLE_TRACE_SET_STATIC
-            // PARTICLE_TRACE_SET_STATIC_AND_KEYFRAMED
-            // PARTICLE_TRACE_SET_DYNAMIC
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // COLLISION_MODE_PER_PARTICLE_TRACE
-            // COLLISION_MODE_USE_NEAREST_TRACE
-            // COLLISION_MODE_PER_FRAME_PLANESET
-            // COLLISION_MODE_DISABLED
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // SPRITECARD_SHADER_CUSTOM
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // PARTICLEDETAIL_MEDIUM
-            // PARTICLEDETAIL_HIGH
-            // PARTICLEDETAIL_ULTRA
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             pub mod ParticleAttributeIndex_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -2052,16 +2093,13 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2072,18 +2110,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             pub mod C_OP_RemapGravityToVector {
                 pub const m_vInput1: usize = 0x1D8; // CPerParticleVecInput
@@ -2107,11 +2137,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2121,10 +2153,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2138,21 +2167,21 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2166,23 +2195,28 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderDeferredLight {
                 pub const m_bUseAlphaTestWindow: usize = 0x228; // bool
@@ -2208,25 +2242,13 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2234,11 +2256,8 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_OP_RemapSpeedtoCP {
                 pub const m_nInControlPointNumber: usize = 0x1E0; // int32
@@ -2260,15 +2279,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2320,12 +2331,16 @@ pub mod source2_dumper {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SEG_COUNT_7
             // PARTICLE_MULTISEGMENT_SEG_COUNT_14
             // PARTICLE_MULTISEGMENT_SEG_COUNT_16
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2341,13 +2356,135 @@ pub mod source2_dumper {
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // PET_GROUND_GRID
+            // PET_GROUND_PLANE
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_FALLOFF_LINEAR
+            // PARTICLE_FALLOFF_EXPONENTIAL
+            // MPropertyFriendlyName
+            // SUBMODEL_AS_MESHGROUP_INDEX
+            // SUBMODEL_AS_MESHGROUP_MASK
+            // SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_ORIENTATION_VELOCITY
+            // PARTICLE_ORIENTATION_NORMAL
+            // PARTICLE_ORIENTATION_ROTATION
+            // MPropertyFriendlyName
+            // IMPULSE_TYPE_GENERIC
+            // IMPULSE_TYPE_ROPE
+            // IMPULSE_TYPE_EXPLOSION
+            // IMPULSE_TYPE_EXPLOSION_UNDERWATER
+            // IMPULSE_TYPE_PARTICLE_SYSTEM
+            // PARTICLE_ATTR_BOX_FLAGS_WATER
+            // PARTICLE_ATTR_BOX_FLAGS_ON_FIRE
+            // PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED
+            // PARTICLE_ATTR_BOX_FLAGS_ASLEEP
+            // PARTICLE_ATTR_BOX_FLAGS_FROZEN
+            // PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_DISABLE_NONSTATIC_COLLISION
+            // PARTICLE_ATTR_BOX_FLAGS_WAKE_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_MOTION_DISABLED
+            // PARTICLE_ATTR_BOX_FLAGS_ZERO_GRAVITY
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PFUNC_VISUALIZATION_SPHERE_SOLID
+            // PFUNC_VISUALIZATION_BOX
+            // PFUNC_VISUALIZATION_RING
+            // PFUNC_VISUALIZATION_PLANE
+            // PFUNC_VISUALIZATION_LINE
+            // PFUNC_VISUALIZATION_CYLINDER
+            // MPropertyFriendlyName
+            // PARTICLE_HITBOX_BIAS_HITBOX
+            // MPropertyFriendlyName
+            // PARTICLE_CLOSEST_TYPE_CAPSULE
+            // PARTICLE_CLOSEST_TYPE_HYBRID
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // INHERITABLE_BOOL_FALSE
+            // INHERITABLE_BOOL_TRUE
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // PARTICLE_FAN_TYPE_ROTOR_WASH
+            // PARTICLE_FAN_TYPE_RADIAL
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // PARTICLE_WORLDSPACE_CENTER
+            // PARTICLE_EYES
+            // PARTICLE_FLASHLIGHT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MODEL_HITBOX_TYPE_RAW_BONES
+            // MODEL_HITBOX_TYPE_RENDERBOUNDS
+            // MODEL_HITBOX_TYPE_SNAPSHOT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // PARTICLE_TOPOLOGY_LINES
+            // PARTICLE_TOPOLOGY_TRIS
             pub mod CParticleFunctionPreEmission {
                 pub const m_bRunOnce: usize = 0x1D8; // bool
             }
@@ -2361,23 +2498,44 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_FadeOutSimple {
                 pub const m_flFadeOutTime: usize = 0x1D8; // float32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -2398,9 +2556,9 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -2429,54 +2587,57 @@ pub mod source2_dumper {
                 pub const m_vecAnchorVector: usize = 0x798; // CPerParticleVecInput
             }
             // Parent: None
-            // Field count: 32
+            // Field count: 33
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderRopes {
@@ -2487,31 +2648,32 @@ pub mod source2_dumper {
                 pub const m_flEndFadeSize: usize = 0x2E00; // float32
                 pub const m_flStartFadeDot: usize = 0x2E04; // float32
                 pub const m_flEndFadeDot: usize = 0x2E08; // float32
-                pub const m_flRadiusTaper: usize = 0x2E0C; // float32
-                pub const m_nMinTesselation: usize = 0x2E10; // int32
-                pub const m_nMaxTesselation: usize = 0x2E14; // int32
-                pub const m_flTessScale: usize = 0x2E18; // float32
-                pub const m_flTextureVWorldSize: usize = 0x2E20; // CParticleCollectionRendererFloatInput
-                pub const m_flTextureVScrollRate: usize = 0x2F90; // CParticleCollectionRendererFloatInput
-                pub const m_flTextureVOffset: usize = 0x3100; // CParticleCollectionRendererFloatInput
-                pub const m_nTextureVParamsCP: usize = 0x3270; // int32
-                pub const m_bClampV: usize = 0x3274; // bool
-                pub const m_nScaleCP1: usize = 0x3278; // int32
-                pub const m_nScaleCP2: usize = 0x327C; // int32
-                pub const m_flScaleVSizeByControlPointDistance: usize = 0x3280; // float32
-                pub const m_flScaleVScrollByControlPointDistance: usize = 0x3284; // float32
-                pub const m_flScaleVOffsetByControlPointDistance: usize = 0x3288; // float32
-                pub const m_bUseScalarForTextureCoordinate: usize = 0x328D; // bool
-                pub const m_nScalarFieldForTextureCoordinate: usize = 0x3290; // ParticleAttributeIndex_t
-                pub const m_flScalarAttributeTextureCoordScale: usize = 0x3294; // float32
-                pub const m_bReverseOrder: usize = 0x3298; // bool
-                pub const m_bClosedLoop: usize = 0x3299; // bool
-                pub const m_nSplitField: usize = 0x329C; // ParticleAttributeIndex_t
-                pub const m_bSortBySegmentID: usize = 0x32A0; // bool
-                pub const m_nOrientationType: usize = 0x32A4; // ParticleOrientationChoiceList_t
-                pub const m_nVectorFieldForOrientation: usize = 0x32A8; // ParticleAttributeIndex_t
-                pub const m_bDrawAsOpaque: usize = 0x32AC; // bool
-                pub const m_bGenerateNormals: usize = 0x32AD; // bool
+                pub const m_flSubPixelAAScale: usize = 0x2E10; // CParticleCollectionRendererFloatInput
+                pub const m_flRadiusTaper: usize = 0x2F80; // float32
+                pub const m_nMinTesselation: usize = 0x2F84; // int32
+                pub const m_nMaxTesselation: usize = 0x2F88; // int32
+                pub const m_flTessScale: usize = 0x2F8C; // float32
+                pub const m_flTextureVWorldSize: usize = 0x2F90; // CParticleCollectionRendererFloatInput
+                pub const m_flTextureVScrollRate: usize = 0x3100; // CParticleCollectionRendererFloatInput
+                pub const m_flTextureVOffset: usize = 0x3270; // CParticleCollectionRendererFloatInput
+                pub const m_nTextureVParamsCP: usize = 0x33E0; // int32
+                pub const m_bClampV: usize = 0x33E4; // bool
+                pub const m_nScaleCP1: usize = 0x33E8; // int32
+                pub const m_nScaleCP2: usize = 0x33EC; // int32
+                pub const m_flScaleVSizeByControlPointDistance: usize = 0x33F0; // float32
+                pub const m_flScaleVScrollByControlPointDistance: usize = 0x33F4; // float32
+                pub const m_flScaleVOffsetByControlPointDistance: usize = 0x33F8; // float32
+                pub const m_bUseScalarForTextureCoordinate: usize = 0x33FD; // bool
+                pub const m_nScalarFieldForTextureCoordinate: usize = 0x3400; // ParticleAttributeIndex_t
+                pub const m_flScalarAttributeTextureCoordScale: usize = 0x3404; // float32
+                pub const m_bReverseOrder: usize = 0x3408; // bool
+                pub const m_bClosedLoop: usize = 0x3409; // bool
+                pub const m_nSplitField: usize = 0x340C; // ParticleAttributeIndex_t
+                pub const m_bSortBySegmentID: usize = 0x3410; // bool
+                pub const m_nOrientationType: usize = 0x3414; // ParticleOrientationChoiceList_t
+                pub const m_nVectorFieldForOrientation: usize = 0x3418; // ParticleAttributeIndex_t
+                pub const m_bDrawAsOpaque: usize = 0x341C; // bool
+                pub const m_bGenerateNormals: usize = 0x341D; // bool
             }
             // Parent: None
             // Field count: 19
@@ -2520,18 +2682,20 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2539,17 +2703,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2569,9 +2733,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2579,12 +2742,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod C_INIT_StatusEffectCitadel {
                 pub const m_flSFXColorWarpAmount: usize = 0x1E0; // float32
                 pub const m_flSFXNormalAmount: usize = 0x1E4; // float32
@@ -2612,64 +2777,69 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertySortPriority
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // UNUSED
             // F_NORMAL_MAP
@@ -2692,28 +2862,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2722,35 +2890,39 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertySortPriority
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             pub mod C_OP_RenderSound {
                 pub const m_flDurationScale: usize = 0x228; // float32
@@ -2799,6 +2971,28 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MParticleMaxVersion
+            // MParticleReplacementOp
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2806,17 +3000,35 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetControlPointsToParticle {
@@ -2835,9 +3047,10 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2854,11 +3067,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2868,10 +3083,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2885,21 +3097,21 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2918,8 +3130,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2943,18 +3153,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_PointVectorAtNextParticle {
@@ -2969,7 +3177,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // PARTICLE_WORLDSPACE_CENTER
             // PARTICLE_EYES
-            // MPropertyFriendlyName
+            // PARTICLE_FLASHLIGHT
             pub mod ParticlePreviewBodyGroup_t {
                 pub const m_bodyGroupName: usize = 0x0; // CUtlString
                 pub const m_nValue: usize = 0x8; // int32
@@ -2984,17 +3192,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3002,11 +3204,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_OscillateScalarSimple {
                 pub const m_Rate: usize = 0x1D8; // float32
                 pub const m_Frequency: usize = 0x1DC; // float32
@@ -3019,21 +3235,22 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3055,41 +3272,41 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_INIT_StatusEffect {
                 pub const m_nDetail2Combo: usize = 0x1E0; // Detail2Combo_t
                 pub const m_flDetail2Rotation: usize = 0x1E4; // float32
@@ -3117,10 +3334,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
@@ -3129,12 +3343,12 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -3142,9 +3356,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3171,6 +3384,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3191,8 +3406,8 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3208,14 +3423,14 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod C_OP_ConstrainDistance {
                 pub const m_fMinDistance: usize = 0x1D8; // CParticleCollectionFloatInput
                 pub const m_fMaxDistance: usize = 0x348; // CParticleCollectionFloatInput
@@ -3238,9 +3453,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3248,12 +3462,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3265,9 +3482,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3277,6 +3492,7 @@ pub mod source2_dumper {
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3305,7 +3521,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             pub mod C_INIT_RandomVector {
                 pub const m_vecMin: usize = 0x1E0; // Vector
                 pub const m_vecMax: usize = 0x1EC; // Vector
@@ -3330,12 +3545,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
@@ -3348,25 +3558,28 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod C_INIT_InitialVelocityNoise {
                 pub const m_vecAbsVal: usize = 0x1E0; // Vector
                 pub const m_vecAbsValInv: usize = 0x1EC; // Vector
@@ -3414,27 +3627,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3459,6 +3671,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3466,8 +3681,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
@@ -3482,8 +3697,7 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3493,7 +3707,10 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_INIT_RandomNamedModelSequence {
             }
             // Parent: None
@@ -3503,25 +3720,23 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_PlaneCull {
@@ -3531,13 +3746,11 @@ pub mod source2_dumper {
                 pub const m_flPlaneOffset: usize = 0x89C; // float32
             }
             // Parent: None
-            // Field count: 7
+            // Field count: 8
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3549,24 +3762,46 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3579,26 +3814,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_VelocityRandom {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
@@ -3608,6 +3826,7 @@ pub mod source2_dumper {
                 pub const m_LocalCoordinateSystemSpeedMax: usize = 0xB80; // CPerParticleVecInput
                 pub const m_bIgnoreDT: usize = 0x1238; // bool
                 pub const m_randomnessParameters: usize = 0x123C; // CRandomNumberGeneratorParameters
+                pub const m_nControlPointNumber: usize = 0x1E0; // int32
             }
             // Parent: None
             // Field count: 7
@@ -3615,14 +3834,54 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MParticleMaxVersion
+            // MParticleReplacementOp
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_ModelDampenMovement {
@@ -3640,16 +3899,16 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -3666,7 +3925,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3695,25 +3953,31 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_TeleportBeam {
                 pub const m_nCPPosition: usize = 0x1D8; // int32
                 pub const m_nCPVelocity: usize = 0x1DC; // int32
@@ -3733,16 +3997,27 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3750,8 +4025,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_RemapExternalWindToCP {
                 pub const m_nCP: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -3766,11 +4050,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_FOG_ENABLED
             // PARTICLE_FOG_DISABLED
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeRange
@@ -3781,36 +4066,37 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // PARTICLE_LIGHT_UNIT_LUMENS
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -3829,22 +4115,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // PARTICLE_SORTING_CREATION_TIME
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertySortPriority
-            // PARTICLE_SORTING_CREATION_TIME
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // PARTICLE_VRHAND_RIGHT
             // PARTICLE_VRHAND_CP
             // PARTICLE_VRHAND_CP_OBJECT
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3867,11 +4152,11 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA
             // SPRITECARD_TEXTURE_CHANNEL_MIX_A
             // SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A
@@ -3887,12 +4172,16 @@ pub mod source2_dumper {
             // SPRITECARD_TEXTURE_CHANNEL_MIX_GALPHA
             // SPRITECARD_TEXTURE_CHANNEL_MIX_BALPHA
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertySortPriority
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
             // PARTICLE_ORIENTATION_SCREEN_Z_ALIGNED
@@ -3901,22 +4190,20 @@ pub mod source2_dumper {
             // PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL
             // PARTICLE_ORIENTATION_FULL_3AXIS_ROTATION
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3928,22 +4215,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3962,39 +4247,40 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
+            // MGetKV3ClassDefaults
             // PARTICLE_LIGHT_BEHAVIOR_ROPE
             // PARTICLE_LIGHT_BEHAVIOR_TRAILS
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // BLURFILTER_BOX
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // PARTICLE_POST_PROCESS_PRIORITY_LEVEL_OVERRIDE
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_EFFECT
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_LOW
@@ -4002,35 +4288,35 @@ pub mod source2_dumper {
             // PARTICLE_POST_PROCESS_PRIORITY_GLOBAL_UI
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // PARTICLE_OUTPUT_BLEND_MODE_ADD
             // PARTICLE_OUTPUT_BLEND_MODE_BLEND_ADD
             // PARTICLE_OUTPUT_BLEND_MODE_HALF_BLEND_ADD
             // PARTICLE_OUTPUT_BLEND_MODE_NEG_HALF_BLEND_ADD
             // PARTICLE_OUTPUT_BLEND_MODE_MOD2X
             // PARTICLE_OUTPUT_BLEND_MODE_LIGHTEN
-            // MPropertyFriendlyName
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertySortPriority
             // SPRITECARD_TEXTURE_BLEND_MOD2X
             // SPRITECARD_TEXTURE_BLEND_REPLACE
             // SPRITECARD_TEXTURE_BLEND_ADD
             // SPRITECARD_TEXTURE_BLEND_SUBTRACT
             // SPRITECARD_TEXTURE_BLEND_AVERAGE
             // SPRITECARD_TEXTURE_BLEND_LUMINANCE
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertySortPriority
@@ -4106,13 +4392,16 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // h
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -4121,22 +4410,27 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4144,28 +4438,26 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub mod CSpinUpdateBase {
             }
             // Parent: None
@@ -4175,11 +4467,56 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MParticleMaxVersion
+            // MParticleReplacementOp
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_OrientTo2dDirection {
@@ -4195,31 +4532,38 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod C_OP_RemapDotProductToCP {
                 pub const m_nInputCP1: usize = 0x1E0; // int32
@@ -4237,46 +4581,44 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4292,9 +4634,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4308,6 +4649,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -4315,16 +4662,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub mod C_INIT_RemapParticleCountToNamedModelElementScalar {
                 pub const m_hModel: usize = 0x210; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_outputMinName: usize = 0x218; // CUtlString
@@ -4340,15 +4683,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4359,9 +4702,6 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4371,11 +4711,8 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
@@ -4384,26 +4721,26 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertySuppressExpr
             pub mod C_OP_RenderTrails {
-                pub const m_bEnableFadingAndClamping: usize = 0x30E8; // bool
-                pub const m_flStartFadeDot: usize = 0x30EC; // float32
-                pub const m_flEndFadeDot: usize = 0x30F0; // float32
-                pub const m_nPrevPntSource: usize = 0x30F4; // ParticleAttributeIndex_t
-                pub const m_flMaxLength: usize = 0x30F8; // float32
-                pub const m_flMinLength: usize = 0x30FC; // float32
-                pub const m_bIgnoreDT: usize = 0x3100; // bool
-                pub const m_flConstrainRadiusToLengthRatio: usize = 0x3104; // float32
-                pub const m_flLengthScale: usize = 0x3108; // float32
-                pub const m_flLengthFadeInTime: usize = 0x310C; // float32
-                pub const m_flRadiusHeadTaper: usize = 0x3110; // CPerParticleFloatInput
-                pub const m_vecHeadColorScale: usize = 0x3280; // CParticleCollectionVecInput
-                pub const m_flHeadAlphaScale: usize = 0x3938; // CPerParticleFloatInput
-                pub const m_flRadiusTaper: usize = 0x3AA8; // CPerParticleFloatInput
-                pub const m_vecTailColorScale: usize = 0x3C18; // CParticleCollectionVecInput
-                pub const m_flTailAlphaScale: usize = 0x42D0; // CPerParticleFloatInput
-                pub const m_nHorizCropField: usize = 0x4440; // ParticleAttributeIndex_t
-                pub const m_nVertCropField: usize = 0x4444; // ParticleAttributeIndex_t
-                pub const m_flForwardShift: usize = 0x4448; // float32
-                pub const m_bFlipUVBasedOnPitchYaw: usize = 0x444C; // bool
+                pub const m_bEnableFadingAndClamping: usize = 0x3258; // bool
+                pub const m_flStartFadeDot: usize = 0x325C; // float32
+                pub const m_flEndFadeDot: usize = 0x3260; // float32
+                pub const m_nPrevPntSource: usize = 0x3264; // ParticleAttributeIndex_t
+                pub const m_flMaxLength: usize = 0x3268; // float32
+                pub const m_flMinLength: usize = 0x326C; // float32
+                pub const m_bIgnoreDT: usize = 0x3270; // bool
+                pub const m_flConstrainRadiusToLengthRatio: usize = 0x3274; // float32
+                pub const m_flLengthScale: usize = 0x3278; // float32
+                pub const m_flLengthFadeInTime: usize = 0x327C; // float32
+                pub const m_flRadiusHeadTaper: usize = 0x3280; // CPerParticleFloatInput
+                pub const m_vecHeadColorScale: usize = 0x33F0; // CParticleCollectionVecInput
+                pub const m_flHeadAlphaScale: usize = 0x3AA8; // CPerParticleFloatInput
+                pub const m_flRadiusTaper: usize = 0x3C18; // CPerParticleFloatInput
+                pub const m_vecTailColorScale: usize = 0x3D88; // CParticleCollectionVecInput
+                pub const m_flTailAlphaScale: usize = 0x4440; // CPerParticleFloatInput
+                pub const m_nHorizCropField: usize = 0x45B0; // ParticleAttributeIndex_t
+                pub const m_nVertCropField: usize = 0x45B4; // ParticleAttributeIndex_t
+                pub const m_flForwardShift: usize = 0x45B8; // float32
+                pub const m_bFlipUVBasedOnPitchYaw: usize = 0x45BC; // bool
             }
             // Parent: None
             // Field count: 3
@@ -4413,8 +4750,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4432,28 +4777,30 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PARTICLE_MASSMODE_RADIUS_SQUARED
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub mod C_OP_DecayMaintainCount {
                 pub const m_nParticlesToMaintain: usize = 0x1D8; // int32
                 pub const m_flDecayDelay: usize = 0x1DC; // float32
@@ -4475,8 +4822,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -4492,12 +4837,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
@@ -4510,17 +4850,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod C_INIT_RandomModelSequence {
                 pub const m_ActivityName: usize = 0x1E0; // char[256]
                 pub const m_SequenceName: usize = 0x2E0; // char[256]
@@ -4531,7 +4875,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4567,19 +4910,19 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_RemapAverageHitboxSpeedtoCP {
                 pub const m_nInControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nOutControlPointNumber: usize = 0x1E4; // int32
@@ -4604,9 +4947,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4614,17 +4958,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4644,9 +4988,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4654,13 +4997,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RandomAlpha {
@@ -4674,8 +5017,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -4688,31 +5029,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            //  
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -4723,9 +5054,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
@@ -4735,7 +5072,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -4744,14 +5080,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub mod C_OP_NormalizeVector {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flScale: usize = 0x1DC; // float32
@@ -4762,26 +5097,28 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_FadeInSimple {
@@ -4806,21 +5143,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4836,28 +5170,27 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapVelocityToVector {
@@ -4870,64 +5203,26 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MParticleMaxVersion
-            // MParticleReplacementOp
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // H
             pub mod C_INIT_SetHitboxToClosest {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nDesiredHitbox: usize = 0x1E4; // int32
@@ -4944,8 +5239,15 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4956,6 +5258,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4964,42 +5291,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5021,18 +5318,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_INIT_RingWave {
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
                 pub const m_flParticlesPerOrbit: usize = 0x248; // CParticleCollectionFloatInput
@@ -5059,10 +5360,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5083,23 +5387,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5117,17 +5420,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -5143,26 +5449,25 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5189,6 +5494,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -5209,17 +5523,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -5250,8 +5553,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -5261,11 +5562,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_DecayOffscreen {
                 pub const m_flOffscreenTime: usize = 0x1D8; // CParticleCollectionFloatInput
             }
@@ -5276,6 +5577,7 @@ pub mod source2_dumper {
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5312,17 +5614,9 @@ pub mod source2_dumper {
             // PARTICLE_CP_AXIS_NEGATIVE_Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -5330,15 +5624,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5359,14 +5659,46 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MParticleMinVersion
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             pub mod C_OP_EndCapTimedDecay {
                 pub const m_flDecayTime: usize = 0x1D8; // float32
             }
@@ -5375,6 +5707,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5403,51 +5736,30 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapDistanceToLineSegmentBase {
                 pub const m_nCP0: usize = 0x1D8; // int32
@@ -5462,8 +5774,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -5487,8 +5797,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMaxVersion
@@ -5521,6 +5831,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -5528,16 +5839,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5550,24 +5859,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -5576,6 +5870,29 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5588,6 +5905,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -5608,16 +5927,42 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MPropertyFriendlyName
-            //  
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -5632,6 +5977,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5645,9 +5993,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5661,6 +6008,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -5668,6 +6021,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5675,36 +6029,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5723,43 +6054,38 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5788,46 +6114,47 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_QuantizeFloat {
                 pub const m_InputValue: usize = 0x1D8; // CPerParticleFloatInput
@@ -5839,41 +6166,36 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -5881,9 +6203,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             pub mod C_OP_BasicMovement {
@@ -5903,12 +6225,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // p|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5933,13 +6254,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5947,12 +6269,24 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MGetKV3ClassDefaults
@@ -5960,23 +6294,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5992,9 +6314,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6007,6 +6328,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod C_INIT_InitFromParentKilled {
                 pub const m_nAttributeToCopy: usize = 0x1E0; // ParticleAttributeIndex_t
@@ -6020,9 +6343,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6035,23 +6358,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             pub mod C_OP_Callback {
             }
             // Parent: None
@@ -6061,23 +6382,23 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_ORIENTATION_SET_NONE
             // PARTICLE_ORIENTATION_SET_FROM_NORMAL
             // PARTICLE_ORIENTATION_SET_FROM_ROTATIONS
-            // MPropertyFriendlyName
             // PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC
             // PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC_NOSHADOWS
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6094,15 +6415,15 @@ pub mod source2_dumper {
             // PARTICLE_EVENT_TYPE_MASK_FIRST_COLLISION
             // PARTICLE_EVENT_TYPE_MASK_COLLISION_STOPPED
             // PARTICLE_EVENT_TYPE_MASK_KILLED_ON_COLLISION
+            // PARTICLE_EVENT_TYPE_MASK_KILLED_ON_CULL
+            // PARTICLE_EVENT_TYPE_MASK_CULLED_ON_SPAWN
             // PARTICLE_EVENT_TYPE_MASK_USER_1
             // PARTICLE_EVENT_TYPE_MASK_USER_2
             // PARTICLE_EVENT_TYPE_MASK_USER_3
             // PARTICLE_EVENT_TYPE_MASK_USER_4
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_ROTATION_LOCK_ROTATIONS
             // PARTICLE_ROTATION_LOCK_NORMAL
-            // MPropertyFriendlyName
             // VECTOR_EXPRESSION_UNINITIALIZED
             // VECTOR_EXPRESSION_SUBTRACT
             // VECTOR_EXPRESSION_MUL
@@ -6116,9 +6437,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6136,8 +6458,6 @@ pub mod source2_dumper {
             // PARTICLE_PIN_FLOAT_VALUE
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6147,11 +6467,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_LIGHTNING_BRANCH_ENDPOINT_DIR
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -6161,9 +6483,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_ENDCAP_ALWAYS_ON
             // PARTICLE_ENDCAP_ENDCAP_ON
+            // MPropertyFriendlyName
             // PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT
             // PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_ON
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6198,6 +6520,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // SCALAR_EXPRESSION_UNINITIALIZED
             // SCALAR_EXPRESSION_SUBTRACT
             // SCALAR_EXPRESSION_MUL
@@ -6209,15 +6533,12 @@ pub mod source2_dumper {
             // SCALAR_EXPRESSION_EQUAL
             // SCALAR_EXPRESSION_GT
             // SCALAR_EXPRESSION_LT
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // PARTICLE_COLLISION_GROUP_DEFAULT
             // PARTICLE_COLLISION_GROUP_DEBRIS
             // PARTICLE_COLLISION_GROUP_INTERACTIVE
             // PARTICLE_COLLISION_GROUP_PLAYER
             // PARTICLE_COLLISION_GROUP_VEHICLE
             // PARTICLE_COLLISION_GROUP_NPC
-            // PARTICLE_COLLISION_GROUP_PROPS
             pub mod CParticleFunction {
                 pub const m_flOpStrength: usize = 0x8; // CParticleCollectionFloatInput
                 pub const m_nOpEndCapState: usize = 0x178; // ParticleEndcapMode_t
@@ -6242,29 +6563,28 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -6272,18 +6592,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -6305,15 +6621,32 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MParticleMinVersion
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -6324,38 +6657,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_OffsetVectorToVector {
                 pub const m_nFieldInput: usize = 0x1E0; // ParticleAttributeIndex_t
@@ -6370,68 +6685,24 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MParticleMaxVersion
-            // MParticleReplacementOp
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             pub mod C_OP_SetPerChildControlPointFromAttribute {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32
@@ -6455,15 +6726,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6487,6 +6760,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6507,8 +6782,8 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6524,14 +6799,14 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod C_OP_BoxConstraint {
                 pub const m_vecMin: usize = 0x1D8; // CParticleCollectionVecInput
                 pub const m_vecMax: usize = 0x890; // CParticleCollectionVecInput
@@ -6545,29 +6820,13 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -6576,18 +6835,30 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_CreatePhyllotaxis {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
@@ -6606,7 +6877,7 @@ pub mod source2_dumper {
                 pub const m_bUseOrigRadius: usize = 0x20E; // bool
             }
             // Parent: None
-            // Field count: 6
+            // Field count: 7
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -6643,10 +6914,11 @@ pub mod source2_dumper {
             pub mod C_OP_AttractToControlPoint {
                 pub const m_vecComponentScale: usize = 0x1E8; // Vector
                 pub const m_fForceAmount: usize = 0x1F8; // CPerParticleFloatInput
-                pub const m_fFalloffPower: usize = 0x368; // float32
-                pub const m_TransformInput: usize = 0x370; // CParticleTransformInput
-                pub const m_fForceAmountMin: usize = 0x3D8; // CPerParticleFloatInput
-                pub const m_bApplyMinForce: usize = 0x548; // bool
+                pub const m_fMinimumDistance: usize = 0x368; // CPerParticleFloatInput
+                pub const m_fFalloffPower: usize = 0x4D8; // float32
+                pub const m_TransformInput: usize = 0x4E0; // CParticleTransformInput
+                pub const m_fForceAmountMin: usize = 0x548; // CPerParticleFloatInput
+                pub const m_bApplyMinForce: usize = 0x6B8; // bool
             }
             // Parent: None
             // Field count: 3
@@ -6655,35 +6927,41 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6705,28 +6983,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RandomLifeTime {
                 pub const m_fLifetimeMin: usize = 0x1E0; // float32
@@ -6739,45 +7015,44 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6785,17 +7060,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6810,8 +7085,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6821,10 +7095,14 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6833,8 +7111,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6844,15 +7125,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             pub mod C_INIT_VelocityRadialRandom {
                 pub const m_bPerParticleCenter: usize = 0x1E0; // bool
@@ -6870,13 +7150,15 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6896,9 +7178,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6906,12 +7187,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6923,9 +7207,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6946,13 +7228,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RandomRadius {
@@ -6980,7 +7260,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6999,6 +7278,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7006,7 +7286,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub mod C_OP_Orient2DRelToCP {
@@ -7021,12 +7300,8 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
+            // MPropertySortPriority
             pub mod TextureControls_t {
                 pub const m_flFinalTextureScaleU: usize = 0x0; // CParticleCollectionRendererFloatInput
                 pub const m_flFinalTextureScaleV: usize = 0x170; // CParticleCollectionRendererFloatInput
@@ -7062,10 +7337,16 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7078,12 +7359,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7097,11 +7392,13 @@ pub mod source2_dumper {
                 pub const m_bNormalizedOutput: usize = 0x10C8; // bool
             }
             // Parent: None
-            // Field count: 15
+            // Field count: 20
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -7109,34 +7406,39 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -7152,33 +7454,30 @@ pub mod source2_dumper {
                 pub const m_flUVScale: usize = 0x7B0; // CParticleCollectionFloatInput
                 pub const m_flUVOffset: usize = 0x920; // CParticleCollectionFloatInput
                 pub const m_flSplitRate: usize = 0xA90; // CParticleCollectionFloatInput
-                pub const m_flBranchTwist: usize = 0xC00; // CParticleCollectionFloatInput
-                pub const m_nBranchBehavior: usize = 0xD70; // ParticleLightnintBranchBehavior_t
-                pub const m_flRadiusStart: usize = 0xD78; // CParticleCollectionFloatInput
-                pub const m_flRadiusEnd: usize = 0xEE8; // CParticleCollectionFloatInput
-                pub const m_flDedicatedPool: usize = 0x1058; // CParticleCollectionFloatInput
+                pub const m_flRecursionSplitScale: usize = 0xC00; // CParticleCollectionFloatInput
+                pub const m_bScaleBranchDistance: usize = 0xD70; // bool
+                pub const m_flBranchDistanceScale: usize = 0xD78; // CParticleCollectionFloatInput
+                pub const m_bScaleBranchOffset: usize = 0xEE8; // bool
+                pub const m_flBranchOffsetScale: usize = 0xEF0; // CParticleCollectionFloatInput
+                pub const m_flBranchTwist: usize = 0x1060; // CParticleCollectionFloatInput
+                pub const m_nBranchBehavior: usize = 0x11D0; // ParticleLightnintBranchBehavior_t
+                pub const m_flRadiusStart: usize = 0x11D8; // CParticleCollectionFloatInput
+                pub const m_flRadiusEnd: usize = 0x1348; // CParticleCollectionFloatInput
+                pub const m_flDedicatedPool: usize = 0x14B8; // CParticleCollectionFloatInput
             }
             // Parent: None
             // Field count: 0
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7190,6 +7489,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
@@ -7216,14 +7518,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -7232,40 +7535,43 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7284,28 +7590,28 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -7323,35 +7629,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MParticleMaxVersion
-            // MParticleReplacementOp
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_PositionWarp {
                 pub const m_vecWarpMin: usize = 0x1E0; // CParticleCollectionVecInput
@@ -7372,9 +7657,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7387,6 +7670,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7394,8 +7679,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_SetControlPointFieldToScalarExpression {
                 pub const m_nExpression: usize = 0x1E0; // ScalarExpressionType_t
                 pub const m_flInput1: usize = 0x1E8; // CParticleCollectionFloatInput
@@ -7410,25 +7704,24 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
             pub mod C_OP_CreateParticleSystemRenderer {
@@ -7449,10 +7742,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MGetKV3ClassDefaults
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
@@ -7461,12 +7750,16 @@ pub mod source2_dumper {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SEG_COUNT_7
             // PARTICLE_MULTISEGMENT_SEG_COUNT_14
             // PARTICLE_MULTISEGMENT_SEG_COUNT_16
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7482,13 +7775,131 @@ pub mod source2_dumper {
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // PET_GROUND_GRID
+            // PET_GROUND_PLANE
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_FALLOFF_LINEAR
+            // PARTICLE_FALLOFF_EXPONENTIAL
+            // MPropertyFriendlyName
+            // SUBMODEL_AS_MESHGROUP_INDEX
+            // SUBMODEL_AS_MESHGROUP_MASK
+            // SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_ORIENTATION_VELOCITY
+            // PARTICLE_ORIENTATION_NORMAL
+            // PARTICLE_ORIENTATION_ROTATION
+            // MPropertyFriendlyName
+            // IMPULSE_TYPE_GENERIC
+            // IMPULSE_TYPE_ROPE
+            // IMPULSE_TYPE_EXPLOSION
+            // IMPULSE_TYPE_EXPLOSION_UNDERWATER
+            // IMPULSE_TYPE_PARTICLE_SYSTEM
+            // PARTICLE_ATTR_BOX_FLAGS_WATER
+            // PARTICLE_ATTR_BOX_FLAGS_ON_FIRE
+            // PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED
+            // PARTICLE_ATTR_BOX_FLAGS_ASLEEP
+            // PARTICLE_ATTR_BOX_FLAGS_FROZEN
+            // PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_DISABLE_NONSTATIC_COLLISION
+            // PARTICLE_ATTR_BOX_FLAGS_WAKE_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_MOTION_DISABLED
+            // PARTICLE_ATTR_BOX_FLAGS_ZERO_GRAVITY
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PFUNC_VISUALIZATION_SPHERE_SOLID
+            // PFUNC_VISUALIZATION_BOX
+            // PFUNC_VISUALIZATION_RING
+            // PFUNC_VISUALIZATION_PLANE
+            // PFUNC_VISUALIZATION_LINE
+            // PFUNC_VISUALIZATION_CYLINDER
+            // MPropertyFriendlyName
+            // PARTICLE_HITBOX_BIAS_HITBOX
+            // MPropertyFriendlyName
+            // PARTICLE_CLOSEST_TYPE_CAPSULE
+            // PARTICLE_CLOSEST_TYPE_HYBRID
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // INHERITABLE_BOOL_FALSE
+            // INHERITABLE_BOOL_TRUE
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // PARTICLE_FAN_TYPE_ROTOR_WASH
+            // PARTICLE_FAN_TYPE_RADIAL
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // PARTICLE_WORLDSPACE_CENTER
+            // PARTICLE_EYES
+            // PARTICLE_FLASHLIGHT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MODEL_HITBOX_TYPE_RAW_BONES
+            // MODEL_HITBOX_TYPE_RENDERBOUNDS
+            // MODEL_HITBOX_TYPE_SNAPSHOT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             pub mod CParticleFunctionForce {
             }
             // Parent: None
@@ -7497,23 +7908,26 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7535,28 +7949,29 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RandomVectorComponent {
                 pub const m_flMin: usize = 0x1E0; // float32
@@ -7577,7 +7992,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -7586,10 +8000,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7598,26 +8009,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // H
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_InheritFromParentParticles {
@@ -7655,17 +8058,9 @@ pub mod source2_dumper {
             // PARTICLE_CP_AXIS_NEGATIVE_Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -7673,29 +8068,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_SetVectorAttributeToVectorExpression {
                 pub const m_nExpression: usize = 0x1E0; // VectorExpressionType_t
@@ -7712,8 +8112,10 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7722,22 +8124,27 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7745,11 +8152,13 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // h
             pub mod C_OP_RemapTransformVisibilityToVector {
                 pub const m_nSetMethod: usize = 0x1D8; // ParticleSetMethod_t
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
@@ -7766,28 +8175,17 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_DirectionBetweenVecsToVec {
@@ -7800,8 +8198,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -7811,11 +8207,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_MovementLoopInsideSphere {
                 pub const m_nCP: usize = 0x1D8; // int32
                 pub const m_flDistance: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -7828,18 +8224,19 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -7849,14 +8246,16 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
             // F_DRAW_AS_TRAIL
             // F_MOTION_VECTORS
             // F_REFRACT
@@ -7871,10 +8270,6 @@ pub mod source2_dumper {
             // F_GLOBAL_LIGHT
             // F_BLENDFRAMES_SEQ0
             // F_ANIMATE_IN_FPS
-            // F_ADDRESS_V_CLAMP
-            // F_MAXLUMINANCE_BLENDING
-            // F_ALPHA_REFERENCE
-            // F_REFRACT_2_PASSES
             pub mod C_OP_RenderSimpleModelCollection {
                 pub const m_bCenterOffset: usize = 0x228; // bool
                 pub const m_hModel: usize = 0x230; // CStrongHandle<InfoForResourceTypeCModel>
@@ -7900,10 +8295,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7914,10 +8307,38 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_QuantizeCPComponent {
                 pub const m_flInputValue: usize = 0x1E0; // CParticleCollectionFloatInput
                 pub const m_nCPOutput: usize = 0x350; // int32
@@ -7935,11 +8356,35 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_PlayEndCapWhenFinished {
                 pub const m_bFireOnEmissionEnd: usize = 0x1E0; // bool
@@ -7953,40 +8398,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -7995,10 +8421,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_InitFloatCollection {
                 pub const m_InputValue: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -8033,17 +8470,28 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // H
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8052,12 +8500,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_RemapScalarEndCap {
                 pub const m_nFieldInput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -8071,6 +8528,16 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8081,6 +8548,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8089,42 +8581,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8146,16 +8608,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_CreateFromPlaneCache {
@@ -8169,15 +8629,16 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8191,8 +8652,8 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8201,7 +8662,7 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub mod C_OP_LazyCullCompareFloat {
                 pub const m_flComparsion1: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_flComparsion2: usize = 0x348; // CPerParticleFloatInput
@@ -8213,44 +8674,52 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -8270,20 +8739,59 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MParticleMaxVersion
+            // MParticleReplacementOp
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SpinUpdate {
@@ -8293,33 +8801,35 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8327,17 +8837,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8351,9 +8861,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_NormalOffset {
@@ -8387,25 +8894,31 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_RemapDistanceToLineSegmentToVector {
                 pub const m_nFieldOutput: usize = 0x1F0; // ParticleAttributeIndex_t
                 pub const m_vMinOutputValue: usize = 0x1F4; // Vector
@@ -8416,63 +8929,63 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderAsModels {
@@ -8491,6 +9004,12 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8514,16 +9033,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8532,18 +9051,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_CreationNoise {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
@@ -8563,30 +9075,31 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MParticleMaxVersion
+            // MParticleReplacementOp
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -8596,34 +9109,38 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // H
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_Spin {
             }
             // Parent: None
-            // Field count: 3
+            // Field count: 5
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8636,28 +9153,27 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             pub mod C_OP_GameLiquidSpill {
                 pub const m_flLiquidContentsField: usize = 0x228; // CParticleCollectionFloatInput
                 pub const m_flExpirationTime: usize = 0x398; // CParticleCollectionFloatInput
-                pub const m_nAmountAttribute: usize = 0x508; // ParticleAttributeIndex_t
+                pub const m_flRadius: usize = 0x508; // CParticleCollectionFloatInput
+                pub const m_bCheckExposedToSky: usize = 0x678; // bool
+                pub const m_nAmountAttribute: usize = 0x67C; // ParticleAttributeIndex_t
             }
             // Parent: None
             // Field count: 8
@@ -8680,8 +9196,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMaxVersion
@@ -8713,14 +9229,14 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod C_OP_ConstrainLineLength {
                 pub const m_flMinDistance: usize = 0x1D8; // float32
                 pub const m_flMaxDistance: usize = 0x1DC; // float32
@@ -8730,33 +9246,35 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8772,9 +9290,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8788,6 +9305,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -8795,6 +9318,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8802,20 +9326,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_LifespanFromVelocity {
                 pub const m_vecComponentScale: usize = 0x1E0; // Vector
                 pub const m_flTraceOffset: usize = 0x1EC; // float32
@@ -8827,7 +9345,7 @@ pub mod source2_dumper {
                 pub const m_bIncludeWater: usize = 0x290; // bool
             }
             // Parent: None
-            // Field count: 7
+            // Field count: 8
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -8841,19 +9359,23 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySortPriority
+            // M
             pub mod CBaseTrailRenderer {
                 pub const m_nOrientationType: usize = 0x2DF0; // ParticleOrientationChoiceList_t
                 pub const m_nOrientationControlPoint: usize = 0x2DF4; // int32
@@ -8861,7 +9383,8 @@ pub mod source2_dumper {
                 pub const m_flMaxSize: usize = 0x2DFC; // float32
                 pub const m_flStartFadeSize: usize = 0x2E00; // CParticleCollectionRendererFloatInput
                 pub const m_flEndFadeSize: usize = 0x2F70; // CParticleCollectionRendererFloatInput
-                pub const m_bClampV: usize = 0x30E0; // bool
+                pub const m_flSubPixelAAScale: usize = 0x30E0; // CParticleCollectionRendererFloatInput
+                pub const m_bClampV: usize = 0x3250; // bool
             }
             // Parent: None
             // Field count: 4
@@ -8876,6 +9399,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -8885,7 +9410,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8896,8 +9420,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_INIT_VelocityFromCP {
                 pub const m_velocityInput: usize = 0x1E0; // CParticleCollectionVecInput
@@ -8916,27 +9442,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8944,7 +9460,8 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetControlPointOrientation {
                 pub const m_bUseWorldLocation: usize = 0x1E0; // bool
@@ -8967,8 +9484,8 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -8977,9 +9494,8 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
@@ -8988,9 +9504,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             pub mod C_OP_MovementSkinnedPositionFromCPSnapshot {
                 pub const m_nSnapshotControlPointNumber: usize = 0x1D8; // int32
                 pub const m_nControlPointNumber: usize = 0x1DC; // int32
@@ -9006,44 +9529,28 @@ pub mod source2_dumper {
                 pub const m_flInterpolation: usize = 0x7B0; // CPerParticleFloatInput
             }
             // Parent: None
-            // Field count: 14
+            // Field count: 15
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9052,6 +9559,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9061,15 +9577,16 @@ pub mod source2_dumper {
                 pub const m_nInputType: usize = 0x1E8; // ParticleMultiSegmentInputSelection_t
                 pub const m_strDefaultString: usize = 0x1F0; // CUtlString
                 pub const m_flValue: usize = 0x1F8; // CParticleCollectionFloatInput
-                pub const m_SpecialCharList: usize = 0x368; // CUtlVector<ParticleMultiSegmentSpecialCharacter_t>
-                pub const m_vecColorUnlit: usize = 0x380; // CParticleCollectionVecInput
-                pub const m_vecColorLit: usize = 0xA38; // CParticleCollectionVecInput
-                pub const m_flRadius: usize = 0x10F0; // CParticleCollectionFloatInput
-                pub const m_flSpacing: usize = 0x1260; // CParticleCollectionFloatInput
-                pub const m_flMinCount: usize = 0x13D0; // CParticleCollectionFloatInput
-                pub const m_flMaxCount: usize = 0x1540; // CParticleCollectionFloatInput
-                pub const m_bPrependEmpty: usize = 0x16B0; // bool
-                pub const m_flDigitsAfterDecimal: usize = 0x16B8; // CParticleCollectionFloatInput
+                pub const m_flScollOffset: usize = 0x368; // CParticleCollectionFloatInput
+                pub const m_SpecialCharList: usize = 0x4D8; // CUtlVector<ParticleMultiSegmentSpecialCharacter_t>
+                pub const m_vecColorUnlit: usize = 0x4F0; // CParticleCollectionVecInput
+                pub const m_vecColorLit: usize = 0xBA8; // CParticleCollectionVecInput
+                pub const m_flRadius: usize = 0x1260; // CParticleCollectionFloatInput
+                pub const m_flSpacing: usize = 0x13D0; // CParticleCollectionFloatInput
+                pub const m_flMinCount: usize = 0x1540; // CParticleCollectionFloatInput
+                pub const m_flMaxCount: usize = 0x16B0; // CParticleCollectionFloatInput
+                pub const m_bPrependEmpty: usize = 0x1820; // bool
+                pub const m_flDigitsAfterDecimal: usize = 0x1828; // CParticleCollectionFloatInput
             }
             // Parent: None
             // Field count: 15
@@ -9077,26 +9594,23 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9113,17 +9627,28 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_OscillateVector {
                 pub const m_RateMin: usize = 0x1D8; // Vector
                 pub const m_RateMax: usize = 0x1E4; // Vector
@@ -9147,12 +9672,14 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MParticleMinVersion
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9180,14 +9707,14 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -9202,19 +9729,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySortPriority
             pub mod C_OP_RenderVRHapticEvent {
                 pub const m_nHand: usize = 0x228; // ParticleVRHandChoiceList_t
                 pub const m_nOutputHandCP: usize = 0x22C; // int32
@@ -9229,59 +9759,28 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetControlPointToImpactPoint {
@@ -9308,43 +9807,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // m
+            // m
             pub mod C_OP_InterpolateRadius {
                 pub const m_flStartTime: usize = 0x1D8; // float32
                 pub const m_flEndTime: usize = 0x1DC; // float32
@@ -9364,9 +9832,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9383,28 +9851,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_OP_ReinitializeScalarEndCap {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -9422,16 +9896,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -9452,27 +9926,42 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9480,22 +9969,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // h
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9516,40 +9990,44 @@ pub mod source2_dumper {
                 pub const m_flRemapTime: usize = 0x234; // float32
             }
             // Parent: None
-            // Field count: 4
+            // Field count: 6
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_SetControlPointToPlayer {
                 pub const m_nCP1: usize = 0x1E0; // int32
                 pub const m_vecCP1Pos: usize = 0x1E4; // Vector
                 pub const m_bOrientToEyes: usize = 0x1F0; // bool
                 pub const m_nPosition: usize = 0x1F4; // ParticleEntityPos_t
+                pub const m_nRadiusCP: usize = 0x1F8; // int32
+                pub const m_nRadiusCPField: usize = 0x1FC; // int32
             }
             // Parent: None
             // Field count: 1
@@ -9558,15 +10036,17 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // h
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9575,11 +10055,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9589,6 +10070,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub mod C_OP_EndCapTimedFreeze {
                 pub const m_flFreezeTime: usize = 0x1D8; // CParticleCollectionFloatInput
             }
@@ -9598,17 +10080,17 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9616,16 +10098,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
@@ -9633,6 +10115,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertySortPriority
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderGpuImplicit {
                 pub const m_bUsePerParticleRadius: usize = 0x228; // bool
@@ -9649,37 +10134,19 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -9688,7 +10155,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetRandomControlPointPosition {
                 pub const m_bUseWorldLocation: usize = 0x1E0; // bool
@@ -9701,14 +10167,10 @@ pub mod source2_dumper {
                 pub const m_flInterpolation: usize = 0x378; // CParticleCollectionFloatInput
             }
             // Parent: None
-            // Field count: 12
+            // Field count: 15
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyAttributeEditor
             // MPropertyEditContextOverrideKey
@@ -9717,15 +10179,15 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9738,23 +10200,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             pub mod C_OP_RenderVolumetricEmitter {
                 pub const m_strChannelType: usize = 0x228; // CUtlString
                 pub const m_nType: usize = 0x230; // ParticleVolumetricSmokeType_t
@@ -9762,12 +10222,15 @@ pub mod source2_dumper {
                 pub const m_nEventType: usize = 0x238; // EventTypeSelection_t
                 pub const m_vecPos: usize = 0x240; // CPerParticleVecInput
                 pub const m_vecVelocity: usize = 0x8F8; // CPerParticleVecInput
-                pub const m_flRadius: usize = 0xFB0; // CPerParticleFloatInput
-                pub const m_flDensity: usize = 0x1120; // CPerParticleFloatInput
-                pub const m_flTemperature: usize = 0x1290; // CPerParticleFloatInput
-                pub const m_flMagnitude: usize = 0x1400; // CPerParticleFloatInput
-                pub const m_flKillRadius: usize = 0x1570; // CPerParticleFloatInput
-                pub const m_flFalloff: usize = 0x16E0; // CPerParticleFloatInput
+                pub const m_vPrevPosition: usize = 0xFB0; // CPerParticleVecInput
+                pub const m_flSpeed: usize = 0x1668; // CPerParticleFloatInput
+                pub const m_flRadius: usize = 0x17D8; // CPerParticleFloatInput
+                pub const m_flDensity: usize = 0x1948; // CPerParticleFloatInput
+                pub const m_flTemperature: usize = 0x1AB8; // CPerParticleFloatInput
+                pub const m_flMagnitude: usize = 0x1C28; // CPerParticleFloatInput
+                pub const m_flKillRadius: usize = 0x1D98; // CPerParticleFloatInput
+                pub const m_flKillDensityScale: usize = 0x1F08; // CPerParticleFloatInput
+                pub const m_flFalloff: usize = 0x2078; // CPerParticleFloatInput
             }
             // Parent: None
             // Field count: 8
@@ -9782,54 +10245,28 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             pub mod C_OP_RemapTransformVisibilityToScalar {
                 pub const m_nSetMethod: usize = 0x1D8; // ParticleSetMethod_t
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
@@ -9849,6 +10286,8 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9865,30 +10304,30 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
@@ -9898,9 +10337,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9921,7 +10360,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_ScreenSpacePositionOfTarget {
                 pub const m_vecTargetPosition: usize = 0x1D8; // CPerParticleVecInput
@@ -9945,6 +10383,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9952,10 +10391,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MGetKV3ClassDefaults
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
@@ -9964,12 +10399,16 @@ pub mod source2_dumper {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SEG_COUNT_7
             // PARTICLE_MULTISEGMENT_SEG_COUNT_14
             // PARTICLE_MULTISEGMENT_SEG_COUNT_16
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -9985,13 +10424,120 @@ pub mod source2_dumper {
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // PET_GROUND_GRID
+            // PET_GROUND_PLANE
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_FALLOFF_LINEAR
+            // PARTICLE_FALLOFF_EXPONENTIAL
+            // MPropertyFriendlyName
+            // SUBMODEL_AS_MESHGROUP_INDEX
+            // SUBMODEL_AS_MESHGROUP_MASK
+            // SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_ORIENTATION_VELOCITY
+            // PARTICLE_ORIENTATION_NORMAL
+            // PARTICLE_ORIENTATION_ROTATION
+            // MPropertyFriendlyName
+            // IMPULSE_TYPE_GENERIC
+            // IMPULSE_TYPE_ROPE
+            // IMPULSE_TYPE_EXPLOSION
+            // IMPULSE_TYPE_EXPLOSION_UNDERWATER
+            // IMPULSE_TYPE_PARTICLE_SYSTEM
+            // PARTICLE_ATTR_BOX_FLAGS_WATER
+            // PARTICLE_ATTR_BOX_FLAGS_ON_FIRE
+            // PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED
+            // PARTICLE_ATTR_BOX_FLAGS_ASLEEP
+            // PARTICLE_ATTR_BOX_FLAGS_FROZEN
+            // PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_DISABLE_NONSTATIC_COLLISION
+            // PARTICLE_ATTR_BOX_FLAGS_WAKE_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_MOTION_DISABLED
+            // PARTICLE_ATTR_BOX_FLAGS_ZERO_GRAVITY
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PFUNC_VISUALIZATION_SPHERE_SOLID
+            // PFUNC_VISUALIZATION_BOX
+            // PFUNC_VISUALIZATION_RING
+            // PFUNC_VISUALIZATION_PLANE
+            // PFUNC_VISUALIZATION_LINE
+            // PFUNC_VISUALIZATION_CYLINDER
+            // MPropertyFriendlyName
+            // PARTICLE_HITBOX_BIAS_HITBOX
+            // MPropertyFriendlyName
+            // PARTICLE_CLOSEST_TYPE_CAPSULE
+            // PARTICLE_CLOSEST_TYPE_HYBRID
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // INHERITABLE_BOOL_FALSE
+            // INHERITABLE_BOOL_TRUE
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // PARTICLE_FAN_TYPE_ROTOR_WASH
+            // PARTICLE_FAN_TYPE_RADIAL
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // PARTICLE_WORLDSPACE_CENTER
+            // PARTICLE_EYES
+            // PARTICLE_FLASHLIGHT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MODEL_HITBOX_TYPE_RAW_BONES
+            // MODEL_HITBOX_TYPE_RENDERBOUNDS
+            // MODEL_HITBOX_TYPE_SNAPSHOT
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod CParticleFunctionOperator {
             }
             // Parent: None
@@ -10000,11 +10546,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10012,6 +10553,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -10019,18 +10563,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -10052,33 +10592,21 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_MASSMODE_RADIUS_SQUARED
             // MPropertyFriendlyName
             pub mod C_OP_SetCPtoVector {
                 pub const m_nCPInput: usize = 0x1D8; // int32
@@ -10093,24 +10621,29 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10127,15 +10660,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10152,8 +10681,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -10161,20 +10688,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_SnapshotRigidSkinToBones {
                 pub const m_bTransformNormals: usize = 0x1D8; // bool
                 pub const m_bTransformRadii: usize = 0x1D9; // bool
@@ -10188,31 +10726,63 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod C_OP_SetSingleControlPointPosition {
                 pub const m_bSetOnce: usize = 0x1E0; // bool
                 pub const m_nCP1: usize = 0x1E4; // int32
@@ -10224,6 +10794,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10253,10 +10825,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -10264,18 +10837,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -10297,12 +10866,12 @@ pub mod source2_dumper {
                 pub const m_nSetMethod: usize = 0x200; // ParticleSetMethod_t
             }
             // Parent: None
-            // Field count: 3
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // PARTICLE_HITBOX_COUNT
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // SNAPSHOT_INDEX_DIRECT
             // MPropertyFriendlyName
@@ -10318,29 +10887,29 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_VOLUMETRIC_SMOKE_TYPE_SINK
             // PARTICLE_VOLUMETRIC_SMOKE_TYPE_REPEL
-            // MPropertyFriendlyName
+            // PARTICLE_VOLUMETRIC_SMOKE_TYPE_TRACE
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_ORIENTATION_SET_NONE
             // PARTICLE_ORIENTATION_SET_FROM_NORMAL
             // PARTICLE_ORIENTATION_SET_FROM_ROTATIONS
-            // MPropertyFriendlyName
             // PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC
             // PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC_NOSHADOWS
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10357,15 +10926,15 @@ pub mod source2_dumper {
             // PARTICLE_EVENT_TYPE_MASK_FIRST_COLLISION
             // PARTICLE_EVENT_TYPE_MASK_COLLISION_STOPPED
             // PARTICLE_EVENT_TYPE_MASK_KILLED_ON_COLLISION
+            // PARTICLE_EVENT_TYPE_MASK_KILLED_ON_CULL
+            // PARTICLE_EVENT_TYPE_MASK_CULLED_ON_SPAWN
             // PARTICLE_EVENT_TYPE_MASK_USER_1
             // PARTICLE_EVENT_TYPE_MASK_USER_2
             // PARTICLE_EVENT_TYPE_MASK_USER_3
             // PARTICLE_EVENT_TYPE_MASK_USER_4
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_ROTATION_LOCK_ROTATIONS
             // PARTICLE_ROTATION_LOCK_NORMAL
-            // MPropertyFriendlyName
             // VECTOR_EXPRESSION_UNINITIALIZED
             // VECTOR_EXPRESSION_SUBTRACT
             // VECTOR_EXPRESSION_MUL
@@ -10379,9 +10948,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10399,8 +10969,6 @@ pub mod source2_dumper {
             // PARTICLE_PIN_FLOAT_VALUE
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10410,11 +10978,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_LIGHTNING_BRANCH_ENDPOINT_DIR
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -10424,9 +10994,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_ENDCAP_ALWAYS_ON
             // PARTICLE_ENDCAP_ENDCAP_ON
+            // MPropertyFriendlyName
             // PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT
             // PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_ON
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10461,6 +11031,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // SCALAR_EXPRESSION_UNINITIALIZED
             // SCALAR_EXPRESSION_SUBTRACT
             // SCALAR_EXPRESSION_MUL
@@ -10472,8 +11044,6 @@ pub mod source2_dumper {
             // SCALAR_EXPRESSION_EQUAL
             // SCALAR_EXPRESSION_GT
             // SCALAR_EXPRESSION_LT
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // PARTICLE_COLLISION_GROUP_DEFAULT
             // PARTICLE_COLLISION_GROUP_DEBRIS
             // PARTICLE_COLLISION_GROUP_INTERACTIVE
@@ -10485,17 +11055,19 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10506,7 +11078,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_TRACE_MISS_BEHAVIOR_KILL
             // PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -10531,39 +11102,36 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // HITBOX_LERP_CONSTANT
             // MPropertyFriendlyName
             // MATERIAL_PROXY_TINT
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // BBOX_DIMENSIONS
             // BBOX_MINS_MAXS
             // BBOX_RADIUS
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
@@ -10572,12 +11140,16 @@ pub mod source2_dumper {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SEG_COUNT_7
             // PARTICLE_MULTISEGMENT_SEG_COUNT_14
             // PARTICLE_MULTISEGMENT_SEG_COUNT_16
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10593,9 +11165,9 @@ pub mod source2_dumper {
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
@@ -10603,7 +11175,6 @@ pub mod source2_dumper {
             pub mod CParticleFunctionRenderer {
                 pub const VisibilityInputs: usize = 0x1D8; // CParticleVisibilityInputs
                 pub const m_bCannotBeRefracted: usize = 0x220; // bool
-                pub const m_bSkipRenderingOnMobile: usize = 0x221; // bool
             }
             // Parent: None
             // Field count: 66
@@ -10614,63 +11185,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10750,13 +11270,18 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10764,24 +11289,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_OP_RemapNamedModelMeshGroupEndCap {
             }
             // Parent: None
@@ -10789,10 +11312,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -10804,27 +11323,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -10846,23 +11369,20 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -10870,17 +11390,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -10890,11 +11413,14 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderScreenVelocityRotate {
@@ -10906,64 +11432,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_UpdateLightSource {
@@ -10980,26 +11448,30 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11020,23 +11492,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11046,9 +11517,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11067,22 +11535,26 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11100,38 +11572,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // PARTICLE_MASSMODE_RADIUS_SQUARED
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MParticleMinVersion
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_OP_ControlpointLight {
                 pub const m_flScale: usize = 0x1D8; // float32
                 pub const m_nControlPoint1: usize = 0x660; // int32
@@ -11174,10 +11619,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11185,27 +11626,35 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // H
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_VectorFieldSnapshot {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
@@ -11224,11 +11673,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -11237,18 +11684,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11281,7 +11732,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_PositionPlaceOnGround {
                 pub const m_flOffset: usize = 0x1E0; // CPerParticleFloatInput
                 pub const m_flMaxTraceLength: usize = 0x350; // CPerParticleFloatInput
@@ -11305,25 +11755,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11332,20 +11763,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RandomScalar {
@@ -11361,37 +11806,43 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_RenderPostProcessing {
                 pub const m_flPostProcessStrength: usize = 0x228; // CPerParticleFloatInput
                 pub const m_hPostTexture: usize = 0x398; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
                 pub const m_nPriority: usize = 0x3A0; // ParticlePostProcessPriorityGroup_t
             }
             // Parent: None
-            // Field count: 27
+            // Field count: 28
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11435,7 +11886,8 @@ pub mod source2_dumper {
                 pub const m_bDecayBounce: usize = 0x850; // bool
                 pub const m_bKillonContact: usize = 0x851; // bool
                 pub const m_flMinSpeed: usize = 0x854; // float32
-                pub const m_bSetNormal: usize = 0x858; // bool
+                pub const m_bKillonContactBounce: usize = 0x858; // bool
+                pub const m_bSetNormal: usize = 0x859; // bool
                 pub const m_nStickOnCollisionField: usize = 0x85C; // ParticleAttributeIndex_t
                 pub const m_flStopSpeed: usize = 0x860; // CPerParticleFloatInput
                 pub const m_nEntityStickDataField: usize = 0x9D0; // ParticleAttributeIndex_t
@@ -11446,6 +11898,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // .
             pub mod C_OP_RenderBlobs {
                 pub const m_cubeWidth: usize = 0x228; // CParticleCollectionRendererFloatInput
                 pub const m_cutoffRadius: usize = 0x398; // CParticleCollectionRendererFloatInput
@@ -11463,11 +11916,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11479,27 +11933,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -11525,38 +11983,33 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11575,15 +12028,15 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11596,23 +12049,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             pub mod C_OP_WaterImpulseRenderer {
                 pub const m_vecPos: usize = 0x228; // CPerParticleVecInput
                 pub const m_flRadius: usize = 0x8E0; // CPerParticleFloatInput
@@ -11628,7 +12079,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11636,9 +12086,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11646,17 +12097,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11676,9 +12127,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11686,12 +12136,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RandomSequence {
                 pub const m_nSequenceMin: usize = 0x1E0; // int32
@@ -11709,9 +12161,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11750,39 +12202,38 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11790,17 +12241,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11812,6 +12263,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             pub mod C_INIT_DistanceCull {
                 pub const m_nControlPoint: usize = 0x1E0; // int32
                 pub const m_flDistance: usize = 0x1E8; // CParticleCollectionFloatInput
@@ -11843,33 +12296,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -11878,12 +12313,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod C_INIT_InitFromVectorFieldSnapshot {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nLocalSpaceCP: usize = 0x1E4; // int32
@@ -11897,9 +12346,23 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // H
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -11910,27 +12373,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_OP_SetVectorAttributeToVectorExpression {
@@ -11953,9 +12400,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11965,6 +12410,7 @@ pub mod source2_dumper {
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12001,17 +12447,9 @@ pub mod source2_dumper {
             // PARTICLE_CP_AXIS_NEGATIVE_Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -12019,17 +12457,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_AddVectorToVector {
                 pub const m_vecScale: usize = 0x1E0; // Vector
@@ -12053,8 +12492,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_INIT_RemapInitialVisibilityScalar {
                 pub const m_nFieldOutput: usize = 0x1E4; // ParticleAttributeIndex_t
@@ -12068,28 +12509,17 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -12098,8 +12528,19 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -12109,7 +12550,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             pub mod C_OP_RemapTransformOrientationToYaw {
                 pub const m_TransformInput: usize = 0x1D8; // CParticleTransformInput
                 pub const m_nFieldOutput: usize = 0x240; // ParticleAttributeIndex_t
@@ -12121,15 +12564,15 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -12137,17 +12580,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -12157,11 +12603,14 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderStatusEffect {
@@ -12185,16 +12634,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -12210,26 +12659,63 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapParticleCountOnScalarEndCap {
@@ -12242,13 +12728,13 @@ pub mod source2_dumper {
                 pub const m_nSetMethod: usize = 0x1F0; // ParticleSetMethod_t
             }
             // Parent: None
-            // Field count: 17
+            // Field count: 18
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // INHERITABLE_BOOL_FALSE
             // INHERITABLE_BOOL_TRUE
-            // MGetKV3ClassDefaults
             pub mod ParticlePreviewState_t {
                 pub const m_previewModel: usize = 0x0; // CUtlString
                 pub const m_nModSpecificData: usize = 0x8; // uint32
@@ -12267,6 +12753,7 @@ pub mod source2_dumper {
                 pub const m_bAnimationNonLooping: usize = 0x54; // bool
                 pub const m_bSequenceNameIsAnimClipPath: usize = 0x55; // bool
                 pub const m_vecPreviewGravity: usize = 0x58; // Vector
+                pub const m_vecPreviewWind: usize = 0x64; // Vector
             }
             // Parent: None
             // Field count: 3
@@ -12274,6 +12761,13 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // o
+            // o
+            // o
+            // o
+            // e
             pub mod C_OP_LocalAccelerationForce {
                 pub const m_nCP: usize = 0x1E8; // int32
                 pub const m_nScaleCP: usize = 0x1EC; // int32
@@ -12285,10 +12779,13 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -12297,22 +12794,27 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12320,11 +12822,12 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_ModelCull {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_bBoundBox: usize = 0x1DC; // bool
@@ -12345,10 +12848,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12362,20 +12862,24 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12394,15 +12898,17 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -12411,10 +12917,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RemapTransformToVector {
@@ -12438,22 +12942,17 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12461,10 +12960,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // h
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12476,25 +12977,19 @@ pub mod source2_dumper {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod C_OP_ScreenSpaceDistanceToEdge {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flMaxDistFromEdge: usize = 0x1E0; // CPerParticleFloatInput
@@ -12517,22 +13012,12 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -12540,8 +13025,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12556,24 +13048,29 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -12604,32 +13101,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub mod C_OP_SetFromCPSnapshot {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_strSnapshotSubset: usize = 0x1E0; // CUtlString
@@ -12654,7 +13153,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12663,6 +13161,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12670,8 +13170,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_DistanceBetweenCPsToCP {
                 pub const m_nStartCP: usize = 0x1E0; // int32
                 pub const m_nEndCP: usize = 0x1E4; // int32
@@ -12717,22 +13226,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod C_OP_SetControlPointToHand {
                 pub const m_nCP1: usize = 0x1E0; // int32
@@ -12781,14 +13286,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12796,12 +13296,48 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12819,21 +13355,20 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_CreateAlongPath {
@@ -12849,11 +13384,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -12863,6 +13393,8 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod C_OP_GameDecalRenderer {
                 pub const m_sDecalGroupName: usize = 0x228; // CGlobalSymbol
@@ -12887,20 +13419,14 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -12911,9 +13437,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
@@ -12923,7 +13455,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -12932,10 +13463,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12943,9 +13471,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             pub mod C_OP_SetControlPointsToModelParticles {
                 pub const m_HitboxSetName: usize = 0x1D8; // char[128]
                 pub const m_AttachmentName: usize = 0x258; // char[128]
@@ -12963,13 +13488,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -12977,18 +13496,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -13012,12 +13527,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
@@ -13044,14 +13559,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -13060,40 +13576,43 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13112,23 +13631,31 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod C_OP_RenderLights {
                 pub const m_flAnimationRate: usize = 0x230; // float32
@@ -13149,13 +13676,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
@@ -13165,9 +13694,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13201,6 +13730,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod CRandomNumberGeneratorParameters {
                 pub const m_bDistributeEvenly: usize = 0x0; // bool
                 pub const m_nSeed: usize = 0x4; // int32
@@ -13210,7 +13742,13 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13221,6 +13759,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13229,42 +13792,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13286,18 +13819,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_INIT_ColorLitPerParticle {
                 pub const m_ColorMin: usize = 0x1F8; // Color
                 pub const m_ColorMax: usize = 0x1FC; // Color
@@ -13315,21 +13852,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderPoints {
@@ -13341,17 +13877,20 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -13369,41 +13908,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MParticleMaxVersion
-            // MParticleReplacementOp
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_SetAttributeToScalarExpression {
                 pub const m_nExpression: usize = 0x1E0; // ScalarExpressionType_t
@@ -13420,12 +13932,14 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13438,14 +13952,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13454,6 +13961,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_INIT_CreateOnGrid {
                 pub const m_nXCount: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -13478,17 +13997,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -13497,34 +14015,39 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -13549,28 +14072,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13593,7 +14119,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13612,36 +14142,36 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13657,9 +14187,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13673,6 +14202,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -13680,6 +14215,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13687,20 +14223,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_CreateOnModelAtHeight {
                 pub const m_bUseBones: usize = 0x1E0; // bool
                 pub const m_bForceZ: usize = 0x1E1; // bool
@@ -13723,13 +14253,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13739,13 +14265,13 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -13753,9 +14279,24 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13767,16 +14308,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_OP_ModelSurfaceSnapshotGenerator {
                 pub const m_nCPSnapshot: usize = 0x1E0; // int32
                 pub const m_modelInput: usize = 0x1E8; // CParticleModelInput
@@ -13794,29 +14325,25 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13825,13 +14352,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_RestartAfterDuration {
                 pub const m_flDurationMin: usize = 0x1D8; // float32
                 pub const m_flDurationMax: usize = 0x1DC; // float32
@@ -13846,30 +14367,30 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13881,17 +14402,14 @@ pub mod source2_dumper {
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderClothForce {
             }
@@ -13902,23 +14420,13 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13926,6 +14434,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -13933,16 +14445,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MPropertySuppressExpr
             pub mod C_OP_RemapVisibilityScalar {
                 pub const m_nFieldInput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -13981,14 +14484,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -13997,40 +14501,43 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14066,43 +14573,43 @@ pub mod source2_dumper {
                 pub const m_vecInput: usize = 0x8; // CParticleCollectionVecInput
             }
             // Parent: None
-            // Field count: 6
+            // Field count: 7
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14118,9 +14625,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14134,6 +14640,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -14141,6 +14653,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14148,20 +14661,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_RemapInitialDirectionToTransformToVector {
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
                 pub const m_nFieldOutput: usize = 0x248; // ParticleAttributeIndex_t
@@ -14169,6 +14674,7 @@ pub mod source2_dumper {
                 pub const m_flOffsetRot: usize = 0x250; // float32
                 pub const m_vecOffsetAxis: usize = 0x254; // Vector
                 pub const m_bNormalize: usize = 0x260; // bool
+                pub const m_vecTargetPosition: usize = 0x1E0; // CPerParticleVecInput
             }
             // Parent: None
             // Field count: 4
@@ -14183,11 +14689,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_LockToSavedSequentialPathV2 {
                 pub const m_flFadeStart: usize = 0x1D8; // float32
                 pub const m_flFadeEnd: usize = 0x1DC; // float32
@@ -14199,6 +14705,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14212,6 +14721,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14219,28 +14732,26 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub mod C_OP_NormalLock {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
             }
@@ -14250,25 +14761,23 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14288,9 +14797,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14298,12 +14806,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14315,9 +14826,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14327,6 +14836,7 @@ pub mod source2_dumper {
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14345,24 +14855,20 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14372,14 +14878,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14390,7 +14899,7 @@ pub mod source2_dumper {
                 pub const m_flCullExp: usize = 0x1E4; // float32
             }
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -14412,14 +14921,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -14428,33 +14938,38 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14470,10 +14985,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_RandomYawFlip {
                 pub const m_flPercent: usize = 0x1E0; // float32
+                pub const m_nFieldInput: usize = 0x1E0; // ParticleAttributeIndex_t
             }
             // Parent: None
             // Field count: 2
@@ -14491,10 +15005,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14505,51 +15017,23 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             pub mod C_OP_ReadFromNeighboringParticle {
                 pub const m_nFieldInput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -14562,14 +15046,17 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -14577,17 +15064,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -14597,11 +15087,14 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderText {
@@ -14619,9 +15112,8 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
@@ -14630,9 +15122,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_LerpToInitialPosition {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
@@ -14661,17 +15164,9 @@ pub mod source2_dumper {
             // PARTICLE_CP_AXIS_NEGATIVE_Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -14679,29 +15174,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RandomRotation {
             }
@@ -14712,29 +15212,33 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14742,26 +15246,24 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod C_OP_LerpEndCapVector {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -14775,18 +15277,23 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -14804,7 +15311,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_VelocityDecay {
                 pub const m_flMinVelocity: usize = 0x1D8; // float32
             }
@@ -14817,63 +15327,22 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_SetCPOrientationToPointAtCP {
                 pub const m_nInputCP: usize = 0x1E0; // int32
                 pub const m_nOutputCP: usize = 0x1E4; // int32
@@ -14888,19 +15357,12 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14917,19 +15379,22 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             pub mod C_OP_MovementPlaceOnGround {
                 pub const m_flOffset: usize = 0x1D8; // CPerParticleFloatInput
@@ -14956,26 +15421,43 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // PARTICLE_MASSMODE_RADIUS_SQUARED
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetCPOrientationToDirection {
                 pub const m_nInputControlPoint: usize = 0x1D8; // int32
@@ -14993,34 +15475,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15036,6 +15515,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod C_OP_RemapCrossProductOfTwoVectorsToVector {
                 pub const m_InputVec1: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_InputVec2: usize = 0x890; // CPerParticleVecInput
@@ -15047,25 +15529,23 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // h
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15086,19 +15566,24 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15119,23 +15604,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15153,17 +15637,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -15182,20 +15669,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_InheritFromParentParticlesV2 {
                 pub const m_flScale: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_nFieldOutput: usize = 0x348; // ParticleAttributeIndex_t
@@ -15213,7 +15711,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -15226,8 +15723,7 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15237,10 +15733,14 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15249,6 +15749,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15264,21 +15773,30 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15288,23 +15806,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod C_OP_SetFloatCollection {
                 pub const m_InputValue: usize = 0x1D8; // CParticleCollectionFloatInput
                 pub const m_nOutputField: usize = 0x348; // ParticleAttributeIndex_t
@@ -15332,25 +15842,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15360,10 +15854,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_SetControlPointPositionToRandomActiveCP {
                 pub const m_nCP1: usize = 0x1E0; // int32
                 pub const m_nHeadLocationMin: usize = 0x1E4; // int32
@@ -15377,9 +15875,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15387,10 +15883,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // h
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15402,30 +15900,25 @@ pub mod source2_dumper {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_OP_Diffusion {
                 pub const m_flRadiusScale: usize = 0x1D8; // float32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -15438,32 +15931,32 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15485,28 +15978,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_AgeNoise {
                 pub const m_bAbsVal: usize = 0x1E0; // bool
@@ -15524,11 +16015,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15537,9 +16023,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15578,40 +16064,47 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -15628,12 +16121,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
@@ -15646,11 +16134,39 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -15658,12 +16174,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -15676,26 +16186,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod CGeneralRandomRotation {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
@@ -15711,28 +16204,22 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub mod C_OP_DistanceBetweenVecs {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -15751,46 +16238,52 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // H
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_DampenToCP {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_flRange: usize = 0x1DC; // float32
@@ -15845,8 +16338,8 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -15857,7 +16350,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -15887,10 +16387,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // H
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15917,29 +16419,22 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15949,18 +16444,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15971,9 +16459,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -15997,45 +16501,45 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub mod C_OP_ScreenSpaceRotateTowardTarget {
                 pub const m_vecTargetPosition: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_flOutputRemap: usize = 0x890; // CParticleRemapFloatInput
@@ -16049,9 +16553,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -16060,10 +16561,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -16071,18 +16573,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -16103,8 +16601,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16113,12 +16611,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_CreateWithinCapsuleTransform {
                 pub const m_fRadiusMin: usize = 0x1E0; // CPerParticleFloatInput
                 pub const m_fRadiusMax: usize = 0x350; // CPerParticleFloatInput
@@ -16137,7 +16631,58 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MParticleMaxVersion
+            // MParticleReplacementOp
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetVec {
@@ -16155,8 +16700,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
@@ -16171,8 +16716,7 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16182,17 +16726,15 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             pub mod C_INIT_CreateFromParentParticles {
                 pub const m_flVelocityScale: usize = 0x1E0; // float32
@@ -16214,16 +16756,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
@@ -16250,14 +16793,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -16266,13 +16810,11 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_CheckParticleForWater {
                 pub const m_flRadius: usize = 0x1E0; // CPerParticleFloatInput
@@ -16294,9 +16836,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16304,12 +16845,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16321,9 +16865,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16344,6 +16886,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16361,7 +16904,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             pub mod C_INIT_RandomNamedModelBodyPart {
             }
             // Parent: None
@@ -16372,73 +16914,39 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertySortPriority
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyAttributeRange
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_OP_RenderOmni2Light {
                 pub const m_nLightType: usize = 0x228; // ParticleOmni2LightTypeChoiceList_t
@@ -16491,25 +16999,31 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_ConnectParentParticleToNearest {
                 pub const m_nFirstControlPoint: usize = 0x1D8; // int32
                 pub const m_nSecondControlPoint: usize = 0x1DC; // int32
@@ -16522,8 +17036,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod CPAssignment_t {
                 pub const m_nCPNumber: usize = 0x0; // int32
                 pub const m_Pos: usize = 0x8; // CPerParticleVecInput
@@ -16537,6 +17054,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -16544,10 +17067,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RemapParticleCountToNamedModelBodyPartScalar {
@@ -16560,9 +17081,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16580,17 +17100,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -16599,10 +17122,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_InitSkinnedPositionFromCPSnapshot {
@@ -16631,7 +17152,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -16639,13 +17159,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
@@ -16655,9 +17177,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16704,9 +17226,9 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -16737,36 +17259,26 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -16775,12 +17287,27 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // h
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_Noise {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flOutputMin: usize = 0x1DC; // float32
@@ -16800,15 +17327,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16849,26 +17368,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_ColorAdjustHSL {
                 pub const m_flHueAdjust: usize = 0x1D8; // CPerParticleFloatInput
@@ -16880,7 +17385,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             pub mod CParticleMassCalculationParameters {
                 pub const m_nMassMode: usize = 0x0; // ParticleMassMode_t
@@ -16896,22 +17400,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16934,6 +17434,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -16944,31 +17445,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -16979,9 +17470,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
@@ -16991,7 +17488,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -17000,14 +17496,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub mod C_OP_AlphaDecay {
                 pub const m_flMinAlpha: usize = 0x1D8; // float32
             }
@@ -17019,32 +17514,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapDensityGradientToVectorAttribute {
                 pub const m_flRadiusScale: usize = 0x1D8; // float32
@@ -17059,45 +17540,41 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17120,16 +17597,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
@@ -17156,14 +17634,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -17172,25 +17651,24 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_SetHitboxToModel {
@@ -17215,6 +17693,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17222,8 +17701,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // H
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -17241,24 +17721,31 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // H
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17279,9 +17766,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17299,17 +17785,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -17318,10 +17807,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_InitialRepulsionVelocity {
@@ -17351,23 +17838,20 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_ClampScalar {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -17380,52 +17864,27 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub mod C_OP_SetControlPointToHMD {
                 pub const m_nCP1: usize = 0x1E0; // int32
                 pub const m_vecCP1Pos: usize = 0x1E4; // Vector
@@ -17438,7 +17897,17 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // h
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17450,30 +17919,25 @@ pub mod source2_dumper {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_OP_DifferencePreviousParticle {
                 pub const m_nFieldInput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -17492,21 +17956,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17514,11 +17967,8 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_OP_SetControlPointFieldFromVectorExpression {
                 pub const m_nExpression: usize = 0x1E0; // VectorFloatExpressionType_t
@@ -17537,25 +17987,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             pub mod C_OP_PercentageBetweenTransforms {
@@ -17578,71 +18028,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertyFriendlyName
+            //  f
             pub mod C_INIT_PlaneCull {
                 pub const m_nControlPoint: usize = 0x1E0; // int32
                 pub const m_flDistance: usize = 0x1E8; // CParticleCollectionFloatInput
@@ -17654,37 +18043,21 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_MASSMODE_RADIUS_SQUARED
             // MPropertyFriendlyName
             pub mod C_OP_RemapNamedModelSequenceEndCap {
             }
@@ -17693,32 +18066,33 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17734,9 +18108,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17750,6 +18123,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -17757,6 +18136,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17764,20 +18144,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_InitFromCPSnapshot {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_strSnapshotSubset: usize = 0x1E8; // CUtlString
@@ -17792,13 +18166,14 @@ pub mod source2_dumper {
                 pub const m_bLocalSpaceAngles: usize = 0x4E4; // bool
             }
             // Parent: None
-            // Field count: 23
+            // Field count: 24
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -17806,20 +18181,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -17831,6 +18207,12 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyFriendlyName
             pub mod C_OP_RenderCables {
@@ -17854,6 +18236,7 @@ pub mod source2_dumper {
                 pub const m_nMaxTesselation: usize = 0x148C; // int32
                 pub const m_nRoundness: usize = 0x1490; // int32
                 pub const m_nForceRoundnessFixed: usize = 0x1494; // bool
+                pub const m_bOnlyRenderInEffectsBloomPass: usize = 0x1495; // bool
                 pub const m_LightingTransform: usize = 0x1498; // CParticleTransformInput
                 pub const m_MaterialFloatVars: usize = 0x1500; // CUtlLeanVector<FloatInputMaterialVariable_t>
                 pub const m_MaterialVecVars: usize = 0x1520; // CUtlLeanVector<VecInputMaterialVariable_t>
@@ -17865,26 +18248,29 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17906,28 +18292,29 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_InheritVelocity {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
@@ -17943,10 +18330,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17965,12 +18351,41 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_SetControlPointToWaterSurface {
                 pub const m_nSourceCP: usize = 0x1E0; // int32
                 pub const m_nDestCP: usize = 0x1E4; // int32
@@ -18006,17 +18421,9 @@ pub mod source2_dumper {
             // PARTICLE_CP_AXIS_NEGATIVE_Z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -18024,29 +18431,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_PositionOffset {
                 pub const m_OffsetMin: usize = 0x1E0; // CPerParticleVecInput
@@ -18062,25 +18474,26 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -18098,35 +18511,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MParticleMaxVersion
-            // MParticleReplacementOp
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_NormalAlignToCP {
                 pub const m_transformInput: usize = 0x1E0; // CParticleTransformInput
@@ -18165,8 +18557,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18174,24 +18567,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_OP_SetChildControlPoints {
                 pub const m_nChildGroupID: usize = 0x1D8; // int32
                 pub const m_nFirstControlPoint: usize = 0x1DC; // int32
@@ -18208,39 +18597,37 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18253,21 +18640,27 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_OP_ChladniWave {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -18287,21 +18680,12 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -18312,9 +18696,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
@@ -18324,7 +18714,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -18333,10 +18722,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18344,9 +18730,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             pub mod C_OP_RemapDirectionToCPToVector {
                 pub const m_nCP: usize = 0x1D8; // int32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -18363,29 +18746,28 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_DriveCPFromGlobalSoundFloat {
                 pub const m_nOutputControlPoint: usize = 0x1E0; // int32
@@ -18411,14 +18793,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -18427,40 +18810,43 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18482,28 +18868,19 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18512,11 +18889,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RtEnvCull {
@@ -18534,40 +18907,23 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18578,9 +18934,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18594,18 +18966,20 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod C_OP_PinParticleToCP {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
                 pub const m_vecOffset: usize = 0x1E0; // CParticleCollectionVecInput
@@ -18641,22 +19015,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapCPtoVector {
                 pub const m_nCPInput: usize = 0x1D8; // int32
@@ -18681,38 +19053,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -18730,34 +19098,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MParticleMaxVersion
-            // MParticleReplacementOp
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_CreateParticleImpulse {
                 pub const m_InputRadius: usize = 0x1E0; // CPerParticleFloatInput
@@ -18775,11 +19123,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -18804,24 +19151,46 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -18834,26 +19203,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_CreateInEpitrochoid {
                 pub const m_nComponent1: usize = 0x1E0; // int32
@@ -18872,9 +19224,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -18908,34 +19260,39 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -18959,29 +19316,30 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            //  
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // h
             pub mod C_OP_SetFloatAttributeToVectorExpression {
                 pub const m_nExpression: usize = 0x1D8; // VectorFloatExpressionType_t
                 pub const m_vInput1: usize = 0x1E0; // CPerParticleVecInput
@@ -19000,16 +19358,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19022,40 +19378,48 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19063,10 +19427,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_OP_MovementRotateParticleAroundAxis {
                 pub const m_vecRotAxis: usize = 0x1D8; // CParticleCollectionVecInput
                 pub const m_flRotRate: usize = 0x890; // CParticleCollectionFloatInput
@@ -19078,9 +19442,15 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // o
+            // o
+            // o
+            // o
+            // e
             pub mod C_OP_IntraParticleForce {
                 pub const m_flAttractionMinDistance: usize = 0x1E8; // float32
                 pub const m_flAttractionMaxDistance: usize = 0x1EC; // float32
@@ -19095,9 +19465,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_InitFloat {
@@ -19119,16 +19486,46 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MPropertyFriendlyName
-            //  
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod C_INIT_CreateOnModel {
                 pub const m_modelInput: usize = 0x1E0; // CParticleModelInput
                 pub const m_transformInput: usize = 0x240; // CParticleTransformInput
@@ -19154,40 +19551,43 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_InheritFromPeerSystem {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nFieldInput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -19199,16 +19599,16 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -19225,19 +19625,17 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -19255,35 +19653,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MParticleMaxVersion
-            // MParticleReplacementOp
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RandomNamedModelMeshGroup {
             }
@@ -19295,13 +19672,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySortPriority
+            // M
             pub mod C_OP_RenderProjected {
                 pub const m_bProjectCharacter: usize = 0x228; // bool
                 pub const m_bProjectWorld: usize = 0x229; // bool
@@ -19328,6 +19709,53 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19338,18 +19766,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MParticleMinVersion
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_MaxVelocity {
@@ -19367,14 +19793,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19383,8 +19809,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
@@ -19399,13 +19825,20 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_INIT_VelocityFromNormal {
                 pub const m_fSpeedMin: usize = 0x1E0; // float32
                 pub const m_fSpeedMax: usize = 0x1E4; // float32
@@ -19424,8 +19857,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMaxVersion
@@ -19451,34 +19884,34 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19486,17 +19919,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19525,12 +19958,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_RemapInitialTransformDirectionToRotation {
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
                 pub const m_nFieldOutput: usize = 0x248; // ParticleAttributeIndex_t
@@ -19544,56 +19973,38 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19604,9 +20015,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19638,28 +20065,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19677,11 +20107,18 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19699,12 +20136,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             pub mod C_OP_RampScalarSpline {
                 pub const m_RateMin: usize = 0x1D8; // float32
                 pub const m_RateMax: usize = 0x1DC; // float32
@@ -19730,8 +20171,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -19740,28 +20179,34 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_OP_RemapNamedModelSequenceOnceTimed {
             }
@@ -19772,45 +20217,46 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19824,21 +20270,47 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MParticleMinVersion
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_MaintainSequentialPath {
@@ -19863,52 +20335,43 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19919,9 +20382,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19939,25 +20418,27 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19977,38 +20458,38 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20018,25 +20499,29 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20057,33 +20542,24 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -20093,22 +20569,29 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // H
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_LockToSavedSequentialPath {
                 pub const m_flFadeStart: usize = 0x1DC; // float32
                 pub const m_flFadeEnd: usize = 0x1E0; // float32
@@ -20124,6 +20607,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20131,8 +20617,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
@@ -20147,8 +20633,7 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20158,10 +20643,14 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20170,8 +20659,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20181,33 +20673,29 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_RemapNamedModelElementToScalar {
                 pub const m_hModel: usize = 0x1E0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_names: usize = 0x1E8; // CUtlVector<CUtlString>
@@ -20225,61 +20713,46 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20290,9 +20763,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20318,6 +20807,7 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20327,8 +20817,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -20346,28 +20836,22 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -20375,7 +20859,6 @@ pub mod source2_dumper {
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
             pub mod C_OP_RenderStatusEffectCitadel {
                 pub const m_pTextureColorWarp: usize = 0x228; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_pTextureNormal: usize = 0x230; // CStrongHandle<InfoForResourceTypeCTextureBase>
@@ -20395,6 +20878,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PARTICLE_ORIENTATION_VELOCITY
             // PARTICLE_ORIENTATION_NORMAL
             // PARTICLE_ORIENTATION_ROTATION
@@ -20404,13 +20888,17 @@ pub mod source2_dumper {
             // IMPULSE_TYPE_EXPLOSION
             // IMPULSE_TYPE_EXPLOSION_UNDERWATER
             // IMPULSE_TYPE_PARTICLE_SYSTEM
-            // MPropertyFriendlyName
             // PARTICLE_ATTR_BOX_FLAGS_WATER
             // PARTICLE_ATTR_BOX_FLAGS_ON_FIRE
             // PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED
             // PARTICLE_ATTR_BOX_FLAGS_ASLEEP
             // PARTICLE_ATTR_BOX_FLAGS_FROZEN
             // PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_DISABLE_NONSTATIC_COLLISION
+            // PARTICLE_ATTR_BOX_FLAGS_WAKE_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_MOTION_DISABLED
+            // PARTICLE_ATTR_BOX_FLAGS_ZERO_GRAVITY
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20426,13 +20914,15 @@ pub mod source2_dumper {
             // PARTICLE_CLOSEST_TYPE_CAPSULE
             // PARTICLE_CLOSEST_TYPE_HYBRID
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // INHERITABLE_BOOL_FALSE
             // INHERITABLE_BOOL_TRUE
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // PARTICLE_FAN_TYPE_ROTOR_WASH
             // PARTICLE_FAN_TYPE_RADIAL
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20445,6 +20935,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // PARTICLE_WORLDSPACE_CENTER
             // PARTICLE_EYES
+            // PARTICLE_FLASHLIGHT
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20461,13 +20952,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -20516,8 +21009,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // SPRITECARD_SHADER_CUSTOM
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -20532,30 +21025,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // DETAIL_COMBO_ADD
             // DETAIL_COMBO_ADD_SELF_ILLUM
             // DETAIL_COMBO_MOD2X
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod IParticleSystemDefinition {
             }
@@ -20597,10 +21076,16 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // o
+            // o
+            // o
+            // o
             pub mod C_OP_WindForce {
                 pub const m_vForce: usize = 0x1E8; // Vector
             }
@@ -20609,54 +21094,59 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20675,11 +21165,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -20687,17 +21176,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
@@ -20707,11 +21199,14 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderStandardLight {
@@ -20756,13 +21251,11 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
@@ -20772,9 +21265,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20822,20 +21315,19 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20843,10 +21335,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // h
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20858,25 +21352,19 @@ pub mod source2_dumper {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod C_OP_RemapControlPointOrientationToRotation {
                 pub const m_nCP: usize = 0x1D8; // int32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -20893,34 +21381,39 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -20951,21 +21444,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -20985,12 +21475,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -21003,24 +21488,30 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // H
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapDotProductToScalar {
                 pub const m_nInputCP1: usize = 0x1D8; // int32
@@ -21049,21 +21540,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21071,11 +21566,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21098,6 +21593,8 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -21111,32 +21608,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             pub mod C_OP_SetControlPointRotation {
                 pub const m_vecRotAxis: usize = 0x1E0; // CParticleCollectionVecInput
                 pub const m_flRotRate: usize = 0x898; // CParticleCollectionFloatInput
@@ -21151,6 +21647,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // o
+            // o
+            // o
             pub mod C_OP_CurlNoiseForce {
                 pub const m_nNoiseType: usize = 0x1E8; // ParticleDirectionNoiseType_t
                 pub const m_vecNoiseFreq: usize = 0x1F0; // CPerParticleVecInput
@@ -21168,9 +21667,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
@@ -21197,14 +21693,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -21213,40 +21710,43 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21274,46 +21774,50 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21325,18 +21829,16 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // H
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -21357,6 +21859,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderScreenShake {
                 pub const m_flDurationScale: usize = 0x228; // float32
@@ -21375,12 +21879,12 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21399,7 +21903,30 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // TEXTURE_REPETITION_PATH
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             pub mod C_OP_HSVShiftToCP {
                 pub const m_nColorCP: usize = 0x1E0; // int32
                 pub const m_nColorGemEnableCP: usize = 0x1E4; // int32
@@ -21411,20 +21938,24 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21432,28 +21963,26 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub mod C_OP_RemapVectorToRotations {
                 pub const m_vecInput: usize = 0x1D8; // CPerParticleVecInput
                 pub const m_vecRotation: usize = 0x890; // CPerParticleVecInput
@@ -21464,10 +21993,11 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -21476,33 +22006,38 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeRange
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21519,12 +22054,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_GlobalScale {
                 pub const m_flScale: usize = 0x1E0; // float32
                 pub const m_nScaleControlPointNumber: usize = 0x1E4; // int32
@@ -21538,23 +22068,27 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21571,12 +22105,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
@@ -21589,7 +22118,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             pub mod C_INIT_RadiusFromCPObject {
                 pub const m_nControlPoint: usize = 0x1E0; // int32
             }
@@ -21600,6 +22129,15 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21609,8 +22147,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21627,12 +22163,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
@@ -21645,12 +22176,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             pub mod C_INIT_InitialVelocityFromHitbox {
                 pub const m_flVelocityMin: usize = 0x1E0; // float32
                 pub const m_flVelocityMax: usize = 0x1E4; // float32
@@ -21670,15 +22198,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21717,41 +22237,26 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21767,9 +22272,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
-            // MPropertySortPriority
-            // PARTICLE_SORTING_CREATION_TIME
+            // MPropertySuppressExpr
+            // PARTICLE_VRHAND_RIGHT
+            // PARTICLE_VRHAND_CP
             pub mod TextureGroup_t {
                 pub const m_bEnabled: usize = 0x0; // bool
                 pub const m_bReplaceTextureWithGradient: usize = 0x1; // bool
@@ -21786,14 +22291,17 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // o
+            // o
+            // o
             pub mod C_OP_TimeVaryingForce {
                 pub const m_flStartLerpTime: usize = 0x1E8; // float32
                 pub const m_StartingForce: usize = 0x1EC; // Vector
@@ -21806,9 +22314,20 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21818,25 +22337,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21859,7 +22369,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21870,31 +22379,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            //  
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -21905,9 +22404,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
@@ -21917,7 +22422,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -21926,14 +22430,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub mod C_OP_SnapshotSkinToBones {
                 pub const m_bTransformNormals: usize = 0x1D8; // bool
                 pub const m_bTransformRadii: usize = 0x1D9; // bool
@@ -21948,15 +22451,13 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21969,14 +22470,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -21985,6 +22479,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_INIT_CreateWithinSphereTransform {
                 pub const m_fRadiusMin: usize = 0x1E0; // CPerParticleFloatInput
@@ -22008,17 +22514,11 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -22026,12 +22526,15 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MParticleMinVersion
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RadiusDecay {
@@ -22043,19 +22546,19 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22071,9 +22574,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22087,6 +22589,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -22094,6 +22602,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22101,24 +22610,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             pub mod C_INIT_RemapNamedModelBodyPartToScalar {
             }
@@ -22128,26 +22628,30 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22163,9 +22667,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22179,6 +22682,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -22186,6 +22695,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22193,20 +22703,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_RemapScalarToVector {
                 pub const m_nFieldInput: usize = 0x1E0; // ParticleAttributeIndex_t
                 pub const m_nFieldOutput: usize = 0x1E4; // ParticleAttributeIndex_t
@@ -22234,17 +22738,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -22253,10 +22760,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_InitialSequenceFromModel {
@@ -22276,10 +22781,13 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MParticleMaxVersion
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22306,7 +22814,17 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // SCALAR_EXPRESSION_UNINITIALIZED
+            // SCALAR_EXPRESSION_SUBTRACT
+            // SCALAR_EXPRESSION_MUL
+            // SCALAR_EXPRESSION_DIVIDE
+            // SCALAR_EXPRESSION_INPUT_1
+            // SCALAR_EXPRESSION_MIN
+            // SCALAR_EXPRESSION_MAX
+            // SCALAR_EXPRESSION_MOD
+            // SCALAR_EXPRESSION_EQUAL
+            // SCALAR_EXPRESSION_GT
+            // SCALAR_EXPRESSION_LT
             // PARTICLE_COLLISION_GROUP_DEFAULT
             // PARTICLE_COLLISION_GROUP_DEBRIS
             // PARTICLE_COLLISION_GROUP_INTERACTIVE
@@ -22318,17 +22836,19 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22339,7 +22859,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_TRACE_MISS_BEHAVIOR_KILL
             // PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -22364,39 +22883,36 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // HITBOX_LERP_CONSTANT
             // MPropertyFriendlyName
             // MATERIAL_PROXY_TINT
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // BBOX_DIMENSIONS
             // BBOX_MINS_MAXS
             // BBOX_RADIUS
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
@@ -22405,12 +22921,16 @@ pub mod source2_dumper {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SEG_COUNT_7
             // PARTICLE_MULTISEGMENT_SEG_COUNT_14
             // PARTICLE_MULTISEGMENT_SEG_COUNT_16
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22426,13 +22946,40 @@ pub mod source2_dumper {
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // PET_GROUND_GRID
+            // PET_GROUND_PLANE
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_FALLOFF_LINEAR
+            // PARTICLE_FALLOFF_EXPONENTIAL
+            // MPropertyFriendlyName
+            // SUBMODEL_AS_MESHGROUP_INDEX
+            // SUBMODEL_AS_MESHGROUP_MASK
+            // SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_ORIENTATION_VELOCITY
+            // PARTICLE_ORIENTATION_NORMAL
+            // PARTICLE_ORIENTATION_ROTATION
+            // MPropertyFriendlyName
             pub mod CParticleFunctionInitializer {
                 pub const m_nAssociatedEmitterIndex: usize = 0x1D8; // int32
             }
@@ -22442,6 +22989,10 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22459,24 +23010,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SelectivelyEnableChildren {
@@ -22493,11 +23046,11 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod ModelReference_t {
                 pub const m_model: usize = 0x0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_flRelativeProbabilityOfSpawn: usize = 0x8; // float32
@@ -22511,9 +23064,9 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -22550,8 +23103,10 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22572,23 +23127,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22606,26 +23160,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_CreateFromCPs {
@@ -22646,44 +23200,30 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_LockPoints {
                 pub const m_nMinCol: usize = 0x1D8; // int32
@@ -22704,12 +23244,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22721,9 +23264,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22733,6 +23274,7 @@ pub mod source2_dumper {
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22762,16 +23304,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // PARTICLE_CP_AXIS_Y
-            // PARTICLE_CP_AXIS_Z
-            // PARTICLE_CP_AXIS_NEGATIVE_X
-            // PARTICLE_CP_AXIS_NEGATIVE_Y
-            // PARTICLE_CP_AXIS_NEGATIVE_Z
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             pub mod C_INIT_CreateSpiralSphere {
                 pub const m_TransformInput: usize = 0x1E0; // CParticleTransformInput
                 pub const m_flDensity: usize = 0x248; // CPerParticleFloatInput
@@ -22789,8 +23321,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22816,6 +23348,64 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             pub mod C_OP_RemapNamedModelElementEndCap {
                 pub const m_hModel: usize = 0x1D8; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_inNames: usize = 0x1E0; // CUtlVector<CUtlString>
@@ -22831,19 +23421,24 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22864,23 +23459,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -22898,17 +23492,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -22923,17 +23520,12 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -22943,10 +23535,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -22954,18 +23547,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -22989,13 +23578,16 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -23004,16 +23596,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23025,10 +23622,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_OP_PinRopeSegmentParticleToParent {
                 pub const m_nParticleSelection: usize = 0x1D8; // ParticleSelection_t
                 pub const m_nParticleNumber: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -23042,19 +23636,17 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23072,17 +23664,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -23091,10 +23686,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_PointList {
@@ -23110,19 +23703,15 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
@@ -23132,9 +23721,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23172,9 +23761,46 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_INIT_RandomColor {
                 pub const m_ColorMin: usize = 0x1FC; // Color
                 pub const m_ColorMax: usize = 0x200; // Color
@@ -23192,6 +23818,27 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // TEXTURE_REPETITION_PATH
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             pub mod C_OP_SetGravityToCP {
                 pub const m_nCPInput: usize = 0x1E0; // int32
                 pub const m_nCPOutput: usize = 0x1E4; // int32
@@ -23207,35 +23854,29 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
@@ -23253,35 +23894,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MParticleMaxVersion
-            // MParticleReplacementOp
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RemapParticleCountToScalar {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
@@ -23305,11 +23925,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
@@ -23326,9 +23941,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23336,12 +23950,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23353,9 +23970,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23365,6 +23980,7 @@ pub mod source2_dumper {
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23401,27 +24017,27 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            //  
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // h
             pub mod C_OP_RampScalarLinearSimple {
                 pub const m_Rate: usize = 0x1D8; // float32
                 pub const m_flStartTime: usize = 0x1DC; // float32
@@ -23435,20 +24051,19 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23470,40 +24085,41 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod C_INIT_ChaoticAttractor {
                 pub const m_flAParm: usize = 0x1E0; // float32
@@ -23521,17 +24137,17 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // H
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -23559,64 +24175,67 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderFlattenGrass {
@@ -23630,52 +24249,57 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySortPriority
+            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderLightBeam {
@@ -23701,6 +24325,69 @@ pub mod source2_dumper {
                 pub const m_bDebugOrientation: usize = 0x1F90; // bool
             }
             // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            pub mod C_INIT_SkyVisCull {
+                pub const m_vecTestDir: usize = 0x1E0; // CParticleCollectionVecInput
+                pub const m_nTraceSet: usize = 0x898; // ParticleTraceSet_t
+                pub const m_bCullOnSky: usize = 0x89C; // bool
+            }
+            // Parent: None
             // Field count: 6
             //
             // Metadata:
@@ -23710,21 +24397,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23742,8 +24426,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23751,15 +24433,16 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23774,13 +24457,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_DistanceToCPInit {
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
                 pub const m_flInputMin: usize = 0x1E8; // CPerParticleFloatInput
@@ -23808,8 +24488,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod CReplicationParameters {
                 pub const m_nReplicationMode: usize = 0x0; // ParticleReplicationMode_t
                 pub const m_bScaleChildParticleRadii: usize = 0x4; // bool
@@ -23829,22 +24507,26 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // h
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod C_OP_EndCapDecay {
             }
             // Parent: None
@@ -23867,10 +24549,17 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // o
+            // o
+            // o
+            // o
+            // e
             pub mod C_OP_ForceBasedOnDistanceToPlane {
                 pub const m_flMinDist: usize = 0x1E8; // float32
                 pub const m_vecForceAtMinDist: usize = 0x1EC; // Vector
@@ -23885,37 +24574,41 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapDensityToVector {
                 pub const m_flRadiusScale: usize = 0x1D8; // float32
@@ -23950,15 +24643,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -23980,55 +24674,43 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             pub mod C_INIT_SetRigidAttachment {
                 pub const m_nControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nFieldInput: usize = 0x1E4; // ParticleAttributeIndex_t
@@ -24040,11 +24722,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeRange
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertySortPriority
             pub mod MaterialVariable_t {
@@ -24059,13 +24741,12 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24076,7 +24757,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_TRACE_MISS_BEHAVIOR_KILL
             // PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -24101,39 +24781,36 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // HITBOX_LERP_CONSTANT
             // MPropertyFriendlyName
             // MATERIAL_PROXY_TINT
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // BBOX_DIMENSIONS
             // BBOX_MINS_MAXS
             // BBOX_RADIUS
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
@@ -24142,12 +24819,16 @@ pub mod source2_dumper {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SEG_COUNT_7
             // PARTICLE_MULTISEGMENT_SEG_COUNT_14
             // PARTICLE_MULTISEGMENT_SEG_COUNT_16
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24163,13 +24844,63 @@ pub mod source2_dumper {
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // PET_GROUND_GRID
+            // PET_GROUND_PLANE
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_FALLOFF_LINEAR
+            // PARTICLE_FALLOFF_EXPONENTIAL
+            // MPropertyFriendlyName
+            // SUBMODEL_AS_MESHGROUP_INDEX
+            // SUBMODEL_AS_MESHGROUP_MASK
+            // SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_ORIENTATION_VELOCITY
+            // PARTICLE_ORIENTATION_NORMAL
+            // PARTICLE_ORIENTATION_ROTATION
+            // MPropertyFriendlyName
+            // IMPULSE_TYPE_GENERIC
+            // IMPULSE_TYPE_ROPE
+            // IMPULSE_TYPE_EXPLOSION
+            // IMPULSE_TYPE_EXPLOSION_UNDERWATER
+            // IMPULSE_TYPE_PARTICLE_SYSTEM
+            // PARTICLE_ATTR_BOX_FLAGS_WATER
+            // PARTICLE_ATTR_BOX_FLAGS_ON_FIRE
+            // PARTICLE_ATTR_BOX_FLAGS_ELECTRIFIED
+            // PARTICLE_ATTR_BOX_FLAGS_ASLEEP
+            // PARTICLE_ATTR_BOX_FLAGS_FROZEN
+            // PARTICLE_ATTR_BOX_FLAGS_TIMED_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_DISABLE_NONSTATIC_COLLISION
+            // PARTICLE_ATTR_BOX_FLAGS_WAKE_DECAY
+            // PARTICLE_ATTR_BOX_FLAGS_MOTION_DISABLED
+            // PARTICLE_ATTR_BOX_FLAGS_ZERO_GRAVITY
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PFUNC_VISUALIZATION_SPHERE_SOLID
+            // PFUNC_VISUALIZATION_BOX
+            // PFUNC_VISUALIZATION_RING
+            // PFUNC_VISUALIZATION_PLANE
             pub mod CParticleFunctionConstraint {
             }
             // Parent: None
@@ -24177,42 +24908,29 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24223,9 +24941,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24240,13 +24974,11 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapSpeed {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -24265,19 +24997,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertySortPriority
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // UNUSED
             // F_NORMAL_MAP
@@ -24300,28 +25035,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24330,35 +25063,39 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertySortPriority
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             pub mod C_OP_RenderModels {
                 pub const m_bOnlyRenderInEffectsBloomPass: usize = 0x228; // bool
@@ -24428,56 +25165,59 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MGetKV3ClassDefaults
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RenderClientPhysicsImpulse {
@@ -24498,6 +25238,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // SCALAR_EXPRESSION_UNINITIALIZED
             // SCALAR_EXPRESSION_SUBTRACT
             // SCALAR_EXPRESSION_MUL
@@ -24509,8 +25251,6 @@ pub mod source2_dumper {
             // SCALAR_EXPRESSION_EQUAL
             // SCALAR_EXPRESSION_GT
             // SCALAR_EXPRESSION_LT
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // PARTICLE_COLLISION_GROUP_DEFAULT
             // PARTICLE_COLLISION_GROUP_DEBRIS
             // PARTICLE_COLLISION_GROUP_INTERACTIVE
@@ -24522,17 +25262,19 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24543,7 +25285,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_TRACE_MISS_BEHAVIOR_KILL
             // PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -24568,39 +25309,36 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // HITBOX_LERP_CONSTANT
             // MPropertyFriendlyName
             // MATERIAL_PROXY_TINT
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // BBOX_DIMENSIONS
             // BBOX_MINS_MAXS
             // BBOX_RADIUS
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // SET_EXPRESSION_UNINITIALIZED
             // SET_EXPRESSION_MEAN
@@ -24609,12 +25347,16 @@ pub mod source2_dumper {
             // SET_EXPRESSION_STANDARD_DEVIATION
             // SET_EXPRESSION_MIN
             // SET_EXPRESSION_MAX
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // PARTICLE_MULTISEGMENT_SEG_COUNT_7
             // PARTICLE_MULTISEGMENT_SEG_COUNT_14
             // PARTICLE_MULTISEGMENT_SEG_COUNT_16
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24630,13 +25372,35 @@ pub mod source2_dumper {
             // MISSING_PARENT_FIND_NEW
             // MISSING_PARENT_SAME_INDEX
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // PARTICLE_SELECTION_LAST
             // PARTICLE_SELECTION_NUMBER
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // PET_GROUND_GRID
+            // PET_GROUND_PLANE
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // PARTICLE_FALLOFF_LINEAR
+            // PARTICLE_FALLOFF_EXPONENTIAL
+            // MPropertyFriendlyName
+            // SUBMODEL_AS_MESHGROUP_INDEX
+            // SUBMODEL_AS_MESHGROUP_MASK
+            // SUBMODEL_IGNORED_USE_MODEL_DEFAULT_MESHGROUP_MASK
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod CParticleFunctionEmitter {
                 pub const m_nEmitterIndex: usize = 0x1D8; // int32
             }
@@ -24648,15 +25412,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MVectorIsSometimesCoordinate
+            // MPropertySuppressExpr
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24672,9 +25433,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24688,6 +25448,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -24695,6 +25461,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24702,27 +25469,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MVectorIsSometimesCoordinate
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub mod C_INIT_RemapNamedModelMeshGroupToScalar {
             }
             // Parent: None
@@ -24733,11 +25489,35 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetControlPointOrientationToCPVelocity {
                 pub const m_nCPInput: usize = 0x1E0; // int32
@@ -24766,9 +25546,9 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -24805,6 +25585,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24815,20 +25596,40 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -24839,36 +25640,18 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             pub mod C_INIT_PositionWarpScalar {
                 pub const m_vecWarpMin: usize = 0x1E0; // Vector
@@ -24890,21 +25673,30 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_ForceControlPointStub {
@@ -24916,8 +25708,8 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24930,8 +25722,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // H
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -24950,7 +25743,16 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -24968,12 +25770,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             pub mod C_OP_RemapParticleCountToScalar {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_nInputMin: usize = 0x1E0; // CParticleCollectionFloatInput
@@ -25003,10 +25809,38 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -25015,31 +25849,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25057,17 +25866,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_QuantizeFloat {
                 pub const m_InputValue: usize = 0x1E0; // CPerParticleFloatInput
@@ -25079,6 +25885,13 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25091,6 +25904,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -25098,18 +25926,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_RemapModelVolumetoCP {
                 pub const m_nBBoxType: usize = 0x1E0; // BBoxVolumeType_t
@@ -25130,16 +25947,27 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PARTICLE_MASSMODE_RADIUS_SQUARED
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25147,7 +25975,11 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetToCP {
                 pub const m_nControlPointNumber: usize = 0x1D8; // int32
@@ -25159,9 +25991,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // PARTICLE_FAN_TYPE_ROTOR_WASH
             // PARTICLE_FAN_TYPE_RADIAL
-            // MPropertyFriendlyName
             pub mod ParticleControlPointDriver_t {
                 pub const m_iControlPoint: usize = 0x0; // ParticleParamID_t
                 pub const m_iAttachType: usize = 0x10; // ParticleAttachment_t
@@ -25176,12 +26008,13 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // o
+            // o
+            // o
             pub mod C_OP_ParentVortices {
                 pub const m_flForceScale: usize = 0x1E8; // float32
                 pub const m_vecTwistAxis: usize = 0x1EC; // Vector
@@ -25192,34 +26025,39 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             pub mod C_OP_SetControlPointToCPVelocity {
                 pub const m_nCPInput: usize = 0x1E0; // int32
@@ -25230,42 +26068,40 @@ pub mod source2_dumper {
                 pub const m_vecComparisonVelocity: usize = 0x1F8; // CParticleCollectionVecInput
             }
             // Parent: None
-            // Field count: 13
+            // Field count: 15
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_ClientPhysics {
@@ -25282,32 +26118,27 @@ pub mod source2_dumper {
                 pub const m_nForcedSimId: usize = 0x528; // int32
                 pub const m_nColorBlendType: usize = 0x52C; // ParticleColorBlendType_t
                 pub const m_nForcedStatusEffects: usize = 0x530; // ParticleAttrBoxFlags_t
+                pub const m_nNoCollisionAttribute: usize = 0x534; // ParticleAttributeIndex_t
+                pub const m_nZeroGravityAttribute: usize = 0x538; // ParticleAttributeIndex_t
             }
             // Parent: None
             // Field count: 0
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SpinYaw {
@@ -25318,17 +26149,17 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // DETAIL_COMBO_ADD
             // DETAIL_COMBO_ADD_SELF_ILLUM
             // DETAIL_COMBO_MOD2X
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
@@ -25368,7 +26199,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // 0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102,0x0f0d/0x0027,0x0f30/0x010b,0x0079/0x0122,0xf766/0x0001,0x1949/0x0402,0x05ac/0x033d,0x
+            // Y
+            // \
+            // \
             pub mod PointDefinitionWithTimeValues_t {
                 pub const m_flTimeDuration: usize = 0x14; // float32
             }
@@ -25381,8 +26214,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             pub mod RenderProjectedMaterial_t {
                 pub const m_hMaterial: usize = 0x0; // CStrongHandle<InfoForResourceTypeIMaterial2>
             }
@@ -25394,23 +26227,22 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25428,17 +26260,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -25447,10 +26282,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_SetFloatAttributeToVectorExpression {
@@ -25468,10 +26301,17 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // o
+            // o
+            // o
+            // o
+            // e
             pub mod C_OP_ExternalWindForce {
                 pub const m_vecSamplePosition: usize = 0x1E8; // CPerParticleVecInput
                 pub const m_vecScale: usize = 0x8A0; // CPerParticleVecInput
@@ -25490,9 +26330,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25510,17 +26349,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -25529,10 +26371,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_ModelCull {
@@ -25547,33 +26387,39 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // PARTICLE_LIGHT_BEHAVIOR_ROPE
+            // PARTICLE_LIGHT_BEHAVIOR_TRAILS
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // BLURFILTER_BOX
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // PARTICLE_POST_PROCESS_PRIORITY_LEVEL_OVERRIDE
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_EFFECT
             // PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_LOW
@@ -25581,35 +26427,35 @@ pub mod source2_dumper {
             // PARTICLE_POST_PROCESS_PRIORITY_GLOBAL_UI
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // PARTICLE_OUTPUT_BLEND_MODE_ADD
             // PARTICLE_OUTPUT_BLEND_MODE_BLEND_ADD
             // PARTICLE_OUTPUT_BLEND_MODE_HALF_BLEND_ADD
             // PARTICLE_OUTPUT_BLEND_MODE_NEG_HALF_BLEND_ADD
             // PARTICLE_OUTPUT_BLEND_MODE_MOD2X
             // PARTICLE_OUTPUT_BLEND_MODE_LIGHTEN
-            // MPropertyFriendlyName
+            // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
+            // MPropertySortPriority
             // SPRITECARD_TEXTURE_BLEND_MOD2X
             // SPRITECARD_TEXTURE_BLEND_REPLACE
             // SPRITECARD_TEXTURE_BLEND_ADD
             // SPRITECARD_TEXTURE_BLEND_SUBTRACT
             // SPRITECARD_TEXTURE_BLEND_AVERAGE
             // SPRITECARD_TEXTURE_BLEND_LUMINANCE
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertySortPriority
@@ -25621,7 +26467,7 @@ pub mod source2_dumper {
                 pub const m_bUseYawWithNormalAligned: usize = 0x2F6C; // bool
                 pub const m_flMinSize: usize = 0x2F70; // CParticleCollectionRendererFloatInput
                 pub const m_flMaxSize: usize = 0x30E0; // CParticleCollectionRendererFloatInput
-                pub const m_flAlphaAdjustWithSizeAdjust: usize = 0x3250; // CParticleCollectionRendererFloatInput
+                pub const m_flSubPixelAAScale: usize = 0x3250; // CParticleCollectionRendererFloatInput
                 pub const m_flStartFadeSize: usize = 0x33C0; // CParticleCollectionRendererFloatInput
                 pub const m_flEndFadeSize: usize = 0x3530; // CParticleCollectionRendererFloatInput
                 pub const m_flStartFadeDot: usize = 0x36A0; // float32
@@ -25650,29 +26496,31 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            //  
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             pub mod C_OP_PercentageBetweenTransformLerpCPs {
@@ -25695,11 +26543,56 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MParticleMaxVersion
+            // MParticleReplacementOp
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_SetPerChildControlPoint {
@@ -25726,28 +26619,22 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertySortPriority
-            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
@@ -25756,6 +26643,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySuppressExpr
             pub mod C_OP_RenderTreeShake {
                 pub const m_flPeakStrength: usize = 0x228; // float32
                 pub const m_nPeakStrengthFieldOverride: usize = 0x22C; // ParticleAttributeIndex_t
@@ -25777,14 +26668,14 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             pub mod C_OP_WorldCollideConstraint {
             }
             // Parent: None
@@ -25793,37 +26684,21 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25834,9 +26709,25 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25850,18 +26741,24 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             pub mod C_OP_SetAttributeToScalarExpression {
                 pub const m_nExpression: usize = 0x1D8; // ScalarExpressionType_t
                 pub const m_flInput1: usize = 0x1E0; // CPerParticleFloatInput
@@ -25876,30 +26773,15 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_OP_CycleScalar {
                 pub const m_nDestField: usize = 0x1D8; // ParticleAttributeIndex_t
@@ -25919,44 +26801,45 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeRange
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyStartGroup
             // MPropertyFriendlyName
-            // MPropertySortPriority
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyStartGroup
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // UNUSED
             // F_NORMAL_MAP
@@ -25979,28 +26862,26 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
-            // MPropertyFriendlyName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertySortPriority
-            // MPropertyFriendlyName
-            // MPropertySortPriority
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertySortPriority
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26009,35 +26890,39 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySortPriority
             // MPropertySuppressExpr
             // MPropertySortPriority
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeEditor
-            // MPropertySortPriority
-            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeEditor
+            // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySortPriority
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeEditor
             // MPropertyFriendlyName
             pub mod C_OP_RenderMaterialProxy {
                 pub const m_nMaterialControlPoint: usize = 0x228; // int32
@@ -26073,15 +26958,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26093,27 +26978,31 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -26139,8 +27028,8 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -26149,9 +27038,8 @@ pub mod source2_dumper {
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MParticleMinVersion
             // MGetKV3ClassDefaults
@@ -26160,9 +27048,16 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
             pub mod C_OP_RotateVector {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_vecRotAxisMin: usize = 0x1DC; // Vector
@@ -26179,29 +27074,27 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MVectorIsSometimesCoordinate
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26217,9 +27110,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26233,6 +27125,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -26240,6 +27138,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26247,20 +27146,14 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_InitVecCollection {
                 pub const m_InputValue: usize = 0x1E0; // CParticleCollectionVecInput
                 pub const m_nOutputField: usize = 0x898; // ParticleAttributeIndex_t
@@ -26270,8 +27163,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26289,17 +27180,20 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertySuppressExpr
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -26308,10 +27202,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             pub mod C_INIT_RemapParticleCountToNamedModelMeshGroupScalar {
@@ -26327,8 +27219,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26337,12 +27229,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             pub mod C_INIT_SequenceFromCP {
                 pub const m_bKillUnused: usize = 0x1E0; // bool
                 pub const m_bRadiusScale: usize = 0x1E1; // bool
@@ -26360,31 +27248,21 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            //  
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
@@ -26395,9 +27273,15 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
             // MParticleMaxVersion
             // MParticleReplacementOp
             // MGetKV3ClassDefaults
@@ -26407,7 +27291,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
@@ -26416,14 +27299,13 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
             pub mod C_OP_CPOffsetToPercentageBetweenCPs {
                 pub const m_flInputMin: usize = 0x1D8; // float32
                 pub const m_flInputMax: usize = 0x1DC; // float32
@@ -26447,22 +27329,27 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26470,28 +27357,26 @@ pub mod source2_dumper {
             // MPropertyAttributeRange
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // h
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MPropertyAttributeChoiceName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyAttributeChoiceName
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub mod C_OP_LerpEndCapScalar {
                 pub const m_nFieldOutput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flOutput: usize = 0x1DC; // float32

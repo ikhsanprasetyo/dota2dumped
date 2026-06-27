@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 package schemas
 
@@ -73,7 +73,7 @@ const (
     SchemasystemDll_fieldtype_t_FIELD_ATTACHMENT_HANDLE = 0x42
     SchemasystemDll_fieldtype_t_FIELD_AMMO_INDEX = 0x43
     SchemasystemDll_fieldtype_t_FIELD_CONDITION_ID = 0x44
-    SchemasystemDll_fieldtype_t_FIELD_AI_SCHEDULE_BITS = 0x45
+    SchemasystemDll_fieldtype_t_DEPRECATED_FIELD_AI_SCHEDULE_BITS = 0x45
     SchemasystemDll_fieldtype_t_FIELD_MODIFIER_HANDLE = 0x46
     SchemasystemDll_fieldtype_t_FIELD_ROTATION_VECTOR = 0x47
     SchemasystemDll_fieldtype_t_FIELD_ROTATION_VECTOR_WORLDSPACE = 0x48
@@ -85,7 +85,9 @@ const (
     SchemasystemDll_fieldtype_t_FIELD_WORLD_GROUP_ID = 0x4E
     SchemasystemDll_fieldtype_t_FIELD_GLOBALSYMBOL = 0x4F
     SchemasystemDll_fieldtype_t_FIELD_HNMGRAPHDEFINITION = 0x50
-    SchemasystemDll_fieldtype_t_FIELD_TYPECOUNT = 0x51
+    SchemasystemDll_fieldtype_t_FIELD_NETWORK_QUANTIZED_VECTORWS = 0x51
+    SchemasystemDll_fieldtype_t_FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_VECTORWS = 0x52
+    SchemasystemDll_fieldtype_t_FIELD_TYPECOUNT = 0x53
     SchemasystemDll_ThreeState_t_TRS_FALSE = 0x0
     SchemasystemDll_ThreeState_t_TRS_TRUE = 0x1
     SchemasystemDll_ThreeState_t_TRS_NONE = 0x2

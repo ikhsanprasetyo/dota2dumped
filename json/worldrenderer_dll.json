@@ -59,13 +59,15 @@
       "AggregateMeshInfo_t": {
         "fields": {
           "m_bHasTransform": 5,
-          "m_instanceStreams": 32,
+          "m_fEmissiveFactor": 40,
+          "m_instanceStreams": 36,
           "m_nDrawCallIndex": 8,
           "m_nInstanceStreamOffset": 24,
           "m_nLODGroupMask": 6,
           "m_nLODSetupIndex": 10,
           "m_nLightProbeVolumePrecomputedHandshake": 20,
           "m_nVertexAlbedoStreamOffset": 28,
+          "m_nVertexEmissiveStreamOffset": 32,
           "m_nVisClusterMemberCount": 4,
           "m_nVisClusterMemberOffset": 0,
           "m_objectFlags": 16,
@@ -96,6 +98,7 @@
           "m_BLASes": 8,
           "m_IBData": 72,
           "m_InstanceAlbedoData": 88,
+          "m_InstanceEmissiveData": 104,
           "m_Instances": 32,
           "m_VBData": 56,
           "m_nLayer": 0
@@ -135,6 +138,7 @@
           "m_nLayer": 8,
           "m_renderableModel": 112,
           "m_vertexAlbedoStream": 12,
+          "m_vertexEmissiveStream": 14,
           "m_visClusterMembership": 64
         },
         "metadata": [
@@ -174,6 +178,22 @@
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "AggregateVertexEmissiveStreamOnDiskData_t": {
+        "fields": {
+          "m_BufferData": 0
+        },
+        "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -277,7 +297,12 @@
           "m_pPrevByClass": 96,
           "m_worldGroupId": 56
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CEntityInstance": {
@@ -293,7 +318,12 @@
         "fields": {
           "m_scriptClassName": 48
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CEntityComponent"
       },
       "CVoxelVisibility": {
@@ -373,6 +403,10 @@
           "m_nLastInstance": 4
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -577,6 +611,34 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "1",
             "type": "Unknown"
           }
@@ -726,6 +788,34 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "1",
             "type": "Unknown"
           }
@@ -760,10 +850,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MResourceTypeForInfoType",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -788,6 +874,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -795,11 +885,14 @@
       "RTProxyInstanceInfo_t": {
         "fields": {
           "m_albedoFormat": 1,
-          "m_mWorldFromLocal": 12,
-          "m_nBLASCount": 2,
-          "m_nBLASIndex": 4,
+          "m_emissiveFormat": 2,
+          "m_fEmissiveFactor": 20,
+          "m_mWorldFromLocal": 24,
+          "m_nBLASCount": 4,
+          "m_nBLASIndex": 8,
           "m_nFlags": 0,
-          "m_nVertexAlbedoByteOffset": 8
+          "m_nVertexAlbedoByteOffset": 12,
+          "m_nVertexEmissiveByteOffset": 16
         },
         "metadata": [
           {
@@ -956,18 +1049,19 @@
         "fields": {
           "m_aggregateInstanceStreams": 192,
           "m_aggregateSceneObjects": 48,
-          "m_bHasBakedGeometryFlag": 368,
+          "m_bHasBakedGeometryFlag": 392,
           "m_clutterSceneObjects": 72,
           "m_extraVertexStreamOverrides": 120,
           "m_extraVertexStreams": 168,
-          "m_grassFileName": 288,
-          "m_layerNames": 240,
+          "m_grassFileName": 312,
+          "m_layerNames": 264,
           "m_materialOverrides": 144,
-          "m_nodeLightingInfo": 296,
+          "m_nodeLightingInfo": 320,
           "m_rtProxies": 96,
-          "m_sceneObjectLayerIndices": 264,
+          "m_sceneObjectLayerIndices": 288,
           "m_sceneObjects": 0,
           "m_vertexAlbedoStreams": 216,
+          "m_vertexEmissiveStreams": 240,
           "m_visClusterMembership": 24
         },
         "metadata": [

@@ -93,6 +93,34 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "+",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -124,6 +152,34 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "+",
             "type": "Unknown"
           }
         ],
@@ -217,6 +273,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -227,9 +287,16 @@
           "m_fGradientScale": 16,
           "m_fRadius": 0,
           "m_fScale": 4,
-          "m_fVolumetricScale": 12
+          "m_fVolumetricScale": 12,
+          "m_fWaterDensity": 24,
+          "m_fWaterDepthBlurRadius": 28,
+          "m_fWaterScale": 20
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -257,9 +324,24 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "PostProcessingLocalExposureParameters_t": {
+        "fields": {
+          "m_fBoostLocalContrast": 12,
+          "m_fHighlightOffsetEV": 4,
+          "m_fShadowOffsetEV": 0,
+          "m_fSigma": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           },
           {
-            "name": "BLOOM_BLEND_SCREEN",
+            "name": "VIEW_FADE_MODULATE",
             "type": "Unknown"
           }
         ],
@@ -271,17 +353,23 @@
           "m_bHasColorCorrection": 288,
           "m_bHasFogScatteringParams": 289,
           "m_bHasLocalContrastParams": 244,
+          "m_bHasLocalExposureParams": 324,
           "m_bHasTonemapParams": 0,
           "m_bHasVignetteParams": 204,
           "m_bloomParams": 68,
           "m_colorCorrectionVolumeData": 272,
           "m_fogScatteringParams": 292,
           "m_localConstrastParams": 248,
+          "m_localExposureParams": 328,
           "m_nColorCorrectionVolumeDim": 268,
           "m_toneMapParams": 4,
           "m_vignetteParams": 208
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"

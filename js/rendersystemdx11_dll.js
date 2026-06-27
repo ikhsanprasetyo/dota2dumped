@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 export const Schemas = {
     rendersystemdx11_dll: {
@@ -33,6 +33,7 @@ export const Schemas = {
             RENDER_BUFFER_POOL_ALLOCATED: 0x800,
             RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING: 0x1000,
             RENDER_BUFFER_IMMOVABLE_ALLOCATION: 0x2000,
+            RENDER_BUFFER_DYNAMIC_ZERO_COPY: 0x4000,
         },
         RsCullMode_t: {
             RS_CULL_NONE: 0x0,
@@ -48,6 +49,11 @@ export const Schemas = {
             RS_CMP_NOT_EQUAL: 0x5,
             RS_CMP_GREATER_EQUAL: 0x6,
             RS_CMP_ALWAYS: 0x7,
+            RS_CMP_CLOSER_FARTHER_FLAG: 0x8,
+            RS_CMP_CLOSER: 0x9,
+            RS_CMP_CLOSER_EQUAL: 0xB,
+            RS_CMP_FARTHER: 0xC,
+            RS_CMP_FARTHER_EQUAL: 0xE,
         },
         RsFillMode_t: {
             RS_FILL_SOLID: 0x0,
@@ -69,6 +75,14 @@ export const Schemas = {
             INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID: 0x2,
             INPUT_LAYOUT_VARIATION_MAX: 0x3,
         },
+        UpscalerType_t: {
+            UPSCALER_NONE: 0x0,
+            UPSCALER_AMD_FSR2: 0x1,
+            UPSCALER_AMD_FSR3: 0x2,
+            UPSCALER_NVIDIA_DLSS: 0x3,
+            UPSCALER_INTEL_XESS: 0x4,
+            UPSCALER_COUNT: 0x5,
+        },
         RenderSlotType_t: {
             RENDER_SLOT_INVALID: 0xFFFFFFFFFFFFFFFF,
             RENDER_SLOT_PER_VERTEX: 0x0,
@@ -77,7 +91,7 @@ export const Schemas = {
         RsDepthStencilStateDesc_t: {
             m_bDepthTestEnable: 0x0, // bitfield:1
             m_bDepthWriteEnable: 0x0, // bitfield:1
-            m_depthFunc: 0x1, // RsComparison_t
+            m_depthFunc: 0x0, // bitfield:4
             m_stencilState: 0x2, // RsStencilStateDesc_t
         },
         SheetSequenceIntegerId_t: {
@@ -112,15 +126,15 @@ export const Schemas = {
             m_flSlopeScaledDepthBias: 0xC, // float32
         },
         RsStencilStateDesc_t: {
+            m_frontStencilFunc: 0x0, // bitfield:4
+            m_backStencilFunc: 0x0, // bitfield:4
             m_bStencilEnable: 0x0, // bitfield:1
             m_frontStencilFailOp: 0x0, // bitfield:3
             m_frontStencilDepthFailOp: 0x0, // bitfield:3
             m_frontStencilPassOp: 0x0, // bitfield:3
-            m_frontStencilFunc: 0x0, // bitfield:3
             m_backStencilFailOp: 0x0, // bitfield:3
             m_backStencilDepthFailOp: 0x0, // bitfield:3
             m_backStencilPassOp: 0x0, // bitfield:3
-            m_backStencilFunc: 0x0, // bitfield:3
             m_nStencilReadMask: 0x4, // uint8
             m_nStencilWriteMask: 0x5, // uint8
         },

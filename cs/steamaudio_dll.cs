@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: steamaudio.dll
@@ -141,7 +141,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_probes = 0x10; // CSteamAudioProbeData
             public const nint m_vecPathingRatio = 0x18; // CUtlVector<float32>
             public const nint m_vecPathingDeviation = 0x30; // CUtlVector<float32>
-            public const nint m_vecReflectionRatio = 0x48; // CUtlVector<float32>
+            public const nint m_vecReflectionEnergy = 0x48; // CUtlVector<float32>
         }
         // Parent: None
         // Field count: 12

@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: materialsystem2.dll
-    // Class count: 14
+    // Class count: 15
     // Enum count: 5
     public static class Materialsystem2Dll {
         // Alignment: 4
@@ -60,6 +60,13 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // +
         public static class MaterialParamVector_t {
             public const nint m_value = 0x8; // Vector4D
         }
@@ -69,13 +76,21 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // +
         public static class MaterialParamString_t {
             public const nint m_value = 0x8; // CUtlString
         }
         // Parent: None
-        // Field count: 13
+        // Field count: 15
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // VIEW_FADE_MODULATE
         // VIEW_FADE_MOD2X
@@ -93,6 +108,8 @@ namespace Source2Dumper.Schemas {
             public const nint m_bHasColorCorrection = 0x120; // bool
             public const nint m_bHasFogScatteringParams = 0x121; // bool
             public const nint m_fogScatteringParams = 0x124; // PostProcessingFogScatteringParameters_t
+            public const nint m_bHasLocalExposureParams = 0x144; // bool
+            public const nint m_localExposureParams = 0x148; // PostProcessingLocalExposureParameters_t
         }
         // Parent: None
         // Field count: 1
@@ -125,7 +142,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // BLOOM_BLEND_SCREEN
         public static class PostProcessingLocalContrastParameters_t {
             public const nint m_flLocalContrastStrength = 0x0; // float32
             public const nint m_flLocalContrastEdgeStrength = 0x4; // float32
@@ -158,9 +174,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_flMaxHighlightLum = 0x38; // float32
         }
         // Parent: None
-        // Field count: 5
+        // Field count: 8
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -170,6 +187,9 @@ namespace Source2Dumper.Schemas {
             public const nint m_fCubemapScale = 0x8; // float32
             public const nint m_fVolumetricScale = 0xC; // float32
             public const nint m_fGradientScale = 0x10; // float32
+            public const nint m_fWaterScale = 0x14; // float32
+            public const nint m_fWaterDensity = 0x18; // float32
+            public const nint m_fWaterDepthBlurRadius = 0x1C; // float32
         }
         // Parent: None
         // Field count: 1
@@ -214,6 +234,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class PostProcessingBloomParameters_t {
             public const nint m_blendMode = 0x0; // BloomBlendMode_t
             public const nint m_flBloomStrength = 0x4; // float32
@@ -240,6 +261,18 @@ namespace Source2Dumper.Schemas {
         // +
         public static class MaterialParamFloat_t {
             public const nint m_flValue = 0x8; // float32
+        }
+        // Parent: None
+        // Field count: 4
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // VIEW_FADE_MODULATE
+        public static class PostProcessingLocalExposureParameters_t {
+            public const nint m_fShadowOffsetEV = 0x0; // float32
+            public const nint m_fHighlightOffsetEV = 0x4; // float32
+            public const nint m_fSigma = 0x8; // float32
+            public const nint m_fBoostLocalContrast = 0xC; // float32
         }
         // Parent: None
         // Field count: 1

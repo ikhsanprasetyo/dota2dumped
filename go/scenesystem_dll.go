@@ -1,9 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 package schemas
 
 const (
+    ScenesystemDll_ESceneObjectMeshletVisualization_SCENEOBJECT_MESHLET_VIS_NONE = 0x0
+    ScenesystemDll_ESceneObjectMeshletVisualization_SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1
+    ScenesystemDll_ESceneObjectMeshletVisualization_SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
     ScenesystemDll_ESceneViewDebugOverlaysListenerDataType_t_k_ESceneViewDebugOverlaysListenerDataType_Unknown = 0x0
     ScenesystemDll_ESceneViewDebugOverlaysListenerDataType_t_k_ESceneViewDebugOverlaysListenerDataType_Sphere = 0x1
     ScenesystemDll_ESceneViewDebugOverlaysListenerDataType_t_k_ESceneViewDebugOverlaysListenerDataType_Capsule = 0x2

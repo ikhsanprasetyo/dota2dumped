@@ -1,12 +1,19 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: scenesystem.dll
         // Class count: 9
-        // Enum count: 5
+        // Enum count: 6
         pub const scenesystem_dll = struct {
+            // Alignment: 4
+            // Member count: 3
+            pub const ESceneObjectMeshletVisualization = enum(u32) {
+                SCENEOBJECT_MESHLET_VIS_NONE = 0x0,
+                SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1,
+                SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
+            };
             // Alignment: 4
             // Member count: 7
             pub const ESceneViewDebugOverlaysListenerDataType_t = enum(u32) {

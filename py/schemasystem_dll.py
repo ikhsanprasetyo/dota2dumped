@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-21 22:55:14.944997300 +07:00
+# 2026-06-27 11:00:13.970046600 +07:00
 
 class Schemas:
     # Module: schemasystem.dll
@@ -74,7 +74,7 @@ class Schemas:
             FIELD_ATTACHMENT_HANDLE = 0x42
             FIELD_AMMO_INDEX = 0x43
             FIELD_CONDITION_ID = 0x44
-            FIELD_AI_SCHEDULE_BITS = 0x45
+            DEPRECATED_FIELD_AI_SCHEDULE_BITS = 0x45
             FIELD_MODIFIER_HANDLE = 0x46
             FIELD_ROTATION_VECTOR = 0x47
             FIELD_ROTATION_VECTOR_WORLDSPACE = 0x48
@@ -86,7 +86,9 @@ class Schemas:
             FIELD_WORLD_GROUP_ID = 0x4E
             FIELD_GLOBALSYMBOL = 0x4F
             FIELD_HNMGRAPHDEFINITION = 0x50
-            FIELD_TYPECOUNT = 0x51
+            FIELD_NETWORK_QUANTIZED_VECTORWS = 0x51
+            FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_VECTORWS = 0x52
+            FIELD_TYPECOUNT = 0x53
         class ThreeState_t:
             TRS_FALSE = 0x0
             TRS_TRUE = 0x1

@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: soundsystem.dll
-    // Class count: 136
-    // Enum count: 26
+    // Class count: 151
+    // Enum count: 28
     public static class SoundsystemDll {
         // Alignment: 4
         // Member count: 3
@@ -20,7 +20,18 @@ namespace Source2Dumper.Schemas {
             RMS = 0x1
         }
         // Alignment: 4
-        // Member count: 39
+        // Member count: 7
+        public enum SndBeatMidiStatusType_t : uint {
+            SndSeqMidiStatusNoteOff = 0x8,
+            SndSeqMidiStatusNoteOn = 0x9,
+            SndSeqMidiStatusKeyPressure = 0xA,
+            SndSeqMidiStatusCtrlChange = 0xB,
+            SndSeqMidiStatusProgramChange = 0xC,
+            SndSeqMidiStatusChannelPressure = 0xD,
+            SndSeqMidiStatusPitchBend = 0xE
+        }
+        // Alignment: 4
+        // Member count: 40
         public enum VMixGraphCommandID_t : uint {
             CMD_INVALID = unchecked((uint)-1),
             CMD_CONTROL_INPUT_STORE = 0x1,
@@ -47,20 +58,21 @@ namespace Source2Dumper.Schemas {
             CMD_SUBMIX_PROCESS = 0x16,
             CMD_SUBMIX_GENERATE = 0x17,
             CMD_SUBMIX_GENERATE_SIDECHAIN = 0x18,
-            CMD_SUBMIX_DEBUG = 0x19,
-            CMD_SUBMIX_MIX2x1 = 0x1A,
-            CMD_SUBMIX_OUTPUT = 0x1B,
-            CMD_SUBMIX_OUTPUTx2 = 0x1C,
-            CMD_SUBMIX_COPY = 0x1D,
-            CMD_SUBMIX_ACCUMULATE = 0x1E,
-            CMD_SUBMIX_METER = 0x1F,
-            CMD_SUBMIX_METER_SPECTRUM = 0x20,
-            CMD_IMPULSERESPONSE_INPUT_STORE = 0x21,
-            CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE = 0x22,
-            CMD_REMAP_VSND_TO_IMPULSERESPONSE = 0x23,
-            CMD_IMPULSERESPONSE_RESET = 0x24,
-            CMD_BLEND_VSNDS_TO_IMPULSERESPONSE = 0x25,
-            CMD_IMPULSERESPONSE_DELAY = 0x26
+            CMD_SUBMIX_EXTRACTCONTAINER = 0x19,
+            CMD_SUBMIX_DEBUG = 0x1A,
+            CMD_SUBMIX_MIX2x1 = 0x1B,
+            CMD_SUBMIX_OUTPUT = 0x1C,
+            CMD_SUBMIX_OUTPUTx2 = 0x1D,
+            CMD_SUBMIX_COPY = 0x1E,
+            CMD_SUBMIX_ACCUMULATE = 0x1F,
+            CMD_SUBMIX_METER = 0x20,
+            CMD_SUBMIX_METER_SPECTRUM = 0x21,
+            CMD_IMPULSERESPONSE_INPUT_STORE = 0x22,
+            CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE = 0x23,
+            CMD_REMAP_VSND_TO_IMPULSERESPONSE = 0x24,
+            CMD_IMPULSERESPONSE_RESET = 0x25,
+            CMD_BLEND_VSNDS_TO_IMPULSERESPONSE = 0x26,
+            CMD_IMPULSERESPONSE_DELAY = 0x27
         }
         // Alignment: 1
         // Member count: 5
@@ -95,6 +107,22 @@ namespace Source2Dumper.Schemas {
             FILTER_PASSTHROUGH = 0x8
         }
         // Alignment: 4
+        // Member count: 2
+        public enum SndBeatTrackPlaybackType_t : uint {
+            eSndBeatTrackPlaybackTypeStep = 0x0,
+            eSndBeatTrackPlaybackTypeFwd = 0x1
+        }
+        // Alignment: 4
+        // Member count: 6
+        public enum SndBeatEventType_t : uint {
+            eSndBeatEventTypeInvalid = 0x0,
+            eSndBeatEventTypeBeat = 0x1,
+            eSndBeatEventTypeBar = 0x2,
+            eSndBeatEventTypePhrase = 0x3,
+            eSndBeatEventTypeLength = 0x4,
+            eSndBeatEventTypeKeys = 0x5
+        }
+        // Alignment: 4
         // Member count: 3
         public enum SosActionStopType_t : uint {
             SOS_STOPTYPE_NONE = 0x0,
@@ -102,10 +130,13 @@ namespace Source2Dumper.Schemas {
             SOS_STOPTYPE_OPVAR = 0x2
         }
         // Alignment: 4
-        // Member count: 2
-        public enum SndSeqTrackPlaybackType_t : uint {
-            eSndSeqTrackPlaybackTypeStep = 0x0,
-            eSndSeqTrackPlaybackTypeFwd = 0x1
+        // Member count: 5
+        public enum SndBeatKeyType_t : uint {
+            eSndBeatPatternTypeNone = 0x0,
+            eSndBeatPatternTypeKeys = 0x1,
+            eSndBeatPatternTypeKeyedFloats = 0x2,
+            eSndBeatPatternTypeKeyedSndEvts = 0x3,
+            eSndBeatPatternTypeKeyedMidi = 0x4
         }
         // Alignment: 4
         // Member count: 6
@@ -118,15 +149,11 @@ namespace Source2Dumper.Schemas {
             SOS_EDIT_ITEM_TYPE_FIELD = 0x5
         }
         // Alignment: 4
-        // Member count: 7
-        public enum SndSeqQuantizeType_t : uint {
-            eSndSeqQuantizeInvalid = unchecked((uint)-1),
-            eSndSeqQuantizeNone = 0x0,
-            eSndSeqQuantizeBeat = 0x1,
-            eSndSeqQuantizeBar = 0x2,
-            eSndSeqQuantizeSequence = 0x3,
-            eSndSeqQuantizeSeek = 0x4,
-            eSndSeqQuantizeReset = 0x5
+        // Member count: 3
+        public enum SndBeatSyncType_t : uint {
+            eSndBeatSyncTypeInvalid = 0x0,
+            eSndBeatSyncTypeReset = 0x1,
+            eSndBeatSyncTypeSeekImmediate = 0x2
         }
         // Alignment: 4
         // Member count: 5
@@ -138,18 +165,17 @@ namespace Source2Dumper.Schemas {
             RandomWeights = 0x4
         }
         // Alignment: 4
+        // Member count: 2
+        public enum EVsndTriggerMode : uint {
+            Trigger = 0x0,
+            Gate = 0x1
+        }
+        // Alignment: 4
         // Member count: 3
         public enum SosGroupFieldBehavior_t : uint {
             kIgnore = 0x0,
             kBranch = 0x1,
             kMatch = 0x2
-        }
-        // Alignment: 4
-        // Member count: 3
-        public enum SndSeqSyncType_t : uint {
-            eSndSeqSyncTypeNone = 0x0,
-            eSndSeqSyncTypeWait = 0x1,
-            eSndSeqSyncTypeSeek = 0x2
         }
         // Alignment: 4
         // Member count: 30
@@ -218,13 +244,6 @@ namespace Source2Dumper.Schemas {
             B = 0xB,
             Count = 0xC
         }
-        // Alignment: 4
-        // Member count: 3
-        public enum SndSeqRegionType_t : uint {
-            eSndSeqRegionTypeNull = 0x0,
-            eSndSeqRegionTypeSndEvt = 0x1,
-            eSndSeqRegionTypeMidiSeq = 0x2
-        }
         // Alignment: 1
         // Member count: 4
         public enum CVSoundFormat_t : byte {
@@ -247,13 +266,6 @@ namespace Source2Dumper.Schemas {
             FILTER_SLOPE_MAX = 0x7
         }
         // Alignment: 4
-        // Member count: 3
-        public enum SndSeqPlayerType_t : uint {
-            eSndSeqPlayerNull = 0x0,
-            eSndSeqPlayerSndEvt = 0x1,
-            eSndSeqPlayerMidiSeq = 0x2
-        }
-        // Alignment: 4
         // Member count: 2
         public enum SosActionLimitSortType_t : uint {
             SOS_LIMIT_SORTTYPE_HIGHEST = 0x0,
@@ -273,26 +285,29 @@ namespace Source2Dumper.Schemas {
             SOS_GROUPTYPE_STATIC = 0x1
         }
         // Alignment: 4
+        // Member count: 3
+        public enum SndBeatSyncStartType_t : uint {
+            eSndBeatSyncStartTypeInvalid = 0x0,
+            eSndBeatSyncStartTypeImmediate = 0x1,
+            eSndBeatSyncStartTypeQueue = 0x2
+        }
+        // Alignment: 4
         // Member count: 2
         public enum SosActionSetParamSortType_t : uint {
             SOS_SETPARAM_SORTTYPE_HIGHEST = 0x0,
             SOS_SETPARAM_SORTTYPE_LOWEST = 0x1
         }
         // Alignment: 4
-        // Member count: 7
-        public enum SndSeqMidiStatusType_t : uint {
-            SndSeqMidiStatusNoteOff = 0x8,
-            SndSeqMidiStatusNoteOn = 0x9,
-            SndSeqMidiStatusKeyPressure = 0xA,
-            SndSeqMidiStatusCtrlChange = 0xB,
-            SndSeqMidiStatusProgramChange = 0xC,
-            SndSeqMidiStatusChannelPressure = 0xD,
-            SndSeqMidiStatusPitchBend = 0xE
+        // Member count: 2
+        public enum EVsndPlaybackMode : uint {
+            Trigger = 0x0,
+            Gate = 0x1
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CVMixInputBase {
             public const nint m_name = 0x0; // CUtlString
@@ -313,27 +328,24 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyStartGroup
         // MPropertyFriendlyName
-        // MPropertyStartGroup
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
         public static class CVoiceContainerBlender {
-            public const nint m_firstSound = 0xA8; // CSoundContainerReference
-            public const nint m_secondSound = 0xC8; // CSoundContainerReference
-            public const nint m_flBlendFactor = 0xE8; // float32
+            public const nint m_firstSound = 0x70; // CSoundContainerReference
+            public const nint m_secondSound = 0x90; // CSoundContainerReference
+            public const nint m_flBlendFactor = 0xB0; // float32
         }
         // Parent: None
         // Field count: 1
@@ -348,6 +360,39 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
         public static class CVMixPitchShiftProcessorDesc {
             public const nint m_desc = 0x20; // VMixPitchShiftDesc_t
         }
@@ -378,6 +423,29 @@ namespace Source2Dumper.Schemas {
             public const nint m_volumeScaling = 0x50; // CVoiceContainerStaticAdditiveSynth::CGainScalePerInstance
         }
         // Parent: None
+        // Field count: 9
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        public static class CVsndTriggerSlot {
+            public const nint m_bEnableVsnd = 0x0; // bool
+            public const nint m_vsnd = 0x8; // CSoundContainerReference
+            public const nint m_bEnableEndcap = 0x28; // bool
+            public const nint m_endcapVsnd = 0x30; // CSoundContainerReference
+            public const nint m_bEnableLoopcap = 0x50; // bool
+            public const nint m_loopcapVsnd = 0x58; // CSoundContainerReference
+            public const nint m_volume = 0x78; // float32
+            public const nint m_fadeOut = 0x7C; // float32
+            public const nint m_mode = 0x80; // EVsndTriggerMode
+        }
+        // Parent: None
         // Field count: 3
         //
         // Metadata:
@@ -388,7 +456,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_bSyncInstances = 0x58; // bool
         }
         // Parent: None
-        // Field count: 6
+        // Field count: 7
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -435,31 +503,23 @@ namespace Source2Dumper.Schemas {
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // SOS_SETPARAM_SORTTYPE_LOWEST
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // SOS_LIMIT_SORTTYPE_LOWEST
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_STOPTYPE_TIME
         // SOS_STOPTYPE_OPVAR
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // eSndSeqInstSndEvt
         // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
+        // MGetKV3ClassDefaults
+        // SNDLVL_20dB
         public static class CSosGroupActionOcclusionSchema {
             public const nint m_flCalculationInterval = 0x8; // float32
             public const nint m_flRadius = 0xC; // float32
@@ -467,6 +527,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_flOcclusionMin = 0x14; // float32
             public const nint m_flOcclusionMax = 0x18; // float32
             public const nint m_flTestDepth = 0x1C; // float32
+            public const nint m_flCalculationInterval = 0x8; // float32
         }
         // Parent: None
         // Field count: 6
@@ -487,12 +548,12 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         public static class CVoiceContainerRandomSampler {
-            public const nint m_flAmplitude = 0xB8; // float32
-            public const nint m_flAmplitudeJitter = 0xBC; // float32
-            public const nint m_flTimeJitter = 0xC0; // float32
-            public const nint m_flMaxLength = 0xC4; // float32
-            public const nint m_nNumDelayVariations = 0xC8; // int32
-            public const nint m_grainResources = 0xD0; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
+            public const nint m_flAmplitude = 0x80; // float32
+            public const nint m_flAmplitudeJitter = 0x84; // float32
+            public const nint m_flTimeJitter = 0x88; // float32
+            public const nint m_flMaxLength = 0x8C; // float32
+            public const nint m_nNumDelayVariations = 0x90; // int32
+            public const nint m_grainResources = 0x98; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
         }
         // Parent: None
         // Field count: 0
@@ -502,24 +563,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CVMixSteamAudioDirectProcessorDesc {
@@ -528,6 +573,38 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CVMixSteamAudioHRTFProcessorDesc {
         }
@@ -540,39 +617,46 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // '
         // MPropertyFriendlyName
-        // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // MPropertySuppressExpr
+        // RandomNoRepeats
+        // RandomAvoidLast
+        // Sequential
+        // RandomWeights
         // MPropertyFriendlyName
-        // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class CVoiceContainerDefault {
         }
         // Parent: None
-        // Field count: 11
+        // Field count: 9
         //
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CVSound {
-            public const nint m_nRate = 0x0; // int32
-            public const nint m_nFormat = 0x4; // CVSoundFormat_t
-            public const nint m_nChannels = 0x8; // uint32
-            public const nint m_nLoopStart = 0xC; // int32
-            public const nint m_nSampleCount = 0x10; // uint32
-            public const nint m_flDuration = 0x14; // float32
-            public const nint m_Sentences = 0x18; // CUtlVector<CAudioSentence>
-            public const nint m_nStreamingSize = 0x30; // uint32
-            public const nint m_nSeekTable = 0x38; // CUtlVector<int32>
-            public const nint m_nLoopEnd = 0x50; // int32
-            public const nint m_encodedHeader = 0x58; // CUtlBinaryBlock
+            public const nint m_Sentences = 0x0; // CUtlLeanVector<CAudioSentence>
+            public const nint m_nRate = 0x10; // int32
+            public const nint m_nFormat = 0x14; // CVSoundFormat_t
+            public const nint m_nChannels = 0x18; // uint32
+            public const nint m_nLoopStart = 0x1C; // int32
+            public const nint m_nSampleCount = 0x20; // uint32
+            public const nint m_flDuration = 0x24; // float32
+            public const nint m_nStreamingSize = 0x28; // uint32
+            public const nint m_nLoopEnd = 0x2C; // int32
         }
         // Parent: None
         // Field count: 1
@@ -580,8 +664,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataNodeType
-        // MPropertyDescription
-        // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -612,31 +694,21 @@ namespace Source2Dumper.Schemas {
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // SOS_SETPARAM_SORTTYPE_LOWEST
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // SOS_LIMIT_SORTTYPE_LOWEST
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_STOPTYPE_TIME
         // SOS_STOPTYPE_OPVAR
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // eSndSeqInstSndEvt
         // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
         // MGetKV3ClassDefaults
         // SNDLVL_20dB
         // SNDLVL_25dB
@@ -654,6 +726,19 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_NORM
         // SNDLVL_75dB
         // SNDLVL_80dB
+        // SNDLVL_TALKING
+        // SNDLVL_85dB
+        // SNDLVL_90dB
+        // SNDLVL_95dB
+        // SNDLVL_100dB
+        // SNDLVL_105dB
+        // SNDLVL_110dB
+        // SNDLVL_120dB
+        // SNDLVL_130dB
+        // SNDLVL_GUNFIRE
+        // SNDLVL_140dB
+        // SNDLVL_150dB
+        // SNDLVL_180dB
         public static class CSosGroupActionSoundeventClusterSchema {
             public const nint m_nMinNearby = 0x8; // int32
             public const nint m_flClusterEpsilon = 0xC; // float32
@@ -677,7 +762,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // trollers=0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/
+        // MGetKV3ClassDefaults
         public static class CSosGroupActionSetSoundeventParameterSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_flMinValue = 0xC; // float32
@@ -705,24 +790,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // RandomNoRepeats
-        // RandomAvoidLast
-        // Sequential
-        // RandomWeights
         // MPropertyFriendlyName
+        // MPropertyDescription
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
         public static class CVoiceContainerNull {
@@ -741,7 +820,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_flInterpolationTime = 0x30; // float32
         }
         // Parent: None
-        // Field count: 2
+        // Field count: 1
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -749,8 +828,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         public static class CVoiceContainerAnalysisBase {
-            public const nint m_bRegenerateCurveOnCompile = 0x8; // bool
-            public const nint m_curve = 0x10; // CPiecewiseCurve
+            public const nint m_curve = 0x8; // CPiecewiseCurve
         }
         // Parent: None
         // Field count: 10
@@ -782,6 +860,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         public static class CSosGroupActionSoundeventMinMaxValuesSchema {
             public const nint m_strQueryPublicFieldName = 0x8; // CUtlString
             public const nint m_strDelayPublicFieldName = 0x10; // CUtlString
@@ -799,6 +878,14 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
@@ -806,12 +893,31 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -821,18 +927,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
         public static class CVMixEnvelopeProcessorDesc {
             public const nint m_desc = 0x20; // VMixEnvelopeDesc_t
         }
@@ -861,31 +956,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // `
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -899,9 +971,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -909,29 +979,26 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         public static class CVMixBoxverbProcessorDesc {
             public const nint m_desc = 0x20; // VMixBoxverbDesc_t
         }
@@ -941,47 +1008,32 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyAttributeRange
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CVMixDynamicsCompressorProcessorDesc {
             public const nint m_desc = 0x20; // VMixDynamicsCompressorDesc_t
@@ -1025,109 +1077,21 @@ namespace Source2Dumper.Schemas {
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // SOS_SETPARAM_SORTTYPE_LOWEST
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // SOS_LIMIT_SORTTYPE_LOWEST
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_STOPTYPE_TIME
         // SOS_STOPTYPE_OPVAR
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // eSndSeqInstSndEvt
         // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
-        // MGetKV3ClassDefaults
-        // SNDLVL_20dB
-        // SNDLVL_25dB
-        // SNDLVL_30dB
-        // SNDLVL_35dB
-        // SNDLVL_40dB
-        // SNDLVL_45dB
-        // SNDLVL_50dB
-        // SNDLVL_55dB
-        // SNDLVL_IDLE
-        // SNDLVL_60dB
-        public static class CSosGroupActionSoundeventPrioritySchema {
-            public const nint m_priorityValue = 0x8; // CUtlString
-            public const nint m_priorityVolumeScalar = 0x10; // CUtlString
-            public const nint m_priorityContributeButDontRead = 0x18; // CUtlString
-            public const nint m_bPriorityReadButDontContribute = 0x20; // CUtlString
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // PCM8
-        // MP3
-        // ADPCM
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVoiceContainerRealtimeFMSineWave {
-            public const nint m_flCarrierFrequency = 0xA8; // float32
-            public const nint m_flModulatorFrequency = 0xAC; // float32
-            public const nint m_flModulatorAmount = 0xB0; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // SOS_EDIT_ITEM_TYPE_SOUNDEVENT
-        public static class SelectedEditItemInfo_t {
-            public const nint m_EditItems = 0x0; // CUtlVector<SosEditItemInfo_t>
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class VMixModDelayDesc_t {
-            public const nint m_feedbackFilter = 0x0; // VMixFilterDesc_t
-            public const nint m_bPhaseInvert = 0x10; // bool
-            public const nint m_flGlideTime = 0x14; // float32
-            public const nint m_flDelay = 0x18; // float32
-            public const nint m_flOutputGain = 0x1C; // float32
-            public const nint m_flFeedbackGain = 0x20; // float32
-            public const nint m_flModRate = 0x24; // float32
-            public const nint m_flModDepth = 0x28; // float32
-            public const nint m_bApplyAntialiasing = 0x2C; // bool
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // eSndSeqInstSndEvt
-        // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
         // MGetKV3ClassDefaults
         // SNDLVL_20dB
         // SNDLVL_25dB
@@ -1158,7 +1122,94 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // dota_healing_campfire
+        public static class CSosGroupActionSoundeventPrioritySchema {
+            public const nint m_priorityValue = 0x8; // CUtlString
+            public const nint m_priorityVolumeScalar = 0x10; // CUtlString
+            public const nint m_priorityContributeButDontRead = 0x18; // CUtlString
+            public const nint m_bPriorityReadButDontContribute = 0x20; // CUtlString
+        }
+        // Parent: None
+        // Field count: 3
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // PCM8
+        // MP3
+        // ADPCM
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVoiceContainerRealtimeFMSineWave {
+            public const nint m_flCarrierFrequency = 0x70; // float32
+            public const nint m_flModulatorFrequency = 0x74; // float32
+            public const nint m_flModulatorAmount = 0x78; // float32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class SelectedEditItemInfo_t {
+            public const nint m_EditItems = 0x0; // CUtlVector<SosEditItemInfo_t>
+        }
+        // Parent: None
+        // Field count: 9
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class VMixModDelayDesc_t {
+            public const nint m_feedbackFilter = 0x0; // VMixFilterDesc_t
+            public const nint m_bPhaseInvert = 0x10; // bool
+            public const nint m_flGlideTime = 0x14; // float32
+            public const nint m_flDelay = 0x18; // float32
+            public const nint m_flOutputGain = 0x1C; // float32
+            public const nint m_flFeedbackGain = 0x20; // float32
+            public const nint m_flModRate = 0x24; // float32
+            public const nint m_flModDepth = 0x28; // float32
+            public const nint m_bApplyAntialiasing = 0x2C; // bool
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // eSndSeqInstSndEvt
+        // eSndSeqInstMidiSampler
+        // MGetKV3ClassDefaults
+        // SNDLVL_20dB
+        // SNDLVL_25dB
+        // SNDLVL_30dB
+        // SNDLVL_35dB
+        // SNDLVL_40dB
+        // SNDLVL_45dB
+        // SNDLVL_50dB
+        // SNDLVL_55dB
+        // SNDLVL_IDLE
+        // SNDLVL_60dB
+        // SNDLVL_65dB
+        // SNDLVL_STATIC
+        // SNDLVL_70dB
+        // SNDLVL_NORM
+        // SNDLVL_75dB
+        // SNDLVL_80dB
+        // SNDLVL_TALKING
+        // SNDLVL_85dB
+        // SNDLVL_90dB
+        // SNDLVL_95dB
+        // SNDLVL_100dB
+        // SNDLVL_105dB
+        // SNDLVL_110dB
+        // SNDLVL_120dB
+        // SNDLVL_130dB
+        // SNDLVL_GUNFIRE
+        // SNDLVL_140dB
+        // SNDLVL_150dB
+        // SNDLVL_180dB
+        // npc_dota_juggernaut_healing_ward
         public static class CSndSeqInstSndEvtSchema {
         }
         // Parent: None
@@ -1168,7 +1219,46 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CVMixNameInputMeter {
@@ -1185,31 +1275,37 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // `
+        // FILTER_UNKNOWN
+        // FILTER_HIGHPASS
+        // FILTER_BANDPASS
+        // FILTER_NOTCH
+        // FILTER_PEAKING_EQ
+        // FILTER_LOW_SHELF
+        // FILTER_HIGH_SHELF
+        // FILTER_ALLPASS
+        // FILTER_PASSTHROUGH
         // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // FILTER_SLOPE_1POLE_12dB
+        // FILTER_SLOPE_1POLE_18dB
+        // FILTER_SLOPE_1POLE_24dB
+        // FILTER_SLOPE_12dB
+        // FILTER_SLOPE_24dB
+        // FILTER_SLOPE_36dB
+        // FILTER_SLOPE_48dB
+        // FILTER_SLOPE_MAX
+        // LFO_SHAPE_SQUARE
+        // LFO_SHAPE_TRI
+        // LFO_SHAPE_SAW
+        // LFO_SHAPE_NOISE
+        // PANNER_TYPE_EQUAL_POWER
+        // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+        // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
         public static class CVMixDynamics3BandProcessorDesc {
             public const nint m_desc = 0x20; // VMixDynamics3BandDesc_t
         }
@@ -1218,6 +1314,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         public static class VMixBoxverbDesc_t {
             public const nint m_flSizeMax = 0x0; // float32
             public const nint m_flSizeMin = 0x4; // float32
@@ -1250,31 +1347,21 @@ namespace Source2Dumper.Schemas {
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // SOS_SETPARAM_SORTTYPE_LOWEST
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // SOS_LIMIT_SORTTYPE_LOWEST
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_STOPTYPE_TIME
         // SOS_STOPTYPE_OPVAR
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // eSndSeqInstSndEvt
         // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
         // MGetKV3ClassDefaults
         // SNDLVL_20dB
         // SNDLVL_25dB
@@ -1343,18 +1430,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // eSndSeqInstSndEvt
         // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
         // MGetKV3ClassDefaults
         // SNDLVL_20dB
         // SNDLVL_25dB
@@ -1385,7 +1462,7 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // dota_healing_campfire
+        // npc_dota_juggernaut_healing_ward
         public static class CSndSeqInstMidiSampler {
             public const nint m_bIsSoundEvent = 0x20; // bool
             public const nint m_bStopPrevious = 0x21; // bool
@@ -1400,64 +1477,26 @@ namespace Source2Dumper.Schemas {
             public const nint m_hSoundEventHash = 0xD8; // uint32
         }
         // Parent: None
-        // Field count: 6
+        // Field count: 5
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // eSndSeqInstSndEvt
-        // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
         // MGetKV3ClassDefaults
-        // SNDLVL_20dB
-        // SNDLVL_25dB
-        // SNDLVL_30dB
-        // SNDLVL_35dB
-        // SNDLVL_40dB
-        // SNDLVL_45dB
-        // SNDLVL_50dB
-        // SNDLVL_55dB
-        // SNDLVL_IDLE
-        // SNDLVL_60dB
-        // SNDLVL_65dB
-        // SNDLVL_STATIC
-        // SNDLVL_70dB
-        // SNDLVL_NORM
-        // SNDLVL_75dB
-        // SNDLVL_80dB
-        // SNDLVL_TALKING
-        // SNDLVL_85dB
-        // SNDLVL_90dB
-        // SNDLVL_95dB
-        // SNDLVL_100dB
-        // SNDLVL_105dB
-        // SNDLVL_110dB
-        // SNDLVL_120dB
-        // SNDLVL_130dB
-        // SNDLVL_GUNFIRE
-        // SNDLVL_140dB
-        // SNDLVL_150dB
-        // SNDLVL_180dB
-        // dota_healing_campfire
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // npc_dota_juggernaut_healing_ward
         public static class CSndSeqInstBaseSchema {
             public const nint m_nType = 0x8; // SndSeqInstrumentType_t
-            public const nint m_nPlayerType = 0xC; // SndSeqPlayerType_t
-            public const nint m_bStopCurrentEvents = 0x12; // bool
-            public const nint m_flBPM = 0x14; // float32
-            public const nint m_flBPMFactor = 0x18; // float32
-            public const nint m_flBPMInvFactor = 0x1C; // float32
+            public const nint m_bStopCurrentEvents = 0xE; // bool
+            public const nint m_flBPM = 0x10; // float32
+            public const nint m_flBPMFactor = 0x14; // float32
+            public const nint m_flBPMInvFactor = 0x18; // float32
         }
         // Parent: None
         // Field count: 10
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class VMixDynamics3BandDesc_t {
             public const nint m_fldbGainOutput = 0x0; // float32
@@ -1476,30 +1515,13 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // `
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1512,6 +1534,13 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class CDSPMixgroupModifier {
             public const nint m_mixgroup = 0x0; // CUtlString
             public const nint m_flModifier = 0x8; // float32
@@ -1534,10 +1563,18 @@ namespace Source2Dumper.Schemas {
             public const nint m_flEaseOut = 0x64; // float32
         }
         // Parent: None
-        // Field count: 5
+        // Field count: 1
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        public static class SndBeatEventKeyedFloats_t {
+            public const nint m_flFloat = 0x10; // float32
+        }
+        // Parent: None
+        // Field count: 5
+        //
+        // Metadata:
         // MGetKV3ClassDefaults
         public static class VMixDualCompressorDesc_t {
             public const nint m_flRMSTimeMS = 0x0; // float32
@@ -1547,41 +1584,108 @@ namespace Source2Dumper.Schemas {
             public const nint m_bandDesc = 0x10; // VMixDynamicsBand_t
         }
         // Parent: None
+        // Field count: 24
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CVMixRuntimeGraph {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_nGraphOutputChannels = 0x8; // int32
+            public const nint m_bIsMainGraph = 0xC; // bool
+            public const nint m_submixes = 0x10; // CUtlVector<CVMixSubmix>
+            public const nint m_processorNodes = 0x28; // CUtlVector<std::unique_ptr<CVMixBaseProcessorDesc>>
+            public const nint m_controlInputs = 0x40; // CUtlVector<CVMixControlInput>
+            public const nint m_controlTransientInputs = 0x58; // CUtlVector<CVMixControlInput>
+            public const nint m_controlInputArrays = 0x70; // CUtlVector<CVMixControlInputArray>
+            public const nint m_controlOutputs = 0x88; // CUtlVector<CVMixControlOutput>
+            public const nint m_nameInputs = 0xA0; // CUtlVector<CVMixNameInput>
+            public const nint m_vsndInputs = 0xB8; // CUtlVector<CVMixVsndInput>
+            public const nint m_impulseResponseInputs = 0xD0; // CUtlVector<CVMixImpulseResponseInput>
+            public const nint m_mixCommands = 0xE8; // CUtlVector<CVMixCommand>
+            public const nint m_values = 0x100; // CUtlVector<float32>
+            public const nint m_valueArrays = 0x118; // CUtlVector<CUtlVector<float32>>
+            public const nint m_impulseResponseValues = 0x130; // CUtlVector<uint64>
+            public const nint m_controlPoints = 0x148; // CUtlVector<float32>
+            public const nint m_curves = 0x160; // CUtlVector<CVMixCurveHeader>
+            public const nint m_audioMeters = 0x178; // CUtlVector<CVMixAudioMeter>
+            public const nint m_controlMeters = 0x190; // CUtlVector<CVMixControlMeter>
+            public const nint m_nameInputMeters = 0x1A8; // CUtlVector<CVMixNameInputMeter>
+            public const nint m_additionalOutputs = 0x1C0; // CUtlVector<CVMixAdditionalOutput>
+            public const nint m_automaticControlInputs = 0x1D8; // CUtlVector<CVMixAutomaticControlInput>
+            public const nint m_sources = 0x1F0; // KeyValues3
+        }
+        // Parent: None
         // Field count: 1
         //
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // Gate
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // Gate
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyDescription
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyStartGroup
         // MPropertyFriendlyName
-        // MPropertyStartGroup
         // MPropertyFriendlyName
-        // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         public static class CVoiceContainerStaticAdditiveSynth {
-            public const nint m_tones = 0xB8; // CUtlVector<CVoiceContainerStaticAdditiveSynth::CTone>
+            public const nint m_tones = 0x80; // CUtlVector<CVoiceContainerStaticAdditiveSynth::CTone>
         }
         // Parent: None
         // Field count: 9
@@ -1590,47 +1694,78 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // C_Sharp
-        // D
-        // D_Sharp
-        // E
-        // F
-        // F_Sharp
-        // G
-        // G_Sharp
-        // A
-        // A_Sharp
-        // B
-        // Count
-        // Square
-        // Saw
-        // Triangle
-        // Noise
+        // MPropertyFriendlyName
+        // Gate
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // Gate
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         public static class CVoiceContainerShapedNoise {
-            public const nint m_bUseCurveForFrequency = 0xA8; // bool
-            public const nint m_flFrequency = 0xAC; // float32
-            public const nint m_frequencySweep = 0xB0; // CPiecewiseCurve
-            public const nint m_bUseCurveForResonance = 0xF0; // bool
-            public const nint m_flResonance = 0xF4; // float32
-            public const nint m_resonanceSweep = 0xF8; // CPiecewiseCurve
-            public const nint m_bUseCurveForAmplitude = 0x138; // bool
-            public const nint m_flGainInDecibels = 0x13C; // float32
-            public const nint m_gainSweep = 0x140; // CPiecewiseCurve
+            public const nint m_bUseCurveForFrequency = 0x70; // bool
+            public const nint m_flFrequency = 0x74; // float32
+            public const nint m_frequencySweep = 0x78; // CPiecewiseCurve
+            public const nint m_bUseCurveForResonance = 0xB8; // bool
+            public const nint m_flResonance = 0xBC; // float32
+            public const nint m_resonanceSweep = 0xC0; // CPiecewiseCurve
+            public const nint m_bUseCurveForAmplitude = 0x100; // bool
+            public const nint m_flGainInDecibels = 0x104; // float32
+            public const nint m_gainSweep = 0x108; // CPiecewiseCurve
         }
         // Parent: None
         // Field count: 2
@@ -1639,7 +1774,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyFriendlyName
         public static class CDspPresetModifierList {
             public const nint m_dspName = 0x0; // CUtlString
             public const nint m_modifiers = 0x8; // CUtlVector<CDSPMixgroupModifier>
@@ -1656,14 +1792,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // '
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -1676,9 +1807,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class CVoiceContainerBase {
             public const nint m_vSound = 0x28; // CVSound
-            public const nint m_pEnvelopeAnalyzer = 0xA0; // CVoiceContainerAnalysisBase*
+            public const nint m_pEnvelopeAnalyzer = 0x68; // CVoiceContainerAnalysisBase*
         }
         // Parent: None
         // Field count: 1
@@ -1690,41 +1826,27 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CVMixDiffusorProcessorDesc {
             public const nint m_desc = 0x20; // VMixDiffusorDesc_t
@@ -1736,7 +1858,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
@@ -1744,12 +1872,31 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -1759,9 +1906,23 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         public static class CVMixUtilityProcessorDesc {
             public const nint m_desc = 0x20; // VMixUtilityDesc_t
+        }
+        // Parent: None
+        // Field count: 5
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        public static class CRandomPannerControls {
+            public const nint m_panningControlInputName = 0x0; // CUtlString
+            public const nint m_volumeControlInputName = 0x8; // CUtlString
+            public const nint m_flMinVolume = 0x10; // float32
+            public const nint m_flMaxVolume = 0x14; // float32
+            public const nint m_strVectorStackParam = 0x18; // CUtlString
         }
         // Parent: None
         // Field count: 6
@@ -1769,50 +1930,61 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // PCM8
+        // MP3
+        // ADPCM
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // RMS
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
+        // MPropertyDescription
+        // C_Sharp
+        // D
+        // D_Sharp
+        // E
+        // F
+        // F_Sharp
+        // G
+        // G_Sharp
+        // A
+        // A_Sharp
+        // B
+        // Count
         public static class CVoiceContainerGranulator {
-            public const nint m_flGrainLength = 0xB8; // float32
-            public const nint m_flGrainCrossfadeAmount = 0xBC; // float32
-            public const nint m_flStartJitter = 0xC0; // float32
-            public const nint m_flPlaybackJitter = 0xC4; // float32
-            public const nint m_bShouldWraparound = 0xC8; // bool
-            public const nint m_sourceAudio = 0xD0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+            public const nint m_flGrainLength = 0x80; // float32
+            public const nint m_flGrainCrossfadeAmount = 0x84; // float32
+            public const nint m_flStartJitter = 0x88; // float32
+            public const nint m_flPlaybackJitter = 0x8C; // float32
+            public const nint m_bShouldWraparound = 0x90; // bool
+            public const nint m_sourceAudio = 0x98; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -1820,10 +1992,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // `
-        // MGetKV3ClassDefaults
         public static class CVMixPresetDSPProcessorDesc {
             public const nint m_desc = 0x20; // VMixPresetDSPDesc_t
         }
@@ -1854,60 +2022,63 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
+        // Y
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // FILTER_UNKNOWN
+        // FILTER_HIGHPASS
+        // FILTER_BANDPASS
+        // FILTER_NOTCH
+        // FILTER_PEAKING_EQ
+        // FILTER_LOW_SHELF
+        // FILTER_HIGH_SHELF
+        // FILTER_ALLPASS
+        // FILTER_PASSTHROUGH
         // MGetKV3ClassDefaults
         public static class CVMixDynamicsProcessorDesc {
             public const nint m_desc = 0x20; // VMixDynamicsDesc_t
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixGraphDescData {
-            public const nint m_name = 0x0; // CUtlString
-            public const nint m_nGraphOutputChannels = 0x8; // int32
-            public const nint m_bIsMainGraph = 0xC; // bool
         }
         // Parent: None
         // Field count: 8
@@ -1916,30 +2087,41 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // l
+        // MPropertyStartGroup
+        // MPropertyFriendlyName
+        // MPropertyStartGroup
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class CVoiceContainerLoopXFade {
-            public const nint m_sound = 0xA8; // CSoundContainerReference
-            public const nint m_flLoopEnd = 0xC8; // float32
-            public const nint m_flLoopStart = 0xCC; // float32
-            public const nint m_flFadeOut = 0xD0; // float32
-            public const nint m_flFadeIn = 0xD4; // float32
-            public const nint m_bPlayHead = 0xD8; // bool
-            public const nint m_bPlayTail = 0xD9; // bool
-            public const nint m_bEqualPow = 0xDA; // bool
+            public const nint m_sound = 0x70; // CSoundContainerReference
+            public const nint m_flLoopEnd = 0x90; // float32
+            public const nint m_flLoopStart = 0x94; // float32
+            public const nint m_flFadeOut = 0x98; // float32
+            public const nint m_flFadeIn = 0x9C; // float32
+            public const nint m_bPlayHead = 0xA0; // bool
+            public const nint m_bPlayTail = 0xA1; // bool
+            public const nint m_bEqualPow = 0xA2; // bool
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class VMixPresetDSPDesc_t {
             public const nint m_effectName = 0x0; // CUtlString
@@ -1962,36 +2144,30 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CVMixControlInputArray {
             public const nint m_nArrayIndex = 0x10; // int32
+        }
+        // Parent: None
+        // Field count: 10
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CVsndRadioButtonSlot {
+            public const nint m_bEnableVsnd = 0x0; // bool
+            public const nint m_vsnd = 0x8; // CSoundContainerReference
+            public const nint m_bEnableEndcap = 0x28; // bool
+            public const nint m_endcapVsnd = 0x30; // CSoundContainerReference
+            public const nint m_bEnableLoopcap = 0x50; // bool
+            public const nint m_loopcapVsnd = 0x58; // CSoundContainerReference
+            public const nint m_group = 0x78; // int32
+            public const nint m_volume = 0x7C; // float32
+            public const nint m_fadeOut = 0x80; // float32
+            public const nint m_mode = 0x84; // EVsndPlaybackMode
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CVMixNameInput {
             public const nint m_defaultValue = 0x10; // CUtlString
@@ -2014,7 +2190,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // trollers=0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/
+        // MGetKV3ClassDefaults
         public static class CSosGroupActionSoundeventCountSchema {
             public const nint m_bExcludeStoppedSounds = 0x8; // bool
             public const nint m_strCountKeyName = 0x10; // CUtlString
@@ -2023,23 +2199,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -2062,64 +2221,78 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // Gate
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyGroupName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         public static class CVoiceContainerEnvelopeAnalyzer {
-            public const nint m_mode = 0x50; // EMode_t
-            public const nint m_fAnalysisWindowMs = 0x54; // float32
-            public const nint m_flThreshold = 0x58; // float32
+            public const nint m_mode = 0x48; // EMode_t
+            public const nint m_fAnalysisWindowMs = 0x4C; // float32
+            public const nint m_flThreshold = 0x50; // float32
         }
         // Parent: None
-        // Field count: 3
+        // Field count: 4
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         public static class CVMixBaseProcessorDesc {
             public const nint m_name = 0x8; // CUtlString
+            public const nint m_nDebugId = 0x10; // uint32
             public const nint m_nChannels = 0x14; // int32
             public const nint m_flxfade = 0x18; // float32
         }
@@ -2130,669 +2303,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CVMixImpulseResponseInput {
         }
         // Parent: None
         // Field count: 0
         //
         // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixSteamAudioHybridReverbProcessorDesc {
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSoundEventMetaData {
-            public const nint m_soundEventVMix = 0x0; // CStrongHandle<InfoForResourceTypeCVMixListResource>
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class VMixPitchShiftDesc_t {
-            public const nint m_nGrainSampleCount = 0x0; // int32
-            public const nint m_flPitchShift = 0x4; // float32
-            public const nint m_nQuality = 0x8; // int32
-            public const nint m_nProcType = 0xC; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixControlOutput {
-            public const nint m_flDefaultValue = 0x10; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixModDelayProcessorDesc {
-            public const nint m_desc = 0x20; // VMixModDelayDesc_t
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixShaperProcessorDesc {
-            public const nint m_desc = 0x20; // VMixShaperDesc_t
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CVMixAutomaticControlInput {
-            public const nint m_name = 0x0; // CUtlString
-            public const nint m_nControlInputIndex = 0x8; // int32
-            public const nint m_bIsTrackSend = 0xC; // bool
-            public const nint m_bIsStackVar = 0xD; // bool
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CAudioEmphasisSample {
-            public const nint m_flTime = 0x0; // float32
-            public const nint m_flValue = 0x4; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixOscProcessorDesc {
-            public const nint m_desc = 0x20; // VMixOscDesc_t
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CVMixCurveHeader {
-            public const nint m_nControlPointCount = 0x0; // uint32
-            public const nint m_nControlPointStart = 0x4; // uint32
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        public static class CVoiceContainerGenerator {
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        public static class CVoiceContainerSet {
-            public const nint m_soundsToPlay = 0xA8; // CUtlVector<CVoiceContainerSetElement>
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class VMixConvolutionDesc_t {
-            public const nint m_fldbGain = 0x0; // float32
-            public const nint m_flPreDelayMS = 0x4; // float32
-            public const nint m_flWetMix = 0x8; // float32
-            public const nint m_fldbLow = 0xC; // float32
-            public const nint m_fldbMid = 0x10; // float32
-            public const nint m_fldbHigh = 0x14; // float32
-            public const nint m_flLowCutoffFreq = 0x18; // float32
-            public const nint m_flHighCutoffFreq = 0x1C; // float32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        public static class CVoiceContainerSetElement {
-            public const nint m_sound = 0x0; // CSoundContainerReference
-            public const nint m_flVolumeDB = 0x20; // float32
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        public static class CVoiceContainerAsyncGenerator {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSoundInfoHeader {
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SosEditItemInfo_t {
-            public const nint itemType = 0x0; // SosEditItemType_t
-            public const nint itemName = 0x8; // CUtlString
-            public const nint itemTypeName = 0x10; // CUtlString
-            public const nint itemKVString = 0x20; // CUtlString
-            public const nint itemPos = 0x28; // Vector2D
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixFlangerProcessorDesc {
-            public const nint m_desc = 0x20; // VMixFlangerDesc_t
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // `
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixEffectChainProcessorDesc {
-            public const nint m_desc = 0x20; // VMixEffectChainDesc_t
-        }
-        // Parent: None
-        // Field count: 5
-        public static class KeyGroup_t {
-            public const nint nCenterNote = 0x0; // uint8
-            public const nint nMinNote = 0x1; // uint8
-            public const nint nMaxNote = 0x2; // uint8
-            public const nint nNumVelocityZones = 0x3; // uint8
-            public const nint pVelocityZones = 0x8; // VelocityZone_t*
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CVMixFreeverbProcessorDesc {
-            public const nint m_desc = 0x20; // VMixFreeverbDesc_t
-        }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class VMixPlateverbDesc_t {
-            public const nint m_flPrefilter = 0x0; // float32
-            public const nint m_flInputDiffusion1 = 0x4; // float32
-            public const nint m_flInputDiffusion2 = 0x8; // float32
-            public const nint m_flDecay = 0xC; // float32
-            public const nint m_flDamp = 0x10; // float32
-            public const nint m_flFeedbackDiffusion1 = 0x14; // float32
-            public const nint m_flFeedbackDiffusion2 = 0x18; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // `
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixConvolutionProcessorDesc {
-            public const nint m_desc = 0x20; // VMixConvolutionDesc_t
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        public static class CSoundContainerReferenceArray {
-            public const nint m_bUseReference = 0x0; // bool
-            public const nint m_sounds = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
-            public const nint m_pSounds = 0x20; // CUtlVector<CVoiceContainerBase*>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixFilterProcessorDesc {
-            public const nint m_desc = 0x20; // VMixFilterDesc_t
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixAdditionalOutput {
-            public const nint m_name = 0x0; // CUtlString
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        public static class CVoiceContainerTapePlayer {
-            public const nint m_bShouldWraparound = 0xB8; // bool
-            public const nint m_sourceAudio = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-            public const nint m_flTapeSpeedAttackTime = 0xC8; // float32
-            public const nint m_flTapeSpeedReleaseTime = 0xCC; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixSubgraphSwitchProcessorDesc {
-            public const nint m_desc = 0x20; // VMixSubgraphSwitchDesc_t
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class VMixDiffusorDesc_t {
-            public const nint m_flSize = 0x0; // float32
-            public const nint m_flComplexity = 0x4; // float32
-            public const nint m_flFeedback = 0x8; // float32
-            public const nint m_flOutputGain = 0xC; // float32
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixSteamAudioPathingProcessorDesc {
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixPannerProcessorDesc {
-            public const nint m_desc = 0x20; // VMixPannerDesc_t
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class VMixDynamicsCompressorDesc_t {
-            public const nint m_fldbOutputGain = 0x0; // float32
-            public const nint m_fldbCompressionThreshold = 0x4; // float32
-            public const nint m_fldbKneeWidth = 0x8; // float32
-            public const nint m_flCompressionRatio = 0xC; // float32
-            public const nint m_flAttackTimeMS = 0x10; // float32
-            public const nint m_flReleaseTimeMS = 0x14; // float32
-            public const nint m_flRMSTimeMS = 0x18; // float32
-            public const nint m_flWetMix = 0x1C; // float32
-            public const nint m_bPeakMode = 0x20; // bool
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // FILTER_SLOPE_1POLE_12dB
-        // FILTER_SLOPE_1POLE_18dB
-        // FILTER_SLOPE_1POLE_24dB
-        // FILTER_SLOPE_12dB
-        // FILTER_SLOPE_24dB
-        // FILTER_SLOPE_36dB
-        // FILTER_SLOPE_48dB
-        // FILTER_SLOPE_MAX
-        // LFO_SHAPE_SQUARE
-        // LFO_SHAPE_TRI
-        // LFO_SHAPE_SAW
-        // LFO_SHAPE_NOISE
-        // PANNER_TYPE_EQUAL_POWER
-        // MGetKV3ClassDefaults
-        // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
-        // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
-        // VMIX_CHAN_LEFT
-        // VMIX_CHAN_RIGHT
-        // VMIX_CHAN_SWAP
-        // VMIX_CHAN_MONO
-        // VMIX_CHAN_MID_SIDE
         // MGetKV3ClassDefaults
         // CMD_INVALID
         // CMD_CONTROL_INPUT_STORE
@@ -2819,6 +2335,7 @@ namespace Source2Dumper.Schemas {
         // CMD_SUBMIX_PROCESS
         // CMD_SUBMIX_GENERATE
         // CMD_SUBMIX_GENERATE_SIDECHAIN
+        // CMD_SUBMIX_EXTRACTCONTAINER
         // CMD_SUBMIX_DEBUG
         // CMD_SUBMIX_MIX2x1
         // CMD_SUBMIX_OUTPUT
@@ -2833,6 +2350,1014 @@ namespace Source2Dumper.Schemas {
         // CMD_IMPULSERESPONSE_RESET
         // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
         // CMD_IMPULSERESPONSE_DELAY
+        // o
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixSteamAudioHybridReverbProcessorDesc {
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CSoundEventMetaData {
+            public const nint m_soundEventVMix = 0x0; // CStrongHandle<InfoForResourceTypeCVMixListResource>
+        }
+        // Parent: None
+        // Field count: 4
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class VMixPitchShiftDesc_t {
+            public const nint m_nGrainSampleCount = 0x0; // int32
+            public const nint m_flPitchShift = 0x4; // float32
+            public const nint m_nQuality = 0x8; // int32
+            public const nint m_nProcType = 0xC; // int32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // FILTER_UNKNOWN
+        // FILTER_HIGHPASS
+        // FILTER_BANDPASS
+        // FILTER_NOTCH
+        // FILTER_PEAKING_EQ
+        // FILTER_LOW_SHELF
+        // FILTER_HIGH_SHELF
+        // FILTER_ALLPASS
+        // FILTER_PASSTHROUGH
+        // MGetKV3ClassDefaults
+        // FILTER_SLOPE_1POLE_12dB
+        // FILTER_SLOPE_1POLE_18dB
+        // FILTER_SLOPE_1POLE_24dB
+        // FILTER_SLOPE_12dB
+        // FILTER_SLOPE_24dB
+        // FILTER_SLOPE_36dB
+        // FILTER_SLOPE_48dB
+        // FILTER_SLOPE_MAX
+        // LFO_SHAPE_SQUARE
+        // LFO_SHAPE_TRI
+        // LFO_SHAPE_SAW
+        // LFO_SHAPE_NOISE
+        // PANNER_TYPE_EQUAL_POWER
+        // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+        // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
+        public static class CVMixControlOutput {
+            public const nint m_flDefaultValue = 0x10; // float32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // FILTER_SLOPE_1POLE_12dB
+        // FILTER_SLOPE_1POLE_18dB
+        // FILTER_SLOPE_1POLE_24dB
+        // FILTER_SLOPE_12dB
+        // FILTER_SLOPE_24dB
+        // FILTER_SLOPE_36dB
+        // FILTER_SLOPE_48dB
+        // FILTER_SLOPE_MAX
+        // LFO_SHAPE_SQUARE
+        // LFO_SHAPE_TRI
+        // LFO_SHAPE_SAW
+        // LFO_SHAPE_NOISE
+        // PANNER_TYPE_EQUAL_POWER
+        // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+        // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
+        public static class CVMixModDelayProcessorDesc {
+            public const nint m_desc = 0x20; // VMixModDelayDesc_t
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixShaperProcessorDesc {
+            public const nint m_desc = 0x20; // VMixShaperDesc_t
+        }
+        // Parent: None
+        // Field count: 4
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CVMixAutomaticControlInput {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_nControlInputIndex = 0x8; // int32
+            public const nint m_bIsTrackSend = 0xC; // bool
+            public const nint m_bIsStackVar = 0xD; // bool
+        }
+        // Parent: None
+        // Field count: 5
+        //
+        // Metadata:
+        // MPropertyArrayElementNameKey
+        // MVDataOutlinerNameExpr
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        public static class CSndBeatTrack {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_playbackType = 0x20; // SndBeatTrackPlaybackType_t
+            public const nint m_nTranspose = 0x24; // int32
+            public const nint m_bSyncToVoice = 0x28; // bool
+            public const nint m_flBPM = 0x2C; // float32
+        }
+        // Parent: None
+        // Field count: 17
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        public static class CVoiceContainerVsndRadioButton {
+            public const nint m_namespace = 0x70; // CUtlString
+            public const nint m_slot1 = 0x78; // CVsndRadioButtonSlot
+            public const nint m_slot2 = 0x100; // CVsndRadioButtonSlot
+            public const nint m_slot3 = 0x188; // CVsndRadioButtonSlot
+            public const nint m_slot4 = 0x210; // CVsndRadioButtonSlot
+            public const nint m_slot5 = 0x298; // CVsndRadioButtonSlot
+            public const nint m_slot6 = 0x320; // CVsndRadioButtonSlot
+            public const nint m_slot7 = 0x3A8; // CVsndRadioButtonSlot
+            public const nint m_slot8 = 0x430; // CVsndRadioButtonSlot
+            public const nint m_slot9 = 0x4B8; // CVsndRadioButtonSlot
+            public const nint m_slot10 = 0x540; // CVsndRadioButtonSlot
+            public const nint m_slot11 = 0x5C8; // CVsndRadioButtonSlot
+            public const nint m_slot12 = 0x650; // CVsndRadioButtonSlot
+            public const nint m_slot13 = 0x6D8; // CVsndRadioButtonSlot
+            public const nint m_slot14 = 0x760; // CVsndRadioButtonSlot
+            public const nint m_slot15 = 0x7E8; // CVsndRadioButtonSlot
+            public const nint m_slot16 = 0x870; // CVsndRadioButtonSlot
+        }
+        // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CAudioEmphasisSample {
+            public const nint m_flTime = 0x0; // float32
+            public const nint m_flValue = 0x4; // float32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixOscProcessorDesc {
+            public const nint m_desc = 0x20; // VMixOscDesc_t
+        }
+        // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CVMixCurveHeader {
+            public const nint m_nControlPointCount = 0x0; // uint32
+            public const nint m_nControlPointStart = 0x4; // uint32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        public static class CVoiceContainerLoopTriggerWithRandomPanner {
+            public const nint m_randomPannerControls = 0xA0; // CRandomPannerControls
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // '
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // RandomNoRepeats
+        // RandomAvoidLast
+        // Sequential
+        // RandomWeights
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // PCM8
+        // MP3
+        // ADPCM
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVoiceContainerGenerator {
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // l
+        // MPropertyStartGroup
+        // MPropertyFriendlyName
+        // MPropertyStartGroup
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        public static class CVoiceContainerSet {
+            public const nint m_soundsToPlay = 0x70; // CUtlVector<CVoiceContainerSetElement>
+        }
+        // Parent: None
+        // Field count: 8
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class VMixConvolutionDesc_t {
+            public const nint m_fldbGain = 0x0; // float32
+            public const nint m_flPreDelayMS = 0x4; // float32
+            public const nint m_flWetMix = 0x8; // float32
+            public const nint m_fldbLow = 0xC; // float32
+            public const nint m_fldbMid = 0x10; // float32
+            public const nint m_fldbHigh = 0x14; // float32
+            public const nint m_flLowCutoffFreq = 0x18; // float32
+            public const nint m_flHighCutoffFreq = 0x1C; // float32
+        }
+        // Parent: None
+        // Field count: 19
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        public static class CVoiceContainerVsndTrigger {
+            public const nint m_namespace = 0x70; // CUtlString
+            public const nint m_slot1 = 0x78; // CVsndTriggerSlot
+            public const nint m_slot2 = 0x100; // CVsndTriggerSlot
+            public const nint m_slot3 = 0x188; // CVsndTriggerSlot
+            public const nint m_slot4 = 0x210; // CVsndTriggerSlot
+            public const nint m_slot5 = 0x298; // CVsndTriggerSlot
+            public const nint m_slot6 = 0x320; // CVsndTriggerSlot
+            public const nint m_slot7 = 0x3A8; // CVsndTriggerSlot
+            public const nint m_slot8 = 0x430; // CVsndTriggerSlot
+            public const nint m_slot9 = 0x4B8; // CVsndTriggerSlot
+            public const nint m_slot10 = 0x540; // CVsndTriggerSlot
+            public const nint m_slot11 = 0x5C8; // CVsndTriggerSlot
+            public const nint m_slot12 = 0x650; // CVsndTriggerSlot
+            public const nint m_slot13 = 0x6D8; // CVsndTriggerSlot
+            public const nint m_slot14 = 0x760; // CVsndTriggerSlot
+            public const nint m_slot15 = 0x7E8; // CVsndTriggerSlot
+            public const nint m_slot16 = 0x870; // CVsndTriggerSlot
+            public const nint m_flTime = 0x0; // float32
+            public const nint m_flValue = 0x4; // float32
+        }
+        // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CVoiceContainerSetElement {
+            public const nint m_sound = 0x0; // CSoundContainerReference
+            public const nint m_flVolumeDB = 0x20; // float32
+        }
+        // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        public static class CSndBeatPatternManager {
+            public const nint m_vecPatterns = 0x38; // CUtlVector<CSndBeatPattern>
+            public const nint m_vecActiveTracks = 0x70; // CUtlVector<CSndBeatTrack>
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // '
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // RandomNoRepeats
+        // RandomAvoidLast
+        // Sequential
+        // RandomWeights
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // PCM8
+        // MP3
+        // ADPCM
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVoiceContainerAsyncGenerator {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CSoundInfoHeader {
+        }
+        // Parent: None
+        // Field count: 5
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // SOS_EDIT_ITEM_TYPE_SOUNDEVENT
+        // SOS_EDIT_ITEM_TYPE_LIBRARYSTACKS
+        public static class SosEditItemInfo_t {
+            public const nint itemType = 0x0; // SosEditItemType_t
+            public const nint itemName = 0x8; // CUtlString
+            public const nint itemTypeName = 0x10; // CUtlString
+            public const nint itemKVString = 0x20; // CUtlString
+            public const nint itemPos = 0x28; // Vector2D
+        }
+        // Parent: None
+        // Field count: 6
+        public static class CVMixSubmix {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_sendOperator = 0x8; // CUtlString
+            public const nint m_SendNames = 0x10; // CUtlString[4]
+            public const nint m_nSoloNameHash = 0x30; // uint32
+            public const nint m_nChannels = 0x34; // int32
+            public const nint m_nMixDownRule = 0x38; // int32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // FILTER_UNKNOWN
+        // FILTER_HIGHPASS
+        // FILTER_BANDPASS
+        // FILTER_NOTCH
+        // FILTER_PEAKING_EQ
+        // FILTER_LOW_SHELF
+        // FILTER_HIGH_SHELF
+        // FILTER_ALLPASS
+        // FILTER_PASSTHROUGH
+        // MGetKV3ClassDefaults
+        // FILTER_SLOPE_1POLE_12dB
+        // FILTER_SLOPE_1POLE_18dB
+        // FILTER_SLOPE_1POLE_24dB
+        // FILTER_SLOPE_12dB
+        // FILTER_SLOPE_24dB
+        // FILTER_SLOPE_36dB
+        // FILTER_SLOPE_48dB
+        // FILTER_SLOPE_MAX
+        // LFO_SHAPE_SQUARE
+        // LFO_SHAPE_TRI
+        // LFO_SHAPE_SAW
+        // LFO_SHAPE_NOISE
+        // PANNER_TYPE_EQUAL_POWER
+        // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+        // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
+        public static class CVMixFlangerProcessorDesc {
+            public const nint m_desc = 0x20; // VMixFlangerDesc_t
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixEffectChainProcessorDesc {
+            public const nint m_desc = 0x20; // VMixEffectChainDesc_t
+        }
+        // Parent: None
+        // Field count: 5
+        public static class KeyGroup_t {
+            public const nint nCenterNote = 0x0; // uint8
+            public const nint nMinNote = 0x1; // uint8
+            public const nint nMaxNote = 0x2; // uint8
+            public const nint nNumVelocityZones = 0x3; // uint8
+            public const nint pVelocityZones = 0x8; // VelocityZone_t*
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixFreeverbProcessorDesc {
+            public const nint m_desc = 0x20; // VMixFreeverbDesc_t
+        }
+        // Parent: None
+        // Field count: 7
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class VMixPlateverbDesc_t {
+            public const nint m_flPrefilter = 0x0; // float32
+            public const nint m_flInputDiffusion1 = 0x4; // float32
+            public const nint m_flInputDiffusion2 = 0x8; // float32
+            public const nint m_flDecay = 0xC; // float32
+            public const nint m_flDamp = 0x10; // float32
+            public const nint m_flFeedbackDiffusion1 = 0x14; // float32
+            public const nint m_flFeedbackDiffusion2 = 0x18; // float32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // FILTER_UNKNOWN
+        // FILTER_HIGHPASS
+        // FILTER_BANDPASS
+        // FILTER_NOTCH
+        // FILTER_PEAKING_EQ
+        // FILTER_LOW_SHELF
+        // FILTER_HIGH_SHELF
+        // FILTER_ALLPASS
+        // FILTER_PASSTHROUGH
+        // MGetKV3ClassDefaults
+        // FILTER_SLOPE_1POLE_12dB
+        // FILTER_SLOPE_1POLE_18dB
+        // FILTER_SLOPE_1POLE_24dB
+        // FILTER_SLOPE_12dB
+        // FILTER_SLOPE_24dB
+        // FILTER_SLOPE_36dB
+        // FILTER_SLOPE_48dB
+        // FILTER_SLOPE_MAX
+        // LFO_SHAPE_SQUARE
+        // LFO_SHAPE_TRI
+        // LFO_SHAPE_SAW
+        // LFO_SHAPE_NOISE
+        // PANNER_TYPE_EQUAL_POWER
+        // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+        // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
+        public static class CVMixConvolutionProcessorDesc {
+            public const nint m_desc = 0x20; // VMixConvolutionDesc_t
+        }
+        // Parent: None
+        // Field count: 3
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        public static class CSoundContainerReferenceArray {
+            public const nint m_bUseReference = 0x0; // bool
+            public const nint m_sounds = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
+            public const nint m_pSounds = 0x20; // CUtlVector<CVoiceContainerBase*>
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixFilterProcessorDesc {
+            public const nint m_desc = 0x20; // VMixFilterDesc_t
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixAdditionalOutput {
+            public const nint m_name = 0x0; // CUtlString
+        }
+        // Parent: None
+        // Field count: 4
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        public static class CVoiceContainerTapePlayer {
+            public const nint m_bShouldWraparound = 0x80; // bool
+            public const nint m_sourceAudio = 0x88; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+            public const nint m_flTapeSpeedAttackTime = 0x90; // float32
+            public const nint m_flTapeSpeedReleaseTime = 0x94; // float32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // FILTER_UNKNOWN
+        // FILTER_HIGHPASS
+        // FILTER_BANDPASS
+        // FILTER_NOTCH
+        // FILTER_PEAKING_EQ
+        // FILTER_LOW_SHELF
+        // FILTER_HIGH_SHELF
+        // FILTER_ALLPASS
+        // FILTER_PASSTHROUGH
+        // MGetKV3ClassDefaults
+        // FILTER_SLOPE_1POLE_12dB
+        // FILTER_SLOPE_1POLE_18dB
+        // FILTER_SLOPE_1POLE_24dB
+        // FILTER_SLOPE_12dB
+        // FILTER_SLOPE_24dB
+        public static class CVMixSubgraphSwitchProcessorDesc {
+            public const nint m_desc = 0x20; // VMixSubgraphSwitchDesc_t
+        }
+        // Parent: None
+        // Field count: 4
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class VMixDiffusorDesc_t {
+            public const nint m_flSize = 0x0; // float32
+            public const nint m_flComplexity = 0x4; // float32
+            public const nint m_flFeedback = 0x8; // float32
+            public const nint m_flOutputGain = 0xC; // float32
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixSteamAudioPathingProcessorDesc {
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixPannerProcessorDesc {
+            public const nint m_desc = 0x20; // VMixPannerDesc_t
+        }
+        // Parent: None
+        // Field count: 9
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class VMixDynamicsCompressorDesc_t {
+            public const nint m_fldbOutputGain = 0x0; // float32
+            public const nint m_fldbCompressionThreshold = 0x4; // float32
+            public const nint m_fldbKneeWidth = 0x8; // float32
+            public const nint m_flCompressionRatio = 0xC; // float32
+            public const nint m_flAttackTimeMS = 0x10; // float32
+            public const nint m_flReleaseTimeMS = 0x14; // float32
+            public const nint m_flRMSTimeMS = 0x18; // float32
+            public const nint m_flWetMix = 0x1C; // float32
+            public const nint m_bPeakMode = 0x20; // bool
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // npc_dota_juggernaut_healing_ward
+        public static class CVoiceContainerVMixSnd {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         public static class CVMixStereoDelayProcessorDesc {
         }
@@ -2878,65 +3403,25 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // VApplication001
-        // VEngineCvar007
-        // VStringTokenSystem001
-        // TestScriptMgr001
-        // VProcessUtils002
-        // VFileSystem017
-        // VAsyncFileSystem2_001
-        // ResourceSystem013
-        // ResourceManifestRegistry001
-        // ResourceHandleUtils001
-        // SchemaSystem_001
-        // ResourceCompilerSystem001
-        // VMaterialSystem2_001
-        // PostProcessingSystem_001
-        // InputSystemVersion001
-        // InputStackSystemVersion001
-        // RenderDeviceMgr001
-        // RenderUtils_001
-        // SoundSystem001
-        // SoundOpSystemEdit001
-        // SoundOpSystem001
-        // SteamAudio001
-        // VP4003
-        // Localize_001
-        // VMediaFoundation001
-        // VAvi001
-        // VWebm001
-        // VBik001
-        // MeshSystem001
-        // MeshUtils001
-        // RenderDevice003
-        // VRenderDeviceSetupV001
-        // RenderHardwareConfig002
-        // SceneSystem_002
-        // IPulseSystem_001
-        // SceneUtils_001
-        // WorldRendererMgr001
-        // AssetSystem001
-        // AssetSystemTest001
-        // ParticleSystemMgr003
-        // VScriptManager010
         public static class CVoiceContainerParameterBlender {
-            public const nint m_firstSound = 0xA8; // CSoundContainerReference
-            public const nint m_secondSound = 0xC8; // CSoundContainerReference
-            public const nint m_bEnableOcclusionBlend = 0xE8; // bool
-            public const nint m_curve1 = 0xF0; // CPiecewiseCurve
-            public const nint m_curve2 = 0x130; // CPiecewiseCurve
-            public const nint m_bEnableDistanceBlend = 0x170; // bool
-            public const nint m_curve3 = 0x178; // CPiecewiseCurve
-            public const nint m_curve4 = 0x1B8; // CPiecewiseCurve
+            public const nint m_firstSound = 0x70; // CSoundContainerReference
+            public const nint m_secondSound = 0x90; // CSoundContainerReference
+            public const nint m_bEnableOcclusionBlend = 0xB0; // bool
+            public const nint m_curve1 = 0xB8; // CPiecewiseCurve
+            public const nint m_curve2 = 0xF8; // CPiecewiseCurve
+            public const nint m_bEnableDistanceBlend = 0x138; // bool
+            public const nint m_curve3 = 0x140; // CPiecewiseCurve
+            public const nint m_curve4 = 0x180; // CPiecewiseCurve
         }
         // Parent: None
-        // Field count: 2
+        // Field count: 3
         //
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CVMixAudioMeter {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_displayName = 0x8; // CUtlString
+            public const nint m_nDebugId = 0x10; // uint32
         }
         // Parent: None
         // Field count: 1
@@ -2946,19 +3431,11 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
+        // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -2966,19 +3443,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // `
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2995,7 +3459,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // trollers=0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/
+        // MGetKV3ClassDefaults
         public static class CSosGroupActionLimitSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_nStopType = 0xC; // SosActionStopType_t
@@ -3015,66 +3479,21 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // PCM8
         // MP3
         // ADPCM
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CVoiceContainerAmpedDecayingSineWave {
-            public const nint m_flGainAmount = 0xB0; // float32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // C_Sharp
-        // D
-        // D_Sharp
-        // E
-        // F
-        // F_Sharp
-        // G
-        // G_Sharp
-        // A
-        // A_Sharp
-        // B
-        // Count
-        // Square
-        // Saw
-        // Triangle
-        // Noise
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        public static class CVoiceContainerEnvelope {
-            public const nint m_sound = 0xA8; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-            public const nint m_analysisContainer = 0xB0; // CVoiceContainerAnalysisBase*
+            public const nint m_flGainAmount = 0x78; // float32
         }
         // Parent: None
         // Field count: 8
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class VMixAutoFilterDesc_t {
             public const nint m_flEnvelopeAmount = 0x0; // float32
@@ -3108,10 +3527,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // CMD_INVALID
-        // CMD_CONTROL_INPUT_STORE
-        // CMD_CONTROL_INPUT_STORE_DB
-        // CMD_CONTROL_TRANSIENT_INPUT_STORE
         public static class VMixEffectChainDesc_t {
             public const nint m_effectName = 0x0; // CUtlString
         }
@@ -3121,7 +3536,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3138,20 +3554,31 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // FILTER_UNKNOWN
+        // FILTER_HIGHPASS
+        // FILTER_BANDPASS
+        // FILTER_NOTCH
+        // FILTER_PEAKING_EQ
+        // FILTER_LOW_SHELF
+        // FILTER_HIGH_SHELF
+        // FILTER_ALLPASS
+        // FILTER_PASSTHROUGH
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // FILTER_SLOPE_1POLE_12dB
+        // FILTER_SLOPE_1POLE_18dB
+        // FILTER_SLOPE_1POLE_24dB
+        // FILTER_SLOPE_12dB
+        // FILTER_SLOPE_24dB
+        // FILTER_SLOPE_36dB
+        // FILTER_SLOPE_48dB
+        // FILTER_SLOPE_MAX
+        // LFO_SHAPE_SQUARE
+        // LFO_SHAPE_TRI
+        // LFO_SHAPE_SAW
+        // LFO_SHAPE_NOISE
+        // PANNER_TYPE_EQUAL_POWER
+        // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
+        // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
         public static class CVMixPlateReverbProcessorDesc {
             public const nint m_desc = 0x20; // VMixPlateverbDesc_t
         }
@@ -3167,6 +3594,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -3174,29 +3602,52 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // l
+        // MPropertyStartGroup
+        // MPropertyFriendlyName
+        // MPropertyStartGroup
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class CVoiceContainerMultiBlender {
-            public const nint m_soundsToPlay = 0xA8; // CSoundContainerReferenceArray
-            public const nint m_flBlendFactor = 0xE0; // float32
-            public const nint m_flCrossover = 0xE4; // float32
+            public const nint m_soundsToPlay = 0x70; // CSoundContainerReferenceArray
+            public const nint m_flBlendFactor = 0xA8; // float32
+            public const nint m_flCrossover = 0xAC; // float32
         }
         // Parent: None
         // Field count: 2
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MKV3TransferName
         // MKV3TransferName
         // MKV3TransferName
         // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3205,11 +3656,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         public static class CVMixVsndInput {
             public const nint m_defaultValue = 0x10; // CUtlString
             public const nint m_nProcessor = 0x18; // int32
@@ -3224,6 +3678,15 @@ namespace Source2Dumper.Schemas {
             public const nint m_nInstancesAtMinVolume = 0x4; // int32
             public const nint m_flMaxVolume = 0x8; // float32
             public const nint m_nInstancesAtMaxVolume = 0xC; // int32
+        }
+        // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class SndBeatTimeSignature_t {
+            public const nint nNumerator = 0x0; // uint8
+            public const nint nDenominator = 0x1; // uint8
         }
         // Parent: None
         // Field count: 4
@@ -3253,106 +3716,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         public static class CVoiceContainerSelector {
-            public const nint m_mode = 0xA8; // PlayBackMode_t
-            public const nint m_soundsToPlay = 0xB0; // CSoundContainerReferenceArray
-            public const nint m_fProbabilityWeights = 0xE8; // CUtlVector<float32>
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // trollers=0x2dfa/0x0001,0x2dc8/0x3019,0x2dc8/0x9000,0x2dc8/0x3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/
-        public static class CSosGroupActionTimeBlockLimitSchema {
-            public const nint m_nMaxCount = 0x8; // int32
-            public const nint m_flMaxDuration = 0xC; // float32
-            public const nint m_nMaxCount = 0x8; // int32
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // kBranch
-        // kMatch
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // SOS_GROUPTYPE_STATIC
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // SOS_SETPARAM_SORTTYPE_LOWEST
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // SOS_LIMIT_SORTTYPE_LOWEST
-        // MPropertyFriendlyName
-        // SOS_STOPTYPE_TIME
-        // SOS_STOPTYPE_OPVAR
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // eSndSeqInstSndEvt
-        // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
-        // MGetKV3ClassDefaults
-        // SNDLVL_20dB
-        // SNDLVL_25dB
-        public static class CSosGroupActionMemberCountEnvelopeSchema {
-            public const nint m_nBaseCount = 0x8; // int32
-            public const nint m_nTargetCount = 0xC; // int32
-            public const nint m_flBaseValue = 0x10; // float32
-            public const nint m_flTargetValue = 0x14; // float32
-            public const nint m_flAttack = 0x18; // float32
-            public const nint m_flDecay = 0x1C; // float32
-            public const nint m_resultVarName = 0x20; // CUtlString
-            public const nint m_bSaveToGroup = 0x28; // bool
-            public const nint m_nBaseCount = 0x8; // int32
+            public const nint m_mode = 0x70; // PlayBackMode_t
+            public const nint m_soundsToPlay = 0x78; // CSoundContainerReferenceArray
+            public const nint m_fProbabilityWeights = 0xB0; // CUtlVector<float32>
         }
         // Parent: None
         // Field count: 1
@@ -3361,105 +3730,11 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyAttributeRange
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixDualCompressorProcessorDesc {
-            public const nint m_desc = 0x20; // VMixDualCompressorDesc_t
+        public static class SndBeatEventKeyedSndEvts_t {
+            public const nint m_strSoundEventName = 0x10; // CUtlString
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyStartGroup
-        // MPropertyFriendlyName
-        // MPropertyStartGroup
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        public static class CVoiceContainerSwitch {
-            public const nint m_soundsToPlay = 0xA8; // CUtlVector<CSoundContainerReference>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CVMixControlMeter {
-            public const nint m_nValueIndex = 0x10; // int32
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        // MPropertySuppressExpr
-        // MPropertyFriendlyName
-        public static class CVoiceContainerEnum {
-            public const nint m_soundsToPlay = 0xA8; // CSoundContainerReferenceArray
-            public const nint m_iSelection = 0xE0; // int32
-            public const nint m_flCrossfadeTime = 0xE4; // float32
-        }
-        // Parent: None
-        // Field count: 1
+        // Field count: 2
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -3473,31 +3748,21 @@ namespace Source2Dumper.Schemas {
         // SOS_GROUPTYPE_STATIC
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // SOS_SETPARAM_SORTTYPE_LOWEST
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // SOS_LIMIT_SORTTYPE_LOWEST
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // SOS_STOPTYPE_TIME
         // SOS_STOPTYPE_OPVAR
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // eSndSeqInstSndEvt
         // eSndSeqInstMidiSampler
-        // eSndSeqRegionTypeSndEvt
-        // eSndSeqRegionTypeMidiSeq
-        // SndSeqMidiStatusNoteOff
-        // SndSeqMidiStatusNoteOn
-        // SndSeqMidiStatusKeyPressure
-        // SndSeqMidiStatusCtrlChange
-        // SndSeqMidiStatusProgramChange
-        // SndSeqMidiStatusChannelPressure
-        // SndSeqMidiStatusPitchBend
         // MGetKV3ClassDefaults
         // SNDLVL_20dB
         // SNDLVL_25dB
@@ -3528,6 +3793,256 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
+        public static class CSosGroupActionTimeBlockLimitSchema {
+            public const nint m_nMaxCount = 0x8; // int32
+            public const nint m_flMaxDuration = 0xC; // float32
+        }
+        // Parent: None
+        // Field count: 3
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        public static class SndBeatEventKeyedMidiNotes_t {
+            public const nint m_nStatus = 0x10; // uint8
+            public const nint m_nNote = 0x11; // uint8
+            public const nint m_nVelocity = 0x12; // uint8
+        }
+        // Parent: None
+        // Field count: 8
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // kBranch
+        // kMatch
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // SOS_GROUPTYPE_STATIC
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // SOS_SETPARAM_SORTTYPE_LOWEST
+        // MPropertyFriendlyName
+        // SOS_LIMIT_SORTTYPE_LOWEST
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // SOS_STOPTYPE_TIME
+        // SOS_STOPTYPE_OPVAR
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // eSndSeqInstSndEvt
+        // eSndSeqInstMidiSampler
+        // MGetKV3ClassDefaults
+        // SNDLVL_20dB
+        // SNDLVL_25dB
+        // SNDLVL_30dB
+        // SNDLVL_35dB
+        // SNDLVL_40dB
+        // SNDLVL_45dB
+        // SNDLVL_50dB
+        // SNDLVL_55dB
+        // SNDLVL_IDLE
+        // SNDLVL_60dB
+        // SNDLVL_65dB
+        // SNDLVL_STATIC
+        // SNDLVL_70dB
+        // SNDLVL_NORM
+        // SNDLVL_75dB
+        // SNDLVL_80dB
+        // SNDLVL_TALKING
+        // SNDLVL_85dB
+        // SNDLVL_90dB
+        // SNDLVL_95dB
+        // SNDLVL_100dB
+        // SNDLVL_105dB
+        // SNDLVL_110dB
+        public static class CSosGroupActionMemberCountEnvelopeSchema {
+            public const nint m_nBaseCount = 0x8; // int32
+            public const nint m_nTargetCount = 0xC; // int32
+            public const nint m_flBaseValue = 0x10; // float32
+            public const nint m_flTargetValue = 0x14; // float32
+            public const nint m_flAttack = 0x18; // float32
+            public const nint m_flDecay = 0x1C; // float32
+            public const nint m_resultVarName = 0x20; // CUtlString
+            public const nint m_bSaveToGroup = 0x28; // bool
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixDualCompressorProcessorDesc {
+            public const nint m_desc = 0x20; // VMixDualCompressorDesc_t
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // l
+        // MPropertyStartGroup
+        // MPropertyFriendlyName
+        // MPropertyStartGroup
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        public static class CVoiceContainerSwitch {
+            public const nint m_soundsToPlay = 0x70; // CUtlVector<CSoundContainerReference>
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MKV3TransferName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CVMixControlMeter {
+            public const nint m_nValueIndex = 0x10; // int32
+        }
+        // Parent: None
+        // Field count: 3
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // l
+        // MPropertyStartGroup
+        // MPropertyFriendlyName
+        // MPropertyStartGroup
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        public static class CVoiceContainerEnum {
+            public const nint m_soundsToPlay = 0x70; // CSoundContainerReferenceArray
+            public const nint m_iSelection = 0xA8; // int32
+            public const nint m_flCrossfadeTime = 0xAC; // float32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         public static class CSosGroupActionTimeLimitSchema {
             public const nint m_flMaxDuration = 0x8; // float32
         }
@@ -3570,29 +4085,40 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPropertyStartGroup
         // MPropertyFriendlyName
-        // MPropertyStartGroup
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
         // MPropertySuppressExpr
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
         public static class CVoiceContainerLoopTrigger {
-            public const nint m_sound = 0xA8; // CSoundContainerReference
-            public const nint m_flRetriggerTimeMin = 0xC8; // float32
-            public const nint m_flRetriggerTimeMax = 0xCC; // float32
-            public const nint m_flFadeTime = 0xD0; // float32
-            public const nint m_bCrossFade = 0xD4; // bool
+            public const nint m_flRetriggerTimeMin = 0x70; // float32
+            public const nint m_flRetriggerTimeMax = 0x74; // float32
+            public const nint m_flFadeTime = 0x78; // float32
+            public const nint m_bCrossFade = 0x7C; // bool
+            public const nint m_sound = 0x80; // CSoundContainerReference
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MVDataNodeType
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // SndSeqMidiStatusNoteOff
+        public static class SndBeatEventKeys_t {
+            public const nint m_flKey = 0x8; // float32
         }
         // Parent: None
         // Field count: 2
@@ -3609,9 +4135,11 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         public static class CVoiceContainerDecayingSineWave {
-            public const nint m_flFrequency = 0xA8; // float32
-            public const nint m_flDecayTime = 0xAC; // float32
+            public const nint m_flFrequency = 0x70; // float32
+            public const nint m_flDecayTime = 0x74; // float32
         }
         // Parent: None
         // Field count: 1
@@ -3620,6 +4148,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // Y
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MPropertyFriendlyName
@@ -3634,12 +4165,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeRange
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
+        // Y
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyAttributeRange
@@ -3652,16 +4189,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         public static class CVMixDelayProcessorDesc {
             public const nint m_desc = 0x20; // VMixDelayDesc_t
         }
@@ -3671,8 +4205,32 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // Y
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3682,30 +4240,27 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // `
+        // FILTER_UNKNOWN
+        // FILTER_HIGHPASS
+        // FILTER_BANDPASS
+        // FILTER_NOTCH
+        // FILTER_PEAKING_EQ
+        // FILTER_LOW_SHELF
+        // FILTER_HIGH_SHELF
+        // FILTER_ALLPASS
+        // FILTER_PASSTHROUGH
         // MGetKV3ClassDefaults
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MKV3TransferName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // FILTER_SLOPE_1POLE_12dB
+        // FILTER_SLOPE_1POLE_18dB
+        // FILTER_SLOPE_1POLE_24dB
+        // FILTER_SLOPE_12dB
+        // FILTER_SLOPE_24dB
         public static class CVMixBoxverb2ProcessorDesc {
             public const nint m_desc = 0x20; // VMixBoxverbDesc_t
         }
@@ -3723,10 +4278,39 @@ namespace Source2Dumper.Schemas {
             public const nint m_flQ = 0xC; // float32
         }
         // Parent: None
+        // Field count: 17
+        //
+        // Metadata:
+        // MPropertyArrayElementNameKey
+        // MVDataOutlinerNameExpr
+        // MGetKV3ClassDefaults
+        // MPropertySuppressExpr
+        // MPropertyFriendlyName
+        // MPropertySuppressExpr
+        // MPropertyStartGroup
+        public static class CSndBeatPattern {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_flSyncPriority = 0xC; // float32
+            public const nint m_syncStartType = 0x10; // SndBeatSyncStartType_t
+            public const nint m_syncType = 0x14; // SndBeatSyncType_t
+            public const nint m_timeSignature = 0x18; // SndBeatTimeSignature_t
+            public const nint m_flLength = 0x20; // float32
+            public const nint m_bLooping = 0x24; // bool
+            public const nint m_playEventType = 0x28; // SndBeatEventType_t
+            public const nint m_flPlayBeatMult = 0x2C; // float32
+            public const nint m_playKeyType = 0x30; // SndBeatKeyType_t
+            public const nint m_vecPatternKeys = 0x38; // CUtlVector<SndBeatEventKeys_t>
+            public const nint m_vecPatternFloats = 0x50; // CUtlVector<SndBeatEventKeyedFloats_t>
+            public const nint m_vecPatternSndEvts = 0x68; // CUtlVector<SndBeatEventKeyedSndEvts_t>
+            public const nint m_vecPatternMidi = 0x80; // CUtlVector<SndBeatEventKeyedMidiNotes_t>
+            public const nint m_syncEventType = 0x98; // SndBeatEventType_t
+            public const nint m_flSyncBeatMult = 0x9C; // float32
+            public const nint m_vecSyncPatternKeys = 0xA0; // CUtlVector<SndBeatEventKeys_t>
+        }
+        // Parent: None
         // Field count: 3
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class VMixOscDesc_t {
             public const nint oscType = 0x0; // VMixLFOShape_t
@@ -3738,59 +4322,29 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT
-        // SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING
-        // VMIX_CHAN_LEFT
-        // VMIX_CHAN_RIGHT
-        // VMIX_CHAN_SWAP
-        // VMIX_CHAN_MONO
-        // VMIX_CHAN_MID_SIDE
         // MGetKV3ClassDefaults
-        // CMD_INVALID
-        // CMD_CONTROL_INPUT_STORE
-        // CMD_CONTROL_INPUT_STORE_DB
-        // CMD_CONTROL_TRANSIENT_INPUT_STORE
-        // CMD_CONTROL_TRANSIENT_INPUT_RESET
-        // CMD_CONTROL_OUTPUT_STORE
-        // CMD_CONTROL_EVALUATE_CURVE
-        // CMD_CONTROL_COPY
-        // CMD_CONTROL_COND_COPY_IF_NEGATIVE
-        // CMD_CONTROL_REMAP_LINEAR
-        // CMD_CONTROL_REMAP_SINE
-        // CMD_CONTROL_REMAP_LOGLINEAR
-        // CMD_CONTROL_MAX
-        // CMD_CONTROL_RESET_TIMER
-        // CMD_CONTROL_INCREMENT_TIMER
-        // CMD_CONTROL_EVAL_ENVELOPE
-        // CMD_CONTROL_SINE_BLEND
-        // CMD_PROCESSOR_SET_CONTROL_VALUE
-        // CMD_PROCESSOR_SET_NAME_INPUT
-        // CMD_PROCESSOR_SET_CONTROL_ARRAYVALUE
-        // CMD_PROCESSOR_STORE_CONTROL_VALUE
-        // CMD_PROCESSOR_SET_VSND_VALUE
-        // CMD_SUBMIX_PROCESS
-        // CMD_SUBMIX_GENERATE
-        // CMD_SUBMIX_GENERATE_SIDECHAIN
-        // CMD_SUBMIX_DEBUG
-        // CMD_SUBMIX_MIX2x1
-        // CMD_SUBMIX_OUTPUT
-        // CMD_SUBMIX_OUTPUTx2
-        // CMD_SUBMIX_COPY
-        // CMD_SUBMIX_ACCUMULATE
-        // CMD_SUBMIX_METER
-        // CMD_SUBMIX_METER_SPECTRUM
-        // CMD_IMPULSERESPONSE_INPUT_STORE
-        // CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE
-        // CMD_REMAP_VSND_TO_IMPULSERESPONSE
-        // CMD_IMPULSERESPONSE_RESET
-        // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
-        // CMD_IMPULSERESPONSE_DELAY
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // MPropertyFriendlyName
         // MPropertyAttributeRange
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         public static class CVMixAutoFilterProcessorDesc {

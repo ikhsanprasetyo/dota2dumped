@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,8 +7,16 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: scenesystem.dll
         // Class count: 9
-        // Enum count: 5
+        // Enum count: 6
         pub mod scenesystem_dll {
+            // Alignment: 4
+            // Member count: 3
+            #[repr(u32)]
+            pub enum ESceneObjectMeshletVisualization {
+                SCENEOBJECT_MESHLET_VIS_NONE = 0x0,
+                SCENEOBJECT_MESHLET_VIS_MESHLET = 0x1,
+                SCENEOBJECT_MESHLET_VIS_CULLED = 0x2
+            }
             // Alignment: 4
             // Member count: 7
             #[repr(u32)]

@@ -1,11 +1,17 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 export const Schemas = {
     pulse_system_dll: {
         PulseBestOutflowRules_t: {
             SORT_BY_NUMBER_OF_VALID_CRITERIA: 0x0,
             SORT_BY_OUTFLOW_INDEX: 0x1,
+        },
+        PulseTestEnumFlags_t: {
+            NONE: 0x0,
+            FIRST: 0x1,
+            SECOND: 0x2,
+            THIRD: 0x4,
         },
         PulseTestEnumShape_t: {
             CIRCLE: 0x64,
@@ -18,6 +24,10 @@ export const Schemas = {
             SoftCancel: 0x2,
             HardCancel: 0x3,
         },
+        PulseTestEnumFlagsAlt_t: {
+            NONE: 0x0,
+            FIRST: 0x1,
+        },
         PulseMethodCallMode_t: {
             SYNC_WAIT_FOR_COMPLETION: 0x0,
             ASYNC_FIRE_AND_FORGET: 0x1,
@@ -29,13 +39,21 @@ export const Schemas = {
             GREEN: 0x3,
             BLUE: 0x4,
         },
+        PulseCursorWakePriority_t: {
+            WakeElegantly: 0x0,
+            WakeImmediate: 0x1,
+        },
         PulseVariableKeysSource_t: {
             PRIVATE: 0x0,
             CPP: 0x1,
             VMAP: 0x2,
             VMDL: 0x3,
             XML: 0x4,
-            COUNT: 0x5,
+            VDATA: 0x5,
+            COUNT: 0x6,
+        },
+        PulseDurationStringFormat_t: {
+            MM_SS_LEADING_ZERO: 0x0,
         },
         EPulseGraphExecutionHistoryFlag: {
             NO_FLAGS: 0x0,
@@ -44,12 +62,6 @@ export const Schemas = {
             CURSOR_RETIRED: 0x4,
             REQUIREMENT_PASS: 0x8,
             REQUIREMENT_FAIL: 0x10,
-        },
-        PulseCursorExecResult_t: {
-            Succeeded: 0x0,
-            Canceled: 0x1,
-            Failed: 0x2,
-            OngoingNotify: 0x3,
         },
         PulseValueType_t: {
             PVAL_VOID: 0xFFFFFFFFFFFFFFFF,
@@ -84,7 +96,9 @@ export const Schemas = {
             PVAL_ARRAY: 0x1C,
             PVAL_TYPESAFE_INT64: 0x1D,
             PVAL_PARTICLE_EHANDLE: 0x1E,
-            PVAL_COUNT: 0x1F,
+            PVAL_ANIM_SEQUENCE: 0x1F,
+            PVAL_VDATA_CHOICE: 0x20,
+            PVAL_COUNT: 0x21,
         },
         PulseApiFeature_t: {
             AF_NONE: 0x0,
@@ -106,120 +120,121 @@ export const Schemas = {
             CHUNK_LEAP_COND: 0x8,
             PULSE_CALL_SYNC: 0x9,
             PULSE_CALL_ASYNC_FIRE: 0xA,
-            CELL_INVOKE: 0xB,
-            LIBRARY_INVOKE: 0xC,
-            SET_VAR: 0xD,
-            GET_VAR: 0xE,
-            GET_VAR_DETACH: 0xF,
-            DETACH_REGISTER: 0x10,
-            SET_VAR_ARRAY_ELEMENT_1D: 0x11,
-            SET_VAR_OBSERVABLE: 0x12,
-            GET_CONST: 0x13,
-            GET_ARRAY_ELEMENT: 0x14,
-            GET_DOMAIN_VALUE: 0x15,
-            COPY: 0x16,
-            NOT: 0x17,
-            NEGATE: 0x18,
-            ADD: 0x19,
-            SUB: 0x1A,
-            MUL: 0x1B,
-            DIV: 0x1C,
-            MOD: 0x1D,
-            LT: 0x1E,
-            LTE: 0x1F,
-            EQ: 0x20,
-            NE: 0x21,
-            AND: 0x22,
-            OR: 0x23,
-            SCALE: 0x24,
-            SCALE_INV: 0x25,
-            ELEMENT_ACCESS: 0x26,
-            CONVERT_VALUE: 0x27,
-            REINTERPRET_INSTANCE: 0x28,
-            GET_BLACKBOARD_REFERENCE: 0x29,
-            SET_BLACKBOARD_REFERENCE: 0x2A,
-            LAST_SERIALIZED_CODE: 0x2B,
-            NEGATE_INT: 0x2C,
-            NEGATE_FLOAT: 0x2D,
-            NEGATE_VEC2: 0x2E,
-            NEGATE_VEC3: 0x2F,
-            NEGATE_VEC4: 0x30,
-            ADD_INT: 0x31,
-            ADD_FLOAT: 0x32,
-            ADD_STRING: 0x33,
-            ADD_VEC2: 0x34,
-            ADD_VEC3: 0x35,
-            ADD_VEC3WS_VEC3: 0x36,
-            ADD_VEC3_VEC3WS: 0x37,
-            ADD_VEC4: 0x38,
-            ADD_GAMETIME_FLOAT: 0x39,
-            ADD_FLOAT_GAMETIME: 0x3A,
-            SUB_INT: 0x3B,
-            SUB_FLOAT: 0x3C,
-            SUB_VEC2: 0x3D,
-            SUB_VEC3: 0x3E,
-            SUB_VEC3WS_VEC3: 0x3F,
-            SUB_VEC3WS_VEC3WS: 0x40,
-            SUB_VEC4: 0x41,
-            SUB_GAMETIME_FLOAT: 0x42,
-            SUB_GAMETIME: 0x43,
-            MUL_INT: 0x44,
-            MUL_FLOAT: 0x45,
-            DIV_FLOAT: 0x46,
-            MOD_INT: 0x47,
-            MOD_FLOAT: 0x48,
-            LT_INT: 0x49,
-            LT_FLOAT: 0x4A,
-            LT_GAMETIME: 0x4B,
-            LTE_INT: 0x4C,
-            LTE_FLOAT: 0x4D,
-            LTE_GAMETIME: 0x4E,
-            EQ_BOOL: 0x4F,
-            EQ_INT: 0x50,
-            EQ_FLOAT: 0x51,
-            EQ_VEC2: 0x52,
-            EQ_VEC3: 0x53,
-            EQ_VEC3WS: 0x54,
-            EQ_VEC4: 0x55,
-            EQ_STRING: 0x56,
-            EQ_ENTITY_NAME: 0x57,
-            EQ_SCHEMA_ENUM: 0x58,
-            EQ_EHANDLE: 0x59,
-            EQ_PANEL_HANDLE: 0x5A,
-            EQ_OPAQUE_HANDLE: 0x5B,
-            EQ_TEST_HANDLE: 0x5C,
-            EQ_COLOR_RGB: 0x5D,
-            EQ_ARRAY: 0x5E,
-            EQ_GAMETIME: 0x5F,
-            NE_BOOL: 0x60,
-            NE_INT: 0x61,
-            NE_FLOAT: 0x62,
-            NE_VEC2: 0x63,
-            NE_VEC3: 0x64,
-            NE_VEC3WS: 0x65,
-            NE_VEC4: 0x66,
-            NE_STRING: 0x67,
-            NE_ENTITY_NAME: 0x68,
-            NE_SCHEMA_ENUM: 0x69,
-            NE_EHANDLE: 0x6A,
-            NE_PANEL_HANDLE: 0x6B,
-            NE_OPAQUE_HANDLE: 0x6C,
-            NE_TEST_HANDLE: 0x6D,
-            NE_COLOR_RGB: 0x6E,
-            NE_ARRAY: 0x6F,
-            NE_GAMETIME: 0x70,
-            SCALE_VEC3: 0x71,
-            SCALE_VEC2: 0x72,
-            SCALE_VEC4: 0x73,
-            SCALE_INV_VEC3: 0x74,
-            SCALE_INV_VEC2: 0x75,
-            SCALE_INV_VEC4: 0x76,
-            ELEMENT_ACCESS_VEC2: 0x77,
-            ELEMENT_ACCESS_VEC3: 0x78,
-            ELEMENT_ACCESS_VEC3WS: 0x79,
-            ELEMENT_ACCESS_VEC4: 0x7A,
-            ELEMENT_ACCESS_COLOR_RGB: 0x7B,
-            GET_CONST_INLINE_STORAGE: 0x7C,
+            CREATE_CHILD_CURSOR_OUTFLOW: 0xB,
+            CELL_INVOKE: 0xC,
+            LIBRARY_INVOKE: 0xD,
+            SET_VAR: 0xE,
+            GET_VAR: 0xF,
+            GET_VAR_DETACH: 0x10,
+            DETACH_REGISTER: 0x11,
+            SET_VAR_ARRAY_ELEMENT_1D: 0x12,
+            SET_VAR_OBSERVABLE: 0x13,
+            GET_CONST: 0x14,
+            GET_ARRAY_ELEMENT: 0x15,
+            GET_DOMAIN_VALUE: 0x16,
+            COPY: 0x17,
+            NOT: 0x18,
+            NEGATE: 0x19,
+            ADD: 0x1A,
+            SUB: 0x1B,
+            MUL: 0x1C,
+            DIV: 0x1D,
+            MOD: 0x1E,
+            LT: 0x1F,
+            LTE: 0x20,
+            EQ: 0x21,
+            NE: 0x22,
+            AND: 0x23,
+            OR: 0x24,
+            SCALE: 0x25,
+            SCALE_INV: 0x26,
+            ELEMENT_ACCESS: 0x27,
+            CONVERT_VALUE: 0x28,
+            REINTERPRET_INSTANCE: 0x29,
+            GET_BLACKBOARD_REFERENCE: 0x2A,
+            SET_BLACKBOARD_REFERENCE: 0x2B,
+            LAST_SERIALIZED_CODE: 0x2C,
+            NEGATE_INT: 0x2D,
+            NEGATE_FLOAT: 0x2E,
+            NEGATE_VEC2: 0x2F,
+            NEGATE_VEC3: 0x30,
+            NEGATE_VEC4: 0x31,
+            ADD_INT: 0x32,
+            ADD_FLOAT: 0x33,
+            ADD_STRING: 0x34,
+            ADD_VEC2: 0x35,
+            ADD_VEC3: 0x36,
+            ADD_VEC3WS_VEC3: 0x37,
+            ADD_VEC3_VEC3WS: 0x38,
+            ADD_VEC4: 0x39,
+            ADD_GAMETIME_FLOAT: 0x3A,
+            ADD_FLOAT_GAMETIME: 0x3B,
+            SUB_INT: 0x3C,
+            SUB_FLOAT: 0x3D,
+            SUB_VEC2: 0x3E,
+            SUB_VEC3: 0x3F,
+            SUB_VEC3WS_VEC3: 0x40,
+            SUB_VEC3WS_VEC3WS: 0x41,
+            SUB_VEC4: 0x42,
+            SUB_GAMETIME_FLOAT: 0x43,
+            SUB_GAMETIME: 0x44,
+            MUL_INT: 0x45,
+            MUL_FLOAT: 0x46,
+            DIV_FLOAT: 0x47,
+            MOD_INT: 0x48,
+            MOD_FLOAT: 0x49,
+            LT_INT: 0x4A,
+            LT_FLOAT: 0x4B,
+            LT_GAMETIME: 0x4C,
+            LTE_INT: 0x4D,
+            LTE_FLOAT: 0x4E,
+            LTE_GAMETIME: 0x4F,
+            EQ_BOOL: 0x50,
+            EQ_INT: 0x51,
+            EQ_FLOAT: 0x52,
+            EQ_VEC2: 0x53,
+            EQ_VEC3: 0x54,
+            EQ_VEC3WS: 0x55,
+            EQ_VEC4: 0x56,
+            EQ_STRING: 0x57,
+            EQ_ENTITY_NAME: 0x58,
+            EQ_SCHEMA_ENUM: 0x59,
+            EQ_EHANDLE: 0x5A,
+            EQ_PANEL_HANDLE: 0x5B,
+            EQ_OPAQUE_HANDLE: 0x5C,
+            EQ_TEST_HANDLE: 0x5D,
+            EQ_COLOR_RGB: 0x5E,
+            EQ_ARRAY: 0x5F,
+            EQ_GAMETIME: 0x60,
+            NE_BOOL: 0x61,
+            NE_INT: 0x62,
+            NE_FLOAT: 0x63,
+            NE_VEC2: 0x64,
+            NE_VEC3: 0x65,
+            NE_VEC3WS: 0x66,
+            NE_VEC4: 0x67,
+            NE_STRING: 0x68,
+            NE_ENTITY_NAME: 0x69,
+            NE_SCHEMA_ENUM: 0x6A,
+            NE_EHANDLE: 0x6B,
+            NE_PANEL_HANDLE: 0x6C,
+            NE_OPAQUE_HANDLE: 0x6D,
+            NE_TEST_HANDLE: 0x6E,
+            NE_COLOR_RGB: 0x6F,
+            NE_ARRAY: 0x70,
+            NE_GAMETIME: 0x71,
+            SCALE_VEC3: 0x72,
+            SCALE_VEC2: 0x73,
+            SCALE_VEC4: 0x74,
+            SCALE_INV_VEC3: 0x75,
+            SCALE_INV_VEC2: 0x76,
+            SCALE_INV_VEC4: 0x77,
+            ELEMENT_ACCESS_VEC2: 0x78,
+            ELEMENT_ACCESS_VEC3: 0x79,
+            ELEMENT_ACCESS_VEC3WS: 0x7A,
+            ELEMENT_ACCESS_VEC4: 0x7B,
+            ELEMENT_ACCESS_COLOR_RGB: 0x7C,
+            GET_CONST_INLINE_STORAGE: 0x7D,
         },
         PulseDomainValueType_t: {
             INVALID: 0xFFFFFFFFFFFFFFFF,
@@ -230,8 +245,8 @@ export const Schemas = {
         CPulseCell_Step_TestDomainDestroyFakeEntity: {
         },
         CPulseCell_WaitForCursorsWithTag: {
-            m_bTagSelfWhenComplete: 0x98, // bool
-            m_nDesiredKillPriority: 0x9C, // PulseCursorCancelPriority_t
+            m_bTagSelfWhenComplete: 0x128, // bool
+            m_nDesiredKillPriority: 0x12C, // PulseCursorCancelPriority_t
         },
         CPulseCell_Test_NoInflow: {
         },
@@ -250,11 +265,9 @@ export const Schemas = {
             m_nCheckType: 0x48, // PulseBestOutflowRules_t
             m_OutflowList: 0x50, // PulseSelectorOutflowList_t
         },
-        CPulseTestFuncs_LibraryA: {
-        },
         CPulseCell_WaitForObservable: {
-            m_Condition: 0x48, // PulseObservableBoolExpression_t
-            m_OnTrue: 0xC0, // CPulse_ResumePoint
+            m_Condition: 0xD8, // CPulseObservableExpression<bool>
+            m_OnTrue: 0x150, // CPulse_ResumePoint
         },
         CPulse_OutflowConnection: {
             m_SourceOutflowName: 0x0, // PulseSymbol_t
@@ -278,13 +291,17 @@ export const Schemas = {
             m_BlackboardReferences: 0x110, // CUtlVector<CPulse_BlackboardReference>
             m_OutputConnections: 0x128, // CUtlVector<CPulse_OutputConnection*>
         },
+        CPulseCell_TestYieldForever: {
+        },
         CPulseGraphInstance_TestDomain_UseReadOnlyBlackboardView: {
         },
+        CPulseCell_TestWaitWithCursorState__InstanceState_t: {
+            m_nDummy: 0x0, // int32
+        },
         CPulseCell_FireCursors: {
-            m_Outflows: 0x48, // CUtlVector<CPulse_OutflowConnection>
-            m_bWaitForChildOutflows: 0x60, // bool
-            m_OnFinished: 0x68, // CPulse_ResumePoint
-            m_OnCanceled: 0xB0, // CPulse_ResumePoint
+            m_Outflows: 0xD8, // CUtlVector<CPulse_OutflowConnection>
+            m_bWaitForChildOutflows: 0xF0, // bool
+            m_OnFinished: 0xF8, // CPulse_ResumePoint
         },
         CPulseCell_Timeline__TimelineEvent_t: {
             m_flTimeFromPrevious: 0x0, // float32
@@ -312,7 +329,9 @@ export const Schemas = {
         CPulseCell_Value_Gradient: {
             m_Gradient: 0x48, // CColorGradient
         },
-        CPulseCursorFuncs: {
+        CPulseCell_TestWaitWithAutoTracepoints: {
+            m_TracePrefix: 0xD8, // CUtlString
+            m_WakeResume: 0xE0, // CPulse_ResumePoint
         },
         PulseNodeDynamicOutflows_t__DynamicOutflow_t: {
             m_OutflowID: 0x0, // CGlobalSymbol
@@ -340,7 +359,10 @@ export const Schemas = {
         },
         CPulseCell_TestWaitWithCursorState__CursorState_t: {
             flWaitValue: 0x0, // float32
-            bFailOnCancel: 0x4, // bool
+            bFail: 0x4, // bool
+            m_hSelfCursor: 0x8, // HYieldedCursor
+            m_hSelfCellInstanceUntyped: 0x14, // HPulseCellBase
+            m_hSelfCellInstance: 0x1C, // HPulseCell<CPulseCell_TestWaitWithCursorState>
         },
         CPulseCell_Inflow_BaseEntrypoint: {
             m_EntryChunk: 0x48, // PulseRuntimeChunkIndex_t
@@ -349,8 +371,8 @@ export const Schemas = {
         CPulseCell_Test_MultiInflow_NoDefault: {
         },
         CPulseCell_WaitForCursorsWithTagBase: {
-            m_nCursorsAllowedToWait: 0x48, // int32
-            m_WaitComplete: 0x50, // CPulse_ResumePoint
+            m_nCursorsAllowedToWait: 0xD8, // int32
+            m_WaitComplete: 0xE0, // CPulse_ResumePoint
         },
         CPulse_InvokeBinding: {
             m_RegisterMap: 0x0, // PulseRegisterMap_t
@@ -360,24 +382,20 @@ export const Schemas = {
             m_nSrcInstruction: 0x48, // int32
         },
         CPulseCell_IntervalTimer: {
-            m_Completed: 0x48, // CPulse_ResumePoint
-            m_OnInterval: 0x90, // SignatureOutflow_Continue
-        },
-        CPulseTestScriptLib: {
+            m_Completed: 0xD8, // CPulse_ResumePoint
+            m_OnInterval: 0x120, // SignatureOutflow_Continue
         },
         CPulseCell_BaseLerp: {
-            m_WakeResume: 0x48, // CPulse_ResumePoint
+            m_WakeResume: 0xD8, // CPulse_ResumePoint
         },
         CPulseCell_Value_TestValue50: {
         },
         CPulseCell_Test_MultiOutflow_WithParams_Yielding: {
-            m_Out1: 0x48, // SignatureOutflow_Continue
-            m_AsyncChild1: 0x90, // SignatureOutflow_Continue
-            m_AsyncChild2: 0xD8, // SignatureOutflow_Continue
-            m_YieldResume1: 0x120, // SignatureOutflow_Resume
-            m_YieldResume2: 0x168, // SignatureOutflow_Resume
-        },
-        TestComponent_tAPI: {
+            m_Out1: 0xD8, // SignatureOutflow_Continue
+            m_AsyncChild1: 0x120, // SignatureOutflow_Continue
+            m_AsyncChild2: 0x168, // SignatureOutflow_Continue
+            m_YieldResume1: 0x1B0, // SignatureOutflow_Resume
+            m_YieldResume2: 0x1F8, // SignatureOutflow_Resume
         },
         CPulseCell_Value_Curve: {
             m_Curve: 0x48, // CPiecewiseCurve
@@ -398,31 +416,25 @@ export const Schemas = {
             m_EndTime: 0x4, // GameTime_t
         },
         CPulseGraphInstance_TestDomain_Derived: {
-            m_nInstanceValueX: 0x160, // int32
-        },
-        CPulseCell_WaitForCursorsWithTagBase__CursorState_t: {
-            m_TagName: 0x0, // PulseSymbol_t
-        },
-        CPulseArraylib: {
+            m_nInstanceValueX: 0x158, // int32
         },
         CPulseGraphInstance_TestDomain: {
-            m_bIsRunningUnitTests: 0x130, // bool
-            m_bExplicitTimeStepping: 0x131, // bool
-            m_bExpectingToDestroyWithYieldedCursors: 0x132, // bool
-            m_bQuietTracepoints: 0x133, // bool
-            m_bExpectingCursorTerminatedDueToMaxInstructions: 0x134, // bool
-            m_nCursorsTerminatedDueToMaxInstructions: 0x138, // int32
-            m_nNextValidateIndex: 0x13C, // int32
-            m_Tracepoints: 0x140, // CUtlVector<CUtlString>
-            m_bTestYesOrNoPath: 0x158, // bool
+            m_bIsRunningUnitTests: 0x128, // bool
+            m_bExplicitTimeStepping: 0x129, // bool
+            m_bExpectingToDestroyWithYieldedCursors: 0x12A, // bool
+            m_bQuietTracepoints: 0x12B, // bool
+            m_bExpectingCursorTerminatedDueToMaxInstructions: 0x12C, // bool
+            m_nCursorsTerminatedDueToMaxInstructions: 0x130, // int32
+            m_nNextValidateIndex: 0x134, // int32
+            m_Tracepoints: 0x138, // CUtlVector<CUtlString>
+            m_bTestYesOrNoPath: 0x150, // bool
         },
         SignatureOutflow_Continue: {
         },
         CPulseCell_Timeline: {
-            m_TimelineEvents: 0x48, // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
-            m_bWaitForChildOutflows: 0x60, // bool
-            m_OnFinished: 0x68, // CPulse_ResumePoint
-            m_OnCanceled: 0xB0, // CPulse_ResumePoint
+            m_TimelineEvents: 0xD8, // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
+            m_bWaitForChildOutflows: 0xF0, // bool
+            m_OnFinished: 0xF8, // CPulse_ResumePoint
         },
         CPulseCell_Inflow_EntOutputHandler: {
             m_SourceEntity: 0x80, // PulseSymbol_t
@@ -432,8 +444,8 @@ export const Schemas = {
         CPulseCell_Outflow_TestExplicitYesNo: {
             m_Yes: 0x48, // CPulse_OutflowConnection
             m_No: 0x90, // CPulse_OutflowConnection
-            m_Out1: 0x48, // SignatureOutflow_Continue
-            m_AsyncChild1: 0x90, // SignatureOutflow_Continue
+            m_Out1: 0xD8, // SignatureOutflow_Continue
+            m_AsyncChild1: 0x120, // SignatureOutflow_Continue
         },
         CPulseCell_Outflow_TestRandomYesNo: {
             m_Yes: 0x48, // CPulse_OutflowConnection
@@ -445,13 +457,13 @@ export const Schemas = {
         CPulseCell_LimitCount__InstanceState_t: {
             m_nCurrentCount: 0x0, // int32
         },
-        FakeEntity_tAPI: {
-        },
         CPulseCell_Test_MultiInflow_WithDefault: {
         },
         CPulseCell_Step_DebugLog: {
         },
         CPulseCell_BaseYieldingInflow: {
+            m_BaseFlow_OnAfterCancel: 0x48, // CPulse_ResumePoint
+            m_BaseFlow_WhileActive: 0x90, // CPulse_ResumePoint
         },
         PulseNodeDynamicOutflows_t: {
             m_Outflows: 0x0, // CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
@@ -474,12 +486,11 @@ export const Schemas = {
         CPulseCell_Val_TestDomainGetEntityName: {
         },
         CPulseCell_Inflow_Wait: {
-            m_WakeResume: 0x48, // CPulse_ResumePoint
+            m_WakeResume: 0xD8, // CPulse_ResumePoint
         },
         CPulseCell_TestWaitWithCursorState: {
-            m_WakeResume: 0x48, // CPulse_ResumePoint
-            m_WakeCancel: 0x90, // CPulse_ResumePoint
-            m_WakeFail: 0xD8, // CPulse_ResumePoint
+            m_WakeResume: 0xD8, // CPulse_ResumePoint
+            m_WakeFail: 0x120, // CPulse_ResumePoint
         },
         CPulseCell_Outflow_CycleShuffled: {
             m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
@@ -494,17 +505,12 @@ export const Schemas = {
         CPulseCell_BaseValue: {
         },
         CPulseCell_BooleanSwitchState: {
-            m_Condition: 0x48, // PulseObservableBoolExpression_t
-            m_Always: 0xC0, // CPulse_OutflowConnection
-            m_WhenTrue: 0x108, // CPulse_OutflowConnection
-            m_WhenFalse: 0x150, // CPulse_OutflowConnection
-        },
-        FakeEntityDerivedB_tAPI: {
+            m_Condition: 0xD8, // CPulseObservableExpression<bool>
+            m_WhenTrue: 0x150, // CPulse_OutflowConnection
+            m_WhenFalse: 0x198, // CPulse_OutflowConnection
         },
         CPulseCell_Inflow_Yield: {
-            m_UnyieldResume: 0x48, // CPulse_ResumePoint
-        },
-        CPulseMathlib: {
+            m_UnyieldResume: 0xD8, // CPulse_ResumePoint
         },
         CPulseCell_Unknown: {
             m_UnknownKeys: 0x48, // KeyValues3
@@ -525,12 +531,14 @@ export const Schemas = {
         },
         CPulseCell_Value_RandomInt: {
         },
+        CPulseCell_TestEnums: {
+            m_nReferenceColor: 0x48, // PulseTestEnumColor_t
+            m_nReferenceFlags: 0x4C, // PulseTestEnumFlags_t
+        },
         CPulseCell_Step_TestDomainEntFire: {
             m_Input: 0x48, // CUtlString
             flWaitValue: 0x0, // float32
-            bFailOnCancel: 0x4, // bool
-        },
-        FakeEntityDerivedA_tAPI: {
+            bFail: 0x4, // bool
         },
         CPulseCell_ExampleSelector: {
             m_OutflowList: 0x48, // PulseSelectorOutflowList_t
@@ -560,24 +568,26 @@ export const Schemas = {
             m_nLimitCount: 0x48, // int32
         },
         CPulseCell_Step_CallExternalMethod: {
-            m_MethodName: 0x48, // PulseSymbol_t
-            m_nBlackboardIndex: 0x58, // PulseRuntimeBlackboardReferenceIndex_t
-            m_ExpectedArgs: 0x60, // CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode: 0x70, // PulseMethodCallMode_t
-            m_OnFinished: 0x78, // CPulse_ResumePoint
-        },
-        PulseObservableBoolExpression_t: {
-            m_EvaluateConnection: 0x0, // CPulse_OutflowConnection
-            m_DependentObservableVars: 0x48, // CUtlVector<PulseRuntimeVarIndex_t>
-            m_DependentObservableBlackboardReferences: 0x60, // CUtlVector<PulseRuntimeBlackboardReferenceIndex_t>
+            m_MethodName: 0xD8, // PulseSymbol_t
+            m_nBlackboardIndex: 0xE8, // PulseRuntimeBlackboardReferenceIndex_t
+            m_ExpectedArgs: 0xF0, // CUtlLeanVector<CPulseRuntimeMethodArg>
+            m_nAsyncCallMode: 0x100, // PulseMethodCallMode_t
+            m_OnFinished: 0x108, // CPulse_ResumePoint
         },
         CPulseCell_LimitCount__Criteria_t: {
             m_bLimitCountPasses: 0x0, // bool
         },
         CPulseCell_Step_TestDomainCreateFakeEntity: {
         },
+        CPulseCell_TestYieldWithObservables: {
+            m_flWatchForFloatValue: 0xD8, // float32
+            m_LiveFloatValue: 0xE0, // CPulseObservableExpression<float32>
+            m_WatchForStringValue: 0x158, // CUtlString
+            m_LiveStringValue: 0x160, // CPulseObservableExpression<CUtlString>
+            m_WakeResume: 0x1D8, // CPulse_ResumePoint
+        },
         CPulseCell_CursorQueue: {
-            m_nCursorsAllowedToRunParallel: 0x98, // int32
+            m_nCursorsAllowedToRunParallel: 0x128, // int32
         },
         CPulseCell_Value_RandomFloat: {
         },
@@ -596,6 +606,11 @@ export const Schemas = {
             m_Instructions: 0x0, // CUtlLeanVector<PGDInstruction_t>
             m_Registers: 0x10, // CUtlLeanVector<CPulse_RegisterInfo>
             m_InstructionDebugInfos: 0x20, // CUtlLeanVector<CPulse_InstructionDebug>
+        },
+        CPulseBreakpointLocation: {
+            m_NodeID: 0x0, // PulseDocNodeID_t
+            m_SequencePoint: 0x8, // PulseSymbol_t
+            m_PortName: 0x18, // PulseSymbol_t
         },
         PulseRuntimeInvokeIndex_t: {
             m_Value: 0x0, // int32
@@ -677,6 +692,7 @@ export const Schemas = {
             m_bIsPublicBlackboardVariable: 0x48, // bool
             m_bIsObservable: 0x49, // bool
             m_nEditorNodeID: 0x4C, // PulseDocNodeID_t
+            m_Metadata: 0x50, // KeyValues3
         },
         PulseRuntimeOutputIndex_t: {
             m_Value: 0x0, // int32
@@ -729,7 +745,7 @@ export const Schemas = {
         CPulse_InstructionDebug: {
             m_nFlowNodeID: 0x0, // PulseDocNodeID_t
             m_nValueNodeID: 0x4, // PulseDocNodeID_t
-            m_SequencePointName: 0x8, // CGlobalSymbol
+            m_SequencePointName: 0x8, // PulseSymbol_t
         },
     },
 };

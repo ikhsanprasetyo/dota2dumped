@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 package schemas
 
@@ -52,8 +52,7 @@ const (
     Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_pTargetInput = 0x18 // CUtlSymbolLarge
     Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hActivator = 0x20 // CEntityHandle
     Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hCaller = 0x24 // CEntityHandle
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_nOutputID = 0x28 // int32
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hEntTarget = 0x2C // CEntityHandle
+    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hEntTarget = 0x28 // CEntityHandle
     Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_variantValue = 0x30 // CVariantBase<CVariantDefaultAllocator>
     Engine2Dll_CNetworkVarChainer_m_PathIndex = 0x20 // ChangeAccessorFieldPathIndex_t
     Engine2Dll_EventClientPostOutput_t_m_LoopState = 0x0 // EngineLoopState_t
@@ -74,12 +73,13 @@ const (
     Engine2Dll_EventProfileStorageAvailable_t_m_nSplitScreenSlot = 0x0 // CSplitScreenSlot
     Engine2Dll_EventPostDataUpdate_t_m_nCount = 0x0 // int32
     Engine2Dll_EventClientProcessNetworking_t_m_nTickCount = 0x0 // int32
-    Engine2Dll_CEntityAttributeTable_m_Attributes = 0x0 // CUtlOrderedMap<CUtlStringToken,Attribute_t>
-    Engine2Dll_CEntityAttributeTable_m_Names = 0x28 // CUtlOrderedMap<CUtlStringToken,CUtlString>
+    Engine2Dll_CEntityAttributeTable_m_Attributes = 0x0 // CUtlOrderedMap<CUtlStringTokenNoRegistration,Attribute_t>
+    Engine2Dll_CEntityAttributeTable_m_Names = 0x28 // CUtlOrderedMap<CUtlStringTokenNoRegistration,CUtlString>
     Engine2Dll_EventAdvanceTick_t_m_nCurrentTick = 0x30 // int32
     Engine2Dll_EventAdvanceTick_t_m_nCurrentTickThisFrame = 0x34 // int32
     Engine2Dll_EventAdvanceTick_t_m_nTotalTicksThisFrame = 0x38 // int32
     Engine2Dll_EventAdvanceTick_t_m_nTotalTicks = 0x3C // int32
+    Engine2Dll_EventBugBugComplete_t_m_pPayload = 0x0 // EventBugBug_t*
     Engine2Dll_EventClientPreOutput_t_m_LoopState = 0x0 // EngineLoopState_t
     Engine2Dll_EventClientPreOutput_t_m_flRenderTime = 0x28 // float64
     Engine2Dll_EventClientPreOutput_t_m_flRenderFrameTime = 0x30 // float64

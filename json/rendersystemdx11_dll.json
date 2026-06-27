@@ -34,7 +34,7 @@
         "fields": {
           "m_bDepthTestEnable": 0,
           "m_bDepthWriteEnable": 0,
-          "m_depthFunc": 1,
+          "m_depthFunc": 0,
           "m_stencilState": 2
         },
         "metadata": [],
@@ -76,151 +76,11 @@
         },
         "metadata": [
           {
-            "name": "RENDER_MULTISAMPLE_INVALID",
+            "name": "2,0x06a3/0xf623,0x06a3/0xf51a,0x0f30/0x0112,0x06a3/0xff0c,0x06a3/0x040c,0x0f30/0x0110,0x06a3/0x040b,0x06a3/0x040b,0x06a3/0x0621,",
             "type": "Unknown"
           },
           {
-            "name": "RENDER_MULTISAMPLE_2X",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_MULTISAMPLE_4X",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_MULTISAMPLE_6X",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_MULTISAMPLE_8X",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_MULTISAMPLE_16X",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_MULTISAMPLE_TYPE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID",
-            "type": "Unknown"
-          },
-          {
-            "name": "INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID",
-            "type": "Unknown"
-          },
-          {
-            "name": "INPUT_LAYOUT_VARIATION_MAX",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_LINES",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_LINES_WITH_ADJACENCY",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_LINE_STRIP",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_LINE_STRIP_WITH_ADJACENCY",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_TRIANGLES",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_TRIANGLES_WITH_ADJACENCY",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_TRIANGLE_STRIP",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_TRIANGLE_STRIP_WITH_ADJACENCY",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_INSTANCED_QUADS",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_HETEROGENOUS",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_COMPUTE_SHADER",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_MESH_SHADER",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_PRIM_TYPE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_USAGE_VERTEX_BUFFER",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_USAGE_INDEX_BUFFER",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_USAGE_SHADER_RESOURCE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_USAGE_UNORDERED_ACCESS",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_BYTEADDRESS_BUFFER",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_STRUCTURED_BUFFER",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_UAV_DRAW_INDIRECT_ARGS",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_ACCELERATION_STRUCTURE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_SHADER_BINDING_TABLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_POOL_ALLOCATED",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_BUFFER_IMMOVABLE_ALLOCATION",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_SLOT_INVALID",
-            "type": "Unknown"
-          },
-          {
-            "name": "RENDER_SLOT_PER_INSTANCE",
+            "name": "/0xb304,0x044f/0xb300,0x6666/0x8804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0",
             "type": "Unknown"
           }
         ],
@@ -261,6 +121,7 @@
         "members": {
           "RENDER_BUFFER_ACCELERATION_STRUCTURE": 512,
           "RENDER_BUFFER_BYTEADDRESS_BUFFER": 16,
+          "RENDER_BUFFER_DYNAMIC_ZERO_COPY": 16384,
           "RENDER_BUFFER_IMMOVABLE_ALLOCATION": 8192,
           "RENDER_BUFFER_POOL_ALLOCATED": 2048,
           "RENDER_BUFFER_SHADER_BINDING_TABLE": 1024,
@@ -322,7 +183,13 @@
         "alignment": 1,
         "members": {
           "RS_CMP_ALWAYS": 7,
+          "RS_CMP_CLOSER": 9,
+          "RS_CMP_CLOSER_EQUAL": 11,
+          "RS_CMP_CLOSER_FARTHER_FLAG": 8,
           "RS_CMP_EQUAL": 2,
+          "RS_CMP_FARTHER": 12,
+          "RS_CMP_FARTHER_EQUAL": 14,
+          "RS_CMP_FUNC_MASK": 7,
           "RS_CMP_GREATER": 4,
           "RS_CMP_GREATER_EQUAL": 6,
           "RS_CMP_LESS": 1,
@@ -348,6 +215,18 @@
           "RS_FILL_WIREFRAME": 1
         },
         "type": "uint8"
+      },
+      "UpscalerType_t": {
+        "alignment": 4,
+        "members": {
+          "UPSCALER_AMD_FSR2": 1,
+          "UPSCALER_AMD_FSR3": 2,
+          "UPSCALER_COUNT": 5,
+          "UPSCALER_INTEL_XESS": 4,
+          "UPSCALER_NONE": 0,
+          "UPSCALER_NVIDIA_DLSS": 3
+        },
+        "type": "uint32"
       }
     }
   }

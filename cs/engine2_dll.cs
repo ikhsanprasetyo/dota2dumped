@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-21 22:55:14.944997300 +07:00
+// 2026-06-27 11:00:13.970046600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
-    // Class count: 56
+    // Class count: 58
     // Enum count: 2
     public static class Engine2Dll {
         // Alignment: 4
@@ -34,11 +34,17 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CEntityComponent
         // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
         // Parent: None
         // Field count: 12
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
         public static class CEntityIdentity {
             public const nint m_nameStringTableIndex = 0x14; // int32
             public const nint m_name = 0x18; // CUtlSymbolLarge
@@ -105,19 +111,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // E
-        // n
-        // e
-        // f
-        // 0
-        // n
-        // e
-        // a
-        // a
-        // u
-        // u
         public static class GameTime_t {
             public const nint m_Value = 0x0; // float32
         }
@@ -126,7 +119,7 @@ namespace Source2Dumper.Schemas {
         public static class EventServerBeginSimulate_t {
         }
         // Parent: None
-        // Field count: 9
+        // Field count: 8
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -137,8 +130,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_pTargetInput = 0x18; // CUtlSymbolLarge
             public const nint m_hActivator = 0x20; // CEntityHandle
             public const nint m_hCaller = 0x24; // CEntityHandle
-            public const nint m_nOutputID = 0x28; // int32
-            public const nint m_hEntTarget = 0x2C; // CEntityHandle
+            public const nint m_hEntTarget = 0x28; // CEntityHandle
             public const nint m_variantValue = 0x30; // CVariantBase<CVariantDefaultAllocator>
         }
         // Parent: None
@@ -173,20 +165,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // u
-        // )
-        // s
-        // (
-        // e
-        // e
-        // k
-        // k
-        // a
-        // a
-        // u
-        // u
         public static class GameTick_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -249,8 +227,8 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 2
         public static class CEntityAttributeTable {
-            public const nint m_Attributes = 0x0; // CUtlOrderedMap<CUtlStringToken,Attribute_t>
-            public const nint m_Names = 0x28; // CUtlOrderedMap<CUtlStringToken,CUtlString>
+            public const nint m_Attributes = 0x0; // CUtlOrderedMap<CUtlStringTokenNoRegistration,Attribute_t>
+            public const nint m_Names = 0x28; // CUtlOrderedMap<CUtlStringTokenNoRegistration,CUtlString>
         }
         // Parent: None
         // Field count: 0
@@ -274,7 +252,16 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 0
+        public static class EventBugBug_t {
+        }
+        // Parent: None
+        // Field count: 0
         public static class CVariantDefaultAllocator {
+        }
+        // Parent: None
+        // Field count: 1
+        public static class EventBugBugComplete_t {
+            public const nint m_pPayload = 0x0; // EventBugBug_t*
         }
         // Parent: None
         // Field count: 0
