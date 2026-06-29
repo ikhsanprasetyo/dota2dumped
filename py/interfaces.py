@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-06-27 11:00:13.970046600 +07:00
+# 2026-06-30 02:37:50.074304300 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -8,16 +8,16 @@ class Interfaces:
         AnimationSystem_001 = 0x831E30
     # Module: client.dll
     class ClientDll:
-        ClientToolsInfo_001 = 0x59C0950
-        DOTA_CLIENT_GCCLIENT = 0x628C2F0
-        GameClientExports001 = 0x59BC678
-        LegacyGameUI001 = 0x5A2AB30
-        PanoramaUIClient001 = 0x5A55570
-        PlayButtonService001 = 0x5A36C78
-        Source2Client002 = 0x60DF760
-        Source2ClientConfig001 = 0x6087850
-        Source2ClientPrediction001 = 0x59C4E30
-        Source2ClientUI001 = 0x57AE5C0
+        ClientToolsInfo_001 = 0x59C1950
+        DOTA_CLIENT_GCCLIENT = 0x628D370
+        GameClientExports001 = 0x59BD678
+        LegacyGameUI001 = 0x5A2BB30
+        PanoramaUIClient001 = 0x5A56570
+        PlayButtonService001 = 0x5A37C78
+        Source2Client002 = 0x60E07E0
+        Source2ClientConfig001 = 0x60888D0
+        Source2ClientPrediction001 = 0x59C5E30
+        Source2ClientUI001 = 0x57AF5C0
     # Module: engine2.dll
     class Engine2Dll:
         BenchmarkService001 = 0x6124D0
@@ -136,10 +136,10 @@ class Interfaces:
         NavGameTest001 = 0x49E1B10
         ServerToolsInfo_001 = 0x494AFA8
         Source2GameClients001 = 0x4945160
-        Source2GameDirector001 = 0x5022E30
+        Source2GameDirector001 = 0x5022EB0
         Source2GameEntities001 = 0x494A750
         Source2Server001 = 0x494A5A0
-        Source2ServerConfig001 = 0x4F4D428
+        Source2ServerConfig001 = 0x4F4D4A8
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundBugBugService001_Client = 0x553250
@@ -159,6 +159,9 @@ class Interfaces:
     # Module: v8system.dll
     class V8systemDll:
         Source2V8System001 = 0x31770
+    # Module: vconcomm.dll
+    class VconcommDll:
+        VConComm001 = 0x3B730
     # Module: vphysics2.dll
     class Vphysics2Dll:
         VPhysics2_Interface_001 = 0x439E30

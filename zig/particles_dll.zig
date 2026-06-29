@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -919,8 +919,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // vers\DriverData
-            // 3
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -6150,7 +6149,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // p|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17952,7 +17950,6 @@ pub const source2_dumper = struct {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  f
             pub const C_INIT_PlaneCull = struct {
                 pub const m_nControlPoint: usize = 0x1E0; // int32
                 pub const m_flDistance: usize = 0x1E8; // CParticleCollectionFloatInput

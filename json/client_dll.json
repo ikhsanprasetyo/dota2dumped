@@ -1136,10 +1136,6 @@
             "type": "Unknown"
           },
           {
-            "name": "t",
-            "type": "Unknown"
-          },
-          {
             "name": "MSaveBehavior",
             "type": "Unknown"
           },
@@ -10573,7 +10569,9 @@
         "parent": null
       },
       "CDOTA_Modifier_DarkCarnival_Pied": {
-        "fields": {},
+        "fields": {
+          "m_nFXIndex": 6744
+        },
         "metadata": [],
         "parent": null
       },
@@ -36052,10 +36050,6 @@
             "type": "Unknown"
           },
           {
-            "name": "e",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -36533,10 +36527,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@",
             "type": "Unknown"
           }
         ],
@@ -39984,6 +39974,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ION",
             "type": "Unknown"
           },
           {
@@ -43659,6 +43653,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ION",
             "type": "Unknown"
           },
           {
@@ -59001,10 +58999,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "t",
-            "type": "Unknown"
           }
         ],
         "parent": "CBaseAnimatingActivity"
@@ -60510,6 +60504,14 @@
           },
           {
             "name": "HULL_NONE",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
             "type": "Unknown"
           },
           {
@@ -63558,6 +63560,16 @@
         },
         "type": "uint32"
       },
+      "DOTACCBackgroundSummer2023": {
+        "alignment": 17,
+        "members": {},
+        "type": "unknown"
+      },
+      "DOTADashboardBackgroundLastMatch": {
+        "alignment": 17,
+        "members": {},
+        "type": "unknown"
+      },
       "DOTAKeybindCommand_t": {
         "alignment": 4,
         "members": {
@@ -65206,6 +65218,15 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
+      },
+      "H____WH___H__H_ڹh": {
+        "alignment": 66,
+        "members": {
+          "": 4975788503747015332,
+          "\u0017��8\u0001": 3829778248,
+          "��նl�2\u001ah\bRC���\u001fؘ\u0017\u001b;\u0001\u0002": 6680095013026136064
+        },
+        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

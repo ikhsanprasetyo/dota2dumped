@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
         // Class count: 7186
-        // Enum count: 115
+        // Enum count: 118
         pub const client_dll = struct {
             // Alignment: 4
             // Member count: 5
@@ -5561,8 +5561,9 @@ pub const source2_dumper = struct {
                 pub const blind: usize = 0x1A5C; // int32
             };
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             pub const CDOTA_Modifier_DarkCarnival_Pied = struct {
+                pub const m_nFXIndex: usize = 0x1A58; // ParticleIndex_t
             };
             // Parent: None
             // Field count: 2
@@ -12220,6 +12221,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ION
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -17696,7 +17698,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @
             pub const CPulseCell_BaseLerp = struct {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             };
@@ -20845,6 +20846,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ION
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -25840,7 +25842,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // t
             pub const C_DOTA_PortraitBaseModel = struct {
             };
             // Parent: C_EnvDeferredLight
@@ -26327,7 +26328,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // t
             // MSaveBehavior
             // Y
             pub const CBodyComponentBaseAnimGraph = struct {
@@ -28307,7 +28307,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // MGetKV3ClassDefaults
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
@@ -37785,6 +37784,8 @@ pub const source2_dumper = struct {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // C
+            // C
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType

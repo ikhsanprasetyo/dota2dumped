@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -998,8 +998,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // vers\DriverData
-            // 3
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -6229,7 +6228,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // p|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -18031,7 +18029,6 @@ pub mod source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  f
             pub mod C_INIT_PlaneCull {
                 pub const m_nControlPoint: usize = 0x1E0; // int32
                 pub const m_flDistance: usize = 0x1E8; // CParticleCollectionFloatInput

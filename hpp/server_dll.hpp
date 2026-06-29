@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7534
-        // Enum count: 438
+        // Enum count: 440
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -13293,8 +13293,9 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t blind = 0x1A5C; // int32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             namespace CDOTA_Modifier_DarkCarnival_Pied {
+                constexpr std::ptrdiff_t m_nFXIndex = 0x1A58; // ParticleIndex_t
             }
             // Parent: CDOTABaseAbility
             // Field count: 0
@@ -18276,13 +18277,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // (*)
+            // @*)
+            // H+)
+            // P+)
             // MPropertyDescription
+            // h-)
             // MPropertyStartGroup
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // @/)
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
+            // @4)
             // MPropertyStartGroup
             // MPropertyDescription
             // MPropertyStartGroup
@@ -19841,8 +19849,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // vers\DriverData
-            // 3
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -20870,7 +20877,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // c
             namespace CTimeline {
                 constexpr std::ptrdiff_t m_flValues = 0x10; // float32[64]
                 constexpr std::ptrdiff_t m_nValueCounts = 0x110; // int32[64]
@@ -35555,6 +35561,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // p9)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
@@ -37702,7 +37709,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // ePosition
             // eAngles
             // MGetKV3ClassDefaults
@@ -39532,6 +39538,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // _shader_cache;steamapp_merged_shader_cache
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CScriptComponent {
                 constexpr std::ptrdiff_t m_scriptClassName = 0x30; // CUtlSymbolLarge
             }
@@ -54945,6 +54952,8 @@ namespace source2_dumper {
             // Y
             // GLOBAL_ON
             // GLOBAL_DEAD
+            // P%*
+            // P%*
             // HULL_SMALL_CENTERED
             // HULL_WIDE_HUMAN
             // HULL_TINY
@@ -54956,6 +54965,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // C
+            // C
             // ROTATOR_TARGET_LOCALSPACE
             // eRotateBegin
             // eEventsDispatched
@@ -56866,13 +56877,16 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
+            // @C)
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            //  J)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // hM)
             namespace RelationshipOverride_t {
                 constexpr std::ptrdiff_t entity = 0x8; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t classType = 0xC; // Class_T
@@ -56970,6 +56984,8 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // am\dumps
+            // am\dumps
             namespace CRemapFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -57068,6 +57084,7 @@ namespace source2_dumper {
             // WsDirection
             // MsDirection
             // MGetKV3ClassDefaults
+            // xz)
             namespace AI_GroundRootMotionMotor_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t desired_movement_gait_set = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t desired_movement_gait = 0x10; // CGlobalSymbol
@@ -57149,6 +57166,7 @@ namespace source2_dumper {
             // MAlternateSemanticName
             // MPropertyFriendlyName
             // MAlternateSemanticName
+            // 0+>
             // eInvalid
             // eHead
             // eEyesOnly
@@ -57166,6 +57184,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // MGetKV3ClassDefaults
+            // (/>
+            // (/>
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // eExit
@@ -58130,7 +58150,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // c
             namespace CSkeletonAnimationController {
                 constexpr std::ptrdiff_t m_pSkeletonInstance = 0x8; // CSkeletonInstance*
             }
@@ -58393,6 +58412,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y
+            // H[)
+            // (])
             namespace DebugDrawBoneTransforms_t {
                 constexpr std::ptrdiff_t vecBones = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
             }
@@ -58454,7 +58475,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // n
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -58749,6 +58769,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertySuppressExpr
             // MPropertyDescription
+            //  .)
             // MPropertyDescription
             // MPropertySuppressExpr
             // MPropertyDescription
@@ -58757,7 +58778,9 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyDescription
+            // p3)
             // MPropertyDescription
+            // 07)
             namespace CBaseAnimGraphDestructibleParts_GraphController {
             }
             // Parent: None
@@ -59344,6 +59367,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // pipeline_cache
             namespace AbilityContributionType_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -61266,6 +61292,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
+            // 0u)
             namespace AI_DefaultNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t s_npc_current_ability = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61427,7 +61454,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
+            // hM)
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -61516,6 +61543,7 @@ namespace source2_dumper {
             // MFgdHelper
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p9)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
@@ -61623,7 +61651,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
+            // hM)
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior

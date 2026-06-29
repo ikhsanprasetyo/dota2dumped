@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
         // Class count: 7186
-        // Enum count: 115
+        // Enum count: 118
         pub mod client_dll {
             // Alignment: 4
             // Member count: 5
@@ -5678,8 +5678,9 @@ pub mod source2_dumper {
                 pub const blind: usize = 0x1A5C; // int32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             pub mod CDOTA_Modifier_DarkCarnival_Pied {
+                pub const m_nFXIndex: usize = 0x1A58; // ParticleIndex_t
             }
             // Parent: None
             // Field count: 2
@@ -12337,6 +12338,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ION
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -17813,7 +17815,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @
             pub mod CPulseCell_BaseLerp {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
@@ -20962,6 +20963,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ION
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -25957,7 +25959,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // t
             pub mod C_DOTA_PortraitBaseModel {
             }
             // Parent: C_EnvDeferredLight
@@ -26444,7 +26445,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // t
             // MSaveBehavior
             // Y
             pub mod CBodyComponentBaseAnimGraph {
@@ -28424,7 +28424,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // MGetKV3ClassDefaults
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
@@ -37902,6 +37901,8 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // C
+            // C
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType

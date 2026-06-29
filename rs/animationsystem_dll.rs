@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1765,8 +1765,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // vers\DriverData
-            // 3
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -3721,6 +3720,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 7
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5623,6 +5623,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // 7
             pub mod CParticleVecInput {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -6052,6 +6053,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6160,6 +6162,7 @@ pub mod source2_dumper {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
+            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -6974,7 +6977,6 @@ pub mod source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // o
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -7505,6 +7507,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // d
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8721,6 +8724,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // d
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9079,6 +9083,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // d
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9512,6 +9517,7 @@ pub mod source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
+            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -9790,6 +9796,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10395,6 +10402,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10464,6 +10472,7 @@ pub mod source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
+            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -11319,6 +11328,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11854,6 +11864,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // d
             pub mod CParticleFloatInput {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -13129,6 +13140,7 @@ pub mod source2_dumper {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
+            // PM_HOME=C:\Users\ByteseekerPC\AppData\Local\pnpm
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY
@@ -13258,7 +13270,6 @@ pub mod source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // o
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

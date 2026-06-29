@@ -1,18 +1,18 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 pub const source2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
-            pub const dwEntityList: usize = 0x6455C50;
-            pub const dwGameEntitySystem: usize = 0x6455C50;
+            pub const dwEntityList: usize = 0x6456CE0;
+            pub const dwGameEntitySystem: usize = 0x6456CE0;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
-            pub const dwGlobalVars: usize = 0x59BBF60;
-            pub const dwLocalPlayerPawn: usize = 0x59C4F08;
-            pub const dwPrediction: usize = 0x59C4E30;
-            pub const dwViewMatrix: usize = 0x60E9470;
-            pub const dwViewRender: usize = 0x60E8B38;
+            pub const dwGlobalVars: usize = 0x59BCF60;
+            pub const dwLocalPlayerPawn: usize = 0x59C5F08;
+            pub const dwPrediction: usize = 0x59C5E30;
+            pub const dwViewMatrix: usize = 0x60EA4F0;
+            pub const dwViewRender: usize = 0x60E9BB8;
         };
         // Module: engine2.dll
         pub const engine2_dll = struct {

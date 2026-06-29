@@ -1,21 +1,21 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 package interfaces
 
 const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x839F10
     AnimationsystemDll_AnimationSystem_001 = 0x831E30
-    ClientDll_ClientToolsInfo_001 = 0x59C0950
-    ClientDll_DOTA_CLIENT_GCCLIENT = 0x628C2F0
-    ClientDll_GameClientExports001 = 0x59BC678
-    ClientDll_LegacyGameUI001 = 0x5A2AB30
-    ClientDll_PanoramaUIClient001 = 0x5A55570
-    ClientDll_PlayButtonService001 = 0x5A36C78
-    ClientDll_Source2Client002 = 0x60DF760
-    ClientDll_Source2ClientConfig001 = 0x6087850
-    ClientDll_Source2ClientPrediction001 = 0x59C4E30
-    ClientDll_Source2ClientUI001 = 0x57AE5C0
+    ClientDll_ClientToolsInfo_001 = 0x59C1950
+    ClientDll_DOTA_CLIENT_GCCLIENT = 0x628D370
+    ClientDll_GameClientExports001 = 0x59BD678
+    ClientDll_LegacyGameUI001 = 0x5A2BB30
+    ClientDll_PanoramaUIClient001 = 0x5A56570
+    ClientDll_PlayButtonService001 = 0x5A37C78
+    ClientDll_Source2Client002 = 0x60E07E0
+    ClientDll_Source2ClientConfig001 = 0x60888D0
+    ClientDll_Source2ClientPrediction001 = 0x59C5E30
+    ClientDll_Source2ClientUI001 = 0x57AF5C0
     Engine2Dll_BenchmarkService001 = 0x6124D0
     Engine2Dll_BugBugService001 = 0x6125D0
     Engine2Dll_BugService001 = 0x8CAD40
@@ -94,10 +94,10 @@ const (
     ServerDll_NavGameTest001 = 0x49E1B10
     ServerDll_ServerToolsInfo_001 = 0x494AFA8
     ServerDll_Source2GameClients001 = 0x4945160
-    ServerDll_Source2GameDirector001 = 0x5022E30
+    ServerDll_Source2GameDirector001 = 0x5022EB0
     ServerDll_Source2GameEntities001 = 0x494A750
     ServerDll_Source2Server001 = 0x494A5A0
-    ServerDll_Source2ServerConfig001 = 0x4F4D428
+    ServerDll_Source2ServerConfig001 = 0x4F4D4A8
     SoundsystemDll_SoundBugBugService001_Client = 0x553250
     SoundsystemDll_SoundOpSystem001 = 0x553130
     SoundsystemDll_SoundOpSystemEdit001 = 0x553040
@@ -109,6 +109,7 @@ const (
     Tier0Dll_VProcessUtils002 = 0x399770
     Tier0Dll_VStringTokenSystem001 = 0x3CB170
     V8systemDll_Source2V8System001 = 0x31770
+    VconcommDll_VConComm001 = 0x3B730
     Vphysics2Dll_VPhysics2_Interface_001 = 0x439E30
     VscriptDll_VScriptManager010 = 0x13B430
     WorldrendererDll_WorldRendererMgr001 = 0x22FD60

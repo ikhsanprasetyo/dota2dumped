@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7534
-        // Enum count: 438
+        // Enum count: 440
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -13256,8 +13256,9 @@ pub const source2_dumper = struct {
                 pub const blind: usize = 0x1A5C; // int32
             };
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             pub const CDOTA_Modifier_DarkCarnival_Pied = struct {
+                pub const m_nFXIndex: usize = 0x1A58; // ParticleIndex_t
             };
             // Parent: CDOTABaseAbility
             // Field count: 0
@@ -18239,13 +18240,20 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // (*)
+            // @*)
+            // H+)
+            // P+)
             // MPropertyDescription
+            // h-)
             // MPropertyStartGroup
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // @/)
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
+            // @4)
             // MPropertyStartGroup
             // MPropertyDescription
             // MPropertyStartGroup
@@ -19804,8 +19812,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // vers\DriverData
-            // 3
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -20833,7 +20840,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // c
             pub const CTimeline = struct {
                 pub const m_flValues: usize = 0x10; // float32[64]
                 pub const m_nValueCounts: usize = 0x110; // int32[64]
@@ -35518,6 +35524,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // p9)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
@@ -37665,7 +37672,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // ePosition
             // eAngles
             // MGetKV3ClassDefaults
@@ -39495,6 +39501,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // _shader_cache;steamapp_merged_shader_cache
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const CScriptComponent = struct {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             };
@@ -54908,6 +54915,8 @@ pub const source2_dumper = struct {
             // Y
             // GLOBAL_ON
             // GLOBAL_DEAD
+            // P%*
+            // P%*
             // HULL_SMALL_CENTERED
             // HULL_WIDE_HUMAN
             // HULL_TINY
@@ -54919,6 +54928,8 @@ pub const source2_dumper = struct {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // C
+            // C
             // ROTATOR_TARGET_LOCALSPACE
             // eRotateBegin
             // eEventsDispatched
@@ -56829,13 +56840,16 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
+            // @C)
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            //  J)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // hM)
             pub const RelationshipOverride_t = struct {
                 pub const entity: usize = 0x8; // CHandle<CBaseEntity>
                 pub const classType: usize = 0xC; // Class_T
@@ -56933,6 +56947,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // am\dumps
+            // am\dumps
             pub const CRemapFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -57031,6 +57047,7 @@ pub const source2_dumper = struct {
             // WsDirection
             // MsDirection
             // MGetKV3ClassDefaults
+            // xz)
             pub const AI_GroundRootMotionMotor_DebugSnapshotData_t = struct {
                 pub const desired_movement_gait_set: usize = 0x8; // CGlobalSymbol
                 pub const desired_movement_gait: usize = 0x10; // CGlobalSymbol
@@ -57112,6 +57129,7 @@ pub const source2_dumper = struct {
             // MAlternateSemanticName
             // MPropertyFriendlyName
             // MAlternateSemanticName
+            // 0+>
             // eInvalid
             // eHead
             // eEyesOnly
@@ -57129,6 +57147,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // MGetKV3ClassDefaults
+            // (/>
+            // (/>
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // eExit
@@ -58093,7 +58113,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // c
             pub const CSkeletonAnimationController = struct {
                 pub const m_pSkeletonInstance: usize = 0x8; // CSkeletonInstance*
             };
@@ -58356,6 +58375,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y
+            // H[)
+            // (])
             pub const DebugDrawBoneTransforms_t = struct {
                 pub const vecBones: usize = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
             };
@@ -58417,7 +58438,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // n
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -58712,6 +58732,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertySuppressExpr
             // MPropertyDescription
+            //  .)
             // MPropertyDescription
             // MPropertySuppressExpr
             // MPropertyDescription
@@ -58720,7 +58741,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyDescription
+            // p3)
             // MPropertyDescription
+            // 07)
             pub const CBaseAnimGraphDestructibleParts_GraphController = struct {
             };
             // Parent: None
@@ -59307,6 +59330,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // pipeline_cache
             pub const AbilityContributionType_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -61229,6 +61255,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
+            // 0u)
             pub const AI_DefaultNPC_DebugSnapshotData_t = struct {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -61390,7 +61417,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
+            // hM)
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -61479,6 +61506,7 @@ pub const source2_dumper = struct {
             // MFgdHelper
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p9)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
@@ -61586,7 +61614,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
+            // hM)
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior

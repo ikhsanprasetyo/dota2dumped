@@ -372,6 +372,10 @@
             "type": "Unknown"
           },
           {
+            "name": "PM_HOME=C:\\Users\\ByteseekerPC\\AppData\\Local\\pnpm",
+            "type": "Unknown"
+          },
+          {
             "name": "JOINT_FLAGS_BODY1_FIXED",
             "type": "Unknown"
           },
@@ -2012,6 +2016,10 @@
             "type": "Unknown"
           },
           {
+            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2102,6 +2110,10 @@
             "type": "Unknown"
           },
           {
+            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2186,6 +2198,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
             "type": "Unknown"
           },
           {
@@ -2298,6 +2314,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
             "type": "Unknown"
           },
           {
@@ -2733,6 +2753,10 @@
           },
           {
             "name": "PF_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -17578,6 +17602,10 @@
             "type": "Unknown"
           },
           {
+            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "type": "Unknown"
+          },
+          {
             "name": "PM_TYPE_NAMED_VALUE_MODEL",
             "type": "Unknown"
           },
@@ -17729,6 +17757,10 @@
           },
           {
             "name": "PT_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -18050,10 +18082,6 @@
             "type": "Unknown"
           },
           {
-            "name": "o",
-            "type": "Unknown"
-          },
-          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18288,10 +18316,6 @@
             "type": "Unknown"
           },
           {
-            "name": "o",
-            "type": "Unknown"
-          },
-          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18409,6 +18433,10 @@
           },
           {
             "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -18680,6 +18708,10 @@
             "type": "Unknown"
           },
           {
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -18728,6 +18760,10 @@
           },
           {
             "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -18895,6 +18931,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -19154,6 +19194,10 @@
             "type": "Unknown"
           },
           {
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -19237,6 +19281,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "7",
             "type": "Unknown"
           },
           {
@@ -20000,11 +20048,7 @@
             "type": "Unknown"
           },
           {
-            "name": "vers\\DriverData",
-            "type": "Unknown"
-          },
-          {
-            "name": "3",
+            "name": "m32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\",
             "type": "Unknown"
           }
         ],

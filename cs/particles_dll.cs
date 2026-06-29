@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -918,8 +918,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // vers\DriverData
-        // 3
+        // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -6149,7 +6148,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // p|
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -17951,7 +17949,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeChoiceName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        //  f
         public static class C_INIT_PlaneCull {
             public const nint m_nControlPoint = 0x1E0; // int32
             public const nint m_flDistance = 0x1E8; // CParticleCollectionFloatInput

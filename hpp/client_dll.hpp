@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
         // Class count: 7186
-        // Enum count: 115
+        // Enum count: 118
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -5567,8 +5567,9 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t blind = 0x1A5C; // int32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             namespace CDOTA_Modifier_DarkCarnival_Pied {
+                constexpr std::ptrdiff_t m_nFXIndex = 0x1A58; // ParticleIndex_t
             }
             // Parent: None
             // Field count: 2
@@ -12226,6 +12227,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ION
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -17702,7 +17704,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -20851,6 +20852,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ION
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -25846,7 +25848,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // t
             namespace C_DOTA_PortraitBaseModel {
             }
             // Parent: C_EnvDeferredLight
@@ -26333,7 +26334,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // t
             // MSaveBehavior
             // Y
             namespace CBodyComponentBaseAnimGraph {
@@ -28313,7 +28313,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // MGetKV3ClassDefaults
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
@@ -37791,6 +37790,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // C
+            // C
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 #pragma once
 
@@ -924,8 +924,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // vers\DriverData
-            // 3
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -6155,7 +6154,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // p|
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17957,7 +17955,6 @@ namespace source2_dumper {
             // MPropertyAttributeChoiceName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  f
             namespace C_INIT_PlaneCull {
                 constexpr std::ptrdiff_t m_nControlPoint = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_flDistance = 0x1E8; // CParticleCollectionFloatInput

@@ -313,6 +313,10 @@
             "type": "Unknown"
           },
           {
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -679,6 +683,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -1530,6 +1538,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1873,6 +1885,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1997,6 +2013,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -2565,6 +2585,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -7266,10 +7290,6 @@
           },
           {
             "name": "CMD_IMPULSERESPONSE_DELAY",
-            "type": "Unknown"
-          },
-          {
-            "name": "o",
             "type": "Unknown"
           },
           {

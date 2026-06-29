@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-27 11:00:13.970046600 +07:00
+// 2026-06-30 02:37:50.074304300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7534
-        // Enum count: 438
+        // Enum count: 440
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -13685,8 +13685,9 @@ pub mod source2_dumper {
                 pub const blind: usize = 0x1A5C; // int32
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             pub mod CDOTA_Modifier_DarkCarnival_Pied {
+                pub const m_nFXIndex: usize = 0x1A58; // ParticleIndex_t
             }
             // Parent: CDOTABaseAbility
             // Field count: 0
@@ -18668,13 +18669,20 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // (*)
+            // @*)
+            // H+)
+            // P+)
             // MPropertyDescription
+            // h-)
             // MPropertyStartGroup
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // @/)
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
+            // @4)
             // MPropertyStartGroup
             // MPropertyDescription
             // MPropertyStartGroup
@@ -20233,8 +20241,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // vers\DriverData
-            // 3
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -21262,7 +21269,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // c
             pub mod CTimeline {
                 pub const m_flValues: usize = 0x10; // float32[64]
                 pub const m_nValueCounts: usize = 0x110; // int32[64]
@@ -35947,6 +35953,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // p9)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
@@ -38094,7 +38101,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // ePosition
             // eAngles
             // MGetKV3ClassDefaults
@@ -39924,6 +39930,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // _shader_cache;steamapp_merged_shader_cache
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CScriptComponent {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             }
@@ -55337,6 +55344,8 @@ pub mod source2_dumper {
             // Y
             // GLOBAL_ON
             // GLOBAL_DEAD
+            // P%*
+            // P%*
             // HULL_SMALL_CENTERED
             // HULL_WIDE_HUMAN
             // HULL_TINY
@@ -55348,6 +55357,8 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // C
+            // C
             // ROTATOR_TARGET_LOCALSPACE
             // eRotateBegin
             // eEventsDispatched
@@ -57258,13 +57269,16 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
+            // @C)
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            //  J)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // hM)
             pub mod RelationshipOverride_t {
                 pub const entity: usize = 0x8; // CHandle<CBaseEntity>
                 pub const classType: usize = 0xC; // Class_T
@@ -57362,6 +57376,8 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // am\dumps
+            // am\dumps
             pub mod CRemapFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -57460,6 +57476,7 @@ pub mod source2_dumper {
             // WsDirection
             // MsDirection
             // MGetKV3ClassDefaults
+            // xz)
             pub mod AI_GroundRootMotionMotor_DebugSnapshotData_t {
                 pub const desired_movement_gait_set: usize = 0x8; // CGlobalSymbol
                 pub const desired_movement_gait: usize = 0x10; // CGlobalSymbol
@@ -57541,6 +57558,7 @@ pub mod source2_dumper {
             // MAlternateSemanticName
             // MPropertyFriendlyName
             // MAlternateSemanticName
+            // 0+>
             // eInvalid
             // eHead
             // eEyesOnly
@@ -57558,6 +57576,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // MGetKV3ClassDefaults
+            // (/>
+            // (/>
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // eExit
@@ -58522,7 +58542,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // c
             pub mod CSkeletonAnimationController {
                 pub const m_pSkeletonInstance: usize = 0x8; // CSkeletonInstance*
             }
@@ -58785,6 +58804,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y
+            // H[)
+            // (])
             pub mod DebugDrawBoneTransforms_t {
                 pub const vecBones: usize = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
             }
@@ -58846,7 +58867,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // n
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59141,6 +59161,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertySuppressExpr
             // MPropertyDescription
+            //  .)
             // MPropertyDescription
             // MPropertySuppressExpr
             // MPropertyDescription
@@ -59149,7 +59170,9 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyDescription
+            // p3)
             // MPropertyDescription
+            // 07)
             pub mod CBaseAnimGraphDestructibleParts_GraphController {
             }
             // Parent: None
@@ -59736,6 +59759,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // pipeline_cache
             pub mod AbilityContributionType_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -61658,6 +61684,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
+            // 0u)
             pub mod AI_DefaultNPC_DebugSnapshotData_t {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -61819,7 +61846,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
+            // hM)
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -61908,6 +61935,7 @@ pub mod source2_dumper {
             // MFgdHelper
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p9)
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
@@ -62015,7 +62043,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
+            // hM)
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
