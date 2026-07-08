@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 02:37:50.074304300 +07:00
+// 2026-07-08 15:27:57.237814500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -918,7 +918,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
         public static class CPulseCell_BaseState {
         }
         // Parent: None

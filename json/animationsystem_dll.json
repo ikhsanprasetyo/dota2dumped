@@ -372,10 +372,6 @@
             "type": "Unknown"
           },
           {
-            "name": "PM_HOME=C:\\Users\\ByteseekerPC\\AppData\\Local\\pnpm",
-            "type": "Unknown"
-          },
-          {
             "name": "JOINT_FLAGS_BODY1_FIXED",
             "type": "Unknown"
           },
@@ -2016,10 +2012,6 @@
             "type": "Unknown"
           },
           {
-            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2110,10 +2102,6 @@
             "type": "Unknown"
           },
           {
-            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2198,10 +2186,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
             "type": "Unknown"
           },
           {
@@ -2314,10 +2298,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
             "type": "Unknown"
           },
           {
@@ -2756,7 +2736,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "name": "a",
             "type": "Unknown"
           },
           {
@@ -7729,6 +7709,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7826,6 +7810,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7847,6 +7835,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
             "type": "Unknown"
           },
           {
@@ -7880,6 +7872,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7900,6 +7896,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
             "type": "Unknown"
           },
           {
@@ -8831,6 +8831,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
             "type": "Unknown"
           },
           {
@@ -10527,6 +10531,10 @@
             "type": "Unknown"
           },
           {
+            "name": "@!",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           }
@@ -10620,6 +10628,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
             "type": "Unknown"
           }
         ],
@@ -11567,6 +11579,10 @@
             "type": "Unknown"
           },
           {
+            "name": "05",
+            "type": "Unknown"
+          },
+          {
             "name": "WarpZ",
             "type": "Unknown"
           },
@@ -11592,6 +11608,10 @@
           },
           {
             "name": "Bezier",
+            "type": "Unknown"
+          },
+          {
+            "name": "P@",
             "type": "Unknown"
           },
           {
@@ -12053,6 +12073,10 @@
             "type": "Unknown"
           },
           {
+            "name": "05",
+            "type": "Unknown"
+          },
+          {
             "name": "WarpZ",
             "type": "Unknown"
           },
@@ -12078,6 +12102,10 @@
           },
           {
             "name": "Bezier",
+            "type": "Unknown"
+          },
+          {
+            "name": "P@",
             "type": "Unknown"
           },
           {
@@ -13603,6 +13631,14 @@
             "type": "Unknown"
           },
           {
+            "name": "@_",
+            "type": "Unknown"
+          },
+          {
+            "name": "pb",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13759,6 +13795,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -13903,6 +13943,10 @@
             "type": "Unknown"
           },
           {
+            "name": "@!",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -13916,6 +13960,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "@_",
+            "type": "Unknown"
+          },
+          {
+            "name": "pb",
             "type": "Unknown"
           },
           {
@@ -14492,6 +14544,10 @@
             "type": "Unknown"
           },
           {
+            "name": "05",
+            "type": "Unknown"
+          },
+          {
             "name": "WarpZ",
             "type": "Unknown"
           },
@@ -14517,6 +14573,10 @@
           },
           {
             "name": "Bezier",
+            "type": "Unknown"
+          },
+          {
+            "name": "P@",
             "type": "Unknown"
           },
           {
@@ -15687,6 +15747,14 @@
             "type": "Unknown"
           },
           {
+            "name": "@_",
+            "type": "Unknown"
+          },
+          {
+            "name": "pb",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -15947,6 +16015,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "@_",
+            "type": "Unknown"
+          },
+          {
+            "name": "pb",
             "type": "Unknown"
           },
           {
@@ -16612,6 +16688,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
             "type": "Unknown"
           }
         ],
@@ -17602,7 +17682,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "name": "a",
             "type": "Unknown"
           },
           {
@@ -17760,7 +17840,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "name": "a",
             "type": "Unknown"
           },
           {
@@ -18436,7 +18516,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "o",
             "type": "Unknown"
           }
         ],
@@ -18708,7 +18788,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "o",
             "type": "Unknown"
           },
           {
@@ -18763,7 +18843,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "o",
             "type": "Unknown"
           },
           {
@@ -18934,7 +19014,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "js\\;C:\\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           }
         ],
@@ -19194,7 +19274,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "o",
             "type": "Unknown"
           },
           {
@@ -19284,7 +19364,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "js\\;C:\\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -20045,10 +20125,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "m32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\",
             "type": "Unknown"
           }
         ],
@@ -23467,6 +23543,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
             "type": "Unknown"
           }
         ],

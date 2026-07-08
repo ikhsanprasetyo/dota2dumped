@@ -2686,6 +2686,10 @@
           {
             "name": "7",
             "type": "Unknown"
+          },
+          {
+            "name": "t\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\",
+            "type": "Unknown"
           }
         ],
         "parent": null

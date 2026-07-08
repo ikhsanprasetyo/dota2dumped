@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 02:37:50.074304300 +07:00
+// 2026-07-08 15:27:57.237814500 +07:00
 
 #pragma once
 
@@ -1625,7 +1625,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -2958,6 +2957,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             namespace CNmParameterizedBlendNode__CDefinition {
                 constexpr std::ptrdiff_t m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 constexpr std::ptrdiff_t m_nInputParameterValueNodeIdx = 0x28; // int16
@@ -3009,6 +3009,7 @@ namespace source2_dumper {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
+            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -3016,6 +3017,7 @@ namespace source2_dumper {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
+            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3487,6 +3489,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             // MGetKV3ClassDefaults
             namespace CNmBoneMaskBlendNode__CDefinition {
                 constexpr std::ptrdiff_t m_nSourceMaskNodeIdx = 0x10; // int16
@@ -3580,7 +3583,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 7
+            // js\;C:\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4219,6 +4222,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5382,6 +5386,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             namespace CNmVelocityBlendNode__CDefinition {
             }
             // Parent: None
@@ -5483,7 +5488,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 7
+            // js\;C:\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
             namespace CParticleVecInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
@@ -5566,6 +5571,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             // MGetKV3ClassDefaults
             namespace CNmBoneMaskSelectorNode__CDefinition {
                 constexpr std::ptrdiff_t m_defaultMaskNodeIdx = 0x10; // int16
@@ -5712,6 +5718,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @!
             // MPropertyFriendlyName
             namespace CNmEvent {
                 constexpr std::ptrdiff_t m_flStartTime = 0x8; // NmPercent_t
@@ -5913,7 +5920,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6022,7 +6028,7 @@ namespace source2_dumper {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // a
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -6939,6 +6945,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // @_
+            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7367,7 +7375,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // o
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -7467,6 +7475,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @_
+            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7787,10 +7797,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // @!
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @_
+            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8059,6 +8072,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             namespace CQuaternionAnimParameter {
                 constexpr std::ptrdiff_t m_defaultValue = 0x80; // Quaternion
                 constexpr std::ptrdiff_t m_bInterpolate = 0x90; // bool
@@ -8545,6 +8559,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @_
+            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8584,7 +8600,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // o
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8943,7 +8959,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // o
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9327,6 +9343,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             namespace CNmFixedWeightBoneMaskNode__CDefinition {
                 constexpr std::ptrdiff_t m_flBoneWeight = 0x10; // float32
             }
@@ -9377,7 +9394,7 @@ namespace source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // a
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -9603,6 +9620,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             namespace CNmBlend2DNode__CDefinition {
                 constexpr std::ptrdiff_t m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 constexpr std::ptrdiff_t m_values = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9656,7 +9674,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10216,6 +10233,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             namespace CNmBodyGroupNode__CDefinition {
                 constexpr std::ptrdiff_t m_nEnabledNodeIdx = 0x18; // int16
                 constexpr std::ptrdiff_t m_event = 0x20; // CNmBodyGroupEvent
@@ -10262,7 +10280,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10332,7 +10349,7 @@ namespace source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // a
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -10531,6 +10548,7 @@ namespace source2_dumper {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
+            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -10538,6 +10556,7 @@ namespace source2_dumper {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
+            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11188,7 +11207,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11724,7 +11742,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // o
             namespace CParticleFloatInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleFloatType_t
                 constexpr std::ptrdiff_t m_nMapType = 0x14; // ParticleFloatMapType_t
@@ -12119,6 +12137,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             namespace CNmBoneMaskNode__CDefinition {
                 constexpr std::ptrdiff_t m_boneMaskID = 0x10; // CGlobalSymbol
             }
@@ -12661,6 +12680,7 @@ namespace source2_dumper {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
+            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -12668,6 +12688,7 @@ namespace source2_dumper {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
+            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -13000,7 +13021,6 @@ namespace source2_dumper {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
-            // PM_HOME=C:\Users\ByteseekerPC\AppData\Local\pnpm
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY

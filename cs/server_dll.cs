@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 02:37:50.074304300 +07:00
+// 2026-07-08 15:27:57.237814500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7534
-    // Enum count: 440
+    // Enum count: 439
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -13592,7 +13592,7 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Ability_BigThunderLizard_Frenzy {
         }
         // Parent: None
-        // Field count: 82
+        // Field count: 84
         public static class CDOTA_TeamCommander {
             public const nint m_nLastUnitsCollectTick = 0x10; // GameTick_t
             public const nint m_LaneFrontUpdate = 0x2C8; // CountdownTimer
@@ -13641,41 +13641,43 @@ namespace Source2Dumper.Schemas {
             public const nint m_hProposedTeamfightUnits = 0x828; // CUtlVector<CHandle<CBaseEntity>>
             public const nint m_hTeamfightTarget = 0x840; // CHandle<CBaseEntity>
             public const nint m_vTeamfightTargetLoc = 0x844; // VectorWS
-            public const nint m_WardCalculationTimer = 0x850; // CountdownTimer
-            public const nint m_fHeroSelectionTimes = 0x880; // float32[24]
-            public const nint m_vBaseLocation = 0x8F8; // VectorWS
-            public const nint m_vPregameGatherLocation = 0x904; // VectorWS
-            public const nint m_AllUnits = 0x910; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllAlliedUnits = 0x928; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllAlliedHeroes = 0x940; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllAlliedCreeps = 0x958; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllAlliedWards = 0x970; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllAlliedBuildings = 0x988; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllAlliedOther = 0x9A0; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllEnemyUnits = 0x9B8; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllEnemyHeroes = 0x9D0; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllEnemyCreeps = 0x9E8; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllEnemyWards = 0xA00; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllEnemyBuildings = 0xA18; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllEnemyOther = 0xA30; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllNeutralCreeps = 0xA48; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_ThinkerUnits = 0xA60; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_AllUnitsIncludingDead = 0xA78; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_hCouriers = 0xAC0; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_hDisabledBots = 0xAD8; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_fGoodLuckFlavorTextTime = 0xE60; // GameTime_t
-            public const nint m_fTeamfightFlavorTextTime = 0xE64; // GameTime_t
-            public const nint m_fCongratulateHeroFlavorTextTime = 0xE68; // GameTime_t
-            public const nint m_fLastAliveHeroHistorySnapshotTime = 0xE6C; // GameTime_t
-            public const nint m_iAliveHeroHistoryIndex = 0xE70; // int32
-            public const nint m_iAliveHeroHistory = 0xE74; // int32[5]
-            public const nint m_fPlayerDraftChooseTime = 0xE88; // GameTime_t
-            public const nint m_sScriptDirectory = 0xE98; // CUtlString
-            public const nint m_hHeroSelectionScriptScope = 0xEA0; // HSCRIPT
-            public const nint m_hTeamLevelDesiresScriptScope = 0xEA8; // HSCRIPT
-            public const nint m_nScriptPathAvoidanceUpdateTick = 0xF18; // GameTick_t
-            public const nint m_fExecutionTime = 0xF1C; // float32[30]
-            public const nint m_iCurExecutionTime = 0xF94; // int32
+            public const nint m_eTeamDefenseLane = 0x850; // DOTA_LANE
+            public const nint m_flTeamDefenseStarted = 0x854; // GameTime_t
+            public const nint m_WardCalculationTimer = 0x858; // CountdownTimer
+            public const nint m_fHeroSelectionTimes = 0x888; // float32[24]
+            public const nint m_vBaseLocation = 0x900; // VectorWS
+            public const nint m_vPregameGatherLocation = 0x90C; // VectorWS
+            public const nint m_AllUnits = 0x918; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllAlliedUnits = 0x930; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllAlliedHeroes = 0x948; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllAlliedCreeps = 0x960; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllAlliedWards = 0x978; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllAlliedBuildings = 0x990; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllAlliedOther = 0x9A8; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllEnemyUnits = 0x9C0; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllEnemyHeroes = 0x9D8; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllEnemyCreeps = 0x9F0; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllEnemyWards = 0xA08; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllEnemyBuildings = 0xA20; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllEnemyOther = 0xA38; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllNeutralCreeps = 0xA50; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_ThinkerUnits = 0xA68; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_AllUnitsIncludingDead = 0xA80; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_hCouriers = 0xAC8; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_hDisabledBots = 0xAE0; // CUtlVector<CHandle<CBaseEntity>>
+            public const nint m_fGoodLuckFlavorTextTime = 0xE68; // GameTime_t
+            public const nint m_fTeamfightFlavorTextTime = 0xE6C; // GameTime_t
+            public const nint m_fCongratulateHeroFlavorTextTime = 0xE70; // GameTime_t
+            public const nint m_fLastAliveHeroHistorySnapshotTime = 0xE74; // GameTime_t
+            public const nint m_iAliveHeroHistoryIndex = 0xE78; // int32
+            public const nint m_iAliveHeroHistory = 0xE7C; // int32[5]
+            public const nint m_fPlayerDraftChooseTime = 0xE90; // GameTime_t
+            public const nint m_sScriptDirectory = 0xEA0; // CUtlString
+            public const nint m_hHeroSelectionScriptScope = 0xEA8; // HSCRIPT
+            public const nint m_hTeamLevelDesiresScriptScope = 0xEB0; // HSCRIPT
+            public const nint m_nScriptPathAvoidanceUpdateTick = 0xF20; // GameTick_t
+            public const nint m_fExecutionTime = 0xF24; // float32[30]
+            public const nint m_iCurExecutionTime = 0xF9C; // int32
         }
         // Parent: CDOTABaseAbility
         // Field count: 0
@@ -18271,25 +18273,25 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // (*)
-        // @*)
-        // H+)
-        // P+)
-        // MPropertyDescription
-        // h-)
-        // MPropertyStartGroup
-        // MPropertyDescription
         // MGetKV3ClassDefaults
-        // @/)
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // @4)
-        // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyAttributeEditor
+        // MPropertyDescription
+        // MPropertyStartGroup
+        // MPropertyDescription
+        // MPropertySuppressExpr
+        // MPropertyDescription
+        // MPropertyDescription
+        // MPropertySuppressExpr
+        // MPropertyDescription
+        // MPropertyDescription
+        // MPropertySuppressExpr
+        // MGetKV3ClassDefaults
+        // MPropertyStartGroup
+        // MPropertyDescription
+        // MPropertyDescription
         public static class CBaseAnimGraphController {
             public const nint m_nAnimationAlgorithm = 0x18; // AnimationAlgorithm_t
             public const nint m_nNextExternalGraphHandle = 0x1C; // ExternalAnimGraphHandle_t
@@ -19843,7 +19845,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -20871,6 +20872,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
         public static class CTimeline {
             public const nint m_flValues = 0x10; // float32[64]
             public const nint m_nValueCounts = 0x110; // int32[64]
@@ -23604,16 +23606,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
-        // P
-        // P
-        // P
-        // P
-        // P
-        // P
-        // P
-        // P
-        // P
-        // P
         public static class CPulseCell_WaitForCursorsWithTagBase {
             public const nint m_nCursorsAllowedToWait = 0xD8; // int32
             public const nint m_WaitComplete = 0xE0; // CPulse_ResumePoint
@@ -35027,6 +35019,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CDestructiblePartsComponent {
             public const nint __m_pChainEntity = 0x0; // CNetworkVarChainer
             public const nint m_vecDamageTakenByHitGroup = 0x48; // CUtlVector<uint16>
@@ -35555,7 +35548,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // p9)
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // AMMO_FORCE_DROP_IF_CARRIED
@@ -35574,7 +35567,6 @@ namespace Source2Dumper.Schemas {
         // eKill
         // eGib
         // eRemove
-        // M
         // GenerateBreakpieces
         // SetBodyGroupAndCollisionState
         // EnableFlinches
@@ -39531,8 +39523,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // _shader_cache;steamapp_merged_shader_cache
-        // he.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -54923,6 +54913,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 10
         //
         // Metadata:
+        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
         // n
         // n
         // MVDataUniqueMonotonicInt
@@ -54946,8 +54937,6 @@ namespace Source2Dumper.Schemas {
         // Y
         // GLOBAL_ON
         // GLOBAL_DEAD
-        // P%*
-        // P%*
         // HULL_SMALL_CENTERED
         // HULL_WIDE_HUMAN
         // HULL_TINY
@@ -54959,8 +54948,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // C
-        // C
+        // D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
+        // D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
         // ROTATOR_TARGET_LOCALSPACE
         // eRotateBegin
         // eEventsDispatched
@@ -56866,21 +56855,41 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // AMMO_FORCE_DROP_IF_CARRIED
+        // AMMO_RESERVE_STAYS_WITH_WEAPON
+        // AMMO_FLAG_MAX
         // MPropertyDescription
+        // PrioritizeClosestPart
         // MPropertyDescription
+        // Absorb
+        // InvincibleAbsorb
+        // InvinciblePassthrough
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
-        // @C)
         // MPropertyDescription
+        // eKill
+        // eGib
+        // eRemove
+        // GenerateBreakpieces
+        // SetBodyGroupAndCollisionState
+        // EnableFlinches
+        // ForceDamageApply
+        // IgnoreKillEntityFlag
+        // IgnoreHealthCheck
+        // ApplyPhysicsForce
+        // Default
+        // MGetKV3ClassDefaults
         // MPropertyDescription
-        // MPropertyDescription
-        //  J)
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // hM)
+        // TS_AT_BOTTOM
+        // TS_GOING_UP
+        // TS_GOING_DOWN
+        // DOOR_CLOSED
+        // DOOR_OPENING
+        // DOOR_CLOSING
+        // M
+        // MKV3TransferSaveOpsForField
         public static class RelationshipOverride_t {
             public const nint entity = 0x8; // CHandle<CBaseEntity>
             public const nint classType = 0xC; // Class_T
@@ -56978,8 +56987,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
-        // am\dumps
-        // am\dumps
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57078,7 +57085,6 @@ namespace Source2Dumper.Schemas {
         // WsDirection
         // MsDirection
         // MGetKV3ClassDefaults
-        // xz)
         public static class AI_GroundRootMotionMotor_DebugSnapshotData_t {
             public const nint desired_movement_gait_set = 0x8; // CGlobalSymbol
             public const nint desired_movement_gait = 0x10; // CGlobalSymbol
@@ -57158,9 +57164,6 @@ namespace Source2Dumper.Schemas {
         // TRS_NONE
         // MPropertyFriendlyName
         // MAlternateSemanticName
-        // MPropertyFriendlyName
-        // MAlternateSemanticName
-        // 0+>
         // eInvalid
         // eHead
         // eEyesOnly
@@ -57178,14 +57181,15 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MAlternateSemanticName
         // MGetKV3ClassDefaults
-        // (/>
-        // (/>
+        // MPropertyFriendlyName
+        // MAlternateSemanticName
         // MPropertyFriendlyName
         // MAlternateSemanticName
         // eExit
         // eState01
         // eState02
         // eState03
+        // eState04
         public static class CFootstepTableHandle {
         }
         // Parent: None
@@ -57251,16 +57255,15 @@ namespace Source2Dumper.Schemas {
             public const nint m_vecOperations = 0x18; // CUtlVector<FantasyCraftingGemMutation_t>
         }
         // Parent: None
-        // Field count: 5
+        // Field count: 4
         //
         // Metadata:
         // MGetKV3ClassDefaults
         public static class FantasyPlayerData_t {
             public const nint m_unAccountID = 0x0; // uint32
             public const nint m_unTeamID = 0x4; // uint32
-            public const nint m_eRegion = 0x8; // ELeagueRegion
-            public const nint m_strPlayerName = 0x10; // CUtlString
-            public const nint m_bIsValid = 0x18; // bool
+            public const nint m_strPlayerName = 0x8; // CUtlString
+            public const nint m_bIsValid = 0x10; // bool
         }
         // Parent: None
         // Field count: 1
@@ -57284,8 +57287,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // RELATIVE_TO_ENTITY_IN_LOCAL_SPACE
-        // RELATIVE_TO_ENTITY_YAW_ONLY
         public static class lerpdata_t {
             public const nint m_hEnt = 0x0; // CHandle<CBaseEntity>
             public const nint m_MoveType = 0x4; // MoveType_t
@@ -57331,6 +57332,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -58144,6 +58146,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
         public static class CSkeletonAnimationController {
             public const nint m_pSkeletonInstance = 0x8; // CSkeletonInstance*
         }
@@ -58406,8 +58409,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // Y
-        // H[)
-        // (])
         public static class DebugDrawBoneTransforms_t {
             public const nint vecBones = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
         }
@@ -58469,6 +58470,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
+        // BS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -58548,8 +58550,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // Y
         public static class CStopwatchBase {
             public const nint m_bIsRunning = 0x8; // bool
         }
@@ -58763,7 +58764,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertySuppressExpr
         // MPropertyDescription
-        //  .)
         // MPropertyDescription
         // MPropertySuppressExpr
         // MPropertyDescription
@@ -58772,16 +58772,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyStartGroup
         // MPropertyDescription
-        // p3)
         // MPropertyDescription
-        // 07)
         public static class CBaseAnimGraphDestructibleParts_GraphController {
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -58908,6 +58905,7 @@ namespace Source2Dumper.Schemas {
         // SOUNDCTRL_STOP
         // SOUNDCTRL_DESTROY
         // SOUNDCTRL_FADEOUT
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -59639,7 +59637,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyDescription
-        // MPropertyAttributeRange
         public static class CBaseAnimGraphVariationUserData {
         }
         // Parent: None
@@ -59735,10 +59732,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
+        // MPropertyCustomEditor
+        // Y
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59794,7 +59789,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MPropertyCustomEditor
         // MPropertyCustomEditor
         // MPropertyDescription
         // MPropertyDescription
@@ -60694,6 +60688,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // Y
         public static class CRandSimTimer {
             public const nint m_flMinInterval = 0x8; // float32
@@ -60804,13 +60799,14 @@ namespace Source2Dumper.Schemas {
             public const nint m_vPos = 0x24; // VectorWS
         }
         // Parent: None
-        // Field count: 2
+        // Field count: 3
         //
         // Metadata:
         // MGetKV3ClassDefaults
         public static class FantasyTeamData_t {
             public const nint m_unTeamID = 0x0; // uint32
             public const nint m_strTeamName = 0x8; // CUtlString
+            public const nint m_eRegion = 0x10; // ELeagueRegion
         }
         // Parent: None
         // Field count: 1
@@ -60977,6 +60973,7 @@ namespace Source2Dumper.Schemas {
         // SOUNDCTRL_STOP
         // SOUNDCTRL_DESTROY
         // SOUNDCTRL_FADEOUT
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -61286,7 +61283,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // n
-        // 0u)
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61448,7 +61444,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // hM)
+        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
@@ -61461,6 +61457,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // AMMO_FORCE_DROP_IF_CARRIED
@@ -61479,7 +61476,6 @@ namespace Source2Dumper.Schemas {
         // eKill
         // eGib
         // eRemove
-        // M
         // GenerateBreakpieces
         // SetBodyGroupAndCollisionState
         // EnableFlinches
@@ -61537,7 +61533,7 @@ namespace Source2Dumper.Schemas {
         // MFgdHelper
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // p9)
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // AMMO_FORCE_DROP_IF_CARRIED
@@ -61645,7 +61641,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // hM)
+        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior

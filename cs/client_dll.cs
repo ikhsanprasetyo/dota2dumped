@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 02:37:50.074304300 +07:00
+// 2026-07-08 15:27:57.237814500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
     // Class count: 7186
-    // Enum count: 118
+    // Enum count: 115
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -6465,6 +6465,16 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Q
+        // USE_BEST_COLLISION_BOUNDS
+        // USE_HITBOXES
+        // USE_SPECIFIED_BOUNDS
+        // USE_GAME_CODE
+        // USE_ROTATION_EXPANDED_BOUNDS
+        // USE_ROTATION_EXPANDED_ORIENTED_BOUNDS
+        // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
+        // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
+        // SURROUNDING_TYPE_BIT_COUNT
+        // MGetKV3ClassDefaults
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_szParticlePrecipitationPuddleEffect = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -6929,6 +6939,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CHitboxComponent {
             public const nint m_flBoundsExpandRadius = 0x14; // float32
         }
@@ -7304,7 +7315,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8572,6 +8582,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_DynamicProp
         // Field count: 11
+        //
+        // Metadata:
+        // AT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // e
         public static class C_DOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0xD10; // bool
             public const nint m_bPlaySpawnAnimation = 0xD11; // bool
@@ -10449,15 +10463,11 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
-        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyAttributeSuggestionName
+        // MPropertyDescription
+        // MPropertyDescription
+        // l
         public static class C_FogController {
             public const nint m_fog = 0x5F0; // fogparams_t
             public const nint m_bUseAngles = 0x658; // bool
@@ -10689,7 +10699,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CBodyComponentPoint {
@@ -11853,10 +11862,13 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
+        // MPropertyCustomFGDType
+        // MGetKV3ClassDefaults
+        // MVDataNodeType
+        // S
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // MPropertyCustomFGDType
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class C_CrownfallShmupCamera {
@@ -12221,7 +12233,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ION
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // e
@@ -12416,7 +12427,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // Y
         public static class CountdownTimer {
             public const nint m_duration = 0x8; // float32
             public const nint m_timestamp = 0xC; // GameTime_t
@@ -15561,6 +15571,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_DOTA_BaseNPC
         // Field count: 22
+        //
+        // Metadata:
+        // n
         public static class C_PortraitWorldUnit {
             public const nint m_OutputAnimOver = 0x19B0; // CEntityIOOutput
             public const nint m_bSuppressIntroEffects = 0x19C8; // bool
@@ -16200,9 +16213,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_DOTA_BaseNPC
         // Field count: 17
-        //
-        // Metadata:
-        // Y
         public static class C_DOTA_BaseNPC_Building {
             public const nint m_iDamageLevel = 0x19B0; // int32
             public const nint m_nAmbientFXIndex = 0x19B4; // ParticleIndex_t
@@ -18843,13 +18853,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_BaseEntity
         // Field count: 29
-        //
-        // Metadata:
-        // East
-        // North
-        // Up
-        // eNotifyWhenFinished
-        // eNotifyTriggered
         public static class C_EnvCombinedLightProbeVolume {
             public const nint m_Entity_Color = 0x1668; // Color
             public const nint m_Entity_flBrightness = 0x166C; // float32
@@ -20846,7 +20849,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ION
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // e
@@ -22193,7 +22195,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
-        // CInlineJob_CMsgDOTATeamInfo
+        // CInlineJob_CMsgDOTATeamsInfo
         public static class C_Artillery_PortraitWorldUnit {
         }
         // Parent: C_DOTAWearableItem
@@ -24368,6 +24370,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CPropDataComponent {
             public const nint m_flDmgModBullet = 0x10; // float32
             public const nint m_flDmgModClub = 0x14; // float32
@@ -25842,6 +25845,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
         public static class C_DOTA_PortraitBaseModel {
         }
         // Parent: C_EnvDeferredLight
@@ -26328,8 +26332,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
+        // n
         // MSaveBehavior
-        // Y
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x530; // CBaseAnimGraphController
         }
@@ -26342,6 +26346,7 @@ namespace Source2Dumper.Schemas {
         // M
         // AbilityCooldown
         // AbilityCharges
+        // s
         public static class CDOTA_Survivors_EffectsEntity {
         }
         // Parent: C_DOTA_Item
@@ -28313,6 +28318,7 @@ namespace Source2Dumper.Schemas {
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
         // TIMELINE_COMPRESSION_TOTAL
         // MGetKV3ClassDefaults
+        // Y
         public static class CModelState {
             public const nint m_hModel = 0xA0; // CStrongHandle<InfoForResourceTypeCModel>
             public const nint m_ModelName = 0xA8; // CUtlSymbolLarge
@@ -30245,8 +30251,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Q
-        // MPropertySuppressExpr
-        // MPropertySuppressExpr
         // MGetKV3ClassDefaults
         // Y
         public static class C_EnvDeferredLight {
@@ -30704,11 +30708,11 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
-        // S
-        // S
         // M
-        // AbilityCooldown
-        // AbilityCharges
+        // S
+        // AbilityManaCost
+        // AbilityCastRange
+        // AbilityChargeRestoreTime
         public static class CDOTA_Survivors_UnitEntity {
         }
         // Parent: C_DOTA_Item
@@ -30788,8 +30792,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
-        // Y
-        // e
+        // generic
         public static class C_DOTAReflectionSkybox {
         }
         // Parent: None
@@ -32335,7 +32338,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CLightComponent {
             public const nint __m_pChainEntity = 0x38; // CNetworkVarChainer
             public const nint m_Color = 0x75; // Color
@@ -32581,14 +32583,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_BaseEntity
         // Field count: 18
-        //
-        // Metadata:
-        // generic
-        // %
-        // West
-        // South
-        // Down
-        // e
         public static class C_EnvCubemap {
             public const nint m_Entity_hCubemapTexture = 0x670; // CStrongHandle<InfoForResourceTypeCTextureBase>
             public const nint m_Entity_bCustomCubemapTexture = 0x678; // bool
@@ -32672,7 +32666,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -37469,7 +37462,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // Y
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -37773,6 +37765,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 9
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // HULL_SMALL_CENTERED
         // HULL_WIDE_HUMAN
         // HULL_TINY
@@ -37784,8 +37777,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // C
-        // C
+        // D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
+        // D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -38862,14 +38855,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyDescription
-        // MPropertyDescription
-        // DOTA_ORDER_ISSUER_CURRENT_UNIT_ONLY
-        // DOTA_ORDER_ISSUER_HERO_ONLY
-        // DOTA_ORDER_ISSUER_PASSED_UNIT_ONLY
-        // DOTA_ORDER_QUEUE_NEVER
-        // DOTA_ORDER_QUEUE_ALWAYS
-        // DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_STACK
-        // DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_PULL
         public static class C_DOTA_PortraitEntity {
             public const nint m_PetIdleTimer = 0x19B0; // CountdownTimer
             public const nint m_nMouthFX = 0x19C8; // ParticleIndex_t
@@ -40051,14 +40036,11 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
+        // MPropertyDescription
+        // MPropertyAttributeSuggestionName
+        // MPropertyDescription
+        // MPropertyDescription
+        // l
         public static class C_LightEntity {
             public const nint m_CLightComponent = 0xA88; // CLightComponent*
         }
@@ -40312,7 +40294,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
-        // MGetKV3ClassDefaults
+        // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // k_eFishingGameFishCategory_Trash
@@ -40332,9 +40314,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // generic
         // MPropertyDescription
+        // MVDataUniqueMonotonicInt
+        // MPropertyAttributeEditor
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
@@ -40598,6 +40581,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // M
+        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
         // WATER_WAKE_IDLE
         // WATER_WAKE_WALKING
         // WATER_WAKE_RUNNING
@@ -43343,7 +43327,6 @@ namespace Source2Dumper.Schemas {
         // witch_doctor
         // obsidian_destroyer
         // pangolier
-        // CGCClientJobCMsgPlayerConductScorecard
         public static class CDOTA_DarkCarnival_MurderOfCrows {
             public const nint m_hCrowModel = 0x5F0; // CStrongHandle<InfoForResourceTypeCModel>
             public const nint m_sCrowExplodeVFX = 0x5F8; // CUtlSymbolLarge
@@ -45354,7 +45337,6 @@ namespace Source2Dumper.Schemas {
         // PLAYER_FACING
         // INVALID_ORIGIN
         // RANDOM_ENEMY_ORIGIN
-        // n
         // RARITY_INVALID
         // RARITY_COUNT
         // INVALID_SPAWN_BEHAVIOR
@@ -45373,6 +45355,7 @@ namespace Source2Dumper.Schemas {
         // DESTRUCTIBLE_MAIN
         // ENEMY_BOSS_ROOM
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CSurvivorsPowerUpDefinition_AreaAttack {
             public const nint m_eOrigin = 0x6A0; // ESurvivorsAreaAttackOrigin
             public const nint m_flRemoveParticleTimeDelay = 0x6A4; // float32
@@ -45388,6 +45371,57 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // k_eSurvivorsAttribute_MaxHP
+        // k_eSurvivorsAttribute_HPRegen
+        // k_eSurvivorsAttribute_LifeSteal
+        // k_eSurvivorsAttribute_Damage
+        // k_eSurvivorsAttribute_DamageMultiplier
+        // k_eSurvivorsAttribute_Damage_Physical
+        // k_eSurvivorsAttribute_DamageMultiplier_Physical
+        // k_eSurvivorsAttribute_Damage_Magical
+        // k_eSurvivorsAttribute_DamageMultiplier_Magical
+        // k_eSurvivorsAttribute_CriticalStrike_Physical_Chance
+        // k_eSurvivorsAttribute_CriticalStrike_Physical_DamageMultiplier
+        // k_eSurvivorsAttribute_MovementSpeed
+        // k_eSurvivorsAttribute_Cooldown
+        // k_eSurvivorsAttribute_CooldownReductionMultiplier
+        // k_eSurvivorsAttribute_Range
+        // k_eSurvivorsAttribute_Armor
+        // k_eSurvivorsAttribute_DamageReflection
+        // k_eSurvivorsAttribute_Dodge
+        // k_eSurvivorsAttribute_ExpMultiplier
+        // k_eSurvivorsAttribute_PickupRadius
+        // k_eSurvivorsAttribute_Luck
+        // k_eSurvivorsAttribute_Lives
+        // k_eSurvivorsAttribute_LimitBreak
+        // k_eSurvivorsAttribute_DashSpeed
+        // k_eSurvivorsAttribute_DashDuration
+        // k_eSurvivorsAttribute_DashCooldown
+        // k_eSurvivorsAttribute_NumDashes
+        // k_eSurvivorsAttribute_TargetCount
+        // k_eSurvivorsAttribute_StunDuration
+        // k_eSurvivorsAttribute_ProjectileRadius
+        // k_eSurvivorsAttribute_ProjectileBounces
+        // k_eSurvivorsAttribute_AoEIncrease
+        // k_eSurvivorsAttribute_KnockbackDistance
+        // k_eSurvivorsAttribute_FreezeDuration
+        // k_eSurvivorsAttribute_VulnerabilityDuration
+        // k_eSurvivorsAttribute_VulnerabilityDamagePercent
+        // k_eSurvivorsAttribute_VulnerabilityStunOnHitDuration
+        // k_eSurvivorsAttribute_ModifierDamagePerTick
+        // k_eSurvivorsAttribute_ProjectileSpeed
+        // k_eSurvivorsAttribute_ProjectileAttackInterval
+        // k_eSurvivorsAttribute_Width
+        // k_eSurvivorsAttribute_Length
+        // k_eSurvivorsAttribute_Radius
+        // k_eSurvivorsAttribute_InitialTickDelay
+        // k_eSurvivorsAttribute_DamageTicks
+        // k_eSurvivorsAttribute_TimeBetweenTicks
+        // k_eSurvivorsAttribute_LifeTime
+        // k_eSurvivorsAttribute_ArmingTime
+        // k_eSurvivorsAttribute_TriggerTime
         public static class CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant {
         }
         // Parent: None
@@ -45498,6 +45532,10 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MPropertyDescription
+        // MVDataUniqueMonotonicInt
+        // MPropertyAttributeEditor
+        // MGetKV3ClassDefaults
         // `S
         public static class SettingsSectionIndex_t {
             public const nint m_Value = 0x0; // int32
@@ -45584,6 +45622,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // Y
         // k_eSurvivorsShape_Circle
         // k_eSurvivorsShape_Rectangle
         // ENEMY_MOVEMENT_BEHAVIOR_INVALID
@@ -45746,7 +45785,7 @@ namespace Source2Dumper.Schemas {
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
         // MGetKV3ClassDefaults
-        // generic
+        // `S
         public static class SettingsSubSectionIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -45764,7 +45803,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MPropertyDescription
         public static class CDOTAOverworldTarotCard {
             public const nint m_unID = 0x0; // OverworldTarotCardID_t
             public const nint m_sName = 0x8; // CUtlString
@@ -46262,9 +46300,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // Q
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CMatch3OpponentActionDefinition {
             public const nint m_unOpponentActionID = 0x38; // Match3OpponentActionID_t
@@ -46286,29 +46322,20 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // k_eGoodkind
-        // k_eMossgrave
-        // k_eQuibbins
-        // k_eQuibbinsDrunk
-        // k_eKerrick
-        // k_eNoAuthor
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // minimap_rune_haste
+        // minimap_rune_invis
+        // minimap_rune_bounty
+        // minimap_rune_water
+        // minimap_rune_shield
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // minimap_rune_dd
-        // minimap_rune_illusion
-        // minimap_rune_regen
-        // minimap_rune_arcane
-        // minimap_rune_xp
-        // minimap_rune_unknown
-        // minimap_creepcamp
-        // minimap_creepcamp_mid
-        // minimap_creepcamp_big
-        // minimap_creepcamp_ancient
         public static class CDOTAMotionComicImageFrame {
             public const nint m_Image = 0x10; // CPanoramaImageName
         }
@@ -46562,6 +46589,10 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MPropertyDescription
+        // MVDataUniqueMonotonicInt
+        // MPropertyAttributeEditor
+        // MGetKV3ClassDefaults
         // `S
         public static class NewSettingsID_t {
             public const nint m_Value = 0x0; // uint32
@@ -46685,6 +46716,18 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // .
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // n
+        // MGetKV3ClassDefaults
         public static class SurvivorsPhysicsBodyID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46743,6 +46786,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // ;.JSE;.WSF;.WSH;.MSC
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CSurvivorsPowerUpDefinition_EchoStrike {
@@ -46972,7 +47016,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_vecStages = 0x10; // CUtlVector<CDOTASlarkJailbreakStageDefinition>
         }
         // Parent: None
-        // Field count: 55
+        // Field count: 56
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -47010,34 +47054,36 @@ namespace Source2Dumper.Schemas {
             public const nint m_unPathUnlockerTokenID = 0xF0; // OverworldTokenID_t
             public const nint m_unFortuneCountForPermanentReward = 0xF4; // int32
             public const nint m_unTimesFortuneCanBeSeenBeforeRepeats = 0xF8; // int32
-            public const nint m_nMaxTokenCap = 0xFC; // int32
-            public const nint m_vecEventActionTriggers = 0x100; // CUtlVector<CDOTAEventActionTrigger>
-            public const nint m_vecEventActionGrantAndClaimPairTriggers = 0x118; // CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
-            public const nint m_vecPathColorRules = 0x130; // CUtlVector<CDOTAOverworldPathColorRule>
-            public const nint m_strNarrationVisualNovel = 0x148; // CUtlString
-            public const nint m_mapNarrationDialogues = 0x150; // CUtlOrderedMap<CUtlString,CUtlString>
-            public const nint m_Theme = 0x348; // CDOTAOverworldTheme
-            public const nint m_vecTokenTypes = 0x380; // CUtlVector<CDOTAOverworldToken*>
-            public const nint m_vecTarotCards = 0x3B0; // CUtlVector<CDOTAOverworldTarotCard*>
-            public const nint m_vecFortuneTellerRewards = 0x3C8; // CUtlVector<CDOTAOverworldFortuneTellerReward*>
-            public const nint m_vecFortuneForcedReveals = 0x3E0; // CUtlVector<CDOTAOverworldFortuneForcedReveal*>
-            public const nint m_vecFortuneTellerFixedReward = 0x3F8; // CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
-            public const nint m_vecFortuneTellerStoryNodes = 0x410; // CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
-            public const nint m_vecHeroRewards = 0x450; // CUtlVector<CDOTAOverworldHeroReward*>
-            public const nint m_vecNodes = 0x468; // CUtlVector<CDOTAOverworldNode*>
-            public const nint m_vecPaths = 0x480; // CUtlVector<CDOTAOverworldPath*>
-            public const nint m_vecRooms = 0x498; // CUtlVector<CDOTAOverworldRoom*>
-            public const nint m_vecEncounters = 0x4B0; // CUtlVector<CDOTAOverworldEncounter*>
-            public const nint m_vecHeroes = 0x4C8; // CUtlVector<CDOTAOverworldHero*>
-            public const nint m_vecCharacters = 0x4E0; // CUtlVector<CDOTAOverworldCharacter*>
-            public const nint m_vecClickables = 0x4F8; // CUtlVector<CDOTAOverworldClickable*>
-            public const nint m_vecRoomGroups = 0x5D8; // CUtlVector<CDOTAOverworldRoomGroup*>
+            public const nint m_vecFortuneWeightForUnseenAmount = 0x100; // CUtlVector<int32>
+            public const nint m_nMaxTokenCap = 0x118; // int32
+            public const nint m_vecEventActionTriggers = 0x120; // CUtlVector<CDOTAEventActionTrigger>
+            public const nint m_vecEventActionGrantAndClaimPairTriggers = 0x138; // CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
+            public const nint m_vecPathColorRules = 0x150; // CUtlVector<CDOTAOverworldPathColorRule>
+            public const nint m_strNarrationVisualNovel = 0x168; // CUtlString
+            public const nint m_mapNarrationDialogues = 0x170; // CUtlOrderedMap<CUtlString,CUtlString>
+            public const nint m_Theme = 0x368; // CDOTAOverworldTheme
+            public const nint m_vecTokenTypes = 0x3A0; // CUtlVector<CDOTAOverworldToken*>
+            public const nint m_vecTarotCards = 0x3D0; // CUtlVector<CDOTAOverworldTarotCard*>
+            public const nint m_vecFortuneTellerRewards = 0x3E8; // CUtlVector<CDOTAOverworldFortuneTellerReward*>
+            public const nint m_vecFortuneForcedReveals = 0x400; // CUtlVector<CDOTAOverworldFortuneForcedReveal*>
+            public const nint m_vecFortuneTellerFixedReward = 0x418; // CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
+            public const nint m_vecFortuneTellerStoryNodes = 0x430; // CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
+            public const nint m_vecHeroRewards = 0x470; // CUtlVector<CDOTAOverworldHeroReward*>
+            public const nint m_vecNodes = 0x488; // CUtlVector<CDOTAOverworldNode*>
+            public const nint m_vecPaths = 0x4A0; // CUtlVector<CDOTAOverworldPath*>
+            public const nint m_vecRooms = 0x4B8; // CUtlVector<CDOTAOverworldRoom*>
+            public const nint m_vecEncounters = 0x4D0; // CUtlVector<CDOTAOverworldEncounter*>
+            public const nint m_vecHeroes = 0x4E8; // CUtlVector<CDOTAOverworldHero*>
+            public const nint m_vecCharacters = 0x500; // CUtlVector<CDOTAOverworldCharacter*>
+            public const nint m_vecClickables = 0x518; // CUtlVector<CDOTAOverworldClickable*>
+            public const nint m_vecRoomGroups = 0x5F8; // CUtlVector<CDOTAOverworldRoomGroup*>
         }
         // Parent: None
         // Field count: 6
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // `S
         public static class SNewSettingsDefinition {
             public const nint nID = 0x0; // NewSettingsID_t
             public const nint m_sTitle = 0x10; // CUtlString
@@ -47483,7 +47529,7 @@ namespace Source2Dumper.Schemas {
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
         // MGetKV3ClassDefaults
-        // generic
+        // `S
         public static class SettingsSearchDataIndex_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -47604,6 +47650,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyDescription
         public static class CDOTAFightingGameCancelOptionDefinition {
             public const nint m_eCancelInput = 0x0; // EFightingGameButtonBit
             public const nint m_eCancelInput2 = 0x4; // EFightingGameButtonBit
@@ -47770,13 +47817,14 @@ namespace Source2Dumper.Schemas {
             public const nint m_vOrigin = 0x28; // VectorWS
         }
         // Parent: None
-        // Field count: 2
+        // Field count: 3
         //
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CandyShopRewardOption_t {
             public const nint m_unRewardOptionID = 0x0; // CandyShopRewardOptionID_t
             public const nint m_sRewardClass = 0x8; // CUtlString
+            public const nint m_bDisplayIfAlreadyOwned = 0x10; // bool
         }
         // Parent: None
         // Field count: 2
@@ -47927,8 +47975,6 @@ namespace Source2Dumper.Schemas {
         // n
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
         public static class CClientAlphaProperty {
             public const nint m_nDistFadeStart = 0x10; // uint16
             public const nint m_nDistFadeEnd = 0x12; // uint16
@@ -47956,19 +48002,29 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // minimap_rune_haste
-        // minimap_rune_invis
-        // minimap_rune_bounty
-        // minimap_rune_water
-        // minimap_rune_shield
+        // k_eGoodkind
+        // k_eMossgrave
+        // k_eQuibbins
+        // k_eQuibbinsDrunk
+        // k_eKerrick
+        // k_eNoAuthor
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
         // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // minimap_rune_dd
+        // minimap_rune_illusion
+        // minimap_rune_regen
+        // minimap_rune_arcane
+        // minimap_rune_xp
+        // minimap_rune_unknown
+        // minimap_creepcamp
+        // minimap_creepcamp_mid
+        // minimap_creepcamp_big
+        // minimap_creepcamp_ancient
         // MGetKV3ClassDefaults
         public static class CDOTAMotionComicVideoFrame {
             public const nint m_bLooping = 0x10; // bool
@@ -47980,7 +48036,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCToClientOverwatchCasesAvailable
         public static class CDOTAOverworldHeroReward {
             public const nint m_unHeroID = 0x0; // HeroID_t
             public const nint m_vecTokenNames = 0x48; // CUtlVector<CUtlString>
@@ -48017,7 +48072,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // ;.JSE;.WSF;.WSH;.MSC
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CSurvivorsPowerUpDefinition_AreaAttack_Line {
@@ -48179,6 +48234,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // CInlineJob_CMsgGCNotificationsUpdate
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CMatch3AbilityDefinition {
@@ -48515,6 +48572,18 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // .
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // n
+        // MGetKV3ClassDefaults
         public static class SurvivorsUnitID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -48531,7 +48600,6 @@ namespace Source2Dumper.Schemas {
         // PLAYER_FACING
         // INVALID_ORIGIN
         // RANDOM_ENEMY_ORIGIN
-        // n
         // RARITY_INVALID
         // RARITY_COUNT
         // INVALID_SPAWN_BEHAVIOR
@@ -48903,7 +48971,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // ;.JSE;.WSF;.WSH;.MSC
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CSurvivorsPowerUpDefinition_AreaAttack_Circle {

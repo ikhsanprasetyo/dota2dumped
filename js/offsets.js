@@ -1,28 +1,26 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 02:37:50.074304300 +07:00
+// 2026-07-08 15:27:57.237814500 +07:00
 
 export const Offsets = {
     client_dll: {
-        dwEntityList: 0x6456CE0,
-        dwGameEntitySystem: 0x6456CE0,
+        dwEntityList: 0x6459060,
+        dwGameEntitySystem: 0x6459060,
         dwGameEntitySystem_highestEntityIndex: 0x2090,
-        dwGlobalVars: 0x59BCF60,
-        dwLocalPlayerPawn: 0x59C5F08,
-        dwPrediction: 0x59C5E30,
-        dwViewMatrix: 0x60EA4F0,
-        dwViewRender: 0x60E9BB8,
+        dwGlobalVars: 0x59BEF60,
+        dwViewMatrix: 0x60EC800,
+        dwViewRender: 0x60EBEC8,
     },
     engine2_dll: {
         dwBuildNumber: 0x60C694,
-        dwNetworkGameClient: 0x90A520,
+        dwNetworkGameClient: 0x90A540,
         dwNetworkGameClient_clientTickCount: 0x378,
         dwNetworkGameClient_deltaTick: 0x24C,
         dwNetworkGameClient_localPlayer: 0xF8,
         dwNetworkGameClient_maxClients: 0x240,
         dwNetworkGameClient_serverTickCount: 0x24C,
         dwNetworkGameClient_signOnState: 0x230,
-        dwWindowHeight: 0x90E8E4,
-        dwWindowWidth: 0x90E8E0,
+        dwWindowHeight: 0x90E90C,
+        dwWindowWidth: 0x90E908,
     },
     inputsystem_dll: {
         dwInputSystem: 0x45BA0,

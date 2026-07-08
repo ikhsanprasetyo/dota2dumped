@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-06-30 02:37:50.074304300 +07:00
+// 2026-07-08 15:27:57.237814500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -1620,7 +1620,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -2953,6 +2952,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             pub const CNmParameterizedBlendNode__CDefinition = struct {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
@@ -3004,6 +3004,7 @@ pub const source2_dumper = struct {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
+            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -3011,6 +3012,7 @@ pub const source2_dumper = struct {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
+            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3482,6 +3484,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             // MGetKV3ClassDefaults
             pub const CNmBoneMaskBlendNode__CDefinition = struct {
                 pub const m_nSourceMaskNodeIdx: usize = 0x10; // int16
@@ -3575,7 +3578,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 7
+            // js\;C:\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4214,6 +4217,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5377,6 +5381,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             pub const CNmVelocityBlendNode__CDefinition = struct {
             };
             // Parent: None
@@ -5478,7 +5483,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 7
+            // js\;C:\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
             pub const CParticleVecInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5561,6 +5566,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             // MGetKV3ClassDefaults
             pub const CNmBoneMaskSelectorNode__CDefinition = struct {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
@@ -5707,6 +5713,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @!
             // MPropertyFriendlyName
             pub const CNmEvent = struct {
                 pub const m_flStartTime: usize = 0x8; // NmPercent_t
@@ -5908,7 +5915,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6017,7 +6023,7 @@ pub const source2_dumper = struct {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // a
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -6934,6 +6940,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // @_
+            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7362,7 +7370,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // o
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -7462,6 +7470,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @_
+            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7782,10 +7792,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // @!
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @_
+            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8054,6 +8067,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             pub const CQuaternionAnimParameter = struct {
                 pub const m_defaultValue: usize = 0x80; // Quaternion
                 pub const m_bInterpolate: usize = 0x90; // bool
@@ -8540,6 +8554,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @_
+            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8579,7 +8595,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // o
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8938,7 +8954,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // o
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9322,6 +9338,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             pub const CNmFixedWeightBoneMaskNode__CDefinition = struct {
                 pub const m_flBoneWeight: usize = 0x10; // float32
             };
@@ -9372,7 +9389,7 @@ pub const source2_dumper = struct {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // a
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -9598,6 +9615,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             pub const CNmBlend2DNode__CDefinition = struct {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9651,7 +9669,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10211,6 +10228,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             pub const CNmBodyGroupNode__CDefinition = struct {
                 pub const m_nEnabledNodeIdx: usize = 0x18; // int16
                 pub const m_event: usize = 0x20; // CNmBodyGroupEvent
@@ -10257,7 +10275,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10327,7 +10344,7 @@ pub const source2_dumper = struct {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // a
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -10526,6 +10543,7 @@ pub const source2_dumper = struct {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
+            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -10533,6 +10551,7 @@ pub const source2_dumper = struct {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
+            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11183,7 +11202,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11719,7 +11737,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // o
             pub const CParticleFloatInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -12114,6 +12132,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
             pub const CNmBoneMaskNode__CDefinition = struct {
                 pub const m_boneMaskID: usize = 0x10; // CGlobalSymbol
             };
@@ -12656,6 +12675,7 @@ pub const source2_dumper = struct {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
+            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -12663,6 +12683,7 @@ pub const source2_dumper = struct {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
+            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12995,7 +13016,6 @@ pub const source2_dumper = struct {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
-            // PM_HOME=C:\Users\ByteseekerPC\AppData\Local\pnpm
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY
