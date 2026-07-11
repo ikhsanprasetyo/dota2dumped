@@ -4,16 +4,16 @@
     "AnimationSystem_001": 8592944
   },
   "client.dll": {
-    "ClientToolsInfo_001": 94124368,
-    "DOTA_CLIENT_GCCLIENT": 103347872,
-    "GameClientExports001": 94107256,
-    "LegacyGameUI001": 94559024,
-    "PanoramaUIClient001": 94733696,
-    "PlayButtonService001": 94608480,
-    "Source2Client002": 101591776,
-    "Source2ClientConfig001": 101231488,
-    "Source2ClientPrediction001": 94142000,
-    "Source2ClientUI001": 91952576
+    "ClientToolsInfo_001": 94316880,
+    "DOTA_CLIENT_GCCLIENT": 103546976,
+    "GameClientExports001": 94299768,
+    "LegacyGameUI001": 94751584,
+    "PanoramaUIClient001": 94931392,
+    "PlayButtonService001": 94806696,
+    "Source2Client002": 101790816,
+    "Source2ClientConfig001": 101430464,
+    "Source2ClientPrediction001": 94334512,
+    "Source2ClientUI001": 92145088
   },
   "engine2.dll": {
     "BenchmarkService001": 6366416,
@@ -128,14 +128,14 @@
     "SchemaSystem_001": 480816
   },
   "server.dll": {
-    "EntitySubclassUtilsV001": 74709504,
-    "NavGameTest001": 77474640,
-    "ServerToolsInfo_001": 76857256,
-    "Source2GameClients001": 76833120,
-    "Source2GameDirector001": 84033200,
-    "Source2GameEntities001": 76855120,
-    "Source2Server001": 76854688,
-    "Source2ServerConfig001": 83158168
+    "EntitySubclassUtilsV001": 74713600,
+    "NavGameTest001": 77478480,
+    "ServerToolsInfo_001": 76861080,
+    "Source2GameClients001": 76836944,
+    "Source2GameDirector001": 84037024,
+    "Source2GameEntities001": 76858944,
+    "Source2Server001": 76858512,
+    "Source2ServerConfig001": 83162024
   },
   "soundsystem.dll": {
     "SoundBugBugService001_Client": 5583440,

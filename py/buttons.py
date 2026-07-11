@@ -1,19 +1,19 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-07-08 15:27:57.237814500 +07:00
+# 2026-07-11 10:36:12.030283600 +07:00
 
 class Buttons:
     # Module: client.dll
-    attack = 0x59C4140
-    attack2 = 0x59C41D0
-    back = 0x59C4410
-    duck = 0x59C46E0
-    forward = 0x59C4380
-    jump = 0x59C4650
-    left = 0x59C44A0
-    query = 0x61278D0
-    reload = 0x59C40B0
-    right = 0x59C4530
-    sprint = 0x59C4020
-    turnleft = 0x59C4260
-    turnright = 0x59C42F0
-    use = 0x59C45C0
+    attack = 0x59F3140
+    attack2 = 0x59F31D0
+    back = 0x59F3410
+    duck = 0x59F36E0
+    forward = 0x59F3380
+    jump = 0x59F3650
+    left = 0x59F34A0
+    query = 0x6158240
+    reload = 0x59F30B0
+    right = 0x59F3530
+    sprint = 0x59F3020
+    turnleft = 0x59F3260
+    turnright = 0x59F32F0
+    use = 0x59F35C0

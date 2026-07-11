@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-08 15:27:57.237814500 +07:00
+// 2026-07-11 10:36:12.030283600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -16784,6 +16784,257 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ACT_IDLE
+            // ACT_TRANSITION
+            // ACT_COVER
+            // ACT_COVER_MED
+            // ACT_COVER_LOW
+            // ACT_WALK
+            // ACT_WALK_AIM
+            // ACT_WALK_CROUCH
+            // ACT_WALK_CROUCH_AIM
+            // ACT_RUN
+            // ACT_RUN_AIM
+            // ACT_RUN_CROUCH
+            // ACT_RUN_CROUCH_AIM
+            // ACT_RUN_PROTECTED
+            // ACT_SCRIPT_CUSTOM_MOVE
+            // ACT_RANGE_ATTACK1
+            // ACT_RANGE_ATTACK2
+            // ACT_RANGE_ATTACK1_LOW
+            // ACT_RANGE_ATTACK2_LOW
+            // ACT_DIESIMPLE
+            // ACT_DIEBACKWARD
+            // ACT_DIEFORWARD
+            // ACT_DIEVIOLENT
+            // ACT_DIERAGDOLL
+            // ACT_FLY
+            // ACT_HOVER
+            // ACT_GLIDE
+            // ACT_SWIM
+            // ACT_JUMP
+            // ACT_HOP
+            // ACT_LEAP
+            // ACT_LAND
+            // ACT_CLIMB_UP
+            // ACT_CLIMB_DOWN
+            // ACT_CLIMB_DISMOUNT
+            // ACT_SHIPLADDER_UP
+            // ACT_SHIPLADDER_DOWN
+            // ACT_STRAFE_LEFT
+            // ACT_STRAFE_RIGHT
+            // ACT_ROLL_LEFT
+            // ACT_ROLL_RIGHT
+            // ACT_TURN_LEFT
+            // ACT_TURN_RIGHT
+            // ACT_CROUCH
+            // ACT_CROUCHIDLE
+            // ACT_STAND
+            // ACT_USE
+            // ACT_ALIEN_BURROW_IDLE
+            // ACT_ALIEN_BURROW_OUT
+            // ACT_SIGNAL1
+            // ACT_SIGNAL2
+            // ACT_SIGNAL3
+            // ACT_SIGNAL_ADVANCE
+            // ACT_SIGNAL_FORWARD
+            // ACT_SIGNAL_GROUP
+            // ACT_SIGNAL_HALT
+            // ACT_SIGNAL_LEFT
+            // ACT_SIGNAL_RIGHT
+            // ACT_SIGNAL_TAKECOVER
+            // ACT_LOOKBACK_RIGHT
+            // ACT_LOOKBACK_LEFT
+            // ACT_COWER
+            // ACT_SMALL_FLINCH
+            // ACT_BIG_FLINCH
+            // ACT_MELEE_ATTACK1
+            // ACT_MELEE_ATTACK2
+            // ACT_RELOAD
+            // ACT_RELOAD_START
+            // ACT_RELOAD_FINISH
+            // ACT_RELOAD_LOW
+            // ACT_ARM
+            // ACT_DISARM
+            // ACT_DROP_WEAPON
+            // ACT_DROP_WEAPON_SHOTGUN
+            // ACT_PICKUP_GROUND
+            // ACT_PICKUP_RACK
+            // ACT_IDLE_ANGRY
+            // ACT_IDLE_RELAXED
+            // ACT_IDLE_STIMULATED
+            // ACT_IDLE_AGITATED
+            // ACT_IDLE_STEALTH
+            // ACT_IDLE_HURT
+            // ACT_WALK_RELAXED
+            // ACT_WALK_STIMULATED
+            // ACT_WALK_AGITATED
+            // ACT_WALK_STEALTH
+            // ACT_RUN_RELAXED
+            // ACT_RUN_STIMULATED
+            // ACT_RUN_AGITATED
+            // ACT_RUN_STEALTH
+            // ACT_IDLE_AIM_RELAXED
+            // ACT_IDLE_AIM_STIMULATED
+            // ACT_IDLE_AIM_AGITATED
+            // ACT_IDLE_AIM_STEALTH
+            // ACT_WALK_AIM_RELAXED
+            // ACT_WALK_AIM_STIMULATED
+            // ACT_WALK_AIM_AGITATED
+            // ACT_WALK_AIM_STEALTH
+            // ACT_RUN_AIM_RELAXED
+            // ACT_RUN_AIM_STIMULATED
+            // ACT_RUN_AIM_AGITATED
+            // ACT_RUN_AIM_STEALTH
+            // ACT_CROUCHIDLE_STIMULATED
+            // ACT_CROUCHIDLE_AIM_STIMULATED
+            // ACT_CROUCHIDLE_AGITATED
+            // ACT_WALK_HURT
+            // ACT_RUN_HURT
+            // ACT_SPECIAL_ATTACK1
+            // ACT_SPECIAL_ATTACK2
+            // ACT_COMBAT_IDLE
+            // ACT_WALK_SCARED
+            // ACT_RUN_SCARED
+            // ACT_VICTORY_DANCE
+            // ACT_DIE_HEADSHOT
+            // ACT_DIE_CHESTSHOT
+            // ACT_DIE_GUTSHOT
+            // ACT_DIE_BACKSHOT
+            // ACT_FLINCH_HEAD
+            // ACT_FLINCH_CHEST
+            // ACT_FLINCH_STOMACH
+            // ACT_FLINCH_LEFTARM
+            // ACT_FLINCH_RIGHTARM
+            // ACT_FLINCH_LEFTLEG
+            // ACT_FLINCH_RIGHTLEG
+            // ACT_FLINCH_PHYSICS
+            // ACT_FLINCH_HEAD_BACK
+            // ACT_FLINCH_CHEST_BACK
+            // ACT_FLINCH_STOMACH_BACK
+            // ACT_FLINCH_CROUCH_FRONT
+            // ACT_FLINCH_CROUCH_BACK
+            // ACT_FLINCH_CROUCH_LEFT
+            // ACT_FLINCH_CROUCH_RIGHT
+            // ACT_IDLE_ON_FIRE
+            // ACT_WALK_ON_FIRE
+            // ACT_RUN_ON_FIRE
+            // ACT_180_LEFT
+            // ACT_180_RIGHT
+            // ACT_90_LEFT
+            // ACT_90_RIGHT
+            // ACT_STEP_LEFT
+            // ACT_STEP_RIGHT
+            // ACT_STEP_BACK
+            // ACT_STEP_FORE
+            // ACT_GESTURE_RANGE_ATTACK1
+            // ACT_GESTURE_RANGE_ATTACK2
+            // ACT_GESTURE_MELEE_ATTACK1
+            // ACT_GESTURE_MELEE_ATTACK2
+            // ACT_GESTURE_RANGE_ATTACK1_LOW
+            // ACT_GESTURE_RANGE_ATTACK2_LOW
+            // ACT_MELEE_ATTACK_SWING_GESTURE
+            // ACT_GESTURE_SMALL_FLINCH
+            // ACT_GESTURE_BIG_FLINCH
+            // ACT_GESTURE_FLINCH_BLAST
+            // ACT_GESTURE_FLINCH_BLAST_SHOTGUN
+            // ACT_GESTURE_FLINCH_BLAST_DAMAGED
+            // ACT_GESTURE_FLINCH_BLAST_DAMAGED_SHOTGUN
+            // ACT_GESTURE_FLINCH_HEAD
+            // ACT_GESTURE_FLINCH_CHEST
+            // ACT_GESTURE_FLINCH_STOMACH
+            // ACT_GESTURE_FLINCH_LEFTARM
+            // ACT_GESTURE_FLINCH_RIGHTARM
+            // ACT_GESTURE_FLINCH_LEFTLEG
+            // ACT_GESTURE_FLINCH_RIGHTLEG
+            // ACT_GESTURE_TURN_LEFT
+            // ACT_GESTURE_TURN_RIGHT
+            // ACT_GESTURE_TURN_LEFT45
+            // ACT_GESTURE_TURN_RIGHT45
+            // ACT_GESTURE_TURN_LEFT90
+            // ACT_GESTURE_TURN_RIGHT90
+            // ACT_GESTURE_TURN_LEFT45_FLAT
+            // ACT_GESTURE_TURN_RIGHT45_FLAT
+            // ACT_GESTURE_TURN_LEFT90_FLAT
+            // ACT_GESTURE_TURN_RIGHT90_FLAT
+            // ACT_BARNACLE_HIT
+            // ACT_BARNACLE_PULL
+            // ACT_BARNACLE_CHOMP
+            // ACT_BARNACLE_CHEW
+            // ACT_DO_NOT_DISTURB
+            // ACT_SPECIFIC_SEQUENCE
+            // ACT_VM_DEPLOY
+            // ACT_VM_RELOAD_EMPTY
+            // ACT_VM_DRAW
+            // ACT_VM_HOLSTER
+            // ACT_VM_IDLE
+            // ACT_VM_FIDGET
+            // ACT_VM_PULLBACK
+            // ACT_VM_PULLBACK_HIGH
+            // ACT_VM_PULLBACK_LOW
+            // ACT_VM_THROW
+            // ACT_VM_DROP
+            // ACT_VM_PULLPIN
+            // ACT_VM_PRIMARYATTACK
+            // ACT_VM_SECONDARYATTACK
+            // ACT_VM_RELOAD
+            // ACT_VM_DRYFIRE
+            // ACT_VM_HITLEFT
+            // ACT_VM_HITLEFT2
+            // ACT_VM_HITRIGHT
+            // ACT_VM_HITRIGHT2
+            // ACT_VM_HITCENTER
+            // ACT_VM_HITCENTER2
+            // ACT_VM_MISSLEFT
+            // ACT_VM_MISSLEFT2
+            // ACT_VM_MISSRIGHT
+            // ACT_VM_MISSRIGHT2
+            // ACT_VM_MISSCENTER
+            // ACT_VM_MISSCENTER2
+            // ACT_VM_HAULBACK
+            // ACT_VM_SWINGHARD
+            // ACT_VM_SWINGMISS
+            // ACT_VM_SWINGHIT
+            // ACT_VM_IDLE_TO_LOWERED
+            // ACT_VM_IDLE_LOWERED
+            // ACT_VM_LOWERED_TO_IDLE
+            // ACT_VM_RECOIL1
+            // ACT_VM_RECOIL2
+            // ACT_VM_RECOIL3
+            // ACT_VM_PICKUP
+            // ACT_VM_RELEASE
+            // ACT_VM_MAUL_LOOP
+            // ACT_VM_ATTACH_SILENCER
+            // ACT_VM_DETACH_SILENCER
+            // ACT_SLAM_STICKWALL_IDLE
+            // ACT_SLAM_STICKWALL_ND_IDLE
+            // ACT_SLAM_STICKWALL_ATTACH
+            // ACT_SLAM_STICKWALL_ATTACH2
+            // ACT_SLAM_STICKWALL_ND_ATTACH
+            // ACT_SLAM_STICKWALL_ND_ATTACH2
+            // ACT_SLAM_STICKWALL_DETONATE
+            // ACT_SLAM_STICKWALL_DETONATOR_HOLSTER
+            // ACT_SLAM_STICKWALL_DRAW
+            // ACT_SLAM_STICKWALL_ND_DRAW
+            // ACT_SLAM_STICKWALL_TO_THROW
+            // ACT_SLAM_STICKWALL_TO_THROW_ND
+            // ACT_SLAM_STICKWALL_TO_TRIPMINE_ND
+            // ACT_SLAM_THROW_IDLE
+            // ACT_SLAM_THROW_ND_IDLE
+            // ACT_SLAM_THROW_THROW
+            // ACT_SLAM_THROW_THROW2
+            // ACT_SLAM_THROW_THROW_ND
+            // ACT_SLAM_THROW_THROW_ND2
+            // ACT_SLAM_THROW_DRAW
+            // ACT_SLAM_THROW_ND_DRAW
+            // ACT_SLAM_THROW_TO_STICKWALL
+            // ACT_SLAM_THROW_TO_STICKWALL_ND
+            // ACT_SLAM_THROW_DETONATE
+            // ACT_SLAM_THROW_DETONATOR_HOLSTER
+            // ACT_SLAM_THROW_TO_TRIPMINE_ND
+            // ACT_SLAM_TRIPMINE_IDLE
+            // ACT_SLAM_TRIPMINE_DRAW
+            // ACT_SLAM_TRIPMINE_ATTACH
             pub mod CBodyComponentBaseAnimating {
                 pub const m_animationController: usize = 0x4E0; // CBaseAnimatingController
             }
@@ -18675,21 +18926,15 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyAttributeEditor
-            // MPropertyDescription
-            // MPropertyStartGroup
-            // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
             // MPropertyStartGroup
             // MPropertyDescription
+            // MPropertyStartGroup
             // MPropertyDescription
+            // MPropertyAttributeEditor
             pub mod CBaseAnimGraphController {
                 pub const m_nAnimationAlgorithm: usize = 0x18; // AnimationAlgorithm_t
                 pub const m_nNextExternalGraphHandle: usize = 0x1C; // ExternalAnimGraphHandle_t
@@ -20243,6 +20488,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            //  
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -20907,12 +21153,13 @@ pub mod source2_dumper {
                 pub const slow_movement_speed: usize = 0x1A5C; // int32
             }
             // Parent: None
-            // Field count: 4
+            // Field count: 5
             pub mod CDOTA_Modifier_Medusa_ManaShield {
                 pub const bonus_mana: usize = 0x1A58; // int32
                 pub const absorption_pct: usize = 0x1A5C; // float32
                 pub const damage_per_mana: usize = 0x1A60; // float32
                 pub const illusion_percentage: usize = 0x1A64; // float32
+                pub const m_flDamageAccumulator: usize = 0x1A68; // float32
             }
             // Parent: None
             // Field count: 0
@@ -21270,7 +21517,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // AppData\Local\pnpm
             pub mod CTimeline {
                 pub const m_flValues: usize = 0x10; // float32[64]
                 pub const m_nValueCounts: usize = 0x110; // int32[64]
@@ -25026,10 +25273,6 @@ pub mod source2_dumper {
             }
             // Parent: CBaseTrigger
             // Field count: 12
-            //
-            // Metadata:
-            // PM_NO_GIBS
-            // MGetKV3ClassDefaults
             pub mod CPostProcessingVolume {
                 pub const m_hPostSettings: usize = 0x900; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
                 pub const m_flFadeDuration: usize = 0x908; // float32
@@ -35417,7 +35660,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CDestructiblePartsComponent {
                 pub const __m_pChainEntity: usize = 0x0; // CNetworkVarChainer
                 pub const m_vecDamageTakenByHitGroup: usize = 0x48; // CUtlVector<uint16>
@@ -35945,7 +36187,6 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -39921,6 +40162,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 70\fozpipelinesv6\steamapprun_pipeline_cache
             pub mod CScriptComponent {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             }
@@ -55311,7 +55553,7 @@ pub mod source2_dumper {
             // Field count: 10
             //
             // Metadata:
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             // n
             // n
             // MVDataUniqueMonotonicInt
@@ -55346,8 +55588,6 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
-            // D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
             // ROTATOR_TARGET_LOCALSPACE
             // eRotateBegin
             // eEventsDispatched
@@ -55365,7 +55605,6 @@ pub mod source2_dumper {
             // ROTATION_AXIS_YAW
             // ROTATION_AXIS_PITCH
             // ROTATION_AXIS_ROLL
-            // MGetKV3ClassDefaults
             pub mod CDynamicProp {
                 pub const m_bRandomAnimator: usize = 0x930; // bool
                 pub const m_flNextRandAnim: usize = 0x934; // GameTime_t
@@ -56631,6 +56870,9 @@ pub mod source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 0
+            //
+            // Metadata:
+            // l
             pub mod CInfoParticleTarget {
             }
             // Parent: CBaseEntity
@@ -57483,6 +57725,7 @@ pub mod source2_dumper {
             // WsDirection
             // MsDirection
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
             pub mod AI_GroundRootMotionMotor_DebugSnapshotData_t {
                 pub const desired_movement_gait_set: usize = 0x8; // CGlobalSymbol
                 pub const desired_movement_gait: usize = 0x10; // CGlobalSymbol
@@ -57562,6 +57805,8 @@ pub mod source2_dumper {
             // TRS_NONE
             // MPropertyFriendlyName
             // MAlternateSemanticName
+            // MPropertyFriendlyName
+            // MAlternateSemanticName
             // eInvalid
             // eHead
             // eEyesOnly
@@ -57574,11 +57819,6 @@ pub mod source2_dumper {
             // eFast
             // MPropertyFriendlyName
             // MAlternateSemanticName
-            // MPropertyFriendlyName
-            // MAlternateSemanticName
-            // MPropertyFriendlyName
-            // MAlternateSemanticName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // MPropertyFriendlyName
@@ -57911,6 +58151,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
+            // D
             pub mod AI_BaseNPC_DebugSnapshotData_t {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -58544,7 +58785,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // AppData\Local\pnpm
             pub mod CSkeletonAnimationController {
                 pub const m_pSkeletonInstance: usize = 0x8; // CSkeletonInstance*
             }
@@ -58807,6 +59048,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y
+            // MGetKV3ClassDefaults
             pub mod DebugDrawBoneTransforms_t {
                 pub const vecBones: usize = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
             }
@@ -58868,7 +59110,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // BS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // C\AppData\Local\pnpm
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59144,6 +59386,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod RotatorQueueEntry_t {
                 pub const qTarget: usize = 0x0; // Quaternion
                 pub const eSpace: usize = 0x10; // RotatorTargetSpace_t
@@ -59156,28 +59399,29 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyStartGroup
             // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertySuppressExpr
+            // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MFgdHelper
+            // MGetKV3ClassDefaults
             pub mod CBaseAnimGraphDestructibleParts_GraphController {
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
+            // e
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59299,16 +59543,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // SOUNDCTRL_CHANGE_PITCH
-            // SOUNDCTRL_STOP
-            // SOUNDCTRL_DESTROY
-            // SOUNDCTRL_FADEOUT
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // Y
             pub mod SceneEventId_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -59359,9 +59594,6 @@ pub mod source2_dumper {
             // k_ePlayerTrackedStatImpl_CombatQuery
             // k_ePlayerTrackedStatImpl_Expression
             // k_ePlayerTrackedStatImpl_HeroAdjective
-            // k_eTeamTrackedStatImpl_Direct
-            // k_eTeamTrackedStatImpl_Expression
-            // k_eTeamTrackedStatImpl_PlayerAggregate
             pub mod TrackedStatValue_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -59757,9 +59989,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // pipeline_cache
             pub mod AbilityContributionType_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -61024,9 +61253,6 @@ pub mod source2_dumper {
             // k_ePlayerTrackedStatImpl_CombatQuery
             // k_ePlayerTrackedStatImpl_Expression
             // k_ePlayerTrackedStatImpl_HeroAdjective
-            // k_eTeamTrackedStatImpl_Direct
-            // k_eTeamTrackedStatImpl_Expression
-            // k_eTeamTrackedStatImpl_PlayerAggregate
             pub mod TrackedStatID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -61681,6 +61907,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
+            // D
             pub mod AI_DefaultNPC_DebugSnapshotData_t {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -61842,7 +62069,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // pData\Local\pnpm
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -61855,7 +62082,6 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
@@ -61929,7 +62155,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MFgdHelper
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -62039,7 +62264,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // pData\Local\pnpm
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior

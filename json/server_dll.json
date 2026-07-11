@@ -60,6 +60,10 @@
           {
             "name": "n",
             "type": "Unknown"
+          },
+          {
+            "name": "D",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -84,6 +88,10 @@
           },
           {
             "name": "n",
+            "type": "Unknown"
+          },
+          {
+            "name": "D",
             "type": "Unknown"
           }
         ],
@@ -200,6 +208,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -299,12 +311,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "pipeline_cache",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "AbilityID_t": {
@@ -453,7 +460,7 @@
             "type": "Unknown"
           },
           {
-            "name": "BS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "name": "C\\AppData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -577,7 +584,7 @@
             "type": "Unknown"
           },
           {
-            "name": "VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "name": "pData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -794,47 +801,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -842,6 +809,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -850,7 +825,15 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           }
         ],
@@ -876,7 +859,23 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyAttributeEditor",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
           {
@@ -892,31 +891,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
+            "name": "MPropertyAttributeEditor",
             "type": "Unknown"
           },
           {
@@ -932,7 +907,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MFgdHelper",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -1535,10 +1522,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "AMMO_FORCE_DROP_IF_CARRIED",
             "type": "Unknown"
           },
@@ -1700,6 +1683,1010 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_TRANSITION",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_COVER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_COVER_MED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_COVER_LOW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_AIM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_CROUCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_CROUCH_AIM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_AIM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_CROUCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_CROUCH_AIM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_PROTECTED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SCRIPT_CUSTOM_MOVE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RANGE_ATTACK1",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RANGE_ATTACK2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RANGE_ATTACK1_LOW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RANGE_ATTACK2_LOW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIESIMPLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIEBACKWARD",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIEFORWARD",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIEVIOLENT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIERAGDOLL",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLY",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_HOVER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GLIDE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SWIM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_JUMP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_HOP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_LEAP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_LAND",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_CLIMB_UP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_CLIMB_DOWN",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_CLIMB_DISMOUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SHIPLADDER_UP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SHIPLADDER_DOWN",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_STRAFE_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_STRAFE_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_ROLL_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_ROLL_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_TURN_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_TURN_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_CROUCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_CROUCHIDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_STAND",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_USE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_ALIEN_BURROW_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_ALIEN_BURROW_OUT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL1",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL3",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL_ADVANCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL_FORWARD",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL_GROUP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL_HALT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SIGNAL_TAKECOVER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_LOOKBACK_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_LOOKBACK_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_COWER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SMALL_FLINCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_BIG_FLINCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_MELEE_ATTACK1",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_MELEE_ATTACK2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RELOAD",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RELOAD_START",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RELOAD_FINISH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RELOAD_LOW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_ARM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DISARM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DROP_WEAPON",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DROP_WEAPON_SHOTGUN",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_PICKUP_GROUND",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_PICKUP_RACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_ANGRY",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_RELAXED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_STIMULATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_AGITATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_STEALTH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_HURT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_RELAXED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_STIMULATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_AGITATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_STEALTH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_RELAXED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_STIMULATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_AGITATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_STEALTH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_AIM_RELAXED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_AIM_STIMULATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_AIM_AGITATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_AIM_STEALTH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_AIM_RELAXED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_AIM_STIMULATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_AIM_AGITATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_AIM_STEALTH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_AIM_RELAXED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_AIM_STIMULATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_AIM_AGITATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_AIM_STEALTH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_CROUCHIDLE_STIMULATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_CROUCHIDLE_AIM_STIMULATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_CROUCHIDLE_AGITATED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_HURT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_HURT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SPECIAL_ATTACK1",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SPECIAL_ATTACK2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_COMBAT_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_SCARED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_SCARED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VICTORY_DANCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIE_HEADSHOT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIE_CHESTSHOT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIE_GUTSHOT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DIE_BACKSHOT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_HEAD",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_CHEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_STOMACH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_LEFTARM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_RIGHTARM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_LEFTLEG",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_RIGHTLEG",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_PHYSICS",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_HEAD_BACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_CHEST_BACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_STOMACH_BACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_CROUCH_FRONT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_CROUCH_BACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_CROUCH_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_FLINCH_CROUCH_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_IDLE_ON_FIRE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_WALK_ON_FIRE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_RUN_ON_FIRE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_180_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_180_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_90_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_90_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_STEP_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_STEP_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_STEP_BACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_STEP_FORE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_RANGE_ATTACK1",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_RANGE_ATTACK2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_MELEE_ATTACK1",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_MELEE_ATTACK2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_RANGE_ATTACK1_LOW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_RANGE_ATTACK2_LOW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_MELEE_ATTACK_SWING_GESTURE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_SMALL_FLINCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_BIG_FLINCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_BLAST",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_BLAST_SHOTGUN",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_BLAST_DAMAGED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_BLAST_DAMAGED_SHOTGUN",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_HEAD",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_CHEST",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_STOMACH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_LEFTARM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_RIGHTARM",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_LEFTLEG",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_FLINCH_RIGHTLEG",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_LEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_RIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_LEFT45",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_RIGHT45",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_LEFT90",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_RIGHT90",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_LEFT45_FLAT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_RIGHT45_FLAT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_LEFT90_FLAT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_GESTURE_TURN_RIGHT90_FLAT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_BARNACLE_HIT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_BARNACLE_PULL",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_BARNACLE_CHOMP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_BARNACLE_CHEW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_DO_NOT_DISTURB",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SPECIFIC_SEQUENCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_DEPLOY",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_RELOAD_EMPTY",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_DRAW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_HOLSTER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_FIDGET",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_PULLBACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_PULLBACK_HIGH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_PULLBACK_LOW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_THROW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_DROP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_PULLPIN",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_PRIMARYATTACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_SECONDARYATTACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_RELOAD",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_DRYFIRE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_HITLEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_HITLEFT2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_HITRIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_HITRIGHT2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_HITCENTER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_HITCENTER2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_MISSLEFT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_MISSLEFT2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_MISSRIGHT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_MISSRIGHT2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_MISSCENTER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_MISSCENTER2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_HAULBACK",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_SWINGHARD",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_SWINGMISS",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_SWINGHIT",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_IDLE_TO_LOWERED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_IDLE_LOWERED",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_LOWERED_TO_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_RECOIL1",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_RECOIL2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_RECOIL3",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_PICKUP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_RELEASE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_MAUL_LOOP",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_ATTACH_SILENCER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_VM_DETACH_SILENCER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_ND_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_ATTACH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_ATTACH2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_ND_ATTACH",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_ND_ATTACH2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_DETONATE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_DETONATOR_HOLSTER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_DRAW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_ND_DRAW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_TO_THROW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_TO_THROW_ND",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_STICKWALL_TO_TRIPMINE_ND",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_ND_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_THROW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_THROW2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_THROW_ND",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_THROW_ND2",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_DRAW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_ND_DRAW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_TO_STICKWALL",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_TO_STICKWALL_ND",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_DETONATE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_DETONATOR_HOLSTER",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_THROW_TO_TRIPMINE_ND",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_TRIPMINE_IDLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_TRIPMINE_DRAW",
+            "type": "Unknown"
+          },
+          {
+            "name": "ACT_SLAM_TRIPMINE_ATTACH",
             "type": "Unknown"
           }
         ],
@@ -18010,7 +18997,7 @@
         },
         "metadata": [
           {
-            "name": "T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "name": "teseekerPC\\AppData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -38601,7 +39588,8 @@
           "absorption_pct": 6748,
           "bonus_mana": 6744,
           "damage_per_mana": 6752,
-          "illusion_percentage": 6756
+          "illusion_percentage": 6756,
+          "m_flDamageAccumulator": 6760
         },
         "metadata": [],
         "parent": null
@@ -53051,10 +54039,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -53334,14 +54318,6 @@
             "type": "Unknown"
           },
           {
-            "name": "D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache",
-            "type": "Unknown"
-          },
-          {
-            "name": "D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "ROTATOR_TARGET_LOCALSPACE",
             "type": "Unknown"
           },
@@ -53407,10 +54383,6 @@
           },
           {
             "name": "ROTATION_AXIS_ROLL",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -53563,7 +54535,7 @@
             "type": "Unknown"
           },
           {
-            "name": "VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "name": "pData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -54716,6 +55688,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MAlternateSemanticName",
+            "type": "Unknown"
+          },
+          {
             "name": "eInvalid",
             "type": "Unknown"
           },
@@ -54761,26 +55741,6 @@
           },
           {
             "name": "MAlternateSemanticName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MAlternateSemanticName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MAlternateSemanticName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -55698,7 +56658,12 @@
       },
       "CInfoParticleTarget": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "l",
+            "type": "Unknown"
+          }
+        ],
         "parent": "CPointEntity"
       },
       "CInfoPlayerStart": {
@@ -58856,16 +59821,7 @@
           "m_flTonemapEVSmoothingRange": 2344,
           "m_hPostSettings": 2304
         },
-        "metadata": [
-          {
-            "name": "PM_NO_GIBS",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "CBaseTrigger"
       },
       "CPrecipitationVData": {
@@ -59225,6 +60181,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -62548,6 +63508,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "70\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -62806,7 +63770,7 @@
             "type": "Unknown"
           },
           {
-            "name": ";.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "name": "AppData\\Local\\pnpm",
             "type": "Unknown"
           }
         ],
@@ -63588,7 +64552,7 @@
             "type": "Unknown"
           },
           {
-            "name": ";.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+            "name": "AppData\\Local\\pnpm",
             "type": "Unknown"
           }
         ],
@@ -64722,6 +65686,10 @@
           {
             "name": "Y",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -64857,7 +65825,7 @@
         },
         "metadata": [
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -65880,10 +66848,6 @@
           "m_Value": 0
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -69126,6 +70090,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -69212,43 +70180,7 @@
             "type": "Unknown"
           },
           {
-            "name": "SOUNDCTRL_CHANGE_PITCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_STOP",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_DESTROY",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_FADEOUT",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "Y",
             "type": "Unknown"
           }
         ],
@@ -69490,18 +70422,6 @@
           {
             "name": "k_ePlayerTrackedStatImpl_HeroAdjective",
             "type": "Unknown"
-          },
-          {
-            "name": "k_eTeamTrackedStatImpl_Direct",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eTeamTrackedStatImpl_Expression",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eTeamTrackedStatImpl_PlayerAggregate",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -69549,18 +70469,6 @@
           },
           {
             "name": "k_ePlayerTrackedStatImpl_HeroAdjective",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eTeamTrackedStatImpl_Direct",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eTeamTrackedStatImpl_Expression",
-            "type": "Unknown"
-          },
-          {
-            "name": "k_eTeamTrackedStatImpl_PlayerAggregate",
             "type": "Unknown"
           }
         ],
@@ -69803,10 +70711,6 @@
           },
           {
             "name": "MFgdHelper",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -79698,32 +80602,17 @@
         },
         "type": "uint32"
       },
-      "_UE___": {
+      "__DV__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "__E___": {
-        "alignment": 112,
-        "members": {},
-        "type": "unknown"
-      },
-      "______": {
+      "__L__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___z__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_d_z__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_oE___": {
+      "___L__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

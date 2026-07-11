@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-08 15:27:57.237814500 +07:00
+// 2026-07-11 10:36:12.030283600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1765,6 +1765,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            //  
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -3097,7 +3098,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             pub mod CNmParameterizedBlendNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
@@ -3149,7 +3150,6 @@ pub mod source2_dumper {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
-            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -3157,7 +3157,6 @@ pub mod source2_dumper {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
-            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3629,7 +3628,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskBlendNode__CDefinition {
                 pub const m_nSourceMaskNodeIdx: usize = 0x10; // int16
@@ -3723,7 +3722,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // js\;C:\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4362,7 +4360,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5526,7 +5524,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             pub mod CNmVelocityBlendNode__CDefinition {
             }
             // Parent: None
@@ -5628,7 +5626,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // js\;C:\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
             pub mod CParticleVecInput {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5711,7 +5708,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskSelectorNode__CDefinition {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
@@ -5858,7 +5855,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @!
             // MPropertyFriendlyName
             pub mod CNmEvent {
                 pub const m_flStartTime: usize = 0x8; // NmPercent_t
@@ -6168,7 +6164,7 @@ pub mod source2_dumper {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
-            // a
+            // e
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -7085,8 +7081,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @_
-            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7512,10 +7506,11 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
+            //  
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // o
+            // r
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -7615,8 +7610,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @_
-            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7937,13 +7930,10 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @!
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @_
-            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8212,7 +8202,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             pub mod CQuaternionAnimParameter {
                 pub const m_defaultValue: usize = 0x80; // Quaternion
                 pub const m_bInterpolate: usize = 0x90; // bool
@@ -8699,8 +8689,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // @_
-            // pb
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8740,7 +8728,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // o
+            // r
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9096,10 +9084,11 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
+            //  
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // o
+            // r
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9483,7 +9472,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             pub mod CNmFixedWeightBoneMaskNode__CDefinition {
                 pub const m_flBoneWeight: usize = 0x10; // float32
             }
@@ -9534,7 +9523,7 @@ pub mod source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // a
+            // e
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -9760,7 +9749,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             pub mod CNmBlend2DNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -10373,7 +10362,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             pub mod CNmBodyGroupNode__CDefinition {
                 pub const m_nEnabledNodeIdx: usize = 0x18; // int16
                 pub const m_event: usize = 0x20; // CNmBodyGroupEvent
@@ -10489,7 +10478,7 @@ pub mod source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // a
+            // e
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -10688,7 +10677,6 @@ pub mod source2_dumper {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
-            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -10696,7 +10684,6 @@ pub mod source2_dumper {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
-            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11879,10 +11866,11 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
+            //  
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // o
+            // r
             pub mod CParticleFloatInput {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -12277,7 +12265,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // teseekerPC\AppData\Local\pnpm
             pub mod CNmBoneMaskNode__CDefinition {
                 pub const m_boneMaskID: usize = 0x10; // CGlobalSymbol
             }
@@ -12820,7 +12808,6 @@ pub mod source2_dumper {
             // FullyAllowed
             // ConditionallyAllowed
             // Blocked
-            // 05
             // WarpZ
             // WarpXYZ
             // RotationOnly
@@ -12828,7 +12815,6 @@ pub mod source2_dumper {
             // Hermite
             // HermiteFeaturePreserving
             // Bezier
-            // P@
             // OnExit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -13161,6 +13147,7 @@ pub mod source2_dumper {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
+            // c
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY

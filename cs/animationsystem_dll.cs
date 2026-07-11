@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-08 15:27:57.237814500 +07:00
+// 2026-07-11 10:36:12.030283600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1619,6 +1619,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        //  
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -2951,7 +2952,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         public static class CNmParameterizedBlendNode__CDefinition {
             public const nint m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
             public const nint m_nInputParameterValueNodeIdx = 0x28; // int16
@@ -3003,7 +3004,6 @@ namespace Source2Dumper.Schemas {
         // FullyAllowed
         // ConditionallyAllowed
         // Blocked
-        // 05
         // WarpZ
         // WarpXYZ
         // RotationOnly
@@ -3011,7 +3011,6 @@ namespace Source2Dumper.Schemas {
         // Hermite
         // HermiteFeaturePreserving
         // Bezier
-        // P@
         // OnExit
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3483,7 +3482,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         // MGetKV3ClassDefaults
         public static class CNmBoneMaskBlendNode__CDefinition {
             public const nint m_nSourceMaskNodeIdx = 0x10; // int16
@@ -3577,7 +3576,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // js\;C:\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -4216,7 +4214,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5380,7 +5378,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         public static class CNmVelocityBlendNode__CDefinition {
         }
         // Parent: None
@@ -5482,7 +5480,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // js\;C:\PAMD_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
         public static class CParticleVecInput {
             public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
@@ -5565,7 +5562,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         // MGetKV3ClassDefaults
         public static class CNmBoneMaskSelectorNode__CDefinition {
             public const nint m_defaultMaskNodeIdx = 0x10; // int16
@@ -5712,7 +5709,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @!
         // MPropertyFriendlyName
         public static class CNmEvent {
             public const nint m_flStartTime = 0x8; // NmPercent_t
@@ -6022,7 +6018,7 @@ namespace Source2Dumper.Schemas {
         // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
         // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
         // PF_TYPE_COUNT
-        // a
+        // e
         // PF_BIAS_TYPE_INVALID
         // PF_BIAS_TYPE_GAIN
         // PF_BIAS_TYPE_EXPONENTIAL
@@ -6939,8 +6935,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // @_
-        // pb
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7366,10 +7360,11 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
+        //  
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
-        // o
+        // r
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -7469,8 +7464,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @_
-        // pb
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7791,13 +7784,10 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // @!
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @_
-        // pb
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8066,7 +8056,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         public static class CQuaternionAnimParameter {
             public const nint m_defaultValue = 0x80; // Quaternion
             public const nint m_bInterpolate = 0x90; // bool
@@ -8553,8 +8543,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @_
-        // pb
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8594,7 +8582,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
-        // o
+        // r
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -8950,10 +8938,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
+        //  
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
-        // o
+        // r
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -9337,7 +9326,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         public static class CNmFixedWeightBoneMaskNode__CDefinition {
             public const nint m_flBoneWeight = 0x10; // float32
         }
@@ -9388,7 +9377,7 @@ namespace Source2Dumper.Schemas {
         // PT_TYPE_CONTROL_POINT
         // PT_TYPE_CONTROL_POINT_RANGE
         // PT_TYPE_COUNT
-        // a
+        // e
         // PM_TYPE_NAMED_VALUE_MODEL
         // PM_TYPE_NAMED_VALUE_EHANDLE
         // PM_TYPE_CONTROL_POINT
@@ -9614,7 +9603,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         public static class CNmBlend2DNode__CDefinition {
             public const nint m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
             public const nint m_values = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -10227,7 +10216,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         public static class CNmBodyGroupNode__CDefinition {
             public const nint m_nEnabledNodeIdx = 0x18; // int16
             public const nint m_event = 0x20; // CNmBodyGroupEvent
@@ -10343,7 +10332,7 @@ namespace Source2Dumper.Schemas {
         // PT_TYPE_CONTROL_POINT
         // PT_TYPE_CONTROL_POINT_RANGE
         // PT_TYPE_COUNT
-        // a
+        // e
         // PM_TYPE_NAMED_VALUE_MODEL
         // PM_TYPE_NAMED_VALUE_EHANDLE
         // PM_TYPE_CONTROL_POINT
@@ -10542,7 +10531,6 @@ namespace Source2Dumper.Schemas {
         // FullyAllowed
         // ConditionallyAllowed
         // Blocked
-        // 05
         // WarpZ
         // WarpXYZ
         // RotationOnly
@@ -10550,7 +10538,6 @@ namespace Source2Dumper.Schemas {
         // Hermite
         // HermiteFeaturePreserving
         // Bezier
-        // P@
         // OnExit
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11733,10 +11720,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
+        //  
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
-        // o
+        // r
         public static class CParticleFloatInput {
             public const nint m_nType = 0x10; // ParticleFloatType_t
             public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
@@ -12131,7 +12119,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         public static class CNmBoneMaskNode__CDefinition {
             public const nint m_boneMaskID = 0x10; // CGlobalSymbol
         }
@@ -12674,7 +12662,6 @@ namespace Source2Dumper.Schemas {
         // FullyAllowed
         // ConditionallyAllowed
         // Blocked
-        // 05
         // WarpZ
         // WarpXYZ
         // RotationOnly
@@ -12682,7 +12669,6 @@ namespace Source2Dumper.Schemas {
         // Hermite
         // HermiteFeaturePreserving
         // Bezier
-        // P@
         // OnExit
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -13015,6 +13001,7 @@ namespace Source2Dumper.Schemas {
         // FLAG0_SHIFT_CONSTRAIN
         // FLAG0_SHIFT_BREAKABLE_FORCE
         // FLAG0_SHIFT_BREAKABLE_TORQUE
+        // c
         // JOINT_FLAGS_BODY1_FIXED
         // JOINT_FLAGS_USE_BLOCK_SOLVER
         // FLAG_IS_POLYSOUP_GEOMETRY

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-08 15:27:57.237814500 +07:00
+// 2026-07-11 10:36:12.030283600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
@@ -16386,6 +16386,257 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // ACT_IDLE
+        // ACT_TRANSITION
+        // ACT_COVER
+        // ACT_COVER_MED
+        // ACT_COVER_LOW
+        // ACT_WALK
+        // ACT_WALK_AIM
+        // ACT_WALK_CROUCH
+        // ACT_WALK_CROUCH_AIM
+        // ACT_RUN
+        // ACT_RUN_AIM
+        // ACT_RUN_CROUCH
+        // ACT_RUN_CROUCH_AIM
+        // ACT_RUN_PROTECTED
+        // ACT_SCRIPT_CUSTOM_MOVE
+        // ACT_RANGE_ATTACK1
+        // ACT_RANGE_ATTACK2
+        // ACT_RANGE_ATTACK1_LOW
+        // ACT_RANGE_ATTACK2_LOW
+        // ACT_DIESIMPLE
+        // ACT_DIEBACKWARD
+        // ACT_DIEFORWARD
+        // ACT_DIEVIOLENT
+        // ACT_DIERAGDOLL
+        // ACT_FLY
+        // ACT_HOVER
+        // ACT_GLIDE
+        // ACT_SWIM
+        // ACT_JUMP
+        // ACT_HOP
+        // ACT_LEAP
+        // ACT_LAND
+        // ACT_CLIMB_UP
+        // ACT_CLIMB_DOWN
+        // ACT_CLIMB_DISMOUNT
+        // ACT_SHIPLADDER_UP
+        // ACT_SHIPLADDER_DOWN
+        // ACT_STRAFE_LEFT
+        // ACT_STRAFE_RIGHT
+        // ACT_ROLL_LEFT
+        // ACT_ROLL_RIGHT
+        // ACT_TURN_LEFT
+        // ACT_TURN_RIGHT
+        // ACT_CROUCH
+        // ACT_CROUCHIDLE
+        // ACT_STAND
+        // ACT_USE
+        // ACT_ALIEN_BURROW_IDLE
+        // ACT_ALIEN_BURROW_OUT
+        // ACT_SIGNAL1
+        // ACT_SIGNAL2
+        // ACT_SIGNAL3
+        // ACT_SIGNAL_ADVANCE
+        // ACT_SIGNAL_FORWARD
+        // ACT_SIGNAL_GROUP
+        // ACT_SIGNAL_HALT
+        // ACT_SIGNAL_LEFT
+        // ACT_SIGNAL_RIGHT
+        // ACT_SIGNAL_TAKECOVER
+        // ACT_LOOKBACK_RIGHT
+        // ACT_LOOKBACK_LEFT
+        // ACT_COWER
+        // ACT_SMALL_FLINCH
+        // ACT_BIG_FLINCH
+        // ACT_MELEE_ATTACK1
+        // ACT_MELEE_ATTACK2
+        // ACT_RELOAD
+        // ACT_RELOAD_START
+        // ACT_RELOAD_FINISH
+        // ACT_RELOAD_LOW
+        // ACT_ARM
+        // ACT_DISARM
+        // ACT_DROP_WEAPON
+        // ACT_DROP_WEAPON_SHOTGUN
+        // ACT_PICKUP_GROUND
+        // ACT_PICKUP_RACK
+        // ACT_IDLE_ANGRY
+        // ACT_IDLE_RELAXED
+        // ACT_IDLE_STIMULATED
+        // ACT_IDLE_AGITATED
+        // ACT_IDLE_STEALTH
+        // ACT_IDLE_HURT
+        // ACT_WALK_RELAXED
+        // ACT_WALK_STIMULATED
+        // ACT_WALK_AGITATED
+        // ACT_WALK_STEALTH
+        // ACT_RUN_RELAXED
+        // ACT_RUN_STIMULATED
+        // ACT_RUN_AGITATED
+        // ACT_RUN_STEALTH
+        // ACT_IDLE_AIM_RELAXED
+        // ACT_IDLE_AIM_STIMULATED
+        // ACT_IDLE_AIM_AGITATED
+        // ACT_IDLE_AIM_STEALTH
+        // ACT_WALK_AIM_RELAXED
+        // ACT_WALK_AIM_STIMULATED
+        // ACT_WALK_AIM_AGITATED
+        // ACT_WALK_AIM_STEALTH
+        // ACT_RUN_AIM_RELAXED
+        // ACT_RUN_AIM_STIMULATED
+        // ACT_RUN_AIM_AGITATED
+        // ACT_RUN_AIM_STEALTH
+        // ACT_CROUCHIDLE_STIMULATED
+        // ACT_CROUCHIDLE_AIM_STIMULATED
+        // ACT_CROUCHIDLE_AGITATED
+        // ACT_WALK_HURT
+        // ACT_RUN_HURT
+        // ACT_SPECIAL_ATTACK1
+        // ACT_SPECIAL_ATTACK2
+        // ACT_COMBAT_IDLE
+        // ACT_WALK_SCARED
+        // ACT_RUN_SCARED
+        // ACT_VICTORY_DANCE
+        // ACT_DIE_HEADSHOT
+        // ACT_DIE_CHESTSHOT
+        // ACT_DIE_GUTSHOT
+        // ACT_DIE_BACKSHOT
+        // ACT_FLINCH_HEAD
+        // ACT_FLINCH_CHEST
+        // ACT_FLINCH_STOMACH
+        // ACT_FLINCH_LEFTARM
+        // ACT_FLINCH_RIGHTARM
+        // ACT_FLINCH_LEFTLEG
+        // ACT_FLINCH_RIGHTLEG
+        // ACT_FLINCH_PHYSICS
+        // ACT_FLINCH_HEAD_BACK
+        // ACT_FLINCH_CHEST_BACK
+        // ACT_FLINCH_STOMACH_BACK
+        // ACT_FLINCH_CROUCH_FRONT
+        // ACT_FLINCH_CROUCH_BACK
+        // ACT_FLINCH_CROUCH_LEFT
+        // ACT_FLINCH_CROUCH_RIGHT
+        // ACT_IDLE_ON_FIRE
+        // ACT_WALK_ON_FIRE
+        // ACT_RUN_ON_FIRE
+        // ACT_180_LEFT
+        // ACT_180_RIGHT
+        // ACT_90_LEFT
+        // ACT_90_RIGHT
+        // ACT_STEP_LEFT
+        // ACT_STEP_RIGHT
+        // ACT_STEP_BACK
+        // ACT_STEP_FORE
+        // ACT_GESTURE_RANGE_ATTACK1
+        // ACT_GESTURE_RANGE_ATTACK2
+        // ACT_GESTURE_MELEE_ATTACK1
+        // ACT_GESTURE_MELEE_ATTACK2
+        // ACT_GESTURE_RANGE_ATTACK1_LOW
+        // ACT_GESTURE_RANGE_ATTACK2_LOW
+        // ACT_MELEE_ATTACK_SWING_GESTURE
+        // ACT_GESTURE_SMALL_FLINCH
+        // ACT_GESTURE_BIG_FLINCH
+        // ACT_GESTURE_FLINCH_BLAST
+        // ACT_GESTURE_FLINCH_BLAST_SHOTGUN
+        // ACT_GESTURE_FLINCH_BLAST_DAMAGED
+        // ACT_GESTURE_FLINCH_BLAST_DAMAGED_SHOTGUN
+        // ACT_GESTURE_FLINCH_HEAD
+        // ACT_GESTURE_FLINCH_CHEST
+        // ACT_GESTURE_FLINCH_STOMACH
+        // ACT_GESTURE_FLINCH_LEFTARM
+        // ACT_GESTURE_FLINCH_RIGHTARM
+        // ACT_GESTURE_FLINCH_LEFTLEG
+        // ACT_GESTURE_FLINCH_RIGHTLEG
+        // ACT_GESTURE_TURN_LEFT
+        // ACT_GESTURE_TURN_RIGHT
+        // ACT_GESTURE_TURN_LEFT45
+        // ACT_GESTURE_TURN_RIGHT45
+        // ACT_GESTURE_TURN_LEFT90
+        // ACT_GESTURE_TURN_RIGHT90
+        // ACT_GESTURE_TURN_LEFT45_FLAT
+        // ACT_GESTURE_TURN_RIGHT45_FLAT
+        // ACT_GESTURE_TURN_LEFT90_FLAT
+        // ACT_GESTURE_TURN_RIGHT90_FLAT
+        // ACT_BARNACLE_HIT
+        // ACT_BARNACLE_PULL
+        // ACT_BARNACLE_CHOMP
+        // ACT_BARNACLE_CHEW
+        // ACT_DO_NOT_DISTURB
+        // ACT_SPECIFIC_SEQUENCE
+        // ACT_VM_DEPLOY
+        // ACT_VM_RELOAD_EMPTY
+        // ACT_VM_DRAW
+        // ACT_VM_HOLSTER
+        // ACT_VM_IDLE
+        // ACT_VM_FIDGET
+        // ACT_VM_PULLBACK
+        // ACT_VM_PULLBACK_HIGH
+        // ACT_VM_PULLBACK_LOW
+        // ACT_VM_THROW
+        // ACT_VM_DROP
+        // ACT_VM_PULLPIN
+        // ACT_VM_PRIMARYATTACK
+        // ACT_VM_SECONDARYATTACK
+        // ACT_VM_RELOAD
+        // ACT_VM_DRYFIRE
+        // ACT_VM_HITLEFT
+        // ACT_VM_HITLEFT2
+        // ACT_VM_HITRIGHT
+        // ACT_VM_HITRIGHT2
+        // ACT_VM_HITCENTER
+        // ACT_VM_HITCENTER2
+        // ACT_VM_MISSLEFT
+        // ACT_VM_MISSLEFT2
+        // ACT_VM_MISSRIGHT
+        // ACT_VM_MISSRIGHT2
+        // ACT_VM_MISSCENTER
+        // ACT_VM_MISSCENTER2
+        // ACT_VM_HAULBACK
+        // ACT_VM_SWINGHARD
+        // ACT_VM_SWINGMISS
+        // ACT_VM_SWINGHIT
+        // ACT_VM_IDLE_TO_LOWERED
+        // ACT_VM_IDLE_LOWERED
+        // ACT_VM_LOWERED_TO_IDLE
+        // ACT_VM_RECOIL1
+        // ACT_VM_RECOIL2
+        // ACT_VM_RECOIL3
+        // ACT_VM_PICKUP
+        // ACT_VM_RELEASE
+        // ACT_VM_MAUL_LOOP
+        // ACT_VM_ATTACH_SILENCER
+        // ACT_VM_DETACH_SILENCER
+        // ACT_SLAM_STICKWALL_IDLE
+        // ACT_SLAM_STICKWALL_ND_IDLE
+        // ACT_SLAM_STICKWALL_ATTACH
+        // ACT_SLAM_STICKWALL_ATTACH2
+        // ACT_SLAM_STICKWALL_ND_ATTACH
+        // ACT_SLAM_STICKWALL_ND_ATTACH2
+        // ACT_SLAM_STICKWALL_DETONATE
+        // ACT_SLAM_STICKWALL_DETONATOR_HOLSTER
+        // ACT_SLAM_STICKWALL_DRAW
+        // ACT_SLAM_STICKWALL_ND_DRAW
+        // ACT_SLAM_STICKWALL_TO_THROW
+        // ACT_SLAM_STICKWALL_TO_THROW_ND
+        // ACT_SLAM_STICKWALL_TO_TRIPMINE_ND
+        // ACT_SLAM_THROW_IDLE
+        // ACT_SLAM_THROW_ND_IDLE
+        // ACT_SLAM_THROW_THROW
+        // ACT_SLAM_THROW_THROW2
+        // ACT_SLAM_THROW_THROW_ND
+        // ACT_SLAM_THROW_THROW_ND2
+        // ACT_SLAM_THROW_DRAW
+        // ACT_SLAM_THROW_ND_DRAW
+        // ACT_SLAM_THROW_TO_STICKWALL
+        // ACT_SLAM_THROW_TO_STICKWALL_ND
+        // ACT_SLAM_THROW_DETONATE
+        // ACT_SLAM_THROW_DETONATOR_HOLSTER
+        // ACT_SLAM_THROW_TO_TRIPMINE_ND
+        // ACT_SLAM_TRIPMINE_IDLE
+        // ACT_SLAM_TRIPMINE_DRAW
+        // ACT_SLAM_TRIPMINE_ATTACH
         public static class CBodyComponentBaseAnimating {
             public const nint m_animationController = 0x4E0; // CBaseAnimatingController
         }
@@ -18277,21 +18528,15 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyStartGroup
         // MPropertyDescription
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyStartGroup
-        // MPropertyDescription
-        // MPropertySuppressExpr
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertySuppressExpr
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertySuppressExpr
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyFriendlyName
         // MPropertyStartGroup
         // MPropertyDescription
+        // MPropertyStartGroup
         // MPropertyDescription
+        // MPropertyAttributeEditor
         public static class CBaseAnimGraphController {
             public const nint m_nAnimationAlgorithm = 0x18; // AnimationAlgorithm_t
             public const nint m_nNextExternalGraphHandle = 0x1C; // ExternalAnimGraphHandle_t
@@ -19845,6 +20090,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        //  
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -20509,12 +20755,13 @@ namespace Source2Dumper.Schemas {
             public const nint slow_movement_speed = 0x1A5C; // int32
         }
         // Parent: None
-        // Field count: 4
+        // Field count: 5
         public static class CDOTA_Modifier_Medusa_ManaShield {
             public const nint bonus_mana = 0x1A58; // int32
             public const nint absorption_pct = 0x1A5C; // float32
             public const nint damage_per_mana = 0x1A60; // float32
             public const nint illusion_percentage = 0x1A64; // float32
+            public const nint m_flDamageAccumulator = 0x1A68; // float32
         }
         // Parent: None
         // Field count: 0
@@ -20872,7 +21119,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // AppData\Local\pnpm
         public static class CTimeline {
             public const nint m_flValues = 0x10; // float32[64]
             public const nint m_nValueCounts = 0x110; // int32[64]
@@ -24628,10 +24875,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseTrigger
         // Field count: 12
-        //
-        // Metadata:
-        // PM_NO_GIBS
-        // MGetKV3ClassDefaults
         public static class CPostProcessingVolume {
             public const nint m_hPostSettings = 0x900; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
             public const nint m_flFadeDuration = 0x908; // float32
@@ -35019,7 +35262,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CDestructiblePartsComponent {
             public const nint __m_pChainEntity = 0x0; // CNetworkVarChainer
             public const nint m_vecDamageTakenByHitGroup = 0x48; // CUtlVector<uint16>
@@ -35547,7 +35789,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -39523,6 +39764,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // 70\fozpipelinesv6\steamapprun_pipeline_cache
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -54913,7 +55155,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 10
         //
         // Metadata:
-        // T;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // teseekerPC\AppData\Local\pnpm
         // n
         // n
         // MVDataUniqueMonotonicInt
@@ -54948,8 +55190,6 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
-        // D_VK_PIPELINE_CACHE_FILENAME=steamapp_shader_cache
         // ROTATOR_TARGET_LOCALSPACE
         // eRotateBegin
         // eEventsDispatched
@@ -54967,7 +55207,6 @@ namespace Source2Dumper.Schemas {
         // ROTATION_AXIS_YAW
         // ROTATION_AXIS_PITCH
         // ROTATION_AXIS_ROLL
-        // MGetKV3ClassDefaults
         public static class CDynamicProp {
             public const nint m_bRandomAnimator = 0x930; // bool
             public const nint m_flNextRandAnim = 0x934; // GameTime_t
@@ -56233,6 +56472,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CPointEntity
         // Field count: 0
+        //
+        // Metadata:
+        // l
         public static class CInfoParticleTarget {
         }
         // Parent: CBaseEntity
@@ -57085,6 +57327,7 @@ namespace Source2Dumper.Schemas {
         // WsDirection
         // MsDirection
         // MGetKV3ClassDefaults
+        // MKV3TransferSaveOpsForField
         public static class AI_GroundRootMotionMotor_DebugSnapshotData_t {
             public const nint desired_movement_gait_set = 0x8; // CGlobalSymbol
             public const nint desired_movement_gait = 0x10; // CGlobalSymbol
@@ -57164,6 +57407,8 @@ namespace Source2Dumper.Schemas {
         // TRS_NONE
         // MPropertyFriendlyName
         // MAlternateSemanticName
+        // MPropertyFriendlyName
+        // MAlternateSemanticName
         // eInvalid
         // eHead
         // eEyesOnly
@@ -57176,11 +57421,6 @@ namespace Source2Dumper.Schemas {
         // eFast
         // MPropertyFriendlyName
         // MAlternateSemanticName
-        // MPropertyFriendlyName
-        // MAlternateSemanticName
-        // MPropertyFriendlyName
-        // MAlternateSemanticName
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MAlternateSemanticName
         // MPropertyFriendlyName
@@ -57513,6 +57753,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // n
+        // D
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -58146,7 +58387,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // AppData\Local\pnpm
         public static class CSkeletonAnimationController {
             public const nint m_pSkeletonInstance = 0x8; // CSkeletonInstance*
         }
@@ -58409,6 +58650,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // Y
+        // MGetKV3ClassDefaults
         public static class DebugDrawBoneTransforms_t {
             public const nint vecBones = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
         }
@@ -58470,7 +58712,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        // BS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // C\AppData\Local\pnpm
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -58746,6 +58988,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class RotatorQueueEntry_t {
             public const nint qTarget = 0x0; // Quaternion
             public const nint eSpace = 0x10; // RotatorTargetSpace_t
@@ -58758,28 +59001,29 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyStartGroup
         // MPropertyDescription
-        // MPropertyAttributeEditor
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyStartGroup
         // MPropertyDescription
-        // MPropertySuppressExpr
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertySuppressExpr
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertySuppressExpr
+        // MPropertyAttributeEditor
         // MGetKV3ClassDefaults
         // MPropertyStartGroup
         // MPropertyDescription
-        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MFgdHelper
+        // MGetKV3ClassDefaults
         public static class CBaseAnimGraphDestructibleParts_GraphController {
         }
         // Parent: None
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
+        // e
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -58901,16 +59145,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // SOUNDCTRL_CHANGE_PITCH
-        // SOUNDCTRL_STOP
-        // SOUNDCTRL_DESTROY
-        // SOUNDCTRL_FADEOUT
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Y
         public static class SceneEventId_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -58961,9 +59196,6 @@ namespace Source2Dumper.Schemas {
         // k_ePlayerTrackedStatImpl_CombatQuery
         // k_ePlayerTrackedStatImpl_Expression
         // k_ePlayerTrackedStatImpl_HeroAdjective
-        // k_eTeamTrackedStatImpl_Direct
-        // k_eTeamTrackedStatImpl_Expression
-        // k_eTeamTrackedStatImpl_PlayerAggregate
         public static class TrackedStatValue_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -59359,9 +59591,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // pipeline_cache
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -60626,9 +60855,6 @@ namespace Source2Dumper.Schemas {
         // k_ePlayerTrackedStatImpl_CombatQuery
         // k_ePlayerTrackedStatImpl_Expression
         // k_ePlayerTrackedStatImpl_HeroAdjective
-        // k_eTeamTrackedStatImpl_Direct
-        // k_eTeamTrackedStatImpl_Expression
-        // k_eTeamTrackedStatImpl_PlayerAggregate
         public static class TrackedStatID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -61283,6 +61509,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // n
+        // D
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61444,7 +61671,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // pData\Local\pnpm
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
@@ -61457,7 +61684,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // AMMO_FORCE_DROP_IF_CARRIED
@@ -61531,7 +61757,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MFgdHelper
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -61641,7 +61866,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // pData\Local\pnpm
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-08 15:27:57.237814500 +07:00
+// 2026-07-11 10:36:12.030283600 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -311,6 +311,11 @@ export const Schemas = {
             CMsgClientToGCUpdateComicBookStat_Type_HighestPageRead: 0x1,
             CMsgClientToGCUpdateComicBookStat_Type_SecondsSpentReading: 0x2,
             CMsgClientToGCUpdateComicBookStat_Type_HighestPercentRead: 0x3,
+        },
+        EDOTACrateDropPowerupType: {
+            k_eCrateDropPowerupType_Invalid: 0x0,
+            k_eCrateDropPowerupType_Shield: 0x1,
+            k_eCrateDropPowerupType_Regen: 0x2,
         },
         EHeroSelectionText: {
             k_EHeroSelectionText_Invalid: 0xFFFFFFFFFFFFFFFF,
@@ -1171,6 +1176,7 @@ export const Schemas = {
             VN_DIALOGUE_EFFECT_ACTOR_HUFF: 0x2000,
             VN_DIALOGUE_EFFECT_ACTOR_HEART: 0x4000,
             VN_DIALOGUE_EFFECT_ACTOR_POWERDOWN: 0x8000,
+            VN_DIALOGUE_EFFECT_ACTOR_GASP: 0x10000,
         },
         EUnderDraftResponse: {
             k_eInternalError: 0x0,
@@ -1446,6 +1452,12 @@ export const Schemas = {
             k_ETournamentState_InProgress: 0x64,
             k_ETournamentState_WaitingToMerge: 0x65,
         },
+        EDOTACrateDropHazardType: {
+            k_eCrateDropHazardType_Invalid: 0x0,
+            k_eCrateDropHazardType_Bomb: 0x1,
+            k_eCrateDropHazardType_Nuke: 0x2,
+            k_eCrateDropHazardType_Goop: 0x4,
+        },
         PlayerUltimateStateOrTime_t: {
             PLAYER_ULTIMATE_STATE_READY: 0x0,
             PLAYER_ULTIMATE_STATE_NO_MANA: 0xFFFFFFFFFFFFFFFF,
@@ -1460,6 +1472,16 @@ export const Schemas = {
             VN_DIALOGUE_EFFECT_TEXT_SMALL: 0x8,
             VN_DIALOGUE_EFFECT_TEXT_NO_NAMEPLATE: 0x10,
             VN_DIALOGUE_EFFECT_TEXT_NO_TEXT: 0x20,
+        },
+        EDOTACrateDropObjectType: {
+            k_eCrateDropType_Invalid: 0x0,
+            k_eCrateDropType_Object: 0x1,
+            k_eCrateDropType_Droppable: 0x3,
+            k_eCrateDropType_Trigger: 0x5,
+            k_eCrateDropType_Hazard: 0xB,
+            k_eCrateDropType_Platform: 0x11,
+            k_eCrateDropType_TrackLight: 0x21,
+            k_eCrateDropType_Powerup: 0x43,
         },
         EArtyGameObjectType: {
             k_eTypeObject: 0x0,
@@ -1518,6 +1540,10 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
+        },
+        H____WH___H__H_ڹh: {
+        },
+        DOTACCBackgroundSummer2023: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A20, // DOTA_SHOP_TYPE
@@ -1649,6 +1675,27 @@ export const Schemas = {
             m_pControlGroupsKeyValues: 0x3230, // KeyValues*
             m_pItemSuggestPreferenceKeyValues: 0x3238, // KeyValues3*
             m_CurrentHeroAvailable: 0x3240, // bool[256]
+        },
+        CDarkCarnivalCrateDropEntity: {
+            m_unDefID: 0xC40, // DOTACrateDropObjectDefID_t
+            m_flAcceleration: 0xC50, // float32
+            m_flMaxSpeed: 0xC54, // float32
+            m_nTutorialObject: 0xC6C, // int8
+            m_nDisableSpawnRotation: 0xC6D, // int8
+            m_flPoints: 0xC90, // float32
+            m_flHazardExplosionRadius: 0xC94, // float32
+            m_flExplosionStrength: 0xC98, // float32
+            m_flUpkickExplosionStrength: 0xC9C, // float32
+            m_flTriggerDelay: 0xCA0, // float32
+            m_flTriggeredGravityScale: 0xCA4, // float32
+            m_bHasBeenTriggered: 0xCA8, // bool
+            m_bHazardDefused: 0xCA9, // bool
+            m_bCurrentlyActivated: 0xCAA, // bool
+            m_flNextPossibleTriggerTime: 0xCAC, // GameTime_t
+            m_flCreationTime: 0xCB0, // GameTime_t
+            pDropEffect: 0xCB8, // CNewParticleEffect*
+            m_bMarkedForDestroy: 0xCC0, // bool
+            m_bHazardRotationApplied: 0xCC1, // bool
         },
         C_DOTA_Item_Recipe_Mysterious_Hat: {
         },
@@ -23041,6 +23088,8 @@ export const Schemas = {
         CPulseCell_Unknown: {
             m_UnknownKeys: 0x48, // KeyValues3
         },
+        CDarkCarnivalCrateDropGameEffectsEntity: {
+        },
         C_DOTA_Item_Aghanims_Shard: {
             m_bHasMultipleOptions: 0x758, // bool
         },
@@ -29715,6 +29764,9 @@ export const Schemas = {
             m_flTotalDistanceMoved: 0x1AA0, // float32
             m_nFissureEffectIndex: 0x1AA4, // ParticleIndex_t
         },
+        DOTACrateDropLevelDefID_t: {
+            m_Value: 0x0, // uint32
+        },
         ArtyProgressBarDef_t: {
             m_flNotchSize: 0xB0, // float32
         },
@@ -29925,6 +29977,12 @@ export const Schemas = {
         CDOTAMotionComicFrame: {
             m_flAutoAdvanceDelay: 0x8, // float32
         },
+        CDOTACrateDropHazardDef: {
+            m_flExplosionRadius: 0xE8, // float32
+            m_flExplosionStrength: 0xEC, // float32
+            m_flUpkickExplosionStrength: 0xF0, // float32
+            m_eHazardType: 0xF4, // EDOTACrateDropHazardType
+        },
         SettingsSectionIndex_t: {
             m_Value: 0x0, // int32
         },
@@ -30072,6 +30130,8 @@ export const Schemas = {
             m_flScepterVacuumDistance: 0x7E4, // float32
             m_nMineTypeIndex: 0x800, // int32
         },
+        CDOTACrateDropTrackLightDef: {
+        },
         SettingsSubSectionIndex_t: {
             m_Value: 0x0, // int32
         },
@@ -30155,6 +30215,23 @@ export const Schemas = {
         CSurvivorsPowerUp_AreaAttack_Line: {
             m_vCachedFacingDirection: 0x800, // Vector
             m_bUseFacingDirection: 0x80C, // bool
+        },
+        CDOTACrateDropLevelDef: {
+            m_unID: 0x8, // DOTACrateDropLevelDefID_t
+            m_nCratesForGameOver: 0xC, // int32
+            m_nCratesForNextLevel: 0x10, // int32
+            m_flCrateSpawnInterval: 0x14, // float32
+            m_flHazardSpawnIntervalMin: 0x18, // float32
+            m_flHazardSpawnIntervalMax: 0x1C, // float32
+            m_flPowerupInterval: 0x20, // float32
+            m_flPowerupChance: 0x24, // float32
+            m_nMaxCratesOnLevel: 0x28, // int32
+            m_vecDropTableCrates: 0x30, // CUtlVector<CDOTACrateDropTable>
+            m_vecDropTableHazards: 0x48, // CUtlVector<CDOTACrateDropTable>
+            m_vecDropTablePowerups: 0x60, // CUtlVector<CDOTACrateDropTable>
+            m_nRotationChance: 0x78, // int32
+            m_nRotationSpeedMin: 0x7C, // int32
+            m_nRotationSpeedMax: 0x80, // int32
         },
         CSurvivorsSpawnerDestructiblesDefinition: {
             m_flMinimumDistanceBetween: 0x148, // float32
@@ -30300,6 +30377,9 @@ export const Schemas = {
             m_successEffect: 0x18, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_failEffect: 0xF8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_nScorePerUnlock: 0x1D8, // int32
+        },
+        CDOTACrateDropDroppableDef: {
+            m_flBasePoints: 0xE0, // float32
         },
         Match3OpponentActionID_t: {
             m_Value: 0x0, // uint32
@@ -30459,6 +30539,29 @@ export const Schemas = {
             m_eTeam: 0x64, // EArtyTeam
             m_flTimeOffset: 0x68, // float32
             m_vecCustomOrders: 0x70, // CUtlVector<ArtyEnemyOrder_t>
+        },
+        CDOTACrateDropGameDef: {
+            m_vGravity: 0x0, // Vector
+            m_flGameOverTime: 0xC, // float32
+            m_flGameWonTime: 0x10, // float32
+            m_flLevelWonTime: 0x14, // float32
+            m_flLevelIntroTime: 0x18, // float32
+            m_flSecondRowOffset: 0x1C, // float32
+            m_flAbilityCooldown: 0x20, // float32
+            m_flHeightVisualizationStep: 0x24, // float32
+            m_flMultiplierStep: 0x28, // float32
+            m_flMultiplierFactor: 0x2C, // float32
+            m_flTutorialCrateSpawnInterval: 0x30, // float32
+            m_flTutorialStepInvervalTime: 0x34, // float32
+            m_flShieldDuration: 0x38, // float32
+            m_flHurtDecayRate: 0x3C, // float32
+            m_flGoopDuration: 0x40, // float32
+            m_flGoopSlow: 0x44, // float32
+            m_nRegenInstances: 0x48, // int32
+            m_flRegenHealInterval: 0x4C, // float32
+            m_flHeightBonusToastTime: 0x50, // float32
+            m_flFallCrateVOChance: 0x54, // float32
+            m_flHazardSpawnVOChance: 0x58, // float32
         },
         SurvivorsPickupID_t: {
             m_Value: 0x0, // uint32
@@ -30731,6 +30834,8 @@ export const Schemas = {
             m_vecHeroes: 0x40, // CUtlVector<CUtlString>
             m_vecLevels: 0x58, // CUtlVector<CMatch3Level*>
         },
+        CDOTACrateDropPlatformDef: {
+        },
         CDOTASlarkJailbreakGameDefinition: {
             m_nPointsPerBlock: 0x0, // int32
             m_nPointsPerBonusBlock: 0x4, // int32
@@ -30743,57 +30848,58 @@ export const Schemas = {
             m_sKey: 0x10, // CUtlString
             m_eAssociatedEvent: 0x18, // EEvent
             m_eProgressionType: 0x1C, // EOverworldProgressionType
-            m_sTokenTraderEncounterName: 0x20, // CUtlString
-            m_sNodeUnlockEventAction: 0x28, // CUtlString
-            m_vGridOffset: 0x30, // Vector2D
-            m_unGridSize: 0x38, // uint32
-            m_unNodeGridSize: 0x3C, // uint32
-            m_unMapWidth: 0x40, // uint32
-            m_unMapHeight: 0x44, // uint32
-            m_vecCameraDistances: 0x48, // CUtlVector<float32>
-            m_flMinCameraDistance: 0x60, // float32
-            m_flMaxCameraDistance: 0x64, // float32
-            m_flInnerCameraDistanceThreshold: 0x68, // float32
-            m_vMinCameraBounds: 0x6C, // Vector2D
-            m_vMaxCameraBounds: 0x74, // Vector2D
-            m_sMapVisualsXmlPath: 0x80, // CUtlString
-            m_vecReleaseSchedule: 0x88, // CUtlVector<DOTAOverworldReleaseScheduledUnlock_t>
-            m_vecStartNodeIds: 0xA0, // CUtlVector<OverworldNodeID_t>
-            m_unEndNodeID: 0xB8, // OverworldNodeID_t
-            m_sVisualNovelName: 0xC0, // CUtlString
-            m_sTokenLocStringPrefix: 0xC8, // CUtlString
-            m_sActNumberLocString: 0xD0, // CUtlString
-            m_sActTitleLocString: 0xD8, // CUtlString
-            m_unPremiumItemDef: 0xE0, // item_definition_index_t
-            m_unFullCompletionItemDef: 0xE4, // item_definition_index_t
-            m_unScrapTokenID: 0xE8, // OverworldTokenID_t
-            m_unFortuneDuration: 0xEC, // uint32
-            m_unPathUnlockerTokenID: 0xF0, // OverworldTokenID_t
-            m_unFortuneCountForPermanentReward: 0xF4, // int32
-            m_unTimesFortuneCanBeSeenBeforeRepeats: 0xF8, // int32
-            m_vecFortuneWeightForUnseenAmount: 0x100, // CUtlVector<int32>
-            m_nMaxTokenCap: 0x118, // int32
-            m_vecEventActionTriggers: 0x120, // CUtlVector<CDOTAEventActionTrigger>
-            m_vecEventActionGrantAndClaimPairTriggers: 0x138, // CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
-            m_vecPathColorRules: 0x150, // CUtlVector<CDOTAOverworldPathColorRule>
-            m_strNarrationVisualNovel: 0x168, // CUtlString
-            m_mapNarrationDialogues: 0x170, // CUtlOrderedMap<CUtlString,CUtlString>
-            m_Theme: 0x368, // CDOTAOverworldTheme
-            m_vecTokenTypes: 0x3A0, // CUtlVector<CDOTAOverworldToken*>
-            m_vecTarotCards: 0x3D0, // CUtlVector<CDOTAOverworldTarotCard*>
-            m_vecFortuneTellerRewards: 0x3E8, // CUtlVector<CDOTAOverworldFortuneTellerReward*>
-            m_vecFortuneForcedReveals: 0x400, // CUtlVector<CDOTAOverworldFortuneForcedReveal*>
-            m_vecFortuneTellerFixedReward: 0x418, // CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
-            m_vecFortuneTellerStoryNodes: 0x430, // CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
-            m_vecHeroRewards: 0x470, // CUtlVector<CDOTAOverworldHeroReward*>
-            m_vecNodes: 0x488, // CUtlVector<CDOTAOverworldNode*>
-            m_vecPaths: 0x4A0, // CUtlVector<CDOTAOverworldPath*>
-            m_vecRooms: 0x4B8, // CUtlVector<CDOTAOverworldRoom*>
-            m_vecEncounters: 0x4D0, // CUtlVector<CDOTAOverworldEncounter*>
-            m_vecHeroes: 0x4E8, // CUtlVector<CDOTAOverworldHero*>
-            m_vecCharacters: 0x500, // CUtlVector<CDOTAOverworldCharacter*>
-            m_vecClickables: 0x518, // CUtlVector<CDOTAOverworldClickable*>
-            m_vecRoomGroups: 0x5F8, // CUtlVector<CDOTAOverworldRoomGroup*>
+            m_unOverworldVersion: 0x20, // uint8
+            m_sTokenTraderEncounterName: 0x28, // CUtlString
+            m_sNodeUnlockEventAction: 0x30, // CUtlString
+            m_vGridOffset: 0x38, // Vector2D
+            m_unGridSize: 0x40, // uint32
+            m_unNodeGridSize: 0x44, // uint32
+            m_unMapWidth: 0x48, // uint32
+            m_unMapHeight: 0x4C, // uint32
+            m_vecCameraDistances: 0x50, // CUtlVector<float32>
+            m_flMinCameraDistance: 0x68, // float32
+            m_flMaxCameraDistance: 0x6C, // float32
+            m_flInnerCameraDistanceThreshold: 0x70, // float32
+            m_vMinCameraBounds: 0x74, // Vector2D
+            m_vMaxCameraBounds: 0x7C, // Vector2D
+            m_sMapVisualsXmlPath: 0x88, // CUtlString
+            m_vecReleaseSchedule: 0x90, // CUtlVector<DOTAOverworldReleaseScheduledUnlock_t>
+            m_vecStartNodeIds: 0xA8, // CUtlVector<OverworldNodeID_t>
+            m_unEndNodeID: 0xC0, // OverworldNodeID_t
+            m_sVisualNovelName: 0xC8, // CUtlString
+            m_sTokenLocStringPrefix: 0xD0, // CUtlString
+            m_sActNumberLocString: 0xD8, // CUtlString
+            m_sActTitleLocString: 0xE0, // CUtlString
+            m_unPremiumItemDef: 0xE8, // item_definition_index_t
+            m_unFullCompletionItemDef: 0xEC, // item_definition_index_t
+            m_unScrapTokenID: 0xF0, // OverworldTokenID_t
+            m_unFortuneDuration: 0xF4, // uint32
+            m_unPathUnlockerTokenID: 0xF8, // OverworldTokenID_t
+            m_unFortuneCountForPermanentReward: 0xFC, // int32
+            m_unTimesFortuneCanBeSeenBeforeRepeats: 0x100, // int32
+            m_vecFortuneWeightForUnseenAmount: 0x108, // CUtlVector<int32>
+            m_nMaxTokenCap: 0x120, // int32
+            m_vecEventActionTriggers: 0x128, // CUtlVector<CDOTAEventActionTrigger>
+            m_vecEventActionGrantAndClaimPairTriggers: 0x140, // CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
+            m_vecPathColorRules: 0x158, // CUtlVector<CDOTAOverworldPathColorRule>
+            m_strNarrationVisualNovel: 0x170, // CUtlString
+            m_mapNarrationDialogues: 0x178, // CUtlOrderedMap<CUtlString,CUtlString>
+            m_Theme: 0x370, // CDOTAOverworldTheme
+            m_vecTokenTypes: 0x3A8, // CUtlVector<CDOTAOverworldToken*>
+            m_vecTarotCards: 0x3D8, // CUtlVector<CDOTAOverworldTarotCard*>
+            m_vecFortuneTellerRewards: 0x3F0, // CUtlVector<CDOTAOverworldFortuneTellerReward*>
+            m_vecFortuneForcedReveals: 0x408, // CUtlVector<CDOTAOverworldFortuneForcedReveal*>
+            m_vecFortuneTellerFixedReward: 0x420, // CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
+            m_vecFortuneTellerStoryNodes: 0x438, // CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
+            m_vecHeroRewards: 0x478, // CUtlVector<CDOTAOverworldHeroReward*>
+            m_vecNodes: 0x490, // CUtlVector<CDOTAOverworldNode*>
+            m_vecPaths: 0x4A8, // CUtlVector<CDOTAOverworldPath*>
+            m_vecRooms: 0x4C0, // CUtlVector<CDOTAOverworldRoom*>
+            m_vecEncounters: 0x4D8, // CUtlVector<CDOTAOverworldEncounter*>
+            m_vecHeroes: 0x4F0, // CUtlVector<CDOTAOverworldHero*>
+            m_vecCharacters: 0x508, // CUtlVector<CDOTAOverworldCharacter*>
+            m_vecClickables: 0x520, // CUtlVector<CDOTAOverworldClickable*>
+            m_vecRoomGroups: 0x600, // CUtlVector<CDOTAOverworldRoomGroup*>
         },
         SNewSettingsDefinition: {
             nID: 0x0, // NewSettingsID_t
@@ -31066,6 +31172,9 @@ export const Schemas = {
             m_bFacingLeft: 0x30, // bool
             m_flYawOffset: 0x34, // float32
         },
+        DOTACrateDropObjectDefID_t: {
+            m_Value: 0x0, // uint32
+        },
         SettingsSearchDataIndex_t: {
             m_Value: 0x0, // int32
         },
@@ -31105,6 +31214,44 @@ export const Schemas = {
             m_nCancelActionID: 0x1C, // EFightingGameActionID
             m_strCancelActionName: 0x20, // CUtlString
         },
+        CDOTACrateDropObjectDef: {
+            m_unID: 0x10, // DOTACrateDropObjectDefID_t
+            m_eType: 0x14, // EDOTACrateDropObjectType
+            m_sParentName: 0x18, // CUtlString
+            m_sEntityClassName: 0x20, // CUtlString
+            m_sModel: 0x28, // CUtlString
+            m_sSearchEntity: 0x30, // CUtlString
+            m_vSpawnMin: 0x38, // Vector
+            m_vSpawnMax: 0x44, // Vector
+            m_vSpawnVelocityMin: 0x50, // Vector
+            m_vSpawnVelocityMax: 0x5C, // Vector
+            m_flFriction: 0x68, // float32
+            m_flFrictionScale: 0x6C, // float32
+            m_flGravityScale: 0x70, // float32
+            m_flInertiaInv: 0x74, // float32
+            m_flAcceleration: 0x78, // float32
+            m_flMaxSpeed: 0x7C, // float32
+            m_nMassPriority: 0x80, // int8
+            m_nNoDraw: 0x81, // int8
+            m_flMass: 0x84, // float32
+            m_flScale: 0x88, // float32
+            m_flTriggerDelay: 0x8C, // float32
+            m_flTriggeredGravityScale: 0x90, // float32
+            m_flFirstRowOffset: 0x94, // float32
+            m_flSecondRowOffset: 0x98, // float32
+            m_flAbilityCooldown: 0x9C, // float32
+            m_nFirstRowWeight: 0xA0, // int8
+            m_nSecondRowWeight: 0xA1, // int8
+            m_flHeightVisualizationStep: 0xA4, // float32
+            m_flMultiplierStep: 0xA8, // float32
+            m_flMultiplierFactor: 0xAC, // float32
+            m_nDisableSpawnRotation: 0xB0, // int8
+            m_nTutorialObject: 0xB1, // int8
+            m_sSpawnSound: 0xB8, // CUtlString
+            m_sLoopSound: 0xC0, // CUtlString
+            m_sDestroySound: 0xC8, // CUtlString
+            m_sCatchSound: 0xD0, // CUtlString
+        },
         CDOTAOverworldTheme: {
             m_sButtonType: 0x0, // CUtlString
             m_sTokenType: 0x8, // CUtlString
@@ -31139,6 +31286,11 @@ export const Schemas = {
             m_vecUpgradeIDs: 0x8, // CUtlVector<SurvivorsUpgradeID_t>
             m_bShardUpgraded: 0x20, // bool
             m_bScepterUpgraded: 0x21, // bool
+        },
+        CDOTACrateDropTable: {
+            m_sDropType: 0x0, // CUtlString
+            szDropName: 0x8, // CUtlString
+            nDropWeight: 0x10, // int32
         },
         CShmupEventDefinition: {
             m_type: 0x8, // EShmupEventType
@@ -31285,6 +31437,9 @@ export const Schemas = {
             bOverrideBackToDefault: 0x4, // bool
             Lighting: 0x8, // CrownfallSurvivorsLightingEnvironment_t
         },
+        CDOTACrateDropPowerupDef: {
+            m_ePowerupType: 0xE8, // EDOTACrateDropPowerupType
+        },
         CClientAlphaProperty: {
             m_nDistFadeStart: 0x10, // uint16
             m_nDistFadeEnd: 0x12, // uint16
@@ -31306,6 +31461,7 @@ export const Schemas = {
             m_bLooping: 0x10, // bool
             m_flAllowSkipAfterDelay: 0x14, // float32
             m_sVideoPath: 0x18, // CUtlString
+            m_sSoundEventName: 0x20, // CUtlString
         },
         CDOTAOverworldHeroReward: {
             m_unHeroID: 0x0, // HeroID_t
@@ -31946,6 +32102,64 @@ export const Schemas = {
             m_flRadius: 0x8, // float32
             m_nHitRegionIndex: 0xC, // int32
             m_nDamageMultiplier: 0x10, // int32
+        },
+        l: {
+        },
+        _: {
+        },
+        _: {
+        },
+        _: {
+        },
+        _: {
+        },
+        _: {
+        },
+        _: {
+        },
+        _: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _____4ֱ_T6________H___________oN_6xNüT_________C__y__Y________y2___q____V___UMΠ_Ӓ__JʑkB_____n__ӕ_D______DpW_de________ѱ__: {
+        },
+        _d_____7________p__do__F_FՕ__瘽ܭ: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
+        },
+        _z_7__: {
         },
     },
 };

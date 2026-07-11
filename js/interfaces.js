@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-08 15:27:57.237814500 +07:00
+// 2026-07-11 10:36:12.030283600 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -7,16 +7,16 @@ export const Interfaces = {
         AnimationSystem_001: 0x831E30,
     },
     client_dll: {
-        ClientToolsInfo_001: 0x59C3950,
-        DOTA_CLIENT_GCCLIENT: 0x628F6A0,
-        GameClientExports001: 0x59BF678,
-        LegacyGameUI001: 0x5A2DB30,
-        PanoramaUIClient001: 0x5A58580,
-        PlayButtonService001: 0x5A39C60,
-        Source2Client002: 0x60E2AE0,
-        Source2ClientConfig001: 0x608AB80,
-        Source2ClientPrediction001: 0x59C7E30,
-        Source2ClientUI001: 0x57B15C0,
+        ClientToolsInfo_001: 0x59F2950,
+        DOTA_CLIENT_GCCLIENT: 0x62C0060,
+        GameClientExports001: 0x59EE678,
+        LegacyGameUI001: 0x5A5CB60,
+        PanoramaUIClient001: 0x5A889C0,
+        PlayButtonService001: 0x5A6A2A8,
+        Source2Client002: 0x6113460,
+        Source2ClientConfig001: 0x60BB4C0,
+        Source2ClientPrediction001: 0x59F6E30,
+        Source2ClientUI001: 0x57E05C0,
     },
     engine2_dll: {
         BenchmarkService001: 0x6124D0,
@@ -131,14 +131,14 @@ export const Interfaces = {
         SchemaSystem_001: 0x75630,
     },
     server_dll: {
-        EntitySubclassUtilsV001: 0x473FA00,
-        NavGameTest001: 0x49E2B50,
-        ServerToolsInfo_001: 0x494BFA8,
-        Source2GameClients001: 0x4946160,
-        Source2GameDirector001: 0x5023EB0,
-        Source2GameEntities001: 0x494B750,
-        Source2Server001: 0x494B5A0,
-        Source2ServerConfig001: 0x4F4E498,
+        EntitySubclassUtilsV001: 0x4740A00,
+        NavGameTest001: 0x49E3A50,
+        ServerToolsInfo_001: 0x494CE98,
+        Source2GameClients001: 0x4947050,
+        Source2GameDirector001: 0x5024DA0,
+        Source2GameEntities001: 0x494C640,
+        Source2Server001: 0x494C490,
+        Source2ServerConfig001: 0x4F4F3A8,
     },
     soundsystem_dll: {
         SoundBugBugService001_Client: 0x553250,
