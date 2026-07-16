@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-11 10:36:12.030283600 +07:00
+// 2026-07-16 16:42:29.142708300 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -9,16 +9,16 @@ namespace Source2Dumper.Interfaces {
     }
     // Module: client.dll
     public static class ClientDll {
-        public const nint ClientToolsInfo_001 = 0x59F2950;
-        public const nint DOTA_CLIENT_GCCLIENT = 0x62C0060;
-        public const nint GameClientExports001 = 0x59EE678;
-        public const nint LegacyGameUI001 = 0x5A5CB60;
-        public const nint PanoramaUIClient001 = 0x5A889C0;
-        public const nint PlayButtonService001 = 0x5A6A2A8;
-        public const nint Source2Client002 = 0x6113460;
-        public const nint Source2ClientConfig001 = 0x60BB4C0;
-        public const nint Source2ClientPrediction001 = 0x59F6E30;
-        public const nint Source2ClientUI001 = 0x57E05C0;
+        public const nint ClientToolsInfo_001 = 0x59F3950;
+        public const nint DOTA_CLIENT_GCCLIENT = 0x62C1070;
+        public const nint GameClientExports001 = 0x59EF678;
+        public const nint LegacyGameUI001 = 0x5A5DB40;
+        public const nint PanoramaUIClient001 = 0x5A899A0;
+        public const nint PlayButtonService001 = 0x5A6B288;
+        public const nint Source2Client002 = 0x6114460;
+        public const nint Source2ClientConfig001 = 0x60BC4C0;
+        public const nint Source2ClientPrediction001 = 0x59F7E30;
+        public const nint Source2ClientUI001 = 0x57E15C0;
     }
     // Module: engine2.dll
     public static class Engine2Dll {
@@ -160,7 +160,7 @@ namespace Source2Dumper.Interfaces {
         public const nint Source2GameDirector001 = 0x5024DA0;
         public const nint Source2GameEntities001 = 0x494C640;
         public const nint Source2Server001 = 0x494C490;
-        public const nint Source2ServerConfig001 = 0x4F4F3A8;
+        public const nint Source2ServerConfig001 = 0x4F4F398;
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {

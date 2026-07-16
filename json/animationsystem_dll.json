@@ -372,7 +372,7 @@
             "type": "Unknown"
           },
           {
-            "name": "c",
+            "name": "SA_GLSL_CACHE_DIR=E:\\SteamLibrary\\steamapps\\shadercache\\570",
             "type": "Unknown"
           },
           {
@@ -2016,6 +2016,10 @@
             "type": "Unknown"
           },
           {
+            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2106,6 +2110,10 @@
             "type": "Unknown"
           },
           {
+            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2190,6 +2198,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
             "type": "Unknown"
           },
           {
@@ -2302,6 +2314,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
             "type": "Unknown"
           },
           {
@@ -2740,7 +2756,7 @@
             "type": "Unknown"
           },
           {
-            "name": "e",
+            "name": "c",
             "type": "Unknown"
           },
           {
@@ -3312,7 +3328,7 @@
             "type": "Unknown"
           },
           {
-            "name": "npc_dota_juggernaut_healing_ward",
+            "name": "_giant_wolf",
             "type": "Unknown"
           },
           {
@@ -3348,7 +3364,7 @@
             "type": "Unknown"
           },
           {
-            "name": "npc_dota_juggernaut_healing_ward",
+            "name": "_giant_wolf",
             "type": "Unknown"
           },
           {
@@ -3485,7 +3501,7 @@
             "type": "Unknown"
           },
           {
-            "name": "npc_dota_juggernaut_healing_ward",
+            "name": "_giant_wolf",
             "type": "Unknown"
           },
           {
@@ -7713,10 +7729,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7814,10 +7826,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7839,10 +7847,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -7876,10 +7880,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7900,10 +7900,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -8835,10 +8831,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -10628,10 +10620,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
             "type": "Unknown"
           }
         ],
@@ -13771,10 +13759,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -16629,10 +16613,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -17622,7 +17602,7 @@
             "type": "Unknown"
           },
           {
-            "name": "e",
+            "name": "c",
             "type": "Unknown"
           },
           {
@@ -17780,7 +17760,7 @@
             "type": "Unknown"
           },
           {
-            "name": "e",
+            "name": "c",
             "type": "Unknown"
           },
           {
@@ -18118,6 +18098,10 @@
             "type": "Unknown"
           },
           {
+            "name": "COLOR",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -18352,6 +18336,10 @@
             "type": "Unknown"
           },
           {
+            "name": "COLOR",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -18444,10 +18432,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -18460,7 +18444,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           }
         ],
@@ -18720,10 +18704,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -18736,7 +18716,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           },
           {
@@ -18791,7 +18771,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           },
           {
@@ -18955,6 +18935,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SModulePath=C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -19206,10 +19190,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -19222,7 +19202,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           },
           {
@@ -19305,6 +19285,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SModulePath=C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -20072,7 +20056,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "m32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\",
             "type": "Unknown"
           }
         ],
@@ -23491,10 +23475,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
             "type": "Unknown"
           }
         ],

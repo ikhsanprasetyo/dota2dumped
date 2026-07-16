@@ -1132,10 +1132,6 @@
             "type": "Unknown"
           },
           {
-            "name": "pData\\Local\\pnpm",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
             "type": "Unknown"
           },
@@ -38076,6 +38072,10 @@
             "type": "Unknown"
           },
           {
+            "name": "hm",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -38299,6 +38299,10 @@
             "type": "Unknown"
           },
           {
+            "name": "hm",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -38435,6 +38439,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "hm",
             "type": "Unknown"
           },
           {
@@ -38768,6 +38776,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "hm",
             "type": "Unknown"
           },
           {
@@ -39135,6 +39147,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "hm",
             "type": "Unknown"
           },
           {
@@ -40313,6 +40329,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "loat",
             "type": "Unknown"
           },
           {
@@ -41559,10 +41579,6 @@
             "type": "Unknown"
           },
           {
-            "name": "ocal\\pnpm",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -41663,10 +41679,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "ocal\\pnpm",
             "type": "Unknown"
           },
           {
@@ -42067,10 +42079,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "ocal\\pnpm",
             "type": "Unknown"
           },
           {
@@ -42972,6 +42980,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "loat",
             "type": "Unknown"
           },
           {
@@ -44255,10 +44267,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "CGCClientJobProfileCardUpdated",
             "type": "Unknown"
           },
           {
@@ -55389,12 +55397,7 @@
           "m_unPrimaryColor": 3347,
           "m_unSecondaryColor": 3348
         },
-        "metadata": [
-          {
-            "name": "yteseekerPC\\AppData\\Local\\pnpm",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_DynamicProp"
       },
       "C_DOTA_GuildBannerProp": {
@@ -58333,10 +58336,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "pData\\Local\\pnpm",
-            "type": "Unknown"
           }
         ],
         "parent": "CBaseAnimatingActivity"
@@ -59775,6 +59774,14 @@
             "type": "Unknown"
           },
           {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -60879,10 +60886,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "CGCClientJobProfileCardUpdated",
             "type": "Unknown"
           },
           {
@@ -62914,24 +62917,267 @@
         ],
         "parent": null
       },
-      "_": {
+      "____M_": {
         "fields": {},
         "metadata": [],
         "parent": null
       },
-      "_____4ֱ_T6________H___________oN_6xNüT_________C__y__Y________y2___q____V___UMΠ_Ӓ__JʑkB_____n__ӕ_D______DpW_de________ѱ__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_d_____7________p__do__F_FՕ__瘽ܭ": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_z_7__": {
-        "fields": {},
-        "metadata": [],
+      "_oS_M_": {
+        "fields": {
+          "acorn_shot_damage": 6744,
+          "animation_rate": 6764,
+          "attack_projectile_speed": 6772,
+          "bExploding": 6768,
+          "base_damage_pct": 6748,
+          "bonus_attack_damage": 6764,
+          "bonus_attack_range": 6768,
+          "bonus_movement_speed": 6760,
+          "bounce_delay": 6772,
+          "bounce_turn_angle": 6764,
+          "bounce_turn_angle_tree": 6768,
+          "charge_use_interval": 1704,
+          "damage": 1904,
+          "damage_interval": 6752,
+          "damage_max": 6828,
+          "damage_min": 6824,
+          "damage_radius": 6756,
+          "drag": 6752,
+          "duration": 1908,
+          "end_radius": 1708,
+          "evasion_chance": 6744,
+          "flying_movement": 6788,
+          "height": 6748,
+          "invul_duration": 6800,
+          "leap_acceleration": 6748,
+          "leap_speed": 6744,
+          "m_EntitiesHit": 6800,
+          "m_GuideStr": 2964,
+          "m_IllusionLabel": 529,
+          "m_ModelNameOfDisguise": 6752,
+          "m_QuickBuyStr": 3220,
+          "m_SpeechBubbles": 1560,
+          "m_TargetEntity": 1556,
+          "m_TargetLocation": 1544,
+          "m_UnitLabel": 260,
+          "m_UnitName": 0,
+          "m_ViewerTimer": 6768,
+          "m_actQueuedActivity": 6580,
+          "m_bAnimateDuringGameplayPause": 2764,
+          "m_bContracting": 6760,
+          "m_bDayTime": 2760,
+          "m_bDirtySelection": 10336,
+          "m_bHasWorldTreesChanged": 10337,
+          "m_bIsFlyingCourier": 6784,
+          "m_bIsIllusion": 528,
+          "m_bIsRadiantMiniboss": 1524,
+          "m_bNegativeHeroAdjective": 32,
+          "m_bNightTime": 2761,
+          "m_bParticlesSpawned": 6804,
+          "m_bShowInFow": 2762,
+          "m_bShowWhileDynamicWeatherActive": 2763,
+          "m_bSwapWillingness": 10339,
+          "m_bWasDataUpdateCreated": 1536,
+          "m_bWindingUp": 6756,
+          "m_bWorldTreeModelsChanged": 10338,
+          "m_eEvent": 0,
+          "m_fCurRadius": 6752,
+          "m_fDamage": 6744,
+          "m_fLastRadius": 6748,
+          "m_fLastThink": 6756,
+          "m_fMainEventStatAverage": 52,
+          "m_fMainEventStatStdDev": 56,
+          "m_fPlayoffsStatAverage": 44,
+          "m_fPlayoffsStatStdDev": 48,
+          "m_fStartTime": 1724,
+          "m_fStatAverage": 16,
+          "m_fStatStdDev": 20,
+          "m_fTotalTime": 1728,
+          "m_flDistRemaining": 6816,
+          "m_flLastChargeUseTime": 1712,
+          "m_flMaxSpeed": 6744,
+          "m_flModelScale": 6828,
+          "m_flSpeed": 6812,
+          "m_flTreeTimeRemaining": 6820,
+          "m_hBalloon": 1716,
+          "m_hCourier": 6780,
+          "m_hEntity": 524,
+          "m_hEntsHit": 1880,
+          "m_hLastHit": 6832,
+          "m_hOtherPortal": 6576,
+          "m_hOverrideModel": 2736,
+          "m_hOverrideSequence": 2728,
+          "m_hPlayerCouriers": 10784,
+          "m_hPrevTargetEntity": 3500,
+          "m_hRoshan": 1540,
+          "m_hTeamCouriers": 10424,
+          "m_iClientEffectIndex": 2700,
+          "m_iEntangleDamage": 6744,
+          "m_iKillCount": 1524,
+          "m_iLastKillerTeam": 1520,
+          "m_iOriginalAttackCapabilities": 6744,
+          "m_iTrackerProjectile": 1720,
+          "m_iszFilteredHTMLSafeName": 3424,
+          "m_iszHTMLSafeName": 2912,
+          "m_iszName": 2400,
+          "m_iszRangedAttackEffect": 6752,
+          "m_mapBingoStatsByName": 96,
+          "m_nCourierItemId": 6744,
+          "m_nDisguiseEffectIndex": 6776,
+          "m_nDisguisedSpeed": 6772,
+          "m_nEventNPCReplaced": 12560,
+          "m_nEventPlayerInfo": 12564,
+          "m_nFXIndex": 6792,
+          "m_nHeroID": 6576,
+          "m_nInventoryUpdated": 12568,
+          "m_nLocationID": 2960,
+          "m_nMaxLeaguePhase": 40,
+          "m_nMaxSquareUpgrades": 20,
+          "m_nMinLeaguePhase": 36,
+          "m_nMoveSpeed": 6768,
+          "m_nNumSteps": 6756,
+          "m_nObsoleteEventIDAssociatedWithEventData": 1884,
+          "m_nPreShopState": 3484,
+          "m_nPreTutorialState": 3476,
+          "m_nPreUIState": 3480,
+          "m_nPreviewFX": 6744,
+          "m_nPrimaryEventIndex": 1880,
+          "m_nProjectileID": 6744,
+          "m_nRadiusFX": 1708,
+          "m_nRadiusStep": 6760,
+          "m_nRerollSquareCost": 12,
+          "m_nShopState": 1540,
+          "m_nShuffleCardCost": 8,
+          "m_nSkinOverride": 2756,
+          "m_nTaskProgress": 1524,
+          "m_nTaskSecondsRemianing": 1532,
+          "m_nTaskSteps": 1528,
+          "m_nTimesBounced": 6824,
+          "m_nTutorialState": 1520,
+          "m_nType": 2696,
+          "m_nUIState": 1536,
+          "m_nUpgradeSquareCost": 16,
+          "m_nVisualTeam": 1520,
+          "m_nWarningFX": 1704,
+          "m_nfxAmbientFx": 6752,
+          "m_nfxPortal1": 6756,
+          "m_nfxPortal2": 6760,
+          "m_nfxTargetTp": 6744,
+          "m_nfxTargetTp2": 6748,
+          "m_pPlayerIDToOnstageSlot": 12344,
+          "m_playerIDToPawn": 2144,
+          "m_playerIDToPlayer": 1888,
+          "m_sLocName": 64,
+          "m_sLocTooltip": 72,
+          "m_strExclusiveString": 8,
+          "m_strHeroAdjective": 24,
+          "m_szAreaName": 2760,
+          "m_szControlPoint": 2720,
+          "m_szEffectName": 2704,
+          "m_szModelName": 2696,
+          "m_szQueuedActivityModifier": 6584,
+          "m_szTargetName": 2712,
+          "m_unLeagueID": 4,
+          "m_unUnitLabelIndex": 520,
+          "m_vDir": 6800,
+          "m_vLastPos": 6788,
+          "m_vModelScale": 2744,
+          "m_vRoshanAltLocation": 1528,
+          "m_vStartPos": 1712,
+          "m_vTarget": 1708,
+          "m_vecBrodcasterData": 1752,
+          "m_vecEventsForDisplay": 1856,
+          "m_vecExpectedMatchCountsPerPhase": 24,
+          "m_vecLeaguePhases": 48,
+          "m_vecOnstageHomeTeams": 12320,
+          "m_vecOnstagePlayerSeats": 12536,
+          "m_vecPlayerData": 1648,
+          "m_vecPlayerTeamData": 1544,
+          "m_vecPrevTargetLocation": 3488,
+          "m_vecValidStatRangesPerPhase": 72,
+          "magic_resistance": 6776,
+          "mana_drained_per_attack": 6752,
+          "mana_multiplier": 6748,
+          "max_bounces": 6776,
+          "max_distance": 1704,
+          "max_duration": 1704,
+          "max_height": 6756,
+          "max_model_scale": 6780,
+          "max_steps": 6748,
+          "max_usable_charges": 1708,
+          "max_vertical_move_time": 6760,
+          "min_distance_before_bounce": 6748,
+          "model_scale": 6780,
+          "nova_damage": 1704,
+          "power_growth_exponent": 6784,
+          "radius": 6744,
+          "s_pszDonkeyDisguise": 6792,
+          "skin_number": 6784,
+          "slow_duration": 6840,
+          "slow_max": 6836,
+          "slow_min": 6832,
+          "speed": 6824,
+          "spend_charge_delay": 1912,
+          "start_radius": 1704,
+          "stop_distance": 6768,
+          "stun_duration": 6772,
+          "vision_duration": 6760,
+          "vision_radius": 6756,
+          "windup_time": 6844
+        },
+        "metadata": [
+          {
+            "name": "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+            "type": "Unknown"
+          },
+          {
+            "name": "y_hop",
+            "type": "Unknown"
+          },
+          {
+            "name": "x",
+            "type": "Unknown"
+          },
+          {
+            "name": "kground-image: url(\"s2r://panorama/images/econ/loading_screens/phantasmal_disruptions_loading_screen_png.vtex\");background-posit",
+            "type": "Unknown"
+          },
+          {
+            "name": "8_png.vtex",
+            "type": "Unknown"
+          },
+          {
+            "name": "ceContainerDefault",
+            "type": "Unknown"
+          },
+          {
+            "name": "_AxeBlinkCall_Title",
+            "type": "Unknown"
+          },
+          {
+            "name": "Bonus_HP_Regen_15",
+            "type": "Unknown"
+          },
+          {
+            "name": "tionMotion2;}#WhiteBox3 .Reflection{animation-name: ReflectionMotion3;}@keyframes 'ReflectionMotion1'{0%{transform: rotateZ(-210",
+            "type": "Unknown"
+          },
+          {
+            "name": "center;horizontal-align: center;margin: 0px 0px -2px 0px;}.NoHotkey .Hotkey{visibility: collapse;}.NeutralChoiceHolder{width: fi",
+            "type": "Unknown"
+          },
+          {
+            "name": "?",
+            "type": "Unknown"
+          },
+          {
+            "name": "ngle_stalker",
+            "type": "Unknown"
+          },
+          {
+            "name": "ngle_stalker",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "audioparams_t": {
@@ -62984,11 +63230,6 @@
             "type": "Unknown"
           }
         ],
-        "parent": null
-      },
-      "l": {
-        "fields": {},
-        "metadata": [],
         "parent": null
       },
       "sControlGroupElem": {
@@ -64786,7 +65027,7 @@
         "type": "uint32"
       },
       "H____WH___H__H_ڹh": {
-        "alignment": 28,
+        "alignment": 44,
         "members": {},
         "type": "unknown"
       },

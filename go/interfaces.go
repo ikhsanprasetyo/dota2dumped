@@ -1,21 +1,21 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-11 10:36:12.030283600 +07:00
+// 2026-07-16 16:42:29.142708300 +07:00
 
 package interfaces
 
 const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x839F10
     AnimationsystemDll_AnimationSystem_001 = 0x831E30
-    ClientDll_ClientToolsInfo_001 = 0x59F2950
-    ClientDll_DOTA_CLIENT_GCCLIENT = 0x62C0060
-    ClientDll_GameClientExports001 = 0x59EE678
-    ClientDll_LegacyGameUI001 = 0x5A5CB60
-    ClientDll_PanoramaUIClient001 = 0x5A889C0
-    ClientDll_PlayButtonService001 = 0x5A6A2A8
-    ClientDll_Source2Client002 = 0x6113460
-    ClientDll_Source2ClientConfig001 = 0x60BB4C0
-    ClientDll_Source2ClientPrediction001 = 0x59F6E30
-    ClientDll_Source2ClientUI001 = 0x57E05C0
+    ClientDll_ClientToolsInfo_001 = 0x59F3950
+    ClientDll_DOTA_CLIENT_GCCLIENT = 0x62C1070
+    ClientDll_GameClientExports001 = 0x59EF678
+    ClientDll_LegacyGameUI001 = 0x5A5DB40
+    ClientDll_PanoramaUIClient001 = 0x5A899A0
+    ClientDll_PlayButtonService001 = 0x5A6B288
+    ClientDll_Source2Client002 = 0x6114460
+    ClientDll_Source2ClientConfig001 = 0x60BC4C0
+    ClientDll_Source2ClientPrediction001 = 0x59F7E30
+    ClientDll_Source2ClientUI001 = 0x57E15C0
     Engine2Dll_BenchmarkService001 = 0x6124D0
     Engine2Dll_BugBugService001 = 0x6125D0
     Engine2Dll_BugService001 = 0x8CAD60
@@ -97,7 +97,7 @@ const (
     ServerDll_Source2GameDirector001 = 0x5024DA0
     ServerDll_Source2GameEntities001 = 0x494C640
     ServerDll_Source2Server001 = 0x494C490
-    ServerDll_Source2ServerConfig001 = 0x4F4F3A8
+    ServerDll_Source2ServerConfig001 = 0x4F4F398
     SoundsystemDll_SoundBugBugService001_Client = 0x553250
     SoundsystemDll_SoundOpSystem001 = 0x553130
     SoundsystemDll_SoundOpSystemEdit001 = 0x553040

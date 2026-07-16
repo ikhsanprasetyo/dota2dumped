@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-11 10:36:12.030283600 +07:00
+// 2026-07-16 16:42:29.142708300 +07:00
 
 #pragma once
 
@@ -15,16 +15,16 @@ namespace source2_dumper {
         }
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x59F2950;
-            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x62C0060;
-            constexpr std::ptrdiff_t GameClientExports001 = 0x59EE678;
-            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5A5CB60;
-            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5A889C0;
-            constexpr std::ptrdiff_t PlayButtonService001 = 0x5A6A2A8;
-            constexpr std::ptrdiff_t Source2Client002 = 0x6113460;
-            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x60BB4C0;
-            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x59F6E30;
-            constexpr std::ptrdiff_t Source2ClientUI001 = 0x57E05C0;
+            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x59F3950;
+            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x62C1070;
+            constexpr std::ptrdiff_t GameClientExports001 = 0x59EF678;
+            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5A5DB40;
+            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5A899A0;
+            constexpr std::ptrdiff_t PlayButtonService001 = 0x5A6B288;
+            constexpr std::ptrdiff_t Source2Client002 = 0x6114460;
+            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x60BC4C0;
+            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x59F7E30;
+            constexpr std::ptrdiff_t Source2ClientUI001 = 0x57E15C0;
         }
         // Module: engine2.dll
         namespace engine2_dll {
@@ -166,7 +166,7 @@ namespace source2_dumper {
             constexpr std::ptrdiff_t Source2GameDirector001 = 0x5024DA0;
             constexpr std::ptrdiff_t Source2GameEntities001 = 0x494C640;
             constexpr std::ptrdiff_t Source2Server001 = 0x494C490;
-            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F4F3A8;
+            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F4F398;
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {

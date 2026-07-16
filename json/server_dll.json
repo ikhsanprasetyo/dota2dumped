@@ -62,7 +62,7 @@
             "type": "Unknown"
           },
           {
-            "name": "D",
+            "name": "\\dumps",
             "type": "Unknown"
           }
         ],
@@ -91,7 +91,7 @@
             "type": "Unknown"
           },
           {
-            "name": "D",
+            "name": "\\dumps",
             "type": "Unknown"
           }
         ],
@@ -311,7 +311,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "eline_cache.foz",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AbilityID_t": {
@@ -460,10 +465,6 @@
             "type": "Unknown"
           },
           {
-            "name": "C\\AppData\\Local\\pnpm",
-            "type": "Unknown"
-          },
-          {
             "name": "S",
             "type": "Unknown"
           },
@@ -581,10 +582,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "pData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -18996,10 +18993,6 @@
           "m_unSecondaryColor": 2548
         },
         "metadata": [
-          {
-            "name": "teseekerPC\\AppData\\Local\\pnpm",
-            "type": "Unknown"
-          },
           {
             "name": "n",
             "type": "Unknown"
@@ -54318,6 +54311,14 @@
             "type": "Unknown"
           },
           {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
             "name": "ROTATOR_TARGET_LOCALSPACE",
             "type": "Unknown"
           },
@@ -54532,10 +54533,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "pData\\Local\\pnpm",
             "type": "Unknown"
           },
           {
@@ -59314,6 +59311,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "ps",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -60184,7 +60185,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "m32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\",
             "type": "Unknown"
           }
         ],
@@ -63510,7 +63511,7 @@
             "type": "Unknown"
           },
           {
-            "name": "70\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "_shader_cache;steamapp_merged_shader_cache",
             "type": "Unknown"
           }
         ],
@@ -63767,10 +63768,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "AppData\\Local\\pnpm",
             "type": "Unknown"
           }
         ],
@@ -64549,10 +64546,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "AppData\\Local\\pnpm",
             "type": "Unknown"
           }
         ],
@@ -80602,17 +80595,17 @@
         },
         "type": "uint32"
       },
-      "__DV__": {
+      "___L_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "__L__": {
+      "____L_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___L__": {
+      "_r__L_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

@@ -313,7 +313,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           },
           {
@@ -329,7 +329,7 @@
             "type": "Unknown"
           },
           {
-            "name": "npc_dota_juggernaut_healing_ward",
+            "name": "_giant_wolf",
             "type": "Unknown"
           }
         ],
@@ -495,7 +495,7 @@
             "type": "Unknown"
           },
           {
-            "name": "npc_dota_juggernaut_healing_ward",
+            "name": "_giant_wolf",
             "type": "Unknown"
           }
         ],
@@ -641,7 +641,7 @@
             "type": "Unknown"
           },
           {
-            "name": "npc_dota_juggernaut_healing_ward",
+            "name": "_giant_wolf",
             "type": "Unknown"
           }
         ],
@@ -686,7 +686,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           }
         ],
@@ -1540,7 +1540,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           }
         ],
@@ -1887,7 +1887,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           }
         ],
@@ -2016,7 +2016,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           }
         ],
@@ -2588,7 +2588,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": "dumps",
             "type": "Unknown"
           }
         ],
@@ -7293,6 +7293,10 @@
             "type": "Unknown"
           },
           {
+            "name": "SModulePath=C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11129,7 +11133,7 @@
             "type": "Unknown"
           },
           {
-            "name": "npc_dota_juggernaut_healing_ward",
+            "name": "_giant_wolf",
             "type": "Unknown"
           }
         ],

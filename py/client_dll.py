@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-07-11 10:36:12.030283600 +07:00
+# 2026-07-16 16:42:29.142708300 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -28281,61 +28281,240 @@ class Schemas:
             m_flRadius = 0x8 # float32
             m_nHitRegionIndex = 0xC # int32
             m_nDamageMultiplier = 0x10 # int32
-        class l:
+        class _oS_M_:
+            m_nHeroID = 0x19B0 # HeroID_t
+            m_actQueuedActivity = 0x19B4 # int32
+            m_szQueuedActivityModifier = 0x19B8 # char[64]
+            m_UnitName = 0x0 # char[260]
+            m_UnitLabel = 0x104 # char[260]
+            m_unUnitLabelIndex = 0x208 # uint8
+            m_hEntity = 0x20C # CHandle<C_BaseEntity>
+            m_bIsIllusion = 0x210 # bool
+            m_IllusionLabel = 0x211 # char[260]
+            m_bWasDataUpdateCreated = 0x600 # bool
+            m_vecPlayerTeamData = 0x608 # C_UtlVectorEmbeddedNetworkVar<PlayerResourcePlayerTeamData_t>
+            m_vecPlayerData = 0x670 # C_UtlVectorEmbeddedNetworkVar<PlayerResourcePlayerData_t>
+            m_vecBrodcasterData = 0x6D8 # C_UtlVectorEmbeddedNetworkVar<PlayerResourceBroadcasterData_t>
+            m_vecEventsForDisplay = 0x740 # C_NetworkUtlVectorBase<uint32>
+            m_nPrimaryEventIndex = 0x758 # int8
+            m_nObsoleteEventIDAssociatedWithEventData = 0x75C # uint32
+            m_playerIDToPlayer = 0x760 # CHandle<C_BaseEntity>[64]
+            m_playerIDToPawn = 0x860 # CHandle<C_BaseEntity>[64]
+            m_iszName = 0x960 # CUtlSymbolLarge[64]
+            m_iszHTMLSafeName = 0xB60 # CUtlSymbolLarge[64]
+            m_iszFilteredHTMLSafeName = 0xD60 # CUtlSymbolLarge[64]
+            m_bDirtySelection = 0x2860 # bool
+            m_bHasWorldTreesChanged = 0x2861 # bool
+            m_bWorldTreeModelsChanged = 0x2862 # bool
+            m_bSwapWillingness = 0x2863 # bool[24]
+            m_hTeamCouriers = 0x28B8 # CUtlVector<CHandle<C_DOTA_Unit_Courier>>[15]
+            m_hPlayerCouriers = 0x2A20 # CUtlVector<CHandle<C_DOTA_Unit_Courier>>[64]
+            m_vecOnstageHomeTeams = 0x3020 # CUtlVector<uint32>
+            m_pPlayerIDToOnstageSlot = 0x3038 # PlayerSeatAssignment_t*[24]
+            m_vecOnstagePlayerSeats = 0x30F8 # CUtlVector<PlayerSeatAssignment_t>
+            m_nEventNPCReplaced = 0x3110 # int32
+            m_nEventPlayerInfo = 0x3114 # int32
+            m_nInventoryUpdated = 0x3118 # int32
+            m_iLastKillerTeam = 0x5F0 # int32
+            m_iKillCount = 0x5F4 # int32
+            m_vRoshanAltLocation = 0x5F8 # Vector
+            m_hRoshan = 0x604 # CHandle<C_BaseEntity>
+            m_nVisualTeam = 0x5F0 # int32
+            m_bIsRadiantMiniboss = 0x5F4 # bool
+            m_nTutorialState = 0x5F0 # int32
+            m_nTaskProgress = 0x5F4 # int32
+            m_nTaskSteps = 0x5F8 # int32
+            m_nTaskSecondsRemianing = 0x5FC # int32
+            m_nUIState = 0x600 # int32
+            m_nShopState = 0x604 # int32
+            m_TargetLocation = 0x608 # VectorWS
+            m_TargetEntity = 0x614 # CHandle<C_BaseEntity>
+            m_SpeechBubbles = 0x618 # C_UtlVectorEmbeddedNetworkVar<C_SpeechBubbleInfo>
+            m_nLocationID = 0xB90 # int32
+            m_GuideStr = 0xB94 # char[256]
+            m_QuickBuyStr = 0xC94 # char[256]
+            m_nPreTutorialState = 0xD94 # int32
+            m_nPreUIState = 0xD98 # int32
+            m_nPreShopState = 0xD9C # int32
+            m_vecPrevTargetLocation = 0xDA0 # VectorWS
+            m_hPrevTargetEntity = 0xDAC # CHandle<C_BaseEntity>
+            m_szModelName = 0xA88 # char[64]
+            m_szAreaName = 0xAC8 # char[256]
+            m_nType = 0xA88 # int32
+            m_iClientEffectIndex = 0xA8C # ParticleIndex_t
+            m_szEffectName = 0xA90 # CUtlSymbolLarge
+            m_szTargetName = 0xA98 # CUtlSymbolLarge
+            m_szControlPoint = 0xAA0 # CUtlSymbolLarge
+            m_hOverrideSequence = 0xAA8 # HSequence
+            m_hOverrideModel = 0xAB0 # CStrongHandle<InfoForResourceTypeCModel>
+            m_vModelScale = 0xAB8 # Vector
+            m_nSkinOverride = 0xAC4 # int32
+            m_bDayTime = 0xAC8 # bool
+            m_bNightTime = 0xAC9 # bool
+            m_bShowInFow = 0xACA # bool
+            m_bShowWhileDynamicWeatherActive = 0xACB # bool
+            m_bAnimateDuringGameplayPause = 0xACC # bool
+            m_fLastRadius = 0x1A58 # float32
+            m_fCurRadius = 0x1A5C # float32
+            m_fLastThink = 0x1A60 # GameTime_t
+            m_bWindingUp = 0x1A64 # bool
+            m_ViewerTimer = 0x1A68 # CountdownTimer
+            m_nFXIndex = 0x1A80 # ParticleIndex_t
+            m_EntitiesHit = 0x1A88 # CUtlVector<CHandle<C_BaseEntity>>
+            speed = 0x1AA0 # int32
+            radius = 0x1AA4 # int32
+            damage_min = 0x1AA8 # int32
+            damage_max = 0x1AAC # int32
+            slow_min = 0x1AB0 # int32
+            slow_max = 0x1AB4 # int32
+            slow_duration = 0x1AB8 # float32
+            windup_time = 0x1ABC # float32
+            leap_speed = 0x1A58 # float32
+            leap_acceleration = 0x1A5C # float32
+            radius = 0x1A58 # int32
+            max_steps = 0x1A5C # int32
+            damage_interval = 0x1A60 # float32
+            m_nNumSteps = 0x1A64 # int32
+            m_nRadiusStep = 0x1A68 # int32
+            m_nFXIndex = 0x1A6C # ParticleIndex_t
+            m_vDir = 0x1A70 # Vector
+            m_iEntangleDamage = 0x1A58 # float32
+            damage = 0x1A58 # int32
+            radius = 0x1A5C # float32
+            m_nFXIndex = 0x1A60 # ParticleIndex_t
+            stun_duration = 0x1A58 # float32
+            charge_use_interval = 0x6A8 # float32
+            max_usable_charges = 0x6AC # float32
+            m_flLastChargeUseTime = 0x6B0 # GameTime_t
+            m_hBalloon = 0x6B4 # CHandle<C_BaseEntity>
+            duration = 0x1A58 # float32
+            damage = 0x1A5C # int32
+            m_nFXIndex = 0x6A8 # ParticleIndex_t
+            speed = 0x1A58 # float32
+            min_distance_before_bounce = 0x1A5C # int32
+            drag = 0x1A60 # float32
+            max_height = 0x1A64 # float32
+            max_vertical_move_time = 0x1A68 # float32
+            bounce_turn_angle = 0x1A6C # float32
+            bounce_turn_angle_tree = 0x1A70 # float32
+            bounce_delay = 0x1A74 # float32
+            max_bounces = 0x1A78 # int32
+            max_model_scale = 0x1A7C # float32
+            power_growth_exponent = 0x1A80 # float32
+            m_vLastPos = 0x1A84 # VectorWS
+            m_vDir = 0x1A90 # Vector
+            m_flSpeed = 0x1A9C # float32
+            m_flDistRemaining = 0x1AA0 # float32
+            m_flTreeTimeRemaining = 0x1AA4 # float32
+            m_nTimesBounced = 0x1AA8 # int32
+            m_flModelScale = 0x1AAC # float32
+            m_hLastHit = 0x1AB0 # CHandle<C_BaseEntity>
+            m_strExclusiveString = 0x8 # CUtlString
+            m_fStatAverage = 0x10 # float32
+            m_fStatStdDev = 0x14 # float32
+            m_strHeroAdjective = 0x18 # CUtlString
+            m_bNegativeHeroAdjective = 0x20 # bool
+            m_nMinLeaguePhase = 0x24 # int32
+            m_nMaxLeaguePhase = 0x28 # int32
+            m_fPlayoffsStatAverage = 0x2C # float32
+            m_fPlayoffsStatStdDev = 0x30 # float32
+            m_fMainEventStatAverage = 0x34 # float32
+            m_fMainEventStatStdDev = 0x38 # float32
+            m_sLocName = 0x40 # CUtlString
+            m_sLocTooltip = 0x48 # CUtlString
+            m_hOtherPortal = 0x19B0 # CHandle<C_BaseEntity>
+            m_eEvent = 0x0 # EEvent
+            m_unLeagueID = 0x4 # LeagueID_t
+            m_nShuffleCardCost = 0x8 # int32
+            m_nRerollSquareCost = 0xC # int32
+            m_nUpgradeSquareCost = 0x10 # int32
+            m_nMaxSquareUpgrades = 0x14 # int32
+            m_vecExpectedMatchCountsPerPhase = 0x18 # CUtlVector<float32>
+            m_vecLeaguePhases = 0x30 # CUtlVector<uint32>
+            m_vecValidStatRangesPerPhase = 0x48 # CUtlVector<CUtlVector<int32>>
+            m_mapBingoStatsByName = 0x60 # CUtlOrderedMap<CUtlString,CDOTABingoStatDefinition>
+            m_flMaxSpeed = 0x1A58 # float32
+            evasion_chance = 0x1A58 # int32
+            radius = 0x1A5C # int32
+            start_radius = 0x6A8 # int32
+            end_radius = 0x6AC # int32
+            m_vStartPos = 0x6B0 # VectorWS
+            m_fStartTime = 0x6BC # GameTime_t
+            m_fTotalTime = 0x6C0 # float32
+            max_duration = 0x6A8 # float32
+            m_nfxTargetTp = 0x1A58 # ParticleIndex_t
+            m_nfxTargetTp2 = 0x1A5C # ParticleIndex_t
+            m_nfxAmbientFx = 0x1A60 # ParticleIndex_t
+            m_nfxPortal1 = 0x1A64 # ParticleIndex_t
+            m_nfxPortal2 = 0x1A68 # ParticleIndex_t
+            animation_rate = 0x1A6C # float32
+            stop_distance = 0x1A70 # int32
+            max_distance = 0x6A8 # float32
+            m_vTarget = 0x6AC # VectorWS
+            m_iTrackerProjectile = 0x6B8 # int32
+            nova_damage = 0x6A8 # int32
+            duration = 0x1A58 # float32
+            height = 0x1A5C # int32
+            damage = 0x1A60 # int32
+            damage_radius = 0x1A64 # int32
+            m_nWarningFX = 0x6A8 # ParticleIndex_t
+            m_nRadiusFX = 0x6AC # ParticleIndex_t
+            m_nPreviewFX = 0x1A58 # ParticleIndex_t
+            radius = 0x1A5C # int32
+            damage = 0x1A60 # int32
+            vision_radius = 0x1A64 # int32
+            vision_duration = 0x1A68 # float32
+            model_scale = 0x1A6C # int32
+            bExploding = 0x1A70 # bool
+            stun_duration = 0x1A74 # float32
+            m_nCourierItemId = 0x1A58 # itemid_t
+            m_ModelNameOfDisguise = 0x1A60 # CUtlString
+            m_nMoveSpeed = 0x1A70 # int32
+            m_nDisguisedSpeed = 0x1A74 # int32
+            m_nDisguiseEffectIndex = 0x1A78 # ParticleIndex_t
+            m_hCourier = 0x1A7C # CHandle<C_BaseEntity>
+            m_bIsFlyingCourier = 0x1A80 # bool
+            s_pszDonkeyDisguise = 0x1A88 # char*
+            invul_duration = 0x1A90 # float32
+            m_bParticlesSpawned = 0x1A94 # bool
+            acorn_shot_damage = 0x1A58 # int32
+            base_damage_pct = 0x1A5C # int32
+            m_hEntsHit = 0x758 # CUtlVector<CHandle<C_BaseEntity>>
+            damage = 0x770 # int32
+            duration = 0x774 # float32
+            spend_charge_delay = 0x778 # float32
+            m_nProjectileID = 0x1A58 # int32
+            bonus_movement_speed = 0x758 # int32
+            bonus_attack_damage = 0x75C # int32
+            bonus_attack_range = 0x760 # int32
+            magic_resistance = 0x764 # int32
+            model_scale = 0x768 # int32
+            skin_number = 0x76C # int32
+            flying_movement = 0x770 # bool
+            m_fDamage = 0x1A58 # float32
+            m_fLastRadius = 0x1A5C # float32
+            m_fCurRadius = 0x1A60 # float32
+            m_fLastThink = 0x1A64 # GameTime_t
+            m_bContracting = 0x1A68 # bool
+            m_ViewerTimer = 0x1A70 # CountdownTimer
+            m_nFXIndex = 0x1A88 # ParticleIndex_t
+            m_EntitiesHit = 0x1A90 # CUtlVector<CHandle<C_BaseEntity>>
+            speed = 0x1AA8 # int32
+            radius = 0x1AAC # int32
+            m_iOriginalAttackCapabilities = 0x1A58 # int32
+            m_iszRangedAttackEffect = 0x1A60 # CUtlSymbolLarge
+            bonus_movement_speed = 0x1A68 # int32
+            bonus_attack_damage = 0x1A6C # int32
+            bonus_attack_range = 0x1A70 # int32
+            attack_projectile_speed = 0x1A74 # int32
+            magic_resistance = 0x1A78 # int32
+            model_scale = 0x1A7C # int32
+            skin_number = 0x1A80 # int32
+            flying_movement = 0x1A84 # bool
+            radius = 0x1A58 # float32
+            mana_multiplier = 0x1A5C # float32
+            mana_drained_per_attack = 0x1A60 # float32
+        class ____M_:
             pass
-        class _:
-            pass
-        class _:
-            pass
-        class _:
-            pass
-        class _:
-            pass
-        class _:
-            pass
-        class _:
-            pass
-        class _:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _____4ֱ_T6________H___________oN_6xNüT_________C__y__Y________y2___q____V___UMΠ_Ӓ__JʑkB_____n__ӕ_D______DpW_de________ѱ__:
-            pass
-        class _d_____7________p__do__F_FՕ__瘽ܭ:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
-            pass
-        class _z_7__:
+        class ____M_:
             pass
