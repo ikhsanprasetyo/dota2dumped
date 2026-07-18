@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-16 16:42:29.142708300 +07:00
+// 2026-07-19 03:33:58.207251400 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7202
+        // Class count: 7199
         // Enum count: 120
         namespace client_dll {
             // Alignment: 4
@@ -1993,6 +1993,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
+            // !
             namespace CDarkCarnivalCrateDropEntity {
                 constexpr std::ptrdiff_t m_unDefID = 0xC40; // DOTACrateDropObjectDefID_t
                 constexpr std::ptrdiff_t m_flAcceleration = 0xC50; // float32
@@ -5637,7 +5638,6 @@ namespace source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // hm
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -5758,7 +5758,9 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // CInlineJob_CMsgGCToClientRankUpdate
+            // Y
+            // CInlineJob_CMsgGCToClientInFlightChargesUpdated
+            // MGetKV3ClassDefaults
             namespace CPulseCell_ShmupWaitForDuration {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -6534,6 +6536,7 @@ namespace source2_dumper {
             // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
             // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
             // SURROUNDING_TYPE_BIT_COUNT
+            // dex
             // MGetKV3ClassDefaults
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -6831,6 +6834,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             namespace CPulseCell_Step_EntFire {
                 constexpr std::ptrdiff_t m_Input = 0x48; // CUtlString
             }
@@ -8642,6 +8646,9 @@ namespace source2_dumper {
             }
             // Parent: C_DynamicProp
             // Field count: 11
+            //
+            // Metadata:
+            // e
             namespace C_DOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0xD10; // bool
                 constexpr std::ptrdiff_t m_bPlaySpawnAnimation = 0xD11; // bool
@@ -8891,6 +8898,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             namespace CRenderComponent {
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x10; // CNetworkVarChainer
                 constexpr std::ptrdiff_t m_bIsRenderingWithViewModels = 0x50; // bool
@@ -9838,12 +9846,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // M
-            // MKV3TransferSaveOpsForField
             namespace CBaseAnimGraphController {
                 constexpr std::ptrdiff_t m_nAnimationAlgorithm = 0x18; // AnimationAlgorithm_t
                 constexpr std::ptrdiff_t m_nNextExternalGraphHandle = 0x1C; // ExternalAnimGraphHandle_t
@@ -10759,6 +10765,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             namespace CBodyComponentPoint {
                 constexpr std::ptrdiff_t m_sceneNode = 0x80; // CGameSceneNode
             }
@@ -11455,7 +11462,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // !
             // MGetKV3ClassDefaults
+            // !
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -11597,7 +11606,6 @@ namespace source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // hm
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -12292,7 +12300,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // loat
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -12487,6 +12494,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             namespace CountdownTimer {
                 constexpr std::ptrdiff_t m_duration = 0x8; // float32
                 constexpr std::ptrdiff_t m_timestamp = 0xC; // GameTime_t
@@ -18915,6 +18923,11 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 29
+            //
+            // Metadata:
+            // East
+            // North
+            // Up
             namespace C_EnvCombinedLightProbeVolume {
                 constexpr std::ptrdiff_t m_Entity_Color = 0x1668; // Color
                 constexpr std::ptrdiff_t m_Entity_flBrightness = 0x166C; // float32
@@ -19569,7 +19582,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // hm
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -20912,7 +20924,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // loat
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -22222,6 +22233,7 @@ namespace source2_dumper {
             // Y
             // MPropertyAttributeSuggestionName
             // MPulseLegacyName
+            // !
             namespace C_BodyComponentBaseAnimating {
                 constexpr std::ptrdiff_t m_animationController = 0x530; // C_BaseAnimatingController
             }
@@ -25654,6 +25666,7 @@ namespace source2_dumper {
             // Metadata:
             // M
             // e
+            // !
             namespace CDOTA_FightingGame_EffectsEntity {
             }
             // Parent: C_DOTA_Item
@@ -25906,6 +25919,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // m
             namespace C_DOTA_PortraitBaseModel {
             }
             // Parent: C_EnvDeferredLight
@@ -26388,9 +26402,12 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // n
+            // MKV3TransferSaveOpsForField
+            // !
+            // !
             // MSaveBehavior
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x530; // CBaseAnimGraphController
@@ -28369,12 +28386,13 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // e
+            // MGetKV3ClassDefaults
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
             // TIMELINE_COMPRESSION_TOTAL
             // MGetKV3ClassDefaults
-            // Y
             namespace CModelState {
                 constexpr std::ptrdiff_t m_hModel = 0xA0; // CStrongHandle<InfoForResourceTypeCModel>
                 constexpr std::ptrdiff_t m_ModelName = 0xA8; // CUtlSymbolLarge
@@ -30157,7 +30175,6 @@ namespace source2_dumper {
             // DFLAG_SUPPRESS_HEALTH_CHANGES
             // DFLAG_SUPPRESS_PHYSICS_FORCE
             // DFLAG_SUPPRESS_EFFECTS
-            // DFLAG_PREVENT_DEATH
             namespace C_DynamicProp {
                 constexpr std::ptrdiff_t m_bRandomAnimator = 0xC30; // bool
                 constexpr std::ptrdiff_t m_flNextRandAnim = 0xC34; // GameTime_t
@@ -30308,9 +30325,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // Q
-            // MPropertySuppressExpr
-            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // Y
             namespace C_EnvDeferredLight {
             }
             // Parent: C_DOTA_Item
@@ -30850,7 +30868,8 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
-            // generic
+            // Y
+            // e
             namespace C_DOTAReflectionSkybox {
             }
             // Parent: None
@@ -32396,6 +32415,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             namespace CLightComponent {
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x38; // CNetworkVarChainer
                 constexpr std::ptrdiff_t m_Color = 0x75; // Color
@@ -32641,6 +32661,11 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 18
+            //
+            // Metadata:
+            // East
+            // North
+            // Up
             namespace C_EnvCubemap {
                 constexpr std::ptrdiff_t m_Entity_hCubemapTexture = 0x670; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Entity_bCustomCubemapTexture = 0x678; // bool
@@ -32728,6 +32753,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             namespace CBodyComponent {
                 constexpr std::ptrdiff_t m_pSceneNode = 0x8; // CGameSceneNode*
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x48; // CNetworkVarChainer
@@ -37524,7 +37550,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Y
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -37828,7 +37854,6 @@ namespace source2_dumper {
             // Field count: 9
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // HULL_SMALL_CENTERED
             // HULL_WIDE_HUMAN
             // HULL_TINY
@@ -37840,8 +37865,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // C
-            // C
+            // a
+            // a
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -40076,7 +40101,6 @@ namespace source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // hm
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -40379,7 +40403,8 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
+            // generic
             // MPropertyDescription
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -40646,7 +40671,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // M
-            // MKV3TransferSaveOpsForField
+            // m
             // WATER_WAKE_IDLE
             // WATER_WAKE_WALKING
             // WATER_WAKE_RUNNING
@@ -41418,7 +41443,6 @@ namespace source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // hm
             // MPropertyDescription
             // MPropertyDescription
             // MPulseSignatureForOutflow
@@ -45174,7 +45198,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CDOTAFightingGameActionDefinition {
                 constexpr std::ptrdiff_t m_nActionID = 0x0; // EFightingGameActionID
                 constexpr std::ptrdiff_t m_strCustomActionName = 0x8; // CUtlString
@@ -45247,6 +45270,8 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // .
             // MGetKV3ClassDefaults
@@ -45435,6 +45460,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Y
+            // MGetKV3ClassDefaults
             namespace CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant {
             }
             // Parent: None
@@ -45528,6 +45555,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // text
             // generic
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45583,7 +45611,6 @@ namespace source2_dumper {
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // `S
-            // generic
             namespace SettingsSectionIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -45678,9 +45705,6 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // Y
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45836,7 +45860,6 @@ namespace source2_dumper {
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // `S
-            // generic
             namespace SettingsSubSectionIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -45897,6 +45920,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // .
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45941,6 +45966,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             namespace CSurvivorsDifficultyDefinition {
                 constexpr std::ptrdiff_t m_sLocDifficultyName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_sLocDifficultyDescription = 0x8; // CUtlString
@@ -46326,8 +46352,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CSurvivorsPowerUpDefinition_Frostbite {
                 constexpr std::ptrdiff_t m_flScepterExplodeRadius = 0x788; // float32
             }
@@ -46356,14 +46380,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // n
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // .
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46472,7 +46494,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CrownfallCreditsAABB_t {
                 constexpr std::ptrdiff_t x = 0x0; // int32
                 constexpr std::ptrdiff_t y = 0x4; // int32
@@ -46547,6 +46568,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Y
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46563,8 +46586,6 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46624,6 +46645,12 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgDOTATeamInfo
+            // CInlineJob_CMsgDOTATeamsInfo
+            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             namespace SurvivorsPickupID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46654,7 +46681,6 @@ namespace source2_dumper {
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // `S
-            // generic
             namespace NewSettingsID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46684,6 +46710,10 @@ namespace source2_dumper {
             // Field count: 38
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // .
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CSurvivorsEnemyDefinition_ImperiaBoss {
@@ -46798,6 +46828,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
+            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             namespace SurvivorsHeroID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46824,6 +46855,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46937,8 +46970,6 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47302,6 +47333,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
+            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             namespace SurvivorsLevelID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -47415,8 +47447,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // n
-            // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47424,6 +47454,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // .
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47455,6 +47489,8 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47505,7 +47541,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // Y
-            // text
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace ShmupEnemyID_t {
@@ -47560,6 +47595,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
+            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             namespace SurvivorsParticleID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -47595,7 +47631,6 @@ namespace source2_dumper {
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // `S
-            // generic
             namespace SettingsSearchDataIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -47606,6 +47641,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
+            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             namespace SurvivorsDifficultyID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -47616,10 +47652,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47760,6 +47794,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // .
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47823,8 +47859,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CSurvivorsPowerUpDefinition_KnifeThrow {
             }
             // Parent: None
@@ -47843,6 +47877,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // text
             // generic
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47884,6 +47919,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
+            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             namespace SurvivorsGameModeID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -48066,6 +48102,8 @@ namespace source2_dumper {
             // n
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             namespace CClientAlphaProperty {
                 constexpr std::ptrdiff_t m_nDistFadeStart = 0x10; // uint16
                 constexpr std::ptrdiff_t m_nDistFadeEnd = 0x12; // uint16
@@ -48083,8 +48121,6 @@ namespace source2_dumper {
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48179,6 +48215,8 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48324,6 +48362,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
+            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             namespace SurvivorsEnemyID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -48452,8 +48491,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // n
-            // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48461,6 +48498,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // .
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48608,11 +48649,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgDOTATeamInfo
-            // CInlineJob_CMsgDOTATeamsInfo
             namespace SurvivorsUnitID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -48799,11 +48835,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // n
-            // MGetKV3ClassDefaults
-            // Y
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48863,6 +48895,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             namespace DOTAOverworldCharacterOverrideConditional_t {
                 constexpr std::ptrdiff_t m_condition = 0x0; // CDOTAOverworldCharacterConditional
                 constexpr std::ptrdiff_t m_character = 0x20; // CDOTAOverworldCharacterBase
@@ -48923,8 +48956,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CSurvivorsEnemyDefinition_Absorber {
                 constexpr std::ptrdiff_t m_flModelScaleIncreasePerAbsorb = 0x288; // float32
                 constexpr std::ptrdiff_t m_flMaxModelScale = 0x28C; // float32
@@ -48943,10 +48974,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // Y
             // MGetKV3ClassDefaults
             namespace CSurvivorsPowerUpDefinition_AreaAttack_Circle {
             }
@@ -49125,265 +49154,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flRadius = 0x8; // float32
                 constexpr std::ptrdiff_t m_nHitRegionIndex = 0xC; // int32
                 constexpr std::ptrdiff_t m_nDamageMultiplier = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 232
-            //
-            // Metadata:
-            // UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
-            // y_hop
-            // x
-            // kground-image: url("s2r://panorama/images/econ/loading_screens/phantasmal_disruptions_loading_screen_png.vtex");background-posit
-            // 8_png.vtex
-            // ceContainerDefault
-            // _AxeBlinkCall_Title
-            // Bonus_HP_Regen_15
-            // tionMotion2;}#WhiteBox3 .Reflection{animation-name: ReflectionMotion3;}@keyframes 'ReflectionMotion1'{0%{transform: rotateZ(-210
-            // center;horizontal-align: center;margin: 0px 0px -2px 0px;}.NoHotkey .Hotkey{visibility: collapse;}.NeutralChoiceHolder{width: fi
-            // ?
-            // ngle_stalker
-            // ngle_stalker
-            namespace _oS_M_ {
-                constexpr std::ptrdiff_t m_nHeroID = 0x19B0; // HeroID_t
-                constexpr std::ptrdiff_t m_actQueuedActivity = 0x19B4; // int32
-                constexpr std::ptrdiff_t m_szQueuedActivityModifier = 0x19B8; // char[64]
-                constexpr std::ptrdiff_t m_UnitName = 0x0; // char[260]
-                constexpr std::ptrdiff_t m_UnitLabel = 0x104; // char[260]
-                constexpr std::ptrdiff_t m_unUnitLabelIndex = 0x208; // uint8
-                constexpr std::ptrdiff_t m_hEntity = 0x20C; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_bIsIllusion = 0x210; // bool
-                constexpr std::ptrdiff_t m_IllusionLabel = 0x211; // char[260]
-                constexpr std::ptrdiff_t m_bWasDataUpdateCreated = 0x600; // bool
-                constexpr std::ptrdiff_t m_vecPlayerTeamData = 0x608; // C_UtlVectorEmbeddedNetworkVar<PlayerResourcePlayerTeamData_t>
-                constexpr std::ptrdiff_t m_vecPlayerData = 0x670; // C_UtlVectorEmbeddedNetworkVar<PlayerResourcePlayerData_t>
-                constexpr std::ptrdiff_t m_vecBrodcasterData = 0x6D8; // C_UtlVectorEmbeddedNetworkVar<PlayerResourceBroadcasterData_t>
-                constexpr std::ptrdiff_t m_vecEventsForDisplay = 0x740; // C_NetworkUtlVectorBase<uint32>
-                constexpr std::ptrdiff_t m_nPrimaryEventIndex = 0x758; // int8
-                constexpr std::ptrdiff_t m_nObsoleteEventIDAssociatedWithEventData = 0x75C; // uint32
-                constexpr std::ptrdiff_t m_playerIDToPlayer = 0x760; // CHandle<C_BaseEntity>[64]
-                constexpr std::ptrdiff_t m_playerIDToPawn = 0x860; // CHandle<C_BaseEntity>[64]
-                constexpr std::ptrdiff_t m_iszName = 0x960; // CUtlSymbolLarge[64]
-                constexpr std::ptrdiff_t m_iszHTMLSafeName = 0xB60; // CUtlSymbolLarge[64]
-                constexpr std::ptrdiff_t m_iszFilteredHTMLSafeName = 0xD60; // CUtlSymbolLarge[64]
-                constexpr std::ptrdiff_t m_bDirtySelection = 0x2860; // bool
-                constexpr std::ptrdiff_t m_bHasWorldTreesChanged = 0x2861; // bool
-                constexpr std::ptrdiff_t m_bWorldTreeModelsChanged = 0x2862; // bool
-                constexpr std::ptrdiff_t m_bSwapWillingness = 0x2863; // bool[24]
-                constexpr std::ptrdiff_t m_hTeamCouriers = 0x28B8; // CUtlVector<CHandle<C_DOTA_Unit_Courier>>[15]
-                constexpr std::ptrdiff_t m_hPlayerCouriers = 0x2A20; // CUtlVector<CHandle<C_DOTA_Unit_Courier>>[64]
-                constexpr std::ptrdiff_t m_vecOnstageHomeTeams = 0x3020; // CUtlVector<uint32>
-                constexpr std::ptrdiff_t m_pPlayerIDToOnstageSlot = 0x3038; // PlayerSeatAssignment_t*[24]
-                constexpr std::ptrdiff_t m_vecOnstagePlayerSeats = 0x30F8; // CUtlVector<PlayerSeatAssignment_t>
-                constexpr std::ptrdiff_t m_nEventNPCReplaced = 0x3110; // int32
-                constexpr std::ptrdiff_t m_nEventPlayerInfo = 0x3114; // int32
-                constexpr std::ptrdiff_t m_nInventoryUpdated = 0x3118; // int32
-                constexpr std::ptrdiff_t m_iLastKillerTeam = 0x5F0; // int32
-                constexpr std::ptrdiff_t m_iKillCount = 0x5F4; // int32
-                constexpr std::ptrdiff_t m_vRoshanAltLocation = 0x5F8; // Vector
-                constexpr std::ptrdiff_t m_hRoshan = 0x604; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_nVisualTeam = 0x5F0; // int32
-                constexpr std::ptrdiff_t m_bIsRadiantMiniboss = 0x5F4; // bool
-                constexpr std::ptrdiff_t m_nTutorialState = 0x5F0; // int32
-                constexpr std::ptrdiff_t m_nTaskProgress = 0x5F4; // int32
-                constexpr std::ptrdiff_t m_nTaskSteps = 0x5F8; // int32
-                constexpr std::ptrdiff_t m_nTaskSecondsRemianing = 0x5FC; // int32
-                constexpr std::ptrdiff_t m_nUIState = 0x600; // int32
-                constexpr std::ptrdiff_t m_nShopState = 0x604; // int32
-                constexpr std::ptrdiff_t m_TargetLocation = 0x608; // VectorWS
-                constexpr std::ptrdiff_t m_TargetEntity = 0x614; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_SpeechBubbles = 0x618; // C_UtlVectorEmbeddedNetworkVar<C_SpeechBubbleInfo>
-                constexpr std::ptrdiff_t m_nLocationID = 0xB90; // int32
-                constexpr std::ptrdiff_t m_GuideStr = 0xB94; // char[256]
-                constexpr std::ptrdiff_t m_QuickBuyStr = 0xC94; // char[256]
-                constexpr std::ptrdiff_t m_nPreTutorialState = 0xD94; // int32
-                constexpr std::ptrdiff_t m_nPreUIState = 0xD98; // int32
-                constexpr std::ptrdiff_t m_nPreShopState = 0xD9C; // int32
-                constexpr std::ptrdiff_t m_vecPrevTargetLocation = 0xDA0; // VectorWS
-                constexpr std::ptrdiff_t m_hPrevTargetEntity = 0xDAC; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_szModelName = 0xA88; // char[64]
-                constexpr std::ptrdiff_t m_szAreaName = 0xAC8; // char[256]
-                constexpr std::ptrdiff_t m_nType = 0xA88; // int32
-                constexpr std::ptrdiff_t m_iClientEffectIndex = 0xA8C; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_szEffectName = 0xA90; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_szTargetName = 0xA98; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_szControlPoint = 0xAA0; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_hOverrideSequence = 0xAA8; // HSequence
-                constexpr std::ptrdiff_t m_hOverrideModel = 0xAB0; // CStrongHandle<InfoForResourceTypeCModel>
-                constexpr std::ptrdiff_t m_vModelScale = 0xAB8; // Vector
-                constexpr std::ptrdiff_t m_nSkinOverride = 0xAC4; // int32
-                constexpr std::ptrdiff_t m_bDayTime = 0xAC8; // bool
-                constexpr std::ptrdiff_t m_bNightTime = 0xAC9; // bool
-                constexpr std::ptrdiff_t m_bShowInFow = 0xACA; // bool
-                constexpr std::ptrdiff_t m_bShowWhileDynamicWeatherActive = 0xACB; // bool
-                constexpr std::ptrdiff_t m_bAnimateDuringGameplayPause = 0xACC; // bool
-                constexpr std::ptrdiff_t m_fLastRadius = 0x1A58; // float32
-                constexpr std::ptrdiff_t m_fCurRadius = 0x1A5C; // float32
-                constexpr std::ptrdiff_t m_fLastThink = 0x1A60; // GameTime_t
-                constexpr std::ptrdiff_t m_bWindingUp = 0x1A64; // bool
-                constexpr std::ptrdiff_t m_ViewerTimer = 0x1A68; // CountdownTimer
-                constexpr std::ptrdiff_t m_nFXIndex = 0x1A80; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_EntitiesHit = 0x1A88; // CUtlVector<CHandle<C_BaseEntity>>
-                constexpr std::ptrdiff_t speed = 0x1AA0; // int32
-                constexpr std::ptrdiff_t radius = 0x1AA4; // int32
-                constexpr std::ptrdiff_t damage_min = 0x1AA8; // int32
-                constexpr std::ptrdiff_t damage_max = 0x1AAC; // int32
-                constexpr std::ptrdiff_t slow_min = 0x1AB0; // int32
-                constexpr std::ptrdiff_t slow_max = 0x1AB4; // int32
-                constexpr std::ptrdiff_t slow_duration = 0x1AB8; // float32
-                constexpr std::ptrdiff_t windup_time = 0x1ABC; // float32
-                constexpr std::ptrdiff_t leap_speed = 0x1A58; // float32
-                constexpr std::ptrdiff_t leap_acceleration = 0x1A5C; // float32
-                constexpr std::ptrdiff_t radius = 0x1A58; // int32
-                constexpr std::ptrdiff_t max_steps = 0x1A5C; // int32
-                constexpr std::ptrdiff_t damage_interval = 0x1A60; // float32
-                constexpr std::ptrdiff_t m_nNumSteps = 0x1A64; // int32
-                constexpr std::ptrdiff_t m_nRadiusStep = 0x1A68; // int32
-                constexpr std::ptrdiff_t m_nFXIndex = 0x1A6C; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_vDir = 0x1A70; // Vector
-                constexpr std::ptrdiff_t m_iEntangleDamage = 0x1A58; // float32
-                constexpr std::ptrdiff_t damage = 0x1A58; // int32
-                constexpr std::ptrdiff_t radius = 0x1A5C; // float32
-                constexpr std::ptrdiff_t m_nFXIndex = 0x1A60; // ParticleIndex_t
-                constexpr std::ptrdiff_t stun_duration = 0x1A58; // float32
-                constexpr std::ptrdiff_t charge_use_interval = 0x6A8; // float32
-                constexpr std::ptrdiff_t max_usable_charges = 0x6AC; // float32
-                constexpr std::ptrdiff_t m_flLastChargeUseTime = 0x6B0; // GameTime_t
-                constexpr std::ptrdiff_t m_hBalloon = 0x6B4; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t duration = 0x1A58; // float32
-                constexpr std::ptrdiff_t damage = 0x1A5C; // int32
-                constexpr std::ptrdiff_t m_nFXIndex = 0x6A8; // ParticleIndex_t
-                constexpr std::ptrdiff_t speed = 0x1A58; // float32
-                constexpr std::ptrdiff_t min_distance_before_bounce = 0x1A5C; // int32
-                constexpr std::ptrdiff_t drag = 0x1A60; // float32
-                constexpr std::ptrdiff_t max_height = 0x1A64; // float32
-                constexpr std::ptrdiff_t max_vertical_move_time = 0x1A68; // float32
-                constexpr std::ptrdiff_t bounce_turn_angle = 0x1A6C; // float32
-                constexpr std::ptrdiff_t bounce_turn_angle_tree = 0x1A70; // float32
-                constexpr std::ptrdiff_t bounce_delay = 0x1A74; // float32
-                constexpr std::ptrdiff_t max_bounces = 0x1A78; // int32
-                constexpr std::ptrdiff_t max_model_scale = 0x1A7C; // float32
-                constexpr std::ptrdiff_t power_growth_exponent = 0x1A80; // float32
-                constexpr std::ptrdiff_t m_vLastPos = 0x1A84; // VectorWS
-                constexpr std::ptrdiff_t m_vDir = 0x1A90; // Vector
-                constexpr std::ptrdiff_t m_flSpeed = 0x1A9C; // float32
-                constexpr std::ptrdiff_t m_flDistRemaining = 0x1AA0; // float32
-                constexpr std::ptrdiff_t m_flTreeTimeRemaining = 0x1AA4; // float32
-                constexpr std::ptrdiff_t m_nTimesBounced = 0x1AA8; // int32
-                constexpr std::ptrdiff_t m_flModelScale = 0x1AAC; // float32
-                constexpr std::ptrdiff_t m_hLastHit = 0x1AB0; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_strExclusiveString = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_fStatAverage = 0x10; // float32
-                constexpr std::ptrdiff_t m_fStatStdDev = 0x14; // float32
-                constexpr std::ptrdiff_t m_strHeroAdjective = 0x18; // CUtlString
-                constexpr std::ptrdiff_t m_bNegativeHeroAdjective = 0x20; // bool
-                constexpr std::ptrdiff_t m_nMinLeaguePhase = 0x24; // int32
-                constexpr std::ptrdiff_t m_nMaxLeaguePhase = 0x28; // int32
-                constexpr std::ptrdiff_t m_fPlayoffsStatAverage = 0x2C; // float32
-                constexpr std::ptrdiff_t m_fPlayoffsStatStdDev = 0x30; // float32
-                constexpr std::ptrdiff_t m_fMainEventStatAverage = 0x34; // float32
-                constexpr std::ptrdiff_t m_fMainEventStatStdDev = 0x38; // float32
-                constexpr std::ptrdiff_t m_sLocName = 0x40; // CUtlString
-                constexpr std::ptrdiff_t m_sLocTooltip = 0x48; // CUtlString
-                constexpr std::ptrdiff_t m_hOtherPortal = 0x19B0; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_eEvent = 0x0; // EEvent
-                constexpr std::ptrdiff_t m_unLeagueID = 0x4; // LeagueID_t
-                constexpr std::ptrdiff_t m_nShuffleCardCost = 0x8; // int32
-                constexpr std::ptrdiff_t m_nRerollSquareCost = 0xC; // int32
-                constexpr std::ptrdiff_t m_nUpgradeSquareCost = 0x10; // int32
-                constexpr std::ptrdiff_t m_nMaxSquareUpgrades = 0x14; // int32
-                constexpr std::ptrdiff_t m_vecExpectedMatchCountsPerPhase = 0x18; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecLeaguePhases = 0x30; // CUtlVector<uint32>
-                constexpr std::ptrdiff_t m_vecValidStatRangesPerPhase = 0x48; // CUtlVector<CUtlVector<int32>>
-                constexpr std::ptrdiff_t m_mapBingoStatsByName = 0x60; // CUtlOrderedMap<CUtlString,CDOTABingoStatDefinition>
-                constexpr std::ptrdiff_t m_flMaxSpeed = 0x1A58; // float32
-                constexpr std::ptrdiff_t evasion_chance = 0x1A58; // int32
-                constexpr std::ptrdiff_t radius = 0x1A5C; // int32
-                constexpr std::ptrdiff_t start_radius = 0x6A8; // int32
-                constexpr std::ptrdiff_t end_radius = 0x6AC; // int32
-                constexpr std::ptrdiff_t m_vStartPos = 0x6B0; // VectorWS
-                constexpr std::ptrdiff_t m_fStartTime = 0x6BC; // GameTime_t
-                constexpr std::ptrdiff_t m_fTotalTime = 0x6C0; // float32
-                constexpr std::ptrdiff_t max_duration = 0x6A8; // float32
-                constexpr std::ptrdiff_t m_nfxTargetTp = 0x1A58; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_nfxTargetTp2 = 0x1A5C; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_nfxAmbientFx = 0x1A60; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_nfxPortal1 = 0x1A64; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_nfxPortal2 = 0x1A68; // ParticleIndex_t
-                constexpr std::ptrdiff_t animation_rate = 0x1A6C; // float32
-                constexpr std::ptrdiff_t stop_distance = 0x1A70; // int32
-                constexpr std::ptrdiff_t max_distance = 0x6A8; // float32
-                constexpr std::ptrdiff_t m_vTarget = 0x6AC; // VectorWS
-                constexpr std::ptrdiff_t m_iTrackerProjectile = 0x6B8; // int32
-                constexpr std::ptrdiff_t nova_damage = 0x6A8; // int32
-                constexpr std::ptrdiff_t duration = 0x1A58; // float32
-                constexpr std::ptrdiff_t height = 0x1A5C; // int32
-                constexpr std::ptrdiff_t damage = 0x1A60; // int32
-                constexpr std::ptrdiff_t damage_radius = 0x1A64; // int32
-                constexpr std::ptrdiff_t m_nWarningFX = 0x6A8; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_nRadiusFX = 0x6AC; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_nPreviewFX = 0x1A58; // ParticleIndex_t
-                constexpr std::ptrdiff_t radius = 0x1A5C; // int32
-                constexpr std::ptrdiff_t damage = 0x1A60; // int32
-                constexpr std::ptrdiff_t vision_radius = 0x1A64; // int32
-                constexpr std::ptrdiff_t vision_duration = 0x1A68; // float32
-                constexpr std::ptrdiff_t model_scale = 0x1A6C; // int32
-                constexpr std::ptrdiff_t bExploding = 0x1A70; // bool
-                constexpr std::ptrdiff_t stun_duration = 0x1A74; // float32
-                constexpr std::ptrdiff_t m_nCourierItemId = 0x1A58; // itemid_t
-                constexpr std::ptrdiff_t m_ModelNameOfDisguise = 0x1A60; // CUtlString
-                constexpr std::ptrdiff_t m_nMoveSpeed = 0x1A70; // int32
-                constexpr std::ptrdiff_t m_nDisguisedSpeed = 0x1A74; // int32
-                constexpr std::ptrdiff_t m_nDisguiseEffectIndex = 0x1A78; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_hCourier = 0x1A7C; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_bIsFlyingCourier = 0x1A80; // bool
-                constexpr std::ptrdiff_t s_pszDonkeyDisguise = 0x1A88; // char*
-                constexpr std::ptrdiff_t invul_duration = 0x1A90; // float32
-                constexpr std::ptrdiff_t m_bParticlesSpawned = 0x1A94; // bool
-                constexpr std::ptrdiff_t acorn_shot_damage = 0x1A58; // int32
-                constexpr std::ptrdiff_t base_damage_pct = 0x1A5C; // int32
-                constexpr std::ptrdiff_t m_hEntsHit = 0x758; // CUtlVector<CHandle<C_BaseEntity>>
-                constexpr std::ptrdiff_t damage = 0x770; // int32
-                constexpr std::ptrdiff_t duration = 0x774; // float32
-                constexpr std::ptrdiff_t spend_charge_delay = 0x778; // float32
-                constexpr std::ptrdiff_t m_nProjectileID = 0x1A58; // int32
-                constexpr std::ptrdiff_t bonus_movement_speed = 0x758; // int32
-                constexpr std::ptrdiff_t bonus_attack_damage = 0x75C; // int32
-                constexpr std::ptrdiff_t bonus_attack_range = 0x760; // int32
-                constexpr std::ptrdiff_t magic_resistance = 0x764; // int32
-                constexpr std::ptrdiff_t model_scale = 0x768; // int32
-                constexpr std::ptrdiff_t skin_number = 0x76C; // int32
-                constexpr std::ptrdiff_t flying_movement = 0x770; // bool
-                constexpr std::ptrdiff_t m_fDamage = 0x1A58; // float32
-                constexpr std::ptrdiff_t m_fLastRadius = 0x1A5C; // float32
-                constexpr std::ptrdiff_t m_fCurRadius = 0x1A60; // float32
-                constexpr std::ptrdiff_t m_fLastThink = 0x1A64; // GameTime_t
-                constexpr std::ptrdiff_t m_bContracting = 0x1A68; // bool
-                constexpr std::ptrdiff_t m_ViewerTimer = 0x1A70; // CountdownTimer
-                constexpr std::ptrdiff_t m_nFXIndex = 0x1A88; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_EntitiesHit = 0x1A90; // CUtlVector<CHandle<C_BaseEntity>>
-                constexpr std::ptrdiff_t speed = 0x1AA8; // int32
-                constexpr std::ptrdiff_t radius = 0x1AAC; // int32
-                constexpr std::ptrdiff_t m_iOriginalAttackCapabilities = 0x1A58; // int32
-                constexpr std::ptrdiff_t m_iszRangedAttackEffect = 0x1A60; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t bonus_movement_speed = 0x1A68; // int32
-                constexpr std::ptrdiff_t bonus_attack_damage = 0x1A6C; // int32
-                constexpr std::ptrdiff_t bonus_attack_range = 0x1A70; // int32
-                constexpr std::ptrdiff_t attack_projectile_speed = 0x1A74; // int32
-                constexpr std::ptrdiff_t magic_resistance = 0x1A78; // int32
-                constexpr std::ptrdiff_t model_scale = 0x1A7C; // int32
-                constexpr std::ptrdiff_t skin_number = 0x1A80; // int32
-                constexpr std::ptrdiff_t flying_movement = 0x1A84; // bool
-                constexpr std::ptrdiff_t radius = 0x1A58; // float32
-                constexpr std::ptrdiff_t mana_multiplier = 0x1A5C; // float32
-                constexpr std::ptrdiff_t mana_drained_per_attack = 0x1A60; // float32
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____M_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____M_ {
             }
         }
     }

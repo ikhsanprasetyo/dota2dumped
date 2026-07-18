@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-16 16:42:29.142708300 +07:00
+// 2026-07-19 03:33:58.207251400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1484,6 +1484,7 @@ namespace Source2Dumper.Schemas {
         // CURSOR_RETIRED
         // REQUIREMENT_PASS
         // REQUIREMENT_FAIL
+        // !
         public static class CPulseCell_WaitForObservable {
             public const nint m_Condition = 0xD8; // CPulseObservableExpression<bool>
             public const nint m_OnTrue = 0x150; // CPulse_ResumePoint
@@ -1615,11 +1616,13 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
+        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
+        // C\AppData\Local
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -2377,6 +2380,7 @@ namespace Source2Dumper.Schemas {
         // CURSOR_RETIRED
         // REQUIREMENT_PASS
         // REQUIREMENT_FAIL
+        // !
         public static class CPulseCell_BooleanSwitchState {
             public const nint m_Condition = 0xD8; // CPulseObservableExpression<bool>
             public const nint m_WhenTrue = 0x150; // CPulse_OutflowConnection
@@ -2741,6 +2745,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CSlowDownOnSlopesUpdateNode {
             public const nint m_flSlowDownStrength = 0x70; // float32
         }
@@ -2750,6 +2755,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // o
+        // !
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -2765,6 +2771,7 @@ namespace Source2Dumper.Schemas {
         // SelectorTagBehavior_OffBeforeFinished
         // MGetKV3ClassDefaults
         // Node
+        // !
         // SameCycleAsSource
         // InverseSourceCycle
         // FixedValue
@@ -2952,6 +2959,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmParameterizedBlendNode__CDefinition {
             public const nint m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
             public const nint m_nInputParameterValueNodeIdx = 0x28; // int16
@@ -3112,6 +3120,9 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3152,6 +3163,7 @@ namespace Source2Dumper.Schemas {
         // eMoveHeading
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // eMoveHeading
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3307,16 +3319,20 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmPassthroughNode__CDefinition {
@@ -3328,6 +3344,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3346,20 +3363,25 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmClipReferenceNode__CDefinition {
@@ -3481,6 +3503,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CNmBoneMaskBlendNode__CDefinition {
             public const nint m_nSourceMaskNodeIdx = 0x10; // int16
@@ -3500,6 +3523,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3573,8 +3599,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // SModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
         // MPropertyFriendlyName
+        //  
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3654,6 +3680,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // b
         public static class AnimationSnapshot_t {
             public const nint m_nEntIndex = 0x110; // int32
@@ -3700,14 +3727,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4074,6 +4105,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class FollowAttachmentSettings_t {
@@ -4160,14 +4192,18 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4213,6 +4249,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4353,6 +4390,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4400,6 +4440,7 @@ namespace Source2Dumper.Schemas {
         // AddCorrectionDelta
         // MGetKV3ClassDefaults
         // o
+        // !
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -4443,14 +4484,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4566,6 +4611,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4618,14 +4664,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4658,6 +4708,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4755,12 +4806,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmSelectorNode__CDefinition {
@@ -4858,6 +4911,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4910,6 +4966,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // Sub
         // Mul
         // Div
@@ -5020,6 +5077,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // Sub
         // Mul
         // Div
@@ -5048,11 +5106,14 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
+        // !
         // MGetKV3ClassDefaults
         // DoesntMatch
         // MGetKV3ClassDefaults
         // Additive
         // ModelSpace
+        // !
         // AllowMoveY
         // AllowMoveZ
         // AllowFacingPitch
@@ -5110,12 +5171,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmEntityAttributeEventBase {
             public const nint m_target = 0x18; // CNmEventTargetEntity_t
             public const nint m_attributeName = 0x20; // CUtlString
@@ -5127,14 +5190,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5202,6 +5269,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CModelConfigElement_UserPick {
             public const nint m_Choices = 0x48; // CUtlVector<CUtlString>
@@ -5265,6 +5333,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -5355,6 +5424,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5376,6 +5446,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmVelocityBlendNode__CDefinition {
         }
         // Parent: None
@@ -5476,8 +5547,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // SModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
         // MPropertyFriendlyName
+        //  
         public static class CParticleVecInput {
             public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
@@ -5560,6 +5631,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CNmBoneMaskSelectorNode__CDefinition {
             public const nint m_defaultMaskNodeIdx = 0x10; // int16
@@ -5578,14 +5650,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5606,6 +5682,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CFootCycleMetricEvaluator {
@@ -5632,11 +5709,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5754,11 +5834,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -5907,11 +5990,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // !
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -5984,6 +6067,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -6016,7 +6100,6 @@ namespace Source2Dumper.Schemas {
         // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
         // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
         // PF_TYPE_COUNT
-        // c
         // PF_BIAS_TYPE_INVALID
         // PF_BIAS_TYPE_GAIN
         // PF_BIAS_TYPE_EXPONENTIAL
@@ -6059,14 +6142,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -6156,6 +6243,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -6174,10 +6262,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CNmClipNode__CDefinition {
             public const nint m_nPlayInReverseValueNodeIdx = 0x10; // int16
@@ -6200,6 +6290,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -6227,12 +6318,14 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -6289,6 +6382,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CModelConfigElement_RandomPick {
             public const nint m_Choices = 0x48; // CUtlVector<CUtlString>
@@ -6303,15 +6397,18 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmScaleNode__CDefinition {
@@ -6348,6 +6445,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         public static class SkeletonAnimCapture_t {
             public const nint m_nEntIndex = 0x0; // CEntityIndex
             public const nint m_nEntParent = 0x4; // CEntityIndex
@@ -6509,6 +6607,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Warp Z
@@ -6566,6 +6665,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // Sub
         // Mul
         // Div
@@ -6630,6 +6730,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // Sub
         // Mul
         // Div
@@ -6652,6 +6753,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
         public static class CNmFloatCurveEventNode__CDefinition {
             public const nint m_eventID = 0x10; // CGlobalSymbol
             public const nint m_nDefaultNodeIdx = 0x18; // int16
@@ -6696,6 +6799,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // eMoveHeading
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -6831,11 +6935,12 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
+        // i
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL
         // PF_ROUND_TYPE_COUNT
-        // COLOR
+        // TEXCOORD
         // MPropertyFriendlyName
         // PARTICLE_DIR_NOISE_CURL
         // PARTICLE_DIR_NOISE_WORLEY_BASIC
@@ -6868,6 +6973,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -6944,6 +7052,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         public static class CNmTargetWarpEvent {
             public const nint m_rule = 0x18; // NmTargetWarpRule_t
             public const nint m_algorithm = 0x19; // NmTargetWarpAlgorithm_t
@@ -7015,6 +7126,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmIDSwitchNode__CDefinition {
@@ -7031,12 +7143,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7121,6 +7235,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7166,6 +7283,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // Additive
         // ModelSpace
+        // !
         // AllowMoveY
         // AllowMoveZ
         // AllowFacingPitch
@@ -7202,6 +7320,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // Node
+        // !
         // SameCycleAsSource
         // InverseSourceCycle
         // FixedValue
@@ -7213,6 +7332,7 @@ namespace Source2Dumper.Schemas {
         // eMoveHeading
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // eMoveHeading
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -7362,7 +7482,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
-        // dumps
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -7414,6 +7533,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7433,6 +7553,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // !
         // MGetKV3ClassDefaults
         public static class CFootLockUpdateNode {
             public const nint m_opFixedSettings = 0x70; // FootLockPoseOpFixedSettings
@@ -7472,6 +7593,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         public static class CNmOrientationWarpEvent {
         }
         // Parent: None
@@ -7533,14 +7657,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7661,6 +7789,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CJiggleBoneUpdateNode {
             public const nint m_opFixedData = 0x70; // JiggleBoneSettingsList_t
@@ -7684,11 +7813,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -7859,6 +7991,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -7895,6 +8028,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // Sub
         // Mul
         // Div
@@ -7983,6 +8117,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // b
         public static class HSequence {
             public const nint m_Value = 0x0; // int32
@@ -8196,12 +8331,14 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmIDBasedSelectorNode__CDefinition {
@@ -8256,6 +8393,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8270,6 +8408,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // eMoveHeading
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -8352,6 +8491,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CHitReactUpdateNode {
             public const nint m_opFixedSettings = 0x70; // HitReactFixedSettings_t
             public const nint m_triggerParam = 0xBC; // CAnimParamHandle
@@ -8368,6 +8508,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CLookAtUpdateNode {
             public const nint m_opFixedSettings = 0x70; // LookAtOpFixedSettings_t
@@ -8495,6 +8636,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8550,6 +8692,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         public static class CNmTransitionEvent {
             public const nint m_rule = 0x18; // NmTransitionRule_t
             public const nint m_ID = 0x20; // CGlobalSymbol
@@ -8559,6 +8704,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8579,7 +8725,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
-        // dumps
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -8633,6 +8778,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8678,6 +8826,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // Sub
         // Mul
         // Div
@@ -8700,6 +8849,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
         public static class CNmGraphEventConditionNode__CDefinition {
             public const nint m_nSourceStateNodeIdx = 0x10; // int16
             public const nint m_eventConditionRules = 0x14; // CNmBitFlags
@@ -8757,6 +8908,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CModelConfigElement_SetMaterialGroup {
             public const nint m_MaterialGroupName = 0x48; // CUtlString
@@ -8904,6 +9056,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // Sub
         // Mul
         // Div
@@ -8938,7 +9091,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
-        // dumps
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -8967,11 +9119,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9027,6 +9182,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9322,6 +9478,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmFixedWeightBoneMaskNode__CDefinition {
             public const nint m_flBoneWeight = 0x10; // float32
         }
@@ -9372,7 +9529,6 @@ namespace Source2Dumper.Schemas {
         // PT_TYPE_CONTROL_POINT
         // PT_TYPE_CONTROL_POINT_RANGE
         // PT_TYPE_COUNT
-        // c
         // PM_TYPE_NAMED_VALUE_MODEL
         // PM_TYPE_NAMED_VALUE_EHANDLE
         // PM_TYPE_CONTROL_POINT
@@ -9426,12 +9582,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmEntityAttributeIntEvent {
             public const nint m_nIntValue = 0x38; // int32
         }
@@ -9442,6 +9600,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9460,6 +9619,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9504,6 +9664,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9522,6 +9683,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -9541,6 +9703,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -9598,6 +9761,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmBlend2DNode__CDefinition {
             public const nint m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
             public const nint m_values = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9651,11 +9815,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // !
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -9700,6 +9864,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Warp Z
@@ -10004,6 +10169,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -10038,16 +10204,20 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmReferencePoseNode__CDefinition {
@@ -10104,11 +10274,14 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
         // MGetKV3ClassDefaults
         // DoesntMatch
         // MGetKV3ClassDefaults
         // Additive
         // ModelSpace
+        // !
         // AllowMoveY
         // AllowMoveZ
         // AllowFacingPitch
@@ -10136,6 +10309,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Warp Z
@@ -10211,6 +10385,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmBodyGroupNode__CDefinition {
             public const nint m_nEnabledNodeIdx = 0x18; // int16
             public const nint m_event = 0x20; // CNmBodyGroupEvent
@@ -10257,11 +10432,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // !
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -10286,6 +10461,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -10327,7 +10503,6 @@ namespace Source2Dumper.Schemas {
         // PT_TYPE_CONTROL_POINT
         // PT_TYPE_CONTROL_POINT_RANGE
         // PT_TYPE_COUNT
-        // c
         // PM_TYPE_NAMED_VALUE_MODEL
         // PM_TYPE_NAMED_VALUE_EHANDLE
         // PM_TYPE_CONTROL_POINT
@@ -10455,6 +10630,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -10492,7 +10668,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // _giant_wolf
+        // npc_dota_zeus_cloud
         // MPropertyCustomFGDType
         public static class CBoneConstraintRbf {
             public const nint m_inputBones = 0x20; // CUtlVector<std::pair<CUtlString,uint32>>
@@ -10553,6 +10729,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmSoundEvent {
             public const nint m_relevance = 0x18; // CNmEventRelevance_t
             public const nint m_name = 0x20; // CUtlString
@@ -10589,12 +10766,14 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmParameterizedClipSelectorNode__CDefinition {
@@ -10617,6 +10796,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -10646,6 +10826,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Warp Z
@@ -10667,11 +10848,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
         // MGetKV3ClassDefaults
         // DoesntMatch
         // MGetKV3ClassDefaults
         // Additive
         // ModelSpace
+        // !
         // AllowMoveY
         // AllowMoveZ
         // AllowFacingPitch
@@ -10878,7 +11062,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // _giant_wolf
+        // npc_dota_zeus_cloud
         // MPropertyCustomFGDType
         public static class CBoneConstraintPoseSpaceBone {
             public const nint m_inputList = 0x60; // CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
@@ -10917,6 +11101,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -10969,6 +11154,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11039,14 +11225,18 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11087,6 +11277,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11183,11 +11374,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // !
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -11218,7 +11409,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // _giant_wolf
+        // npc_dota_zeus_cloud
         // MPropertyCustomFGDType
         public static class CBoneConstraintDotToMorph {
             public const nint m_sBoneName = 0x20; // CUtlString
@@ -11243,6 +11434,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -11408,6 +11600,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // PF_TYPE_INVALID
         // PF_TYPE_NAMED_VALUE
         // PF_TYPE_RANDOM_UNIFORM
@@ -11471,6 +11664,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11513,6 +11707,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11591,6 +11786,9 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11609,6 +11807,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CSolveIKChainUpdateNode {
             public const nint m_targetHandles = 0x70; // CUtlVector<CSolveIKTargetHandle_t>
@@ -11622,6 +11821,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11640,6 +11840,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11699,6 +11900,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11719,7 +11921,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
-        // dumps
         public static class CParticleFloatInput {
             public const nint m_nType = 0x10; // ParticleFloatType_t
             public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
@@ -11787,12 +11988,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmEntityAttributeFloatEvent {
             public const nint m_FloatValue = 0x38; // CPiecewiseCurve
         }
@@ -11805,6 +12008,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // Additive
         // ModelSpace
+        // !
         // AllowMoveY
         // AllowMoveZ
         // AllowFacingPitch
@@ -11896,6 +12100,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmIDComparisonNode__CDefinition {
@@ -11953,11 +12158,14 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -12030,6 +12238,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Warp Z
@@ -12061,16 +12270,20 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmZeroPoseNode__CDefinition {
@@ -12114,6 +12327,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CNmBoneMaskNode__CDefinition {
             public const nint m_boneMaskID = 0x10; // CGlobalSymbol
         }
@@ -12148,14 +12362,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -12227,6 +12445,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // !
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -12278,16 +12497,20 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmAnimationPoseNode__CDefinition {
@@ -12330,6 +12553,9 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -12356,14 +12582,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -12490,6 +12720,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // !
         public static class AimMatrixOpFixedSettings_t {
             public const nint m_attachment = 0x0; // CAnimAttachment
             public const nint m_damping = 0x80; // CAnimInputDamping
@@ -12557,6 +12788,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CBoneConstraintBase {
         }
         // Parent: None
@@ -12594,6 +12826,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // Sub
         // Mul
         // Div
@@ -12616,6 +12849,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // !
         public static class CNmFootEventConditionNode__CDefinition {
             public const nint m_nSourceStateNodeIdx = 0x10; // int16
             public const nint m_phaseCondition = 0x12; // NmFootPhaseCondition_t
@@ -12820,14 +13055,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -12995,7 +13234,6 @@ namespace Source2Dumper.Schemas {
         // FLAG0_SHIFT_CONSTRAIN
         // FLAG0_SHIFT_BREAKABLE_FORCE
         // FLAG0_SHIFT_BREAKABLE_TORQUE
-        // SA_GLSL_CACHE_DIR=E:\SteamLibrary\steamapps\shadercache\570
         // JOINT_FLAGS_BODY1_FIXED
         // JOINT_FLAGS_USE_BLOCK_SOLVER
         // FLAG_IS_POLYSOUP_GEOMETRY
@@ -13125,11 +13363,12 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
+        // i
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL
         // PF_ROUND_TYPE_COUNT
-        // COLOR
+        // TEXCOORD
         // MPropertyFriendlyName
         // PARTICLE_DIR_NOISE_CURL
         // PARTICLE_DIR_NOISE_WORLEY_BASIC
@@ -13167,14 +13406,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
+        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -13194,6 +13437,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         public static class CNmBodyGroupEvent {
             public const nint m_target = 0x18; // CNmEventTargetEntity_t
@@ -13241,6 +13485,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // !
         public static class CModelConfigElement_AttachedModel {
             public const nint m_InstanceName = 0x48; // CUtlString
             public const nint m_EntityClass = 0x50; // CUtlString

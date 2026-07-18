@@ -909,10 +909,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -926,10 +922,6 @@
           },
           {
             "name": "M",
-            "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           }
         ],
@@ -1106,6 +1098,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "!",
+            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -1124,6 +1120,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -1132,7 +1132,15 @@
             "type": "Unknown"
           },
           {
-            "name": "n",
+            "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
             "type": "Unknown"
           },
           {
@@ -1158,6 +1166,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -1254,6 +1266,14 @@
           },
           {
             "name": "n",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -1910,10 +1930,6 @@
           "m_vecCancelOptions": 1352
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -5523,6 +5539,10 @@
           },
           {
             "name": "e",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -35154,6 +35174,10 @@
           {
             "name": "CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated",
             "type": "Unknown"
+          },
+          {
+            "name": "!",
+            "type": "Unknown"
           }
         ],
         "parent": "C_BreakableProp"
@@ -35938,6 +35962,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "!",
+            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -36085,7 +36113,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MKV3TransferSaveOpsForField",
+            "name": "m",
             "type": "Unknown"
           },
           {
@@ -36345,6 +36373,14 @@
             "type": "Unknown"
           },
           {
+            "name": "e",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "TIMELINE_COMPRESSION_COUNT_PER_INTERVAL",
             "type": "Unknown"
           },
@@ -36362,10 +36398,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "Y",
             "type": "Unknown"
           }
         ],
@@ -36453,7 +36485,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "Y",
             "type": "Unknown"
           },
           {
@@ -36742,6 +36774,10 @@
             "type": "Unknown"
           },
           {
+            "name": "dex",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -36970,7 +37006,15 @@
             "type": "Unknown"
           },
           {
+            "name": "!",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -38072,10 +38116,6 @@
             "type": "Unknown"
           },
           {
-            "name": "hm",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -38299,10 +38339,6 @@
             "type": "Unknown"
           },
           {
-            "name": "hm",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -38439,10 +38475,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "hm",
             "type": "Unknown"
           },
           {
@@ -38779,10 +38811,6 @@
             "type": "Unknown"
           },
           {
-            "name": "hm",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -38877,7 +38905,15 @@
             "type": "Unknown"
           },
           {
-            "name": "CInlineJob_CMsgGCToClientRankUpdate",
+            "name": "Y",
+            "type": "Unknown"
+          },
+          {
+            "name": "CInlineJob_CMsgGCToClientInFlightChargesUpdated",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -39022,6 +39058,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "!",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -39147,10 +39187,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "hm",
             "type": "Unknown"
           },
           {
@@ -40031,6 +40067,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "!",
+            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -40332,10 +40372,6 @@
             "type": "Unknown"
           },
           {
-            "name": "loat",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -40476,6 +40512,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -40630,14 +40670,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -40645,6 +40677,14 @@
       "CSurvivorsEnemyDefinition_Golem": {
         "fields": {},
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -40729,6 +40769,22 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": ".",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -40736,6 +40792,14 @@
       "CSurvivorsEnemyDefinition_Pillar": {
         "fields": {},
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -40775,6 +40839,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": ".",
             "type": "Unknown"
           },
@@ -40796,14 +40868,6 @@
       "CSurvivorsEnemyDefinition_Snotty": {
         "fields": {},
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -41328,18 +41392,6 @@
             "type": "Unknown"
           },
           {
-            "name": "Y",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -41533,19 +41585,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
             "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "Y",
             "type": "Unknown"
           },
           {
@@ -41580,6 +41624,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "Y",
             "type": "Unknown"
           },
           {
@@ -41654,14 +41706,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41690,6 +41734,14 @@
             "type": "Unknown"
           },
           {
+            "name": "Y",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -41705,14 +41757,6 @@
           "m_flScepterExplodeRadius": 1928
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -41887,14 +41931,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41904,6 +41940,14 @@
           "m_nEliteExtraHit": 1928
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -41960,14 +42004,6 @@
             "type": "Unknown"
           },
           {
-            "name": "n",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "Y",
             "type": "Unknown"
           },
@@ -41975,48 +42011,6 @@
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSurvivorsPowerUpDefinition_MagicMissile": {
-        "fields": {
-          "m_flScepterDamageIncreasePerEnemyKilled": 1948,
-          "m_flShardDamageMultiplier": 1944,
-          "m_sImpactParticle": 1952
-        },
-        "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -42068,6 +42062,56 @@
         ],
         "parent": null
       },
+      "CSurvivorsPowerUpDefinition_MagicMissile": {
+        "fields": {
+          "m_flScepterDamageIncreasePerEnemyKilled": 1948,
+          "m_flShardDamageMultiplier": 1944,
+          "m_sImpactParticle": 1952
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "n",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CSurvivorsPowerUpDefinition_MortimerKisses": {
         "fields": {
           "m_flAnglePerShot": 2164,
@@ -42083,6 +42127,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "Y",
             "type": "Unknown"
           },
           {
@@ -42265,19 +42317,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
             "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "Y",
             "type": "Unknown"
           },
           {
@@ -42330,6 +42374,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": ".",
             "type": "Unknown"
           },
@@ -42363,14 +42415,6 @@
             "type": "Unknown"
           },
           {
-            "name": "n",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "Y",
             "type": "Unknown"
           },
@@ -42396,6 +42440,22 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": ".",
             "type": "Unknown"
           },
           {
@@ -42427,23 +42487,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "Y",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -42484,14 +42528,6 @@
       "CSurvivorsPowerUpDefinition_Track": {
         "fields": {},
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -42983,10 +43019,6 @@
             "type": "Unknown"
           },
           {
-            "name": "loat",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -43410,6 +43442,10 @@
           },
           {
             "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -44288,7 +44324,11 @@
         "fields": {},
         "metadata": [
           {
-            "name": "generic",
+            "name": "Y",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -55397,7 +55437,12 @@
           "m_unPrimaryColor": 3347,
           "m_unSecondaryColor": 3348
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "e",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_DynamicProp"
       },
       "C_DOTA_GuildBannerProp": {
@@ -58174,7 +58219,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "!",
+            "type": "Unknown"
+          },
+          {
+            "name": "generic",
             "type": "Unknown"
           },
           {
@@ -58335,6 +58384,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "m",
             "type": "Unknown"
           }
         ],
@@ -59476,10 +59529,6 @@
           {
             "name": "DFLAG_SUPPRESS_EFFECTS",
             "type": "Unknown"
-          },
-          {
-            "name": "DFLAG_PREVENT_DEATH",
-            "type": "Unknown"
           }
         ],
         "parent": "C_BreakableProp"
@@ -59645,7 +59694,20 @@
           "m_Entity_vBoxMins": 5832,
           "m_Entity_vEdgeFadeDists": 5880
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "East",
+            "type": "Unknown"
+          },
+          {
+            "name": "North",
+            "type": "Unknown"
+          },
+          {
+            "name": "Up",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_BaseEntity"
       },
       "C_EnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume": {
@@ -59674,7 +59736,20 @@
           "m_Entity_vBoxProjectMins": 1664,
           "m_Entity_vEdgeFadeDists": 1708
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "East",
+            "type": "Unknown"
+          },
+          {
+            "name": "North",
+            "type": "Unknown"
+          },
+          {
+            "name": "Up",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_BaseEntity"
       },
       "C_EnvCubemapBox": {
@@ -59726,10 +59801,6 @@
         },
         "metadata": [
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "HULL_SMALL_CENTERED",
             "type": "Unknown"
           },
@@ -59774,11 +59845,11 @@
             "type": "Unknown"
           },
           {
-            "name": "C",
+            "name": "a",
             "type": "Unknown"
           },
           {
-            "name": "C",
+            "name": "a",
             "type": "Unknown"
           },
           {
@@ -59912,15 +59983,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
+            "type": "Unknown"
+          },
+          {
+            "name": "Y",
             "type": "Unknown"
           }
         ],
@@ -61467,6 +61542,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "Y",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61479,10 +61558,6 @@
           "y": 4
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -61563,6 +61638,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -62024,10 +62103,6 @@
           },
           {
             "name": "`S",
-            "type": "Unknown"
-          },
-          {
-            "name": "generic",
             "type": "Unknown"
           }
         ],
@@ -62491,10 +62566,6 @@
           {
             "name": "`S",
             "type": "Unknown"
-          },
-          {
-            "name": "generic",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62522,10 +62593,6 @@
           },
           {
             "name": "`S",
-            "type": "Unknown"
-          },
-          {
-            "name": "generic",
             "type": "Unknown"
           }
         ],
@@ -62555,10 +62622,6 @@
           {
             "name": "`S",
             "type": "Unknown"
-          },
-          {
-            "name": "generic",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62570,10 +62633,6 @@
         "metadata": [
           {
             "name": "Y",
-            "type": "Unknown"
-          },
-          {
-            "name": "text",
             "type": "Unknown"
           },
           {
@@ -62598,6 +62657,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "text",
             "type": "Unknown"
           },
           {
@@ -62630,6 +62693,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "text",
             "type": "Unknown"
           },
           {
@@ -62677,6 +62744,10 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
+          },
+          {
+            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62696,6 +62767,10 @@
           },
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
+            "type": "Unknown"
+          },
+          {
+            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
             "type": "Unknown"
           }
         ],
@@ -62717,6 +62792,10 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
+          },
+          {
+            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62736,6 +62815,10 @@
           },
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
+            "type": "Unknown"
+          },
+          {
+            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
             "type": "Unknown"
           }
         ],
@@ -62757,6 +62840,10 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
+          },
+          {
+            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62777,6 +62864,10 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
+          },
+          {
+            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62792,7 +62883,24 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "CInlineJob_CMsgDOTATeamInfo",
+            "type": "Unknown"
+          },
+          {
+            "name": "CInlineJob_CMsgDOTATeamsInfo",
+            "type": "Unknown"
+          },
+          {
+            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "SurvivorsPowerUpID_t": {
@@ -62806,20 +62914,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "CInlineJob_CMsgDOTATeamInfo",
-            "type": "Unknown"
-          },
-          {
-            "name": "CInlineJob_CMsgDOTATeamsInfo",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SurvivorsUpgradeID_t": {
@@ -62912,269 +63007,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "____M_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_oS_M_": {
-        "fields": {
-          "acorn_shot_damage": 6744,
-          "animation_rate": 6764,
-          "attack_projectile_speed": 6772,
-          "bExploding": 6768,
-          "base_damage_pct": 6748,
-          "bonus_attack_damage": 6764,
-          "bonus_attack_range": 6768,
-          "bonus_movement_speed": 6760,
-          "bounce_delay": 6772,
-          "bounce_turn_angle": 6764,
-          "bounce_turn_angle_tree": 6768,
-          "charge_use_interval": 1704,
-          "damage": 1904,
-          "damage_interval": 6752,
-          "damage_max": 6828,
-          "damage_min": 6824,
-          "damage_radius": 6756,
-          "drag": 6752,
-          "duration": 1908,
-          "end_radius": 1708,
-          "evasion_chance": 6744,
-          "flying_movement": 6788,
-          "height": 6748,
-          "invul_duration": 6800,
-          "leap_acceleration": 6748,
-          "leap_speed": 6744,
-          "m_EntitiesHit": 6800,
-          "m_GuideStr": 2964,
-          "m_IllusionLabel": 529,
-          "m_ModelNameOfDisguise": 6752,
-          "m_QuickBuyStr": 3220,
-          "m_SpeechBubbles": 1560,
-          "m_TargetEntity": 1556,
-          "m_TargetLocation": 1544,
-          "m_UnitLabel": 260,
-          "m_UnitName": 0,
-          "m_ViewerTimer": 6768,
-          "m_actQueuedActivity": 6580,
-          "m_bAnimateDuringGameplayPause": 2764,
-          "m_bContracting": 6760,
-          "m_bDayTime": 2760,
-          "m_bDirtySelection": 10336,
-          "m_bHasWorldTreesChanged": 10337,
-          "m_bIsFlyingCourier": 6784,
-          "m_bIsIllusion": 528,
-          "m_bIsRadiantMiniboss": 1524,
-          "m_bNegativeHeroAdjective": 32,
-          "m_bNightTime": 2761,
-          "m_bParticlesSpawned": 6804,
-          "m_bShowInFow": 2762,
-          "m_bShowWhileDynamicWeatherActive": 2763,
-          "m_bSwapWillingness": 10339,
-          "m_bWasDataUpdateCreated": 1536,
-          "m_bWindingUp": 6756,
-          "m_bWorldTreeModelsChanged": 10338,
-          "m_eEvent": 0,
-          "m_fCurRadius": 6752,
-          "m_fDamage": 6744,
-          "m_fLastRadius": 6748,
-          "m_fLastThink": 6756,
-          "m_fMainEventStatAverage": 52,
-          "m_fMainEventStatStdDev": 56,
-          "m_fPlayoffsStatAverage": 44,
-          "m_fPlayoffsStatStdDev": 48,
-          "m_fStartTime": 1724,
-          "m_fStatAverage": 16,
-          "m_fStatStdDev": 20,
-          "m_fTotalTime": 1728,
-          "m_flDistRemaining": 6816,
-          "m_flLastChargeUseTime": 1712,
-          "m_flMaxSpeed": 6744,
-          "m_flModelScale": 6828,
-          "m_flSpeed": 6812,
-          "m_flTreeTimeRemaining": 6820,
-          "m_hBalloon": 1716,
-          "m_hCourier": 6780,
-          "m_hEntity": 524,
-          "m_hEntsHit": 1880,
-          "m_hLastHit": 6832,
-          "m_hOtherPortal": 6576,
-          "m_hOverrideModel": 2736,
-          "m_hOverrideSequence": 2728,
-          "m_hPlayerCouriers": 10784,
-          "m_hPrevTargetEntity": 3500,
-          "m_hRoshan": 1540,
-          "m_hTeamCouriers": 10424,
-          "m_iClientEffectIndex": 2700,
-          "m_iEntangleDamage": 6744,
-          "m_iKillCount": 1524,
-          "m_iLastKillerTeam": 1520,
-          "m_iOriginalAttackCapabilities": 6744,
-          "m_iTrackerProjectile": 1720,
-          "m_iszFilteredHTMLSafeName": 3424,
-          "m_iszHTMLSafeName": 2912,
-          "m_iszName": 2400,
-          "m_iszRangedAttackEffect": 6752,
-          "m_mapBingoStatsByName": 96,
-          "m_nCourierItemId": 6744,
-          "m_nDisguiseEffectIndex": 6776,
-          "m_nDisguisedSpeed": 6772,
-          "m_nEventNPCReplaced": 12560,
-          "m_nEventPlayerInfo": 12564,
-          "m_nFXIndex": 6792,
-          "m_nHeroID": 6576,
-          "m_nInventoryUpdated": 12568,
-          "m_nLocationID": 2960,
-          "m_nMaxLeaguePhase": 40,
-          "m_nMaxSquareUpgrades": 20,
-          "m_nMinLeaguePhase": 36,
-          "m_nMoveSpeed": 6768,
-          "m_nNumSteps": 6756,
-          "m_nObsoleteEventIDAssociatedWithEventData": 1884,
-          "m_nPreShopState": 3484,
-          "m_nPreTutorialState": 3476,
-          "m_nPreUIState": 3480,
-          "m_nPreviewFX": 6744,
-          "m_nPrimaryEventIndex": 1880,
-          "m_nProjectileID": 6744,
-          "m_nRadiusFX": 1708,
-          "m_nRadiusStep": 6760,
-          "m_nRerollSquareCost": 12,
-          "m_nShopState": 1540,
-          "m_nShuffleCardCost": 8,
-          "m_nSkinOverride": 2756,
-          "m_nTaskProgress": 1524,
-          "m_nTaskSecondsRemianing": 1532,
-          "m_nTaskSteps": 1528,
-          "m_nTimesBounced": 6824,
-          "m_nTutorialState": 1520,
-          "m_nType": 2696,
-          "m_nUIState": 1536,
-          "m_nUpgradeSquareCost": 16,
-          "m_nVisualTeam": 1520,
-          "m_nWarningFX": 1704,
-          "m_nfxAmbientFx": 6752,
-          "m_nfxPortal1": 6756,
-          "m_nfxPortal2": 6760,
-          "m_nfxTargetTp": 6744,
-          "m_nfxTargetTp2": 6748,
-          "m_pPlayerIDToOnstageSlot": 12344,
-          "m_playerIDToPawn": 2144,
-          "m_playerIDToPlayer": 1888,
-          "m_sLocName": 64,
-          "m_sLocTooltip": 72,
-          "m_strExclusiveString": 8,
-          "m_strHeroAdjective": 24,
-          "m_szAreaName": 2760,
-          "m_szControlPoint": 2720,
-          "m_szEffectName": 2704,
-          "m_szModelName": 2696,
-          "m_szQueuedActivityModifier": 6584,
-          "m_szTargetName": 2712,
-          "m_unLeagueID": 4,
-          "m_unUnitLabelIndex": 520,
-          "m_vDir": 6800,
-          "m_vLastPos": 6788,
-          "m_vModelScale": 2744,
-          "m_vRoshanAltLocation": 1528,
-          "m_vStartPos": 1712,
-          "m_vTarget": 1708,
-          "m_vecBrodcasterData": 1752,
-          "m_vecEventsForDisplay": 1856,
-          "m_vecExpectedMatchCountsPerPhase": 24,
-          "m_vecLeaguePhases": 48,
-          "m_vecOnstageHomeTeams": 12320,
-          "m_vecOnstagePlayerSeats": 12536,
-          "m_vecPlayerData": 1648,
-          "m_vecPlayerTeamData": 1544,
-          "m_vecPrevTargetLocation": 3488,
-          "m_vecValidStatRangesPerPhase": 72,
-          "magic_resistance": 6776,
-          "mana_drained_per_attack": 6752,
-          "mana_multiplier": 6748,
-          "max_bounces": 6776,
-          "max_distance": 1704,
-          "max_duration": 1704,
-          "max_height": 6756,
-          "max_model_scale": 6780,
-          "max_steps": 6748,
-          "max_usable_charges": 1708,
-          "max_vertical_move_time": 6760,
-          "min_distance_before_bounce": 6748,
-          "model_scale": 6780,
-          "nova_damage": 1704,
-          "power_growth_exponent": 6784,
-          "radius": 6744,
-          "s_pszDonkeyDisguise": 6792,
-          "skin_number": 6784,
-          "slow_duration": 6840,
-          "slow_max": 6836,
-          "slow_min": 6832,
-          "speed": 6824,
-          "spend_charge_delay": 1912,
-          "start_radius": 1704,
-          "stop_distance": 6768,
-          "stun_duration": 6772,
-          "vision_duration": 6760,
-          "vision_radius": 6756,
-          "windup_time": 6844
-        },
-        "metadata": [
-          {
-            "name": "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
-            "type": "Unknown"
-          },
-          {
-            "name": "y_hop",
-            "type": "Unknown"
-          },
-          {
-            "name": "x",
-            "type": "Unknown"
-          },
-          {
-            "name": "kground-image: url(\"s2r://panorama/images/econ/loading_screens/phantasmal_disruptions_loading_screen_png.vtex\");background-posit",
-            "type": "Unknown"
-          },
-          {
-            "name": "8_png.vtex",
-            "type": "Unknown"
-          },
-          {
-            "name": "ceContainerDefault",
-            "type": "Unknown"
-          },
-          {
-            "name": "_AxeBlinkCall_Title",
-            "type": "Unknown"
-          },
-          {
-            "name": "Bonus_HP_Regen_15",
-            "type": "Unknown"
-          },
-          {
-            "name": "tionMotion2;}#WhiteBox3 .Reflection{animation-name: ReflectionMotion3;}@keyframes 'ReflectionMotion1'{0%{transform: rotateZ(-210",
-            "type": "Unknown"
-          },
-          {
-            "name": "center;horizontal-align: center;margin: 0px 0px -2px 0px;}.NoHotkey .Hotkey{visibility: collapse;}.NeutralChoiceHolder{width: fi",
-            "type": "Unknown"
-          },
-          {
-            "name": "?",
-            "type": "Unknown"
-          },
-          {
-            "name": "ngle_stalker",
-            "type": "Unknown"
-          },
-          {
-            "name": "ngle_stalker",
             "type": "Unknown"
           }
         ],
@@ -65027,7 +64859,7 @@
         "type": "uint32"
       },
       "H____WH___H__H_ڹh": {
-        "alignment": 44,
+        "alignment": 28,
         "members": {},
         "type": "unknown"
       },

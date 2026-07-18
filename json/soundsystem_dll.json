@@ -313,10 +313,6 @@
             "type": "Unknown"
           },
           {
-            "name": "dumps",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -329,7 +325,11 @@
             "type": "Unknown"
           },
           {
-            "name": "_giant_wolf",
+            "name": "npc_dota_zeus_cloud",
+            "type": "Unknown"
+          },
+          {
+            "name": "zzzzzzzz",
             "type": "Unknown"
           }
         ],
@@ -495,7 +495,7 @@
             "type": "Unknown"
           },
           {
-            "name": "_giant_wolf",
+            "name": "npc_dota_zeus_cloud",
             "type": "Unknown"
           }
         ],
@@ -641,7 +641,7 @@
             "type": "Unknown"
           },
           {
-            "name": "_giant_wolf",
+            "name": "npc_dota_zeus_cloud",
             "type": "Unknown"
           }
         ],
@@ -683,10 +683,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "dumps",
             "type": "Unknown"
           }
         ],
@@ -1538,10 +1534,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "dumps",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1885,10 +1877,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "dumps",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2013,10 +2001,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "dumps",
             "type": "Unknown"
           }
         ],
@@ -2586,10 +2570,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "dumps",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2681,6 +2661,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -7293,7 +7277,7 @@
             "type": "Unknown"
           },
           {
-            "name": "SModulePath=C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "name": "i",
             "type": "Unknown"
           },
           {
@@ -11133,7 +11117,11 @@
             "type": "Unknown"
           },
           {
-            "name": "_giant_wolf",
+            "name": "npc_dota_zeus_cloud",
+            "type": "Unknown"
+          },
+          {
+            "name": "zzzzzzzz",
             "type": "Unknown"
           }
         ],

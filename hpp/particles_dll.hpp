@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-16 16:42:29.142708300 +07:00
+// 2026-07-19 03:33:58.207251400 +07:00
 
 #pragma once
 
@@ -789,6 +789,7 @@ namespace source2_dumper {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
+            // !
             namespace CPulseCell_WaitForObservable {
                 constexpr std::ptrdiff_t m_Condition = 0xD8; // CPulseObservableExpression<bool>
                 constexpr std::ptrdiff_t m_OnTrue = 0x150; // CPulse_ResumePoint
@@ -920,11 +921,13 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
+            // VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // C\AppData\Local
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -1682,6 +1685,7 @@ namespace source2_dumper {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
+            // !
             namespace CPulseCell_BooleanSwitchState {
                 constexpr std::ptrdiff_t m_Condition = 0xD8; // CPulseObservableExpression<bool>
                 constexpr std::ptrdiff_t m_WhenTrue = 0x150; // CPulse_OutflowConnection
@@ -3903,6 +3907,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_TeleportBeam {
                 constexpr std::ptrdiff_t m_nCPPosition = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nCPVelocity = 0x1DC; // int32
@@ -5686,6 +5691,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_RemapDistanceToLineSegmentBase {
                 constexpr std::ptrdiff_t m_nCP0 = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nCP1 = 0x1DC; // int32
@@ -8843,6 +8849,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_RemapDistanceToLineSegmentToVector {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1F0; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_vMinOutputValue = 0x1F4; // Vector
@@ -11358,6 +11365,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_UpdateLightSource {
                 constexpr std::ptrdiff_t m_vColorTint = 0x1D8; // Color
                 constexpr std::ptrdiff_t m_flBrightnessScale = 0x1DC; // float32
@@ -12961,6 +12969,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_RemapDistanceToLineSegmentToScalar {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1F0; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flMinOutputValue = 0x1F4; // float32
@@ -16948,6 +16957,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_ConnectParentParticleToNearest {
                 constexpr std::ptrdiff_t m_nFirstControlPoint = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nSecondControlPoint = 0x1DC; // int32
@@ -17299,6 +17309,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_ColorAdjustHSL {
                 constexpr std::ptrdiff_t m_flHueAdjust = 0x1D8; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flSaturationAdjust = 0x348; // CPerParticleFloatInput
@@ -17451,6 +17462,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_RemapDensityGradientToVectorAttribute {
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x1D8; // float32
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -21811,7 +21823,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // \dumps
             namespace C_OP_RemapBoundingVolumetoCP {
                 constexpr std::ptrdiff_t m_nOutControlPointNumber = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_flInputMin = 0x1E4; // float32
@@ -23149,6 +23160,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_LockPoints {
                 constexpr std::ptrdiff_t m_nMinCol = 0x1D8; // int32
                 constexpr std::ptrdiff_t m_nMaxCol = 0x1DC; // int32
@@ -24336,7 +24348,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // \dumps
             namespace C_OP_EnableChildrenFromParentParticleCount {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nFirstChild = 0x1E4; // int32
@@ -26708,6 +26719,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // !
             namespace C_OP_CycleScalar {
                 constexpr std::ptrdiff_t m_nDestField = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flStartValue = 0x1DC; // float32

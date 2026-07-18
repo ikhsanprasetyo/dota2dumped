@@ -1,13 +1,13 @@
 {
   "client.dll": {
-    "dwEntityList": 105471104,
-    "dwGameEntitySystem": 105471104,
+    "dwEntityList": 105466864,
+    "dwGameEntitySystem": 105466864,
     "dwGameEntitySystem_highestEntityIndex": 8336,
-    "dwGlobalVars": 94302048,
-    "dwLocalPlayerPawn": 94338824,
-    "dwPrediction": 94338608,
-    "dwViewMatrix": 101835136,
-    "dwViewRender": 101832776
+    "dwGlobalVars": 94298080,
+    "dwLocalPlayerPawn": 94334856,
+    "dwPrediction": 94334640,
+    "dwViewMatrix": 101830896,
+    "dwViewRender": 101828536
   },
   "engine2.dll": {
     "dwBuildNumber": 6342292,

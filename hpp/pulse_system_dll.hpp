@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-16 16:42:29.142708300 +07:00
+// 2026-07-19 03:33:58.207251400 +07:00
 
 #pragma once
 
@@ -449,6 +449,7 @@ namespace source2_dumper {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
+            // !
             namespace CPulseCell_WaitForObservable {
                 constexpr std::ptrdiff_t m_Condition = 0xD8; // CPulseObservableExpression<bool>
                 constexpr std::ptrdiff_t m_OnTrue = 0x150; // CPulse_ResumePoint
@@ -600,6 +601,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -1653,6 +1655,7 @@ namespace source2_dumper {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
+            // !
             namespace CPulseCell_BooleanSwitchState {
                 constexpr std::ptrdiff_t m_Condition = 0xD8; // CPulseObservableExpression<bool>
                 constexpr std::ptrdiff_t m_WhenTrue = 0x150; // CPulse_OutflowConnection

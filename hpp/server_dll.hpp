@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-16 16:42:29.142708300 +07:00
+// 2026-07-19 03:33:58.207251400 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7534
-        // Enum count: 439
+        // Enum count: 441
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -14550,7 +14550,6 @@ namespace source2_dumper {
             // MSaveBehavior
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_szParticlePrecipitationPuddleEffect = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -16392,257 +16391,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ACT_IDLE
-            // ACT_TRANSITION
-            // ACT_COVER
-            // ACT_COVER_MED
-            // ACT_COVER_LOW
-            // ACT_WALK
-            // ACT_WALK_AIM
-            // ACT_WALK_CROUCH
-            // ACT_WALK_CROUCH_AIM
-            // ACT_RUN
-            // ACT_RUN_AIM
-            // ACT_RUN_CROUCH
-            // ACT_RUN_CROUCH_AIM
-            // ACT_RUN_PROTECTED
-            // ACT_SCRIPT_CUSTOM_MOVE
-            // ACT_RANGE_ATTACK1
-            // ACT_RANGE_ATTACK2
-            // ACT_RANGE_ATTACK1_LOW
-            // ACT_RANGE_ATTACK2_LOW
-            // ACT_DIESIMPLE
-            // ACT_DIEBACKWARD
-            // ACT_DIEFORWARD
-            // ACT_DIEVIOLENT
-            // ACT_DIERAGDOLL
-            // ACT_FLY
-            // ACT_HOVER
-            // ACT_GLIDE
-            // ACT_SWIM
-            // ACT_JUMP
-            // ACT_HOP
-            // ACT_LEAP
-            // ACT_LAND
-            // ACT_CLIMB_UP
-            // ACT_CLIMB_DOWN
-            // ACT_CLIMB_DISMOUNT
-            // ACT_SHIPLADDER_UP
-            // ACT_SHIPLADDER_DOWN
-            // ACT_STRAFE_LEFT
-            // ACT_STRAFE_RIGHT
-            // ACT_ROLL_LEFT
-            // ACT_ROLL_RIGHT
-            // ACT_TURN_LEFT
-            // ACT_TURN_RIGHT
-            // ACT_CROUCH
-            // ACT_CROUCHIDLE
-            // ACT_STAND
-            // ACT_USE
-            // ACT_ALIEN_BURROW_IDLE
-            // ACT_ALIEN_BURROW_OUT
-            // ACT_SIGNAL1
-            // ACT_SIGNAL2
-            // ACT_SIGNAL3
-            // ACT_SIGNAL_ADVANCE
-            // ACT_SIGNAL_FORWARD
-            // ACT_SIGNAL_GROUP
-            // ACT_SIGNAL_HALT
-            // ACT_SIGNAL_LEFT
-            // ACT_SIGNAL_RIGHT
-            // ACT_SIGNAL_TAKECOVER
-            // ACT_LOOKBACK_RIGHT
-            // ACT_LOOKBACK_LEFT
-            // ACT_COWER
-            // ACT_SMALL_FLINCH
-            // ACT_BIG_FLINCH
-            // ACT_MELEE_ATTACK1
-            // ACT_MELEE_ATTACK2
-            // ACT_RELOAD
-            // ACT_RELOAD_START
-            // ACT_RELOAD_FINISH
-            // ACT_RELOAD_LOW
-            // ACT_ARM
-            // ACT_DISARM
-            // ACT_DROP_WEAPON
-            // ACT_DROP_WEAPON_SHOTGUN
-            // ACT_PICKUP_GROUND
-            // ACT_PICKUP_RACK
-            // ACT_IDLE_ANGRY
-            // ACT_IDLE_RELAXED
-            // ACT_IDLE_STIMULATED
-            // ACT_IDLE_AGITATED
-            // ACT_IDLE_STEALTH
-            // ACT_IDLE_HURT
-            // ACT_WALK_RELAXED
-            // ACT_WALK_STIMULATED
-            // ACT_WALK_AGITATED
-            // ACT_WALK_STEALTH
-            // ACT_RUN_RELAXED
-            // ACT_RUN_STIMULATED
-            // ACT_RUN_AGITATED
-            // ACT_RUN_STEALTH
-            // ACT_IDLE_AIM_RELAXED
-            // ACT_IDLE_AIM_STIMULATED
-            // ACT_IDLE_AIM_AGITATED
-            // ACT_IDLE_AIM_STEALTH
-            // ACT_WALK_AIM_RELAXED
-            // ACT_WALK_AIM_STIMULATED
-            // ACT_WALK_AIM_AGITATED
-            // ACT_WALK_AIM_STEALTH
-            // ACT_RUN_AIM_RELAXED
-            // ACT_RUN_AIM_STIMULATED
-            // ACT_RUN_AIM_AGITATED
-            // ACT_RUN_AIM_STEALTH
-            // ACT_CROUCHIDLE_STIMULATED
-            // ACT_CROUCHIDLE_AIM_STIMULATED
-            // ACT_CROUCHIDLE_AGITATED
-            // ACT_WALK_HURT
-            // ACT_RUN_HURT
-            // ACT_SPECIAL_ATTACK1
-            // ACT_SPECIAL_ATTACK2
-            // ACT_COMBAT_IDLE
-            // ACT_WALK_SCARED
-            // ACT_RUN_SCARED
-            // ACT_VICTORY_DANCE
-            // ACT_DIE_HEADSHOT
-            // ACT_DIE_CHESTSHOT
-            // ACT_DIE_GUTSHOT
-            // ACT_DIE_BACKSHOT
-            // ACT_FLINCH_HEAD
-            // ACT_FLINCH_CHEST
-            // ACT_FLINCH_STOMACH
-            // ACT_FLINCH_LEFTARM
-            // ACT_FLINCH_RIGHTARM
-            // ACT_FLINCH_LEFTLEG
-            // ACT_FLINCH_RIGHTLEG
-            // ACT_FLINCH_PHYSICS
-            // ACT_FLINCH_HEAD_BACK
-            // ACT_FLINCH_CHEST_BACK
-            // ACT_FLINCH_STOMACH_BACK
-            // ACT_FLINCH_CROUCH_FRONT
-            // ACT_FLINCH_CROUCH_BACK
-            // ACT_FLINCH_CROUCH_LEFT
-            // ACT_FLINCH_CROUCH_RIGHT
-            // ACT_IDLE_ON_FIRE
-            // ACT_WALK_ON_FIRE
-            // ACT_RUN_ON_FIRE
-            // ACT_180_LEFT
-            // ACT_180_RIGHT
-            // ACT_90_LEFT
-            // ACT_90_RIGHT
-            // ACT_STEP_LEFT
-            // ACT_STEP_RIGHT
-            // ACT_STEP_BACK
-            // ACT_STEP_FORE
-            // ACT_GESTURE_RANGE_ATTACK1
-            // ACT_GESTURE_RANGE_ATTACK2
-            // ACT_GESTURE_MELEE_ATTACK1
-            // ACT_GESTURE_MELEE_ATTACK2
-            // ACT_GESTURE_RANGE_ATTACK1_LOW
-            // ACT_GESTURE_RANGE_ATTACK2_LOW
-            // ACT_MELEE_ATTACK_SWING_GESTURE
-            // ACT_GESTURE_SMALL_FLINCH
-            // ACT_GESTURE_BIG_FLINCH
-            // ACT_GESTURE_FLINCH_BLAST
-            // ACT_GESTURE_FLINCH_BLAST_SHOTGUN
-            // ACT_GESTURE_FLINCH_BLAST_DAMAGED
-            // ACT_GESTURE_FLINCH_BLAST_DAMAGED_SHOTGUN
-            // ACT_GESTURE_FLINCH_HEAD
-            // ACT_GESTURE_FLINCH_CHEST
-            // ACT_GESTURE_FLINCH_STOMACH
-            // ACT_GESTURE_FLINCH_LEFTARM
-            // ACT_GESTURE_FLINCH_RIGHTARM
-            // ACT_GESTURE_FLINCH_LEFTLEG
-            // ACT_GESTURE_FLINCH_RIGHTLEG
-            // ACT_GESTURE_TURN_LEFT
-            // ACT_GESTURE_TURN_RIGHT
-            // ACT_GESTURE_TURN_LEFT45
-            // ACT_GESTURE_TURN_RIGHT45
-            // ACT_GESTURE_TURN_LEFT90
-            // ACT_GESTURE_TURN_RIGHT90
-            // ACT_GESTURE_TURN_LEFT45_FLAT
-            // ACT_GESTURE_TURN_RIGHT45_FLAT
-            // ACT_GESTURE_TURN_LEFT90_FLAT
-            // ACT_GESTURE_TURN_RIGHT90_FLAT
-            // ACT_BARNACLE_HIT
-            // ACT_BARNACLE_PULL
-            // ACT_BARNACLE_CHOMP
-            // ACT_BARNACLE_CHEW
-            // ACT_DO_NOT_DISTURB
-            // ACT_SPECIFIC_SEQUENCE
-            // ACT_VM_DEPLOY
-            // ACT_VM_RELOAD_EMPTY
-            // ACT_VM_DRAW
-            // ACT_VM_HOLSTER
-            // ACT_VM_IDLE
-            // ACT_VM_FIDGET
-            // ACT_VM_PULLBACK
-            // ACT_VM_PULLBACK_HIGH
-            // ACT_VM_PULLBACK_LOW
-            // ACT_VM_THROW
-            // ACT_VM_DROP
-            // ACT_VM_PULLPIN
-            // ACT_VM_PRIMARYATTACK
-            // ACT_VM_SECONDARYATTACK
-            // ACT_VM_RELOAD
-            // ACT_VM_DRYFIRE
-            // ACT_VM_HITLEFT
-            // ACT_VM_HITLEFT2
-            // ACT_VM_HITRIGHT
-            // ACT_VM_HITRIGHT2
-            // ACT_VM_HITCENTER
-            // ACT_VM_HITCENTER2
-            // ACT_VM_MISSLEFT
-            // ACT_VM_MISSLEFT2
-            // ACT_VM_MISSRIGHT
-            // ACT_VM_MISSRIGHT2
-            // ACT_VM_MISSCENTER
-            // ACT_VM_MISSCENTER2
-            // ACT_VM_HAULBACK
-            // ACT_VM_SWINGHARD
-            // ACT_VM_SWINGMISS
-            // ACT_VM_SWINGHIT
-            // ACT_VM_IDLE_TO_LOWERED
-            // ACT_VM_IDLE_LOWERED
-            // ACT_VM_LOWERED_TO_IDLE
-            // ACT_VM_RECOIL1
-            // ACT_VM_RECOIL2
-            // ACT_VM_RECOIL3
-            // ACT_VM_PICKUP
-            // ACT_VM_RELEASE
-            // ACT_VM_MAUL_LOOP
-            // ACT_VM_ATTACH_SILENCER
-            // ACT_VM_DETACH_SILENCER
-            // ACT_SLAM_STICKWALL_IDLE
-            // ACT_SLAM_STICKWALL_ND_IDLE
-            // ACT_SLAM_STICKWALL_ATTACH
-            // ACT_SLAM_STICKWALL_ATTACH2
-            // ACT_SLAM_STICKWALL_ND_ATTACH
-            // ACT_SLAM_STICKWALL_ND_ATTACH2
-            // ACT_SLAM_STICKWALL_DETONATE
-            // ACT_SLAM_STICKWALL_DETONATOR_HOLSTER
-            // ACT_SLAM_STICKWALL_DRAW
-            // ACT_SLAM_STICKWALL_ND_DRAW
-            // ACT_SLAM_STICKWALL_TO_THROW
-            // ACT_SLAM_STICKWALL_TO_THROW_ND
-            // ACT_SLAM_STICKWALL_TO_TRIPMINE_ND
-            // ACT_SLAM_THROW_IDLE
-            // ACT_SLAM_THROW_ND_IDLE
-            // ACT_SLAM_THROW_THROW
-            // ACT_SLAM_THROW_THROW2
-            // ACT_SLAM_THROW_THROW_ND
-            // ACT_SLAM_THROW_THROW_ND2
-            // ACT_SLAM_THROW_DRAW
-            // ACT_SLAM_THROW_ND_DRAW
-            // ACT_SLAM_THROW_TO_STICKWALL
-            // ACT_SLAM_THROW_TO_STICKWALL_ND
-            // ACT_SLAM_THROW_DETONATE
-            // ACT_SLAM_THROW_DETONATOR_HOLSTER
-            // ACT_SLAM_THROW_TO_TRIPMINE_ND
-            // ACT_SLAM_TRIPMINE_IDLE
-            // ACT_SLAM_TRIPMINE_DRAW
-            // ACT_SLAM_TRIPMINE_ATTACH
             namespace CBodyComponentBaseAnimating {
                 constexpr std::ptrdiff_t m_animationController = 0x4E0; // CBaseAnimatingController
             }
@@ -18530,7 +18278,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
@@ -19343,6 +19090,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
+            // !
             namespace CBodyComponentPoint {
                 constexpr std::ptrdiff_t m_sceneNode = 0x80; // CGameSceneNode
             }
@@ -20095,8 +19843,11 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // !
             // MGetKV3ClassDefaults
-            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
+            // !
+            // VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // C\AppData\Local
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -21125,6 +20876,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // a
             namespace CTimeline {
                 constexpr std::ptrdiff_t m_flValues = 0x10; // float32[64]
                 constexpr std::ptrdiff_t m_nValueCounts = 0x110; // int32[64]
@@ -24880,6 +24632,10 @@ namespace source2_dumper {
             }
             // Parent: CBaseTrigger
             // Field count: 12
+            //
+            // Metadata:
+            // PM_NO_GIBS
+            // MGetKV3ClassDefaults
             namespace CPostProcessingVolume {
                 constexpr std::ptrdiff_t m_hPostSettings = 0x900; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
                 constexpr std::ptrdiff_t m_flFadeDuration = 0x908; // float32
@@ -35821,6 +35577,7 @@ namespace source2_dumper {
             // IgnoreHealthCheck
             // ApplyPhysicsForce
             // Default
+            // M
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
@@ -35831,6 +35588,7 @@ namespace source2_dumper {
             // DOOR_OPENING
             // DOOR_CLOSING
             // M
+            // !
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -36975,7 +36733,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bEnabled = 0x4AC; // bool
             }
             // Parent: None
-            // Field count: 78
+            // Field count: 79
             namespace CDOTA_Bot {
                 constexpr std::ptrdiff_t m_iLifesteal = 0x10; // int32
                 constexpr std::ptrdiff_t m_iBlock = 0x14; // int32
@@ -37017,44 +36775,45 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_InteralRatingsTimer = 0x160; // CountdownTimer
                 constexpr std::ptrdiff_t m_BuybackDelayTimer = 0x178; // CountdownTimer
                 constexpr std::ptrdiff_t m_CourierUsageTimer = 0x190; // CountdownTimer
-                constexpr std::ptrdiff_t m_AbilityMutedTimer = 0x1A8; // CountdownTimer
-                constexpr std::ptrdiff_t m_AbilityMutedCheckTimer = 0x1C0; // CountdownTimer
-                constexpr std::ptrdiff_t m_HitByTowerTime = 0x1D8; // GameTime_t
-                constexpr std::ptrdiff_t m_HitByHeroTime = 0x1DC; // GameTime_t[24]
-                constexpr std::ptrdiff_t m_HitByCreepTime = 0x23C; // GameTime_t
-                constexpr std::ptrdiff_t m_nEstimatedDamageUpdatedTick = 0x240; // GameTick_t
-                constexpr std::ptrdiff_t m_nNearbyUnitsUpdatedTick = 0x244; // GameTick_t
-                constexpr std::ptrdiff_t m_nNearbyTreesUpdatedTick = 0x248; // GameTick_t
-                constexpr std::ptrdiff_t m_NearbyTrees = 0x310; // CUtlVector<int32>
-                constexpr std::ptrdiff_t m_nNearbyEnemyCreeps = 0x328; // int32
-                constexpr std::ptrdiff_t m_nAttackingCreeps = 0x32C; // int32
-                constexpr std::ptrdiff_t m_nAttackingTowers = 0x330; // int32
-                constexpr std::ptrdiff_t m_nAttackingHeroes = 0x334; // int32
-                constexpr std::ptrdiff_t m_fLastSeen = 0x338; // GameTime_t
-                constexpr std::ptrdiff_t m_nFailedPaths = 0x33C; // int32
-                constexpr std::ptrdiff_t m_hTarget = 0x340; // CHandle<CBaseEntity>
-                constexpr std::ptrdiff_t m_vTargetLoc = 0x344; // VectorWS
-                constexpr std::ptrdiff_t m_fTargetLastSeen = 0x350; // GameTime_t
-                constexpr std::ptrdiff_t m_hTargetLastHitCreep = 0x354; // CHandle<CBaseEntity>
-                constexpr std::ptrdiff_t m_bWasInvisible = 0x358; // bool
-                constexpr std::ptrdiff_t m_bKnownInvisible = 0x359; // bool
-                constexpr std::ptrdiff_t m_vLastSeenLoc = 0x35C; // VectorWS
-                constexpr std::ptrdiff_t m_vRequestedBlinkLoc = 0x3A0; // VectorWS
-                constexpr std::ptrdiff_t m_fRequestedBlinkStart = 0x3AC; // GameTime_t
-                constexpr std::ptrdiff_t m_fRequestedBlinkExpire = 0x3B0; // GameTime_t
-                constexpr std::ptrdiff_t m_vRequestedWardLocation = 0x3D4; // VectorWS
-                constexpr std::ptrdiff_t m_hMinions = 0x3E0; // CUtlVector<CHandle<CBaseEntity>>
-                constexpr std::ptrdiff_t m_Build = 0x3F8; // CUtlVector<CDOTABaseAbility*>
-                constexpr std::ptrdiff_t m_fModeDesires = 0x8718; // float32[32]
-                constexpr std::ptrdiff_t m_iPreviousBotModeType = 0x8798; // int32
-                constexpr std::ptrdiff_t m_flNextTaskDistance = 0x8818; // float32
-                constexpr std::ptrdiff_t m_flTaskReconsiderTime = 0x881C; // GameTime_t
-                constexpr std::ptrdiff_t m_flPlannerStateExpiration = 0x8858; // GameTime_t
-                constexpr std::ptrdiff_t m_UpdateDangerTimer = 0x8860; // CountdownTimer
-                constexpr std::ptrdiff_t m_fPendingActionExecuteTime = 0x88C0; // GameTime_t
-                constexpr std::ptrdiff_t m_bPendingActionBypass = 0x88C4; // bool
-                constexpr std::ptrdiff_t m_nForceAbility = 0x88C8; // int32
-                constexpr std::ptrdiff_t m_flLastDebugTime = 0x88CC; // GameTime_t
+                constexpr std::ptrdiff_t m_ItemModeTimeout = 0x1A8; // CountdownTimer
+                constexpr std::ptrdiff_t m_AbilityMutedTimer = 0x1C0; // CountdownTimer
+                constexpr std::ptrdiff_t m_AbilityMutedCheckTimer = 0x1D8; // CountdownTimer
+                constexpr std::ptrdiff_t m_HitByTowerTime = 0x1F0; // GameTime_t
+                constexpr std::ptrdiff_t m_HitByHeroTime = 0x1F4; // GameTime_t[24]
+                constexpr std::ptrdiff_t m_HitByCreepTime = 0x254; // GameTime_t
+                constexpr std::ptrdiff_t m_nEstimatedDamageUpdatedTick = 0x258; // GameTick_t
+                constexpr std::ptrdiff_t m_nNearbyUnitsUpdatedTick = 0x25C; // GameTick_t
+                constexpr std::ptrdiff_t m_nNearbyTreesUpdatedTick = 0x260; // GameTick_t
+                constexpr std::ptrdiff_t m_NearbyTrees = 0x328; // CUtlVector<int32>
+                constexpr std::ptrdiff_t m_nNearbyEnemyCreeps = 0x340; // int32
+                constexpr std::ptrdiff_t m_nAttackingCreeps = 0x344; // int32
+                constexpr std::ptrdiff_t m_nAttackingTowers = 0x348; // int32
+                constexpr std::ptrdiff_t m_nAttackingHeroes = 0x34C; // int32
+                constexpr std::ptrdiff_t m_fLastSeen = 0x350; // GameTime_t
+                constexpr std::ptrdiff_t m_nFailedPaths = 0x354; // int32
+                constexpr std::ptrdiff_t m_hTarget = 0x358; // CHandle<CBaseEntity>
+                constexpr std::ptrdiff_t m_vTargetLoc = 0x35C; // VectorWS
+                constexpr std::ptrdiff_t m_fTargetLastSeen = 0x368; // GameTime_t
+                constexpr std::ptrdiff_t m_hTargetLastHitCreep = 0x36C; // CHandle<CBaseEntity>
+                constexpr std::ptrdiff_t m_bWasInvisible = 0x370; // bool
+                constexpr std::ptrdiff_t m_bKnownInvisible = 0x371; // bool
+                constexpr std::ptrdiff_t m_vLastSeenLoc = 0x374; // VectorWS
+                constexpr std::ptrdiff_t m_vRequestedBlinkLoc = 0x3B8; // VectorWS
+                constexpr std::ptrdiff_t m_fRequestedBlinkStart = 0x3C4; // GameTime_t
+                constexpr std::ptrdiff_t m_fRequestedBlinkExpire = 0x3C8; // GameTime_t
+                constexpr std::ptrdiff_t m_vRequestedWardLocation = 0x3EC; // VectorWS
+                constexpr std::ptrdiff_t m_hMinions = 0x3F8; // CUtlVector<CHandle<CBaseEntity>>
+                constexpr std::ptrdiff_t m_Build = 0x410; // CUtlVector<CDOTABaseAbility*>
+                constexpr std::ptrdiff_t m_fModeDesires = 0x8730; // float32[32]
+                constexpr std::ptrdiff_t m_iPreviousBotModeType = 0x87B0; // int32
+                constexpr std::ptrdiff_t m_flNextTaskDistance = 0x8830; // float32
+                constexpr std::ptrdiff_t m_flTaskReconsiderTime = 0x8834; // GameTime_t
+                constexpr std::ptrdiff_t m_flPlannerStateExpiration = 0x8870; // GameTime_t
+                constexpr std::ptrdiff_t m_UpdateDangerTimer = 0x8878; // CountdownTimer
+                constexpr std::ptrdiff_t m_fPendingActionExecuteTime = 0x88D8; // GameTime_t
+                constexpr std::ptrdiff_t m_bPendingActionBypass = 0x88DC; // bool
+                constexpr std::ptrdiff_t m_nForceAbility = 0x88E0; // int32
+                constexpr std::ptrdiff_t m_flLastDebugTime = 0x88E4; // GameTime_t
             }
             // Parent: CDOTABaseAbility
             // Field count: 0
@@ -37941,6 +37700,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // e
             // ePosition
             // eAngles
             // MGetKV3ClassDefaults
@@ -39106,6 +38866,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
+            // !
             namespace CBodyComponentSkeletonInstance {
                 constexpr std::ptrdiff_t m_skeletonInstance = 0x80; // CSkeletonInstance
             }
@@ -42713,6 +42474,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
+            // !
             namespace CBodyComponent {
                 constexpr std::ptrdiff_t m_pSceneNode = 0x8; // CGameSceneNode*
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x48; // CNetworkVarChainer
@@ -48840,9 +48602,6 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 9
-            //
-            // Metadata:
-            // l
             namespace CEnvWindVolume {
                 constexpr std::ptrdiff_t m_bActive = 0x498; // bool
                 constexpr std::ptrdiff_t m_vBoxMins = 0x49C; // Vector
@@ -55194,8 +54953,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // C
-            // C
+            // a
+            // a
             // ROTATOR_TARGET_LOCALSPACE
             // eRotateBegin
             // eEventsDispatched
@@ -55213,6 +54972,7 @@ namespace source2_dumper {
             // ROTATION_AXIS_YAW
             // ROTATION_AXIS_PITCH
             // ROTATION_AXIS_ROLL
+            // MGetKV3ClassDefaults
             namespace CDynamicProp {
                 constexpr std::ptrdiff_t m_bRandomAnimator = 0x930; // bool
                 constexpr std::ptrdiff_t m_flNextRandAnim = 0x934; // GameTime_t
@@ -56478,9 +56238,6 @@ namespace source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 0
-            //
-            // Metadata:
-            // l
             namespace CInfoParticleTarget {
             }
             // Parent: CBaseEntity
@@ -57103,41 +56860,18 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // AMMO_FORCE_DROP_IF_CARRIED
-            // AMMO_RESERVE_STAYS_WITH_WEAPON
-            // AMMO_FLAG_MAX
             // MPropertyDescription
-            // PrioritizeClosestPart
             // MPropertyDescription
-            // Absorb
-            // InvincibleAbsorb
-            // InvinciblePassthrough
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
-            // eKill
-            // eGib
-            // eRemove
-            // GenerateBreakpieces
-            // SetBodyGroupAndCollisionState
-            // EnableFlinches
-            // ForceDamageApply
-            // IgnoreKillEntityFlag
-            // IgnoreHealthCheck
-            // ApplyPhysicsForce
-            // Default
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // TS_AT_BOTTOM
-            // TS_GOING_UP
-            // TS_GOING_DOWN
-            // DOOR_CLOSED
-            // DOOR_OPENING
-            // DOOR_CLOSING
-            // M
-            // MKV3TransferSaveOpsForField
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace RelationshipOverride_t {
                 constexpr std::ptrdiff_t entity = 0x8; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t classType = 0xC; // Class_T
@@ -57235,6 +56969,7 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // ORD
             namespace CRemapFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -57333,7 +57068,6 @@ namespace source2_dumper {
             // WsDirection
             // MsDirection
             // MGetKV3ClassDefaults
-            // MKV3TransferSaveOpsForField
             namespace AI_GroundRootMotionMotor_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t desired_movement_gait_set = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t desired_movement_gait = 0x10; // CGlobalSymbol
@@ -57420,8 +57154,6 @@ namespace source2_dumper {
             // eEyesOnly
             // MPropertyFriendlyName
             // MAlternateSemanticName
-            // MPropertyFriendlyName
-            // MAlternateSemanticName
             // eInvalid
             // eMedium
             // eFast
@@ -57431,11 +57163,13 @@ namespace source2_dumper {
             // MAlternateSemanticName
             // MPropertyFriendlyName
             // MAlternateSemanticName
+            // MGetKV3ClassDefaults
             // eExit
             // eState01
             // eState02
             // eState03
             // eState04
+            // eState05
             namespace CFootstepTableHandle {
             }
             // Parent: None
@@ -57448,6 +57182,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             namespace CraftworksComponentID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -57533,6 +57270,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // RELATIVE_TO_ENTITY_IN_LOCAL_SPACE
+            // RELATIVE_TO_ENTITY_YAW_ONLY
             namespace lerpdata_t {
                 constexpr std::ptrdiff_t m_hEnt = 0x0; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_MoveType = 0x4; // MoveType_t
@@ -57581,9 +57320,9 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // Y
+            // MGetKV3ClassDefaults
+            // !
             namespace CSimpleSimTimer {
                 constexpr std::ptrdiff_t m_flNext = 0x0; // GameTime_t
                 constexpr std::ptrdiff_t m_nWorldGroupId = 0x4; // WorldGroupId_t
@@ -57606,6 +57345,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             namespace CraftworksRecipeID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -57759,7 +57501,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
-            // \dumps
             namespace AI_BaseNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t npc_state = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -57799,6 +57540,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             namespace CraftworksQuestID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -58196,7 +57940,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ps
             namespace CPlayerPawnComponent {
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x8; // CNetworkVarChainer
                 constexpr std::ptrdiff_t m_pComponentGraphController = 0x30; // CAnimGraphControllerPtr
@@ -58393,7 +58136,7 @@ namespace source2_dumper {
             // e
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // a
             namespace CSkeletonAnimationController {
                 constexpr std::ptrdiff_t m_pSkeletonInstance = 0x8; // CSkeletonInstance*
             }
@@ -58657,6 +58400,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // Y
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             namespace DebugDrawBoneTransforms_t {
                 constexpr std::ptrdiff_t vecBones = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
             }
@@ -58718,6 +58462,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // r
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -58797,7 +58542,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Y
+            // MGetKV3ClassDefaults
             namespace CStopwatchBase {
                 constexpr std::ptrdiff_t m_bIsRunning = 0x8; // bool
             }
@@ -58993,7 +58738,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace RotatorQueueEntry_t {
                 constexpr std::ptrdiff_t qTarget = 0x0; // Quaternion
                 constexpr std::ptrdiff_t eSpace = 0x10; // RotatorTargetSpace_t
@@ -59006,29 +58750,30 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyStartGroup
             // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyStartGroup
-            // MPropertyDescription
-            // MPropertyStartGroup
-            // MPropertyDescription
             // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyStartGroup
+            // MPropertyDescription
+            // MPropertySuppressExpr
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertySuppressExpr
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertySuppressExpr
             // MGetKV3ClassDefaults
             // MPropertyStartGroup
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MFgdHelper
-            // MGetKV3ClassDefaults
+            // MPropertyDescription
             namespace CBaseAnimGraphDestructibleParts_GraphController {
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59048,6 +58793,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             namespace CInfoChoreoAnchorPosition {
                 constexpr std::ptrdiff_t m_vOriginLS = 0x0; // Vector
                 constexpr std::ptrdiff_t m_qAnglesLS = 0x10; // Quaternion
@@ -59150,7 +58896,16 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // SOUNDCTRL_CHANGE_PITCH
+            // SOUNDCTRL_STOP
+            // SOUNDCTRL_DESTROY
+            // SOUNDCTRL_FADEOUT
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
+            // MGetKV3ClassDefaults
+            // !
             namespace SceneEventId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -59201,6 +58956,16 @@ namespace source2_dumper {
             // k_ePlayerTrackedStatImpl_CombatQuery
             // k_ePlayerTrackedStatImpl_Expression
             // k_ePlayerTrackedStatImpl_HeroAdjective
+            // k_eTeamTrackedStatImpl_Direct
+            // k_eTeamTrackedStatImpl_Expression
+            // k_eTeamTrackedStatImpl_PlayerAggregate
+            // k_eMatchTrackedStatImpl_Direct
+            // k_eMatchTrackedStatImpl_Expression
+            // k_eMatchTrackedStatImpl_PlayerAggregate
+            // k_eMatchTrackedStatImpl_TeamAggregate
+            // k_eTrackedStatAggregate_Sum
+            // k_eTrackedStatAggregate_Max
+            // k_eTrackedStatAggregate_Min
             namespace TrackedStatValue_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -59536,7 +59301,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CRandStopwatch {
                 constexpr std::ptrdiff_t m_flMinInterval = 0xC; // float32
                 constexpr std::ptrdiff_t m_flMaxInterval = 0x10; // float32
@@ -59596,9 +59360,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // eline_cache.foz
             namespace AbilityContributionType_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59971,6 +59732,7 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // ORD
             namespace CSkillInt {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // int32[4]
             }
@@ -60379,9 +60141,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // CInlineJob_CMsgGCToServerSteamLearnAccessTokensChanged
             namespace item_definition_index_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -60551,7 +60310,6 @@ namespace source2_dumper {
             // e
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace ISkeletonAnimationController {
             }
             // Parent: None
@@ -60572,9 +60330,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // CInlineJob_CMsgGCToServerSteamLearnAccessTokensChanged
             namespace item_steam_cache_version_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -60863,6 +60618,16 @@ namespace source2_dumper {
             // k_ePlayerTrackedStatImpl_CombatQuery
             // k_ePlayerTrackedStatImpl_Expression
             // k_ePlayerTrackedStatImpl_HeroAdjective
+            // k_eTeamTrackedStatImpl_Direct
+            // k_eTeamTrackedStatImpl_Expression
+            // k_eTeamTrackedStatImpl_PlayerAggregate
+            // k_eMatchTrackedStatImpl_Direct
+            // k_eMatchTrackedStatImpl_Expression
+            // k_eMatchTrackedStatImpl_PlayerAggregate
+            // k_eMatchTrackedStatImpl_TeamAggregate
+            // k_eTrackedStatAggregate_Sum
+            // k_eTrackedStatAggregate_Max
+            // k_eTrackedStatAggregate_Min
             namespace TrackedStatID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -60891,6 +60656,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             namespace CTakeDamageInfo {
                 constexpr std::ptrdiff_t m_vecDamageForce = 0x8; // Vector
                 constexpr std::ptrdiff_t m_vecDamagePosition = 0x14; // VectorWS
@@ -60923,7 +60689,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Y
             namespace CRandSimTimer {
                 constexpr std::ptrdiff_t m_flMinInterval = 0x8; // float32
                 constexpr std::ptrdiff_t m_flMaxInterval = 0xC; // float32
@@ -61210,9 +60975,9 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // Y
+            // MGetKV3ClassDefaults
+            // !
             namespace INavPathCostAreaFilter {
             }
             // Parent: None
@@ -61517,7 +61282,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
-            // \dumps
             namespace AI_DefaultNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t s_npc_current_ability = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61679,12 +61443,11 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // m
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             namespace CEmptyGraphController {
             }
             // Parent: None
@@ -61717,6 +61480,7 @@ namespace source2_dumper {
             // IgnoreHealthCheck
             // ApplyPhysicsForce
             // Default
+            // M
             // MGetKV3ClassDefaults
             namespace ModelConfigHandle_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
@@ -61873,12 +61637,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // m
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             namespace CAnimGraphControllerBase {
                 constexpr std::ptrdiff_t m_hExternalGraph = 0x4C; // ExternalAnimGraphHandle_t
             }

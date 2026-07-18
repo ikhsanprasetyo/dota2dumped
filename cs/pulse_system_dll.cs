@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-16 16:42:29.142708300 +07:00
+// 2026-07-19 03:33:58.207251400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -443,6 +443,7 @@ namespace Source2Dumper.Schemas {
         // CURSOR_RETIRED
         // REQUIREMENT_PASS
         // REQUIREMENT_FAIL
+        // !
         public static class CPulseCell_WaitForObservable {
             public const nint m_Condition = 0xD8; // CPulseObservableExpression<bool>
             public const nint m_OnTrue = 0x150; // CPulse_ResumePoint
@@ -594,6 +595,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1647,6 +1649,7 @@ namespace Source2Dumper.Schemas {
         // CURSOR_RETIRED
         // REQUIREMENT_PASS
         // REQUIREMENT_FAIL
+        // !
         public static class CPulseCell_BooleanSwitchState {
             public const nint m_Condition = 0xD8; // CPulseObservableExpression<bool>
             public const nint m_WhenTrue = 0x150; // CPulse_OutflowConnection

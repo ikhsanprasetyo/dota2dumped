@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-16 16:42:29.142708300 +07:00
+// 2026-07-19 03:33:58.207251400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -759,7 +759,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // dumps
             pub const CSosGroupActionSetSoundeventParameterSchema = struct {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_flMinValue: usize = 0xC; // float32
@@ -858,7 +857,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // dumps
             pub const CSosGroupActionSoundeventMinMaxValuesSchema = struct {
                 pub const m_strQueryPublicFieldName: usize = 0x8; // CUtlString
                 pub const m_strDelayPublicFieldName: usize = 0x10; // CUtlString
@@ -1207,7 +1205,7 @@ pub const source2_dumper = struct {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // _giant_wolf
+            // npc_dota_zeus_cloud
             pub const CSndSeqInstSndEvtSchema = struct {
             };
             // Parent: None
@@ -1460,7 +1458,7 @@ pub const source2_dumper = struct {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // _giant_wolf
+            // npc_dota_zeus_cloud
             pub const CSndSeqInstMidiSampler = struct {
                 pub const m_bIsSoundEvent: usize = 0x20; // bool
                 pub const m_bStopPrevious: usize = 0x21; // bool
@@ -1479,11 +1477,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // dumps
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // _giant_wolf
+            // npc_dota_zeus_cloud
+            // zzzzzzzz
             pub const CSndSeqInstBaseSchema = struct {
                 pub const m_nType: usize = 0x8; // SndSeqInstrumentType_t
                 pub const m_bStopCurrentEvents: usize = 0xE; // bool
@@ -2190,7 +2188,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // dumps
             pub const CSosGroupActionSoundeventCountSchema = struct {
                 pub const m_bExcludeStoppedSounds: usize = 0x8; // bool
                 pub const m_strCountKeyName: usize = 0x10; // CUtlString
@@ -2350,7 +2347,7 @@ pub const source2_dumper = struct {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
-            // SModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // i
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3070,6 +3067,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
+            // !
             pub const CSoundContainerReferenceArray = struct {
                 pub const m_bUseReference: usize = 0x0; // bool
                 pub const m_sounds: usize = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
@@ -3325,7 +3323,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // _giant_wolf
+            // npc_dota_zeus_cloud
+            // zzzzzzzz
             pub const CVoiceContainerVMixSnd = struct {
             };
             // Parent: None
@@ -3460,7 +3459,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // dumps
             pub const CSosGroupActionLimitSchema = struct {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_nStopType: usize = 0xC; // SosActionStopType_t
@@ -4044,7 +4042,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // dumps
             pub const CSosGroupActionTimeLimitSchema = struct {
                 pub const m_flMaxDuration: usize = 0x8; // float32
             };

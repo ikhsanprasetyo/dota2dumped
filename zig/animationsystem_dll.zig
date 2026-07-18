@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-16 16:42:29.142708300 +07:00
+// 2026-07-19 03:33:58.207251400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -1485,6 +1485,7 @@ pub const source2_dumper = struct {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
+            // !
             pub const CPulseCell_WaitForObservable = struct {
                 pub const m_Condition: usize = 0xD8; // CPulseObservableExpression<bool>
                 pub const m_OnTrue: usize = 0x150; // CPulse_ResumePoint
@@ -1616,11 +1617,13 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
+            // VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            // C\AppData\Local
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -2378,6 +2381,7 @@ pub const source2_dumper = struct {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
+            // !
             pub const CPulseCell_BooleanSwitchState = struct {
                 pub const m_Condition: usize = 0xD8; // CPulseObservableExpression<bool>
                 pub const m_WhenTrue: usize = 0x150; // CPulse_OutflowConnection
@@ -2742,6 +2746,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CSlowDownOnSlopesUpdateNode = struct {
                 pub const m_flSlowDownStrength: usize = 0x70; // float32
             };
@@ -2751,6 +2756,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // o
+            // !
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -2766,6 +2772,7 @@ pub const source2_dumper = struct {
             // SelectorTagBehavior_OffBeforeFinished
             // MGetKV3ClassDefaults
             // Node
+            // !
             // SameCycleAsSource
             // InverseSourceCycle
             // FixedValue
@@ -2953,6 +2960,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmParameterizedBlendNode__CDefinition = struct {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
@@ -3113,6 +3121,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3153,6 +3164,7 @@ pub const source2_dumper = struct {
             // eMoveHeading
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // eMoveHeading
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3308,16 +3320,20 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmPassthroughNode__CDefinition = struct {
@@ -3329,6 +3345,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3347,20 +3364,25 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmClipReferenceNode__CDefinition = struct {
@@ -3482,6 +3504,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CNmBoneMaskBlendNode__CDefinition = struct {
                 pub const m_nSourceMaskNodeIdx: usize = 0x10; // int16
@@ -3501,6 +3524,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -3574,8 +3600,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // SModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // MPropertyFriendlyName
+            //  
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3655,6 +3681,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // b
             pub const AnimationSnapshot_t = struct {
                 pub const m_nEntIndex: usize = 0x110; // int32
@@ -3701,14 +3728,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4075,6 +4106,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const FollowAttachmentSettings_t = struct {
@@ -4161,14 +4193,18 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4214,6 +4250,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4354,6 +4391,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4401,6 +4441,7 @@ pub const source2_dumper = struct {
             // AddCorrectionDelta
             // MGetKV3ClassDefaults
             // o
+            // !
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4444,14 +4485,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4567,6 +4612,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4619,14 +4665,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4659,6 +4709,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4756,12 +4807,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmSelectorNode__CDefinition = struct {
@@ -4859,6 +4912,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4911,6 +4967,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // Sub
             // Mul
             // Div
@@ -5021,6 +5078,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // Sub
             // Mul
             // Div
@@ -5049,11 +5107,14 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
+            // !
             // MGetKV3ClassDefaults
             // DoesntMatch
             // MGetKV3ClassDefaults
             // Additive
             // ModelSpace
+            // !
             // AllowMoveY
             // AllowMoveZ
             // AllowFacingPitch
@@ -5111,12 +5172,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmEntityAttributeEventBase = struct {
                 pub const m_target: usize = 0x18; // CNmEventTargetEntity_t
                 pub const m_attributeName: usize = 0x20; // CUtlString
@@ -5128,14 +5191,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5203,6 +5270,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CModelConfigElement_UserPick = struct {
                 pub const m_Choices: usize = 0x48; // CUtlVector<CUtlString>
@@ -5266,6 +5334,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -5356,6 +5425,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5377,6 +5447,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmVelocityBlendNode__CDefinition = struct {
             };
             // Parent: None
@@ -5477,8 +5548,8 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // SModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // MPropertyFriendlyName
+            //  
             pub const CParticleVecInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5561,6 +5632,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CNmBoneMaskSelectorNode__CDefinition = struct {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
@@ -5579,14 +5651,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5607,6 +5683,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CFootCycleMetricEvaluator = struct {
@@ -5633,11 +5710,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5755,11 +5835,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5908,11 +5991,11 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // !
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -5985,6 +6068,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -6017,7 +6101,6 @@ pub const source2_dumper = struct {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
-            // c
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -6060,14 +6143,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6157,6 +6244,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6175,10 +6263,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CNmClipNode__CDefinition = struct {
                 pub const m_nPlayInReverseValueNodeIdx: usize = 0x10; // int16
@@ -6201,6 +6291,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6228,12 +6319,14 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6290,6 +6383,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CModelConfigElement_RandomPick = struct {
                 pub const m_Choices: usize = 0x48; // CUtlVector<CUtlString>
@@ -6304,15 +6398,18 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmScaleNode__CDefinition = struct {
@@ -6349,6 +6446,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             pub const SkeletonAnimCapture_t = struct {
                 pub const m_nEntIndex: usize = 0x0; // CEntityIndex
                 pub const m_nEntParent: usize = 0x4; // CEntityIndex
@@ -6510,6 +6608,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Warp Z
@@ -6567,6 +6666,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // Sub
             // Mul
             // Div
@@ -6631,6 +6731,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // Sub
             // Mul
             // Div
@@ -6653,6 +6754,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
             pub const CNmFloatCurveEventNode__CDefinition = struct {
                 pub const m_eventID: usize = 0x10; // CGlobalSymbol
                 pub const m_nDefaultNodeIdx: usize = 0x18; // int16
@@ -6697,6 +6800,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // eMoveHeading
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -6832,11 +6936,12 @@ pub const source2_dumper = struct {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // i
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
             // PF_ROUND_TYPE_COUNT
-            // COLOR
+            // TEXCOORD
             // MPropertyFriendlyName
             // PARTICLE_DIR_NOISE_CURL
             // PARTICLE_DIR_NOISE_WORLEY_BASIC
@@ -6869,6 +6974,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -6945,6 +7053,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             pub const CNmTargetWarpEvent = struct {
                 pub const m_rule: usize = 0x18; // NmTargetWarpRule_t
                 pub const m_algorithm: usize = 0x19; // NmTargetWarpAlgorithm_t
@@ -7016,6 +7127,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmIDSwitchNode__CDefinition = struct {
@@ -7032,12 +7144,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7122,6 +7236,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7167,6 +7284,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // Additive
             // ModelSpace
+            // !
             // AllowMoveY
             // AllowMoveZ
             // AllowFacingPitch
@@ -7203,6 +7321,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // Node
+            // !
             // SameCycleAsSource
             // InverseSourceCycle
             // FixedValue
@@ -7214,6 +7333,7 @@ pub const source2_dumper = struct {
             // eMoveHeading
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // eMoveHeading
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -7363,7 +7483,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // dumps
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -7415,6 +7534,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7434,6 +7554,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // !
             // MGetKV3ClassDefaults
             pub const CFootLockUpdateNode = struct {
                 pub const m_opFixedSettings: usize = 0x70; // FootLockPoseOpFixedSettings
@@ -7473,6 +7594,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             pub const CNmOrientationWarpEvent = struct {
             };
             // Parent: None
@@ -7534,14 +7658,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7662,6 +7790,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CJiggleBoneUpdateNode = struct {
                 pub const m_opFixedData: usize = 0x70; // JiggleBoneSettingsList_t
@@ -7685,11 +7814,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7860,6 +7992,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -7896,6 +8029,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // Sub
             // Mul
             // Div
@@ -7984,6 +8118,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // b
             pub const HSequence = struct {
                 pub const m_Value: usize = 0x0; // int32
@@ -8197,12 +8332,14 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmIDBasedSelectorNode__CDefinition = struct {
@@ -8257,6 +8394,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8271,6 +8409,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // eMoveHeading
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8353,6 +8492,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CHitReactUpdateNode = struct {
                 pub const m_opFixedSettings: usize = 0x70; // HitReactFixedSettings_t
                 pub const m_triggerParam: usize = 0xBC; // CAnimParamHandle
@@ -8369,6 +8509,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CLookAtUpdateNode = struct {
                 pub const m_opFixedSettings: usize = 0x70; // LookAtOpFixedSettings_t
@@ -8496,6 +8637,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8551,6 +8693,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             pub const CNmTransitionEvent = struct {
                 pub const m_rule: usize = 0x18; // NmTransitionRule_t
                 pub const m_ID: usize = 0x20; // CGlobalSymbol
@@ -8560,6 +8705,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8580,7 +8726,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // dumps
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8634,6 +8779,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8679,6 +8827,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // Sub
             // Mul
             // Div
@@ -8701,6 +8850,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
             pub const CNmGraphEventConditionNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_eventConditionRules: usize = 0x14; // CNmBitFlags
@@ -8758,6 +8909,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CModelConfigElement_SetMaterialGroup = struct {
                 pub const m_MaterialGroupName: usize = 0x48; // CUtlString
@@ -8905,6 +9057,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // Sub
             // Mul
             // Div
@@ -8939,7 +9092,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // dumps
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8968,11 +9120,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9028,6 +9183,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9323,6 +9479,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmFixedWeightBoneMaskNode__CDefinition = struct {
                 pub const m_flBoneWeight: usize = 0x10; // float32
             };
@@ -9373,7 +9530,6 @@ pub const source2_dumper = struct {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // c
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -9427,12 +9583,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmEntityAttributeIntEvent = struct {
                 pub const m_nIntValue: usize = 0x38; // int32
             };
@@ -9443,6 +9601,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9461,6 +9620,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9505,6 +9665,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9523,6 +9684,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9542,6 +9704,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -9599,6 +9762,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmBlend2DNode__CDefinition = struct {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9652,11 +9816,11 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // !
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -9701,6 +9865,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Warp Z
@@ -10005,6 +10170,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10039,16 +10205,20 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmReferencePoseNode__CDefinition = struct {
@@ -10105,11 +10275,14 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
             // MGetKV3ClassDefaults
             // DoesntMatch
             // MGetKV3ClassDefaults
             // Additive
             // ModelSpace
+            // !
             // AllowMoveY
             // AllowMoveZ
             // AllowFacingPitch
@@ -10137,6 +10310,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Warp Z
@@ -10212,6 +10386,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmBodyGroupNode__CDefinition = struct {
                 pub const m_nEnabledNodeIdx: usize = 0x18; // int16
                 pub const m_event: usize = 0x20; // CNmBodyGroupEvent
@@ -10258,11 +10433,11 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // !
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10287,6 +10462,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -10328,7 +10504,6 @@ pub const source2_dumper = struct {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // c
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -10456,6 +10631,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10493,7 +10669,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // _giant_wolf
+            // npc_dota_zeus_cloud
             // MPropertyCustomFGDType
             pub const CBoneConstraintRbf = struct {
                 pub const m_inputBones: usize = 0x20; // CUtlVector<std::pair<CUtlString,uint32>>
@@ -10554,6 +10730,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmSoundEvent = struct {
                 pub const m_relevance: usize = 0x18; // CNmEventRelevance_t
                 pub const m_name: usize = 0x20; // CUtlString
@@ -10590,12 +10767,14 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmParameterizedClipSelectorNode__CDefinition = struct {
@@ -10618,6 +10797,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -10647,6 +10827,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Warp Z
@@ -10668,11 +10849,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
             // MGetKV3ClassDefaults
             // DoesntMatch
             // MGetKV3ClassDefaults
             // Additive
             // ModelSpace
+            // !
             // AllowMoveY
             // AllowMoveZ
             // AllowFacingPitch
@@ -10879,7 +11063,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // _giant_wolf
+            // npc_dota_zeus_cloud
             // MPropertyCustomFGDType
             pub const CBoneConstraintPoseSpaceBone = struct {
                 pub const m_inputList: usize = 0x60; // CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
@@ -10918,6 +11102,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -10970,6 +11155,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11040,14 +11226,18 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11088,6 +11278,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11184,11 +11375,11 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // pm;C:\Users\ByteseekerPC\go\bin;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity\bin;G:\Android\Sdk\platform-tools;C:\Us
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // !
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11219,7 +11410,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // _giant_wolf
+            // npc_dota_zeus_cloud
             // MPropertyCustomFGDType
             pub const CBoneConstraintDotToMorph = struct {
                 pub const m_sBoneName: usize = 0x20; // CUtlString
@@ -11244,6 +11435,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -11409,6 +11601,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // PF_TYPE_INVALID
             // PF_TYPE_NAMED_VALUE
             // PF_TYPE_RANDOM_UNIFORM
@@ -11472,6 +11665,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11514,6 +11708,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11592,6 +11787,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11610,6 +11808,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CSolveIKChainUpdateNode = struct {
                 pub const m_targetHandles: usize = 0x70; // CUtlVector<CSolveIKTargetHandle_t>
@@ -11623,6 +11822,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11641,6 +11841,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11700,6 +11901,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11720,7 +11922,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // dumps
             pub const CParticleFloatInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -11788,12 +11989,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmEntityAttributeFloatEvent = struct {
                 pub const m_FloatValue: usize = 0x38; // CPiecewiseCurve
             };
@@ -11806,6 +12009,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // Additive
             // ModelSpace
+            // !
             // AllowMoveY
             // AllowMoveZ
             // AllowFacingPitch
@@ -11897,6 +12101,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmIDComparisonNode__CDefinition = struct {
@@ -11954,11 +12159,14 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12031,6 +12239,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Warp Z
@@ -12062,16 +12271,20 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmZeroPoseNode__CDefinition = struct {
@@ -12115,6 +12328,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CNmBoneMaskNode__CDefinition = struct {
                 pub const m_boneMaskID: usize = 0x10; // CGlobalSymbol
             };
@@ -12149,14 +12363,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12228,6 +12446,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // !
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -12279,16 +12498,20 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CNmAnimationPoseNode__CDefinition = struct {
@@ -12331,6 +12554,9 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12357,14 +12583,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12491,6 +12721,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // !
             pub const AimMatrixOpFixedSettings_t = struct {
                 pub const m_attachment: usize = 0x0; // CAnimAttachment
                 pub const m_damping: usize = 0x80; // CAnimInputDamping
@@ -12558,6 +12789,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CBoneConstraintBase = struct {
             };
             // Parent: None
@@ -12595,6 +12827,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // Sub
             // Mul
             // Div
@@ -12617,6 +12850,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // !
             pub const CNmFootEventConditionNode__CDefinition = struct {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_phaseCondition: usize = 0x12; // NmFootPhaseCondition_t
@@ -12821,14 +13056,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -12996,7 +13235,6 @@ pub const source2_dumper = struct {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
-            // SA_GLSL_CACHE_DIR=E:\SteamLibrary\steamapps\shadercache\570
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY
@@ -13126,11 +13364,12 @@ pub const source2_dumper = struct {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // i
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
             // PF_ROUND_TYPE_COUNT
-            // COLOR
+            // TEXCOORD
             // MPropertyFriendlyName
             // PARTICLE_DIR_NOISE_CURL
             // PARTICLE_DIR_NOISE_WORLEY_BASIC
@@ -13168,14 +13407,18 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
+            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -13195,6 +13438,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             pub const CNmBodyGroupEvent = struct {
                 pub const m_target: usize = 0x18; // CNmEventTargetEntity_t
@@ -13242,6 +13486,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // !
             pub const CModelConfigElement_AttachedModel = struct {
                 pub const m_InstanceName: usize = 0x48; // CUtlString
                 pub const m_EntityClass: usize = 0x50; // CUtlString
