@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -349,7 +349,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub const FeBuildBoxRigid_t = struct {
                 pub const m_nPriority: usize = 0x40; // int32
                 pub const m_nVertexMapHash: usize = 0x44; // uint32
@@ -505,7 +504,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub const FeBuildSphereRigid_t = struct {
                 pub const m_nPriority: usize = 0x20; // int32
                 pub const m_nVertexMapHash: usize = 0x24; // uint32
@@ -711,7 +709,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub const FeBuildSDFRigid_t = struct {
                 pub const m_nPriority: usize = 0x50; // int32
                 pub const m_nVertexMapHash: usize = 0x54; // uint32
@@ -1117,7 +1114,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub const FourVectors2D = struct {
                 pub const x: usize = 0x0; // fltx4
                 pub const y: usize = 0x10; // fltx4
@@ -1339,7 +1335,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub const PhysicsParticleId_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -1517,7 +1512,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub const FeBuildTaperedCapsuleRigid_t = struct {
                 pub const m_nPriority: usize = 0x30; // int32
                 pub const m_nVertexMapHash: usize = 0x34; // uint32

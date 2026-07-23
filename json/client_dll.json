@@ -1098,10 +1098,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -1136,14 +1132,6 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
             "name": "MSaveBehavior",
             "type": "Unknown"
           }
@@ -1166,10 +1154,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -5539,10 +5523,6 @@
           },
           {
             "name": "e",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -35174,10 +35154,6 @@
           {
             "name": "CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": "C_BreakableProp"
@@ -35962,10 +35938,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -36110,10 +36082,6 @@
           },
           {
             "name": "M",
-            "type": "Unknown"
-          },
-          {
-            "name": "m",
             "type": "Unknown"
           },
           {
@@ -36370,10 +36338,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "e",
             "type": "Unknown"
           },
           {
@@ -36774,10 +36738,6 @@
             "type": "Unknown"
           },
           {
-            "name": "dex",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -37006,15 +36966,7 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -39058,10 +39010,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -40067,10 +40015,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -40512,10 +40456,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -43442,10 +43382,6 @@
           },
           {
             "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -58219,10 +58155,6 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
             "name": "generic",
             "type": "Unknown"
           },
@@ -58384,10 +58316,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "m",
             "type": "Unknown"
           }
         ],
@@ -59845,11 +59773,11 @@
             "type": "Unknown"
           },
           {
-            "name": "a",
+            "name": "C",
             "type": "Unknown"
           },
           {
-            "name": "a",
+            "name": "C",
             "type": "Unknown"
           },
           {
@@ -59984,14 +59912,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           },
           {
@@ -61639,10 +61559,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62744,10 +62660,6 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
-          },
-          {
-            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62767,10 +62679,6 @@
           },
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
-            "type": "Unknown"
-          },
-          {
-            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
             "type": "Unknown"
           }
         ],
@@ -62792,10 +62700,6 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
-          },
-          {
-            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62815,10 +62719,6 @@
           },
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
-            "type": "Unknown"
-          },
-          {
-            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
             "type": "Unknown"
           }
         ],
@@ -62840,10 +62740,6 @@
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
             "type": "Unknown"
-          },
-          {
-            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62863,10 +62759,6 @@
           },
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
-            "type": "Unknown"
-          },
-          {
-            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
             "type": "Unknown"
           }
         ],
@@ -62894,10 +62786,6 @@
           },
           {
             "name": "CInlineJob_CMsgDOTATeamsInfo",
-            "type": "Unknown"
-          },
-          {
-            "name": "2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e",
             "type": "Unknown"
           }
         ],
@@ -63169,11 +63057,6 @@
           "WATER_WAKE_WATER_OVERHEAD": 4
         },
         "type": "uint32"
-      },
-      "DOTACCBackgroundSummer2023": {
-        "alignment": 17,
-        "members": {},
-        "type": "unknown"
       },
       "DOTAKeybindCommand_t": {
         "alignment": 4,
@@ -64857,11 +64740,6 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
-      },
-      "H____WH___H__H_ڹh": {
-        "alignment": 28,
-        "members": {},
-        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

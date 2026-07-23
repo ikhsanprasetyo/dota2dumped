@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7534
-        // Enum count: 441
+        // Enum count: 438
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -19482,7 +19482,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
-            // !
             pub mod CBodyComponentPoint {
                 pub const m_sceneNode: usize = 0x80; // CGameSceneNode
             }
@@ -20235,11 +20234,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // !
             // MGetKV3ClassDefaults
-            // !
-            // VBE;.JS;.JSE;.WSF;.WSH;.MSC
-            // C\AppData\Local
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -21268,7 +21264,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // a
             pub mod CTimeline {
                 pub const m_flValues: usize = 0x10; // float32[64]
                 pub const m_nValueCounts: usize = 0x110; // int32[64]
@@ -35980,7 +35975,6 @@ pub mod source2_dumper {
             // DOOR_OPENING
             // DOOR_CLOSING
             // M
-            // !
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -38092,7 +38086,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // ePosition
             // eAngles
             // MGetKV3ClassDefaults
@@ -39258,7 +39251,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
-            // !
             pub mod CBodyComponentSkeletonInstance {
                 pub const m_skeletonInstance: usize = 0x80; // CSkeletonInstance
             }
@@ -39923,6 +39915,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // _shader_cache;steamapp_merged_shader_cache
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CScriptComponent {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             }
@@ -42866,7 +42859,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
-            // !
             pub mod CBodyComponent {
                 pub const m_pSceneNode: usize = 0x8; // CGameSceneNode*
                 pub const __m_pChainEntity: usize = 0x48; // CNetworkVarChainer
@@ -55345,8 +55337,8 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // a
-            // a
+            // C
+            // C
             // ROTATOR_TARGET_LOCALSPACE
             // eRotateBegin
             // eEventsDispatched
@@ -57361,7 +57353,6 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // ORD
             pub mod CRemapFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -57714,7 +57705,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
-            // !
             pub mod CSimpleSimTimer {
                 pub const m_flNext: usize = 0x0; // GameTime_t
                 pub const m_nWorldGroupId: usize = 0x4; // WorldGroupId_t
@@ -57893,6 +57883,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
+            // 549.3.7
             pub mod AI_BaseNPC_DebugSnapshotData_t {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -58332,6 +58323,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 3.7
+            // _vWireframeColor
             pub mod CPlayerPawnComponent {
                 pub const __m_pChainEntity: usize = 0x8; // CNetworkVarChainer
                 pub const m_pComponentGraphController: usize = 0x30; // CAnimGraphControllerPtr
@@ -58528,7 +58521,6 @@ pub mod source2_dumper {
             // e
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // a
             pub mod CSkeletonAnimationController {
                 pub const m_pSkeletonInstance: usize = 0x8; // CSkeletonInstance*
             }
@@ -58854,7 +58846,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // r
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59165,7 +59156,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59185,7 +59175,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub mod CInfoChoreoAnchorPosition {
                 pub const m_vOriginLS: usize = 0x0; // Vector
                 pub const m_qAnglesLS: usize = 0x10; // Quaternion
@@ -59297,7 +59286,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
-            // !
             pub mod SceneEventId_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -60124,7 +60112,6 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // ORD
             pub mod CSkillInt {
                 pub const m_pValue: usize = 0x0; // int32[4]
             }
@@ -61048,7 +61035,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub mod CTakeDamageInfo {
                 pub const m_vecDamageForce: usize = 0x8; // Vector
                 pub const m_vecDamagePosition: usize = 0x14; // VectorWS
@@ -61369,7 +61355,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
-            // !
             pub mod INavPathCostAreaFilter {
             }
             // Parent: None
@@ -61674,6 +61659,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // n
+            // 549.3.7
             pub mod AI_DefaultNPC_DebugSnapshotData_t {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -61835,7 +61821,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // m
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -62029,7 +62014,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // m
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior

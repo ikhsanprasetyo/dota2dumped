@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7534
-    // Enum count: 441
+    // Enum count: 438
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -19084,7 +19084,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // a
-        // !
         public static class CBodyComponentPoint {
             public const nint m_sceneNode = 0x80; // CGameSceneNode
         }
@@ -19837,11 +19836,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // !
         // MGetKV3ClassDefaults
-        // !
-        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
-        // C\AppData\Local
+        // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -20870,7 +20866,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // a
         public static class CTimeline {
             public const nint m_flValues = 0x10; // float32[64]
             public const nint m_nValueCounts = 0x110; // int32[64]
@@ -35582,7 +35577,6 @@ namespace Source2Dumper.Schemas {
         // DOOR_OPENING
         // DOOR_CLOSING
         // M
-        // !
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -37694,7 +37688,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // e
         // ePosition
         // eAngles
         // MGetKV3ClassDefaults
@@ -38860,7 +38853,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // a
-        // !
         public static class CBodyComponentSkeletonInstance {
             public const nint m_skeletonInstance = 0x80; // CSkeletonInstance
         }
@@ -39525,6 +39517,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // _shader_cache;steamapp_merged_shader_cache
+        // he.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -42468,7 +42461,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // a
-        // !
         public static class CBodyComponent {
             public const nint m_pSceneNode = 0x8; // CGameSceneNode*
             public const nint __m_pChainEntity = 0x48; // CNetworkVarChainer
@@ -54947,8 +54939,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // a
-        // a
+        // C
+        // C
         // ROTATOR_TARGET_LOCALSPACE
         // eRotateBegin
         // eEventsDispatched
@@ -56963,7 +56955,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
-        // ORD
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57316,7 +57307,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // Y
         // MGetKV3ClassDefaults
-        // !
         public static class CSimpleSimTimer {
             public const nint m_flNext = 0x0; // GameTime_t
             public const nint m_nWorldGroupId = 0x4; // WorldGroupId_t
@@ -57495,6 +57485,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // n
+        // 549.3.7
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -57934,6 +57925,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // 3.7
+        // _vWireframeColor
         public static class CPlayerPawnComponent {
             public const nint __m_pChainEntity = 0x8; // CNetworkVarChainer
             public const nint m_pComponentGraphController = 0x30; // CAnimGraphControllerPtr
@@ -58130,7 +58123,6 @@ namespace Source2Dumper.Schemas {
         // e
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // a
         public static class CSkeletonAnimationController {
             public const nint m_pSkeletonInstance = 0x8; // CSkeletonInstance*
         }
@@ -58456,7 +58448,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        // r
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -58767,7 +58758,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -58787,7 +58777,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // !
         public static class CInfoChoreoAnchorPosition {
             public const nint m_vOriginLS = 0x0; // Vector
             public const nint m_qAnglesLS = 0x10; // Quaternion
@@ -58899,7 +58888,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // Y
         // MGetKV3ClassDefaults
-        // !
         public static class SceneEventId_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -59726,7 +59714,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // ORD
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -60650,7 +60637,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // !
         public static class CTakeDamageInfo {
             public const nint m_vecDamageForce = 0x8; // Vector
             public const nint m_vecDamagePosition = 0x14; // VectorWS
@@ -60971,7 +60957,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // Y
         // MGetKV3ClassDefaults
-        // !
         public static class INavPathCostAreaFilter {
         }
         // Parent: None
@@ -61276,6 +61261,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // n
+        // 549.3.7
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61437,7 +61423,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // m
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
@@ -61631,7 +61616,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // m
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior

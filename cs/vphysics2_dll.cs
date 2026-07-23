@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -348,7 +348,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         public static class FeBuildBoxRigid_t {
             public const nint m_nPriority = 0x40; // int32
             public const nint m_nVertexMapHash = 0x44; // uint32
@@ -504,7 +503,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         public static class FeBuildSphereRigid_t {
             public const nint m_nPriority = 0x20; // int32
             public const nint m_nVertexMapHash = 0x24; // uint32
@@ -710,7 +708,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         public static class FeBuildSDFRigid_t {
             public const nint m_nPriority = 0x50; // int32
             public const nint m_nVertexMapHash = 0x54; // uint32
@@ -1116,7 +1113,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // !
         public static class FourVectors2D {
             public const nint x = 0x0; // fltx4
             public const nint y = 0x10; // fltx4
@@ -1338,7 +1334,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         public static class PhysicsParticleId_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -1516,7 +1511,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         public static class FeBuildTaperedCapsuleRigid_t {
             public const nint m_nPriority = 0x30; // int32
             public const nint m_nVertexMapHash = 0x34; // uint32

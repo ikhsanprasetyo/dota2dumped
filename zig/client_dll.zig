@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
         // Class count: 7199
-        // Enum count: 120
+        // Enum count: 118
         pub const client_dll = struct {
             // Alignment: 4
             // Member count: 5
@@ -1987,7 +1987,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
-            // !
             pub const CDarkCarnivalCrateDropEntity = struct {
                 pub const m_unDefID: usize = 0xC40; // DOTACrateDropObjectDefID_t
                 pub const m_flAcceleration: usize = 0xC50; // float32
@@ -6530,7 +6529,6 @@ pub const source2_dumper = struct {
             // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
             // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
             // SURROUNDING_TYPE_BIT_COUNT
-            // dex
             // MGetKV3ClassDefaults
             pub const CPrecipitationVData = struct {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -6828,7 +6826,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub const CPulseCell_Step_EntFire = struct {
                 pub const m_Input: usize = 0x48; // CUtlString
             };
@@ -8892,7 +8889,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub const CRenderComponent = struct {
                 pub const __m_pChainEntity: usize = 0x10; // CNetworkVarChainer
                 pub const m_bIsRenderingWithViewModels: usize = 0x50; // bool
@@ -10759,7 +10755,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub const CBodyComponentPoint = struct {
                 pub const m_sceneNode: usize = 0x80; // CGameSceneNode
             };
@@ -11456,9 +11451,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // !
             // MGetKV3ClassDefaults
-            // !
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -22227,7 +22220,6 @@ pub const source2_dumper = struct {
             // Y
             // MPropertyAttributeSuggestionName
             // MPulseLegacyName
-            // !
             pub const C_BodyComponentBaseAnimating = struct {
                 pub const m_animationController: usize = 0x530; // C_BaseAnimatingController
             };
@@ -25660,7 +25652,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // M
             // e
-            // !
             pub const CDOTA_FightingGame_EffectsEntity = struct {
             };
             // Parent: C_DOTA_Item
@@ -25913,7 +25904,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // m
             pub const C_DOTA_PortraitBaseModel = struct {
             };
             // Parent: C_EnvDeferredLight
@@ -26400,8 +26390,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // !
-            // !
             // MSaveBehavior
             pub const CBodyComponentBaseAnimGraph = struct {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
@@ -28380,7 +28368,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // MGetKV3ClassDefaults
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
@@ -30320,8 +30307,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // Q
             // MGetKV3ClassDefaults
-            // !
-            // !
             // Y
             pub const C_EnvDeferredLight = struct {
             };
@@ -32409,7 +32394,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub const CLightComponent = struct {
                 pub const __m_pChainEntity: usize = 0x38; // CNetworkVarChainer
                 pub const m_Color: usize = 0x75; // Color
@@ -32747,7 +32731,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub const CBodyComponent = struct {
                 pub const m_pSceneNode: usize = 0x8; // CGameSceneNode*
                 pub const __m_pChainEntity: usize = 0x48; // CNetworkVarChainer
@@ -37859,8 +37842,8 @@ pub const source2_dumper = struct {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // a
-            // a
+            // C
+            // C
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -40397,7 +40380,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             // generic
             // MPropertyDescription
             // MVDataUniqueMonotonicInt
@@ -40665,7 +40647,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // M
-            // m
             // WATER_WAKE_IDLE
             // WATER_WAKE_WALKING
             // WATER_WAKE_RUNNING
@@ -45960,7 +45941,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub const CSurvivorsDifficultyDefinition = struct {
                 pub const m_sLocDifficultyName: usize = 0x0; // CUtlString
                 pub const m_sLocDifficultyDescription: usize = 0x8; // CUtlString
@@ -46644,7 +46624,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub const SurvivorsPickupID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -46822,7 +46801,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub const SurvivorsHeroID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -47327,7 +47305,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub const SurvivorsLevelID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -47589,7 +47566,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub const SurvivorsParticleID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -47635,7 +47611,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub const SurvivorsDifficultyID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -47913,7 +47888,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub const SurvivorsGameModeID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -48356,7 +48330,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub const SurvivorsEnemyID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -48889,7 +48862,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub const DOTAOverworldCharacterOverrideConditional_t = struct {
                 pub const m_condition: usize = 0x0; // CDOTAOverworldCharacterConditional
                 pub const m_character: usize = 0x20; // CDOTAOverworldCharacterBase

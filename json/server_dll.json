@@ -60,6 +60,10 @@
           {
             "name": "n",
             "type": "Unknown"
+          },
+          {
+            "name": "549.3.7",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -84,6 +88,10 @@
           },
           {
             "name": "n",
+            "type": "Unknown"
+          },
+          {
+            "name": "549.3.7",
             "type": "Unknown"
           }
         ],
@@ -448,10 +456,6 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
             "name": "S",
             "type": "Unknown"
           },
@@ -569,10 +573,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "m",
             "type": "Unknown"
           },
           {
@@ -1472,10 +1472,6 @@
           {
             "name": "a",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -1638,10 +1634,6 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
             "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
@@ -1708,10 +1700,6 @@
           {
             "name": "a",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": "CBodyComponent"
@@ -1735,10 +1723,6 @@
           },
           {
             "name": "a",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -53303,11 +53287,11 @@
             "type": "Unknown"
           },
           {
-            "name": "a",
+            "name": "C",
             "type": "Unknown"
           },
           {
-            "name": "a",
+            "name": "C",
             "type": "Unknown"
           },
           {
@@ -53529,10 +53513,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "m",
             "type": "Unknown"
           },
           {
@@ -55502,10 +55482,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -56758,10 +56734,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "e",
             "type": "Unknown"
           },
           {
@@ -58301,6 +58273,14 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "3.7",
+            "type": "Unknown"
+          },
+          {
+            "name": "_vWireframeColor",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -59172,23 +59152,11 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
-            "name": "VBE;.JS;.JSE;.WSF;.WSH;.MSC",
-            "type": "Unknown"
-          },
-          {
-            "name": "C\\AppData\\Local",
+            "name": "m32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\",
             "type": "Unknown"
           }
         ],
@@ -62275,10 +62243,6 @@
           {
             "name": "Y",
             "type": "Unknown"
-          },
-          {
-            "name": "ORD",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62512,6 +62476,10 @@
           {
             "name": "_shader_cache;steamapp_merged_shader_cache",
             "type": "Unknown"
+          },
+          {
+            "name": "he.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -62724,10 +62692,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62763,10 +62727,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "a",
             "type": "Unknown"
           }
         ],
@@ -62848,10 +62808,6 @@
           },
           {
             "name": "Y",
-            "type": "Unknown"
-          },
-          {
-            "name": "ORD",
             "type": "Unknown"
           }
         ],
@@ -63324,10 +63280,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63553,10 +63505,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "a",
             "type": "Unknown"
           }
         ],
@@ -64856,10 +64804,6 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -65728,10 +65672,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -69148,10 +69088,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -79651,22 +79587,17 @@
         },
         "type": "uint32"
       },
-      "_D___": {
+      "___z__": {
+        "alignment": 116,
+        "members": {},
+        "type": "unknown"
+      },
+      "__䊏_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "__D___": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "______": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_n____": {
+      "_䊏_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

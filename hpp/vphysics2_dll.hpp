@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 #pragma once
 
@@ -354,7 +354,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             namespace FeBuildBoxRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x40; // int32
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x44; // uint32
@@ -510,7 +509,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             namespace FeBuildSphereRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x20; // int32
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x24; // uint32
@@ -716,7 +714,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             namespace FeBuildSDFRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x50; // int32
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x54; // uint32
@@ -1122,7 +1119,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             namespace FourVectors2D {
                 constexpr std::ptrdiff_t x = 0x0; // fltx4
                 constexpr std::ptrdiff_t y = 0x10; // fltx4
@@ -1344,7 +1340,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             namespace PhysicsParticleId_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -1522,7 +1517,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             namespace FeBuildTaperedCapsuleRigid_t {
                 constexpr std::ptrdiff_t m_nPriority = 0x30; // int32
                 constexpr std::ptrdiff_t m_nVertexMapHash = 0x34; // uint32

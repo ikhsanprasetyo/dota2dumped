@@ -8809,10 +8809,6 @@
             "type": "Unknown"
           },
           {
-            "name": "!",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8829,11 +8825,7 @@
             "type": "Unknown"
           },
           {
-            "name": "VBE;.JS;.JSE;.WSF;.WSH;.MSC",
-            "type": "Unknown"
-          },
-          {
-            "name": "C\\AppData\\Local",
+            "name": "m32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\",
             "type": "Unknown"
           }
         ],
@@ -9123,10 +9115,6 @@
           },
           {
             "name": "REQUIREMENT_FAIL",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -12114,10 +12102,6 @@
           },
           {
             "name": "REQUIREMENT_FAIL",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -43074,10 +43058,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -43566,10 +43546,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -44912,10 +44888,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -47738,6 +47710,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "549.3.7",
             "type": "Unknown"
           }
         ],
@@ -52749,10 +52725,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -61943,6 +61915,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "549.3.7",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63290,10 +63266,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63911,10 +63883,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -64072,10 +64040,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -64266,10 +64230,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],
@@ -72604,6 +72564,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "Cloud1Offset",
             "type": "Unknown"
           }
         ],
@@ -86369,10 +86333,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "!",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -86638,10 +86598,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "!",
             "type": "Unknown"
           }
         ],

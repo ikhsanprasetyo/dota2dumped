@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -789,6 +789,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // 49.3.7
             pub mod CSosGroupActionSetSoundeventParameterSchema {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_flMinValue: usize = 0xC; // float32
@@ -887,6 +888,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // 49.3.7
             pub mod CSosGroupActionSoundeventMinMaxValuesSchema {
                 pub const m_strQueryPublicFieldName: usize = 0x8; // CUtlString
                 pub const m_strDelayPublicFieldName: usize = 0x10; // CUtlString
@@ -1235,7 +1237,7 @@ pub mod source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // npc_dota_zeus_cloud
+            // ward
             pub mod CSndSeqInstSndEvtSchema {
             }
             // Parent: None
@@ -1488,7 +1490,7 @@ pub mod source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // npc_dota_zeus_cloud
+            // ward
             pub mod CSndSeqInstMidiSampler {
                 pub const m_bIsSoundEvent: usize = 0x20; // bool
                 pub const m_bStopPrevious: usize = 0x21; // bool
@@ -1507,11 +1509,11 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 49.3.7
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // npc_dota_zeus_cloud
-            // zzzzzzzz
+            // ward
             pub mod CSndSeqInstBaseSchema {
                 pub const m_nType: usize = 0x8; // SndSeqInstrumentType_t
                 pub const m_bStopCurrentEvents: usize = 0xE; // bool
@@ -2218,6 +2220,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // 49.3.7
             pub mod CSosGroupActionSoundeventCountSchema {
                 pub const m_bExcludeStoppedSounds: usize = 0x8; // bool
                 pub const m_strCountKeyName: usize = 0x10; // CUtlString
@@ -2377,7 +2380,7 @@ pub mod source2_dumper {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
-            // i
+            // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3097,7 +3100,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // !
             pub mod CSoundContainerReferenceArray {
                 pub const m_bUseReference: usize = 0x0; // bool
                 pub const m_sounds: usize = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
@@ -3353,8 +3355,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // npc_dota_zeus_cloud
-            // zzzzzzzz
+            // ward
             pub mod CVoiceContainerVMixSnd {
             }
             // Parent: None
@@ -3489,6 +3490,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // 49.3.7
             pub mod CSosGroupActionLimitSchema {
                 pub const m_nMaxCount: usize = 0x8; // int32
                 pub const m_nStopType: usize = 0xC; // SosActionStopType_t
@@ -4072,6 +4074,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // 49.3.7
             pub mod CSosGroupActionTimeLimitSchema {
                 pub const m_flMaxDuration: usize = 0x8; // float32
             }

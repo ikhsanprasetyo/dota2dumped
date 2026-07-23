@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 #pragma once
 
@@ -208,6 +208,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
+            // F
             namespace MaterialParamBuffer_t {
                 constexpr std::ptrdiff_t m_value = 0x8; // CUtlBinaryBlock
             }

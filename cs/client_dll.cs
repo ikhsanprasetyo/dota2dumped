@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
     // Class count: 7199
-    // Enum count: 120
+    // Enum count: 118
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -1987,7 +1987,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
-        // !
         public static class CDarkCarnivalCrateDropEntity {
             public const nint m_unDefID = 0xC40; // DOTACrateDropObjectDefID_t
             public const nint m_flAcceleration = 0xC50; // float32
@@ -6530,7 +6529,6 @@ namespace Source2Dumper.Schemas {
         // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
         // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
         // SURROUNDING_TYPE_BIT_COUNT
-        // dex
         // MGetKV3ClassDefaults
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -6828,7 +6826,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // !
         public static class CPulseCell_Step_EntFire {
             public const nint m_Input = 0x48; // CUtlString
         }
@@ -8892,7 +8889,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // !
         public static class CRenderComponent {
             public const nint __m_pChainEntity = 0x10; // CNetworkVarChainer
             public const nint m_bIsRenderingWithViewModels = 0x50; // bool
@@ -10759,7 +10755,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         public static class CBodyComponentPoint {
             public const nint m_sceneNode = 0x80; // CGameSceneNode
         }
@@ -11456,9 +11451,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // !
         // MGetKV3ClassDefaults
-        // !
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -22227,7 +22220,6 @@ namespace Source2Dumper.Schemas {
         // Y
         // MPropertyAttributeSuggestionName
         // MPulseLegacyName
-        // !
         public static class C_BodyComponentBaseAnimating {
             public const nint m_animationController = 0x530; // C_BaseAnimatingController
         }
@@ -25660,7 +25652,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // M
         // e
-        // !
         public static class CDOTA_FightingGame_EffectsEntity {
         }
         // Parent: C_DOTA_Item
@@ -25913,7 +25904,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // m
         public static class C_DOTA_PortraitBaseModel {
         }
         // Parent: C_EnvDeferredLight
@@ -26400,8 +26390,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // !
-        // !
         // MSaveBehavior
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x530; // CBaseAnimGraphController
@@ -28380,7 +28368,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // e
         // MGetKV3ClassDefaults
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
@@ -30320,8 +30307,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // Q
         // MGetKV3ClassDefaults
-        // !
-        // !
         // Y
         public static class C_EnvDeferredLight {
         }
@@ -32409,7 +32394,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         public static class CLightComponent {
             public const nint __m_pChainEntity = 0x38; // CNetworkVarChainer
             public const nint m_Color = 0x75; // Color
@@ -32747,7 +32731,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         public static class CBodyComponent {
             public const nint m_pSceneNode = 0x8; // CGameSceneNode*
             public const nint __m_pChainEntity = 0x48; // CNetworkVarChainer
@@ -37859,8 +37842,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // a
-        // a
+        // C
+        // C
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -40397,7 +40380,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // !
         // generic
         // MPropertyDescription
         // MVDataUniqueMonotonicInt
@@ -40665,7 +40647,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // M
-        // m
         // WATER_WAKE_IDLE
         // WATER_WAKE_WALKING
         // WATER_WAKE_RUNNING
@@ -45960,7 +45941,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // !
         public static class CSurvivorsDifficultyDefinition {
             public const nint m_sLocDifficultyName = 0x0; // CUtlString
             public const nint m_sLocDifficultyDescription = 0x8; // CUtlString
@@ -46644,7 +46624,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // CInlineJob_CMsgDOTATeamInfo
         // CInlineJob_CMsgDOTATeamsInfo
-        // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
         public static class SurvivorsPickupID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46822,7 +46801,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // CInlineJob_CMsgDOTATeamInfo
         // CInlineJob_CMsgDOTATeamsInfo
-        // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
         public static class SurvivorsHeroID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47327,7 +47305,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // CInlineJob_CMsgDOTATeamInfo
         // CInlineJob_CMsgDOTATeamsInfo
-        // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
         public static class SurvivorsLevelID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47589,7 +47566,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // CInlineJob_CMsgDOTATeamInfo
         // CInlineJob_CMsgDOTATeamsInfo
-        // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
         public static class SurvivorsParticleID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47635,7 +47611,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // CInlineJob_CMsgDOTATeamInfo
         // CInlineJob_CMsgDOTATeamsInfo
-        // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
         public static class SurvivorsDifficultyID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47913,7 +47888,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // CInlineJob_CMsgDOTATeamInfo
         // CInlineJob_CMsgDOTATeamsInfo
-        // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
         public static class SurvivorsGameModeID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -48356,7 +48330,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // CInlineJob_CMsgDOTATeamInfo
         // CInlineJob_CMsgDOTATeamsInfo
-        // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
         public static class SurvivorsEnemyID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -48889,7 +48862,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // !
         public static class DOTAOverworldCharacterOverrideConditional_t {
             public const nint m_condition = 0x0; // CDOTAOverworldCharacterConditional
             public const nint m_character = 0x20; // CDOTAOverworldCharacterBase

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1540,10 +1540,6 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
-        },
-        H____WH___H__H_ڹh: {
-        },
-        DOTACCBackgroundSummer2023: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A20, // DOTA_SHOP_TYPE

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
         // Class count: 7199
-        // Enum count: 120
+        // Enum count: 118
         pub mod client_dll {
             // Alignment: 4
             // Member count: 5
@@ -2107,7 +2107,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
-            // !
             pub mod CDarkCarnivalCrateDropEntity {
                 pub const m_unDefID: usize = 0xC40; // DOTACrateDropObjectDefID_t
                 pub const m_flAcceleration: usize = 0xC50; // float32
@@ -6650,7 +6649,6 @@ pub mod source2_dumper {
             // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
             // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
             // SURROUNDING_TYPE_BIT_COUNT
-            // dex
             // MGetKV3ClassDefaults
             pub mod CPrecipitationVData {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -6948,7 +6946,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub mod CPulseCell_Step_EntFire {
                 pub const m_Input: usize = 0x48; // CUtlString
             }
@@ -9012,7 +9009,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub mod CRenderComponent {
                 pub const __m_pChainEntity: usize = 0x10; // CNetworkVarChainer
                 pub const m_bIsRenderingWithViewModels: usize = 0x50; // bool
@@ -10879,7 +10875,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub mod CBodyComponentPoint {
                 pub const m_sceneNode: usize = 0x80; // CGameSceneNode
             }
@@ -11576,9 +11571,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // !
             // MGetKV3ClassDefaults
-            // !
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -22347,7 +22340,6 @@ pub mod source2_dumper {
             // Y
             // MPropertyAttributeSuggestionName
             // MPulseLegacyName
-            // !
             pub mod C_BodyComponentBaseAnimating {
                 pub const m_animationController: usize = 0x530; // C_BaseAnimatingController
             }
@@ -25780,7 +25772,6 @@ pub mod source2_dumper {
             // Metadata:
             // M
             // e
-            // !
             pub mod CDOTA_FightingGame_EffectsEntity {
             }
             // Parent: C_DOTA_Item
@@ -26033,7 +26024,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // m
             pub mod C_DOTA_PortraitBaseModel {
             }
             // Parent: C_EnvDeferredLight
@@ -26520,8 +26510,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // !
-            // !
             // MSaveBehavior
             pub mod CBodyComponentBaseAnimGraph {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
@@ -28500,7 +28488,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // MGetKV3ClassDefaults
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
@@ -30440,8 +30427,6 @@ pub mod source2_dumper {
             // Metadata:
             // Q
             // MGetKV3ClassDefaults
-            // !
-            // !
             // Y
             pub mod C_EnvDeferredLight {
             }
@@ -32529,7 +32514,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub mod CLightComponent {
                 pub const __m_pChainEntity: usize = 0x38; // CNetworkVarChainer
                 pub const m_Color: usize = 0x75; // Color
@@ -32867,7 +32851,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub mod CBodyComponent {
                 pub const m_pSceneNode: usize = 0x8; // CGameSceneNode*
                 pub const __m_pChainEntity: usize = 0x48; // CNetworkVarChainer
@@ -37979,8 +37962,8 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // a
-            // a
+            // C
+            // C
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -40517,7 +40500,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             // generic
             // MPropertyDescription
             // MVDataUniqueMonotonicInt
@@ -40785,7 +40767,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // M
-            // m
             // WATER_WAKE_IDLE
             // WATER_WAKE_WALKING
             // WATER_WAKE_RUNNING
@@ -46080,7 +46061,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub mod CSurvivorsDifficultyDefinition {
                 pub const m_sLocDifficultyName: usize = 0x0; // CUtlString
                 pub const m_sLocDifficultyDescription: usize = 0x8; // CUtlString
@@ -46764,7 +46744,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub mod SurvivorsPickupID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46942,7 +46921,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub mod SurvivorsHeroID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47447,7 +47425,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub mod SurvivorsLevelID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47709,7 +47686,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub mod SurvivorsParticleID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47755,7 +47731,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub mod SurvivorsDifficultyID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -48033,7 +48008,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub mod SurvivorsGameModeID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -48476,7 +48450,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
-            // 2dc8/0x3013,0x2dc8/0x9018,0x2dc8/0x3230,0x05a0/0x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e
             pub mod SurvivorsEnemyID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -49009,7 +48982,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub mod DOTAOverworldCharacterOverrideConditional_t {
                 pub const m_condition: usize = 0x0; // CDOTAOverworldCharacterConditional
                 pub const m_character: usize = 0x20; // CDOTAOverworldCharacterBase

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -763,6 +763,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // 49.3.7
         public static class CSosGroupActionSetSoundeventParameterSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_flMinValue = 0xC; // float32
@@ -861,6 +862,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // 49.3.7
         public static class CSosGroupActionSoundeventMinMaxValuesSchema {
             public const nint m_strQueryPublicFieldName = 0x8; // CUtlString
             public const nint m_strDelayPublicFieldName = 0x10; // CUtlString
@@ -1209,7 +1211,7 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // npc_dota_zeus_cloud
+        // ward
         public static class CSndSeqInstSndEvtSchema {
         }
         // Parent: None
@@ -1462,7 +1464,7 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // npc_dota_zeus_cloud
+        // ward
         public static class CSndSeqInstMidiSampler {
             public const nint m_bIsSoundEvent = 0x20; // bool
             public const nint m_bStopPrevious = 0x21; // bool
@@ -1481,11 +1483,11 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // 49.3.7
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // npc_dota_zeus_cloud
-        // zzzzzzzz
+        // ward
         public static class CSndSeqInstBaseSchema {
             public const nint m_nType = 0x8; // SndSeqInstrumentType_t
             public const nint m_bStopCurrentEvents = 0xE; // bool
@@ -2192,6 +2194,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // 49.3.7
         public static class CSosGroupActionSoundeventCountSchema {
             public const nint m_bExcludeStoppedSounds = 0x8; // bool
             public const nint m_strCountKeyName = 0x10; // CUtlString
@@ -2351,7 +2354,7 @@ namespace Source2Dumper.Schemas {
         // CMD_IMPULSERESPONSE_RESET
         // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
         // CMD_IMPULSERESPONSE_DELAY
-        // i
+        // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferName
@@ -3071,7 +3074,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // !
         public static class CSoundContainerReferenceArray {
             public const nint m_bUseReference = 0x0; // bool
             public const nint m_sounds = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
@@ -3327,8 +3329,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // npc_dota_zeus_cloud
-        // zzzzzzzz
+        // ward
         public static class CVoiceContainerVMixSnd {
         }
         // Parent: None
@@ -3463,6 +3464,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // 49.3.7
         public static class CSosGroupActionLimitSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_nStopType = 0xC; // SosActionStopType_t
@@ -4046,6 +4048,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // 49.3.7
         public static class CSosGroupActionTimeLimitSchema {
             public const nint m_flMaxDuration = 0x8; // float32
         }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -356,7 +356,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub mod FeBuildBoxRigid_t {
                 pub const m_nPriority: usize = 0x40; // int32
                 pub const m_nVertexMapHash: usize = 0x44; // uint32
@@ -512,7 +511,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub mod FeBuildSphereRigid_t {
                 pub const m_nPriority: usize = 0x20; // int32
                 pub const m_nVertexMapHash: usize = 0x24; // uint32
@@ -718,7 +716,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub mod FeBuildSDFRigid_t {
                 pub const m_nPriority: usize = 0x50; // int32
                 pub const m_nVertexMapHash: usize = 0x54; // uint32
@@ -1124,7 +1121,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // !
             pub mod FourVectors2D {
                 pub const x: usize = 0x0; // fltx4
                 pub const y: usize = 0x10; // fltx4
@@ -1346,7 +1342,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub mod PhysicsParticleId_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -1524,7 +1519,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // !
             pub mod FeBuildTaperedCapsuleRigid_t {
                 pub const m_nPriority: usize = 0x30; // int32
                 pub const m_nVertexMapHash: usize = 0x34; // uint32

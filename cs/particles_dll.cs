@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-19 03:33:58.207251400 +07:00
+// 2026-07-24 01:46:55.557386900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -783,7 +783,6 @@ namespace Source2Dumper.Schemas {
         // CURSOR_RETIRED
         // REQUIREMENT_PASS
         // REQUIREMENT_FAIL
-        // !
         public static class CPulseCell_WaitForObservable {
             public const nint m_Condition = 0xD8; // CPulseObservableExpression<bool>
             public const nint m_OnTrue = 0x150; // CPulse_ResumePoint
@@ -915,13 +914,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // !
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // VBE;.JS;.JSE;.WSF;.WSH;.MSC
-        // C\AppData\Local
+        // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -1679,7 +1676,6 @@ namespace Source2Dumper.Schemas {
         // CURSOR_RETIRED
         // REQUIREMENT_PASS
         // REQUIREMENT_FAIL
-        // !
         public static class CPulseCell_BooleanSwitchState {
             public const nint m_Condition = 0xD8; // CPulseObservableExpression<bool>
             public const nint m_WhenTrue = 0x150; // CPulse_OutflowConnection
@@ -3901,7 +3897,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_TeleportBeam {
             public const nint m_nCPPosition = 0x1D8; // int32
             public const nint m_nCPVelocity = 0x1DC; // int32
@@ -5685,7 +5680,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_RemapDistanceToLineSegmentBase {
             public const nint m_nCP0 = 0x1D8; // int32
             public const nint m_nCP1 = 0x1DC; // int32
@@ -8843,7 +8837,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_RemapDistanceToLineSegmentToVector {
             public const nint m_nFieldOutput = 0x1F0; // ParticleAttributeIndex_t
             public const nint m_vMinOutputValue = 0x1F4; // Vector
@@ -11359,7 +11352,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_UpdateLightSource {
             public const nint m_vColorTint = 0x1D8; // Color
             public const nint m_flBrightnessScale = 0x1DC; // float32
@@ -12963,7 +12955,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_RemapDistanceToLineSegmentToScalar {
             public const nint m_nFieldOutput = 0x1F0; // ParticleAttributeIndex_t
             public const nint m_flMinOutputValue = 0x1F4; // float32
@@ -16875,6 +16866,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeEditor
         // MPropertyFriendlyName
+        // Cloud1Offset
         public static class C_OP_RenderOmni2Light {
             public const nint m_nLightType = 0x228; // ParticleOmni2LightTypeChoiceList_t
             public const nint m_nMaxAllowed = 0x22C; // uint16
@@ -16951,7 +16943,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_ConnectParentParticleToNearest {
             public const nint m_nFirstControlPoint = 0x1D8; // int32
             public const nint m_nSecondControlPoint = 0x1DC; // int32
@@ -17303,7 +17294,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_ColorAdjustHSL {
             public const nint m_flHueAdjust = 0x1D8; // CPerParticleFloatInput
             public const nint m_flSaturationAdjust = 0x348; // CPerParticleFloatInput
@@ -17456,7 +17446,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_RemapDensityGradientToVectorAttribute {
             public const nint m_flRadiusScale = 0x1D8; // float32
             public const nint m_nFieldOutput = 0x1DC; // ParticleAttributeIndex_t
@@ -21817,6 +21806,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 549.3.7
         public static class C_OP_RemapBoundingVolumetoCP {
             public const nint m_nOutControlPointNumber = 0x1E0; // int32
             public const nint m_flInputMin = 0x1E4; // float32
@@ -23154,7 +23144,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_LockPoints {
             public const nint m_nMinCol = 0x1D8; // int32
             public const nint m_nMaxCol = 0x1DC; // int32
@@ -24342,6 +24331,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // 549.3.7
         public static class C_OP_EnableChildrenFromParentParticleCount {
             public const nint m_nChildGroupID = 0x1E0; // int32
             public const nint m_nFirstChild = 0x1E4; // int32
@@ -26713,7 +26703,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // !
         public static class C_OP_CycleScalar {
             public const nint m_nDestField = 0x1D8; // ParticleAttributeIndex_t
             public const nint m_flStartValue = 0x1DC; // float32
