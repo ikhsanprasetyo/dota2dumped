@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -203,7 +203,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // F
             pub const MaterialParamBuffer_t = struct {
                 pub const m_value: usize = 0x8; // CUtlBinaryBlock
             };

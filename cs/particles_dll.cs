@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -16866,7 +16866,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeEditor
         // MPropertyFriendlyName
-        // Cloud1Offset
+        // 4x4
         public static class C_OP_RenderOmni2Light {
             public const nint m_nLightType = 0x228; // ParticleOmni2LightTypeChoiceList_t
             public const nint m_nMaxAllowed = 0x22C; // uint16
@@ -21806,7 +21806,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 549.3.7
         public static class C_OP_RemapBoundingVolumetoCP {
             public const nint m_nOutControlPointNumber = 0x1E0; // int32
             public const nint m_flInputMin = 0x1E4; // float32
@@ -24331,7 +24330,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // 549.3.7
         public static class C_OP_EnableChildrenFromParentParticleCount {
             public const nint m_nChildGroupID = 0x1E0; // int32
             public const nint m_nFirstChild = 0x1E4; // int32

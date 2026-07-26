@@ -1,29 +1,30 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-07-24 01:46:55.557386900 +07:00
+# 2026-07-26 22:09:49.563738400 +07:00
 
 class Offsets:
     # Module: client.dll
     class ClientDll:
-        dwEntityList = 0x6494BF0
-        dwGameEntitySystem = 0x6494BF0
+        dwEntityList = 0x64A5C50
+        dwGameEntitySystem = 0x64A5C50
         dwGameEntitySystem_highestEntityIndex = 0x2090
-        dwGlobalVars = 0x59EDFE0
-        dwLocalPlayerPawn = 0x59F6F88
-        dwPrediction = 0x59F6EB0
-        dwViewMatrix = 0x611D0F0
-        dwViewRender = 0x611C7B8
+        dwGlobalVars = 0x59FCFD8
+        dwLocalPlayerPawn = 0x5A05F98
+        dwPrediction = 0x5A05EC0
+        dwViewMatrix = 0x612E1F0
+        dwViewRender = 0x612D8B8
     # Module: engine2.dll
     class Engine2Dll:
-        dwBuildNumber = 0x60C694
-        dwNetworkGameClient = 0x90A540
+        dwBuildNumber = 0x60DD24
+        dwNetworkGameClient = 0x90BBC0
         dwNetworkGameClient_clientTickCount = 0x378
         dwNetworkGameClient_deltaTick = 0x24C
+        dwNetworkGameClient_isBackgroundMap = 0x2C141F
         dwNetworkGameClient_localPlayer = 0xF8
         dwNetworkGameClient_maxClients = 0x240
         dwNetworkGameClient_serverTickCount = 0x24C
         dwNetworkGameClient_signOnState = 0x230
-        dwWindowHeight = 0x90E90C
-        dwWindowWidth = 0x90E908
+        dwWindowHeight = 0x90FF8C
+        dwWindowWidth = 0x90FF88
     # Module: inputsystem.dll
     class InputsystemDll:
         dwInputSystem = 0x45BA0
@@ -31,4 +32,5 @@ class Offsets:
     class PanoramaDll:
     # Module: soundsystem.dll
     class SoundsystemDll:
+        dwSoundSystem = 0x552AA0
         dwSoundSystem_engineViewData = 0x7C

@@ -1,31 +1,32 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 pub const source2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
-            pub const dwEntityList: usize = 0x6494BF0;
-            pub const dwGameEntitySystem: usize = 0x6494BF0;
+            pub const dwEntityList: usize = 0x64A5C50;
+            pub const dwGameEntitySystem: usize = 0x64A5C50;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
-            pub const dwGlobalVars: usize = 0x59EDFE0;
-            pub const dwLocalPlayerPawn: usize = 0x59F6F88;
-            pub const dwPrediction: usize = 0x59F6EB0;
-            pub const dwViewMatrix: usize = 0x611D0F0;
-            pub const dwViewRender: usize = 0x611C7B8;
+            pub const dwGlobalVars: usize = 0x59FCFD8;
+            pub const dwLocalPlayerPawn: usize = 0x5A05F98;
+            pub const dwPrediction: usize = 0x5A05EC0;
+            pub const dwViewMatrix: usize = 0x612E1F0;
+            pub const dwViewRender: usize = 0x612D8B8;
         };
         // Module: engine2.dll
         pub const engine2_dll = struct {
-            pub const dwBuildNumber: usize = 0x60C694;
-            pub const dwNetworkGameClient: usize = 0x90A540;
+            pub const dwBuildNumber: usize = 0x60DD24;
+            pub const dwNetworkGameClient: usize = 0x90BBC0;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x378;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
+            pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C141F;
             pub const dwNetworkGameClient_localPlayer: usize = 0xF8;
             pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
-            pub const dwWindowHeight: usize = 0x90E90C;
-            pub const dwWindowWidth: usize = 0x90E908;
+            pub const dwWindowHeight: usize = 0x90FF8C;
+            pub const dwWindowWidth: usize = 0x90FF88;
         };
         // Module: inputsystem.dll
         pub const inputsystem_dll = struct {
@@ -36,6 +37,7 @@ pub const source2_dumper = struct {
         };
         // Module: soundsystem.dll
         pub const soundsystem_dll = struct {
+            pub const dwSoundSystem: usize = 0x552AA0;
             pub const dwSoundSystem_engineViewData: usize = 0x7C;
         };
     };

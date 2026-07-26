@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 package schemas
 
@@ -305,9 +305,10 @@ const (
     ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_Oracle = 0x9
     ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_HeroItemSet = 0xA
     ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_ShowcaseDecoration = 0xB
-    ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_Start = 0xC
-    ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_End = 0xD
-    ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_Completed = 0xE
+    ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_EconItem = 0xC
+    ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_Start = 0xD
+    ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_End = 0xE
+    ClientDll_DarkCarnivalRewardVisual_t_k_eDarkCarnivalRewardVisual_Completed = 0xF
     ClientDll_DOTAVisualNovelDialogueEffect_t_VN_DIALOGUE_EFFECT_NONE = 0x0
     ClientDll_DOTAVisualNovelDialogueEffect_t_VN_DIALOGUE_EFFECT_ENTRANCE_SLIDE_SLOW = 0x1
     ClientDll_DOTAVisualNovelDialogueEffect_t_VN_DIALOGUE_EFFECT_ENTRANCE_SLIDE_FAST = 0x2
@@ -780,6 +781,7 @@ const (
     ClientDll_DOTAVisualNovelTextColor_t_VN_TEXT_COLOR_PURPLE = 0xB
     ClientDll_DOTAVisualNovelTextColor_t_VN_TEXT_COLOR_YELLOW = 0xC
     ClientDll_DOTAVisualNovelTextColor_t_VN_TEXT_COLOR_LIGHT_BROWN = 0xD
+    ClientDll_DOTAVisualNovelTextColor_t_VN_TEXT_COLOR_TITLE = 0xE
     ClientDll_ECandyShopAuditAction_k_ECandyShopAuditAction_Invalid = 0x0
     ClientDll_ECandyShopAuditAction_k_ECandyShopAuditAction_SupportModify = 0x1
     ClientDll_ECandyShopAuditAction_k_ECandyShopAuditAction_PurchaseReward = 0x2
@@ -1254,6 +1256,8 @@ const (
     ClientDll_DOTAVisualNovelDialogueTextEffect_t_VN_DIALOGUE_EFFECT_TEXT_SMALL = 0x8
     ClientDll_DOTAVisualNovelDialogueTextEffect_t_VN_DIALOGUE_EFFECT_TEXT_NO_NAMEPLATE = 0x10
     ClientDll_DOTAVisualNovelDialogueTextEffect_t_VN_DIALOGUE_EFFECT_TEXT_NO_TEXT = 0x20
+    ClientDll_DOTAVisualNovelDialogueTextEffect_t_VN_DIALOGUE_EFFECT_TEXT_LARGE = 0x40
+    ClientDll_DOTAVisualNovelDialogueTextEffect_t_VN_DIALOGUE_EFFECT_TEXT_NO_CURSOR = 0x80
     ClientDll_EDOTACrateDropObjectType_k_eCrateDropType_Invalid = 0x0
     ClientDll_EDOTACrateDropObjectType_k_eCrateDropType_Object = 0x1
     ClientDll_EDOTACrateDropObjectType_k_eCrateDropType_Droppable = 0x3
@@ -15798,6 +15802,7 @@ const (
     ClientDll_CBasePortraitData_m_flRotation = 0xDC8 // float32
     ClientDll_ShmupPathID_t_m_Value = 0x0 // uint32
     ClientDll_CDOTAMotionComicFrame_m_flAutoAdvanceDelay = 0x8 // float32
+    ClientDll_CDOTAMotionComicFrame_m_bFireEventOnStart = 0xC // bool
     ClientDll_CDOTACrateDropHazardDef_m_flExplosionRadius = 0xE8 // float32
     ClientDll_CDOTACrateDropHazardDef_m_flExplosionStrength = 0xEC // float32
     ClientDll_CDOTACrateDropHazardDef_m_flUpkickExplosionStrength = 0xF0 // float32

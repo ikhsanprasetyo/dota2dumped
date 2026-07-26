@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 7199
+        // Class count: 7200
         // Enum count: 118
         pub const client_dll = struct {
             // Alignment: 4
@@ -436,7 +436,7 @@ pub const source2_dumper = struct {
                 k_eBingoAuditAction_SupportStatThresholdFixup = 0xA
             };
             // Alignment: 4
-            // Member count: 16
+            // Member count: 17
             pub const DarkCarnivalRewardVisual_t = enum(u32) {
                 k_eDarkCarnivalRewardVisual_Invalid = 0xFFFFFFFF,
                 k_eDarkCarnivalRewardVisual_Coin = 0x0,
@@ -451,9 +451,10 @@ pub const source2_dumper = struct {
                 k_eDarkCarnivalRewardVisual_Oracle = 0x9,
                 k_eDarkCarnivalRewardVisual_HeroItemSet = 0xA,
                 k_eDarkCarnivalRewardVisual_ShowcaseDecoration = 0xB,
-                k_eDarkCarnivalRewardVisual_Start = 0xC,
-                k_eDarkCarnivalRewardVisual_End = 0xD,
-                k_eDarkCarnivalRewardVisual_Completed = 0xE
+                k_eDarkCarnivalRewardVisual_EconItem = 0xC,
+                k_eDarkCarnivalRewardVisual_Start = 0xD,
+                k_eDarkCarnivalRewardVisual_End = 0xE,
+                k_eDarkCarnivalRewardVisual_Completed = 0xF
             };
             // Alignment: 4
             // Member count: 29
@@ -1010,7 +1011,7 @@ pub const source2_dumper = struct {
                 k_eShmupEventType_UI = 0x1
             };
             // Alignment: 4
-            // Member count: 14
+            // Member count: 15
             pub const DOTAVisualNovelTextColor_t = enum(u32) {
                 VN_TEXT_COLOR_DEFAULT = 0x0,
                 VN_TEXT_COLOR_GRAY = 0x1,
@@ -1025,7 +1026,8 @@ pub const source2_dumper = struct {
                 VN_TEXT_COLOR_WHITE = 0xA,
                 VN_TEXT_COLOR_PURPLE = 0xB,
                 VN_TEXT_COLOR_YELLOW = 0xC,
-                VN_TEXT_COLOR_LIGHT_BROWN = 0xD
+                VN_TEXT_COLOR_LIGHT_BROWN = 0xD,
+                VN_TEXT_COLOR_TITLE = 0xE
             };
             // Alignment: 4
             // Member count: 12
@@ -1687,7 +1689,7 @@ pub const source2_dumper = struct {
                 PLAYER_ULTIMATE_STATE_HIDDEN = 0xFFFFFFFD
             };
             // Alignment: 4
-            // Member count: 7
+            // Member count: 9
             pub const DOTAVisualNovelDialogueTextEffect_t = enum(u32) {
                 VN_DIALOGUE_EFFECT_TEXT_NONE = 0x0,
                 VN_DIALOGUE_EFFECT_TEXT_INSTANT = 0x1,
@@ -1695,7 +1697,9 @@ pub const source2_dumper = struct {
                 VN_DIALOGUE_EFFECT_TEXT_BOLD = 0x4,
                 VN_DIALOGUE_EFFECT_TEXT_SMALL = 0x8,
                 VN_DIALOGUE_EFFECT_TEXT_NO_NAMEPLATE = 0x10,
-                VN_DIALOGUE_EFFECT_TEXT_NO_TEXT = 0x20
+                VN_DIALOGUE_EFFECT_TEXT_NO_TEXT = 0x20,
+                VN_DIALOGUE_EFFECT_TEXT_LARGE = 0x40,
+                VN_DIALOGUE_EFFECT_TEXT_NO_CURSOR = 0x80
             };
             // Alignment: 4
             // Member count: 8
@@ -1987,6 +1991,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
+            // crystal_maiden
             pub const CDarkCarnivalCrateDropEntity = struct {
                 pub const m_unDefID: usize = 0xC40; // DOTACrateDropObjectDefID_t
                 pub const m_flAcceleration: usize = 0xC50; // float32
@@ -5333,7 +5338,8 @@ pub const source2_dumper = struct {
             // Field count: 12
             //
             // Metadata:
-            // generic
+            // PM_NO_GIBS
+            // MGetKV3ClassDefaults
             pub const C_PostProcessingVolume = struct {
                 pub const m_hPostSettings: usize = 0xB80; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
                 pub const m_flFadeDuration: usize = 0xB88; // float32
@@ -5751,9 +5757,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // Y
-            // CInlineJob_CMsgGCToClientInFlightChargesUpdated
-            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCToClientRankUpdate
             pub const CPulseCell_ShmupWaitForDuration = struct {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             };
@@ -6520,16 +6524,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Q
-            // USE_BEST_COLLISION_BOUNDS
-            // USE_HITBOXES
-            // USE_SPECIFIED_BOUNDS
-            // USE_GAME_CODE
-            // USE_ROTATION_EXPANDED_BOUNDS
-            // USE_ROTATION_EXPANDED_ORIENTED_BOUNDS
-            // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
-            // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
-            // SURROUNDING_TYPE_BIT_COUNT
-            // MGetKV3ClassDefaults
             pub const CPrecipitationVData = struct {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_szParticlePrecipitationPuddleEffect: usize = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -6826,6 +6820,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyAttributeSuggestionName
+            // generic
             pub const CPulseCell_Step_EntFire = struct {
                 pub const m_Input: usize = 0x48; // CUtlString
             };
@@ -6992,6 +6988,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -7370,7 +7367,6 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -8627,11 +8623,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyCustomFGDType
+            // MGetKV3ClassDefaults
+            // MVDataNodeType
+            // S
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
             pub const C_CrownfallShmupEnemy = struct {
             };
@@ -9836,10 +9834,11 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
-            // M
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MKV3TransferSaveOpsForField
             pub const CBaseAnimGraphController = struct {
                 pub const m_nAnimationAlgorithm: usize = 0x18; // AnimationAlgorithm_t
                 pub const m_nNextExternalGraphHandle: usize = 0x1C; // ExternalAnimGraphHandle_t
@@ -10753,6 +10752,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CBodyComponentPoint = struct {
@@ -11896,6 +11896,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             pub const IntervalTimer = struct {
                 pub const m_timestamp: usize = 0x8; // GameTime_t
                 pub const m_nWorldGroupId: usize = 0xC; // WorldGroupId_t
@@ -11923,7 +11924,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const C_CrownfallShmupCamera = struct {
             };
@@ -12287,12 +12287,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // loat
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
             // MGetKV3ClassDefaults
-            // m
-            // m
             pub const CTimeline = struct {
                 pub const m_flValues: usize = 0x10; // float32[64]
                 pub const m_nValueCounts: usize = 0x110; // int32[64]
@@ -12481,7 +12480,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Y
             pub const CountdownTimer = struct {
                 pub const m_duration: usize = 0x8; // float32
                 pub const m_timestamp: usize = 0xC; // GameTime_t
@@ -14234,6 +14232,14 @@ pub const source2_dumper = struct {
                 pub const m_iTempViewer: usize = 0xB80; // int32
                 pub const m_iTeam: usize = 0xB84; // int32
             };
+            // Parent: C_BaseModelEntity
+            // Field count: 0
+            //
+            // Metadata:
+            // CInlineJob_CMsgGCToClientPlayerBeaconState
+            // n
+            pub const CDOTA_WhackAMoleGameEffectsEntity = struct {
+            };
             // Parent: C_DOTA_Item
             // Field count: 0
             pub const C_DOTA_Item_Recipe_Ceremonial_Robe = struct {
@@ -15628,8 +15634,7 @@ pub const source2_dumper = struct {
             // Field count: 22
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // CGCClientJobProfileCardStatsUpdated
             pub const C_PortraitWorldUnit = struct {
                 pub const m_OutputAnimOver: usize = 0x19B0; // CEntityIOOutput
                 pub const m_bSuppressIntroEffects: usize = 0x19C8; // bool
@@ -16187,8 +16192,7 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // CGCClientJobProfileCardStatsUpdated
             pub const C_DOTAPortraitWorldCallbackHandler = struct {
             };
             // Parent: None
@@ -18915,6 +18919,11 @@ pub const source2_dumper = struct {
             // East
             // North
             // Up
+            // eNotifyWhenFinished
+            // eNotifyTriggered
+            // BC_EMPTY
+            // BC_PROP_GROUP_OVERRIDE
+            // BC_PARTICLE_SYSTEM_OVERRIDE
             pub const C_EnvCombinedLightProbeVolume = struct {
                 pub const m_Entity_Color: usize = 0x1668; // Color
                 pub const m_Entity_flBrightness: usize = 0x166C; // float32
@@ -20911,12 +20920,11 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // loat
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
             // MGetKV3ClassDefaults
-            // m
-            // m
             pub const CSkeletonInstance = struct {
                 pub const m_modelState: usize = 0x160; // CModelState
                 pub const m_bUseParentRenderBounds: usize = 0x410; // bool
@@ -22217,9 +22225,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Y
-            // MPropertyAttributeSuggestionName
-            // MPulseLegacyName
             pub const C_BodyComponentBaseAnimating = struct {
                 pub const m_animationController: usize = 0x530; // C_BaseAnimatingController
             };
@@ -22255,6 +22260,9 @@ pub const source2_dumper = struct {
             };
             // Parent: C_PortraitWorldUnit
             // Field count: 0
+            //
+            // Metadata:
+            // S
             pub const C_Artillery_PortraitWorldUnit = struct {
             };
             // Parent: C_DOTAWearableItem
@@ -25638,6 +25646,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const sky3dparams_t = struct {
                 pub const scale: usize = 0x8; // int16
                 pub const origin: usize = 0xC; // VectorWS
@@ -25650,7 +25659,6 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // M
             // e
             pub const CDOTA_FightingGame_EffectsEntity = struct {
             };
@@ -25904,6 +25912,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x000
             pub const C_DOTA_PortraitBaseModel = struct {
             };
             // Parent: C_EnvDeferredLight
@@ -26387,10 +26396,19 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyDescription
             // MKV3TransferSaveOpsForField
-            // MSaveBehavior
+            // 300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x000
+            // WATER_WAKE_IDLE
+            // WATER_WAKE_WALKING
+            // WATER_WAKE_RUNNING
+            // WATER_WAKE_WATER_OVERHEAD
+            // BoneAndChildren
+            // WsPosition
+            // MsPosition
+            // WsDirection
+            // MsDirection
             pub const CBodyComponentBaseAnimGraph = struct {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             };
@@ -26398,11 +26416,12 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // S
-            // S
             // M
-            // AbilityCooldown
-            // AbilityCharges
+            // S
+            // AbilityManaCost
+            // AbilityCastRange
+            // AbilityChargeRestoreTime
+            // s
             pub const CDOTA_Survivors_EffectsEntity = struct {
             };
             // Parent: C_DOTA_Item
@@ -28374,6 +28393,7 @@ pub const source2_dumper = struct {
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
             // TIMELINE_COMPRESSION_TOTAL
             // MGetKV3ClassDefaults
+            // Y
             pub const CModelState = struct {
                 pub const m_hModel: usize = 0xA0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_ModelName: usize = 0xA8; // CUtlSymbolLarge
@@ -30151,11 +30171,10 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // Y
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // !
-            // n
-            // DFLAG_SUPPRESS_HEALTH_CHANGES
-            // DFLAG_SUPPRESS_PHYSICS_FORCE
-            // DFLAG_SUPPRESS_EFFECTS
+            // MGetKV3ClassDefaults
             pub const C_DynamicProp = struct {
                 pub const m_bRandomAnimator: usize = 0xC30; // bool
                 pub const m_flNextRandAnim: usize = 0xC34; // GameTime_t
@@ -30307,7 +30326,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // Q
             // MGetKV3ClassDefaults
-            // Y
             pub const C_EnvDeferredLight = struct {
             };
             // Parent: C_DOTA_Item
@@ -30763,11 +30781,12 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // S
-            // S
             // M
-            // AbilityCooldown
-            // AbilityCharges
+            // S
+            // AbilityManaCost
+            // AbilityCastRange
+            // AbilityChargeRestoreTime
+            // s
             pub const CDOTA_Survivors_UnitEntity = struct {
             };
             // Parent: C_DOTA_Item
@@ -30847,8 +30866,7 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // Y
-            // e
+            // generic
             pub const C_DOTAReflectionSkybox = struct {
             };
             // Parent: None
@@ -32393,7 +32411,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CLightComponent = struct {
                 pub const __m_pChainEntity: usize = 0x38; // CNetworkVarChainer
                 pub const m_Color: usize = 0x75; // Color
@@ -32641,9 +32658,8 @@ pub const source2_dumper = struct {
             // Field count: 18
             //
             // Metadata:
-            // East
-            // North
-            // Up
+            // %
+            // e
             pub const C_EnvCubemap = struct {
                 pub const m_Entity_hCubemapTexture: usize = 0x670; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Entity_bCustomCubemapTexture: usize = 0x678; // bool
@@ -32727,7 +32743,6 @@ pub const source2_dumper = struct {
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -34741,6 +34756,14 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // n
+            // crystalmaiden
+            // drowranger
+            // sandking
+            // stormspirit
+            // shadowshaman
+            // witchdoctor
+            // outworld_destroyer
+            // pangolin
             pub const CDarkCarnivalCrateDropGameEffectsEntity = struct {
             };
             // Parent: C_DOTA_Item
@@ -37527,7 +37550,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Y
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -37831,6 +37853,7 @@ pub const source2_dumper = struct {
             // Field count: 9
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // HULL_SMALL_CENTERED
             // HULL_WIDE_HUMAN
             // HULL_TINY
@@ -37842,8 +37865,9 @@ pub const source2_dumper = struct {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // C
-            // C
+            // 0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e
+            // 0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e
+            // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -37866,6 +37890,7 @@ pub const source2_dumper = struct {
             // STATE_PLAY_SCRIPT_POST_IDLE
             // STATE_PLAY_SCRIPT_POST_IDLE_DONE
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // HIERARCHY_BONE_MERGE
             // HIERARCHY_ATTACHMENT
             // HIERARCHY_ABSORIGIN
@@ -37874,6 +37899,7 @@ pub const source2_dumper = struct {
             // IN_ALL
             // IN_ATTACK
             // IN_JUMP
+            // IN_DUCK
             pub const C_EnvDecal = struct {
                 pub const m_hDecalMaterial: usize = 0xA88; // CStrongHandle<InfoForResourceTypeIMaterial2>
                 pub const m_flWidth: usize = 0xA90; // float32
@@ -38627,7 +38653,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // generic
+            // e
             pub const C_DOTA_MapTree = struct {
                 pub const m_bInitialized: usize = 0xAF8; // bool
             };
@@ -40359,15 +40385,11 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
             // k_eFishingGameFishCategory_Trash
             // k_eFishingGameFishCategory_Common
             // k_eFishingGameFishCategory_Uncommon
             // k_eFishingGameFishCategory_Rare
             // k_eFishingGameFishCategory_UltraRare
-            // MGetKV3ClassDefaults
             // k_eFantasyShapeBehavior_MinQuality
             // k_eFantasyShapeBehavior_AdjBonus
             // k_eFantasyShapeBehavior_StealBonus
@@ -40380,11 +40402,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // generic
-            // MPropertyDescription
-            // MVDataUniqueMonotonicInt
-            // MPropertyAttributeEditor
-            // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             pub const C_DOTA_LightInfo = struct {
@@ -40644,9 +40661,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // M
+            // MKV3TransferSaveOpsForField
+            // 300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x000
             // WATER_WAKE_IDLE
             // WATER_WAKE_WALKING
             // WATER_WAKE_RUNNING
@@ -40875,6 +40891,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // S
             pub const CPulseCell_WaitForPanelClass = struct {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             };
@@ -42638,6 +42655,9 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseModelEntity
             // Field count: 0
+            //
+            // Metadata:
+            // Q
             pub const CDOTA_Minesweeper_EffectsEntity = struct {
             };
             // Parent: C_DOTA_Item
@@ -45118,7 +45138,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // n
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCToClientCoachTeammateRatingsChanged
+            // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
             pub const DOTACrateDropLevelDefID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -45172,6 +45196,7 @@ pub const source2_dumper = struct {
             // Field count: 45
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CDOTAFightingGameActionDefinition = struct {
                 pub const m_nActionID: usize = 0x0; // EFightingGameActionID
@@ -45252,6 +45277,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // n
+            // V
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CSurvivorsEnemyDefinition_Pillar = struct {
             };
             // Parent: None
@@ -45267,14 +45303,14 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // k_eMatch3LevelFlag_Boss
-            // k_eMatch3LevelFlag_Friendly
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCNotificationsUpdate
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Q
+            // MGetKV3ClassDefaults
             pub const Match3GameModeID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -45318,10 +45354,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // e
             // MGetKV3ClassDefaults
-            // Q
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // n
+            // V
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CSurvivorsSpawnerTowerDefinition = struct {
             };
@@ -45416,8 +45455,7 @@ pub const source2_dumper = struct {
             // ENEMY_BOSS_ROOM
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // V
+            // n
             pub const CSurvivorsPowerUpDefinition_AreaAttack = struct {
                 pub const m_eOrigin: usize = 0x6A0; // ESurvivorsAreaAttackOrigin
                 pub const m_flRemoveParticleTimeDelay: usize = 0x6A4; // float32
@@ -45432,11 +45470,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // 532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x0003,0xf00
             // MGetKV3ClassDefaults
             // Y
-            // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant = struct {
             };
             // Parent: None
@@ -45509,6 +45545,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CSurvivorsLevelDefinition = struct {
                 pub const m_unLevelID: usize = 0x0; // SurvivorsLevelID_t
                 pub const m_vecEvents: usize = 0x8; // CUtlVector<CSurvivorsEnemyEventDefinition>
@@ -45529,23 +45566,24 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // text
-            // generic
+            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // k_eShmupPathEventType_Invalid
+            // k_eShmupPathEventType_Shoot
+            // k_eShmupPathEventType_StorePlayerPosition
             pub const ShmupPathID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataNodeType
             pub const CDOTAMotionComicFrame = struct {
                 pub const m_flAutoAdvanceDelay: usize = 0x8; // float32
+                pub const m_bFireEventOnStart: usize = 0xC; // bool
             };
             // Parent: None
             // Field count: 4
@@ -45567,9 +45605,6 @@ pub const source2_dumper = struct {
             // upper
             // w
             // xdigit
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientQuestProgressUpdated
-            // MGetKV3ClassDefaults
             // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
             pub const CDOTACrateDropHazardDef = struct {
                 pub const m_flExplosionRadius: usize = 0xE8; // float32
@@ -45586,6 +45621,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // `S
+            // generic
             pub const SettingsSectionIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -45611,6 +45647,7 @@ pub const source2_dumper = struct {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CSurvivorsGameModeDefinition__SeparationLayerData = struct {
                 pub const m_eSeparationLayer: usize = 0x0; // ESurvivorsEnemySeparationLayer
@@ -45639,14 +45676,14 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // k_eMatch3LevelFlag_Boss
-            // k_eMatch3LevelFlag_Friendly
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCNotificationsUpdate
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Q
+            // MGetKV3ClassDefaults
             pub const Match3AbilityID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -45680,8 +45717,6 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45804,6 +45839,19 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // n
+            // V
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CSurvivorsSpawnerEliteTurretDefinition = struct {
                 pub const m_sInvulnerableParticle: usize = 0x148; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_sInvulnerableSkinName: usize = 0x228; // CUtlString
@@ -45823,7 +45871,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
+            // n
             pub const CDOTACrateDropTrackLightDef = struct {
             };
             // Parent: None
@@ -45835,6 +45883,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // `S
+            // generic
             pub const SettingsSubSectionIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -45896,8 +45945,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // .
+            // Q
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45973,6 +46021,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCToClientCoachTeammateRatingsChanged
             pub const CDOTACrateDropLevelDef = struct {
                 pub const m_unID: usize = 0x8; // DOTACrateDropLevelDefID_t
                 pub const m_nCratesForGameOver: usize = 0xC; // int32
@@ -45997,11 +46046,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // e
             // MGetKV3ClassDefaults
-            // Q
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // n
+            // V
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // INVALID_TARGET
             pub const CSurvivorsSpawnerDestructiblesDefinition = struct {
                 pub const m_flMinimumDistanceBetween: usize = 0x148; // float32
                 pub const m_flDestroyDistance: usize = 0x14C; // float32
@@ -46114,6 +46167,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Q
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CSurvivorsSpawnerGolemDefinition = struct {
             };
@@ -46224,23 +46281,23 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // a
-            // alpha
-            // b
-            // cntrl
-            // d
-            // digit
-            // g
-            // lower
-            // p
-            // punct
-            // s
-            // s
-            // u
-            // w
-            // x
             // MGetKV3ClassDefaults
-            // n
+            // alnum
+            // a
+            // blank
+            // c
+            // d
+            // d
+            // graph
+            // l
+            // print
+            // p
+            // space
+            // s
+            // upper
+            // w
+            // xdigit
+            // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
             pub const CDOTACrateDropDroppableDef = struct {
                 pub const m_flBasePoints: usize = 0xE0; // float32
             };
@@ -46248,14 +46305,14 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // k_eMatch3LevelFlag_Boss
-            // k_eMatch3LevelFlag_Friendly
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCNotificationsUpdate
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Q
+            // MGetKV3ClassDefaults
             pub const Match3OpponentActionID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -46326,6 +46383,22 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // .
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // n
+            // V
+            // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_Frostbite = struct {
                 pub const m_flScepterExplodeRadius: usize = 0x788; // float32
             };
@@ -46353,9 +46426,6 @@ pub const source2_dumper = struct {
             // Field count: 3
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // n
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46398,7 +46468,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CMatch3OpponentActionDefinition = struct {
                 pub const m_unOpponentActionID: usize = 0x38; // Match3OpponentActionID_t
             };
@@ -46421,19 +46490,26 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // k_eGoodkind
+            // k_eMossgrave
+            // k_eQuibbins
+            // k_eQuibbinsDrunk
+            // k_eKerrick
+            // k_eNoAuthor
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // minimap_rune_haste
-            // minimap_rune_invis
-            // minimap_rune_bounty
-            // minimap_rune_water
-            // minimap_rune_shield
-            // MVDataUniqueMonotonicInt
-            // MPropertyAttributeEditor
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // minimap_rune_dd
+            // minimap_rune_illusion
+            // minimap_rune_regen
+            // minimap_rune_arcane
+            // minimap_rune_xp
+            // minimap_rune_unknown
+            // minimap_creepcamp
+            // minimap_creepcamp_mid
+            // minimap_creepcamp_big
+            // minimap_creepcamp_ancient
             pub const CDOTAMotionComicImageFrame = struct {
                 pub const m_Image: usize = 0x10; // CPanoramaImageName
             };
@@ -46540,15 +46616,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // 532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x0003,0xf00
             // MGetKV3ClassDefaults
             // Y
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_MortimerKisses = struct {
                 pub const m_flMinRange: usize = 0x868; // float32
                 pub const m_flLaunchDistance: usize = 0x86C; // float32
@@ -46561,6 +46631,12 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Q
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46621,8 +46697,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
             pub const SurvivorsPickupID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
@@ -46654,6 +46728,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // `S
+            // generic
             pub const NewSettingsID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -46686,6 +46761,17 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // .
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // n
+            // V
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46734,6 +46820,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CShmupBulletInfo = struct {
                 pub const m_pattern: usize = 0x0; // EShmupBulletPattern
                 pub const m_nCount: usize = 0x4; // int32
@@ -46765,6 +46852,10 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgDOTATeamInfo
             pub const SurvivorsPhysicsBodyID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -46798,8 +46889,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
             pub const SurvivorsHeroID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
@@ -46826,12 +46915,9 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // 532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x0003,0xf00
             // MGetKV3ClassDefaults
             // Y
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_EchoStrike = struct {
             };
             // Parent: None
@@ -46947,6 +47033,20 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // .
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // n
+            // V
             pub const CSurvivorsEnemyDefinition_Snotty = struct {
             };
             // Parent: None
@@ -47015,7 +47115,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientArcanaVotesUpdate
             pub const CShmupEventTime = struct {
                 pub const m_flDelay: usize = 0x0; // float32
                 pub const m_strEventName: usize = 0x8; // CUtlString
@@ -47047,6 +47146,7 @@ pub const source2_dumper = struct {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // n
             pub const CDOTACrateDropPlatformDef = struct {
@@ -47171,7 +47271,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CDOTASlarkJailbreakStageDefinition = struct {
                 pub const m_sLayout: usize = 0x0; // CUtlString
             };
@@ -47222,6 +47321,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // CInlineJob_CMsgDOTATeamsInfo
             pub const SurvivorsUpgradeID_t = struct {
                 pub const m_Value: usize = 0x0; // uint16
             };
@@ -47241,7 +47343,6 @@ pub const source2_dumper = struct {
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CSurvivorsLootTable__CLootEntryCollection = struct {
                 pub const m_flChance: usize = 0x0; // float32
@@ -47302,8 +47403,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
             pub const SurvivorsLevelID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
@@ -47349,14 +47448,14 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // k_eMatch3LevelFlag_Boss
-            // k_eMatch3LevelFlag_Friendly
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCNotificationsUpdate
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Q
+            // MGetKV3ClassDefaults
             pub const Match3OpponentID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -47417,21 +47516,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // Y
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // .
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_Stampede = struct {
                 pub const m_flMovementSpeedPercentDamageMultiplier: usize = 0x6A0; // float32
                 pub const m_sParticle: usize = 0x6A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -47465,8 +47550,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // .
+            // Q
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47511,9 +47595,14 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // k_eShmupPathEventType_Invalid
+            // k_eShmupPathEventType_Shoot
+            // k_eShmupPathEventType_StorePlayerPosition
+            // k_eShmupPathEventType_DestroySelf
             pub const ShmupEnemyID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -47563,8 +47652,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
             pub const SurvivorsParticleID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
@@ -47588,7 +47675,11 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // n
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCToClientCoachTeammateRatingsChanged
+            // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
             pub const DOTACrateDropObjectDefID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -47601,6 +47692,7 @@ pub const source2_dumper = struct {
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // `S
+            // generic
             pub const SettingsSearchDataIndex_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -47608,8 +47700,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
             pub const SurvivorsDifficultyID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
@@ -47620,8 +47710,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // n
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47691,7 +47779,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientCoachTeammateRatingsChanged
             pub const CDOTACrateDropObjectDef = struct {
                 pub const m_unID: usize = 0x10; // DOTACrateDropObjectDefID_t
                 pub const m_eType: usize = 0x14; // EDOTACrateDropObjectType
@@ -47764,8 +47851,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // .
+            // Q
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -47826,8 +47912,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_KnifeThrow = struct {
             };
             // Parent: None
@@ -47845,12 +47929,13 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // text
-            // generic
+            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // k_eShmupPathEventType_Invalid
+            // k_eShmupPathEventType_Shoot
+            // k_eShmupPathEventType_StorePlayerPosition
+            // k_eShmupPathEventType_DestroySelf
             pub const ShmupEventID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -47885,8 +47970,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
             pub const SurvivorsGameModeID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
@@ -47933,6 +48016,10 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgDOTATeamInfo
             pub const SurvivorsPowerUpID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -48056,9 +48143,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientQuestProgressUpdated
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientPrivateCoachingSessionUpdated
+            // MGetKV3ClassDefaults
+            // n
             pub const CDOTACrateDropPowerupDef = struct {
                 pub const m_ePowerupType: usize = 0xE8; // EDOTACrateDropPowerupType
             };
@@ -48072,6 +48159,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MDebugSnapshotDataRenderFn
             pub const CClientAlphaProperty = struct {
                 pub const m_nDistFadeStart: usize = 0x10; // uint16
                 pub const m_nDistFadeEnd: usize = 0x12; // uint16
@@ -48092,9 +48180,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_CounterHelix = struct {
                 pub const m_flChanceToCounter: usize = 0x868; // float32
                 pub const m_flDelayBetweenCounters: usize = 0x86C; // float32
@@ -48105,18 +48190,26 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // k_eGoodkind
+            // k_eMossgrave
+            // k_eQuibbins
+            // k_eQuibbinsDrunk
+            // k_eKerrick
+            // k_eNoAuthor
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // minimap_rune_haste
-            // minimap_rune_invis
-            // minimap_rune_bounty
-            // minimap_rune_water
-            // minimap_rune_shield
-            // MVDataUniqueMonotonicInt
-            // MPropertyAttributeEditor
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // minimap_rune_dd
+            // minimap_rune_illusion
+            // minimap_rune_regen
+            // minimap_rune_arcane
+            // minimap_rune_xp
+            // minimap_rune_unknown
+            // minimap_creepcamp
+            // minimap_creepcamp_mid
+            // minimap_creepcamp_big
+            // minimap_creepcamp_ancient
             // MGetKV3ClassDefaults
             pub const CDOTAMotionComicVideoFrame = struct {
                 pub const m_bLooping: usize = 0x10; // bool
@@ -48163,9 +48256,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // V
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // 532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x0003,0xf00
             // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_AreaAttack_Line = struct {
                 pub const m_bUseFacingDirection: usize = 0x868; // bool
@@ -48184,16 +48278,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // .
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_LagunaBlade = struct {
                 pub const m_nEliteExtraHit: usize = 0x788; // int32
             };
@@ -48202,6 +48286,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // k_eGoodkind
             pub const CDOTAMotionComicDefinition = struct {
                 pub const m_flDefaultMinimumTimePerFrame: usize = 0x8; // float32
                 pub const m_vecFrames: usize = 0x10; // CUtlVector<CDOTAMotionComicFrame*>
@@ -48327,8 +48412,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgDOTATeamInfo
             // CInlineJob_CMsgDOTATeamsInfo
             pub const SurvivorsEnemyID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
@@ -48337,7 +48420,6 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48458,17 +48540,10 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // .
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48526,6 +48601,37 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // HIERARCHY_BONE_MERGE
+            // HIERARCHY_ATTACHMENT
+            // HIERARCHY_ABSORIGIN
+            // HIERARCHY_BONE
+            // HIERARCHY_TYPE_COUNT
+            // IN_ALL
+            // IN_ATTACK
+            // IN_JUMP
+            // IN_DUCK
+            // IN_FORWARD
+            // IN_BACK
+            // IN_USE
+            // IN_TURNLEFT
+            // IN_TURNRIGHT
+            // IN_MOVELEFT
+            // IN_MOVERIGHT
+            // IN_ATTACK2
+            // IN_RELOAD
+            // IN_SPEED
+            // IN_JOYAUTOSPRINT
+            // IN_FIRST_MOD_SPECIFIC_BIT
+            // IN_QUERY
+            // IN_BUTTON_DOWN
+            // IN_BUTTON_DOWN_UP
+            // IN_BUTTON_UP_DOWN
+            // IN_BUTTON_UP_DOWN_UP
+            // IN_BUTTON_DOWN_UP_DOWN
+            // IN_BUTTON_DOWN_UP_DOWN_UP
+            // IN_BUTTON_UP_DOWN_UP_DOWN
+            // IN_BUTTON_STATE_COUNT
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const IClientAlphaProperty = struct {
             };
@@ -48535,7 +48641,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const ArtyEnemyDef_t = struct {
             };
@@ -48609,13 +48714,16 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CDOTAEventActionGrantAndClaimPair = struct {
                 pub const m_sEventActionGrant: usize = 0x0; // CUtlString
                 pub const m_sEventActionClaim: usize = 0x8; // CUtlString
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // CInlineJob_CMsgDOTATeamInfo
             pub const SurvivorsUnitID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -48650,8 +48758,6 @@ pub const source2_dumper = struct {
             // ENEMY_MAIN
             // DESTRUCTIBLE_MAIN
             // ENEMY_BOSS_ROOM
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CSurvivorsPowerUpDefinition_ProjectileAttack = struct {
                 pub const m_eTargeting: usize = 0x6A0; // ESurvivorsAttackTargeting
@@ -48802,8 +48908,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // n
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48874,7 +48978,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const ArtyPlayerDef_t = struct {
             };
             // Parent: None
@@ -48922,6 +49025,23 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // .
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // n
+            // V
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const CSurvivorsEnemyDefinition_Absorber = struct {
                 pub const m_flModelScaleIncreasePerAbsorb: usize = 0x288; // float32
                 pub const m_flMaxModelScale: usize = 0x28C; // float32
@@ -48935,14 +49055,12 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // V
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x0003,0xf00
             // MGetKV3ClassDefaults
-            // n
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // Y
             pub const CSurvivorsPowerUpDefinition_AreaAttack_Circle = struct {
             };
             // Parent: None
@@ -49012,7 +49130,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // INVALID
-            // ENEMY_MAIN
             pub const CSurvivorsGameModeDefinition = struct {
                 pub const m_unGameModeID: usize = 0x0; // SurvivorsGameModeID_t
                 pub const m_vCameraOffset: usize = 0x10; // Vector

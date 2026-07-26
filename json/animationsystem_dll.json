@@ -372,10 +372,6 @@
             "type": "Unknown"
           },
           {
-            "name": ":",
-            "type": "Unknown"
-          },
-          {
             "name": "JOINT_FLAGS_BODY1_FIXED",
             "type": "Unknown"
           },
@@ -2016,7 +2012,7 @@
             "type": "Unknown"
           },
           {
-            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
+            "name": "1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88",
             "type": "Unknown"
           },
           {
@@ -2110,7 +2106,7 @@
             "type": "Unknown"
           },
           {
-            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
+            "name": "1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88",
             "type": "Unknown"
           },
           {
@@ -2201,7 +2197,7 @@
             "type": "Unknown"
           },
           {
-            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
+            "name": "1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88",
             "type": "Unknown"
           },
           {
@@ -2317,7 +2313,7 @@
             "type": "Unknown"
           },
           {
-            "name": "pm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity\\bin;G:\\Android\\Sdk\\platform-tools;C:\\Us",
+            "name": "1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88",
             "type": "Unknown"
           },
           {
@@ -2756,7 +2752,7 @@
             "type": "Unknown"
           },
           {
-            "name": "e",
+            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -7729,6 +7725,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7826,6 +7826,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7847,6 +7851,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
             "type": "Unknown"
           },
           {
@@ -7880,6 +7888,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7900,6 +7912,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
             "type": "Unknown"
           },
           {
@@ -8831,6 +8847,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
             "type": "Unknown"
           },
           {
@@ -10620,6 +10640,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
             "type": "Unknown"
           }
         ],
@@ -13759,6 +13783,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -16613,6 +16641,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -17602,7 +17634,7 @@
             "type": "Unknown"
           },
           {
-            "name": "e",
+            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -17760,7 +17792,7 @@
             "type": "Unknown"
           },
           {
-            "name": "e",
+            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -18082,6 +18114,10 @@
             "type": "Unknown"
           },
           {
+            "name": "0x0b05/0x18e5,0x0f0d/0x00ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x",
+            "type": "Unknown"
+          },
+          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18316,6 +18352,10 @@
             "type": "Unknown"
           },
           {
+            "name": "0x0b05/0x18e5,0x0f0d/0x00ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x",
+            "type": "Unknown"
+          },
+          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18433,10 +18473,6 @@
           },
           {
             "name": "MCustomFGDMetadata",
-            "type": "Unknown"
-          },
-          {
-            "name": "49.3.7",
             "type": "Unknown"
           }
         ],
@@ -18708,10 +18744,6 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -18760,10 +18792,6 @@
           },
           {
             "name": "MCustomFGDMetadata",
-            "type": "Unknown"
-          },
-          {
-            "name": "49.3.7",
             "type": "Unknown"
           },
           {
@@ -18930,11 +18958,11 @@
             "type": "Unknown"
           },
           {
-            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "x0203,0x0f0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0",
             "type": "Unknown"
           }
         ],
@@ -19194,10 +19222,6 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -19280,11 +19304,11 @@
             "type": "Unknown"
           },
           {
-            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
+            "name": "x0203,0x0f0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0",
             "type": "Unknown"
           },
           {
@@ -23467,6 +23491,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c",
             "type": "Unknown"
           }
         ],

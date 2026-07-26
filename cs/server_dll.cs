@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7534
-    // Enum count: 438
+    // Enum count: 441
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -14537,12 +14537,10 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // M
         // MGetKV3ClassDefaults
         // Q
-        // MSaveBehavior
-        // MSaveBehavior
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -15158,7 +15156,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -16385,6 +16382,257 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // ACT_IDLE
+        // ACT_TRANSITION
+        // ACT_COVER
+        // ACT_COVER_MED
+        // ACT_COVER_LOW
+        // ACT_WALK
+        // ACT_WALK_AIM
+        // ACT_WALK_CROUCH
+        // ACT_WALK_CROUCH_AIM
+        // ACT_RUN
+        // ACT_RUN_AIM
+        // ACT_RUN_CROUCH
+        // ACT_RUN_CROUCH_AIM
+        // ACT_RUN_PROTECTED
+        // ACT_SCRIPT_CUSTOM_MOVE
+        // ACT_RANGE_ATTACK1
+        // ACT_RANGE_ATTACK2
+        // ACT_RANGE_ATTACK1_LOW
+        // ACT_RANGE_ATTACK2_LOW
+        // ACT_DIESIMPLE
+        // ACT_DIEBACKWARD
+        // ACT_DIEFORWARD
+        // ACT_DIEVIOLENT
+        // ACT_DIERAGDOLL
+        // ACT_FLY
+        // ACT_HOVER
+        // ACT_GLIDE
+        // ACT_SWIM
+        // ACT_JUMP
+        // ACT_HOP
+        // ACT_LEAP
+        // ACT_LAND
+        // ACT_CLIMB_UP
+        // ACT_CLIMB_DOWN
+        // ACT_CLIMB_DISMOUNT
+        // ACT_SHIPLADDER_UP
+        // ACT_SHIPLADDER_DOWN
+        // ACT_STRAFE_LEFT
+        // ACT_STRAFE_RIGHT
+        // ACT_ROLL_LEFT
+        // ACT_ROLL_RIGHT
+        // ACT_TURN_LEFT
+        // ACT_TURN_RIGHT
+        // ACT_CROUCH
+        // ACT_CROUCHIDLE
+        // ACT_STAND
+        // ACT_USE
+        // ACT_ALIEN_BURROW_IDLE
+        // ACT_ALIEN_BURROW_OUT
+        // ACT_SIGNAL1
+        // ACT_SIGNAL2
+        // ACT_SIGNAL3
+        // ACT_SIGNAL_ADVANCE
+        // ACT_SIGNAL_FORWARD
+        // ACT_SIGNAL_GROUP
+        // ACT_SIGNAL_HALT
+        // ACT_SIGNAL_LEFT
+        // ACT_SIGNAL_RIGHT
+        // ACT_SIGNAL_TAKECOVER
+        // ACT_LOOKBACK_RIGHT
+        // ACT_LOOKBACK_LEFT
+        // ACT_COWER
+        // ACT_SMALL_FLINCH
+        // ACT_BIG_FLINCH
+        // ACT_MELEE_ATTACK1
+        // ACT_MELEE_ATTACK2
+        // ACT_RELOAD
+        // ACT_RELOAD_START
+        // ACT_RELOAD_FINISH
+        // ACT_RELOAD_LOW
+        // ACT_ARM
+        // ACT_DISARM
+        // ACT_DROP_WEAPON
+        // ACT_DROP_WEAPON_SHOTGUN
+        // ACT_PICKUP_GROUND
+        // ACT_PICKUP_RACK
+        // ACT_IDLE_ANGRY
+        // ACT_IDLE_RELAXED
+        // ACT_IDLE_STIMULATED
+        // ACT_IDLE_AGITATED
+        // ACT_IDLE_STEALTH
+        // ACT_IDLE_HURT
+        // ACT_WALK_RELAXED
+        // ACT_WALK_STIMULATED
+        // ACT_WALK_AGITATED
+        // ACT_WALK_STEALTH
+        // ACT_RUN_RELAXED
+        // ACT_RUN_STIMULATED
+        // ACT_RUN_AGITATED
+        // ACT_RUN_STEALTH
+        // ACT_IDLE_AIM_RELAXED
+        // ACT_IDLE_AIM_STIMULATED
+        // ACT_IDLE_AIM_AGITATED
+        // ACT_IDLE_AIM_STEALTH
+        // ACT_WALK_AIM_RELAXED
+        // ACT_WALK_AIM_STIMULATED
+        // ACT_WALK_AIM_AGITATED
+        // ACT_WALK_AIM_STEALTH
+        // ACT_RUN_AIM_RELAXED
+        // ACT_RUN_AIM_STIMULATED
+        // ACT_RUN_AIM_AGITATED
+        // ACT_RUN_AIM_STEALTH
+        // ACT_CROUCHIDLE_STIMULATED
+        // ACT_CROUCHIDLE_AIM_STIMULATED
+        // ACT_CROUCHIDLE_AGITATED
+        // ACT_WALK_HURT
+        // ACT_RUN_HURT
+        // ACT_SPECIAL_ATTACK1
+        // ACT_SPECIAL_ATTACK2
+        // ACT_COMBAT_IDLE
+        // ACT_WALK_SCARED
+        // ACT_RUN_SCARED
+        // ACT_VICTORY_DANCE
+        // ACT_DIE_HEADSHOT
+        // ACT_DIE_CHESTSHOT
+        // ACT_DIE_GUTSHOT
+        // ACT_DIE_BACKSHOT
+        // ACT_FLINCH_HEAD
+        // ACT_FLINCH_CHEST
+        // ACT_FLINCH_STOMACH
+        // ACT_FLINCH_LEFTARM
+        // ACT_FLINCH_RIGHTARM
+        // ACT_FLINCH_LEFTLEG
+        // ACT_FLINCH_RIGHTLEG
+        // ACT_FLINCH_PHYSICS
+        // ACT_FLINCH_HEAD_BACK
+        // ACT_FLINCH_CHEST_BACK
+        // ACT_FLINCH_STOMACH_BACK
+        // ACT_FLINCH_CROUCH_FRONT
+        // ACT_FLINCH_CROUCH_BACK
+        // ACT_FLINCH_CROUCH_LEFT
+        // ACT_FLINCH_CROUCH_RIGHT
+        // ACT_IDLE_ON_FIRE
+        // ACT_WALK_ON_FIRE
+        // ACT_RUN_ON_FIRE
+        // ACT_180_LEFT
+        // ACT_180_RIGHT
+        // ACT_90_LEFT
+        // ACT_90_RIGHT
+        // ACT_STEP_LEFT
+        // ACT_STEP_RIGHT
+        // ACT_STEP_BACK
+        // ACT_STEP_FORE
+        // ACT_GESTURE_RANGE_ATTACK1
+        // ACT_GESTURE_RANGE_ATTACK2
+        // ACT_GESTURE_MELEE_ATTACK1
+        // ACT_GESTURE_MELEE_ATTACK2
+        // ACT_GESTURE_RANGE_ATTACK1_LOW
+        // ACT_GESTURE_RANGE_ATTACK2_LOW
+        // ACT_MELEE_ATTACK_SWING_GESTURE
+        // ACT_GESTURE_SMALL_FLINCH
+        // ACT_GESTURE_BIG_FLINCH
+        // ACT_GESTURE_FLINCH_BLAST
+        // ACT_GESTURE_FLINCH_BLAST_SHOTGUN
+        // ACT_GESTURE_FLINCH_BLAST_DAMAGED
+        // ACT_GESTURE_FLINCH_BLAST_DAMAGED_SHOTGUN
+        // ACT_GESTURE_FLINCH_HEAD
+        // ACT_GESTURE_FLINCH_CHEST
+        // ACT_GESTURE_FLINCH_STOMACH
+        // ACT_GESTURE_FLINCH_LEFTARM
+        // ACT_GESTURE_FLINCH_RIGHTARM
+        // ACT_GESTURE_FLINCH_LEFTLEG
+        // ACT_GESTURE_FLINCH_RIGHTLEG
+        // ACT_GESTURE_TURN_LEFT
+        // ACT_GESTURE_TURN_RIGHT
+        // ACT_GESTURE_TURN_LEFT45
+        // ACT_GESTURE_TURN_RIGHT45
+        // ACT_GESTURE_TURN_LEFT90
+        // ACT_GESTURE_TURN_RIGHT90
+        // ACT_GESTURE_TURN_LEFT45_FLAT
+        // ACT_GESTURE_TURN_RIGHT45_FLAT
+        // ACT_GESTURE_TURN_LEFT90_FLAT
+        // ACT_GESTURE_TURN_RIGHT90_FLAT
+        // ACT_BARNACLE_HIT
+        // ACT_BARNACLE_PULL
+        // ACT_BARNACLE_CHOMP
+        // ACT_BARNACLE_CHEW
+        // ACT_DO_NOT_DISTURB
+        // ACT_SPECIFIC_SEQUENCE
+        // ACT_VM_DEPLOY
+        // ACT_VM_RELOAD_EMPTY
+        // ACT_VM_DRAW
+        // ACT_VM_HOLSTER
+        // ACT_VM_IDLE
+        // ACT_VM_FIDGET
+        // ACT_VM_PULLBACK
+        // ACT_VM_PULLBACK_HIGH
+        // ACT_VM_PULLBACK_LOW
+        // ACT_VM_THROW
+        // ACT_VM_DROP
+        // ACT_VM_PULLPIN
+        // ACT_VM_PRIMARYATTACK
+        // ACT_VM_SECONDARYATTACK
+        // ACT_VM_RELOAD
+        // ACT_VM_DRYFIRE
+        // ACT_VM_HITLEFT
+        // ACT_VM_HITLEFT2
+        // ACT_VM_HITRIGHT
+        // ACT_VM_HITRIGHT2
+        // ACT_VM_HITCENTER
+        // ACT_VM_HITCENTER2
+        // ACT_VM_MISSLEFT
+        // ACT_VM_MISSLEFT2
+        // ACT_VM_MISSRIGHT
+        // ACT_VM_MISSRIGHT2
+        // ACT_VM_MISSCENTER
+        // ACT_VM_MISSCENTER2
+        // ACT_VM_HAULBACK
+        // ACT_VM_SWINGHARD
+        // ACT_VM_SWINGMISS
+        // ACT_VM_SWINGHIT
+        // ACT_VM_IDLE_TO_LOWERED
+        // ACT_VM_IDLE_LOWERED
+        // ACT_VM_LOWERED_TO_IDLE
+        // ACT_VM_RECOIL1
+        // ACT_VM_RECOIL2
+        // ACT_VM_RECOIL3
+        // ACT_VM_PICKUP
+        // ACT_VM_RELEASE
+        // ACT_VM_MAUL_LOOP
+        // ACT_VM_ATTACH_SILENCER
+        // ACT_VM_DETACH_SILENCER
+        // ACT_SLAM_STICKWALL_IDLE
+        // ACT_SLAM_STICKWALL_ND_IDLE
+        // ACT_SLAM_STICKWALL_ATTACH
+        // ACT_SLAM_STICKWALL_ATTACH2
+        // ACT_SLAM_STICKWALL_ND_ATTACH
+        // ACT_SLAM_STICKWALL_ND_ATTACH2
+        // ACT_SLAM_STICKWALL_DETONATE
+        // ACT_SLAM_STICKWALL_DETONATOR_HOLSTER
+        // ACT_SLAM_STICKWALL_DRAW
+        // ACT_SLAM_STICKWALL_ND_DRAW
+        // ACT_SLAM_STICKWALL_TO_THROW
+        // ACT_SLAM_STICKWALL_TO_THROW_ND
+        // ACT_SLAM_STICKWALL_TO_TRIPMINE_ND
+        // ACT_SLAM_THROW_IDLE
+        // ACT_SLAM_THROW_ND_IDLE
+        // ACT_SLAM_THROW_THROW
+        // ACT_SLAM_THROW_THROW2
+        // ACT_SLAM_THROW_THROW_ND
+        // ACT_SLAM_THROW_THROW_ND2
+        // ACT_SLAM_THROW_DRAW
+        // ACT_SLAM_THROW_ND_DRAW
+        // ACT_SLAM_THROW_TO_STICKWALL
+        // ACT_SLAM_THROW_TO_STICKWALL_ND
+        // ACT_SLAM_THROW_DETONATE
+        // ACT_SLAM_THROW_DETONATOR_HOLSTER
+        // ACT_SLAM_THROW_TO_TRIPMINE_ND
+        // ACT_SLAM_TRIPMINE_IDLE
+        // ACT_SLAM_TRIPMINE_DRAW
+        // ACT_SLAM_TRIPMINE_ATTACH
         public static class CBodyComponentBaseAnimating {
             public const nint m_animationController = 0x4E0; // CBaseAnimatingController
         }
@@ -17091,7 +17339,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // e
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CRenderComponent {
             public const nint __m_pChainEntity = 0x10; // CNetworkVarChainer
             public const nint m_bIsRenderingWithViewModels = 0x50; // bool
@@ -18272,18 +18521,23 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyStartGroup
-        // MPropertyDescription
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyStartGroup
         // MPropertyDescription
         // MPropertyAttributeEditor
+        // MPropertyDescription
+        // MPropertyStartGroup
+        // MPropertyDescription
+        // MPropertySuppressExpr
+        // MPropertyDescription
+        // MPropertyDescription
+        // MPropertySuppressExpr
+        // MPropertyDescription
+        // MPropertyDescription
+        // MPropertySuppressExpr
+        // MGetKV3ClassDefaults
+        // MPropertyDescription
         public static class CBaseAnimGraphController {
             public const nint m_nAnimationAlgorithm = 0x18; // AnimationAlgorithm_t
             public const nint m_nNextExternalGraphHandle = 0x1C; // ExternalAnimGraphHandle_t
@@ -19080,10 +19334,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // a
+        // e
         public static class CBodyComponentPoint {
             public const nint m_sceneNode = 0x80; // CGameSceneNode
         }
@@ -20197,9 +20448,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseModelEntity
         // Field count: 24
-        //
-        // Metadata:
-        // generic
         public static class CParticleSystem {
             public const nint m_szSnapshotFileName = 0x778; // char[512]
             public const nint m_bActive = 0x978; // bool
@@ -20865,6 +21113,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // ePosition
+        // eAngles
         // MGetKV3ClassDefaults
         public static class CTimeline {
             public const nint m_flValues = 0x10; // float32[64]
@@ -24623,8 +24873,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 12
         //
         // Metadata:
-        // PM_NO_GIBS
-        // MGetKV3ClassDefaults
+        // generic
         public static class CPostProcessingVolume {
             public const nint m_hPostSettings = 0x900; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
             public const nint m_flFadeDuration = 0x908; // float32
@@ -31058,6 +31307,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeSuggestionName
         // MPropertyDescription
         // MPropertyDescription
+        // l
         public static class CFogController {
             public const nint m_fog = 0x498; // fogparams_t
             public const nint m_bUseAngles = 0x500; // bool
@@ -31321,6 +31571,14 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CPointEntity
         // Field count: 11
+        //
+        // Metadata:
+        // WORLDTEXT_HORIZONTAL_ALIGN_CENTER
+        // WORLDTEXT_HORIZONTAL_ALIGN_RIGHT
+        // WORLDTEXT_VERTICAL_ALIGN_CENTER
+        // WORLDTEXT_VERTICAL_ALIGN_BOTTOM
+        // WORLDTEXT_ORIENTATION_FACEUSER
+        // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
         public static class CInfoOffscreenPanoramaTexture {
             public const nint m_bDisabled = 0x498; // bool
             public const nint m_nResolutionX = 0x49C; // int32
@@ -34743,6 +35001,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeSuggestionName
         // MPropertyDescription
         // MPropertyDescription
+        // l
         public static class CPointOrient {
             public const nint m_iszSpawnTargetName = 0x498; // CUtlSymbolLarge
             public const nint m_hTarget = 0x4A0; // CHandle<CBaseEntity>
@@ -35542,44 +35801,28 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // AMMO_FORCE_DROP_IF_CARRIED
-        // AMMO_RESERVE_STAYS_WITH_WEAPON
-        // AMMO_FLAG_MAX
-        // MPropertyDescription
-        // PrioritizeClosestPart
-        // MPropertyDescription
-        // Absorb
-        // InvincibleAbsorb
-        // InvinciblePassthrough
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // eKill
-        // eGib
-        // eRemove
-        // GenerateBreakpieces
-        // SetBodyGroupAndCollisionState
-        // EnableFlinches
-        // ForceDamageApply
-        // IgnoreKillEntityFlag
-        // IgnoreHealthCheck
-        // ApplyPhysicsForce
-        // Default
         // M
+        // MPropertyDescription
+        // MPropertyDescription
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyDescription
+        // MPropertyDescription
+        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // TS_AT_BOTTOM
-        // TS_GOING_UP
-        // TS_GOING_DOWN
-        // DOOR_CLOSED
-        // DOOR_OPENING
-        // DOOR_CLOSING
-        // M
+        // d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // 300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x000
         // MKV3TransferSaveOpsForField
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
+        // MKV3TransferSaveOpsForField
+        // MSaveBehavior
+        // MKV3TransferSaveOpsForField
         // Y
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x4E0; // CBaseAnimGraphController
@@ -37688,8 +37931,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ePosition
-        // eAngles
         // MGetKV3ClassDefaults
         public static class CModelState {
             public const nint m_hModel = 0xA0; // CStrongHandle<InfoForResourceTypeCModel>
@@ -38852,6 +39093,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // a
         public static class CBodyComponentSkeletonInstance {
             public const nint m_skeletonInstance = 0x80; // CSkeletonInstance
@@ -39517,7 +39759,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // _shader_cache;steamapp_merged_shader_cache
-        // he.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -41327,6 +41568,12 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 27
+        //
+        // Metadata:
+        // MPropertyDescription
+        // MPropertyAttributeSuggestionName
+        // MPropertyDescription
+        // MPropertyDescription
         public static class CPointCamera {
             public const nint m_FOV = 0x498; // float32
             public const nint m_Resolution = 0x49C; // float32
@@ -42093,6 +42340,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // e
         public static class CLightComponent {
             public const nint __m_pChainEntity = 0x38; // CNetworkVarChainer
@@ -42457,10 +42705,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // a
+        // e
         public static class CBodyComponent {
             public const nint m_pSceneNode = 0x8; // CGameSceneNode*
             public const nint __m_pChainEntity = 0x48; // CNetworkVarChainer
@@ -46284,14 +46529,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseClientUIEntity
         // Field count: 26
-        //
-        // Metadata:
-        // WORLDTEXT_HORIZONTAL_ALIGN_CENTER
-        // WORLDTEXT_HORIZONTAL_ALIGN_RIGHT
-        // WORLDTEXT_VERTICAL_ALIGN_CENTER
-        // WORLDTEXT_VERTICAL_ALIGN_BOTTOM
-        // WORLDTEXT_ORIENTATION_FACEUSER
-        // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
         public static class CPointClientUIWorldPanel {
             public const nint m_bIgnoreInput = 0x8D8; // bool
             public const nint m_bLit = 0x8D9; // bool
@@ -48588,6 +48825,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 9
+        //
+        // Metadata:
+        // l
         public static class CEnvWindVolume {
             public const nint m_bActive = 0x498; // bool
             public const nint m_vBoxMins = 0x49C; // Vector
@@ -54908,7 +55148,6 @@ namespace Source2Dumper.Schemas {
         // n
         // n
         // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
         public static class CDOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0x9F0; // bool
             public const nint m_bPlaySpawnAnimation = 0x9F1; // bool
@@ -54939,26 +55178,9 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // C
-        // C
+        // 0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e
+        // 0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e
         // ROTATOR_TARGET_LOCALSPACE
-        // eRotateBegin
-        // eEventsDispatched
-        // eRotateCompleted
-        // eOscillateStart
-        // eOscillateEnd
-        // eOscillateArrived
-        // eOscillateDepart
-        // ROTATE_OSCILLATE
-        // ROTATE_STOP_AT_END
-        // ROTATE_LOOK_AT_TARGET
-        // ROTATE_LOOK_AT_TARGET_ONLY_YAW
-        // ROTATE_LOOK_AT_TARGET_ONLY_PITCH
-        // ROTATE_RETURN_TO_INITIAL_ORIENTATION
-        // ROTATION_AXIS_YAW
-        // ROTATION_AXIS_PITCH
-        // ROTATION_AXIS_ROLL
-        // MGetKV3ClassDefaults
         public static class CDynamicProp {
             public const nint m_bRandomAnimator = 0x930; // bool
             public const nint m_flNextRandAnim = 0x934; // GameTime_t
@@ -56230,7 +56452,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 18
         //
         // Metadata:
-        //  
         // %
         public static class CEnvCubemap {
             public const nint m_Entity_hCubemapTexture = 0x518; // CStrongHandle<InfoForResourceTypeCTextureBase>
@@ -56820,14 +57041,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         public static class FantasyLeagueID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -56846,6 +57059,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // M
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
@@ -56854,6 +57068,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -56906,6 +57124,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class AutoRoomDoorwayPairs_t {
             public const nint vP1 = 0x0; // VectorWS
             public const nint vP2 = 0xC; // VectorWS
@@ -56955,6 +57174,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
+        // float
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57047,12 +57267,6 @@ namespace Source2Dumper.Schemas {
         // DAMAGE_EVENTS_ONLY
         // DAMAGE_YES
         // MGetKV3ClassDefaults
-        // BoneAndChildren
-        // WsPosition
-        // MsPosition
-        // WsDirection
-        // MsDirection
-        // MGetKV3ClassDefaults
         public static class AI_GroundRootMotionMotor_DebugSnapshotData_t {
             public const nint desired_movement_gait_set = 0x8; // CGlobalSymbol
             public const nint desired_movement_gait = 0x10; // CGlobalSymbol
@@ -57100,48 +57314,14 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MPropertyCustomFGDType
-        // GENERIC_SHAPE_SPHERE
-        // GENERIC_SHAPE_AABB
-        // GENERIC_SHAPE_CAPSULE
-        // GENERIC_SHAPE_HULL
-        // kDecalInvalid
-        // kDecalCloak
-        // kDecalMax
-        // PIID_IPHYSICSBODY
-        // PIID_IPHYSAGGREGATE
-        // PIID_IPHYSICSJOINT
-        // PIID_IPHYSICSMOTIONCONTROLLER
-        // PIID_IPHYSICSPARTICLEROPE
-        // PIID_IPHYSICSRAGDOLLCONTROL
-        // PIID_NUM_TYPES
-        // k_ESceneViewDebugOverlaysListenerDataType_Sphere
-        // k_ESceneViewDebugOverlaysListenerDataType_Capsule
-        // k_ESceneViewDebugOverlaysListenerDataType_BoxAngles
-        // k_ESceneViewDebugOverlaysListenerDataType_Line
-        // k_ESceneViewDebugOverlaysListenerDataType_SolidBoxAngles
-        // k_ESceneViewDebugOverlaysListenerDataType_Text3D
-        // eAir
-        // eCount
-        // eInvalid
-        // eGround
-        // eAir
-        // eAll
-        // MAX_RESPONSE_NAME
-        // MAX_RULE_NAME
-        // TRS_TRUE
-        // TRS_NONE
         // MPropertyFriendlyName
         // MAlternateSemanticName
         // MPropertyFriendlyName
         // MAlternateSemanticName
-        // eInvalid
-        // eHead
-        // eEyesOnly
         // MPropertyFriendlyName
         // MAlternateSemanticName
-        // eInvalid
-        // eMedium
-        // eFast
+        // MPropertyFriendlyName
+        // MAlternateSemanticName
         // MPropertyFriendlyName
         // MAlternateSemanticName
         // MPropertyFriendlyName
@@ -57149,12 +57329,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MAlternateSemanticName
         // MGetKV3ClassDefaults
-        // eExit
-        // eState01
-        // eState02
-        // eState03
-        // eState04
-        // eState05
         public static class CFootstepTableHandle {
         }
         // Parent: None
@@ -57169,12 +57343,17 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // V
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CraftworksComponentID_t {
             public const nint m_Value = 0x0; // uint8
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class PingWheelMessageID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -57255,8 +57434,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // RELATIVE_TO_ENTITY_IN_LOCAL_SPACE
-        // RELATIVE_TO_ENTITY_YAW_ONLY
         public static class lerpdata_t {
             public const nint m_hEnt = 0x0; // CHandle<CBaseEntity>
             public const nint m_MoveType = 0x4; // MoveType_t
@@ -57305,7 +57482,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Y
         // MGetKV3ClassDefaults
         public static class CSimpleSimTimer {
             public const nint m_flNext = 0x0; // GameTime_t
@@ -57331,6 +57507,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // V
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CraftworksRecipeID_t {
             public const nint m_Value = 0x0; // uint8
@@ -57352,7 +57530,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // TS_AT_BOTTOM
         public static class CPhysicsBodyGameMarkupData {
             public const nint m_PhysicsBodyMarkupByBoneName = 0x0; // CUtlDict<CPhysicsBodyGameMarkup>
         }
@@ -57484,8 +57661,45 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // n
-        // 549.3.7
+        // DFLAG_SUPPRESS_HEALTH_CHANGES
+        // DFLAG_SUPPRESS_PHYSICS_FORCE
+        // DFLAG_SUPPRESS_EFFECTS
+        // DFLAG_PREVENT_DEATH
+        // DFLAG_FORCE_DEATH
+        // DFLAG_ALWAYS_GIB
+        // DFLAG_NEVER_GIB
+        // DFLAG_REMOVE_NO_RAGDOLL
+        // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
+        // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
+        // DFLAG_RADIUS_DMG
+        // DFLAG_FORCEREDUCEARMOR_DMG
+        // DFLAG_SUPPRESS_INTERRUPT_FLINCH
+        // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
+        // DFLAG_SUPPRESS_BREAKABLES
+        // DFLAG_FORCE_PHYSICS_FORCE
+        // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
+        // DFLAG_ALLOW_NON_AUTHORITATIVE
+        // DMG_LASTDFLAG
+        // DMG_CRUSH
+        // DMG_BULLET
+        // DMG_SLASH
+        // DMG_BURN
+        // DMG_VEHICLE
+        // DMG_FALL
+        // DMG_BLAST
+        // DMG_CLUB
+        // DMG_SHOCK
+        // DMG_SONIC
+        // DMG_ENERGYBEAM
+        // DMG_BUCKSHOT
+        // DMG_BLAST_SURFACE
+        // DMG_DISSOLVE
+        // DMG_DROWN
+        // DMG_POISON
+        // DMG_RADIATION
+        // DMG_DROWNRECOVER
+        // DMG_ACID
+        // DMG_LASTGENERICFLAG
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -57527,7 +57741,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
+        // Q
         public static class CraftworksQuestID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -57538,23 +57752,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // NAV_OBSTACLE_TYPE_INVALID
-        // NAV_OBSTACLE_TYPE_AVOID
-        // NAV_OBSTACLE_TYPE_CONN
-        // NAV_OBSTACLE_TYPE_BLOCK
         public static class CNmEventConsumer {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         public static class FantasyGemSlot_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -57582,12 +57783,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // \
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -57650,12 +57846,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // \
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -57674,7 +57865,6 @@ namespace Source2Dumper.Schemas {
         // OVERLAY_NAME_BIT
         // OVERLAY_BBOX_BIT
         // OVERLAY_PIVOT_BIT
-        // OVERLAY_MESSAGE_BIT
         public static class OverworldEncounterID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -57768,15 +57958,14 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // OVERLAY_TEXT_BIT
-        // OVERLAY_NAME_BIT
-        // OVERLAY_BBOX_BIT
-        // OVERLAY_PIVOT_BIT
-        // OVERLAY_MESSAGE_BIT
-        // OVERLAY_ABSBOX_BIT
-        // OVERLAY_RBOX_BIT
-        // OVERLAY_SHOW_BLOCKSLOS
-        // OVERLAY_ATTACHMENTS_BIT
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class OverworldFortuneTellerStoryNodeID_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -57925,8 +58114,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 3.7
-        // _vWireframeColor
         public static class CPlayerPawnComponent {
             public const nint __m_pChainEntity = 0x8; // CNetworkVarChainer
             public const nint m_pComponentGraphController = 0x30; // CAnimGraphControllerPtr
@@ -57939,15 +58126,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         public static class FantasyTabletID_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -58072,9 +58250,12 @@ namespace Source2Dumper.Schemas {
         // CInlineJob_CMsgGCToServerCheerData
         // CInlineJob_CMsgGCToServerCheerConfig
         // CInlineJob_CMsgGCToServerCheerScalesOverride
+        //   
         // MPropertyDescription
         // MPropertyDescription
+        // p#
         // MPropertyDescription
+        // P$
         // CInlineJob_CMsgGCToServerGetCheerState
         // MGetKV3ClassDefaults
         public static class CavernCrawlPathID_t {
@@ -58121,6 +58302,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // e
+        // Y
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CSkeletonAnimationController {
@@ -58198,12 +58380,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // \
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -58247,10 +58424,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // NAV_OBSTACLE_TYPE_INVALID
-        // NAV_OBSTACLE_TYPE_AVOID
-        // NAV_OBSTACLE_TYPE_CONN
-        // NAV_OBSTACLE_TYPE_BLOCK
         public static class CNmEventConsumerAttributes {
         }
         // Parent: None
@@ -58293,6 +58466,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class LeagueNodeGroupID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -58384,7 +58560,15 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // Y
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MDebugSnapshotDataRenderFn
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MDebugSnapshotDataRenderFn
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         public static class DebugDrawBoneTransforms_t {
@@ -58448,6 +58632,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
+        // /0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -58457,6 +58642,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class GuildID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -58533,15 +58721,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         public static class FantasyGemQuality_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -58553,9 +58732,12 @@ namespace Source2Dumper.Schemas {
         // CInlineJob_CMsgGCToServerCheerData
         // CInlineJob_CMsgGCToServerCheerConfig
         // CInlineJob_CMsgGCToServerCheerScalesOverride
+        //   
         // MPropertyDescription
         // MPropertyDescription
+        // p#
         // MPropertyDescription
+        // P$
         // CInlineJob_CMsgGCToServerGetCheerState
         // MGetKV3ClassDefaults
         public static class CavernCrawlRoomID_t {
@@ -58585,12 +58767,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // \
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -58723,6 +58900,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // m
+        // m
         public static class RotatorQueueEntry_t {
             public const nint qTarget = 0x0; // Quaternion
             public const nint eSpace = 0x10; // RotatorTargetSpace_t
@@ -58747,8 +58926,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertySuppressExpr
         // MGetKV3ClassDefaults
-        // MPropertyStartGroup
-        // MPropertyDescription
         // MPropertyDescription
         public static class CBaseAnimGraphDestructibleParts_GraphController {
         }
@@ -58757,10 +58934,17 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MVDataNodeType
+        // MVDataOverlayType
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // SOUNDCTRL_CHANGE_PITCH
+        // SOUNDCTRL_STOP
+        // SOUNDCTRL_DESTROY
+        // SOUNDCTRL_FADEOUT
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Y
         public static class ExternalAnimGraphHandle_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -58843,14 +59027,15 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // V
-        // MGetKV3ClassDefaults
         // Q
         public static class CraftworksRecipeTierID_t {
             public const nint m_Value = 0x0; // uint8
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class HeroFacetID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -58879,14 +59064,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // SOUNDCTRL_CHANGE_PITCH
-        // SOUNDCTRL_STOP
-        // SOUNDCTRL_DESTROY
-        // SOUNDCTRL_FADEOUT
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Y
         // MGetKV3ClassDefaults
         public static class SceneEventId_t {
             public const nint m_Value = 0x0; // uint32
@@ -58931,23 +59110,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // k_ePlayerTrackedStatImpl_Direct
-        // k_ePlayerTrackedStatImpl_KillEater
-        // k_ePlayerTrackedStatImpl_CombatQuery
-        // k_ePlayerTrackedStatImpl_Expression
-        // k_ePlayerTrackedStatImpl_HeroAdjective
-        // k_eTeamTrackedStatImpl_Direct
-        // k_eTeamTrackedStatImpl_Expression
-        // k_eTeamTrackedStatImpl_PlayerAggregate
-        // k_eMatchTrackedStatImpl_Direct
-        // k_eMatchTrackedStatImpl_Expression
-        // k_eMatchTrackedStatImpl_PlayerAggregate
-        // k_eMatchTrackedStatImpl_TeamAggregate
-        // k_eTrackedStatAggregate_Sum
-        // k_eTrackedStatAggregate_Max
-        // k_eTrackedStatAggregate_Min
         public static class TrackedStatValue_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -59096,15 +59258,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         public static class FantasyGemShape_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59170,15 +59323,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         public static class FantasyTitle_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59186,6 +59330,10 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CNmEventConsumerPulse {
@@ -59243,6 +59391,41 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnAccessTokensChanged
+        // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // PETLEVELFROM_KILLEATER
+        // PETLEVELFROM_COMPENDIUM_LEVEL
+        // NUM_PETLEVELUPRULES
+        // b
+        // kEconItemOrigin_Invalid
+        // kEconItemOrigin_Achievement
+        // kEconItemOrigin_Purchased
+        // kEconItemOrigin_Traded
+        // kEconItemOrigin_Crafted
+        // kEconItemOrigin_StorePromotion
+        // kEconItemOrigin_Gifted
+        // kEconItemOrigin_SupportGranted
+        // kEconItemOrigin_FoundInCrate
+        // kEconItemOrigin_Earned
+        // kEconItemOrigin_ThirdPartyPromotion
+        // kEconItemOrigin_GiftWrapped
+        // kEconItemOrigin_HalloweenDrop
+        // kEconItemOrigin_PackageItem
+        // kEconItemOrigin_Foreign
+        // kEconItemOrigin_CDKey
+        // kEconItemOrigin_CollectionReward
+        // kEconItemOrigin_PreviewItem
+        // kEconItemOrigin_SteamWorkshopContribution
+        // kEconItemOrigin_PeriodicScoreReward
+        // kEconItemOrigin_Recycling
+        // kEconItemOrigin_TournamentDrop
+        // kEconItemOrigin_PassportReward
+        // kEconItemOrigin_TutorialDrop
+        // kEconItemOrigin_RecipeOutput
+        // kEconItemOrigin_GemExtract
+        // kEconItemOrigin_EventPointReward
+        // kEconItemOrigin_ItemRedemption
+        // kEconItemOrigin_FantasyTicketRefund
+        // kEconItemOrigin_VictoryPredictionReward
         public static class attrib_definition_index_db32_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -59311,12 +59494,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // \
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -59336,12 +59514,14 @@ namespace Source2Dumper.Schemas {
         // OVERLAY_BBOX_BIT
         // OVERLAY_PIVOT_BIT
         // OVERLAY_MESSAGE_BIT
-        // OVERLAY_ABSBOX_BIT
         public static class OverworldPathID_t {
             public const nint m_Value = 0x0; // uint16
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // eline_cache.foz
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59389,14 +59569,14 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // OVERLAY_TEXT_BIT
-        // OVERLAY_NAME_BIT
-        // OVERLAY_BBOX_BIT
-        // OVERLAY_PIVOT_BIT
-        // OVERLAY_MESSAGE_BIT
-        // OVERLAY_ABSBOX_BIT
-        // OVERLAY_RBOX_BIT
-        // OVERLAY_SHOW_BLOCKSLOS
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class OverworldRoomGroupID_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59419,6 +59599,48 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // PETLEVELFROM_KILLEATER
+        // PETLEVELFROM_COMPENDIUM_LEVEL
+        // NUM_PETLEVELUPRULES
+        // b
+        // kEconItemOrigin_Invalid
+        // kEconItemOrigin_Achievement
+        // kEconItemOrigin_Purchased
+        // kEconItemOrigin_Traded
+        // kEconItemOrigin_Crafted
+        // kEconItemOrigin_StorePromotion
+        // kEconItemOrigin_Gifted
+        // kEconItemOrigin_SupportGranted
+        // kEconItemOrigin_FoundInCrate
+        // kEconItemOrigin_Earned
+        // kEconItemOrigin_ThirdPartyPromotion
+        // kEconItemOrigin_GiftWrapped
+        // kEconItemOrigin_HalloweenDrop
+        // kEconItemOrigin_PackageItem
+        // kEconItemOrigin_Foreign
+        // kEconItemOrigin_CDKey
+        // kEconItemOrigin_CollectionReward
+        // kEconItemOrigin_PreviewItem
+        // kEconItemOrigin_SteamWorkshopContribution
+        // kEconItemOrigin_PeriodicScoreReward
+        // kEconItemOrigin_Recycling
+        // kEconItemOrigin_TournamentDrop
+        // kEconItemOrigin_PassportReward
+        // kEconItemOrigin_TutorialDrop
+        // kEconItemOrigin_RecipeOutput
+        // kEconItemOrigin_GemExtract
+        // kEconItemOrigin_EventPointReward
+        // kEconItemOrigin_ItemRedemption
+        // kEconItemOrigin_FantasyTicketRefund
+        // kEconItemOrigin_VictoryPredictionReward
+        // kEconItemOrigin_AssassinEventReward
+        // kEconItemOrigin_CompendiumReward
+        // kEconItemOrigin_CompendiumDrop
+        // kEconItemOrigin_MysteryItem
+        // kEconItemOrigin_UnpackedFromBundle
         public static class itemid_t {
             public const nint m_Value = 0x0; // uint64
         }
@@ -59584,12 +59806,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // \
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -59607,7 +59824,6 @@ namespace Source2Dumper.Schemas {
         // OVERLAY_TEXT_BIT
         // OVERLAY_NAME_BIT
         // OVERLAY_BBOX_BIT
-        // OVERLAY_PIVOT_BIT
         public static class OverworldID_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59699,9 +59915,12 @@ namespace Source2Dumper.Schemas {
         // CInlineJob_CMsgGCToServerCheerData
         // CInlineJob_CMsgGCToServerCheerConfig
         // CInlineJob_CMsgGCToServerCheerScalesOverride
+        //   
         // MPropertyDescription
         // MPropertyDescription
+        // p#
         // MPropertyDescription
+        // P$
         // CInlineJob_CMsgGCToServerGetCheerState
         // MGetKV3ClassDefaults
         public static class CavernCrawlRewardType_t {
@@ -59714,6 +59933,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
+        // float
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59754,6 +59974,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class PeriodicResourceID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -59893,6 +60116,42 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnAccessTokensChanged
+        // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // PETLEVELFROM_KILLEATER
+        // PETLEVELFROM_COMPENDIUM_LEVEL
+        // NUM_PETLEVELUPRULES
+        // b
+        // kEconItemOrigin_Invalid
+        // kEconItemOrigin_Achievement
+        // kEconItemOrigin_Purchased
+        // kEconItemOrigin_Traded
+        // kEconItemOrigin_Crafted
+        // kEconItemOrigin_StorePromotion
+        // kEconItemOrigin_Gifted
+        // kEconItemOrigin_SupportGranted
+        // kEconItemOrigin_FoundInCrate
+        // kEconItemOrigin_Earned
+        // kEconItemOrigin_ThirdPartyPromotion
+        // kEconItemOrigin_GiftWrapped
+        // kEconItemOrigin_HalloweenDrop
+        // kEconItemOrigin_PackageItem
+        // kEconItemOrigin_Foreign
+        // kEconItemOrigin_CDKey
+        // kEconItemOrigin_CollectionReward
+        // kEconItemOrigin_PreviewItem
+        // kEconItemOrigin_SteamWorkshopContribution
+        // kEconItemOrigin_PeriodicScoreReward
+        // kEconItemOrigin_Recycling
+        // kEconItemOrigin_TournamentDrop
+        // kEconItemOrigin_PassportReward
+        // kEconItemOrigin_TutorialDrop
+        // kEconItemOrigin_RecipeOutput
+        // kEconItemOrigin_GemExtract
+        // kEconItemOrigin_EventPointReward
+        // kEconItemOrigin_ItemRedemption
+        // kEconItemOrigin_FantasyTicketRefund
+        // kEconItemOrigin_VictoryPredictionReward
+        // kEconItemOrigin_AssassinEventReward
         public static class style_index_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -60080,14 +60339,14 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // OVERLAY_TEXT_BIT
-        // OVERLAY_NAME_BIT
-        // OVERLAY_BBOX_BIT
-        // OVERLAY_PIVOT_BIT
-        // OVERLAY_MESSAGE_BIT
-        // OVERLAY_ABSBOX_BIT
-        // OVERLAY_RBOX_BIT
-        // OVERLAY_SHOW_BLOCKSLOS
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class OverworldRoomID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -60122,6 +60381,47 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // PETLEVELFROM_KILLEATER
+        // PETLEVELFROM_COMPENDIUM_LEVEL
+        // NUM_PETLEVELUPRULES
+        // b
+        // kEconItemOrigin_Invalid
+        // kEconItemOrigin_Achievement
+        // kEconItemOrigin_Purchased
+        // kEconItemOrigin_Traded
+        // kEconItemOrigin_Crafted
+        // kEconItemOrigin_StorePromotion
+        // kEconItemOrigin_Gifted
+        // kEconItemOrigin_SupportGranted
+        // kEconItemOrigin_FoundInCrate
+        // kEconItemOrigin_Earned
+        // kEconItemOrigin_ThirdPartyPromotion
+        // kEconItemOrigin_GiftWrapped
+        // kEconItemOrigin_HalloweenDrop
+        // kEconItemOrigin_PackageItem
+        // kEconItemOrigin_Foreign
+        // kEconItemOrigin_CDKey
+        // kEconItemOrigin_CollectionReward
+        // kEconItemOrigin_PreviewItem
+        // kEconItemOrigin_SteamWorkshopContribution
+        // kEconItemOrigin_PeriodicScoreReward
+        // kEconItemOrigin_Recycling
+        // kEconItemOrigin_TournamentDrop
+        // kEconItemOrigin_PassportReward
+        // kEconItemOrigin_TutorialDrop
+        // kEconItemOrigin_RecipeOutput
+        // kEconItemOrigin_GemExtract
+        // kEconItemOrigin_EventPointReward
+        // kEconItemOrigin_ItemRedemption
+        // kEconItemOrigin_FantasyTicketRefund
+        // kEconItemOrigin_VictoryPredictionReward
+        // kEconItemOrigin_AssassinEventReward
+        // kEconItemOrigin_CompendiumReward
+        // kEconItemOrigin_CompendiumDrop
+        // kEconItemOrigin_MysteryItem
         public static class item_definition_index_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -60215,12 +60515,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // \
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -60287,9 +60582,17 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // TrainVelocity_LinearBlend
+        // TrainVelocity_EaseInEaseOut
+        // TrainOrientation_AtPathTracks
+        // TrainOrientation_LinearBlend
+        // TrainOrientation_EaseInEaseOut
+        // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
-        // e
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // ePosition
+        // eAngles
         // MGetKV3ClassDefaults
         public static class ISkeletonAnimationController {
         }
@@ -60297,6 +60600,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class RotatorHistoryEntry_t {
             public const nint qInvChange = 0x0; // Quaternion
@@ -60311,6 +60615,48 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // PETLEVELFROM_KILLEATER
+        // PETLEVELFROM_COMPENDIUM_LEVEL
+        // NUM_PETLEVELUPRULES
+        // b
+        // kEconItemOrigin_Invalid
+        // kEconItemOrigin_Achievement
+        // kEconItemOrigin_Purchased
+        // kEconItemOrigin_Traded
+        // kEconItemOrigin_Crafted
+        // kEconItemOrigin_StorePromotion
+        // kEconItemOrigin_Gifted
+        // kEconItemOrigin_SupportGranted
+        // kEconItemOrigin_FoundInCrate
+        // kEconItemOrigin_Earned
+        // kEconItemOrigin_ThirdPartyPromotion
+        // kEconItemOrigin_GiftWrapped
+        // kEconItemOrigin_HalloweenDrop
+        // kEconItemOrigin_PackageItem
+        // kEconItemOrigin_Foreign
+        // kEconItemOrigin_CDKey
+        // kEconItemOrigin_CollectionReward
+        // kEconItemOrigin_PreviewItem
+        // kEconItemOrigin_SteamWorkshopContribution
+        // kEconItemOrigin_PeriodicScoreReward
+        // kEconItemOrigin_Recycling
+        // kEconItemOrigin_TournamentDrop
+        // kEconItemOrigin_PassportReward
+        // kEconItemOrigin_TutorialDrop
+        // kEconItemOrigin_RecipeOutput
+        // kEconItemOrigin_GemExtract
+        // kEconItemOrigin_EventPointReward
+        // kEconItemOrigin_ItemRedemption
+        // kEconItemOrigin_FantasyTicketRefund
+        // kEconItemOrigin_VictoryPredictionReward
+        // kEconItemOrigin_AssassinEventReward
+        // kEconItemOrigin_CompendiumReward
+        // kEconItemOrigin_CompendiumDrop
+        // kEconItemOrigin_MysteryItem
+        // kEconItemOrigin_UnpackedFromBundle
         public static class item_steam_cache_version_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -60396,9 +60742,12 @@ namespace Source2Dumper.Schemas {
         // CInlineJob_CMsgGCToServerCheerData
         // CInlineJob_CMsgGCToServerCheerConfig
         // CInlineJob_CMsgGCToServerCheerScalesOverride
+        //   
         // MPropertyDescription
         // MPropertyDescription
+        // p#
         // MPropertyDescription
+        // P$
         // CInlineJob_CMsgGCToServerGetCheerState
         // MGetKV3ClassDefaults
         public static class CavernCrawlMapVariant_t {
@@ -60485,15 +60834,14 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // OVERLAY_TEXT_BIT
-        // OVERLAY_NAME_BIT
-        // OVERLAY_BBOX_BIT
-        // OVERLAY_PIVOT_BIT
-        // OVERLAY_MESSAGE_BIT
-        // OVERLAY_ABSBOX_BIT
-        // OVERLAY_RBOX_BIT
-        // OVERLAY_SHOW_BLOCKSLOS
-        // OVERLAY_ATTACHMENTS_BIT
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
         public static class OverworldTarotCardID_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -60592,23 +60940,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // k_ePlayerTrackedStatImpl_Direct
-        // k_ePlayerTrackedStatImpl_KillEater
-        // k_ePlayerTrackedStatImpl_CombatQuery
-        // k_ePlayerTrackedStatImpl_Expression
-        // k_ePlayerTrackedStatImpl_HeroAdjective
-        // k_eTeamTrackedStatImpl_Direct
-        // k_eTeamTrackedStatImpl_Expression
-        // k_eTeamTrackedStatImpl_PlayerAggregate
-        // k_eMatchTrackedStatImpl_Direct
-        // k_eMatchTrackedStatImpl_Expression
-        // k_eMatchTrackedStatImpl_PlayerAggregate
-        // k_eMatchTrackedStatImpl_TeamAggregate
-        // k_eTrackedStatAggregate_Sum
-        // k_eTrackedStatAggregate_Max
-        // k_eTrackedStatAggregate_Min
         public static class TrackedStatID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -60627,6 +60958,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class WaterWheelDrag_t {
             public const nint m_flFractionOfWheelSubmerged = 0x0; // float32
@@ -60668,13 +61000,16 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // Y
         public static class CRandSimTimer {
             public const nint m_flMinInterval = 0x8; // float32
             public const nint m_flMaxInterval = 0xC; // float32
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class ChatWheelMessageID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -60687,8 +61022,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // V
-        // MGetKV3ClassDefaults
         // Q
         public static class CraftworksID_t {
             public const nint m_Value = 0x0; // uint8
@@ -60709,7 +61042,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CRelativeLocation {
             public const nint m_Type = 0x18; // RelativeLocationType_t
             public const nint m_vRelativeOffset = 0x1C; // Vector
@@ -60724,6 +61056,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class AttackRecord_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -60797,9 +61132,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // CInlineJob_CMsgGCToServerSteamLearnAccessTokensChanged
         public static class HeroPersona_t {
             public const nint m_Value = 0x0; // int8
         }
@@ -60954,9 +61286,7 @@ namespace Source2Dumper.Schemas {
         // SOUNDCTRL_FADEOUT
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // Y
-        // MGetKV3ClassDefaults
         public static class INavPathCostAreaFilter {
         }
         // Parent: None
@@ -60965,9 +61295,10 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // NAV_OBSTACLE_TYPE_INVALID
+        // NAV_OBSTACLE_TYPE_AVOID
+        // NAV_OBSTACLE_TYPE_CONN
+        // NAV_OBSTACLE_TYPE_BLOCK
         public static class CNmEventConsumerSound {
         }
         // Parent: None
@@ -60979,14 +61310,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // NAV_OBSTACLE_TYPE_INVALID
-        // NAV_OBSTACLE_TYPE_AVOID
-        // NAV_OBSTACLE_TYPE_CONN
-        // NAV_OBSTACLE_TYPE_BLOCK
         public static class CNmEventConsumerLegacy {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // generic
         public static class HeroFacetKey_t {
             public const nint m_Value = 0x0; // uint64
         }
@@ -61040,16 +61370,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         public static class FantasyCraftDataID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -61086,7 +61406,7 @@ namespace Source2Dumper.Schemas {
             public const nint vMaxs = 0x24; // Vector
         }
         // Parent: None
-        // Field count: 57
+        // Field count: 58
         public static class CDOTA_AttackRecord {
             public const nint m_hSource = 0x8; // CHandle<CBaseEntity>
             public const nint m_hInflictor = 0xC; // CHandle<CDOTABaseAbility>
@@ -61145,6 +61465,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_kvExtraData = 0xF0; // KeyValues3
             public const nint m_flActualDamageDealtResult = 0x118; // float32
             public const nint m_bTrackedRecord = 0x11C; // bool
+            public const nint m_bDamageImpacted = 0x11D; // bool
         }
         // Parent: None
         // Field count: 1
@@ -61170,12 +61491,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
+        // \
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -61196,7 +61512,6 @@ namespace Source2Dumper.Schemas {
         // OVERLAY_PIVOT_BIT
         // OVERLAY_MESSAGE_BIT
         // OVERLAY_ABSBOX_BIT
-        // OVERLAY_RBOX_BIT
         public static class OverworldHeroID_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -61226,10 +61541,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // NAV_OBSTACLE_TYPE_INVALID
-        // NAV_OBSTACLE_TYPE_AVOID
-        // NAV_OBSTACLE_TYPE_CONN
-        // NAV_OBSTACLE_TYPE_BLOCK
         public static class CNmEventConsumerParticle {
         }
         // Parent: None
@@ -61260,8 +61571,49 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // n
-        // 549.3.7
+        // DFLAG_SUPPRESS_HEALTH_CHANGES
+        // DFLAG_SUPPRESS_PHYSICS_FORCE
+        // DFLAG_SUPPRESS_EFFECTS
+        // DFLAG_PREVENT_DEATH
+        // DFLAG_FORCE_DEATH
+        // DFLAG_ALWAYS_GIB
+        // DFLAG_NEVER_GIB
+        // DFLAG_REMOVE_NO_RAGDOLL
+        // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
+        // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
+        // DFLAG_RADIUS_DMG
+        // DFLAG_FORCEREDUCEARMOR_DMG
+        // DFLAG_SUPPRESS_INTERRUPT_FLINCH
+        // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
+        // DFLAG_SUPPRESS_BREAKABLES
+        // DFLAG_FORCE_PHYSICS_FORCE
+        // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
+        // DFLAG_ALLOW_NON_AUTHORITATIVE
+        // DMG_LASTDFLAG
+        // DMG_CRUSH
+        // DMG_BULLET
+        // DMG_SLASH
+        // DMG_BURN
+        // DMG_VEHICLE
+        // DMG_FALL
+        // DMG_BLAST
+        // DMG_CLUB
+        // DMG_SHOCK
+        // DMG_SONIC
+        // DMG_ENERGYBEAM
+        // DMG_BUCKSHOT
+        // DMG_BLAST_SURFACE
+        // DMG_DISSOLVE
+        // DMG_DROWN
+        // DMG_POISON
+        // DMG_RADIATION
+        // DMG_DROWNRECOVER
+        // DMG_ACID
+        // DMG_LASTGENERICFLAG
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // DAMAGE_EVENTS_ONLY
+        // DAMAGE_YES
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61340,16 +61692,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         public static class FantasyOperationID_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -61415,6 +61757,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CNmEventConsumerBodyGroup {
         }
         // Parent: None
@@ -61423,10 +61769,12 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x000
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
         // MKV3TransferSaveOpsForField
+        // Y
         public static class CEmptyGraphController {
         }
         // Parent: None
@@ -61435,31 +61783,17 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // AMMO_FORCE_DROP_IF_CARRIED
-        // AMMO_RESERVE_STAYS_WITH_WEAPON
-        // AMMO_FLAG_MAX
+        // M
         // MPropertyDescription
-        // PrioritizeClosestPart
         // MPropertyDescription
-        // Absorb
-        // InvincibleAbsorb
-        // InvinciblePassthrough
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
-        // eKill
-        // eGib
-        // eRemove
-        // GenerateBreakpieces
-        // SetBodyGroupAndCollisionState
-        // EnableFlinches
-        // ForceDamageApply
-        // IgnoreKillEntityFlag
-        // IgnoreHealthCheck
-        // ApplyPhysicsForce
-        // Default
-        // M
+        // MPropertyDescription
+        // MPropertyDescription
+        // MGetKV3ClassDefaults
+        // MPropertyDescription
         // MGetKV3ClassDefaults
         public static class ModelConfigHandle_t {
             public const nint m_Value = 0x0; // uint32
@@ -61508,7 +61842,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MFgdHelper
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // MPropertyDescription
+        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // AMMO_FORCE_DROP_IF_CARRIED
@@ -61563,6 +61898,40 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToServerSteamLearnAccessTokensChanged
+        // CInlineJob_CMsgGCToServerSteamLearnUseHTTP
+        // PETLEVELFROM_KILLEATER
+        // PETLEVELFROM_COMPENDIUM_LEVEL
+        // NUM_PETLEVELUPRULES
+        // b
+        // kEconItemOrigin_Invalid
+        // kEconItemOrigin_Achievement
+        // kEconItemOrigin_Purchased
+        // kEconItemOrigin_Traded
+        // kEconItemOrigin_Crafted
+        // kEconItemOrigin_StorePromotion
+        // kEconItemOrigin_Gifted
+        // kEconItemOrigin_SupportGranted
+        // kEconItemOrigin_FoundInCrate
+        // kEconItemOrigin_Earned
+        // kEconItemOrigin_ThirdPartyPromotion
+        // kEconItemOrigin_GiftWrapped
+        // kEconItemOrigin_HalloweenDrop
+        // kEconItemOrigin_PackageItem
+        // kEconItemOrigin_Foreign
+        // kEconItemOrigin_CDKey
+        // kEconItemOrigin_CollectionReward
+        // kEconItemOrigin_PreviewItem
+        // kEconItemOrigin_SteamWorkshopContribution
+        // kEconItemOrigin_PeriodicScoreReward
+        // kEconItemOrigin_Recycling
+        // kEconItemOrigin_TournamentDrop
+        // kEconItemOrigin_PassportReward
+        // kEconItemOrigin_TutorialDrop
+        // kEconItemOrigin_RecipeOutput
+        // kEconItemOrigin_GemExtract
+        // kEconItemOrigin_EventPointReward
+        // kEconItemOrigin_ItemRedemption
+        // kEconItemOrigin_FantasyTicketRefund
         public static class attrib_definition_index_t {
             public const nint m_Value = 0x0; // uint16
         }
@@ -61616,10 +61985,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c,0xf000/0x000
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
         // MKV3TransferSaveOpsForField
+        // Y
         public static class CAnimGraphControllerBase {
             public const nint m_hExternalGraph = 0x4C; // ExternalAnimGraphHandle_t
         }

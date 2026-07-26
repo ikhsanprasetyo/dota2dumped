@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -375,9 +375,10 @@ export const Schemas = {
             k_eDarkCarnivalRewardVisual_Oracle: 0x9,
             k_eDarkCarnivalRewardVisual_HeroItemSet: 0xA,
             k_eDarkCarnivalRewardVisual_ShowcaseDecoration: 0xB,
-            k_eDarkCarnivalRewardVisual_Start: 0xC,
-            k_eDarkCarnivalRewardVisual_End: 0xD,
-            k_eDarkCarnivalRewardVisual_Completed: 0xE,
+            k_eDarkCarnivalRewardVisual_EconItem: 0xC,
+            k_eDarkCarnivalRewardVisual_Start: 0xD,
+            k_eDarkCarnivalRewardVisual_End: 0xE,
+            k_eDarkCarnivalRewardVisual_Completed: 0xF,
         },
         DOTAVisualNovelDialogueEffect_t: {
             VN_DIALOGUE_EFFECT_NONE: 0x0,
@@ -900,6 +901,7 @@ export const Schemas = {
             VN_TEXT_COLOR_PURPLE: 0xB,
             VN_TEXT_COLOR_YELLOW: 0xC,
             VN_TEXT_COLOR_LIGHT_BROWN: 0xD,
+            VN_TEXT_COLOR_TITLE: 0xE,
         },
         ECandyShopAuditAction: {
             k_ECandyShopAuditAction_Invalid: 0x0,
@@ -1472,6 +1474,8 @@ export const Schemas = {
             VN_DIALOGUE_EFFECT_TEXT_SMALL: 0x8,
             VN_DIALOGUE_EFFECT_TEXT_NO_NAMEPLATE: 0x10,
             VN_DIALOGUE_EFFECT_TEXT_NO_TEXT: 0x20,
+            VN_DIALOGUE_EFFECT_TEXT_LARGE: 0x40,
+            VN_DIALOGUE_EFFECT_TEXT_NO_CURSOR: 0x80,
         },
         EDOTACrateDropObjectType: {
             k_eCrateDropType_Invalid: 0x0,
@@ -9552,6 +9556,8 @@ export const Schemas = {
         CDOTA_Item_Tombstone_Drop: {
             m_iTempViewer: 0xB80, // int32
             m_iTeam: 0xB84, // int32
+        },
+        CDOTA_WhackAMoleGameEffectsEntity: {
         },
         C_DOTA_Item_Recipe_Ceremonial_Robe: {
         },
@@ -29972,6 +29978,7 @@ export const Schemas = {
         },
         CDOTAMotionComicFrame: {
             m_flAutoAdvanceDelay: 0x8, // float32
+            m_bFireEventOnStart: 0xC, // bool
         },
         CDOTACrateDropHazardDef: {
             m_flExplosionRadius: 0xE8, // float32

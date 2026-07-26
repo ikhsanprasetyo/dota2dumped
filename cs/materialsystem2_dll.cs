@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: materialsystem2.dll
@@ -202,7 +202,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // ,
-        // F
         public static class MaterialParamBuffer_t {
             public const nint m_value = 0x8; // CUtlBinaryBlock
         }

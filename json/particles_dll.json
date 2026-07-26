@@ -47711,10 +47711,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "549.3.7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61915,10 +61911,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "549.3.7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -72567,7 +72559,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Cloud1Offset",
+            "name": "4x4",
             "type": "Unknown"
           }
         ],

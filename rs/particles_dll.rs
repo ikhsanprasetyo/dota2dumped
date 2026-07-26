@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-24 01:46:55.557386900 +07:00
+// 2026-07-26 22:09:49.563738400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -16946,7 +16946,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // Cloud1Offset
+            // 4x4
             pub mod C_OP_RenderOmni2Light {
                 pub const m_nLightType: usize = 0x228; // ParticleOmni2LightTypeChoiceList_t
                 pub const m_nMaxAllowed: usize = 0x22C; // uint16
@@ -21886,7 +21886,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 549.3.7
             pub mod C_OP_RemapBoundingVolumetoCP {
                 pub const m_nOutControlPointNumber: usize = 0x1E0; // int32
                 pub const m_flInputMin: usize = 0x1E4; // float32
@@ -24411,7 +24410,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 549.3.7
             pub mod C_OP_EnableChildrenFromParentParticleCount {
                 pub const m_nChildGroupID: usize = 0x1E0; // int32
                 pub const m_nFirstChild: usize = 0x1E4; // int32
