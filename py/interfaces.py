@@ -1,23 +1,23 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-07-26 22:09:49.563738400 +07:00
+# 2026-07-31 12:20:57.511229500 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
     class AnimationsystemDll:
-        AnimationSystemUtils_001 = 0x839F10
-        AnimationSystem_001 = 0x831E30
+        AnimationSystemUtils_001 = 0x839F50
+        AnimationSystem_001 = 0x831E70
     # Module: client.dll
     class ClientDll:
-        ClientToolsInfo_001 = 0x5A019D0
-        DOTA_CLIENT_GCCLIENT = 0x62D0DC0
-        GameClientExports001 = 0x59FD6F8
-        LegacyGameUI001 = 0x5A6BBD0
-        PanoramaUIClient001 = 0x5A98230
-        PlayButtonService001 = 0x5A79320
-        Source2Client002 = 0x6124150
-        Source2ClientConfig001 = 0x60CC1D0
-        Source2ClientPrediction001 = 0x5A05EC0
-        Source2ClientUI001 = 0x57EF5C0
+        ClientToolsInfo_001 = 0x5A81B50
+        DOTA_CLIENT_GCCLIENT = 0x6358F60
+        GameClientExports001 = 0x5A7D878
+        LegacyGameUI001 = 0x5AEBFC0
+        PanoramaUIClient001 = 0x5B18C10
+        PlayButtonService001 = 0x5AF9CA8
+        Source2Client002 = 0x61ABFB0
+        Source2ClientConfig001 = 0x6154440
+        Source2ClientPrediction001 = 0x5A86030
+        Source2ClientUI001 = 0x586F5C0
     # Module: engine2.dll
     class Engine2Dll:
         BenchmarkService001 = 0x613B60
@@ -132,14 +132,14 @@ class Interfaces:
         SchemaSystem_001 = 0x75630
     # Module: server.dll
     class ServerDll:
-        EntitySubclassUtilsV001 = 0x4741A00
-        NavGameTest001 = 0x49E4B00
-        ServerToolsInfo_001 = 0x494DF28
-        Source2GameClients001 = 0x49480E0
-        Source2GameDirector001 = 0x5025F60
-        Source2GameEntities001 = 0x494D6D0
-        Source2Server001 = 0x494D520
-        Source2ServerConfig001 = 0x4F50578
+        EntitySubclassUtilsV001 = 0x4752A00
+        NavGameTest001 = 0x49F6110
+        ServerToolsInfo_001 = 0x495F188
+        Source2GameClients001 = 0x4959340
+        Source2GameDirector001 = 0x5037CA0
+        Source2GameEntities001 = 0x495E930
+        Source2Server001 = 0x495E780
+        Source2ServerConfig001 = 0x4F62A68
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundBugBugService001_Client = 0x553250

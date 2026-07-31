@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-26 22:09:49.563738400 +07:00
+// 2026-07-31 12:20:57.511229500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1440,6 +1440,7 @@ namespace Source2Dumper.Schemas {
         // SORT_BY_OUTFLOW_INDEX
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
@@ -1619,7 +1620,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
+        // r
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -1647,6 +1648,7 @@ namespace Source2Dumper.Schemas {
         // SORT_BY_OUTFLOW_INDEX
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
@@ -1663,9 +1665,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
         public static class CPulseCell_IsRequirementValid {
         }
         // Parent: None
@@ -2542,6 +2541,7 @@ namespace Source2Dumper.Schemas {
         // SORT_BY_OUTFLOW_INDEX
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
@@ -2585,16 +2585,14 @@ namespace Source2Dumper.Schemas {
         // SORT_BY_OUTFLOW_INDEX
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPulseEditorHeaderIcon
         // MGetKV3ClassDefaults
         public static class CPulseCell_LimitCount {
             public const nint m_nLimitCount = 0x48; // int32
@@ -2749,26 +2747,12 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // o
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // eParameter
-        // eAnimationMovementHeading
-        // eAnimationMovementHeadingAtEnd
-        // eAnimationOnly
-        // eProceduralOnly
-        // eAngle
-        // eWorldPosition
-        // MPropertyFriendlyName
-        // SelectorTagBehavior_OffWhenFinished
-        // SelectorTagBehavior_OffBeforeFinished
         // MGetKV3ClassDefaults
-        // Node
-        // SameCycleAsSource
-        // InverseSourceCycle
-        // FixedValue
-        // SameTimeAsSource
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class COrientationWarpUpdateNode {
             public const nint m_eMode = 0x74; // OrientationWarpMode_t
@@ -2908,6 +2892,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CInputStreamUpdateNode {
         }
         // Parent: None
@@ -2952,7 +2938,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         public static class CNmParameterizedBlendNode__CDefinition {
             public const nint m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
             public const nint m_nInputParameterValueNodeIdx = 0x28; // int16
@@ -3482,7 +3467,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         // MGetKV3ClassDefaults
         public static class CNmBoneMaskBlendNode__CDefinition {
             public const nint m_nSourceMaskNodeIdx = 0x10; // int16
@@ -3576,7 +3560,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x0203,0x0f0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0
+        // 1.1
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3761,7 +3745,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -4038,7 +4021,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CNmFloatAngleMathNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
             public const nint m_operation = 0x12; // CNmFloatAngleMathNode::Operation_t
@@ -4215,7 +4197,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4401,13 +4382,13 @@ namespace Source2Dumper.Schemas {
         // StepPhase_InAir
         // MPropertyFriendlyName
         // AddCorrectionDelta
-        // MGetKV3ClassDefaults
         // o
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // eParameter
         // eAnimationMovementHeading
+        // eAnimationMovementHeadingAtEnd
         public static class CFootPinningUpdateNode {
             public const nint m_poseOpFixedData = 0x78; // FootPinningPoseOpFixedData_t
             public const nint m_eTimingSource = 0xA8; // FootPinningTimingSource
@@ -4913,17 +4894,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Sub
-        // Mul
-        // Div
-        // Mod
-        // Abs
-        // Negate
-        // Floor
-        // Ceiling
-        // IntegerPart
-        // FractionalPart
-        // InverseFractionalPart
         // LessThanEqual
         // NearEqual
         // GreaterThan
@@ -4931,6 +4901,8 @@ namespace Source2Dumper.Schemas {
         // ClampTo360
         // FlipHemisphere
         // FlipHemisphereNegate
+        // @
+        // MGetKV3ClassDefaults
         public static class CNmCachedBoolNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
             public const nint m_mode = 0x14; // NmCachedValueMode_t
@@ -5023,6 +4995,24 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // LessThanEqual
+        // NearEqual
+        // GreaterThan
+        // LessThan
+        // ClampTo360
+        // FlipHemisphere
+        // FlipHemisphereNegate
+        // @
+        // MGetKV3ClassDefaults
+        public static class CNmCachedFloatNode__CDefinition {
+            public const nint m_nInputValueNodeIdx = 0x10; // int16
+            public const nint m_mode = 0x14; // NmCachedValueMode_t
+        }
+        // Parent: None
+        // Field count: 5
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
         // Sub
         // Mul
         // Div
@@ -5034,23 +5024,7 @@ namespace Source2Dumper.Schemas {
         // IntegerPart
         // FractionalPart
         // InverseFractionalPart
-        // LessThanEqual
-        // NearEqual
-        // GreaterThan
-        // LessThan
-        // ClampTo360
-        // FlipHemisphere
-        // FlipHemisphereNegate
-        // @
-        public static class CNmCachedFloatNode__CDefinition {
-            public const nint m_nInputValueNodeIdx = 0x10; // int16
-            public const nint m_mode = 0x14; // NmCachedValueMode_t
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
+        // !
         // MGetKV3ClassDefaults
         // DoesntMatch
         // MGetKV3ClassDefaults
@@ -5059,7 +5033,6 @@ namespace Source2Dumper.Schemas {
         // AllowMoveY
         // AllowMoveZ
         // AllowFacingPitch
-        // ListenForEvents
         public static class CNmFloatSwitchNode__CDefinition {
             public const nint m_nSwitchValueNodeIdx = 0x10; // int16
             public const nint m_nTrueValueNodeIdx = 0x12; // int16
@@ -5228,6 +5201,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CFootAdjustmentUpdateNode {
             public const nint m_clips = 0x78; // CUtlVector<HSequence>
             public const nint m_hBasePoseCacheHandle = 0x90; // CPoseHandle
@@ -5379,7 +5354,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         public static class CNmVelocityBlendNode__CDefinition {
         }
         // Parent: None
@@ -5481,7 +5455,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // x0203,0x0f0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0
+        // 1.1
         public static class CParticleVecInput {
             public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
@@ -5564,7 +5538,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         // MGetKV3ClassDefaults
         public static class CNmBoneMaskSelectorNode__CDefinition {
             public const nint m_defaultMaskNodeIdx = 0x10; // int16
@@ -5912,7 +5885,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -6022,6 +5994,7 @@ namespace Source2Dumper.Schemas {
         // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
         // PF_TYPE_COUNT
         // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+        // Target
         // PF_BIAS_TYPE_INVALID
         // PF_BIAS_TYPE_GAIN
         // PF_BIAS_TYPE_EXPONENTIAL
@@ -6571,17 +6544,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Sub
-        // Mul
-        // Div
-        // Mod
-        // Abs
-        // Negate
-        // Floor
-        // Ceiling
-        // IntegerPart
-        // FractionalPart
-        // InverseFractionalPart
         // LessThanEqual
         // NearEqual
         // GreaterThan
@@ -6590,6 +6552,7 @@ namespace Source2Dumper.Schemas {
         // FlipHemisphere
         // FlipHemisphereNegate
         // @
+        // MGetKV3ClassDefaults
         public static class CNmCachedIDNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
             public const nint m_mode = 0x14; // NmCachedValueMode_t
@@ -6635,17 +6598,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // Sub
-        // Mul
-        // Div
-        // Mod
-        // Abs
-        // Negate
-        // Floor
-        // Ceiling
-        // IntegerPart
-        // FractionalPart
-        // InverseFractionalPart
         // LessThanEqual
         // NearEqual
         // GreaterThan
@@ -6657,6 +6609,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Sub
+        // Mul
+        // Div
+        // Mod
+        // Abs
+        // Negate
+        // Floor
+        // Ceiling
+        // IntegerPart
+        // FractionalPart
+        // InverseFractionalPart
+        // !
         public static class CNmFloatCurveEventNode__CDefinition {
             public const nint m_eventID = 0x10; // CGlobalSymbol
             public const nint m_nDefaultNodeIdx = 0x18; // int16
@@ -6836,7 +6800,6 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
-        // 0x0b05/0x18e5,0x0f0d/0x00ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL
@@ -6957,6 +6920,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CParamSpanUpdater {
@@ -7367,6 +7331,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // d
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -7507,6 +7472,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -7899,17 +7865,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Sub
-        // Mul
-        // Div
-        // Mod
-        // Abs
-        // Negate
-        // Floor
-        // Ceiling
-        // IntegerPart
-        // FractionalPart
-        // InverseFractionalPart
         // LessThanEqual
         // NearEqual
         // GreaterThan
@@ -7918,6 +7873,7 @@ namespace Source2Dumper.Schemas {
         // FlipHemisphere
         // FlipHemisphereNegate
         // @
+        // MGetKV3ClassDefaults
         public static class CNmCachedVectorNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
             public const nint m_mode = 0x14; // NmCachedValueMode_t
@@ -8058,7 +8014,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         public static class CQuaternionAnimParameter {
             public const nint m_defaultValue = 0x80; // Quaternion
             public const nint m_bInterpolate = 0x90; // bool
@@ -8357,6 +8312,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CHitReactUpdateNode {
             public const nint m_opFixedSettings = 0x70; // HitReactFixedSettings_t
             public const nint m_triggerParam = 0xBC; // CAnimParamHandle
@@ -8584,6 +8540,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // d
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -8682,17 +8639,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Sub
-        // Mul
-        // Div
-        // Mod
-        // Abs
-        // Negate
-        // Floor
-        // Ceiling
-        // IntegerPart
-        // FractionalPart
-        // InverseFractionalPart
         // LessThanEqual
         // NearEqual
         // GreaterThan
@@ -8704,6 +8650,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Sub
+        // Mul
+        // Div
+        // Mod
+        // Abs
+        // Negate
+        // Floor
+        // Ceiling
+        // IntegerPart
+        // FractionalPart
+        // InverseFractionalPart
+        // !
         public static class CNmGraphEventConditionNode__CDefinition {
             public const nint m_nSourceStateNodeIdx = 0x10; // int16
             public const nint m_eventConditionRules = 0x14; // CNmBitFlags
@@ -8713,6 +8671,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -8908,17 +8867,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Sub
-        // Mul
-        // Div
-        // Mod
-        // Abs
-        // Negate
-        // Floor
-        // Ceiling
-        // IntegerPart
-        // FractionalPart
-        // InverseFractionalPart
         // LessThanEqual
         // NearEqual
         // GreaterThan
@@ -8927,6 +8875,8 @@ namespace Source2Dumper.Schemas {
         // FlipHemisphere
         // FlipHemisphereNegate
         // @
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CNmCachedTargetNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
             public const nint m_mode = 0x14; // NmCachedValueMode_t
@@ -8942,6 +8892,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // d
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -9325,7 +9276,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         public static class CNmFixedWeightBoneMaskNode__CDefinition {
             public const nint m_flBoneWeight = 0x10; // float32
         }
@@ -9602,7 +9552,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         public static class CNmBlend2DNode__CDefinition {
             public const nint m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
             public const nint m_values = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9656,7 +9605,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -10109,6 +10057,18 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Sub
+        // Mul
+        // Div
+        // Mod
+        // Abs
+        // Negate
+        // Floor
+        // Ceiling
+        // IntegerPart
+        // FractionalPart
+        // InverseFractionalPart
+        // !
         // MGetKV3ClassDefaults
         // DoesntMatch
         // MGetKV3ClassDefaults
@@ -10116,8 +10076,6 @@ namespace Source2Dumper.Schemas {
         // ModelSpace
         // AllowMoveY
         // AllowMoveZ
-        // AllowFacingPitch
-        // ListenForEvents
         public static class CNmFloatRangeComparisonNode__CDefinition {
             public const nint m_range = 0x10; // Range_t
             public const nint m_nInputValueNodeIdx = 0x18; // int16
@@ -10216,7 +10174,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         public static class CNmBodyGroupNode__CDefinition {
             public const nint m_nEnabledNodeIdx = 0x18; // int16
             public const nint m_event = 0x20; // CNmBodyGroupEvent
@@ -10263,7 +10220,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -10438,7 +10394,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -10673,15 +10628,23 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Sub
+        // Mul
+        // Div
+        // Mod
+        // Abs
+        // Negate
+        // Floor
+        // Ceiling
+        // IntegerPart
+        // FractionalPart
+        // InverseFractionalPart
+        // !
         // MGetKV3ClassDefaults
         // DoesntMatch
         // MGetKV3ClassDefaults
         // Additive
         // ModelSpace
-        // AllowMoveY
-        // AllowMoveZ
-        // AllowFacingPitch
-        // ListenForEvents
         public static class CNmFloatSpringNode__CDefinition {
             public const nint m_flStartValue = 0x10; // float32
             public const nint m_flHertz = 0x14; // float32
@@ -11189,7 +11152,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
-        // 1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -11285,6 +11247,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class ParamSpanSample_t {
             public const nint m_value = 0x0; // CAnimVariant
             public const nint m_flCycle = 0x14; // float32
@@ -11354,7 +11317,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // n
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -11725,6 +11687,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // d
         public static class CParticleFloatInput {
             public const nint m_nType = 0x10; // ParticleFloatType_t
             public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
@@ -12119,7 +12082,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
         public static class CNmBoneMaskNode__CDefinition {
             public const nint m_boneMaskID = 0x10; // CGlobalSymbol
         }
@@ -12240,6 +12202,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         public static class CFootStepTriggerUpdateNode {
             public const nint m_triggers = 0x70; // CUtlVector<FootStepTrigger>
             public const nint m_flTolerance = 0x8C; // float32
@@ -12475,7 +12438,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CFollowPathUpdateNode {
             public const nint m_flBlendOutTime = 0x74; // float32
             public const nint m_bBlockNonPathMovement = 0x78; // bool
@@ -12600,17 +12562,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Sub
-        // Mul
-        // Div
-        // Mod
-        // Abs
-        // Negate
-        // Floor
-        // Ceiling
-        // IntegerPart
-        // FractionalPart
-        // InverseFractionalPart
         // LessThanEqual
         // NearEqual
         // GreaterThan
@@ -12622,6 +12573,18 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Sub
+        // Mul
+        // Div
+        // Mod
+        // Abs
+        // Negate
+        // Floor
+        // Ceiling
+        // IntegerPart
+        // FractionalPart
+        // InverseFractionalPart
+        // !
         public static class CNmFootEventConditionNode__CDefinition {
             public const nint m_nSourceStateNodeIdx = 0x10; // int16
             public const nint m_phaseCondition = 0x12; // NmFootPhaseCondition_t
@@ -12796,8 +12759,6 @@ namespace Source2Dumper.Schemas {
         // FacingMode_Path
         // FacingMode_LookTarget
         // FacingMode_ManualPosition
-        // MPropertyFriendlyName
-        // MPropertyDescription
         public static class CTargetWarpUpdateNode {
             public const nint m_eAngleMode = 0x74; // TargetWarpAngleMode_t
             public const nint m_hTargetPositionParameter = 0x78; // CAnimParamHandle
@@ -12844,6 +12805,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -13130,7 +13092,6 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
-        // 0x0b05/0x18e5,0x0f0d/0x00ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL

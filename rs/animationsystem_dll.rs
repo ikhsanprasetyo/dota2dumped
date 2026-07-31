@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-26 22:09:49.563738400 +07:00
+// 2026-07-31 12:20:57.511229500 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1586,6 +1586,7 @@ pub mod source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
@@ -1765,7 +1766,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
+            // r
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -1793,6 +1794,7 @@ pub mod source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
@@ -1809,9 +1811,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
-            // MPulseLegacyName
-            // MPulseLegacyName
-            // MPulseLegacyName
             pub mod CPulseCell_IsRequirementValid {
             }
             // Parent: None
@@ -2688,6 +2687,7 @@ pub mod source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
@@ -2731,16 +2731,14 @@ pub mod source2_dumper {
             // SORT_BY_OUTFLOW_INDEX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPulseEditorHeaderIcon
             // MGetKV3ClassDefaults
             pub mod CPulseCell_LimitCount {
                 pub const m_nLimitCount: usize = 0x48; // int32
@@ -2895,26 +2893,12 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // o
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // eParameter
-            // eAnimationMovementHeading
-            // eAnimationMovementHeadingAtEnd
-            // eAnimationOnly
-            // eProceduralOnly
-            // eAngle
-            // eWorldPosition
-            // MPropertyFriendlyName
-            // SelectorTagBehavior_OffWhenFinished
-            // SelectorTagBehavior_OffBeforeFinished
             // MGetKV3ClassDefaults
-            // Node
-            // SameCycleAsSource
-            // InverseSourceCycle
-            // FixedValue
-            // SameTimeAsSource
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod COrientationWarpUpdateNode {
                 pub const m_eMode: usize = 0x74; // OrientationWarpMode_t
@@ -3054,6 +3038,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CInputStreamUpdateNode {
             }
             // Parent: None
@@ -3098,7 +3084,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             pub mod CNmParameterizedBlendNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
@@ -3628,7 +3613,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskBlendNode__CDefinition {
                 pub const m_nSourceMaskNodeIdx: usize = 0x10; // int16
@@ -3722,7 +3706,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // x0203,0x0f0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0
+            // 1.1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3907,7 +3891,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4184,7 +4167,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CNmFloatAngleMathNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_operation: usize = 0x12; // CNmFloatAngleMathNode::Operation_t
@@ -4361,7 +4343,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -4547,13 +4528,13 @@ pub mod source2_dumper {
             // StepPhase_InAir
             // MPropertyFriendlyName
             // AddCorrectionDelta
-            // MGetKV3ClassDefaults
             // o
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // eParameter
             // eAnimationMovementHeading
+            // eAnimationMovementHeadingAtEnd
             pub mod CFootPinningUpdateNode {
                 pub const m_poseOpFixedData: usize = 0x78; // FootPinningPoseOpFixedData_t
                 pub const m_eTimingSource: usize = 0xA8; // FootPinningTimingSource
@@ -5059,17 +5040,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Sub
-            // Mul
-            // Div
-            // Mod
-            // Abs
-            // Negate
-            // Floor
-            // Ceiling
-            // IntegerPart
-            // FractionalPart
-            // InverseFractionalPart
             // LessThanEqual
             // NearEqual
             // GreaterThan
@@ -5077,6 +5047,8 @@ pub mod source2_dumper {
             // ClampTo360
             // FlipHemisphere
             // FlipHemisphereNegate
+            // @
+            // MGetKV3ClassDefaults
             pub mod CNmCachedBoolNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -5169,6 +5141,24 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // LessThanEqual
+            // NearEqual
+            // GreaterThan
+            // LessThan
+            // ClampTo360
+            // FlipHemisphere
+            // FlipHemisphereNegate
+            // @
+            // MGetKV3ClassDefaults
+            pub mod CNmCachedFloatNode__CDefinition {
+                pub const m_nInputValueNodeIdx: usize = 0x10; // int16
+                pub const m_mode: usize = 0x14; // NmCachedValueMode_t
+            }
+            // Parent: None
+            // Field count: 5
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             // Sub
             // Mul
             // Div
@@ -5180,23 +5170,7 @@ pub mod source2_dumper {
             // IntegerPart
             // FractionalPart
             // InverseFractionalPart
-            // LessThanEqual
-            // NearEqual
-            // GreaterThan
-            // LessThan
-            // ClampTo360
-            // FlipHemisphere
-            // FlipHemisphereNegate
-            // @
-            pub mod CNmCachedFloatNode__CDefinition {
-                pub const m_nInputValueNodeIdx: usize = 0x10; // int16
-                pub const m_mode: usize = 0x14; // NmCachedValueMode_t
-            }
-            // Parent: None
-            // Field count: 5
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
+            // !
             // MGetKV3ClassDefaults
             // DoesntMatch
             // MGetKV3ClassDefaults
@@ -5205,7 +5179,6 @@ pub mod source2_dumper {
             // AllowMoveY
             // AllowMoveZ
             // AllowFacingPitch
-            // ListenForEvents
             pub mod CNmFloatSwitchNode__CDefinition {
                 pub const m_nSwitchValueNodeIdx: usize = 0x10; // int16
                 pub const m_nTrueValueNodeIdx: usize = 0x12; // int16
@@ -5374,6 +5347,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CFootAdjustmentUpdateNode {
                 pub const m_clips: usize = 0x78; // CUtlVector<HSequence>
                 pub const m_hBasePoseCacheHandle: usize = 0x90; // CPoseHandle
@@ -5525,7 +5500,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             pub mod CNmVelocityBlendNode__CDefinition {
             }
             // Parent: None
@@ -5627,7 +5601,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // x0203,0x0f0d/0x0049,0x14d8/0x6208,0x0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0
+            // 1.1
             pub mod CParticleVecInput {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5710,7 +5684,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskSelectorNode__CDefinition {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
@@ -6058,7 +6031,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // 1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6168,6 +6140,7 @@ pub mod source2_dumper {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
             // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // Target
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -6717,17 +6690,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Sub
-            // Mul
-            // Div
-            // Mod
-            // Abs
-            // Negate
-            // Floor
-            // Ceiling
-            // IntegerPart
-            // FractionalPart
-            // InverseFractionalPart
             // LessThanEqual
             // NearEqual
             // GreaterThan
@@ -6736,6 +6698,7 @@ pub mod source2_dumper {
             // FlipHemisphere
             // FlipHemisphereNegate
             // @
+            // MGetKV3ClassDefaults
             pub mod CNmCachedIDNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -6781,17 +6744,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Sub
-            // Mul
-            // Div
-            // Mod
-            // Abs
-            // Negate
-            // Floor
-            // Ceiling
-            // IntegerPart
-            // FractionalPart
-            // InverseFractionalPart
             // LessThanEqual
             // NearEqual
             // GreaterThan
@@ -6803,6 +6755,18 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // !
             pub mod CNmFloatCurveEventNode__CDefinition {
                 pub const m_eventID: usize = 0x10; // CGlobalSymbol
                 pub const m_nDefaultNodeIdx: usize = 0x18; // int16
@@ -6982,7 +6946,6 @@ pub mod source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // 0x0b05/0x18e5,0x0f0d/0x00ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -7103,6 +7066,7 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CParamSpanUpdater {
@@ -7513,6 +7477,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // d
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -7653,6 +7618,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -8045,17 +8011,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Sub
-            // Mul
-            // Div
-            // Mod
-            // Abs
-            // Negate
-            // Floor
-            // Ceiling
-            // IntegerPart
-            // FractionalPart
-            // InverseFractionalPart
             // LessThanEqual
             // NearEqual
             // GreaterThan
@@ -8064,6 +8019,7 @@ pub mod source2_dumper {
             // FlipHemisphere
             // FlipHemisphereNegate
             // @
+            // MGetKV3ClassDefaults
             pub mod CNmCachedVectorNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -8204,7 +8160,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             pub mod CQuaternionAnimParameter {
                 pub const m_defaultValue: usize = 0x80; // Quaternion
                 pub const m_bInterpolate: usize = 0x90; // bool
@@ -8503,6 +8458,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CHitReactUpdateNode {
                 pub const m_opFixedSettings: usize = 0x70; // HitReactFixedSettings_t
                 pub const m_triggerParam: usize = 0xBC; // CAnimParamHandle
@@ -8730,6 +8686,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // d
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8828,17 +8785,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Sub
-            // Mul
-            // Div
-            // Mod
-            // Abs
-            // Negate
-            // Floor
-            // Ceiling
-            // IntegerPart
-            // FractionalPart
-            // InverseFractionalPart
             // LessThanEqual
             // NearEqual
             // GreaterThan
@@ -8850,6 +8796,18 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // !
             pub mod CNmGraphEventConditionNode__CDefinition {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_eventConditionRules: usize = 0x14; // CNmBitFlags
@@ -8859,6 +8817,7 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -9054,17 +9013,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Sub
-            // Mul
-            // Div
-            // Mod
-            // Abs
-            // Negate
-            // Floor
-            // Ceiling
-            // IntegerPart
-            // FractionalPart
-            // InverseFractionalPart
             // LessThanEqual
             // NearEqual
             // GreaterThan
@@ -9073,6 +9021,8 @@ pub mod source2_dumper {
             // FlipHemisphere
             // FlipHemisphereNegate
             // @
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod CNmCachedTargetNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
                 pub const m_mode: usize = 0x14; // NmCachedValueMode_t
@@ -9088,6 +9038,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // d
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9471,7 +9422,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             pub mod CNmFixedWeightBoneMaskNode__CDefinition {
                 pub const m_flBoneWeight: usize = 0x10; // float32
             }
@@ -9748,7 +9698,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             pub mod CNmBlend2DNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9802,7 +9751,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // 1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10255,6 +10203,18 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // !
             // MGetKV3ClassDefaults
             // DoesntMatch
             // MGetKV3ClassDefaults
@@ -10262,8 +10222,6 @@ pub mod source2_dumper {
             // ModelSpace
             // AllowMoveY
             // AllowMoveZ
-            // AllowFacingPitch
-            // ListenForEvents
             pub mod CNmFloatRangeComparisonNode__CDefinition {
                 pub const m_range: usize = 0x10; // Range_t
                 pub const m_nInputValueNodeIdx: usize = 0x18; // int16
@@ -10362,7 +10320,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             pub mod CNmBodyGroupNode__CDefinition {
                 pub const m_nEnabledNodeIdx: usize = 0x18; // int16
                 pub const m_event: usize = 0x20; // CNmBodyGroupEvent
@@ -10409,7 +10366,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // 1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10584,7 +10540,6 @@ pub mod source2_dumper {
             // Field count: 3
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -10819,15 +10774,23 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // !
             // MGetKV3ClassDefaults
             // DoesntMatch
             // MGetKV3ClassDefaults
             // Additive
             // ModelSpace
-            // AllowMoveY
-            // AllowMoveZ
-            // AllowFacingPitch
-            // ListenForEvents
             pub mod CNmFloatSpringNode__CDefinition {
                 pub const m_flStartValue: usize = 0x10; // float32
                 pub const m_flHertz: usize = 0x14; // float32
@@ -11335,7 +11298,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // 1260,0x20bc/0x1263,0x20bc/0x1264,0x11c0/0x5505,0x11c0/0x5506,0x0079/0x0007,0x146b/0x0301,0xf766/0x0005,0x20e8/0x5860,0x0926/0x88
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11431,6 +11393,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod ParamSpanSample_t {
                 pub const m_value: usize = 0x0; // CAnimVariant
                 pub const m_flCycle: usize = 0x14; // float32
@@ -11500,7 +11463,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // n
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -11871,6 +11833,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // d
             pub mod CParticleFloatInput {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -12265,7 +12228,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x0f0d/0x005b,0x0f0d/0x005c
             pub mod CNmBoneMaskNode__CDefinition {
                 pub const m_boneMaskID: usize = 0x10; // CGlobalSymbol
             }
@@ -12386,6 +12348,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             pub mod CFootStepTriggerUpdateNode {
                 pub const m_triggers: usize = 0x70; // CUtlVector<FootStepTrigger>
                 pub const m_flTolerance: usize = 0x8C; // float32
@@ -12621,7 +12584,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CFollowPathUpdateNode {
                 pub const m_flBlendOutTime: usize = 0x74; // float32
                 pub const m_bBlockNonPathMovement: usize = 0x78; // bool
@@ -12746,17 +12708,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Sub
-            // Mul
-            // Div
-            // Mod
-            // Abs
-            // Negate
-            // Floor
-            // Ceiling
-            // IntegerPart
-            // FractionalPart
-            // InverseFractionalPart
             // LessThanEqual
             // NearEqual
             // GreaterThan
@@ -12768,6 +12719,18 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Sub
+            // Mul
+            // Div
+            // Mod
+            // Abs
+            // Negate
+            // Floor
+            // Ceiling
+            // IntegerPart
+            // FractionalPart
+            // InverseFractionalPart
+            // !
             pub mod CNmFootEventConditionNode__CDefinition {
                 pub const m_nSourceStateNodeIdx: usize = 0x10; // int16
                 pub const m_phaseCondition: usize = 0x12; // NmFootPhaseCondition_t
@@ -12942,8 +12905,6 @@ pub mod source2_dumper {
             // FacingMode_Path
             // FacingMode_LookTarget
             // FacingMode_ManualPosition
-            // MPropertyFriendlyName
-            // MPropertyDescription
             pub mod CTargetWarpUpdateNode {
                 pub const m_eAngleMode: usize = 0x74; // TargetWarpAngleMode_t
                 pub const m_hTargetPositionParameter: usize = 0x78; // CAnimParamHandle
@@ -12990,6 +12951,7 @@ pub mod source2_dumper {
             // Field count: 3
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -13276,7 +13238,6 @@ pub mod source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // 0x0b05/0x18e5,0x0f0d/0x00ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

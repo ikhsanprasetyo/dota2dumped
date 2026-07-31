@@ -313,6 +313,10 @@
             "type": "Unknown"
           },
           {
+            "name": "d",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -679,6 +683,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -1530,6 +1538,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1873,6 +1885,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1997,6 +2013,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "d",
             "type": "Unknown"
           }
         ],
@@ -2566,6 +2586,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "d",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2793,10 +2817,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -3086,6 +3106,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -3315,10 +3339,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -3709,6 +3729,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -4078,6 +4102,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -4210,10 +4238,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -4238,7 +4262,23 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -4270,7 +4310,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeRange",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
@@ -4282,7 +4334,103 @@
             "type": "Unknown"
           },
           {
+            "name": "FILTER_UNKNOWN",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_HIGHPASS",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_BANDPASS",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_NOTCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_PEAKING_EQ",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_LOW_SHELF",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_HIGH_SHELF",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_ALLPASS",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_PASSTHROUGH",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_SLOPE_1POLE_12dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_SLOPE_1POLE_18dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_SLOPE_1POLE_24dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_SLOPE_12dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_SLOPE_24dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_SLOPE_36dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_SLOPE_48dB",
+            "type": "Unknown"
+          },
+          {
+            "name": "FILTER_SLOPE_MAX",
+            "type": "Unknown"
+          },
+          {
+            "name": "LFO_SHAPE_SQUARE",
+            "type": "Unknown"
+          },
+          {
+            "name": "LFO_SHAPE_TRI",
+            "type": "Unknown"
+          },
+          {
+            "name": "LFO_SHAPE_SAW",
+            "type": "Unknown"
+          },
+          {
+            "name": "LFO_SHAPE_NOISE",
+            "type": "Unknown"
+          },
+          {
+            "name": "PANNER_TYPE_EQUAL_POWER",
+            "type": "Unknown"
+          },
+          {
+            "name": "SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT",
+            "type": "Unknown"
+          },
+          {
+            "name": "SUBGRAPH_INTERPOLATION_KEEP_LAST_SUBGRAPH_RUNNING",
             "type": "Unknown"
           }
         ],
@@ -4538,10 +4686,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -4651,6 +4795,10 @@
           },
           {
             "name": "MPropertyAttributeRange",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -4886,10 +5034,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -5106,6 +5250,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -5297,6 +5445,10 @@
           "m_desc": 32
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -6492,6 +6644,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -6740,10 +6896,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -6884,10 +7036,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -7093,10 +7241,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7266,10 +7410,6 @@
           },
           {
             "name": "CMD_IMPULSERESPONSE_DELAY",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0b05/0x18e5,0x0f0d/0x00ad,0x1532/0x0300,0x1532/0x0402,0x1532/0x0705,0x1532/0x0707,0x1532/0x0900,0x0f0d/0x006b,0x0f0d/0x008b,0x",
             "type": "Unknown"
           },
           {
@@ -7589,10 +7729,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -7694,6 +7830,10 @@
           },
           {
             "name": "MPropertyAttributeRange",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -8037,6 +8177,10 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -8102,10 +8246,6 @@
           },
           {
             "name": "MPropertyAttributeRange",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -10633,14 +10773,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -11161,6 +11293,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -11248,14 +11388,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {

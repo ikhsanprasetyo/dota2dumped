@@ -1,13 +1,13 @@
 {
   "client.dll": {
-    "dwEntityList": 105536592,
-    "dwGameEntitySystem": 105536592,
+    "dwEntityList": 106096816,
+    "dwGameEntitySystem": 106096816,
     "dwGameEntitySystem_highestEntityIndex": 8336,
-    "dwGlobalVars": 94359512,
-    "dwLocalPlayerPawn": 94396312,
-    "dwPrediction": 94396096,
-    "dwViewMatrix": 101900784,
-    "dwViewRender": 101898424
+    "dwGlobalVars": 94884224,
+    "dwLocalPlayerPawn": 94920968,
+    "dwPrediction": 94920752,
+    "dwViewMatrix": 102456480,
+    "dwViewRender": 102458968
   },
   "engine2.dll": {
     "dwBuildNumber": 6348068,
@@ -19,8 +19,8 @@
     "dwNetworkGameClient_maxClients": 576,
     "dwNetworkGameClient_serverTickCount": 588,
     "dwNetworkGameClient_signOnState": 560,
-    "dwWindowHeight": 9502604,
-    "dwWindowWidth": 9502600
+    "dwWindowHeight": 9502588,
+    "dwWindowWidth": 9502584
   },
   "inputsystem.dll": {
     "dwInputSystem": 285600
