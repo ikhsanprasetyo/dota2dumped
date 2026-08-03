@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-07-31 12:20:57.511229500 +07:00
+# 2026-08-04 01:03:45.932261800 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1428,6 +1428,10 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
+        class H____WH___H__H_ڹ__:
+            pass
+        class DOTAInternational2025PredictionRankings:
+            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1A28 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1A50 # ParticleIndex_t
@@ -17717,7 +17721,7 @@ class Schemas:
             damage_percentage_on_perform_attack = 0x1A78 # int32
         class CDOTA_Modifier_NagaSiren_Eelskin:
             evasion_per_naga = 0x1A78 # float32
-            radius = 0x1A7C # int32
+            radius = 0x1A7C # float32
         class CDOTA_Modifier_Nyx_Assassin_Nyxth_Sense:
             radius = 0x1A78 # float32
         class CDOTA_Modifier_Huskar_Life_Break:

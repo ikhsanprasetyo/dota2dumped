@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -13,7 +13,7 @@ pub mod source2_dumper {
         pub const forward: usize = 0x5A82580;
         pub const jump: usize = 0x5A82850;
         pub const left: usize = 0x5A826A0;
-        pub const query: usize = 0x61F15C0;
+        pub const query: usize = 0x61F15B0;
         pub const reload: usize = 0x5A822B0;
         pub const right: usize = 0x5A82730;
         pub const sprint: usize = 0x5A82220;

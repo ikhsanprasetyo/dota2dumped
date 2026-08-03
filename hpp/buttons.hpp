@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 #pragma once
 
@@ -16,7 +16,7 @@ namespace source2_dumper {
         constexpr std::ptrdiff_t forward = 0x5A82580;
         constexpr std::ptrdiff_t jump = 0x5A82850;
         constexpr std::ptrdiff_t left = 0x5A826A0;
-        constexpr std::ptrdiff_t query = 0x61F15C0;
+        constexpr std::ptrdiff_t query = 0x61F15B0;
         constexpr std::ptrdiff_t reload = 0x5A822B0;
         constexpr std::ptrdiff_t right = 0x5A82730;
         constexpr std::ptrdiff_t sprint = 0x5A82220;

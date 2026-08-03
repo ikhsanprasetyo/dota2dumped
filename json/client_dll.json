@@ -61456,7 +61456,11 @@
         },
         "metadata": [
           {
-            "name": "CInlineJob_CMsgGCToClientInFlightChargesUpdated",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "o",
             "type": "Unknown"
           }
         ],
@@ -63482,6 +63486,11 @@
         },
         "type": "uint32"
       },
+      "DOTAInternational2025PredictionRankings": {
+        "alignment": 18,
+        "members": {},
+        "type": "unknown"
+      },
       "DOTAKeybindCommand_t": {
         "alignment": 4,
         "members": {
@@ -65168,6 +65177,11 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
+      },
+      "H____WH___H__H_ڹ__": {
+        "alignment": 163,
+        "members": {},
+        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

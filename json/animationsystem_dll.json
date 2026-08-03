@@ -372,6 +372,10 @@
             "type": "Unknown"
           },
           {
+            "name": "EAKPAD_DUMP_LOCATION=C:\\Program Files (x86)\\Steam\\dumps",
+            "type": "Unknown"
+          },
+          {
             "name": "JOINT_FLAGS_BODY1_FIXED",
             "type": "Unknown"
           },
@@ -2737,10 +2741,6 @@
           },
           {
             "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
-            "type": "Unknown"
-          },
-          {
-            "name": "Target",
             "type": "Unknown"
           },
           {
@@ -18818,11 +18818,15 @@
             "type": "Unknown"
           },
           {
+            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "1.1",
+            "name": "es",
             "type": "Unknown"
           }
         ],
@@ -19168,11 +19172,15 @@
             "type": "Unknown"
           },
           {
+            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "1.1",
+            "name": "es",
             "type": "Unknown"
           },
           {

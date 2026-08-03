@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7537
-        // Enum count: 437
+        // Enum count: 440
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -13338,6 +13338,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // Pk
+            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -19664,6 +19666,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -20072,6 +20075,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // Pk
+            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CPulseCell_IsRequirementValid {
@@ -21737,6 +21742,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -23400,6 +23406,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -29520,6 +29527,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -29694,6 +29702,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -31695,6 +31704,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -35229,6 +35239,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -36511,6 +36522,8 @@ namespace source2_dumper {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
+            // 0}
+            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -38770,7 +38783,6 @@ namespace source2_dumper {
             // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
             // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
             // ORIENTATION_FACE_ENTITY
-            // et
             // TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD
             // TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE
             // TRANSITION_TO_PATH_NODE_TRANSITIONING
@@ -39507,7 +39519,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // s\system32\WindowsPowerShell\v1.0\Modules
             namespace CScriptComponent {
                 constexpr std::ptrdiff_t m_scriptClassName = 0x30; // CUtlSymbolLarge
             }
@@ -39600,7 +39611,7 @@ namespace source2_dumper {
             // Field count: 2
             namespace CDOTA_Modifier_NagaSiren_Eelskin {
                 constexpr std::ptrdiff_t evasion_per_naga = 0x1A78; // float32
-                constexpr std::ptrdiff_t radius = 0x1A7C; // int32
+                constexpr std::ptrdiff_t radius = 0x1A7C; // float32
             }
             // Parent: None
             // Field count: 1
@@ -41804,6 +41815,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -42466,6 +42478,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -45371,6 +45384,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // Pk
+            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -45398,6 +45413,8 @@ namespace source2_dumper {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
+            // 0}
+            // `~
             namespace CPulseCell_Outflow_CycleRandom {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -47606,6 +47623,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // Pk
+            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -47633,6 +47652,8 @@ namespace source2_dumper {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
+            // 0}
+            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -47886,12 +47907,15 @@ namespace source2_dumper {
             namespace CDOTA_Ability_Disruptor_Thunder_Strike {
             }
             // Parent: None
-            // Field count: 4
+            // Field count: 7
             namespace CDOTA_Modifier_Omniknight_HammerOfPurity {
                 constexpr std::ptrdiff_t m_bHammerAttack = 0x1A78; // bool
                 constexpr std::ptrdiff_t attack_range_bonus = 0x1A7C; // int32
                 constexpr std::ptrdiff_t m_nAttackRecord = 0x1A80; // AttackRecord_t
-                constexpr std::ptrdiff_t m_nHeal = 0x1A84; // int32[5]
+                constexpr std::ptrdiff_t total_ticks = 0x1A84; // int32
+                constexpr std::ptrdiff_t m_nHealQueue = 0x1A88; // CUtlVector<int32>
+                constexpr std::ptrdiff_t tick_rate = 0x1AA0; // float32
+                constexpr std::ptrdiff_t heal_duration = 0x1AA4; // float32
             }
             // Parent: CDOTABaseAbility
             // Field count: 0
@@ -50998,6 +51022,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // Pk
+            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -52366,6 +52392,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -54760,6 +54787,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
+            // Pk
+            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -54787,6 +54816,8 @@ namespace source2_dumper {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
+            // 0}
+            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -56946,6 +56977,8 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // am_precompiled
+            // am_precompiled
             namespace CRemapFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -57056,6 +57089,7 @@ namespace source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
+            // PlatformMutex=c:/program files (x86)/steam/steam.exe
             // MATCH
             // HIERARCHY
             // COUNT
@@ -59703,6 +59737,8 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // am_precompiled
+            // am_precompiled
             namespace CSkillInt {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // int32[4]
             }
@@ -59762,6 +59798,8 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // am_precompiled
+            // am_precompiled
             namespace CSkillFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }

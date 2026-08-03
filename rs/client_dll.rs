@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
         // Class count: 7203
-        // Enum count: 118
+        // Enum count: 120
         pub mod client_dll {
             // Alignment: 4
             // Member count: 5
@@ -15755,7 +15755,8 @@ pub mod source2_dumper {
             // Field count: 22
             //
             // Metadata:
-            // CInlineJob_CMsgGCToClientInFlightChargesUpdated
+            // MGetKV3ClassDefaults
+            // o
             pub mod C_PortraitWorldUnit {
                 pub const m_OutputAnimOver: usize = 0x19B8; // CEntityIOOutput
                 pub const m_bSuppressIntroEffects: usize = 0x19D0; // bool
@@ -30223,7 +30224,7 @@ pub mod source2_dumper {
             // Field count: 2
             pub mod CDOTA_Modifier_NagaSiren_Eelskin {
                 pub const evasion_per_naga: usize = 0x1A78; // float32
-                pub const radius: usize = 0x1A7C; // int32
+                pub const radius: usize = 0x1A7C; // float32
             }
             // Parent: None
             // Field count: 1

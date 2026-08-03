@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 package buttons
 
@@ -11,7 +11,7 @@ const (
     Forward = 0x5A82580
     Jump = 0x5A82850
     Left = 0x5A826A0
-    Query = 0x61F15C0
+    Query = 0x61F15B0
     Reload = 0x5A822B0
     Right = 0x5A82730
     Sprint = 0x5A82220

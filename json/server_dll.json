@@ -266,6 +266,10 @@
             "type": "Unknown"
           },
           {
+            "name": "PlatformMutex=c:/program files (x86)/steam/steam.exe",
+            "type": "Unknown"
+          },
+          {
             "name": "MATCH",
             "type": "Unknown"
           },
@@ -41356,9 +41360,12 @@
       "CDOTA_Modifier_Omniknight_HammerOfPurity": {
         "fields": {
           "attack_range_bonus": 6780,
+          "heal_duration": 6820,
           "m_bHammerAttack": 6776,
           "m_nAttackRecord": 6784,
-          "m_nHeal": 6788
+          "m_nHealQueue": 6792,
+          "tick_rate": 6816,
+          "total_ticks": 6788
         },
         "metadata": [],
         "parent": null
@@ -53714,10 +53721,6 @@
             "type": "Unknown"
           },
           {
-            "name": "et",
-            "type": "Unknown"
-          },
-          {
             "name": "TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD",
             "type": "Unknown"
           },
@@ -58754,6 +58757,10 @@
             "type": "Unknown"
           },
           {
+            "name": "py",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -58918,6 +58925,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "py",
             "type": "Unknown"
           },
           {
@@ -59403,6 +59414,10 @@
             "type": "Unknown"
           },
           {
+            "name": "py",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -59442,6 +59457,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "py",
             "type": "Unknown"
           },
           {
@@ -59493,6 +59512,10 @@
             "type": "Unknown"
           },
           {
+            "name": "py",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -59534,6 +59557,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "py",
             "type": "Unknown"
           },
           {
@@ -59590,6 +59617,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "py",
             "type": "Unknown"
           },
           {
@@ -59731,6 +59762,14 @@
           },
           {
             "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "0}",
+            "type": "Unknown"
+          },
+          {
+            "name": "`~",
             "type": "Unknown"
           },
           {
@@ -59930,6 +59969,14 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pk",
+            "type": "Unknown"
+          },
+          {
+            "name": " w",
             "type": "Unknown"
           },
           {
@@ -60180,6 +60227,14 @@
             "type": "Unknown"
           },
           {
+            "name": "Pk",
+            "type": "Unknown"
+          },
+          {
+            "name": " w",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60422,7 +60477,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "Pk",
+            "type": "Unknown"
+          },
+          {
+            "name": " w",
             "type": "Unknown"
           },
           {
@@ -60430,7 +60489,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseLegacyName",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -60527,6 +60586,18 @@
           },
           {
             "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "0}",
+            "type": "Unknown"
+          },
+          {
+            "name": "`~",
             "type": "Unknown"
           }
         ],
@@ -60575,6 +60646,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "py",
             "type": "Unknown"
           },
           {
@@ -60696,6 +60771,14 @@
             "type": "Unknown"
           },
           {
+            "name": "Pk",
+            "type": "Unknown"
+          },
+          {
+            "name": " w",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60776,6 +60859,10 @@
             "type": "Unknown"
           },
           {
+            "name": "py",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60843,6 +60930,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "py",
             "type": "Unknown"
           },
           {
@@ -61166,7 +61257,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "Pk",
+            "type": "Unknown"
+          },
+          {
+            "name": " w",
             "type": "Unknown"
           },
           {
@@ -61174,7 +61269,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseLegacyName",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -61271,6 +61366,18 @@
           },
           {
             "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "0}",
+            "type": "Unknown"
+          },
+          {
+            "name": "`~",
             "type": "Unknown"
           },
           {
@@ -61336,7 +61443,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "Pk",
+            "type": "Unknown"
+          },
+          {
+            "name": " w",
             "type": "Unknown"
           },
           {
@@ -61344,7 +61455,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulseLegacyName",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -61441,6 +61552,18 @@
           },
           {
             "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseLegacyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "0}",
+            "type": "Unknown"
+          },
+          {
+            "name": "`~",
             "type": "Unknown"
           },
           {
@@ -62082,6 +62205,14 @@
           {
             "name": "Y",
             "type": "Unknown"
+          },
+          {
+            "name": "am_precompiled",
+            "type": "Unknown"
+          },
+          {
+            "name": "am_precompiled",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62310,10 +62441,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "s\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           }
         ],
@@ -62632,6 +62759,14 @@
           {
             "name": "Y",
             "type": "Unknown"
+          },
+          {
+            "name": "am_precompiled",
+            "type": "Unknown"
+          },
+          {
+            "name": "am_precompiled",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62651,6 +62786,14 @@
           },
           {
             "name": "Y",
+            "type": "Unknown"
+          },
+          {
+            "name": "am_precompiled",
+            "type": "Unknown"
+          },
+          {
+            "name": "am_precompiled",
             "type": "Unknown"
           }
         ],
@@ -79532,27 +79675,22 @@
         },
         "type": "uint32"
       },
-      "_V____": {
+      "___lm_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "__9__": {
+      "___vm_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___9__": {
+      "_k_lm_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_____": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "______": {
+      "_o_vm_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

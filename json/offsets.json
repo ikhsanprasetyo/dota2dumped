@@ -1,7 +1,7 @@
 {
   "client.dll": {
-    "dwEntityList": 106096816,
-    "dwGameEntitySystem": 106096816,
+    "dwEntityList": 106096800,
+    "dwGameEntitySystem": 106096800,
     "dwGameEntitySystem_highestEntityIndex": 8336,
     "dwGlobalVars": 94884224,
     "dwLocalPlayerPawn": 94920968,

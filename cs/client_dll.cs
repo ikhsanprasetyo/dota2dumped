@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
     // Class count: 7203
-    // Enum count: 118
+    // Enum count: 120
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -15635,7 +15635,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 22
         //
         // Metadata:
-        // CInlineJob_CMsgGCToClientInFlightChargesUpdated
+        // MGetKV3ClassDefaults
+        // o
         public static class C_PortraitWorldUnit {
             public const nint m_OutputAnimOver = 0x19B8; // CEntityIOOutput
             public const nint m_bSuppressIntroEffects = 0x19D0; // bool
@@ -30103,7 +30104,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         public static class CDOTA_Modifier_NagaSiren_Eelskin {
             public const nint evasion_per_naga = 0x1A78; // float32
-            public const nint radius = 0x1A7C; // int32
+            public const nint radius = 0x1A7C; // float32
         }
         // Parent: None
         // Field count: 1

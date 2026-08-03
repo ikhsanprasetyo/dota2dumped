@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 namespace Source2Dumper {
     // Module: client.dll
@@ -11,7 +11,7 @@ namespace Source2Dumper {
         public const nint forward = 0x5A82580;
         public const nint jump = 0x5A82850;
         public const nint left = 0x5A826A0;
-        public const nint query = 0x61F15C0;
+        public const nint query = 0x61F15B0;
         public const nint reload = 0x5A822B0;
         public const nint right = 0x5A82730;
         public const nint sprint = 0x5A82220;

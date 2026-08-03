@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 export const Offsets = {
     client_dll: {
-        dwEntityList: 0x652E8B0,
-        dwGameEntitySystem: 0x652E8B0,
+        dwEntityList: 0x652E8A0,
+        dwGameEntitySystem: 0x652E8A0,
         dwGameEntitySystem_highestEntityIndex: 0x2090,
         dwGlobalVars: 0x5A7D180,
         dwLocalPlayerPawn: 0x5A86108,

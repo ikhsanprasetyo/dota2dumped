@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1544,6 +1544,10 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
+        },
+        H____WH___H__H_ڹ__: {
+        },
+        DOTAInternational2025PredictionRankings: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A28, // DOTA_SHOP_TYPE
@@ -20086,7 +20090,7 @@ export const Schemas = {
         },
         CDOTA_Modifier_NagaSiren_Eelskin: {
             evasion_per_naga: 0x1A78, // float32
-            radius: 0x1A7C, // int32
+            radius: 0x1A7C, // float32
         },
         CDOTA_Modifier_Nyx_Assassin_Nyxth_Sense: {
             radius: 0x1A78, // float32

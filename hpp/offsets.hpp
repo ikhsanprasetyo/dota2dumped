@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 #pragma once
 
@@ -10,8 +10,8 @@ namespace source2_dumper {
     namespace offsets {
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t dwEntityList = 0x652E8B0;
-            constexpr std::ptrdiff_t dwGameEntitySystem = 0x652E8B0;
+            constexpr std::ptrdiff_t dwEntityList = 0x652E8A0;
+            constexpr std::ptrdiff_t dwGameEntitySystem = 0x652E8A0;
             constexpr std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2090;
             constexpr std::ptrdiff_t dwGlobalVars = 0x5A7D180;
             constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x5A86108;

@@ -50505,6 +50505,10 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -60082,6 +60086,10 @@
             "type": "Unknown"
           },
           {
+            "name": "p",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -61903,6 +61911,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "nvFogRange",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62600,6 +62612,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "p",
             "type": "Unknown"
           },
           {
@@ -63324,6 +63340,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "p",
             "type": "Unknown"
           },
           {
@@ -77449,6 +77469,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "p",
             "type": "Unknown"
           },
           {

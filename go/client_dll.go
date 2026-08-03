@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 package schemas
 
@@ -10798,7 +10798,7 @@ const (
     ClientDll_CDOTA_Modifier_LegionCommander_DuelAura_Effect_m_nDuelDamage = 0x1A78 // int32
     ClientDll_CDOTA_Modifier_Abaddon_Mist_Coil_Damage_Penalty_damage_percentage_on_perform_attack = 0x1A78 // int32
     ClientDll_CDOTA_Modifier_NagaSiren_Eelskin_evasion_per_naga = 0x1A78 // float32
-    ClientDll_CDOTA_Modifier_NagaSiren_Eelskin_radius = 0x1A7C // int32
+    ClientDll_CDOTA_Modifier_NagaSiren_Eelskin_radius = 0x1A7C // float32
     ClientDll_CDOTA_Modifier_Nyx_Assassin_Nyxth_Sense_radius = 0x1A78 // float32
     ClientDll_CDOTA_Modifier_Huskar_Life_Break_attack_speed = 0x1A80 // int32
     ClientDll_CDOTA_Modifier_DragonKnight_Fireball_Thinker_radius = 0x1A78 // float32

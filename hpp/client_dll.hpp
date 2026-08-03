@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
         // Class count: 7203
-        // Enum count: 118
+        // Enum count: 120
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -15641,7 +15641,8 @@ namespace source2_dumper {
             // Field count: 22
             //
             // Metadata:
-            // CInlineJob_CMsgGCToClientInFlightChargesUpdated
+            // MGetKV3ClassDefaults
+            // o
             namespace C_PortraitWorldUnit {
                 constexpr std::ptrdiff_t m_OutputAnimOver = 0x19B8; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_bSuppressIntroEffects = 0x19D0; // bool
@@ -30109,7 +30110,7 @@ namespace source2_dumper {
             // Field count: 2
             namespace CDOTA_Modifier_NagaSiren_Eelskin {
                 constexpr std::ptrdiff_t evasion_per_naga = 0x1A78; // float32
-                constexpr std::ptrdiff_t radius = 0x1A7C; // int32
+                constexpr std::ptrdiff_t radius = 0x1A7C; // float32
             }
             // Parent: None
             // Field count: 1

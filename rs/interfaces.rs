@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -13,7 +13,7 @@ pub mod source2_dumper {
         // Module: client.dll
         pub mod client_dll {
             pub const ClientToolsInfo_001: usize = 0x5A81B50;
-            pub const DOTA_CLIENT_GCCLIENT: usize = 0x6358F60;
+            pub const DOTA_CLIENT_GCCLIENT: usize = 0x6358F50;
             pub const GameClientExports001: usize = 0x5A7D878;
             pub const LegacyGameUI001: usize = 0x5AEBFC0;
             pub const PanoramaUIClient001: usize = 0x5B18C10;
@@ -157,13 +157,13 @@ pub mod source2_dumper {
         // Module: server.dll
         pub mod server_dll {
             pub const EntitySubclassUtilsV001: usize = 0x4752A00;
-            pub const NavGameTest001: usize = 0x49F6110;
-            pub const ServerToolsInfo_001: usize = 0x495F188;
-            pub const Source2GameClients001: usize = 0x4959340;
-            pub const Source2GameDirector001: usize = 0x5037CA0;
-            pub const Source2GameEntities001: usize = 0x495E930;
-            pub const Source2Server001: usize = 0x495E780;
-            pub const Source2ServerConfig001: usize = 0x4F62A68;
+            pub const NavGameTest001: usize = 0x49F6190;
+            pub const ServerToolsInfo_001: usize = 0x495F208;
+            pub const Source2GameClients001: usize = 0x49593C0;
+            pub const Source2GameDirector001: usize = 0x5037D20;
+            pub const Source2GameEntities001: usize = 0x495E9B0;
+            pub const Source2Server001: usize = 0x495E800;
+            pub const Source2ServerConfig001: usize = 0x4F62AB8;
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {

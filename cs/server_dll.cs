@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-07-31 12:20:57.511229500 +07:00
+// 2026-08-04 01:03:45.932261800 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7537
-    // Enum count: 437
+    // Enum count: 440
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -13332,6 +13332,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
+        // Pk
+        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -19658,6 +19660,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -20066,6 +20069,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
+        // Pk
+        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_IsRequirementValid {
@@ -21731,6 +21736,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -23394,6 +23400,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -29514,6 +29521,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -29688,6 +29696,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -31689,6 +31698,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -35223,6 +35233,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -36505,6 +36516,8 @@ namespace Source2Dumper.Schemas {
         // MPulseLegacyName
         // MPulseLegacyName
         // MPulseLegacyName
+        // 0}
+        // `~
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -38764,7 +38777,6 @@ namespace Source2Dumper.Schemas {
         // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
         // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
         // ORIENTATION_FACE_ENTITY
-        // et
         // TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD
         // TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE
         // TRANSITION_TO_PATH_NODE_TRANSITIONING
@@ -39501,7 +39513,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // s\system32\WindowsPowerShell\v1.0\Modules
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -39594,7 +39605,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 2
         public static class CDOTA_Modifier_NagaSiren_Eelskin {
             public const nint evasion_per_naga = 0x1A78; // float32
-            public const nint radius = 0x1A7C; // int32
+            public const nint radius = 0x1A7C; // float32
         }
         // Parent: None
         // Field count: 1
@@ -41798,6 +41809,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -42460,6 +42472,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -45365,6 +45378,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
+        // Pk
+        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -45392,6 +45407,8 @@ namespace Source2Dumper.Schemas {
         // MPulseLegacyName
         // MPulseLegacyName
         // MPulseLegacyName
+        // 0}
+        // `~
         public static class CPulseCell_Outflow_CycleRandom {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
@@ -47600,6 +47617,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
+        // Pk
+        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -47627,6 +47646,8 @@ namespace Source2Dumper.Schemas {
         // MPulseLegacyName
         // MPulseLegacyName
         // MPulseLegacyName
+        // 0}
+        // `~
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -47880,12 +47901,15 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Ability_Disruptor_Thunder_Strike {
         }
         // Parent: None
-        // Field count: 4
+        // Field count: 7
         public static class CDOTA_Modifier_Omniknight_HammerOfPurity {
             public const nint m_bHammerAttack = 0x1A78; // bool
             public const nint attack_range_bonus = 0x1A7C; // int32
             public const nint m_nAttackRecord = 0x1A80; // AttackRecord_t
-            public const nint m_nHeal = 0x1A84; // int32[5]
+            public const nint total_ticks = 0x1A84; // int32
+            public const nint m_nHealQueue = 0x1A88; // CUtlVector<int32>
+            public const nint tick_rate = 0x1AA0; // float32
+            public const nint heal_duration = 0x1AA4; // float32
         }
         // Parent: CDOTABaseAbility
         // Field count: 0
@@ -50992,6 +51016,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
+        // Pk
+        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -52360,6 +52386,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -54754,6 +54781,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
+        // Pk
+        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -54781,6 +54810,8 @@ namespace Source2Dumper.Schemas {
         // MPulseLegacyName
         // MPulseLegacyName
         // MPulseLegacyName
+        // 0}
+        // `~
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -56940,6 +56971,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
+        // am_precompiled
+        // am_precompiled
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57050,6 +57083,7 @@ namespace Source2Dumper.Schemas {
         // AI_PATHFINDING
         // END_SIM_HISTORY_TYPES
         // COMBINED
+        // PlatformMutex=c:/program files (x86)/steam/steam.exe
         // MATCH
         // HIERARCHY
         // COUNT
@@ -59697,6 +59731,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
+        // am_precompiled
+        // am_precompiled
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59756,6 +59792,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
+        // am_precompiled
+        // am_precompiled
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
