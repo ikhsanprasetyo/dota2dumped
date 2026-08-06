@@ -313,7 +313,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -686,7 +686,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -1540,7 +1540,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -1887,7 +1887,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -2016,7 +2016,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -2588,7 +2588,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -7410,10 +7410,6 @@
           },
           {
             "name": "CMD_IMPULSERESPONSE_DELAY",
-            "type": "Unknown"
-          },
-          {
-            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {

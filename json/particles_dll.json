@@ -8825,7 +8825,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -47703,6 +47703,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "ibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61913,7 +61917,7 @@
             "type": "Unknown"
           },
           {
-            "name": "nvFogRange",
+            "name": "ibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],

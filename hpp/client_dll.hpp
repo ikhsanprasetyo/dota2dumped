@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7203
-        // Enum count: 120
+        // Class count: 7204
+        // Enum count: 118
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -7382,6 +7382,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // ,0x1bad/0x0004,0x1bad/0x0005,0x1bad/0x3010,0x1bad/0x3110,0x1bad/0x3138,0x1bad/0x3330,0x1bad/0x3338,0x1bad/0x3430,0x1bad/0x3438,0
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -8639,6 +8640,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
             // MVDataNodeType
             // S
@@ -9846,7 +9848,6 @@ namespace source2_dumper {
             // AMMO_FLAG_MAX
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MPropertyDescription
             // MPropertyDescription
             // MGetKV3ClassDefaults
             namespace CBaseAnimGraphController {
@@ -11932,6 +11933,7 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // MPropertyCustomFGDType
             // MGetKV3ClassDefaults
             // MVDataNodeType
             // S
@@ -15641,8 +15643,7 @@ namespace source2_dumper {
             // Field count: 22
             //
             // Metadata:
-            // MGetKV3ClassDefaults
-            // o
+            // CInlineJob_CMsgGCToClientInFlightChargesUpdated
             namespace C_PortraitWorldUnit {
                 constexpr std::ptrdiff_t m_OutputAnimOver = 0x19B8; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_bSuppressIntroEffects = 0x19D0; // bool
@@ -26390,6 +26391,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyDescription
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
             namespace CBodyComponentBaseAnimGraph {
@@ -28370,6 +28372,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // ,0x1bad/0x0004,0x1bad/0x0005,0x1bad/0x3010,0x1bad/0x3110,0x1bad/0x3138,0x1bad/0x3330,0x1bad/0x3338,0x1bad/0x3430,0x1bad/0x3438,0
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -40642,7 +40645,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             namespace CLogicalEntity {
             }
@@ -43626,6 +43628,10 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 0
+            namespace CDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff {
+            }
+            // Parent: None
+            // Field count: 0
             namespace CDOTA_Modifier_Weaver_Shukuchi_GeminateAttackMark {
             }
             // Parent: C_DOTA_BaseNPC_Hero
@@ -45141,7 +45147,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientCoachTeammateRatingsChanged
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
             // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
@@ -45493,6 +45498,7 @@ namespace source2_dumper {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CShmupTrackDefinition {
                 constexpr std::ptrdiff_t m_strName = 0x0; // CUtlString
@@ -46565,7 +46571,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyCustomFGDType
             // n
             namespace ArtyLevelObjectInstance_t {
                 constexpr std::ptrdiff_t m_szLeftBorderObject = 0x38; // CUtlString
@@ -47578,7 +47583,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientCoachTeammateRatingsChanged
             // MGetKV3ClassDefaults
             // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
             // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
@@ -48116,6 +48120,8 @@ namespace source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
+            // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             namespace CClientAlphaProperty {

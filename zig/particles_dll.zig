@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -920,7 +920,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // r
+            //  
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -21808,7 +21808,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // nvFogRange
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             pub const C_OP_RemapBoundingVolumetoCP = struct {
                 pub const m_nOutControlPointNumber: usize = 0x1E0; // int32
                 pub const m_flInputMin: usize = 0x1E4; // float32
@@ -24333,6 +24333,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             pub const C_OP_EnableChildrenFromParentParticleCount = struct {
                 pub const m_nChildGroupID: usize = 0x1E0; // int32
                 pub const m_nFirstChild: usize = 0x1E4; // int32

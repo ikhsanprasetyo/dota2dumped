@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -195,7 +195,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 2
+            // 1
             pub const ExtraVertexStreamOverride_t = struct {
                 pub const m_nSubSceneObject: usize = 0x4; // uint32
                 pub const m_nDrawCallIndex: usize = 0x8; // uint32
@@ -541,7 +541,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 2
+            // 1
             pub const MaterialOverride_t = struct {
                 pub const m_nSubSceneObject: usize = 0x4; // uint32
                 pub const m_nDrawCallIndex: usize = 0x8; // uint32

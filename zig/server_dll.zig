@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
-        // Class count: 7537
-        // Enum count: 440
+        // Class count: 7538
+        // Enum count: 438
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -13301,8 +13301,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -14512,6 +14510,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Ws
             // M
             pub const CPrecipitationVData = struct {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -19629,7 +19628,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -19810,7 +19808,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // r
+            //  
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -20038,8 +20036,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CPulseCell_IsRequirementValid = struct {
@@ -21705,7 +21701,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -23369,7 +23364,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -29490,7 +29484,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -29665,7 +29658,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -31667,7 +31659,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -35202,7 +35193,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -36485,8 +36475,6 @@ pub const source2_dumper = struct {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
-            // 0}
-            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -41778,7 +41766,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -42441,7 +42428,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -45347,8 +45333,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -45376,8 +45360,6 @@ pub const source2_dumper = struct {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
-            // 0}
-            // `~
             pub const CPulseCell_Outflow_CycleRandom = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             };
@@ -47586,8 +47568,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -47615,8 +47595,6 @@ pub const source2_dumper = struct {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
-            // 0}
-            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -50985,8 +50963,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -52355,7 +52331,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -54750,8 +54725,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -54779,8 +54752,6 @@ pub const source2_dumper = struct {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
-            // 0}
-            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -54850,6 +54821,10 @@ pub const source2_dumper = struct {
             // Parent: CDOTABaseAbility
             // Field count: 0
             pub const CDOTA_Ability_Meepo_FairShare = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const CDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff = struct {
             };
             // Parent: None
             // Field count: 0
@@ -56940,8 +56915,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // am_precompiled
-            // am_precompiled
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             pub const CRemapFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -57052,7 +57027,7 @@ pub const source2_dumper = struct {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // PlatformMutex=c:/program files (x86)/steam/steam.exe
+            // hadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57513,6 +57488,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
+            // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             pub const AI_BaseNPC_DebugSnapshotData_t = struct {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -59700,8 +59677,8 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // am_precompiled
-            // am_precompiled
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             pub const CSkillInt = struct {
                 pub const m_pValue: usize = 0x0; // int32[4]
             };
@@ -59761,8 +59738,8 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // am_precompiled
-            // am_precompiled
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             pub const CSkillFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -60923,6 +60900,7 @@ pub const source2_dumper = struct {
             // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
             // VOTE_FAILED_SPECTATOR
             // VOTE_FAILED_MAX
+            // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
             // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
             // ITEM_FLAG_NOAUTORELOAD
             // ITEM_FLAG_NOAUTOSWITCHEMPTY
@@ -61287,6 +61265,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
+            // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             pub const AI_DefaultNPC_DebugSnapshotData_t = struct {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol

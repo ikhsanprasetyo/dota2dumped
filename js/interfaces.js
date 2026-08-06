@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -7,15 +7,15 @@ export const Interfaces = {
         AnimationSystem_001: 0x831E70,
     },
     client_dll: {
-        ClientToolsInfo_001: 0x5A81B50,
-        DOTA_CLIENT_GCCLIENT: 0x6358F50,
-        GameClientExports001: 0x5A7D878,
-        LegacyGameUI001: 0x5AEBFC0,
-        PanoramaUIClient001: 0x5B18C10,
-        PlayButtonService001: 0x5AF9CA8,
-        Source2Client002: 0x61ABFB0,
-        Source2ClientConfig001: 0x6154440,
-        Source2ClientPrediction001: 0x5A86030,
+        ClientToolsInfo_001: 0x5A81BD0,
+        DOTA_CLIENT_GCCLIENT: 0x63591B0,
+        GameClientExports001: 0x5A7D8F8,
+        LegacyGameUI001: 0x5AEC020,
+        PanoramaUIClient001: 0x5B18C60,
+        PlayButtonService001: 0x5AF9D08,
+        Source2Client002: 0x61AC230,
+        Source2ClientConfig001: 0x6154690,
+        Source2ClientPrediction001: 0x5A860B0,
         Source2ClientUI001: 0x586F5C0,
     },
     engine2_dll: {
@@ -131,14 +131,14 @@ export const Interfaces = {
         SchemaSystem_001: 0x75630,
     },
     server_dll: {
-        EntitySubclassUtilsV001: 0x4752A00,
-        NavGameTest001: 0x49F6190,
-        ServerToolsInfo_001: 0x495F208,
-        Source2GameClients001: 0x49593C0,
-        Source2GameDirector001: 0x5037D20,
-        Source2GameEntities001: 0x495E9B0,
-        Source2Server001: 0x495E800,
-        Source2ServerConfig001: 0x4F62AB8,
+        EntitySubclassUtilsV001: 0x4753A00,
+        NavGameTest001: 0x49F7210,
+        ServerToolsInfo_001: 0x4960288,
+        Source2GameClients001: 0x495A440,
+        Source2GameDirector001: 0x5038EA0,
+        Source2GameEntities001: 0x495FA30,
+        Source2Server001: 0x495F880,
+        Source2ServerConfig001: 0x4F63C88,
     },
     soundsystem_dll: {
         SoundBugBugService001_Client: 0x553250,
@@ -158,9 +158,6 @@ export const Interfaces = {
     },
     v8system_dll: {
         Source2V8System001: 0x31770,
-    },
-    vconcomm_dll: {
-        VConComm001: 0x3B730,
     },
     vphysics2_dll: {
         VPhysics2_Interface_001: 0x439E30,

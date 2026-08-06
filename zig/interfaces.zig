@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 pub const source2_dumper = struct {
     pub const interfaces = struct {
@@ -10,15 +10,15 @@ pub const source2_dumper = struct {
         };
         // Module: client.dll
         pub const client_dll = struct {
-            pub const ClientToolsInfo_001: usize = 0x5A81B50;
-            pub const DOTA_CLIENT_GCCLIENT: usize = 0x6358F50;
-            pub const GameClientExports001: usize = 0x5A7D878;
-            pub const LegacyGameUI001: usize = 0x5AEBFC0;
-            pub const PanoramaUIClient001: usize = 0x5B18C10;
-            pub const PlayButtonService001: usize = 0x5AF9CA8;
-            pub const Source2Client002: usize = 0x61ABFB0;
-            pub const Source2ClientConfig001: usize = 0x6154440;
-            pub const Source2ClientPrediction001: usize = 0x5A86030;
+            pub const ClientToolsInfo_001: usize = 0x5A81BD0;
+            pub const DOTA_CLIENT_GCCLIENT: usize = 0x63591B0;
+            pub const GameClientExports001: usize = 0x5A7D8F8;
+            pub const LegacyGameUI001: usize = 0x5AEC020;
+            pub const PanoramaUIClient001: usize = 0x5B18C60;
+            pub const PlayButtonService001: usize = 0x5AF9D08;
+            pub const Source2Client002: usize = 0x61AC230;
+            pub const Source2ClientConfig001: usize = 0x6154690;
+            pub const Source2ClientPrediction001: usize = 0x5A860B0;
             pub const Source2ClientUI001: usize = 0x586F5C0;
         };
         // Module: engine2.dll
@@ -154,14 +154,14 @@ pub const source2_dumper = struct {
         };
         // Module: server.dll
         pub const server_dll = struct {
-            pub const EntitySubclassUtilsV001: usize = 0x4752A00;
-            pub const NavGameTest001: usize = 0x49F6190;
-            pub const ServerToolsInfo_001: usize = 0x495F208;
-            pub const Source2GameClients001: usize = 0x49593C0;
-            pub const Source2GameDirector001: usize = 0x5037D20;
-            pub const Source2GameEntities001: usize = 0x495E9B0;
-            pub const Source2Server001: usize = 0x495E800;
-            pub const Source2ServerConfig001: usize = 0x4F62AB8;
+            pub const EntitySubclassUtilsV001: usize = 0x4753A00;
+            pub const NavGameTest001: usize = 0x49F7210;
+            pub const ServerToolsInfo_001: usize = 0x4960288;
+            pub const Source2GameClients001: usize = 0x495A440;
+            pub const Source2GameDirector001: usize = 0x5038EA0;
+            pub const Source2GameEntities001: usize = 0x495FA30;
+            pub const Source2Server001: usize = 0x495F880;
+            pub const Source2ServerConfig001: usize = 0x4F63C88;
         };
         // Module: soundsystem.dll
         pub const soundsystem_dll = struct {
@@ -185,10 +185,6 @@ pub const source2_dumper = struct {
         // Module: v8system.dll
         pub const v8system_dll = struct {
             pub const Source2V8System001: usize = 0x31770;
-        };
-        // Module: vconcomm.dll
-        pub const vconcomm_dll = struct {
-            pub const VConComm001: usize = 0x3B730;
         };
         // Module: vphysics2.dll
         pub const vphysics2_dll = struct {

@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
-        // Class count: 7537
-        // Enum count: 440
+        // Class count: 7538
+        // Enum count: 438
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -13730,8 +13730,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -14941,6 +14939,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Ws
             // M
             pub mod CPrecipitationVData {
                 pub const m_szParticlePrecipitationEffect: usize = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -20058,7 +20057,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -20239,7 +20237,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // r
+            //  
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -20467,8 +20465,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CPulseCell_IsRequirementValid {
@@ -22134,7 +22130,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -23798,7 +23793,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -29919,7 +29913,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -30094,7 +30087,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -32096,7 +32088,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -35631,7 +35622,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -36914,8 +36904,6 @@ pub mod source2_dumper {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
-            // 0}
-            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -42207,7 +42195,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -42870,7 +42857,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -45776,8 +45762,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -45805,8 +45789,6 @@ pub mod source2_dumper {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
-            // 0}
-            // `~
             pub mod CPulseCell_Outflow_CycleRandom {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -48015,8 +47997,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -48044,8 +48024,6 @@ pub mod source2_dumper {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
-            // 0}
-            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -51414,8 +51392,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -52784,7 +52760,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // py
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -55179,8 +55154,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPulseEditorHeaderIcon
-            // Pk
-            //  w
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPulseLegacyName
@@ -55208,8 +55181,6 @@ pub mod source2_dumper {
             // MPulseLegacyName
             // MPulseLegacyName
             // MPulseLegacyName
-            // 0}
-            // `~
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -55279,6 +55250,10 @@ pub mod source2_dumper {
             // Parent: CDOTABaseAbility
             // Field count: 0
             pub mod CDOTA_Ability_Meepo_FairShare {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod CDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff {
             }
             // Parent: None
             // Field count: 0
@@ -57369,8 +57344,8 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // am_precompiled
-            // am_precompiled
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             pub mod CRemapFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -57481,7 +57456,7 @@ pub mod source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // PlatformMutex=c:/program files (x86)/steam/steam.exe
+            // hadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57942,6 +57917,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
+            // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             pub mod AI_BaseNPC_DebugSnapshotData_t {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -60129,8 +60106,8 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // am_precompiled
-            // am_precompiled
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             pub mod CSkillInt {
                 pub const m_pValue: usize = 0x0; // int32[4]
             }
@@ -60190,8 +60167,8 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // am_precompiled
-            // am_precompiled
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             pub mod CSkillFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -61352,6 +61329,7 @@ pub mod source2_dumper {
             // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
             // VOTE_FAILED_SPECTATOR
             // VOTE_FAILED_MAX
+            // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
             // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
             // ITEM_FLAG_NOAUTORELOAD
             // ITEM_FLAG_NOAUTOSWITCHEMPTY
@@ -61716,6 +61694,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
+            // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             pub mod AI_DefaultNPC_DebugSnapshotData_t {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol

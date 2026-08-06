@@ -537,10 +537,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyCustomFGDType",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
             "type": "Unknown"
           }
@@ -1065,10 +1061,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -1269,6 +1261,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1554,6 +1550,14 @@
           },
           {
             "name": "DMG_LASTGENERICFLAG",
+            "type": "Unknown"
+          },
+          {
+            "name": "0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05",
+            "type": "Unknown"
+          },
+          {
+            "name": "ibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -29545,6 +29549,11 @@
         "metadata": [],
         "parent": null
       },
+      "CDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "CDOTA_Modifier_Silencer_CurseOfTheSilent": {
         "fields": {
           "damage": 6776,
@@ -36376,10 +36385,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -36608,6 +36613,10 @@
             "type": "Unknown"
           },
           {
+            "name": ",0x1bad/0x0004,0x1bad/0x0005,0x1bad/0x3010,0x1bad/0x3110,0x1bad/0x3138,0x1bad/0x3330,0x1bad/0x3338,0x1bad/0x3430,0x1bad/0x3438,0",
+            "type": "Unknown"
+          },
+          {
             "name": "TIMELINE_COMPRESSION_COUNT_PER_INTERVAL",
             "type": "Unknown"
           },
@@ -36691,6 +36700,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": ",0x1bad/0x0004,0x1bad/0x0005,0x1bad/0x3010,0x1bad/0x3110,0x1bad/0x3138,0x1bad/0x3330,0x1bad/0x3338,0x1bad/0x3430,0x1bad/0x3438,0",
             "type": "Unknown"
           },
           {
@@ -40623,6 +40636,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -44094,6 +44111,10 @@
         "fields": {},
         "metadata": [
           {
+            "name": "MPropertyCustomFGDType",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -44113,6 +44134,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyCustomFGDType",
             "type": "Unknown"
           },
           {
@@ -61456,11 +61481,7 @@
         },
         "metadata": [
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "o",
+            "name": "CInlineJob_CMsgGCToClientInFlightChargesUpdated",
             "type": "Unknown"
           }
         ],
@@ -62104,10 +62125,6 @@
             "type": "Unknown"
           },
           {
-            "name": "CInlineJob_CMsgGCToClientCoachTeammateRatingsChanged",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -62133,10 +62150,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "CInlineJob_CMsgGCToClientCoachTeammateRatingsChanged",
             "type": "Unknown"
           },
           {
@@ -63485,11 +63498,6 @@
           "WATER_WAKE_WATER_OVERHEAD": 4
         },
         "type": "uint32"
-      },
-      "DOTAInternational2025PredictionRankings": {
-        "alignment": 18,
-        "members": {},
-        "type": "unknown"
       },
       "DOTAKeybindCommand_t": {
         "alignment": 4,
@@ -65177,11 +65185,6 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
-      },
-      "H____WH___H__H_ڹ__": {
-        "alignment": 163,
-        "members": {},
-        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

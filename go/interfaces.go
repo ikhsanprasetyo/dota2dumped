@@ -1,20 +1,20 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 package interfaces
 
 const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x839F50
     AnimationsystemDll_AnimationSystem_001 = 0x831E70
-    ClientDll_ClientToolsInfo_001 = 0x5A81B50
-    ClientDll_DOTA_CLIENT_GCCLIENT = 0x6358F50
-    ClientDll_GameClientExports001 = 0x5A7D878
-    ClientDll_LegacyGameUI001 = 0x5AEBFC0
-    ClientDll_PanoramaUIClient001 = 0x5B18C10
-    ClientDll_PlayButtonService001 = 0x5AF9CA8
-    ClientDll_Source2Client002 = 0x61ABFB0
-    ClientDll_Source2ClientConfig001 = 0x6154440
-    ClientDll_Source2ClientPrediction001 = 0x5A86030
+    ClientDll_ClientToolsInfo_001 = 0x5A81BD0
+    ClientDll_DOTA_CLIENT_GCCLIENT = 0x63591B0
+    ClientDll_GameClientExports001 = 0x5A7D8F8
+    ClientDll_LegacyGameUI001 = 0x5AEC020
+    ClientDll_PanoramaUIClient001 = 0x5B18C60
+    ClientDll_PlayButtonService001 = 0x5AF9D08
+    ClientDll_Source2Client002 = 0x61AC230
+    ClientDll_Source2ClientConfig001 = 0x6154690
+    ClientDll_Source2ClientPrediction001 = 0x5A860B0
     ClientDll_Source2ClientUI001 = 0x586F5C0
     Engine2Dll_BenchmarkService001 = 0x613B60
     Engine2Dll_BugBugService001 = 0x613C60
@@ -90,14 +90,14 @@ const (
     ScenesystemDll_SceneSystem_002 = 0x9104F0
     ScenesystemDll_SceneUtils_001 = 0x667DE0
     SchemasystemDll_SchemaSystem_001 = 0x75630
-    ServerDll_EntitySubclassUtilsV001 = 0x4752A00
-    ServerDll_NavGameTest001 = 0x49F6190
-    ServerDll_ServerToolsInfo_001 = 0x495F208
-    ServerDll_Source2GameClients001 = 0x49593C0
-    ServerDll_Source2GameDirector001 = 0x5037D20
-    ServerDll_Source2GameEntities001 = 0x495E9B0
-    ServerDll_Source2Server001 = 0x495E800
-    ServerDll_Source2ServerConfig001 = 0x4F62AB8
+    ServerDll_EntitySubclassUtilsV001 = 0x4753A00
+    ServerDll_NavGameTest001 = 0x49F7210
+    ServerDll_ServerToolsInfo_001 = 0x4960288
+    ServerDll_Source2GameClients001 = 0x495A440
+    ServerDll_Source2GameDirector001 = 0x5038EA0
+    ServerDll_Source2GameEntities001 = 0x495FA30
+    ServerDll_Source2Server001 = 0x495F880
+    ServerDll_Source2ServerConfig001 = 0x4F63C88
     SoundsystemDll_SoundBugBugService001_Client = 0x553250
     SoundsystemDll_SoundOpSystem001 = 0x553130
     SoundsystemDll_SoundOpSystemEdit001 = 0x553040
@@ -109,7 +109,6 @@ const (
     Tier0Dll_VProcessUtils002 = 0x399770
     Tier0Dll_VStringTokenSystem001 = 0x3CB170
     V8systemDll_Source2V8System001 = 0x31770
-    VconcommDll_VConComm001 = 0x3B730
     Vphysics2Dll_VPhysics2_Interface_001 = 0x439E30
     VscriptDll_VScriptManager010 = 0x13B430
     WorldrendererDll_WorldRendererMgr001 = 0x22FD60

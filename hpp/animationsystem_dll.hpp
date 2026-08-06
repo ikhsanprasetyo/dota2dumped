@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 #pragma once
 
@@ -1626,7 +1626,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // r
+            //  
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -3565,9 +3565,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
-            // es
+            // pelinesv6\steamapprun_pipeline_cache
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5461,9 +5460,8 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
-            // es
+            // pelinesv6\steamapprun_pipeline_cache
             namespace CParticleVecInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
@@ -6001,7 +5999,6 @@ namespace source2_dumper {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -7338,7 +7335,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // brary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8547,7 +8544,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // brary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8899,7 +8896,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // brary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9333,7 +9330,6 @@ namespace source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -10296,7 +10292,6 @@ namespace source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // ell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -11694,7 +11689,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // d
+            // brary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             namespace CParticleFloatInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleFloatType_t
                 constexpr std::ptrdiff_t m_nMapType = 0x14; // ParticleFloatMapType_t
@@ -12970,7 +12965,7 @@ namespace source2_dumper {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
-            // EAKPAD_DUMP_LOCATION=C:\Program Files (x86)\Steam\dumps
+            // ne_cache.foz
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY

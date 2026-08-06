@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 #pragma once
 
@@ -925,7 +925,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // r
+            //  
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -21813,7 +21813,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // nvFogRange
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             namespace C_OP_RemapBoundingVolumetoCP {
                 constexpr std::ptrdiff_t m_nOutControlPointNumber = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_flInputMin = 0x1E4; // float32
@@ -24338,6 +24338,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             namespace C_OP_EnableChildrenFromParentParticleCount {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nFirstChild = 0x1E4; // int32

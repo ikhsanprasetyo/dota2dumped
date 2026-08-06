@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-08-04 01:03:45.932261800 +07:00
+# 2026-08-06 20:23:55.050139500 +07:00
 
 class Schemas:
     # Module: pulse_system.dll

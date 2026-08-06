@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -306,7 +306,9 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 7
+        // 6
+        // v
+        // v
         public static class vphysics_save_cphysicsbody_t {
             public const nint m_nOldPointer = 0xE0; // uint64
         }

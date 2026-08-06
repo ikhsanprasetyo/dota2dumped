@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -314,7 +314,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7
+            // 6
+            // v
+            // v
             pub mod vphysics_save_cphysicsbody_t {
                 pub const m_nOldPointer: usize = 0xE0; // uint64
             }

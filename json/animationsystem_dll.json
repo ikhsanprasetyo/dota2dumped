@@ -372,7 +372,7 @@
             "type": "Unknown"
           },
           {
-            "name": "EAKPAD_DUMP_LOCATION=C:\\Program Files (x86)\\Steam\\dumps",
+            "name": "ne_cache.foz",
             "type": "Unknown"
           },
           {
@@ -2737,10 +2737,6 @@
           },
           {
             "name": "PF_TYPE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -17490,10 +17486,6 @@
             "type": "Unknown"
           },
           {
-            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
-            "type": "Unknown"
-          },
-          {
             "name": "PM_TYPE_NAMED_VALUE_MODEL",
             "type": "Unknown"
           },
@@ -17645,10 +17637,6 @@
           },
           {
             "name": "PT_TYPE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "ell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -18324,7 +18312,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -18596,7 +18584,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -18651,7 +18639,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -18818,15 +18806,11 @@
             "type": "Unknown"
           },
           {
-            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "es",
+            "name": "pelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -19086,7 +19070,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -19172,15 +19156,11 @@
             "type": "Unknown"
           },
           {
-            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "es",
+            "name": "pelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -19944,7 +19924,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": " ",
             "type": "Unknown"
           }
         ],

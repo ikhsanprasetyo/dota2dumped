@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 7537
-    // Enum count: 440
+    // Class count: 7538
+    // Enum count: 438
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -13332,8 +13332,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // Pk
-        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -14543,6 +14541,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Ws
         // M
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -19660,7 +19659,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -19841,7 +19839,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // r
+        //  
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -20069,8 +20067,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // Pk
-        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_IsRequirementValid {
@@ -21736,7 +21732,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -23400,7 +23395,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -29521,7 +29515,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -29696,7 +29689,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -31698,7 +31690,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -35233,7 +35224,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -36516,8 +36506,6 @@ namespace Source2Dumper.Schemas {
         // MPulseLegacyName
         // MPulseLegacyName
         // MPulseLegacyName
-        // 0}
-        // `~
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -41809,7 +41797,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -42472,7 +42459,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -45378,8 +45364,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // Pk
-        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -45407,8 +45391,6 @@ namespace Source2Dumper.Schemas {
         // MPulseLegacyName
         // MPulseLegacyName
         // MPulseLegacyName
-        // 0}
-        // `~
         public static class CPulseCell_Outflow_CycleRandom {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
@@ -47617,8 +47599,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // Pk
-        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -47646,8 +47626,6 @@ namespace Source2Dumper.Schemas {
         // MPulseLegacyName
         // MPulseLegacyName
         // MPulseLegacyName
-        // 0}
-        // `~
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -51016,8 +50994,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // Pk
-        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -52386,7 +52362,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // py
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -54781,8 +54756,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPulseEditorHeaderIcon
-        // Pk
-        //  w
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPulseLegacyName
@@ -54810,8 +54783,6 @@ namespace Source2Dumper.Schemas {
         // MPulseLegacyName
         // MPulseLegacyName
         // MPulseLegacyName
-        // 0}
-        // `~
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -54881,6 +54852,10 @@ namespace Source2Dumper.Schemas {
         // Parent: CDOTABaseAbility
         // Field count: 0
         public static class CDOTA_Ability_Meepo_FairShare {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class CDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff {
         }
         // Parent: None
         // Field count: 0
@@ -56971,8 +56946,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
-        // am_precompiled
-        // am_precompiled
+        // r\steamapp_pipeline_cache.foz
+        // r\steamapp_pipeline_cache.foz
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57083,7 +57058,7 @@ namespace Source2Dumper.Schemas {
         // AI_PATHFINDING
         // END_SIM_HISTORY_TYPES
         // COMBINED
-        // PlatformMutex=c:/program files (x86)/steam/steam.exe
+        // hadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         // MATCH
         // HIERARCHY
         // COUNT
@@ -57544,6 +57519,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
+        // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
+        // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -59731,8 +59708,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // am_precompiled
-        // am_precompiled
+        // r\steamapp_pipeline_cache.foz
+        // r\steamapp_pipeline_cache.foz
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59792,8 +59769,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // am_precompiled
-        // am_precompiled
+        // r\steamapp_pipeline_cache.foz
+        // r\steamapp_pipeline_cache.foz
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -60954,6 +60931,7 @@ namespace Source2Dumper.Schemas {
         // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
         // VOTE_FAILED_SPECTATOR
         // VOTE_FAILED_MAX
+        // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
         // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
         // ITEM_FLAG_NOAUTORELOAD
         // ITEM_FLAG_NOAUTOSWITCHEMPTY
@@ -61318,6 +61296,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
+        // 0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05
+        // ibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol

@@ -68,6 +68,14 @@
           {
             "name": "n",
             "type": "Unknown"
+          },
+          {
+            "name": "0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05",
+            "type": "Unknown"
+          },
+          {
+            "name": "ibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -100,6 +108,14 @@
           },
           {
             "name": "n",
+            "type": "Unknown"
+          },
+          {
+            "name": "0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05",
+            "type": "Unknown"
+          },
+          {
+            "name": "ibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -266,7 +282,7 @@
             "type": "Unknown"
           },
           {
-            "name": "PlatformMutex=c:/program files (x86)/steam/steam.exe",
+            "name": "hadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -45287,6 +45303,11 @@
         "metadata": [],
         "parent": null
       },
+      "CDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "CDOTA_Modifier_Silencer_CurseOfTheSilent": {
         "fields": {
           "damage": 6776,
@@ -58678,6 +58699,10 @@
             "type": "Unknown"
           },
           {
+            "name": "Ws",
+            "type": "Unknown"
+          },
+          {
             "name": "M",
             "type": "Unknown"
           }
@@ -58754,10 +58779,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "py",
             "type": "Unknown"
           },
           {
@@ -58928,10 +58949,6 @@
             "type": "Unknown"
           },
           {
-            "name": "py",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -59002,7 +59019,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -59414,10 +59431,6 @@
             "type": "Unknown"
           },
           {
-            "name": "py",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -59457,10 +59470,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "py",
             "type": "Unknown"
           },
           {
@@ -59512,10 +59521,6 @@
             "type": "Unknown"
           },
           {
-            "name": "py",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -59557,10 +59562,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "py",
             "type": "Unknown"
           },
           {
@@ -59617,10 +59618,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "py",
             "type": "Unknown"
           },
           {
@@ -59762,14 +59759,6 @@
           },
           {
             "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "0}",
-            "type": "Unknown"
-          },
-          {
-            "name": "`~",
             "type": "Unknown"
           },
           {
@@ -59969,14 +59958,6 @@
           },
           {
             "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "Pk",
-            "type": "Unknown"
-          },
-          {
-            "name": " w",
             "type": "Unknown"
           },
           {
@@ -60227,14 +60208,6 @@
             "type": "Unknown"
           },
           {
-            "name": "Pk",
-            "type": "Unknown"
-          },
-          {
-            "name": " w",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60477,14 +60450,6 @@
             "type": "Unknown"
           },
           {
-            "name": "Pk",
-            "type": "Unknown"
-          },
-          {
-            "name": " w",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60590,14 +60555,6 @@
           },
           {
             "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "0}",
-            "type": "Unknown"
-          },
-          {
-            "name": "`~",
             "type": "Unknown"
           }
         ],
@@ -60646,10 +60603,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "py",
             "type": "Unknown"
           },
           {
@@ -60771,14 +60724,6 @@
             "type": "Unknown"
           },
           {
-            "name": "Pk",
-            "type": "Unknown"
-          },
-          {
-            "name": " w",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60859,10 +60804,6 @@
             "type": "Unknown"
           },
           {
-            "name": "py",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -60930,10 +60871,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "py",
             "type": "Unknown"
           },
           {
@@ -61257,14 +61194,6 @@
             "type": "Unknown"
           },
           {
-            "name": "Pk",
-            "type": "Unknown"
-          },
-          {
-            "name": " w",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -61370,14 +61299,6 @@
           },
           {
             "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "0}",
-            "type": "Unknown"
-          },
-          {
-            "name": "`~",
             "type": "Unknown"
           },
           {
@@ -61443,14 +61364,6 @@
             "type": "Unknown"
           },
           {
-            "name": "Pk",
-            "type": "Unknown"
-          },
-          {
-            "name": " w",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -61556,14 +61469,6 @@
           },
           {
             "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "0}",
-            "type": "Unknown"
-          },
-          {
-            "name": "`~",
             "type": "Unknown"
           },
           {
@@ -62207,11 +62112,11 @@
             "type": "Unknown"
           },
           {
-            "name": "am_precompiled",
+            "name": "r\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
-            "name": "am_precompiled",
+            "name": "r\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -62761,11 +62666,11 @@
             "type": "Unknown"
           },
           {
-            "name": "am_precompiled",
+            "name": "r\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
-            "name": "am_precompiled",
+            "name": "r\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -62789,11 +62694,11 @@
             "type": "Unknown"
           },
           {
-            "name": "am_precompiled",
+            "name": "r\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
-            "name": "am_precompiled",
+            "name": "r\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -68281,6 +68186,10 @@
           },
           {
             "name": "VOTE_FAILED_MAX",
+            "type": "Unknown"
+          },
+          {
+            "name": "0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05",
             "type": "Unknown"
           },
           {
@@ -79675,22 +79584,27 @@
         },
         "type": "uint32"
       },
-      "___lm_": {
+      "_U___": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___vm_": {
+      "_____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_k_lm_": {
+      "___ݢ_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_o_vm_": {
+      "_o4__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_w_ݢ_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

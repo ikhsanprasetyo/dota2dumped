@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-04 01:03:45.932261800 +07:00
+// 2026-08-06 20:23:55.050139500 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1544,10 +1544,6 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
-        },
-        H____WH___H__H_ڹ__: {
-        },
-        DOTAInternational2025PredictionRankings: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A28, // DOTA_SHOP_TYPE
@@ -28744,6 +28740,8 @@ export const Schemas = {
         },
         CDOTA_Modifier_Skywrath_Mage_Arcana_Kill_Effect: {
             m_nCasterFXIndex: 0x1A78, // ParticleIndex_t
+        },
+        CDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff: {
         },
         CDOTA_Modifier_Weaver_Shukuchi_GeminateAttackMark: {
         },
