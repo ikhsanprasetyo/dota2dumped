@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 20:23:55.050139500 +07:00
+// 2026-08-08 09:16:18.362997 +07:00
 
 #pragma once
 
@@ -160,13 +160,13 @@ namespace source2_dumper {
         // Module: server.dll
         namespace server_dll {
             constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x4753A00;
-            constexpr std::ptrdiff_t NavGameTest001 = 0x49F7210;
+            constexpr std::ptrdiff_t NavGameTest001 = 0x49F7220;
             constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x4960288;
             constexpr std::ptrdiff_t Source2GameClients001 = 0x495A440;
             constexpr std::ptrdiff_t Source2GameDirector001 = 0x5038EA0;
             constexpr std::ptrdiff_t Source2GameEntities001 = 0x495FA30;
             constexpr std::ptrdiff_t Source2Server001 = 0x495F880;
-            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F63C88;
+            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F63C78;
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {

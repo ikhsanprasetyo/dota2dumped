@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 20:23:55.050139500 +07:00
+// 2026-08-08 09:16:18.362997 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -8316,27 +8316,31 @@ export const Schemas = {
             MOVETYPE_CUSTOM: 0x9,
             MOVETYPE_LAST: 0xA,
         },
-        _U___: {
+        _T_du_: {
         },
-        _o4__: {
+        ___du_: {
         },
-        _____: {
+        _c_du_: {
         },
-        ___ݢ_: {
+        ___du_: {
         },
-        _____: {
+        _j_du_: {
         },
-        _w_ݢ_: {
+        ___du_: {
         },
-        _____: {
+        ___du_: {
         },
-        _____: {
+        ___du_: {
         },
-        _____: {
+        ___du_: {
         },
-        _____: {
+        ___du_: {
         },
-        _____: {
+        ___du_: {
+        },
+        ___du_: {
+        },
+        _e_du_: {
         },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x1A78, // int32

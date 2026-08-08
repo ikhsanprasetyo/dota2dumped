@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 20:23:55.050139500 +07:00
+// 2026-08-08 09:16:18.362997 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -157,13 +157,13 @@ pub mod source2_dumper {
         // Module: server.dll
         pub mod server_dll {
             pub const EntitySubclassUtilsV001: usize = 0x4753A00;
-            pub const NavGameTest001: usize = 0x49F7210;
+            pub const NavGameTest001: usize = 0x49F7220;
             pub const ServerToolsInfo_001: usize = 0x4960288;
             pub const Source2GameClients001: usize = 0x495A440;
             pub const Source2GameDirector001: usize = 0x5038EA0;
             pub const Source2GameEntities001: usize = 0x495FA30;
             pub const Source2Server001: usize = 0x495F880;
-            pub const Source2ServerConfig001: usize = 0x4F63C88;
+            pub const Source2ServerConfig001: usize = 0x4F63C78;
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {

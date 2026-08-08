@@ -372,10 +372,6 @@
             "type": "Unknown"
           },
           {
-            "name": "ne_cache.foz",
-            "type": "Unknown"
-          },
-          {
             "name": "JOINT_FLAGS_BODY1_FIXED",
             "type": "Unknown"
           },
@@ -17958,6 +17954,10 @@
             "type": "Unknown"
           },
           {
+            "name": "o",
+            "type": "Unknown"
+          },
+          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18192,6 +18192,10 @@
             "type": "Unknown"
           },
           {
+            "name": "o",
+            "type": "Unknown"
+          },
+          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18309,10 +18313,6 @@
           },
           {
             "name": "MCustomFGDMetadata",
-            "type": "Unknown"
-          },
-          {
-            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -18584,10 +18584,6 @@
             "type": "Unknown"
           },
           {
-            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -18636,10 +18632,6 @@
           },
           {
             "name": "MCustomFGDMetadata",
-            "type": "Unknown"
-          },
-          {
-            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -18810,7 +18802,7 @@
             "type": "Unknown"
           },
           {
-            "name": "pelinesv6\\steamapprun_pipeline_cache",
+            "name": "y\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -19070,10 +19062,6 @@
             "type": "Unknown"
           },
           {
-            "name": "brary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -19160,7 +19148,7 @@
             "type": "Unknown"
           },
           {
-            "name": "pelinesv6\\steamapprun_pipeline_cache",
+            "name": "y\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -19924,7 +19912,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "s\\Common Files",
             "type": "Unknown"
           }
         ],

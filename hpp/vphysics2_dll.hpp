@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-06 20:23:55.050139500 +07:00
+// 2026-08-08 09:16:18.362997 +07:00
 
 #pragma once
 
@@ -313,8 +313,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // 6
-            // v
-            // v
             namespace vphysics_save_cphysicsbody_t {
                 constexpr std::ptrdiff_t m_nOldPointer = 0xE0; // uint64
             }

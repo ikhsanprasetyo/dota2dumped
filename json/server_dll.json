@@ -70,11 +70,7 @@
             "type": "Unknown"
           },
           {
-            "name": "0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05",
-            "type": "Unknown"
-          },
-          {
-            "name": "ibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "ne_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -111,11 +107,7 @@
             "type": "Unknown"
           },
           {
-            "name": "0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05",
-            "type": "Unknown"
-          },
-          {
-            "name": "ibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "ne_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -282,10 +274,6 @@
             "type": "Unknown"
           },
           {
-            "name": "hadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "MATCH",
             "type": "Unknown"
           },
@@ -407,7 +395,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "dules",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AbilityID_t": {
@@ -506,7 +499,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "o",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "BlessingPath_t": {
@@ -548,6 +546,10 @@
           },
           {
             "name": "MVDataOutlinerIconExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "n",
             "type": "Unknown"
           },
           {
@@ -1024,7 +1026,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -1638,6 +1640,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -53403,6 +53409,10 @@
             "type": "Unknown"
           },
           {
+            "name": "t",
+            "type": "Unknown"
+          },
+          {
             "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
@@ -56641,6 +56651,10 @@
             "type": "Unknown"
           },
           {
+            "name": "c",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -58699,10 +58713,6 @@
             "type": "Unknown"
           },
           {
-            "name": "Ws",
-            "type": "Unknown"
-          },
-          {
             "name": "M",
             "type": "Unknown"
           }
@@ -59019,7 +59029,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "s\\Common Files",
             "type": "Unknown"
           }
         ],
@@ -62112,11 +62122,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "RD",
             "type": "Unknown"
           }
         ],
@@ -62666,11 +62672,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "RD",
             "type": "Unknown"
           }
         ],
@@ -62694,11 +62696,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "RD",
             "type": "Unknown"
           }
         ],
@@ -64091,11 +64089,11 @@
         },
         "metadata": [
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "V",
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "Q",
             "type": "Unknown"
           }
         ],
@@ -68189,7 +68187,7 @@
             "type": "Unknown"
           },
           {
-            "name": "0f0d/0x0040,0x0f0d/0x0054,0x0e8f/0x3013,0x0e6f/0x0124,0x05ac/0x022c,0x07b5/0x0314,0x1949/0x0402,0x056e/0x2005,0x056e/0x2003,0x05",
+            "name": "ne_cache.foz",
             "type": "Unknown"
           },
           {
@@ -79584,27 +79582,27 @@
         },
         "type": "uint32"
       },
-      "_U___": {
+      "_T_du_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_____": {
+      "___du_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___ݢ_": {
+      "_c_du_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_o4__": {
+      "_e_du_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_w_ݢ_": {
+      "_j_du_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
