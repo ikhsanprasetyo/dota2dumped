@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 440
+        // Enum count: 438
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -19807,7 +19807,8 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // s\Common Files
+            // amapp_shader_cache
+            // 3
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -35528,7 +35529,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // \shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // m_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
@@ -37645,7 +37646,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // c
+            // h
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CModelState = struct {
@@ -54893,6 +54894,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // Y
+            // am Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -56916,7 +56918,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // RD
             pub const CRemapFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -57460,7 +57461,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // o
+            // r
             pub const BlessingPathID_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -57490,7 +57491,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // ne_cache.foz
             pub const AI_BaseNPC_DebugSnapshotData_t = struct {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -58428,7 +58428,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // n
+            //  
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59302,9 +59302,6 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // dules
             pub const AbilityContributionType_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -59682,7 +59679,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // RD
             pub const CSkillInt = struct {
                 pub const m_pValue: usize = 0x0; // int32[4]
             };
@@ -59742,7 +59738,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // RD
             pub const CSkillFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -60903,7 +60898,6 @@ pub const source2_dumper = struct {
             // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
             // VOTE_FAILED_SPECTATOR
             // VOTE_FAILED_MAX
-            // ne_cache.foz
             // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
             // ITEM_FLAG_NOAUTORELOAD
             // ITEM_FLAG_NOAUTOSWITCHEMPTY
@@ -61268,7 +61262,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // ne_cache.foz
             pub const AI_DefaultNPC_DebugSnapshotData_t = struct {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -61432,7 +61425,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
+            // e
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults

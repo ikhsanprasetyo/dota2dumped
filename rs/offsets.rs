@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -7,19 +7,19 @@ pub mod source2_dumper {
     pub mod offsets {
         // Module: client.dll
         pub mod client_dll {
-            pub const dwEntityList: usize = 0x652EAF0;
-            pub const dwGameEntitySystem: usize = 0x652EAF0;
+            pub const dwEntityList: usize = 0x652EA80;
+            pub const dwGameEntitySystem: usize = 0x652EA80;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
             pub const dwGlobalVars: usize = 0x5A7D200;
             pub const dwLocalPlayerPawn: usize = 0x5A86188;
             pub const dwPrediction: usize = 0x5A860B0;
-            pub const dwViewMatrix: usize = 0x61B5F20;
-            pub const dwViewRender: usize = 0x61B68D8;
+            pub const dwViewMatrix: usize = 0x61B5EA0;
+            pub const dwViewRender: usize = 0x61B6858;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
-            pub const dwBuildNumber: usize = 0x60DD24;
-            pub const dwNetworkGameClient: usize = 0x90BBC0;
+            pub const dwBuildNumber: usize = 0x60ED24;
+            pub const dwNetworkGameClient: usize = 0x90CBC0;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x378;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
             pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C141F;
@@ -27,8 +27,8 @@ pub mod source2_dumper {
             pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
-            pub const dwWindowHeight: usize = 0x90FF7C;
-            pub const dwWindowWidth: usize = 0x90FF78;
+            pub const dwWindowHeight: usize = 0x910F8C;
+            pub const dwWindowWidth: usize = 0x910F88;
         }
         // Module: inputsystem.dll
         pub mod inputsystem_dll {

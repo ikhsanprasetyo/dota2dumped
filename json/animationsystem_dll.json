@@ -2012,6 +2012,10 @@
             "type": "Unknown"
           },
           {
+            "name": "PowerShell\\v1.0\\Modules",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2102,6 +2106,10 @@
             "type": "Unknown"
           },
           {
+            "name": "PowerShell\\v1.0\\Modules",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2186,6 +2194,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "PowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -2298,6 +2310,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "PowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -17954,7 +17970,7 @@
             "type": "Unknown"
           },
           {
-            "name": "o",
+            "name": "y",
             "type": "Unknown"
           },
           {
@@ -18192,7 +18208,7 @@
             "type": "Unknown"
           },
           {
-            "name": "o",
+            "name": "y",
             "type": "Unknown"
           },
           {
@@ -18798,11 +18814,15 @@
             "type": "Unknown"
           },
           {
+            "name": "@",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "y\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "ketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -19144,11 +19164,15 @@
             "type": "Unknown"
           },
           {
+            "name": "@",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "y\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "ketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -19912,7 +19936,11 @@
             "type": "Unknown"
           },
           {
-            "name": "s\\Common Files",
+            "name": "amapp_shader_cache",
+            "type": "Unknown"
+          },
+          {
+            "name": "3",
             "type": "Unknown"
           }
         ],

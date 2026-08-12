@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -920,7 +920,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // s\Common Files
+            // amapp_shader_cache
+            // 3
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -5864,7 +5865,6 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PN
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11237,7 +11237,6 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PN
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -11848,7 +11847,6 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PN
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -19427,7 +19425,6 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PN
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26898,7 +26895,6 @@ pub const source2_dumper = struct {
             // MVectorIsSometimesCoordinate
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PN
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName

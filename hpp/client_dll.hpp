@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
         // Class count: 7204
-        // Enum count: 120
+        // Enum count: 118
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -5770,6 +5770,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CPulseCell_ShmupWaitForDuration {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -7382,7 +7383,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // o
+            // e
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -17779,7 +17780,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // t
+            // e
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -17813,8 +17814,7 @@ namespace source2_dumper {
             // Field count: 14
             //
             // Metadata:
-            // l
-            // Y
+            // generic
             namespace C_DOTAWorldParticleSystem {
                 constexpr std::ptrdiff_t m_nType = 0xA88; // int32
                 constexpr std::ptrdiff_t m_iClientEffectIndex = 0xA8C; // ParticleIndex_t
@@ -26395,7 +26395,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // t
+            // e
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x530; // CBaseAnimGraphController
             }
@@ -28374,7 +28374,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // o
+            // e
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -30159,9 +30159,6 @@ namespace source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 0
-            //
-            // Metadata:
-            // e
             namespace C_PortraitWorldCallbackHandler {
             }
             // Parent: C_BreakableProp
@@ -37848,8 +37845,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
-            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // am_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // am_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -45163,8 +45160,10 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // `,
             // MGetKV3ClassDefaults
-            // u
+            // P/
+            // e
             // MGetKV3ClassDefaults
             namespace ArtyProgressBarDef_t {
                 constexpr std::ptrdiff_t m_flNotchSize = 0xB0; // float32
@@ -45200,6 +45199,7 @@ namespace source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
+            // 0O
             namespace ArtyWeaponID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -45362,8 +45362,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // `,
             // MGetKV3ClassDefaults
-            // u
+            // P/
+            // e
             // MGetKV3ClassDefaults
             namespace ArtyCannonDef_t {
                 constexpr std::ptrdiff_t m_bDirectAimAtTarget = 0xB0; // bool
@@ -45442,7 +45444,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant {
             }
             // Parent: None
@@ -45535,7 +45536,6 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // text
@@ -45632,7 +45632,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // text
             namespace CSurvivorsGameSnapshot {
                 constexpr std::ptrdiff_t m_gameModeID = 0x0; // SurvivorsGameModeID_t
                 constexpr std::ptrdiff_t m_playerSnapshot = 0x8; // CSurvivorsPlayerSnapshot
@@ -45680,7 +45679,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46193,6 +46191,7 @@ namespace source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
+            // 0O
             namespace ArtyGraphicID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46374,7 +46373,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46534,7 +46532,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // u
+            // P/
+            // e
             // MGetKV3ClassDefaults
             namespace ArtySpawnerDef_t {
                 constexpr std::ptrdiff_t m_flInitialDelay = 0xB0; // float32
@@ -46557,7 +46556,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CSurvivorsPowerUpDefinition_MortimerKisses {
                 constexpr std::ptrdiff_t m_flMinRange = 0x868; // float32
                 constexpr std::ptrdiff_t m_flLaunchDistance = 0x86C; // float32
@@ -46571,7 +46569,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46952,7 +46949,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47184,7 +47180,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // text
             namespace CDOTASlarkJailbreakStageDefinition {
                 constexpr std::ptrdiff_t m_sLayout = 0x0; // CUtlString
@@ -47247,8 +47242,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // `,
             // MGetKV3ClassDefaults
-            // u
+            // P/
+            // e
             // MGetKV3ClassDefaults
             namespace ArtyUnitDef_t {
                 constexpr std::ptrdiff_t m_bRotateReloadBar = 0xB0; // bool
@@ -47348,7 +47345,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
+            // t
             namespace RoadToTIQuestDefinition_t {
                 constexpr std::ptrdiff_t m_unID = 0x0; // RoadToTIQuestID_t
                 constexpr std::ptrdiff_t m_eQuestType = 0x4; // ERoadToTIQuestType
@@ -47427,7 +47424,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47525,7 +47521,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // text
             // generic
             // CGCClientJobCMsgGCGetHeroStandingsResponse
@@ -47576,6 +47571,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // 2dc8/0x9012,0x2dc8/0x2862,0x2dc8/0x6002,0x2dc8/0x6102,0x1235/0xab20,0x2dc8/0x301b,0x2dc8/0x3011,0x2dc8/0x3013,0x2dc8/0x9018,0x2d
             namespace SurvivorsParticleID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -47633,7 +47631,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CSurvivorsPowerUpDefinition_Snotty {
                 constexpr std::ptrdiff_t m_flRotationSpeedDeg = 0x868; // float32
                 constexpr std::ptrdiff_t m_flRotationDist = 0x86C; // float32
@@ -47765,7 +47762,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47867,6 +47863,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -48138,7 +48135,6 @@ namespace source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // ne_cache.foz
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             namespace CClientAlphaProperty {
@@ -48532,6 +48528,7 @@ namespace source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
+            // 0O
             namespace ArtyGameObjectID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -48909,7 +48906,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             // V
             namespace CSurvivorsPowerUpDefinition_Swashbuckle {
@@ -49097,7 +49093,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             namespace CSurvivorsPowerUpDefinition_AreaAttack_Circle {
             }
             // Parent: None

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: materialsystem2.dll
@@ -66,7 +66,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // +
+        // ,
         public static class MaterialParamVector_t {
             public const nint m_value = 0x8; // Vector4D
         }
@@ -82,7 +82,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // +
+        // ,
         public static class MaterialParamString_t {
             public const nint m_value = 0x8; // CUtlString
         }
@@ -119,7 +119,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // +
+        // ,
         public static class MaterialParamInt_t {
             public const nint m_nValue = 0x8; // int32
         }
@@ -201,7 +201,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // +
+        // ,
         public static class MaterialParamBuffer_t {
             public const nint m_value = 0x8; // CUtlBinaryBlock
         }
@@ -258,7 +258,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // +
+        // ,
         public static class MaterialParamFloat_t {
             public const nint m_flValue = 0x8; // float32
         }
@@ -280,7 +280,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // +
+        // ,
         public static class MaterialParamTexture_t {
             public const nint m_pValue = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
         }

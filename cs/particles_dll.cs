@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -919,7 +919,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // s\Common Files
+        // amapp_shader_cache
+        // 3
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -5863,7 +5864,6 @@ namespace Source2Dumper.Schemas {
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // PN
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -11236,7 +11236,6 @@ namespace Source2Dumper.Schemas {
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // PN
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -11847,7 +11846,6 @@ namespace Source2Dumper.Schemas {
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // PN
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -19426,7 +19424,6 @@ namespace Source2Dumper.Schemas {
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // PN
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -26897,7 +26894,6 @@ namespace Source2Dumper.Schemas {
         // MVectorIsSometimesCoordinate
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // PN
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName

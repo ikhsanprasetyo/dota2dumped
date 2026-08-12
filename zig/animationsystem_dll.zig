@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -1621,7 +1621,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // s\Common Files
+            // amapp_shader_cache
+            // 3
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -3560,8 +3561,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // @
             // MPropertyFriendlyName
-            // y\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // ketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5455,8 +5457,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // @
             // MPropertyFriendlyName
-            // y\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // ketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const CParticleVecInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5886,6 +5889,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // PowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6799,7 +6803,7 @@ pub const source2_dumper = struct {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // o
+            // y
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -9601,6 +9605,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // PowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10216,6 +10221,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // PowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11147,6 +11153,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // PowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -13086,7 +13093,7 @@ pub const source2_dumper = struct {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // o
+            // y
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

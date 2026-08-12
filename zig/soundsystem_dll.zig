@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -2342,7 +2342,7 @@ pub const source2_dumper = struct {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
-            // o
+            // y
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3319,7 +3319,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // ward
-            // gram Files (x86)\Byteseeker Engine\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporati
             pub const CVoiceContainerVMixSnd = struct {
             };
             // Parent: None

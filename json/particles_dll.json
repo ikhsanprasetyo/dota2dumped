@@ -8825,7 +8825,11 @@
             "type": "Unknown"
           },
           {
-            "name": "s\\Common Files",
+            "name": "amapp_shader_cache",
+            "type": "Unknown"
+          },
+          {
+            "name": "3",
             "type": "Unknown"
           }
         ],
@@ -15716,10 +15720,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "PN",
             "type": "Unknown"
           },
           {
@@ -36876,10 +36876,6 @@
             "type": "Unknown"
           },
           {
-            "name": "PN",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -57104,10 +57100,6 @@
             "type": "Unknown"
           },
           {
-            "name": "PN",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -58417,10 +58409,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "PN",
             "type": "Unknown"
           },
           {
@@ -60624,10 +60612,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "PN",
             "type": "Unknown"
           },
           {

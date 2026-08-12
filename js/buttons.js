@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 export const Buttons = {
     attack: 0x5A823C0,
@@ -9,7 +9,7 @@ export const Buttons = {
     forward: 0x5A82600,
     jump: 0x5A828D0,
     left: 0x5A82720,
-    query: 0x61F1820,
+    query: 0x61F17B0,
     reload: 0x5A82330,
     right: 0x5A827B0,
     sprint: 0x5A822A0,

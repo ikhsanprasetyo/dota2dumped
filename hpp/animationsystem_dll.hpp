@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 #pragma once
 
@@ -1626,7 +1626,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // s\Common Files
+            // amapp_shader_cache
+            // 3
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -3565,8 +3566,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // @
             // MPropertyFriendlyName
-            // y\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // ketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5460,8 +5462,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // @
             // MPropertyFriendlyName
-            // y\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // ketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CParticleVecInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
@@ -5891,6 +5894,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // PowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6804,7 +6808,7 @@ namespace source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // o
+            // y
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -9606,6 +9610,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // PowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10221,6 +10226,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // PowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11152,6 +11158,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // PowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -13091,7 +13098,7 @@ namespace source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // o
+            // y
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

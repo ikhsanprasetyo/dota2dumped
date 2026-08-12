@@ -43,11 +43,19 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "u",
+            "name": "P/",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -363,6 +371,10 @@
           {
             "name": "k_EArtyOrderFlag_MoveDown",
             "type": "Unknown"
+          },
+          {
+            "name": "0O",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -440,6 +452,10 @@
           },
           {
             "name": "k_EArtyOrderFlag_MoveDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "0O",
             "type": "Unknown"
           }
         ],
@@ -716,11 +732,19 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "u",
+            "name": "P/",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -744,7 +768,11 @@
             "type": "Unknown"
           },
           {
-            "name": "u",
+            "name": "P/",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -766,11 +794,19 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "u",
+            "name": "P/",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -835,6 +871,10 @@
           },
           {
             "name": "k_EArtyOrderFlag_MoveDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "0O",
             "type": "Unknown"
           }
         ],
@@ -1296,7 +1336,7 @@
             "type": "Unknown"
           },
           {
-            "name": "t",
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -1570,10 +1610,6 @@
           },
           {
             "name": "DMG_LASTGENERICFLAG",
-            "type": "Unknown"
-          },
-          {
-            "name": "ne_cache.foz",
             "type": "Unknown"
           },
           {
@@ -3242,10 +3278,6 @@
           "m_sLayout": 0
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -36629,7 +36661,7 @@
             "type": "Unknown"
           },
           {
-            "name": "o",
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -36719,7 +36751,7 @@
             "type": "Unknown"
           },
           {
-            "name": "o",
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -37121,7 +37153,7 @@
             "type": "Unknown"
           },
           {
-            "name": "t",
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -39198,6 +39230,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -41308,10 +41344,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -41343,10 +41375,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -41576,10 +41604,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "text",
             "type": "Unknown"
           }
         ],
@@ -41881,10 +41905,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -41976,10 +41996,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": " ",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -42033,10 +42049,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -42691,10 +42703,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -42761,10 +42769,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": " ",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -42827,10 +42831,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -42960,10 +42960,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -43016,10 +43012,6 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -43039,10 +43031,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": " ",
             "type": "Unknown"
           },
           {
@@ -44987,11 +44975,7 @@
         },
         "metadata": [
           {
-            "name": "l",
-            "type": "Unknown"
-          },
-          {
-            "name": "Y",
+            "name": "generic",
             "type": "Unknown"
           }
         ],
@@ -60377,11 +60361,11 @@
             "type": "Unknown"
           },
           {
-            "name": "s\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "am_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
-            "name": "s\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "am_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -61495,12 +61479,7 @@
       },
       "C_PortraitWorldCallbackHandler": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "e",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_BaseEntity"
       },
       "C_PortraitWorldLight": {
@@ -62972,7 +62951,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "t",
             "type": "Unknown"
           }
         ],
@@ -63106,10 +63085,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "text",
             "type": "Unknown"
           },
@@ -63152,6 +63127,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63161,10 +63140,6 @@
           "m_Value": 0
         },
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -63262,7 +63237,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "2dc8/0x9012,0x2dc8/0x2862,0x2dc8/0x6002,0x2dc8/0x6102,0x1235/0xab20,0x2dc8/0x301b,0x2dc8/0x3011,0x2dc8/0x3013,0x2dc8/0x9018,0x2d",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "SurvivorsPhysicsBodyID_t": {
@@ -63574,11 +63554,6 @@
           "WATER_WAKE_WATER_OVERHEAD": 4
         },
         "type": "uint32"
-      },
-      "DOTAInternational2025PredictionRankings": {
-        "alignment": 18,
-        "members": {},
-        "type": "unknown"
       },
       "DOTAKeybindCommand_t": {
         "alignment": 4,
@@ -65266,11 +65241,6 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
-      },
-      "H____WH___H__H_ڹ__": {
-        "alignment": 165,
-        "members": {},
-        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

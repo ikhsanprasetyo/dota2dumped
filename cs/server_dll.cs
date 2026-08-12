@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-08 09:16:18.362997 +07:00
+// 2026-08-12 10:21:19.854230400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 440
+    // Enum count: 438
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -19838,7 +19838,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // s\Common Files
+        // amapp_shader_cache
+        // 3
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -35559,7 +35560,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // \shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+        // m_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
@@ -37676,7 +37677,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // c
+        // h
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CModelState {
@@ -54924,6 +54925,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Y
+        // am Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
@@ -56947,7 +56949,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
-        // RD
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57491,7 +57492,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // o
+        // r
         public static class BlessingPathID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -57521,7 +57522,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
-        // ne_cache.foz
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -58459,7 +58459,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        // n
+        //  
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -59333,9 +59333,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // dules
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59713,7 +59710,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // RD
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59773,7 +59769,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // RD
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -60934,7 +60929,6 @@ namespace Source2Dumper.Schemas {
         // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
         // VOTE_FAILED_SPECTATOR
         // VOTE_FAILED_MAX
-        // ne_cache.foz
         // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
         // ITEM_FLAG_NOAUTORELOAD
         // ITEM_FLAG_NOAUTOSWITCHEMPTY
@@ -61299,7 +61293,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
-        // ne_cache.foz
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61463,7 +61456,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // t
+        // e
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
