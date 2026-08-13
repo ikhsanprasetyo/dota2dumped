@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 438
+        // Enum count: 439
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -6341,12 +6341,13 @@ pub const source2_dumper = struct {
                 GESTURE_SLOT_STOLEN_ABILITY_BIT = 0x80
             };
             // Alignment: 4
-            // Member count: 4
+            // Member count: 5
             pub const LobbyDotaTVDelay = enum(u32) {
                 LobbyDotaTV_10 = 0x0,
-                LobbyDotaTV_120 = 0x1,
-                LobbyDotaTV_300 = 0x2,
-                LobbyDotaTV_900 = 0x3
+                LobbyDotaTV_60 = 0x1,
+                LobbyDotaTV_120 = 0x2,
+                LobbyDotaTV_300 = 0x3,
+                LobbyDotaTV_900 = 0x4
             };
             // Alignment: 4
             // Member count: 8
@@ -19807,8 +19808,8 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // amapp_shader_cache
             // 3
+            // s (x86)/steam/steam.exe
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -37646,7 +37647,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // h
+            // e
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CModelState = struct {
@@ -54894,7 +54895,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // Y
-            // am Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // PATH=E:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -57461,7 +57462,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
-            // r
+            //  
             pub const BlessingPathID_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -58428,7 +58429,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            //  
+            // m
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59302,6 +59303,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // dules
             pub const AbilityContributionType_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -61425,7 +61429,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e
+            // t
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults

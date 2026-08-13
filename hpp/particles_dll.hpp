@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 #pragma once
 
@@ -925,8 +925,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // amapp_shader_cache
             // 3
+            // s (x86)/steam/steam.exe
             namespace CPulseCell_BaseState {
             }
             // Parent: None

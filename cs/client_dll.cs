@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
@@ -7377,7 +7377,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // e
+        // c
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -9842,6 +9842,7 @@ namespace Source2Dumper.Schemas {
         // AMMO_RESERVE_STAYS_WITH_WEAPON
         // AMMO_FLAG_MAX
         // MGetKV3ClassDefaults
+        // `%
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MGetKV3ClassDefaults
@@ -17774,7 +17775,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // e
+        // t
         public static class CPulseCell_BaseLerp {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
@@ -17808,7 +17809,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 14
         //
         // Metadata:
-        // generic
+        // l
+        // Y
         public static class C_DOTAWorldParticleSystem {
             public const nint m_nType = 0xA88; // int32
             public const nint m_iClientEffectIndex = 0xA8C; // ParticleIndex_t
@@ -26389,7 +26391,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // e
+        // t
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x530; // CBaseAnimGraphController
         }
@@ -28368,7 +28370,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // e
+        // c
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -30159,7 +30161,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 28
         //
         // Metadata:
-        // Y
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -45154,10 +45155,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // `,
         // MGetKV3ClassDefaults
-        // P/
-        // e
+        // a
         // MGetKV3ClassDefaults
         public static class ArtyProgressBarDef_t {
             public const nint m_flNotchSize = 0xB0; // float32
@@ -45193,7 +45192,6 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // 0O
         public static class ArtyWeaponID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -45356,10 +45354,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // `,
         // MGetKV3ClassDefaults
-        // P/
-        // e
+        // a
         // MGetKV3ClassDefaults
         public static class ArtyCannonDef_t {
             public const nint m_bDirectAimAtTarget = 0xB0; // bool
@@ -45438,6 +45434,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         public static class CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant {
         }
         // Parent: None
@@ -45673,6 +45670,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -46185,7 +46183,6 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // 0O
         public static class ArtyGraphicID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46367,6 +46364,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -46526,8 +46524,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // P/
-        // e
+        // a
         // MGetKV3ClassDefaults
         public static class ArtySpawnerDef_t {
             public const nint m_flInitialDelay = 0xB0; // float32
@@ -46550,6 +46547,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         public static class CSurvivorsPowerUpDefinition_MortimerKisses {
             public const nint m_flMinRange = 0x868; // float32
             public const nint m_flLaunchDistance = 0x86C; // float32
@@ -46563,6 +46561,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -46943,6 +46942,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -47236,10 +47236,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // `,
         // MGetKV3ClassDefaults
-        // P/
-        // e
+        // a
         // MGetKV3ClassDefaults
         public static class ArtyUnitDef_t {
             public const nint m_bRotateReloadBar = 0xB0; // bool
@@ -47339,7 +47337,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // t
+        // a
         public static class RoadToTIQuestDefinition_t {
             public const nint m_unID = 0x0; // RoadToTIQuestID_t
             public const nint m_eQuestType = 0x4; // ERoadToTIQuestType
@@ -47418,6 +47416,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -47625,6 +47624,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         public static class CSurvivorsPowerUpDefinition_Snotty {
             public const nint m_flRotationSpeedDeg = 0x868; // float32
             public const nint m_flRotationDist = 0x86C; // float32
@@ -47756,6 +47756,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // @
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -48522,7 +48523,6 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // 0O
         public static class ArtyGameObjectID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -48900,6 +48900,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         // MGetKV3ClassDefaults
         // V
         public static class CSurvivorsPowerUpDefinition_Swashbuckle {
@@ -49087,6 +49088,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // @
         public static class CSurvivorsPowerUpDefinition_AreaAttack_Circle {
         }
         // Parent: None

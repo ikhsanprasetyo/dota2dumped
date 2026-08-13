@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 438
+        // Enum count: 439
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -6592,13 +6592,14 @@ pub mod source2_dumper {
                 GESTURE_SLOT_STOLEN_ABILITY_BIT = 0x80
             }
             // Alignment: 4
-            // Member count: 4
+            // Member count: 5
             #[repr(u32)]
             pub enum LobbyDotaTVDelay {
                 LobbyDotaTV_10 = 0x0,
-                LobbyDotaTV_120 = 0x1,
-                LobbyDotaTV_300 = 0x2,
-                LobbyDotaTV_900 = 0x3
+                LobbyDotaTV_60 = 0x1,
+                LobbyDotaTV_120 = 0x2,
+                LobbyDotaTV_300 = 0x3,
+                LobbyDotaTV_900 = 0x4
             }
             // Alignment: 4
             // Member count: 8
@@ -20236,8 +20237,8 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // amapp_shader_cache
             // 3
+            // s (x86)/steam/steam.exe
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -38075,7 +38076,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // h
+            // e
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CModelState {
@@ -55323,7 +55324,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // Y
-            // am Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+            // PATH=E:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -57890,7 +57891,7 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // r
+            //  
             pub mod BlessingPathID_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -58857,7 +58858,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            //  
+            // m
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59731,6 +59732,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // dules
             pub mod AbilityContributionType_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -61854,7 +61858,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e
+            // t
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults

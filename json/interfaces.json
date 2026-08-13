@@ -11,7 +11,7 @@
     "PanoramaUIClient001": 95521872,
     "PlayButtonService001": 95395064,
     "Source2Client002": 102416816,
-    "Source2ClientConfig001": 102057520,
+    "Source2ClientConfig001": 102057504,
     "Source2ClientPrediction001": 94920880,
     "Source2ClientUI001": 92730816
   },
@@ -132,10 +132,10 @@
     "NavGameTest001": 77558304,
     "ServerToolsInfo_001": 76939912,
     "Source2GameClients001": 76915776,
-    "Source2GameDirector001": 84119200,
+    "Source2GameDirector001": 84119216,
     "Source2GameEntities001": 76937776,
     "Source2Server001": 76937344,
-    "Source2ServerConfig001": 83246200
+    "Source2ServerConfig001": 83246184
   },
   "soundsystem.dll": {
     "SoundBugBugService001_Client": 5583440,
@@ -163,7 +163,7 @@
     "VPhysics2_Interface_001": 4431408
   },
   "vscript.dll": {
-    "VScriptManager010": 1291312
+    "VScriptManager010": 1295408
   },
   "worldrenderer.dll": {
     "WorldRendererMgr001": 2293088

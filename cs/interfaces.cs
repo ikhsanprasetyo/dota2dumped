@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -16,7 +16,7 @@ namespace Source2Dumper.Interfaces {
         public const nint PanoramaUIClient001 = 0x5B18C50;
         public const nint PlayButtonService001 = 0x5AF9CF8;
         public const nint Source2Client002 = 0x61AC1B0;
-        public const nint Source2ClientConfig001 = 0x6154630;
+        public const nint Source2ClientConfig001 = 0x6154620;
         public const nint Source2ClientPrediction001 = 0x5A860B0;
         public const nint Source2ClientUI001 = 0x586F5C0;
     }
@@ -157,10 +157,10 @@ namespace Source2Dumper.Interfaces {
         public const nint NavGameTest001 = 0x49F7220;
         public const nint ServerToolsInfo_001 = 0x4960288;
         public const nint Source2GameClients001 = 0x495A440;
-        public const nint Source2GameDirector001 = 0x5038EA0;
+        public const nint Source2GameDirector001 = 0x5038EB0;
         public const nint Source2GameEntities001 = 0x495FA30;
         public const nint Source2Server001 = 0x495F880;
-        public const nint Source2ServerConfig001 = 0x4F63C78;
+        public const nint Source2ServerConfig001 = 0x4F63C68;
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {
@@ -195,7 +195,7 @@ namespace Source2Dumper.Interfaces {
     }
     // Module: vscript.dll
     public static class VscriptDll {
-        public const nint VScriptManager010 = 0x13B430;
+        public const nint VScriptManager010 = 0x13C430;
     }
     // Module: worldrenderer.dll
     public static class WorldrendererDll {

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 #pragma once
 
@@ -7383,7 +7383,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e
+            // c
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -9848,6 +9848,7 @@ namespace source2_dumper {
             // AMMO_RESERVE_STAYS_WITH_WEAPON
             // AMMO_FLAG_MAX
             // MGetKV3ClassDefaults
+            // `%
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
@@ -17780,7 +17781,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e
+            // t
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -17814,7 +17815,8 @@ namespace source2_dumper {
             // Field count: 14
             //
             // Metadata:
-            // generic
+            // l
+            // Y
             namespace C_DOTAWorldParticleSystem {
                 constexpr std::ptrdiff_t m_nType = 0xA88; // int32
                 constexpr std::ptrdiff_t m_iClientEffectIndex = 0xA8C; // ParticleIndex_t
@@ -26395,7 +26397,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // e
+            // t
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x530; // CBaseAnimGraphController
             }
@@ -28374,7 +28376,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
+            // c
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -30165,7 +30167,6 @@ namespace source2_dumper {
             // Field count: 28
             //
             // Metadata:
-            // Y
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -45160,10 +45161,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // `,
             // MGetKV3ClassDefaults
-            // P/
-            // e
+            // a
             // MGetKV3ClassDefaults
             namespace ArtyProgressBarDef_t {
                 constexpr std::ptrdiff_t m_flNotchSize = 0xB0; // float32
@@ -45199,7 +45198,6 @@ namespace source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 0O
             namespace ArtyWeaponID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -45362,10 +45360,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // `,
             // MGetKV3ClassDefaults
-            // P/
-            // e
+            // a
             // MGetKV3ClassDefaults
             namespace ArtyCannonDef_t {
                 constexpr std::ptrdiff_t m_bDirectAimAtTarget = 0xB0; // bool
@@ -45444,6 +45440,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             namespace CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant {
             }
             // Parent: None
@@ -45679,6 +45676,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46191,7 +46189,6 @@ namespace source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 0O
             namespace ArtyGraphicID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -46373,6 +46370,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46532,8 +46530,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // P/
-            // e
+            // a
             // MGetKV3ClassDefaults
             namespace ArtySpawnerDef_t {
                 constexpr std::ptrdiff_t m_flInitialDelay = 0xB0; // float32
@@ -46556,6 +46553,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             namespace CSurvivorsPowerUpDefinition_MortimerKisses {
                 constexpr std::ptrdiff_t m_flMinRange = 0x868; // float32
                 constexpr std::ptrdiff_t m_flLaunchDistance = 0x86C; // float32
@@ -46569,6 +46567,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46949,6 +46948,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47242,10 +47242,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // `,
             // MGetKV3ClassDefaults
-            // P/
-            // e
+            // a
             // MGetKV3ClassDefaults
             namespace ArtyUnitDef_t {
                 constexpr std::ptrdiff_t m_bRotateReloadBar = 0xB0; // bool
@@ -47345,7 +47343,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // t
+            // a
             namespace RoadToTIQuestDefinition_t {
                 constexpr std::ptrdiff_t m_unID = 0x0; // RoadToTIQuestID_t
                 constexpr std::ptrdiff_t m_eQuestType = 0x4; // ERoadToTIQuestType
@@ -47424,6 +47422,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47631,6 +47630,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             namespace CSurvivorsPowerUpDefinition_Snotty {
                 constexpr std::ptrdiff_t m_flRotationSpeedDeg = 0x868; // float32
                 constexpr std::ptrdiff_t m_flRotationDist = 0x86C; // float32
@@ -47762,6 +47762,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -48528,7 +48529,6 @@ namespace source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 0O
             namespace ArtyGameObjectID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -48906,6 +48906,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             namespace CSurvivorsPowerUpDefinition_Swashbuckle {
@@ -49093,6 +49094,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             namespace CSurvivorsPowerUpDefinition_AreaAttack_Circle {
             }
             // Parent: None

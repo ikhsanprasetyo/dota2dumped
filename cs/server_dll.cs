@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 438
+    // Enum count: 439
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -6356,12 +6356,13 @@ namespace Source2Dumper.Schemas {
             GESTURE_SLOT_STOLEN_ABILITY_BIT = 0x80
         }
         // Alignment: 4
-        // Member count: 4
+        // Member count: 5
         public enum LobbyDotaTVDelay : uint {
             LobbyDotaTV_10 = 0x0,
-            LobbyDotaTV_120 = 0x1,
-            LobbyDotaTV_300 = 0x2,
-            LobbyDotaTV_900 = 0x3
+            LobbyDotaTV_60 = 0x1,
+            LobbyDotaTV_120 = 0x2,
+            LobbyDotaTV_300 = 0x3,
+            LobbyDotaTV_900 = 0x4
         }
         // Alignment: 4
         // Member count: 8
@@ -19838,8 +19839,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // amapp_shader_cache
         // 3
+        // s (x86)/steam/steam.exe
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -37677,7 +37678,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // h
+        // e
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CModelState {
@@ -54925,7 +54926,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Y
-        // am Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+        // PATH=E:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
@@ -57492,7 +57493,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // r
+        //  
         public static class BlessingPathID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -58459,7 +58460,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        //  
+        // m
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -59333,6 +59334,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // dules
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -61456,7 +61460,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // e
+        // t
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults

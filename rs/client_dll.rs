@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7497,7 +7497,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e
+            // c
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -9962,6 +9962,7 @@ pub mod source2_dumper {
             // AMMO_RESERVE_STAYS_WITH_WEAPON
             // AMMO_FLAG_MAX
             // MGetKV3ClassDefaults
+            // `%
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
@@ -17894,7 +17895,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e
+            // t
             pub mod CPulseCell_BaseLerp {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
@@ -17928,7 +17929,8 @@ pub mod source2_dumper {
             // Field count: 14
             //
             // Metadata:
-            // generic
+            // l
+            // Y
             pub mod C_DOTAWorldParticleSystem {
                 pub const m_nType: usize = 0xA88; // int32
                 pub const m_iClientEffectIndex: usize = 0xA8C; // ParticleIndex_t
@@ -26509,7 +26511,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // e
+            // t
             pub mod CBodyComponentBaseAnimGraph {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             }
@@ -28488,7 +28490,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
+            // c
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -30279,7 +30281,6 @@ pub mod source2_dumper {
             // Field count: 28
             //
             // Metadata:
-            // Y
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -45274,10 +45275,8 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // `,
             // MGetKV3ClassDefaults
-            // P/
-            // e
+            // a
             // MGetKV3ClassDefaults
             pub mod ArtyProgressBarDef_t {
                 pub const m_flNotchSize: usize = 0xB0; // float32
@@ -45313,7 +45312,6 @@ pub mod source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 0O
             pub mod ArtyWeaponID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -45476,10 +45474,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // `,
             // MGetKV3ClassDefaults
-            // P/
-            // e
+            // a
             // MGetKV3ClassDefaults
             pub mod ArtyCannonDef_t {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
@@ -45558,6 +45554,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             pub mod CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant {
             }
             // Parent: None
@@ -45793,6 +45790,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46305,7 +46303,6 @@ pub mod source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 0O
             pub mod ArtyGraphicID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46487,6 +46484,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46646,8 +46644,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // P/
-            // e
+            // a
             // MGetKV3ClassDefaults
             pub mod ArtySpawnerDef_t {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
@@ -46670,6 +46667,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             pub mod CSurvivorsPowerUpDefinition_MortimerKisses {
                 pub const m_flMinRange: usize = 0x868; // float32
                 pub const m_flLaunchDistance: usize = 0x86C; // float32
@@ -46683,6 +46681,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47063,6 +47062,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47356,10 +47356,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // `,
             // MGetKV3ClassDefaults
-            // P/
-            // e
+            // a
             // MGetKV3ClassDefaults
             pub mod ArtyUnitDef_t {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
@@ -47459,7 +47457,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // t
+            // a
             pub mod RoadToTIQuestDefinition_t {
                 pub const m_unID: usize = 0x0; // RoadToTIQuestID_t
                 pub const m_eQuestType: usize = 0x4; // ERoadToTIQuestType
@@ -47538,6 +47536,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47745,6 +47744,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             pub mod CSurvivorsPowerUpDefinition_Snotty {
                 pub const m_flRotationSpeedDeg: usize = 0x868; // float32
                 pub const m_flRotationDist: usize = 0x86C; // float32
@@ -47876,6 +47876,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -48642,7 +48643,6 @@ pub mod source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 0O
             pub mod ArtyGameObjectID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -49020,6 +49020,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             // MGetKV3ClassDefaults
             // V
             pub mod CSurvivorsPowerUpDefinition_Swashbuckle {
@@ -49207,6 +49208,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // @
             pub mod CSurvivorsPowerUpDefinition_AreaAttack_Circle {
             }
             // Parent: None

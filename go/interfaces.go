@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-12 10:21:19.854230400 +07:00
+// 2026-08-13 08:12:57.181005 +07:00
 
 package interfaces
 
@@ -13,7 +13,7 @@ const (
     ClientDll_PanoramaUIClient001 = 0x5B18C50
     ClientDll_PlayButtonService001 = 0x5AF9CF8
     ClientDll_Source2Client002 = 0x61AC1B0
-    ClientDll_Source2ClientConfig001 = 0x6154630
+    ClientDll_Source2ClientConfig001 = 0x6154620
     ClientDll_Source2ClientPrediction001 = 0x5A860B0
     ClientDll_Source2ClientUI001 = 0x586F5C0
     Engine2Dll_BenchmarkService001 = 0x614B60
@@ -94,10 +94,10 @@ const (
     ServerDll_NavGameTest001 = 0x49F7220
     ServerDll_ServerToolsInfo_001 = 0x4960288
     ServerDll_Source2GameClients001 = 0x495A440
-    ServerDll_Source2GameDirector001 = 0x5038EA0
+    ServerDll_Source2GameDirector001 = 0x5038EB0
     ServerDll_Source2GameEntities001 = 0x495FA30
     ServerDll_Source2Server001 = 0x495F880
-    ServerDll_Source2ServerConfig001 = 0x4F63C78
+    ServerDll_Source2ServerConfig001 = 0x4F63C68
     SoundsystemDll_SoundBugBugService001_Client = 0x553250
     SoundsystemDll_SoundOpSystem001 = 0x553130
     SoundsystemDll_SoundOpSystemEdit001 = 0x553040
@@ -111,6 +111,6 @@ const (
     V8systemDll_Source2V8System001 = 0x31770
     VconcommDll_VConComm001 = 0x3B730
     Vphysics2Dll_VPhysics2_Interface_001 = 0x439E30
-    VscriptDll_VScriptManager010 = 0x13B430
+    VscriptDll_VScriptManager010 = 0x13C430
     WorldrendererDll_WorldRendererMgr001 = 0x22FD60
 )

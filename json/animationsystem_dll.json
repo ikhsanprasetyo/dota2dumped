@@ -2012,7 +2012,7 @@
             "type": "Unknown"
           },
           {
-            "name": "PowerShell\\v1.0\\Modules",
+            "name": "steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -2106,7 +2106,7 @@
             "type": "Unknown"
           },
           {
-            "name": "PowerShell\\v1.0\\Modules",
+            "name": "steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -2197,7 +2197,7 @@
             "type": "Unknown"
           },
           {
-            "name": "PowerShell\\v1.0\\Modules",
+            "name": "steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -2313,7 +2313,7 @@
             "type": "Unknown"
           },
           {
-            "name": "PowerShell\\v1.0\\Modules",
+            "name": "steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -2749,6 +2749,10 @@
           },
           {
             "name": "PF_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "EXCOORD",
             "type": "Unknown"
           },
           {
@@ -17970,7 +17974,7 @@
             "type": "Unknown"
           },
           {
-            "name": "y",
+            "name": "w",
             "type": "Unknown"
           },
           {
@@ -18208,7 +18212,7 @@
             "type": "Unknown"
           },
           {
-            "name": "y",
+            "name": "w",
             "type": "Unknown"
           },
           {
@@ -18814,10 +18818,6 @@
             "type": "Unknown"
           },
           {
-            "name": "@",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -19161,10 +19161,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "@",
             "type": "Unknown"
           },
           {
@@ -19936,11 +19932,11 @@
             "type": "Unknown"
           },
           {
-            "name": "amapp_shader_cache",
+            "name": "3",
             "type": "Unknown"
           },
           {
-            "name": "3",
+            "name": "s (x86)/steam/steam.exe",
             "type": "Unknown"
           }
         ],
