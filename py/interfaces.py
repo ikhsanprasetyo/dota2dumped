@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-08-13 08:12:57.181005 +07:00
+# 2026-08-13 22:54:25.084918100 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -9,11 +9,11 @@ class Interfaces:
     # Module: client.dll
     class ClientDll:
         ClientToolsInfo_001 = 0x5A81BD0
-        DOTA_CLIENT_GCCLIENT = 0x6359140
+        DOTA_CLIENT_GCCLIENT = 0x63591B0
         GameClientExports001 = 0x5A7D8F8
-        LegacyGameUI001 = 0x5AEC020
-        PanoramaUIClient001 = 0x5B18C50
-        PlayButtonService001 = 0x5AF9CF8
+        LegacyGameUI001 = 0x5AEBFC0
+        PanoramaUIClient001 = 0x5B18BF0
+        PlayButtonService001 = 0x5AF9C98
         Source2Client002 = 0x61AC1B0
         Source2ClientConfig001 = 0x6154620
         Source2ClientPrediction001 = 0x5A860B0

@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 08:12:57.181005 +07:00
+// 2026-08-13 22:54:25.084918100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 439
+    // Enum count: 440
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -19839,8 +19839,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // 3
-        // s (x86)/steam/steam.exe
+        // ary\steamapps\shadercache\570
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -35561,7 +35560,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // m_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+        // ules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
@@ -37678,7 +37677,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // e
+        // line_cache.foz
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CModelState {
@@ -41315,6 +41314,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 27
         //
         // Metadata:
+        // RD
         // MPropertyDescription
         // MPropertyAttributeSuggestionName
         // MPropertyDescription
@@ -48587,6 +48587,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 9
+        //
+        // Metadata:
+        // RD
         public static class CEnvWindVolume {
             public const nint m_bActive = 0x498; // bool
             public const nint m_vBoxMins = 0x49C; // Vector
@@ -54926,7 +54929,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Y
-        // PATH=E:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+        // PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
@@ -56195,6 +56198,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CPointEntity
         // Field count: 0
+        //
+        // Metadata:
+        // RD
         public static class CInfoParticleTarget {
         }
         // Parent: CBaseEntity
@@ -57493,7 +57499,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        //  
+        // teamapp_pipeline_cache.foz
+        // eamapp_pipeline_cache.foz
         public static class BlessingPathID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -57523,6 +57530,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
+        // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -58460,7 +58468,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        // m
+        // peline_cache.foz
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -59336,7 +59344,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // dules
+        // rget
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -60933,6 +60941,7 @@ namespace Source2Dumper.Schemas {
         // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
         // VOTE_FAILED_SPECTATOR
         // VOTE_FAILED_MAX
+        // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
         // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
         // ITEM_FLAG_NOAUTORELOAD
         // ITEM_FLAG_NOAUTOSWITCHEMPTY
@@ -61297,6 +61306,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
+        // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61460,7 +61470,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // t
+        // ne_cache.foz
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults

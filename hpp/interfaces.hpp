@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 08:12:57.181005 +07:00
+// 2026-08-13 22:54:25.084918100 +07:00
 
 #pragma once
 
@@ -16,11 +16,11 @@ namespace source2_dumper {
         // Module: client.dll
         namespace client_dll {
             constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x5A81BD0;
-            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x6359140;
+            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x63591B0;
             constexpr std::ptrdiff_t GameClientExports001 = 0x5A7D8F8;
-            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5AEC020;
-            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5B18C50;
-            constexpr std::ptrdiff_t PlayButtonService001 = 0x5AF9CF8;
+            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5AEBFC0;
+            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5B18BF0;
+            constexpr std::ptrdiff_t PlayButtonService001 = 0x5AF9C98;
             constexpr std::ptrdiff_t Source2Client002 = 0x61AC1B0;
             constexpr std::ptrdiff_t Source2ClientConfig001 = 0x6154620;
             constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5A860B0;

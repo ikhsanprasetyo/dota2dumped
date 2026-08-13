@@ -2012,10 +2012,6 @@
             "type": "Unknown"
           },
           {
-            "name": "steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2106,10 +2102,6 @@
             "type": "Unknown"
           },
           {
-            "name": "steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2194,10 +2186,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -2310,10 +2298,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -2749,10 +2733,6 @@
           },
           {
             "name": "PF_TYPE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "EXCOORD",
             "type": "Unknown"
           },
           {
@@ -7753,6 +7733,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7850,6 +7834,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7871,6 +7859,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -7904,6 +7896,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7924,6 +7920,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -8663,6 +8663,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -10452,6 +10456,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -13711,6 +13719,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -16565,6 +16577,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -17974,7 +17990,7 @@
             "type": "Unknown"
           },
           {
-            "name": "w",
+            "name": "e_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -18212,7 +18228,7 @@
             "type": "Unknown"
           },
           {
-            "name": "w",
+            "name": "e_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -18822,7 +18838,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "erShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           }
         ],
@@ -19168,7 +19184,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "erShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
             "type": "Unknown"
           },
           {
@@ -19932,11 +19948,7 @@
             "type": "Unknown"
           },
           {
-            "name": "3",
-            "type": "Unknown"
-          },
-          {
-            "name": "s (x86)/steam/steam.exe",
+            "name": "ary\\steamapps\\shadercache\\570",
             "type": "Unknown"
           }
         ],
@@ -23347,6 +23359,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],

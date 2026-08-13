@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 08:12:57.181005 +07:00
+// 2026-08-13 22:54:25.084918100 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -13,11 +13,11 @@ pub mod source2_dumper {
         // Module: client.dll
         pub mod client_dll {
             pub const ClientToolsInfo_001: usize = 0x5A81BD0;
-            pub const DOTA_CLIENT_GCCLIENT: usize = 0x6359140;
+            pub const DOTA_CLIENT_GCCLIENT: usize = 0x63591B0;
             pub const GameClientExports001: usize = 0x5A7D8F8;
-            pub const LegacyGameUI001: usize = 0x5AEC020;
-            pub const PanoramaUIClient001: usize = 0x5B18C50;
-            pub const PlayButtonService001: usize = 0x5AF9CF8;
+            pub const LegacyGameUI001: usize = 0x5AEBFC0;
+            pub const PanoramaUIClient001: usize = 0x5B18BF0;
+            pub const PlayButtonService001: usize = 0x5AF9C98;
             pub const Source2Client002: usize = 0x61AC1B0;
             pub const Source2ClientConfig001: usize = 0x6154620;
             pub const Source2ClientPrediction001: usize = 0x5A860B0;

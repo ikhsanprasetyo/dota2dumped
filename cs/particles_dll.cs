@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 08:12:57.181005 +07:00
+// 2026-08-13 22:54:25.084918100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -919,8 +919,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 3
-        // s (x86)/steam/steam.exe
+        // ary\steamapps\shadercache\570
         public static class CPulseCell_BaseState {
         }
         // Parent: None

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 08:12:57.181005 +07:00
+// 2026-08-13 22:54:25.084918100 +07:00
 
 #pragma once
 
@@ -1626,8 +1626,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 3
-            // s (x86)/steam/steam.exe
+            // ary\steamapps\shadercache\570
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -2945,6 +2944,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             namespace CNmParameterizedBlendNode__CDefinition {
                 constexpr std::ptrdiff_t m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 constexpr std::ptrdiff_t m_nInputParameterValueNodeIdx = 0x28; // int16
@@ -3474,6 +3474,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             namespace CNmBoneMaskBlendNode__CDefinition {
                 constexpr std::ptrdiff_t m_nSourceMaskNodeIdx = 0x10; // int16
@@ -3567,7 +3568,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // erShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4204,6 +4205,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5361,6 +5363,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             namespace CNmVelocityBlendNode__CDefinition {
             }
             // Parent: None
@@ -5462,7 +5465,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // ketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // erShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             namespace CParticleVecInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
@@ -5545,6 +5548,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             namespace CNmBoneMaskSelectorNode__CDefinition {
                 constexpr std::ptrdiff_t m_defaultMaskNodeIdx = 0x10; // int16
@@ -5892,7 +5896,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6001,7 +6004,6 @@ namespace source2_dumper {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
-            // EXCOORD
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -6807,7 +6809,7 @@ namespace source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // w
+            // e_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -8021,6 +8023,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             namespace CQuaternionAnimParameter {
                 constexpr std::ptrdiff_t m_defaultValue = 0x80; // Quaternion
                 constexpr std::ptrdiff_t m_bInterpolate = 0x90; // bool
@@ -9281,6 +9284,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             namespace CNmFixedWeightBoneMaskNode__CDefinition {
                 constexpr std::ptrdiff_t m_flBoneWeight = 0x10; // float32
             }
@@ -9556,6 +9560,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             namespace CNmBlend2DNode__CDefinition {
                 constexpr std::ptrdiff_t m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 constexpr std::ptrdiff_t m_values = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9609,7 +9614,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10179,6 +10183,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             namespace CNmBodyGroupNode__CDefinition {
                 constexpr std::ptrdiff_t m_nEnabledNodeIdx = 0x18; // int16
                 constexpr std::ptrdiff_t m_event = 0x20; // CNmBodyGroupEvent
@@ -10225,7 +10230,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11157,7 +11161,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -12087,6 +12090,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // eamapp_pipeline_cache.foz
             namespace CNmBoneMaskNode__CDefinition {
                 constexpr std::ptrdiff_t m_boneMaskID = 0x10; // CGlobalSymbol
             }
@@ -13097,7 +13101,7 @@ namespace source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // w
+            // e_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

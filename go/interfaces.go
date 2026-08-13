@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 08:12:57.181005 +07:00
+// 2026-08-13 22:54:25.084918100 +07:00
 
 package interfaces
 
@@ -7,11 +7,11 @@ const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x839F50
     AnimationsystemDll_AnimationSystem_001 = 0x831E70
     ClientDll_ClientToolsInfo_001 = 0x5A81BD0
-    ClientDll_DOTA_CLIENT_GCCLIENT = 0x6359140
+    ClientDll_DOTA_CLIENT_GCCLIENT = 0x63591B0
     ClientDll_GameClientExports001 = 0x5A7D8F8
-    ClientDll_LegacyGameUI001 = 0x5AEC020
-    ClientDll_PanoramaUIClient001 = 0x5B18C50
-    ClientDll_PlayButtonService001 = 0x5AF9CF8
+    ClientDll_LegacyGameUI001 = 0x5AEBFC0
+    ClientDll_PanoramaUIClient001 = 0x5B18BF0
+    ClientDll_PlayButtonService001 = 0x5AF9C98
     ClientDll_Source2Client002 = 0x61AC1B0
     ClientDll_Source2ClientConfig001 = 0x6154620
     ClientDll_Source2ClientPrediction001 = 0x5A860B0
