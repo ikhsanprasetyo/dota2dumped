@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7207
-        // Enum count: 120
+        // Class count: 7254
+        // Enum count: 118
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -7383,7 +7383,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -8652,7 +8651,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // S
-            // eamapp_pipeline_cache.foz
             // e
             namespace C_DOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0xD10; // bool
@@ -17781,7 +17779,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ne_cache.foz
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -26397,7 +26394,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // ne_cache.foz
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x530; // CBaseAnimGraphController
             }
@@ -28376,7 +28372,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -37846,8 +37841,6 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // dules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
-            // dules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -41601,7 +41594,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // S
-            // eamapp_pipeline_cache.foz
             // e
             namespace C_DOTA_GuildBannerProp {
             }
@@ -45163,7 +45155,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // pipeline_cache.foz
             // MGetKV3ClassDefaults
             namespace ArtyProgressBarDef_t {
                 constexpr std::ptrdiff_t m_flNotchSize = 0xB0; // float32
@@ -45362,7 +45353,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // pipeline_cache.foz
             // MGetKV3ClassDefaults
             namespace ArtyCannonDef_t {
                 constexpr std::ptrdiff_t m_bDirectAimAtTarget = 0xB0; // bool
@@ -45537,6 +45527,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // text
             // generic
+            // pT
             // CGCClientJobCMsgGCGetHeroStandingsResponse
             namespace ShmupPathID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
@@ -46528,7 +46519,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // pipeline_cache.foz
             // MGetKV3ClassDefaults
             namespace ArtySpawnerDef_t {
                 constexpr std::ptrdiff_t m_flInitialDelay = 0xB0; // float32
@@ -46819,7 +46809,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e.foz
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
@@ -47239,7 +47228,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // pipeline_cache.foz
             // MGetKV3ClassDefaults
             namespace ArtyUnitDef_t {
                 constexpr std::ptrdiff_t m_bRotateReloadBar = 0xB0; // bool
@@ -47339,7 +47327,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // app_pipeline_cache.foz
             namespace RoadToTIQuestDefinition_t {
                 constexpr std::ptrdiff_t m_unID = 0x0; // RoadToTIQuestID_t
                 constexpr std::ptrdiff_t m_eQuestType = 0x4; // ERoadToTIQuestType
@@ -47517,6 +47504,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // text
             // generic
+            // pT
             // CGCClientJobCMsgGCGetHeroStandingsResponse
             namespace ShmupEnemyID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
@@ -47565,9 +47553,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // 2dc8/0x9012,0x2dc8/0x2862,0x2dc8/0x6002,0x2dc8/0x6102,0x1235/0xab20,0x2dc8/0x301b,0x2dc8/0x3011,0x2dc8/0x3013,0x2dc8/0x9018,0x2d
             namespace SurvivorsParticleID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -47855,6 +47840,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // p}
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -48129,7 +48115,7 @@ namespace source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
+            // 549.3.7
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             namespace CClientAlphaProperty {
@@ -48235,7 +48221,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e.foz
             namespace CSurvivorsPowerUpDefinition_AreaAttack_Line {
                 constexpr std::ptrdiff_t m_bUseFacingDirection = 0x868; // bool
             }
@@ -49267,94 +49252,317 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nDamageMultiplier = 0x10; // int32
             }
             // Parent: None
-            // Field count: 78
-            namespace _oS_l_ {
-                constexpr std::ptrdiff_t m_vPosition = 0x0; // VectorWS
-                constexpr std::ptrdiff_t m_flPullAlarmTime = 0xC; // float32
-                constexpr std::ptrdiff_t m_flStackAlarmTime = 0x10; // float32
-                constexpr std::ptrdiff_t m_nCampIndex = 0x14; // int32
-                constexpr std::ptrdiff_t m_nAlarmTypes = 0x18; // int32
-                constexpr std::ptrdiff_t m_nHeroID = 0x19B8; // HeroID_t
-                constexpr std::ptrdiff_t m_actQueuedActivity = 0x19BC; // int32
-                constexpr std::ptrdiff_t m_szQueuedActivityModifier = 0x19C0; // char[64]
-                constexpr std::ptrdiff_t nItemType = 0x30; // int16
-                constexpr std::ptrdiff_t bPurchasable = 0x32; // bool
-                constexpr std::ptrdiff_t DOTAJoyHUDPanelFocusDisplay = 0x4C059038; // Panel
-                constexpr std::ptrdiff_t m_nType = 0xA88; // int32
-                constexpr std::ptrdiff_t m_iClientEffectIndex = 0xA8C; // ParticleIndex_t
-                constexpr std::ptrdiff_t m_szEffectName = 0xA90; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_szTargetName = 0xA98; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_szControlPoint = 0xAA0; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_hOverrideSequence = 0xAA8; // HSequence
-                constexpr std::ptrdiff_t m_hOverrideModel = 0xAB0; // CStrongHandle<InfoForResourceTypeCModel>
-                constexpr std::ptrdiff_t m_vModelScale = 0xAB8; // Vector
-                constexpr std::ptrdiff_t m_nSkinOverride = 0xAC4; // int32
-                constexpr std::ptrdiff_t m_bDayTime = 0xAC8; // bool
-                constexpr std::ptrdiff_t m_bNightTime = 0xAC9; // bool
-                constexpr std::ptrdiff_t m_bShowInFow = 0xACA; // bool
-                constexpr std::ptrdiff_t m_bShowWhileDynamicWeatherActive = 0xACB; // bool
-                constexpr std::ptrdiff_t m_bAnimateDuringGameplayPause = 0xACC; // bool
-                constexpr std::ptrdiff_t m_nTutorialState = 0x5F0; // int32
-                constexpr std::ptrdiff_t m_nTaskProgress = 0x5F4; // int32
-                constexpr std::ptrdiff_t m_nTaskSteps = 0x5F8; // int32
-                constexpr std::ptrdiff_t m_nTaskSecondsRemianing = 0x5FC; // int32
-                constexpr std::ptrdiff_t m_nUIState = 0x600; // int32
-                constexpr std::ptrdiff_t m_nShopState = 0x604; // int32
-                constexpr std::ptrdiff_t m_TargetLocation = 0x608; // VectorWS
-                constexpr std::ptrdiff_t m_TargetEntity = 0x614; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_SpeechBubbles = 0x618; // C_UtlVectorEmbeddedNetworkVar<C_SpeechBubbleInfo>
-                constexpr std::ptrdiff_t m_nLocationID = 0xB90; // int32
-                constexpr std::ptrdiff_t m_GuideStr = 0xB94; // char[256]
-                constexpr std::ptrdiff_t m_QuickBuyStr = 0xC94; // char[256]
-                constexpr std::ptrdiff_t m_nPreTutorialState = 0xD94; // int32
-                constexpr std::ptrdiff_t m_nPreUIState = 0xD98; // int32
-                constexpr std::ptrdiff_t m_nPreShopState = 0xD9C; // int32
-                constexpr std::ptrdiff_t m_vecPrevTargetLocation = 0xDA0; // VectorWS
-                constexpr std::ptrdiff_t m_hPrevTargetEntity = 0xDAC; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_iHeroKills = 0x6A8; // int32
-                constexpr std::ptrdiff_t m_iTowerKills = 0x6AC; // int32
-                constexpr std::ptrdiff_t m_iBarracksKills = 0x6B0; // int32
-                constexpr std::ptrdiff_t m_unTournamentTeamID = 0x6B4; // uint32
-                constexpr std::ptrdiff_t m_ulTeamLogo = 0x6B8; // uint64
-                constexpr std::ptrdiff_t m_ulTeamBaseLogo = 0x6C0; // uint64
-                constexpr std::ptrdiff_t m_ulTeamBannerLogo = 0x6C8; // uint64
-                constexpr std::ptrdiff_t m_bTeamComplete = 0x6D0; // bool
-                constexpr std::ptrdiff_t m_bTeamIsHomeTeam = 0x6D1; // bool
-                constexpr std::ptrdiff_t m_bTeamCanSeeExactRoshanTimer = 0x6D2; // bool
-                constexpr std::ptrdiff_t m_bTeamCanSeeNextPowerRune = 0x6D3; // bool
-                constexpr std::ptrdiff_t m_CustomHealthbarColor = 0x6D4; // Color
-                constexpr std::ptrdiff_t m_szTag = 0x6D8; // char[33]
-                constexpr std::ptrdiff_t m_nPreviewFX = 0x6A8; // ParticleIndex_t
-                constexpr std::ptrdiff_t linger_movement_slow = 0x1A78; // int32
-                constexpr std::ptrdiff_t linger_damage = 0x1A7C; // int32
-                constexpr std::ptrdiff_t m_vecBoundsMin = 0x5F0; // Vector
-                constexpr std::ptrdiff_t m_vecBoundsMax = 0x5FC; // Vector
-                constexpr std::ptrdiff_t aura_radius = 0x1A78; // float32
-                constexpr std::ptrdiff_t stun_duration = 0x1A7C; // float32
-                constexpr std::ptrdiff_t max_hero_attacks = 0x1A80; // int32
-                constexpr std::ptrdiff_t max_hero_attacks_scepter = 0x1A84; // int32
-                constexpr std::ptrdiff_t max_hero_attacks_required = 0x1A88; // int32
-                constexpr std::ptrdiff_t caster_life_pct = 0x1A8C; // float32
-                constexpr std::ptrdiff_t m_hSecondaryTarget = 0x1A90; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_iAttackCount = 0x1A94; // int32
-                constexpr std::ptrdiff_t tick_interval = 0x1A78; // float32
-                constexpr std::ptrdiff_t total_damage = 0x1A7C; // float32
-                constexpr std::ptrdiff_t channel_time = 0x1A80; // float32
-                constexpr std::ptrdiff_t m_hTarget = 0x6A8; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_vProjectileLocation = 0x6AC; // VectorWS
-                constexpr std::ptrdiff_t m_bProjectileActive = 0x6B8; // bool
-                constexpr std::ptrdiff_t latch_distance = 0x6BC; // int32
-                constexpr std::ptrdiff_t m_iProjectileIndex = 0x6C0; // int32
-                constexpr std::ptrdiff_t crit_chance = 0x1A78; // int32
-                constexpr std::ptrdiff_t crit_multiplier = 0x1A7C; // int32
+            // Field count: 0
+            namespace H____WH__0H__H_D__ {
             }
             // Parent: None
             // Field count: 0
-            namespace _ {
+            namespace _SH___H________ {
             }
             // Parent: None
             // Field count: 0
-            namespace _p_ll_ {
+            namespace H____H____AVH___H__I_1 {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _SH___H_______B {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _SH___L__H_D_0 {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace H____H____AVH___H____0 {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _SH___L__H_D_0 {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _SH___H______KC {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace Drop_focus_entirely_from_the_window_containing_this_panel_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _SH___H______8C {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace H____H____AVH___H____0 {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _SH___H_______C {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _SH___H____8 {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            // n
+            // l
+            // `
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _J__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            // n
+            // l
+            // `
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _G__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            namespace _J__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            // n
+            // l
+            // `
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            namespace _N__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _K__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            // n
+            // l
+            // `
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _M__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            // n
+            // l
+            // `
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            // n
+            // l
+            // `
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _O__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            namespace _F__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _E__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            namespace _6__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            namespace _3__W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CDOTA_Ability_Magnataur_ReversePolarity
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // r
+            // CSplitScreenSlot
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ____W_ {
             }
         }
     }

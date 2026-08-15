@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 package schemas
 
@@ -17483,82 +17483,4 @@ const (
     ClientDll_CShmupBossBodyPart_m_flRadius = 0x8 // float32
     ClientDll_CShmupBossBodyPart_m_nHitRegionIndex = 0xC // int32
     ClientDll_CShmupBossBodyPart_m_nDamageMultiplier = 0x10 // int32
-    ClientDll__oS_l__m_vPosition = 0x0 // VectorWS
-    ClientDll__oS_l__m_flPullAlarmTime = 0xC // float32
-    ClientDll__oS_l__m_flStackAlarmTime = 0x10 // float32
-    ClientDll__oS_l__m_nCampIndex = 0x14 // int32
-    ClientDll__oS_l__m_nAlarmTypes = 0x18 // int32
-    ClientDll__oS_l__m_nHeroID = 0x19B8 // HeroID_t
-    ClientDll__oS_l__m_actQueuedActivity = 0x19BC // int32
-    ClientDll__oS_l__m_szQueuedActivityModifier = 0x19C0 // char[64]
-    ClientDll__oS_l__nItemType = 0x30 // int16
-    ClientDll__oS_l__bPurchasable = 0x32 // bool
-    ClientDll__oS_l__DOTAJoyHUDPanelFocusDisplay = 0x4C059038 // Panel
-    ClientDll__oS_l__m_nType = 0xA88 // int32
-    ClientDll__oS_l__m_iClientEffectIndex = 0xA8C // ParticleIndex_t
-    ClientDll__oS_l__m_szEffectName = 0xA90 // CUtlSymbolLarge
-    ClientDll__oS_l__m_szTargetName = 0xA98 // CUtlSymbolLarge
-    ClientDll__oS_l__m_szControlPoint = 0xAA0 // CUtlSymbolLarge
-    ClientDll__oS_l__m_hOverrideSequence = 0xAA8 // HSequence
-    ClientDll__oS_l__m_hOverrideModel = 0xAB0 // CStrongHandle<InfoForResourceTypeCModel>
-    ClientDll__oS_l__m_vModelScale = 0xAB8 // Vector
-    ClientDll__oS_l__m_nSkinOverride = 0xAC4 // int32
-    ClientDll__oS_l__m_bDayTime = 0xAC8 // bool
-    ClientDll__oS_l__m_bNightTime = 0xAC9 // bool
-    ClientDll__oS_l__m_bShowInFow = 0xACA // bool
-    ClientDll__oS_l__m_bShowWhileDynamicWeatherActive = 0xACB // bool
-    ClientDll__oS_l__m_bAnimateDuringGameplayPause = 0xACC // bool
-    ClientDll__oS_l__m_nTutorialState = 0x5F0 // int32
-    ClientDll__oS_l__m_nTaskProgress = 0x5F4 // int32
-    ClientDll__oS_l__m_nTaskSteps = 0x5F8 // int32
-    ClientDll__oS_l__m_nTaskSecondsRemianing = 0x5FC // int32
-    ClientDll__oS_l__m_nUIState = 0x600 // int32
-    ClientDll__oS_l__m_nShopState = 0x604 // int32
-    ClientDll__oS_l__m_TargetLocation = 0x608 // VectorWS
-    ClientDll__oS_l__m_TargetEntity = 0x614 // CHandle<C_BaseEntity>
-    ClientDll__oS_l__m_SpeechBubbles = 0x618 // C_UtlVectorEmbeddedNetworkVar<C_SpeechBubbleInfo>
-    ClientDll__oS_l__m_nLocationID = 0xB90 // int32
-    ClientDll__oS_l__m_GuideStr = 0xB94 // char[256]
-    ClientDll__oS_l__m_QuickBuyStr = 0xC94 // char[256]
-    ClientDll__oS_l__m_nPreTutorialState = 0xD94 // int32
-    ClientDll__oS_l__m_nPreUIState = 0xD98 // int32
-    ClientDll__oS_l__m_nPreShopState = 0xD9C // int32
-    ClientDll__oS_l__m_vecPrevTargetLocation = 0xDA0 // VectorWS
-    ClientDll__oS_l__m_hPrevTargetEntity = 0xDAC // CHandle<C_BaseEntity>
-    ClientDll__oS_l__m_iHeroKills = 0x6A8 // int32
-    ClientDll__oS_l__m_iTowerKills = 0x6AC // int32
-    ClientDll__oS_l__m_iBarracksKills = 0x6B0 // int32
-    ClientDll__oS_l__m_unTournamentTeamID = 0x6B4 // uint32
-    ClientDll__oS_l__m_ulTeamLogo = 0x6B8 // uint64
-    ClientDll__oS_l__m_ulTeamBaseLogo = 0x6C0 // uint64
-    ClientDll__oS_l__m_ulTeamBannerLogo = 0x6C8 // uint64
-    ClientDll__oS_l__m_bTeamComplete = 0x6D0 // bool
-    ClientDll__oS_l__m_bTeamIsHomeTeam = 0x6D1 // bool
-    ClientDll__oS_l__m_bTeamCanSeeExactRoshanTimer = 0x6D2 // bool
-    ClientDll__oS_l__m_bTeamCanSeeNextPowerRune = 0x6D3 // bool
-    ClientDll__oS_l__m_CustomHealthbarColor = 0x6D4 // Color
-    ClientDll__oS_l__m_szTag = 0x6D8 // char[33]
-    ClientDll__oS_l__m_nPreviewFX = 0x6A8 // ParticleIndex_t
-    ClientDll__oS_l__linger_movement_slow = 0x1A78 // int32
-    ClientDll__oS_l__linger_damage = 0x1A7C // int32
-    ClientDll__oS_l__m_vecBoundsMin = 0x5F0 // Vector
-    ClientDll__oS_l__m_vecBoundsMax = 0x5FC // Vector
-    ClientDll__oS_l__aura_radius = 0x1A78 // float32
-    ClientDll__oS_l__stun_duration = 0x1A7C // float32
-    ClientDll__oS_l__max_hero_attacks = 0x1A80 // int32
-    ClientDll__oS_l__max_hero_attacks_scepter = 0x1A84 // int32
-    ClientDll__oS_l__max_hero_attacks_required = 0x1A88 // int32
-    ClientDll__oS_l__caster_life_pct = 0x1A8C // float32
-    ClientDll__oS_l__m_hSecondaryTarget = 0x1A90 // CHandle<C_BaseEntity>
-    ClientDll__oS_l__m_iAttackCount = 0x1A94 // int32
-    ClientDll__oS_l__tick_interval = 0x1A78 // float32
-    ClientDll__oS_l__total_damage = 0x1A7C // float32
-    ClientDll__oS_l__channel_time = 0x1A80 // float32
-    ClientDll__oS_l__m_hTarget = 0x6A8 // CHandle<C_BaseEntity>
-    ClientDll__oS_l__m_vProjectileLocation = 0x6AC // VectorWS
-    ClientDll__oS_l__m_bProjectileActive = 0x6B8 // bool
-    ClientDll__oS_l__latch_distance = 0x6BC // int32
-    ClientDll__oS_l__m_iProjectileIndex = 0x6C0 // int32
-    ClientDll__oS_l__crit_chance = 0x1A78 // int32
-    ClientDll__oS_l__crit_multiplier = 0x1A7C // int32
 )

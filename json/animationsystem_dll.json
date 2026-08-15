@@ -372,6 +372,10 @@
             "type": "Unknown"
           },
           {
+            "name": "E",
+            "type": "Unknown"
+          },
+          {
             "name": "JOINT_FLAGS_BODY1_FIXED",
             "type": "Unknown"
           },
@@ -2733,6 +2737,10 @@
           },
           {
             "name": "PF_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -7733,10 +7741,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7834,10 +7838,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7859,10 +7859,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -7896,10 +7892,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7920,10 +7912,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -8663,10 +8651,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -10456,10 +10440,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -13719,10 +13699,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -16577,10 +16553,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -17518,6 +17490,10 @@
             "type": "Unknown"
           },
           {
+            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "PM_TYPE_NAMED_VALUE_MODEL",
             "type": "Unknown"
           },
@@ -17669,6 +17645,10 @@
           },
           {
             "name": "PT_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -17990,10 +17970,6 @@
             "type": "Unknown"
           },
           {
-            "name": "e_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18228,10 +18204,6 @@
             "type": "Unknown"
           },
           {
-            "name": "e_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
-          },
-          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18349,6 +18321,10 @@
           },
           {
             "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "49.3.7",
             "type": "Unknown"
           }
         ],
@@ -18620,6 +18596,10 @@
             "type": "Unknown"
           },
           {
+            "name": "49.3.7",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -18668,6 +18648,10 @@
           },
           {
             "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "49.3.7",
             "type": "Unknown"
           },
           {
@@ -18838,7 +18822,7 @@
             "type": "Unknown"
           },
           {
-            "name": "erShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "name": "es",
             "type": "Unknown"
           }
         ],
@@ -19098,6 +19082,10 @@
             "type": "Unknown"
           },
           {
+            "name": "49.3.7",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -19184,7 +19172,7 @@
             "type": "Unknown"
           },
           {
-            "name": "erShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "name": "es",
             "type": "Unknown"
           },
           {
@@ -19948,7 +19936,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ary\\steamapps\\shadercache\\570",
+            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -23359,10 +23347,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "eamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],

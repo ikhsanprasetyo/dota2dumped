@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 #pragma once
 
@@ -339,6 +339,10 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
@@ -512,10 +516,13 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // PL
+            // PM
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // 0Q
             // V
             // MGetKV3ClassDefaults
             // MPropertyDescription
@@ -647,15 +654,22 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // PL
+            // PM
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // 0Q
             // V
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
             namespace CPulseCell_Value_Gradient {
                 constexpr std::ptrdiff_t m_Gradient = 0x48; // CColorGradient
             }
@@ -870,9 +884,20 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
+            // MPropertyDescription
+            // p]
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // X_
+            // p]
+            // X_
+            // p]
+            // X_
+            // p]
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
@@ -882,6 +907,20 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            //  e
+            //  e
+            // Pe
+            //  e
+            // Pe
+            //  e
+            //  e
+            // Pe
+            //  e
+            //  e
+            //  e
+            //  e
+            //  e
+            // Pe
             namespace CPulseCell_WaitForCursorsWithTagBase {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToWait = 0xD8; // int32
                 constexpr std::ptrdiff_t m_WaitComplete = 0xE0; // CPulse_ResumePoint
@@ -931,6 +970,10 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             namespace CPulseCell_IntervalTimer {
                 constexpr std::ptrdiff_t m_Completed = 0xD8; // CPulse_ResumePoint
                 constexpr std::ptrdiff_t m_OnInterval = 0x120; // SignatureOutflow_Continue
@@ -1051,6 +1094,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPulseSignatureForOutflow
             // MPropertyDescription
+            // @P
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1205,9 +1249,20 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
+            // MPropertyDescription
+            // p]
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // X_
+            // p]
+            // X_
+            // p]
+            // X_
+            // p]
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
@@ -2052,6 +2107,10 @@ namespace source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
@@ -2066,6 +2125,16 @@ namespace source2_dumper {
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
+            // Hl
+            // xl
+            // Hl
+            // xl
+            // Hl
+            // xl
+            // xl
+            // Hl
+            // xl
+            // xl
             namespace CPulseCell_CursorQueue {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToRunParallel = 0x128; // int32
             }

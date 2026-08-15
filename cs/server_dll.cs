@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 440
+    // Enum count: 438
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -19839,7 +19839,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // ary\steamapps\shadercache\570
+        // r
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -35560,7 +35560,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // ules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
@@ -37677,7 +37676,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // line_cache.foz
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CModelState {
@@ -39503,6 +39501,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // s\system32\WindowsPowerShell\v1.0\Modules
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -41314,7 +41313,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 27
         //
         // Metadata:
-        // RD
         // MPropertyDescription
         // MPropertyAttributeSuggestionName
         // MPropertyDescription
@@ -48587,9 +48585,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CBaseEntity
         // Field count: 9
-        //
-        // Metadata:
-        // RD
         public static class CEnvWindVolume {
             public const nint m_bActive = 0x498; // bool
             public const nint m_vBoxMins = 0x49C; // Vector
@@ -54929,7 +54924,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Y
-        // PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
@@ -56198,9 +56192,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CPointEntity
         // Field count: 0
-        //
-        // Metadata:
-        // RD
         public static class CInfoParticleTarget {
         }
         // Parent: CBaseEntity
@@ -56956,6 +56947,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
+        // SF;.WSH;.MSC
+        // SF;.WSH;.MSC
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57066,6 +57059,7 @@ namespace Source2Dumper.Schemas {
         // AI_PATHFINDING
         // END_SIM_HISTORY_TYPES
         // COMBINED
+        // PlatformMutex=c:/program files (x86)/steam/steam.exe
         // MATCH
         // HIERARCHY
         // COUNT
@@ -57497,10 +57491,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // teamapp_pipeline_cache.foz
-        // eamapp_pipeline_cache.foz
         public static class BlessingPathID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -57530,7 +57520,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
-        // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
+        // 549.3.7
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -58468,7 +58458,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        // peline_cache.foz
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -59342,9 +59331,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // rget
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59722,6 +59708,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
+        // SF;.WSH;.MSC
+        // SF;.WSH;.MSC
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59781,6 +59769,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
+        // SF;.WSH;.MSC
+        // SF;.WSH;.MSC
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -60941,7 +60931,6 @@ namespace Source2Dumper.Schemas {
         // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
         // VOTE_FAILED_SPECTATOR
         // VOTE_FAILED_MAX
-        // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
         // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
         // ITEM_FLAG_NOAUTORELOAD
         // ITEM_FLAG_NOAUTOSWITCHEMPTY
@@ -61306,7 +61295,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
-        // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
+        // 549.3.7
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61470,7 +61459,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // ne_cache.foz
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults

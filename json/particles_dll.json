@@ -8825,7 +8825,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ary\\steamapps\\shadercache\\570",
+            "name": "r",
             "type": "Unknown"
           }
         ],
@@ -47703,6 +47703,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "549.3.7",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61910,6 +61914,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "549.3.7",
             "type": "Unknown"
           }
         ],

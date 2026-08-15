@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -333,6 +333,10 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
+        // p]
+        // (a
+        // p]
+        // X_
         // MPulsePolymorphicDependentReturn
         // MPulsePolymorphicDependentReturn
         // MPulsePolymorphicDependentArg
@@ -506,10 +510,13 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // PL
+        // PM
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
+        // 0Q
         // V
         // MGetKV3ClassDefaults
         // MPropertyDescription
@@ -641,15 +648,22 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // PL
+        // PM
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MPropertyDescription
+        // 0Q
         // V
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
+        //  Y
+        // 0Z
+        // X_
+        // p]
         public static class CPulseCell_Value_Gradient {
             public const nint m_Gradient = 0x48; // CColorGradient
         }
@@ -864,9 +878,20 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
+        //  Y
+        // 0Z
+        // X_
+        // p]
+        // MPropertyDescription
+        // p]
         // MPropertyDescription
         // MPropertyDescription
-        // MPropertyDescription
+        // X_
+        // p]
+        // X_
+        // p]
+        // X_
+        // p]
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
@@ -876,6 +901,20 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseEditorHeaderIcon
         // MPulseEditorCanvasItemSpecKV3
+        //  e
+        //  e
+        // Pe
+        //  e
+        // Pe
+        //  e
+        //  e
+        // Pe
+        //  e
+        //  e
+        //  e
+        //  e
+        //  e
+        // Pe
         public static class CPulseCell_WaitForCursorsWithTagBase {
             public const nint m_nCursorsAllowedToWait = 0xD8; // int32
             public const nint m_WaitComplete = 0xE0; // CPulse_ResumePoint
@@ -925,6 +964,10 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
+        // p]
+        // (a
+        // p]
+        // X_
         public static class CPulseCell_IntervalTimer {
             public const nint m_Completed = 0xD8; // CPulse_ResumePoint
             public const nint m_OnInterval = 0x120; // SignatureOutflow_Continue
@@ -1045,6 +1088,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPulseSignatureForOutflow
         // MPropertyDescription
+        // @P
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -1199,9 +1243,20 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MPulseEditorCanvasItemSpecKV3
+        //  Y
+        // 0Z
+        // X_
+        // p]
+        // MPropertyDescription
+        // p]
         // MPropertyDescription
         // MPropertyDescription
-        // MPropertyDescription
+        // X_
+        // p]
+        // X_
+        // p]
+        // X_
+        // p]
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
@@ -2046,6 +2101,10 @@ namespace Source2Dumper.Schemas {
         // MPulseEditorHeaderIcon
         // MPropertyDescription
         // MPropertyDescription
+        // p]
+        // (a
+        // p]
+        // X_
         // MPulsePolymorphicDependentReturn
         // MPulsePolymorphicDependentReturn
         // MPulsePolymorphicDependentArg
@@ -2060,6 +2119,16 @@ namespace Source2Dumper.Schemas {
         // MPulsePolymorphicDependentReturn
         // MPulsePolymorphicDependentReturn
         // MPulsePolymorphicDependentArg
+        // Hl
+        // xl
+        // Hl
+        // xl
+        // Hl
+        // xl
+        // xl
+        // Hl
+        // xl
+        // xl
         public static class CPulseCell_CursorQueue {
             public const nint m_nCursorsAllowedToRunParallel = 0x128; // int32
         }

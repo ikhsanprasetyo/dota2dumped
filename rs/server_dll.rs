@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 440
+        // Enum count: 438
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -20237,7 +20237,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // ary\steamapps\shadercache\570
+            // r
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -35958,7 +35958,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // ules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
@@ -38075,7 +38074,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // line_cache.foz
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CModelState {
@@ -39901,6 +39899,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // s\system32\WindowsPowerShell\v1.0\Modules
             pub mod CScriptComponent {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             }
@@ -41712,7 +41711,6 @@ pub mod source2_dumper {
             // Field count: 27
             //
             // Metadata:
-            // RD
             // MPropertyDescription
             // MPropertyAttributeSuggestionName
             // MPropertyDescription
@@ -48985,9 +48983,6 @@ pub mod source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 9
-            //
-            // Metadata:
-            // RD
             pub mod CEnvWindVolume {
                 pub const m_bActive: usize = 0x498; // bool
                 pub const m_vBoxMins: usize = 0x49C; // Vector
@@ -55327,7 +55322,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // Y
-            // PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -56596,9 +56590,6 @@ pub mod source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 0
-            //
-            // Metadata:
-            // RD
             pub mod CInfoParticleTarget {
             }
             // Parent: CBaseEntity
@@ -57354,6 +57345,8 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // SF;.WSH;.MSC
+            // SF;.WSH;.MSC
             pub mod CRemapFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -57464,6 +57457,7 @@ pub mod source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
+            // PlatformMutex=c:/program files (x86)/steam/steam.exe
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57895,10 +57889,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // teamapp_pipeline_cache.foz
-            // eamapp_pipeline_cache.foz
             pub mod BlessingPathID_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -57928,7 +57918,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
+            // 549.3.7
             pub mod AI_BaseNPC_DebugSnapshotData_t {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -58866,7 +58856,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // peline_cache.foz
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59740,9 +59729,6 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // rget
             pub mod AbilityContributionType_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -60120,6 +60106,8 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // SF;.WSH;.MSC
+            // SF;.WSH;.MSC
             pub mod CSkillInt {
                 pub const m_pValue: usize = 0x0; // int32[4]
             }
@@ -60179,6 +60167,8 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // SF;.WSH;.MSC
+            // SF;.WSH;.MSC
             pub mod CSkillFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -61339,7 +61329,6 @@ pub mod source2_dumper {
             // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
             // VOTE_FAILED_SPECTATOR
             // VOTE_FAILED_MAX
-            // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
             // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
             // ITEM_FLAG_NOAUTORELOAD
             // ITEM_FLAG_NOAUTOSWITCHEMPTY
@@ -61704,7 +61693,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // 0x0583/0x2060,0x044f/0xd003,0x1c10/0x1c17,
+            // 549.3.7
             pub mod AI_DefaultNPC_DebugSnapshotData_t {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -61868,7 +61857,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ne_cache.foz
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -351,6 +351,10 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
@@ -524,10 +528,13 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // PL
+            // PM
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // 0Q
             // V
             // MGetKV3ClassDefaults
             // MPropertyDescription
@@ -659,15 +666,22 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // PL
+            // PM
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // 0Q
             // V
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
             pub mod CPulseCell_Value_Gradient {
                 pub const m_Gradient: usize = 0x48; // CColorGradient
             }
@@ -882,9 +896,20 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
+            // MPropertyDescription
+            // p]
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // X_
+            // p]
+            // X_
+            // p]
+            // X_
+            // p]
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
@@ -894,6 +919,20 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            //  e
+            //  e
+            // Pe
+            //  e
+            // Pe
+            //  e
+            //  e
+            // Pe
+            //  e
+            //  e
+            //  e
+            //  e
+            //  e
+            // Pe
             pub mod CPulseCell_WaitForCursorsWithTagBase {
                 pub const m_nCursorsAllowedToWait: usize = 0xD8; // int32
                 pub const m_WaitComplete: usize = 0xE0; // CPulse_ResumePoint
@@ -943,6 +982,10 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             pub mod CPulseCell_IntervalTimer {
                 pub const m_Completed: usize = 0xD8; // CPulse_ResumePoint
                 pub const m_OnInterval: usize = 0x120; // SignatureOutflow_Continue
@@ -1063,6 +1106,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPulseSignatureForOutflow
             // MPropertyDescription
+            // @P
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1217,9 +1261,20 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
+            // MPropertyDescription
+            // p]
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // X_
+            // p]
+            // X_
+            // p]
+            // X_
+            // p]
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
@@ -2064,6 +2119,10 @@ pub mod source2_dumper {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
@@ -2078,6 +2137,16 @@ pub mod source2_dumper {
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
+            // Hl
+            // xl
+            // Hl
+            // xl
+            // Hl
+            // xl
+            // xl
+            // Hl
+            // xl
+            // xl
             pub mod CPulseCell_CursorQueue {
                 pub const m_nCursorsAllowedToRunParallel: usize = 0x128; // int32
             }

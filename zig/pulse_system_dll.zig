@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -334,6 +334,10 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
@@ -507,10 +511,13 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // PL
+            // PM
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // 0Q
             // V
             // MGetKV3ClassDefaults
             // MPropertyDescription
@@ -642,15 +649,22 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // PL
+            // PM
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
+            // 0Q
             // V
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
             pub const CPulseCell_Value_Gradient = struct {
                 pub const m_Gradient: usize = 0x48; // CColorGradient
             };
@@ -865,9 +879,20 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
+            // MPropertyDescription
+            // p]
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // X_
+            // p]
+            // X_
+            // p]
+            // X_
+            // p]
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
@@ -877,6 +902,20 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPulseEditorHeaderIcon
             // MPulseEditorCanvasItemSpecKV3
+            //  e
+            //  e
+            // Pe
+            //  e
+            // Pe
+            //  e
+            //  e
+            // Pe
+            //  e
+            //  e
+            //  e
+            //  e
+            //  e
+            // Pe
             pub const CPulseCell_WaitForCursorsWithTagBase = struct {
                 pub const m_nCursorsAllowedToWait: usize = 0xD8; // int32
                 pub const m_WaitComplete: usize = 0xE0; // CPulse_ResumePoint
@@ -926,6 +965,10 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             pub const CPulseCell_IntervalTimer = struct {
                 pub const m_Completed: usize = 0xD8; // CPulse_ResumePoint
                 pub const m_OnInterval: usize = 0x120; // SignatureOutflow_Continue
@@ -1046,6 +1089,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPulseSignatureForOutflow
             // MPropertyDescription
+            // @P
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -1200,9 +1244,20 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPulseEditorCanvasItemSpecKV3
+            //  Y
+            // 0Z
+            // X_
+            // p]
+            // MPropertyDescription
+            // p]
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
+            // X_
+            // p]
+            // X_
+            // p]
+            // X_
+            // p]
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
@@ -2047,6 +2102,10 @@ pub const source2_dumper = struct {
             // MPulseEditorHeaderIcon
             // MPropertyDescription
             // MPropertyDescription
+            // p]
+            // (a
+            // p]
+            // X_
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
@@ -2061,6 +2120,16 @@ pub const source2_dumper = struct {
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentReturn
             // MPulsePolymorphicDependentArg
+            // Hl
+            // xl
+            // Hl
+            // xl
+            // Hl
+            // xl
+            // xl
+            // Hl
+            // xl
+            // xl
             pub const CPulseCell_CursorQueue = struct {
                 pub const m_nCursorsAllowedToRunParallel: usize = 0x128; // int32
             };

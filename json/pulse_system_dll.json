@@ -690,35 +690,19 @@
             "type": "Unknown"
           },
           {
-            "name": "MPulsePolymorphicDependentReturn",
+            "name": "p]",
             "type": "Unknown"
           },
           {
-            "name": "MPulsePolymorphicDependentReturn",
+            "name": "(a",
             "type": "Unknown"
           },
           {
-            "name": "MPulsePolymorphicDependentArg",
+            "name": "p]",
             "type": "Unknown"
           },
           {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentArg",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentReturn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulsePolymorphicDependentArg",
+            "name": "X_",
             "type": "Unknown"
           },
           {
@@ -738,11 +722,83 @@
             "type": "Unknown"
           },
           {
+            "name": "MPulsePolymorphicDependentArg",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulsePolymorphicDependentReturn",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulsePolymorphicDependentReturn",
             "type": "Unknown"
           },
           {
             "name": "MPulsePolymorphicDependentArg",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulsePolymorphicDependentReturn",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulsePolymorphicDependentReturn",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulsePolymorphicDependentArg",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulsePolymorphicDependentReturn",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulsePolymorphicDependentReturn",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulsePolymorphicDependentArg",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hl",
+            "type": "Unknown"
+          },
+          {
+            "name": "xl",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hl",
+            "type": "Unknown"
+          },
+          {
+            "name": "xl",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hl",
+            "type": "Unknown"
+          },
+          {
+            "name": "xl",
+            "type": "Unknown"
+          },
+          {
+            "name": "xl",
+            "type": "Unknown"
+          },
+          {
+            "name": "Hl",
+            "type": "Unknown"
+          },
+          {
+            "name": "xl",
+            "type": "Unknown"
+          },
+          {
+            "name": "xl",
             "type": "Unknown"
           }
         ],
@@ -875,6 +931,14 @@
             "type": "Unknown"
           },
           {
+            "name": "PL",
+            "type": "Unknown"
+          },
+          {
+            "name": "PM",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -888,6 +952,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "0Q",
             "type": "Unknown"
           },
           {
@@ -1780,6 +1848,22 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
+            "name": "(a",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
             "type": "Unknown"
           }
         ],
@@ -4153,7 +4237,27 @@
             "type": "Unknown"
           },
           {
+            "name": " Y",
+            "type": "Unknown"
+          },
+          {
+            "name": "0Z",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
             "type": "Unknown"
           },
           {
@@ -4162,6 +4266,30 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
             "type": "Unknown"
           },
           {
@@ -4401,6 +4529,10 @@
             "type": "Unknown"
           },
           {
+            "name": "@P",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -4441,6 +4573,14 @@
             "type": "Unknown"
           },
           {
+            "name": "PL",
+            "type": "Unknown"
+          },
+          {
+            "name": "PM",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -4454,6 +4594,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "0Q",
             "type": "Unknown"
           },
           {
@@ -4474,6 +4618,22 @@
           },
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          },
+          {
+            "name": " Y",
+            "type": "Unknown"
+          },
+          {
+            "name": "0Z",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
             "type": "Unknown"
           }
         ],
@@ -5004,6 +5164,22 @@
             "type": "Unknown"
           },
           {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
+            "name": "(a",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
             "name": "MPulsePolymorphicDependentReturn",
             "type": "Unknown"
           },
@@ -5077,7 +5253,27 @@
             "type": "Unknown"
           },
           {
+            "name": " Y",
+            "type": "Unknown"
+          },
+          {
+            "name": "0Z",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
             "type": "Unknown"
           },
           {
@@ -5086,6 +5282,30 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
+            "type": "Unknown"
+          },
+          {
+            "name": "X_",
+            "type": "Unknown"
+          },
+          {
+            "name": "p]",
             "type": "Unknown"
           },
           {
@@ -5122,6 +5342,62 @@
           },
           {
             "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pe",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pe",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pe",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": " e",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pe",
             "type": "Unknown"
           }
         ],

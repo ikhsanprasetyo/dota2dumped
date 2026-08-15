@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-13 22:54:25.084918100 +07:00
+// 2026-08-15 10:12:37.025196 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1544,10 +1544,6 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
-        },
-        H____WH___H__H_ڹ__: {
-        },
-        DOTAInternational2025PredictionRankings: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A28, // DOTA_SHOP_TYPE
@@ -32130,89 +32126,105 @@ export const Schemas = {
             m_nHitRegionIndex: 0xC, // int32
             m_nDamageMultiplier: 0x10, // int32
         },
-        _oS_l_: {
-            m_vPosition: 0x0, // VectorWS
-            m_flPullAlarmTime: 0xC, // float32
-            m_flStackAlarmTime: 0x10, // float32
-            m_nCampIndex: 0x14, // int32
-            m_nAlarmTypes: 0x18, // int32
-            m_nHeroID: 0x19B8, // HeroID_t
-            m_actQueuedActivity: 0x19BC, // int32
-            m_szQueuedActivityModifier: 0x19C0, // char[64]
-            nItemType: 0x30, // int16
-            bPurchasable: 0x32, // bool
-            DOTAJoyHUDPanelFocusDisplay: 0x4C059038, // Panel
-            m_nType: 0xA88, // int32
-            m_iClientEffectIndex: 0xA8C, // ParticleIndex_t
-            m_szEffectName: 0xA90, // CUtlSymbolLarge
-            m_szTargetName: 0xA98, // CUtlSymbolLarge
-            m_szControlPoint: 0xAA0, // CUtlSymbolLarge
-            m_hOverrideSequence: 0xAA8, // HSequence
-            m_hOverrideModel: 0xAB0, // CStrongHandle<InfoForResourceTypeCModel>
-            m_vModelScale: 0xAB8, // Vector
-            m_nSkinOverride: 0xAC4, // int32
-            m_bDayTime: 0xAC8, // bool
-            m_bNightTime: 0xAC9, // bool
-            m_bShowInFow: 0xACA, // bool
-            m_bShowWhileDynamicWeatherActive: 0xACB, // bool
-            m_bAnimateDuringGameplayPause: 0xACC, // bool
-            m_nTutorialState: 0x5F0, // int32
-            m_nTaskProgress: 0x5F4, // int32
-            m_nTaskSteps: 0x5F8, // int32
-            m_nTaskSecondsRemianing: 0x5FC, // int32
-            m_nUIState: 0x600, // int32
-            m_nShopState: 0x604, // int32
-            m_TargetLocation: 0x608, // VectorWS
-            m_TargetEntity: 0x614, // CHandle<C_BaseEntity>
-            m_SpeechBubbles: 0x618, // C_UtlVectorEmbeddedNetworkVar<C_SpeechBubbleInfo>
-            m_nLocationID: 0xB90, // int32
-            m_GuideStr: 0xB94, // char[256]
-            m_QuickBuyStr: 0xC94, // char[256]
-            m_nPreTutorialState: 0xD94, // int32
-            m_nPreUIState: 0xD98, // int32
-            m_nPreShopState: 0xD9C, // int32
-            m_vecPrevTargetLocation: 0xDA0, // VectorWS
-            m_hPrevTargetEntity: 0xDAC, // CHandle<C_BaseEntity>
-            m_iHeroKills: 0x6A8, // int32
-            m_iTowerKills: 0x6AC, // int32
-            m_iBarracksKills: 0x6B0, // int32
-            m_unTournamentTeamID: 0x6B4, // uint32
-            m_ulTeamLogo: 0x6B8, // uint64
-            m_ulTeamBaseLogo: 0x6C0, // uint64
-            m_ulTeamBannerLogo: 0x6C8, // uint64
-            m_bTeamComplete: 0x6D0, // bool
-            m_bTeamIsHomeTeam: 0x6D1, // bool
-            m_bTeamCanSeeExactRoshanTimer: 0x6D2, // bool
-            m_bTeamCanSeeNextPowerRune: 0x6D3, // bool
-            m_CustomHealthbarColor: 0x6D4, // Color
-            m_szTag: 0x6D8, // char[33]
-            m_nPreviewFX: 0x6A8, // ParticleIndex_t
-            linger_movement_slow: 0x1A78, // int32
-            linger_damage: 0x1A7C, // int32
-            m_vecBoundsMin: 0x5F0, // Vector
-            m_vecBoundsMax: 0x5FC, // Vector
-            aura_radius: 0x1A78, // float32
-            stun_duration: 0x1A7C, // float32
-            max_hero_attacks: 0x1A80, // int32
-            max_hero_attacks_scepter: 0x1A84, // int32
-            max_hero_attacks_required: 0x1A88, // int32
-            caster_life_pct: 0x1A8C, // float32
-            m_hSecondaryTarget: 0x1A90, // CHandle<C_BaseEntity>
-            m_iAttackCount: 0x1A94, // int32
-            tick_interval: 0x1A78, // float32
-            total_damage: 0x1A7C, // float32
-            channel_time: 0x1A80, // float32
-            m_hTarget: 0x6A8, // CHandle<C_BaseEntity>
-            m_vProjectileLocation: 0x6AC, // VectorWS
-            m_bProjectileActive: 0x6B8, // bool
-            latch_distance: 0x6BC, // int32
-            m_iProjectileIndex: 0x6C0, // int32
-            crit_chance: 0x1A78, // int32
-            crit_multiplier: 0x1A7C, // int32
+        H____WH__0H__H_D__: {
         },
-        _: {
+        _SH___H________: {
         },
-        _p_ll_: {
+        H____H____AVH___H__I_1: {
+        },
+        _SH___H_______B: {
+        },
+        _SH___L__H_D_0: {
+        },
+        H____H____AVH___H____0: {
+        },
+        _SH___L__H_D_0: {
+        },
+        _SH___H______KC: {
+        },
+        Drop_focus_entirely_from_the_window_containing_this_panel_: {
+        },
+        _SH___H______8C: {
+        },
+        H____H____AVH___H____0: {
+        },
+        _SH___H_______C: {
+        },
+        _SH___H____8: {
+        },
+        _F__W_: {
+        },
+        _J__W_: {
+        },
+        _F__W_: {
+        },
+        _F__W_: {
+        },
+        _F__W_: {
+        },
+        _F__W_: {
+        },
+        _G__W_: {
+        },
+        _J__W_: {
+        },
+        _F__W_: {
+        },
+        _N__W_: {
+        },
+        _F__W_: {
+        },
+        _K__W_: {
+        },
+        _F__W_: {
+        },
+        _M__W_: {
+        },
+        _F__W_: {
+        },
+        _F__W_: {
+        },
+        _F__W_: {
+        },
+        _F__W_: {
+        },
+        _F__W_: {
+        },
+        _O__W_: {
+        },
+        _F__W_: {
+        },
+        _E__W_: {
+        },
+        ____W_: {
+        },
+        _6__W_: {
+        },
+        _3__W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
+        },
+        ____W_: {
         },
     },
 };
