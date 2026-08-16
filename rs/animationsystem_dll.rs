@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1767,6 +1767,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // r
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -3705,8 +3706,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // TE
             // MPropertyFriendlyName
-            // es
+            // AppData\Roaming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigr
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5600,8 +5602,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // TE
             // MPropertyFriendlyName
-            // es
+            // AppData\Roaming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigr
             pub mod CParticleVecInput {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -6031,6 +6034,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // in;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byte
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -7476,7 +7480,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // 49.3.7
+            // l
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8685,7 +8689,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // 49.3.7
+            // l
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9037,7 +9041,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // 49.3.7
+            // l
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9750,6 +9754,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // in;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byte
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10365,6 +10370,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // in;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byte
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11297,6 +11303,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // in;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byte
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11832,7 +11839,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // 49.3.7
+            // l
             pub mod CParticleFloatInput {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -13108,7 +13115,7 @@ pub mod source2_dumper {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
-            // E
+            // SA_SHADER_CACHE_DIR=E:\SteamLibrary\steamapps\shadercache\570
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY

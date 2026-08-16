@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 7254
-        // Enum count: 118
+        // Class count: 7204
+        // Enum count: 120
         pub mod client_dll {
             // Alignment: 4
             // Member count: 5
@@ -37955,6 +37955,8 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // aming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\
+            // aming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -45641,7 +45643,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // text
             // generic
-            // pT
             // CGCClientJobCMsgGCGetHeroStandingsResponse
             pub mod ShmupPathID_t {
                 pub const m_Value: usize = 0x0; // uint32
@@ -47618,7 +47619,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // text
             // generic
-            // pT
             // CGCClientJobCMsgGCGetHeroStandingsResponse
             pub mod ShmupEnemyID_t {
                 pub const m_Value: usize = 0x0; // uint32
@@ -47954,7 +47954,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // p}
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -48229,7 +48228,6 @@ pub mod source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // 549.3.7
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             pub mod CClientAlphaProperty {
@@ -49364,319 +49362,6 @@ pub mod source2_dumper {
                 pub const m_flRadius: usize = 0x8; // float32
                 pub const m_nHitRegionIndex: usize = 0xC; // int32
                 pub const m_nDamageMultiplier: usize = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod H____WH__0H__H_D__ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _SH___H________ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod H____H____AVH___H__I_1 {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _SH___H_______B {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _SH___L__H_D_0 {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod H____H____AVH___H____0 {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _SH___L__H_D_0 {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _SH___H______KC {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod Drop_focus_entirely_from_the_window_containing_this_panel_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _SH___H______8C {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod H____H____AVH___H____0 {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _SH___H_______C {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _SH___H____8 {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _J__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _G__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            pub mod _J__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            pub mod _N__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _K__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _M__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _O__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            pub mod _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _E__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            pub mod _6__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            pub mod _3__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ____W_ {
             }
         }
     }

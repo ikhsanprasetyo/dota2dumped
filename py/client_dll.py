@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-08-15 10:12:37.025196 +07:00
+# 2026-08-16 22:33:31.962915700 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1428,6 +1428,10 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
+        class H____WH___H__H_ڹ__:
+            pass
+        class DOTAInternational2025PredictionRankings:
+            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1A28 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1A50 # ParticleIndex_t
@@ -28301,103 +28305,3 @@ class Schemas:
             m_flRadius = 0x8 # float32
             m_nHitRegionIndex = 0xC # int32
             m_nDamageMultiplier = 0x10 # int32
-        class H____WH__0H__H_D__:
-            pass
-        class _SH___H________:
-            pass
-        class H____H____AVH___H__I_1:
-            pass
-        class _SH___H_______B:
-            pass
-        class _SH___L__H_D_0:
-            pass
-        class H____H____AVH___H____0:
-            pass
-        class _SH___L__H_D_0:
-            pass
-        class _SH___H______KC:
-            pass
-        class Drop_focus_entirely_from_the_window_containing_this_panel_:
-            pass
-        class _SH___H______8C:
-            pass
-        class H____H____AVH___H____0:
-            pass
-        class _SH___H_______C:
-            pass
-        class _SH___H____8:
-            pass
-        class _F__W_:
-            pass
-        class _J__W_:
-            pass
-        class _F__W_:
-            pass
-        class _F__W_:
-            pass
-        class _F__W_:
-            pass
-        class _F__W_:
-            pass
-        class _G__W_:
-            pass
-        class _J__W_:
-            pass
-        class _F__W_:
-            pass
-        class _N__W_:
-            pass
-        class _F__W_:
-            pass
-        class _K__W_:
-            pass
-        class _F__W_:
-            pass
-        class _M__W_:
-            pass
-        class _F__W_:
-            pass
-        class _F__W_:
-            pass
-        class _F__W_:
-            pass
-        class _F__W_:
-            pass
-        class _F__W_:
-            pass
-        class _O__W_:
-            pass
-        class _F__W_:
-            pass
-        class _E__W_:
-            pass
-        class ____W_:
-            pass
-        class _6__W_:
-            pass
-        class _3__W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass
-        class ____W_:
-            pass

@@ -372,7 +372,7 @@
             "type": "Unknown"
           },
           {
-            "name": "E",
+            "name": "SA_SHADER_CACHE_DIR=E:\\SteamLibrary\\steamapps\\shadercache\\570",
             "type": "Unknown"
           },
           {
@@ -2016,6 +2016,10 @@
             "type": "Unknown"
           },
           {
+            "name": "in;C:\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Byte",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2106,6 +2110,10 @@
             "type": "Unknown"
           },
           {
+            "name": "in;C:\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Byte",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2190,6 +2198,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "in;C:\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Byte",
             "type": "Unknown"
           },
           {
@@ -2302,6 +2314,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "in;C:\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Byte",
             "type": "Unknown"
           },
           {
@@ -18324,7 +18340,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -18596,7 +18612,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           },
           {
@@ -18651,7 +18667,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           },
           {
@@ -18818,11 +18834,15 @@
             "type": "Unknown"
           },
           {
+            "name": "TE",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "es",
+            "name": "AppData\\Roaming\\Python\\Python312\\Scripts;C:\\Users\\ByteseekerPC\\.dotnet\\tools;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigr",
             "type": "Unknown"
           }
         ],
@@ -19082,7 +19102,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           },
           {
@@ -19168,11 +19188,15 @@
             "type": "Unknown"
           },
           {
+            "name": "TE",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "es",
+            "name": "AppData\\Roaming\\Python\\Python312\\Scripts;C:\\Users\\ByteseekerPC\\.dotnet\\tools;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigr",
             "type": "Unknown"
           },
           {
@@ -19937,6 +19961,10 @@
           },
           {
             "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "m32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\",
             "type": "Unknown"
           }
         ],

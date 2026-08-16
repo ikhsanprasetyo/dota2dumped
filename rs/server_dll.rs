@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 438
+        // Enum count: 442
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -20238,6 +20238,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // r
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -35958,6 +35959,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // ming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\b
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
@@ -39163,6 +39165,7 @@ pub mod source2_dumper {
             // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
             // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
             // ORIENTATION_FACE_ENTITY
+            // J!@
             // TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD
             // TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE
             // TRANSITION_TO_PATH_NODE_TRANSITIONING
@@ -39899,7 +39902,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // s\system32\WindowsPowerShell\v1.0\Modules
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CScriptComponent {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             }
@@ -55322,6 +55325,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // Y
+            // ;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -57345,8 +57349,6 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // SF;.WSH;.MSC
-            // SF;.WSH;.MSC
             pub mod CRemapFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -57457,7 +57459,6 @@ pub mod source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // PlatformMutex=c:/program files (x86)/steam/steam.exe
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57918,7 +57919,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // 549.3.7
             pub mod AI_BaseNPC_DebugSnapshotData_t {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -60106,8 +60106,6 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // SF;.WSH;.MSC
-            // SF;.WSH;.MSC
             pub mod CSkillInt {
                 pub const m_pValue: usize = 0x0; // int32[4]
             }
@@ -60167,8 +60165,6 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // SF;.WSH;.MSC
-            // SF;.WSH;.MSC
             pub mod CSkillFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -61693,7 +61689,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // 549.3.7
             pub mod AI_DefaultNPC_DebugSnapshotData_t {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol

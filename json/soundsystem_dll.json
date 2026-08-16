@@ -313,7 +313,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           },
           {
@@ -686,7 +686,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -1540,7 +1540,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -1887,7 +1887,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -2016,7 +2016,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -2588,7 +2588,7 @@
             "type": "Unknown"
           },
           {
-            "name": "49.3.7",
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -7410,6 +7410,10 @@
           },
           {
             "name": "CMD_IMPULSERESPONSE_DELAY",
+            "type": "Unknown"
+          },
+          {
+            "name": "TE",
             "type": "Unknown"
           },
           {

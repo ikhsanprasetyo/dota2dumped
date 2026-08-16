@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-08-15 10:12:37.025196 +07:00
+# 2026-08-16 22:33:31.962915700 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -9,11 +9,11 @@ class Interfaces:
     # Module: client.dll
     class ClientDll:
         ClientToolsInfo_001 = 0x5A81BD0
-        DOTA_CLIENT_GCCLIENT = 0x63591B0
+        DOTA_CLIENT_GCCLIENT = 0x6359140
         GameClientExports001 = 0x5A7D8F8
-        LegacyGameUI001 = 0x5AEBFC0
-        PanoramaUIClient001 = 0x5B18BF0
-        PlayButtonService001 = 0x5AF9C98
+        LegacyGameUI001 = 0x5AEC020
+        PanoramaUIClient001 = 0x5B18C50
+        PlayButtonService001 = 0x5AF9CF8
         Source2Client002 = 0x61AC1B0
         Source2ClientConfig001 = 0x6154620
         Source2ClientPrediction001 = 0x5A860B0
@@ -22,27 +22,27 @@ class Interfaces:
     class Engine2Dll:
         BenchmarkService001 = 0x614B60
         BugBugService001 = 0x614C60
-        BugService001 = 0x8CD3E0
-        ClientServerEngineLoopService_001 = 0x90EA80
-        ClientServerSharedHandleSystem001 = 0x90E0B0
+        BugService001 = 0x8CD430
+        ClientServerEngineLoopService_001 = 0x90EAD0
+        ClientServerSharedHandleSystem001 = 0x90E100
         EngineGameUI001 = 0x612400
-        EngineServiceMgr001 = 0x90E360
-        GameEventSystemClientV001 = 0x90E640
-        GameEventSystemServerV001 = 0x90E770
+        EngineServiceMgr001 = 0x90E3B0
+        GameEventSystemClientV001 = 0x90E690
+        GameEventSystemServerV001 = 0x90E7C0
         GameResourceServiceClientV001 = 0x614CA0
         GameResourceServiceServerV001 = 0x614D00
-        GameUIService_001 = 0x8CD830
+        GameUIService_001 = 0x8CD880
         HostStateMgr001 = 0x615490
         INETSUPPORT_001 = 0x60DA60
-        InputService_001 = 0x8CDB20
+        InputService_001 = 0x8CDB70
         KeyValueCache001 = 0x615540
-        MapListService_001 = 0x90C990
-        NetworkClientService_001 = 0x90CB20
-        NetworkP2PService_001 = 0x90CE60
-        NetworkServerService_001 = 0x90D010
+        MapListService_001 = 0x90C9E0
+        NetworkClientService_001 = 0x90CB70
+        NetworkP2PService_001 = 0x90CEB0
+        NetworkServerService_001 = 0x90D060
         NetworkService_001 = 0x614E70
-        RenderService_001 = 0x90D280
-        ScreenshotService001 = 0x90D540
+        RenderService_001 = 0x90D2D0
+        ScreenshotService001 = 0x90D590
         SimpleEngineLoopService_001 = 0x6155A0
         SoundService_001 = 0x614EB0
         Source2EngineToClient001 = 0x611D30
@@ -50,7 +50,7 @@ class Interfaces:
         Source2EngineToServer001 = 0x611E08
         Source2EngineToServerStringTable001 = 0x611E30
         SplitScreenService_001 = 0x615190
-        StatsService_001 = 0x90D900
+        StatsService_001 = 0x90D950
         ToolService_001 = 0x615300
         VENGINE_GAMEUIFUNCS_VERSION005 = 0x612490
         VProfService_001 = 0x615340

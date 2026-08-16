@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1544,6 +1544,10 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
+        },
+        H____WH___H__H_ڹ__: {
+        },
+        DOTAInternational2025PredictionRankings: {
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A28, // DOTA_SHOP_TYPE
@@ -32125,106 +32129,6 @@ export const Schemas = {
             m_flRadius: 0x8, // float32
             m_nHitRegionIndex: 0xC, // int32
             m_nDamageMultiplier: 0x10, // int32
-        },
-        H____WH__0H__H_D__: {
-        },
-        _SH___H________: {
-        },
-        H____H____AVH___H__I_1: {
-        },
-        _SH___H_______B: {
-        },
-        _SH___L__H_D_0: {
-        },
-        H____H____AVH___H____0: {
-        },
-        _SH___L__H_D_0: {
-        },
-        _SH___H______KC: {
-        },
-        Drop_focus_entirely_from_the_window_containing_this_panel_: {
-        },
-        _SH___H______8C: {
-        },
-        H____H____AVH___H____0: {
-        },
-        _SH___H_______C: {
-        },
-        _SH___H____8: {
-        },
-        _F__W_: {
-        },
-        _J__W_: {
-        },
-        _F__W_: {
-        },
-        _F__W_: {
-        },
-        _F__W_: {
-        },
-        _F__W_: {
-        },
-        _G__W_: {
-        },
-        _J__W_: {
-        },
-        _F__W_: {
-        },
-        _N__W_: {
-        },
-        _F__W_: {
-        },
-        _K__W_: {
-        },
-        _F__W_: {
-        },
-        _M__W_: {
-        },
-        _F__W_: {
-        },
-        _F__W_: {
-        },
-        _F__W_: {
-        },
-        _F__W_: {
-        },
-        _F__W_: {
-        },
-        _O__W_: {
-        },
-        _F__W_: {
-        },
-        _E__W_: {
-        },
-        ____W_: {
-        },
-        _6__W_: {
-        },
-        _3__W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
-        },
-        ____W_: {
         },
     },
 };

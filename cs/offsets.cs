@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 namespace Source2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
-        public const nint dwEntityList = 0x652EAF0;
-        public const nint dwGameEntitySystem = 0x652EAF0;
+        public const nint dwEntityList = 0x652EA80;
+        public const nint dwGameEntitySystem = 0x652EA80;
         public const nint dwGameEntitySystem_highestEntityIndex = 0x2090;
         public const nint dwGlobalVars = 0x5A7D200;
         public const nint dwLocalPlayerPawn = 0x5A86188;
@@ -16,7 +16,7 @@ namespace Source2Dumper.Offsets {
     // Module: engine2.dll
     public static class Engine2Dll {
         public const nint dwBuildNumber = 0x60ED24;
-        public const nint dwNetworkGameClient = 0x90CBC0;
+        public const nint dwNetworkGameClient = 0x90CC10;
         public const nint dwNetworkGameClient_clientTickCount = 0x378;
         public const nint dwNetworkGameClient_deltaTick = 0x24C;
         public const nint dwNetworkGameClient_isBackgroundMap = 0x2C141F;
@@ -24,8 +24,8 @@ namespace Source2Dumper.Offsets {
         public const nint dwNetworkGameClient_maxClients = 0x240;
         public const nint dwNetworkGameClient_serverTickCount = 0x24C;
         public const nint dwNetworkGameClient_signOnState = 0x230;
-        public const nint dwWindowHeight = 0x910F8C;
-        public const nint dwWindowWidth = 0x910F88;
+        public const nint dwWindowHeight = 0x910FDC;
+        public const nint dwWindowWidth = 0x910FD8;
     }
     // Module: inputsystem.dll
     public static class InputsystemDll {

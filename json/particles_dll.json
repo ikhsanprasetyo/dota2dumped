@@ -8827,6 +8827,10 @@
           {
             "name": "r",
             "type": "Unknown"
+          },
+          {
+            "name": "m32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -47703,10 +47707,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "549.3.7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61914,10 +61914,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "549.3.7",
             "type": "Unknown"
           }
         ],

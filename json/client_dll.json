@@ -1553,10 +1553,6 @@
             "type": "Unknown"
           },
           {
-            "name": "549.3.7",
-            "type": "Unknown"
-          },
-          {
             "name": "DAMAGE_EVENTS_ONLY",
             "type": "Unknown"
           },
@@ -60293,6 +60289,14 @@
             "type": "Unknown"
           },
           {
+            "name": "aming\\Python\\Python312\\Scripts;C:\\Users\\ByteseekerPC\\.dotnet\\tools;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity IDE\\",
+            "type": "Unknown"
+          },
+          {
+            "name": "aming\\Python\\Python312\\Scripts;C:\\Users\\ByteseekerPC\\.dotnet\\tools;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Antigravity IDE\\",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -62307,11 +62311,6 @@
         "metadata": [],
         "parent": null
       },
-      "Drop_focus_entirely_from_the_window_containing_this_panel_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "EngineCountdownTimer": {
         "fields": {
           "m_duration": 8,
@@ -62368,21 +62367,6 @@
           "m_flMinY": 56,
           "m_fowBlockerShape": 64
         },
-        "metadata": [],
-        "parent": null
-      },
-      "H____H____AVH___H__I_1": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "H____H____AVH___H____0": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "H____WH__0H__H_D__": {
-        "fields": {},
         "metadata": [],
         "parent": null
       },
@@ -63033,10 +63017,6 @@
             "type": "Unknown"
           },
           {
-            "name": "pT",
-            "type": "Unknown"
-          },
-          {
             "name": "CGCClientJobCMsgGCGetHeroStandingsResponse",
             "type": "Unknown"
           }
@@ -63050,10 +63030,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "p}",
             "type": "Unknown"
           },
           {
@@ -63102,10 +63078,6 @@
           },
           {
             "name": "generic",
-            "type": "Unknown"
-          },
-          {
-            "name": "pT",
             "type": "Unknown"
           },
           {
@@ -63340,185 +63312,6 @@
         ],
         "parent": null
       },
-      "_3__W_": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "CDOTA_Ability_Magnataur_ReversePolarity",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/default_keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "CSplitScreenSlot",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_6__W_": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "CDOTA_Ability_Magnataur_ReversePolarity",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_E__W_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_F__W_": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "CDOTA_Ability_Magnataur_ReversePolarity",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/default_keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "CSplitScreenSlot",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_G__W_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_J__W_": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "CDOTA_Ability_Magnataur_ReversePolarity",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/default_keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "CSplitScreenSlot",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_K__W_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_M__W_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_N__W_": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "CDOTA_Ability_Magnataur_ReversePolarity",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/default_keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "CSplitScreenSlot",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_O__W_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___H____8": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___H______8C": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___H______KC": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___H_______B": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___H_______C": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___H________": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___L__H_D_0": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "____W_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "audioparams_t": {
         "fields": {
           "localBits": 108,
@@ -63680,6 +63473,11 @@
           "WATER_WAKE_WATER_OVERHEAD": 4
         },
         "type": "uint32"
+      },
+      "DOTAInternational2025PredictionRankings": {
+        "alignment": 18,
+        "members": {},
+        "type": "unknown"
       },
       "DOTAKeybindCommand_t": {
         "alignment": 4,
@@ -65367,6 +65165,11 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
+      },
+      "H____WH___H__H_ڹ__": {
+        "alignment": 165,
+        "members": {},
+        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

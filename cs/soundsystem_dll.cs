@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -762,7 +762,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // 49.3.7
+        // l
         public static class CSosGroupActionSetSoundeventParameterSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_flMinValue = 0xC; // float32
@@ -861,7 +861,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // 49.3.7
+        // l
         public static class CSosGroupActionSoundeventMinMaxValuesSchema {
             public const nint m_strQueryPublicFieldName = 0x8; // CUtlString
             public const nint m_strDelayPublicFieldName = 0x10; // CUtlString
@@ -1481,7 +1481,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 49.3.7
+        // l
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -2190,7 +2190,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // 49.3.7
+        // l
         public static class CSosGroupActionSoundeventCountSchema {
             public const nint m_bExcludeStoppedSounds = 0x8; // bool
             public const nint m_strCountKeyName = 0x10; // CUtlString
@@ -2350,6 +2350,7 @@ namespace Source2Dumper.Schemas {
         // CMD_IMPULSERESPONSE_RESET
         // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
         // CMD_IMPULSERESPONSE_DELAY
+        // TE
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferName
@@ -3458,7 +3459,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // 49.3.7
+        // l
         public static class CSosGroupActionLimitSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_nStopType = 0xC; // SosActionStopType_t
@@ -4074,7 +4075,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // 49.3.7
+        // l
         public static class CSosGroupActionTimeLimitSchema {
             public const nint m_flMaxDuration = 0x8; // float32
         }

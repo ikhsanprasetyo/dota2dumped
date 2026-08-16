@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 #pragma once
 
@@ -926,6 +926,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // r
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -21813,7 +21814,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 549.3.7
             namespace C_OP_RemapBoundingVolumetoCP {
                 constexpr std::ptrdiff_t m_nOutControlPointNumber = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_flInputMin = 0x1E4; // float32
@@ -24338,7 +24338,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // 549.3.7
             namespace C_OP_EnableChildrenFromParentParticleCount {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nFirstChild = 0x1E4; // int32

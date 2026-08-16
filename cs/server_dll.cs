@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 438
+    // Enum count: 442
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -19840,6 +19840,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // r
+        // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -35560,6 +35561,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
+        // ming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\b
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
@@ -38765,6 +38767,7 @@ namespace Source2Dumper.Schemas {
         // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
         // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
         // ORIENTATION_FACE_ENTITY
+        // J!@
         // TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD
         // TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE
         // TRANSITION_TO_PATH_NODE_TRANSITIONING
@@ -39501,7 +39504,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // s\system32\WindowsPowerShell\v1.0\Modules
+        // he.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -54924,6 +54927,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Y
+        // ;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
@@ -56947,8 +56951,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
-        // SF;.WSH;.MSC
-        // SF;.WSH;.MSC
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57059,7 +57061,6 @@ namespace Source2Dumper.Schemas {
         // AI_PATHFINDING
         // END_SIM_HISTORY_TYPES
         // COMBINED
-        // PlatformMutex=c:/program files (x86)/steam/steam.exe
         // MATCH
         // HIERARCHY
         // COUNT
@@ -57520,7 +57521,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
-        // 549.3.7
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -59708,8 +59708,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // SF;.WSH;.MSC
-        // SF;.WSH;.MSC
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59769,8 +59767,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // SF;.WSH;.MSC
-        // SF;.WSH;.MSC
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -61295,7 +61291,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
-        // 549.3.7
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol

@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 pub const source2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
-            pub const dwEntityList: usize = 0x652EAF0;
-            pub const dwGameEntitySystem: usize = 0x652EAF0;
+            pub const dwEntityList: usize = 0x652EA80;
+            pub const dwGameEntitySystem: usize = 0x652EA80;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
             pub const dwGlobalVars: usize = 0x5A7D200;
             pub const dwLocalPlayerPawn: usize = 0x5A86188;
@@ -17,7 +17,7 @@ pub const source2_dumper = struct {
         // Module: engine2.dll
         pub const engine2_dll = struct {
             pub const dwBuildNumber: usize = 0x60ED24;
-            pub const dwNetworkGameClient: usize = 0x90CBC0;
+            pub const dwNetworkGameClient: usize = 0x90CC10;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x378;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
             pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C141F;
@@ -25,8 +25,8 @@ pub const source2_dumper = struct {
             pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
-            pub const dwWindowHeight: usize = 0x910F8C;
-            pub const dwWindowWidth: usize = 0x910F88;
+            pub const dwWindowHeight: usize = 0x910FDC;
+            pub const dwWindowWidth: usize = 0x910FD8;
         };
         // Module: inputsystem.dll
         pub const inputsystem_dll = struct {

@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 438
+        // Enum count: 442
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -19809,6 +19809,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // r
+            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -35529,6 +35530,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
+            // ming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\b
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
@@ -38734,6 +38736,7 @@ pub const source2_dumper = struct {
             // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
             // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
             // ORIENTATION_FACE_ENTITY
+            // J!@
             // TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD
             // TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE
             // TRANSITION_TO_PATH_NODE_TRANSITIONING
@@ -39470,7 +39473,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // s\system32\WindowsPowerShell\v1.0\Modules
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const CScriptComponent = struct {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             };
@@ -54893,6 +54896,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // Y
+            // ;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -56916,8 +56920,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // SF;.WSH;.MSC
-            // SF;.WSH;.MSC
             pub const CRemapFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -57028,7 +57030,6 @@ pub const source2_dumper = struct {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // PlatformMutex=c:/program files (x86)/steam/steam.exe
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57489,7 +57490,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // 549.3.7
             pub const AI_BaseNPC_DebugSnapshotData_t = struct {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -59677,8 +59677,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // SF;.WSH;.MSC
-            // SF;.WSH;.MSC
             pub const CSkillInt = struct {
                 pub const m_pValue: usize = 0x0; // int32[4]
             };
@@ -59738,8 +59736,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // SF;.WSH;.MSC
-            // SF;.WSH;.MSC
             pub const CSkillFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -61264,7 +61260,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // 549.3.7
             pub const AI_DefaultNPC_DebugSnapshotData_t = struct {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 #pragma once
 
@@ -768,7 +768,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // 49.3.7
+            // l
             namespace CSosGroupActionSetSoundeventParameterSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_flMinValue = 0xC; // float32
@@ -867,7 +867,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // 49.3.7
+            // l
             namespace CSosGroupActionSoundeventMinMaxValuesSchema {
                 constexpr std::ptrdiff_t m_strQueryPublicFieldName = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_strDelayPublicFieldName = 0x10; // CUtlString
@@ -1487,7 +1487,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 49.3.7
+            // l
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -2196,7 +2196,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // 49.3.7
+            // l
             namespace CSosGroupActionSoundeventCountSchema {
                 constexpr std::ptrdiff_t m_bExcludeStoppedSounds = 0x8; // bool
                 constexpr std::ptrdiff_t m_strCountKeyName = 0x10; // CUtlString
@@ -2356,6 +2356,7 @@ namespace source2_dumper {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
+            // TE
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3464,7 +3465,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // 49.3.7
+            // l
             namespace CSosGroupActionLimitSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_nStopType = 0xC; // SosActionStopType_t
@@ -4080,7 +4081,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // 49.3.7
+            // l
             namespace CSosGroupActionTimeLimitSchema {
                 constexpr std::ptrdiff_t m_flMaxDuration = 0x8; // float32
             }

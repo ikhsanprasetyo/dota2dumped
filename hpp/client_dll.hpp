@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7254
-        // Enum count: 118
+        // Class count: 7204
+        // Enum count: 120
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -37841,6 +37841,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // aming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\
+            // aming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -45527,7 +45529,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // text
             // generic
-            // pT
             // CGCClientJobCMsgGCGetHeroStandingsResponse
             namespace ShmupPathID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
@@ -47504,7 +47505,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // text
             // generic
-            // pT
             // CGCClientJobCMsgGCGetHeroStandingsResponse
             namespace ShmupEnemyID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
@@ -47840,7 +47840,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // p}
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -48115,7 +48114,6 @@ namespace source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // 549.3.7
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             namespace CClientAlphaProperty {
@@ -49250,319 +49248,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flRadius = 0x8; // float32
                 constexpr std::ptrdiff_t m_nHitRegionIndex = 0xC; // int32
                 constexpr std::ptrdiff_t m_nDamageMultiplier = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 0
-            namespace H____WH__0H__H_D__ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _SH___H________ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace H____H____AVH___H__I_1 {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _SH___H_______B {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _SH___L__H_D_0 {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace H____H____AVH___H____0 {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _SH___L__H_D_0 {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _SH___H______KC {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace Drop_focus_entirely_from_the_window_containing_this_panel_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _SH___H______8C {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace H____H____AVH___H____0 {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _SH___H_______C {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _SH___H____8 {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _J__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _G__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            namespace _J__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            namespace _N__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _K__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _M__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            // n
-            // l
-            // `
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _O__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            namespace _F__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _E__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            namespace _6__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            namespace _3__W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CDOTA_Ability_Magnataur_ReversePolarity
-            // file://{resources}/default_keybinds.cfg
-            // file://{resources}/keybinds.cfg
-            // r
-            // CSplitScreenSlot
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ____W_ {
             }
         }
     }

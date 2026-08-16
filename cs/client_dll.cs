@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-15 10:12:37.025196 +07:00
+// 2026-08-16 22:33:31.962915700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7254
-    // Enum count: 118
+    // Class count: 7204
+    // Enum count: 120
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -37835,6 +37835,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
+        // aming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\
+        // aming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -45521,7 +45523,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // text
         // generic
-        // pT
         // CGCClientJobCMsgGCGetHeroStandingsResponse
         public static class ShmupPathID_t {
             public const nint m_Value = 0x0; // uint32
@@ -47498,7 +47499,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // text
         // generic
-        // pT
         // CGCClientJobCMsgGCGetHeroStandingsResponse
         public static class ShmupEnemyID_t {
             public const nint m_Value = 0x0; // uint32
@@ -47834,7 +47834,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // p}
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
@@ -48109,7 +48108,6 @@ namespace Source2Dumper.Schemas {
         // DMG_DROWNRECOVER
         // DMG_ACID
         // DMG_LASTGENERICFLAG
-        // 549.3.7
         // DAMAGE_EVENTS_ONLY
         // DAMAGE_YES
         public static class CClientAlphaProperty {
@@ -49244,319 +49242,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_flRadius = 0x8; // float32
             public const nint m_nHitRegionIndex = 0xC; // int32
             public const nint m_nDamageMultiplier = 0x10; // int32
-        }
-        // Parent: None
-        // Field count: 0
-        public static class H____WH__0H__H_D__ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _SH___H________ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class H____H____AVH___H__I_1 {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _SH___H_______B {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _SH___L__H_D_0 {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class H____H____AVH___H____0 {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _SH___L__H_D_0 {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _SH___H______KC {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class Drop_focus_entirely_from_the_window_containing_this_panel_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _SH___H______8C {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class H____H____AVH___H____0 {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _SH___H_______C {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _SH___H____8 {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        // n
-        // l
-        // `
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _J__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        // n
-        // l
-        // `
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _G__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        public static class _J__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        // n
-        // l
-        // `
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        public static class _N__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _K__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        // n
-        // l
-        // `
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _M__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        // n
-        // l
-        // `
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        // n
-        // l
-        // `
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _O__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        public static class _F__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _E__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        public static class _6__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        public static class _3__W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // CDOTA_Ability_Magnataur_ReversePolarity
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // r
-        // CSplitScreenSlot
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____W_ {
         }
     }
 }
