@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-16 22:33:31.962915700 +07:00
+// 2026-08-19 16:10:01.345080400 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -14,7 +14,7 @@ export const Interfaces = {
         PanoramaUIClient001: 0x5B18C50,
         PlayButtonService001: 0x5AF9CF8,
         Source2Client002: 0x61AC1B0,
-        Source2ClientConfig001: 0x6154620,
+        Source2ClientConfig001: 0x6154610,
         Source2ClientPrediction001: 0x5A860B0,
         Source2ClientUI001: 0x586F5C0,
     },
@@ -138,7 +138,7 @@ export const Interfaces = {
         Source2GameDirector001: 0x5038EB0,
         Source2GameEntities001: 0x495FA30,
         Source2Server001: 0x495F880,
-        Source2ServerConfig001: 0x4F63C68,
+        Source2ServerConfig001: 0x4F63C58,
     },
     soundsystem_dll: {
         SoundBugBugService001_Client: 0x553250,

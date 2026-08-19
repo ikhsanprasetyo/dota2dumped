@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-16 22:33:31.962915700 +07:00
+// 2026-08-19 16:10:01.345080400 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -19,7 +19,7 @@ pub mod source2_dumper {
             pub const PanoramaUIClient001: usize = 0x5B18C50;
             pub const PlayButtonService001: usize = 0x5AF9CF8;
             pub const Source2Client002: usize = 0x61AC1B0;
-            pub const Source2ClientConfig001: usize = 0x6154620;
+            pub const Source2ClientConfig001: usize = 0x6154610;
             pub const Source2ClientPrediction001: usize = 0x5A860B0;
             pub const Source2ClientUI001: usize = 0x586F5C0;
         }
@@ -163,7 +163,7 @@ pub mod source2_dumper {
             pub const Source2GameDirector001: usize = 0x5038EB0;
             pub const Source2GameEntities001: usize = 0x495FA30;
             pub const Source2Server001: usize = 0x495F880;
-            pub const Source2ServerConfig001: usize = 0x4F63C68;
+            pub const Source2ServerConfig001: usize = 0x4F63C58;
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {

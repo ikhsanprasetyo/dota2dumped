@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-16 22:33:31.962915700 +07:00
+// 2026-08-19 16:10:01.345080400 +07:00
 
 package interfaces
 
@@ -13,7 +13,7 @@ const (
     ClientDll_PanoramaUIClient001 = 0x5B18C50
     ClientDll_PlayButtonService001 = 0x5AF9CF8
     ClientDll_Source2Client002 = 0x61AC1B0
-    ClientDll_Source2ClientConfig001 = 0x6154620
+    ClientDll_Source2ClientConfig001 = 0x6154610
     ClientDll_Source2ClientPrediction001 = 0x5A860B0
     ClientDll_Source2ClientUI001 = 0x586F5C0
     Engine2Dll_BenchmarkService001 = 0x614B60
@@ -97,7 +97,7 @@ const (
     ServerDll_Source2GameDirector001 = 0x5038EB0
     ServerDll_Source2GameEntities001 = 0x495FA30
     ServerDll_Source2Server001 = 0x495F880
-    ServerDll_Source2ServerConfig001 = 0x4F63C68
+    ServerDll_Source2ServerConfig001 = 0x4F63C58
     SoundsystemDll_SoundBugBugService001_Client = 0x553250
     SoundsystemDll_SoundOpSystem001 = 0x553130
     SoundsystemDll_SoundOpSystemEdit001 = 0x553040

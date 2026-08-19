@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-16 22:33:31.962915700 +07:00
+// 2026-08-19 16:10:01.345080400 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -16,7 +16,7 @@ namespace Source2Dumper.Interfaces {
         public const nint PanoramaUIClient001 = 0x5B18C50;
         public const nint PlayButtonService001 = 0x5AF9CF8;
         public const nint Source2Client002 = 0x61AC1B0;
-        public const nint Source2ClientConfig001 = 0x6154620;
+        public const nint Source2ClientConfig001 = 0x6154610;
         public const nint Source2ClientPrediction001 = 0x5A860B0;
         public const nint Source2ClientUI001 = 0x586F5C0;
     }
@@ -160,7 +160,7 @@ namespace Source2Dumper.Interfaces {
         public const nint Source2GameDirector001 = 0x5038EB0;
         public const nint Source2GameEntities001 = 0x495FA30;
         public const nint Source2Server001 = 0x495F880;
-        public const nint Source2ServerConfig001 = 0x4F63C68;
+        public const nint Source2ServerConfig001 = 0x4F63C58;
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {

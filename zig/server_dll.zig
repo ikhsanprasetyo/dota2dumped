@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-16 22:33:31.962915700 +07:00
+// 2026-08-19 16:10:01.345080400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 442
+        // Enum count: 440
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -19808,8 +19808,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // r
-            // m32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -35530,7 +35528,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // ming\Python\Python312\Scripts;C:\Users\ByteseekerPC\.dotnet\tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Antigravity IDE\b
+            // form-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Users\Byteseek
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
@@ -38736,7 +38734,6 @@ pub const source2_dumper = struct {
             // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
             // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
             // ORIENTATION_FACE_ENTITY
-            // J!@
             // TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD
             // TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE
             // TRANSITION_TO_PATH_NODE_TRANSITIONING
@@ -39473,7 +39470,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // 70\fozpipelinesv6\steamapprun_pipeline_cache
             pub const CScriptComponent = struct {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             };
@@ -54896,7 +54893,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // Y
-            // ;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)
+            // Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Byteseeker 
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -57030,6 +57027,7 @@ pub const source2_dumper = struct {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
+            // nProgramFiles(x86)=C:\Program Files (x86)\Common Files
             // MATCH
             // HIERARCHY
             // COUNT
