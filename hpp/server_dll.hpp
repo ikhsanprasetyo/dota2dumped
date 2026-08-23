@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 440
+        // Enum count: 439
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -33755,6 +33755,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // D_HT
+            // D_FR
+            // D_LI
             namespace PhysicsRagdollPose_t {
                 constexpr std::ptrdiff_t m_Transforms = 0x8; // CNetworkUtlVectorBase<CTransform>
                 constexpr std::ptrdiff_t m_hOwner = 0x20; // CHandle<CBaseEntity>
@@ -35565,9 +35568,11 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // form-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Users\Byteseek
+            // A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
+            // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField
@@ -39507,7 +39512,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 70\fozpipelinesv6\steamapprun_pipeline_cache
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CScriptComponent {
                 constexpr std::ptrdiff_t m_scriptClassName = 0x30; // CUtlSymbolLarge
             }
@@ -54930,7 +54935,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // Y
-            // Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Byteseeker 
+            // umps
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -56954,6 +56959,7 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // D
             namespace CRemapFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -57064,7 +57070,6 @@ namespace source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // nProgramFiles(x86)=C:\Program Files (x86)\Common Files
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57520,11 +57525,47 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // DFLAG_SUPPRESS_HEALTH_CHANGES
+            // DFLAG_SUPPRESS_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_EFFECTS
+            // DFLAG_PREVENT_DEATH
+            // DFLAG_FORCE_DEATH
+            // DFLAG_ALWAYS_GIB
+            // DFLAG_NEVER_GIB
+            // DFLAG_REMOVE_NO_RAGDOLL
+            // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
+            // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
+            // DFLAG_RADIUS_DMG
+            // DFLAG_FORCEREDUCEARMOR_DMG
+            // DFLAG_SUPPRESS_INTERRUPT_FLINCH
+            // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
+            // DFLAG_SUPPRESS_BREAKABLES
+            // DFLAG_FORCE_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
+            // DFLAG_ALLOW_NON_AUTHORITATIVE
+            // DMG_LASTDFLAG
+            // DMG_CRUSH
+            // DMG_BULLET
+            // DMG_SLASH
+            // DMG_BURN
+            // DMG_VEHICLE
+            // DMG_FALL
+            // DMG_BLAST
+            // DMG_CLUB
+            // DMG_SHOCK
+            // DMG_SONIC
+            // DMG_ENERGYBEAM
+            // DMG_BUCKSHOT
+            // DMG_BLAST_SURFACE
+            // DMG_DISSOLVE
+            // DMG_DROWN
+            // DMG_POISON
+            // DMG_RADIATION
+            // DMG_DROWNRECOVER
+            // DMG_ACID
+            // DMG_LASTGENERICFLAG
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MDebugSnapshotDataSummaryFn
-            // n
             namespace AI_BaseNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t npc_state = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -58079,9 +58120,6 @@ namespace source2_dumper {
             // .
             // .
             // n
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
@@ -58754,6 +58792,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace ExternalAnimGraphHandle_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -58869,6 +58908,7 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace SceneEventId_t {
@@ -59310,6 +59350,11 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // \
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -59487,7 +59532,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             namespace ragdollelement_t {
                 constexpr std::ptrdiff_t originParentSpace = 0x0; // Vector
                 constexpr std::ptrdiff_t parentIndex = 0x20; // int32
@@ -59697,9 +59741,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CavernCrawlRewardType_t {
@@ -59712,6 +59753,7 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // D
             namespace CSkillInt {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // int32[4]
             }
@@ -59771,6 +59813,7 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // D
             namespace CSkillFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -60991,14 +61034,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // SOUNDCTRL_CHANGE_PITCH
-            // SOUNDCTRL_STOP
-            // SOUNDCTRL_DESTROY
-            // SOUNDCTRL_FADEOUT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace INavPathCostAreaFilter {
             }
@@ -61458,8 +61493,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MKV3TransferSaveOpsForField
-            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y
@@ -61647,6 +61680,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
+            // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField

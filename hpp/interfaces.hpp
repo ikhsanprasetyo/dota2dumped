@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 #pragma once
 
@@ -16,7 +16,7 @@ namespace source2_dumper {
         // Module: client.dll
         namespace client_dll {
             constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x5A81BD0;
-            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x6359140;
+            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x6359170;
             constexpr std::ptrdiff_t GameClientExports001 = 0x5A7D8F8;
             constexpr std::ptrdiff_t LegacyGameUI001 = 0x5AEC020;
             constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5B18C50;
@@ -159,14 +159,14 @@ namespace source2_dumper {
         }
         // Module: server.dll
         namespace server_dll {
-            constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x4753A00;
+            constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x4753A10;
             constexpr std::ptrdiff_t NavGameTest001 = 0x49F7220;
             constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x4960288;
             constexpr std::ptrdiff_t Source2GameClients001 = 0x495A440;
             constexpr std::ptrdiff_t Source2GameDirector001 = 0x5038EB0;
             constexpr std::ptrdiff_t Source2GameEntities001 = 0x495FA30;
             constexpr std::ptrdiff_t Source2Server001 = 0x495F880;
-            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F63C58;
+            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F63C48;
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {

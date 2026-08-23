@@ -50,23 +50,167 @@
             "type": "Unknown"
           },
           {
+            "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_PHYSICS_FORCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_EFFECTS",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_PREVENT_DEATH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_FORCE_DEATH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_ALWAYS_GIB",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_NEVER_GIB",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_REMOVE_NO_RAGDOLL",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_DAMAGE_MODIFICATION",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_RADIUS_DMG",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_FORCEREDUCEARMOR_DMG",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_INTERRUPT_FLINCH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_IGNORE_DESTRUCTIBLE_PARTS",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_BREAKABLES",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_FORCE_PHYSICS_FORCE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX",
+            "type": "Unknown"
+          },
+          {
+            "name": "DFLAG_ALLOW_NON_AUTHORITATIVE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_LASTDFLAG",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_CRUSH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_BULLET",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_SLASH",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_BURN",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_VEHICLE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_FALL",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_BLAST",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_CLUB",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_SHOCK",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_SONIC",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_ENERGYBEAM",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_BUCKSHOT",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_BLAST_SURFACE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_DISSOLVE",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_DROWN",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_POISON",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_RADIATION",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_DROWNRECOVER",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_ACID",
+            "type": "Unknown"
+          },
+          {
+            "name": "DMG_LASTGENERICFLAG",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MDebugSnapshotDataSummaryFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "n",
             "type": "Unknown"
           }
         ],
@@ -263,10 +407,6 @@
           },
           {
             "name": "COMBINED",
-            "type": "Unknown"
-          },
-          {
-            "name": "nProgramFiles(x86)=C:\\Program Files (x86)\\Common Files",
             "type": "Unknown"
           },
           {
@@ -644,6 +784,14 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
@@ -1625,7 +1773,7 @@
             "type": "Unknown"
           },
           {
-            "name": "form-tools;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Ollama;G:\\Program Files\\Android\\Android Studio\\jbr\\bin;C:\\Users\\Byteseek",
+            "name": "A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled",
             "type": "Unknown"
           },
           {
@@ -1634,6 +1782,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
@@ -53258,7 +53414,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\Byteseeker ",
+            "name": "umps",
             "type": "Unknown"
           },
           {
@@ -53392,14 +53548,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
-            "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
@@ -62094,6 +62242,10 @@
           {
             "name": "Y",
             "type": "Unknown"
+          },
+          {
+            "name": "D",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62325,7 +62477,7 @@
             "type": "Unknown"
           },
           {
-            "name": "70\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "he.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -62644,6 +62796,10 @@
           {
             "name": "Y",
             "type": "Unknown"
+          },
+          {
+            "name": "D",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62663,6 +62819,10 @@
           },
           {
             "name": "Y",
+            "type": "Unknown"
+          },
+          {
+            "name": "D",
             "type": "Unknown"
           }
         ],
@@ -63817,18 +63977,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -63864,18 +64012,6 @@
           },
           {
             "name": "n",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -64628,6 +64764,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -65295,38 +65435,6 @@
       "INavPathCostAreaFilter": {
         "fields": {},
         "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_CHANGE_PITCH",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_STOP",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_DESTROY",
-            "type": "Unknown"
-          },
-          {
-            "name": "SOUNDCTRL_FADEOUT",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -67173,6 +67281,26 @@
             "type": "Unknown"
           },
           {
+            "name": "\\",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -68278,6 +68406,18 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "D_HT",
+            "type": "Unknown"
+          },
+          {
+            "name": "D_FR",
+            "type": "Unknown"
+          },
+          {
+            "name": "D_LI",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -68968,6 +69108,10 @@
           "m_Value": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -69998,10 +70142,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -79545,18 +79685,23 @@
         },
         "type": "uint32"
       },
-      "___T_": {
+      "_E____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "____T_": {
+      "_W____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_t__T_": {
+      "______": {
         "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_t____": {
+        "alignment": 97,
         "members": {},
         "type": "unknown"
       },

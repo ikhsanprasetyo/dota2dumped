@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 #pragma once
 
@@ -3564,9 +3564,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // es
+            // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
-            // id\Sdk\platform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Use
+            // l
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5460,9 +5460,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // es
+            // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
-            // id\Sdk\platform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Use
+            // l
             namespace CParticleVecInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
@@ -5892,7 +5892,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // C\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\;C:\Users\Bytes
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6001,7 +6000,7 @@ namespace source2_dumper {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
-            // c
+            // eamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -6811,6 +6810,7 @@ namespace source2_dumper {
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
             // PF_ROUND_TYPE_COUNT
+            // XCOORD
             // MPropertyFriendlyName
             // PARTICLE_DIR_NOISE_CURL
             // PARTICLE_DIR_NOISE_WORLEY_BASIC
@@ -7338,6 +7338,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // w
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8546,6 +8547,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // w
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8897,6 +8899,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // w
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9330,7 +9333,7 @@ namespace source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // c
+            // eamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -9609,7 +9612,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // C\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\;C:\Users\Bytes
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10225,7 +10227,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // C\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\;C:\Users\Bytes
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10295,7 +10296,7 @@ namespace source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // c
+            // eamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -10459,7 +10460,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ward
+            // npc_dota_juggernaut_healing_ward
             // MPropertyCustomFGDType
             namespace CBoneConstraintRbf {
                 constexpr std::ptrdiff_t m_inputBones = 0x20; // CUtlVector<std::pair<CUtlString,uint32>>
@@ -10853,7 +10854,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ward
+            // npc_dota_juggernaut_healing_ward
             // MPropertyCustomFGDType
             namespace CBoneConstraintPoseSpaceBone {
                 constexpr std::ptrdiff_t m_inputList = 0x60; // CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
@@ -11158,7 +11159,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // C\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\;C:\Users\Bytes
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11193,7 +11193,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ward
+            // npc_dota_juggernaut_healing_ward
             // MPropertyCustomFGDType
             namespace CBoneConstraintDotToMorph {
                 constexpr std::ptrdiff_t m_sBoneName = 0x20; // CUtlString
@@ -11694,6 +11694,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // w
             namespace CParticleFloatInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleFloatType_t
                 constexpr std::ptrdiff_t m_nMapType = 0x14; // ParticleFloatMapType_t
@@ -12969,6 +12970,7 @@ namespace source2_dumper {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
+            // .
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY
@@ -13102,6 +13104,7 @@ namespace source2_dumper {
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
             // PF_ROUND_TYPE_COUNT
+            // XCOORD
             // MPropertyFriendlyName
             // PARTICLE_DIR_NOISE_CURL
             // PARTICLE_DIR_NOISE_WORLEY_BASIC

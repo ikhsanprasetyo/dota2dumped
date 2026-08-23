@@ -313,6 +313,10 @@
             "type": "Unknown"
           },
           {
+            "name": "w",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -325,7 +329,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ward",
+            "name": "npc_dota_juggernaut_healing_ward",
             "type": "Unknown"
           }
         ],
@@ -491,7 +495,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ward",
+            "name": "npc_dota_juggernaut_healing_ward",
             "type": "Unknown"
           }
         ],
@@ -637,7 +641,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ward",
+            "name": "npc_dota_juggernaut_healing_ward",
             "type": "Unknown"
           }
         ],
@@ -679,6 +683,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "w",
             "type": "Unknown"
           }
         ],
@@ -1530,6 +1538,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "w",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1873,6 +1885,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "w",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1997,6 +2013,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "w",
             "type": "Unknown"
           }
         ],
@@ -2566,6 +2586,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "w",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2847,10 +2871,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@x",
             "type": "Unknown"
           },
           {
@@ -5626,14 +5646,6 @@
             "type": "Unknown"
           },
           {
-            "name": "0t",
-            "type": "Unknown"
-          },
-          {
-            "name": "@t",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -5941,14 +5953,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0t",
-            "type": "Unknown"
-          },
-          {
-            "name": "@t",
             "type": "Unknown"
           },
           {
@@ -6481,14 +6485,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0t",
-            "type": "Unknown"
-          },
-          {
-            "name": "@t",
             "type": "Unknown"
           },
           {
@@ -7417,6 +7413,10 @@
             "type": "Unknown"
           },
           {
+            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8323,10 +8323,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@x",
             "type": "Unknown"
           },
           {
@@ -11249,7 +11245,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ward",
+            "name": "npc_dota_juggernaut_healing_ward",
             "type": "Unknown"
           }
         ],

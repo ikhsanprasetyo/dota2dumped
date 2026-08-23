@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 440
+    // Enum count: 439
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -33749,6 +33749,9 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // D_HT
+        // D_FR
+        // D_LI
         public static class PhysicsRagdollPose_t {
             public const nint m_Transforms = 0x8; // CNetworkUtlVectorBase<CTransform>
             public const nint m_hOwner = 0x20; // CHandle<CBaseEntity>
@@ -35559,9 +35562,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // form-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Users\Byteseek
+        // A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MKV3TransferSaveOpsForField
+        // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
         // MKV3TransferSaveOpsForField
@@ -39501,7 +39506,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 70\fozpipelinesv6\steamapprun_pipeline_cache
+        // he.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -54924,7 +54929,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Y
-        // Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Byteseeker 
+        // umps
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
@@ -56948,6 +56953,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
+        // D
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57058,7 +57064,6 @@ namespace Source2Dumper.Schemas {
         // AI_PATHFINDING
         // END_SIM_HISTORY_TYPES
         // COMBINED
-        // nProgramFiles(x86)=C:\Program Files (x86)\Common Files
         // MATCH
         // HIERARCHY
         // COUNT
@@ -57514,11 +57519,47 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // DFLAG_SUPPRESS_HEALTH_CHANGES
+        // DFLAG_SUPPRESS_PHYSICS_FORCE
+        // DFLAG_SUPPRESS_EFFECTS
+        // DFLAG_PREVENT_DEATH
+        // DFLAG_FORCE_DEATH
+        // DFLAG_ALWAYS_GIB
+        // DFLAG_NEVER_GIB
+        // DFLAG_REMOVE_NO_RAGDOLL
+        // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
+        // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
+        // DFLAG_RADIUS_DMG
+        // DFLAG_FORCEREDUCEARMOR_DMG
+        // DFLAG_SUPPRESS_INTERRUPT_FLINCH
+        // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
+        // DFLAG_SUPPRESS_BREAKABLES
+        // DFLAG_FORCE_PHYSICS_FORCE
+        // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
+        // DFLAG_ALLOW_NON_AUTHORITATIVE
+        // DMG_LASTDFLAG
+        // DMG_CRUSH
+        // DMG_BULLET
+        // DMG_SLASH
+        // DMG_BURN
+        // DMG_VEHICLE
+        // DMG_FALL
+        // DMG_BLAST
+        // DMG_CLUB
+        // DMG_SHOCK
+        // DMG_SONIC
+        // DMG_ENERGYBEAM
+        // DMG_BUCKSHOT
+        // DMG_BLAST_SURFACE
+        // DMG_DISSOLVE
+        // DMG_DROWN
+        // DMG_POISON
+        // DMG_RADIATION
+        // DMG_DROWNRECOVER
+        // DMG_ACID
+        // DMG_LASTGENERICFLAG
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MDebugSnapshotDataSummaryFn
-        // n
         public static class AI_BaseNPC_DebugSnapshotData_t {
             public const nint npc_state = 0x8; // CGlobalSymbol
             public const nint current_enemy = 0x10; // CHandle<CBaseEntity>
@@ -58073,9 +58114,6 @@ namespace Source2Dumper.Schemas {
         // .
         // .
         // n
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
@@ -58748,6 +58786,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class ExternalAnimGraphHandle_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -58863,6 +58902,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class SceneEventId_t {
@@ -59304,6 +59344,11 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // \
+        // MPropertyFriendlyName
+        // MPropertyDescription
+        // MPropertyFriendlyName
+        // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -59481,7 +59526,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // e
         public static class ragdollelement_t {
             public const nint originParentSpace = 0x0; // Vector
             public const nint parentIndex = 0x20; // int32
@@ -59691,9 +59735,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CavernCrawlRewardType_t {
@@ -59706,6 +59747,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
+        // D
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59765,6 +59807,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
+        // D
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -60985,14 +61028,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // SOUNDCTRL_CHANGE_PITCH
-        // SOUNDCTRL_STOP
-        // SOUNDCTRL_DESTROY
-        // SOUNDCTRL_FADEOUT
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class INavPathCostAreaFilter {
         }
@@ -61452,8 +61487,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MKV3TransferSaveOpsForField
-        // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // Y
@@ -61641,6 +61674,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MKV3TransferSaveOpsForField
+        // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
         // MKV3TransferSaveOpsForField

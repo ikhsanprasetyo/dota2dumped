@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 440
+        // Enum count: 439
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -34147,6 +34147,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // D_HT
+            // D_FR
+            // D_LI
             pub mod PhysicsRagdollPose_t {
                 pub const m_Transforms: usize = 0x8; // CNetworkUtlVectorBase<CTransform>
                 pub const m_hOwner: usize = 0x20; // CHandle<CBaseEntity>
@@ -35957,9 +35960,11 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // form-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Users\Byteseek
+            // A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
+            // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField
@@ -39899,7 +39904,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 70\fozpipelinesv6\steamapprun_pipeline_cache
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CScriptComponent {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             }
@@ -55322,7 +55327,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // Y
-            // Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Byteseeker 
+            // umps
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -57346,6 +57351,7 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // D
             pub mod CRemapFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -57456,7 +57462,6 @@ pub mod source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // nProgramFiles(x86)=C:\Program Files (x86)\Common Files
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57912,11 +57917,47 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // DFLAG_SUPPRESS_HEALTH_CHANGES
+            // DFLAG_SUPPRESS_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_EFFECTS
+            // DFLAG_PREVENT_DEATH
+            // DFLAG_FORCE_DEATH
+            // DFLAG_ALWAYS_GIB
+            // DFLAG_NEVER_GIB
+            // DFLAG_REMOVE_NO_RAGDOLL
+            // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
+            // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
+            // DFLAG_RADIUS_DMG
+            // DFLAG_FORCEREDUCEARMOR_DMG
+            // DFLAG_SUPPRESS_INTERRUPT_FLINCH
+            // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
+            // DFLAG_SUPPRESS_BREAKABLES
+            // DFLAG_FORCE_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
+            // DFLAG_ALLOW_NON_AUTHORITATIVE
+            // DMG_LASTDFLAG
+            // DMG_CRUSH
+            // DMG_BULLET
+            // DMG_SLASH
+            // DMG_BURN
+            // DMG_VEHICLE
+            // DMG_FALL
+            // DMG_BLAST
+            // DMG_CLUB
+            // DMG_SHOCK
+            // DMG_SONIC
+            // DMG_ENERGYBEAM
+            // DMG_BUCKSHOT
+            // DMG_BLAST_SURFACE
+            // DMG_DISSOLVE
+            // DMG_DROWN
+            // DMG_POISON
+            // DMG_RADIATION
+            // DMG_DROWNRECOVER
+            // DMG_ACID
+            // DMG_LASTGENERICFLAG
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MDebugSnapshotDataSummaryFn
-            // n
             pub mod AI_BaseNPC_DebugSnapshotData_t {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -58471,9 +58512,6 @@ pub mod source2_dumper {
             // .
             // .
             // n
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
@@ -59146,6 +59184,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod ExternalAnimGraphHandle_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -59261,6 +59300,7 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod SceneEventId_t {
@@ -59702,6 +59742,11 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // \
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -59879,7 +59924,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             pub mod ragdollelement_t {
                 pub const originParentSpace: usize = 0x0; // Vector
                 pub const parentIndex: usize = 0x20; // int32
@@ -60089,9 +60133,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CavernCrawlRewardType_t {
@@ -60104,6 +60145,7 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // D
             pub mod CSkillInt {
                 pub const m_pValue: usize = 0x0; // int32[4]
             }
@@ -60163,6 +60205,7 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // D
             pub mod CSkillFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -61383,14 +61426,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // SOUNDCTRL_CHANGE_PITCH
-            // SOUNDCTRL_STOP
-            // SOUNDCTRL_DESTROY
-            // SOUNDCTRL_FADEOUT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod INavPathCostAreaFilter {
             }
@@ -61850,8 +61885,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MKV3TransferSaveOpsForField
-            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y
@@ -62039,6 +62072,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
+            // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField

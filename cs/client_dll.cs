@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7204
-    // Enum count: 120
+    // Class count: 7266
+    // Enum count: 118
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -5764,6 +5764,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // generic
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CPulseCell_ShmupWaitForDuration {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
@@ -7377,6 +7379,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 570
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -9842,6 +9845,7 @@ namespace Source2Dumper.Schemas {
         // AMMO_FLAG_MAX
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
         public static class CBaseAnimGraphController {
@@ -17806,8 +17810,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 14
         //
         // Metadata:
-        // l
-        // Y
+        // generic
         public static class C_DOTAWorldParticleSystem {
             public const nint m_nType = 0xA88; // int32
             public const nint m_iClientEffectIndex = 0xA8C; // ParticleIndex_t
@@ -18924,9 +18927,14 @@ namespace Source2Dumper.Schemas {
         // Field count: 29
         //
         // Metadata:
-        // West
-        // South
-        // Down
+        // East
+        // North
+        // Up
+        // eNotifyWhenFinished
+        // eNotifyTriggered
+        // BC_EMPTY
+        // BC_PROP_GROUP_OVERRIDE
+        // BC_PARTICLE_SYSTEM_OVERRIDE
         public static class C_EnvCombinedLightProbeVolume {
             public const nint m_Entity_Color = 0x1668; // Color
             public const nint m_Entity_flBrightness = 0x166C; // float32
@@ -26385,7 +26393,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MPropertyDescription
-        // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
         public static class CBodyComponentBaseAnimGraph {
@@ -28366,6 +28373,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // 570
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -32636,9 +32644,11 @@ namespace Source2Dumper.Schemas {
         // Field count: 18
         //
         // Metadata:
-        // West
-        // South
-        // Down
+        // East
+        // North
+        // Up
+        // eNotifyWhenFinished
+        // eNotifyTriggered
         public static class C_EnvCubemap {
             public const nint m_Entity_hCubemapTexture = 0x670; // CStrongHandle<InfoForResourceTypeCTextureBase>
             public const nint m_Entity_bCustomCubemapTexture = 0x678; // bool
@@ -37835,8 +37845,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // tform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Users\Bytesee
-        // tform-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Users\Bytesee
+        // SA_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
+        // SA_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -40635,6 +40645,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MPropertyDescription
         // MPropertyDescription
         // MGetKV3ClassDefaults
         public static class CLogicalEntity {
@@ -45520,9 +45531,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // text
-        // generic
         // CGCClientJobCMsgGCGetHeroStandingsResponse
         public static class ShmupPathID_t {
             public const nint m_Value = 0x0; // uint32
@@ -46804,6 +46813,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // .2.840.113549.1.1.1
         // MGetKV3ClassDefaults
         // Y
         // MGetKV3ClassDefaults
@@ -47160,7 +47170,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // text
+        // MGetKV3ClassDefaults
         public static class CDOTASlarkJailbreakStageDefinition {
             public const nint m_sLayout = 0x0; // CUtlString
         }
@@ -47496,9 +47506,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // text
-        // generic
         // CGCClientJobCMsgGCGetHeroStandingsResponse
         public static class ShmupEnemyID_t {
             public const nint m_Value = 0x0; // uint32
@@ -47838,6 +47846,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // generic
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class ShmupEventID_t {
@@ -48213,6 +48223,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // .2.840.113549.1.1.1
         public static class CSurvivorsPowerUpDefinition_AreaAttack_Line {
             public const nint m_bUseFacingDirection = 0x868; // bool
         }
@@ -49242,6 +49253,1945 @@ namespace Source2Dumper.Schemas {
             public const nint m_flRadius = 0x8; // float32
             public const nint m_nHitRegionIndex = 0xC; // int32
             public const nint m_nDamageMultiplier = 0x10; // int32
+        }
+        // Parent: None
+        // Field count: 0
+        public static class H____WH__0H__H_D__ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class H__ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _SH___H______aC {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class H____H____AVH___H___b0 {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _SH___H_______C {
+        }
+        // Parent: None
+        // Field count: 138
+        public static class X_B___ {
+            public const nint m_qOriginalAngle = 0x1A78; // QAngle
+            public const nint slow_percent = 0x1A78; // int32
+            public const nint m_nTrackingProjectileID = 0x6A8; // int32
+            public const nint m_nFXIndex = 0x6AC; // ParticleIndex_t
+            public const nint m_nMaxJumpDistance = 0x6B0; // int32
+            public const nint landing_radius = 0x6B4; // float32
+            public const nint move_speed = 0x6B8; // int32
+            public const nint ally_buff_duration = 0x6BC; // float32
+            public const nint min_jump_distance = 0x6C0; // int32
+            public const nint max_jump_distance = 0x6C4; // int32
+            public const nint impact_position_offset = 0x6C8; // int32
+            public const nint vector_preview_radius = 0x6CC; // int32
+            public const nint m_vEndpoint = 0x6D0; // VectorWS
+            public const nint m_nToBounceFXIndex = 0x6DC; // ParticleIndex_t
+            public const nint m_nToTargetFXIndex = 0x6E0; // ParticleIndex_t
+            public const nint m_bIsAltCastState = 0x6E4; // bool
+            public const nint radius = 0x6A8; // float32
+            public const nint snake_jumps = 0x6AC; // int32
+            public const nint snake_damage = 0x6B0; // int32
+            public const nint snake_damage_pct = 0x6B4; // int32
+            public const nint snake_mana_steal = 0x6B8; // int32
+            public const nint snake_scale = 0x6BC; // int32
+            public const nint snake_speed_scale = 0x6C0; // int32
+            public const nint initial_speed = 0x6C4; // int32
+            public const nint return_speed = 0x6C8; // int32
+            public const nint jump_delay = 0x6CC; // float32
+            public const nint slow_duration = 0x6D0; // float32
+            public const nint damage_penalty = 0x1A78; // int32
+            public const nint m_nDuelDamage = 0x1A78; // int32
+            public const nint katana_swap_bonus_damage = 0x1A78; // int32
+            public const nint m_nFXIndexA = 0x1A7C; // ParticleIndex_t
+            public const nint hp_cost_perc_per_second = 0x1A78; // int32
+            public const nint beam_range = 0x1A7C; // int32
+            public const nint base_damage = 0x1A80; // int32
+            public const nint base_heal = 0x1A84; // int32
+            public const nint tick_interval = 0x1A88; // float32
+            public const nint forward_move_speed = 0x1A8C; // float32
+            public const nint turn_rate_initial = 0x1A90; // float32
+            public const nint turn_rate = 0x1A94; // float32
+            public const nint radius = 0x1A98; // float32
+            public const nint m_flCurrentTime = 0x1A9C; // float32
+            public const nint m_flAccumulatedSelfDamage = 0x1AA0; // float32
+            public const nint m_bMovingForward = 0x1AA4; // bool
+            public const nint m_bTurningFast = 0x1AA5; // bool
+            public const nint m_flFacingTarget = 0x1AA8; // float32
+            public const nint hp_perc_damage = 0x1AAC; // float32
+            public const nint hp_perc_heal = 0x1AB0; // float32
+            public const nint blind_duration = 0x1AB4; // float32
+            public const nint blind_per_second = 0x1AB8; // float32
+            public const nint focal_point_max_multiplier = 0x1ABC; // int32
+            public const nint focal_point_start_length_pct = 0x1AC0; // int32
+            public const nint focal_point_blind_stack_multiplier = 0x1AC4; // int32
+            public const nint m_nBeamFXIndex = 0x1AC8; // ParticleIndex_t
+            public const nint m_hVisionThinkers = 0x1ACC; // CHandle<C_BaseEntity>[8]
+            public const nint m_hBeamEnd = 0x1AEC; // CHandle<C_BaseEntity>
+            public const nint m_bCreatedVisionThinkers = 0x1AF0; // bool
+            public const nint m_hBeamEndSound = 0x1AF4; // CHandle<C_BaseEntity>
+            public const nint sai_swap_bonus_movement_speed = 0x1A78; // int32
+            public const nint m_nFXIndexB = 0x1A7C; // ParticleIndex_t
+            public const nint movement_slow = 0x1A78; // int32
+            public const nint turn_slow = 0x1A7C; // int32
+            public const nint radius = 0x1A78; // float32
+            public const nint m_flSlow = 0x1A78; // float32
+            public const nint m_nProcDamage = 0x1A78; // int32
+            public const nint m_InFlightAttackRecords = 0x1A80; // CUtlVector<AttackRecord_t>
+            public const nint mp_cost_per_second = 0x1A78; // int32
+            public const nint tick_interval = 0x1A7C; // float32
+            public const nint forward_move_speed = 0x1A80; // float32
+            public const nint move_speed_ramp_up_time = 0x1A84; // float32
+            public const nint turn_rate_boosted = 0x1A88; // float32
+            public const nint turn_rate = 0x1A8C; // float32
+            public const nint hit_radius = 0x1A90; // float32
+            public const nint knockback_radius = 0x1A94; // float32
+            public const nint damage_pct = 0x1A98; // int32
+            public const nint magic_resistance = 0x1A9C; // float32
+            public const nint m_bHitFirstUpdate = 0x1AA0; // bool
+            public const nint m_flHitEndTime = 0x1AA4; // GameTime_t
+            public const nint hit_recover_time = 0x1AA8; // float32
+            public const nint m_flJumpEndTime = 0x1AAC; // GameTime_t
+            public const nint jump_recover_time = 0x1AB0; // float32
+            public const nint m_flTurnBoostProgress = 0x1AB4; // float32
+            public const nint m_flFacingTarget = 0x1AB8; // float32
+            public const nint m_nInitialMovespeed = 0x1ABC; // int32
+            public const nint m_bIsJumping = 0x1AC0; // bool
+            public const nint m_nFXIndex = 0x1AC4; // ParticleIndex_t
+            public const nint m_flTurnHistory = 0x1AC8; // CUtlVector<float32>
+            public const nint m_vecHeroesHitLastRicochet = 0x1AE0; // CUtlVector<CHandle<C_BaseEntity>>
+            public const nint m_vecHeroesCredited = 0x1AF8; // CUtlVector<CHandle<C_BaseEntity>>
+            public const nint m_vecHeroesHitCurrentRicochet = 0x1B10; // CUtlVector<CHandle<C_BaseEntity>>
+            public const nint radius = 0x6B8; // float32
+            public const nint battle_burst_duration = 0x6BC; // float32
+            public const nint burst_damage = 0x6C0; // int32
+            public const nint damage_per_stack = 0x6C4; // int32
+            public const nint katana_attack_range = 0x1A78; // int32
+            public const nint katana_base_attack_time = 0x1A7C; // float32
+            public const nint katana_agility_bonus_base_damage = 0x1A80; // int32
+            public const nint katana_bleed_attack_damage_pct = 0x1A84; // int32
+            public const nint katana_base_ms = 0x1A88; // int32
+            public const nint katana_bleed_duration = 0x1A8C; // float32
+            public const nint katana_swap_bonus_damage = 0x1A90; // int32
+            public const nint impale_duration = 0x1A94; // float32
+            public const nint bleed_as_rupture_pct = 0x1A98; // int32
+            public const nint max_stacks = 0x1A9C; // int32
+            public const nint m_nBonusPreAttackDamage = 0x1AA0; // int32
+            public const nint m_bBackstab = 0x1AA4; // bool
+            public const nint m_flStacksForLifesteal = 0x1AA8; // float32
+            public const nint m_nImpaleStartAttackRecord = 0x1AAC; // AttackRecord_t
+            public const nint m_nImpaleEndAttackRecord = 0x1AAE; // AttackRecord_t
+            public const nint radius = 0x1A78; // float32
+            public const nint width = 0x1A7C; // float32
+            public const nint obscure_vision = 0x1A80; // int32
+            public const nint m_vOriginLoc = 0x1A84; // VectorWS
+            public const nint bonus_damage = 0x1A78; // int32
+            public const nint m_InFlightAttackRecords = 0x1A80; // CUtlVector<AttackRecord_t>
+            public const nint ally_movespeed_pct = 0x1A78; // float32
+            public const nint bonus_mana = 0x1A78; // int32
+            public const nint absorption_pct = 0x1A7C; // float32
+            public const nint damage_per_mana = 0x1A80; // float32
+            public const nint illusion_percentage = 0x1A84; // float32
+            public const nint m_hDoubleShotTarget = 0x1D88; // CHandle<C_BaseEntity>
+            public const nint m_qStartAngle = 0x1D8C; // QAngle
+            public const nint radius = 0x1A78; // float32
+            public const nint width = 0x1A7C; // float32
+            public const nint m_bLeashed = 0x1A80; // bool
+            public const nint aspd_increase_buff_duration = 0x1A78; // float32
+            public const nint aspd_increase_smoothness = 0x1A7C; // float32
+            public const nint aspd_increase_mana_cost_pct = 0x1A80; // int32
+            public const nint aspd_increase_rate_pct = 0x1A84; // float32
+            public const nint flMaxAspdGameTime = 0x1A88; // GameTime_t
+            public const nint m_iTotalAmount = 0x1A8C; // int32
+            public const nint m_flStartingAttackSpeed = 0x1A90; // float32
+            public const nint radius = 0x6B8; // float32
+            public const nint movement_burst_duration = 0x6BC; // float32
+            public const nint slow_resistance_burst_duration = 0x6C0; // float32
+            public const nint m_StunTime = 0x1A78; // GameTime_t
+            public const nint m_hTarget = 0x1A7C; // CHandle<C_BaseEntity>
+            public const nint m_bStunned = 0x1A80; // bool
+            public const nint scepter_armor = 0x1A78; // int32
+        }
+        // Parent: None
+        // Field count: 0
+        public static class Scroll_the_panel_left_by_one_line_ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _SH___L__H_D_0 {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _SH___H_______C {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class H____H____AVH___H____0 {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class H__ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _SH__0H____7 {
+        }
+        // Parent: None
+        // Field count: 61
+        //
+        // Metadata:
+        // 7
+        // X
+        // n: guildColorSaturation7;}.GuildPrimaryColor8 .GuildImageColorAdjusted{hue-rotation: guildColorHueRotation8;saturation: guildCol
+        // `
+        // !
+        // "Por
+        // s
+        // pass is active.
+        // ?
+        // D
+        // ( 
+        // x
+        // 452_Bundle_Tier2_Desc
+        // _Modifier_StackedNeutral
+        // ##
+        // r_Equilibrium
+        // rewmaster_PermanentImmolation
+        // entImmolation
+        // rewmaster_Primal_Companion
+        // CDOTA_Modifier_Lycan_SummonWolves_GeistForm
+        // ycan_SummonWolves_GeistForm
+        // CDOTA_Modifier_Lycan_SummonWolves_Hamstring
+        // ycan_SummonWolves_Hamstring
+        // hadow_Demon_Disruption
+        // haosKnight_Phantasm_Illusion
+        // CDOTA_Modifier_Meepo_MegaMeepo_Self
+        // elf
+        // eepo_Innate_PackRat
+        // Rat
+        // eepo_Innate_ToughChoices
+        // hChoices
+        // eepo_Fling_Held_Caster
+        // CDOTA_Modifier_Meepo_Geostrike_Debuff
+        // ebuff
+        // CDOTA_Modifier_Rubick_Telekinesis
+        // s
+        // CDOTA_Modifier_Rubick_Telekinesis_Stun
+        // s_Stun
+        // CDOTA_Modifier_Rubick_FadeBoltDebuff
+        // buff
+        // CDOTA_Modifier_Rubick_FadeBoltBuff
+        // ff
+        // A
+        // C
+        // D
+        // G
+        // S
+        // F
+        // H
+        // I
+        // K
+        // N
+        // P
+        // R
+        // S
+        // S
+        // T
+        // U
+        // S
+        // L
+        // T
+        // V
+        // A
+        // M
+        // G
+        // D
+        // N
+        // K
+        // T
+        // P
+        // O
+        // T
+        // M
+        // M
+        // T
+        // K
+        // S
+        // C
+        // P
+        // H
+        // S
+        // L
+        // I
+        // H
+        // M
+        // W
+        // C
+        // U
+        // B
+        // P
+        // A
+        // U
+        // I
+        // C
+        // S
+        // C
+        // S
+        // C
+        // B
+        // A
+        // C
+        // G
+        // S
+        // I
+        // P
+        // R
+        // T
+        // L
+        // A
+        // S
+        // G
+        // M
+        // T
+        // T
+        // S
+        // C
+        // D
+        // B
+        // T
+        // C
+        // G
+        // B
+        // G
+        // H
+        // R
+        // U
+        // L
+        // S
+        // B
+        // S
+        // B
+        // U
+        // A
+        // T
+        // G
+        // G
+        // G
+        // P
+        // L
+        // N
+        // B
+        // O
+        // O
+        // J
+        // M
+        // O
+        // class
+        // Remove a CSS class from a panel.
+        // class
+        // Switch which class the panel has for a given attribute slot. Allows easily changing between multiple states.
+        // class
+        // Add a class for a specified duration, with optional pre-delay; clears existing timers when called with same class. 
+        // class, pre-delay
+        // Remove a CSS class from a panel after a specified delay. 
+        // class
+        // Remove a CSS class from all children of this panel.
+        // Set focus to this panel.
+        // delay, eventToFire
+        // class, eventToFire
+        // Fire another event if this panel does not have a given class.
+        // otherPanelID, eventToFire
+        // Fire another event if not currently hovering over a panel with the given ID.
+        // Scroll this panel to the bottom.
+        // selected
+        // Set whether any child panels are :selected.
+        // Scroll the panel right by one line.
+        // Scroll the panel down by one line.
+        // Scroll the panel left by one page.
+        // Scroll the panel down by one page.
+        // repeatCount
+        // Move right from the panel. By default, this will change the focus position, but other panel types may implement this differently
+        // repeatCount
+        // Move down from the panel. By default, this will change the focus position, but other panel types may implement this differently.
+        // enabled
+        // Scroll the panel up by one line.
+        // Scroll the panel left by one line.
+        // Scroll the panel up by one page.
+        // Scroll the panel left by one page.
+        // R
+        // ?
+        // x
+        // w
+        // `
+        // 9 
+        public static class ______ {
+            public const nint bonus_aoe_radius = 0x1A78; // float32
+            public const nint m_bAppliesToCreeps = 0x1A78; // bool
+            public const nint bonus_aoe_radius = 0x1A7C; // float32
+            public const nint self_armor = 0x1A80; // int32
+            public const nint self_mres = 0x1A84; // int32
+            public const nint bonus_aoe_armor = 0x1A78; // float32
+            public const nint bonus_aoe_ms = 0x1A7C; // float32
+            public const nint bonus_aoe_mres = 0x1A80; // float32
+            public const nint self_mres = 0x1A84; // float32
+            public const nint self_armor = 0x1A88; // float32
+            public const nint active_reflection_pct = 0x1A8C; // int32
+            public const nint crit_multiplier = 0x1A78; // float32
+            public const nint debuff_duration = 0x1A7C; // float32
+            public const nint movespeed_slow = 0x1A78; // float32
+            public const nint attack_slow = 0x1A7C; // float32
+            public const nint cast_slow = 0x1A80; // float32
+            public const nint death_radius = 0x1A78; // float32
+            public const nint base_damage = 0x1A78; // float32
+            public const nint attack_speed = 0x1A7C; // float32
+            public const nint bonus_intellect = 0x1A78; // int32
+            public const nint bonus_hp = 0x1A7C; // int32
+            public const nint bonus_mana = 0x1A80; // int32
+            public const nint bonus_aoe = 0x1A84; // int32
+            public const nint bonus_aoe_imbue = 0x1A88; // int32
+            public const nint bonus_movement_speed = 0x1A78; // int32
+            public const nint tree_radius = 0x1A78; // int32
+            public const nint spell_amp = 0x1A78; // float32
+            public const nint bonus_damage = 0x1A78; // int32
+            public const nint health_regen_pct = 0x1A78; // int32
+            public const nint break_on_hero_damage = 0x1A7C; // int32
+            public const nint m_fHealingDone = 0x1A80; // float32
+            public const nint m_fUseSpeed = 0x1A84; // float32
+            public const nint bonus_damage = 0x1A78; // float32
+            public const nint splash_radius = 0x1A7C; // float32
+            public const nint splash_pct = 0x1A80; // float32
+            public const nint m_InFlightAttackRecords = 0x1A88; // CUtlVector<AttackRecord_t>
+            public const nint bonus_health = 0x1A78; // int32
+            public const nint attack_range_bonus = 0x1A78; // int32
+            public const nint attack_speed_bonus = 0x1A7C; // int32
+            public const nint m_InFlightAttackRecords = 0x1A80; // CUtlVector<AttackRecord_t>
+            public const nint magic_resistance_reduction = 0x1A78; // int32
+            public const nint bonus_movement_speed = 0x1A78; // int32
+            public const nint hp_regen = 0x1A7C; // int32
+            public const nint push_length = 0x1A78; // int32
+            public const nint push_duration = 0x1A7C; // float32
+            public const nint water_acceleration = 0x1A78; // float32
+            public const nint m_bInWater = 0x1A7C; // bool
+            public const nint bonus_armor = 0x1A78; // int32
+            public const nint duration = 0x1A7C; // float32
+            public const nint mana_restore = 0x1A78; // float32
+            public const nint mana_restore_pct = 0x1A7C; // float32
+            public const nint m_fHealingDone = 0x1A80; // float32
+            public const nint m_fUseSpeed = 0x1A84; // float32
+            public const nint bonus_all_stats = 0x1A78; // int32
+            public const nint m_hTree = 0x1A78; // CHandle<C_BaseEntity>
+            public const nint m_Timer = 0x1A80; // CountdownTimer
+            public const nint seconds = 0x1A98; // float32
+            public const nint hp_damage = 0x1A78; // float32
+            public const nint damage_interval = 0x1A7C; // float32
+            public const nint debuff_duration = 0x1A80; // float32
+            public const nint health_regen_loss = 0x1A84; // float32
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class _M____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _J____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        public static class _P____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _M____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _H____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class _C____ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // M
+        // .LGD Card Pack - DPC Spring Tour - 2021-2022
+        //  DPC Spring Tour - 2021-2022
+        // ups Season 2
+        // Ardalan Interdictor
+        // g_Screen
+        // rdictor
+        // 0_158847773
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        // g
+        // iption, then equip it to have your customized monument appear in your team's base for all to see.
+        // atherhutch
+        //  of its potency along with it.
+        // 0
+        // de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em
+        // m_eagle
+        // CSplitScreenSlot
+        // tem_vampire_fangs
+        // 0
+        // ecial_bonus_unique_templar_assassin_6
+        // a_4
+        // e_pugna_4
+        // i
+        //  
+        // nus_unique_pugna_4
+        // p_Ability_item_elven_tunic_Lore
+        // em_cloak_of_flames_Lore
+        // ooltip_Ability_item_enhancement_keen_eyed_mana_reduction_pct
+        // ll_stats
+        // ll_stats
+        // 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        // CSplitScreenSlot
+        // Sponsor by melonbox.com
+        // e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // desc
+        // on11_138880576
+        // ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.
+        // eam Series. Compete with hundreds of teams for the a spot at the top
+        // uninterpreted_option
+        // ckoning mini-game to earn more chests.
+        // TA_Item_Desc_Crimson_Wyvern_Skirt
+        // DescriptorProtos
+        //  Cape for Sniper.
+        // google.golang.org/protobuf/types/descriptorpb
+        // Google.Protobuf.Reflection
+        // P
+        // file://{resources}/default_keybinds.cfg
+        // file://{resources}/keybinds.cfg
+        // joint19#Position
+        // A
+        //  best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe
+        // onbox.com
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ______ {
         }
     }
 }

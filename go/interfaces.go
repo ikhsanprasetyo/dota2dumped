@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 package interfaces
 
@@ -7,7 +7,7 @@ const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x839F50
     AnimationsystemDll_AnimationSystem_001 = 0x831E70
     ClientDll_ClientToolsInfo_001 = 0x5A81BD0
-    ClientDll_DOTA_CLIENT_GCCLIENT = 0x6359140
+    ClientDll_DOTA_CLIENT_GCCLIENT = 0x6359170
     ClientDll_GameClientExports001 = 0x5A7D8F8
     ClientDll_LegacyGameUI001 = 0x5AEC020
     ClientDll_PanoramaUIClient001 = 0x5B18C50
@@ -90,14 +90,14 @@ const (
     ScenesystemDll_SceneSystem_002 = 0x9104F0
     ScenesystemDll_SceneUtils_001 = 0x667DE0
     SchemasystemDll_SchemaSystem_001 = 0x75630
-    ServerDll_EntitySubclassUtilsV001 = 0x4753A00
+    ServerDll_EntitySubclassUtilsV001 = 0x4753A10
     ServerDll_NavGameTest001 = 0x49F7220
     ServerDll_ServerToolsInfo_001 = 0x4960288
     ServerDll_Source2GameClients001 = 0x495A440
     ServerDll_Source2GameDirector001 = 0x5038EB0
     ServerDll_Source2GameEntities001 = 0x495FA30
     ServerDll_Source2Server001 = 0x495F880
-    ServerDll_Source2ServerConfig001 = 0x4F63C58
+    ServerDll_Source2ServerConfig001 = 0x4F63C48
     SoundsystemDll_SoundBugBugService001_Client = 0x553250
     SoundsystemDll_SoundOpSystem001 = 0x553130
     SoundsystemDll_SoundOpSystemEdit001 = 0x553040

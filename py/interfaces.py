@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-08-19 16:10:01.345080400 +07:00
+# 2026-08-23 09:48:58.614879600 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -9,7 +9,7 @@ class Interfaces:
     # Module: client.dll
     class ClientDll:
         ClientToolsInfo_001 = 0x5A81BD0
-        DOTA_CLIENT_GCCLIENT = 0x6359140
+        DOTA_CLIENT_GCCLIENT = 0x6359170
         GameClientExports001 = 0x5A7D8F8
         LegacyGameUI001 = 0x5AEC020
         PanoramaUIClient001 = 0x5B18C50
@@ -132,14 +132,14 @@ class Interfaces:
         SchemaSystem_001 = 0x75630
     # Module: server.dll
     class ServerDll:
-        EntitySubclassUtilsV001 = 0x4753A00
+        EntitySubclassUtilsV001 = 0x4753A10
         NavGameTest001 = 0x49F7220
         ServerToolsInfo_001 = 0x4960288
         Source2GameClients001 = 0x495A440
         Source2GameDirector001 = 0x5038EB0
         Source2GameEntities001 = 0x495FA30
         Source2Server001 = 0x495F880
-        Source2ServerConfig001 = 0x4F63C58
+        Source2ServerConfig001 = 0x4F63C48
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundBugBugService001_Client = 0x553250

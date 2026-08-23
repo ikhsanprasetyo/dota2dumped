@@ -372,6 +372,10 @@
             "type": "Unknown"
           },
           {
+            "name": ".",
+            "type": "Unknown"
+          },
+          {
             "name": "JOINT_FLAGS_BODY1_FIXED",
             "type": "Unknown"
           },
@@ -2012,10 +2016,6 @@
             "type": "Unknown"
           },
           {
-            "name": "C\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Bytes",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2106,10 +2106,6 @@
             "type": "Unknown"
           },
           {
-            "name": "C\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Bytes",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2194,10 +2190,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "C\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Bytes",
             "type": "Unknown"
           },
           {
@@ -2310,10 +2302,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "C\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Bytes",
             "type": "Unknown"
           },
           {
@@ -2752,7 +2740,7 @@
             "type": "Unknown"
           },
           {
-            "name": "c",
+            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -3324,7 +3312,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ward",
+            "name": "npc_dota_juggernaut_healing_ward",
             "type": "Unknown"
           },
           {
@@ -3360,7 +3348,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ward",
+            "name": "npc_dota_juggernaut_healing_ward",
             "type": "Unknown"
           },
           {
@@ -3497,7 +3485,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ward",
+            "name": "npc_dota_juggernaut_healing_ward",
             "type": "Unknown"
           },
           {
@@ -17502,7 +17490,7 @@
             "type": "Unknown"
           },
           {
-            "name": "c",
+            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -17660,7 +17648,7 @@
             "type": "Unknown"
           },
           {
-            "name": "c",
+            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -17998,6 +17986,10 @@
             "type": "Unknown"
           },
           {
+            "name": "XCOORD",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -18232,6 +18224,10 @@
             "type": "Unknown"
           },
           {
+            "name": "XCOORD",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -18333,6 +18329,10 @@
           },
           {
             "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "w",
             "type": "Unknown"
           }
         ],
@@ -18604,6 +18604,10 @@
             "type": "Unknown"
           },
           {
+            "name": "w",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -18652,6 +18656,10 @@
           },
           {
             "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "w",
             "type": "Unknown"
           },
           {
@@ -18818,7 +18826,7 @@
             "type": "Unknown"
           },
           {
-            "name": "es",
+            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -18826,7 +18834,7 @@
             "type": "Unknown"
           },
           {
-            "name": "id\\Sdk\\platform-tools;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Ollama;G:\\Program Files\\Android\\Android Studio\\jbr\\bin;C:\\Use",
+            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -19086,6 +19094,10 @@
             "type": "Unknown"
           },
           {
+            "name": "w",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -19168,7 +19180,7 @@
             "type": "Unknown"
           },
           {
-            "name": "es",
+            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -19176,7 +19188,7 @@
             "type": "Unknown"
           },
           {
-            "name": "id\\Sdk\\platform-tools;C:\\Users\\ByteseekerPC\\AppData\\Local\\Programs\\Ollama;G:\\Program Files\\Android\\Android Studio\\jbr\\bin;C:\\Use",
+            "name": "l",
             "type": "Unknown"
           },
           {

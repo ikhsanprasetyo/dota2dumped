@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -358,8 +358,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0t
-        // @t
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -764,6 +762,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // w
         public static class CSosGroupActionSetSoundeventParameterSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_flMinValue = 0xC; // float32
@@ -862,6 +861,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // w
         public static class CSosGroupActionSoundeventMinMaxValuesSchema {
             public const nint m_strQueryPublicFieldName = 0x8; // CUtlString
             public const nint m_strDelayPublicFieldName = 0x10; // CUtlString
@@ -1209,7 +1209,7 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // ward
+        // npc_dota_juggernaut_healing_ward
         public static class CSndSeqInstSndEvtSchema {
         }
         // Parent: None
@@ -1220,8 +1220,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0t
-        // @t
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1464,7 +1462,7 @@ namespace Source2Dumper.Schemas {
         // SNDLVL_140dB
         // SNDLVL_150dB
         // SNDLVL_180dB
-        // ward
+        // npc_dota_juggernaut_healing_ward
         public static class CSndSeqInstMidiSampler {
             public const nint m_bIsSoundEvent = 0x20; // bool
             public const nint m_bStopPrevious = 0x21; // bool
@@ -1483,10 +1481,11 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // w
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // ward
+        // npc_dota_juggernaut_healing_ward
         public static class CSndSeqInstBaseSchema {
             public const nint m_nType = 0x8; // SndSeqInstrumentType_t
             public const nint m_bStopCurrentEvents = 0xE; // bool
@@ -2191,6 +2190,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // w
         public static class CSosGroupActionSoundeventCountSchema {
             public const nint m_bExcludeStoppedSounds = 0x8; // bool
             public const nint m_strCountKeyName = 0x10; // CUtlString
@@ -2259,7 +2259,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // @x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -2351,6 +2350,7 @@ namespace Source2Dumper.Schemas {
         // CMD_IMPULSERESPONSE_RESET
         // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
         // CMD_IMPULSERESPONSE_DELAY
+        // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferName
@@ -2950,8 +2950,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 0t
-        // @t
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -3328,7 +3326,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
-        // ward
+        // npc_dota_juggernaut_healing_ward
         public static class CVoiceContainerVMixSnd {
         }
         // Parent: None
@@ -3461,6 +3459,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // w
         public static class CSosGroupActionLimitSchema {
             public const nint m_nMaxCount = 0x8; // int32
             public const nint m_nStopType = 0xC; // SosActionStopType_t
@@ -3635,7 +3634,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // @x
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -4077,6 +4075,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
+        // w
         public static class CSosGroupActionTimeLimitSchema {
             public const nint m_flMaxDuration = 0x8; // float32
         }

@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 440
+        // Enum count: 439
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -33718,6 +33718,9 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // D_HT
+            // D_FR
+            // D_LI
             pub const PhysicsRagdollPose_t = struct {
                 pub const m_Transforms: usize = 0x8; // CNetworkUtlVectorBase<CTransform>
                 pub const m_hOwner: usize = 0x20; // CHandle<CBaseEntity>
@@ -35528,9 +35531,11 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // form-tools;C:\Users\ByteseekerPC\AppData\Local\Programs\Ollama;G:\Program Files\Android\Android Studio\jbr\bin;C:\Users\Byteseek
+            // A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
+            // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField
@@ -39470,7 +39475,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 70\fozpipelinesv6\steamapprun_pipeline_cache
+            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const CScriptComponent = struct {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             };
@@ -54893,7 +54898,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // Y
-            // Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Byteseeker 
+            // umps
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -56917,6 +56922,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // D
             pub const CRemapFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -57027,7 +57033,6 @@ pub const source2_dumper = struct {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
-            // nProgramFiles(x86)=C:\Program Files (x86)\Common Files
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57483,11 +57488,47 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // DFLAG_SUPPRESS_HEALTH_CHANGES
+            // DFLAG_SUPPRESS_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_EFFECTS
+            // DFLAG_PREVENT_DEATH
+            // DFLAG_FORCE_DEATH
+            // DFLAG_ALWAYS_GIB
+            // DFLAG_NEVER_GIB
+            // DFLAG_REMOVE_NO_RAGDOLL
+            // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
+            // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
+            // DFLAG_RADIUS_DMG
+            // DFLAG_FORCEREDUCEARMOR_DMG
+            // DFLAG_SUPPRESS_INTERRUPT_FLINCH
+            // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
+            // DFLAG_SUPPRESS_BREAKABLES
+            // DFLAG_FORCE_PHYSICS_FORCE
+            // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
+            // DFLAG_ALLOW_NON_AUTHORITATIVE
+            // DMG_LASTDFLAG
+            // DMG_CRUSH
+            // DMG_BULLET
+            // DMG_SLASH
+            // DMG_BURN
+            // DMG_VEHICLE
+            // DMG_FALL
+            // DMG_BLAST
+            // DMG_CLUB
+            // DMG_SHOCK
+            // DMG_SONIC
+            // DMG_ENERGYBEAM
+            // DMG_BUCKSHOT
+            // DMG_BLAST_SURFACE
+            // DMG_DISSOLVE
+            // DMG_DROWN
+            // DMG_POISON
+            // DMG_RADIATION
+            // DMG_DROWNRECOVER
+            // DMG_ACID
+            // DMG_LASTGENERICFLAG
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MDebugSnapshotDataSummaryFn
-            // n
             pub const AI_BaseNPC_DebugSnapshotData_t = struct {
                 pub const npc_state: usize = 0x8; // CGlobalSymbol
                 pub const current_enemy: usize = 0x10; // CHandle<CBaseEntity>
@@ -58042,9 +58083,6 @@ pub const source2_dumper = struct {
             // .
             // .
             // n
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
@@ -58717,6 +58755,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const ExternalAnimGraphHandle_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -58832,6 +58871,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const SceneEventId_t = struct {
@@ -59273,6 +59313,11 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // \
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -59450,7 +59495,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
             pub const ragdollelement_t = struct {
                 pub const originParentSpace: usize = 0x0; // Vector
                 pub const parentIndex: usize = 0x20; // int32
@@ -59660,9 +59704,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CavernCrawlRewardType_t = struct {
@@ -59675,6 +59716,7 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // D
             pub const CSkillInt = struct {
                 pub const m_pValue: usize = 0x0; // int32[4]
             };
@@ -59734,6 +59776,7 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // D
             pub const CSkillFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -60954,14 +60997,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // SOUNDCTRL_CHANGE_PITCH
-            // SOUNDCTRL_STOP
-            // SOUNDCTRL_DESTROY
-            // SOUNDCTRL_FADEOUT
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const INavPathCostAreaFilter = struct {
             };
@@ -61421,8 +61456,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MKV3TransferSaveOpsForField
-            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y
@@ -61610,6 +61643,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
+            // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-19 16:10:01.345080400 +07:00
+// 2026-08-23 09:48:58.614879600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -133,7 +133,6 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // _ward
             // f,0x1a34/0x0802,0x1a34/0x0809,0x0079/0x0006,0x0079/0x181c,0x7545/0x1122,0x06a3/0xf623,0x06a3/0xf51a,0x0f30/0x0112,0x06a3/0xff0c,
             // /0x1418,0x0111/0x1419,0x19fa/0x0607,0x07b5/0x0312,0x044f/0xb323,0x044f/0xb304,0x044f/0xb300,0x6666/0x8804,0x20d6/0x0060,0x145f/0
             pub mod SheetSequenceIntegerId_t {
