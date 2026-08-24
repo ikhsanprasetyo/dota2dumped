@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -16866,6 +16866,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // EXCOORD
             pub const C_OP_RenderOmni2Light = struct {
                 pub const m_nLightType: usize = 0x228; // ParticleOmni2LightTypeChoiceList_t
                 pub const m_nMaxAllowed: usize = 0x22C; // uint16

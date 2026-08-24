@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -35531,7 +35531,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
@@ -37650,6 +37649,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // teamapp_shader_cache
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const CModelState = struct {
@@ -39475,7 +39475,8 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // s\system32\WindowsPowerShell\v1.0\Modules
+            // inear
             pub const CScriptComponent = struct {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             };
@@ -54898,7 +54899,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // Y
-            // umps
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -56922,7 +56922,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // D
             pub const CRemapFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -57464,6 +57463,10 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // E_FILENAME=steamapp_shader_cache
+            // _FILENAME=steamapp_shader_cache
             pub const BlessingPathID_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -58463,6 +58466,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // =steamapp_shader_cache
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59343,6 +59347,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // CT
             pub const AbilityContributionType_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -59716,7 +59723,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // D
             pub const CSkillInt = struct {
                 pub const m_pValue: usize = 0x0; // int32[4]
             };
@@ -59776,7 +59782,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // D
             pub const CSkillFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -61456,6 +61461,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // amapp_shader_cache
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y

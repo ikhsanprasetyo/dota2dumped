@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
@@ -35562,7 +35562,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // MPropertyDescription
-        // A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
@@ -37681,6 +37680,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // teamapp_shader_cache
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CModelState {
@@ -39506,7 +39506,8 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // he.foz;$bucketdir\steamapp_pipeline_cache.foz
+        // s\system32\WindowsPowerShell\v1.0\Modules
+        // inear
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -54929,7 +54930,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Y
-        // umps
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
@@ -56953,7 +56953,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
-        // D
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57495,6 +57494,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // E_FILENAME=steamapp_shader_cache
+        // _FILENAME=steamapp_shader_cache
         public static class BlessingPathID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -58494,6 +58497,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
+        // =steamapp_shader_cache
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -59374,6 +59378,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // CT
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59747,7 +59754,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // D
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59807,7 +59813,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // D
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -61487,6 +61492,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // amapp_shader_cache
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // Y

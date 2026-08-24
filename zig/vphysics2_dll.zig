@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -308,6 +308,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // 7
+            // ne\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program
             pub const vphysics_save_cphysicsbody_t = struct {
                 pub const m_nOldPointer: usize = 0xE0; // uint64
             };

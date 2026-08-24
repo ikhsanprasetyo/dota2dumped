@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -35960,7 +35960,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
-            // A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
@@ -38079,6 +38078,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // teamapp_shader_cache
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod CModelState {
@@ -39904,7 +39904,8 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // he.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // s\system32\WindowsPowerShell\v1.0\Modules
+            // inear
             pub mod CScriptComponent {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             }
@@ -55327,7 +55328,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // Y
-            // umps
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
@@ -57351,7 +57351,6 @@ pub mod source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // D
             pub mod CRemapFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -57893,6 +57892,10 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // E_FILENAME=steamapp_shader_cache
+            // _FILENAME=steamapp_shader_cache
             pub mod BlessingPathID_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -58892,6 +58895,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // =steamapp_shader_cache
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59772,6 +59776,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // CT
             pub mod AbilityContributionType_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -60145,7 +60152,6 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // D
             pub mod CSkillInt {
                 pub const m_pValue: usize = 0x0; // int32[4]
             }
@@ -60205,7 +60211,6 @@ pub mod source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // D
             pub mod CSkillFloat {
                 pub const m_pValue: usize = 0x0; // float32[4]
             }
@@ -61885,6 +61890,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // amapp_shader_cache
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // Y

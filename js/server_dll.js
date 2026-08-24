@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -8320,96 +8320,6 @@ export const Schemas = {
         ______: {
         },
         ______: {
-            : 0x21ACA3C8B60,
-            : 0x21ACA1C4480,
-            @��: 0x21AD85967C0,
-            ��<�: 0x21ACA3CAD60,
-            `�<�: 0x21ADB159CC0,
-            �F�: 0x21ACA1C4500,
-             Ģ�: 0x21ACA1C4520,
-            @F�: 0x21ACA1C42E0,
-            `F�: 0x21ACA1C45C0,
-            : 0x21ACA1C4580,
-            �F�: 0x21ACA8E26A0,
-            �F�: 0x21ACA1C45E0,
-            �F�: 0x21ACA1C4640,
-            �G�: 0x21ACA1C4600,
-            �R��: 0x21AD8BCDAE0,
-            @G�: 0x21ACA1C4660,
-            `G�: 0x21ACA1C46C0,
-            : 0x21ACA1C4680,
-            ����: 0x21A616D2380,
-            �G�: 0x21ACA1C46E0,
-            �G�: 0x21ACA1C4740,
-            �H�: 0x21ACA1C4700,
-            �I�: 0x21ACB8BAEE0,
-            : 0x21ACA1C4760,
-             N�: 0x21ACA1C47C0,
-            : 0x21ACA1C4780,
-            `�<�: 0x21ACB76C720,
-            ��<�: 0x21ACA3CF0A0,
-            ��<�: 0x21ACA3CF5E0,
-            �I�: 0x21ACA1C4800,
-            �Me�: 0x21ACB7678A0,
-            �P�: 0x21ACA3C7080,
-             �<�: 0x21ACA3C7100,
-            : 0x21ACA1C4880,
-            �J�: 0x21ACA1C47A0,
-            ��<�: 0x21ACA3CA020,
-            @��: 0x21ACA3CA0A0,
-            �J�: 0x21ACA1C4900,
-            �PY�: 0x21ACA1C4920,
-            ����: 0x21AD0C30F60,
-            ����: 0x21AD0C31100,
-            : 0x21ACA1C4980,
-            ��ma: 0x21ACA8D6C20,
-            �Y�: 0x21ACA1C1F40,
-            �_�: 0x21ACA1C1F60,
-            �K�: 0x21ACA1C4A00,
-            : 0x21ACA1C49A0,
-             �<�: 0x21ACA1C1FC0,
-            ��<�: 0x21ACA1C1FE0,
-            : 0x21ACA1C4A80,
-            ����: 0x21ADA176D80,
-            `K�: 0x21ACA3C5BA0,
-            �Y<�: 0x21ACA3C5B60,
-            �L�: 0x21ACA1C4B00,
-            �L�: 0x21ACBC45120,
-            ��<�: 0x21ACA1C2660,
-             �<�: 0x21ACA1C2640,
-            @M�: 0x21ACA1C4B80,
-            : 0x61724374754F6E67,
-            ��e�: 0x21ACBC3E7C0,
-            �L�: 0x21AD965A360,
-            �e�: 0x21AD965A2E0,
-            �M�: 0x21ACA1C4C00,
-            ``��: 0x21AE604E6E0,
-            @�<�: 0x21ADB15CF00,
-            ��<�: 0x21ADB159420,
-            @N�: 0x21ACA1C4CC0,
-            ���: 0x21AD8D8C100,
-            �"�: 0x21AD0C36F80,
-            �$�: 0x21AD0C36D00,
-            �N�: 0x21ACA1C4D40,
-            : 0x21ACA1C4CE0,
-            : 0x21ACA1C47E0,
-             O�: 0x21ACA1C4E00,
-            @O�: 0x21ACA1C4DC0,
-            ����: 0x21B05D2DE00,
-            ���: 0x21AC00B14A0,
-            ���: 0x21ACA3CA560,
-            @P�: 0x21ACA1C4E40,
-            : 0x21ACA1C4E60,
-            �O�: 0x21ACA1C4E20,
-            �O�: 0x21ACA1C4F00,
-            �T�: 0x21ACA1C4EC0,
-            `P�: 0x21ACA8DBC00,
-            �P�: 0x21ACA1C4F20,
-            �P�: 0x21ACA1C4F80,
-            : 0x21ACA3CB280,
-             M��: 0x21ACA1C4F60,
-        },
-        _E____: {
         },
         ______: {
         },
@@ -8421,13 +8331,15 @@ export const Schemas = {
         },
         ______: {
         },
-        _W____: {
+        _r____: {
+        },
+        _h____: {
         },
         ______: {
         },
-        ______: {
+        _Y____: {
         },
-        _t____: {
+        ______: {
         },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x1A78, // int32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 package schemas
 
@@ -7464,94 +7464,6 @@ const (
     ServerDll_MoveType_t_MOVETYPE_OBSERVER = 0x8
     ServerDll_MoveType_t_MOVETYPE_CUSTOM = 0x9
     ServerDll_MoveType_t_MOVETYPE_LAST = 0xA
-    ServerDll________ = 0x21ACA3C8B60
-    ServerDll________ = 0x21ACA1C4480
-    ServerDll________@�� = 0x21AD85967C0
-    ServerDll________��<� = 0x21ACA3CAD60
-    ServerDll________`�<� = 0x21ADB159CC0
-    ServerDll________�F� = 0x21ACA1C4500
-    ServerDll________ Ģ� = 0x21ACA1C4520
-    ServerDll________@F� = 0x21ACA1C42E0
-    ServerDll________`F� = 0x21ACA1C45C0
-    ServerDll________ = 0x21ACA1C4580
-    ServerDll________�F� = 0x21ACA8E26A0
-    ServerDll________�F� = 0x21ACA1C45E0
-    ServerDll________�F� = 0x21ACA1C4640
-    ServerDll________�G� = 0x21ACA1C4600
-    ServerDll________�R�� = 0x21AD8BCDAE0
-    ServerDll________@G� = 0x21ACA1C4660
-    ServerDll________`G� = 0x21ACA1C46C0
-    ServerDll________ = 0x21ACA1C4680
-    ServerDll________���� = 0x21A616D2380
-    ServerDll________�G� = 0x21ACA1C46E0
-    ServerDll________�G� = 0x21ACA1C4740
-    ServerDll________�H� = 0x21ACA1C4700
-    ServerDll________�I� = 0x21ACB8BAEE0
-    ServerDll________ = 0x21ACA1C4760
-    ServerDll________ N� = 0x21ACA1C47C0
-    ServerDll________ = 0x21ACA1C4780
-    ServerDll________`�<� = 0x21ACB76C720
-    ServerDll________��<� = 0x21ACA3CF0A0
-    ServerDll________��<� = 0x21ACA3CF5E0
-    ServerDll________�I� = 0x21ACA1C4800
-    ServerDll________�Me� = 0x21ACB7678A0
-    ServerDll________�P� = 0x21ACA3C7080
-    ServerDll________ �<� = 0x21ACA3C7100
-    ServerDll________ = 0x21ACA1C4880
-    ServerDll________�J� = 0x21ACA1C47A0
-    ServerDll________��<� = 0x21ACA3CA020
-    ServerDll________@�� = 0x21ACA3CA0A0
-    ServerDll________�J� = 0x21ACA1C4900
-    ServerDll________�PY� = 0x21ACA1C4920
-    ServerDll________���� = 0x21AD0C30F60
-    ServerDll________���� = 0x21AD0C31100
-    ServerDll________ = 0x21ACA1C4980
-    ServerDll________��ma = 0x21ACA8D6C20
-    ServerDll________�Y� = 0x21ACA1C1F40
-    ServerDll________�_� = 0x21ACA1C1F60
-    ServerDll________�K� = 0x21ACA1C4A00
-    ServerDll________ = 0x21ACA1C49A0
-    ServerDll________ �<� = 0x21ACA1C1FC0
-    ServerDll________��<� = 0x21ACA1C1FE0
-    ServerDll________ = 0x21ACA1C4A80
-    ServerDll________���� = 0x21ADA176D80
-    ServerDll________`K� = 0x21ACA3C5BA0
-    ServerDll________�Y<� = 0x21ACA3C5B60
-    ServerDll________�L� = 0x21ACA1C4B00
-    ServerDll________�L� = 0x21ACBC45120
-    ServerDll________��<� = 0x21ACA1C2660
-    ServerDll________ �<� = 0x21ACA1C2640
-    ServerDll________@M� = 0x21ACA1C4B80
-    ServerDll________ = 0x61724374754F6E67
-    ServerDll________��e� = 0x21ACBC3E7C0
-    ServerDll________�L� = 0x21AD965A360
-    ServerDll________�e� = 0x21AD965A2E0
-    ServerDll________�M� = 0x21ACA1C4C00
-    ServerDll________``�� = 0x21AE604E6E0
-    ServerDll________@�<� = 0x21ADB15CF00
-    ServerDll________��<� = 0x21ADB159420
-    ServerDll________@N� = 0x21ACA1C4CC0
-    ServerDll________��� = 0x21AD8D8C100
-    ServerDll________�"� = 0x21AD0C36F80
-    ServerDll________�$� = 0x21AD0C36D00
-    ServerDll________�N� = 0x21ACA1C4D40
-    ServerDll________ = 0x21ACA1C4CE0
-    ServerDll________ = 0x21ACA1C47E0
-    ServerDll________ O� = 0x21ACA1C4E00
-    ServerDll________@O� = 0x21ACA1C4DC0
-    ServerDll________���� = 0x21B05D2DE00
-    ServerDll________��� = 0x21AC00B14A0
-    ServerDll________��� = 0x21ACA3CA560
-    ServerDll________@P� = 0x21ACA1C4E40
-    ServerDll________ = 0x21ACA1C4E60
-    ServerDll________�O� = 0x21ACA1C4E20
-    ServerDll________�O� = 0x21ACA1C4F00
-    ServerDll________�T� = 0x21ACA1C4EC0
-    ServerDll________`P� = 0x21ACA8DBC00
-    ServerDll________�P� = 0x21ACA1C4F20
-    ServerDll________�P� = 0x21ACA1C4F80
-    ServerDll________ = 0x21ACA3CB280
-    ServerDll________ M�� = 0x21ACA1C4F60
     ServerDll_CDOTA_Modifier_AghsFort_Arcanist_Potion_m_nCooldownReductionPct = 0x1A78 // int32
     ServerDll_CDOTA_Modifier_AghsFort_Arcanist_Potion_m_nManaCostReductionPct = 0x1A7C // int32
     ServerDll_CDOTA_Modifier_Special_Bonus_Reincarnation_value = 0x1A78 // float32

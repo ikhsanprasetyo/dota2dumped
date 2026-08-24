@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -315,6 +315,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // 7
+            // ne\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program
             pub mod vphysics_save_cphysicsbody_t {
                 pub const m_nOldPointer: usize = 0xE0; // uint64
             }

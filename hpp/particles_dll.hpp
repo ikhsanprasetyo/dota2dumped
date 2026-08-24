@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 #pragma once
 
@@ -16871,6 +16871,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
+            // EXCOORD
             namespace C_OP_RenderOmni2Light {
                 constexpr std::ptrdiff_t m_nLightType = 0x228; // ParticleOmni2LightTypeChoiceList_t
                 constexpr std::ptrdiff_t m_nMaxAllowed = 0x22C; // uint16

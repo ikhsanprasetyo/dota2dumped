@@ -531,7 +531,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "CT",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AbilityID_t": {
@@ -630,7 +635,16 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "E_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "BlessingPath_t": {
@@ -672,6 +686,10 @@
           },
           {
             "name": "MVDataOutlinerIconExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -1770,10 +1788,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "A_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled",
             "type": "Unknown"
           },
           {
@@ -53414,10 +53428,6 @@
             "type": "Unknown"
           },
           {
-            "name": "umps",
-            "type": "Unknown"
-          },
-          {
             "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
@@ -53548,6 +53558,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "amapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -56778,6 +56792,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "teamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -62242,10 +62260,6 @@
           {
             "name": "Y",
             "type": "Unknown"
-          },
-          {
-            "name": "D",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62477,7 +62491,11 @@
             "type": "Unknown"
           },
           {
-            "name": "he.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "s\\system32\\WindowsPowerShell\\v1.0\\Modules",
+            "type": "Unknown"
+          },
+          {
+            "name": "inear",
             "type": "Unknown"
           }
         ],
@@ -62796,10 +62814,6 @@
           {
             "name": "Y",
             "type": "Unknown"
-          },
-          {
-            "name": "D",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -62819,10 +62833,6 @@
           },
           {
             "name": "Y",
-            "type": "Unknown"
-          },
-          {
-            "name": "D",
             "type": "Unknown"
           }
         ],
@@ -79685,12 +79695,7 @@
         },
         "type": "uint32"
       },
-      "_E____": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_W____": {
+      "_Y____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
@@ -79700,8 +79705,13 @@
         "members": {},
         "type": "unknown"
       },
-      "_t____": {
-        "alignment": 97,
+      "_h____": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_r____": {
+        "alignment": 0,
         "members": {},
         "type": "unknown"
       },

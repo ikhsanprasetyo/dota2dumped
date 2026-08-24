@@ -2016,6 +2016,10 @@
             "type": "Unknown"
           },
           {
+            "name": "iles\\LLVM\\binCommonProgramW6432=C:\\Program Files\\Common Files",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2106,6 +2110,10 @@
             "type": "Unknown"
           },
           {
+            "name": "iles\\LLVM\\binCommonProgramW6432=C:\\Program Files\\Common Files",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2190,6 +2198,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "iles\\LLVM\\binCommonProgramW6432=C:\\Program Files\\Common Files",
             "type": "Unknown"
           },
           {
@@ -2302,6 +2314,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "iles\\LLVM\\binCommonProgramW6432=C:\\Program Files\\Common Files",
             "type": "Unknown"
           },
           {
@@ -2740,7 +2756,7 @@
             "type": "Unknown"
           },
           {
-            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "c",
             "type": "Unknown"
           },
           {
@@ -7741,6 +7757,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7838,6 +7858,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7859,6 +7883,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -7892,6 +7920,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7912,6 +7944,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -8651,6 +8687,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -10440,6 +10480,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           }
         ],
@@ -13699,6 +13743,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -16553,6 +16601,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -17490,7 +17542,7 @@
             "type": "Unknown"
           },
           {
-            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "c",
             "type": "Unknown"
           },
           {
@@ -17648,7 +17700,7 @@
             "type": "Unknown"
           },
           {
-            "name": "eamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "c",
             "type": "Unknown"
           },
           {
@@ -17986,10 +18038,6 @@
             "type": "Unknown"
           },
           {
-            "name": "XCOORD",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -18224,10 +18272,6 @@
             "type": "Unknown"
           },
           {
-            "name": "XCOORD",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -18332,7 +18376,7 @@
             "type": "Unknown"
           },
           {
-            "name": "w",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -18604,7 +18648,7 @@
             "type": "Unknown"
           },
           {
-            "name": "w",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -18659,7 +18703,7 @@
             "type": "Unknown"
           },
           {
-            "name": "w",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -18826,15 +18870,11 @@
             "type": "Unknown"
           },
           {
-            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "TEAM_FOSSILIZE_DUMP_PATH=F:\\SteamLibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "l",
             "type": "Unknown"
           }
         ],
@@ -19094,7 +19134,7 @@
             "type": "Unknown"
           },
           {
-            "name": "w",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -19180,15 +19220,11 @@
             "type": "Unknown"
           },
           {
-            "name": "TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "TEAM_FOSSILIZE_DUMP_PATH=F:\\SteamLibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "l",
             "type": "Unknown"
           },
           {
@@ -23359,6 +23395,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           }
         ],

@@ -47,6 +47,10 @@
             "type": "Unknown"
           },
           {
+            "name": "ME=steamapp_shader_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -716,6 +720,10 @@
             "type": "Unknown"
           },
           {
+            "name": "ME=steamapp_shader_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -733,6 +741,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ME=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -755,6 +767,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "ME=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -1277,6 +1293,10 @@
           },
           {
             "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "amapp_shader_cache",
             "type": "Unknown"
           }
         ],
@@ -36605,10 +36625,6 @@
             "type": "Unknown"
           },
           {
-            "name": "570",
-            "type": "Unknown"
-          },
-          {
             "name": "TIMELINE_COMPRESSION_COUNT_PER_INTERVAL",
             "type": "Unknown"
           },
@@ -36692,10 +36708,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "570",
             "type": "Unknown"
           },
           {
@@ -37094,6 +37106,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "amapp_shader_cache",
             "type": "Unknown"
           }
         ],
@@ -42020,7 +42036,7 @@
             "type": "Unknown"
           },
           {
-            "name": ".2.840.113549.1.1.1",
+            "name": "hader_cache",
             "type": "Unknown"
           }
         ],
@@ -42143,7 +42159,7 @@
             "type": "Unknown"
           },
           {
-            "name": ".2.840.113549.1.1.1",
+            "name": "hader_cache",
             "type": "Unknown"
           },
           {
@@ -55953,6 +55969,10 @@
             "type": "Unknown"
           },
           {
+            "name": "_FILENAME=steamapp_shader_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "e",
             "type": "Unknown"
           }
@@ -55964,6 +55984,10 @@
         "metadata": [
           {
             "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -60341,11 +60365,11 @@
             "type": "Unknown"
           },
           {
-            "name": "SA_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled",
+            "name": "D",
             "type": "Unknown"
           },
           {
-            "name": "SA_DISK_CACHE_READ_ONLY_FOZ_DBS=steam_cache,steam_precompiled",
+            "name": "D",
             "type": "Unknown"
           },
           {
@@ -62422,26 +62446,6 @@
         "metadata": [],
         "parent": null
       },
-      "H__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "H____H____AVH___H____0": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "H____H____AVH___H___b0": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "H____WH__0H__H_D__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "IClientAlphaProperty": {
         "fields": {},
         "metadata": [
@@ -63007,11 +63011,6 @@
         ],
         "parent": null
       },
-      "Scroll_the_panel_left_by_one_line_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "SequenceHistory_t": {
         "fields": {
           "m_flCyclesPerSecond": 20,
@@ -63379,551 +63378,6 @@
             "type": "Unknown"
           }
         ],
-        "parent": null
-      },
-      "X_B___": {
-        "fields": {
-          "absorption_pct": 6780,
-          "ally_buff_duration": 1724,
-          "ally_movespeed_pct": 6776,
-          "aspd_increase_buff_duration": 6776,
-          "aspd_increase_mana_cost_pct": 6784,
-          "aspd_increase_rate_pct": 6788,
-          "aspd_increase_smoothness": 6780,
-          "base_damage": 6784,
-          "base_heal": 6788,
-          "battle_burst_duration": 1724,
-          "beam_range": 6780,
-          "bleed_as_rupture_pct": 6808,
-          "blind_duration": 6836,
-          "blind_per_second": 6840,
-          "bonus_damage": 6776,
-          "bonus_mana": 6776,
-          "burst_damage": 1728,
-          "damage_pct": 6808,
-          "damage_penalty": 6776,
-          "damage_per_mana": 6784,
-          "damage_per_stack": 1732,
-          "flMaxAspdGameTime": 6792,
-          "focal_point_blind_stack_multiplier": 6852,
-          "focal_point_max_multiplier": 6844,
-          "focal_point_start_length_pct": 6848,
-          "forward_move_speed": 6784,
-          "hit_radius": 6800,
-          "hit_recover_time": 6824,
-          "hp_cost_perc_per_second": 6776,
-          "hp_perc_damage": 6828,
-          "hp_perc_heal": 6832,
-          "illusion_percentage": 6788,
-          "impact_position_offset": 1736,
-          "impale_duration": 6804,
-          "initial_speed": 1732,
-          "jump_delay": 1740,
-          "jump_recover_time": 6832,
-          "katana_agility_bonus_base_damage": 6784,
-          "katana_attack_range": 6776,
-          "katana_base_attack_time": 6780,
-          "katana_base_ms": 6792,
-          "katana_bleed_attack_damage_pct": 6788,
-          "katana_bleed_duration": 6796,
-          "katana_swap_bonus_damage": 6800,
-          "knockback_radius": 6804,
-          "landing_radius": 1716,
-          "m_InFlightAttackRecords": 6784,
-          "m_StunTime": 6776,
-          "m_bBackstab": 6820,
-          "m_bCreatedVisionThinkers": 6896,
-          "m_bHitFirstUpdate": 6816,
-          "m_bIsAltCastState": 1764,
-          "m_bIsJumping": 6848,
-          "m_bLeashed": 6784,
-          "m_bMovingForward": 6820,
-          "m_bStunned": 6784,
-          "m_bTurningFast": 6821,
-          "m_flAccumulatedSelfDamage": 6816,
-          "m_flCurrentTime": 6812,
-          "m_flFacingTarget": 6840,
-          "m_flHitEndTime": 6820,
-          "m_flJumpEndTime": 6828,
-          "m_flSlow": 6776,
-          "m_flStacksForLifesteal": 6824,
-          "m_flStartingAttackSpeed": 6800,
-          "m_flTurnBoostProgress": 6836,
-          "m_flTurnHistory": 6856,
-          "m_hBeamEnd": 6892,
-          "m_hBeamEndSound": 6900,
-          "m_hDoubleShotTarget": 7560,
-          "m_hTarget": 6780,
-          "m_hVisionThinkers": 6860,
-          "m_iTotalAmount": 6796,
-          "m_nBeamFXIndex": 6856,
-          "m_nBonusPreAttackDamage": 6816,
-          "m_nDuelDamage": 6776,
-          "m_nFXIndex": 6852,
-          "m_nFXIndexA": 6780,
-          "m_nFXIndexB": 6780,
-          "m_nImpaleEndAttackRecord": 6830,
-          "m_nImpaleStartAttackRecord": 6828,
-          "m_nInitialMovespeed": 6844,
-          "m_nMaxJumpDistance": 1712,
-          "m_nProcDamage": 6776,
-          "m_nToBounceFXIndex": 1756,
-          "m_nToTargetFXIndex": 1760,
-          "m_nTrackingProjectileID": 1704,
-          "m_qOriginalAngle": 6776,
-          "m_qStartAngle": 7564,
-          "m_vEndpoint": 1744,
-          "m_vOriginLoc": 6788,
-          "m_vecHeroesCredited": 6904,
-          "m_vecHeroesHitCurrentRicochet": 6928,
-          "m_vecHeroesHitLastRicochet": 6880,
-          "magic_resistance": 6812,
-          "max_jump_distance": 1732,
-          "max_stacks": 6812,
-          "min_jump_distance": 1728,
-          "move_speed": 1720,
-          "move_speed_ramp_up_time": 6788,
-          "movement_burst_duration": 1724,
-          "movement_slow": 6776,
-          "mp_cost_per_second": 6776,
-          "obscure_vision": 6784,
-          "radius": 1720,
-          "return_speed": 1736,
-          "sai_swap_bonus_movement_speed": 6776,
-          "scepter_armor": 6776,
-          "slow_duration": 1744,
-          "slow_percent": 6776,
-          "slow_resistance_burst_duration": 1728,
-          "snake_damage": 1712,
-          "snake_damage_pct": 1716,
-          "snake_jumps": 1708,
-          "snake_mana_steal": 1720,
-          "snake_scale": 1724,
-          "snake_speed_scale": 1728,
-          "tick_interval": 6780,
-          "turn_rate": 6796,
-          "turn_rate_boosted": 6792,
-          "turn_rate_initial": 6800,
-          "turn_slow": 6780,
-          "vector_preview_radius": 1740,
-          "width": 6780
-        },
-        "metadata": [],
-        "parent": null
-      },
-      "_C____": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "M",
-            "type": "Unknown"
-          },
-          {
-            "name": ".LGD Card Pack - DPC Spring Tour - 2021-2022",
-            "type": "Unknown"
-          },
-          {
-            "name": " DPC Spring Tour - 2021-2022",
-            "type": "Unknown"
-          },
-          {
-            "name": "ups Season 2",
-            "type": "Unknown"
-          },
-          {
-            "name": "Ardalan Interdictor",
-            "type": "Unknown"
-          },
-          {
-            "name": "g_Screen",
-            "type": "Unknown"
-          },
-          {
-            "name": "rdictor",
-            "type": "Unknown"
-          },
-          {
-            "name": "0_158847773",
-            "type": "Unknown"
-          },
-          {
-            "name": "desc",
-            "type": "Unknown"
-          },
-          {
-            "name": "on11_138880576",
-            "type": "Unknown"
-          },
-          {
-            "name": "ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.",
-            "type": "Unknown"
-          },
-          {
-            "name": "eam Series. Compete with hundreds of teams for the a spot at the top",
-            "type": "Unknown"
-          },
-          {
-            "name": "uninterpreted_option",
-            "type": "Unknown"
-          },
-          {
-            "name": "ckoning mini-game to earn more chests.",
-            "type": "Unknown"
-          },
-          {
-            "name": "TA_Item_Desc_Crimson_Wyvern_Skirt",
-            "type": "Unknown"
-          },
-          {
-            "name": "DescriptorProtos",
-            "type": "Unknown"
-          },
-          {
-            "name": " Cape for Sniper.",
-            "type": "Unknown"
-          },
-          {
-            "name": "google.golang.org/protobuf/types/descriptorpb",
-            "type": "Unknown"
-          },
-          {
-            "name": "Google.Protobuf.Reflection",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_H____": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": ".LGD Card Pack - DPC Spring Tour - 2021-2022",
-            "type": "Unknown"
-          },
-          {
-            "name": " DPC Spring Tour - 2021-2022",
-            "type": "Unknown"
-          },
-          {
-            "name": "ups Season 2",
-            "type": "Unknown"
-          },
-          {
-            "name": "Ardalan Interdictor",
-            "type": "Unknown"
-          },
-          {
-            "name": "g_Screen",
-            "type": "Unknown"
-          },
-          {
-            "name": "rdictor",
-            "type": "Unknown"
-          },
-          {
-            "name": "0_158847773",
-            "type": "Unknown"
-          },
-          {
-            "name": "desc",
-            "type": "Unknown"
-          },
-          {
-            "name": "on11_138880576",
-            "type": "Unknown"
-          },
-          {
-            "name": "ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.",
-            "type": "Unknown"
-          },
-          {
-            "name": "eam Series. Compete with hundreds of teams for the a spot at the top",
-            "type": "Unknown"
-          },
-          {
-            "name": "uninterpreted_option",
-            "type": "Unknown"
-          },
-          {
-            "name": "ckoning mini-game to earn more chests.",
-            "type": "Unknown"
-          },
-          {
-            "name": "TA_Item_Desc_Crimson_Wyvern_Skirt",
-            "type": "Unknown"
-          },
-          {
-            "name": "DescriptorProtos",
-            "type": "Unknown"
-          },
-          {
-            "name": " Cape for Sniper.",
-            "type": "Unknown"
-          },
-          {
-            "name": "google.golang.org/protobuf/types/descriptorpb",
-            "type": "Unknown"
-          },
-          {
-            "name": "Google.Protobuf.Reflection",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_J____": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": ".LGD Card Pack - DPC Spring Tour - 2021-2022",
-            "type": "Unknown"
-          },
-          {
-            "name": " DPC Spring Tour - 2021-2022",
-            "type": "Unknown"
-          },
-          {
-            "name": "ups Season 2",
-            "type": "Unknown"
-          },
-          {
-            "name": "Ardalan Interdictor",
-            "type": "Unknown"
-          },
-          {
-            "name": "g_Screen",
-            "type": "Unknown"
-          },
-          {
-            "name": "rdictor",
-            "type": "Unknown"
-          },
-          {
-            "name": "0_158847773",
-            "type": "Unknown"
-          },
-          {
-            "name": "desc",
-            "type": "Unknown"
-          },
-          {
-            "name": "on11_138880576",
-            "type": "Unknown"
-          },
-          {
-            "name": "ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.",
-            "type": "Unknown"
-          },
-          {
-            "name": "eam Series. Compete with hundreds of teams for the a spot at the top",
-            "type": "Unknown"
-          },
-          {
-            "name": "uninterpreted_option",
-            "type": "Unknown"
-          },
-          {
-            "name": "ckoning mini-game to earn more chests.",
-            "type": "Unknown"
-          },
-          {
-            "name": "TA_Item_Desc_Crimson_Wyvern_Skirt",
-            "type": "Unknown"
-          },
-          {
-            "name": "DescriptorProtos",
-            "type": "Unknown"
-          },
-          {
-            "name": " Cape for Sniper.",
-            "type": "Unknown"
-          },
-          {
-            "name": "google.golang.org/protobuf/types/descriptorpb",
-            "type": "Unknown"
-          },
-          {
-            "name": "Google.Protobuf.Reflection",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_M____": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": ".LGD Card Pack - DPC Spring Tour - 2021-2022",
-            "type": "Unknown"
-          },
-          {
-            "name": " DPC Spring Tour - 2021-2022",
-            "type": "Unknown"
-          },
-          {
-            "name": "ups Season 2",
-            "type": "Unknown"
-          },
-          {
-            "name": "Ardalan Interdictor",
-            "type": "Unknown"
-          },
-          {
-            "name": "g_Screen",
-            "type": "Unknown"
-          },
-          {
-            "name": "rdictor",
-            "type": "Unknown"
-          },
-          {
-            "name": "0_158847773",
-            "type": "Unknown"
-          },
-          {
-            "name": "desc",
-            "type": "Unknown"
-          },
-          {
-            "name": "on11_138880576",
-            "type": "Unknown"
-          },
-          {
-            "name": "ings directly...until his strength returned, and he could trail the shamans back to their village for a much larger meal.",
-            "type": "Unknown"
-          },
-          {
-            "name": "eam Series. Compete with hundreds of teams for the a spot at the top",
-            "type": "Unknown"
-          },
-          {
-            "name": "uninterpreted_option",
-            "type": "Unknown"
-          },
-          {
-            "name": "ckoning mini-game to earn more chests.",
-            "type": "Unknown"
-          },
-          {
-            "name": "TA_Item_Desc_Crimson_Wyvern_Skirt",
-            "type": "Unknown"
-          },
-          {
-            "name": "DescriptorProtos",
-            "type": "Unknown"
-          },
-          {
-            "name": " Cape for Sniper.",
-            "type": "Unknown"
-          },
-          {
-            "name": "google.golang.org/protobuf/types/descriptorpb",
-            "type": "Unknown"
-          },
-          {
-            "name": "Google.Protobuf.Reflection",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_P____": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "P",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/default_keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "file://{resources}/keybinds.cfg",
-            "type": "Unknown"
-          },
-          {
-            "name": "joint19#Position",
-            "type": "Unknown"
-          },
-          {
-            "name": "A",
-            "type": "Unknown"
-          },
-          {
-            "name": " best teams from around the world travel to Frankfurt, Germany to battle it out for the $150,000+ prize pool. Purchase the Compe",
-            "type": "Unknown"
-          },
-          {
-            "name": "onbox.com",
-            "type": "Unknown"
-          },
-          {
-            "name": "CSplitScreenSlot",
-            "type": "Unknown"
-          },
-          {
-            "name": "Sponsor by melonbox.com",
-            "type": "Unknown"
-          },
-          {
-            "name": "e, give it an inscription, then equip it to have your customized monument appear in your team's base for all to see.",
-            "type": "Unknown"
-          },
-          {
-            "name": "e it an inscription, then equip it to have your customized monument appear in your team's base for all to see.",
-            "type": "Unknown"
-          },
-          {
-            "name": "g",
-            "type": "Unknown"
-          },
-          {
-            "name": "iption, then equip it to have your customized monument appear in your team's base for all to see.",
-            "type": "Unknown"
-          },
-          {
-            "name": "atherhutch",
-            "type": "Unknown"
-          },
-          {
-            "name": " of its potency along with it.",
-            "type": "Unknown"
-          },
-          {
-            "name": "0",
-            "type": "Unknown"
-          },
-          {
-            "name": "de a fintail reef kyte and protected against the crush by an enchanted helm, the moon rider serves as Selemene's champion and em",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "_SH__0H____7": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___H_______C": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___H______aC": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_SH___L__H_D_0": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "______": {
-        "fields": {},
-        "metadata": [],
         "parent": null
       },
       "audioparams_t": {

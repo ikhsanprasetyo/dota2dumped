@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-23 09:48:58.614879600 +07:00
+// 2026-08-24 14:09:53.173424200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -3083,6 +3083,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub mod CNmParameterizedBlendNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
@@ -3612,6 +3613,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskBlendNode__CDefinition {
                 pub const m_nSourceMaskNodeIdx: usize = 0x10; // int16
@@ -3704,9 +3706,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // TEAM_FOSSILIZE_DUMP_PATH=F:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyFriendlyName
-            // l
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4343,6 +4344,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5500,6 +5502,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub mod CNmVelocityBlendNode__CDefinition {
             }
             // Parent: None
@@ -5600,9 +5603,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // TEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // TEAM_FOSSILIZE_DUMP_PATH=F:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyFriendlyName
-            // l
             pub mod CParticleVecInput {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5685,6 +5687,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskSelectorNode__CDefinition {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
@@ -6032,6 +6035,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // iles\LLVM\binCommonProgramW6432=C:\Program Files\Common Files
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6140,7 +6144,7 @@ pub mod source2_dumper {
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE
             // PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT
             // PF_TYPE_COUNT
-            // eamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // c
             // PF_BIAS_TYPE_INVALID
             // PF_BIAS_TYPE_GAIN
             // PF_BIAS_TYPE_EXPONENTIAL
@@ -6950,7 +6954,6 @@ pub mod source2_dumper {
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
             // PF_ROUND_TYPE_COUNT
-            // XCOORD
             // MPropertyFriendlyName
             // PARTICLE_DIR_NOISE_CURL
             // PARTICLE_DIR_NOISE_WORLEY_BASIC
@@ -7478,7 +7481,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // w
+            //  
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8161,6 +8164,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub mod CQuaternionAnimParameter {
                 pub const m_defaultValue: usize = 0x80; // Quaternion
                 pub const m_bInterpolate: usize = 0x90; // bool
@@ -8687,7 +8691,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // w
+            //  
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9039,7 +9043,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // w
+            //  
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9423,6 +9427,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub mod CNmFixedWeightBoneMaskNode__CDefinition {
                 pub const m_flBoneWeight: usize = 0x10; // float32
             }
@@ -9473,7 +9478,7 @@ pub mod source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // eamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // c
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -9699,6 +9704,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub mod CNmBlend2DNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9752,6 +9758,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // iles\LLVM\binCommonProgramW6432=C:\Program Files\Common Files
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10321,6 +10328,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub mod CNmBodyGroupNode__CDefinition {
                 pub const m_nEnabledNodeIdx: usize = 0x18; // int16
                 pub const m_event: usize = 0x20; // CNmBodyGroupEvent
@@ -10367,6 +10375,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // iles\LLVM\binCommonProgramW6432=C:\Program Files\Common Files
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10436,7 +10445,7 @@ pub mod source2_dumper {
             // PT_TYPE_CONTROL_POINT
             // PT_TYPE_CONTROL_POINT_RANGE
             // PT_TYPE_COUNT
-            // eamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // c
             // PM_TYPE_NAMED_VALUE_MODEL
             // PM_TYPE_NAMED_VALUE_EHANDLE
             // PM_TYPE_CONTROL_POINT
@@ -11299,6 +11308,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // iles\LLVM\binCommonProgramW6432=C:\Program Files\Common Files
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11834,7 +11844,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
-            // w
+            //  
             pub mod CParticleFloatInput {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -12229,6 +12239,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // _FILENAME=steamapp_shader_cache
             pub mod CNmBoneMaskNode__CDefinition {
                 pub const m_boneMaskID: usize = 0x10; // CGlobalSymbol
             }
@@ -13244,7 +13255,6 @@ pub mod source2_dumper {
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
             // PF_ROUND_TYPE_COUNT
-            // XCOORD
             // MPropertyFriendlyName
             // PARTICLE_DIR_NOISE_CURL
             // PARTICLE_DIR_NOISE_WORLEY_BASIC

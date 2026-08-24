@@ -72561,6 +72561,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "EXCOORD",
+            "type": "Unknown"
           }
         ],
         "parent": null
