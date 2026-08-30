@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-24 14:09:53.173424200 +07:00
+// 2026-08-30 22:33:46.805939300 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7204
+        // Class count: 7218
         // Enum count: 118
         namespace client_dll {
             // Alignment: 4
@@ -8653,7 +8653,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // S
-            // _FILENAME=steamapp_shader_cache
             // e
             namespace C_DOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0xD10; // bool
@@ -17783,7 +17782,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // amapp_shader_cache
+            //  
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -18934,14 +18933,9 @@ namespace source2_dumper {
             // Field count: 29
             //
             // Metadata:
-            // East
-            // North
-            // Up
-            // eNotifyWhenFinished
-            // eNotifyTriggered
-            // BC_EMPTY
-            // BC_PROP_GROUP_OVERRIDE
-            // BC_PARTICLE_SYSTEM_OVERRIDE
+            // West
+            // South
+            // Down
             namespace C_EnvCombinedLightProbeVolume {
                 constexpr std::ptrdiff_t m_Entity_Color = 0x1668; // Color
                 constexpr std::ptrdiff_t m_Entity_flBrightness = 0x166C; // float32
@@ -26402,7 +26396,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // amapp_shader_cache
+            //  
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x530; // CBaseAnimGraphController
             }
@@ -32651,11 +32645,9 @@ namespace source2_dumper {
             // Field count: 18
             //
             // Metadata:
-            // East
-            // North
-            // Up
-            // eNotifyWhenFinished
-            // eNotifyTriggered
+            // West
+            // South
+            // Down
             namespace C_EnvCubemap {
                 constexpr std::ptrdiff_t m_Entity_hCubemapTexture = 0x670; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Entity_bCustomCubemapTexture = 0x678; // bool
@@ -37852,8 +37844,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // D
-            // D
+            // PP_NAME=steam_shader_cache;steamapp_merged_shader_cache
+            // PP_NAME=steam_shader_cache;steamapp_merged_shader_cache
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -41608,7 +41600,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // S
-            // _FILENAME=steamapp_shader_cache
             // e
             namespace C_DOTA_GuildBannerProp {
             }
@@ -45170,7 +45161,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ME=steamapp_shader_cache
+            // d
             // MGetKV3ClassDefaults
             namespace ArtyProgressBarDef_t {
                 constexpr std::ptrdiff_t m_flNotchSize = 0xB0; // float32
@@ -45369,7 +45360,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ME=steamapp_shader_cache
+            // d
             // MGetKV3ClassDefaults
             namespace ArtyCannonDef_t {
                 constexpr std::ptrdiff_t m_bDirectAimAtTarget = 0xB0; // bool
@@ -46533,7 +46524,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ME=steamapp_shader_cache
+            // d
             // MGetKV3ClassDefaults
             namespace ArtySpawnerDef_t {
                 constexpr std::ptrdiff_t m_flInitialDelay = 0xB0; // float32
@@ -46824,7 +46815,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // hader_cache
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
@@ -47244,7 +47234,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ME=steamapp_shader_cache
+            // d
             // MGetKV3ClassDefaults
             namespace ArtyUnitDef_t {
                 constexpr std::ptrdiff_t m_bRotateReloadBar = 0xB0; // bool
@@ -48130,6 +48120,7 @@ namespace source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
+            // adercache\570\DXVK_state_cache
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             namespace CClientAlphaProperty {
@@ -48235,7 +48226,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // hader_cache
             namespace CSurvivorsPowerUpDefinition_AreaAttack_Line {
                 constexpr std::ptrdiff_t m_bUseFacingDirection = 0x868; // bool
             }
@@ -49265,6 +49255,189 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flRadius = 0x8; // float32
                 constexpr std::ptrdiff_t m_nHitRegionIndex = 0xC; // int32
                 constexpr std::ptrdiff_t m_nDamageMultiplier = 0x10; // int32
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace npc_dota_juggernaut_healing_ward {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _X_y__ {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CSplitScreenSlot
+            // CMsgVoiceAudio
+            // CSVCMsg_Sounds
+            // CSVCMsg_SetView
+            // CSVCMsg_Menu
+            // CMsgServerPeer
+            // server_count
+            // friends_id
+            // data
+            // format
+            // sequence_bytes
+            // sample_rate
+            // num_packets
+            // voice_level
+            // xuid
+            // baseline_tick
+            // event_mask
+            // status_code
+            // value
+            // playername
+            // simplified
+            // pause_group
+            // token
+            // vprof_report
+            // upstream_flow
+            // protocol
+            // is_dedicated
+            // c_os
+            // max_classes
+            // tick_interval
+            // map_name
+            // host_name
+            // class_t
+            // class_name
+            // quality
+            // version
+            // reliable_sound
+            // sounddata_t
+            // origin_y
+            // volume
+            // sequence_number
+            // channel
+            // flags
+            // random_seed
+            // is_sentence
+            // guid
+            // sound_index
+            // entity_index
+            // relative
+            // angle
+            // model_index
+            // type
+            // player_index
+            // cvar_name
+            // menu_key_values
+            // msg_data
+            // is_end
+            // needs_decoder
+            // sendprop_t
+            // var_name
+            // priority
+            // num_elements
+            // high_value
+            // descriptors
+            // descriptor_t
+            // name
+            // name
+            // max_entries
+            // legacy_is_delta
+            // baseline
+            // entity_data
+            // server_tick
+            // cmd_recv_status
+            // baseline_index
+            // data
+            // data
+            // num_entries
+            // name
+            // string_data
+            // data_compressed
+            // table_id
+            // string_data
+            // xuid
+            // tick
+            // entity
+            // messagessize
+            // tick
+            // total
+            // master
+            // slots
+            // steam_id
+            // token
+            // computer_guid
+            // player_slot
+            // ipc
+            // you_hear_them
+            // peer
+            // var_name_sym
+            // low_value
+            // encode_flags
+            // var_encoder_sym
+            // fields_index
+            // symbols
+            // guid
+            // buftype
+            // event_id
+            // sync_type
+            // ESyncType
+            // cpu_usage
+            // memory_free_mb
+            // spawn_count
+            // num_bots
+            // num_tv_relays
+            // ports
+            // avg_packets_in
+            // avg_loss_in
+            // avg_data_in
+            // Port
+            // port
+            // steamid
+            // ping_avg_ms
+            // is_bot
+            // loss_out
+            // delay
+            // replay_stop_at
+            namespace ___y__ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ___y__ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace ___y__ {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _K_y__ {
             }
         }
     }

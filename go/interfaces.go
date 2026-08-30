@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-24 14:09:53.173424200 +07:00
+// 2026-08-30 22:33:46.805939300 +07:00
 
 package interfaces
 
@@ -7,13 +7,13 @@ const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x839F50
     AnimationsystemDll_AnimationSystem_001 = 0x831E70
     ClientDll_ClientToolsInfo_001 = 0x5A81BD0
-    ClientDll_DOTA_CLIENT_GCCLIENT = 0x6359170
+    ClientDll_DOTA_CLIENT_GCCLIENT = 0x63591E0
     ClientDll_GameClientExports001 = 0x5A7D8F8
     ClientDll_LegacyGameUI001 = 0x5AEC020
     ClientDll_PanoramaUIClient001 = 0x5B18C50
     ClientDll_PlayButtonService001 = 0x5AF9CF8
-    ClientDll_Source2Client002 = 0x61AC1B0
-    ClientDll_Source2ClientConfig001 = 0x6154610
+    ClientDll_Source2Client002 = 0x61AC230
+    ClientDll_Source2ClientConfig001 = 0x6154680
     ClientDll_Source2ClientPrediction001 = 0x5A860B0
     ClientDll_Source2ClientUI001 = 0x586F5C0
     Engine2Dll_BenchmarkService001 = 0x614B60
@@ -90,24 +90,24 @@ const (
     ScenesystemDll_SceneSystem_002 = 0x9104F0
     ScenesystemDll_SceneUtils_001 = 0x667DE0
     SchemasystemDll_SchemaSystem_001 = 0x75630
-    ServerDll_EntitySubclassUtilsV001 = 0x4753A10
-    ServerDll_NavGameTest001 = 0x49F7220
-    ServerDll_ServerToolsInfo_001 = 0x4960288
-    ServerDll_Source2GameClients001 = 0x495A440
-    ServerDll_Source2GameDirector001 = 0x5038EB0
-    ServerDll_Source2GameEntities001 = 0x495FA30
-    ServerDll_Source2Server001 = 0x495F880
-    ServerDll_Source2ServerConfig001 = 0x4F63C48
+    ServerDll_EntitySubclassUtilsV001 = 0x4741A10
+    ServerDll_NavGameTest001 = 0x49E4CD0
+    ServerDll_ServerToolsInfo_001 = 0x494DD18
+    ServerDll_Source2GameClients001 = 0x4947ED0
+    ServerDll_Source2GameDirector001 = 0x5025DA0
+    ServerDll_Source2GameEntities001 = 0x494D4C0
+    ServerDll_Source2Server001 = 0x494D310
+    ServerDll_Source2ServerConfig001 = 0x4F50758
     SoundsystemDll_SoundBugBugService001_Client = 0x553250
     SoundsystemDll_SoundOpSystem001 = 0x553130
     SoundsystemDll_SoundOpSystemEdit001 = 0x553040
     SoundsystemDll_SoundSystem001 = 0x552AA0
     SoundsystemDll_VMixEditTool001 = 0x59489FF
     SteamaudioDll_SteamAudio001 = 0x25F510
-    Tier0Dll_TestScriptMgr001 = 0x3997D0
-    Tier0Dll_VEngineCvar007 = 0x3A4470
-    Tier0Dll_VProcessUtils002 = 0x399770
-    Tier0Dll_VStringTokenSystem001 = 0x3CB170
+    Tier0Dll_TestScriptMgr001 = 0x39A7D0
+    Tier0Dll_VEngineCvar007 = 0x3A5470
+    Tier0Dll_VProcessUtils002 = 0x39A770
+    Tier0Dll_VStringTokenSystem001 = 0x3CC170
     V8systemDll_Source2V8System001 = 0x31770
     VconcommDll_VConComm001 = 0x3B730
     Vphysics2Dll_VPhysics2_Interface_001 = 0x439E30

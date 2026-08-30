@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-24 14:09:53.173424200 +07:00
+// 2026-08-30 22:33:46.805939300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 7204
+        // Class count: 7218
         // Enum count: 118
         pub const client_dll = struct {
             // Alignment: 4
@@ -8647,7 +8647,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // S
-            // _FILENAME=steamapp_shader_cache
             // e
             pub const C_DOTA_GuildBannerDynamic = struct {
                 pub const m_bRespawnClientEntity: usize = 0xD10; // bool
@@ -17777,7 +17776,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // amapp_shader_cache
+            //  
             pub const CPulseCell_BaseLerp = struct {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             };
@@ -18928,14 +18927,9 @@ pub const source2_dumper = struct {
             // Field count: 29
             //
             // Metadata:
-            // East
-            // North
-            // Up
-            // eNotifyWhenFinished
-            // eNotifyTriggered
-            // BC_EMPTY
-            // BC_PROP_GROUP_OVERRIDE
-            // BC_PARTICLE_SYSTEM_OVERRIDE
+            // West
+            // South
+            // Down
             pub const C_EnvCombinedLightProbeVolume = struct {
                 pub const m_Entity_Color: usize = 0x1668; // Color
                 pub const m_Entity_flBrightness: usize = 0x166C; // float32
@@ -26396,7 +26390,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // amapp_shader_cache
+            //  
             pub const CBodyComponentBaseAnimGraph = struct {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             };
@@ -32645,11 +32639,9 @@ pub const source2_dumper = struct {
             // Field count: 18
             //
             // Metadata:
-            // East
-            // North
-            // Up
-            // eNotifyWhenFinished
-            // eNotifyTriggered
+            // West
+            // South
+            // Down
             pub const C_EnvCubemap = struct {
                 pub const m_Entity_hCubemapTexture: usize = 0x670; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Entity_bCustomCubemapTexture: usize = 0x678; // bool
@@ -37846,8 +37838,8 @@ pub const source2_dumper = struct {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // D
-            // D
+            // PP_NAME=steam_shader_cache;steamapp_merged_shader_cache
+            // PP_NAME=steam_shader_cache;steamapp_merged_shader_cache
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -41602,7 +41594,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // S
-            // _FILENAME=steamapp_shader_cache
             // e
             pub const C_DOTA_GuildBannerProp = struct {
             };
@@ -45164,7 +45155,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ME=steamapp_shader_cache
+            // d
             // MGetKV3ClassDefaults
             pub const ArtyProgressBarDef_t = struct {
                 pub const m_flNotchSize: usize = 0xB0; // float32
@@ -45363,7 +45354,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ME=steamapp_shader_cache
+            // d
             // MGetKV3ClassDefaults
             pub const ArtyCannonDef_t = struct {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
@@ -46527,7 +46518,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ME=steamapp_shader_cache
+            // d
             // MGetKV3ClassDefaults
             pub const ArtySpawnerDef_t = struct {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
@@ -46818,7 +46809,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // hader_cache
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
@@ -47238,7 +47228,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // ME=steamapp_shader_cache
+            // d
             // MGetKV3ClassDefaults
             pub const ArtyUnitDef_t = struct {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
@@ -48124,6 +48114,7 @@ pub const source2_dumper = struct {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
+            // adercache\570\DXVK_state_cache
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             pub const CClientAlphaProperty = struct {
@@ -48229,7 +48220,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // hader_cache
             pub const CSurvivorsPowerUpDefinition_AreaAttack_Line = struct {
                 pub const m_bUseFacingDirection: usize = 0x868; // bool
             };
@@ -49259,6 +49249,189 @@ pub const source2_dumper = struct {
                 pub const m_flRadius: usize = 0x8; // float32
                 pub const m_nHitRegionIndex: usize = 0xC; // int32
                 pub const m_nDamageMultiplier: usize = 0x10; // int32
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const npc_dota_juggernaut_healing_ward = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _X_y__ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // CSplitScreenSlot
+            // CMsgVoiceAudio
+            // CSVCMsg_Sounds
+            // CSVCMsg_SetView
+            // CSVCMsg_Menu
+            // CMsgServerPeer
+            // server_count
+            // friends_id
+            // data
+            // format
+            // sequence_bytes
+            // sample_rate
+            // num_packets
+            // voice_level
+            // xuid
+            // baseline_tick
+            // event_mask
+            // status_code
+            // value
+            // playername
+            // simplified
+            // pause_group
+            // token
+            // vprof_report
+            // upstream_flow
+            // protocol
+            // is_dedicated
+            // c_os
+            // max_classes
+            // tick_interval
+            // map_name
+            // host_name
+            // class_t
+            // class_name
+            // quality
+            // version
+            // reliable_sound
+            // sounddata_t
+            // origin_y
+            // volume
+            // sequence_number
+            // channel
+            // flags
+            // random_seed
+            // is_sentence
+            // guid
+            // sound_index
+            // entity_index
+            // relative
+            // angle
+            // model_index
+            // type
+            // player_index
+            // cvar_name
+            // menu_key_values
+            // msg_data
+            // is_end
+            // needs_decoder
+            // sendprop_t
+            // var_name
+            // priority
+            // num_elements
+            // high_value
+            // descriptors
+            // descriptor_t
+            // name
+            // name
+            // max_entries
+            // legacy_is_delta
+            // baseline
+            // entity_data
+            // server_tick
+            // cmd_recv_status
+            // baseline_index
+            // data
+            // data
+            // num_entries
+            // name
+            // string_data
+            // data_compressed
+            // table_id
+            // string_data
+            // xuid
+            // tick
+            // entity
+            // messagessize
+            // tick
+            // total
+            // master
+            // slots
+            // steam_id
+            // token
+            // computer_guid
+            // player_slot
+            // ipc
+            // you_hear_them
+            // peer
+            // var_name_sym
+            // low_value
+            // encode_flags
+            // var_encoder_sym
+            // fields_index
+            // symbols
+            // guid
+            // buftype
+            // event_id
+            // sync_type
+            // ESyncType
+            // cpu_usage
+            // memory_free_mb
+            // spawn_count
+            // num_bots
+            // num_tv_relays
+            // ports
+            // avg_packets_in
+            // avg_loss_in
+            // avg_data_in
+            // Port
+            // port
+            // steamid
+            // ping_avg_ms
+            // is_bot
+            // loss_out
+            // delay
+            // replay_stop_at
+            pub const ___y__ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const ___y__ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const ___y__ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _K_y__ = struct {
             };
         };
     };

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-08-24 14:09:53.173424200 +07:00
+# 2026-08-30 22:33:46.805939300 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -28301,3 +28301,31 @@ class Schemas:
             m_flRadius = 0x8 # float32
             m_nHitRegionIndex = 0xC # int32
             m_nDamageMultiplier = 0x10 # int32
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class npc_dota_juggernaut_healing_ward:
+            pass
+        class _X_y__:
+            pass
+        class ___y__:
+            pass
+        class ___y__:
+            pass
+        class ___y__:
+            pass
+        class _K_y__:
+            pass

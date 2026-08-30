@@ -47,7 +47,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ME=steamapp_shader_cache",
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -720,7 +720,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ME=steamapp_shader_cache",
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -744,7 +744,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ME=steamapp_shader_cache",
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -770,7 +770,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ME=steamapp_shader_cache",
+            "name": "d",
             "type": "Unknown"
           },
           {
@@ -1296,7 +1296,7 @@
             "type": "Unknown"
           },
           {
-            "name": "amapp_shader_cache",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -1570,6 +1570,10 @@
           },
           {
             "name": "DMG_LASTGENERICFLAG",
+            "type": "Unknown"
+          },
+          {
+            "name": "adercache\\570\\DXVK_state_cache",
             "type": "Unknown"
           },
           {
@@ -37109,7 +37113,7 @@
             "type": "Unknown"
           },
           {
-            "name": "amapp_shader_cache",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -42034,10 +42038,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "hader_cache",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -42156,10 +42156,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "hader_cache",
             "type": "Unknown"
           },
           {
@@ -55969,10 +55965,6 @@
             "type": "Unknown"
           },
           {
-            "name": "_FILENAME=steamapp_shader_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "e",
             "type": "Unknown"
           }
@@ -55984,10 +55976,6 @@
         "metadata": [
           {
             "name": "S",
-            "type": "Unknown"
-          },
-          {
-            "name": "_FILENAME=steamapp_shader_cache",
             "type": "Unknown"
           },
           {
@@ -60188,35 +60176,15 @@
         },
         "metadata": [
           {
-            "name": "East",
+            "name": "West",
             "type": "Unknown"
           },
           {
-            "name": "North",
+            "name": "South",
             "type": "Unknown"
           },
           {
-            "name": "Up",
-            "type": "Unknown"
-          },
-          {
-            "name": "eNotifyWhenFinished",
-            "type": "Unknown"
-          },
-          {
-            "name": "eNotifyTriggered",
-            "type": "Unknown"
-          },
-          {
-            "name": "BC_EMPTY",
-            "type": "Unknown"
-          },
-          {
-            "name": "BC_PROP_GROUP_OVERRIDE",
-            "type": "Unknown"
-          },
-          {
-            "name": "BC_PARTICLE_SYSTEM_OVERRIDE",
+            "name": "Down",
             "type": "Unknown"
           }
         ],
@@ -60250,23 +60218,15 @@
         },
         "metadata": [
           {
-            "name": "East",
+            "name": "West",
             "type": "Unknown"
           },
           {
-            "name": "North",
+            "name": "South",
             "type": "Unknown"
           },
           {
-            "name": "Up",
-            "type": "Unknown"
-          },
-          {
-            "name": "eNotifyWhenFinished",
-            "type": "Unknown"
-          },
-          {
-            "name": "eNotifyTriggered",
+            "name": "Down",
             "type": "Unknown"
           }
         ],
@@ -60365,11 +60325,11 @@
             "type": "Unknown"
           },
           {
-            "name": "D",
+            "name": "PP_NAME=steam_shader_cache;steamapp_merged_shader_cache",
             "type": "Unknown"
           },
           {
-            "name": "D",
+            "name": "PP_NAME=steam_shader_cache;steamapp_merged_shader_cache",
             "type": "Unknown"
           },
           {
@@ -63380,6 +63340,21 @@
         ],
         "parent": null
       },
+      "_K_y__": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "_X_y__": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "___y__": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "audioparams_t": {
         "fields": {
           "localBits": 108,
@@ -63434,6 +63409,11 @@
             "type": "Unknown"
           }
         ],
+        "parent": null
+      },
+      "npc_dota_juggernaut_healing_ward": {
+        "fields": {},
+        "metadata": [],
         "parent": null
       },
       "sControlGroupElem": {

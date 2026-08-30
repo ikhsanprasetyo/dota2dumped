@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-24 14:09:53.173424200 +07:00
+// 2026-08-30 22:33:46.805939300 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 439
+        // Enum count: 438
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -14547,8 +14547,22 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // BEAM_POINTS
+            // BEAM_ENTPOINT
+            // BEAM_ENTS
+            // xxBEAM_HOSExxunused
+            // BEAM_SPLINE
+            // BEAM_LASER
+            // USE_BEST_COLLISION_BOUNDS
+            // USE_HITBOXES
+            // USE_SPECIFIED_BOUNDS
+            // USE_GAME_CODE
+            // USE_ROTATION_EXPANDED_BOUNDS
+            // USE_ROTATION_EXPANDED_ORIENTED_BOUNDS
+            // USE_COLLISION_BOUNDS_NEVER_VPHYSICS
+            // USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS
+            // SURROUNDING_TYPE_BIT_COUNT
             // MGetKV3ClassDefaults
-            // M
             namespace CPrecipitationVData {
                 constexpr std::ptrdiff_t m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 constexpr std::ptrdiff_t m_szParticlePrecipitationPuddleEffect = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -15166,6 +15180,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CHitboxComponent {
                 constexpr std::ptrdiff_t m_flBoundsExpandRadius = 0x14; // float32
             }
@@ -15629,6 +15645,7 @@ namespace source2_dumper {
             // Field count: 0
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -16386,6 +16403,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // e
             namespace CBodyComponentBaseAnimating {
                 constexpr std::ptrdiff_t m_animationController = 0x4E0; // CBaseAnimatingController
             }
@@ -17091,6 +17109,7 @@ namespace source2_dumper {
             // Field count: 5
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
             namespace CRenderComponent {
@@ -18156,14 +18175,10 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
-            // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-            // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-            // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
+            // MPropertyDescription
+            // MPropertyAttributeSuggestionName
+            // MPropertyDescription
+            // MPropertyDescription
             namespace CLightEntity {
                 constexpr std::ptrdiff_t m_CLightComponent = 0x778; // CLightComponent*
             }
@@ -19091,7 +19106,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // a
+            // MGetKV3ClassDefaults
             namespace CBodyComponentPoint {
                 constexpr std::ptrdiff_t m_sceneNode = 0x80; // CGameSceneNode
             }
@@ -19845,6 +19860,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // pData\Local\pnpm
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -20868,6 +20884,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             namespace CTimeline {
                 constexpr std::ptrdiff_t m_flValues = 0x10; // float32[64]
                 constexpr std::ptrdiff_t m_nValueCounts = 0x110; // int32[64]
@@ -21072,6 +21089,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // SHAKE_STOP
             namespace CountdownTimer {
                 constexpr std::ptrdiff_t m_duration = 0x8; // float32
                 constexpr std::ptrdiff_t m_timestamp = 0xC; // GameTime_t
@@ -22827,7 +22845,6 @@ namespace source2_dumper {
             // Metadata:
             // MPulseEditorHeaderExpr
             // MPulsePolymorphicDependentReturn
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CEnvCombinedLightProbeVolume {
                 constexpr std::ptrdiff_t m_Entity_Color = 0x1510; // Color
@@ -27534,9 +27551,6 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 5
-            //
-            // Metadata:
-            // n
             namespace CTonemapController2 {
                 constexpr std::ptrdiff_t m_flAutoExposureMin = 0x498; // float32
                 constexpr std::ptrdiff_t m_flAutoExposureMax = 0x49C; // float32
@@ -30035,11 +30049,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // RELATIVE_TO_ENTITY_IN_LOCAL_SPACE
             // RELATIVE_TO_ENTITY_YAW_ONLY
             // RELATIVE_TO_ENTITY_IN_WORLD_SPACE
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CSkeletonInstance {
                 constexpr std::ptrdiff_t m_modelState = 0x120; // CModelState
                 constexpr std::ptrdiff_t m_bUseParentRenderBounds = 0x3B0; // bool
@@ -31634,14 +31648,6 @@ namespace source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 0
-            //
-            // Metadata:
-            // l
-            // ePreserveUpAxis
-            // eCenter
-            // eHead
-            // eForward
-            // eEyesForward
             namespace CInfoTarget {
             }
             // Parent: CDOTABaseAbility
@@ -32181,6 +32187,9 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 36
+            //
+            // Metadata:
+            // n
             namespace CEnvVolumetricFogController {
                 constexpr std::ptrdiff_t m_flScattering = 0x498; // float32
                 constexpr std::ptrdiff_t m_TintColor = 0x49C; // Color
@@ -33768,7 +33777,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // generic
             namespace CPropDataComponent {
                 constexpr std::ptrdiff_t m_flDmgModBullet = 0x10; // float32
                 constexpr std::ptrdiff_t m_flDmgModClub = 0x14; // float32
@@ -35028,6 +35036,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CDestructiblePartsComponent {
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x0; // CNetworkVarChainer
                 constexpr std::ptrdiff_t m_vecDamageTakenByHitGroup = 0x48; // CUtlVector<uint16>
@@ -35556,25 +35565,47 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // AMMO_FORCE_DROP_IF_CARRIED
+            // AMMO_RESERVE_STAYS_WITH_WEAPON
+            // AMMO_FLAG_MAX
             // MPropertyDescription
+            // PrioritizeClosestPart
+            // MPropertyDescription
+            // Absorb
+            // InvincibleAbsorb
+            // InvinciblePassthrough
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
+            // eKill
+            // eGib
+            // eRemove
+            // GenerateBreakpieces
+            // SetBodyGroupAndCollisionState
+            // EnableFlinches
+            // ForceDamageApply
+            // IgnoreKillEntityFlag
+            // IgnoreHealthCheck
+            // ApplyPhysicsForce
+            // Default
+            // TS_AT_BOTTOM
+            // TS_GOING_UP
+            // TS_GOING_DOWN
+            // DOOR_CLOSED
+            // DOOR_OPENING
+            // DOOR_CLOSING
+            // M
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
+            //  
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField
+            // Y
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x4E0; // CBaseAnimGraphController
             }
@@ -37686,9 +37717,8 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // teamapp_shader_cache
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // ePosition
+            // eAngles
             namespace CModelState {
                 constexpr std::ptrdiff_t m_hModel = 0xA0; // CStrongHandle<InfoForResourceTypeCModel>
                 constexpr std::ptrdiff_t m_ModelName = 0xA8; // CUtlSymbolLarge
@@ -38758,37 +38788,7 @@ namespace source2_dumper {
             // Field count: 9
             //
             // Metadata:
-            // eMovementBegin
-            // eStopBegin
-            // eStopComplete
-            // eReversing
-            // eEventsDispatched
-            // eLoopToStart
-            // eLoopToEnd
-            // eTransitionComplete
-            // MOVE_OSCILLATE
-            // MOVE_STOP_AT_END
-            // ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH
-            // ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT
-            // ORIENTATION_MATCH_CONTROL_POINT
-            // ORIENTATION_FIXED
-            // ORIENTATION_FACE_PLAYER
-            // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
-            // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
-            // ORIENTATION_FACE_ENTITY
-            // TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD
-            // TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE
-            // TRANSITION_TO_PATH_NODE_TRANSITIONING
-            // FOLLOW_CONSTRAINT_SPRING
-            // FOLLOW_CONSTRAINT_RATIO
-            // FOLLOW_CONSTRAINT_COUPLER
-            // FOLLOW_ENTITY_FORWARD
-            // FOLLOW_ENTITY_REVERSE
-            // PATH_REBUILD_MAINTAIN_T
-            // PATH_REBUILD_USE_CURRENT_NODE_T
-            // FIND_FOLLOW_MOVER_REVERSE_CLOSEST
-            // FIND_FOLLOW_MOVER_BIDIRECTIONAL_CLOSEST
-            // MGetKV3ClassDefaults
+            // Y
             // MPropertyDescription
             // MPropertyDescription
             namespace CEnvDecal {
@@ -38848,6 +38848,7 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CBodyComponentSkeletonInstance {
                 constexpr std::ptrdiff_t m_skeletonInstance = 0x80; // CSkeletonInstance
@@ -39512,8 +39513,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // s\system32\WindowsPowerShell\v1.0\Modules
-            // inear
             namespace CScriptComponent {
                 constexpr std::ptrdiff_t m_scriptClassName = 0x30; // CUtlSymbolLarge
             }
@@ -42458,6 +42457,8 @@ namespace source2_dumper {
             // Field count: 2
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CBodyComponent {
@@ -46287,14 +46288,6 @@ namespace source2_dumper {
             }
             // Parent: CBaseClientUIEntity
             // Field count: 26
-            //
-            // Metadata:
-            // WORLDTEXT_HORIZONTAL_ALIGN_CENTER
-            // WORLDTEXT_HORIZONTAL_ALIGN_RIGHT
-            // WORLDTEXT_VERTICAL_ALIGN_CENTER
-            // WORLDTEXT_VERTICAL_ALIGN_BOTTOM
-            // WORLDTEXT_ORIENTATION_FACEUSER
-            // WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
             namespace CPointClientUIWorldPanel {
                 constexpr std::ptrdiff_t m_bIgnoreInput = 0x8D8; // bool
                 constexpr std::ptrdiff_t m_bLit = 0x8D9; // bool
@@ -48409,9 +48402,6 @@ namespace source2_dumper {
             }
             // Parent: CBaseEntity
             // Field count: 3
-            //
-            // Metadata:
-            // l
             namespace CPathSimple {
                 constexpr std::ptrdiff_t m_CPathQueryComponent = 0x4A0; // CPathQueryComponent
                 constexpr std::ptrdiff_t m_pathString = 0x590; // CUtlString
@@ -54919,6 +54909,16 @@ namespace source2_dumper {
             }
             // Parent: CDynamicProp
             // Field count: 10
+            //
+            // Metadata:
+            // n
+            // n
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MGetKV3ClassDefaults
+            // MVDataOutlinerIconExpr
+            // e
+            // S
             namespace CDOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0x9F0; // bool
                 constexpr std::ptrdiff_t m_bPlaySpawnAnimation = 0x9F1; // bool
@@ -54936,11 +54936,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // Y
-            // MKV3TransferSaveOpsForField
-            // MKV3TransferSaveOpsForField
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CDynamicProp {
                 constexpr std::ptrdiff_t m_bRandomAnimator = 0x930; // bool
                 constexpr std::ptrdiff_t m_flNextRandAnim = 0x934; // GameTime_t
@@ -56803,6 +56798,14 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             namespace FantasyLeagueID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -56828,40 +56831,20 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // AMMO_FORCE_DROP_IF_CARRIED
-            // AMMO_RESERVE_STAYS_WITH_WEAPON
-            // AMMO_FLAG_MAX
             // MPropertyDescription
-            // PrioritizeClosestPart
             // MPropertyDescription
-            // Absorb
-            // InvincibleAbsorb
-            // InvinciblePassthrough
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyDescription
-            // eKill
-            // eGib
-            // eRemove
-            // GenerateBreakpieces
-            // SetBodyGroupAndCollisionState
-            // EnableFlinches
-            // ForceDamageApply
-            // IgnoreKillEntityFlag
-            // IgnoreHealthCheck
-            // ApplyPhysicsForce
-            // Default
+            // MPropertyDescription
+            // MPropertyDescription
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // TS_AT_BOTTOM
-            // TS_GOING_UP
-            // TS_GOING_DOWN
-            // DOOR_CLOSED
-            // DOOR_OPENING
-            // DOOR_CLOSING
-            // M
+            // P_NAME=steam_shader_cache;steamapp_merged_shader_cache
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace RelationshipOverride_t {
                 constexpr std::ptrdiff_t entity = 0x8; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t classType = 0xC; // Class_T
@@ -56959,6 +56942,8 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             namespace CRemapFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -57050,13 +57035,15 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
-            // M
+            // MGetKV3ClassDefaults
             // BoneAndChildren
             // WsPosition
             // MsPosition
             // WsDirection
             // MsDirection
+            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             // eUnbind
             // eUnbindAndDelete
             // TEXT
@@ -57075,6 +57062,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // ANY
             // COUNT
+            // M
             namespace AI_GroundRootMotionMotor_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t desired_movement_gait_set = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t desired_movement_gait = 0x10; // CGlobalSymbol
@@ -57178,8 +57166,6 @@ namespace source2_dumper {
             // eState04
             // eState05
             // eCount
-            // ENABLE
-            // DISABLE
             namespace CFootstepTableHandle {
             }
             // Parent: None
@@ -57196,6 +57182,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // V
             namespace CraftworksComponentID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -57288,9 +57275,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // RELATIVE_TO_ENTITY_IN_LOCAL_SPACE
-            // RELATIVE_TO_ENTITY_YAW_ONLY
-            // RELATIVE_TO_ENTITY_IN_WORLD_SPACE
             namespace lerpdata_t {
                 constexpr std::ptrdiff_t m_hEnt = 0x0; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_MoveType = 0x4; // MoveType_t
@@ -57339,8 +57323,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CSimpleSimTimer {
                 constexpr std::ptrdiff_t m_flNext = 0x0; // GameTime_t
                 constexpr std::ptrdiff_t m_nWorldGroupId = 0x4; // WorldGroupId_t
@@ -57365,8 +57347,9 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // V
-            // Q
             namespace CraftworksRecipeID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -57387,7 +57370,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // TS_AT_BOTTOM
             namespace CPhysicsBodyGameMarkupData {
                 constexpr std::ptrdiff_t m_PhysicsBodyMarkupByBoneName = 0x0; // CUtlDict<CPhysicsBodyGameMarkup>
             }
@@ -57459,6 +57441,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // eUnbind
             namespace DebugSnapshotBaseStructuredData_t {
             }
             // Parent: None
@@ -57502,8 +57485,7 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // E_FILENAME=steamapp_shader_cache
-            // _FILENAME=steamapp_shader_cache
+            // S
             namespace BlessingPathID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -57621,12 +57603,19 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CNmEventConsumer {
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             // MPropertyDescription
             namespace FantasyGemSlot_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
@@ -57678,8 +57667,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             namespace OverworldCharacterID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -57692,6 +57679,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
             namespace AmmoIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int8
             }
@@ -57717,6 +57707,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // \
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -57747,7 +57740,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyDescription
             namespace TrackedStatExpressionData_t {
                 constexpr std::ptrdiff_t strExpression = 0x0; // CUtlString
             }
@@ -58000,6 +57992,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             namespace FantasyTabletID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -58118,20 +58116,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // .
-            // .
-            // n
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CavernCrawlPathID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -58176,6 +58160,9 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
             namespace CSkeletonAnimationController {
                 constexpr std::ptrdiff_t m_pSkeletonInstance = 0x8; // CSkeletonInstance*
             }
@@ -58441,7 +58428,18 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // Y
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MDebugSnapshotDataRenderFn
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MDebugSnapshotDataRenderFn
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MDebugSnapshotDataRenderFn
             namespace DebugDrawBoneTransforms_t {
                 constexpr std::ptrdiff_t vecBones = 0x10; // CUtlVectorFixedGrowable<CTransform,128>
             }
@@ -58503,7 +58501,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // =steamapp_shader_cache
+            // e
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -58591,6 +58589,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             // MPropertyDescription
             namespace FantasyGemQuality_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
@@ -58622,6 +58625,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // \
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -58743,11 +58749,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // M
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CChoreo_GraphController {
                 constexpr std::ptrdiff_t m_eChoreoState = 0xC0; // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
                 constexpr std::ptrdiff_t m_tChoreoTargetWarp = 0xD8; // CAnimGraph2ParamOptionalRef<CTransform>
@@ -58758,8 +58759,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // m
-            // m
+            // MGetKV3ClassDefaults
             namespace RotatorQueueEntry_t {
                 constexpr std::ptrdiff_t qTarget = 0x0; // Quaternion
                 constexpr std::ptrdiff_t eSpace = 0x10; // RotatorTargetSpace_t
@@ -58793,6 +58793,8 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -58866,6 +58868,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // NAV_OBSTACLE_TYPE_INVALID
+            // NAV_OBSTACLE_TYPE_AVOID
+            // NAV_OBSTACLE_TYPE_CONN
+            // NAV_OBSTACLE_TYPE_BLOCK
             namespace CMarkupSearchHelper {
                 constexpr std::ptrdiff_t m_navHull = 0x0; // NavHull_t
                 constexpr std::ptrdiff_t m_tagString = 0x8; // CUtlString
@@ -58881,6 +58887,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // V
             namespace CraftworksRecipeTierID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -58912,6 +58919,11 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // SOUNDCTRL_CHANGE_PITCH
+            // SOUNDCTRL_STOP
+            // SOUNDCTRL_DESTROY
+            // SOUNDCTRL_FADEOUT
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -58958,27 +58970,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // k_ePlayerTrackedStatImpl_Direct
-            // k_ePlayerTrackedStatImpl_KillEater
-            // k_ePlayerTrackedStatImpl_CombatQuery
-            // k_ePlayerTrackedStatImpl_Expression
-            // k_ePlayerTrackedStatImpl_HeroAdjective
-            // k_eTeamTrackedStatImpl_Direct
-            // k_eTeamTrackedStatImpl_Expression
-            // k_eTeamTrackedStatImpl_PlayerAggregate
-            // k_eMatchTrackedStatImpl_Direct
-            // k_eMatchTrackedStatImpl_Expression
-            // k_eMatchTrackedStatImpl_PlayerAggregate
-            // k_eMatchTrackedStatImpl_TeamAggregate
-            // k_eTrackedStatAggregate_Sum
-            // k_eTrackedStatAggregate_Max
-            // k_eTrackedStatAggregate_Min
-            // k_eTrackedStatAggregate_Or
-            // k_eTrackedStatAggregate_And
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
             namespace TrackedStatValue_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -59143,6 +59134,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyDescription
+            // MPropertyDescription
             // MPropertyDescription
             namespace FantasyGemShape_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
@@ -59212,6 +59208,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             namespace FantasyTitle_t {
@@ -59224,11 +59224,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // NAV_OBSTACLE_TYPE_INVALID
             // NAV_OBSTACLE_TYPE_AVOID
             // NAV_OBSTACLE_TYPE_CONN
             // NAV_OBSTACLE_TYPE_BLOCK
-            // MGetKV3ClassDefaults
             namespace CNmEventConsumerPulse {
             }
             // Parent: None
@@ -59377,16 +59377,11 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
             namespace OverworldPathID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // CT
             namespace AbilityContributionType_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59414,6 +59409,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // \
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -59434,9 +59430,10 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // OVERLAY_TEXT_BIT
-            // OVERLAY_NAME_BIT
-            // OVERLAY_BBOX_BIT
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace OverworldRoomGroupID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59539,6 +59536,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // e
             namespace ragdollelement_t {
                 constexpr std::ptrdiff_t originParentSpace = 0x0; // Vector
                 constexpr std::ptrdiff_t parentIndex = 0x20; // int32
@@ -59600,6 +59598,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // S
             namespace BlessingTypeID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -59736,20 +59737,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // .
-            // .
-            // n
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MPropertyDescription
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             namespace CavernCrawlRewardType_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59760,6 +59747,8 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             namespace CSkillInt {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // int32[4]
             }
@@ -59819,6 +59808,8 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
+            // r\steamapp_pipeline_cache.foz
+            // r\steamapp_pipeline_cache.foz
             namespace CSkillFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -60107,6 +60098,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // \
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -60127,9 +60119,10 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // OVERLAY_TEXT_BIT
-            // OVERLAY_NAME_BIT
-            // OVERLAY_BBOX_BIT
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace OverworldRoomID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
@@ -60191,7 +60184,6 @@ namespace source2_dumper {
             // Field count: 3
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CCopyRecipientFilter {
                 constexpr std::ptrdiff_t m_Flags = 0x8; // int32
@@ -60260,6 +60252,9 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // \
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -60331,13 +60326,15 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // Y
             namespace ISkeletonAnimationController {
             }
             // Parent: None
             // Field count: 2
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace RotatorHistoryEntry_t {
                 constexpr std::ptrdiff_t qInvChange = 0x0; // Quaternion
@@ -60500,6 +60497,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // \
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -60520,10 +60518,10 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // OVERLAY_TEXT_BIT
-            // OVERLAY_NAME_BIT
-            // OVERLAY_BBOX_BIT
-            // OVERLAY_PIVOT_BIT
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
             namespace OverworldTarotCardID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -60622,26 +60620,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // k_ePlayerTrackedStatImpl_Direct
-            // k_ePlayerTrackedStatImpl_KillEater
-            // k_ePlayerTrackedStatImpl_CombatQuery
-            // k_ePlayerTrackedStatImpl_Expression
-            // k_ePlayerTrackedStatImpl_HeroAdjective
-            // k_eTeamTrackedStatImpl_Direct
-            // k_eTeamTrackedStatImpl_Expression
-            // k_eTeamTrackedStatImpl_PlayerAggregate
-            // k_eMatchTrackedStatImpl_Direct
-            // k_eMatchTrackedStatImpl_Expression
-            // k_eMatchTrackedStatImpl_PlayerAggregate
-            // k_eMatchTrackedStatImpl_TeamAggregate
-            // k_eTrackedStatAggregate_Sum
-            // k_eTrackedStatAggregate_Max
-            // k_eTrackedStatAggregate_Min
-            // k_eTrackedStatAggregate_Or
-            // k_eTrackedStatAggregate_And
-            // MPropertyDescription
             namespace TrackedStatID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint32
             }
@@ -60721,8 +60699,9 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // V
-            // Q
             namespace CraftworksID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -60734,6 +60713,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // S
             namespace BlessingID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -60741,7 +60723,6 @@ namespace source2_dumper {
             // Field count: 4
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CRelativeLocation {
                 constexpr std::ptrdiff_t m_Type = 0x18; // RelativeLocationType_t
@@ -60935,62 +60916,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // ANIM_LOOP_MODE_INVALID
-            // ANIM_LOOP_MODE_LOOPING
-            // ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS
-            // ANIM_LOOP_MODE_COUNT
-            // eLowerBody
-            // eUpperBody
-            // eFullBody
-            // eCenter
-            // eEyes
-            // eAttachment
-            // SUBCLASS_SCOPE_NONE
-            // SUBCLASS_VDATA_SUBCLASS_CHANGED
-            // SUBCLASS_VDATA_RELOADED
-            // NeverConnected
-            // Connecting
-            // Reconnecting
-            // Disconnecting
-            // Disconnected
-            // Reserved
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // eCenterToCenter
-            // eAxisToAxis
-            // eEquipped
-            // eUserInitiatedSwitchToLast
-            // eUserInitiatedUIKeyPress
-            // eInvalid
-            // eSecondary
-            // eCount
-            // VOTE_FAILED_TRANSITIONING_PLAYERS
-            // VOTE_FAILED_RATE_EXCEEDED
-            // VOTE_FAILED_YES_MUST_EXCEED_NO
-            // VOTE_FAILED_QUORUM_FAILURE
-            // VOTE_FAILED_ISSUE_DISABLED
-            // VOTE_FAILED_MAP_NOT_FOUND
-            // VOTE_FAILED_MAP_NAME_REQUIRED
-            // VOTE_FAILED_FAILED_RECENTLY
-            // VOTE_FAILED_TEAM_CANT_CALL
-            // VOTE_FAILED_WAITINGFORPLAYERS
-            // VOTE_FAILED_PLAYERNOTFOUND
-            // VOTE_FAILED_CANNOT_KICK_ADMIN
-            // VOTE_FAILED_SCRAMBLE_IN_PROGRESS
-            // VOTE_FAILED_SPECTATOR
-            // VOTE_FAILED_MAX
-            // ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO
-            // ITEM_FLAG_NOAUTORELOAD
-            // ITEM_FLAG_NOAUTOSWITCHEMPTY
-            // ITEM_FLAG_LIMITINWORLD
-            // ITEM_FLAG_EXHAUSTIBLE
-            // ITEM_FLAG_DOHITLOCATIONDMG
-            // ITEM_FLAG_NOAMMOPICKUPS
-            // ITEM_FLAG_NOITEMPICKUP
-            // ENTITY_DISSOLVE_INVALID
-            // ENTITY_DISSOLVE_ELECTRICAL
-            // ENTITY_DISSOLVE_ELECTRICAL_LIGHT
-            // ENTITY_DISSOLVE_CORE
             namespace ParticleIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -61040,6 +60965,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace INavPathCostAreaFilter {
             }
             // Parent: None
@@ -61056,11 +60983,11 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // NAV_OBSTACLE_TYPE_INVALID
             // NAV_OBSTACLE_TYPE_AVOID
             // NAV_OBSTACLE_TYPE_CONN
             // NAV_OBSTACLE_TYPE_BLOCK
-            // MGetKV3ClassDefaults
             namespace CNmEventConsumerLegacy {
             }
             // Parent: None
@@ -61120,6 +61047,10 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
@@ -61270,7 +61201,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MPropertyDescription
             namespace OverworldHeroID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -61297,11 +61227,11 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // NAV_OBSTACLE_TYPE_INVALID
             // NAV_OBSTACLE_TYPE_AVOID
             // NAV_OBSTACLE_TYPE_CONN
             // NAV_OBSTACLE_TYPE_BLOCK
-            // MGetKV3ClassDefaults
             namespace CNmEventConsumerParticle {
             }
             // Parent: None
@@ -61335,6 +61265,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
+            // adercache\570\DXVK_state_cache
             namespace AI_DefaultNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t s_npc_current_ability = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61416,6 +61347,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MPropertyDescription
+            // MVDataUniqueMonotonicInt
+            // MPropertyAttributeEditor
+            // MPropertyDescription
+            // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
             // MPropertyDescription
@@ -61485,11 +61420,11 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // NAV_OBSTACLE_TYPE_INVALID
             // NAV_OBSTACLE_TYPE_AVOID
             // NAV_OBSTACLE_TYPE_CONN
             // NAV_OBSTACLE_TYPE_BLOCK
-            // MGetKV3ClassDefaults
             namespace CNmEventConsumerBodyGroup {
             }
             // Parent: None
@@ -61498,17 +61433,16 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // amapp_shader_cache
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // Y
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
             namespace CEmptyGraphController {
             }
             // Parent: None
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
             // AMMO_RESERVE_STAYS_WITH_WEAPON
@@ -61594,6 +61528,8 @@ namespace source2_dumper {
             // InvinciblePassthrough
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // MPropertyDescription
+            // MPropertyDescription
             namespace dynpitchvol_t {
             }
             // Parent: None
@@ -61687,12 +61623,12 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
+            //  
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
             // MKV3TransferSaveOpsForField
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
+            // Y
             namespace CAnimGraphControllerBase {
                 constexpr std::ptrdiff_t m_hExternalGraph = 0x4C; // ExternalAnimGraphHandle_t
             }
@@ -61769,6 +61705,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyDescription
             namespace TrackedStatAggregateData_t {
                 constexpr std::ptrdiff_t m_strIndividualStat = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_eAggregate = 0x8; // ETrackedStatAggregate

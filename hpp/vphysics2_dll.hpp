@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-24 14:09:53.173424200 +07:00
+// 2026-08-30 22:33:46.805939300 +07:00
 
 #pragma once
 
@@ -313,7 +313,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // 7
-            // ne\other\KDU;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program
             namespace vphysics_save_cphysicsbody_t {
                 constexpr std::ptrdiff_t m_nOldPointer = 0xE0; // uint64
             }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-24 14:09:53.173424200 +07:00
+// 2026-08-30 22:33:46.805939300 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -8,13 +8,13 @@ export const Interfaces = {
     },
     client_dll: {
         ClientToolsInfo_001: 0x5A81BD0,
-        DOTA_CLIENT_GCCLIENT: 0x6359170,
+        DOTA_CLIENT_GCCLIENT: 0x63591E0,
         GameClientExports001: 0x5A7D8F8,
         LegacyGameUI001: 0x5AEC020,
         PanoramaUIClient001: 0x5B18C50,
         PlayButtonService001: 0x5AF9CF8,
-        Source2Client002: 0x61AC1B0,
-        Source2ClientConfig001: 0x6154610,
+        Source2Client002: 0x61AC230,
+        Source2ClientConfig001: 0x6154680,
         Source2ClientPrediction001: 0x5A860B0,
         Source2ClientUI001: 0x586F5C0,
     },
@@ -131,14 +131,14 @@ export const Interfaces = {
         SchemaSystem_001: 0x75630,
     },
     server_dll: {
-        EntitySubclassUtilsV001: 0x4753A10,
-        NavGameTest001: 0x49F7220,
-        ServerToolsInfo_001: 0x4960288,
-        Source2GameClients001: 0x495A440,
-        Source2GameDirector001: 0x5038EB0,
-        Source2GameEntities001: 0x495FA30,
-        Source2Server001: 0x495F880,
-        Source2ServerConfig001: 0x4F63C48,
+        EntitySubclassUtilsV001: 0x4741A10,
+        NavGameTest001: 0x49E4CD0,
+        ServerToolsInfo_001: 0x494DD18,
+        Source2GameClients001: 0x4947ED0,
+        Source2GameDirector001: 0x5025DA0,
+        Source2GameEntities001: 0x494D4C0,
+        Source2Server001: 0x494D310,
+        Source2ServerConfig001: 0x4F50758,
     },
     soundsystem_dll: {
         SoundBugBugService001_Client: 0x553250,
@@ -151,10 +151,10 @@ export const Interfaces = {
         SteamAudio001: 0x25F510,
     },
     tier0_dll: {
-        TestScriptMgr001: 0x3997D0,
-        VEngineCvar007: 0x3A4470,
-        VProcessUtils002: 0x399770,
-        VStringTokenSystem001: 0x3CB170,
+        TestScriptMgr001: 0x39A7D0,
+        VEngineCvar007: 0x3A5470,
+        VProcessUtils002: 0x39A770,
+        VStringTokenSystem001: 0x3CC170,
     },
     v8system_dll: {
         Source2V8System001: 0x31770,

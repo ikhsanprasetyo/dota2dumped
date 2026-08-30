@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-24 14:09:53.173424200 +07:00
+// 2026-08-30 22:33:46.805939300 +07:00
 
 pub const source2_dumper = struct {
     // Module: client.dll
@@ -11,7 +11,7 @@ pub const source2_dumper = struct {
         pub const forward: usize = 0x5A82600;
         pub const jump: usize = 0x5A828D0;
         pub const left: usize = 0x5A82720;
-        pub const query: usize = 0x61F17C0;
+        pub const query: usize = 0x61F1840;
         pub const reload: usize = 0x5A82330;
         pub const right: usize = 0x5A827B0;
         pub const sprint: usize = 0x5A822A0;

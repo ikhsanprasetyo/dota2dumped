@@ -8823,6 +8823,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "pData\\Local\\pnpm",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -72560,10 +72564,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "EXCOORD",
             "type": "Unknown"
           }
         ],

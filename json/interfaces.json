@@ -5,13 +5,13 @@
   },
   "client.dll": {
     "ClientToolsInfo_001": 94903248,
-    "DOTA_CLIENT_GCCLIENT": 104173936,
+    "DOTA_CLIENT_GCCLIENT": 104174048,
     "GameClientExports001": 94886136,
     "LegacyGameUI001": 95338528,
     "PanoramaUIClient001": 95521872,
     "PlayButtonService001": 95395064,
-    "Source2Client002": 102416816,
-    "Source2ClientConfig001": 102057488,
+    "Source2Client002": 102416944,
+    "Source2ClientConfig001": 102057600,
     "Source2ClientPrediction001": 94920880,
     "Source2ClientUI001": 92730816
   },
@@ -128,14 +128,14 @@
     "SchemaSystem_001": 480816
   },
   "server.dll": {
-    "EntitySubclassUtilsV001": 74791440,
-    "NavGameTest001": 77558304,
-    "ServerToolsInfo_001": 76939912,
-    "Source2GameClients001": 76915776,
-    "Source2GameDirector001": 84119216,
-    "Source2GameEntities001": 76937776,
-    "Source2Server001": 76937344,
-    "Source2ServerConfig001": 83246152
+    "EntitySubclassUtilsV001": 74717712,
+    "NavGameTest001": 77483216,
+    "ServerToolsInfo_001": 76864792,
+    "Source2GameClients001": 76840656,
+    "Source2GameDirector001": 84041120,
+    "Source2GameEntities001": 76862656,
+    "Source2Server001": 76862224,
+    "Source2ServerConfig001": 83167064
   },
   "soundsystem.dll": {
     "SoundBugBugService001_Client": 5583440,
@@ -148,10 +148,10 @@
     "SteamAudio001": 2487568
   },
   "tier0.dll": {
-    "TestScriptMgr001": 3774416,
-    "VEngineCvar007": 3818608,
-    "VProcessUtils002": 3774320,
-    "VStringTokenSystem001": 3977584
+    "TestScriptMgr001": 3778512,
+    "VEngineCvar007": 3822704,
+    "VProcessUtils002": 3778416,
+    "VStringTokenSystem001": 3981680
   },
   "v8system.dll": {
     "Source2V8System001": 202608

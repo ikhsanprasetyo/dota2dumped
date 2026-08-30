@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-08-24 14:09:53.173424200 +07:00
+# 2026-08-30 22:33:46.805939300 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -7891,29 +7891,27 @@ class Schemas:
             MOVETYPE_OBSERVER = 0x8
             MOVETYPE_CUSTOM = 0x9
             MOVETYPE_LAST = 0xA
-        class ______:
+        class ___x__:
             pass
         class ______:
             pass
-        class ______:
+        class ___x__:
+             = 0x0
+        class ___l__:
+            pass
+        class ___x__:
+            pass
+        class __l__:
+            pass
+        class ___x__:
             pass
         class ______:
             pass
-        class ______:
+        class ___x__:
             pass
-        class ______:
+        class ___x__:
             pass
-        class ______:
-            pass
-        class _r____:
-            pass
-        class _h____:
-            pass
-        class ______:
-            pass
-        class _Y____:
-            pass
-        class ______:
+        class ___x__:
             pass
         class CDOTA_Modifier_AghsFort_Arcanist_Potion:
             m_nCooldownReductionPct = 0x1A78 # int32
