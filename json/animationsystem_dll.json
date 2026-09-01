@@ -372,7 +372,7 @@
             "type": "Unknown"
           },
           {
-            "name": "ne_cache.foz",
+            "name": "eline_cache",
             "type": "Unknown"
           },
           {
@@ -2016,6 +2016,10 @@
             "type": "Unknown"
           },
           {
+            "name": "_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2106,6 +2110,10 @@
             "type": "Unknown"
           },
           {
+            "name": "_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2190,6 +2198,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "_cache",
             "type": "Unknown"
           },
           {
@@ -2302,6 +2314,10 @@
           },
           {
             "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "_cache",
             "type": "Unknown"
           },
           {
@@ -17958,6 +17974,10 @@
             "type": "Unknown"
           },
           {
+            "name": "t",
+            "type": "Unknown"
+          },
+          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18192,6 +18212,10 @@
             "type": "Unknown"
           },
           {
+            "name": "t",
+            "type": "Unknown"
+          },
+          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18309,6 +18333,10 @@
           },
           {
             "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -18580,6 +18608,10 @@
             "type": "Unknown"
           },
           {
+            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -18628,6 +18660,10 @@
           },
           {
             "name": "MCustomFGDMetadata",
+            "type": "Unknown"
+          },
+          {
+            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -18794,15 +18830,15 @@
             "type": "Unknown"
           },
           {
+            "name": "SILIZE_DUMP_PATH=F:\\SteamLibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "32\\WindowsPowerShell\\v1.0\\Modules",
-            "type": "Unknown"
-          },
-          {
-            "name": "EAD_ONLY_APP_NAME=steam_shader_cache;steamapp_merged_shader_cache",
+            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -19062,6 +19098,10 @@
             "type": "Unknown"
           },
           {
+            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -19144,15 +19184,15 @@
             "type": "Unknown"
           },
           {
+            "name": "SILIZE_DUMP_PATH=F:\\SteamLibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
           {
-            "name": "32\\WindowsPowerShell\\v1.0\\Modules",
-            "type": "Unknown"
-          },
-          {
-            "name": "EAD_ONLY_APP_NAME=steam_shader_cache;steamapp_merged_shader_cache",
+            "name": "(",
             "type": "Unknown"
           },
           {
@@ -19916,7 +19956,11 @@
             "type": "Unknown"
           },
           {
-            "name": "pData\\Local\\pnpm",
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "C\\AppData\\Local",
             "type": "Unknown"
           }
         ],

@@ -247,7 +247,11 @@
             "type": "Unknown"
           },
           {
-            "name": "adercache\\570\\DXVK_state_cache",
+            "name": "6b/0x0302,0x0079/0x000a,0x25f0/0x83c1,0x11ff/0x3341,0x38d2/0x1010,0x38d2/0x1012,0x0c45/0x4320,0x1a34/0x0806,0x2717/0x3144,0x16c0",
+            "type": "Unknown"
+          },
+          {
+            "name": "=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -422,6 +426,10 @@
             "type": "Unknown"
           },
           {
+            "name": "pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
+          },
+          {
             "name": "MATCH",
             "type": "Unknown"
           },
@@ -547,7 +555,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "loat4",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AbilityID_t": {
@@ -646,7 +659,7 @@
         },
         "metadata": [
           {
-            "name": "S",
+            "name": "t",
             "type": "Unknown"
           }
         ],
@@ -658,7 +671,7 @@
         },
         "metadata": [
           {
-            "name": "S",
+            "name": "t",
             "type": "Unknown"
           }
         ],
@@ -690,7 +703,7 @@
         },
         "metadata": [
           {
-            "name": "S",
+            "name": "t",
             "type": "Unknown"
           }
         ],
@@ -831,7 +844,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "i",
             "type": "Unknown"
           },
           {
@@ -1913,7 +1926,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "i",
             "type": "Unknown"
           },
           {
@@ -59170,7 +59183,11 @@
             "type": "Unknown"
           },
           {
-            "name": "pData\\Local\\pnpm",
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "C\\AppData\\Local",
             "type": "Unknown"
           }
         ],
@@ -62259,11 +62276,15 @@
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "float4",
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
+          },
+          {
+            "name": "6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -62821,11 +62842,15 @@
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "float4",
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
+          },
+          {
+            "name": "6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -62849,11 +62874,15 @@
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "float4",
             "type": "Unknown"
           },
           {
-            "name": "r\\steamapp_pipeline_cache.foz",
+            "name": "6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
+          },
+          {
+            "name": "6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           }
         ],
@@ -68822,10 +68851,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "P_NAME=steam_shader_cache;steamapp_merged_shader_cache",
             "type": "Unknown"
           },
           {
@@ -79464,22 +79489,22 @@
         },
         "type": "uint32"
       },
-      "______": {
+      "____u_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___l__": {
+      "_g__u_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___x__": {
+      "_q__u_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "__l__": {
+      "_y__u_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

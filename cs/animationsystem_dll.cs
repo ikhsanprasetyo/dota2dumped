@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-30 22:33:46.805939300 +07:00
+// 2026-09-01 21:41:54.904199400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1620,7 +1620,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // pData\Local\pnpm
+        // r
+        // C\AppData\Local
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -3559,9 +3560,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // SILIZE_DUMP_PATH=F:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         // MPropertyFriendlyName
-        // 32\WindowsPowerShell\v1.0\Modules
-        // EAD_ONLY_APP_NAME=steam_shader_cache;steamapp_merged_shader_cache
+        // (
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -5455,9 +5456,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // SILIZE_DUMP_PATH=F:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         // MPropertyFriendlyName
-        // 32\WindowsPowerShell\v1.0\Modules
-        // EAD_ONLY_APP_NAME=steam_shader_cache;steamapp_merged_shader_cache
+        // (
         public static class CParticleVecInput {
             public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
@@ -5887,6 +5888,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // _cache
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -6800,6 +6802,7 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
+        // t
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL
@@ -7331,6 +7334,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -8539,6 +8543,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -8890,6 +8895,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // MCustomFGDMetadata
         // MGetKV3ClassDefaults
@@ -9601,6 +9607,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // _cache
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -10216,6 +10223,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // _cache
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -11147,6 +11155,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MPropertyDescription
+        // _cache
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
@@ -11682,6 +11691,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         // MCustomFGDMetadata
+        // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CParticleFloatInput {
             public const nint m_nType = 0x10; // ParticleFloatType_t
             public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
@@ -12957,7 +12967,7 @@ namespace Source2Dumper.Schemas {
         // FLAG0_SHIFT_CONSTRAIN
         // FLAG0_SHIFT_BREAKABLE_FORCE
         // FLAG0_SHIFT_BREAKABLE_TORQUE
-        // ne_cache.foz
+        // eline_cache
         // JOINT_FLAGS_BODY1_FIXED
         // JOINT_FLAGS_USE_BLOCK_SOLVER
         // FLAG_IS_POLYSOUP_GEOMETRY
@@ -13087,6 +13097,7 @@ namespace Source2Dumper.Schemas {
         // PF_MAP_TYPE_NOTCHED
         // PF_MAP_TYPE_ROUND
         // PF_MAP_TYPE_COUNT
+        // t
         // PF_ROUND_TYPE_INVALID
         // PF_ROUND_TYPE_FLOOR
         // PF_ROUND_TYPE_CEIL

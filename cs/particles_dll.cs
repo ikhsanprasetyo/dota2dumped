@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-30 22:33:46.805939300 +07:00
+// 2026-09-01 21:41:54.904199400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -919,7 +919,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // pData\Local\pnpm
+        // r
+        // C\AppData\Local
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -16866,6 +16867,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeEditor
         // MPropertyFriendlyName
+        // iewPad0
         public static class C_OP_RenderOmni2Light {
             public const nint m_nLightType = 0x228; // ParticleOmni2LightTypeChoiceList_t
             public const nint m_nMaxAllowed = 0x22C; // uint16
@@ -21807,6 +21809,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class C_OP_RemapBoundingVolumetoCP {
             public const nint m_nOutControlPointNumber = 0x1E0; // int32
             public const nint m_flInputMin = 0x1E4; // float32
@@ -24331,6 +24334,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class C_OP_EnableChildrenFromParentParticleCount {
             public const nint m_nChildGroupID = 0x1E0; // int32
             public const nint m_nFirstChild = 0x1E4; // int32

@@ -8825,7 +8825,11 @@
             "type": "Unknown"
           },
           {
-            "name": "pData\\Local\\pnpm",
+            "name": "r",
+            "type": "Unknown"
+          },
+          {
+            "name": "C\\AppData\\Local",
             "type": "Unknown"
           }
         ],
@@ -47703,6 +47707,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61911,6 +61919,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -72564,6 +72576,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "iewPad0",
             "type": "Unknown"
           }
         ],

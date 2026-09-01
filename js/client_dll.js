@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-30 22:33:46.805939300 +07:00
+// 2026-09-01 21:41:54.904199400 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -32125,34 +32125,6 @@ export const Schemas = {
             m_flRadius: 0x8, // float32
             m_nHitRegionIndex: 0xC, // int32
             m_nDamageMultiplier: 0x10, // int32
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        npc_dota_juggernaut_healing_ward: {
-        },
-        _X_y__: {
-        },
-        ___y__: {
-        },
-        ___y__: {
-        },
-        ___y__: {
-        },
-        _K_y__: {
         },
     },
 };

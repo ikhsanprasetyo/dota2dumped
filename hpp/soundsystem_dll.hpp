@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-30 22:33:46.805939300 +07:00
+// 2026-09-01 21:41:54.904199400 +07:00
 
 #pragma once
 
@@ -768,6 +768,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CSosGroupActionSetSoundeventParameterSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_flMinValue = 0xC; // float32
@@ -866,6 +867,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CSosGroupActionSoundeventMinMaxValuesSchema {
                 constexpr std::ptrdiff_t m_strQueryPublicFieldName = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_strDelayPublicFieldName = 0x10; // CUtlString
@@ -1485,6 +1487,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -2193,6 +2196,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CSosGroupActionSoundeventCountSchema {
                 constexpr std::ptrdiff_t m_bExcludeStoppedSounds = 0x8; // bool
                 constexpr std::ptrdiff_t m_strCountKeyName = 0x10; // CUtlString
@@ -2352,6 +2356,7 @@ namespace source2_dumper {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
+            // t
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3328,7 +3333,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // npc_dota_juggernaut_healing_ward
-            // hon312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData
+            // ram Files\Go\bin;C:\Program Files\LLVM\bin;C:\cloudflared;G:\Android\Sdk;C:\Users\ByteseekerPC\.local\bin;C:\Program Files\Cloud
             namespace CVoiceContainerVMixSnd {
             }
             // Parent: None
@@ -3461,6 +3466,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CSosGroupActionLimitSchema {
                 constexpr std::ptrdiff_t m_nMaxCount = 0x8; // int32
                 constexpr std::ptrdiff_t m_nStopType = 0xC; // SosActionStopType_t
@@ -4076,6 +4082,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CSosGroupActionTimeLimitSchema {
                 constexpr std::ptrdiff_t m_flMaxDuration = 0x8; // float32
             }

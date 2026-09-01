@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-30 22:33:46.805939300 +07:00
+// 2026-09-01 21:41:54.904199400 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 438
+        // Enum count: 442
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -19860,7 +19860,8 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // pData\Local\pnpm
+            // r
+            // C\AppData\Local
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -35600,7 +35601,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            //  
+            // i
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -56842,7 +56843,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // P_NAME=steam_shader_cache;steamapp_merged_shader_cache
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace RelationshipOverride_t {
@@ -56942,8 +56942,9 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
+            // float4
+            // 6\steamapprun_pipeline_cache
+            // 6\steamapprun_pipeline_cache
             namespace CRemapFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -57056,6 +57057,7 @@ namespace source2_dumper {
             // AI_PATHFINDING
             // END_SIM_HISTORY_TYPES
             // COMBINED
+            // pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MATCH
             // HIERARCHY
             // COUNT
@@ -57485,7 +57487,7 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // S
+            // t
             namespace BlessingPathID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -59382,6 +59384,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // loat4
             namespace AbilityContributionType_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59600,7 +59605,7 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // S
+            // t
             namespace BlessingTypeID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -59747,8 +59752,9 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
+            // float4
+            // 6\steamapprun_pipeline_cache
+            // 6\steamapprun_pipeline_cache
             namespace CSkillInt {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // int32[4]
             }
@@ -59808,8 +59814,9 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
+            // float4
+            // 6\steamapprun_pipeline_cache
+            // 6\steamapprun_pipeline_cache
             namespace CSkillFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -60715,7 +60722,7 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // S
+            // t
             namespace BlessingID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -61265,7 +61272,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // adercache\570\DXVK_state_cache
+            // 6b/0x0302,0x0079/0x000a,0x25f0/0x83c1,0x11ff/0x3341,0x38d2/0x1010,0x38d2/0x1012,0x0c45/0x4320,0x1a34/0x0806,0x2717/0x3144,0x16c0
+            // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace AI_DefaultNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t s_npc_current_ability = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61623,7 +61631,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            //  
+            // i
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior

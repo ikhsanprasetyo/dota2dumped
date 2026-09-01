@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-30 22:33:46.805939300 +07:00
+// 2026-09-01 21:41:54.904199400 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -1621,7 +1621,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // pData\Local\pnpm
+            // r
+            // C\AppData\Local
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -3560,9 +3561,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SILIZE_DUMP_PATH=F:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyFriendlyName
-            // 32\WindowsPowerShell\v1.0\Modules
-            // EAD_ONLY_APP_NAME=steam_shader_cache;steamapp_merged_shader_cache
+            // (
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5456,9 +5457,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // SILIZE_DUMP_PATH=F:\SteamLibrary\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyFriendlyName
-            // 32\WindowsPowerShell\v1.0\Modules
-            // EAD_ONLY_APP_NAME=steam_shader_cache;steamapp_merged_shader_cache
+            // (
             pub const CParticleVecInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5888,6 +5889,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // _cache
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6801,6 +6803,7 @@ pub const source2_dumper = struct {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // t
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -7332,6 +7335,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8540,6 +8544,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -8891,6 +8896,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // MCustomFGDMetadata
             // MGetKV3ClassDefaults
@@ -9602,6 +9608,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // _cache
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10217,6 +10224,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // _cache
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11148,6 +11156,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // _cache
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11683,6 +11692,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MCustomFGDMetadata
+            // $bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const CParticleFloatInput = struct {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
@@ -12958,7 +12968,7 @@ pub const source2_dumper = struct {
             // FLAG0_SHIFT_CONSTRAIN
             // FLAG0_SHIFT_BREAKABLE_FORCE
             // FLAG0_SHIFT_BREAKABLE_TORQUE
-            // ne_cache.foz
+            // eline_cache
             // JOINT_FLAGS_BODY1_FIXED
             // JOINT_FLAGS_USE_BLOCK_SOLVER
             // FLAG_IS_POLYSOUP_GEOMETRY
@@ -13088,6 +13098,7 @@ pub const source2_dumper = struct {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // t
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

@@ -47,7 +47,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -720,7 +720,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -744,7 +744,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -770,7 +770,7 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -1296,7 +1296,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "i",
             "type": "Unknown"
           }
         ],
@@ -1573,7 +1573,11 @@
             "type": "Unknown"
           },
           {
-            "name": "adercache\\570\\DXVK_state_cache",
+            "name": "6b/0x0302,0x0079/0x000a,0x25f0/0x83c1,0x11ff/0x3341,0x38d2/0x1010,0x38d2/0x1012,0x0c45/0x4320,0x1a34/0x0806,0x2717/0x3144,0x16c0",
+            "type": "Unknown"
+          },
+          {
+            "name": "=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -36944,6 +36948,10 @@
           {
             "name": "l",
             "type": "Unknown"
+          },
+          {
+            "name": "0K",
+            "type": "Unknown"
           }
         ],
         "parent": "C_BaseEntity"
@@ -37113,7 +37121,7 @@
             "type": "Unknown"
           },
           {
-            "name": " ",
+            "name": "i",
             "type": "Unknown"
           }
         ],
@@ -60325,11 +60333,11 @@
             "type": "Unknown"
           },
           {
-            "name": "PP_NAME=steam_shader_cache;steamapp_merged_shader_cache",
+            "name": "0",
             "type": "Unknown"
           },
           {
-            "name": "PP_NAME=steam_shader_cache;steamapp_merged_shader_cache",
+            "name": "0",
             "type": "Unknown"
           },
           {
@@ -60711,6 +60719,10 @@
           {
             "name": "l",
             "type": "Unknown"
+          },
+          {
+            "name": "0K",
+            "type": "Unknown"
           }
         ],
         "parent": "C_BaseEntity"
@@ -60834,6 +60846,10 @@
         "metadata": [
           {
             "name": "Q",
+            "type": "Unknown"
+          },
+          {
+            "name": "ORD",
             "type": "Unknown"
           },
           {
@@ -62422,6 +62438,10 @@
             "type": "Unknown"
           },
           {
+            "name": "loat4",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -63340,21 +63360,6 @@
         ],
         "parent": null
       },
-      "_K_y__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "_X_y__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "___y__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "audioparams_t": {
         "fields": {
           "localBits": 108,
@@ -63409,11 +63414,6 @@
             "type": "Unknown"
           }
         ],
-        "parent": null
-      },
-      "npc_dota_juggernaut_healing_ward": {
-        "fields": {},
-        "metadata": [],
         "parent": null
       },
       "sControlGroupElem": {

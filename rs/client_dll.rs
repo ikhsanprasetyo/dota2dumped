@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-08-30 22:33:46.805939300 +07:00
+// 2026-09-01 21:41:54.904199400 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 7218
+        // Class count: 7204
         // Enum count: 118
         pub mod client_dll {
             // Alignment: 4
@@ -8664,6 +8664,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // l
+            // 0K
             pub mod C_EnvWindVolume {
                 pub const m_bActive: usize = 0x5F0; // bool
                 pub const m_vBoxMins: usize = 0x5F4; // Vector
@@ -17896,7 +17897,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
+            // i
             pub mod CPulseCell_BaseLerp {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
@@ -25645,6 +25646,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // l
+            // 0K
             pub mod CPointOrient {
                 pub const m_iszSpawnTargetName: usize = 0x5F0; // CUtlSymbolLarge
                 pub const m_hTarget: usize = 0x5F8; // CHandle<C_BaseEntity>
@@ -25685,6 +25687,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // Q
+            // ORD
             // MGetKV3ClassDefaults
             pub mod C_GlobalLight {
                 pub const m_WindClothForceHandle: usize = 0xB10; // uint16
@@ -26510,7 +26513,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            //  
+            // i
             pub mod CBodyComponentBaseAnimGraph {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             }
@@ -37958,8 +37961,8 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // PP_NAME=steam_shader_cache;steamapp_merged_shader_cache
-            // PP_NAME=steam_shader_cache;steamapp_merged_shader_cache
+            // 0
+            // 0
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -45275,7 +45278,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // d
+            //  
             // MGetKV3ClassDefaults
             pub mod ArtyProgressBarDef_t {
                 pub const m_flNotchSize: usize = 0xB0; // float32
@@ -45474,7 +45477,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // d
+            //  
             // MGetKV3ClassDefaults
             pub mod ArtyCannonDef_t {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
@@ -46638,7 +46641,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // d
+            //  
             // MGetKV3ClassDefaults
             pub mod ArtySpawnerDef_t {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
@@ -47348,7 +47351,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // d
+            //  
             // MGetKV3ClassDefaults
             pub mod ArtyUnitDef_t {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
@@ -48234,7 +48237,8 @@ pub mod source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // adercache\570\DXVK_state_cache
+            // 6b/0x0302,0x0079/0x000a,0x25f0/0x83c1,0x11ff/0x3341,0x38d2/0x1010,0x38d2/0x1012,0x0c45/0x4320,0x1a34/0x0806,0x2717/0x3144,0x16c0
+            // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             pub mod CClientAlphaProperty {
@@ -48715,6 +48719,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // loat4
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e
@@ -49369,189 +49374,6 @@ pub mod source2_dumper {
                 pub const m_flRadius: usize = 0x8; // float32
                 pub const m_nHitRegionIndex: usize = 0xC; // int32
                 pub const m_nDamageMultiplier: usize = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod npc_dota_juggernaut_healing_ward {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _X_y__ {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // CSplitScreenSlot
-            // CMsgVoiceAudio
-            // CSVCMsg_Sounds
-            // CSVCMsg_SetView
-            // CSVCMsg_Menu
-            // CMsgServerPeer
-            // server_count
-            // friends_id
-            // data
-            // format
-            // sequence_bytes
-            // sample_rate
-            // num_packets
-            // voice_level
-            // xuid
-            // baseline_tick
-            // event_mask
-            // status_code
-            // value
-            // playername
-            // simplified
-            // pause_group
-            // token
-            // vprof_report
-            // upstream_flow
-            // protocol
-            // is_dedicated
-            // c_os
-            // max_classes
-            // tick_interval
-            // map_name
-            // host_name
-            // class_t
-            // class_name
-            // quality
-            // version
-            // reliable_sound
-            // sounddata_t
-            // origin_y
-            // volume
-            // sequence_number
-            // channel
-            // flags
-            // random_seed
-            // is_sentence
-            // guid
-            // sound_index
-            // entity_index
-            // relative
-            // angle
-            // model_index
-            // type
-            // player_index
-            // cvar_name
-            // menu_key_values
-            // msg_data
-            // is_end
-            // needs_decoder
-            // sendprop_t
-            // var_name
-            // priority
-            // num_elements
-            // high_value
-            // descriptors
-            // descriptor_t
-            // name
-            // name
-            // max_entries
-            // legacy_is_delta
-            // baseline
-            // entity_data
-            // server_tick
-            // cmd_recv_status
-            // baseline_index
-            // data
-            // data
-            // num_entries
-            // name
-            // string_data
-            // data_compressed
-            // table_id
-            // string_data
-            // xuid
-            // tick
-            // entity
-            // messagessize
-            // tick
-            // total
-            // master
-            // slots
-            // steam_id
-            // token
-            // computer_guid
-            // player_slot
-            // ipc
-            // you_hear_them
-            // peer
-            // var_name_sym
-            // low_value
-            // encode_flags
-            // var_encoder_sym
-            // fields_index
-            // symbols
-            // guid
-            // buftype
-            // event_id
-            // sync_type
-            // ESyncType
-            // cpu_usage
-            // memory_free_mb
-            // spawn_count
-            // num_bots
-            // num_tv_relays
-            // ports
-            // avg_packets_in
-            // avg_loss_in
-            // avg_data_in
-            // Port
-            // port
-            // steamid
-            // ping_avg_ms
-            // is_bot
-            // loss_out
-            // delay
-            // replay_stop_at
-            pub mod ___y__ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ___y__ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ___y__ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _K_y__ {
             }
         }
     }
