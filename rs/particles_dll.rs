@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-01 21:41:54.904199400 +07:00
+// 2026-09-04 11:15:22.142540100 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -999,8 +999,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // r
-            // C\AppData\Local
+            // ogram Files\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -2361,6 +2360,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -7780,6 +7780,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -10429,6 +10430,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -16947,7 +16949,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // iewPad0
             pub mod C_OP_RenderOmni2Light {
                 pub const m_nLightType: usize = 0x228; // ParticleOmni2LightTypeChoiceList_t
                 pub const m_nMaxAllowed: usize = 0x22C; // uint16
@@ -21889,7 +21890,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod C_OP_RemapBoundingVolumetoCP {
                 pub const m_nOutControlPointNumber: usize = 0x1E0; // int32
                 pub const m_flInputMin: usize = 0x1E4; // float32
@@ -22955,6 +22955,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -24414,7 +24415,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod C_OP_EnableChildrenFromParentParticleCount {
                 pub const m_nChildGroupID: usize = 0x1E0; // int32
                 pub const m_nFirstChild: usize = 0x1E4; // int32
@@ -24855,6 +24855,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -25383,6 +25384,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName

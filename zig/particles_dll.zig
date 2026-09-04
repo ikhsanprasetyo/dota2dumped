@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-01 21:41:54.904199400 +07:00
+// 2026-09-04 11:15:22.142540100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -920,8 +920,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // r
-            // C\AppData\Local
+            // ogram Files\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -2282,6 +2281,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -7701,6 +7701,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -10350,6 +10351,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -16868,7 +16870,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyAttributeEditor
             // MPropertyFriendlyName
-            // iewPad0
             pub const C_OP_RenderOmni2Light = struct {
                 pub const m_nLightType: usize = 0x228; // ParticleOmni2LightTypeChoiceList_t
                 pub const m_nMaxAllowed: usize = 0x22C; // uint16
@@ -21810,7 +21811,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const C_OP_RemapBoundingVolumetoCP = struct {
                 pub const m_nOutControlPointNumber: usize = 0x1E0; // int32
                 pub const m_flInputMin: usize = 0x1E4; // float32
@@ -22876,6 +22876,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -24335,7 +24336,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const C_OP_EnableChildrenFromParentParticleCount = struct {
                 pub const m_nChildGroupID: usize = 0x1E0; // int32
                 pub const m_nFirstChild: usize = 0x1E4; // int32
@@ -24776,6 +24776,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName
@@ -25304,6 +25305,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // PARTICLE_SET_PARENT_IMMEDIATE
             // PARTICLE_SET_PARENT_ROOT
+            // OORD
             // PET_GROUND_GRID
             // PET_GROUND_PLANE
             // MPropertyFriendlyName

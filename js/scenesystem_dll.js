@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-01 21:41:54.904199400 +07:00
+// 2026-09-04 11:15:22.142540100 +07:00
 
 export const Schemas = {
     scenesystem_dll: {

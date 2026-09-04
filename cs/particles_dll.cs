@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-01 21:41:54.904199400 +07:00
+// 2026-09-04 11:15:22.142540100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -919,8 +919,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // r
-        // C\AppData\Local
+        // ogram Files\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -2281,6 +2280,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // OORD
         // PET_GROUND_GRID
         // PET_GROUND_PLANE
         // MPropertyFriendlyName
@@ -7700,6 +7700,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // OORD
         // PET_GROUND_GRID
         // PET_GROUND_PLANE
         // MPropertyFriendlyName
@@ -10349,6 +10350,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // OORD
         // PET_GROUND_GRID
         // PET_GROUND_PLANE
         // MPropertyFriendlyName
@@ -16867,7 +16869,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyAttributeEditor
         // MPropertyFriendlyName
-        // iewPad0
         public static class C_OP_RenderOmni2Light {
             public const nint m_nLightType = 0x228; // ParticleOmni2LightTypeChoiceList_t
             public const nint m_nMaxAllowed = 0x22C; // uint16
@@ -21809,7 +21810,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class C_OP_RemapBoundingVolumetoCP {
             public const nint m_nOutControlPointNumber = 0x1E0; // int32
             public const nint m_flInputMin = 0x1E4; // float32
@@ -22875,6 +22875,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // OORD
         // PET_GROUND_GRID
         // PET_GROUND_PLANE
         // MPropertyFriendlyName
@@ -24334,7 +24335,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
-        // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class C_OP_EnableChildrenFromParentParticleCount {
             public const nint m_nChildGroupID = 0x1E0; // int32
             public const nint m_nFirstChild = 0x1E4; // int32
@@ -24775,6 +24775,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // OORD
         // PET_GROUND_GRID
         // PET_GROUND_PLANE
         // MPropertyFriendlyName
@@ -25303,6 +25304,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // PARTICLE_SET_PARENT_IMMEDIATE
         // PARTICLE_SET_PARENT_ROOT
+        // OORD
         // PET_GROUND_GRID
         // PET_GROUND_PLANE
         // MPropertyFriendlyName

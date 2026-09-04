@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-01 21:41:54.904199400 +07:00
+// 2026-09-04 11:15:22.142540100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -8544,7 +8544,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // l
-            // 0K
             pub const C_EnvWindVolume = struct {
                 pub const m_bActive: usize = 0x5F0; // bool
                 pub const m_vBoxMins: usize = 0x5F4; // Vector
@@ -17777,7 +17776,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             pub const CPulseCell_BaseLerp = struct {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             };
@@ -25526,7 +25524,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyDescription
             // l
-            // 0K
             pub const CPointOrient = struct {
                 pub const m_iszSpawnTargetName: usize = 0x5F0; // CUtlSymbolLarge
                 pub const m_hTarget: usize = 0x5F8; // CHandle<C_BaseEntity>
@@ -25567,7 +25564,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // Q
-            // ORD
             // MGetKV3ClassDefaults
             pub const C_GlobalLight = struct {
                 pub const m_WindClothForceHandle: usize = 0xB10; // uint16
@@ -26393,7 +26389,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // i
             pub const CBodyComponentBaseAnimGraph = struct {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             };
@@ -37841,8 +37836,8 @@ pub const source2_dumper = struct {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // 0
-            // 0
+            // E
+            // E
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -45158,7 +45153,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             pub const ArtyProgressBarDef_t = struct {
                 pub const m_flNotchSize: usize = 0xB0; // float32
@@ -45357,7 +45351,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             pub const ArtyCannonDef_t = struct {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
@@ -46521,7 +46514,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             pub const ArtySpawnerDef_t = struct {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
@@ -47231,7 +47223,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             pub const ArtyUnitDef_t = struct {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
@@ -48117,8 +48108,6 @@ pub const source2_dumper = struct {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // 6b/0x0302,0x0079/0x000a,0x25f0/0x83c1,0x11ff/0x3341,0x38d2/0x1010,0x38d2/0x1012,0x0c45/0x4320,0x1a34/0x0806,0x2717/0x3144,0x16c0
-            // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             pub const CClientAlphaProperty = struct {
@@ -48599,7 +48588,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // loat4
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e

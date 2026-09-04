@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-01 21:41:54.904199400 +07:00
+// 2026-09-04 11:15:22.142540100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
@@ -8544,7 +8544,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // l
-        // 0K
         public static class C_EnvWindVolume {
             public const nint m_bActive = 0x5F0; // bool
             public const nint m_vBoxMins = 0x5F4; // Vector
@@ -17777,7 +17776,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // i
         public static class CPulseCell_BaseLerp {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
@@ -25526,7 +25524,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyDescription
         // l
-        // 0K
         public static class CPointOrient {
             public const nint m_iszSpawnTargetName = 0x5F0; // CUtlSymbolLarge
             public const nint m_hTarget = 0x5F8; // CHandle<C_BaseEntity>
@@ -25567,7 +25564,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // Q
-        // ORD
         // MGetKV3ClassDefaults
         public static class C_GlobalLight {
             public const nint m_WindClothForceHandle = 0xB10; // uint16
@@ -26393,7 +26389,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // i
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x530; // CBaseAnimGraphController
         }
@@ -37841,8 +37836,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // 0
-        // 0
+        // E
+        // E
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -45158,7 +45153,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         public static class ArtyProgressBarDef_t {
             public const nint m_flNotchSize = 0xB0; // float32
@@ -45357,7 +45351,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         public static class ArtyCannonDef_t {
             public const nint m_bDirectAimAtTarget = 0xB0; // bool
@@ -46521,7 +46514,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         public static class ArtySpawnerDef_t {
             public const nint m_flInitialDelay = 0xB0; // float32
@@ -47231,7 +47223,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  
         // MGetKV3ClassDefaults
         public static class ArtyUnitDef_t {
             public const nint m_bRotateReloadBar = 0xB0; // bool
@@ -48117,8 +48108,6 @@ namespace Source2Dumper.Schemas {
         // DMG_DROWNRECOVER
         // DMG_ACID
         // DMG_LASTGENERICFLAG
-        // 6b/0x0302,0x0079/0x000a,0x25f0/0x83c1,0x11ff/0x3341,0x38d2/0x1010,0x38d2/0x1012,0x0c45/0x4320,0x1a34/0x0806,0x2717/0x3144,0x16c0
-        // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // DAMAGE_EVENTS_ONLY
         // DAMAGE_YES
         public static class CClientAlphaProperty {
@@ -48599,7 +48588,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // loat4
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // e

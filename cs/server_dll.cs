@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-01 21:41:54.904199400 +07:00
+// 2026-09-04 11:15:22.142540100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 442
+    // Enum count: 436
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -19854,8 +19854,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // r
-        // C\AppData\Local
+        // ogram Files\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -35595,7 +35594,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // i
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
@@ -39508,6 +39506,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // mmon Files
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -54912,7 +54911,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyAttributeEditor
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        // e
         // S
         public static class CDOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0x9F0; // bool
@@ -56936,9 +56934,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
-        // float4
-        // 6\steamapprun_pipeline_cache
-        // 6\steamapprun_pipeline_cache
+        // r\steamapp_pipeline_cache.foz
+        // r\steamapp_pipeline_cache.foz
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57051,7 +57048,6 @@ namespace Source2Dumper.Schemas {
         // AI_PATHFINDING
         // END_SIM_HISTORY_TYPES
         // COMBINED
-        // pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MATCH
         // HIERARCHY
         // COUNT
@@ -57479,9 +57475,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // t
         public static class BlessingPathID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -58497,7 +58490,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
-        // e
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -59380,7 +59372,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // loat4
+        // PerViewPad4
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59597,9 +59589,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // t
         public static class BlessingTypeID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -59746,9 +59735,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // float4
-        // 6\steamapprun_pipeline_cache
-        // 6\steamapprun_pipeline_cache
+        // r\steamapp_pipeline_cache.foz
+        // r\steamapp_pipeline_cache.foz
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59808,9 +59796,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // float4
-        // 6\steamapprun_pipeline_cache
-        // 6\steamapprun_pipeline_cache
+        // r\steamapp_pipeline_cache.foz
+        // r\steamapp_pipeline_cache.foz
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -60714,9 +60701,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // t
         public static class BlessingID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -61266,8 +61250,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
         // n
-        // 6b/0x0302,0x0079/0x000a,0x25f0/0x83c1,0x11ff/0x3341,0x38d2/0x1010,0x38d2/0x1012,0x0c45/0x4320,0x1a34/0x0806,0x2717/0x3144,0x16c0
-        // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61625,7 +61607,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // i
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior

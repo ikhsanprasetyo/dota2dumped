@@ -372,7 +372,7 @@
             "type": "Unknown"
           },
           {
-            "name": "eline_cache",
+            "name": "ne_cache.foz",
             "type": "Unknown"
           },
           {
@@ -2016,7 +2016,7 @@
             "type": "Unknown"
           },
           {
-            "name": "_cache",
+            "name": "\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\",
             "type": "Unknown"
           },
           {
@@ -2110,7 +2110,7 @@
             "type": "Unknown"
           },
           {
-            "name": "_cache",
+            "name": "\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\",
             "type": "Unknown"
           },
           {
@@ -2201,7 +2201,7 @@
             "type": "Unknown"
           },
           {
-            "name": "_cache",
+            "name": "\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\",
             "type": "Unknown"
           },
           {
@@ -2317,7 +2317,7 @@
             "type": "Unknown"
           },
           {
-            "name": "_cache",
+            "name": "\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\AppData\\Roaming\\npm;C:\\Users\\ByteseekerPC\\go\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\",
             "type": "Unknown"
           },
           {
@@ -2753,6 +2753,10 @@
           },
           {
             "name": "PF_TYPE_COUNT",
+            "type": "Unknown"
+          },
+          {
+            "name": "4",
             "type": "Unknown"
           },
           {
@@ -7565,6 +7569,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8678,6 +8686,14 @@
             "type": "Unknown"
           },
           {
+            "name": "@7",
+            "type": "Unknown"
+          },
+          {
+            "name": "`A",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8806,6 +8822,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8912,6 +8932,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -8990,6 +9014,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pu",
             "type": "Unknown"
           },
           {
@@ -9119,6 +9147,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9220,6 +9252,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -9331,6 +9367,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9424,6 +9464,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -9527,6 +9571,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9614,6 +9662,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -9708,6 +9760,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -9809,6 +9865,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9892,6 +9952,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -9982,6 +10046,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -10376,6 +10444,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -11382,7 +11454,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "@7",
+            "type": "Unknown"
+          },
+          {
+            "name": "`A",
             "type": "Unknown"
           },
           {
@@ -11395,6 +11471,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pu",
             "type": "Unknown"
           },
           {
@@ -11732,7 +11816,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "@7",
+            "type": "Unknown"
+          },
+          {
+            "name": "`A",
             "type": "Unknown"
           },
           {
@@ -11745,6 +11833,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pu",
             "type": "Unknown"
           },
           {
@@ -13002,6 +13098,10 @@
             "type": "Unknown"
           },
           {
+            "name": "Pu",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13043,6 +13143,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -13413,6 +13517,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13525,6 +13633,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13612,7 +13724,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
+            "name": "@7",
+            "type": "Unknown"
+          },
+          {
+            "name": "`A",
             "type": "Unknown"
           },
           {
@@ -13625,6 +13741,14 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pu",
             "type": "Unknown"
           },
           {
@@ -13795,6 +13919,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pu",
             "type": "Unknown"
           },
           {
@@ -14078,6 +14206,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "Pu",
             "type": "Unknown"
           },
           {
@@ -16587,6 +16719,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -16675,6 +16811,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -16748,6 +16888,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -16835,6 +16979,10 @@
             "type": "Unknown"
           },
           {
+            "name": "`,",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -16900,6 +17048,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -16976,6 +17128,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "`,",
             "type": "Unknown"
           },
           {
@@ -17974,10 +18130,6 @@
             "type": "Unknown"
           },
           {
-            "name": "t",
-            "type": "Unknown"
-          },
-          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18212,10 +18364,6 @@
             "type": "Unknown"
           },
           {
-            "name": "t",
-            "type": "Unknown"
-          },
-          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18336,7 +18484,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -18608,7 +18756,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -18663,7 +18811,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -18830,15 +18978,11 @@
             "type": "Unknown"
           },
           {
-            "name": "SILIZE_DUMP_PATH=F:\\SteamLibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "SILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           }
         ],
@@ -19098,7 +19242,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -19184,15 +19328,11 @@
             "type": "Unknown"
           },
           {
-            "name": "SILIZE_DUMP_PATH=F:\\SteamLibrary\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "name": "SILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "(",
             "type": "Unknown"
           },
           {
@@ -19956,11 +20096,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "C\\AppData\\Local",
+            "name": "ogram Files\\Eclipse Adoptium\\jdk-17.0.10.7-hotspot\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System",
             "type": "Unknown"
           }
         ],

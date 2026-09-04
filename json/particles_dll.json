@@ -3300,6 +3300,10 @@
             "type": "Unknown"
           },
           {
+            "name": "OORD",
+            "type": "Unknown"
+          },
+          {
             "name": "PET_GROUND_GRID",
             "type": "Unknown"
           },
@@ -4108,6 +4112,10 @@
             "type": "Unknown"
           },
           {
+            "name": "OORD",
+            "type": "Unknown"
+          },
+          {
             "name": "PET_GROUND_GRID",
             "type": "Unknown"
           },
@@ -4387,6 +4395,10 @@
           },
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
+            "type": "Unknown"
+          },
+          {
+            "name": "OORD",
             "type": "Unknown"
           },
           {
@@ -5430,6 +5442,10 @@
             "type": "Unknown"
           },
           {
+            "name": "OORD",
+            "type": "Unknown"
+          },
+          {
             "name": "PET_GROUND_GRID",
             "type": "Unknown"
           },
@@ -5777,6 +5793,10 @@
           },
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
+            "type": "Unknown"
+          },
+          {
+            "name": "OORD",
             "type": "Unknown"
           },
           {
@@ -6373,6 +6393,10 @@
           },
           {
             "name": "PARTICLE_SET_PARENT_ROOT",
+            "type": "Unknown"
+          },
+          {
+            "name": "OORD",
             "type": "Unknown"
           },
           {
@@ -8825,11 +8849,7 @@
             "type": "Unknown"
           },
           {
-            "name": "r",
-            "type": "Unknown"
-          },
-          {
-            "name": "C\\AppData\\Local",
+            "name": "ogram Files\\Eclipse Adoptium\\jdk-17.0.10.7-hotspot\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System",
             "type": "Unknown"
           }
         ],
@@ -47707,10 +47727,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -61919,10 +61935,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -72576,10 +72588,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "iewPad0",
             "type": "Unknown"
           }
         ],

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-01 21:41:54.904199400 +07:00
+// 2026-09-04 11:15:22.142540100 +07:00
 
 #pragma once
 
@@ -8550,7 +8550,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // l
-            // 0K
             namespace C_EnvWindVolume {
                 constexpr std::ptrdiff_t m_bActive = 0x5F0; // bool
                 constexpr std::ptrdiff_t m_vBoxMins = 0x5F4; // Vector
@@ -17783,7 +17782,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // i
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -25532,7 +25530,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyDescription
             // l
-            // 0K
             namespace CPointOrient {
                 constexpr std::ptrdiff_t m_iszSpawnTargetName = 0x5F0; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_hTarget = 0x5F8; // CHandle<C_BaseEntity>
@@ -25573,7 +25570,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // Q
-            // ORD
             // MGetKV3ClassDefaults
             namespace C_GlobalLight {
                 constexpr std::ptrdiff_t m_WindClothForceHandle = 0xB10; // uint16
@@ -26399,7 +26395,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // i
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x530; // CBaseAnimGraphController
             }
@@ -37847,8 +37842,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // 0
-            // 0
+            // E
+            // E
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -45164,7 +45159,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace ArtyProgressBarDef_t {
                 constexpr std::ptrdiff_t m_flNotchSize = 0xB0; // float32
@@ -45363,7 +45357,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace ArtyCannonDef_t {
                 constexpr std::ptrdiff_t m_bDirectAimAtTarget = 0xB0; // bool
@@ -46527,7 +46520,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace ArtySpawnerDef_t {
                 constexpr std::ptrdiff_t m_flInitialDelay = 0xB0; // float32
@@ -47237,7 +47229,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  
             // MGetKV3ClassDefaults
             namespace ArtyUnitDef_t {
                 constexpr std::ptrdiff_t m_bRotateReloadBar = 0xB0; // bool
@@ -48123,8 +48114,6 @@ namespace source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // 6b/0x0302,0x0079/0x000a,0x25f0/0x83c1,0x11ff/0x3341,0x38d2/0x1010,0x38d2/0x1012,0x0c45/0x4320,0x1a34/0x0806,0x2717/0x3144,0x16c0
-            // =$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             namespace CClientAlphaProperty {
@@ -48605,7 +48594,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // loat4
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // e

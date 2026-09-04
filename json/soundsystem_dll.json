@@ -313,7 +313,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           },
           {
@@ -686,7 +686,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -1540,7 +1540,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -1887,7 +1887,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -2016,7 +2016,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -2588,7 +2588,7 @@
             "type": "Unknown"
           },
           {
-            "name": "$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": " ",
             "type": "Unknown"
           }
         ],
@@ -7413,10 +7413,6 @@
             "type": "Unknown"
           },
           {
-            "name": "t",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11225,6 +11221,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "RD",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -11246,10 +11246,6 @@
           },
           {
             "name": "npc_dota_juggernaut_healing_ward",
-            "type": "Unknown"
-          },
-          {
-            "name": "ram Files\\Go\\bin;C:\\Program Files\\LLVM\\bin;C:\\cloudflared;G:\\Android\\Sdk;C:\\Users\\ByteseekerPC\\.local\\bin;C:\\Program Files\\Cloud",
             "type": "Unknown"
           }
         ],
