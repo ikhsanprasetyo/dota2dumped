@@ -359,6 +359,10 @@
           {
             "name": "k_EArtyOrderFlag_MoveDown",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -436,6 +440,10 @@
           },
           {
             "name": "k_EArtyOrderFlag_MoveDown",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           }
         ],
@@ -820,6 +828,10 @@
           {
             "name": "k_EArtyOrderFlag_MoveDown",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -888,6 +900,11 @@
             "type": "Unknown"
           }
         ],
+        "parent": null
+      },
+      "B": {
+        "fields": {},
+        "metadata": [],
         "parent": null
       },
       "CAdditionalWearable": {
@@ -5858,7 +5875,12 @@
       },
       "CDOTA_FightingGame_EffectsEntity": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "A",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_BaseModelEntity"
       },
       "CDOTA_ItemStockInfo": {
@@ -35477,6 +35499,14 @@
           {
             "name": "n",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": "C_BaseModelEntity"
@@ -35569,6 +35599,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "0",
             "type": "Unknown"
           }
         ],
@@ -35907,6 +35941,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           }
         ],
@@ -37194,7 +37232,15 @@
             "type": "Unknown"
           },
           {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           }
         ],
@@ -40359,6 +40405,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": "CEntityComponent"
@@ -40773,6 +40823,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -40995,6 +41049,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41088,6 +41146,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           }
         ],
@@ -41194,6 +41256,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41268,6 +41334,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41281,6 +41351,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           },
           {
@@ -41315,6 +41389,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           },
           {
@@ -41845,6 +41923,10 @@
             "type": "Unknown"
           },
           {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -42265,6 +42347,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -42643,6 +42729,10 @@
             "type": "Unknown"
           },
           {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -42865,6 +42955,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -42897,6 +42991,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           },
           {
@@ -42952,6 +43050,10 @@
             "type": "Unknown"
           },
           {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -42971,6 +43073,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           },
           {
@@ -43298,6 +43404,10 @@
             "type": "Unknown"
           },
           {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
             "name": "n",
             "type": "Unknown"
           },
@@ -43378,6 +43488,10 @@
             "type": "Unknown"
           },
           {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
             "name": "n",
             "type": "Unknown"
           },
@@ -43453,6 +43567,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           },
           {
@@ -43959,6 +44077,14 @@
           },
           {
             "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           }
         ],
@@ -44786,7 +44912,12 @@
       },
       "C_DOTAPortraitWorldCallbackHandler": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "A",
+            "type": "Unknown"
+          }
+        ],
         "parent": "C_BaseEntity"
       },
       "C_DOTAPropCustomTexture": {
@@ -60297,11 +60428,11 @@
             "type": "Unknown"
           },
           {
-            "name": "E",
+            "name": "C:\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Bytesee",
             "type": "Unknown"
           },
           {
-            "name": "E",
+            "name": "C:\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Bytesee",
             "type": "Unknown"
           },
           {
@@ -60448,6 +60579,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           }
         ],
@@ -60810,6 +60945,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           }
         ],
@@ -61469,6 +61608,10 @@
         "metadata": [
           {
             "name": "CInlineJob_CMsgGCToClientInFlightChargesUpdated",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
             "type": "Unknown"
           }
         ],
@@ -62319,6 +62462,11 @@
         "metadata": [],
         "parent": null
       },
+      "E": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "EngineCountdownTimer": {
         "fields": {
           "m_duration": 8,
@@ -62455,6 +62603,11 @@
           "m_stickyItemSlot": 120,
           "m_vecItemSlots": 8
         },
+        "metadata": [],
+        "parent": null
+      },
+      "L": {
+        "fields": {},
         "metadata": [],
         "parent": null
       },
@@ -63290,6 +63443,11 @@
         "metadata": [],
         "parent": null
       },
+      "U": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "VPhysicsCollisionAttribute_t": {
         "fields": {
           "m_nCollisionFunctionMask": 47,
@@ -63310,6 +63468,646 @@
             "type": "Unknown"
           }
         ],
+        "parent": null
+      },
+      "_Dɢ__": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "____": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "_____": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "______": {
+        "fields": {
+          "active_reflection_pct": 6796,
+          "agility": 6780,
+          "all_stats": 7016,
+          "armor_reduction": 6776,
+          "attack_damage_aura": 6776,
+          "attack_range_bonus": 6776,
+          "attack_slow": 6780,
+          "attack_speed": 6780,
+          "attack_speed_bonus": 6780,
+          "aura_radius": 6776,
+          "bCasterRanged": 6788,
+          "backstab_angle": 6788,
+          "backstab_damage": 6784,
+          "base_attack_range": 6812,
+          "base_count": 6800,
+          "base_damage": 6776,
+          "base_proc_dmg": 6776,
+          "bat": 6780,
+          "bonus_agi": 6776,
+          "bonus_agility": 6776,
+          "bonus_all_stats": 6776,
+          "bonus_aoe": 6788,
+          "bonus_aoe_armor": 6776,
+          "bonus_aoe_imbue": 6792,
+          "bonus_aoe_mres": 6784,
+          "bonus_aoe_ms": 6780,
+          "bonus_aoe_radius": 6780,
+          "bonus_armor": 6784,
+          "bonus_attack_range": 6776,
+          "bonus_cast_range": 6780,
+          "bonus_damage": 6788,
+          "bonus_health": 6776,
+          "bonus_hp": 6780,
+          "bonus_intellect": 6776,
+          "bonus_magic_resistance": 6776,
+          "bonus_mana": 6776,
+          "bonus_mana_regen": 6776,
+          "bonus_movement_speed": 6776,
+          "bonus_spell_amp": 6780,
+          "bonus_str": 6780,
+          "bonus_strength": 6780,
+          "break_on_hero_damage": 6780,
+          "cast_range_bonus": 6780,
+          "cast_slow": 6784,
+          "corruption_armor": 6776,
+          "count": 6796,
+          "crit_multiplier": 6776,
+          "damage": 6784,
+          "damage_disable": 6788,
+          "damage_interval": 6780,
+          "damage_redirection": 6776,
+          "damage_threshold": 6784,
+          "death_radius": 6776,
+          "debuff_duration": 6784,
+          "debuff_enemy": 6776,
+          "debuff_enemy_duration": 6784,
+          "debuff_self": 6776,
+          "duration": 6776,
+          "evasion": 6780,
+          "ground_duration": 6776,
+          "heal_reduction": 6784,
+          "health_regen_loss": 6788,
+          "health_regen_pct": 6776,
+          "hp_damage": 6776,
+          "hp_regen": 6784,
+          "m_InFlightAttackRecords": 6784,
+          "m_LastParams": 6776,
+          "m_Timer": 6784,
+          "m_bAppliesToCreeps": 6776,
+          "m_bAttackLanded": 6792,
+          "m_bBackstab": 6796,
+          "m_bInWater": 6780,
+          "m_bProcSuccessful": 7024,
+          "m_fHealingDone": 6784,
+          "m_fUseSpeed": 6788,
+          "m_flStackDieTime": 6788,
+          "m_hTree": 6776,
+          "m_nAttack": 6792,
+          "m_nFXIndex": 6796,
+          "magic_damage": 6776,
+          "magic_resist": 6780,
+          "magic_resistance": 6792,
+          "magic_resistance_reduction": 6776,
+          "mana_restore": 6776,
+          "mana_restore_pct": 6780,
+          "movespeed_slow": 6776,
+          "passive_movement_bonus": 6780,
+          "poison_duration": 6820,
+          "proc_chance": 6788,
+          "proc_dmg_pct": 6780,
+          "push_duration": 6780,
+          "push_length": 6776,
+          "radius": 6788,
+          "reflect_chance": 7020,
+          "secondary_target_angle": 6808,
+          "secondary_target_range_bonus": 6804,
+          "seconds": 6808,
+          "self_armor": 6792,
+          "self_mres": 6788,
+          "slow": 6776,
+          "slow_duration": 6792,
+          "slow_melee": 6780,
+          "slow_pct_melee": 6776,
+          "slow_pct_ranged": 6780,
+          "slow_range": 6784,
+          "slow_ranged": 6780,
+          "slow_resist": 6776,
+          "spell_amp": 6776,
+          "splash_pct": 6784,
+          "splash_radius": 6780,
+          "stack_duration": 6784,
+          "stack_limit": 6780,
+          "strength": 6776,
+          "stun_chance": 6788,
+          "stun_duration": 6784,
+          "tree_radius": 6776,
+          "water_acceleration": 6776
+        },
+        "metadata": [
+          {
+            "name": "z",
+            "type": "Unknown"
+          },
+          {
+            "name": "ages}/events/crownfall/visual_novel/portraits/centaur_portrait_idle.png",
+            "type": "Unknown"
+          },
+          {
+            "name": "@",
+            "type": "Unknown"
+          },
+          {
+            "name": "`",
+            "type": "Unknown"
+          },
+          {
+            "name": "\"",
+            "type": "Unknown"
+          },
+          {
+            "name": "#",
+            "type": "Unknown"
+          },
+          {
+            "name": "'",
+            "type": "Unknown"
+          },
+          {
+            "name": "#",
+            "type": "Unknown"
+          },
+          {
+            "name": "V",
+            "type": "Unknown"
+          },
+          {
+            "name": ";",
+            "type": "Unknown"
+          },
+          {
+            "name": "f_the_Magnoceri",
+            "type": "Unknown"
+          },
+          {
+            "name": "@XQ",
+            "type": "Unknown"
+          },
+          {
+            "name": "efault",
+            "type": "Unknown"
+          },
+          {
+            "name": "ance Cooldown",
+            "type": "Unknown"
+          },
+          {
+            "name": "MissedContainer",
+            "type": "Unknown"
+          },
+          {
+            "name": "20s;transition-duration: .20s;transition-timing-function: ease-in-out;}#SpectreProgress_Default{width: 100%;height: 100%;opacity",
+            "type": "Unknown"
+          },
+          {
+            "name": "th: 132px;height: 132px;border-radius: 100px;background-color: #2B2F30;border: 2px solid #414A45;margin: 32px 12px;margin: 16px ",
+            "type": "Unknown"
+          },
+          {
+            "name": "ke_invis_02",
+            "type": "Unknown"
+          },
+          {
+            "name": "@",
+            "type": "Unknown"
+          },
+          {
+            "name": " ",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "D",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "F",
+            "type": "Unknown"
+          },
+          {
+            "name": "H",
+            "type": "Unknown"
+          },
+          {
+            "name": "I",
+            "type": "Unknown"
+          },
+          {
+            "name": "K",
+            "type": "Unknown"
+          },
+          {
+            "name": "N",
+            "type": "Unknown"
+          },
+          {
+            "name": "P",
+            "type": "Unknown"
+          },
+          {
+            "name": "R",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "U",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "L",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "V",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
+            "name": "M",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "D",
+            "type": "Unknown"
+          },
+          {
+            "name": "N",
+            "type": "Unknown"
+          },
+          {
+            "name": "K",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "P",
+            "type": "Unknown"
+          },
+          {
+            "name": "O",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "M",
+            "type": "Unknown"
+          },
+          {
+            "name": "M",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "K",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "P",
+            "type": "Unknown"
+          },
+          {
+            "name": "H",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "L",
+            "type": "Unknown"
+          },
+          {
+            "name": "I",
+            "type": "Unknown"
+          },
+          {
+            "name": "H",
+            "type": "Unknown"
+          },
+          {
+            "name": "M",
+            "type": "Unknown"
+          },
+          {
+            "name": "W",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "U",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
+          },
+          {
+            "name": "P",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
+            "name": "U",
+            "type": "Unknown"
+          },
+          {
+            "name": "I",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "I",
+            "type": "Unknown"
+          },
+          {
+            "name": "P",
+            "type": "Unknown"
+          },
+          {
+            "name": "R",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "L",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "M",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "D",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "C",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "H",
+            "type": "Unknown"
+          },
+          {
+            "name": "R",
+            "type": "Unknown"
+          },
+          {
+            "name": "U",
+            "type": "Unknown"
+          },
+          {
+            "name": "L",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
+          },
+          {
+            "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
+          },
+          {
+            "name": "U",
+            "type": "Unknown"
+          },
+          {
+            "name": "A",
+            "type": "Unknown"
+          },
+          {
+            "name": "T",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "G",
+            "type": "Unknown"
+          },
+          {
+            "name": "P",
+            "type": "Unknown"
+          },
+          {
+            "name": "L",
+            "type": "Unknown"
+          },
+          {
+            "name": "N",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
+          },
+          {
+            "name": "O",
+            "type": "Unknown"
+          },
+          {
+            "name": "O",
+            "type": "Unknown"
+          },
+          {
+            "name": "J",
+            "type": "Unknown"
+          },
+          {
+            "name": "M",
+            "type": "Unknown"
+          },
+          {
+            "name": "O",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "__ɢ__": {
+        "fields": {},
+        "metadata": [],
         "parent": null
       },
       "audioparams_t": {
@@ -65160,6 +65958,121 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
+      },
+      "H__Y_3__________H____WH___H________": {
+        "alignment": 99,
+        "members": {
+          "": 0,
+          "\u0001": 14,
+          "\u0004": 2,
+          "\b\u00056@&\u0004": 4562332550544,
+          "\bru �": 0,
+          "\b�u �": 140733751860056,
+          "\b�x �": 0,
+          "\u0010έ�&\u0004": 140733756119680,
+          "\u0010��\u001e�": 0,
+          "\u0010��!�": 140733748438736,
+          "\u0014\u000e�\u001e�": 0,
+          "\u0018\u00066@&\u0004": 4562332550816,
+          "\u0018sI��": 4562280266544,
+          "\u0018�u �": 3549,
+          "\u0018�x �": 0,
+          "\u001b�u\b": 140733737960952,
+          " zI��": 0,
+          " �x �": 0,
+          " ��\u001e�": 0,
+          "(": 16,
+          "(\u00076@&\u0004": 4562332551088,
+          "(66@&\u0004": 4562332551904,
+          "(�u �": 2147490909,
+          ",\u000e�\u001e�": 0,
+          "0��\u001e�": 0,
+          "8\b6@&\u0004": 4562332551360,
+          "8Pu �": 140733737947160,
+          "@SH��@H�\u00153N�\u0002H�\u001d���\u0002H��uJH�\u0015�N�\u0002H�\r���\u0002H��u0H�\u0001L�\u0005�-2\u0002�T$0A�X": 140733675608288,
+          "@SH��@H�\u0015S��\u0002H�\u001dLd�\u0002H��uJH�\u0015Я�\u0002H�\r�\u0006�\u0002H��u0H�\u0001L�\u0005\n�2\u0002�T$0A�`": 140733675608288,
+          "@SH��@H�\u0015[M�\u0002H�\u001d���\u0002H��uJH�\u0015�M�\u0002H�\r���\u0002H��u0H�\u0001L�\u0005:-2\u0002�T$0A�`": 140733675608288,
+          "@SH��@H�\u0015���\u0002H�\u001d�b�\u0002H��uJH�\u0015 ��\u0002H�\r1\u0005�\u0002H��u0H�\u0001L�\u0005��2\u0002�T$0A�`": 140733675608288,
+          "@��\u001e�": 0,
+          "@��!�": 140733748438656,
+          "CDOTA_BaseNPC_DarkCarnival_Balloon": 0,
+          "CDOTA_Item_BotChallenge_MeteorStaff": 140733737957056,
+          "CMsgTEBeamPoints [404]": 4563900516192,
+          "CMsgTEBubbleTrail [409]": 4563900516384,
+          "CMsgTEFizz [413]": 4563900516640,
+          "CMsgTELargeFunnel [421]": 4563900516800,
+          "CMsgTESparks [422]": 4563900517024,
+          "D\u000e�\u001e�": 0,
+          "H\t6@&\u0004": 4562332551632,
+          "HY�\u001b": 1,
+          "H�\\$\bWH��0��\\%": 140733675449408,
+          "H��(H�\u00155�1\u0002H�L$8�{�S": 140733675449408,
+          "H����H���������̃yX\u000f\u000f����������̀��\u0002": 140733756119656,
+          "H���������������\u000f��&\t": 140733711528544,
+          "H���������������H���������������\u000f��&\t": 140733756110968,
+          "P\u00016@&\u0004": 4562332553832,
+          "P\u001e�\u001e�": 0,
+          "PwI��": 0,
+          "P��\u001e�": 0,
+          "SpeedGain": 140733756116816,
+          "S�\u001e2": 0,
+          "TEArmorRicochet_GameEvent_t": 140733711498912,
+          "TEBubbles_GameEvent_t": 140733711500480,
+          "TEEffectDispatch_GameEvent_t": 140733711500704,
+          "TEEnergySplash_GameEvent_t": 140733711526224,
+          "TEPhysicsProp_GameEvent_t": 140733711527792,
+          "TESmoke_GameEvent_t": 140733711528016,
+          "`\u00026@&\u0004": 4562332549864,
+          "`86@&\u0004": 4562332552040,
+          "`��\u001e�": 0,
+          "edGain": 4564085231600,
+          "hgu �": 140733737950392,
+          "h��!�": 140733748439056,
+          "item_bot_challenge_meteor_staff": 0,
+          "l\r�\u001e�": 0,
+          "p\u00036@&\u0004": 4562332556664,
+          "p\u0018�\u001e�": 0,
+          "p\u001b�\u001e�": 0,
+          "p��\u001e�": 0,
+          "p���&\u0004": 0,
+          "seasonal_dark_carnival_balloon": 140733737962208,
+          "seasonal_dark_carnival_firework": 140733737962280,
+          "seasonal_dark_carnival_pie": 140733737963488,
+          "spirit": 0,
+          "veSpeedGain": 0,
+          "xEu �": 140733737945344,
+          "髊�������������H��8H�D$(": 140733711562848,
+          "�": 0,
+          "�\u00036@&\u0004": 4562332550272,
+          "�\r�\u001e�": 0,
+          "�\u00126@&\u0004": 4562332549592,
+          "� ��&\u0004": 8589936240,
+          "�46@&\u0004": 4562332551768,
+          "�;�k������������髊�������������H��8H�D$(": 140733711562832,
+          "�I��&\u0004": 0,
+          "�K�k�������������;�k������������髊�������������H��8H�D$(": 140733711562816,
+          "�Pu �": 0,
+          "�Zg\u001f�": 140733748372144,
+          "�[�k�������������K�k�������������;�k������������髊�������������H��8H�D$(": 140733711562800,
+          "�\\u �": 140733737950856,
+          "�^u �": 140733737951312,
+          "�_\u0014!�": 140733748371168,
+          "�eu �": 140733756108752,
+          "�fu �": 140733737952864,
+          "�sI��": 0,
+          "�s�!�": 140733748370376,
+          "�ϭ�&\u0004": 140733751859456,
+          "��1\u001e�": 0,
+          "��M\u001f�": 140733711554272,
+          "��N�": 4563899785280,
+          "��o=&\u0004": 4,
+          "��u �": 2147490907,
+          "��w �": 2147483651,
+          "��x �": 0,
+          "���\u001e�": 0,
+          "���!�": 140733748438976
+        },
+        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

@@ -5,13 +5,13 @@
   },
   "client.dll": {
     "ClientToolsInfo_001": 94903248,
-    "DOTA_CLIENT_GCCLIENT": 104174048,
+    "DOTA_CLIENT_GCCLIENT": 104173920,
     "GameClientExports001": 94886136,
     "LegacyGameUI001": 95338528,
     "PanoramaUIClient001": 95521872,
     "PlayButtonService001": 95395064,
-    "Source2Client002": 102416944,
-    "Source2ClientConfig001": 102057600,
+    "Source2Client002": 102416816,
+    "Source2ClientConfig001": 102057472,
     "Source2ClientPrediction001": 94920880,
     "Source2ClientUI001": 92730816
   },

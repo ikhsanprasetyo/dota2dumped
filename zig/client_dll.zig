@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-04 11:15:22.142540100 +07:00
+// 2026-09-05 19:06:16.479387600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 7204
-        // Enum count: 118
+        // Class count: 7249
+        // Enum count: 119
         pub const client_dll = struct {
             // Alignment: 4
             // Member count: 5
@@ -7001,6 +7001,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             pub const CHitboxComponent = struct {
                 pub const m_flBoundsExpandRadius: usize = 0x14; // float32
             };
@@ -8897,6 +8898,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             pub const CRenderComponent = struct {
                 pub const __m_pChainEntity: usize = 0x10; // CNetworkVarChainer
                 pub const m_bIsRenderingWithViewModels: usize = 0x50; // bool
@@ -11463,7 +11465,9 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // A
             // MGetKV3ClassDefaults
+            // A
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -15641,6 +15645,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // CInlineJob_CMsgGCToClientInFlightChargesUpdated
+            // A
             pub const C_PortraitWorldUnit = struct {
                 pub const m_OutputAnimOver: usize = 0x19B8; // CEntityIOOutput
                 pub const m_bSuppressIntroEffects: usize = 0x19D0; // bool
@@ -16196,6 +16201,9 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseEntity
             // Field count: 0
+            //
+            // Metadata:
+            // A
             pub const C_DOTAPortraitWorldCallbackHandler = struct {
             };
             // Parent: None
@@ -22220,6 +22228,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
+            // A
+            // A
             pub const C_BodyComponentBaseAnimating = struct {
                 pub const m_animationController: usize = 0x530; // C_BaseAnimatingController
             };
@@ -25565,6 +25575,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // Q
             // MGetKV3ClassDefaults
+            // A
             pub const C_GlobalLight = struct {
                 pub const m_WindClothForceHandle: usize = 0xB10; // uint16
             };
@@ -25654,6 +25665,9 @@ pub const source2_dumper = struct {
             };
             // Parent: C_BaseModelEntity
             // Field count: 0
+            //
+            // Metadata:
+            // A
             pub const CDOTA_FightingGame_EffectsEntity = struct {
             };
             // Parent: C_DOTA_Item
@@ -30311,6 +30325,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             pub const C_EnvDeferredLight = struct {
             };
             // Parent: C_DOTA_Item
@@ -34739,6 +34754,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // n
             // n
+            // A
+            // A
             pub const CDarkCarnivalCrateDropGameEffectsEntity = struct {
             };
             // Parent: C_DOTA_Item
@@ -37836,8 +37853,8 @@ pub const source2_dumper = struct {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // E
-            // E
+            // C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Bytesee
+            // C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Bytesee
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -42914,6 +42931,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 0
             pub const CEntityIdentity = struct {
                 pub const m_nameStringTableIndex: usize = 0x14; // int32
                 pub const m_name: usize = 0x18; // CUtlSymbolLarge
@@ -45188,6 +45206,7 @@ pub const source2_dumper = struct {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
+            // A
             pub const ArtyWeaponID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -45284,6 +45303,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             pub const CSurvivorsEnemyDefinition_Pillar = struct {
             };
             // Parent: None
@@ -45662,6 +45682,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -45792,6 +45813,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             // n
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45902,6 +45924,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             pub const CSurvivorsPowerUpDefinition_Spirits = struct {
                 pub const m_sParticle: usize = 0x6A0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_sExplosionParticle: usize = 0x780; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -45942,6 +45965,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             pub const CSurvivorsDifficultyDefinition = struct {
                 pub const m_sLocDifficultyName: usize = 0x0; // CUtlString
                 pub const m_sLocDifficultyDescription: usize = 0x8; // CUtlString
@@ -46004,6 +46028,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             // n
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46130,6 +46155,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             // n
             // MGetKV3ClassDefaults
             pub const CSurvivorsSpawnerGolemDefinition = struct {
@@ -46174,6 +46200,7 @@ pub const source2_dumper = struct {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
+            // A
             pub const ArtyGraphicID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -46323,6 +46350,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             pub const CSurvivorsPowerUpDefinition_Frostbite = struct {
                 pub const m_flScepterExplodeRadius: usize = 0x788; // float32
             };
@@ -46355,6 +46383,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46549,6 +46578,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46667,6 +46697,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             pub const CSurvivorsEnemyDefinition_ImperiaBoss = struct {
                 pub const m_flBurningGroundImpactDamage: usize = 0x288; // float32
                 pub const m_flBurningGroundImpactRadius: usize = 0x28C; // float32
@@ -46929,6 +46960,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47400,6 +47432,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47454,6 +47487,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             pub const CSurvivorsEnemyDefinition_Golem = struct {
             };
             // Parent: None
@@ -47733,6 +47767,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -48501,6 +48536,7 @@ pub const source2_dumper = struct {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
+            // A
             pub const ArtyGameObjectID_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };
@@ -48878,6 +48914,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             // MGetKV3ClassDefaults
             // V
             pub const CSurvivorsPowerUpDefinition_Swashbuckle = struct {
@@ -49039,6 +49076,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
+            // A
             pub const CSurvivorsEnemyDefinition_Absorber = struct {
                 pub const m_flModelScaleIncreasePerAbsorb: usize = 0x288; // float32
                 pub const m_flMaxModelScale: usize = 0x28C; // float32
@@ -49242,6 +49280,1747 @@ pub const source2_dumper = struct {
                 pub const m_flRadius: usize = 0x8; // float32
                 pub const m_nHitRegionIndex: usize = 0xC; // int32
                 pub const m_nDamageMultiplier: usize = 0x10; // int32
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            // Scroll the panel left by one line.
+            // Scroll the panel right by one line.
+            // Scroll the panel up by one line.
+            // Scroll the panel down by one line.
+            // Scroll the panel left by one page.
+            // Scroll the panel left by one page.
+            // Scroll the panel up by one page.
+            // RemoveAbility
+            // Remove an ability from this unit by name.
+            // HasAbility
+            // See whether this unit has an ability by name.
+            // RemoveAbilityByHandle
+            // Remove the passed ability from this unit.
+            // GetStatusResistance
+            // GetEvasion
+            // GetSpellAmplification
+            // SetBaseStrength
+            // SetBaseAgility
+            // SetBaseIntellect
+            // GetStrengthGain
+            // GetAgilityGain
+            // GetIntellectGain
+            // ModifyStrength
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyAgility
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyIntellect
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // GetRespawnTime
+            // GetAdditionalOwnedUnits
+            // IncrementKills
+            // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
+            // IncrementDeaths
+            // Value is stored in PlayerResource.
+            // IncrementAssists
+            // Value is stored in PlayerResource.
+            // IncrementLastHits
+            // IncrementDenies
+            // IncrementNearbyCreepDeaths
+            // RecordLastHit
+            // IncrementLastHitStreak
+            // ClearLastHitStreak
+            // IncrementLastHitMultikill
+            // ClearLastHitMultikill
+            // GetKills
+            // Value is stored in PlayerResource.
+            // GetDeaths
+            // Value is stored in PlayerResource.
+            // GetAssists
+            // Value is stored in PlayerResource.
+            // GetLastHits
+            // Value is stored in PlayerResource.
+            // GetDenies
+            // Value is stored in PlayerResource.
+            // IncrementStreak
+            // AreWeatherEffectsDisabled
+            // Get if weather effects are disabled on the client.
+            // SetWeatherEffectsDisabled
+            // Set if weather effects are disabled.
+            // GetHUDVisible
+            // Returns the HUD element visibility.
+            // GetCustomAttributeDerivedStatValue
+            // Get current derived stat value constant.
+            // GetCustomScanCooldown
+            // Get the current custom scan cooldown.
+            // GetCustomGlyphCooldown
+            // Get the current custom glyph cooldown.
+            // GetCustomBackpackSwapCooldown
+            // Get the current custom backpack swap cooldown.
+            // GetCustomBackpackCooldownPercent
+            // Get the current rate cooldown ticks down for items in the backpack.
+            // SetDefaultStickyItem
+            // Sets the default sticky item in the quickbuy
+            // GetWaterRuneLastSpawnTime
+            // Gets the time from game start during which water runes spawn
+            // SetWaterRuneLastSpawnTime
+            // Sets the time from game start during which water runes spawn
+            // GetCustomRadiantScore
+            // Get the topbar score display value for radiant.
+            // GetCustomDireScore
+            // Get the topbar score display value for dire.
+            // SetAbilityTuningValueFilter
+            // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
+            // SetLuaGameMode
+            // SetAlwaysShowPlayerInventory
+            // Show the player hero's inventory in the HUD, regardless of what unit is selected.
+            // SetGoldSoundDisabled
+            // Turn the sound when gold is acquired off/on.
+            // SetRecommendedItemsDisabled
+            // Turn the panel for showing recommended items at the shop off/on.
+            // SetStashPurchasingDisabled
+            // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
+            // SetStickyItemDisabled
+            // Hide the sticky item in the quickbuy.
+            // SetFogOfWarDisabled
+            // Turn the fog of war on or off.
+            // SetUnseenFogOfWarEnabled
+            // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
+            // SetForceRightClickAttackDisabled
+            // Prevent users from using the right click deny setting.
+            // SetCameraZRange
+            // Sets the camera Z range
+            // debug_message
+            // EGCMsgResponse
+            //  8
+            // `7
+            // @6
+            // p3
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // GetTotalEarnedXP
+            // AddClaimedFarm
+            // GetClaimedFarm
+            // GetRawPlayerDamage
+            // ClearRawPlayerDamageMatrix
+            // ClearKillsMatrix
+            // GetTowerDamageTaken
+            // GetCreepDamageTaken
+            // GetHeroDamageTaken
+            // GetDamageDoneToHero
+            // GetKillsDoneToHero
+            // debug_message
+            // EGCMsgResponse
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // aura_radius
+            // regeneration_to_max_seconds
+            // onentNames
+            // damage_cooldown
+            // onentNames
+            // AbilityCastRange
+            // onentNames
+            // AbilityDuration
+            // onentNames
+            // AbilityCharges
+            // onentNames
+            // AbilityManaCost
+            // onentNames
+            // AbilityHealthCost
+            // onentNames
+            // IsDebuffImmune
+            // NoUnitCollision
+            // ProvidesVision
+            // IsNightmared
+            // IsEvadeDisabled
+            // IsUnselectable
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            // Scroll the panel left by one line.
+            // Scroll the panel right by one line.
+            // Scroll the panel up by one line.
+            // Scroll the panel down by one line.
+            // Scroll the panel left by one page.
+            // Scroll the panel left by one page.
+            // Scroll the panel up by one page.
+            // RemoveAbility
+            // Remove an ability from this unit by name.
+            // HasAbility
+            // See whether this unit has an ability by name.
+            // RemoveAbilityByHandle
+            // Remove the passed ability from this unit.
+            // GetStatusResistance
+            // GetEvasion
+            // GetSpellAmplification
+            // SetBaseStrength
+            // SetBaseAgility
+            // SetBaseIntellect
+            // GetStrengthGain
+            // GetAgilityGain
+            // GetIntellectGain
+            // ModifyStrength
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyAgility
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyIntellect
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // GetRespawnTime
+            // GetAdditionalOwnedUnits
+            // IncrementKills
+            // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
+            // IncrementDeaths
+            // Value is stored in PlayerResource.
+            // IncrementAssists
+            // Value is stored in PlayerResource.
+            // IncrementLastHits
+            // IncrementDenies
+            // IncrementNearbyCreepDeaths
+            // RecordLastHit
+            // IncrementLastHitStreak
+            // ClearLastHitStreak
+            // IncrementLastHitMultikill
+            // ClearLastHitMultikill
+            // GetKills
+            // Value is stored in PlayerResource.
+            // GetDeaths
+            // Value is stored in PlayerResource.
+            // GetAssists
+            // Value is stored in PlayerResource.
+            // GetLastHits
+            // Value is stored in PlayerResource.
+            // GetDenies
+            // Value is stored in PlayerResource.
+            // IncrementStreak
+            // AreWeatherEffectsDisabled
+            // Get if weather effects are disabled on the client.
+            // SetWeatherEffectsDisabled
+            // Set if weather effects are disabled.
+            // GetHUDVisible
+            // Returns the HUD element visibility.
+            // GetCustomAttributeDerivedStatValue
+            // Get current derived stat value constant.
+            // GetCustomScanCooldown
+            // Get the current custom scan cooldown.
+            // GetCustomGlyphCooldown
+            // Get the current custom glyph cooldown.
+            // GetCustomBackpackSwapCooldown
+            // Get the current custom backpack swap cooldown.
+            // GetCustomBackpackCooldownPercent
+            // Get the current rate cooldown ticks down for items in the backpack.
+            // SetDefaultStickyItem
+            // Sets the default sticky item in the quickbuy
+            // GetWaterRuneLastSpawnTime
+            // Gets the time from game start during which water runes spawn
+            // SetWaterRuneLastSpawnTime
+            // Sets the time from game start during which water runes spawn
+            // GetCustomRadiantScore
+            // Get the topbar score display value for radiant.
+            // GetCustomDireScore
+            // Get the topbar score display value for dire.
+            // SetAbilityTuningValueFilter
+            // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
+            // SetLuaGameMode
+            // SetAlwaysShowPlayerInventory
+            // Show the player hero's inventory in the HUD, regardless of what unit is selected.
+            // SetGoldSoundDisabled
+            // Turn the sound when gold is acquired off/on.
+            // SetRecommendedItemsDisabled
+            // Turn the panel for showing recommended items at the shop off/on.
+            // SetStashPurchasingDisabled
+            // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
+            // SetStickyItemDisabled
+            // Hide the sticky item in the quickbuy.
+            // SetFogOfWarDisabled
+            // Turn the fog of war on or off.
+            // SetUnseenFogOfWarEnabled
+            // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
+            // SetForceRightClickAttackDisabled
+            // Prevent users from using the right click deny setting.
+            // SetCameraZRange
+            // Sets the camera Z range
+            // debug_message
+            // EGCMsgResponse
+            //  8
+            // `7
+            // @6
+            // p3
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // GetTotalEarnedXP
+            // AddClaimedFarm
+            // GetClaimedFarm
+            // GetRawPlayerDamage
+            // ClearRawPlayerDamageMatrix
+            // ClearKillsMatrix
+            // GetTowerDamageTaken
+            // GetCreepDamageTaken
+            // GetHeroDamageTaken
+            // GetDamageDoneToHero
+            // GetKillsDoneToHero
+            // debug_message
+            // EGCMsgResponse
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // aura_radius
+            // regeneration_to_max_seconds
+            // onentNames
+            // damage_cooldown
+            // onentNames
+            // AbilityCastRange
+            // onentNames
+            // AbilityDuration
+            // onentNames
+            // AbilityCharges
+            // onentNames
+            // AbilityManaCost
+            // onentNames
+            // AbilityHealthCost
+            // onentNames
+            // IsDebuffImmune
+            // NoUnitCollision
+            // ProvidesVision
+            // IsNightmared
+            // IsEvadeDisabled
+            // IsUnselectable
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            // Scroll the panel left by one line.
+            // Scroll the panel right by one line.
+            // Scroll the panel up by one line.
+            // Scroll the panel down by one line.
+            // Scroll the panel left by one page.
+            // Scroll the panel left by one page.
+            // Scroll the panel up by one page.
+            // RemoveAbility
+            // Remove an ability from this unit by name.
+            // HasAbility
+            // See whether this unit has an ability by name.
+            // RemoveAbilityByHandle
+            // Remove the passed ability from this unit.
+            // GetStatusResistance
+            // GetEvasion
+            // GetSpellAmplification
+            // SetBaseStrength
+            // SetBaseAgility
+            // SetBaseIntellect
+            // GetStrengthGain
+            // GetAgilityGain
+            // GetIntellectGain
+            // ModifyStrength
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyAgility
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyIntellect
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // GetRespawnTime
+            // GetAdditionalOwnedUnits
+            // IncrementKills
+            // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
+            // IncrementDeaths
+            // Value is stored in PlayerResource.
+            // IncrementAssists
+            // Value is stored in PlayerResource.
+            // IncrementLastHits
+            // IncrementDenies
+            // IncrementNearbyCreepDeaths
+            // RecordLastHit
+            // IncrementLastHitStreak
+            // ClearLastHitStreak
+            // IncrementLastHitMultikill
+            // ClearLastHitMultikill
+            // GetKills
+            // Value is stored in PlayerResource.
+            // GetDeaths
+            // Value is stored in PlayerResource.
+            // GetAssists
+            // Value is stored in PlayerResource.
+            // GetLastHits
+            // Value is stored in PlayerResource.
+            // GetDenies
+            // Value is stored in PlayerResource.
+            // IncrementStreak
+            // AreWeatherEffectsDisabled
+            // Get if weather effects are disabled on the client.
+            // SetWeatherEffectsDisabled
+            // Set if weather effects are disabled.
+            // GetHUDVisible
+            // Returns the HUD element visibility.
+            // GetCustomAttributeDerivedStatValue
+            // Get current derived stat value constant.
+            // GetCustomScanCooldown
+            // Get the current custom scan cooldown.
+            // GetCustomGlyphCooldown
+            // Get the current custom glyph cooldown.
+            // GetCustomBackpackSwapCooldown
+            // Get the current custom backpack swap cooldown.
+            // GetCustomBackpackCooldownPercent
+            // Get the current rate cooldown ticks down for items in the backpack.
+            // SetDefaultStickyItem
+            // Sets the default sticky item in the quickbuy
+            // GetWaterRuneLastSpawnTime
+            // Gets the time from game start during which water runes spawn
+            // SetWaterRuneLastSpawnTime
+            // Sets the time from game start during which water runes spawn
+            // GetCustomRadiantScore
+            // Get the topbar score display value for radiant.
+            // GetCustomDireScore
+            // Get the topbar score display value for dire.
+            // SetAbilityTuningValueFilter
+            // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
+            // SetLuaGameMode
+            // SetAlwaysShowPlayerInventory
+            // Show the player hero's inventory in the HUD, regardless of what unit is selected.
+            // SetGoldSoundDisabled
+            // Turn the sound when gold is acquired off/on.
+            // SetRecommendedItemsDisabled
+            // Turn the panel for showing recommended items at the shop off/on.
+            // SetStashPurchasingDisabled
+            // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
+            // SetStickyItemDisabled
+            // Hide the sticky item in the quickbuy.
+            // SetFogOfWarDisabled
+            // Turn the fog of war on or off.
+            // SetUnseenFogOfWarEnabled
+            // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
+            // SetForceRightClickAttackDisabled
+            // Prevent users from using the right click deny setting.
+            // SetCameraZRange
+            // Sets the camera Z range
+            // debug_message
+            // EGCMsgResponse
+            //  8
+            // `7
+            // @6
+            // p3
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // GetTotalEarnedXP
+            // AddClaimedFarm
+            // GetClaimedFarm
+            // GetRawPlayerDamage
+            // ClearRawPlayerDamageMatrix
+            // ClearKillsMatrix
+            // GetTowerDamageTaken
+            // GetCreepDamageTaken
+            // GetHeroDamageTaken
+            // GetDamageDoneToHero
+            // GetKillsDoneToHero
+            // debug_message
+            // EGCMsgResponse
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // aura_radius
+            // regeneration_to_max_seconds
+            // onentNames
+            // damage_cooldown
+            // onentNames
+            // AbilityCastRange
+            // onentNames
+            // AbilityDuration
+            // onentNames
+            // AbilityCharges
+            // onentNames
+            // AbilityManaCost
+            // onentNames
+            // AbilityHealthCost
+            // onentNames
+            // IsDebuffImmune
+            // NoUnitCollision
+            // ProvidesVision
+            // IsNightmared
+            // IsEvadeDisabled
+            // IsUnselectable
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            // Scroll the panel left by one line.
+            // Scroll the panel right by one line.
+            // Scroll the panel up by one line.
+            // Scroll the panel down by one line.
+            // Scroll the panel left by one page.
+            // Scroll the panel left by one page.
+            // Scroll the panel up by one page.
+            // RemoveAbility
+            // Remove an ability from this unit by name.
+            // HasAbility
+            // See whether this unit has an ability by name.
+            // RemoveAbilityByHandle
+            // Remove the passed ability from this unit.
+            // GetStatusResistance
+            // GetEvasion
+            // GetSpellAmplification
+            // SetBaseStrength
+            // SetBaseAgility
+            // SetBaseIntellect
+            // GetStrengthGain
+            // GetAgilityGain
+            // GetIntellectGain
+            // ModifyStrength
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyAgility
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyIntellect
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // GetRespawnTime
+            // GetAdditionalOwnedUnits
+            // IncrementKills
+            // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
+            // IncrementDeaths
+            // Value is stored in PlayerResource.
+            // IncrementAssists
+            // Value is stored in PlayerResource.
+            // IncrementLastHits
+            // IncrementDenies
+            // IncrementNearbyCreepDeaths
+            // RecordLastHit
+            // IncrementLastHitStreak
+            // ClearLastHitStreak
+            // IncrementLastHitMultikill
+            // ClearLastHitMultikill
+            // GetKills
+            // Value is stored in PlayerResource.
+            // GetDeaths
+            // Value is stored in PlayerResource.
+            // GetAssists
+            // Value is stored in PlayerResource.
+            // GetLastHits
+            // Value is stored in PlayerResource.
+            // GetDenies
+            // Value is stored in PlayerResource.
+            // IncrementStreak
+            // AreWeatherEffectsDisabled
+            // Get if weather effects are disabled on the client.
+            // SetWeatherEffectsDisabled
+            // Set if weather effects are disabled.
+            // GetHUDVisible
+            // Returns the HUD element visibility.
+            // GetCustomAttributeDerivedStatValue
+            // Get current derived stat value constant.
+            // GetCustomScanCooldown
+            // Get the current custom scan cooldown.
+            // GetCustomGlyphCooldown
+            // Get the current custom glyph cooldown.
+            // GetCustomBackpackSwapCooldown
+            // Get the current custom backpack swap cooldown.
+            // GetCustomBackpackCooldownPercent
+            // Get the current rate cooldown ticks down for items in the backpack.
+            // SetDefaultStickyItem
+            // Sets the default sticky item in the quickbuy
+            // GetWaterRuneLastSpawnTime
+            // Gets the time from game start during which water runes spawn
+            // SetWaterRuneLastSpawnTime
+            // Sets the time from game start during which water runes spawn
+            // GetCustomRadiantScore
+            // Get the topbar score display value for radiant.
+            // GetCustomDireScore
+            // Get the topbar score display value for dire.
+            // SetAbilityTuningValueFilter
+            // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
+            // SetLuaGameMode
+            // SetAlwaysShowPlayerInventory
+            // Show the player hero's inventory in the HUD, regardless of what unit is selected.
+            // SetGoldSoundDisabled
+            // Turn the sound when gold is acquired off/on.
+            // SetRecommendedItemsDisabled
+            // Turn the panel for showing recommended items at the shop off/on.
+            // SetStashPurchasingDisabled
+            // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
+            // SetStickyItemDisabled
+            // Hide the sticky item in the quickbuy.
+            // SetFogOfWarDisabled
+            // Turn the fog of war on or off.
+            // SetUnseenFogOfWarEnabled
+            // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
+            // SetForceRightClickAttackDisabled
+            // Prevent users from using the right click deny setting.
+            // SetCameraZRange
+            // Sets the camera Z range
+            // debug_message
+            // EGCMsgResponse
+            //  8
+            // `7
+            // @6
+            // p3
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // GetTotalEarnedXP
+            // AddClaimedFarm
+            // GetClaimedFarm
+            // GetRawPlayerDamage
+            // ClearRawPlayerDamageMatrix
+            // ClearKillsMatrix
+            // GetTowerDamageTaken
+            // GetCreepDamageTaken
+            // GetHeroDamageTaken
+            // GetDamageDoneToHero
+            // GetKillsDoneToHero
+            // debug_message
+            // EGCMsgResponse
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // aura_radius
+            // regeneration_to_max_seconds
+            // onentNames
+            // damage_cooldown
+            // onentNames
+            // AbilityCastRange
+            // onentNames
+            // AbilityDuration
+            // onentNames
+            // AbilityCharges
+            // onentNames
+            // AbilityManaCost
+            // onentNames
+            // AbilityHealthCost
+            // onentNames
+            // IsDebuffImmune
+            // NoUnitCollision
+            // ProvidesVision
+            // IsNightmared
+            // IsEvadeDisabled
+            // IsUnselectable
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            // Scroll the panel left by one line.
+            // Scroll the panel right by one line.
+            // Scroll the panel up by one line.
+            // Scroll the panel down by one line.
+            // Scroll the panel left by one page.
+            // Scroll the panel left by one page.
+            // Scroll the panel up by one page.
+            // RemoveAbility
+            // Remove an ability from this unit by name.
+            // HasAbility
+            // See whether this unit has an ability by name.
+            // RemoveAbilityByHandle
+            // Remove the passed ability from this unit.
+            // GetStatusResistance
+            // GetEvasion
+            // GetSpellAmplification
+            // SetBaseStrength
+            // SetBaseAgility
+            // SetBaseIntellect
+            // GetStrengthGain
+            // GetAgilityGain
+            // GetIntellectGain
+            // ModifyStrength
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyAgility
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyIntellect
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // GetRespawnTime
+            // GetAdditionalOwnedUnits
+            // IncrementKills
+            // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
+            // IncrementDeaths
+            // Value is stored in PlayerResource.
+            // IncrementAssists
+            // Value is stored in PlayerResource.
+            // IncrementLastHits
+            // IncrementDenies
+            // IncrementNearbyCreepDeaths
+            // RecordLastHit
+            // IncrementLastHitStreak
+            // ClearLastHitStreak
+            // IncrementLastHitMultikill
+            // ClearLastHitMultikill
+            // GetKills
+            // Value is stored in PlayerResource.
+            // GetDeaths
+            // Value is stored in PlayerResource.
+            // GetAssists
+            // Value is stored in PlayerResource.
+            // GetLastHits
+            // Value is stored in PlayerResource.
+            // GetDenies
+            // Value is stored in PlayerResource.
+            // IncrementStreak
+            // AreWeatherEffectsDisabled
+            // Get if weather effects are disabled on the client.
+            // SetWeatherEffectsDisabled
+            // Set if weather effects are disabled.
+            // GetHUDVisible
+            // Returns the HUD element visibility.
+            // GetCustomAttributeDerivedStatValue
+            // Get current derived stat value constant.
+            // GetCustomScanCooldown
+            // Get the current custom scan cooldown.
+            // GetCustomGlyphCooldown
+            // Get the current custom glyph cooldown.
+            // GetCustomBackpackSwapCooldown
+            // Get the current custom backpack swap cooldown.
+            // GetCustomBackpackCooldownPercent
+            // Get the current rate cooldown ticks down for items in the backpack.
+            // SetDefaultStickyItem
+            // Sets the default sticky item in the quickbuy
+            // GetWaterRuneLastSpawnTime
+            // Gets the time from game start during which water runes spawn
+            // SetWaterRuneLastSpawnTime
+            // Sets the time from game start during which water runes spawn
+            // GetCustomRadiantScore
+            // Get the topbar score display value for radiant.
+            // GetCustomDireScore
+            // Get the topbar score display value for dire.
+            // SetAbilityTuningValueFilter
+            // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
+            // SetLuaGameMode
+            // SetAlwaysShowPlayerInventory
+            // Show the player hero's inventory in the HUD, regardless of what unit is selected.
+            // SetGoldSoundDisabled
+            // Turn the sound when gold is acquired off/on.
+            // SetRecommendedItemsDisabled
+            // Turn the panel for showing recommended items at the shop off/on.
+            // SetStashPurchasingDisabled
+            // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
+            // SetStickyItemDisabled
+            // Hide the sticky item in the quickbuy.
+            // SetFogOfWarDisabled
+            // Turn the fog of war on or off.
+            // SetUnseenFogOfWarEnabled
+            // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
+            // SetForceRightClickAttackDisabled
+            // Prevent users from using the right click deny setting.
+            // SetCameraZRange
+            // Sets the camera Z range
+            // debug_message
+            // EGCMsgResponse
+            //  8
+            // `7
+            // @6
+            // p3
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // GetTotalEarnedXP
+            // AddClaimedFarm
+            // GetClaimedFarm
+            // GetRawPlayerDamage
+            // ClearRawPlayerDamageMatrix
+            // ClearKillsMatrix
+            // GetTowerDamageTaken
+            // GetCreepDamageTaken
+            // GetHeroDamageTaken
+            // GetDamageDoneToHero
+            // GetKillsDoneToHero
+            // debug_message
+            // EGCMsgResponse
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // aura_radius
+            // regeneration_to_max_seconds
+            // onentNames
+            // damage_cooldown
+            // onentNames
+            // AbilityCastRange
+            // onentNames
+            // AbilityDuration
+            // onentNames
+            // AbilityCharges
+            // onentNames
+            // AbilityManaCost
+            // onentNames
+            // AbilityHealthCost
+            // onentNames
+            // IsDebuffImmune
+            // NoUnitCollision
+            // ProvidesVision
+            // IsNightmared
+            // IsEvadeDisabled
+            // IsUnselectable
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const @"_Dɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            // Scroll the panel left by one line.
+            // Scroll the panel right by one line.
+            // Scroll the panel up by one line.
+            // Scroll the panel down by one line.
+            // Scroll the panel left by one page.
+            // Scroll the panel left by one page.
+            // Scroll the panel up by one page.
+            // RemoveAbility
+            // Remove an ability from this unit by name.
+            // HasAbility
+            // See whether this unit has an ability by name.
+            // RemoveAbilityByHandle
+            // Remove the passed ability from this unit.
+            // GetStatusResistance
+            // GetEvasion
+            // GetSpellAmplification
+            // SetBaseStrength
+            // SetBaseAgility
+            // SetBaseIntellect
+            // GetStrengthGain
+            // GetAgilityGain
+            // GetIntellectGain
+            // ModifyStrength
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyAgility
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyIntellect
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // GetRespawnTime
+            // GetAdditionalOwnedUnits
+            // IncrementKills
+            // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
+            // IncrementDeaths
+            // Value is stored in PlayerResource.
+            // IncrementAssists
+            // Value is stored in PlayerResource.
+            // IncrementLastHits
+            // IncrementDenies
+            // IncrementNearbyCreepDeaths
+            // RecordLastHit
+            // IncrementLastHitStreak
+            // ClearLastHitStreak
+            // IncrementLastHitMultikill
+            // ClearLastHitMultikill
+            // GetKills
+            // Value is stored in PlayerResource.
+            // GetDeaths
+            // Value is stored in PlayerResource.
+            // GetAssists
+            // Value is stored in PlayerResource.
+            // GetLastHits
+            // Value is stored in PlayerResource.
+            // GetDenies
+            // Value is stored in PlayerResource.
+            // IncrementStreak
+            // AreWeatherEffectsDisabled
+            // Get if weather effects are disabled on the client.
+            // SetWeatherEffectsDisabled
+            // Set if weather effects are disabled.
+            // GetHUDVisible
+            // Returns the HUD element visibility.
+            // GetCustomAttributeDerivedStatValue
+            // Get current derived stat value constant.
+            // GetCustomScanCooldown
+            // Get the current custom scan cooldown.
+            // GetCustomGlyphCooldown
+            // Get the current custom glyph cooldown.
+            // GetCustomBackpackSwapCooldown
+            // Get the current custom backpack swap cooldown.
+            // GetCustomBackpackCooldownPercent
+            // Get the current rate cooldown ticks down for items in the backpack.
+            // SetDefaultStickyItem
+            // Sets the default sticky item in the quickbuy
+            // GetWaterRuneLastSpawnTime
+            // Gets the time from game start during which water runes spawn
+            // SetWaterRuneLastSpawnTime
+            // Sets the time from game start during which water runes spawn
+            // GetCustomRadiantScore
+            // Get the topbar score display value for radiant.
+            // GetCustomDireScore
+            // Get the topbar score display value for dire.
+            // SetAbilityTuningValueFilter
+            // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
+            // SetLuaGameMode
+            // SetAlwaysShowPlayerInventory
+            // Show the player hero's inventory in the HUD, regardless of what unit is selected.
+            // SetGoldSoundDisabled
+            // Turn the sound when gold is acquired off/on.
+            // SetRecommendedItemsDisabled
+            // Turn the panel for showing recommended items at the shop off/on.
+            // SetStashPurchasingDisabled
+            // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
+            // SetStickyItemDisabled
+            // Hide the sticky item in the quickbuy.
+            // SetFogOfWarDisabled
+            // Turn the fog of war on or off.
+            // SetUnseenFogOfWarEnabled
+            // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
+            // SetForceRightClickAttackDisabled
+            // Prevent users from using the right click deny setting.
+            // SetCameraZRange
+            // Sets the camera Z range
+            // debug_message
+            // EGCMsgResponse
+            //  8
+            // `7
+            // @6
+            // p3
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // GetTotalEarnedXP
+            // AddClaimedFarm
+            // GetClaimedFarm
+            // GetRawPlayerDamage
+            // ClearRawPlayerDamageMatrix
+            // ClearKillsMatrix
+            // GetTowerDamageTaken
+            // GetCreepDamageTaken
+            // GetHeroDamageTaken
+            // GetDamageDoneToHero
+            // GetKillsDoneToHero
+            // debug_message
+            // EGCMsgResponse
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // aura_radius
+            // regeneration_to_max_seconds
+            // onentNames
+            // damage_cooldown
+            // onentNames
+            // AbilityCastRange
+            // onentNames
+            // AbilityDuration
+            // onentNames
+            // AbilityCharges
+            // onentNames
+            // AbilityManaCost
+            // onentNames
+            // AbilityHealthCost
+            // onentNames
+            // IsDebuffImmune
+            // NoUnitCollision
+            // ProvidesVision
+            // IsNightmared
+            // IsEvadeDisabled
+            // IsUnselectable
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            // Scroll the panel left by one line.
+            // Scroll the panel right by one line.
+            // Scroll the panel up by one line.
+            // Scroll the panel down by one line.
+            // Scroll the panel left by one page.
+            // Scroll the panel left by one page.
+            // Scroll the panel up by one page.
+            // RemoveAbility
+            // Remove an ability from this unit by name.
+            // HasAbility
+            // See whether this unit has an ability by name.
+            // RemoveAbilityByHandle
+            // Remove the passed ability from this unit.
+            // GetStatusResistance
+            // GetEvasion
+            // GetSpellAmplification
+            // SetBaseStrength
+            // SetBaseAgility
+            // SetBaseIntellect
+            // GetStrengthGain
+            // GetAgilityGain
+            // GetIntellectGain
+            // ModifyStrength
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyAgility
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyIntellect
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // GetRespawnTime
+            // GetAdditionalOwnedUnits
+            // IncrementKills
+            // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
+            // IncrementDeaths
+            // Value is stored in PlayerResource.
+            // IncrementAssists
+            // Value is stored in PlayerResource.
+            // IncrementLastHits
+            // IncrementDenies
+            // IncrementNearbyCreepDeaths
+            // RecordLastHit
+            // IncrementLastHitStreak
+            // ClearLastHitStreak
+            // IncrementLastHitMultikill
+            // ClearLastHitMultikill
+            // GetKills
+            // Value is stored in PlayerResource.
+            // GetDeaths
+            // Value is stored in PlayerResource.
+            // GetAssists
+            // Value is stored in PlayerResource.
+            // GetLastHits
+            // Value is stored in PlayerResource.
+            // GetDenies
+            // Value is stored in PlayerResource.
+            // IncrementStreak
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // file://{resources}/default_keybinds.cfg
+            // file://{resources}/keybinds.cfg
+            // L
+            // m_bRespawnClientEntity
+            // m_unGuildFlags
+            // M
+            // CDOTA_Ability_Special_Bonus_Evasion_10
+            // CSplitScreenSlot
+            // Scroll the panel left by one line.
+            // Scroll the panel right by one line.
+            // Scroll the panel up by one line.
+            // Scroll the panel down by one line.
+            // Scroll the panel left by one page.
+            // Scroll the panel left by one page.
+            // Scroll the panel up by one page.
+            // RemoveAbility
+            // Remove an ability from this unit by name.
+            // HasAbility
+            // See whether this unit has an ability by name.
+            // RemoveAbilityByHandle
+            // Remove the passed ability from this unit.
+            // GetStatusResistance
+            // GetEvasion
+            // GetSpellAmplification
+            // SetBaseStrength
+            // SetBaseAgility
+            // SetBaseIntellect
+            // GetStrengthGain
+            // GetAgilityGain
+            // GetIntellectGain
+            // ModifyStrength
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyAgility
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // ModifyIntellect
+            // Adds passed value to base attribute value, then calls CalculateStatBonus.
+            // GetRespawnTime
+            // GetAdditionalOwnedUnits
+            // IncrementKills
+            // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
+            // IncrementDeaths
+            // Value is stored in PlayerResource.
+            // IncrementAssists
+            // Value is stored in PlayerResource.
+            // IncrementLastHits
+            // IncrementDenies
+            // IncrementNearbyCreepDeaths
+            // RecordLastHit
+            // IncrementLastHitStreak
+            // ClearLastHitStreak
+            // IncrementLastHitMultikill
+            // ClearLastHitMultikill
+            // GetKills
+            // Value is stored in PlayerResource.
+            // GetDeaths
+            // Value is stored in PlayerResource.
+            // GetAssists
+            // Value is stored in PlayerResource.
+            // GetLastHits
+            // Value is stored in PlayerResource.
+            // GetDenies
+            // Value is stored in PlayerResource.
+            // IncrementStreak
+            // AreWeatherEffectsDisabled
+            // Get if weather effects are disabled on the client.
+            // SetWeatherEffectsDisabled
+            // Set if weather effects are disabled.
+            // GetHUDVisible
+            // Returns the HUD element visibility.
+            // GetCustomAttributeDerivedStatValue
+            // Get current derived stat value constant.
+            // GetCustomScanCooldown
+            // Get the current custom scan cooldown.
+            // GetCustomGlyphCooldown
+            // Get the current custom glyph cooldown.
+            // GetCustomBackpackSwapCooldown
+            // Get the current custom backpack swap cooldown.
+            // GetCustomBackpackCooldownPercent
+            // Get the current rate cooldown ticks down for items in the backpack.
+            // SetDefaultStickyItem
+            // Sets the default sticky item in the quickbuy
+            // GetWaterRuneLastSpawnTime
+            // Gets the time from game start during which water runes spawn
+            // SetWaterRuneLastSpawnTime
+            // Sets the time from game start during which water runes spawn
+            // GetCustomRadiantScore
+            // Get the topbar score display value for radiant.
+            // GetCustomDireScore
+            // Get the topbar score display value for dire.
+            // SetAbilityTuningValueFilter
+            // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
+            // SetLuaGameMode
+            // SetAlwaysShowPlayerInventory
+            // Show the player hero's inventory in the HUD, regardless of what unit is selected.
+            // SetGoldSoundDisabled
+            // Turn the sound when gold is acquired off/on.
+            // SetRecommendedItemsDisabled
+            // Turn the panel for showing recommended items at the shop off/on.
+            // SetStashPurchasingDisabled
+            // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
+            // SetStickyItemDisabled
+            // Hide the sticky item in the quickbuy.
+            // SetFogOfWarDisabled
+            // Turn the fog of war on or off.
+            // SetUnseenFogOfWarEnabled
+            // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
+            // SetForceRightClickAttackDisabled
+            // Prevent users from using the right click deny setting.
+            // SetCameraZRange
+            // Sets the camera Z range
+            // debug_message
+            // EGCMsgResponse
+            //  8
+            // `7
+            // @6
+            // p3
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // GetTotalEarnedXP
+            // AddClaimedFarm
+            // GetClaimedFarm
+            // GetRawPlayerDamage
+            // ClearRawPlayerDamageMatrix
+            // ClearKillsMatrix
+            // GetTowerDamageTaken
+            // GetCreepDamageTaken
+            // GetHeroDamageTaken
+            // GetDamageDoneToHero
+            // GetKillsDoneToHero
+            // debug_message
+            // EGCMsgResponse
+            // EGCEconBaseMsg
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // EGCMsgResponse
+            // aura_radius
+            // regeneration_to_max_seconds
+            // onentNames
+            // damage_cooldown
+            // onentNames
+            // AbilityCastRange
+            // onentNames
+            // AbilityDuration
+            // onentNames
+            // AbilityCharges
+            // onentNames
+            // AbilityManaCost
+            // onentNames
+            // AbilityHealthCost
+            // onentNames
+            // IsDebuffImmune
+            // NoUnitCollision
+            // ProvidesVision
+            // IsNightmared
+            // IsEvadeDisabled
+            // IsUnselectable
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const @"__ɢ__" = struct {
+            };
+            // Parent: None
+            // Field count: 146
+            //
+            // Metadata:
+            // z
+            // ages}/events/crownfall/visual_novel/portraits/centaur_portrait_idle.png
+            // @
+            // `
+            // "
+            // #
+            // '
+            // #
+            // V
+            // ;
+            // f_the_Magnoceri
+            // @XQ
+            // efault
+            // ance Cooldown
+            // MissedContainer
+            // 20s;transition-duration: .20s;transition-timing-function: ease-in-out;}#SpectreProgress_Default{width: 100%;height: 100%;opacity
+            // th: 132px;height: 132px;border-radius: 100px;background-color: #2B2F30;border: 2px solid #414A45;margin: 32px 12px;margin: 16px 
+            // ke_invis_02
+            // @
+            //  
+            // A
+            // C
+            // D
+            // G
+            // S
+            // F
+            // H
+            // I
+            // K
+            // N
+            // P
+            // R
+            // S
+            // S
+            // T
+            // U
+            // S
+            // L
+            // T
+            // V
+            // A
+            // M
+            // G
+            // D
+            // N
+            // K
+            // T
+            // P
+            // O
+            // T
+            // M
+            // M
+            // T
+            // K
+            // S
+            // C
+            // P
+            // H
+            // S
+            // L
+            // I
+            // H
+            // M
+            // W
+            // C
+            // U
+            // B
+            // P
+            // A
+            // U
+            // I
+            // C
+            // S
+            // C
+            // S
+            // C
+            // B
+            // A
+            // C
+            // G
+            // S
+            // I
+            // P
+            // R
+            // T
+            // L
+            // A
+            // S
+            // G
+            // M
+            // T
+            // T
+            // S
+            // C
+            // D
+            // B
+            // T
+            // C
+            // G
+            // B
+            // G
+            // H
+            // R
+            // U
+            // L
+            // S
+            // B
+            // S
+            // B
+            // U
+            // A
+            // T
+            // G
+            // G
+            // G
+            // P
+            // L
+            // N
+            // B
+            // O
+            // O
+            // J
+            // M
+            // O
+            pub const ______ = struct {
+                pub const bonus_aoe_radius: usize = 0x1A78; // float32
+                pub const m_bAppliesToCreeps: usize = 0x1A78; // bool
+                pub const bonus_aoe_radius: usize = 0x1A7C; // float32
+                pub const self_armor: usize = 0x1A80; // int32
+                pub const self_mres: usize = 0x1A84; // int32
+                pub const bonus_aoe_armor: usize = 0x1A78; // float32
+                pub const bonus_aoe_ms: usize = 0x1A7C; // float32
+                pub const bonus_aoe_mres: usize = 0x1A80; // float32
+                pub const self_mres: usize = 0x1A84; // float32
+                pub const self_armor: usize = 0x1A88; // float32
+                pub const active_reflection_pct: usize = 0x1A8C; // int32
+                pub const crit_multiplier: usize = 0x1A78; // float32
+                pub const debuff_duration: usize = 0x1A7C; // float32
+                pub const movespeed_slow: usize = 0x1A78; // float32
+                pub const attack_slow: usize = 0x1A7C; // float32
+                pub const cast_slow: usize = 0x1A80; // float32
+                pub const death_radius: usize = 0x1A78; // float32
+                pub const base_damage: usize = 0x1A78; // float32
+                pub const attack_speed: usize = 0x1A7C; // float32
+                pub const bonus_intellect: usize = 0x1A78; // int32
+                pub const bonus_hp: usize = 0x1A7C; // int32
+                pub const bonus_mana: usize = 0x1A80; // int32
+                pub const bonus_aoe: usize = 0x1A84; // int32
+                pub const bonus_aoe_imbue: usize = 0x1A88; // int32
+                pub const bonus_movement_speed: usize = 0x1A78; // int32
+                pub const tree_radius: usize = 0x1A78; // int32
+                pub const spell_amp: usize = 0x1A78; // float32
+                pub const bonus_damage: usize = 0x1A78; // int32
+                pub const health_regen_pct: usize = 0x1A78; // int32
+                pub const break_on_hero_damage: usize = 0x1A7C; // int32
+                pub const m_fHealingDone: usize = 0x1A80; // float32
+                pub const m_fUseSpeed: usize = 0x1A84; // float32
+                pub const bonus_damage: usize = 0x1A78; // float32
+                pub const splash_radius: usize = 0x1A7C; // float32
+                pub const splash_pct: usize = 0x1A80; // float32
+                pub const m_InFlightAttackRecords: usize = 0x1A88; // CUtlVector<AttackRecord_t>
+                pub const bonus_health: usize = 0x1A78; // int32
+                pub const attack_range_bonus: usize = 0x1A78; // int32
+                pub const attack_speed_bonus: usize = 0x1A7C; // int32
+                pub const m_InFlightAttackRecords: usize = 0x1A80; // CUtlVector<AttackRecord_t>
+                pub const magic_resistance_reduction: usize = 0x1A78; // int32
+                pub const bonus_movement_speed: usize = 0x1A78; // int32
+                pub const hp_regen: usize = 0x1A7C; // int32
+                pub const push_length: usize = 0x1A78; // int32
+                pub const push_duration: usize = 0x1A7C; // float32
+                pub const water_acceleration: usize = 0x1A78; // float32
+                pub const m_bInWater: usize = 0x1A7C; // bool
+                pub const bonus_armor: usize = 0x1A78; // int32
+                pub const duration: usize = 0x1A7C; // float32
+                pub const mana_restore: usize = 0x1A78; // float32
+                pub const mana_restore_pct: usize = 0x1A7C; // float32
+                pub const m_fHealingDone: usize = 0x1A80; // float32
+                pub const m_fUseSpeed: usize = 0x1A84; // float32
+                pub const bonus_all_stats: usize = 0x1A78; // int32
+                pub const m_hTree: usize = 0x1A78; // CHandle<C_BaseEntity>
+                pub const m_Timer: usize = 0x1A80; // CountdownTimer
+                pub const seconds: usize = 0x1A98; // float32
+                pub const hp_damage: usize = 0x1A78; // float32
+                pub const damage_interval: usize = 0x1A7C; // float32
+                pub const debuff_duration: usize = 0x1A80; // float32
+                pub const health_regen_loss: usize = 0x1A84; // float32
+                pub const bonus_mana_regen: usize = 0x1A78; // float32
+                pub const cast_range_bonus: usize = 0x1A7C; // int32
+                pub const ground_duration: usize = 0x1A78; // float32
+                pub const poison_duration: usize = 0x1A7C; // float32
+                pub const damage: usize = 0x1A80; // float32
+                pub const radius: usize = 0x1A84; // float32
+                pub const m_bAttackLanded: usize = 0x1A88; // bool
+                pub const m_nFXIndex: usize = 0x1A8C; // ParticleIndex_t
+                pub const strength: usize = 0x1A78; // int32
+                pub const agility: usize = 0x1A7C; // int32
+                pub const damage: usize = 0x1A80; // int32
+                pub const proc_chance: usize = 0x1A84; // int32
+                pub const proc_dmg_pct: usize = 0x1A88; // int32
+                pub const count: usize = 0x1A8C; // int32
+                pub const base_count: usize = 0x1A90; // int32
+                pub const secondary_target_range_bonus: usize = 0x1A94; // int32
+                pub const secondary_target_angle: usize = 0x1A98; // int32
+                pub const base_attack_range: usize = 0x1A9C; // int32
+                pub const base_proc_dmg: usize = 0x1AA0; // int32
+                pub const poison_duration: usize = 0x1AA4; // float32
+                pub const bonus_damage: usize = 0x1A78; // int32
+                pub const bonus_strength: usize = 0x1A7C; // int32
+                pub const base_proc_dmg: usize = 0x1A78; // int32
+                pub const proc_dmg_pct: usize = 0x1A7C; // int32
+                pub const slow: usize = 0x1A78; // int32
+                pub const bonus_mana: usize = 0x1A78; // int32
+                pub const bonus_strength: usize = 0x1A7C; // int32
+                pub const backstab_damage: usize = 0x1A80; // int32
+                pub const backstab_angle: usize = 0x1A84; // int32
+                pub const slow_duration: usize = 0x1A88; // float32
+                pub const m_bBackstab: usize = 0x1A8C; // bool
+                pub const slow_pct_melee: usize = 0x1A78; // int32
+                pub const slow_pct_ranged: usize = 0x1A7C; // int32
+                pub const slow_resist: usize = 0x1A78; // float32
+                pub const evasion: usize = 0x1A7C; // float32
+                pub const bonus_agi: usize = 0x1A78; // int32
+                pub const bonus_str: usize = 0x1A7C; // int32
+                pub const attack_damage_aura: usize = 0x1A78; // int32
+                pub const bonus_attack_range: usize = 0x1A78; // float32
+                pub const bonus_cast_range: usize = 0x1A7C; // float32
+                pub const damage_threshold: usize = 0x1A80; // float32
+                pub const damage_disable: usize = 0x1A84; // float32
+                pub const debuff_self: usize = 0x1A78; // int32
+                pub const debuff_enemy: usize = 0x1A7C; // float32
+                pub const debuff_enemy_duration: usize = 0x1A80; // int32
+                pub const bonus_damage: usize = 0x1A84; // int32
+                pub const debuff_enemy: usize = 0x1A78; // int32
+                pub const magic_damage: usize = 0x1A78; // int32
+                pub const attack_speed: usize = 0x1A7C; // int32
+                pub const duration: usize = 0x1A80; // float32
+                pub const bonus_magic_resistance: usize = 0x1A78; // int32
+                pub const bonus_spell_amp: usize = 0x1A7C; // int32
+                pub const bonus_armor: usize = 0x1A80; // int32
+                pub const corruption_armor: usize = 0x1A78; // int32
+                pub const heal_reduction: usize = 0x1A7C; // int32
+                pub const slow_melee: usize = 0x1A80; // int32
+                pub const slow_ranged: usize = 0x1A84; // int32
+                pub const bonus_agility: usize = 0x1A78; // int32
+                pub const passive_movement_bonus: usize = 0x1A7C; // int32
+                pub const slow_melee: usize = 0x1A78; // int32
+                pub const slow_ranged: usize = 0x1A7C; // int32
+                pub const heal_reduction: usize = 0x1A80; // int32
+                pub const bonus_all_stats: usize = 0x1A78; // int32
+                pub const stack_limit: usize = 0x1A7C; // int32
+                pub const stack_duration: usize = 0x1A80; // float32
+                pub const m_flStackDieTime: usize = 0x1A84; // GameTime_t
+                pub const magic_resistance: usize = 0x1A88; // int32
+                pub const duration: usize = 0x1A78; // float32
+                pub const magic_resist: usize = 0x1A7C; // int32
+                pub const hp_regen: usize = 0x1A80; // float32
+                pub const aura_radius: usize = 0x1A78; // float32
+                pub const damage_redirection: usize = 0x1A78; // int32
+                pub const m_LastParams: usize = 0x1A78; // CModifierParams
+                pub const all_stats: usize = 0x1B68; // int32
+                pub const reflect_chance: usize = 0x1B6C; // int32
+                pub const m_bProcSuccessful: usize = 0x1B70; // bool
+                pub const armor_reduction: usize = 0x1A78; // int32
+                pub const slow_melee: usize = 0x1A7C; // int32
+                pub const slow_range: usize = 0x1A80; // int32
+                pub const bCasterRanged: usize = 0x1A84; // bool
+                pub const m_bAppliesToCreeps: usize = 0x1A78; // bool
+                pub const bat: usize = 0x1A7C; // float32
+                pub const stun_duration: usize = 0x1A80; // float32
+                pub const stun_chance: usize = 0x1A84; // int32
+                pub const m_nAttack: usize = 0x1A88; // int32
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const ____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const _____ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const U = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const B = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const L = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const E = struct {
             };
         };
     };

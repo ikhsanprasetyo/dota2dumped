@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-04 11:15:22.142540100 +07:00
+// 2026-09-05 19:06:16.479387600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 436
+        // Enum count: 439
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -12588,6 +12588,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             pub const CTouchExpansionComponent = struct {
             };
             // Parent: CDOTA_BaseNPC_Hero
@@ -19822,8 +19823,10 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // A
             // MGetKV3ClassDefaults
-            // ogram Files\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System
+            // A
+            // Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -20848,6 +20851,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // Y
+            // A
             pub const CTimeline = struct {
                 pub const m_flValues: usize = 0x10; // float32[64]
                 pub const m_nValueCounts: usize = 0x110; // int32[64]
@@ -31292,6 +31296,9 @@ pub const source2_dumper = struct {
             };
             // Parent: CPointEntity
             // Field count: 11
+            //
+            // Metadata:
+            // 0
             pub const CInfoOffscreenPanoramaTexture = struct {
                 pub const m_bDisabled: usize = 0x498; // bool
                 pub const m_nResolutionX: usize = 0x49C; // int32
@@ -35562,6 +35569,7 @@ pub const source2_dumper = struct {
             // M
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
@@ -39475,7 +39483,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // mmon Files
             pub const CScriptComponent = struct {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             };
@@ -42059,6 +42066,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
+            // A
             pub const CLightComponent = struct {
                 pub const __m_pChainEntity: usize = 0x38; // CNetworkVarChainer
                 pub const m_Color: usize = 0x75; // Color
@@ -56168,6 +56176,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             //  
+            // A
             pub const CEnvCubemap = struct {
                 pub const m_Entity_hCubemapTexture: usize = 0x518; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Entity_bCustomCubemapTexture: usize = 0x520; // bool
@@ -56804,6 +56813,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // :\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byteseek
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const RelationshipOverride_t = struct {
@@ -56903,8 +56913,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
             pub const CRemapFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -57002,6 +57010,8 @@ pub const source2_dumper = struct {
             // MsPosition
             // WsDirection
             // MsDirection
+            // A
+            // A
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -58121,6 +58131,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
+            // A
+            // A
             pub const CSkeletonAnimationController = struct {
                 pub const m_pSkeletonInstance: usize = 0x8; // CSkeletonInstance*
             };
@@ -58772,6 +58784,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             pub const CInfoChoreoAnchorPosition = struct {
                 pub const m_vOriginLS: usize = 0x0; // Vector
                 pub const m_qAnglesLS: usize = 0x10; // Quaternion
@@ -58881,6 +58894,7 @@ pub const source2_dumper = struct {
             // SOUNDCTRL_STOP
             // SOUNDCTRL_DESTROY
             // SOUNDCTRL_FADEOUT
+            // A
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59063,6 +59077,8 @@ pub const source2_dumper = struct {
             // k_eQuibbinsDrunk
             // k_eKerrick
             // k_eNoAuthor
+            // A
+            // A
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub const MonsterHunterTradeRecipeID_t = struct {
@@ -59339,9 +59355,6 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // PerViewPad4
             pub const AbilityContributionType_t = struct {
                 pub const m_Value: usize = 0x0; // uint8
             };
@@ -59704,8 +59717,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
             pub const CSkillInt = struct {
                 pub const m_pValue: usize = 0x0; // int32[4]
             };
@@ -59765,8 +59776,6 @@ pub const source2_dumper = struct {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
             pub const CSkillFloat = struct {
                 pub const m_pValue: usize = 0x0; // float32[4]
             };
@@ -60286,6 +60295,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
+            // A
             pub const ISkeletonAnimationController = struct {
             };
             // Parent: None
@@ -60606,6 +60616,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             pub const CTakeDamageInfo = struct {
                 pub const m_vecDamageForce: usize = 0x8; // Vector
                 pub const m_vecDamagePosition: usize = 0x14; // VectorWS
@@ -61575,6 +61586,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField

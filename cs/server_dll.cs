@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-04 11:15:22.142540100 +07:00
+// 2026-09-05 19:06:16.479387600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 436
+    // Enum count: 439
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -12619,6 +12619,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // A
         public static class CTouchExpansionComponent {
         }
         // Parent: CDOTA_BaseNPC_Hero
@@ -19853,8 +19854,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
+        // A
         // MGetKV3ClassDefaults
-        // ogram Files\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System
+        // A
+        // Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -20879,6 +20882,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // Y
+        // A
         public static class CTimeline {
             public const nint m_flValues = 0x10; // float32[64]
             public const nint m_nValueCounts = 0x110; // int32[64]
@@ -31323,6 +31327,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CPointEntity
         // Field count: 11
+        //
+        // Metadata:
+        // 0
         public static class CInfoOffscreenPanoramaTexture {
             public const nint m_bDisabled = 0x498; // bool
             public const nint m_nResolutionX = 0x49C; // int32
@@ -35593,6 +35600,7 @@ namespace Source2Dumper.Schemas {
         // M
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // A
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
@@ -39506,7 +39514,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // mmon Files
         public static class CScriptComponent {
             public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
         }
@@ -42090,6 +42097,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // a
+        // A
         public static class CLightComponent {
             public const nint __m_pChainEntity = 0x38; // CNetworkVarChainer
             public const nint m_Color = 0x75; // Color
@@ -56199,6 +56207,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         //  
+        // A
         public static class CEnvCubemap {
             public const nint m_Entity_hCubemapTexture = 0x518; // CStrongHandle<InfoForResourceTypeCTextureBase>
             public const nint m_Entity_bCustomCubemapTexture = 0x520; // bool
@@ -56835,6 +56844,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MGetKV3ClassDefaults
+        // :\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byteseek
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class RelationshipOverride_t {
@@ -56934,8 +56944,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MPropertyCustomEditor
         // Y
-        // r\steamapp_pipeline_cache.foz
-        // r\steamapp_pipeline_cache.foz
         public static class CRemapFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -57033,6 +57041,8 @@ namespace Source2Dumper.Schemas {
         // MsPosition
         // WsDirection
         // MsDirection
+        // A
+        // A
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -58152,6 +58162,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Y
+        // A
+        // A
         public static class CSkeletonAnimationController {
             public const nint m_pSkeletonInstance = 0x8; // CSkeletonInstance*
         }
@@ -58803,6 +58815,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // A
         public static class CInfoChoreoAnchorPosition {
             public const nint m_vOriginLS = 0x0; // Vector
             public const nint m_qAnglesLS = 0x10; // Quaternion
@@ -58912,6 +58925,7 @@ namespace Source2Dumper.Schemas {
         // SOUNDCTRL_STOP
         // SOUNDCTRL_DESTROY
         // SOUNDCTRL_FADEOUT
+        // A
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -59094,6 +59108,8 @@ namespace Source2Dumper.Schemas {
         // k_eQuibbinsDrunk
         // k_eKerrick
         // k_eNoAuthor
+        // A
+        // A
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class MonsterHunterTradeRecipeID_t {
@@ -59370,9 +59386,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // PerViewPad4
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59735,8 +59748,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // r\steamapp_pipeline_cache.foz
-        // r\steamapp_pipeline_cache.foz
         public static class CSkillInt {
             public const nint m_pValue = 0x0; // int32[4]
         }
@@ -59796,8 +59807,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyCustomEditor
         // MPropertyCustomEditor
         // Y
-        // r\steamapp_pipeline_cache.foz
-        // r\steamapp_pipeline_cache.foz
         public static class CSkillFloat {
             public const nint m_pValue = 0x0; // float32[4]
         }
@@ -60317,6 +60326,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Y
+        // A
         public static class ISkeletonAnimationController {
         }
         // Parent: None
@@ -60637,6 +60647,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // A
         public static class CTakeDamageInfo {
             public const nint m_vecDamageForce = 0x8; // Vector
             public const nint m_vecDamagePosition = 0x14; // VectorWS
@@ -61606,6 +61617,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // A
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField

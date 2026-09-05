@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-04 11:15:22.142540100 +07:00
+// 2026-09-05 19:06:16.479387600 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1544,6 +1544,232 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
+        },
+        H__Y_3__________H____WH___H________: {
+            : 0x7FFF1F675878,
+            : 0x0,
+            : 0x10,
+            : 0x1,
+            : 0x7FFF21420808,
+            : 0xFFFFFFFF,
+            ��o=&: 0x4,
+            � ��&: 0x2000008F8,
+            : 0x80001C63,
+            ru �: 0x80001D03,
+            : 0x4263D6D5A68,
+            : 0x4269C278860,
+            : 0xFFFFFF00FF00FFFF,
+            : 0xFF00D7FFFF7280FA,
+            : 0xFFFACE87FFED9564,
+            : 0xFF000000FF0080FF,
+            : 0x7FFF218A6050,
+            : 0x7FFF218A6128,
+            : 0x7FFF218A6168,
+            : 0x7FFF218A61B0,
+            : 0x7FFF218A6248,
+            : 0x7FFF218A6288,
+            : 0x7FFF218A62D0,
+            : 0x7FFF218A6368,
+            : 0x7FFF218A63A8,
+            : 0x7FFF218A63F0,
+            : 0x7FFF218A6488,
+            : 0x7FFF218A64C8,
+            : 0x7FFF218A6510,
+            : 0x7FFF218A65A8,
+            : 0x7FFF218A65E8,
+            : 0x7FFF218A6630,
+            : 0x7FFF218A66C8,
+            : 0x7FFF218A6708,
+            : 0x7FFF218A6750,
+            : 0x7FFF218A67E8,
+            : 0x7FFF218A6828,
+            : 0x7FFF218A6870,
+            : 0x7FFF218A6908,
+            : 0x7FFF218A6948,
+            : 0x7FFF218A6990,
+            : 0x7FFF218A6A28,
+            : 0x7FFF218A6A68,
+            : 0x7FFF218A6AB0,
+            : 0x7FFF218A6B48,
+            : 0x7FFF218A6B88,
+            : 0x4F,
+            : 0x426A9FBE940,
+            TEArmorRicochet_GameEvent_t: 0x7FFF1EE1BEA0,
+            H���������������H�����������������&	: 0x7FFF21728098,
+            H�����������������&	: 0x7FFF1EE1C690,
+            8Pu �: 0x7FFF20755018,
+            : 0xFFFFFFFFFFFFFFFF,
+            : 0x7FFF20754578,
+            �: 0x7FFF1CBE18D0,
+            @SH��@H�S��H�Ld�H��uJH�Я�H���H��u0H�L�
+            �2�T$0A�`: 0x7FFF1CBE18E0,
+            xEu �: 0x7FFF20754900,
+            : 0x7FFF218A1498,
+            TEBubbles_GameEvent_t: 0x7FFF1EE1C4C0,
+            H���������������H�����������������&	: 0x7FFF218A6F50,
+            H�����������������&	: 0x7FFF1EE1C6E0,
+            TEEffectDispatch_GameEvent_t: 0x7FFF1EE1C5A0,
+            H���������������H�����������������&	: 0x7FFF218A6FE8,
+            : 0x4269DA014C0,
+            ��N�: 0x4269DA02500,
+            ��N�: 0x4269DA02340,
+            CMsgTEBubbleTrail [409]: 0x4269DAB4820,
+            CMsgTEBeamPoints [404]: 0x4269DAB4760,
+            ��N�: 0x4269DA01440,
+            ��N�: 0x4269DA02480,
+            �eu �: 0x7FFF218A6FD0,
+            TEEnergySplash_GameEvent_t: 0x7FFF1EE22950,
+            H���������������H�����������������&	: 0x7FFF218A7018,
+            : 0x7FFF21145A40,
+            H�����������������&	: 0x7FFF1EE23230,
+            �fu �: 0x7FFF20756660,
+            : 0x7FFF218AA840,
+            : 0x7FFF20755790,
+            : 0x7FFF218A72C0,
+            : 0x7FFF20755950,
+            : 0x7FFF218A73D0,
+            : 0x7FFF20755B10,
+            : 0x7FFF218A7490,
+            H�����������������&	: 0x7FFF1EE23260,
+            hgu �: 0x7FFF20755CB8,
+            �s�!�: 0x7FFF21145BC8,
+            �\u �: 0x7FFF20755E88,
+            �^u �: 0x7FFF20756050,
+            TEPhysicsProp_GameEvent_t: 0x7FFF1EE22F70,
+            H���������������H�����������������&	: 0x7FFF218A77B0,
+            : 0x7FFF218A77E0,
+            : 0x7FFF218A76D8,
+            TESmoke_GameEvent_t: 0x7FFF1EE23050,
+            H���������������H�����������������&	: 0x7FFF218A7878,
+            : 0x7FFF218A78B0,
+            : 0x7FFF207565C0,
+            : 0x7FFF218A79D0,
+            : 0x80001BF5,
+            ��N�: 0x4269DA01DC0,
+            ��N�: 0x4269DA02040,
+            CMsgTESparks [422]: 0x4269DAB4AA0,
+            CMsgTELargeFunnel [421]: 0x4269DAB49C0,
+            CMsgTEFizz [413]: 0x4269DAB4920,
+            �_!�: 0x7FFF21145EE0,
+            ��M�: 0x7FFF1EE296E0,
+            : 0x7FFF21786920,
+            SpeedGain: 0x7FFF218A8F50,
+            H����H���������̃yX����������̀��: 0x7FFF218A90A8,
+            : 0x7FFF20757208,
+            : 0x7FFF21788868,
+            � ��&: 0x200000670,
+            : 0x80001CD1,
+            CDOTA_Item_BotChallenge_MeteorStaff: 0x7FFF207576C0,
+            �u: 0x7FFF207585F8,
+            �ϭ�&: 0x7FFF21499900,
+            edGain: 0x426A8ADCFF0,
+            髊�������������H��8H�D$(: 0x7FFF1EE2B860,
+            : 0xE,
+            : 0x426AD81F580,
+            : 0x426428787B1,
+            �u �: 0xDDD,
+            seasonal_dark_carnival_balloon: 0x7FFF20758AE0,
+            �Zg�: 0x7FFF211460D0,
+            : 0x426A8ADCE10,
+            �[�k�������������K�k�������������;�k������������髊�������������H��8H�D$(: 0x7FFF1EE2B830,
+            ��u �: 0x7FFF21499B58,
+            : 0x426ADB9C760,
+            : 0x426ADF2C589,
+            ��u �: 0xDDE,
+            seasonal_dark_carnival_firework: 0x7FFF20758B28,
+            �Zg�: 0x7FFF21146150,
+            �K�k�������������;�k������������髊�������������H��8H�D$(: 0x7FFF1EE2B840,
+            : 0x426ADB9C7C0,
+            : 0x426ADF24CF7,
+            (�u �: 0xDDF,
+            seasonal_dark_carnival_pie: 0x7FFF20758FE0,
+            �Zg�: 0x7FFF211462B0,
+            �;�k������������髊�������������H��8H�D$(: 0x7FFF1EE2B850,
+            : 0x426ADB9C820,
+            : 0x4264287C435,
+            ��u �: 0xDE0,
+            ���!�: 0x7FFF1EE2BEA0,
+            H��(H�5�1H�L$8�{�S: 0x7FFF1CBBAC40,
+            H����H���������̃yX����������̀��: 0x7FFF218A96C0,
+            H����H���������̃yX����������̀��: 0x7FFF218A9A68,
+            έ�&: 0x7FFF218A9A80,
+            ���!�: 0x7FFF1EE2B3B0,
+            : 0x426AC7F9280,
+            : 0x426AA7FA460,
+            : 0x2,
+            ��u �: 0x80001C5F,
+            : 0x7FFF218A9DF0,
+            : 0x426ACD22F20,
+            : 0x7FFF1EE2C000,
+            (�u �: 0x80001C5D,
+            : 0x7FFF218AA050,
+            : 0x426ACD22F60,
+            : 0x7FFF1EE2C090,
+            ��u �: 0x80001C5B,
+            : 0x7FFF218AA2B0,
+            : 0x426ACD22EA0,
+            : 0x7FFF1EE2C120,
+            : 0x80001C10,
+            sI��: 0x4263D183B30,
+            : 0x7FFF894B2180,
+            : 0x7FFF894B2220,
+            : 0x7FFF894B22C0,
+            : 0x4263D181580,
+            PwI��: 0x4263D181640,
+            PwI��: 0x4263D181790,
+            PwI��: 0x4263D1817F0,
+            : 0x4263D181880,
+            : 0x4263D183AA0,
+             zI��: 0x426A9FB83D0,
+            �sI��: 0x4263D183B90,
+            �sI��: 0x426AD1AB880,
+            : 0x426AD1AB840,
+            �sI��: 0x4263D414A80,
+            : 0x426A9FBBA90,
+            PwI��: 0x4263D183D10,
+            : 0x24,
+            : 0x8000000200000100,
+            : 0x80001BE1,
+            ��w �: 0x80000003,
+            : 0x426403600C8,
+            P6@&: 0x42640361268,
+            �6@&: 0x426403601D8,
+            `6@&: 0x426403602E8,
+            p6@&: 0x42640361D78,
+            �6@&: 0x42640360480,
+            6@&: 0x42640360590,
+            6@&: 0x426403606A0,
+            (6@&: 0x426403607B0,
+            86@&: 0x426403608C0,
+            H	6@&: 0x426403609D0,
+            �46@&: 0x42640360A58,
+            (66@&: 0x42640360AE0,
+            `86@&: 0x42640360B68,
+            : 0x42640362820,
+            : 0x180000005,
+            : 0x6,
+            : 0xFF0000FFFFFFFFFF,
+            : 0xFFDDA0DDFF00FF00,
+            : 0xFFB469FFFFCBC0FF,
+            : 0xFFD4FF7FFF800000,
+            : 0x4A,
+            : 0x4263D6D2A28,
+            : 0x4263D6D2A90,
+            : 0x5FD00000239,
+            : 0x4263D6D2AF8,
+            : 0x7FFF2199F980,
+            : 0x7FFF2199F848,
+            : 0x7FFF21156900,
+            ���!�: 0x7FFF211563B0,
+            : 0x7FFF2199F8A8,
+            ��!�: 0x7FFF211566D0,
+            : 0x7FFF2199F950,
+            h��!�: 0x7FFF21156810,
+            : 0x7FFF2199F968,
+            @��!�: 0x7FFF21156680,
+            : 0x7FFF2199FA10,
+            ���!�: 0x7FFF211567C0,
+            : 0x4B,
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1A28, // DOTA_SHOP_TYPE
@@ -32125,6 +32351,242 @@ export const Schemas = {
             m_flRadius: 0x8, // float32
             m_nHitRegionIndex: 0xC, // int32
             m_nDamageMultiplier: 0x10, // int32
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        _Dɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        __ɢ__: {
+        },
+        ______: {
+            bonus_aoe_radius: 0x1A78, // float32
+            m_bAppliesToCreeps: 0x1A78, // bool
+            bonus_aoe_radius: 0x1A7C, // float32
+            self_armor: 0x1A80, // int32
+            self_mres: 0x1A84, // int32
+            bonus_aoe_armor: 0x1A78, // float32
+            bonus_aoe_ms: 0x1A7C, // float32
+            bonus_aoe_mres: 0x1A80, // float32
+            self_mres: 0x1A84, // float32
+            self_armor: 0x1A88, // float32
+            active_reflection_pct: 0x1A8C, // int32
+            crit_multiplier: 0x1A78, // float32
+            debuff_duration: 0x1A7C, // float32
+            movespeed_slow: 0x1A78, // float32
+            attack_slow: 0x1A7C, // float32
+            cast_slow: 0x1A80, // float32
+            death_radius: 0x1A78, // float32
+            base_damage: 0x1A78, // float32
+            attack_speed: 0x1A7C, // float32
+            bonus_intellect: 0x1A78, // int32
+            bonus_hp: 0x1A7C, // int32
+            bonus_mana: 0x1A80, // int32
+            bonus_aoe: 0x1A84, // int32
+            bonus_aoe_imbue: 0x1A88, // int32
+            bonus_movement_speed: 0x1A78, // int32
+            tree_radius: 0x1A78, // int32
+            spell_amp: 0x1A78, // float32
+            bonus_damage: 0x1A78, // int32
+            health_regen_pct: 0x1A78, // int32
+            break_on_hero_damage: 0x1A7C, // int32
+            m_fHealingDone: 0x1A80, // float32
+            m_fUseSpeed: 0x1A84, // float32
+            bonus_damage: 0x1A78, // float32
+            splash_radius: 0x1A7C, // float32
+            splash_pct: 0x1A80, // float32
+            m_InFlightAttackRecords: 0x1A88, // CUtlVector<AttackRecord_t>
+            bonus_health: 0x1A78, // int32
+            attack_range_bonus: 0x1A78, // int32
+            attack_speed_bonus: 0x1A7C, // int32
+            m_InFlightAttackRecords: 0x1A80, // CUtlVector<AttackRecord_t>
+            magic_resistance_reduction: 0x1A78, // int32
+            bonus_movement_speed: 0x1A78, // int32
+            hp_regen: 0x1A7C, // int32
+            push_length: 0x1A78, // int32
+            push_duration: 0x1A7C, // float32
+            water_acceleration: 0x1A78, // float32
+            m_bInWater: 0x1A7C, // bool
+            bonus_armor: 0x1A78, // int32
+            duration: 0x1A7C, // float32
+            mana_restore: 0x1A78, // float32
+            mana_restore_pct: 0x1A7C, // float32
+            m_fHealingDone: 0x1A80, // float32
+            m_fUseSpeed: 0x1A84, // float32
+            bonus_all_stats: 0x1A78, // int32
+            m_hTree: 0x1A78, // CHandle<C_BaseEntity>
+            m_Timer: 0x1A80, // CountdownTimer
+            seconds: 0x1A98, // float32
+            hp_damage: 0x1A78, // float32
+            damage_interval: 0x1A7C, // float32
+            debuff_duration: 0x1A80, // float32
+            health_regen_loss: 0x1A84, // float32
+            bonus_mana_regen: 0x1A78, // float32
+            cast_range_bonus: 0x1A7C, // int32
+            ground_duration: 0x1A78, // float32
+            poison_duration: 0x1A7C, // float32
+            damage: 0x1A80, // float32
+            radius: 0x1A84, // float32
+            m_bAttackLanded: 0x1A88, // bool
+            m_nFXIndex: 0x1A8C, // ParticleIndex_t
+            strength: 0x1A78, // int32
+            agility: 0x1A7C, // int32
+            damage: 0x1A80, // int32
+            proc_chance: 0x1A84, // int32
+            proc_dmg_pct: 0x1A88, // int32
+            count: 0x1A8C, // int32
+            base_count: 0x1A90, // int32
+            secondary_target_range_bonus: 0x1A94, // int32
+            secondary_target_angle: 0x1A98, // int32
+            base_attack_range: 0x1A9C, // int32
+            base_proc_dmg: 0x1AA0, // int32
+            poison_duration: 0x1AA4, // float32
+            bonus_damage: 0x1A78, // int32
+            bonus_strength: 0x1A7C, // int32
+            base_proc_dmg: 0x1A78, // int32
+            proc_dmg_pct: 0x1A7C, // int32
+            slow: 0x1A78, // int32
+            bonus_mana: 0x1A78, // int32
+            bonus_strength: 0x1A7C, // int32
+            backstab_damage: 0x1A80, // int32
+            backstab_angle: 0x1A84, // int32
+            slow_duration: 0x1A88, // float32
+            m_bBackstab: 0x1A8C, // bool
+            slow_pct_melee: 0x1A78, // int32
+            slow_pct_ranged: 0x1A7C, // int32
+            slow_resist: 0x1A78, // float32
+            evasion: 0x1A7C, // float32
+            bonus_agi: 0x1A78, // int32
+            bonus_str: 0x1A7C, // int32
+            attack_damage_aura: 0x1A78, // int32
+            bonus_attack_range: 0x1A78, // float32
+            bonus_cast_range: 0x1A7C, // float32
+            damage_threshold: 0x1A80, // float32
+            damage_disable: 0x1A84, // float32
+            debuff_self: 0x1A78, // int32
+            debuff_enemy: 0x1A7C, // float32
+            debuff_enemy_duration: 0x1A80, // int32
+            bonus_damage: 0x1A84, // int32
+            debuff_enemy: 0x1A78, // int32
+            magic_damage: 0x1A78, // int32
+            attack_speed: 0x1A7C, // int32
+            duration: 0x1A80, // float32
+            bonus_magic_resistance: 0x1A78, // int32
+            bonus_spell_amp: 0x1A7C, // int32
+            bonus_armor: 0x1A80, // int32
+            corruption_armor: 0x1A78, // int32
+            heal_reduction: 0x1A7C, // int32
+            slow_melee: 0x1A80, // int32
+            slow_ranged: 0x1A84, // int32
+            bonus_agility: 0x1A78, // int32
+            passive_movement_bonus: 0x1A7C, // int32
+            slow_melee: 0x1A78, // int32
+            slow_ranged: 0x1A7C, // int32
+            heal_reduction: 0x1A80, // int32
+            bonus_all_stats: 0x1A78, // int32
+            stack_limit: 0x1A7C, // int32
+            stack_duration: 0x1A80, // float32
+            m_flStackDieTime: 0x1A84, // GameTime_t
+            magic_resistance: 0x1A88, // int32
+            duration: 0x1A78, // float32
+            magic_resist: 0x1A7C, // int32
+            hp_regen: 0x1A80, // float32
+            aura_radius: 0x1A78, // float32
+            damage_redirection: 0x1A78, // int32
+            m_LastParams: 0x1A78, // CModifierParams
+            all_stats: 0x1B68, // int32
+            reflect_chance: 0x1B6C, // int32
+            m_bProcSuccessful: 0x1B70, // bool
+            armor_reduction: 0x1A78, // int32
+            slow_melee: 0x1A7C, // int32
+            slow_range: 0x1A80, // int32
+            bCasterRanged: 0x1A84, // bool
+            m_bAppliesToCreeps: 0x1A78, // bool
+            bat: 0x1A7C, // float32
+            stun_duration: 0x1A80, // float32
+            stun_chance: 0x1A84, // int32
+            m_nAttack: 0x1A88, // int32
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        ____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        _____: {
+        },
+        U: {
+        },
+        B: {
+        },
+        L: {
+        },
+        E: {
         },
     },
 };

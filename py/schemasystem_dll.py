@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-04 11:15:22.142540100 +07:00
+# 2026-09-05 19:06:16.479387600 +07:00
 
 class Schemas:
     # Module: schemasystem.dll

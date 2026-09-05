@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-04 11:15:22.142540100 +07:00
+// 2026-09-05 19:06:16.479387600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: materialsystem2.dll
@@ -67,6 +67,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // ,
+        // JH
         public static class MaterialParamVector_t {
             public const nint m_value = 0x8; // Vector4D
         }
@@ -83,6 +84,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // ,
+        // JH
         public static class MaterialParamString_t {
             public const nint m_value = 0x8; // CUtlString
         }
@@ -120,6 +122,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // ,
+        // JH
         public static class MaterialParamInt_t {
             public const nint m_nValue = 0x8; // int32
         }
@@ -202,6 +205,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // ,
+        // JH
         public static class MaterialParamBuffer_t {
             public const nint m_value = 0x8; // CUtlBinaryBlock
         }
@@ -259,6 +263,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // ,
+        // JH
         public static class MaterialParamFloat_t {
             public const nint m_flValue = 0x8; // float32
         }
@@ -281,6 +286,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // ,
+        // JH
         public static class MaterialParamTexture_t {
             public const nint m_pValue = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
         }

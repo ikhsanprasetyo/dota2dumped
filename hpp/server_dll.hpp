@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-04 11:15:22.142540100 +07:00
+// 2026-09-05 19:06:16.479387600 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 436
+        // Enum count: 439
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -12625,6 +12625,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             namespace CTouchExpansionComponent {
             }
             // Parent: CDOTA_BaseNPC_Hero
@@ -19859,8 +19860,10 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
+            // A
             // MGetKV3ClassDefaults
-            // ogram Files\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System
+            // A
+            // Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -20885,6 +20888,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // Y
+            // A
             namespace CTimeline {
                 constexpr std::ptrdiff_t m_flValues = 0x10; // float32[64]
                 constexpr std::ptrdiff_t m_nValueCounts = 0x110; // int32[64]
@@ -31329,6 +31333,9 @@ namespace source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 11
+            //
+            // Metadata:
+            // 0
             namespace CInfoOffscreenPanoramaTexture {
                 constexpr std::ptrdiff_t m_bDisabled = 0x498; // bool
                 constexpr std::ptrdiff_t m_nResolutionX = 0x49C; // int32
@@ -35599,6 +35606,7 @@ namespace source2_dumper {
             // M
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // A
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
@@ -39512,7 +39520,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // mmon Files
             namespace CScriptComponent {
                 constexpr std::ptrdiff_t m_scriptClassName = 0x30; // CUtlSymbolLarge
             }
@@ -42096,6 +42103,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
+            // A
             namespace CLightComponent {
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x38; // CNetworkVarChainer
                 constexpr std::ptrdiff_t m_Color = 0x75; // Color
@@ -56205,6 +56213,7 @@ namespace source2_dumper {
             //
             // Metadata:
             //  
+            // A
             namespace CEnvCubemap {
                 constexpr std::ptrdiff_t m_Entity_hCubemapTexture = 0x518; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Entity_bCustomCubemapTexture = 0x520; // bool
@@ -56841,6 +56850,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // :\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byteseek
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace RelationshipOverride_t {
@@ -56940,8 +56950,6 @@ namespace source2_dumper {
             // Metadata:
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
             namespace CRemapFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -57039,6 +57047,8 @@ namespace source2_dumper {
             // MsPosition
             // WsDirection
             // MsDirection
+            // A
+            // A
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -58158,6 +58168,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
+            // A
+            // A
             namespace CSkeletonAnimationController {
                 constexpr std::ptrdiff_t m_pSkeletonInstance = 0x8; // CSkeletonInstance*
             }
@@ -58809,6 +58821,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             namespace CInfoChoreoAnchorPosition {
                 constexpr std::ptrdiff_t m_vOriginLS = 0x0; // Vector
                 constexpr std::ptrdiff_t m_qAnglesLS = 0x10; // Quaternion
@@ -58918,6 +58931,7 @@ namespace source2_dumper {
             // SOUNDCTRL_STOP
             // SOUNDCTRL_DESTROY
             // SOUNDCTRL_FADEOUT
+            // A
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59100,6 +59114,8 @@ namespace source2_dumper {
             // k_eQuibbinsDrunk
             // k_eKerrick
             // k_eNoAuthor
+            // A
+            // A
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace MonsterHunterTradeRecipeID_t {
@@ -59376,9 +59392,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // PerViewPad4
             namespace AbilityContributionType_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59741,8 +59754,6 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
             namespace CSkillInt {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // int32[4]
             }
@@ -59802,8 +59813,6 @@ namespace source2_dumper {
             // MPropertyCustomEditor
             // MPropertyCustomEditor
             // Y
-            // r\steamapp_pipeline_cache.foz
-            // r\steamapp_pipeline_cache.foz
             namespace CSkillFloat {
                 constexpr std::ptrdiff_t m_pValue = 0x0; // float32[4]
             }
@@ -60323,6 +60332,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
+            // A
             namespace ISkeletonAnimationController {
             }
             // Parent: None
@@ -60643,6 +60653,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             namespace CTakeDamageInfo {
                 constexpr std::ptrdiff_t m_vecDamageForce = 0x8; // Vector
                 constexpr std::ptrdiff_t m_vecDamagePosition = 0x14; // VectorWS
@@ -61612,6 +61623,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // A
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField

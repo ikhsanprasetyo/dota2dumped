@@ -301,6 +301,14 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "b",
+            "type": "Unknown"
+          },
+          {
+            "name": "B",
+            "type": "Unknown"
           }
         ],
         "parent": null
