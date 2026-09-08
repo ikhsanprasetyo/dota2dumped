@@ -1713,7 +1713,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -1921,7 +1921,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -2821,6 +2821,10 @@
           },
           {
             "name": "7",
+            "type": "Unknown"
+          },
+          {
+            "name": "x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e6f/0x0114,0x0e6f/0x0119,0x0e6f/0x011a,0x20d6/0x5",
             "type": "Unknown"
           }
         ],

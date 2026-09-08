@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -864,7 +864,7 @@ pub mod source2_dumper {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
-            // A
+            // 7
             pub mod CPulseCell_WaitForObservable {
                 pub const m_Condition: usize = 0xD8; // CPulseObservableExpression<bool>
                 pub const m_OnTrue: usize = 0x150; // CPulse_ResumePoint
@@ -996,12 +996,12 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // A
+            // 7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:
+            // D
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -1757,7 +1757,7 @@ pub mod source2_dumper {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
-            // A
+            // 7
             pub mod CPulseCell_BooleanSwitchState {
                 pub const m_Condition: usize = 0xD8; // CPulseObservableExpression<bool>
                 pub const m_WhenTrue: usize = 0x150; // CPulse_OutflowConnection
@@ -3978,7 +3978,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_TeleportBeam {
                 pub const m_nCPPosition: usize = 0x1D8; // int32
                 pub const m_nCPVelocity: usize = 0x1DC; // int32
@@ -5762,7 +5762,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_RemapDistanceToLineSegmentBase {
                 pub const m_nCP0: usize = 0x1D8; // int32
                 pub const m_nCP1: usize = 0x1DC; // int32
@@ -8921,7 +8921,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_RemapDistanceToLineSegmentToVector {
                 pub const m_nFieldOutput: usize = 0x1F0; // ParticleAttributeIndex_t
                 pub const m_vMinOutputValue: usize = 0x1F4; // Vector
@@ -11437,7 +11437,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_UpdateLightSource {
                 pub const m_vColorTint: usize = 0x1D8; // Color
                 pub const m_flBrightnessScale: usize = 0x1DC; // float32
@@ -13041,7 +13041,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_RemapDistanceToLineSegmentToScalar {
                 pub const m_nFieldOutput: usize = 0x1F0; // ParticleAttributeIndex_t
                 pub const m_flMinOutputValue: usize = 0x1F4; // float32
@@ -17030,7 +17030,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_ConnectParentParticleToNearest {
                 pub const m_nFirstControlPoint: usize = 0x1D8; // int32
                 pub const m_nSecondControlPoint: usize = 0x1DC; // int32
@@ -17382,7 +17382,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_ColorAdjustHSL {
                 pub const m_flHueAdjust: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_flSaturationAdjust: usize = 0x348; // CPerParticleFloatInput
@@ -17535,7 +17535,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_RemapDensityGradientToVectorAttribute {
                 pub const m_flRadiusScale: usize = 0x1D8; // float32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -23235,7 +23235,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_LockPoints {
                 pub const m_nMinCol: usize = 0x1D8; // int32
                 pub const m_nMaxCol: usize = 0x1DC; // int32
@@ -26795,7 +26795,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub mod C_OP_CycleScalar {
                 pub const m_nDestField: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flStartValue: usize = 0x1DC; // float32

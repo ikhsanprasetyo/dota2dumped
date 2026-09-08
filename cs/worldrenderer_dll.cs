@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: worldrenderer.dll
@@ -64,8 +64,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // b
-        // B
         public static class CEntityIdentity {
             public const nint m_nameStringTableIndex = 0x14; // int32
             public const nint m_name = 0x18; // CUtlSymbolLarge

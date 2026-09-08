@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -315,6 +315,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // 7
+            // x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e6f/0x0114,0x0e6f/0x0119,0x0e6f/0x011a,0x20d6/0x5
             pub mod vphysics_save_cphysicsbody_t {
                 pub const m_nOldPointer: usize = 0xE0; // uint64
             }
@@ -1141,7 +1142,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             pub mod FourVectors2D {
                 pub const x: usize = 0x0; // fltx4
                 pub const y: usize = 0x10; // fltx4
@@ -1363,7 +1364,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // A
+            // 7
             pub mod PhysicsParticleId_t {
                 pub const m_Value: usize = 0x0; // uint32
             }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -785,7 +785,7 @@ pub const source2_dumper = struct {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
-            // A
+            // 7
             pub const CPulseCell_WaitForObservable = struct {
                 pub const m_Condition: usize = 0xD8; // CPulseObservableExpression<bool>
                 pub const m_OnTrue: usize = 0x150; // CPulse_ResumePoint
@@ -917,12 +917,12 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // A
+            // 7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:
+            // D
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -1678,7 +1678,7 @@ pub const source2_dumper = struct {
             // CURSOR_RETIRED
             // REQUIREMENT_PASS
             // REQUIREMENT_FAIL
-            // A
+            // 7
             pub const CPulseCell_BooleanSwitchState = struct {
                 pub const m_Condition: usize = 0xD8; // CPulseObservableExpression<bool>
                 pub const m_WhenTrue: usize = 0x150; // CPulse_OutflowConnection
@@ -3899,7 +3899,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_TeleportBeam = struct {
                 pub const m_nCPPosition: usize = 0x1D8; // int32
                 pub const m_nCPVelocity: usize = 0x1DC; // int32
@@ -5683,7 +5683,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_RemapDistanceToLineSegmentBase = struct {
                 pub const m_nCP0: usize = 0x1D8; // int32
                 pub const m_nCP1: usize = 0x1DC; // int32
@@ -8842,7 +8842,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_RemapDistanceToLineSegmentToVector = struct {
                 pub const m_nFieldOutput: usize = 0x1F0; // ParticleAttributeIndex_t
                 pub const m_vMinOutputValue: usize = 0x1F4; // Vector
@@ -11358,7 +11358,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_UpdateLightSource = struct {
                 pub const m_vColorTint: usize = 0x1D8; // Color
                 pub const m_flBrightnessScale: usize = 0x1DC; // float32
@@ -12962,7 +12962,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_RemapDistanceToLineSegmentToScalar = struct {
                 pub const m_nFieldOutput: usize = 0x1F0; // ParticleAttributeIndex_t
                 pub const m_flMinOutputValue: usize = 0x1F4; // float32
@@ -16951,7 +16951,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_ConnectParentParticleToNearest = struct {
                 pub const m_nFirstControlPoint: usize = 0x1D8; // int32
                 pub const m_nSecondControlPoint: usize = 0x1DC; // int32
@@ -17303,7 +17303,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_ColorAdjustHSL = struct {
                 pub const m_flHueAdjust: usize = 0x1D8; // CPerParticleFloatInput
                 pub const m_flSaturationAdjust: usize = 0x348; // CPerParticleFloatInput
@@ -17456,7 +17456,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_RemapDensityGradientToVectorAttribute = struct {
                 pub const m_flRadiusScale: usize = 0x1D8; // float32
                 pub const m_nFieldOutput: usize = 0x1DC; // ParticleAttributeIndex_t
@@ -23156,7 +23156,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_LockPoints = struct {
                 pub const m_nMinCol: usize = 0x1D8; // int32
                 pub const m_nMaxCol: usize = 0x1DC; // int32
@@ -26716,7 +26716,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // A
+            // 7
             pub const C_OP_CycleScalar = struct {
                 pub const m_nDestField: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_flStartValue: usize = 0x1DC; // float32

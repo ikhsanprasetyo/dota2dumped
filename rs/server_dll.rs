@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 439
+        // Enum count: 441
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -13017,7 +13017,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             pub mod CTouchExpansionComponent {
             }
             // Parent: CDOTA_BaseNPC_Hero
@@ -20252,10 +20252,10 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // A
+            // 7
             // MGetKV3ClassDefaults
-            // A
-            // Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:
+            // 7
+            // D
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -21280,7 +21280,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // Y
-            // A
+            // 7
             pub mod CTimeline {
                 pub const m_flValues: usize = 0x10; // float32[64]
                 pub const m_nValueCounts: usize = 0x110; // int32[64]
@@ -31725,9 +31725,6 @@ pub mod source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 11
-            //
-            // Metadata:
-            // 0
             pub mod CInfoOffscreenPanoramaTexture {
                 pub const m_bDisabled: usize = 0x498; // bool
                 pub const m_nResolutionX: usize = 0x49C; // int32
@@ -35998,8 +35995,9 @@ pub mod source2_dumper {
             // M
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // A
+            // 7
             // MKV3TransferSaveOpsForField
+            // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -38116,6 +38114,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // e
             // ePosition
             // eAngles
             pub mod CModelState {
@@ -42495,7 +42494,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
-            // A
+            // 7
             pub mod CLightComponent {
                 pub const __m_pChainEntity: usize = 0x38; // CNetworkVarChainer
                 pub const m_Color: usize = 0x75; // Color
@@ -55311,12 +55310,14 @@ pub mod source2_dumper {
             // Field count: 10
             //
             // Metadata:
+            // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // n
             // n
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // iles\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // S
             pub mod CDOTA_GuildBannerDynamic {
                 pub const m_bRespawnClientEntity: usize = 0x9F0; // bool
@@ -56605,7 +56606,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             //  
-            // A
+            // 7
             pub mod CEnvCubemap {
                 pub const m_Entity_hCubemapTexture: usize = 0x518; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Entity_bCustomCubemapTexture: usize = 0x520; // bool
@@ -57242,7 +57243,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // :\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byteseek
+            // \shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod RelationshipOverride_t {
@@ -57439,8 +57440,8 @@ pub mod source2_dumper {
             // MsPosition
             // WsDirection
             // MsDirection
-            // A
-            // A
+            // 7
+            // 7
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -57883,6 +57884,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             pub mod BlessingPathID_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -57907,6 +57911,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102,0x0f0d/0x0027,0x0f30/0x010b,0x0079/0x0122,0xf766/0x0001,0x1949/0x0
             // DFLAG_SUPPRESS_HEALTH_CHANGES
             // DFLAG_SUPPRESS_PHYSICS_FORCE
             // DFLAG_SUPPRESS_EFFECTS
@@ -58560,8 +58565,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
-            // A
-            // A
+            // 7
+            // 7
             pub mod CSkeletonAnimationController {
                 pub const m_pSkeletonInstance: usize = 0x8; // CSkeletonInstance*
             }
@@ -58900,6 +58905,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // iles\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59213,7 +59219,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             pub mod CInfoChoreoAnchorPosition {
                 pub const m_vOriginLS: usize = 0x0; // Vector
                 pub const m_qAnglesLS: usize = 0x10; // Quaternion
@@ -59323,7 +59329,7 @@ pub mod source2_dumper {
             // SOUNDCTRL_STOP
             // SOUNDCTRL_DESTROY
             // SOUNDCTRL_FADEOUT
-            // A
+            // 7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59506,8 +59512,8 @@ pub mod source2_dumper {
             // k_eQuibbinsDrunk
             // k_eKerrick
             // k_eNoAuthor
-            // A
-            // A
+            // 7
+            // 7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod MonsterHunterTradeRecipeID_t {
@@ -59784,6 +59790,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // dules
             pub mod AbilityContributionType_t {
                 pub const m_Value: usize = 0x0; // uint8
             }
@@ -60000,6 +60009,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             pub mod BlessingTypeID_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -60724,7 +60736,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
-            // A
+            // 7
             pub mod ISkeletonAnimationController {
             }
             // Parent: None
@@ -61045,7 +61057,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             pub mod CTakeDamageInfo {
                 pub const m_vecDamageForce: usize = 0x8; // Vector
                 pub const m_vecDamagePosition: usize = 0x14; // VectorWS
@@ -61110,6 +61122,9 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             pub mod BlessingID_t {
                 pub const m_Value: usize = 0x0; // int32
             }
@@ -61658,7 +61673,9 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
+            // SF;.WSH;.MSC
             // n
+            // 0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,
             pub mod AI_DefaultNPC_DebugSnapshotData_t {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -62015,8 +62032,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             // MKV3TransferSaveOpsForField
+            // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -68,7 +68,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             pub const MaterialParamVector_t = struct {
                 pub const m_value: usize = 0x8; // Vector4D
             };
@@ -85,7 +84,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             pub const MaterialParamString_t = struct {
                 pub const m_value: usize = 0x8; // CUtlString
             };
@@ -123,7 +121,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             pub const MaterialParamInt_t = struct {
                 pub const m_nValue: usize = 0x8; // int32
             };
@@ -206,7 +203,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             pub const MaterialParamBuffer_t = struct {
                 pub const m_value: usize = 0x8; // CUtlBinaryBlock
             };
@@ -264,7 +260,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // ,
-            // JH
             pub const MaterialParamFloat_t = struct {
                 pub const m_flValue: usize = 0x8; // float32
             };
@@ -287,7 +282,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             pub const MaterialParamTexture_t = struct {
                 pub const m_pValue: usize = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
             };

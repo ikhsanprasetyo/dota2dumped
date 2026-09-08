@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -115,6 +115,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // esumable@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEBA_NXZ
             pub const CSSDSMsg_PostLayer = struct {
             };
             // Parent: None
@@ -145,6 +146,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // esumable@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEBA_NXZ
             pub const CSSDSMsg_PreLayer = struct {
             };
             // Parent: None

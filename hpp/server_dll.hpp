@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 439
+        // Enum count: 441
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -12625,7 +12625,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             namespace CTouchExpansionComponent {
             }
             // Parent: CDOTA_BaseNPC_Hero
@@ -19860,10 +19860,10 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // A
+            // 7
             // MGetKV3ClassDefaults
-            // A
-            // Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:
+            // 7
+            // D
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -20888,7 +20888,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // Y
-            // A
+            // 7
             namespace CTimeline {
                 constexpr std::ptrdiff_t m_flValues = 0x10; // float32[64]
                 constexpr std::ptrdiff_t m_nValueCounts = 0x110; // int32[64]
@@ -31333,9 +31333,6 @@ namespace source2_dumper {
             }
             // Parent: CPointEntity
             // Field count: 11
-            //
-            // Metadata:
-            // 0
             namespace CInfoOffscreenPanoramaTexture {
                 constexpr std::ptrdiff_t m_bDisabled = 0x498; // bool
                 constexpr std::ptrdiff_t m_nResolutionX = 0x49C; // int32
@@ -35606,8 +35603,9 @@ namespace source2_dumper {
             // M
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // A
+            // 7
             // MKV3TransferSaveOpsForField
+            // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -37724,6 +37722,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // e
             // ePosition
             // eAngles
             namespace CModelState {
@@ -42103,7 +42102,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // a
-            // A
+            // 7
             namespace CLightComponent {
                 constexpr std::ptrdiff_t __m_pChainEntity = 0x38; // CNetworkVarChainer
                 constexpr std::ptrdiff_t m_Color = 0x75; // Color
@@ -54919,12 +54918,14 @@ namespace source2_dumper {
             // Field count: 10
             //
             // Metadata:
+            // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // n
             // n
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // iles\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // S
             namespace CDOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0x9F0; // bool
@@ -56213,7 +56214,7 @@ namespace source2_dumper {
             //
             // Metadata:
             //  
-            // A
+            // 7
             namespace CEnvCubemap {
                 constexpr std::ptrdiff_t m_Entity_hCubemapTexture = 0x518; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Entity_bCustomCubemapTexture = 0x520; // bool
@@ -56850,7 +56851,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
-            // :\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byteseek
+            // \shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace RelationshipOverride_t {
@@ -57047,8 +57048,8 @@ namespace source2_dumper {
             // MsPosition
             // WsDirection
             // MsDirection
-            // A
-            // A
+            // 7
+            // 7
             // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
@@ -57491,6 +57492,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             namespace BlessingPathID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -57515,6 +57519,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
+            // xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102,0x0f0d/0x0027,0x0f30/0x010b,0x0079/0x0122,0xf766/0x0001,0x1949/0x0
             // DFLAG_SUPPRESS_HEALTH_CHANGES
             // DFLAG_SUPPRESS_PHYSICS_FORCE
             // DFLAG_SUPPRESS_EFFECTS
@@ -58168,8 +58173,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
-            // A
-            // A
+            // 7
+            // 7
             namespace CSkeletonAnimationController {
                 constexpr std::ptrdiff_t m_pSkeletonInstance = 0x8; // CSkeletonInstance*
             }
@@ -58508,6 +58513,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // iles\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -58821,7 +58827,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             namespace CInfoChoreoAnchorPosition {
                 constexpr std::ptrdiff_t m_vOriginLS = 0x0; // Vector
                 constexpr std::ptrdiff_t m_qAnglesLS = 0x10; // Quaternion
@@ -58931,7 +58937,7 @@ namespace source2_dumper {
             // SOUNDCTRL_STOP
             // SOUNDCTRL_DESTROY
             // SOUNDCTRL_FADEOUT
-            // A
+            // 7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59114,8 +59120,8 @@ namespace source2_dumper {
             // k_eQuibbinsDrunk
             // k_eKerrick
             // k_eNoAuthor
-            // A
-            // A
+            // 7
+            // 7
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace MonsterHunterTradeRecipeID_t {
@@ -59392,6 +59398,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // dules
             namespace AbilityContributionType_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59608,6 +59617,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             namespace BlessingTypeID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -60332,7 +60344,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // Y
-            // A
+            // 7
             namespace ISkeletonAnimationController {
             }
             // Parent: None
@@ -60653,7 +60665,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             namespace CTakeDamageInfo {
                 constexpr std::ptrdiff_t m_vecDamageForce = 0x8; // Vector
                 constexpr std::ptrdiff_t m_vecDamagePosition = 0x14; // VectorWS
@@ -60718,6 +60730,9 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             namespace BlessingID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -61266,7 +61281,9 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
+            // SF;.WSH;.MSC
             // n
+            // 0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,
             namespace AI_DefaultNPC_DebugSnapshotData_t {
                 constexpr std::ptrdiff_t s_npc_current_ability = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61623,8 +61640,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // A
+            // 7
             // MKV3TransferSaveOpsForField
+            // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior

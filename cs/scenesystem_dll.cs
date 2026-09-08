@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: scenesystem.dll
@@ -116,6 +116,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // esumable@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEBA_NXZ
         public static class CSSDSMsg_PostLayer {
         }
         // Parent: None
@@ -146,6 +147,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // esumable@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEBA_NXZ
         public static class CSSDSMsg_PreLayer {
         }
         // Parent: None

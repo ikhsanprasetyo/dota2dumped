@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7538
-    // Enum count: 439
+    // Enum count: 441
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -12619,7 +12619,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CTouchExpansionComponent {
         }
         // Parent: CDOTA_BaseNPC_Hero
@@ -19854,10 +19854,10 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // A
+        // 7
         // MGetKV3ClassDefaults
-        // A
-        // Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:
+        // 7
+        // D
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -20882,7 +20882,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // Y
-        // A
+        // 7
         public static class CTimeline {
             public const nint m_flValues = 0x10; // float32[64]
             public const nint m_nValueCounts = 0x110; // int32[64]
@@ -31327,9 +31327,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: CPointEntity
         // Field count: 11
-        //
-        // Metadata:
-        // 0
         public static class CInfoOffscreenPanoramaTexture {
             public const nint m_bDisabled = 0x498; // bool
             public const nint m_nResolutionX = 0x49C; // int32
@@ -35600,8 +35597,9 @@ namespace Source2Dumper.Schemas {
         // M
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MKV3TransferSaveOpsForField
+        // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior
@@ -37718,6 +37716,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // e
         // ePosition
         // eAngles
         public static class CModelState {
@@ -42097,7 +42096,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // a
-        // A
+        // 7
         public static class CLightComponent {
             public const nint __m_pChainEntity = 0x38; // CNetworkVarChainer
             public const nint m_Color = 0x75; // Color
@@ -54913,12 +54912,14 @@ namespace Source2Dumper.Schemas {
         // Field count: 10
         //
         // Metadata:
+        // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
         // n
         // n
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
+        // iles\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // S
         public static class CDOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0x9F0; // bool
@@ -56207,7 +56208,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         //  
-        // A
+        // 7
         public static class CEnvCubemap {
             public const nint m_Entity_hCubemapTexture = 0x518; // CStrongHandle<InfoForResourceTypeCTextureBase>
             public const nint m_Entity_bCustomCubemapTexture = 0x520; // bool
@@ -56844,7 +56845,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyDescription
         // MGetKV3ClassDefaults
-        // :\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Byteseek
+        // \shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class RelationshipOverride_t {
@@ -57041,8 +57042,8 @@ namespace Source2Dumper.Schemas {
         // MsPosition
         // WsDirection
         // MsDirection
-        // A
-        // A
+        // 7
+        // 7
         // MKV3TransferSaveOpsForField
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
@@ -57485,6 +57486,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
         public static class BlessingPathID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -57509,6 +57513,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
+        // xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102,0x0f0d/0x0027,0x0f30/0x010b,0x0079/0x0122,0xf766/0x0001,0x1949/0x0
         // DFLAG_SUPPRESS_HEALTH_CHANGES
         // DFLAG_SUPPRESS_PHYSICS_FORCE
         // DFLAG_SUPPRESS_EFFECTS
@@ -58162,8 +58167,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Y
-        // A
-        // A
+        // 7
+        // 7
         public static class CSkeletonAnimationController {
             public const nint m_pSkeletonInstance = 0x8; // CSkeletonInstance*
         }
@@ -58502,6 +58507,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MVDataOutlinerIconExpr
+        // iles\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // S
         // MVDataUniqueMonotonicInt
         // MPropertyAttributeEditor
@@ -58815,7 +58821,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CInfoChoreoAnchorPosition {
             public const nint m_vOriginLS = 0x0; // Vector
             public const nint m_qAnglesLS = 0x10; // Quaternion
@@ -58925,7 +58931,7 @@ namespace Source2Dumper.Schemas {
         // SOUNDCTRL_STOP
         // SOUNDCTRL_DESTROY
         // SOUNDCTRL_FADEOUT
-        // A
+        // 7
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -59108,8 +59114,8 @@ namespace Source2Dumper.Schemas {
         // k_eQuibbinsDrunk
         // k_eKerrick
         // k_eNoAuthor
-        // A
-        // A
+        // 7
+        // 7
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class MonsterHunterTradeRecipeID_t {
@@ -59386,6 +59392,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // dules
         public static class AbilityContributionType_t {
             public const nint m_Value = 0x0; // uint8
         }
@@ -59602,6 +59611,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
         public static class BlessingTypeID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -60326,7 +60338,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // Y
-        // A
+        // 7
         public static class ISkeletonAnimationController {
         }
         // Parent: None
@@ -60647,7 +60659,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CTakeDamageInfo {
             public const nint m_vecDamageForce = 0x8; // Vector
             public const nint m_vecDamagePosition = 0x14; // VectorWS
@@ -60712,6 +60724,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // \Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
         public static class BlessingID_t {
             public const nint m_Value = 0x0; // int32
         }
@@ -61260,7 +61275,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
         // MDebugSnapshotDataSummaryFn
+        // SF;.WSH;.MSC
         // n
+        // 0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,
         public static class AI_DefaultNPC_DebugSnapshotData_t {
             public const nint s_npc_current_ability = 0x8; // CGlobalSymbol
             public const nint s_npc_tactic_current = 0x10; // CGlobalSymbol
@@ -61617,8 +61634,9 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MKV3TransferSaveOpsForField
+        // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MKV3TransferSaveOpsForField
         // MKV3TransferSaveOpsForField
         // MSaveBehavior

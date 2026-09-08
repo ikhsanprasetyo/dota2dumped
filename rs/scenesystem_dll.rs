@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -123,6 +123,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // esumable@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEBA_NXZ
             pub mod CSSDSMsg_PostLayer {
             }
             // Parent: None
@@ -153,6 +154,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // esumable@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEBA_NXZ
             pub mod CSSDSMsg_PreLayer {
             }
             // Parent: None

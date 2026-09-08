@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7249
-    // Enum count: 119
+    // Class count: 7208
+    // Enum count: 120
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -7001,7 +7001,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CHitboxComponent {
             public const nint m_flBoundsExpandRadius = 0x14; // float32
         }
@@ -7380,6 +7380,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // e
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -8648,6 +8649,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // S
+        // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
         // e
         public static class C_DOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0xD10; // bool
@@ -8898,7 +8900,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CRenderComponent {
             public const nint __m_pChainEntity = 0x10; // CNetworkVarChainer
             public const nint m_bIsRenderingWithViewModels = 0x50; // bool
@@ -11465,9 +11467,9 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // A
+        // 7
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -15645,7 +15647,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToClientInFlightChargesUpdated
-        // A
+        // 7
         public static class C_PortraitWorldUnit {
             public const nint m_OutputAnimOver = 0x19B8; // CEntityIOOutput
             public const nint m_bSuppressIntroEffects = 0x19D0; // bool
@@ -16203,7 +16205,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
-        // A
+        // 7
         public static class C_DOTAPortraitWorldCallbackHandler {
         }
         // Parent: None
@@ -17784,6 +17786,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CPulseCell_BaseLerp {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
@@ -22228,8 +22231,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // A
-        // A
+        // 7
+        // 7
         public static class C_BodyComponentBaseAnimating {
             public const nint m_animationController = 0x530; // C_BaseAnimatingController
         }
@@ -25575,7 +25578,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // Q
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class C_GlobalLight {
             public const nint m_WindClothForceHandle = 0xB10; // uint16
         }
@@ -25667,7 +25670,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
-        // A
+        // 7
         public static class CDOTA_FightingGame_EffectsEntity {
         }
         // Parent: C_DOTA_Item
@@ -26403,6 +26406,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
+        // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x530; // CBaseAnimGraphController
         }
@@ -28381,6 +28385,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // e
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -30325,7 +30330,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class C_EnvDeferredLight {
         }
         // Parent: C_DOTA_Item
@@ -34754,8 +34759,8 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // n
         // n
-        // A
-        // A
+        // 7
+        // 7
         public static class CDarkCarnivalCrateDropGameEffectsEntity {
         }
         // Parent: C_DOTA_Item
@@ -37853,8 +37858,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Bytesee
-        // C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData\Local\GitHubDesktop\bin;C:\Users\Bytesee
+        // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+        // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -41609,6 +41614,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // S
+        // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
         // e
         public static class C_DOTA_GuildBannerProp {
         }
@@ -45171,6 +45177,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyProgressBarDef_t {
             public const nint m_flNotchSize = 0xB0; // float32
@@ -45206,7 +45213,7 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // A
+        // 7
         public static class ArtyWeaponID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -45303,7 +45310,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CSurvivorsEnemyDefinition_Pillar {
         }
         // Parent: None
@@ -45371,6 +45378,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyCannonDef_t {
             public const nint m_bDirectAimAtTarget = 0xB0; // bool
@@ -45682,7 +45690,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -45813,7 +45821,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // n
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -45924,7 +45932,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CSurvivorsPowerUpDefinition_Spirits {
             public const nint m_sParticle = 0x6A0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_sExplosionParticle = 0x780; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -45965,7 +45973,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CSurvivorsDifficultyDefinition {
             public const nint m_sLocDifficultyName = 0x0; // CUtlString
             public const nint m_sLocDifficultyDescription = 0x8; // CUtlString
@@ -46028,7 +46036,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // n
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -46155,7 +46163,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // n
         // MGetKV3ClassDefaults
         public static class CSurvivorsSpawnerGolemDefinition {
@@ -46200,7 +46208,7 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // A
+        // 7
         public static class ArtyGraphicID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46350,7 +46358,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CSurvivorsPowerUpDefinition_Frostbite {
             public const nint m_flScepterExplodeRadius = 0x788; // float32
         }
@@ -46383,7 +46391,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -46543,6 +46551,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtySpawnerDef_t {
             public const nint m_flInitialDelay = 0xB0; // float32
@@ -46578,7 +46587,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -46697,7 +46706,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CSurvivorsEnemyDefinition_ImperiaBoss {
             public const nint m_flBurningGroundImpactDamage = 0x288; // float32
             public const nint m_flBurningGroundImpactRadius = 0x28C; // float32
@@ -46835,6 +46844,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // lare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // Y
         // MGetKV3ClassDefaults
@@ -46960,7 +46970,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -47255,6 +47265,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyUnitDef_t {
             public const nint m_bRotateReloadBar = 0xB0; // bool
@@ -47432,7 +47443,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -47487,7 +47498,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CSurvivorsEnemyDefinition_Golem {
         }
         // Parent: None
@@ -47579,6 +47590,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
+        //
+        // Metadata:
+        // 0x3651/0x6000,0x03f0/0x0495,0x044f/0xd012,0x045e/0x02d1,0x045e/0x02dd,0x045e/0x02e0,0x045e/0x02ea,0x045e/0x02fd,0x045e/0x02ff,0x
         public static class SurvivorsParticleID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47767,7 +47781,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -48143,6 +48157,7 @@ namespace Source2Dumper.Schemas {
         // DMG_DROWNRECOVER
         // DMG_ACID
         // DMG_LASTGENERICFLAG
+        // 0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,
         // DAMAGE_EVENTS_ONLY
         // DAMAGE_YES
         public static class CClientAlphaProperty {
@@ -48248,6 +48263,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // lare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CSurvivorsPowerUpDefinition_AreaAttack_Line {
             public const nint m_bUseFacingDirection = 0x868; // bool
         }
@@ -48536,7 +48552,7 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // A
+        // 7
         public static class ArtyGameObjectID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -48914,7 +48930,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // A
+        // 7
         // MGetKV3ClassDefaults
         // V
         public static class CSurvivorsPowerUpDefinition_Swashbuckle {
@@ -49076,7 +49092,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // A
+        // 7
         public static class CSurvivorsEnemyDefinition_Absorber {
             public const nint m_flModelScaleIncreasePerAbsorb = 0x288; // float32
             public const nint m_flMaxModelScale = 0x28C; // float32
@@ -49283,1744 +49299,19 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        // Scroll the panel left by one line.
-        // Scroll the panel right by one line.
-        // Scroll the panel up by one line.
-        // Scroll the panel down by one line.
-        // Scroll the panel left by one page.
-        // Scroll the panel left by one page.
-        // Scroll the panel up by one page.
-        // RemoveAbility
-        // Remove an ability from this unit by name.
-        // HasAbility
-        // See whether this unit has an ability by name.
-        // RemoveAbilityByHandle
-        // Remove the passed ability from this unit.
-        // GetStatusResistance
-        // GetEvasion
-        // GetSpellAmplification
-        // SetBaseStrength
-        // SetBaseAgility
-        // SetBaseIntellect
-        // GetStrengthGain
-        // GetAgilityGain
-        // GetIntellectGain
-        // ModifyStrength
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyAgility
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyIntellect
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // GetRespawnTime
-        // GetAdditionalOwnedUnits
-        // IncrementKills
-        // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
-        // IncrementDeaths
-        // Value is stored in PlayerResource.
-        // IncrementAssists
-        // Value is stored in PlayerResource.
-        // IncrementLastHits
-        // IncrementDenies
-        // IncrementNearbyCreepDeaths
-        // RecordLastHit
-        // IncrementLastHitStreak
-        // ClearLastHitStreak
-        // IncrementLastHitMultikill
-        // ClearLastHitMultikill
-        // GetKills
-        // Value is stored in PlayerResource.
-        // GetDeaths
-        // Value is stored in PlayerResource.
-        // GetAssists
-        // Value is stored in PlayerResource.
-        // GetLastHits
-        // Value is stored in PlayerResource.
-        // GetDenies
-        // Value is stored in PlayerResource.
-        // IncrementStreak
-        // AreWeatherEffectsDisabled
-        // Get if weather effects are disabled on the client.
-        // SetWeatherEffectsDisabled
-        // Set if weather effects are disabled.
-        // GetHUDVisible
-        // Returns the HUD element visibility.
-        // GetCustomAttributeDerivedStatValue
-        // Get current derived stat value constant.
-        // GetCustomScanCooldown
-        // Get the current custom scan cooldown.
-        // GetCustomGlyphCooldown
-        // Get the current custom glyph cooldown.
-        // GetCustomBackpackSwapCooldown
-        // Get the current custom backpack swap cooldown.
-        // GetCustomBackpackCooldownPercent
-        // Get the current rate cooldown ticks down for items in the backpack.
-        // SetDefaultStickyItem
-        // Sets the default sticky item in the quickbuy
-        // GetWaterRuneLastSpawnTime
-        // Gets the time from game start during which water runes spawn
-        // SetWaterRuneLastSpawnTime
-        // Sets the time from game start during which water runes spawn
-        // GetCustomRadiantScore
-        // Get the topbar score display value for radiant.
-        // GetCustomDireScore
-        // Get the topbar score display value for dire.
-        // SetAbilityTuningValueFilter
-        // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
-        // SetLuaGameMode
-        // SetAlwaysShowPlayerInventory
-        // Show the player hero's inventory in the HUD, regardless of what unit is selected.
-        // SetGoldSoundDisabled
-        // Turn the sound when gold is acquired off/on.
-        // SetRecommendedItemsDisabled
-        // Turn the panel for showing recommended items at the shop off/on.
-        // SetStashPurchasingDisabled
-        // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
-        // SetStickyItemDisabled
-        // Hide the sticky item in the quickbuy.
-        // SetFogOfWarDisabled
-        // Turn the fog of war on or off.
-        // SetUnseenFogOfWarEnabled
-        // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
-        // SetForceRightClickAttackDisabled
-        // Prevent users from using the right click deny setting.
-        // SetCameraZRange
-        // Sets the camera Z range
-        // debug_message
-        // EGCMsgResponse
-        //  8
-        // `7
-        // @6
-        // p3
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // GetTotalEarnedXP
-        // AddClaimedFarm
-        // GetClaimedFarm
-        // GetRawPlayerDamage
-        // ClearRawPlayerDamageMatrix
-        // ClearKillsMatrix
-        // GetTowerDamageTaken
-        // GetCreepDamageTaken
-        // GetHeroDamageTaken
-        // GetDamageDoneToHero
-        // GetKillsDoneToHero
-        // debug_message
-        // EGCMsgResponse
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // aura_radius
-        // regeneration_to_max_seconds
-        // onentNames
-        // damage_cooldown
-        // onentNames
-        // AbilityCastRange
-        // onentNames
-        // AbilityDuration
-        // onentNames
-        // AbilityCharges
-        // onentNames
-        // AbilityManaCost
-        // onentNames
-        // AbilityHealthCost
-        // onentNames
-        // IsDebuffImmune
-        // NoUnitCollision
-        // ProvidesVision
-        // IsNightmared
-        // IsEvadeDisabled
-        // IsUnselectable
-        public static class __ɢ__ {
+        public static class int32 {
         }
         // Parent: None
         // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        public static class __ɢ__ {
+        public static class int32 {
         }
         // Parent: None
         // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        // Scroll the panel left by one line.
-        // Scroll the panel right by one line.
-        // Scroll the panel up by one line.
-        // Scroll the panel down by one line.
-        // Scroll the panel left by one page.
-        // Scroll the panel left by one page.
-        // Scroll the panel up by one page.
-        // RemoveAbility
-        // Remove an ability from this unit by name.
-        // HasAbility
-        // See whether this unit has an ability by name.
-        // RemoveAbilityByHandle
-        // Remove the passed ability from this unit.
-        // GetStatusResistance
-        // GetEvasion
-        // GetSpellAmplification
-        // SetBaseStrength
-        // SetBaseAgility
-        // SetBaseIntellect
-        // GetStrengthGain
-        // GetAgilityGain
-        // GetIntellectGain
-        // ModifyStrength
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyAgility
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyIntellect
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // GetRespawnTime
-        // GetAdditionalOwnedUnits
-        // IncrementKills
-        // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
-        // IncrementDeaths
-        // Value is stored in PlayerResource.
-        // IncrementAssists
-        // Value is stored in PlayerResource.
-        // IncrementLastHits
-        // IncrementDenies
-        // IncrementNearbyCreepDeaths
-        // RecordLastHit
-        // IncrementLastHitStreak
-        // ClearLastHitStreak
-        // IncrementLastHitMultikill
-        // ClearLastHitMultikill
-        // GetKills
-        // Value is stored in PlayerResource.
-        // GetDeaths
-        // Value is stored in PlayerResource.
-        // GetAssists
-        // Value is stored in PlayerResource.
-        // GetLastHits
-        // Value is stored in PlayerResource.
-        // GetDenies
-        // Value is stored in PlayerResource.
-        // IncrementStreak
-        // AreWeatherEffectsDisabled
-        // Get if weather effects are disabled on the client.
-        // SetWeatherEffectsDisabled
-        // Set if weather effects are disabled.
-        // GetHUDVisible
-        // Returns the HUD element visibility.
-        // GetCustomAttributeDerivedStatValue
-        // Get current derived stat value constant.
-        // GetCustomScanCooldown
-        // Get the current custom scan cooldown.
-        // GetCustomGlyphCooldown
-        // Get the current custom glyph cooldown.
-        // GetCustomBackpackSwapCooldown
-        // Get the current custom backpack swap cooldown.
-        // GetCustomBackpackCooldownPercent
-        // Get the current rate cooldown ticks down for items in the backpack.
-        // SetDefaultStickyItem
-        // Sets the default sticky item in the quickbuy
-        // GetWaterRuneLastSpawnTime
-        // Gets the time from game start during which water runes spawn
-        // SetWaterRuneLastSpawnTime
-        // Sets the time from game start during which water runes spawn
-        // GetCustomRadiantScore
-        // Get the topbar score display value for radiant.
-        // GetCustomDireScore
-        // Get the topbar score display value for dire.
-        // SetAbilityTuningValueFilter
-        // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
-        // SetLuaGameMode
-        // SetAlwaysShowPlayerInventory
-        // Show the player hero's inventory in the HUD, regardless of what unit is selected.
-        // SetGoldSoundDisabled
-        // Turn the sound when gold is acquired off/on.
-        // SetRecommendedItemsDisabled
-        // Turn the panel for showing recommended items at the shop off/on.
-        // SetStashPurchasingDisabled
-        // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
-        // SetStickyItemDisabled
-        // Hide the sticky item in the quickbuy.
-        // SetFogOfWarDisabled
-        // Turn the fog of war on or off.
-        // SetUnseenFogOfWarEnabled
-        // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
-        // SetForceRightClickAttackDisabled
-        // Prevent users from using the right click deny setting.
-        // SetCameraZRange
-        // Sets the camera Z range
-        // debug_message
-        // EGCMsgResponse
-        //  8
-        // `7
-        // @6
-        // p3
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // GetTotalEarnedXP
-        // AddClaimedFarm
-        // GetClaimedFarm
-        // GetRawPlayerDamage
-        // ClearRawPlayerDamageMatrix
-        // ClearKillsMatrix
-        // GetTowerDamageTaken
-        // GetCreepDamageTaken
-        // GetHeroDamageTaken
-        // GetDamageDoneToHero
-        // GetKillsDoneToHero
-        // debug_message
-        // EGCMsgResponse
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // aura_radius
-        // regeneration_to_max_seconds
-        // onentNames
-        // damage_cooldown
-        // onentNames
-        // AbilityCastRange
-        // onentNames
-        // AbilityDuration
-        // onentNames
-        // AbilityCharges
-        // onentNames
-        // AbilityManaCost
-        // onentNames
-        // AbilityHealthCost
-        // onentNames
-        // IsDebuffImmune
-        // NoUnitCollision
-        // ProvidesVision
-        // IsNightmared
-        // IsEvadeDisabled
-        // IsUnselectable
-        public static class __ɢ__ {
+        public static class int32_5_ {
         }
         // Parent: None
         // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        // Scroll the panel left by one line.
-        // Scroll the panel right by one line.
-        // Scroll the panel up by one line.
-        // Scroll the panel down by one line.
-        // Scroll the panel left by one page.
-        // Scroll the panel left by one page.
-        // Scroll the panel up by one page.
-        // RemoveAbility
-        // Remove an ability from this unit by name.
-        // HasAbility
-        // See whether this unit has an ability by name.
-        // RemoveAbilityByHandle
-        // Remove the passed ability from this unit.
-        // GetStatusResistance
-        // GetEvasion
-        // GetSpellAmplification
-        // SetBaseStrength
-        // SetBaseAgility
-        // SetBaseIntellect
-        // GetStrengthGain
-        // GetAgilityGain
-        // GetIntellectGain
-        // ModifyStrength
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyAgility
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyIntellect
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // GetRespawnTime
-        // GetAdditionalOwnedUnits
-        // IncrementKills
-        // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
-        // IncrementDeaths
-        // Value is stored in PlayerResource.
-        // IncrementAssists
-        // Value is stored in PlayerResource.
-        // IncrementLastHits
-        // IncrementDenies
-        // IncrementNearbyCreepDeaths
-        // RecordLastHit
-        // IncrementLastHitStreak
-        // ClearLastHitStreak
-        // IncrementLastHitMultikill
-        // ClearLastHitMultikill
-        // GetKills
-        // Value is stored in PlayerResource.
-        // GetDeaths
-        // Value is stored in PlayerResource.
-        // GetAssists
-        // Value is stored in PlayerResource.
-        // GetLastHits
-        // Value is stored in PlayerResource.
-        // GetDenies
-        // Value is stored in PlayerResource.
-        // IncrementStreak
-        // AreWeatherEffectsDisabled
-        // Get if weather effects are disabled on the client.
-        // SetWeatherEffectsDisabled
-        // Set if weather effects are disabled.
-        // GetHUDVisible
-        // Returns the HUD element visibility.
-        // GetCustomAttributeDerivedStatValue
-        // Get current derived stat value constant.
-        // GetCustomScanCooldown
-        // Get the current custom scan cooldown.
-        // GetCustomGlyphCooldown
-        // Get the current custom glyph cooldown.
-        // GetCustomBackpackSwapCooldown
-        // Get the current custom backpack swap cooldown.
-        // GetCustomBackpackCooldownPercent
-        // Get the current rate cooldown ticks down for items in the backpack.
-        // SetDefaultStickyItem
-        // Sets the default sticky item in the quickbuy
-        // GetWaterRuneLastSpawnTime
-        // Gets the time from game start during which water runes spawn
-        // SetWaterRuneLastSpawnTime
-        // Sets the time from game start during which water runes spawn
-        // GetCustomRadiantScore
-        // Get the topbar score display value for radiant.
-        // GetCustomDireScore
-        // Get the topbar score display value for dire.
-        // SetAbilityTuningValueFilter
-        // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
-        // SetLuaGameMode
-        // SetAlwaysShowPlayerInventory
-        // Show the player hero's inventory in the HUD, regardless of what unit is selected.
-        // SetGoldSoundDisabled
-        // Turn the sound when gold is acquired off/on.
-        // SetRecommendedItemsDisabled
-        // Turn the panel for showing recommended items at the shop off/on.
-        // SetStashPurchasingDisabled
-        // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
-        // SetStickyItemDisabled
-        // Hide the sticky item in the quickbuy.
-        // SetFogOfWarDisabled
-        // Turn the fog of war on or off.
-        // SetUnseenFogOfWarEnabled
-        // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
-        // SetForceRightClickAttackDisabled
-        // Prevent users from using the right click deny setting.
-        // SetCameraZRange
-        // Sets the camera Z range
-        // debug_message
-        // EGCMsgResponse
-        //  8
-        // `7
-        // @6
-        // p3
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // GetTotalEarnedXP
-        // AddClaimedFarm
-        // GetClaimedFarm
-        // GetRawPlayerDamage
-        // ClearRawPlayerDamageMatrix
-        // ClearKillsMatrix
-        // GetTowerDamageTaken
-        // GetCreepDamageTaken
-        // GetHeroDamageTaken
-        // GetDamageDoneToHero
-        // GetKillsDoneToHero
-        // debug_message
-        // EGCMsgResponse
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // aura_radius
-        // regeneration_to_max_seconds
-        // onentNames
-        // damage_cooldown
-        // onentNames
-        // AbilityCastRange
-        // onentNames
-        // AbilityDuration
-        // onentNames
-        // AbilityCharges
-        // onentNames
-        // AbilityManaCost
-        // onentNames
-        // AbilityHealthCost
-        // onentNames
-        // IsDebuffImmune
-        // NoUnitCollision
-        // ProvidesVision
-        // IsNightmared
-        // IsEvadeDisabled
-        // IsUnselectable
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        // Scroll the panel left by one line.
-        // Scroll the panel right by one line.
-        // Scroll the panel up by one line.
-        // Scroll the panel down by one line.
-        // Scroll the panel left by one page.
-        // Scroll the panel left by one page.
-        // Scroll the panel up by one page.
-        // RemoveAbility
-        // Remove an ability from this unit by name.
-        // HasAbility
-        // See whether this unit has an ability by name.
-        // RemoveAbilityByHandle
-        // Remove the passed ability from this unit.
-        // GetStatusResistance
-        // GetEvasion
-        // GetSpellAmplification
-        // SetBaseStrength
-        // SetBaseAgility
-        // SetBaseIntellect
-        // GetStrengthGain
-        // GetAgilityGain
-        // GetIntellectGain
-        // ModifyStrength
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyAgility
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyIntellect
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // GetRespawnTime
-        // GetAdditionalOwnedUnits
-        // IncrementKills
-        // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
-        // IncrementDeaths
-        // Value is stored in PlayerResource.
-        // IncrementAssists
-        // Value is stored in PlayerResource.
-        // IncrementLastHits
-        // IncrementDenies
-        // IncrementNearbyCreepDeaths
-        // RecordLastHit
-        // IncrementLastHitStreak
-        // ClearLastHitStreak
-        // IncrementLastHitMultikill
-        // ClearLastHitMultikill
-        // GetKills
-        // Value is stored in PlayerResource.
-        // GetDeaths
-        // Value is stored in PlayerResource.
-        // GetAssists
-        // Value is stored in PlayerResource.
-        // GetLastHits
-        // Value is stored in PlayerResource.
-        // GetDenies
-        // Value is stored in PlayerResource.
-        // IncrementStreak
-        // AreWeatherEffectsDisabled
-        // Get if weather effects are disabled on the client.
-        // SetWeatherEffectsDisabled
-        // Set if weather effects are disabled.
-        // GetHUDVisible
-        // Returns the HUD element visibility.
-        // GetCustomAttributeDerivedStatValue
-        // Get current derived stat value constant.
-        // GetCustomScanCooldown
-        // Get the current custom scan cooldown.
-        // GetCustomGlyphCooldown
-        // Get the current custom glyph cooldown.
-        // GetCustomBackpackSwapCooldown
-        // Get the current custom backpack swap cooldown.
-        // GetCustomBackpackCooldownPercent
-        // Get the current rate cooldown ticks down for items in the backpack.
-        // SetDefaultStickyItem
-        // Sets the default sticky item in the quickbuy
-        // GetWaterRuneLastSpawnTime
-        // Gets the time from game start during which water runes spawn
-        // SetWaterRuneLastSpawnTime
-        // Sets the time from game start during which water runes spawn
-        // GetCustomRadiantScore
-        // Get the topbar score display value for radiant.
-        // GetCustomDireScore
-        // Get the topbar score display value for dire.
-        // SetAbilityTuningValueFilter
-        // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
-        // SetLuaGameMode
-        // SetAlwaysShowPlayerInventory
-        // Show the player hero's inventory in the HUD, regardless of what unit is selected.
-        // SetGoldSoundDisabled
-        // Turn the sound when gold is acquired off/on.
-        // SetRecommendedItemsDisabled
-        // Turn the panel for showing recommended items at the shop off/on.
-        // SetStashPurchasingDisabled
-        // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
-        // SetStickyItemDisabled
-        // Hide the sticky item in the quickbuy.
-        // SetFogOfWarDisabled
-        // Turn the fog of war on or off.
-        // SetUnseenFogOfWarEnabled
-        // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
-        // SetForceRightClickAttackDisabled
-        // Prevent users from using the right click deny setting.
-        // SetCameraZRange
-        // Sets the camera Z range
-        // debug_message
-        // EGCMsgResponse
-        //  8
-        // `7
-        // @6
-        // p3
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // GetTotalEarnedXP
-        // AddClaimedFarm
-        // GetClaimedFarm
-        // GetRawPlayerDamage
-        // ClearRawPlayerDamageMatrix
-        // ClearKillsMatrix
-        // GetTowerDamageTaken
-        // GetCreepDamageTaken
-        // GetHeroDamageTaken
-        // GetDamageDoneToHero
-        // GetKillsDoneToHero
-        // debug_message
-        // EGCMsgResponse
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // aura_radius
-        // regeneration_to_max_seconds
-        // onentNames
-        // damage_cooldown
-        // onentNames
-        // AbilityCastRange
-        // onentNames
-        // AbilityDuration
-        // onentNames
-        // AbilityCharges
-        // onentNames
-        // AbilityManaCost
-        // onentNames
-        // AbilityHealthCost
-        // onentNames
-        // IsDebuffImmune
-        // NoUnitCollision
-        // ProvidesVision
-        // IsNightmared
-        // IsEvadeDisabled
-        // IsUnselectable
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        // Scroll the panel left by one line.
-        // Scroll the panel right by one line.
-        // Scroll the panel up by one line.
-        // Scroll the panel down by one line.
-        // Scroll the panel left by one page.
-        // Scroll the panel left by one page.
-        // Scroll the panel up by one page.
-        // RemoveAbility
-        // Remove an ability from this unit by name.
-        // HasAbility
-        // See whether this unit has an ability by name.
-        // RemoveAbilityByHandle
-        // Remove the passed ability from this unit.
-        // GetStatusResistance
-        // GetEvasion
-        // GetSpellAmplification
-        // SetBaseStrength
-        // SetBaseAgility
-        // SetBaseIntellect
-        // GetStrengthGain
-        // GetAgilityGain
-        // GetIntellectGain
-        // ModifyStrength
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyAgility
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyIntellect
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // GetRespawnTime
-        // GetAdditionalOwnedUnits
-        // IncrementKills
-        // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
-        // IncrementDeaths
-        // Value is stored in PlayerResource.
-        // IncrementAssists
-        // Value is stored in PlayerResource.
-        // IncrementLastHits
-        // IncrementDenies
-        // IncrementNearbyCreepDeaths
-        // RecordLastHit
-        // IncrementLastHitStreak
-        // ClearLastHitStreak
-        // IncrementLastHitMultikill
-        // ClearLastHitMultikill
-        // GetKills
-        // Value is stored in PlayerResource.
-        // GetDeaths
-        // Value is stored in PlayerResource.
-        // GetAssists
-        // Value is stored in PlayerResource.
-        // GetLastHits
-        // Value is stored in PlayerResource.
-        // GetDenies
-        // Value is stored in PlayerResource.
-        // IncrementStreak
-        // AreWeatherEffectsDisabled
-        // Get if weather effects are disabled on the client.
-        // SetWeatherEffectsDisabled
-        // Set if weather effects are disabled.
-        // GetHUDVisible
-        // Returns the HUD element visibility.
-        // GetCustomAttributeDerivedStatValue
-        // Get current derived stat value constant.
-        // GetCustomScanCooldown
-        // Get the current custom scan cooldown.
-        // GetCustomGlyphCooldown
-        // Get the current custom glyph cooldown.
-        // GetCustomBackpackSwapCooldown
-        // Get the current custom backpack swap cooldown.
-        // GetCustomBackpackCooldownPercent
-        // Get the current rate cooldown ticks down for items in the backpack.
-        // SetDefaultStickyItem
-        // Sets the default sticky item in the quickbuy
-        // GetWaterRuneLastSpawnTime
-        // Gets the time from game start during which water runes spawn
-        // SetWaterRuneLastSpawnTime
-        // Sets the time from game start during which water runes spawn
-        // GetCustomRadiantScore
-        // Get the topbar score display value for radiant.
-        // GetCustomDireScore
-        // Get the topbar score display value for dire.
-        // SetAbilityTuningValueFilter
-        // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
-        // SetLuaGameMode
-        // SetAlwaysShowPlayerInventory
-        // Show the player hero's inventory in the HUD, regardless of what unit is selected.
-        // SetGoldSoundDisabled
-        // Turn the sound when gold is acquired off/on.
-        // SetRecommendedItemsDisabled
-        // Turn the panel for showing recommended items at the shop off/on.
-        // SetStashPurchasingDisabled
-        // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
-        // SetStickyItemDisabled
-        // Hide the sticky item in the quickbuy.
-        // SetFogOfWarDisabled
-        // Turn the fog of war on or off.
-        // SetUnseenFogOfWarEnabled
-        // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
-        // SetForceRightClickAttackDisabled
-        // Prevent users from using the right click deny setting.
-        // SetCameraZRange
-        // Sets the camera Z range
-        // debug_message
-        // EGCMsgResponse
-        //  8
-        // `7
-        // @6
-        // p3
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // GetTotalEarnedXP
-        // AddClaimedFarm
-        // GetClaimedFarm
-        // GetRawPlayerDamage
-        // ClearRawPlayerDamageMatrix
-        // ClearKillsMatrix
-        // GetTowerDamageTaken
-        // GetCreepDamageTaken
-        // GetHeroDamageTaken
-        // GetDamageDoneToHero
-        // GetKillsDoneToHero
-        // debug_message
-        // EGCMsgResponse
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // aura_radius
-        // regeneration_to_max_seconds
-        // onentNames
-        // damage_cooldown
-        // onentNames
-        // AbilityCastRange
-        // onentNames
-        // AbilityDuration
-        // onentNames
-        // AbilityCharges
-        // onentNames
-        // AbilityManaCost
-        // onentNames
-        // AbilityHealthCost
-        // onentNames
-        // IsDebuffImmune
-        // NoUnitCollision
-        // ProvidesVision
-        // IsNightmared
-        // IsEvadeDisabled
-        // IsUnselectable
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _Dɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        // Scroll the panel left by one line.
-        // Scroll the panel right by one line.
-        // Scroll the panel up by one line.
-        // Scroll the panel down by one line.
-        // Scroll the panel left by one page.
-        // Scroll the panel left by one page.
-        // Scroll the panel up by one page.
-        // RemoveAbility
-        // Remove an ability from this unit by name.
-        // HasAbility
-        // See whether this unit has an ability by name.
-        // RemoveAbilityByHandle
-        // Remove the passed ability from this unit.
-        // GetStatusResistance
-        // GetEvasion
-        // GetSpellAmplification
-        // SetBaseStrength
-        // SetBaseAgility
-        // SetBaseIntellect
-        // GetStrengthGain
-        // GetAgilityGain
-        // GetIntellectGain
-        // ModifyStrength
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyAgility
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyIntellect
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // GetRespawnTime
-        // GetAdditionalOwnedUnits
-        // IncrementKills
-        // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
-        // IncrementDeaths
-        // Value is stored in PlayerResource.
-        // IncrementAssists
-        // Value is stored in PlayerResource.
-        // IncrementLastHits
-        // IncrementDenies
-        // IncrementNearbyCreepDeaths
-        // RecordLastHit
-        // IncrementLastHitStreak
-        // ClearLastHitStreak
-        // IncrementLastHitMultikill
-        // ClearLastHitMultikill
-        // GetKills
-        // Value is stored in PlayerResource.
-        // GetDeaths
-        // Value is stored in PlayerResource.
-        // GetAssists
-        // Value is stored in PlayerResource.
-        // GetLastHits
-        // Value is stored in PlayerResource.
-        // GetDenies
-        // Value is stored in PlayerResource.
-        // IncrementStreak
-        // AreWeatherEffectsDisabled
-        // Get if weather effects are disabled on the client.
-        // SetWeatherEffectsDisabled
-        // Set if weather effects are disabled.
-        // GetHUDVisible
-        // Returns the HUD element visibility.
-        // GetCustomAttributeDerivedStatValue
-        // Get current derived stat value constant.
-        // GetCustomScanCooldown
-        // Get the current custom scan cooldown.
-        // GetCustomGlyphCooldown
-        // Get the current custom glyph cooldown.
-        // GetCustomBackpackSwapCooldown
-        // Get the current custom backpack swap cooldown.
-        // GetCustomBackpackCooldownPercent
-        // Get the current rate cooldown ticks down for items in the backpack.
-        // SetDefaultStickyItem
-        // Sets the default sticky item in the quickbuy
-        // GetWaterRuneLastSpawnTime
-        // Gets the time from game start during which water runes spawn
-        // SetWaterRuneLastSpawnTime
-        // Sets the time from game start during which water runes spawn
-        // GetCustomRadiantScore
-        // Get the topbar score display value for radiant.
-        // GetCustomDireScore
-        // Get the topbar score display value for dire.
-        // SetAbilityTuningValueFilter
-        // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
-        // SetLuaGameMode
-        // SetAlwaysShowPlayerInventory
-        // Show the player hero's inventory in the HUD, regardless of what unit is selected.
-        // SetGoldSoundDisabled
-        // Turn the sound when gold is acquired off/on.
-        // SetRecommendedItemsDisabled
-        // Turn the panel for showing recommended items at the shop off/on.
-        // SetStashPurchasingDisabled
-        // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
-        // SetStickyItemDisabled
-        // Hide the sticky item in the quickbuy.
-        // SetFogOfWarDisabled
-        // Turn the fog of war on or off.
-        // SetUnseenFogOfWarEnabled
-        // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
-        // SetForceRightClickAttackDisabled
-        // Prevent users from using the right click deny setting.
-        // SetCameraZRange
-        // Sets the camera Z range
-        // debug_message
-        // EGCMsgResponse
-        //  8
-        // `7
-        // @6
-        // p3
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // GetTotalEarnedXP
-        // AddClaimedFarm
-        // GetClaimedFarm
-        // GetRawPlayerDamage
-        // ClearRawPlayerDamageMatrix
-        // ClearKillsMatrix
-        // GetTowerDamageTaken
-        // GetCreepDamageTaken
-        // GetHeroDamageTaken
-        // GetDamageDoneToHero
-        // GetKillsDoneToHero
-        // debug_message
-        // EGCMsgResponse
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // aura_radius
-        // regeneration_to_max_seconds
-        // onentNames
-        // damage_cooldown
-        // onentNames
-        // AbilityCastRange
-        // onentNames
-        // AbilityDuration
-        // onentNames
-        // AbilityCharges
-        // onentNames
-        // AbilityManaCost
-        // onentNames
-        // AbilityHealthCost
-        // onentNames
-        // IsDebuffImmune
-        // NoUnitCollision
-        // ProvidesVision
-        // IsNightmared
-        // IsEvadeDisabled
-        // IsUnselectable
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        // Scroll the panel left by one line.
-        // Scroll the panel right by one line.
-        // Scroll the panel up by one line.
-        // Scroll the panel down by one line.
-        // Scroll the panel left by one page.
-        // Scroll the panel left by one page.
-        // Scroll the panel up by one page.
-        // RemoveAbility
-        // Remove an ability from this unit by name.
-        // HasAbility
-        // See whether this unit has an ability by name.
-        // RemoveAbilityByHandle
-        // Remove the passed ability from this unit.
-        // GetStatusResistance
-        // GetEvasion
-        // GetSpellAmplification
-        // SetBaseStrength
-        // SetBaseAgility
-        // SetBaseIntellect
-        // GetStrengthGain
-        // GetAgilityGain
-        // GetIntellectGain
-        // ModifyStrength
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyAgility
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyIntellect
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // GetRespawnTime
-        // GetAdditionalOwnedUnits
-        // IncrementKills
-        // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
-        // IncrementDeaths
-        // Value is stored in PlayerResource.
-        // IncrementAssists
-        // Value is stored in PlayerResource.
-        // IncrementLastHits
-        // IncrementDenies
-        // IncrementNearbyCreepDeaths
-        // RecordLastHit
-        // IncrementLastHitStreak
-        // ClearLastHitStreak
-        // IncrementLastHitMultikill
-        // ClearLastHitMultikill
-        // GetKills
-        // Value is stored in PlayerResource.
-        // GetDeaths
-        // Value is stored in PlayerResource.
-        // GetAssists
-        // Value is stored in PlayerResource.
-        // GetLastHits
-        // Value is stored in PlayerResource.
-        // GetDenies
-        // Value is stored in PlayerResource.
-        // IncrementStreak
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // file://{resources}/default_keybinds.cfg
-        // file://{resources}/keybinds.cfg
-        // L
-        // m_bRespawnClientEntity
-        // m_unGuildFlags
-        // M
-        // CDOTA_Ability_Special_Bonus_Evasion_10
-        // CSplitScreenSlot
-        // Scroll the panel left by one line.
-        // Scroll the panel right by one line.
-        // Scroll the panel up by one line.
-        // Scroll the panel down by one line.
-        // Scroll the panel left by one page.
-        // Scroll the panel left by one page.
-        // Scroll the panel up by one page.
-        // RemoveAbility
-        // Remove an ability from this unit by name.
-        // HasAbility
-        // See whether this unit has an ability by name.
-        // RemoveAbilityByHandle
-        // Remove the passed ability from this unit.
-        // GetStatusResistance
-        // GetEvasion
-        // GetSpellAmplification
-        // SetBaseStrength
-        // SetBaseAgility
-        // SetBaseIntellect
-        // GetStrengthGain
-        // GetAgilityGain
-        // GetIntellectGain
-        // ModifyStrength
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyAgility
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // ModifyIntellect
-        // Adds passed value to base attribute value, then calls CalculateStatBonus.
-        // GetRespawnTime
-        // GetAdditionalOwnedUnits
-        // IncrementKills
-        // Passed ID is for the victim, killer ID is ID of the current hero.  Value is stored in PlayerResource.
-        // IncrementDeaths
-        // Value is stored in PlayerResource.
-        // IncrementAssists
-        // Value is stored in PlayerResource.
-        // IncrementLastHits
-        // IncrementDenies
-        // IncrementNearbyCreepDeaths
-        // RecordLastHit
-        // IncrementLastHitStreak
-        // ClearLastHitStreak
-        // IncrementLastHitMultikill
-        // ClearLastHitMultikill
-        // GetKills
-        // Value is stored in PlayerResource.
-        // GetDeaths
-        // Value is stored in PlayerResource.
-        // GetAssists
-        // Value is stored in PlayerResource.
-        // GetLastHits
-        // Value is stored in PlayerResource.
-        // GetDenies
-        // Value is stored in PlayerResource.
-        // IncrementStreak
-        // AreWeatherEffectsDisabled
-        // Get if weather effects are disabled on the client.
-        // SetWeatherEffectsDisabled
-        // Set if weather effects are disabled.
-        // GetHUDVisible
-        // Returns the HUD element visibility.
-        // GetCustomAttributeDerivedStatValue
-        // Get current derived stat value constant.
-        // GetCustomScanCooldown
-        // Get the current custom scan cooldown.
-        // GetCustomGlyphCooldown
-        // Get the current custom glyph cooldown.
-        // GetCustomBackpackSwapCooldown
-        // Get the current custom backpack swap cooldown.
-        // GetCustomBackpackCooldownPercent
-        // Get the current rate cooldown ticks down for items in the backpack.
-        // SetDefaultStickyItem
-        // Sets the default sticky item in the quickbuy
-        // GetWaterRuneLastSpawnTime
-        // Gets the time from game start during which water runes spawn
-        // SetWaterRuneLastSpawnTime
-        // Sets the time from game start during which water runes spawn
-        // GetCustomRadiantScore
-        // Get the topbar score display value for radiant.
-        // GetCustomDireScore
-        // Get the topbar score display value for dire.
-        // SetAbilityTuningValueFilter
-        // Set a filter function to control the tuning values that abilities use. (Modify the table and Return true to use new values, retu
-        // SetLuaGameMode
-        // SetAlwaysShowPlayerInventory
-        // Show the player hero's inventory in the HUD, regardless of what unit is selected.
-        // SetGoldSoundDisabled
-        // Turn the sound when gold is acquired off/on.
-        // SetRecommendedItemsDisabled
-        // Turn the panel for showing recommended items at the shop off/on.
-        // SetStashPurchasingDisabled
-        // Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.
-        // SetStickyItemDisabled
-        // Hide the sticky item in the quickbuy.
-        // SetFogOfWarDisabled
-        // Turn the fog of war on or off.
-        // SetUnseenFogOfWarEnabled
-        // Enable or disable unseen fog of war. When enabled parts of the map the player has never seen will be completely hidden by fog of
-        // SetForceRightClickAttackDisabled
-        // Prevent users from using the right click deny setting.
-        // SetCameraZRange
-        // Sets the camera Z range
-        // debug_message
-        // EGCMsgResponse
-        //  8
-        // `7
-        // @6
-        // p3
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // GetTotalEarnedXP
-        // AddClaimedFarm
-        // GetClaimedFarm
-        // GetRawPlayerDamage
-        // ClearRawPlayerDamageMatrix
-        // ClearKillsMatrix
-        // GetTowerDamageTaken
-        // GetCreepDamageTaken
-        // GetHeroDamageTaken
-        // GetDamageDoneToHero
-        // GetKillsDoneToHero
-        // debug_message
-        // EGCMsgResponse
-        // EGCEconBaseMsg
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // EGCMsgResponse
-        // aura_radius
-        // regeneration_to_max_seconds
-        // onentNames
-        // damage_cooldown
-        // onentNames
-        // AbilityCastRange
-        // onentNames
-        // AbilityDuration
-        // onentNames
-        // AbilityCharges
-        // onentNames
-        // AbilityManaCost
-        // onentNames
-        // AbilityHealthCost
-        // onentNames
-        // IsDebuffImmune
-        // NoUnitCollision
-        // ProvidesVision
-        // IsNightmared
-        // IsEvadeDisabled
-        // IsUnselectable
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ɢ__ {
-        }
-        // Parent: None
-        // Field count: 146
-        //
-        // Metadata:
-        // z
-        // ages}/events/crownfall/visual_novel/portraits/centaur_portrait_idle.png
-        // @
-        // `
-        // "
-        // #
-        // '
-        // #
-        // V
-        // ;
-        // f_the_Magnoceri
-        // @XQ
-        // efault
-        // ance Cooldown
-        // MissedContainer
-        // 20s;transition-duration: .20s;transition-timing-function: ease-in-out;}#SpectreProgress_Default{width: 100%;height: 100%;opacity
-        // th: 132px;height: 132px;border-radius: 100px;background-color: #2B2F30;border: 2px solid #414A45;margin: 32px 12px;margin: 16px 
-        // ke_invis_02
-        // @
-        //  
-        // A
-        // C
-        // D
-        // G
-        // S
-        // F
-        // H
-        // I
-        // K
-        // N
-        // P
-        // R
-        // S
-        // S
-        // T
-        // U
-        // S
-        // L
-        // T
-        // V
-        // A
-        // M
-        // G
-        // D
-        // N
-        // K
-        // T
-        // P
-        // O
-        // T
-        // M
-        // M
-        // T
-        // K
-        // S
-        // C
-        // P
-        // H
-        // S
-        // L
-        // I
-        // H
-        // M
-        // W
-        // C
-        // U
-        // B
-        // P
-        // A
-        // U
-        // I
-        // C
-        // S
-        // C
-        // S
-        // C
-        // B
-        // A
-        // C
-        // G
-        // S
-        // I
-        // P
-        // R
-        // T
-        // L
-        // A
-        // S
-        // G
-        // M
-        // T
-        // T
-        // S
-        // C
-        // D
-        // B
-        // T
-        // C
-        // G
-        // B
-        // G
-        // H
-        // R
-        // U
-        // L
-        // S
-        // B
-        // S
-        // B
-        // U
-        // A
-        // T
-        // G
-        // G
-        // G
-        // P
-        // L
-        // N
-        // B
-        // O
-        // O
-        // J
-        // M
-        // O
-        public static class ______ {
-            public const nint bonus_aoe_radius = 0x1A78; // float32
-            public const nint m_bAppliesToCreeps = 0x1A78; // bool
-            public const nint bonus_aoe_radius = 0x1A7C; // float32
-            public const nint self_armor = 0x1A80; // int32
-            public const nint self_mres = 0x1A84; // int32
-            public const nint bonus_aoe_armor = 0x1A78; // float32
-            public const nint bonus_aoe_ms = 0x1A7C; // float32
-            public const nint bonus_aoe_mres = 0x1A80; // float32
-            public const nint self_mres = 0x1A84; // float32
-            public const nint self_armor = 0x1A88; // float32
-            public const nint active_reflection_pct = 0x1A8C; // int32
-            public const nint crit_multiplier = 0x1A78; // float32
-            public const nint debuff_duration = 0x1A7C; // float32
-            public const nint movespeed_slow = 0x1A78; // float32
-            public const nint attack_slow = 0x1A7C; // float32
-            public const nint cast_slow = 0x1A80; // float32
-            public const nint death_radius = 0x1A78; // float32
-            public const nint base_damage = 0x1A78; // float32
-            public const nint attack_speed = 0x1A7C; // float32
-            public const nint bonus_intellect = 0x1A78; // int32
-            public const nint bonus_hp = 0x1A7C; // int32
-            public const nint bonus_mana = 0x1A80; // int32
-            public const nint bonus_aoe = 0x1A84; // int32
-            public const nint bonus_aoe_imbue = 0x1A88; // int32
-            public const nint bonus_movement_speed = 0x1A78; // int32
-            public const nint tree_radius = 0x1A78; // int32
-            public const nint spell_amp = 0x1A78; // float32
-            public const nint bonus_damage = 0x1A78; // int32
-            public const nint health_regen_pct = 0x1A78; // int32
-            public const nint break_on_hero_damage = 0x1A7C; // int32
-            public const nint m_fHealingDone = 0x1A80; // float32
-            public const nint m_fUseSpeed = 0x1A84; // float32
-            public const nint bonus_damage = 0x1A78; // float32
-            public const nint splash_radius = 0x1A7C; // float32
-            public const nint splash_pct = 0x1A80; // float32
-            public const nint m_InFlightAttackRecords = 0x1A88; // CUtlVector<AttackRecord_t>
-            public const nint bonus_health = 0x1A78; // int32
-            public const nint attack_range_bonus = 0x1A78; // int32
-            public const nint attack_speed_bonus = 0x1A7C; // int32
-            public const nint m_InFlightAttackRecords = 0x1A80; // CUtlVector<AttackRecord_t>
-            public const nint magic_resistance_reduction = 0x1A78; // int32
-            public const nint bonus_movement_speed = 0x1A78; // int32
-            public const nint hp_regen = 0x1A7C; // int32
-            public const nint push_length = 0x1A78; // int32
-            public const nint push_duration = 0x1A7C; // float32
-            public const nint water_acceleration = 0x1A78; // float32
-            public const nint m_bInWater = 0x1A7C; // bool
-            public const nint bonus_armor = 0x1A78; // int32
-            public const nint duration = 0x1A7C; // float32
-            public const nint mana_restore = 0x1A78; // float32
-            public const nint mana_restore_pct = 0x1A7C; // float32
-            public const nint m_fHealingDone = 0x1A80; // float32
-            public const nint m_fUseSpeed = 0x1A84; // float32
-            public const nint bonus_all_stats = 0x1A78; // int32
-            public const nint m_hTree = 0x1A78; // CHandle<C_BaseEntity>
-            public const nint m_Timer = 0x1A80; // CountdownTimer
-            public const nint seconds = 0x1A98; // float32
-            public const nint hp_damage = 0x1A78; // float32
-            public const nint damage_interval = 0x1A7C; // float32
-            public const nint debuff_duration = 0x1A80; // float32
-            public const nint health_regen_loss = 0x1A84; // float32
-            public const nint bonus_mana_regen = 0x1A78; // float32
-            public const nint cast_range_bonus = 0x1A7C; // int32
-            public const nint ground_duration = 0x1A78; // float32
-            public const nint poison_duration = 0x1A7C; // float32
-            public const nint damage = 0x1A80; // float32
-            public const nint radius = 0x1A84; // float32
-            public const nint m_bAttackLanded = 0x1A88; // bool
-            public const nint m_nFXIndex = 0x1A8C; // ParticleIndex_t
-            public const nint strength = 0x1A78; // int32
-            public const nint agility = 0x1A7C; // int32
-            public const nint damage = 0x1A80; // int32
-            public const nint proc_chance = 0x1A84; // int32
-            public const nint proc_dmg_pct = 0x1A88; // int32
-            public const nint count = 0x1A8C; // int32
-            public const nint base_count = 0x1A90; // int32
-            public const nint secondary_target_range_bonus = 0x1A94; // int32
-            public const nint secondary_target_angle = 0x1A98; // int32
-            public const nint base_attack_range = 0x1A9C; // int32
-            public const nint base_proc_dmg = 0x1AA0; // int32
-            public const nint poison_duration = 0x1AA4; // float32
-            public const nint bonus_damage = 0x1A78; // int32
-            public const nint bonus_strength = 0x1A7C; // int32
-            public const nint base_proc_dmg = 0x1A78; // int32
-            public const nint proc_dmg_pct = 0x1A7C; // int32
-            public const nint slow = 0x1A78; // int32
-            public const nint bonus_mana = 0x1A78; // int32
-            public const nint bonus_strength = 0x1A7C; // int32
-            public const nint backstab_damage = 0x1A80; // int32
-            public const nint backstab_angle = 0x1A84; // int32
-            public const nint slow_duration = 0x1A88; // float32
-            public const nint m_bBackstab = 0x1A8C; // bool
-            public const nint slow_pct_melee = 0x1A78; // int32
-            public const nint slow_pct_ranged = 0x1A7C; // int32
-            public const nint slow_resist = 0x1A78; // float32
-            public const nint evasion = 0x1A7C; // float32
-            public const nint bonus_agi = 0x1A78; // int32
-            public const nint bonus_str = 0x1A7C; // int32
-            public const nint attack_damage_aura = 0x1A78; // int32
-            public const nint bonus_attack_range = 0x1A78; // float32
-            public const nint bonus_cast_range = 0x1A7C; // float32
-            public const nint damage_threshold = 0x1A80; // float32
-            public const nint damage_disable = 0x1A84; // float32
-            public const nint debuff_self = 0x1A78; // int32
-            public const nint debuff_enemy = 0x1A7C; // float32
-            public const nint debuff_enemy_duration = 0x1A80; // int32
-            public const nint bonus_damage = 0x1A84; // int32
-            public const nint debuff_enemy = 0x1A78; // int32
-            public const nint magic_damage = 0x1A78; // int32
-            public const nint attack_speed = 0x1A7C; // int32
-            public const nint duration = 0x1A80; // float32
-            public const nint bonus_magic_resistance = 0x1A78; // int32
-            public const nint bonus_spell_amp = 0x1A7C; // int32
-            public const nint bonus_armor = 0x1A80; // int32
-            public const nint corruption_armor = 0x1A78; // int32
-            public const nint heal_reduction = 0x1A7C; // int32
-            public const nint slow_melee = 0x1A80; // int32
-            public const nint slow_ranged = 0x1A84; // int32
-            public const nint bonus_agility = 0x1A78; // int32
-            public const nint passive_movement_bonus = 0x1A7C; // int32
-            public const nint slow_melee = 0x1A78; // int32
-            public const nint slow_ranged = 0x1A7C; // int32
-            public const nint heal_reduction = 0x1A80; // int32
-            public const nint bonus_all_stats = 0x1A78; // int32
-            public const nint stack_limit = 0x1A7C; // int32
-            public const nint stack_duration = 0x1A80; // float32
-            public const nint m_flStackDieTime = 0x1A84; // GameTime_t
-            public const nint magic_resistance = 0x1A88; // int32
-            public const nint duration = 0x1A78; // float32
-            public const nint magic_resist = 0x1A7C; // int32
-            public const nint hp_regen = 0x1A80; // float32
-            public const nint aura_radius = 0x1A78; // float32
-            public const nint damage_redirection = 0x1A78; // int32
-            public const nint m_LastParams = 0x1A78; // CModifierParams
-            public const nint all_stats = 0x1B68; // int32
-            public const nint reflect_chance = 0x1B6C; // int32
-            public const nint m_bProcSuccessful = 0x1B70; // bool
-            public const nint armor_reduction = 0x1A78; // int32
-            public const nint slow_melee = 0x1A7C; // int32
-            public const nint slow_range = 0x1A80; // int32
-            public const nint bCasterRanged = 0x1A84; // bool
-            public const nint m_bAppliesToCreeps = 0x1A78; // bool
-            public const nint bat = 0x1A7C; // float32
-            public const nint stun_duration = 0x1A80; // float32
-            public const nint stun_chance = 0x1A84; // int32
-            public const nint m_nAttack = 0x1A88; // int32
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _____ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class U {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class B {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class L {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class E {
+        public static class __Fz__ {
         }
     }
 }

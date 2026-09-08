@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 #pragma once
 
@@ -2352,6 +2352,7 @@ namespace source2_dumper {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
+            // teseekerPC\.local\bin;C:\Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$buc
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3071,7 +3072,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // A
+            // 7
             namespace CSoundContainerReferenceArray {
                 constexpr std::ptrdiff_t m_bUseReference = 0x0; // bool
                 constexpr std::ptrdiff_t m_sounds = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
@@ -3134,6 +3135,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // RD
             namespace CVoiceContainerTapePlayer {
                 constexpr std::ptrdiff_t m_bShouldWraparound = 0x80; // bool
                 constexpr std::ptrdiff_t m_sourceAudio = 0x88; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
@@ -3329,7 +3331,7 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // npc_dota_juggernaut_healing_ward
-            //            
+            // hon312\;C:\Users\ByteseekerPC\.cargo\bin;C:\Users\ByteseekerPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ByteseekerPC\AppData
             namespace CVoiceContainerVMixSnd {
             }
             // Parent: None

@@ -50,6 +50,10 @@
             "type": "Unknown"
           },
           {
+            "name": "xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102,0x0f0d/0x0027,0x0f30/0x010b,0x0079/0x0122,0xf766/0x0001,0x1949/0x0",
+            "type": "Unknown"
+          },
+          {
             "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
             "type": "Unknown"
           },
@@ -243,7 +247,15 @@
             "type": "Unknown"
           },
           {
+            "name": "SF;.WSH;.MSC",
+            "type": "Unknown"
+          },
+          {
             "name": "n",
+            "type": "Unknown"
+          },
+          {
+            "name": "0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,",
             "type": "Unknown"
           }
         ],
@@ -358,11 +370,11 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
@@ -551,7 +563,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "dules",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AbilityID_t": {
@@ -648,14 +665,24 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "BlessingPathID_t": {
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "BlessingPath_t": {
@@ -682,7 +709,12 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "BlessingType_t": {
@@ -697,6 +729,10 @@
           },
           {
             "name": "MVDataOutlinerIconExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "iles\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -812,11 +848,15 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
             "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -1894,11 +1934,15 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
             "name": "MKV3TransferSaveOpsForField",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -18249,6 +18293,10 @@
         },
         "metadata": [
           {
+            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
+            "type": "Unknown"
+          },
+          {
             "name": "n",
             "type": "Unknown"
           },
@@ -18270,6 +18318,10 @@
           },
           {
             "name": "MVDataOutlinerIconExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "iles\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -53869,7 +53921,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -55514,7 +55566,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -55651,12 +55703,7 @@
           "m_szTargetsName": 1272,
           "m_vecCSSClasses": 1248
         },
-        "metadata": [
-          {
-            "name": "0",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "CPointEntity"
       },
       "CInfoParticleTarget": {
@@ -56184,7 +56231,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -56765,6 +56812,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           },
           {
@@ -59164,7 +59215,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
@@ -59172,11 +59223,11 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
-            "name": "Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:",
+            "name": "D",
             "type": "Unknown"
           }
         ],
@@ -62742,11 +62793,11 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -63314,7 +63365,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -63544,7 +63595,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -63611,7 +63662,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -65681,7 +65732,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -66032,11 +66083,11 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
@@ -68839,7 +68890,7 @@
             "type": "Unknown"
           },
           {
-            "name": ":\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Byteseek",
+            "name": "\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -69052,7 +69103,7 @@
             "type": "Unknown"
           },
           {
-            "name": "A",
+            "name": "7",
             "type": "Unknown"
           },
           {
@@ -79482,17 +79533,47 @@
         },
         "type": "uint32"
       },
-      "_W____": {
+      "_2____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_____": {
+      "_A___": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_E____": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_TA___": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "__A___": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
       "______": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_oA___": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_wA___": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_zA___": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

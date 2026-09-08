@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-05 19:06:16.479387600 +07:00
+// 2026-09-08 18:57:21.198986700 +07:00
 
 #pragma once
 
@@ -73,7 +73,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             namespace MaterialParamVector_t {
                 constexpr std::ptrdiff_t m_value = 0x8; // Vector4D
             }
@@ -90,7 +89,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             namespace MaterialParamString_t {
                 constexpr std::ptrdiff_t m_value = 0x8; // CUtlString
             }
@@ -128,7 +126,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             namespace MaterialParamInt_t {
                 constexpr std::ptrdiff_t m_nValue = 0x8; // int32
             }
@@ -211,7 +208,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             namespace MaterialParamBuffer_t {
                 constexpr std::ptrdiff_t m_value = 0x8; // CUtlBinaryBlock
             }
@@ -269,7 +265,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // ,
-            // JH
             namespace MaterialParamFloat_t {
                 constexpr std::ptrdiff_t m_flValue = 0x8; // float32
             }
@@ -292,7 +287,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // ,
-            // JH
             namespace MaterialParamTexture_t {
                 constexpr std::ptrdiff_t m_pValue = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
             }
