@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-08 18:57:21.198986700 +07:00
+# 2026-09-12 14:05:43.501828300 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1428,10 +1428,6 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
-        class H____WH___H__H_ڹ__:
-            pass
-        class DOTAInternational2025PredictionRankings:
-            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1A28 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1A50 # ParticleIndex_t
@@ -28305,11 +28301,3 @@ class Schemas:
             m_flRadius = 0x8 # float32
             m_nHitRegionIndex = 0xC # int32
             m_nDamageMultiplier = 0x10 # int32
-        class int32:
-            pass
-        class int32:
-            pass
-        class int32_5_:
-            pass
-        class __Fz__:
-            pass

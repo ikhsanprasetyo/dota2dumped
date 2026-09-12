@@ -100,10 +100,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "esumable@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEBA_NXZ",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -141,10 +137,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "esumable@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEBA_NXZ",
             "type": "Unknown"
           }
         ],

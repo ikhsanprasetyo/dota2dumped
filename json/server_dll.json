@@ -50,10 +50,6 @@
             "type": "Unknown"
           },
           {
-            "name": "xe002,0x0e6f/0x0130,0x1a34/0x0801,0x0e8f/0x310f,0x2185/0x0102,0x0f0d/0x0027,0x0f30/0x010b,0x0079/0x0122,0xf766/0x0001,0x1949/0x0",
-            "type": "Unknown"
-          },
-          {
             "name": "DFLAG_SUPPRESS_HEALTH_CHANGES",
             "type": "Unknown"
           },
@@ -247,15 +243,11 @@
             "type": "Unknown"
           },
           {
-            "name": "SF;.WSH;.MSC",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
             "type": "Unknown"
           },
           {
-            "name": "0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,",
+            "name": "804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0x0302,0x0079/0x000a,0x25f0/0x83c",
             "type": "Unknown"
           }
         ],
@@ -367,14 +359,6 @@
           },
           {
             "name": "MsDirection",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -565,7 +549,7 @@
         },
         "metadata": [
           {
-            "name": "dules",
+            "name": "0x1042,0x28S",
             "type": "Unknown"
           }
         ],
@@ -667,7 +651,7 @@
         },
         "metadata": [
           {
-            "name": "\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
+            "name": "d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
             "type": "Unknown"
           }
         ],
@@ -679,7 +663,7 @@
         },
         "metadata": [
           {
-            "name": "\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
+            "name": "d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
             "type": "Unknown"
           }
         ],
@@ -711,7 +695,7 @@
         },
         "metadata": [
           {
-            "name": "\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
+            "name": "d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
             "type": "Unknown"
           }
         ],
@@ -732,7 +716,7 @@
             "type": "Unknown"
           },
           {
-            "name": "iles\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -848,15 +832,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
-            "name": "\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -1934,15 +1914,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MKV3TransferSaveOpsForField",
             "type": "Unknown"
           },
           {
-            "name": "\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -18293,7 +18269,7 @@
         },
         "metadata": [
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -18321,7 +18297,7 @@
             "type": "Unknown"
           },
           {
-            "name": "iles\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -53671,6 +53647,42 @@
           {
             "name": "S",
             "type": "Unknown"
+          },
+          {
+            "name": "none",
+            "type": "Unknown"
+          },
+          {
+            "name": "second",
+            "type": "Unknown"
+          },
+          {
+            "name": "minute",
+            "type": "Unknown"
+          },
+          {
+            "name": "hour",
+            "type": "Unknown"
+          },
+          {
+            "name": "day",
+            "type": "Unknown"
+          },
+          {
+            "name": "week",
+            "type": "Unknown"
+          },
+          {
+            "name": "month",
+            "type": "Unknown"
+          },
+          {
+            "name": "year",
+            "type": "Unknown"
+          },
+          {
+            "name": "forever",
+            "type": "Unknown"
           }
         ],
         "parent": "CEconEntity"
@@ -53918,10 +53930,6 @@
         "metadata": [
           {
             "name": " ",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -55564,10 +55572,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -56228,10 +56232,6 @@
           },
           {
             "name": "a",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -59215,19 +59215,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "D",
+            "name": "les\\Eclipse Adoptium\\jdk-17.0.CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files",
             "type": "Unknown"
           }
         ],
@@ -62791,14 +62783,6 @@
           {
             "name": "Y",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63363,10 +63347,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63593,10 +63573,6 @@
           {
             "name": "Y",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63659,10 +63635,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -64634,18 +64606,6 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MDebugSnapshotDataRenderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -65518,6 +65478,42 @@
           {
             "name": "S",
             "type": "Unknown"
+          },
+          {
+            "name": "none",
+            "type": "Unknown"
+          },
+          {
+            "name": "second",
+            "type": "Unknown"
+          },
+          {
+            "name": "minute",
+            "type": "Unknown"
+          },
+          {
+            "name": "hour",
+            "type": "Unknown"
+          },
+          {
+            "name": "day",
+            "type": "Unknown"
+          },
+          {
+            "name": "week",
+            "type": "Unknown"
+          },
+          {
+            "name": "month",
+            "type": "Unknown"
+          },
+          {
+            "name": "year",
+            "type": "Unknown"
+          },
+          {
+            "name": "forever",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -65729,10 +65725,6 @@
           },
           {
             "name": "Y",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -66080,14 +66072,6 @@
           },
           {
             "name": "k_eNoAuthor",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -68890,10 +68874,6 @@
             "type": "Unknown"
           },
           {
-            "name": "\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -69100,10 +69080,6 @@
           },
           {
             "name": "SOUNDCTRL_FADEOUT",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -69518,6 +69494,42 @@
           {
             "name": "S",
             "type": "Unknown"
+          },
+          {
+            "name": "none",
+            "type": "Unknown"
+          },
+          {
+            "name": "second",
+            "type": "Unknown"
+          },
+          {
+            "name": "minute",
+            "type": "Unknown"
+          },
+          {
+            "name": "hour",
+            "type": "Unknown"
+          },
+          {
+            "name": "day",
+            "type": "Unknown"
+          },
+          {
+            "name": "week",
+            "type": "Unknown"
+          },
+          {
+            "name": "month",
+            "type": "Unknown"
+          },
+          {
+            "name": "year",
+            "type": "Unknown"
+          },
+          {
+            "name": "forever",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -69537,6 +69549,42 @@
           },
           {
             "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "none",
+            "type": "Unknown"
+          },
+          {
+            "name": "second",
+            "type": "Unknown"
+          },
+          {
+            "name": "minute",
+            "type": "Unknown"
+          },
+          {
+            "name": "hour",
+            "type": "Unknown"
+          },
+          {
+            "name": "day",
+            "type": "Unknown"
+          },
+          {
+            "name": "week",
+            "type": "Unknown"
+          },
+          {
+            "name": "month",
+            "type": "Unknown"
+          },
+          {
+            "name": "year",
+            "type": "Unknown"
+          },
+          {
+            "name": "forever",
             "type": "Unknown"
           }
         ],
@@ -69831,6 +69879,42 @@
           {
             "name": "S",
             "type": "Unknown"
+          },
+          {
+            "name": "none",
+            "type": "Unknown"
+          },
+          {
+            "name": "second",
+            "type": "Unknown"
+          },
+          {
+            "name": "minute",
+            "type": "Unknown"
+          },
+          {
+            "name": "hour",
+            "type": "Unknown"
+          },
+          {
+            "name": "day",
+            "type": "Unknown"
+          },
+          {
+            "name": "week",
+            "type": "Unknown"
+          },
+          {
+            "name": "month",
+            "type": "Unknown"
+          },
+          {
+            "name": "year",
+            "type": "Unknown"
+          },
+          {
+            "name": "forever",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -69847,6 +69931,42 @@
           {
             "name": "S",
             "type": "Unknown"
+          },
+          {
+            "name": "none",
+            "type": "Unknown"
+          },
+          {
+            "name": "second",
+            "type": "Unknown"
+          },
+          {
+            "name": "minute",
+            "type": "Unknown"
+          },
+          {
+            "name": "hour",
+            "type": "Unknown"
+          },
+          {
+            "name": "day",
+            "type": "Unknown"
+          },
+          {
+            "name": "week",
+            "type": "Unknown"
+          },
+          {
+            "name": "month",
+            "type": "Unknown"
+          },
+          {
+            "name": "year",
+            "type": "Unknown"
+          },
+          {
+            "name": "forever",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -69862,6 +69982,42 @@
           },
           {
             "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "none",
+            "type": "Unknown"
+          },
+          {
+            "name": "second",
+            "type": "Unknown"
+          },
+          {
+            "name": "minute",
+            "type": "Unknown"
+          },
+          {
+            "name": "hour",
+            "type": "Unknown"
+          },
+          {
+            "name": "day",
+            "type": "Unknown"
+          },
+          {
+            "name": "week",
+            "type": "Unknown"
+          },
+          {
+            "name": "month",
+            "type": "Unknown"
+          },
+          {
+            "name": "year",
+            "type": "Unknown"
+          },
+          {
+            "name": "forever",
             "type": "Unknown"
           }
         ],
@@ -70200,6 +70356,42 @@
           },
           {
             "name": "S",
+            "type": "Unknown"
+          },
+          {
+            "name": "none",
+            "type": "Unknown"
+          },
+          {
+            "name": "second",
+            "type": "Unknown"
+          },
+          {
+            "name": "minute",
+            "type": "Unknown"
+          },
+          {
+            "name": "hour",
+            "type": "Unknown"
+          },
+          {
+            "name": "day",
+            "type": "Unknown"
+          },
+          {
+            "name": "week",
+            "type": "Unknown"
+          },
+          {
+            "name": "month",
+            "type": "Unknown"
+          },
+          {
+            "name": "year",
+            "type": "Unknown"
+          },
+          {
+            "name": "forever",
             "type": "Unknown"
           }
         ],
@@ -79533,47 +79725,17 @@
         },
         "type": "uint32"
       },
-      "_2____": {
+      "____t_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_A___": {
+      "_a__t_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_E____": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_TA___": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "__A___": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "______": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_oA___": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_wA___": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_zA___": {
+      "_r__t_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

@@ -2658,10 +2658,6 @@
           {
             "name": "MPropertyDescription",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7393,7 +7389,7 @@
             "type": "Unknown"
           },
           {
-            "name": "teseekerPC\\.local\\bin;C:\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$buc",
+            "name": "x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$buc",
             "type": "Unknown"
           },
           {
@@ -11205,10 +11201,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "RD",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -11230,10 +11222,6 @@
           },
           {
             "name": "npc_dota_juggernaut_healing_ward",
-            "type": "Unknown"
-          },
-          {
-            "name": "hon312\\;C:\\Users\\ByteseekerPC\\.cargo\\bin;C:\\Users\\ByteseekerPC\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ByteseekerPC\\AppData",
             "type": "Unknown"
           }
         ],

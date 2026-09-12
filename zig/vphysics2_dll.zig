@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-08 18:57:21.198986700 +07:00
+// 2026-09-12 14:05:43.501828300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -308,7 +308,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // 7
-            // x3232,0x0b05/0x7905,0x0b05/0x7906,0x0e8f/0x0012,0x19fa/0xfff0,0x0e6f/0x0111,0x0e6f/0x0114,0x0e6f/0x0119,0x0e6f/0x011a,0x20d6/0x5
             pub const vphysics_save_cphysicsbody_t = struct {
                 pub const m_nOldPointer: usize = 0xE0; // uint64
             };
@@ -1135,7 +1134,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7
             pub const FourVectors2D = struct {
                 pub const x: usize = 0x0; // fltx4
                 pub const y: usize = 0x10; // fltx4
@@ -1357,7 +1355,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7
             pub const PhysicsParticleId_t = struct {
                 pub const m_Value: usize = 0x0; // uint32
             };

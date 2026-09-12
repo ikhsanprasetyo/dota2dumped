@@ -47,7 +47,7 @@
             "type": "Unknown"
           },
           {
-            "name": " Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.f",
+            "name": "7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.f",
             "type": "Unknown"
           },
           {
@@ -363,10 +363,6 @@
           {
             "name": "k_EArtyOrderFlag_MoveDown",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -444,10 +440,6 @@
           },
           {
             "name": "k_EArtyOrderFlag_MoveDown",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -728,7 +720,7 @@
             "type": "Unknown"
           },
           {
-            "name": " Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.f",
+            "name": "7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.f",
             "type": "Unknown"
           },
           {
@@ -752,7 +744,7 @@
             "type": "Unknown"
           },
           {
-            "name": " Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.f",
+            "name": "7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.f",
             "type": "Unknown"
           },
           {
@@ -778,7 +770,7 @@
             "type": "Unknown"
           },
           {
-            "name": " Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.f",
+            "name": "7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.f",
             "type": "Unknown"
           },
           {
@@ -843,10 +835,6 @@
           },
           {
             "name": "k_EArtyOrderFlag_MoveDown",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -1308,7 +1296,7 @@
             "type": "Unknown"
           },
           {
-            "name": "\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -1585,7 +1573,7 @@
             "type": "Unknown"
           },
           {
-            "name": "0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,",
+            "name": "804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0x0302,0x0079/0x000a,0x25f0/0x83c",
             "type": "Unknown"
           },
           {
@@ -1686,15 +1674,7 @@
             "type": "Unknown"
           },
           {
-            "name": "CInlineJob_CMsgGCToClientQuestProgressUpdated",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "alnum",
             "type": "Unknown"
           },
           {
@@ -1702,11 +1682,15 @@
             "type": "Unknown"
           },
           {
-            "name": "blank",
+            "name": "alpha",
             "type": "Unknown"
           },
           {
-            "name": "c",
+            "name": "b",
+            "type": "Unknown"
+          },
+          {
+            "name": "cntrl",
             "type": "Unknown"
           },
           {
@@ -1714,19 +1698,15 @@
             "type": "Unknown"
           },
           {
-            "name": "d",
+            "name": "digit",
             "type": "Unknown"
           },
           {
-            "name": "graph",
+            "name": "g",
             "type": "Unknown"
           },
           {
-            "name": "l",
-            "type": "Unknown"
-          },
-          {
-            "name": "print",
+            "name": "lower",
             "type": "Unknown"
           },
           {
@@ -1734,7 +1714,7 @@
             "type": "Unknown"
           },
           {
-            "name": "space",
+            "name": "punct",
             "type": "Unknown"
           },
           {
@@ -1742,7 +1722,11 @@
             "type": "Unknown"
           },
           {
-            "name": "upper",
+            "name": "s",
+            "type": "Unknown"
+          },
+          {
+            "name": "u",
             "type": "Unknown"
           },
           {
@@ -1750,15 +1734,7 @@
             "type": "Unknown"
           },
           {
-            "name": "xdigit",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "x",
             "type": "Unknown"
           },
           {
@@ -1879,10 +1855,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "n",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1956,10 +1928,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1973,10 +1941,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "n",
             "type": "Unknown"
           },
           {
@@ -2054,6 +2018,10 @@
           {
             "name": "x",
             "type": "Unknown"
+          },
+          {
+            "name": "n",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -2077,10 +2045,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "n",
             "type": "Unknown"
           },
           {
@@ -2909,6 +2873,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "Y",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3007,10 +2975,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
             "type": "Unknown"
           }
         ],
@@ -5849,39 +5813,43 @@
         },
         "metadata": [
           {
-            "name": "BankRight",
+            "name": "BankLeft",
             "type": "Unknown"
           },
           {
-            "name": "Gesture_Caw",
+            "name": "Fly",
             "type": "Unknown"
           },
           {
-            "name": "Gesture_Preen2",
+            "name": "Gesture_Preen1",
             "type": "Unknown"
           },
           {
-            "name": "Glide",
+            "name": "Gesture_Ruffle",
             "type": "Unknown"
           },
           {
-            "name": "Idle2",
+            "name": "Idle1",
             "type": "Unknown"
           },
           {
-            "name": "Idle3_Foreground_Popup",
+            "name": "Idle3",
             "type": "Unknown"
           },
           {
-            "name": "Takeoff",
+            "name": "Land",
             "type": "Unknown"
           },
           {
-            "name": "Frighten_Click",
+            "name": "Talon_Grip",
             "type": "Unknown"
           },
           {
-            "name": "Hop",
+            "name": "Walk",
+            "type": "Unknown"
+          },
+          {
+            "name": "Startle1",
             "type": "Unknown"
           }
         ],
@@ -5896,7 +5864,11 @@
         "fields": {},
         "metadata": [
           {
-            "name": "7",
+            "name": "M",
+            "type": "Unknown"
+          },
+          {
+            "name": "e",
             "type": "Unknown"
           }
         ],
@@ -35475,12 +35447,7 @@
       },
       "CDOTA_WhackAMoleGameEffectsEntity": {
         "fields": {},
-        "metadata": [
-          {
-            "name": " ",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_BaseModelEntity"
       },
       "CDarkCarnivalCrateDropEntity": {
@@ -35505,29 +35472,17 @@
           "m_unDefID": 3136,
           "pDropEffect": 3256
         },
-        "metadata": [],
-        "parent": "C_BreakableProp"
-      },
-      "CDarkCarnivalCrateDropGameEffectsEntity": {
-        "fields": {},
         "metadata": [
           {
             "name": "n",
             "type": "Unknown"
-          },
-          {
-            "name": "n",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
+        "parent": "C_BreakableProp"
+      },
+      "CDarkCarnivalCrateDropGameEffectsEntity": {
+        "fields": {},
+        "metadata": [],
         "parent": "C_BaseModelEntity"
       },
       "CDeferredLightBase": {
@@ -35618,10 +35573,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "0",
             "type": "Unknown"
           }
         ],
@@ -35960,10 +35911,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -37154,7 +37101,7 @@
             "type": "Unknown"
           },
           {
-            "name": "\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -37263,15 +37210,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -39254,15 +39193,7 @@
             "type": "Unknown"
           },
           {
-            "name": "generic",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
+            "name": "i",
             "type": "Unknown"
           }
         ],
@@ -40260,10 +40191,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -40435,10 +40362,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -40713,10 +40636,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -40853,10 +40772,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -41080,10 +40995,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41177,10 +41088,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -41287,10 +41194,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41365,10 +41268,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -41382,10 +41281,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -41420,10 +41315,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -41954,10 +41845,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -42125,7 +42012,7 @@
             "type": "Unknown"
           },
           {
-            "name": "lare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           }
         ],
@@ -42248,7 +42135,7 @@
             "type": "Unknown"
           },
           {
-            "name": "lare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
+            "name": "16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -42385,10 +42272,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -42768,10 +42651,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -42994,10 +42873,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -43030,10 +42905,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -43089,10 +42960,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -43112,10 +42979,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -43443,10 +43306,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
             "type": "Unknown"
           },
@@ -43527,10 +43386,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
             "type": "Unknown"
           },
@@ -43606,10 +43461,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -44116,14 +43967,6 @@
           },
           {
             "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -44951,12 +44794,7 @@
       },
       "C_DOTAPortraitWorldCallbackHandler": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "7",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": "C_BaseEntity"
       },
       "C_DOTAPropCustomTexture": {
@@ -56107,7 +55945,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -56125,7 +55963,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -60475,14 +60313,6 @@
             "type": "Unknown"
           },
           {
-            "name": "s\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
-            "name": "s\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
@@ -60626,10 +60456,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -60992,10 +60818,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -61656,10 +61478,6 @@
           {
             "name": "CInlineJob_CMsgGCToClientInFlightChargesUpdated",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": "C_DOTA_BaseNPC"
@@ -62302,15 +62120,15 @@
             "type": "Unknown"
           },
           {
+            "name": "CInlineJob_CMsgGCToClientCavernCrawlMapUpdated",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted",
-            "type": "Unknown"
-          },
-          {
-            "name": "CInlineJob_CMsgGCToClientCavernCrawlMapUpdated",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -62330,15 +62148,15 @@
             "type": "Unknown"
           },
           {
+            "name": "CInlineJob_CMsgGCToClientCavernCrawlMapUpdated",
+            "type": "Unknown"
+          },
+          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted",
-            "type": "Unknown"
-          },
-          {
-            "name": "CInlineJob_CMsgGCToClientCavernCrawlMapUpdated",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -63199,15 +63017,19 @@
         },
         "metadata": [
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "text",
             "type": "Unknown"
           },
           {
-            "name": "CGCClientJobCMsgGCGetHeroStandingsResponse",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -63220,6 +63042,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "generic",
             "type": "Unknown"
           },
           {
@@ -63241,18 +63067,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "generic",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -63263,15 +63077,19 @@
         },
         "metadata": [
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "text",
             "type": "Unknown"
           },
           {
-            "name": "CGCClientJobCMsgGCGetHeroStandingsResponse",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -63353,7 +63171,7 @@
         },
         "metadata": [
           {
-            "name": "0x3651/0x6000,0x03f0/0x0495,0x044f/0xd012,0x045e/0x02d1,0x045e/0x02dd,0x045e/0x02e0,0x045e/0x02ea,0x045e/0x02fd,0x045e/0x02ff,0x",
+            "name": "3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x38",
             "type": "Unknown"
           }
         ],
@@ -63507,11 +63325,6 @@
         ],
         "parent": null
       },
-      "__Fz__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "audioparams_t": {
         "fields": {
           "localBits": 108,
@@ -63566,16 +63379,6 @@
             "type": "Unknown"
           }
         ],
-        "parent": null
-      },
-      "int32": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "int32_5_": {
-        "fields": {},
-        "metadata": [],
         "parent": null
       },
       "sControlGroupElem": {
@@ -63683,11 +63486,6 @@
           "WATER_WAKE_WATER_OVERHEAD": 4
         },
         "type": "uint32"
-      },
-      "DOTAInternational2025PredictionRankings": {
-        "alignment": 18,
-        "members": {},
-        "type": "unknown"
       },
       "DOTAKeybindCommand_t": {
         "alignment": 4,
@@ -65375,11 +65173,6 @@
           "k_EWeekendTourneyRichPresenceEvent_WonMatch": 2
         },
         "type": "uint32"
-      },
-      "H____WH___H__H_ڹ__": {
-        "alignment": 165,
-        "members": {},
-        "type": "unknown"
       },
       "NeutralCampStackPullAlarmType_t": {
         "alignment": 4,

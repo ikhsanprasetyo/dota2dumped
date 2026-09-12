@@ -39,10 +39,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -305,10 +301,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -612,10 +604,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -1537,10 +1525,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -2028,11 +2012,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -2044,7 +2024,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -2122,11 +2106,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -2138,7 +2118,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -2213,11 +2197,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -2229,7 +2209,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -2329,11 +2313,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
+            "name": "steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -2345,7 +2325,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -2637,10 +2621,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -3311,10 +3291,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -3429,10 +3405,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -4976,10 +4948,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -5075,10 +5043,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -5141,10 +5105,6 @@
           },
           {
             "name": "o",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -5227,10 +5187,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -5605,10 +5561,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -5634,10 +5586,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -5688,10 +5636,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -5812,10 +5756,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -5904,10 +5844,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -6173,10 +6109,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -6205,10 +6137,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -6333,10 +6261,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -6435,10 +6359,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -6484,10 +6404,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -6679,10 +6595,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -6786,10 +6698,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -7027,10 +6935,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -7585,10 +7489,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7658,10 +7558,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -7697,18 +7593,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7718,10 +7602,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -7749,7 +7629,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -7785,10 +7665,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -7810,10 +7686,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -7879,11 +7751,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],
@@ -7947,10 +7815,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
@@ -7988,11 +7852,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],
@@ -8018,11 +7878,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -8058,11 +7914,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],
@@ -8087,11 +7939,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -8132,10 +7980,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -8324,10 +8168,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "LessThanEqual",
             "type": "Unknown"
           },
@@ -8438,10 +8278,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -8562,10 +8398,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "LessThanEqual",
             "type": "Unknown"
           },
@@ -8678,10 +8510,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -8798,10 +8626,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "LessThanEqual",
             "type": "Unknown"
           },
@@ -8858,11 +8682,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -8934,10 +8754,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9010,10 +8826,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9027,10 +8839,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -9052,10 +8860,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9128,10 +8932,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9148,31 +8948,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -9200,7 +8980,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -9355,10 +9139,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9375,15 +9155,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -9471,10 +9243,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9491,15 +9259,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -9591,10 +9351,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9611,15 +9367,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -9699,10 +9447,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9719,15 +9463,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -9811,10 +9547,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9831,15 +9563,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -9913,10 +9637,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9933,18 +9653,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -9957,7 +9665,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -10023,10 +9731,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10043,18 +9747,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10067,7 +9759,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -10137,10 +9829,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10157,18 +9845,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10181,7 +9857,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -10239,10 +9915,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10259,18 +9931,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10283,7 +9943,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -10345,10 +10005,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10365,18 +10021,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10389,7 +10033,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -10422,18 +10066,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -10487,18 +10119,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -10564,10 +10184,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10617,10 +10233,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10642,10 +10254,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -10673,10 +10281,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10698,10 +10302,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -10733,10 +10333,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10758,10 +10354,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -10807,10 +10399,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10827,18 +10415,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -10851,7 +10427,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -10899,11 +10475,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],
@@ -11108,10 +10680,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -11163,10 +10731,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "LessThanEqual",
             "type": "Unknown"
           },
@@ -11208,14 +10772,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -11439,14 +10995,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "Sub",
             "type": "Unknown"
           },
@@ -11512,10 +11060,6 @@
           },
           {
             "name": "ModelSpace",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -11670,14 +11214,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "Sub",
             "type": "Unknown"
           },
@@ -11743,10 +11279,6 @@
           },
           {
             "name": "ModelSpace",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -11766,14 +11298,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "Sub",
             "type": "Unknown"
           },
@@ -11839,10 +11363,6 @@
           },
           {
             "name": "ModelSpace",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -12121,10 +11641,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "LessThanEqual",
             "type": "Unknown"
           },
@@ -12166,14 +11682,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -12327,18 +11835,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -12406,18 +11902,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -12735,10 +12219,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "LessThanEqual",
             "type": "Unknown"
           },
@@ -12780,14 +12260,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -12955,10 +12427,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -12980,10 +12448,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -13022,10 +12486,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -13079,10 +12539,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -13149,18 +12605,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -13246,18 +12690,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13336,18 +12768,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13411,10 +12831,6 @@
           },
           {
             "name": "ModelSpace",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -13498,10 +12914,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13530,10 +12942,6 @@
           },
           {
             "name": "ModelSpace",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -13662,10 +13070,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13682,18 +13086,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13706,7 +13098,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -13798,10 +13190,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13878,10 +13266,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13940,10 +13324,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -13985,10 +13365,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -14058,10 +13434,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -14105,10 +13477,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -14178,10 +13546,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -14252,18 +13616,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -14385,11 +13737,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],
@@ -14430,10 +13778,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -14455,10 +13799,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -14619,18 +13959,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -14640,10 +13968,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -14671,7 +13995,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -14707,18 +14031,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -14728,10 +14040,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -14759,7 +14067,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -14869,10 +14177,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -14894,10 +14198,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -14940,10 +14240,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -14978,23 +14274,11 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -15022,7 +14306,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -15060,10 +14344,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -15085,10 +14365,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -15302,10 +14578,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -15384,10 +14656,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -15591,10 +14859,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -15838,18 +15102,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -16453,18 +15705,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -16728,18 +15968,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -16754,18 +15982,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -16962,10 +16178,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -17329,10 +16541,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17387,11 +16595,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],
@@ -17415,10 +16619,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17435,18 +16635,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17459,7 +16647,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -17519,10 +16707,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17539,18 +16723,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17563,7 +16735,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -17611,10 +16783,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17631,18 +16799,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17655,7 +16811,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -17711,10 +16867,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17731,18 +16883,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17755,7 +16895,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -17795,10 +16935,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17815,18 +16951,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17839,7 +16963,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -17887,10 +17011,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17907,18 +17027,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17931,7 +17039,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -17969,18 +17077,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -17990,10 +17086,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -18021,7 +17113,7 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
@@ -18089,10 +17181,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -18313,10 +17401,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -18922,7 +18006,7 @@
             "type": "Unknown"
           },
           {
-            "name": "teseekerPC\\.local\\bin;C:\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$buc",
+            "name": "x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$buc",
             "type": "Unknown"
           },
           {
@@ -19160,7 +18244,7 @@
             "type": "Unknown"
           },
           {
-            "name": "teseekerPC\\.local\\bin;C:\\Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$buc",
+            "name": "x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$buc",
             "type": "Unknown"
           },
           {
@@ -19768,10 +18852,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "y\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -19976,10 +19056,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -20120,10 +19196,6 @@
             "type": "Unknown"
           },
           {
-            "name": "y\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -20257,10 +19329,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -20336,10 +19404,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -20876,10 +19940,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -20896,7 +19956,7 @@
             "type": "Unknown"
           },
           {
-            "name": "D",
+            "name": "les\\Eclipse Adoptium\\jdk-17.0.CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files",
             "type": "Unknown"
           }
         ],
@@ -21186,10 +20246,6 @@
           },
           {
             "name": "REQUIREMENT_FAIL",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -24170,10 +23226,6 @@
           {
             "name": "REQUIREMENT_FAIL",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -24318,7 +23370,7 @@
             "type": "Unknown"
           },
           {
-            "name": "Program Files\\Cloudflare\\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
+            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],
@@ -24718,10 +23770,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "Node",
             "type": "Unknown"
           },
@@ -24795,10 +23843,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           }
         ],
@@ -25674,10 +24718,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -25690,10 +24730,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -26093,10 +25129,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -26274,10 +25306,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -26527,10 +25555,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -26617,10 +25641,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -26913,10 +25933,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "PF_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -27009,10 +26025,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -27238,10 +26250,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -27788,10 +26796,6 @@
             "type": "Unknown"
           },
           {
-            "name": "7",
-            "type": "Unknown"
-          },
-          {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
@@ -27985,10 +26989,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {
@@ -29088,10 +28088,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "7",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -29313,10 +28309,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "7",
             "type": "Unknown"
           },
           {

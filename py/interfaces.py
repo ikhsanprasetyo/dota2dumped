@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-08 18:57:21.198986700 +07:00
+# 2026-09-12 14:05:43.501828300 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -8,16 +8,16 @@ class Interfaces:
         AnimationSystem_001 = 0x831E70
     # Module: client.dll
     class ClientDll:
-        ClientToolsInfo_001 = 0x5A81BD0
-        DOTA_CLIENT_GCCLIENT = 0x6359160
-        GameClientExports001 = 0x5A7D8F8
-        LegacyGameUI001 = 0x5AEC020
-        PanoramaUIClient001 = 0x5B18C50
-        PlayButtonService001 = 0x5AF9CF8
-        Source2Client002 = 0x61AC1B0
-        Source2ClientConfig001 = 0x6154600
-        Source2ClientPrediction001 = 0x5A860B0
-        Source2ClientUI001 = 0x586F5C0
+        ClientToolsInfo_001 = 0x5A84BD0
+        DOTA_CLIENT_GCCLIENT = 0x635C1D0
+        GameClientExports001 = 0x5A808F8
+        LegacyGameUI001 = 0x5AEF060
+        PanoramaUIClient001 = 0x5B1BC70
+        PlayButtonService001 = 0x5AFCD38
+        Source2Client002 = 0x61AF230
+        Source2ClientConfig001 = 0x61577F0
+        Source2ClientPrediction001 = 0x5A890B0
+        Source2ClientUI001 = 0x58725C0
     # Module: engine2.dll
     class Engine2Dll:
         BenchmarkService001 = 0x614B60
@@ -133,13 +133,13 @@ class Interfaces:
     # Module: server.dll
     class ServerDll:
         EntitySubclassUtilsV001 = 0x4741A10
-        NavGameTest001 = 0x49E4CD0
-        ServerToolsInfo_001 = 0x494DD18
-        Source2GameClients001 = 0x4947ED0
-        Source2GameDirector001 = 0x5025DA0
-        Source2GameEntities001 = 0x494D4C0
-        Source2Server001 = 0x494D310
-        Source2ServerConfig001 = 0x4F50758
+        NavGameTest001 = 0x49E4D50
+        ServerToolsInfo_001 = 0x494DD98
+        Source2GameClients001 = 0x4947F50
+        Source2GameDirector001 = 0x5025E30
+        Source2GameEntities001 = 0x494D540
+        Source2Server001 = 0x494D390
+        Source2ServerConfig001 = 0x4F507C8
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundBugBugService001_Client = 0x553250

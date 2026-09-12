@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-08 18:57:21.198986700 +07:00
+// 2026-09-12 14:05:43.501828300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7208
-    // Enum count: 120
+    // Class count: 7204
+    // Enum count: 118
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -1988,6 +1988,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_BreakableProp
         // Field count: 19
+        //
+        // Metadata:
+        // n
         public static class CDarkCarnivalCrateDropEntity {
             public const nint m_unDefID = 0xC40; // DOTACrateDropObjectDefID_t
             public const nint m_flAcceleration = 0xC50; // float32
@@ -5764,9 +5767,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // generic
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // i
         public static class CPulseCell_ShmupWaitForDuration {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
@@ -7001,7 +7002,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7
         public static class CHitboxComponent {
             public const nint m_flBoundsExpandRadius = 0x14; // float32
         }
@@ -8649,7 +8649,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // S
-        // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
+        // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
         // e
         public static class C_DOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0xD10; // bool
@@ -8900,7 +8900,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 7
         public static class CRenderComponent {
             public const nint __m_pChainEntity = 0x10; // CNetworkVarChainer
             public const nint m_bIsRenderingWithViewModels = 0x50; // bool
@@ -11467,9 +11466,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         // MPropertyFriendlyName
-        // 7
         // MGetKV3ClassDefaults
-        // 7
         public static class CPulseCell_BaseState {
         }
         // Parent: None
@@ -14247,9 +14244,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_BaseModelEntity
         // Field count: 0
-        //
-        // Metadata:
-        //  
         public static class CDOTA_WhackAMoleGameEffectsEntity {
         }
         // Parent: C_DOTA_Item
@@ -15647,7 +15641,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // CInlineJob_CMsgGCToClientInFlightChargesUpdated
-        // 7
         public static class C_PortraitWorldUnit {
             public const nint m_OutputAnimOver = 0x19B8; // CEntityIOOutput
             public const nint m_bSuppressIntroEffects = 0x19D0; // bool
@@ -16203,9 +16196,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_BaseEntity
         // Field count: 0
-        //
-        // Metadata:
-        // 7
         public static class C_DOTAPortraitWorldCallbackHandler {
         }
         // Parent: None
@@ -17786,7 +17776,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+        // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CPulseCell_BaseLerp {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
@@ -22231,8 +22221,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // 7
-        // 7
         public static class C_BodyComponentBaseAnimating {
             public const nint m_animationController = 0x530; // C_BaseAnimatingController
         }
@@ -25578,7 +25566,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // Q
         // MGetKV3ClassDefaults
-        // 7
         public static class C_GlobalLight {
             public const nint m_WindClothForceHandle = 0xB10; // uint16
         }
@@ -25670,7 +25657,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         //
         // Metadata:
-        // 7
+        // M
+        // e
         public static class CDOTA_FightingGame_EffectsEntity {
         }
         // Parent: C_DOTA_Item
@@ -26406,7 +26394,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+        // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x530; // CBaseAnimGraphController
         }
@@ -30330,7 +30318,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 7
         public static class C_EnvDeferredLight {
         }
         // Parent: C_DOTA_Item
@@ -34755,12 +34742,6 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: C_BaseModelEntity
         // Field count: 0
-        //
-        // Metadata:
-        // n
-        // n
-        // 7
-        // 7
         public static class CDarkCarnivalCrateDropGameEffectsEntity {
         }
         // Parent: C_DOTA_Item
@@ -37858,8 +37839,6 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
-        // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
-        // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -40885,7 +40864,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
         public static class CPulseCell_WaitForPanelClass {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
@@ -41614,7 +41592,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // S
-        // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
+        // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
         // e
         public static class C_DOTA_GuildBannerProp {
         }
@@ -42937,7 +42915,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 0
         public static class CEntityIdentity {
             public const nint m_nameStringTableIndex = 0x14; // int32
             public const nint m_name = 0x18; // CUtlSymbolLarge
@@ -43413,15 +43390,16 @@ namespace Source2Dumper.Schemas {
         // Field count: 6
         //
         // Metadata:
-        // BankRight
-        // Gesture_Caw
-        // Gesture_Preen2
-        // Glide
-        // Idle2
-        // Idle3_Foreground_Popup
-        // Takeoff
-        // Frighten_Click
-        // Hop
+        // BankLeft
+        // Fly
+        // Gesture_Preen1
+        // Gesture_Ruffle
+        // Idle1
+        // Idle3
+        // Land
+        // Talon_Grip
+        // Walk
+        // Startle1
         public static class CDOTA_DarkCarnival_MurderOfCrows {
             public const nint m_hCrowModel = 0x5F0; // CStrongHandle<InfoForResourceTypeCModel>
             public const nint m_sCrowExplodeVFX = 0x5F8; // CUtlSymbolLarge
@@ -45164,9 +45142,9 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
         // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class DOTACrateDropLevelDefID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -45177,7 +45155,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
+        // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyProgressBarDef_t {
             public const nint m_flNotchSize = 0xB0; // float32
@@ -45213,7 +45191,6 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // 7
         public static class ArtyWeaponID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -45310,7 +45287,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         public static class CSurvivorsEnemyDefinition_Pillar {
         }
         // Parent: None
@@ -45378,7 +45354,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
+        // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyCannonDef_t {
             public const nint m_bDirectAimAtTarget = 0xB0; // bool
@@ -45520,7 +45496,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         public static class CShmupTrackDefinition {
             public const nint m_strName = 0x0; // CUtlString
             public const nint m_vecEvents = 0x8; // CUtlVector<CShmupEventTime>
@@ -45549,9 +45524,10 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // text
-        // CGCClientJobCMsgGCGetHeroStandingsResponse
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class ShmupPathID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -45587,7 +45563,6 @@ namespace Source2Dumper.Schemas {
         // xdigit
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // n
         public static class CDOTACrateDropHazardDef {
             public const nint m_flExplosionRadius = 0xE8; // float32
             public const nint m_flExplosionStrength = 0xEC; // float32
@@ -45690,7 +45665,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -45821,7 +45795,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         // n
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -45844,7 +45817,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // n
         // n
         public static class CDOTACrateDropTrackLightDef {
         }
@@ -45932,7 +45904,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         public static class CSurvivorsPowerUpDefinition_Spirits {
             public const nint m_sParticle = 0x6A0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_sExplosionParticle = 0x780; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -45973,7 +45944,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 7
         public static class CSurvivorsDifficultyDefinition {
             public const nint m_sLocDifficultyName = 0x0; // CUtlString
             public const nint m_sLocDifficultyDescription = 0x8; // CUtlString
@@ -46036,7 +46006,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         // n
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -46163,7 +46132,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         // n
         // MGetKV3ClassDefaults
         public static class CSurvivorsSpawnerGolemDefinition {
@@ -46208,7 +46176,6 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // 7
         public static class ArtyGraphicID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -46274,25 +46241,22 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCToClientQuestProgressUpdated
         // MGetKV3ClassDefaults
-        // alnum
         // a
-        // blank
-        // c
+        // alpha
+        // b
+        // cntrl
         // d
-        // d
-        // graph
-        // l
-        // print
+        // digit
+        // g
+        // lower
         // p
-        // space
+        // punct
         // s
-        // upper
+        // s
+        // u
         // w
-        // xdigit
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
+        // x
         // n
         public static class CDOTACrateDropDroppableDef {
             public const nint m_flBasePoints = 0xE0; // float32
@@ -46358,7 +46322,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         public static class CSurvivorsPowerUpDefinition_Frostbite {
             public const nint m_flScepterExplodeRadius = 0x788; // float32
         }
@@ -46391,7 +46354,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -46551,7 +46513,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
+        // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtySpawnerDef_t {
             public const nint m_flInitialDelay = 0xB0; // float32
@@ -46587,7 +46549,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -46706,7 +46667,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         public static class CSurvivorsEnemyDefinition_ImperiaBoss {
             public const nint m_flBurningGroundImpactDamage = 0x288; // float32
             public const nint m_flBurningGroundImpactRadius = 0x28C; // float32
@@ -46844,7 +46804,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // lare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+        // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // Y
         // MGetKV3ClassDefaults
@@ -46970,7 +46930,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -47076,7 +47035,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // n
         // n
         public static class CDOTACrateDropPlatformDef {
         }
@@ -47265,7 +47223,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
+        // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyUnitDef_t {
             public const nint m_bRotateReloadBar = 0xB0; // bool
@@ -47443,7 +47401,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -47498,7 +47455,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         public static class CSurvivorsEnemyDefinition_Golem {
         }
         // Parent: None
@@ -47540,9 +47496,10 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // MGetKV3ClassDefaults
         // text
-        // CGCClientJobCMsgGCGetHeroStandingsResponse
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class ShmupEnemyID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47592,7 +47549,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
-        // 0x3651/0x6000,0x03f0/0x0495,0x044f/0xd012,0x045e/0x02d1,0x045e/0x02dd,0x045e/0x02e0,0x045e/0x02ea,0x045e/0x02fd,0x045e/0x02ff,0x
+        // 3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x38
         public static class SurvivorsParticleID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47616,9 +47573,9 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
         // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class DOTACrateDropObjectDefID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -47710,7 +47667,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
         public static class CDOTACrateDropObjectDef {
             public const nint m_unID = 0x10; // DOTACrateDropObjectDefID_t
             public const nint m_eType = 0x14; // EDOTACrateDropObjectType
@@ -47781,7 +47737,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 7
         // MGetKV3ClassDefaults
         // V
         // MGetKV3ClassDefaults
@@ -47881,12 +47836,10 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // generic
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // generic
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class ShmupEventID_t {
@@ -48110,6 +48063,7 @@ namespace Source2Dumper.Schemas {
         // u
         // w
         // x
+        // n
         public static class CDOTACrateDropPowerupDef {
             public const nint m_ePowerupType = 0xE8; // EDOTACrateDropPowerupType
         }
@@ -48157,7 +48111,7 @@ namespace Source2Dumper.Schemas {
         // DMG_DROWNRECOVER
         // DMG_ACID
         // DMG_LASTGENERICFLAG
-        // 0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,
+        // 804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0x0302,0x0079/0x000a,0x25f0/0x83c
         // DAMAGE_EVENTS_ONLY
         // DAMAGE_YES
         public static class CClientAlphaProperty {
@@ -48228,7 +48182,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MPropertyDescription
         public static class CDOTAOverworldHeroReward {
             public const nint m_unHeroID = 0x0; // HeroID_t
             public const nint m_vecTokenNames = 0x48; // CUtlVector<CUtlString>
@@ -48263,7 +48216,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // lare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+        // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CSurvivorsPowerUpDefinition_AreaAttack_Line {
             public const nint m_bUseFacingDirection = 0x868; // bool
         }
@@ -48552,7 +48505,6 @@ namespace Source2Dumper.Schemas {
         // k_EArtyOrderFlag_PowerDown
         // k_EArtyOrderFlag_MoveUp
         // k_EArtyOrderFlag_MoveDown
-        // 7
         public static class ArtyGameObjectID_t {
             public const nint m_Value = 0x0; // uint32
         }
@@ -48930,7 +48882,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7
         // MGetKV3ClassDefaults
         // V
         public static class CSurvivorsPowerUpDefinition_Swashbuckle {
@@ -48941,6 +48892,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // Y
         public static class CDOTAOverworldEncounter {
             public const nint m_sName = 0x8; // CUtlString
             public const nint m_sTemplate = 0x10; // CUtlString
@@ -49092,7 +49044,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // n
         // MGetKV3ClassDefaults
-        // 7
         public static class CSurvivorsEnemyDefinition_Absorber {
             public const nint m_flModelScaleIncreasePerAbsorb = 0x288; // float32
             public const nint m_flMaxModelScale = 0x28C; // float32
@@ -49296,22 +49247,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_flRadius = 0x8; // float32
             public const nint m_nHitRegionIndex = 0xC; // int32
             public const nint m_nDamageMultiplier = 0x10; // int32
-        }
-        // Parent: None
-        // Field count: 0
-        public static class int32 {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class int32 {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class int32_5_ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __Fz__ {
         }
     }
 }

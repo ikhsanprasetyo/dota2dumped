@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-08 18:57:21.198986700 +07:00
+// 2026-09-12 14:05:43.501828300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 7208
-        // Enum count: 120
+        // Class count: 7204
+        // Enum count: 118
         pub mod client_dll {
             // Alignment: 4
             // Member count: 5
@@ -2108,6 +2108,9 @@ pub mod source2_dumper {
             }
             // Parent: C_BreakableProp
             // Field count: 19
+            //
+            // Metadata:
+            // n
             pub mod CDarkCarnivalCrateDropEntity {
                 pub const m_unDefID: usize = 0xC40; // DOTACrateDropObjectDefID_t
                 pub const m_flAcceleration: usize = 0xC50; // float32
@@ -5884,9 +5887,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // generic
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // i
             pub mod CPulseCell_ShmupWaitForDuration {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
@@ -7121,7 +7122,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7
             pub mod CHitboxComponent {
                 pub const m_flBoundsExpandRadius: usize = 0x14; // float32
             }
@@ -8769,7 +8769,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // S
-            // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
+            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // e
             pub mod C_DOTA_GuildBannerDynamic {
                 pub const m_bRespawnClientEntity: usize = 0xD10; // bool
@@ -9020,7 +9020,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7
             pub mod CRenderComponent {
                 pub const __m_pChainEntity: usize = 0x10; // CNetworkVarChainer
                 pub const m_bIsRenderingWithViewModels: usize = 0x50; // bool
@@ -11587,9 +11586,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
-            // 7
             // MGetKV3ClassDefaults
-            // 7
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -14367,9 +14364,6 @@ pub mod source2_dumper {
             }
             // Parent: C_BaseModelEntity
             // Field count: 0
-            //
-            // Metadata:
-            //  
             pub mod CDOTA_WhackAMoleGameEffectsEntity {
             }
             // Parent: C_DOTA_Item
@@ -15767,7 +15761,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // CInlineJob_CMsgGCToClientInFlightChargesUpdated
-            // 7
             pub mod C_PortraitWorldUnit {
                 pub const m_OutputAnimOver: usize = 0x19B8; // CEntityIOOutput
                 pub const m_bSuppressIntroEffects: usize = 0x19D0; // bool
@@ -16323,9 +16316,6 @@ pub mod source2_dumper {
             }
             // Parent: C_BaseEntity
             // Field count: 0
-            //
-            // Metadata:
-            // 7
             pub mod C_DOTAPortraitWorldCallbackHandler {
             }
             // Parent: None
@@ -17906,7 +17896,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CPulseCell_BaseLerp {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
@@ -22351,8 +22341,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // 7
-            // 7
             pub mod C_BodyComponentBaseAnimating {
                 pub const m_animationController: usize = 0x530; // C_BaseAnimatingController
             }
@@ -25698,7 +25686,6 @@ pub mod source2_dumper {
             // Metadata:
             // Q
             // MGetKV3ClassDefaults
-            // 7
             pub mod C_GlobalLight {
                 pub const m_WindClothForceHandle: usize = 0xB10; // uint16
             }
@@ -25790,7 +25777,8 @@ pub mod source2_dumper {
             // Field count: 0
             //
             // Metadata:
-            // 7
+            // M
+            // e
             pub mod CDOTA_FightingGame_EffectsEntity {
             }
             // Parent: C_DOTA_Item
@@ -26526,7 +26514,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // \Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CBodyComponentBaseAnimGraph {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             }
@@ -30450,7 +30438,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7
             pub mod C_EnvDeferredLight {
             }
             // Parent: C_DOTA_Item
@@ -34875,12 +34862,6 @@ pub mod source2_dumper {
             }
             // Parent: C_BaseModelEntity
             // Field count: 0
-            //
-            // Metadata:
-            // n
-            // n
-            // 7
-            // 7
             pub mod CDarkCarnivalCrateDropGameEffectsEntity {
             }
             // Parent: C_DOTA_Item
@@ -37978,8 +37959,6 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
-            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
-            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -41005,7 +40984,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             pub mod CPulseCell_WaitForPanelClass {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
@@ -41734,7 +41712,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // S
-            // Program Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
+            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // e
             pub mod C_DOTA_GuildBannerProp {
             }
@@ -43057,7 +43035,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 0
             pub mod CEntityIdentity {
                 pub const m_nameStringTableIndex: usize = 0x14; // int32
                 pub const m_name: usize = 0x18; // CUtlSymbolLarge
@@ -43533,15 +43510,16 @@ pub mod source2_dumper {
             // Field count: 6
             //
             // Metadata:
-            // BankRight
-            // Gesture_Caw
-            // Gesture_Preen2
-            // Glide
-            // Idle2
-            // Idle3_Foreground_Popup
-            // Takeoff
-            // Frighten_Click
-            // Hop
+            // BankLeft
+            // Fly
+            // Gesture_Preen1
+            // Gesture_Ruffle
+            // Idle1
+            // Idle3
+            // Land
+            // Talon_Grip
+            // Walk
+            // Startle1
             pub mod CDOTA_DarkCarnival_MurderOfCrows {
                 pub const m_hCrowModel: usize = 0x5F0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_sCrowExplodeVFX: usize = 0x5F8; // CUtlSymbolLarge
@@ -45284,9 +45262,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
             // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod DOTACrateDropLevelDefID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -45297,7 +45275,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
+            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub mod ArtyProgressBarDef_t {
                 pub const m_flNotchSize: usize = 0xB0; // float32
@@ -45333,7 +45311,6 @@ pub mod source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 7
             pub mod ArtyWeaponID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -45430,7 +45407,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             pub mod CSurvivorsEnemyDefinition_Pillar {
             }
             // Parent: None
@@ -45498,7 +45474,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
+            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub mod ArtyCannonDef_t {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
@@ -45640,7 +45616,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub mod CShmupTrackDefinition {
                 pub const m_strName: usize = 0x0; // CUtlString
                 pub const m_vecEvents: usize = 0x8; // CUtlVector<CShmupEventTime>
@@ -45669,9 +45644,10 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // text
-            // CGCClientJobCMsgGCGetHeroStandingsResponse
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod ShmupPathID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -45707,7 +45683,6 @@ pub mod source2_dumper {
             // xdigit
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // n
             pub mod CDOTACrateDropHazardDef {
                 pub const m_flExplosionRadius: usize = 0xE8; // float32
                 pub const m_flExplosionStrength: usize = 0xEC; // float32
@@ -45810,7 +45785,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -45941,7 +45915,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             // n
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -45964,7 +45937,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // n
             // n
             pub mod CDOTACrateDropTrackLightDef {
             }
@@ -46052,7 +46024,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             pub mod CSurvivorsPowerUpDefinition_Spirits {
                 pub const m_sParticle: usize = 0x6A0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_sExplosionParticle: usize = 0x780; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -46093,7 +46064,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7
             pub mod CSurvivorsDifficultyDefinition {
                 pub const m_sLocDifficultyName: usize = 0x0; // CUtlString
                 pub const m_sLocDifficultyDescription: usize = 0x8; // CUtlString
@@ -46156,7 +46126,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             // n
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -46283,7 +46252,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             // n
             // MGetKV3ClassDefaults
             pub mod CSurvivorsSpawnerGolemDefinition {
@@ -46328,7 +46296,6 @@ pub mod source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 7
             pub mod ArtyGraphicID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -46394,25 +46361,22 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientQuestProgressUpdated
             // MGetKV3ClassDefaults
-            // alnum
             // a
-            // blank
-            // c
+            // alpha
+            // b
+            // cntrl
             // d
-            // d
-            // graph
-            // l
-            // print
+            // digit
+            // g
+            // lower
             // p
-            // space
+            // punct
             // s
-            // upper
+            // s
+            // u
             // w
-            // xdigit
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // x
             // n
             pub mod CDOTACrateDropDroppableDef {
                 pub const m_flBasePoints: usize = 0xE0; // float32
@@ -46478,7 +46442,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             pub mod CSurvivorsPowerUpDefinition_Frostbite {
                 pub const m_flScepterExplodeRadius: usize = 0x788; // float32
             }
@@ -46511,7 +46474,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46671,7 +46633,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
+            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub mod ArtySpawnerDef_t {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
@@ -46707,7 +46669,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -46826,7 +46787,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             pub mod CSurvivorsEnemyDefinition_ImperiaBoss {
                 pub const m_flBurningGroundImpactDamage: usize = 0x288; // float32
                 pub const m_flBurningGroundImpactRadius: usize = 0x28C; // float32
@@ -46964,7 +46924,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // lare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
@@ -47090,7 +47050,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47196,7 +47155,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // n
             // n
             pub mod CDOTACrateDropPlatformDef {
             }
@@ -47385,7 +47343,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            //  Files\Cloudflare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
+            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub mod ArtyUnitDef_t {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
@@ -47563,7 +47521,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -47618,7 +47575,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             pub mod CSurvivorsEnemyDefinition_Golem {
             }
             // Parent: None
@@ -47660,9 +47616,10 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // MGetKV3ClassDefaults
             // text
-            // CGCClientJobCMsgGCGetHeroStandingsResponse
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod ShmupEnemyID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47712,7 +47669,7 @@ pub mod source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // 0x3651/0x6000,0x03f0/0x0495,0x044f/0xd012,0x045e/0x02d1,0x045e/0x02dd,0x045e/0x02e0,0x045e/0x02ea,0x045e/0x02fd,0x045e/0x02ff,0x
+            // 3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x38
             pub mod SurvivorsParticleID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47736,9 +47693,9 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
             // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod DOTACrateDropObjectDefID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -47830,7 +47787,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // CInlineJob_CMsgGCToClientCavernCrawlMapPathCompleted
             pub mod CDOTACrateDropObjectDef {
                 pub const m_unID: usize = 0x10; // DOTACrateDropObjectDefID_t
                 pub const m_eType: usize = 0x14; // EDOTACrateDropObjectType
@@ -47901,7 +47857,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7
             // MGetKV3ClassDefaults
             // V
             // MGetKV3ClassDefaults
@@ -48001,12 +47956,10 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // generic
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // generic
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             pub mod ShmupEventID_t {
@@ -48230,6 +48183,7 @@ pub mod source2_dumper {
             // u
             // w
             // x
+            // n
             pub mod CDOTACrateDropPowerupDef {
                 pub const m_ePowerupType: usize = 0xE8; // EDOTACrateDropPowerupType
             }
@@ -48277,7 +48231,7 @@ pub mod source2_dumper {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // 0,0x0e6f/0x012a,0x0e6f/0x02b2,0x0f0d/0x0097,0x0f0d/0x00ba,0x0f0d/0x00d8,0x0fff/0x02a1,0x045e/0x0867,0x16d0/0x0f3f,0x2f24/0x008f,
+            // 804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0x0302,0x0079/0x000a,0x25f0/0x83c
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             pub mod CClientAlphaProperty {
@@ -48348,7 +48302,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyDescription
             pub mod CDOTAOverworldHeroReward {
                 pub const m_unHeroID: usize = 0x0; // HeroID_t
                 pub const m_vecTokenNames: usize = 0x48; // CUtlVector<CUtlString>
@@ -48383,7 +48336,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // lare\ClSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CSurvivorsPowerUpDefinition_AreaAttack_Line {
                 pub const m_bUseFacingDirection: usize = 0x868; // bool
             }
@@ -48672,7 +48625,6 @@ pub mod source2_dumper {
             // k_EArtyOrderFlag_PowerDown
             // k_EArtyOrderFlag_MoveUp
             // k_EArtyOrderFlag_MoveDown
-            // 7
             pub mod ArtyGameObjectID_t {
                 pub const m_Value: usize = 0x0; // uint32
             }
@@ -49050,7 +49002,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7
             // MGetKV3ClassDefaults
             // V
             pub mod CSurvivorsPowerUpDefinition_Swashbuckle {
@@ -49061,6 +49012,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Y
             pub mod CDOTAOverworldEncounter {
                 pub const m_sName: usize = 0x8; // CUtlString
                 pub const m_sTemplate: usize = 0x10; // CUtlString
@@ -49212,7 +49164,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // n
             // MGetKV3ClassDefaults
-            // 7
             pub mod CSurvivorsEnemyDefinition_Absorber {
                 pub const m_flModelScaleIncreasePerAbsorb: usize = 0x288; // float32
                 pub const m_flMaxModelScale: usize = 0x28C; // float32
@@ -49416,22 +49367,6 @@ pub mod source2_dumper {
                 pub const m_flRadius: usize = 0x8; // float32
                 pub const m_nHitRegionIndex: usize = 0xC; // int32
                 pub const m_nDamageMultiplier: usize = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod int32 {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod int32 {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod int32_5_ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod __Fz__ {
             }
         }
     }
