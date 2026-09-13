@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -999,7 +999,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // les\Eclipse Adoptium\jdk-17.0.CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+            // TUAL_GAMEPAD=1
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -2256,7 +2256,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             pub mod C_OP_RemapSpeedtoCP {
                 pub const m_nInControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nOutControlPointNumber: usize = 0x1E4; // int32
@@ -4551,7 +4550,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -6728,7 +6726,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7434,7 +7431,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -8360,7 +8356,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8717,7 +8712,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10159,7 +10153,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             pub mod C_OP_SetRandomControlPointPosition {
                 pub const m_bUseWorldLocation: usize = 0x1E0; // bool
                 pub const m_bOrient: usize = 0x1E1; // bool
@@ -10787,7 +10780,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             pub mod C_OP_SetSingleControlPointPosition {
                 pub const m_bSetOnce: usize = 0x1E0; // bool
                 pub const m_nCP1: usize = 0x1E4; // int32
@@ -11552,7 +11544,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14049,7 +14040,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14315,7 +14305,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             pub mod C_OP_ModelSurfaceSnapshotGenerator {
                 pub const m_nCPSnapshot: usize = 0x1E0; // int32
                 pub const m_modelInput: usize = 0x1E8; // CParticleModelInput
@@ -15856,7 +15845,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17980,7 +17968,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             pub mod C_OP_SetControlPointFieldFromVectorExpression {
                 pub const m_nExpression: usize = 0x1E0; // VectorFloatExpressionType_t
                 pub const m_vecInput1: usize = 0x1E8; // CParticleCollectionVecInput
@@ -18754,7 +18741,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -19300,7 +19286,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -20445,7 +20430,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21424,7 +21408,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -25509,7 +25492,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -26068,7 +26050,6 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults

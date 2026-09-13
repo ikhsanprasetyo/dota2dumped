@@ -2012,10 +2012,6 @@
             "type": "Unknown"
           },
           {
-            "name": "steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2106,10 +2102,6 @@
             "type": "Unknown"
           },
           {
-            "name": "steamapprun_pipeline_cache",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -2194,10 +2186,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -2310,10 +2298,6 @@
           },
           {
             "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -7749,10 +7733,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7850,10 +7830,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7875,10 +7851,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -7912,10 +7884,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -7936,10 +7904,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -8679,10 +8643,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           },
           {
@@ -10472,10 +10432,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],
@@ -13735,10 +13691,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -16593,10 +16545,6 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -18006,10 +17954,6 @@
             "type": "Unknown"
           },
           {
-            "name": "x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$buc",
-            "type": "Unknown"
-          },
-          {
             "name": "PF_ROUND_TYPE_INVALID",
             "type": "Unknown"
           },
@@ -18241,10 +18185,6 @@
           },
           {
             "name": "PF_MAP_TYPE_COUNT",
-            "type": "Unknown"
-          },
-          {
-            "name": "x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$buc",
             "type": "Unknown"
           },
           {
@@ -18852,6 +18792,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "y\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -19193,6 +19137,10 @@
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "y\\steamapps\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -19956,7 +19904,7 @@
             "type": "Unknown"
           },
           {
-            "name": "les\\Eclipse Adoptium\\jdk-17.0.CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files",
+            "name": "TUAL_GAMEPAD=1",
             "type": "Unknown"
           }
         ],
@@ -23367,10 +23315,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
             "type": "Unknown"
           }
         ],

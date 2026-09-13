@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 #pragma once
 
@@ -925,7 +925,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // les\Eclipse Adoptium\jdk-17.0.CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+            // TUAL_GAMEPAD=1
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -2182,7 +2182,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             namespace C_OP_RemapSpeedtoCP {
                 constexpr std::ptrdiff_t m_nInControlPointNumber = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_nOutControlPointNumber = 0x1E4; // int32
@@ -4477,7 +4476,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -6654,7 +6652,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7360,7 +7357,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -8286,7 +8282,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8643,7 +8638,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10085,7 +10079,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             namespace C_OP_SetRandomControlPointPosition {
                 constexpr std::ptrdiff_t m_bUseWorldLocation = 0x1E0; // bool
                 constexpr std::ptrdiff_t m_bOrient = 0x1E1; // bool
@@ -10713,7 +10706,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             namespace C_OP_SetSingleControlPointPosition {
                 constexpr std::ptrdiff_t m_bSetOnce = 0x1E0; // bool
                 constexpr std::ptrdiff_t m_nCP1 = 0x1E4; // int32
@@ -11478,7 +11470,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -13975,7 +13966,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14241,7 +14231,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             namespace C_OP_ModelSurfaceSnapshotGenerator {
                 constexpr std::ptrdiff_t m_nCPSnapshot = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_modelInput = 0x1E8; // CParticleModelInput
@@ -15782,7 +15771,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17906,7 +17894,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             namespace C_OP_SetControlPointFieldFromVectorExpression {
                 constexpr std::ptrdiff_t m_nExpression = 0x1E0; // VectorFloatExpressionType_t
                 constexpr std::ptrdiff_t m_vecInput1 = 0x1E8; // CParticleCollectionVecInput
@@ -18680,7 +18667,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -19226,7 +19212,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -20371,7 +20356,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21350,7 +21334,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -25435,7 +25418,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25994,7 +25976,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults

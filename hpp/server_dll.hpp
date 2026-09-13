@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 441
+        // Enum count: 439
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -19860,7 +19860,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // les\Eclipse Adoptium\jdk-17.0.CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+            // TUAL_GAMEPAD=1
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -35609,7 +35609,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
@@ -39523,6 +39522,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // _Position
             namespace CScriptComponent {
                 constexpr std::ptrdiff_t m_scriptClassName = 0x30; // CUtlSymbolLarge
             }
@@ -54921,14 +54921,12 @@ namespace source2_dumper {
             // Field count: 10
             //
             // Metadata:
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // n
             // n
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // 0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // S
             namespace CDOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0x9F0; // bool
@@ -56853,6 +56851,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyDescription
             // MGetKV3ClassDefaults
+            // \shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace RelationshipOverride_t {
@@ -57491,9 +57490,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             namespace BlessingPathID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -58506,7 +58502,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
-            // 0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -59398,7 +59393,7 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
-            // 0x1042,0x28S
+            // dules
             namespace AbilityContributionType_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint8
             }
@@ -59624,9 +59619,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             namespace BlessingTypeID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -60762,9 +60754,6 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
-            //
-            // Metadata:
-            // d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline
             namespace BlessingID_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
@@ -61690,7 +61679,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior

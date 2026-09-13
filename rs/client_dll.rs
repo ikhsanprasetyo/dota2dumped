@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -8769,7 +8769,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // S
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // e
             pub mod C_DOTA_GuildBannerDynamic {
                 pub const m_bRespawnClientEntity: usize = 0xD10; // bool
@@ -11431,6 +11430,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_BaseRequirement {
             }
             // Parent: C_DOTA_Item
@@ -14775,6 +14775,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_Inflow_BaseEntrypoint {
                 pub const m_EntryChunk: usize = 0x48; // PulseRuntimeChunkIndex_t
                 pub const m_RegisterMap: usize = 0x50; // PulseRegisterMap_t
@@ -17896,7 +17897,15 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // Po
+            // `S
+            // `T
+            // Po
+            // 0t
+            // pv
+            // @z
+            //  g
+            // Pl
             pub mod CPulseCell_BaseLerp {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             }
@@ -20679,6 +20688,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_BaseFlow {
             }
             // Parent: C_DOTA_BaseNPC_Hero
@@ -26236,6 +26246,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_Step_DebugLog {
             }
             // Parent: C_DOTA_BaseNPC_Hero
@@ -26514,7 +26525,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CBodyComponentBaseAnimGraph {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             }
@@ -27588,6 +27598,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_Inflow_ObservableVariableListener {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -28541,6 +28552,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_Outflow_CycleOrdered {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -32186,6 +32198,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // pv
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -32871,6 +32884,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_Inflow_Method {
                 pub const m_MethodName: usize = 0x80; // PulseSymbol_t
                 pub const m_Description: usize = 0x90; // CUtlString
@@ -33421,6 +33435,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_BaseValue {
             }
             // Parent: C_DOTA_Item
@@ -35476,6 +35491,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_Step_PublicOutput {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -37959,6 +37975,8 @@ pub mod source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -41551,6 +41569,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub mod CPulseCell_Step_CallExternalMethod {
                 pub const m_MethodName: usize = 0xD8; // PulseSymbol_t
                 pub const m_nBlackboardIndex: usize = 0xE8; // PulseRuntimeBlackboardReferenceIndex_t
@@ -41712,7 +41731,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // S
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // e
             pub mod C_DOTA_GuildBannerProp {
             }
@@ -45275,7 +45293,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub mod ArtyProgressBarDef_t {
                 pub const m_flNotchSize: usize = 0xB0; // float32
@@ -45474,7 +45491,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub mod ArtyCannonDef_t {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
@@ -46633,7 +46649,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub mod ArtySpawnerDef_t {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
@@ -46924,7 +46939,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
@@ -47343,7 +47357,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub mod ArtyUnitDef_t {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
@@ -48336,7 +48349,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub mod CSurvivorsPowerUpDefinition_AreaAttack_Line {
                 pub const m_bUseFacingDirection: usize = 0x868; // bool
             }

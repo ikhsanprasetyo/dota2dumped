@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1766,7 +1766,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // les\Eclipse Adoptium\jdk-17.0.CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+            // TUAL_GAMEPAD=1
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -3084,7 +3084,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             pub mod CNmParameterizedBlendNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
@@ -3614,7 +3613,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskBlendNode__CDefinition {
                 pub const m_nSourceMaskNodeIdx: usize = 0x10; // int16
@@ -3708,6 +3706,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // y\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -4344,7 +4343,6 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5502,7 +5500,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             pub mod CNmVelocityBlendNode__CDefinition {
             }
             // Parent: None
@@ -5604,6 +5601,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // y\steamapps\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             pub mod CParticleVecInput {
                 pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
@@ -5686,7 +5684,6 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskSelectorNode__CDefinition {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
@@ -6034,7 +6031,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // steamapprun_pipeline_cache
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6948,7 +6944,6 @@ pub mod source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$buc
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -8162,7 +8157,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             pub mod CQuaternionAnimParameter {
                 pub const m_defaultValue: usize = 0x80; // Quaternion
                 pub const m_bInterpolate: usize = 0x90; // bool
@@ -9423,7 +9417,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             pub mod CNmFixedWeightBoneMaskNode__CDefinition {
                 pub const m_flBoneWeight: usize = 0x10; // float32
             }
@@ -9699,7 +9692,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             pub mod CNmBlend2DNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9753,7 +9745,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // steamapprun_pipeline_cache
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10323,7 +10314,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             pub mod CNmBodyGroupNode__CDefinition {
                 pub const m_nEnabledNodeIdx: usize = 0x18; // int16
                 pub const m_event: usize = 0x20; // CNmBodyGroupEvent
@@ -10370,7 +10360,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // steamapprun_pipeline_cache
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11302,7 +11291,6 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
-            // steamapprun_pipeline_cache
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -12232,7 +12220,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             pub mod CNmBoneMaskNode__CDefinition {
                 pub const m_boneMaskID: usize = 0x10; // CGlobalSymbol
             }
@@ -13243,7 +13230,6 @@ pub mod source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
-            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$buc
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

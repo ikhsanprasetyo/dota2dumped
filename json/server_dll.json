@@ -549,7 +549,7 @@
         },
         "metadata": [
           {
-            "name": "0x1042,0x28S",
+            "name": "dules",
             "type": "Unknown"
           }
         ],
@@ -649,24 +649,14 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "BlessingPathID_t": {
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "BlessingPath_t": {
@@ -693,12 +683,7 @@
         "fields": {
           "m_Value": 0
         },
-        "metadata": [
-          {
-            "name": "d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "BlessingType_t": {
@@ -713,10 +698,6 @@
           },
           {
             "name": "MVDataOutlinerIconExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -833,10 +814,6 @@
           },
           {
             "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
-            "name": "30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -1915,10 +1892,6 @@
           },
           {
             "name": "MKV3TransferSaveOpsForField",
-            "type": "Unknown"
-          },
-          {
-            "name": "30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -18269,10 +18242,6 @@
         },
         "metadata": [
           {
-            "name": "6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_",
-            "type": "Unknown"
-          },
-          {
             "name": "n",
             "type": "Unknown"
           },
@@ -18294,10 +18263,6 @@
           },
           {
             "name": "MVDataOutlinerIconExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\\steam_pipeline_cache.foz;$bucketdir\\steamapp_pipeline_cache.foz",
             "type": "Unknown"
           },
           {
@@ -59219,7 +59184,7 @@
             "type": "Unknown"
           },
           {
-            "name": "les\\Eclipse Adoptium\\jdk-17.0.CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files",
+            "name": "TUAL_GAMEPAD=1",
             "type": "Unknown"
           }
         ],
@@ -62538,6 +62503,10 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "_Position",
             "type": "Unknown"
           }
         ],
@@ -68871,6 +68840,10 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "\\shadercache\\570\\fozpipelinesv6\\steamapprun_pipeline_cache",
             "type": "Unknown"
           },
           {
@@ -79725,19 +79698,96 @@
         },
         "type": "uint32"
       },
-      "____t_": {
+      "__1__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_a__t_": {
+      "______": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_r__t_": {
+      "_e____": {
         "alignment": 0,
         "members": {},
+        "type": "unknown"
+      },
+      "_g____": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_k____": {
+        "alignment": 110,
+        "members": {
+          "": 3183111605600,
+          " S< �\u0002": 3182940680960,
+          " U�!�\u0002": 3183221050560,
+          " ^\u001c �\u0002": 3183365935872,
+          " g\u001c �\u0002": 3182940669760,
+          " k\u001c �\u0002": 3183111626592,
+          " �\u00161�\u0002": 3183111629824,
+          " �< �\u0002": 3183394338176,
+          "@\u0006\f\u0016�\u0002": 3182940653152,
+          "@&e/�\u0002": 3183111609728,
+          "@(e/�\u0002": 3183365956032,
+          "@3� �\u0002": 3183132335744,
+          "@;e/�\u0002": 3183111633312,
+          "@<�!�\u0002": 3183221036192,
+          "@?�!�\u0002": 3182946497952,
+          "@A\u001c �\u0002": 3183109488992,
+          "@C\f\u0016�\u0002": 3183135878304,
+          "@I\u001c �\u0002": 3183221115968,
+          "@Xe/�\u0002": 3183111592000,
+          "@e�&�\u0002": 3183109486944,
+          "@p< �\u0002": 3183109483776,
+          "@}�&�\u0002": 3183221098592,
+          "@�< �\u0002": 3183111629760,
+          "@�� �\u0002": 3183109484576,
+          "`\u0006\f\u0016�\u0002": 3183109495680,
+          "`(\u001c �\u0002": 3183111596992,
+          "`2e/�\u0002": 3183111604256,
+          "`9\u001c �\u0002": 3183109486912,
+          "`:\f\u0016�\u0002": 3183109499072,
+          "`A\u001c �\u0002": 3183394342496,
+          "`I\u001c �\u0002": 3183109473632,
+          "`U�!�\u0002": 3183111628320,
+          "`Y\f\u0016�\u0002": 3183109477984,
+          "`h< �\u0002": 3183109482208,
+          "`w< �\u0002": 3183365921600,
+          "`|< �\u0002": 3183109483744,
+          "`�\u00161�\u0002": 3183111630784,
+          "`�< �\u0002": 3183221119584,
+          "`��&�\u0002": 3183135968032,
+          "�\u0007� �\u0002": 3183111597568,
+          "�\t\u001c �\u0002": 3183109480768,
+          "�\t_\u0016�\u0002": 3183121408128,
+          "�\u00161�\u0002": 3183111614688,
+          "�\u0018\f\u0016�\u0002": 3183394326176,
+          "�\u001a�&�\u0002": 3183109499552,
+          "�\u001b�&�\u0002": 3183221086240,
+          "�\u001c�&�\u0002": 3183111617216,
+          "�,\f\u0016�\u0002": 3182940663488,
+          "�-\u001c �\u0002": 3183111626976,
+          "�< �\u0002": 3183111624832,
+          "�@�&�\u0002": 3183111604864,
+          "�L\u001c �\u0002": 3183111619136,
+          "�P\u001c �\u0002": 3183109492800,
+          "�W< �\u0002": 3183111609792,
+          "�c�&�\u0002": 3183118353792,
+          "�f< �\u0002": 3183111596128,
+          "�j\u001c �\u0002": 3183111628480,
+          "�l\u001c �\u0002": 3183109499456,
+          "�n< �\u0002": 3183111619776,
+          "�qe/�\u0002": 3183109474752,
+          "�ɬ_�\u0002": 3183221116480,
+          "��< �\u0002": 3183365940480,
+          "��e/�\u0002": 3183109500096,
+          "��x!�\u0002": 3183132306976,
+          "���!�\u0002": 3183394347424,
+          "���&�\u0002": 3183111629184
+        },
         "type": "unknown"
       },
       "attackfail": {

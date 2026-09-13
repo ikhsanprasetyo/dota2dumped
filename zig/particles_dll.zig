@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -920,7 +920,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // les\Eclipse Adoptium\jdk-17.0.CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+            // TUAL_GAMEPAD=1
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -2177,7 +2177,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             pub const C_OP_RemapSpeedtoCP = struct {
                 pub const m_nInControlPointNumber: usize = 0x1E0; // int32
                 pub const m_nOutControlPointNumber: usize = 0x1E4; // int32
@@ -4472,7 +4471,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -6649,7 +6647,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -7355,7 +7352,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -8281,7 +8277,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -8638,7 +8633,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -10080,7 +10074,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             pub const C_OP_SetRandomControlPointPosition = struct {
                 pub const m_bUseWorldLocation: usize = 0x1E0; // bool
                 pub const m_bOrient: usize = 0x1E1; // bool
@@ -10708,7 +10701,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             pub const C_OP_SetSingleControlPointPosition = struct {
                 pub const m_bSetOnce: usize = 0x1E0; // bool
                 pub const m_nCP1: usize = 0x1E4; // int32
@@ -11473,7 +11465,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -13970,7 +13961,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -14236,7 +14226,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             pub const C_OP_ModelSurfaceSnapshotGenerator = struct {
                 pub const m_nCPSnapshot: usize = 0x1E0; // int32
                 pub const m_modelInput: usize = 0x1E8; // CParticleModelInput
@@ -15777,7 +15766,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17901,7 +17889,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // @z
             pub const C_OP_SetControlPointFieldFromVectorExpression = struct {
                 pub const m_nExpression: usize = 0x1E0; // VectorFloatExpressionType_t
                 pub const m_vecInput1: usize = 0x1E8; // CParticleCollectionVecInput
@@ -18675,7 +18662,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -19221,7 +19207,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -20366,7 +20351,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -21345,7 +21329,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -25430,7 +25413,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertySuppressExpr
             // MPropertyFriendlyName
-            // `1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -25989,7 +25971,6 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // @[
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults

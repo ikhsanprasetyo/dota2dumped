@@ -8825,7 +8825,7 @@
             "type": "Unknown"
           },
           {
-            "name": "les\\Eclipse Adoptium\\jdk-17.0.CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files",
+            "name": "TUAL_GAMEPAD=1",
             "type": "Unknown"
           }
         ],
@@ -42166,10 +42166,6 @@
             "type": "Unknown"
           },
           {
-            "name": "@[",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -44397,10 +44393,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@[",
             "type": "Unknown"
           },
           {
@@ -47513,10 +47505,6 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@[",
             "type": "Unknown"
           },
           {
@@ -52505,10 +52493,6 @@
             "type": "Unknown"
           },
           {
-            "name": "@[",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -54447,10 +54431,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@[",
             "type": "Unknown"
           }
         ],
@@ -59350,10 +59330,6 @@
             "type": "Unknown"
           },
           {
-            "name": "`1",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -60505,10 +60481,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@[",
             "type": "Unknown"
           },
           {
@@ -64372,10 +64344,6 @@
             "type": "Unknown"
           },
           {
-            "name": "@[",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -68001,10 +67969,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "@z",
             "type": "Unknown"
           }
         ],
@@ -78933,10 +78897,6 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
-          },
-          {
-            "name": "@z",
-            "type": "Unknown"
           }
         ],
         "parent": null
@@ -79568,10 +79528,6 @@
             "type": "Unknown"
           },
           {
-            "name": "`1",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -79732,10 +79688,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "@z",
             "type": "Unknown"
           },
           {
@@ -80021,10 +79973,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@[",
             "type": "Unknown"
           },
           {
@@ -80360,10 +80308,6 @@
             "type": "Unknown"
           },
           {
-            "name": "@[",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -80544,10 +80488,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@[",
             "type": "Unknown"
           },
           {
@@ -82920,10 +82860,6 @@
             "type": "Unknown"
           },
           {
-            "name": "@[",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
           },
@@ -83402,10 +83338,6 @@
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "`1",
             "type": "Unknown"
           }
         ],
@@ -83889,10 +83821,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@[",
             "type": "Unknown"
           }
         ],
@@ -86122,10 +86050,6 @@
           },
           {
             "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "@[",
             "type": "Unknown"
           },
           {

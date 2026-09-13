@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -8649,7 +8649,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // S
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // e
             pub const C_DOTA_GuildBannerDynamic = struct {
                 pub const m_bRespawnClientEntity: usize = 0xD10; // bool
@@ -11311,6 +11310,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_BaseRequirement = struct {
             };
             // Parent: C_DOTA_Item
@@ -14655,6 +14655,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_Inflow_BaseEntrypoint = struct {
                 pub const m_EntryChunk: usize = 0x48; // PulseRuntimeChunkIndex_t
                 pub const m_RegisterMap: usize = 0x50; // PulseRegisterMap_t
@@ -17776,7 +17777,15 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // Po
+            // `S
+            // `T
+            // Po
+            // 0t
+            // pv
+            // @z
+            //  g
+            // Pl
             pub const CPulseCell_BaseLerp = struct {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             };
@@ -20559,6 +20568,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_BaseFlow = struct {
             };
             // Parent: C_DOTA_BaseNPC_Hero
@@ -26116,6 +26126,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_Step_DebugLog = struct {
             };
             // Parent: C_DOTA_BaseNPC_Hero
@@ -26394,7 +26405,6 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const CBodyComponentBaseAnimGraph = struct {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             };
@@ -27468,6 +27478,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_Inflow_ObservableVariableListener = struct {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -28421,6 +28432,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_Outflow_CycleOrdered = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             };
@@ -32066,6 +32078,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // pv
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -32751,6 +32764,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_Inflow_Method = struct {
                 pub const m_MethodName: usize = 0x80; // PulseSymbol_t
                 pub const m_Description: usize = 0x90; // CUtlString
@@ -33301,6 +33315,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_BaseValue = struct {
             };
             // Parent: C_DOTA_Item
@@ -35356,6 +35371,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_Step_PublicOutput = struct {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             };
@@ -37839,6 +37855,8 @@ pub const source2_dumper = struct {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -41431,6 +41449,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             pub const CPulseCell_Step_CallExternalMethod = struct {
                 pub const m_MethodName: usize = 0xD8; // PulseSymbol_t
                 pub const m_nBlackboardIndex: usize = 0xE8; // PulseRuntimeBlackboardReferenceIndex_t
@@ -41592,7 +41611,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // S
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // e
             pub const C_DOTA_GuildBannerProp = struct {
             };
@@ -45155,7 +45173,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub const ArtyProgressBarDef_t = struct {
                 pub const m_flNotchSize: usize = 0xB0; // float32
@@ -45354,7 +45371,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub const ArtyCannonDef_t = struct {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
@@ -46513,7 +46529,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub const ArtySpawnerDef_t = struct {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
@@ -46804,7 +46819,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
@@ -47223,7 +47237,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             pub const ArtyUnitDef_t = struct {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
@@ -48216,7 +48229,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             pub const CSurvivorsPowerUpDefinition_AreaAttack_Line = struct {
                 pub const m_bUseFacingDirection: usize = 0x868; // bool
             };

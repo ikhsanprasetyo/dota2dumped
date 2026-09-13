@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -2342,7 +2342,6 @@ pub const source2_dumper = struct {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
-            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$buc
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3319,6 +3318,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MPropertyDescription
             // npc_dota_juggernaut_healing_ward
+            // grams\Python\Python312\Scripts\;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\;C:\Program Files\dotnet\;C:\Users
             pub const CVoiceContainerVMixSnd = struct {
             };
             // Parent: None

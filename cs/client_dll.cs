@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
@@ -8649,7 +8649,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // S
-        // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
         // e
         public static class C_DOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0xD10; // bool
@@ -11311,6 +11310,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_BaseRequirement {
         }
         // Parent: C_DOTA_Item
@@ -14655,6 +14655,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_Inflow_BaseEntrypoint {
             public const nint m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
             public const nint m_RegisterMap = 0x50; // PulseRegisterMap_t
@@ -17776,7 +17777,15 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+        // Po
+        // `S
+        // `T
+        // Po
+        // 0t
+        // pv
+        // @z
+        //  g
+        // Pl
         public static class CPulseCell_BaseLerp {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
@@ -20559,6 +20568,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_BaseFlow {
         }
         // Parent: C_DOTA_BaseNPC_Hero
@@ -26116,6 +26126,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_Step_DebugLog {
         }
         // Parent: C_DOTA_BaseNPC_Hero
@@ -26394,7 +26405,6 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
-        // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x530; // CBaseAnimGraphController
         }
@@ -27468,6 +27478,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_Inflow_ObservableVariableListener {
             public const nint m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
             public const nint m_bSelfReference = 0x82; // bool
@@ -28421,6 +28432,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_Outflow_CycleOrdered {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
@@ -32066,6 +32078,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // pv
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -32751,6 +32764,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_Inflow_Method {
             public const nint m_MethodName = 0x80; // PulseSymbol_t
             public const nint m_Description = 0x90; // CUtlString
@@ -33301,6 +33315,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_BaseValue {
         }
         // Parent: C_DOTA_Item
@@ -35356,6 +35371,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_Step_PublicOutput {
             public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
         }
@@ -37839,6 +37855,8 @@ namespace Source2Dumper.Schemas {
         // HULL_SMALL
         // NUM_HULLS
         // HULL_NONE
+        // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+        // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MVDataOverlayType
@@ -41431,6 +41449,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // Po
         public static class CPulseCell_Step_CallExternalMethod {
             public const nint m_MethodName = 0xD8; // PulseSymbol_t
             public const nint m_nBlackboardIndex = 0xE8; // PulseRuntimeBlackboardReferenceIndex_t
@@ -41592,7 +41611,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // S
-        // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
         // e
         public static class C_DOTA_GuildBannerProp {
         }
@@ -45155,7 +45173,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyProgressBarDef_t {
             public const nint m_flNotchSize = 0xB0; // float32
@@ -45354,7 +45371,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyCannonDef_t {
             public const nint m_bDirectAimAtTarget = 0xB0; // bool
@@ -46513,7 +46529,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtySpawnerDef_t {
             public const nint m_flInitialDelay = 0xB0; // float32
@@ -46804,7 +46819,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         // MGetKV3ClassDefaults
         // Y
         // MGetKV3ClassDefaults
@@ -47223,7 +47237,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
         // MGetKV3ClassDefaults
         public static class ArtyUnitDef_t {
             public const nint m_bRotateReloadBar = 0xB0; // bool
@@ -48216,7 +48229,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
         public static class CSurvivorsPowerUpDefinition_AreaAttack_Line {
             public const nint m_bUseFacingDirection = 0x868; // bool
         }

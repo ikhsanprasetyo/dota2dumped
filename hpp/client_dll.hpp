@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-12 14:05:43.501828300 +07:00
+// 2026-09-13 21:05:45.733925800 +07:00
 
 #pragma once
 
@@ -8655,7 +8655,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // S
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // e
             namespace C_DOTA_GuildBannerDynamic {
                 constexpr std::ptrdiff_t m_bRespawnClientEntity = 0xD10; // bool
@@ -11317,6 +11316,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_BaseRequirement {
             }
             // Parent: C_DOTA_Item
@@ -14661,6 +14661,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_Inflow_BaseEntrypoint {
                 constexpr std::ptrdiff_t m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
                 constexpr std::ptrdiff_t m_RegisterMap = 0x50; // PulseRegisterMap_t
@@ -17782,7 +17783,15 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
+            // Po
+            // `S
+            // `T
+            // Po
+            // 0t
+            // pv
+            // @z
+            //  g
+            // Pl
             namespace CPulseCell_BaseLerp {
                 constexpr std::ptrdiff_t m_WakeResume = 0xD8; // CPulse_ResumePoint
             }
@@ -20565,6 +20574,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_BaseFlow {
             }
             // Parent: C_DOTA_BaseNPC_Hero
@@ -26122,6 +26132,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_Step_DebugLog {
             }
             // Parent: C_DOTA_BaseNPC_Hero
@@ -26400,7 +26411,6 @@ namespace source2_dumper {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
-            // 30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x530; // CBaseAnimGraphController
             }
@@ -27474,6 +27484,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_Inflow_ObservableVariableListener {
                 constexpr std::ptrdiff_t m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 constexpr std::ptrdiff_t m_bSelfReference = 0x82; // bool
@@ -28427,6 +28438,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_Outflow_CycleOrdered {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
@@ -32072,6 +32084,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // pv
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -32757,6 +32770,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_Inflow_Method {
                 constexpr std::ptrdiff_t m_MethodName = 0x80; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_Description = 0x90; // CUtlString
@@ -33307,6 +33321,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_BaseValue {
             }
             // Parent: C_DOTA_Item
@@ -35362,6 +35377,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_Step_PublicOutput {
                 constexpr std::ptrdiff_t m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
             }
@@ -37845,6 +37861,8 @@ namespace source2_dumper {
             // HULL_SMALL
             // NUM_HULLS
             // HULL_NONE
+            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
+            // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MVDataOverlayType
@@ -41437,6 +41455,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // Po
             namespace CPulseCell_Step_CallExternalMethod {
                 constexpr std::ptrdiff_t m_MethodName = 0xD8; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_nBlackboardIndex = 0xE8; // PulseRuntimeBlackboardReferenceIndex_t
@@ -41598,7 +41617,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // S
-            // 6/0x57c7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_
             // e
             namespace C_DOTA_GuildBannerProp {
             }
@@ -45161,7 +45179,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             namespace ArtyProgressBarDef_t {
                 constexpr std::ptrdiff_t m_flNotchSize = 0xB0; // float32
@@ -45360,7 +45377,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             namespace ArtyCannonDef_t {
                 constexpr std::ptrdiff_t m_bDirectAimAtTarget = 0xB0; // bool
@@ -46519,7 +46535,6 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             namespace ArtySpawnerDef_t {
                 constexpr std::ptrdiff_t m_flInitialDelay = 0xB0; // float32
@@ -46810,7 +46825,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
@@ -47229,7 +47243,6 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 7,0x0f30/0x1116,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.f
             // MGetKV3ClassDefaults
             namespace ArtyUnitDef_t {
                 constexpr std::ptrdiff_t m_bRotateReloadBar = 0xB0; // bool
@@ -48222,7 +48235,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // 16,0x0fSTEAM_FOSSILIZE_DUMP_PATH_READ_ONLY=$bucketdir\steam_pipeline_cache.foz;$bucketdir\steamapp_pipeline_cache.foz
             namespace CSurvivorsPowerUpDefinition_AreaAttack_Line {
                 constexpr std::ptrdiff_t m_bUseFacingDirection = 0x868; // bool
             }
