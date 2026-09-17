@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
         // Class count: 7538
-        // Enum count: 439
+        // Enum count: 442
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -19823,7 +19823,8 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
-            // TUAL_GAMEPAD=1
+            // vers\DriverData
+            // 3
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -27363,7 +27364,7 @@ pub const source2_dumper = struct {
                 pub const katana_attack_range: usize = 0x1A78; // int32
                 pub const katana_base_attack_time: usize = 0x1A7C; // float32
                 pub const katana_agility_bonus_base_damage: usize = 0x1A80; // int32
-                pub const katana_bleed_attack_damage_pct: usize = 0x1A84; // int32
+                pub const katana_bleed_attack_damage_pct: usize = 0x1A84; // float32
                 pub const katana_base_ms: usize = 0x1A88; // int32
                 pub const katana_bleed_duration: usize = 0x1A8C; // float32
                 pub const katana_swap_bonus_damage: usize = 0x1A90; // int32
@@ -35008,7 +35009,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
             pub const CDestructiblePartsComponent = struct {
                 pub const __m_pChainEntity: usize = 0x0; // CNetworkVarChainer
                 pub const m_vecDamageTakenByHitGroup: usize = 0x48; // CUtlVector<uint16>
@@ -35538,6 +35538,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
             // AMMO_RESERVE_STAYS_WITH_WEAPON
             // AMMO_FLAG_MAX
@@ -35572,10 +35573,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
+            // 30/0x1116,0x0fV
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
-            // MKV3TransferSaveOpsForField
             // Y
             pub const CBodyComponentBaseAnimGraph = struct {
                 pub const m_animationController: usize = 0x4E0; // CBaseAnimGraphController
@@ -37688,7 +37689,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
+            // o
             // ePosition
             // eAngles
             pub const CModelState = struct {
@@ -38760,8 +38761,37 @@ pub const source2_dumper = struct {
             // Field count: 9
             //
             // Metadata:
-            // Y
-            // MPropertyDescription
+            // eMovementBegin
+            // eStopBegin
+            // eStopComplete
+            // eReversing
+            // eEventsDispatched
+            // eLoopToStart
+            // eLoopToEnd
+            // eTransitionComplete
+            // MOVE_OSCILLATE
+            // MOVE_STOP_AT_END
+            // ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH
+            // ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT
+            // ORIENTATION_MATCH_CONTROL_POINT
+            // ORIENTATION_FIXED
+            // ORIENTATION_FACE_PLAYER
+            // ORIENTATION_FORWARD_MOVEMENT_DIRECTION
+            // ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT
+            // ORIENTATION_FACE_ENTITY
+            // TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD
+            // TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE
+            // TRANSITION_TO_PATH_NODE_TRANSITIONING
+            // FOLLOW_CONSTRAINT_SPRING
+            // FOLLOW_CONSTRAINT_RATIO
+            // FOLLOW_CONSTRAINT_COUPLER
+            // FOLLOW_ENTITY_FORWARD
+            // FOLLOW_ENTITY_REVERSE
+            // PATH_REBUILD_MAINTAIN_T
+            // PATH_REBUILD_USE_CURRENT_NODE_T
+            // FIND_FOLLOW_MOVER_REVERSE_CLOSEST
+            // FIND_FOLLOW_MOVER_BIDIRECTIONAL_CLOSEST
+            // MGetKV3ClassDefaults
             // MPropertyDescription
             pub const CEnvDecal = struct {
                 pub const m_hDecalMaterial: usize = 0x778; // CStrongHandle<InfoForResourceTypeIMaterial2>
@@ -39485,7 +39515,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // _Position
             pub const CScriptComponent = struct {
                 pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
             };
@@ -54884,12 +54913,14 @@ pub const source2_dumper = struct {
             // Field count: 10
             //
             // Metadata:
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // n
             // n
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // 0x0f30/0x1116,0x0fV
             // S
             pub const CDOTA_GuildBannerDynamic = struct {
                 pub const m_bRespawnClientEntity: usize = 0x9F0; // bool
@@ -57011,9 +57042,7 @@ pub const source2_dumper = struct {
             // MsPosition
             // WsDirection
             // MsDirection
-            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
             // eUnbind
             // eUnbindAndDelete
             // TEXT
@@ -57080,62 +57109,20 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MPropertyCustomFGDType
-            // GENERIC_SHAPE_SPHERE
-            // GENERIC_SHAPE_AABB
-            // GENERIC_SHAPE_CAPSULE
-            // GENERIC_SHAPE_HULL
-            // kDecalInvalid
-            // kDecalCloak
-            // kDecalMax
-            // PIID_IPHYSICSBODY
-            // PIID_IPHYSAGGREGATE
-            // PIID_IPHYSICSJOINT
-            // PIID_IPHYSICSMOTIONCONTROLLER
-            // PIID_IPHYSICSPARTICLEROPE
-            // PIID_IPHYSICSRAGDOLLCONTROL
-            // PIID_NUM_TYPES
-            // k_ESceneViewDebugOverlaysListenerDataType_Sphere
-            // k_ESceneViewDebugOverlaysListenerDataType_Capsule
-            // k_ESceneViewDebugOverlaysListenerDataType_BoxAngles
-            // k_ESceneViewDebugOverlaysListenerDataType_Line
-            // k_ESceneViewDebugOverlaysListenerDataType_SolidBoxAngles
-            // k_ESceneViewDebugOverlaysListenerDataType_Text3D
-            // eAir
-            // eCount
-            // eInvalid
-            // eGround
-            // eAir
-            // eAll
-            // MAX_RESPONSE_NAME
-            // MAX_RULE_NAME
-            // TRS_TRUE
-            // TRS_NONE
-            // MPropertyFriendlyName
-            // MAlternateSemanticName
-            // eInvalid
-            // eHead
-            // eEyesOnly
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // MPropertyFriendlyName
             // MAlternateSemanticName
-            // eInvalid
-            // eMedium
-            // eFast
             // MPropertyFriendlyName
             // MAlternateSemanticName
             // MPropertyFriendlyName
             // MAlternateSemanticName
-            // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MAlternateSemanticName
-            // eExit
-            // eState01
-            // eState02
-            // eState03
-            // eState04
-            // eState05
-            // eCount
+            // MPropertyFriendlyName
+            // MAlternateSemanticName
+            // MPropertyFriendlyName
+            // MAlternateSemanticName
             pub const CFootstepTableHandle = struct {
             };
             // Parent: None
@@ -57411,7 +57398,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
-            // eUnbind
             pub const DebugSnapshotBaseStructuredData_t = struct {
             };
             // Parent: None
@@ -57453,6 +57439,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // d6/0x57c7,0x0f30/0x1116,0x0fV
             pub const BlessingPathID_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -58465,6 +58454,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataOutlinerIconExpr
+            // 0x0f30/0x1116,0x0fV
             // S
             // MVDataUniqueMonotonicInt
             // MPropertyAttributeEditor
@@ -58757,8 +58747,14 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MVDataNodeType
+            // MVDataOverlayType
+            // e
             // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
+            // SOUNDCTRL_CHANGE_PITCH
+            // SOUNDCTRL_STOP
+            // SOUNDCTRL_DESTROY
+            // SOUNDCTRL_FADEOUT
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -59582,6 +59578,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // d6/0x57c7,0x0f30/0x1116,0x0fV
             pub const BlessingTypeID_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -60717,6 +60716,9 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // d6/0x57c7,0x0f30/0x1116,0x0fV
             pub const BlessingID_t = struct {
                 pub const m_Value: usize = 0x0; // int32
             };
@@ -61275,7 +61277,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MDebugSnapshotDataSummaryFn
             // n
-            // 804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0x0302,0x0079/0x000a,0x25f0/0x83c
+            // x9105,0x0111/0x1431,0x1038/0x1418,0x0111/0x1419,0x19fa/0x0607,0x07b5/0x0312,0x044f/0xb323,0x044f/0xb304,0x044f/0xb300,0x6666/0x8
             pub const AI_DefaultNPC_DebugSnapshotData_t = struct {
                 pub const s_npc_current_ability: usize = 0x8; // CGlobalSymbol
                 pub const s_npc_tactic_current: usize = 0x10; // CGlobalSymbol
@@ -61443,6 +61445,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MKV3TransferSaveOpsForField
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
@@ -61453,6 +61456,7 @@ pub const source2_dumper = struct {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // AMMO_FORCE_DROP_IF_CARRIED
             // AMMO_RESERVE_STAYS_WITH_WEAPON
@@ -61524,6 +61528,7 @@ pub const source2_dumper = struct {
             // MPropertyFriendlyName
             // MGetKV3ClassDefaults
             // MFgdHelper
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -61642,10 +61647,10 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
+            // 30/0x1116,0x0fV
             // MKV3TransferSaveOpsForField
             // MKV3TransferSaveOpsForField
             // MSaveBehavior
-            // MKV3TransferSaveOpsForField
             // Y
             pub const CAnimGraphControllerBase = struct {
                 pub const m_hExternalGraph: usize = 0x4C; // ExternalAnimGraphHandle_t

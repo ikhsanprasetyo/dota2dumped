@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -1203,7 +1203,7 @@ pub const source2_dumper = struct {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // npc_dota_juggernaut_healing_ward
+            // ius
             pub const CSndSeqInstSndEvtSchema = struct {
             };
             // Parent: None
@@ -1456,7 +1456,7 @@ pub const source2_dumper = struct {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // npc_dota_juggernaut_healing_ward
+            // ius
             pub const CSndSeqInstMidiSampler = struct {
                 pub const m_bIsSoundEvent: usize = 0x20; // bool
                 pub const m_bStopPrevious: usize = 0x21; // bool
@@ -1478,7 +1478,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // npc_dota_juggernaut_healing_ward
+            // ius
             pub const CSndSeqInstBaseSchema = struct {
                 pub const m_nType: usize = 0x8; // SndSeqInstrumentType_t
                 pub const m_bStopCurrentEvents: usize = 0xE; // bool
@@ -2342,6 +2342,7 @@ pub const source2_dumper = struct {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
+            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3317,8 +3318,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // npc_dota_juggernaut_healing_ward
-            // grams\Python\Python312\Scripts\;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\;C:\Program Files\dotnet\;C:\Users
+            // ius
             pub const CVoiceContainerVMixSnd = struct {
             };
             // Parent: None

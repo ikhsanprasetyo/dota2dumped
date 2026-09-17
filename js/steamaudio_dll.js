@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 export const Schemas = {
     steamaudio_dll: {

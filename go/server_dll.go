@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 package schemas
 
@@ -7464,732 +7464,7 @@ const (
     ServerDll_MoveType_t_MOVETYPE_OBSERVER = 0x8
     ServerDll_MoveType_t_MOVETYPE_CUSTOM = 0x9
     ServerDll_MoveType_t_MOVETYPE_LAST = 0xA
-    ServerDll________��< � = 0x2E5203CCBE0
-    ServerDll________ = 0x2E5201C3580
-    ServerDll________`��!� = 0x2E52091CE40
-    ServerDll________`6 � = 0x2E5201C1DE0
-    ServerDll________�  � = 0x2E5201C2040
-    ServerDll________�7 � = 0x2E5201C3600
-    ServerDll________`z� � = 0x2E521AD5BE0
-    ServerDll________@7 � = 0x2E5201C34E0
-    ServerDll________`7 � = 0x2E5201C36C0
-    ServerDll________ = 0x2E5201C3680
-    ServerDll________�Dx!� = 0x2E516655F20
-    ServerDll________�9 � = 0x2E5201C36E0
-    ServerDll________�9 � = 0x2E5201C3740
-    ServerDll________�8 � = 0x2E5201C3700
-    ServerDll________`�_� = 0x2E526C3A1C0
-    ServerDll________``� = 0x2E526C33220
-    ServerDll________ 2�&� = 0x2E526C32EA0
-    ServerDll________ = 0x2E5201C3780
-    ServerDll________ �� = 0x2E516659AC0
-    ServerDll________`8 � = 0x2E5160CEB60
-    ServerDll________��1� = 0x2E5160CEC60
-    ServerDll________�9 � = 0x2E5201C3800
-    ServerDll________��!� = 0x2E5203C76C0
-    ServerDll________��< � = 0x2E5203C52C0
-    ServerDll________ �< � = 0x2E5203CB060
-    ServerDll________ = 0x2E5201C3880
-    ServerDll________  � = 0x2E5203C9360
-    ServerDll________�x< � = 0x2E5203CC920
-    ServerDll________�h< � = 0x2E5203C78E0
-    ServerDll________�: � = 0x2E5201C3900
-    ServerDll________@(� � = 0x2E520D206A0
-    ServerDll________@: � = 0x2E5201C3760
-    ServerDll________`: � = 0x2E5201C39C0
-    ServerDll________ = 0x2E5201C3980
-    ServerDll________ = 0x2E526C28C80
-    ServerDll________�: � = 0x2E5201C39E0
-    ServerDll________�: � = 0x2E5201C3A40
-    ServerDll________�; � = 0x2E5201C3A00
-    ServerDll________��o�� = 0x2E5165F6780
-    ServerDll________ [ � = 0x2E5201C3A60
-    ServerDll________�; � = 0x2E5201C3AC0
-    ServerDll________ = 0x2E5201C3A80
-    ServerDll________`i � = 0x2E520A355A0
-    ServerDll________@��&� = 0x2E5201C6980
-    ServerDll________�i � = 0x2E5201C69A0
-    ServerDll________�< � = 0x2E5201C3B00
-    ServerDll________�= � = 0x2E520A3E600
-    ServerDll________�; � = 0x2E5201C5B20
-    ServerDll________`< � = 0x2E5201C5B00
-    ServerDll________ = 0x2E5201C3B80
-    ServerDll________ = 0x2E521784AE0
-    ServerDll________`> � = 0x2E5201C3BE0
-    ServerDll________�< � = 0x2E5201C3C40
-    ServerDll________�= � = 0x2E5201C3C00
-    ServerDll________�@ � = 0x2E5201C3BA0
-    ServerDll________�< � = 0x2E5201C3E60
-    ServerDll________`= � = 0x2E5201C3E40
-    ServerDll________ = 0x2E5201C3C80
-    ServerDll________�^�!� = 0x2E521ADFD00
-    ServerDll________@? � = 0x2E5201C3CE0
-    ServerDll________`? � = 0x2E5201C3D40
-    ServerDll________�> � = 0x2E5201C3D00
-    ServerDll________ ��&� = 0x2E5201C3CA0
-    ServerDll________`�< � = 0x2E5203CB020
-    ServerDll________ �< � = 0x2E5203C6040
-    ServerDll________ = 0x2E5201C3D80
-    ServerDll________��x!� = 0x2E5217894C0
-    ServerDll________@= � = 0x2E5201C3CC0
-    ServerDll________@> � = 0x2E5201C3C60
-    ServerDll________�? � = 0x2E5201C3E00
-    ServerDll________���&� = 0x2E53116DD40
-    ServerDll________�> � = 0x2E53116C460
-    ServerDll________��1� = 0x2E53116A8C0
-    ServerDll________ = 0x2E5201C3E80
-    ServerDll________`�1� = 0x2E52F6528A0
-    ServerDll________�k � = 0x2E5201C3D60
-    ServerDll________@@ � = 0x2E5201C3F40
-    ServerDll________�@ � = 0x2E5201C3F00
-    ServerDll________�� � = 0x2E521B03DA0
-    ServerDll________`�1� = 0x2E531168EE0
-    ServerDll________�? � = 0x2E53116C840
-    ServerDll________ = 0x2E5201C3F80
-    ServerDll________`�!� = 0x2E521AD1520
-    ServerDll________`@ � = 0x2E5201C6B80
-    ServerDll________�@ � = 0x2E5201C6BA0
-    ServerDll________�A � = 0x2E5201C4000
-    ServerDll________�u�!� = 0x2E5201C3DA0
-    ServerDll________�A � = 0x2E5201C4060
-    ServerDll________�A � = 0x2E5201C40C0
-    ServerDll________ = 0x2E5201C4080
-    ServerDll________@'�!� = 0x2E520AE39A0
-    ServerDll________@�1� = 0x2E5203CAF60
-    ServerDll________`�< � = 0x2E5203CB220
-    ServerDll________�B � = 0x2E5201C4100
-    ServerDll________@g�!� = 0x2E516650AE0
-    ServerDll________@B � = 0x2E5201C40E0
-    ServerDll________`B � = 0x2E5201C41C0
-    ServerDll________ = 0x2E5201C4180
-    ServerDll________�D � = 0x2E5201C41A0
-    ServerDll________@E � = 0x2E5201C41E0
-    ServerDll________`E � = 0x2E5201C4240
-    ServerDll________�C � = 0x2E5201C4200
-    ServerDll________���?� = 0x2E521AE7D80
-    ServerDll________��e/� = 0x2E5201C5E20
-    ServerDll________ = 0x2E5201C5E00
-    ServerDll________ = 0x2E5201C4280
-    ServerDll________��e� = 0x2E5165FAF00
-    ServerDll________ = 0x2E5203C7780
-    ServerDll________`< � = 0x2E5203CD700
-    ServerDll________�D � = 0x2E5201C4300
-    ServerDll________@e/� = 0x2E520A30B80
-    ServerDll________`�< � = 0x2E5203C7F60
-    ServerDll________ = 0x2E5203CFE60
-    ServerDll________ = 0x2E5201C4380
-    ServerDll________��< � = 0x2E53116CE20
-    ServerDll________��< � = 0x2E5203C9D00
-    ServerDll________�P � = 0x2E5203C9AC0
-    ServerDll________�E � = 0x2E5201C4400
-    ServerDll________���&� = 0x2E521AE6740
-    ServerDll________@�< � = 0x2E5203CBEC0
-    ServerDll________��< � = 0x2E53116BD20
-    ServerDll________ = 0x2E5201C4480
-    ServerDll________�r_� = 0x2E5201C44A0
-    ServerDll________�E � = 0x2E5201C4260
-    ServerDll________�E � = 0x2E5201C4540
-    ServerDll________�F � = 0x2E5201C4500
-    ServerDll________ F � = 0x2E520912620
-    ServerDll________@F � = 0x2E5201C4560
-    ServerDll________`F � = 0x2E5201C45C0
-    ServerDll________ = 0x2E5201C4580
-    ServerDll________`U�!� = 0x2E52EB5DFE0
-    ServerDll________�F � = 0x2E5201C45E0
-    ServerDll________�F � = 0x2E5201C4640
-    ServerDll________�G � = 0x2E5201C4600
-    ServerDll________��e� = 0x2E52178AA80
-    ServerDll________@G � = 0x2E5201C4660
-    ServerDll________`G � = 0x2E5201C46C0
-    ServerDll________ = 0x2E5201C4680
-    ServerDll________ I � = 0x2E51665B1A0
-    ServerDll________�M � = 0x2E5201C46E0
-    ServerDll________�M � = 0x2E5201C4740
-    ServerDll________�H � = 0x2E5201C4700
-    ServerDll________�r< � = 0x2E521786F20
-    ServerDll________ �< � = 0x2E5203C7360
-    ServerDll________��< � = 0x2E5203C6AA0
-    ServerDll________ = 0x2E5201C4780
-    ServerDll________ = 0x2E52178C660
-    ServerDll________��� = 0x2E5203C5A20
-    ServerDll________ {< � = 0x2E5203C74A0
-    ServerDll________�I � = 0x2E5201C4800
-    ServerDll________ J � = 0x2E5201C4720
-    ServerDll________ = 0x2E5203CB100
-    ServerDll________`�1� = 0x2E5203CAF40
-    ServerDll________ = 0x2E5201C4880
-    ServerDll________�M�!� = 0x2E5201C48A0
-    ServerDll________@(�&� = 0x2E526C304C0
-    ServerDll________@��&� = 0x2E526C303A0
-    ServerDll________�J � = 0x2E5201C4900
-    ServerDll________��x!� = 0x2E521B06B40
-    ServerDll________ = 0x2E5201C1EC0
-    ServerDll________ = 0x2E5201C1EE0
-    ServerDll________ = 0x2E5201C4980
-    ServerDll________ = 0x2E5201C4920
-    ServerDll________ � = 0x2E5201C1F40
-    ServerDll________ � = 0x2E5201C1F60
-    ServerDll________�K � = 0x2E5201C4A00
-    ServerDll________ = 0x2E526C26C20
-    ServerDll________�J � = 0x2E5203C51C0
-    ServerDll________�\< � = 0x2E5203C59E0
-    ServerDll________@L � = 0x2E5201C4A80
-    ServerDll________`L � = 0x2E521AD5200
-    ServerDll________@�< � = 0x2E5201C25E0
-    ServerDll________��< � = 0x2E5201C25C0
-    ServerDll________�L � = 0x2E5201C4B00
-    ServerDll________ = 0x61724374754F6E67
-    ServerDll________�e/� = 0x2E520AFE8A0
-    ServerDll________ L � = 0x2E52F65B0C0
-    ServerDll________ = 0x2E52F65B000
-    ServerDll________@M � = 0x2E5201C4B80
-    ServerDll________�Y� � = 0x2E53FE1E5A0
-    ServerDll________��< � = 0x2E53116D7A0
-    ServerDll________`�< � = 0x2E53116D460
-    ServerDll________�M � = 0x2E5201C4C40
-    ServerDll________��1� = 0x2E520AEC080
-    ServerDll________`f� = 0x2E526C35D40
-    ServerDll________`h� = 0x2E526C35BC0
-    ServerDll________@N � = 0x2E5201C4CC0
-    ServerDll________���_� = 0x2E5201C4C60
-    ServerDll________�N � = 0x2E5201C4760
-    ServerDll________�N � = 0x2E5201C4D80
-    ServerDll________�N � = 0x2E5201C4D40
-    ServerDll________ = 0x2E55FACA2A0
-    ServerDll________��� = 0x2E5160C1280
-    ServerDll________��� = 0x2E5203CC0E0
-    ServerDll________�O � = 0x2E5201C4DC0
-    ServerDll________ ��!� = 0x2E5201C4DE0
-    ServerDll________ = 0x2E5201C4DA0
-    ServerDll________ O � = 0x2E5201C4E80
-    ServerDll________@T � = 0x2E5201C4E40
-    ServerDll________�O � = 0x2E521B0BB20
-    ServerDll________ = 0x2E5201C4EA0
-    ServerDll________ P � = 0x2E5201C4F00
-    ServerDll________ �< � = 0x2E5203CC2A0
-    ServerDll________@L�!� = 0x2E5201C4EE0
-    ServerDll________��< � = 0x2E5203CDEE0
-    ServerDll________@�< � = 0x2E5160C7100
-    ServerDll________�T � = 0x2E5201C4EC0
-    ServerDll________`Q � = 0x2E5201C4F60
-    ServerDll________�Q � = 0x2E5201C4F20
-    ServerDll________�Q � = 0x2E5201C5000
-    ServerDll________��< � = 0x2E5203CC4A0
-    ServerDll________ >� � = 0x2E520D20780
-    ServerDll________@�< � = 0x2E531169120
-    ServerDll________��< � = 0x2E5203C8E40
-    ServerDll________ �< � = 0x2E5203CC5E0
-    ServerDll________ = 0x2E52F6541C0
-    ServerDll________ b< � = 0x2E5201C19E0
-    ServerDll________ a< � = 0x2E5201C19C0
-    ServerDll________ �< � = 0x2E5203C9320
-    ServerDll________�Q � = 0x2E521B04C40
-    ServerDll________�R � = 0x2E5201C5020
-    ServerDll________�R � = 0x2E5201C5180
-    ServerDll________ �< � = 0x2E5203CA620
-    ServerDll________@0�!� = 0x2E526C21CC0
-    ServerDll________ R � = 0x2E5201C2C60
-    ServerDll________ = 0x2E5201C2E80
-    ServerDll________�R � = 0x2E5203C99C0
-    ServerDll________�R � = 0x2E5201C51E0
-    ServerDll________ = 0x2E5201C51A0
-    ServerDll________ T � = 0x2E5201C5280
-    ServerDll________@S � = 0x2E5203CCC60
-    ServerDll________`T � = 0x2E521AD3040
-    ServerDll________`P�&� = 0x2E526C35860
-    ServerDll________ = 0x2E526C35760
-    ServerDll________�V � = 0x2E5203CDB60
-    ServerDll________ = 0x2E520AECD20
-    ServerDll________�F�&� = 0x2E526C34AC0
-    ServerDll________�Z�&� = 0x2E526C346C0
-    ServerDll________ �< � = 0x2E5203CA720
-    ServerDll________ � � = 0x2E52178E760
-    ServerDll________ = 0x2E5201C52A0
-    ServerDll________ U � = 0x2E5201C5400
-    ServerDll________�X � = 0x2E5201C4FC0
-    ServerDll________�T � = 0x2E521B06320
-    ServerDll________ = 0x2E5160C0B60
-    ServerDll________ = 0x2E5160C0960
-    ServerDll________@Y � = 0x2E5201C5440
-    ServerDll________`U � = 0x2E520AE65C0
-    ServerDll________@V � = 0x2E5201C5420
-    ServerDll________`V � = 0x2E5201C5500
-    ServerDll________��< � = 0x2E5203CABA0
-    ServerDll________ V � = 0x2E520A3DE80
-    ServerDll________` � = 0x2E5160CC420
-    ServerDll________�U � = 0x2E5160C71C0
-    ServerDll________�< � = 0x2E5203CAEA0
-    ServerDll________ = 0x6E6F4D74754F6E67
-    ServerDll________ ߯ � = 0x2E520AE7AC0
-    ServerDll________ = 0x2E5201C5520
-    ServerDll________ Z � = 0x2E5201C5640
-    ServerDll________@W � = 0x2E5203CBEA0
-    ServerDll________ = 0x43476F54746E6569
-    ServerDll________�� � = 0x2E521AE6AC0
-    ServerDll________` � = 0x2E52F65AAC0
-    ServerDll________@ � = 0x2E5201C1560
-    ServerDll________�W � = 0x2E5203CBCE0
-    ServerDll________�֮!� = 0x2E5203CA1E0
-    ServerDll________ �< � = 0x2E5203CA2E0
-    ServerDll________��< � = 0x2E5203C7480
-    ServerDll________@X � = 0x2E5203CC1A0
-    ServerDll________ = 0x2E5209117A0
-    ServerDll________� � = 0x2E5160C7200
-    ServerDll________� � = 0x2E52F657F40
-    ServerDll________�Y � = 0x2E5203CBC20
-    ServerDll________ 7x!� = 0x2E521AE9D00
-    ServerDll________��� = 0x2E5160CE600
-    ServerDll________��� = 0x2E5160CD000
-    ServerDll________@Z � = 0x2E5201C54C0
-    ServerDll________`Y � = 0x2E5201C57E0
-    ServerDll________�P�&� = 0x2E52F6591C0
-    ServerDll________ = 0x2E52F659D00
-    ServerDll________�Z � = 0x2E5201C58C0
-    ServerDll________�Y � = 0x2E521B06D00
-    ServerDll________�Y � = 0x2E526C38D60
-    ServerDll________�c � = 0x2E526C336A0
-    ServerDll________�] � = 0x2E5203CBBE0
-    ServerDll________ = 0x2E5165FED40
-    ServerDll________�Z � = 0x2E5201C5660
-    ServerDll________�Z � = 0x2E5201C5A00
-    ServerDll________@[ � = 0x2E5201C5940
-    ServerDll________���!� = 0x2E5201C59E0
-    ServerDll________�^ � = 0x2E5201C5A20
-    ServerDll________�^ � = 0x2E5201C5A80
-    ServerDll________�c � = 0x2E5201C5A40
-    ServerDll________�[ � = 0x2E521AD8980
-    ServerDll________@< � = 0x2E5201C3BC0
-    ServerDll________ = 0x2E5201C3AE0
-    ServerDll________@d � = 0x2E5201C5AC0
-    ServerDll________`\ � = 0x2E5201C5AE0
-    ServerDll________ �< � = 0x2E5160CE080
-    ServerDll________�'� = 0x2E5160CE180
-    ServerDll________`V� = 0x2E5160CD600
-    ServerDll________`^ � = 0x2E5201C5B60
-    ServerDll________@�e/� = 0x2E5201C6480
-    ServerDll________�d � = 0x2E5201C64A0
-    ServerDll________��� = 0x2E5160CC500
-    ServerDll________�^ � = 0x2E5201C5BE0
-    ServerDll________`��&� = 0x2E526C36360
-    ServerDll________�\ � = 0x2E526C36860
-    ServerDll________��< � = 0x2E5203CAFE0
-    ServerDll________`�� � = 0x2E52F65A040
-    ServerDll________��e/� = 0x2E5160C1D60
-    ServerDll________@#e/� = 0x2E5160C2560
-    ServerDll________�< � = 0x2E5203CB1A0
-    ServerDll________ = 0x2E52EB5E5E0
-    ServerDll________ = 0x2E5203CE920
-    ServerDll________ �< � = 0x2E5203C6580
-    ServerDll________ = 0x2E5203C90A0
-    ServerDll________�f�!� = 0x2E526C338A0
-    ServerDll________�� = 0x2E526C33560
-    ServerDll________�� = 0x2E526C33660
-    ServerDll________�^ � = 0x2E5203C6100
-    ServerDll________�5�!� = 0x2E5201C5C60
-    ServerDll________ = 0x2E5201C5AA0
-    ServerDll________ _ � = 0x2E5201C5E80
-    ServerDll________@_ � = 0x2E5203C6080
-    ServerDll________`_ � = 0x2E5201C5E60
-    ServerDll________�_ � = 0x2E5201C5EA0
-    ServerDll________�_ � = 0x2E5201C5F00
-    ServerDll________@a � = 0x2E5203C6180
-    ServerDll________`A�!� = 0x2E521B035C0
-    ServerDll________�` � = 0x2E5201C5F20
-    ServerDll________�` � = 0x2E5201C5F80
-    ServerDll________`9� = 0x2E5160C2B60
-    ServerDll________`` � = 0x2E521AE4160
-    ServerDll________@�1� = 0x2E53116B480
-    ServerDll________ = 0x2E53116BE40
-    ServerDll________`G� = 0x2E5160C3960
-    ServerDll________�` � = 0x2E521B07BC0
-    ServerDll________�a � = 0x2E5201C5FA0
-    ServerDll________�a � = 0x2E5201C6080
-    ServerDll________ �< � = 0x2E5160C4760
-    ServerDll________ Ű!� = 0x2E520AFEA80
-    ServerDll________ a � = 0x2E5203C9380
-    ServerDll________�1� = 0x2E5203C8F40
-    ServerDll________ = 0x2E5203C5CC0
-    ServerDll________ྮ!� = 0x2E52F65AF40
-    ServerDll________@b � = 0x2E5201C60A0
-    ServerDll________`b � = 0x2E5201C61C0
-    ServerDll________�e � = 0x2E5203C6740
-    ServerDll________�b � = 0x2E5201C60E0
-    ServerDll________ = 0x2E5201C61E0
-    ServerDll________ c � = 0x2E5201C6240
-    ServerDll________ = 0x2E5160C4F60
-    ServerDll________���&� = 0x2E521B0C520
-    ServerDll________ = 0x2E5201C6260
-    ServerDll________ d � = 0x2E5201C6300
-    ServerDll________�g � = 0x2E5160C5760
-    ServerDll________�c � = 0x2E526C2C2C0
-    ServerDll________�>�&� = 0x2E526C33BE0
-    ServerDll________�c � = 0x2E526C33A20
-    ServerDll________�f � = 0x2E5201C5B40
-    ServerDll________�j�!� = 0x2E520AE8600
-    ServerDll________ m � = 0x2E5201C6320
-    ServerDll________�f � = 0x2E5201C6400
-    ServerDll________@g � = 0x2E5201C63C0
-    ServerDll________�e � = 0x2E51665B740
-    ServerDll________�e/� = 0x2E52F658300
-    ServerDll________ = 0x2E52F658340
-    ServerDll________ = 0x2E5203CEC80
-    ServerDll________��x!� = 0x2E520A33460
-    ServerDll________�e/� = 0x2E52F650B80
-    ServerDll________ = 0x2E52F650BC0
-    ServerDll________�< � = 0x2E5203CFD00
-    ServerDll________`f � = 0x2E5201C6460
-    ServerDll________�E�&� = 0x2E531169D40
-    ServerDll________�C�&� = 0x2E526C345C0
-    ServerDll________ = 0x2E5203C6900
-    ServerDll________�g � = 0x2E5201C6560
-    ServerDll________�f � = 0x2E5201C6680
-    ServerDll________ h � = 0x2E5201C66A0
-    ServerDll________��< � = 0x2E5203CBDE0
-    ServerDll________��e� = 0x2E5201C65E0
-    ServerDll________ = 0x2E5201C6D20
-    ServerDll________ = 0x2E5201C6D00
-    ServerDll________ = 0x2E5201C6440
-    ServerDll________ = 0x2E52F655D80
-    ServerDll________�*�&� = 0x2E5160C1560
-    ServerDll________�(�&� = 0x2E5160C1360
-    ServerDll________ = 0x2E5201C66C0
-    ServerDll________�ge� = 0x2E5203C6C20
-    ServerDll________@r�&� = 0x2E5203C6C80
-    ServerDll________ ��&� = 0x2E5203C6D40
-    ServerDll________@h � = 0x2E5160C6760
-    ServerDll________`h � = 0x2E5201C6660
-    ServerDll________�h � = 0x2E5201C6620
-    ServerDll________�h � = 0x2E5201C6800
-    ServerDll________�`< � = 0x2E5160C6F60
-    ServerDll________�i � = 0x2E51665E180
-    ServerDll________ = 0x2E5201C6820
-    ServerDll________ j � = 0x2E5201C6880
-    ServerDll________ = 0x2E5160C7960
-    ServerDll________`�< � = 0x2E516659D00
-    ServerDll________���&� = 0x2E526C398C0
-    ServerDll________ = 0x2E526C384C0
-    ServerDll________``< � = 0x2E5160C4260
-    ServerDll________�� � = 0x2E521AEAEA0
-    ServerDll________@&�&� = 0x2E526C37840
-    ServerDll________@x�&� = 0x2E526C37340
-    ServerDll________�x< � = 0x2E5160C4660
-    ServerDll________�c� � = 0x2E520AFD700
-    ServerDll________�l � = 0x2E5201C68A0
-    ServerDll________�l � = 0x2E5201C6A00
-    ServerDll________ = 0x2E5203CFEC0
-    ServerDll________�<�&� = 0x2E53FE1E060
-    ServerDll________ �< � = 0x2E526C31AC0
-    ServerDll________��< � = 0x2E526C31CC0
-    ServerDll________��< � = 0x2E5160C3A60
-    ServerDll________�C�!� = 0x2E520916380
-    ServerDll________`�< � = 0x2E5203C5FC0
-    ServerDll________�_< � = 0x2E5203C61C0
-    ServerDll________`d< � = 0x2E5160C5660
-    ServerDll________�l � = 0x2E5201C6AE0
-    ServerDll________�k � = 0x2E5201C3F60
-    ServerDll________�@ � = 0x2E5201C4040
-    ServerDll________ = 0x2E5160C6260
-    ServerDll________��� � = 0x2E526C2F0E0
-    ServerDll________�V�&� = 0x2E52F658D80
-    ServerDll________�P�&� = 0x2E526C356C0
-    ServerDll________@m � = 0x2E5160C6A60
-    ServerDll________�9e/� = 0x2E521ADD440
-    ServerDll________�m � = 0x2E5201C6A20
-    ServerDll________�m � = 0x2E5201C6C80
-    ServerDll________��< � = 0x2E5203CCE00
-    ServerDll________��e� = 0x2E521AD4380
-    ServerDll________ f � = 0x2E5201C6600
-    ServerDll________ = 0x2E5201C6420
-    ServerDll________ = 0x2E5203CF220
-    ServerDll________ Ұ!� = 0x2E5201C6CE0
-    ServerDll________@� � = 0x2E5201C6CA0
-    ServerDll________ = 0x2E5201C6D80
-    ServerDll________ = 0x2E5203CCA00
-    ServerDll________ = 0x3A3A495041797469
-    ServerDll________ = 0x413A3A62696C6874
-    ServerDll________ = 0x463A3A62696C6874
-    ServerDll________ = 0x533A3A62696C6874
-    ServerDll________ = 0x4D3A3A62696C6874
-    ServerDll________ = 0x726574756F527265
-    ServerDll________ = 0x70616D655265756C
-    ServerDll________ = 0x533A3A4950417265
-    ServerDll________ = 0x433A3A4950417265
-    ServerDll________ = 0x6569724F3A3A7265
-    ServerDll________ = 0x453A3A62696C6874
-    ServerDll________ = 0x5379616C505F6C6C
-    ServerDll________ = 0x6E6F437265767265
-    ServerDll________ = 0x4C3A3A62696C6874
-    ServerDll________ = 0x74536566694C6874
-    ServerDll________ = 0x4D6C6C6143646F68
-    ServerDll________ = 0x4C415F4441454852
-    ServerDll________ = 0x443A3A62696C6874
-    ServerDll________ = 0x493A3A62696C6874
-    ServerDll________ = 0x69746E6175516465
-    ServerDll________ = 0x3A49504172656767
-    ServerDll________ = 0x416D657473795365
-    ServerDll________ = 0x3A73636E75466D69
-    ServerDll________ = 0x523A3A62696C6874
-    ServerDll________ = 0x4E3A3A62696C6874
-    ServerDll________ = 0x433A3A62696C6874
-    ServerDll________ = 0x5F74616D726F4661
-    ServerDll________ = 0x776F4C5F73656761
-    ServerDll________ = 0x5F65646F4D65636E
-    ServerDll________ = 0x5F7367616C466567
-    ServerDll________ = 0x79547075706F5074
-    ServerDll________ = 0x6C694679616C7265
-    ServerDll________ = 0x3A49504179746974
-    ServerDll________ = 0x746E65746E6F4365
-    ServerDll________ = 0x3A3A49504179616C
-    ServerDll________ = 0x50415F6565725470
-    ServerDll________ = 0x50415F43504E6573
-    ServerDll________ = 0x503A3A4950417265
-    ServerDll________ = 0x473A3A62696C6874
-    ServerDll________ = 0x6F523A3A726F7461
-    ServerDll________ = 0x553A3A4950417265
-    ServerDll________ = 0x5365756C61567261
-    ServerDll________ = 0x79546D726F667461
-    ServerDll________ = 0x6E6F697461746E65
-    ServerDll________ = 0x473A3A4950417265
-    ServerDll________ = 0x65636E6143726F73
-    ServerDll________ = 0x3A3A49504170616D
-    ServerDll________ = 0x4547415353454D5F
-    ServerDll________ = 0x473A3A495041726F
-    ServerDll________ = 0x63725367734D6675
-    ServerDll________ = 0x617373654D746E65
-    ServerDll________ = 0x533A3A495041726F
-    ServerDll________ = 0x617369443A3A4950
-    ServerDll________ = 0x6570795465736C75
-    ServerDll________ = 0x7373654D6E656572
-    ServerDll________ = 0x3A73656369767265
-    ServerDll________ = 0x3A3A495041656C70
-    ServerDll________ = 0x656C62615465726F
-    ServerDll________ = 0x7469726F676C416E
-    ServerDll________ = 0x6D65547475707475
-    ServerDll________ = 0x74726F706552656C
-    ServerDll________ = 0x7954746E756F6363
-    ServerDll________ = 0x757465526567616D
-    ServerDll________ = 0x6E45657361424320
-    ServerDll________ = 0x7461527265707061
-    ServerDll________ = 0x50656B6157726F73
-    ServerDll________ = 0x6567617373654D72
-    ServerDll________ = 0x656E6E6F63736944
-    ServerDll________ = 0x746E656E6F706D6F
-    ServerDll________ = 0x5F7367616C467075
-    ServerDll________ = 0x646E6F436B726F77
-    ServerDll________ = 0x41435F4E4F495449
-    ServerDll________ = 0x4D3A3A4950417265
-    ServerDll________ = 0x543A3A4950417265
-    ServerDll________ = 0x7244677562654468
-    ServerDll________ = 0x6174736E49656D61
-    ServerDll________ = 0x745F657079546572
-    ServerDll________ = 0x67734D746E65696C
-    ServerDll________ = 0x6D6F4379616C7265
-    ServerDll________ = 0x616E794465747562
-    ServerDll________ = 0x3A3A62696C796172
-    ServerDll________ = 0x6168436174614456
-    ServerDll________ = 0x6269736956677562
-    ServerDll________ = 0x756F79614C6C656E
-    ServerDll________ = 0x776F6C6674754F74
-    ServerDll________ = 0x7461636F4C6F6572
-    ServerDll________ = 0x7061487265707061
-    ServerDll________ = 0x6D756E4565747562
-    ServerDll________ = 0x5F68746165446E4F
-    ServerDll________ = 0x74754F7265707061
-    ServerDll________ = 0x654D5F6C616E6F69
-    ServerDll________ = 0x797469746E456C65
-    ServerDll________ = 0x523A3A62696C6D75
-    ServerDll________ = 0x706E497265707061
-    ServerDll________ = 0x636E7546726F7372
-    ServerDll________ = 0x6F5665626F725074
-    ServerDll________ = 0x50416574616C706D
-    ServerDll________ = 0x7361655268637469
-    ServerDll________ = 0x5F646F6874654D72
-    ServerDll________ = 0x505F454C54544142
-    ServerDll________ = 0x4F4C6B636F6C4265
-    ServerDll________ = 0x6167696E694D646C
-    ServerDll________ = 0x5F73656974696469
-    ServerDll________ = 0x456E6F6974636964
-    ServerDll________ = 0x657079546B636174
-    ServerDll________ = 0x65523A3A65736E6F
-    ServerDll________ = 0x6C656D69545F6C6C
-    ServerDll________ = 0x6D6F4D7265707061
-    ServerDll________ = 0x6F6C666E495F6C6C
-    ServerDll________ = 0x6F4E6873696E6946
-    ServerDll________ = 0x745F7367616C4665
-    ServerDll________ = 0x534148505F4E4148
-    ServerDll________ = 0x6E656D65766F4D72
-    ServerDll________ = 0x726168535F797469
-    ServerDll________ = 0x73696D7265507974
-    ServerDll________ = 0x43657269465F6C6C
-    ServerDll________ = 0x614E3A3A656C6361
-    ServerDll________ = 0x483A3A62696C6D75
-    ServerDll________ = 0x6C5F746867696568
-    ServerDll________ = 0x6F4D65636E617473
-    ServerDll________ = 0x6C6961665F657461
-    ServerDll________ = 0x5F65707954746E65
-    ServerDll________ = 0x746174536E6F6974
-    ServerDll________ = 0x5241545F5954494C
-    ServerDll________ = 0x65756C61565F6C6C
-    ServerDll________ = 0x7473694C6563696F
-    ServerDll________ = 0x7469647541736B72
-    ServerDll________ = 0x65566C656E615074
-    ServerDll________ = 0x543A3A62696C6874
-    ServerDll________ = 0x6F486C656E615074
-    ServerDll________ = 0x707954797469636F
-    ServerDll________ = 0x65646F4D65666172
-    ServerDll________ = 0x6E6F697461636F4C
-    ServerDll________ = 0x537972746E457865
-    ServerDll________ = 0x7470697263537473
-    ServerDll________ = 0x63537373616C6362
-    ServerDll________ = 0x5F706574535F6C6C
-    ServerDll________ = 0x7265746E495F6C6C
-    ServerDll________ = 0x724F6C656E615074
-    ServerDll________ = 0x7461745379616C50
-    ServerDll________ = 0x6C6C6F463A3A7265
-    ServerDll________ = 0x3A62696C676E6972
-    ServerDll________ = 0x6565705374416B6F
-    ServerDll________ = 0x73736572706D6F43
-    ServerDll________ = 0x504168706172476D
-    ServerDll________ = 0x795465766C6F7373
-    ServerDll________ = 0x503A3A62696C6874
-    ServerDll________ = 0x7374694279616C72
-    ServerDll________ = 0x75417265746E7548
-    ServerDll________ = 0x746174536863756F
-    ServerDll________ = 0x65646F4D74416B6F
-    ServerDll________ = 0x617373654D797469
-    ServerDll________ = 0x754A74786554646C
-    ServerDll________ = 0x62616E453A3A4950
-    ServerDll________ = 0x417469647541646C
-    ServerDll________ = 0x79726F746E65766E
-    ServerDll________ = 0x745368746150646C
-    ServerDll________ = 0x745365646F4E646C
-    ServerDll________ = 0x6170537465677261
-    ServerDll________ = 0x70756F724765646F
-    ServerDll________ = 0x6353726F69766168
-    ServerDll________ = 0x7365526D65744965
-    ServerDll________ = 0x65757165526B6365
-    ServerDll________ = 0x75746174536B6365
-    ServerDll________ = 0x47415353454D5F54
-    ServerDll________ = 0x534D4D797469726F
-    ServerDll________ = 0x6E696B616D686374
-    ServerDll________ = 0x7453707265746E49
-    ServerDll________ = 0x6C466E6F69746365
-    ServerDll________ = 0x6553657375615061
-    ServerDll________ = 0x74736E6F43746E65
-    ServerDll__k_____`( � = 0x2E5203C6BC0
-    ServerDll__k_____@�� � = 0x2E5201C3020
-    ServerDll__k_____�ɬ_� = 0x2E526C38E40
-    ServerDll__k_____@3� � = 0x2E52178DE80
-    ServerDll__k_____��< � = 0x2E5203CD200
-    ServerDll__k_____��&� = 0x2E5203CBAC0
-    ServerDll__k_____ = 0x2E53FE1CF80
-    ServerDll__k_____�,� = 0x2E5160C2EC0
-    ServerDll__k_____�< � = 0x2E5203CD880
-    ServerDll__k_____@<�!� = 0x2E526C254A0
-    ServerDll__k_____��< � = 0x2E5203CE840
-    ServerDll__k_____�- � = 0x2E5203CE0E0
-    ServerDll__k_____ = 0x746E65696C436F54
-    ServerDll__k_____ �1� = 0x2E531168CA0
-    ServerDll__k_____ �1� = 0x2E5203CEC00
-    ServerDll__k_____��< � = 0x2E53116C5C0
-    ServerDll__k_____@�< � = 0x2E5160C3260
-    ServerDll__k_____��< � = 0x2E52F652540
-    ServerDll__k_____`I � = 0x2E5201C0560
-    ServerDll__k_____ = 0x7553746E65696C43
-    ServerDll__k_____ ^ � = 0x2E52F655300
-    ServerDll__k_____ = 0x2E521AE2640
-    ServerDll__k_____@I � = 0x2E526C38C40
-    ServerDll__k_____ = 0x2E55FACEAE0
-    ServerDll__k_____ = 0x2E5160C0640
-    ServerDll__k_____`�1� = 0x2E531168BE0
-    ServerDll__k_____@Xe/� = 0x2E5203C5840
-    ServerDll__k_____`��&� = 0x2E521B04B20
-    ServerDll__k_____��&� = 0x2E5201C6AA0
-    ServerDll__k_____ = 0x2E5203C8740
-    ServerDll__k_____ = 0x2E5201C09E0
-    ServerDll__k_____�c�&� = 0x2E520A38580
-    ServerDll__k_____`�1� = 0x2E5203CEFC0
-    ServerDll__k_____ = 0x2E5165FCA20
-    ServerDll__k_____ �< � = 0x2E5203CD520
-    ServerDll__k_____ = 0x2E5203CED80
-    ServerDll__k_____�W< � = 0x2E5203C9DC0
-    ServerDll__k_____�� � = 0x2E5203C6E00
-    ServerDll__k_____��x!� = 0x2E521786E20
-    ServerDll__k_____ �< � = 0x2E526C35260
-    ServerDll__k_____�P � = 0x2E5201C5040
-    ServerDll__k_____@�< � = 0x2E5203CEBC0
-    ServerDll__k_____@&e/� = 0x2E5203C9D80
-    ServerDll__k_____�	_� = 0x2E520D22080
-    ServerDll__k_____`A � = 0x2E53116C660
-    ServerDll__k_____�f< � = 0x2E5203C6860
-    ServerDll__k_____��&� = 0x2E526C31820
-    ServerDll__k_____��< � = 0x2E5203CF1C0
-    ServerDll__k_____�L � = 0x2E5203CC240
-    ServerDll__k_____ U�!� = 0x2E526C28CC0
-    ServerDll__k_____@(e/� = 0x2E52F65A1C0
-    ServerDll__k_____`:� = 0x2E5201C68C0
-    ServerDll__k_____ �< � = 0x2E53116B580
-    ServerDll__k_____��< � = 0x2E5203CEE40
-    ServerDll__k_____�� = 0x2E5311686A0
-    ServerDll__k_____ = 0x2E5201C6A80
-    ServerDll__k_____�j � = 0x2E5203CE3E0
-    ServerDll__k_____`h< � = 0x2E5201C26E0
-    ServerDll__k_____��< � = 0x2E5203CBB00
-    ServerDll__k_____���&� = 0x2E5203CE980
-    ServerDll__k_____��< � = 0x2E52F6587A0
-    ServerDll__k_____@C� = 0x2E521AEECA0
-    ServerDll__k_____@}�&� = 0x2E526C34860
-    ServerDll__k_____ g � = 0x2E5160C4740
-    ServerDll__k_____@p< � = 0x2E5201C2D00
-    ServerDll__k_____ = 0x2E5160C4540
-    ServerDll__k_____ = 0x62626F4C70696C46
-    ServerDll__k_____��< � = 0x2E5203CEA00
-    ServerDll__k_____`U�!� = 0x2E5203CE620
-    ServerDll__k_____�qe/� = 0x2E5201C09C0
-    ServerDll__k_____ = 0x46797361746E6146
-    ServerDll__k_____���!� = 0x2E53116D9A0
-    ServerDll__k_____��< � = 0x2E526C38F60
-    ServerDll__k_____�n< � = 0x2E5203CC4C0
-    ServerDll__k_____ = 0x2E52F65A120
-    ServerDll__k_____ = 0x7473754343476F54
-    ServerDll__k_____�@�&� = 0x2E5203C8A80
-    ServerDll__k_____��< � = 0x2E5201C2160
-    ServerDll__k_____@A � = 0x2E5201C4160
-    ServerDll__k_____`w< � = 0x2E52F651B40
-    ServerDll__k_____`�< � = 0x2E531168B40
-    ServerDll__k_____�	 � = 0x2E5201C2140
-    ServerDll__k_____`2e/� = 0x2E5203C8820
-    ServerDll__k_____`9 � = 0x2E5201C3940
-    ServerDll__k_____�1� = 0x2E5201C4A60
-    ServerDll__k_____ = 0x43476F54746E6569
-    ServerDll__k_____ = 0x6C5064656B6E6152
-    ServerDll__k_____��< � = 0x2E5203CF100
-    ServerDll__k_____��< � = 0x2E531168C60
-    ServerDll__k_____�j � = 0x2E5203CE6C0
-    ServerDll__k_____�1� = 0x2E5203CB0E0
-    ServerDll__k_____�l � = 0x2E5201C6A40
-    ServerDll__k_____`�< � = 0x2E52F6586A0
-    ServerDll__k_____`�< � = 0x2E5203CF260
-    ServerDll__k_____��e/� = 0x2E5203CDBA0
-    ServerDll__k_____`|< � = 0x2E5201C2CE0
-    ServerDll__k_____@e�&� = 0x2E5201C3960
-    ServerDll__k_____��< � = 0x2E52F65AA00
-    ServerDll__k_____ = 0x2E5203CE880
-    ServerDll__k_____��e/� = 0x2E5201C6CC0
-    ServerDll__k_____ S< � = 0x2E5160C7300
-    ServerDll__k_____ = 0x6E61724743476F54
-    ServerDll__k_____@� = 0x2E5160C0660
-    ServerDll__k_____@;e/� = 0x2E5203CF9A0
-    ServerDll__k_____`� = 0x2E5201C5B80
-    ServerDll__k_____`�< � = 0x2E526C39A60
-    ServerDll__k_____@?�!� = 0x2E5166535A0
-    ServerDll__k_____`Y� = 0x2E5201C1660
-    ServerDll__k_____ = 0x2E5203C7CC0
-    ServerDll__k_____��< � = 0x2E5203CEA40
-    ServerDll__k_____ = 0x2E5203CBDC0
-    ServerDll__k_____ k � = 0x2E5203CDF60
-    ServerDll__k_____ = 0x2E5203C8D60
-    ServerDll__k_____��< � = 0x2E52F656500
+    ServerDll________ = 0x0
     ServerDll_CDOTA_Modifier_AghsFort_Arcanist_Potion_m_nCooldownReductionPct = 0x1A78 // int32
     ServerDll_CDOTA_Modifier_AghsFort_Arcanist_Potion_m_nManaCostReductionPct = 0x1A7C // int32
     ServerDll_CDOTA_Modifier_Special_Bonus_Reincarnation_value = 0x1A78 // float32
@@ -14795,7 +14070,7 @@ const (
     ServerDll_CDOTA_Modifier_Kez_Katana_katana_attack_range = 0x1A78 // int32
     ServerDll_CDOTA_Modifier_Kez_Katana_katana_base_attack_time = 0x1A7C // float32
     ServerDll_CDOTA_Modifier_Kez_Katana_katana_agility_bonus_base_damage = 0x1A80 // int32
-    ServerDll_CDOTA_Modifier_Kez_Katana_katana_bleed_attack_damage_pct = 0x1A84 // int32
+    ServerDll_CDOTA_Modifier_Kez_Katana_katana_bleed_attack_damage_pct = 0x1A84 // float32
     ServerDll_CDOTA_Modifier_Kez_Katana_katana_base_ms = 0x1A88 // int32
     ServerDll_CDOTA_Modifier_Kez_Katana_katana_bleed_duration = 0x1A8C // float32
     ServerDll_CDOTA_Modifier_Kez_Katana_katana_swap_bonus_damage = 0x1A90 // int32

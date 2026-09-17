@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 pub const source2_dumper = struct {
     pub const interfaces = struct {
@@ -11,13 +11,13 @@ pub const source2_dumper = struct {
         // Module: client.dll
         pub const client_dll = struct {
             pub const ClientToolsInfo_001: usize = 0x5A84BD0;
-            pub const DOTA_CLIENT_GCCLIENT: usize = 0x635C1D0;
+            pub const DOTA_CLIENT_GCCLIENT: usize = 0x635C1C0;
             pub const GameClientExports001: usize = 0x5A808F8;
-            pub const LegacyGameUI001: usize = 0x5AEF060;
-            pub const PanoramaUIClient001: usize = 0x5B1BC70;
-            pub const PlayButtonService001: usize = 0x5AFCD38;
+            pub const LegacyGameUI001: usize = 0x5AEF050;
+            pub const PanoramaUIClient001: usize = 0x5B1BC60;
+            pub const PlayButtonService001: usize = 0x5AFCD28;
             pub const Source2Client002: usize = 0x61AF230;
-            pub const Source2ClientConfig001: usize = 0x61577F0;
+            pub const Source2ClientConfig001: usize = 0x61577E0;
             pub const Source2ClientPrediction001: usize = 0x5A890B0;
             pub const Source2ClientUI001: usize = 0x58725C0;
         };
@@ -155,13 +155,13 @@ pub const source2_dumper = struct {
         // Module: server.dll
         pub const server_dll = struct {
             pub const EntitySubclassUtilsV001: usize = 0x4741A10;
-            pub const NavGameTest001: usize = 0x49E4D50;
+            pub const NavGameTest001: usize = 0x49E4D60;
             pub const ServerToolsInfo_001: usize = 0x494DD98;
             pub const Source2GameClients001: usize = 0x4947F50;
             pub const Source2GameDirector001: usize = 0x5025E30;
             pub const Source2GameEntities001: usize = 0x494D540;
             pub const Source2Server001: usize = 0x494D390;
-            pub const Source2ServerConfig001: usize = 0x4F507C8;
+            pub const Source2ServerConfig001: usize = 0x4F507B8;
         };
         // Module: soundsystem.dll
         pub const soundsystem_dll = struct {

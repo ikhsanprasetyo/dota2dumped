@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 package schemas
 
@@ -6555,7 +6555,7 @@ const (
     ClientDll_CDOTA_Modifier_Kez_Katana_katana_attack_range = 0x1A78 // int32
     ClientDll_CDOTA_Modifier_Kez_Katana_katana_base_attack_time = 0x1A7C // float32
     ClientDll_CDOTA_Modifier_Kez_Katana_katana_agility_bonus_base_damage = 0x1A80 // int32
-    ClientDll_CDOTA_Modifier_Kez_Katana_katana_bleed_attack_damage_pct = 0x1A84 // int32
+    ClientDll_CDOTA_Modifier_Kez_Katana_katana_bleed_attack_damage_pct = 0x1A84 // float32
     ClientDll_CDOTA_Modifier_Kez_Katana_katana_base_ms = 0x1A88 // int32
     ClientDll_CDOTA_Modifier_Kez_Katana_katana_bleed_duration = 0x1A8C // float32
     ClientDll_CDOTA_Modifier_Kez_Katana_katana_swap_bonus_damage = 0x1A90 // int32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 #pragma once
 
@@ -1213,7 +1213,7 @@ namespace source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // npc_dota_juggernaut_healing_ward
+            // ius
             namespace CSndSeqInstSndEvtSchema {
             }
             // Parent: None
@@ -1466,7 +1466,7 @@ namespace source2_dumper {
             // SNDLVL_140dB
             // SNDLVL_150dB
             // SNDLVL_180dB
-            // npc_dota_juggernaut_healing_ward
+            // ius
             namespace CSndSeqInstMidiSampler {
                 constexpr std::ptrdiff_t m_bIsSoundEvent = 0x20; // bool
                 constexpr std::ptrdiff_t m_bStopPrevious = 0x21; // bool
@@ -1488,7 +1488,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // npc_dota_juggernaut_healing_ward
+            // ius
             namespace CSndSeqInstBaseSchema {
                 constexpr std::ptrdiff_t m_nType = 0x8; // SndSeqInstrumentType_t
                 constexpr std::ptrdiff_t m_bStopCurrentEvents = 0xE; // bool
@@ -2352,6 +2352,7 @@ namespace source2_dumper {
             // CMD_IMPULSERESPONSE_RESET
             // CMD_BLEND_VSNDS_TO_IMPULSERESPONSE
             // CMD_IMPULSERESPONSE_DELAY
+            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MKV3TransferName
@@ -3327,8 +3328,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
-            // npc_dota_juggernaut_healing_ward
-            // grams\Python\Python312\Scripts\;C:\Users\ByteseekerPC\AppData\Local\Programs\Python\Python312\;C:\Program Files\dotnet\;C:\Users
+            // ius
             namespace CVoiceContainerVMixSnd {
             }
             // Parent: None

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-13 21:05:45.733925800 +07:00
+# 2026-09-17 12:11:28.864356600 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1428,6 +1428,10 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
+        class H____WH___H__H_ڹ__:
+            pass
+        class DOTAInternational2025PredictionRankings:
+            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1A28 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1A50 # ParticleIndex_t
@@ -10739,7 +10743,7 @@ class Schemas:
             katana_attack_range = 0x1A78 # int32
             katana_base_attack_time = 0x1A7C # float32
             katana_agility_bonus_base_damage = 0x1A80 # int32
-            katana_bleed_attack_damage_pct = 0x1A84 # int32
+            katana_bleed_attack_damage_pct = 0x1A84 # float32
             katana_base_ms = 0x1A88 # int32
             katana_bleed_duration = 0x1A8C # float32
             katana_swap_bonus_damage = 0x1A90 # int32
@@ -28301,3 +28305,21 @@ class Schemas:
             m_flRadius = 0x8 # float32
             m_nHitRegionIndex = 0xC # int32
             m_nDamageMultiplier = 0x10 # int32
+        class L:
+            pass
+        class __:
+            pass
+        class ehandle:
+            pass
+        class __:
+            pass
+        class __:
+            pass
+        class __:
+            pass
+        class ______:
+            pass
+        class __:
+            pass
+        class __m___:
+            pass

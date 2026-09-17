@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-13 21:05:45.733925800 +07:00
+# 2026-09-17 12:11:28.864356600 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -9,13 +9,13 @@ class Interfaces:
     # Module: client.dll
     class ClientDll:
         ClientToolsInfo_001 = 0x5A84BD0
-        DOTA_CLIENT_GCCLIENT = 0x635C1D0
+        DOTA_CLIENT_GCCLIENT = 0x635C1C0
         GameClientExports001 = 0x5A808F8
-        LegacyGameUI001 = 0x5AEF060
-        PanoramaUIClient001 = 0x5B1BC70
-        PlayButtonService001 = 0x5AFCD38
+        LegacyGameUI001 = 0x5AEF050
+        PanoramaUIClient001 = 0x5B1BC60
+        PlayButtonService001 = 0x5AFCD28
         Source2Client002 = 0x61AF230
-        Source2ClientConfig001 = 0x61577F0
+        Source2ClientConfig001 = 0x61577E0
         Source2ClientPrediction001 = 0x5A890B0
         Source2ClientUI001 = 0x58725C0
     # Module: engine2.dll
@@ -133,13 +133,13 @@ class Interfaces:
     # Module: server.dll
     class ServerDll:
         EntitySubclassUtilsV001 = 0x4741A10
-        NavGameTest001 = 0x49E4D50
+        NavGameTest001 = 0x49E4D60
         ServerToolsInfo_001 = 0x494DD98
         Source2GameClients001 = 0x4947F50
         Source2GameDirector001 = 0x5025E30
         Source2GameEntities001 = 0x494D540
         Source2Server001 = 0x494D390
-        Source2ServerConfig001 = 0x4F507C8
+        Source2ServerConfig001 = 0x4F507B8
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundBugBugService001_Client = 0x553250

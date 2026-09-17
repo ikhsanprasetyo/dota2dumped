@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1766,7 +1766,8 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // TUAL_GAMEPAD=1
+            // vers\DriverData
+            // 3
             pub mod CPulseCell_BaseState {
             }
             // Parent: None
@@ -2885,6 +2886,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             pub mod CSlowDownOnSlopesUpdateNode {
                 pub const m_flSlowDownStrength: usize = 0x70; // float32
             }
@@ -2995,6 +3000,7 @@ pub mod source2_dumper {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -3084,6 +3090,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub mod CNmParameterizedBlendNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
@@ -3613,6 +3620,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskBlendNode__CDefinition {
                 pub const m_nSourceMaskNodeIdx: usize = 0x10; // int16
@@ -4332,6 +4340,10 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             pub mod CSingleFrameUpdateNode {
                 pub const m_actions: usize = 0x58; // CUtlVector<CSmartPtr<CAnimActionUpdater>>
                 pub const m_hPoseCacheHandle: usize = 0x70; // CPoseHandle
@@ -4343,6 +4355,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5500,6 +5513,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub mod CNmVelocityBlendNode__CDefinition {
             }
             // Parent: None
@@ -5684,6 +5698,7 @@ pub mod source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             pub mod CNmBoneMaskSelectorNode__CDefinition {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
@@ -6031,6 +6046,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6396,6 +6412,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
             pub mod CPairedSequenceUpdateNode {
                 pub const m_sPairedSequenceRole: usize = 0x78; // CGlobalSymbol
             }
@@ -6944,6 +6961,7 @@ pub mod source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fV
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -8157,6 +8175,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub mod CQuaternionAnimParameter {
                 pub const m_defaultValue: usize = 0x80; // Quaternion
                 pub const m_bInterpolate: usize = 0x90; // bool
@@ -9417,6 +9436,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub mod CNmFixedWeightBoneMaskNode__CDefinition {
                 pub const m_flBoneWeight: usize = 0x10; // float32
             }
@@ -9494,6 +9514,7 @@ pub mod source2_dumper {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -9692,6 +9713,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub mod CNmBlend2DNode__CDefinition {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9745,6 +9767,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10314,6 +10337,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub mod CNmBodyGroupNode__CDefinition {
                 pub const m_nEnabledNodeIdx: usize = 0x18; // int16
                 pub const m_event: usize = 0x20; // CNmBodyGroupEvent
@@ -10360,6 +10384,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10456,6 +10481,7 @@ pub mod source2_dumper {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -10592,7 +10618,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             pub mod CBoneConstraintRbf {
                 pub const m_inputBones: usize = 0x20; // CUtlVector<std::pair<CUtlString,uint32>>
@@ -10986,7 +11012,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             pub mod CBoneConstraintPoseSpaceBone {
                 pub const m_inputList: usize = 0x60; // CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
@@ -11291,6 +11317,7 @@ pub mod source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11325,7 +11352,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             pub mod CBoneConstraintDotToMorph {
                 pub const m_sBoneName: usize = 0x20; // CUtlString
@@ -11716,6 +11743,10 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             // MGetKV3ClassDefaults
             pub mod CSolveIKChainUpdateNode {
                 pub const m_targetHandles: usize = 0x70; // CUtlVector<CSolveIKTargetHandle_t>
@@ -11811,6 +11842,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
             pub mod CLeafUpdateNode {
             }
             // Parent: None
@@ -12220,6 +12252,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub mod CNmBoneMaskNode__CDefinition {
                 pub const m_boneMaskID: usize = 0x10; // CGlobalSymbol
             }
@@ -13230,6 +13263,7 @@ pub mod source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fV
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

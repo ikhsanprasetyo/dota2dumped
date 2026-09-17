@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7204
-    // Enum count: 118
+    // Class count: 7213
+    // Enum count: 120
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -7380,7 +7380,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // e
+        // o
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -8649,6 +8649,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // S
+        // 6/0x57c7,0x0f30/0x1116,0x0fV
         // e
         public static class C_DOTA_GuildBannerDynamic {
             public const nint m_bRespawnClientEntity = 0xD10; // bool
@@ -11310,7 +11311,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_BaseRequirement {
         }
         // Parent: C_DOTA_Item
@@ -14655,7 +14655,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_Inflow_BaseEntrypoint {
             public const nint m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
             public const nint m_RegisterMap = 0x50; // PulseRegisterMap_t
@@ -17777,15 +17776,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
-        // `S
-        // `T
-        // Po
-        // 0t
-        // pv
-        // @z
-        //  g
-        // Pl
+        // 30/0x1116,0x0fV
         public static class CPulseCell_BaseLerp {
             public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
@@ -18292,7 +18283,7 @@ namespace Source2Dumper.Schemas {
             public const nint katana_attack_range = 0x1A78; // int32
             public const nint katana_base_attack_time = 0x1A7C; // float32
             public const nint katana_agility_bonus_base_damage = 0x1A80; // int32
-            public const nint katana_bleed_attack_damage_pct = 0x1A84; // int32
+            public const nint katana_bleed_attack_damage_pct = 0x1A84; // float32
             public const nint katana_base_ms = 0x1A88; // int32
             public const nint katana_bleed_duration = 0x1A8C; // float32
             public const nint katana_swap_bonus_damage = 0x1A90; // int32
@@ -20568,7 +20559,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_BaseFlow {
         }
         // Parent: C_DOTA_BaseNPC_Hero
@@ -26126,7 +26116,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_Step_DebugLog {
         }
         // Parent: C_DOTA_BaseNPC_Hero
@@ -26405,6 +26394,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyDescription
         // MGetKV3ClassDefaults
         // MKV3TransferSaveOpsForField
+        // 30/0x1116,0x0fV
         public static class CBodyComponentBaseAnimGraph {
             public const nint m_animationController = 0x530; // CBaseAnimGraphController
         }
@@ -27478,7 +27468,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_Inflow_ObservableVariableListener {
             public const nint m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
             public const nint m_bSelfReference = 0x82; // bool
@@ -28384,7 +28373,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // e
+        // o
         // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
         // TIMELINE_COMPRESSION_AVERAGE
         // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -28432,7 +28421,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_Outflow_CycleOrdered {
             public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
@@ -32078,7 +32066,6 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // pv
         // MGetKV3ClassDefaults
         // MPropertyFriendlyName
         // MPropertyDescription
@@ -32764,7 +32751,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_Inflow_Method {
             public const nint m_MethodName = 0x80; // PulseSymbol_t
             public const nint m_Description = 0x90; // CUtlString
@@ -33315,7 +33301,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_BaseValue {
         }
         // Parent: C_DOTA_Item
@@ -35371,7 +35356,6 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_Step_PublicOutput {
             public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
         }
@@ -41449,7 +41433,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
-        // Po
         public static class CPulseCell_Step_CallExternalMethod {
             public const nint m_MethodName = 0xD8; // PulseSymbol_t
             public const nint m_nBlackboardIndex = 0xE8; // PulseRuntimeBlackboardReferenceIndex_t
@@ -41611,6 +41594,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // S
+        // 6/0x57c7,0x0f30/0x1116,0x0fV
         // e
         public static class C_DOTA_GuildBannerProp {
         }
@@ -45173,6 +45157,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 7,0x0f30/0x1116,0x0fV
         // MGetKV3ClassDefaults
         public static class ArtyProgressBarDef_t {
             public const nint m_flNotchSize = 0xB0; // float32
@@ -45371,6 +45356,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 7,0x0f30/0x1116,0x0fV
         // MGetKV3ClassDefaults
         public static class ArtyCannonDef_t {
             public const nint m_bDirectAimAtTarget = 0xB0; // bool
@@ -46529,6 +46515,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // 7,0x0f30/0x1116,0x0fV
         // MGetKV3ClassDefaults
         public static class ArtySpawnerDef_t {
             public const nint m_flInitialDelay = 0xB0; // float32
@@ -46819,6 +46806,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 16,0x0fV
         // MGetKV3ClassDefaults
         // Y
         // MGetKV3ClassDefaults
@@ -47237,6 +47225,7 @@ namespace Source2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 7,0x0f30/0x1116,0x0fV
         // MGetKV3ClassDefaults
         public static class ArtyUnitDef_t {
             public const nint m_bRotateReloadBar = 0xB0; // bool
@@ -48124,7 +48113,7 @@ namespace Source2Dumper.Schemas {
         // DMG_DROWNRECOVER
         // DMG_ACID
         // DMG_LASTGENERICFLAG
-        // 804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0x0302,0x0079/0x000a,0x25f0/0x83c
+        // x9105,0x0111/0x1431,0x1038/0x1418,0x0111/0x1419,0x19fa/0x0607,0x07b5/0x0312,0x044f/0xb323,0x044f/0xb304,0x044f/0xb300,0x6666/0x8
         // DAMAGE_EVENTS_ONLY
         // DAMAGE_YES
         public static class CClientAlphaProperty {
@@ -48229,6 +48218,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // 16,0x0fV
         public static class CSurvivorsPowerUpDefinition_AreaAttack_Line {
             public const nint m_bUseFacingDirection = 0x868; // bool
         }
@@ -49259,6 +49249,42 @@ namespace Source2Dumper.Schemas {
             public const nint m_flRadius = 0x8; // float32
             public const nint m_nHitRegionIndex = 0xC; // int32
             public const nint m_nDamageMultiplier = 0x10; // int32
+        }
+        // Parent: None
+        // Field count: 0
+        public static class L {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class __ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ehandle {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class __ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class __ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class __ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class ______ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class __ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class __m___ {
         }
     }
 }

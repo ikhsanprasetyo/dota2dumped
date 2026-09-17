@@ -8825,7 +8825,11 @@
             "type": "Unknown"
           },
           {
-            "name": "TUAL_GAMEPAD=1",
+            "name": "vers\\DriverData",
+            "type": "Unknown"
+          },
+          {
+            "name": "3",
             "type": "Unknown"
           }
         ],

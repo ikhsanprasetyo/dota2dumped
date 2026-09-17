@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 7204
-        // Enum count: 118
+        // Class count: 7213
+        // Enum count: 120
         pub const client_dll = struct {
             // Alignment: 4
             // Member count: 5
@@ -7380,7 +7380,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // e
+            // o
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -8649,6 +8649,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // S
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // e
             pub const C_DOTA_GuildBannerDynamic = struct {
                 pub const m_bRespawnClientEntity: usize = 0xD10; // bool
@@ -11310,7 +11311,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_BaseRequirement = struct {
             };
             // Parent: C_DOTA_Item
@@ -14655,7 +14655,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_Inflow_BaseEntrypoint = struct {
                 pub const m_EntryChunk: usize = 0x48; // PulseRuntimeChunkIndex_t
                 pub const m_RegisterMap: usize = 0x50; // PulseRegisterMap_t
@@ -17777,15 +17776,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
-            // `S
-            // `T
-            // Po
-            // 0t
-            // pv
-            // @z
-            //  g
-            // Pl
+            // 30/0x1116,0x0fV
             pub const CPulseCell_BaseLerp = struct {
                 pub const m_WakeResume: usize = 0xD8; // CPulse_ResumePoint
             };
@@ -18292,7 +18283,7 @@ pub const source2_dumper = struct {
                 pub const katana_attack_range: usize = 0x1A78; // int32
                 pub const katana_base_attack_time: usize = 0x1A7C; // float32
                 pub const katana_agility_bonus_base_damage: usize = 0x1A80; // int32
-                pub const katana_bleed_attack_damage_pct: usize = 0x1A84; // int32
+                pub const katana_bleed_attack_damage_pct: usize = 0x1A84; // float32
                 pub const katana_base_ms: usize = 0x1A88; // int32
                 pub const katana_bleed_duration: usize = 0x1A8C; // float32
                 pub const katana_swap_bonus_damage: usize = 0x1A90; // int32
@@ -20568,7 +20559,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_BaseFlow = struct {
             };
             // Parent: C_DOTA_BaseNPC_Hero
@@ -26126,7 +26116,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_Step_DebugLog = struct {
             };
             // Parent: C_DOTA_BaseNPC_Hero
@@ -26405,6 +26394,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MGetKV3ClassDefaults
             // MKV3TransferSaveOpsForField
+            // 30/0x1116,0x0fV
             pub const CBodyComponentBaseAnimGraph = struct {
                 pub const m_animationController: usize = 0x530; // CBaseAnimGraphController
             };
@@ -27478,7 +27468,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_Inflow_ObservableVariableListener = struct {
                 pub const m_nBlackboardReference: usize = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
                 pub const m_bSelfReference: usize = 0x82; // bool
@@ -28384,7 +28373,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // e
+            // o
             // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
             // TIMELINE_COMPRESSION_AVERAGE
             // TIMELINE_COMPRESSION_AVERAGE_BLEND
@@ -28432,7 +28421,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_Outflow_CycleOrdered = struct {
                 pub const m_Outputs: usize = 0x48; // CUtlVector<CPulse_OutflowConnection>
             };
@@ -32078,7 +32066,6 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // pv
             // MGetKV3ClassDefaults
             // MPropertyFriendlyName
             // MPropertyDescription
@@ -32764,7 +32751,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_Inflow_Method = struct {
                 pub const m_MethodName: usize = 0x80; // PulseSymbol_t
                 pub const m_Description: usize = 0x90; // CUtlString
@@ -33315,7 +33301,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_BaseValue = struct {
             };
             // Parent: C_DOTA_Item
@@ -35371,7 +35356,6 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_Step_PublicOutput = struct {
                 pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
             };
@@ -41449,7 +41433,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // Po
             pub const CPulseCell_Step_CallExternalMethod = struct {
                 pub const m_MethodName: usize = 0xD8; // PulseSymbol_t
                 pub const m_nBlackboardIndex: usize = 0xE8; // PulseRuntimeBlackboardReferenceIndex_t
@@ -41611,6 +41594,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // S
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // e
             pub const C_DOTA_GuildBannerProp = struct {
             };
@@ -45173,6 +45157,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             pub const ArtyProgressBarDef_t = struct {
                 pub const m_flNotchSize: usize = 0xB0; // float32
@@ -45371,6 +45356,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             pub const ArtyCannonDef_t = struct {
                 pub const m_bDirectAimAtTarget: usize = 0xB0; // bool
@@ -46529,6 +46515,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             pub const ArtySpawnerDef_t = struct {
                 pub const m_flInitialDelay: usize = 0xB0; // float32
@@ -46819,6 +46806,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 16,0x0fV
             // MGetKV3ClassDefaults
             // Y
             // MGetKV3ClassDefaults
@@ -47237,6 +47225,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             pub const ArtyUnitDef_t = struct {
                 pub const m_bRotateReloadBar: usize = 0xB0; // bool
@@ -48124,7 +48113,7 @@ pub const source2_dumper = struct {
             // DMG_DROWNRECOVER
             // DMG_ACID
             // DMG_LASTGENERICFLAG
-            // 804,0x20d6/0x0060,0x145f/0x01c5,0x05b8/0x1002,0x04d9/0x0002,0x0f30/0x0107,0x1a34/0x0823,0x146b/0x0302,0x0079/0x000a,0x25f0/0x83c
+            // x9105,0x0111/0x1431,0x1038/0x1418,0x0111/0x1419,0x19fa/0x0607,0x07b5/0x0312,0x044f/0xb323,0x044f/0xb304,0x044f/0xb300,0x6666/0x8
             // DAMAGE_EVENTS_ONLY
             // DAMAGE_YES
             pub const CClientAlphaProperty = struct {
@@ -48229,6 +48218,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 16,0x0fV
             pub const CSurvivorsPowerUpDefinition_AreaAttack_Line = struct {
                 pub const m_bUseFacingDirection: usize = 0x868; // bool
             };
@@ -49259,6 +49249,42 @@ pub const source2_dumper = struct {
                 pub const m_flRadius: usize = 0x8; // float32
                 pub const m_nHitRegionIndex: usize = 0xC; // int32
                 pub const m_nDamageMultiplier: usize = 0x10; // int32
+            };
+            // Parent: None
+            // Field count: 0
+            pub const L = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const __ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const ehandle = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const __ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const __ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const __ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const ______ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const __ = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const __m___ = struct {
             };
         };
     };

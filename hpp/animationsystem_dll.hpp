@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 #pragma once
 
@@ -1626,7 +1626,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // TUAL_GAMEPAD=1
+            // vers\DriverData
+            // 3
             namespace CPulseCell_BaseState {
             }
             // Parent: None
@@ -2745,6 +2746,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             namespace CSlowDownOnSlopesUpdateNode {
                 constexpr std::ptrdiff_t m_flSlowDownStrength = 0x70; // float32
             }
@@ -2855,6 +2860,7 @@ namespace source2_dumper {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -2944,6 +2950,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             namespace CNmParameterizedBlendNode__CDefinition {
                 constexpr std::ptrdiff_t m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 constexpr std::ptrdiff_t m_nInputParameterValueNodeIdx = 0x28; // int16
@@ -3473,6 +3480,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             namespace CNmBoneMaskBlendNode__CDefinition {
                 constexpr std::ptrdiff_t m_nSourceMaskNodeIdx = 0x10; // int16
@@ -4192,6 +4200,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             namespace CSingleFrameUpdateNode {
                 constexpr std::ptrdiff_t m_actions = 0x58; // CUtlVector<CSmartPtr<CAnimActionUpdater>>
                 constexpr std::ptrdiff_t m_hPoseCacheHandle = 0x70; // CPoseHandle
@@ -4203,6 +4215,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5360,6 +5373,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             namespace CNmVelocityBlendNode__CDefinition {
             }
             // Parent: None
@@ -5544,6 +5558,7 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             namespace CNmBoneMaskSelectorNode__CDefinition {
                 constexpr std::ptrdiff_t m_defaultMaskNodeIdx = 0x10; // int16
@@ -5891,6 +5906,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6256,6 +6272,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
             namespace CPairedSequenceUpdateNode {
                 constexpr std::ptrdiff_t m_sPairedSequenceRole = 0x78; // CGlobalSymbol
             }
@@ -6804,6 +6821,7 @@ namespace source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fV
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -8017,6 +8035,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             namespace CQuaternionAnimParameter {
                 constexpr std::ptrdiff_t m_defaultValue = 0x80; // Quaternion
                 constexpr std::ptrdiff_t m_bInterpolate = 0x90; // bool
@@ -9277,6 +9296,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             namespace CNmFixedWeightBoneMaskNode__CDefinition {
                 constexpr std::ptrdiff_t m_flBoneWeight = 0x10; // float32
             }
@@ -9354,6 +9374,7 @@ namespace source2_dumper {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -9552,6 +9573,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             namespace CNmBlend2DNode__CDefinition {
                 constexpr std::ptrdiff_t m_sourceNodeIndices = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 constexpr std::ptrdiff_t m_values = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9605,6 +9627,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10174,6 +10197,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             namespace CNmBodyGroupNode__CDefinition {
                 constexpr std::ptrdiff_t m_nEnabledNodeIdx = 0x18; // int16
                 constexpr std::ptrdiff_t m_event = 0x20; // CNmBodyGroupEvent
@@ -10220,6 +10244,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10316,6 +10341,7 @@ namespace source2_dumper {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -10452,7 +10478,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             namespace CBoneConstraintRbf {
                 constexpr std::ptrdiff_t m_inputBones = 0x20; // CUtlVector<std::pair<CUtlString,uint32>>
@@ -10846,7 +10872,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             namespace CBoneConstraintPoseSpaceBone {
                 constexpr std::ptrdiff_t m_inputList = 0x60; // CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
@@ -11151,6 +11177,7 @@ namespace source2_dumper {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11185,7 +11212,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             namespace CBoneConstraintDotToMorph {
                 constexpr std::ptrdiff_t m_sBoneName = 0x20; // CUtlString
@@ -11576,6 +11603,10 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             // MGetKV3ClassDefaults
             namespace CSolveIKChainUpdateNode {
                 constexpr std::ptrdiff_t m_targetHandles = 0x70; // CUtlVector<CSolveIKTargetHandle_t>
@@ -11671,6 +11702,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
             namespace CLeafUpdateNode {
             }
             // Parent: None
@@ -12080,6 +12112,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             namespace CNmBoneMaskNode__CDefinition {
                 constexpr std::ptrdiff_t m_boneMaskID = 0x10; // CGlobalSymbol
             }
@@ -13090,6 +13123,7 @@ namespace source2_dumper {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fV
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL

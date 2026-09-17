@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-13 21:05:45.733925800 +07:00
+// 2026-09-17 12:11:28.864356600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -1621,7 +1621,8 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // TUAL_GAMEPAD=1
+            // vers\DriverData
+            // 3
             pub const CPulseCell_BaseState = struct {
             };
             // Parent: None
@@ -2740,6 +2741,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             pub const CSlowDownOnSlopesUpdateNode = struct {
                 pub const m_flSlowDownStrength: usize = 0x70; // float32
             };
@@ -2850,6 +2855,7 @@ pub const source2_dumper = struct {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -2939,6 +2945,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub const CNmParameterizedBlendNode__CDefinition = struct {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_nInputParameterValueNodeIdx: usize = 0x28; // int16
@@ -3468,6 +3475,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             pub const CNmBoneMaskBlendNode__CDefinition = struct {
                 pub const m_nSourceMaskNodeIdx: usize = 0x10; // int16
@@ -4187,6 +4195,10 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             pub const CSingleFrameUpdateNode = struct {
                 pub const m_actions: usize = 0x58; // CUtlVector<CSmartPtr<CAnimActionUpdater>>
                 pub const m_hPoseCacheHandle: usize = 0x70; // CPoseHandle
@@ -4198,6 +4210,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -5355,6 +5368,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub const CNmVelocityBlendNode__CDefinition = struct {
             };
             // Parent: None
@@ -5539,6 +5553,7 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             // MGetKV3ClassDefaults
             pub const CNmBoneMaskSelectorNode__CDefinition = struct {
                 pub const m_defaultMaskNodeIdx: usize = 0x10; // int16
@@ -5886,6 +5901,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -6251,6 +6267,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
             pub const CPairedSequenceUpdateNode = struct {
                 pub const m_sPairedSequenceRole: usize = 0x78; // CGlobalSymbol
             };
@@ -6799,6 +6816,7 @@ pub const source2_dumper = struct {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fV
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
@@ -8012,6 +8030,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub const CQuaternionAnimParameter = struct {
                 pub const m_defaultValue: usize = 0x80; // Quaternion
                 pub const m_bInterpolate: usize = 0x90; // bool
@@ -9272,6 +9291,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub const CNmFixedWeightBoneMaskNode__CDefinition = struct {
                 pub const m_flBoneWeight: usize = 0x10; // float32
             };
@@ -9349,6 +9369,7 @@ pub const source2_dumper = struct {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -9547,6 +9568,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub const CNmBlend2DNode__CDefinition = struct {
                 pub const m_sourceNodeIndices: usize = 0x10; // CUtlLeanVectorFixedGrowable<int16,5>
                 pub const m_values: usize = 0x28; // CUtlLeanVectorFixedGrowable<Vector2D,10>
@@ -9600,6 +9622,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10169,6 +10192,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub const CNmBodyGroupNode__CDefinition = struct {
                 pub const m_nEnabledNodeIdx: usize = 0x18; // int16
                 pub const m_event: usize = 0x20; // CNmBodyGroupEvent
@@ -10215,6 +10239,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -10311,6 +10336,7 @@ pub const source2_dumper = struct {
             // PVEC_TYPE_CP_DELTA
             // PVEC_TYPE_CLOSEST_CAMERA_POSITION
             // PVEC_TYPE_COUNT
+            // (
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             // MGetKV3ClassDefaults
@@ -10447,7 +10473,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             pub const CBoneConstraintRbf = struct {
                 pub const m_inputBones: usize = 0x20; // CUtlVector<std::pair<CUtlString,uint32>>
@@ -10841,7 +10867,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             pub const CBoneConstraintPoseSpaceBone = struct {
                 pub const m_inputList: usize = 0x60; // CUtlVector<CBoneConstraintPoseSpaceBone::Input_t>
@@ -11146,6 +11172,7 @@ pub const source2_dumper = struct {
             // MPropertyDescription
             // MPropertyFriendlyName
             // MPropertyDescription
+            // steamapp_pipeline_cache.foz
             // MPropertyFriendlyName
             // MPropertyDescription
             // MPropertyFriendlyName
@@ -11180,7 +11207,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
-            // npc_dota_juggernaut_healing_ward
+            // ius
             // MPropertyCustomFGDType
             pub const CBoneConstraintDotToMorph = struct {
                 pub const m_sBoneName: usize = 0x20; // CUtlString
@@ -11571,6 +11598,10 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // p.
+            // `N
+            // `Z
+            // P^
             // MGetKV3ClassDefaults
             pub const CSolveIKChainUpdateNode = struct {
                 pub const m_targetHandles: usize = 0x70; // CUtlVector<CSolveIKTargetHandle_t>
@@ -11666,6 +11697,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // p.
             pub const CLeafUpdateNode = struct {
             };
             // Parent: None
@@ -12075,6 +12107,7 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // 6/0x57c7,0x0f30/0x1116,0x0fV
             pub const CNmBoneMaskNode__CDefinition = struct {
                 pub const m_boneMaskID: usize = 0x10; // CGlobalSymbol
             };
@@ -13085,6 +13118,7 @@ pub const source2_dumper = struct {
             // PF_MAP_TYPE_NOTCHED
             // PF_MAP_TYPE_ROUND
             // PF_MAP_TYPE_COUNT
+            // x5795,0x20d6/0x319f,0x20d6/0x57c7,0x0f30/0x1116,0x0fV
             // PF_ROUND_TYPE_INVALID
             // PF_ROUND_TYPE_FLOOR
             // PF_ROUND_TYPE_CEIL
