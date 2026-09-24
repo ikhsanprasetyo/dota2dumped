@@ -1,23 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: steamaudio.dll
-        // Class count: 17
+        // Class count: 14
         // Enum count: 0
         pub const steamaudio_dll = struct {
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const SteamAudioReverbClusteringSettings_t = struct {
-                pub const m_bEnableClustering: usize = 0x0; // bool
-                pub const m_nCubeMapResolution: usize = 0x4; // int32
-                pub const m_flDepthThreshold: usize = 0x8; // float32
-            };
             // Parent: None
             // Field count: 5
             //
@@ -76,20 +65,6 @@ pub const source2_dumper = struct {
                 pub const m_movables: usize = 0x10; // CSteamAudioMovableBakedData<CSteamAudioBakedPathingData>
             };
             // Parent: None
-            // Field count: 5
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const SteamAudioReverbSettings_t = struct {
-                pub const m_nNumRays: usize = 0x0; // int32
-                pub const m_nNumBounces: usize = 0x4; // int32
-                pub const m_flIRDuration: usize = 0x8; // float32
-                pub const m_nAmbisonicsOrder: usize = 0xC; // int32
-                pub const m_bExportScene: usize = 0x10; // bool
-            };
-            // Parent: None
             // Field count: 1
             //
             // Metadata:
@@ -98,15 +73,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             pub const CSteamAudioProbeData = struct {
                 pub const m_pProbeBatch: usize = 0x0; // IPLProbeBatch
-            };
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const SteamAudioReverbCompressionSettings_t = struct {
-                pub const m_bEnableCompression: usize = 0x0; // bool
-                pub const m_flQuality: usize = 0x4; // float32
             };
             // Parent: None
             // Field count: 3

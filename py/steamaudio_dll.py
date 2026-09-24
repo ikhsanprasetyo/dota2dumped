@@ -1,13 +1,9 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-17 12:11:28.864356600 +07:00
+# 2026-09-24 17:35:37.601127800 +07:00
 
 class Schemas:
     # Module: steamaudio.dll
     class SteamaudioDll:
-        class SteamAudioReverbClusteringSettings_t:
-            m_bEnableClustering = 0x0 # bool
-            m_nCubeMapResolution = 0x4 # int32
-            m_flDepthThreshold = 0x8 # float32
         class SteamAudioCustomDataDimensionsSettings_t:
             m_nAmbisonicsOrderOutsideField = 0x0 # int32
             m_nAmbisonicsOrderInsideSizeField = 0x4 # int32
@@ -25,17 +21,8 @@ class Schemas:
             m_nBands = 0x0 # int32
             m_probes = 0x8 # CSteamAudioProbeData
             m_movables = 0x10 # CSteamAudioMovableBakedData<CSteamAudioBakedPathingData>
-        class SteamAudioReverbSettings_t:
-            m_nNumRays = 0x0 # int32
-            m_nNumBounces = 0x4 # int32
-            m_flIRDuration = 0x8 # float32
-            m_nAmbisonicsOrder = 0xC # int32
-            m_bExportScene = 0x10 # bool
         class CSteamAudioProbeData:
             m_pProbeBatch = 0x0 # IPLProbeBatch
-        class SteamAudioReverbCompressionSettings_t:
-            m_bEnableCompression = 0x0 # bool
-            m_flQuality = 0x4 # float32
         class CSteamAudioBakedMaterialsData:
             m_probes = 0x0 # CSteamAudioProbeData
             m_vecMaterialTokens = 0x8 # CUtlVector<uint32>

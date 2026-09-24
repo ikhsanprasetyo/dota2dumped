@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: worldrenderer.dll
-        // Class count: 33
+        // Class count: 17
         // Enum count: 3
         pub const worldrenderer_dll = struct {
             // Alignment: 1
@@ -52,33 +52,6 @@ pub const source2_dumper = struct {
             // Field count: 0
             pub const CEntityComponent = struct {
             };
-            // Parent: CEntityComponent
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const CScriptComponent = struct {
-                pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
-            };
-            // Parent: None
-            // Field count: 12
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const CEntityIdentity = struct {
-                pub const m_nameStringTableIndex: usize = 0x14; // int32
-                pub const m_name: usize = 0x18; // CUtlSymbolLarge
-                pub const m_designerName: usize = 0x20; // CUtlSymbolLarge
-                pub const m_flags: usize = 0x30; // uint32
-                pub const m_worldGroupId: usize = 0x38; // WorldGroupId_t
-                pub const m_fDataObjectTypes: usize = 0x3C; // uint32
-                pub const m_PathIndex: usize = 0x40; // ChangeAccessorFieldPathIndex_t
-                pub const m_pAttributes: usize = 0x48; // CEntityAttributeTable*
-                pub const m_pPrev: usize = 0x50; // CEntityIdentity*
-                pub const m_pNext: usize = 0x58; // CEntityIdentity*
-                pub const m_pPrevByClass: usize = 0x60; // CEntityIdentity*
-                pub const m_pNextByClass: usize = 0x68; // CEntityIdentity*
-            };
             // Parent: None
             // Field count: 9
             //
@@ -97,17 +70,6 @@ pub const source2_dumper = struct {
                 pub const m_nVertexEmissiveByteOffset: usize = 0x10; // uint32
                 pub const m_fEmissiveFactor: usize = 0x14; // float32
                 pub const m_mWorldFromLocal: usize = 0x18; // matrix3x4_t
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const AggregateVertexAlbedoStreamOnDiskData_t = struct {
-                pub const m_BufferData: usize = 0x0; // CUtlBinaryBlock
             };
             // Parent: None
             // Field count: 14
@@ -149,71 +111,6 @@ pub const source2_dumper = struct {
                 pub const m_fSwitchDistances: usize = 0x10; // CUtlVector<float32>
             };
             // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // OBJECT_TYPE_MODEL
-            // OBJECT_TYPE_BLOCK_LIGHT
-            // OBJECT_TYPE_NO_SHADOWS
-            // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
-            // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-            // OBJECT_TYPE_RENDER_WITH_DYNAMIC
-            // OBJECT_TYPE_RENDER_TO_CUBEMAPS
-            // OBJECT_TYPE_MODEL_HAS_LODS
-            // OBJECT_TYPE_OVERLAY
-            // OBJECT_TYPE_PRECOMPUTED_VISMEMBERS
-            // OBJECT_TYPE_STATIC_CUBE_MAP
-            // OBJECT_TYPE_DISABLE_VIS_CULLING
-            // OBJECT_TYPE_BAKED_GEOMETRY
-            // OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS
-            // OBJECT_TYPE_HAS_AGGREGATE_RTPROXY
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
-            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
-            // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // e
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 2
-            pub const ExtraVertexStreamOverride_t = struct {
-                pub const m_nSubSceneObject: usize = 0x4; // uint32
-                pub const m_nDrawCallIndex: usize = 0x8; // uint32
-                pub const m_nAdditionalMeshDrawPrimitiveFlags: usize = 0xC; // MeshDrawPrimitiveFlags_t
-                pub const m_extraBufferBinding: usize = 0x10; // CRenderBufferBinding
-            };
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const ClutterTile_t = struct {
-                pub const m_nFirstInstance: usize = 0x0; // uint32
-                pub const m_nLastInstance: usize = 0x4; // uint32
-                pub const m_BoundsWs: usize = 0x8; // AABB_t
-            };
-            // Parent: None
             // Field count: 11
             //
             // Metadata:
@@ -236,20 +133,6 @@ pub const source2_dumper = struct {
                 pub const m_renderableModel: usize = 0x70; // CStrongHandle<InfoForResourceTypeCModel>
             };
             // Parent: None
-            // Field count: 7
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const NodeData_t = struct {
-                pub const m_nParent: usize = 0x0; // int32
-                pub const m_vOrigin: usize = 0x4; // Vector
-                pub const m_vMinBounds: usize = 0x10; // Vector
-                pub const m_vMaxBounds: usize = 0x1C; // Vector
-                pub const m_flMinimumDistance: usize = 0x28; // float32
-                pub const m_ChildNodeIndices: usize = 0x30; // CUtlVector<int32>
-                pub const m_worldNodePrefix: usize = 0x48; // CUtlString
-            };
-            // Parent: None
             // Field count: 0
             pub const VMapResourceData_t = struct {
             };
@@ -265,32 +148,6 @@ pub const source2_dumper = struct {
             pub const AggregateInstanceStreamOnDiskData_t = struct {
                 pub const m_DecodedSize: usize = 0x0; // uint32
                 pub const m_BufferData: usize = 0x8; // CUtlBinaryBlock
-            };
-            // Parent: None
-            // Field count: 9
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const RTProxyBLAS_t = struct {
-                pub const m_nFirstIndex: usize = 0x0; // uint32
-                pub const m_nIndexCount: usize = 0x4; // uint32
-                pub const m_nVBByteOffset: usize = 0x8; // uint32
-                pub const m_nBaseVertex: usize = 0xC; // uint32
-                pub const m_nVertexCount: usize = 0x10; // uint16
-                pub const m_albedoFormat: usize = 0x12; // VertexAlbedoFormat_t
-                pub const m_boundLs: usize = 0x14; // AABB_t
-                pub const m_vVertexOriginLs: usize = 0x2C; // Vector
-                pub const m_vVertexExtentLs: usize = 0x38; // Vector
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const AggregateVertexEmissiveStreamOnDiskData_t = struct {
-                pub const m_BufferData: usize = 0x0; // CUtlBinaryBlock
             };
             // Parent: None
             // Field count: 11
@@ -314,31 +171,6 @@ pub const source2_dumper = struct {
                 pub const m_materialGroup: usize = 0xA0; // CUtlStringToken
                 pub const m_flBeginCullSize: usize = 0xA4; // float32
                 pub const m_flEndCullSize: usize = 0xA8; // float32
-            };
-            // Parent: None
-            // Field count: 6
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const WorldBuilderParams_t = struct {
-                pub const m_flMinDrawVolumeSize: usize = 0x0; // float32
-                pub const m_bBuildBakedLighting: usize = 0x4; // bool
-                pub const m_bAggregateInstanceStreams: usize = 0x5; // bool
-                pub const m_bakedLightingInfo: usize = 0x8; // BakedLightingInfo_t
-                pub const m_nCompileTimestamp: usize = 0x50; // uint64
-                pub const m_nCompileFingerprint: usize = 0x58; // uint64
-            };
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const PermEntityLumpData_t = struct {
-                pub const m_name: usize = 0x8; // CUtlString
-                pub const m_childLumps: usize = 0x10; // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-                pub const m_entityKeyValues: usize = 0x28; // CUtlLeanVector<EntityKeyValueData_t>
             };
             // Parent: None
             // Field count: 16
@@ -379,22 +211,6 @@ pub const source2_dumper = struct {
                 pub const m_nSceneObjectIndex: usize = 0x0; // uint32
             };
             // Parent: None
-            // Field count: 8
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const EntityIOConnectionData_t = struct {
-                pub const m_outputName: usize = 0x0; // CUtlString
-                pub const m_targetType: usize = 0x8; // uint32
-                pub const m_targetName: usize = 0x10; // CUtlString
-                pub const m_inputName: usize = 0x18; // CUtlString
-                pub const m_overrideParam: usize = 0x20; // CUtlString
-                pub const m_flDelay: usize = 0x28; // float32
-                pub const m_nTimesToFire: usize = 0x2C; // int32
-                pub const m_paramMap: usize = 0x30; // KeyValues3
-            };
-            // Parent: None
             // Field count: 11
             //
             // Metadata:
@@ -426,13 +242,6 @@ pub const source2_dumper = struct {
             pub const VoxelVisBlockOffset_t = struct {
                 pub const m_nOffset: usize = 0x0; // uint32
                 pub const m_nElementCount: usize = 0x4; // uint32
-            };
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            pub const InfoForResourceTypeVMapResourceData_t = struct {
             };
             // Parent: None
             // Field count: 4
@@ -474,21 +283,6 @@ pub const source2_dumper = struct {
                 pub const m_fEmissiveFactor: usize = 0x28; // float32
             };
             // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const World_t = struct {
-                pub const m_builderParams: usize = 0x0; // WorldBuilderParams_t
-                pub const m_worldNodes: usize = 0x60; // CUtlVector<NodeData_t>
-                pub const m_worldLightingInfo: usize = 0x78; // BakedLightingInfo_t
-                pub const m_entityLumps: usize = 0xC0; // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-            };
-            // Parent: None
             // Field count: 3
             //
             // Metadata:
@@ -498,55 +292,6 @@ pub const source2_dumper = struct {
                 pub const m_nLightHash: usize = 0x0; // uint32
                 pub const m_nMapHash: usize = 0x4; // uint32
                 pub const m_nShadowChannel: usize = 0x8; // int8
-            };
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // OBJECT_TYPE_MODEL
-            // OBJECT_TYPE_BLOCK_LIGHT
-            // OBJECT_TYPE_NO_SHADOWS
-            // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
-            // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-            // OBJECT_TYPE_RENDER_WITH_DYNAMIC
-            // OBJECT_TYPE_RENDER_TO_CUBEMAPS
-            // OBJECT_TYPE_MODEL_HAS_LODS
-            // OBJECT_TYPE_OVERLAY
-            // OBJECT_TYPE_PRECOMPUTED_VISMEMBERS
-            // OBJECT_TYPE_STATIC_CUBE_MAP
-            // OBJECT_TYPE_DISABLE_VIS_CULLING
-            // OBJECT_TYPE_BAKED_GEOMETRY
-            // OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS
-            // OBJECT_TYPE_HAS_AGGREGATE_RTPROXY
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
-            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
-            // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // e
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 2
-            pub const MaterialOverride_t = struct {
-                pub const m_nSubSceneObject: usize = 0x4; // uint32
-                pub const m_nDrawCallIndex: usize = 0x8; // uint32
-                pub const m_pMaterial: usize = 0x10; // CStrongHandle<InfoForResourceTypeIMaterial2>
-                pub const m_vLinearTintColor: usize = 0x18; // Vector
             };
             // Parent: None
             // Field count: 7
@@ -565,38 +310,6 @@ pub const source2_dumper = struct {
                 pub const m_IBData: usize = 0x48; // CUtlBinaryBlock
                 pub const m_InstanceAlbedoData: usize = 0x58; // CUtlBinaryBlock
                 pub const m_InstanceEmissiveData: usize = 0x68; // CUtlBinaryBlock
-            };
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const EntityKeyValueData_t = struct {
-                pub const m_connections: usize = 0x8; // CUtlVector<EntityIOConnectionData_t>
-                pub const m_keyValuesData: usize = 0x20; // CUtlBinaryBlock
-            };
-            // Parent: None
-            // Field count: 13
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CVoxelVisibility = struct {
-                pub const m_nBaseClusterCount: usize = 0x40; // uint32
-                pub const m_nPVSBytesPerCluster: usize = 0x44; // uint32
-                pub const m_vMinBounds: usize = 0x48; // Vector
-                pub const m_vMaxBounds: usize = 0x54; // Vector
-                pub const m_flGridSize: usize = 0x60; // float32
-                pub const m_nSkyVisibilityCluster: usize = 0x64; // uint32
-                pub const m_nSunVisibilityCluster: usize = 0x68; // uint32
-                pub const m_NodeBlock: usize = 0x6C; // VoxelVisBlockOffset_t
-                pub const m_RegionBlock: usize = 0x74; // VoxelVisBlockOffset_t
-                pub const m_EnclosedClusterListBlock: usize = 0x7C; // VoxelVisBlockOffset_t
-                pub const m_EnclosedClustersBlock: usize = 0x84; // VoxelVisBlockOffset_t
-                pub const m_MasksBlock: usize = 0x8C; // VoxelVisBlockOffset_t
-                pub const m_nVisBlocks: usize = 0x94; // VoxelVisBlockOffset_t
             };
         };
     };

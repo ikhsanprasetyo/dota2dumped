@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
-    // Class count: 58
+    // Class count: 53
     // Enum count: 2
     public static class Engine2Dll {
         // Alignment: 4
@@ -31,33 +31,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CEntityComponent {
-        }
-        // Parent: CEntityComponent
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CScriptComponent {
-            public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
-        }
-        // Parent: None
-        // Field count: 12
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CEntityIdentity {
-            public const nint m_nameStringTableIndex = 0x14; // int32
-            public const nint m_name = 0x18; // CUtlSymbolLarge
-            public const nint m_designerName = 0x20; // CUtlSymbolLarge
-            public const nint m_flags = 0x30; // uint32
-            public const nint m_worldGroupId = 0x38; // WorldGroupId_t
-            public const nint m_fDataObjectTypes = 0x3C; // uint32
-            public const nint m_PathIndex = 0x40; // ChangeAccessorFieldPathIndex_t
-            public const nint m_pAttributes = 0x48; // CEntityAttributeTable*
-            public const nint m_pPrev = 0x50; // CEntityIdentity*
-            public const nint m_pNext = 0x58; // CEntityIdentity*
-            public const nint m_pPrevByClass = 0x60; // CEntityIdentity*
-            public const nint m_pNextByClass = 0x68; // CEntityIdentity*
         }
         // Parent: None
         // Field count: 0
@@ -110,28 +83,8 @@ namespace Source2Dumper.Schemas {
             public const nint m_pNext = 0x20; // CEntityComponentHelper*
         }
         // Parent: None
-        // Field count: 1
-        public static class GameTime_t {
-            public const nint m_Value = 0x0; // float32
-        }
-        // Parent: None
         // Field count: 0
         public static class EventServerBeginSimulate_t {
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class EntityIOQueuePrioritizedEvent_t {
-            public const nint m_flFireTime = 0x4; // GameTime_t
-            public const nint m_targetType = 0x8; // EntityIOTargetType_t
-            public const nint m_pTarget = 0x10; // CUtlSymbolLarge
-            public const nint m_pTargetInput = 0x18; // CUtlSymbolLarge
-            public const nint m_hActivator = 0x20; // CEntityHandle
-            public const nint m_hCaller = 0x24; // CEntityHandle
-            public const nint m_hEntTarget = 0x28; // CEntityHandle
-            public const nint m_variantValue = 0x30; // CVariantBase<CVariantDefaultAllocator>
         }
         // Parent: None
         // Field count: 0
@@ -162,11 +115,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_flRenderFrameTime = 0x30; // float32
             public const nint m_flRenderFrameTimeUnbounded = 0x34; // float32
             public const nint m_bRenderOnly = 0x38; // bool
-        }
-        // Parent: None
-        // Field count: 1
-        public static class GameTick_t {
-            public const nint m_Value = 0x0; // int32
         }
         // Parent: None
         // Field count: 2

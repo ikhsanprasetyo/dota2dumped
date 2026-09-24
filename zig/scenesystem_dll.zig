@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: scenesystem.dll
-        // Class count: 9
+        // Class count: 1
         // Enum count: 6
         pub const scenesystem_dll = struct {
             // Alignment: 4
@@ -61,93 +61,6 @@ pub const source2_dumper = struct {
                 SCENEOBJECT_VIS_INSTANCING = 0x5
             };
             // Parent: None
-            // Field count: 10
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CSSDSMsg_ViewTarget = struct {
-                pub const m_Name: usize = 0x0; // CUtlString
-                pub const m_TextureId: usize = 0x8; // uint64
-                pub const m_nWidth: usize = 0x10; // int32
-                pub const m_nHeight: usize = 0x14; // int32
-                pub const m_nRequestedWidth: usize = 0x18; // int32
-                pub const m_nRequestedHeight: usize = 0x1C; // int32
-                pub const m_nNumMipLevels: usize = 0x20; // int32
-                pub const m_nDepth: usize = 0x24; // int32
-                pub const m_nMultisampleNumSamples: usize = 0x28; // int32
-                pub const m_nFormat: usize = 0x2C; // int32
-            };
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const SceneViewId_t = struct {
-                pub const m_nViewId: usize = 0x0; // uint64
-                pub const m_nFrameCount: usize = 0x8; // uint64
-            };
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const CSSDSEndFrameViewInfo = struct {
-                pub const m_nViewId: usize = 0x0; // uint64
-                pub const m_ViewName: usize = 0x8; // CUtlString
-            };
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CSSDSMsg_PostLayer = struct {
-            };
-            // Parent: None
-            // Field count: 5
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CSSDSMsg_LayerBase = struct {
-                pub const m_viewId: usize = 0x0; // SceneViewId_t
-                pub const m_ViewName: usize = 0x10; // CUtlString
-                pub const m_nLayerId: usize = 0x18; // uint64
-                pub const m_LayerName: usize = 0x20; // CUtlString
-                pub const m_displayText: usize = 0x28; // CUtlString
-            };
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CSSDSMsg_PreLayer = struct {
-            };
-            // Parent: None
             // Field count: 3
             //
             // Metadata:
@@ -162,27 +75,6 @@ pub const source2_dumper = struct {
                 pub const m_viewId: usize = 0x0; // SceneViewId_t
                 pub const m_ViewName: usize = 0x10; // CUtlString
                 pub const m_Targets: usize = 0x18; // CUtlVector<CSSDSMsg_ViewTarget>
-            };
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CSSDSMsg_ViewRender = struct {
-                pub const m_viewId: usize = 0x0; // SceneViewId_t
-                pub const m_ViewName: usize = 0x10; // CUtlString
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const CSSDSMsg_EndFrame = struct {
-                pub const m_Views: usize = 0x0; // CUtlVector<CSSDSEndFrameViewInfo>
             };
         };
     };

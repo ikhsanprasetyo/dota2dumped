@@ -1,12 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 package schemas
 
 const (
-    SteamaudioDll_SteamAudioReverbClusteringSettings_t_m_bEnableClustering = 0x0 // bool
-    SteamaudioDll_SteamAudioReverbClusteringSettings_t_m_nCubeMapResolution = 0x4 // int32
-    SteamaudioDll_SteamAudioReverbClusteringSettings_t_m_flDepthThreshold = 0x8 // float32
     SteamaudioDll_SteamAudioCustomDataDimensionsSettings_t_m_nAmbisonicsOrderOutsideField = 0x0 // int32
     SteamaudioDll_SteamAudioCustomDataDimensionsSettings_t_m_nAmbisonicsOrderInsideSizeField = 0x4 // int32
     SteamaudioDll_SteamAudioCustomDataDimensionsSettings_t_m_flOutsideThreshold = 0x8 // float32
@@ -20,14 +17,7 @@ const (
     SteamaudioDll_CSteamAudioBakedPathingData_m_nBands = 0x0 // int32
     SteamaudioDll_CSteamAudioBakedPathingData_m_probes = 0x8 // CSteamAudioProbeData
     SteamaudioDll_CSteamAudioBakedPathingData_m_movables = 0x10 // CSteamAudioMovableBakedData<CSteamAudioBakedPathingData>
-    SteamaudioDll_SteamAudioReverbSettings_t_m_nNumRays = 0x0 // int32
-    SteamaudioDll_SteamAudioReverbSettings_t_m_nNumBounces = 0x4 // int32
-    SteamaudioDll_SteamAudioReverbSettings_t_m_flIRDuration = 0x8 // float32
-    SteamaudioDll_SteamAudioReverbSettings_t_m_nAmbisonicsOrder = 0xC // int32
-    SteamaudioDll_SteamAudioReverbSettings_t_m_bExportScene = 0x10 // bool
     SteamaudioDll_CSteamAudioProbeData_m_pProbeBatch = 0x0 // IPLProbeBatch
-    SteamaudioDll_SteamAudioReverbCompressionSettings_t_m_bEnableCompression = 0x0 // bool
-    SteamaudioDll_SteamAudioReverbCompressionSettings_t_m_flQuality = 0x4 // float32
     SteamaudioDll_CSteamAudioBakedMaterialsData_m_probes = 0x0 // CSteamAudioProbeData
     SteamaudioDll_CSteamAudioBakedMaterialsData_m_vecMaterialTokens = 0x8 // CUtlVector<uint32>
     SteamaudioDll_CSteamAudioBakedMaterialsData_m_vecMaterialWeights = 0x20 // CUtlVector<float32>

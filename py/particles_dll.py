@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-17 12:11:28.864356600 +07:00
+# 2026-09-24 17:35:37.601127800 +07:00
 
 class Schemas:
     # Module: particles.dll
@@ -438,205 +438,33 @@ class Schemas:
         class TextureRepetitionMode_t:
             TEXTURE_REPETITION_PARTICLE = 0x0
             TEXTURE_REPETITION_PATH = 0x1
-        class CPulseCell_WaitForCursorsWithTag:
-            m_bTagSelfWhenComplete = 0x128 # bool
-            m_nDesiredKillPriority = 0x12C # PulseCursorCancelPriority_t
-        class CPulseCell_Base:
-            m_nEditorNodeID = 0x8 # PulseDocNodeID_t
         class CPulse_ResumePoint:
             pass
-        class CPulseCell_PickBestOutflowSelector:
-            m_nCheckType = 0x48 # PulseBestOutflowRules_t
-            m_OutflowList = 0x50 # PulseSelectorOutflowList_t
         class CParticleBindingRealPulse:
             pass
-        class CPulseCell_WaitForObservable:
-            m_Condition = 0xD8 # CPulseObservableExpression<bool>
-            m_OnTrue = 0x150 # CPulse_ResumePoint
         class CPulse_OutflowConnection:
             m_SourceOutflowName = 0x0 # PulseSymbol_t
             m_nDestChunk = 0x10 # PulseRuntimeChunkIndex_t
             m_nInstruction = 0x14 # int32
             m_OutflowRegisterMap = 0x18 # PulseRegisterMap_t
-        class CPulseGraphDef:
-            m_DomainIdentifier = 0x8 # PulseSymbol_t
-            m_DomainSubType = 0x18 # CPulseValueFullType
-            m_ParentMapName = 0x30 # PulseSymbol_t
-            m_ParentXmlName = 0x40 # PulseSymbol_t
-            m_Chunks = 0x50 # CUtlVector<CPulse_Chunk*>
-            m_Cells = 0x68 # CUtlVector<CPulseCell_Base*>
-            m_Vars = 0x80 # CUtlVector<CPulse_Variable>
-            m_PublicOutputs = 0x98 # CUtlVector<CPulse_PublicOutput>
-            m_InvokeBindings = 0xB0 # CUtlVector<CPulse_InvokeBinding*>
-            m_CallInfos = 0xC8 # CUtlVector<CPulse_CallInfo*>
-            m_Constants = 0xE0 # CUtlVector<CPulse_Constant>
-            m_DomainValues = 0xF8 # CUtlVector<CPulse_DomainValue>
-            m_BlackboardReferences = 0x110 # CUtlVector<CPulse_BlackboardReference>
-            m_OutputConnections = 0x128 # CUtlVector<CPulse_OutputConnection*>
-        class CPulseCell_FireCursors:
-            m_Outflows = 0xD8 # CUtlVector<CPulse_OutflowConnection>
-            m_bWaitForChildOutflows = 0xF0 # bool
-            m_OnFinished = 0xF8 # CPulse_ResumePoint
-        class CPulseCell_Timeline__TimelineEvent_t:
-            m_flTimeFromPrevious = 0x0 # float32
-            m_EventOutflow = 0x8 # CPulse_OutflowConnection
-        class CPulseCell_IntervalTimer__CursorState_t:
-            m_StartTime = 0x0 # GameTime_t
-            m_EndTime = 0x4 # GameTime_t
-            m_flWaitInterval = 0x8 # float32
-            m_flWaitIntervalHigh = 0xC # float32
-            m_bCompleteOnNextWake = 0x10 # bool
-        class CPulseCell_BaseRequirement:
-            pass
-        class CPulseCell_BaseState:
-            pass
-        class OutflowWithRequirements_t:
-            m_Connection = 0x0 # CPulse_OutflowConnection
-            m_DestinationFlowNodeID = 0x48 # PulseDocNodeID_t
-            m_RequirementNodeIDs = 0x50 # CUtlVector<PulseDocNodeID_t>
-            m_nCursorStateBlockIndex = 0x68 # CUtlVector<int32>
-        class CPulseCell_IsRequirementValid:
-            pass
-        class CPulseCell_Value_Gradient:
-            m_Gradient = 0x48 # CColorGradient
-        class PulseNodeDynamicOutflows_t__DynamicOutflow_t:
-            m_OutflowID = 0x0 # CGlobalSymbol
-            m_Connection = 0x8 # CPulse_OutflowConnection
         class CBasePulseGraphInstance:
             pass
-        class CPulseCell_Inflow_GraphHook:
-            m_HookName = 0x80 # PulseSymbol_t
         class SignatureOutflow_Resume:
             pass
-        class CPulseCell_Inflow_BaseEntrypoint:
-            m_EntryChunk = 0x48 # PulseRuntimeChunkIndex_t
-            m_RegisterMap = 0x50 # PulseRegisterMap_t
-        class CPulseCell_WaitForCursorsWithTagBase:
-            m_nCursorsAllowedToWait = 0xD8 # int32
-            m_WaitComplete = 0xE0 # CPulse_ResumePoint
-        class CPulse_InvokeBinding:
-            m_RegisterMap = 0x0 # PulseRegisterMap_t
-            m_FuncName = 0x30 # PulseSymbol_t
-            m_nCellIndex = 0x40 # PulseRuntimeCellIndex_t
-            m_nSrcChunk = 0x44 # PulseRuntimeChunkIndex_t
-            m_nSrcInstruction = 0x48 # int32
-        class CPulseCell_IntervalTimer:
-            m_Completed = 0xD8 # CPulse_ResumePoint
-            m_OnInterval = 0x120 # SignatureOutflow_Continue
-        class CPulseCell_BaseLerp:
-            m_WakeResume = 0xD8 # CPulse_ResumePoint
-        class CPulseCell_Value_Curve:
-            m_Curve = 0x48 # CPiecewiseCurve
-        class CPulseCell_Inflow_EventHandler:
-            m_EventName = 0x80 # PulseSymbol_t
-        class CPulseCell_BaseFlow:
-            pass
-        class CPulseCell_Outflow_CycleShuffled__InstanceState_t:
-            m_Shuffle = 0x0 # CUtlVectorFixedGrowable<uint8,8>
-            m_nNextShuffle = 0x20 # int32
-        class CPulseCell_BaseLerp__CursorState_t:
-            m_StartTime = 0x0 # GameTime_t
-            m_EndTime = 0x4 # GameTime_t
         class SignatureOutflow_Continue:
             pass
-        class CPulseCell_Timeline:
-            m_TimelineEvents = 0xD8 # CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
-            m_bWaitForChildOutflows = 0xF0 # bool
-            m_OnFinished = 0xF8 # CPulse_ResumePoint
-        class CPulseCell_Inflow_EntOutputHandler:
-            m_SourceEntity = 0x80 # PulseSymbol_t
-            m_SourceOutput = 0x90 # PulseSymbol_t
-            m_ExpectedParamType = 0xA0 # CPulseValueFullType
-        class CPulseCell_Outflow_CycleOrdered__InstanceState_t:
-            m_nNextIndex = 0x0 # int32
         class CParticleCollectionBindingInstance:
             pass
-        class CPulseCell_LimitCount__InstanceState_t:
-            m_nCurrentCount = 0x0 # int32
-        class CPulseCell_Step_DebugLog:
-            pass
-        class CPulseCell_BaseYieldingInflow:
-            m_BaseFlow_OnAfterCancel = 0x48 # CPulse_ResumePoint
-            m_BaseFlow_WhileActive = 0x90 # CPulse_ResumePoint
-        class PulseNodeDynamicOutflows_t:
-            m_Outflows = 0x0 # CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
         class CPulseCell_IsRequirementValid__Criteria_t:
             m_bIsValid = 0x0 # bool
-        class CPulseCell_Inflow_ObservableVariableListener:
-            m_nBlackboardReference = 0x80 # PulseRuntimeBlackboardReferenceIndex_t
-            m_bSelfReference = 0x82 # bool
-        class CPulseCell_Outflow_CycleOrdered:
-            m_Outputs = 0x48 # CUtlVector<CPulse_OutflowConnection>
-        class PulseSelectorOutflowList_t:
-            m_Outflows = 0x0 # CUtlVector<OutflowWithRequirements_t>
-        class CPulseCell_Inflow_Wait:
-            m_WakeResume = 0xD8 # CPulse_ResumePoint
-        class CPulseCell_Outflow_CycleShuffled:
-            m_Outputs = 0x48 # CUtlVector<CPulse_OutflowConnection>
-        class CPulseCell_Inflow_Method:
-            m_MethodName = 0x80 # PulseSymbol_t
-            m_Description = 0x90 # CUtlString
-            m_bIsPublic = 0x98 # bool
-            m_ReturnType = 0xA0 # CPulseValueFullType
-            m_Args = 0xB8 # CUtlLeanVector<CPulseRuntimeMethodArg>
-        class CPulseCell_BaseValue:
-            pass
-        class CPulseCell_BooleanSwitchState:
-            m_Condition = 0xD8 # CPulseObservableExpression<bool>
-            m_WhenTrue = 0x150 # CPulse_OutflowConnection
-            m_WhenFalse = 0x198 # CPulse_OutflowConnection
-        class CPulseCell_Inflow_Yield:
-            m_UnyieldResume = 0xD8 # CPulse_ResumePoint
         class CPulseCell_Unknown:
             m_UnknownKeys = 0x48 # KeyValues3
-        class CPulseCell_Outflow_CycleRandom:
-            m_Outputs = 0x48 # CUtlVector<CPulse_OutflowConnection>
-        class CPulseCell_Step_PublicOutput:
-            m_OutputIndex = 0x48 # PulseRuntimeOutputIndex_t
-        class CPulse_BlackboardReference:
-            m_hBlackboardResource = 0x0 # CStrongHandle<InfoForResourceTypeIPulseGraphDef>
-            m_BlackboardResource = 0x8 # PulseSymbol_t
-            m_nNodeID = 0x18 # PulseDocNodeID_t
-            m_NodeName = 0x20 # CGlobalSymbol
-        class CPulseCell_Value_RandomInt:
-            pass
-        class CPulse_CallInfo:
-            m_PortName = 0x0 # PulseSymbol_t
-            m_nEditorNodeID = 0x10 # PulseDocNodeID_t
-            m_RegisterMap = 0x18 # PulseRegisterMap_t
-            m_CallMethodID = 0x48 # PulseDocNodeID_t
-            m_nSrcChunk = 0x4C # PulseRuntimeChunkIndex_t
-            m_nSrcInstruction = 0x50 # int32
-        class CPulseCell_InlineNodeSkipSelector:
-            m_nFlowNodeID = 0x48 # PulseDocNodeID_t
-            m_bAnd = 0x4C # bool
-            m_PassOutflow = 0x50 # PulseSelectorOutflowList_t
-            m_FailOutflow = 0x68 # CPulse_OutflowConnection
-        class CPulseCell_LimitCount:
-            m_nLimitCount = 0x48 # int32
-        class CPulseCell_Step_CallExternalMethod:
-            m_MethodName = 0xD8 # PulseSymbol_t
-            m_nBlackboardIndex = 0xE8 # PulseRuntimeBlackboardReferenceIndex_t
-            m_ExpectedArgs = 0xF0 # CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode = 0x100 # PulseMethodCallMode_t
-            m_OnFinished = 0x108 # CPulse_ResumePoint
         class CPulseCell_LimitCount__Criteria_t:
             m_bLimitCountPasses = 0x0 # bool
-        class CPulseCell_CursorQueue:
-            m_nCursorsAllowedToRunParallel = 0x128 # int32
-        class CPulseCell_Value_RandomFloat:
-            pass
         class CPulseExecCursor:
             pass
         class IParticleCollection:
             pass
-        class ParticleAttributeIndex_t:
-            m_Value = 0x0 # int32
-        class C_OP_RemapGravityToVector:
-            m_vInput1 = 0x1D8 # CPerParticleVecInput
-            m_nOutputField = 0x890 # ParticleAttributeIndex_t
-            m_nSetMethod = 0x894 # ParticleSetMethod_t
-            m_bNormalizedOutput = 0x898 # bool
         class C_OP_Decay:
             m_bRopeDecay = 0x1D8 # bool
             m_bForcePreserveParticleOrder = 0x1D9 # bool
@@ -657,64 +485,10 @@ class Schemas:
             m_nAlphaTestSharpnessField = 0x90C # ParticleAttributeIndex_t
             m_hTexture = 0x910 # CStrongHandle<InfoForResourceTypeCTextureBase>
             m_nHSVShiftControlPoint = 0x918 # int32
-        class C_OP_RemapSpeedtoCP:
-            m_nInControlPointNumber = 0x1E0 # int32
-            m_nOutControlPointNumber = 0x1E4 # int32
-            m_nField = 0x1E8 # int32
-            m_flInputMin = 0x1EC # float32
-            m_flInputMax = 0x1F0 # float32
-            m_flOutputMin = 0x1F4 # float32
-            m_flOutputMax = 0x1F8 # float32
-            m_bUseDeltaV = 0x1FC # bool
         class C_OP_RemapTransformToVelocity:
             m_TransformInput = 0x1D8 # CParticleTransformInput
         class CollisionGroupContext_t:
             m_nCollisionGroupNumber = 0x0 # int32
-        class CParticleFunctionPreEmission:
-            m_bRunOnce = 0x1D8 # bool
-        class C_OP_FadeOutSimple:
-            m_flFadeOutTime = 0x1D8 # float32
-            m_nFieldOutput = 0x1DC # ParticleAttributeIndex_t
-        class C_OP_SpringToVectorConstraint:
-            m_flRestLength = 0x1D8 # CPerParticleFloatInput
-            m_flMinDistance = 0x348 # CPerParticleFloatInput
-            m_flMaxDistance = 0x4B8 # CPerParticleFloatInput
-            m_flRestingLength = 0x628 # CPerParticleFloatInput
-            m_vecAnchorVector = 0x798 # CPerParticleVecInput
-        class C_OP_RenderRopes:
-            m_bEnableFadingAndClamping = 0x2DF0 # bool
-            m_flMinSize = 0x2DF4 # float32
-            m_flMaxSize = 0x2DF8 # float32
-            m_flStartFadeSize = 0x2DFC # float32
-            m_flEndFadeSize = 0x2E00 # float32
-            m_flStartFadeDot = 0x2E04 # float32
-            m_flEndFadeDot = 0x2E08 # float32
-            m_flSubPixelAAScale = 0x2E10 # CParticleCollectionRendererFloatInput
-            m_flRadiusTaper = 0x2F80 # float32
-            m_nMinTesselation = 0x2F84 # int32
-            m_nMaxTesselation = 0x2F88 # int32
-            m_flTessScale = 0x2F8C # float32
-            m_flTextureVWorldSize = 0x2F90 # CParticleCollectionRendererFloatInput
-            m_flTextureVScrollRate = 0x3100 # CParticleCollectionRendererFloatInput
-            m_flTextureVOffset = 0x3270 # CParticleCollectionRendererFloatInput
-            m_nTextureVParamsCP = 0x33E0 # int32
-            m_bClampV = 0x33E4 # bool
-            m_nScaleCP1 = 0x33E8 # int32
-            m_nScaleCP2 = 0x33EC # int32
-            m_flScaleVSizeByControlPointDistance = 0x33F0 # float32
-            m_flScaleVScrollByControlPointDistance = 0x33F4 # float32
-            m_flScaleVOffsetByControlPointDistance = 0x33F8 # float32
-            m_bUseScalarForTextureCoordinate = 0x33FD # bool
-            m_nScalarFieldForTextureCoordinate = 0x3400 # ParticleAttributeIndex_t
-            m_flScalarAttributeTextureCoordScale = 0x3404 # float32
-            m_bReverseOrder = 0x3408 # bool
-            m_bClosedLoop = 0x3409 # bool
-            m_nSplitField = 0x340C # ParticleAttributeIndex_t
-            m_bSortBySegmentID = 0x3410 # bool
-            m_nOrientationType = 0x3414 # ParticleOrientationChoiceList_t
-            m_nVectorFieldForOrientation = 0x3418 # ParticleAttributeIndex_t
-            m_bDrawAsOpaque = 0x341C # bool
-            m_bGenerateNormals = 0x341D # bool
         class C_INIT_StatusEffectCitadel:
             m_flSFXColorWarpAmount = 0x1E0 # float32
             m_flSFXNormalAmount = 0x1E4 # float32
@@ -814,15 +588,6 @@ class Schemas:
             m_flReflectionsTintByBaseBlendToNone = 0x21C # float32
             m_flMetalnessBlendToFull = 0x220 # float32
             m_flSelfIllumBlendToFull = 0x224 # float32
-        class C_INIT_RtEnvCull:
-            m_vecTestDir = 0x1E0 # Vector
-            m_vecTestNormal = 0x1EC # Vector
-            m_bUseVelocity = 0x1F8 # bool
-            m_bCullOnMiss = 0x1F9 # bool
-            m_bLifeAdjust = 0x1FA # bool
-            m_RtEnvName = 0x1FB # char[128]
-            m_nRTEnvCP = 0x27C # int32
-            m_nComponent = 0x280 # int32
         class C_OP_ConstrainDistance:
             m_fMinDistance = 0x1D8 # CParticleCollectionFloatInput
             m_fMaxDistance = 0x348 # CParticleCollectionFloatInput
@@ -845,12 +610,6 @@ class Schemas:
             m_flNoiseScaleLoc = 0x1900 # CPerParticleFloatInput
             m_TransformInput = 0x1A70 # CParticleTransformInput
             m_bIgnoreDt = 0x1AD8 # bool
-        class ParticleChildrenInfo_t:
-            m_ChildRef = 0x0 # CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_flDelay = 0x8 # float32
-            m_bEndCap = 0xC # bool
-            m_bDisableChild = 0xD # bool
-            m_nDetailLevel = 0x10 # ParticleDetailLevel_t
         class C_OP_RemapScalarOnceTimed:
             m_bProportional = 0x1D8 # bool
             m_nFieldInput = 0x1DC # ParticleAttributeIndex_t
@@ -884,95 +643,6 @@ class Schemas:
             m_HitboxSetName = 0x1DF # char[128]
             m_vecPosOffset = 0x260 # CPerParticleVecInput
             m_fDrag = 0x918 # float32
-        class C_OP_TwistAroundAxis:
-            m_fForceAmount = 0x1E8 # float32
-            m_TwistAxis = 0x1EC # Vector
-            m_bLocalSpace = 0x1F8 # bool
-            m_nControlPointNumber = 0x1FC # int32
-        class C_OP_TeleportBeam:
-            m_nCPPosition = 0x1D8 # int32
-            m_nCPVelocity = 0x1DC # int32
-            m_nCPMisc = 0x1E0 # int32
-            m_nCPColor = 0x1E4 # int32
-            m_nCPInvalidColor = 0x1E8 # int32
-            m_nCPExtraArcData = 0x1EC # int32
-            m_vGravity = 0x1F0 # Vector
-            m_flArcMaxDuration = 0x1FC # float32
-            m_flSegmentBreak = 0x200 # float32
-            m_flArcSpeed = 0x204 # float32
-            m_flAlpha = 0x208 # float32
-        class C_OP_RemapExternalWindToCP:
-            m_nCP = 0x1E0 # int32
-            m_nCPOutput = 0x1E4 # int32
-            m_vecScale = 0x1E8 # CParticleCollectionVecInput
-            m_bSetMagnitude = 0x8A0 # bool
-            m_nOutVectorField = 0x8A4 # int32
-        class CBaseRendererSource2:
-            m_flRadiusScale = 0x228 # CParticleCollectionRendererFloatInput
-            m_flAlphaScale = 0x398 # CParticleCollectionRendererFloatInput
-            m_flRollScale = 0x508 # CParticleCollectionRendererFloatInput
-            m_nAlpha2Field = 0x678 # ParticleAttributeIndex_t
-            m_vecColorScale = 0x680 # CParticleCollectionRendererVecInput
-            m_nColorBlendType = 0xD38 # ParticleColorBlendType_t
-            m_nShaderType = 0xD3C # SpriteCardShaderType_t
-            m_strShaderOverride = 0xD40 # CUtlString
-            m_flCenterXOffset = 0xD48 # CParticleCollectionRendererFloatInput
-            m_flCenterYOffset = 0xEB8 # CParticleCollectionRendererFloatInput
-            m_flBumpStrength = 0x1028 # float32
-            m_nCropTextureOverride = 0x102C # ParticleSequenceCropOverride_t
-            m_vecTexturesInput = 0x1030 # CUtlLeanVector<TextureGroup_t>
-            m_flAnimationRate = 0x1040 # float32
-            m_nAnimationType = 0x1044 # AnimationType_t
-            m_bAnimateInFPS = 0x1048 # bool
-            m_flMotionVectorScaleU = 0x1050 # CParticleCollectionRendererFloatInput
-            m_flMotionVectorScaleV = 0x11C0 # CParticleCollectionRendererFloatInput
-            m_flSelfIllumAmount = 0x1330 # CParticleCollectionRendererFloatInput
-            m_flDiffuseAmount = 0x14A0 # CParticleCollectionRendererFloatInput
-            m_flDiffuseClamp = 0x1610 # CParticleCollectionRendererFloatInput
-            m_nLightingControlPoint = 0x1780 # int32
-            m_nOutputBlendMode = 0x1784 # ParticleOutputBlendMode_t
-            m_bGammaCorrectVertexColors = 0x1788 # bool
-            m_bSaturateColorPreAlphaBlend = 0x1789 # bool
-            m_flAddSelfAmount = 0x1790 # CParticleCollectionRendererFloatInput
-            m_flDesaturation = 0x1900 # CParticleCollectionRendererFloatInput
-            m_flOverbrightFactor = 0x1A70 # CParticleCollectionRendererFloatInput
-            m_nHSVShiftControlPoint = 0x1BE0 # int32
-            m_nFogType = 0x1BE4 # ParticleFogType_t
-            m_flFogAmount = 0x1BE8 # CParticleCollectionRendererFloatInput
-            m_bTintByFOW = 0x1D58 # bool
-            m_bTintByGlobalLight = 0x1D59 # bool
-            m_nPerParticleAlphaReference = 0x1D5C # SpriteCardPerParticleScale_t
-            m_nPerParticleAlphaRefWindow = 0x1D60 # SpriteCardPerParticleScale_t
-            m_nAlphaReferenceType = 0x1D64 # ParticleAlphaReferenceType_t
-            m_flAlphaReferenceSoftness = 0x1D68 # CParticleCollectionRendererFloatInput
-            m_flSourceAlphaValueToMapToZero = 0x1ED8 # CParticleCollectionRendererFloatInput
-            m_flSourceAlphaValueToMapToOne = 0x2048 # CParticleCollectionRendererFloatInput
-            m_bRefract = 0x21B8 # bool
-            m_bRefractSolid = 0x21B9 # bool
-            m_bRefract2Passes = 0x21BA # bool
-            m_flRefractAmount = 0x21C0 # CParticleCollectionRendererFloatInput
-            m_nRefractBlurRadius = 0x2330 # int32
-            m_nRefractBlurType = 0x2334 # BlurFilterType_t
-            m_bOnlyRenderInEffectsBloomPass = 0x2338 # bool
-            m_bOnlyRenderInEffectsWaterPass = 0x2339 # bool
-            m_bUseMixedResolutionRendering = 0x233A # bool
-            m_bOnlyRenderInEffecsGameOverlay = 0x233B # bool
-            m_stencilTestID = 0x233C # char[128]
-            m_bStencilTestExclude = 0x23BC # bool
-            m_stencilWriteID = 0x23BD # char[128]
-            m_bWriteStencilOnDepthPass = 0x243D # bool
-            m_bWriteStencilOnDepthFail = 0x243E # bool
-            m_bReverseZBuffering = 0x243F # bool
-            m_bDisableZBuffering = 0x2440 # bool
-            m_nFeatheringMode = 0x2444 # ParticleDepthFeatheringMode_t
-            m_flFeatheringMinDist = 0x2448 # CParticleCollectionRendererFloatInput
-            m_flFeatheringMaxDist = 0x25B8 # CParticleCollectionRendererFloatInput
-            m_flFeatheringFilter = 0x2728 # CParticleCollectionRendererFloatInput
-            m_flFeatheringDepthMapFilter = 0x2898 # CParticleCollectionRendererFloatInput
-            m_flDepthBias = 0x2A08 # CParticleCollectionRendererFloatInput
-            m_nSortMethod = 0x2B78 # ParticleSortingChoiceList_t
-            m_bBlendFramesSeq0 = 0x2B7C # bool
-            m_bMaxLuminanceBlendingSequence0 = 0x2B7D # bool
         class CSpinUpdateBase:
             pass
         class C_OP_OrientTo2dDirection:
@@ -994,27 +664,6 @@ class Schemas:
             m_outputMinName = 0x218 # CUtlString
             m_outputMaxName = 0x220 # CUtlString
             m_bModelFromRenderer = 0x228 # bool
-        class C_OP_RenderTrails:
-            m_bEnableFadingAndClamping = 0x3258 # bool
-            m_flStartFadeDot = 0x325C # float32
-            m_flEndFadeDot = 0x3260 # float32
-            m_nPrevPntSource = 0x3264 # ParticleAttributeIndex_t
-            m_flMaxLength = 0x3268 # float32
-            m_flMinLength = 0x326C # float32
-            m_bIgnoreDT = 0x3270 # bool
-            m_flConstrainRadiusToLengthRatio = 0x3274 # float32
-            m_flLengthScale = 0x3278 # float32
-            m_flLengthFadeInTime = 0x327C # float32
-            m_flRadiusHeadTaper = 0x3280 # CPerParticleFloatInput
-            m_vecHeadColorScale = 0x33F0 # CParticleCollectionVecInput
-            m_flHeadAlphaScale = 0x3AA8 # CPerParticleFloatInput
-            m_flRadiusTaper = 0x3C18 # CPerParticleFloatInput
-            m_vecTailColorScale = 0x3D88 # CParticleCollectionVecInput
-            m_flTailAlphaScale = 0x4440 # CPerParticleFloatInput
-            m_nHorizCropField = 0x45B0 # ParticleAttributeIndex_t
-            m_nVertCropField = 0x45B4 # ParticleAttributeIndex_t
-            m_flForwardShift = 0x45B8 # float32
-            m_bFlipUVBasedOnPitchYaw = 0x45BC # bool
         class C_OP_SetControlPointPositionToTimeOfDayValue:
             m_nControlPointNumber = 0x1E0 # int32
             m_pszTimeOfDayParameter = 0x1E4 # char[128]
@@ -1057,9 +706,6 @@ class Schemas:
         class C_OP_NormalizeVector:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_flScale = 0x1DC # float32
-        class C_OP_FadeInSimple:
-            m_flFadeInTime = 0x1D8 # float32
-            m_nFieldOutput = 0x1DC # ParticleAttributeIndex_t
         class C_OP_RepeatedTriggerChildGroup:
             m_nChildGroupID = 0x1E0 # int32
             m_flClusterRefireTime = 0x1E8 # CParticleCollectionFloatInput
@@ -1129,12 +775,6 @@ class Schemas:
             m_PathParams = 0x1F0 # CPathParameters
         class C_OP_EndCapTimedDecay:
             m_flDecayTime = 0x1D8 # float32
-        class C_OP_RemapDistanceToLineSegmentBase:
-            m_nCP0 = 0x1D8 # int32
-            m_nCP1 = 0x1DC # int32
-            m_flMinInputValue = 0x1E0 # float32
-            m_flMaxInputValue = 0x1E4 # float32
-            m_bInfiniteLine = 0x1E8 # bool
         class C_OP_ContinuousEmitter:
             m_flEmissionDuration = 0x1E0 # CParticleCollectionFloatInput
             m_flStartTime = 0x350 # CParticleCollectionFloatInput
@@ -1192,24 +832,6 @@ class Schemas:
             m_nEventType = 0x1E4 # EventTypeSelection_t
         class C_OP_Callback:
             pass
-        class CParticleFunction:
-            m_flOpStrength = 0x8 # CParticleCollectionFloatInput
-            m_nOpEndCapState = 0x178 # ParticleEndcapMode_t
-            m_nToolsState = 0x17C # ParticleToolsState_t
-            m_flOpStartFadeInTime = 0x180 # float32
-            m_flOpEndFadeInTime = 0x184 # float32
-            m_flOpStartFadeOutTime = 0x188 # float32
-            m_flOpEndFadeOutTime = 0x18C # float32
-            m_flOpFadeOscillatePeriod = 0x190 # float32
-            m_bNormalizeToStopTime = 0x194 # bool
-            m_flOpTimeOffsetMin = 0x198 # float32
-            m_flOpTimeOffsetMax = 0x19C # float32
-            m_nOpTimeOffsetSeed = 0x1A0 # int32
-            m_nOpTimeScaleSeed = 0x1A4 # int32
-            m_flOpTimeScaleMin = 0x1A8 # float32
-            m_flOpTimeScaleMax = 0x1AC # float32
-            m_bDisableOperator = 0x1B2 # bool
-            m_Notes = 0x1B8 # CUtlString
         class C_OP_GlobalLight:
             m_flScale = 0x1D8 # float32
             m_bClampLowerRange = 0x1DC # bool
@@ -1288,34 +910,10 @@ class Schemas:
             m_flSpinStrength = 0x1DC # float32
             m_nCP = 0x1E0 # int32
             m_nFieldOutput = 0x1E4 # ParticleAttributeIndex_t
-        class TextureControls_t:
-            m_flFinalTextureScaleU = 0x0 # CParticleCollectionRendererFloatInput
-            m_flFinalTextureScaleV = 0x170 # CParticleCollectionRendererFloatInput
-            m_flFinalTextureOffsetU = 0x2E0 # CParticleCollectionRendererFloatInput
-            m_flFinalTextureOffsetV = 0x450 # CParticleCollectionRendererFloatInput
-            m_flFinalTextureUVRotation = 0x5C0 # CParticleCollectionRendererFloatInput
-            m_flZoomScale = 0x730 # CParticleCollectionRendererFloatInput
-            m_flDistortion = 0x8A0 # CParticleCollectionRendererFloatInput
-            m_bRandomizeOffsets = 0xA10 # bool
-            m_bClampUVs = 0xA11 # bool
-            m_nPerParticleBlend = 0xA14 # SpriteCardPerParticleScale_t
-            m_nPerParticleScale = 0xA18 # SpriteCardPerParticleScale_t
-            m_nPerParticleOffsetU = 0xA1C # SpriteCardPerParticleScale_t
-            m_nPerParticleOffsetV = 0xA20 # SpriteCardPerParticleScale_t
-            m_nPerParticleRotation = 0xA24 # SpriteCardPerParticleScale_t
-            m_nPerParticleZoom = 0xA28 # SpriteCardPerParticleScale_t
-            m_nPerParticleDistortion = 0xA2C # SpriteCardPerParticleScale_t
         class ControlPointReference_t:
             m_controlPointNameString = 0x0 # int32
             m_vOffsetFromControlPoint = 0x4 # Vector
             m_bOffsetInLocalSpace = 0x10 # bool
-        class C_OP_SetControlPointToVectorExpression:
-            m_nExpression = 0x1E0 # VectorExpressionType_t
-            m_nOutputCP = 0x1E4 # int32
-            m_vInput1 = 0x1E8 # CParticleCollectionVecInput
-            m_vInput2 = 0x8A0 # CParticleCollectionVecInput
-            m_flLerp = 0xF58 # CPerParticleFloatInput
-            m_bNormalizedOutput = 0x10C8 # bool
         class C_OP_LightningSnapshotGenerator:
             m_nCPSnapshot = 0x1E0 # int32
             m_nCPStartPnt = 0x1E4 # int32
@@ -1366,18 +964,11 @@ class Schemas:
             m_vecCPs = 0x238 # CUtlLeanVector<CPAssignment_t>
             m_szParticleConfig = 0x248 # CUtlString
             m_AggregationPos = 0x250 # CPerParticleVecInput
-        class CParticleFunctionForce:
-            pass
         class C_INIT_RandomVectorComponent:
             m_flMin = 0x1E0 # float32
             m_flMax = 0x1E4 # float32
             m_nFieldOutput = 0x1E8 # ParticleAttributeIndex_t
             m_nComponent = 0x1EC # int32
-        class C_OP_InheritFromParentParticles:
-            m_flScale = 0x1D8 # float32
-            m_nFieldOutput = 0x1DC # ParticleAttributeIndex_t
-            m_nIncrement = 0x1E0 # int32
-            m_bRandomDistribution = 0x1E4 # bool
         class C_INIT_SetVectorAttributeToVectorExpression:
             m_nExpression = 0x1E0 # VectorExpressionType_t
             m_vInput1 = 0x1E8 # CPerParticleVecInput
@@ -1395,10 +986,6 @@ class Schemas:
             m_vecOutputMin = 0x254 # Vector
             m_vecOutputMax = 0x260 # Vector
             m_flRadius = 0x26C # float32
-        class C_OP_DirectionBetweenVecsToVec:
-            m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
-            m_vecPoint1 = 0x1E0 # CPerParticleVecInput
-            m_vecPoint2 = 0x898 # CPerParticleVecInput
         class C_OP_MovementLoopInsideSphere:
             m_nCP = 0x1D8 # int32
             m_flDistance = 0x1E0 # CParticleCollectionFloatInput
@@ -1414,14 +1001,6 @@ class Schemas:
             m_bAcceptsDecals = 0x40A # bool
             m_fDrawFilter = 0x410 # CPerParticleFloatInput
             m_nAngularVelocityField = 0x580 # ParticleAttributeIndex_t
-        class C_OP_QuantizeCPComponent:
-            m_flInputValue = 0x1E0 # CParticleCollectionFloatInput
-            m_nCPOutput = 0x350 # int32
-            m_nOutVectorField = 0x354 # int32
-            m_flQuantizeValue = 0x358 # CParticleCollectionFloatInput
-        class C_OP_PlayEndCapWhenFinished:
-            m_bFireOnEmissionEnd = 0x1E0 # bool
-            m_bIncludeChildren = 0x1E1 # bool
         class C_INIT_InitFloatCollection:
             m_InputValue = 0x1E0 # CParticleCollectionFloatInput
             m_nOutputField = 0x350 # ParticleAttributeIndex_t
@@ -1455,27 +1034,12 @@ class Schemas:
             m_nCPOut = 0x1F0 # int32
             m_nCPOutField = 0x1F4 # int32
             m_nCPSSPosOut = 0x1F8 # int32
-        class C_OP_SpinUpdate:
-            pass
         class C_INIT_NormalOffset:
             m_OffsetMin = 0x1E0 # Vector
             m_OffsetMax = 0x1EC # Vector
             m_nControlPointNumber = 0x1F8 # int32
             m_bLocalCoords = 0x1FC # bool
             m_bNormalize = 0x1FD # bool
-        class C_OP_RemapDistanceToLineSegmentToVector:
-            m_nFieldOutput = 0x1F0 # ParticleAttributeIndex_t
-            m_vMinOutputValue = 0x1F4 # Vector
-            m_vMaxOutputValue = 0x200 # Vector
-        class C_OP_RenderAsModels:
-            m_ModelList = 0x228 # CUtlVector<ModelReference_t>
-            m_flModelScale = 0x244 # float32
-            m_bFitToModelSize = 0x248 # bool
-            m_bNonUniformScaling = 0x249 # bool
-            m_nXAxisScalingAttribute = 0x24C # ParticleAttributeIndex_t
-            m_nYAxisScalingAttribute = 0x250 # ParticleAttributeIndex_t
-            m_nZAxisScalingAttribute = 0x254 # ParticleAttributeIndex_t
-            m_nSizeCullBloat = 0x258 # int32
         class C_INIT_CreationNoise:
             m_nFieldOutput = 0x1E0 # ParticleAttributeIndex_t
             m_bAbsVal = 0x1E4 # bool
@@ -1504,9 +1068,6 @@ class Schemas:
             m_nMaxEmittedPerFrame = 0x638 # int32
             m_nSnapshotControlPoint = 0x63C # int32
             m_strSnapshotSubset = 0x640 # CUtlString
-        class C_OP_ConstrainLineLength:
-            m_flMinDistance = 0x1D8 # float32
-            m_flMaxDistance = 0x1DC # float32
         class C_INIT_LifespanFromVelocity:
             m_vecComponentScale = 0x1E0 # Vector
             m_flTraceOffset = 0x1EC # float32
@@ -1516,29 +1077,11 @@ class Schemas:
             m_CollisionGroupName = 0x200 # char[128]
             m_nTraceSet = 0x280 # ParticleTraceSet_t
             m_bIncludeWater = 0x290 # bool
-        class CBaseTrailRenderer:
-            m_nOrientationType = 0x2DF0 # ParticleOrientationChoiceList_t
-            m_nOrientationControlPoint = 0x2DF4 # int32
-            m_flMinSize = 0x2DF8 # float32
-            m_flMaxSize = 0x2DFC # float32
-            m_flStartFadeSize = 0x2E00 # CParticleCollectionRendererFloatInput
-            m_flEndFadeSize = 0x2F70 # CParticleCollectionRendererFloatInput
-            m_flSubPixelAAScale = 0x30E0 # CParticleCollectionRendererFloatInput
-            m_bClampV = 0x3250 # bool
         class C_INIT_VelocityFromCP:
             m_velocityInput = 0x1E0 # CParticleCollectionVecInput
             m_transformInput = 0x898 # CParticleTransformInput
             m_flVelocityScale = 0x900 # float32
             m_bDirectionOnly = 0x904 # bool
-        class C_OP_SetControlPointOrientation:
-            m_bUseWorldLocation = 0x1E0 # bool
-            m_bRandomize = 0x1E2 # bool
-            m_bSetOnce = 0x1E3 # bool
-            m_nCP = 0x1E4 # int32
-            m_nHeadLocation = 0x1E8 # int32
-            m_vecRotation = 0x1EC # QAngle
-            m_vecRotationB = 0x1F8 # QAngle
-            m_flInterpolation = 0x208 # CParticleCollectionFloatInput
         class C_OP_MovementSkinnedPositionFromCPSnapshot:
             m_nSnapshotControlPointNumber = 0x1D8 # int32
             m_nControlPointNumber = 0x1DC # int32
@@ -1552,22 +1095,6 @@ class Schemas:
             m_nFullLoopIncrement = 0x4D0 # CParticleCollectionFloatInput
             m_nSnapShotStartPoint = 0x640 # CParticleCollectionFloatInput
             m_flInterpolation = 0x7B0 # CPerParticleFloatInput
-        class C_OP_MultiSegmentDisplaySnapshotGenerator:
-            m_nCPSnapshot = 0x1E0 # int32
-            m_nSegCount = 0x1E4 # ParticleMultiSegmentCountSelection_t
-            m_nInputType = 0x1E8 # ParticleMultiSegmentInputSelection_t
-            m_strDefaultString = 0x1F0 # CUtlString
-            m_flValue = 0x1F8 # CParticleCollectionFloatInput
-            m_flScollOffset = 0x368 # CParticleCollectionFloatInput
-            m_SpecialCharList = 0x4D8 # CUtlVector<ParticleMultiSegmentSpecialCharacter_t>
-            m_vecColorUnlit = 0x4F0 # CParticleCollectionVecInput
-            m_vecColorLit = 0xBA8 # CParticleCollectionVecInput
-            m_flRadius = 0x1260 # CParticleCollectionFloatInput
-            m_flSpacing = 0x13D0 # CParticleCollectionFloatInput
-            m_flMinCount = 0x1540 # CParticleCollectionFloatInput
-            m_flMaxCount = 0x16B0 # CParticleCollectionFloatInput
-            m_bPrependEmpty = 0x1820 # bool
-            m_flDigitsAfterDecimal = 0x1828 # CParticleCollectionFloatInput
         class C_OP_OscillateVector:
             m_RateMin = 0x1D8 # Vector
             m_RateMax = 0x1E4 # Vector
@@ -1618,13 +1145,6 @@ class Schemas:
             m_bSetToEndpoint = 0x3F8 # bool
             m_bTraceToClosestSurface = 0x3F9 # bool
             m_bIncludeWater = 0x3FA # bool
-        class C_OP_InterpolateRadius:
-            m_flStartTime = 0x1D8 # float32
-            m_flEndTime = 0x1DC # float32
-            m_flStartScale = 0x1E0 # float32
-            m_flEndScale = 0x1E4 # float32
-            m_bEaseInAndOut = 0x1E8 # bool
-            m_flBias = 0x1EC # float32
         class C_OP_ReinitializeScalarEndCap:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_flOutputMin = 0x1DC # float32
@@ -1657,15 +1177,6 @@ class Schemas:
             m_nRadiusCPField = 0x1FC # int32
         class C_OP_EndCapTimedFreeze:
             m_flFreezeTime = 0x1D8 # CParticleCollectionFloatInput
-        class C_OP_RenderGpuImplicit:
-            m_bUsePerParticleRadius = 0x228 # bool
-            m_nVertexCountKb = 0x22C # uint32
-            m_nIndexCountKb = 0x230 # uint32
-            m_fGridSize = 0x238 # CParticleCollectionRendererFloatInput
-            m_fRadiusScale = 0x3A8 # CParticleCollectionRendererFloatInput
-            m_fIsosurfaceThreshold = 0x518 # CParticleCollectionRendererFloatInput
-            m_nScaleCP = 0x688 # int32
-            m_hMaterial = 0x690 # CStrongHandle<InfoForResourceTypeIMaterial2>
         class C_OP_SetRandomControlPointPosition:
             m_bUseWorldLocation = 0x1E0 # bool
             m_bOrient = 0x1E1 # bool
@@ -1710,8 +1221,6 @@ class Schemas:
             m_nBehindFieldOutput = 0x894 # ParticleAttributeIndex_t
             m_flBehindOutputRemap = 0x898 # CParticleRemapFloatInput
             m_nBehindSetMethod = 0xA08 # ParticleSetMethod_t
-        class CParticleFunctionOperator:
-            pass
         class C_OP_DragRelativeToPlane:
             m_flDragAtPlane = 0x1D8 # CParticleCollectionFloatInput
             m_flFalloff = 0x348 # CParticleCollectionFloatInput
@@ -1752,9 +1261,6 @@ class Schemas:
             m_flEndTime = 0x1F8 # float32
             m_flInterpRate = 0x1FC # float32
             m_nSetMethod = 0x200 # ParticleSetMethod_t
-        class CParticleFunctionRenderer:
-            VisibilityInputs = 0x1D8 # CParticleVisibilityInputs
-            m_bCannotBeRefracted = 0x220 # bool
         class CParticleSystemDefinition:
             m_nBehaviorVersion = 0x8 # int32
             m_PreEmissionOperators = 0x10 # CUtlVector<CParticleFunctionPreEmission*>
@@ -1835,16 +1341,6 @@ class Schemas:
             m_nSetMethod = 0x2D0 # ParticleSetMethod_t
             m_bActiveRange = 0x2D4 # bool
             m_bRadialCheck = 0x2D5 # bool
-        class C_OP_RenderScreenVelocityRotate:
-            m_flRotateRateDegrees = 0x228 # float32
-            m_flForwardDegrees = 0x22C # float32
-        class C_OP_UpdateLightSource:
-            m_vColorTint = 0x1D8 # Color
-            m_flBrightnessScale = 0x1DC # float32
-            m_flRadiusScale = 0x1E0 # float32
-            m_flMinimumLightingRadius = 0x1E4 # float32
-            m_flMaximumLightingRadius = 0x1E8 # float32
-            m_flPositionDampingConstant = 0x1EC # float32
         class C_INIT_CreateWithinBox:
             m_vecMin = 0x1E0 # CPerParticleVecInput
             m_vecMax = 0x898 # CPerParticleVecInput
@@ -1911,22 +1407,6 @@ class Schemas:
             m_bActiveRange = 0x874 # bool
             m_bAdditive = 0x875 # bool
             m_bCapsule = 0x876 # bool
-        class C_INIT_PositionPlaceOnGround:
-            m_flOffset = 0x1E0 # CPerParticleFloatInput
-            m_flMaxTraceLength = 0x350 # CPerParticleFloatInput
-            m_vecTraceDir = 0x4C0 # CPerParticleVecInput
-            m_CollisionGroupName = 0xB78 # char[128]
-            m_nTraceSet = 0xBF8 # ParticleTraceSet_t
-            m_nTraceMissBehavior = 0xC08 # ParticleTraceMissBehavior_t
-            m_bIncludeWater = 0xC0C # bool
-            m_nAttribute = 0xC10 # ParticleAttributeIndex_t
-            m_bSetPXYZOnly = 0xC14 # bool
-            m_bSetNormal = 0xC15 # bool
-            m_nGroundNormalAttribute = 0xC18 # ParticleAttributeIndex_t
-            m_bOffsetonColOnly = 0xC1C # bool
-            m_flOffsetByRadiusFactor = 0xC20 # float32
-            m_nPreserveOffsetCP = 0xC24 # int32
-            m_nIgnoreCP = 0xC28 # int32
         class C_INIT_RandomScalar:
             m_flMin = 0x1E0 # float32
             m_flMax = 0x1E4 # float32
@@ -1936,44 +1416,6 @@ class Schemas:
             m_flPostProcessStrength = 0x228 # CPerParticleFloatInput
             m_hPostTexture = 0x398 # CStrongHandle<InfoForResourceTypeCPostProcessingResource>
             m_nPriority = 0x3A0 # ParticlePostProcessPriorityGroup_t
-        class C_OP_WorldTraceConstraint:
-            m_nCP = 0x1D8 # int32
-            m_vecCpOffset = 0x1DC # Vector
-            m_nCollisionMode = 0x1E8 # ParticleCollisionMode_t
-            m_nCollisionModeMin = 0x1EC # ParticleCollisionMode_t
-            m_nTraceSet = 0x1F0 # ParticleTraceSet_t
-            m_CollisionGroupName = 0x1F4 # char[128]
-            m_bWorldOnly = 0x274 # bool
-            m_bBrushOnly = 0x275 # bool
-            m_bIncludeWater = 0x276 # bool
-            m_nIgnoreCP = 0x278 # int32
-            m_flCpMovementTolerance = 0x27C # float32
-            m_flRetestRate = 0x280 # float32
-            m_flTraceTolerance = 0x284 # float32
-            m_flCollisionConfirmationSpeed = 0x288 # float32
-            m_nMaxTracesPerFrame = 0x28C # float32
-            m_flRadiusScale = 0x290 # CPerParticleFloatInput
-            m_flBounceAmount = 0x400 # CPerParticleFloatInput
-            m_flSlideAmount = 0x570 # CPerParticleFloatInput
-            m_flRandomDirScale = 0x6E0 # CPerParticleFloatInput
-            m_bDecayBounce = 0x850 # bool
-            m_bKillonContact = 0x851 # bool
-            m_flMinSpeed = 0x854 # float32
-            m_bKillonContactBounce = 0x858 # bool
-            m_bSetNormal = 0x859 # bool
-            m_nStickOnCollisionField = 0x85C # ParticleAttributeIndex_t
-            m_flStopSpeed = 0x860 # CPerParticleFloatInput
-            m_nEntityStickDataField = 0x9D0 # ParticleAttributeIndex_t
-            m_nEntityStickNormalField = 0x9D4 # ParticleAttributeIndex_t
-        class C_OP_RenderBlobs:
-            m_cubeWidth = 0x228 # CParticleCollectionRendererFloatInput
-            m_cutoffRadius = 0x398 # CParticleCollectionRendererFloatInput
-            m_renderRadius = 0x508 # CParticleCollectionRendererFloatInput
-            m_nVertexCountKb = 0x678 # uint32
-            m_nIndexCountKb = 0x67C # uint32
-            m_nScaleCP = 0x680 # int32
-            m_MaterialVars = 0x688 # CUtlVector<MaterialVariable_t>
-            m_hMaterial = 0x6B8 # CStrongHandle<InfoForResourceTypeIMaterial2>
         class C_OP_OscillateScalar:
             m_RateMin = 0x1D8 # float32
             m_RateMax = 0x1DC # float32
@@ -2020,9 +1462,6 @@ class Schemas:
             m_nControlPoint = 0x1E0 # int32
             m_flDistance = 0x1E8 # CParticleCollectionFloatInput
             m_bCullInside = 0x358 # bool
-        class C_OP_CollideWithParentParticles:
-            m_flParentRadiusScale = 0x1D8 # CPerParticleFloatInput
-            m_flRadiusScale = 0x348 # CPerParticleFloatInput
         class C_INIT_InitFromVectorFieldSnapshot:
             m_nControlPointNumber = 0x1E0 # int32
             m_nLocalSpaceCP = 0x1E4 # int32
@@ -2093,10 +1532,6 @@ class Schemas:
             m_bSequenceNameIsAnimClipPath = 0x55 # bool
             m_vecPreviewGravity = 0x58 # Vector
             m_vecPreviewWind = 0x64 # Vector
-        class C_OP_LocalAccelerationForce:
-            m_nCP = 0x1E8 # int32
-            m_nScaleCP = 0x1EC # int32
-            m_vecAccel = 0x1F0 # CParticleCollectionVecInput
         class C_OP_ModelCull:
             m_nControlPointNumber = 0x1D8 # int32
             m_bBoundBox = 0x1DC # bool
@@ -2127,10 +1562,6 @@ class Schemas:
             m_flMaxDistFromEdge = 0x1E0 # CPerParticleFloatInput
             m_flOutputRemap = 0x350 # CParticleRemapFloatInput
             m_nSetMethod = 0x4C0 # ParticleSetMethod_t
-        class C_OP_RemapDistanceToLineSegmentToScalar:
-            m_nFieldOutput = 0x1F0 # ParticleAttributeIndex_t
-            m_flMinOutputValue = 0x1F4 # float32
-            m_flMaxOutputValue = 0x1F8 # float32
         class C_OP_RemapVectortoCP:
             m_nOutControlPointNumber = 0x1D8 # int32
             m_nFieldInput = 0x1DC # ParticleAttributeIndex_t
@@ -2170,15 +1601,6 @@ class Schemas:
             m_nHand = 0x1E4 # int32
             m_vecCP1Pos = 0x1E8 # Vector
             m_bOrientToHand = 0x1F4 # bool
-        class C_OP_ConstrainDistanceToPath:
-            m_fMinDistance = 0x1D8 # float32
-            m_flMaxDistance0 = 0x1DC # float32
-            m_flMaxDistanceMid = 0x1E0 # float32
-            m_flMaxDistance1 = 0x1E4 # float32
-            m_PathParameters = 0x1F0 # CPathParameters
-            m_flTravelTime = 0x230 # float32
-            m_nFieldScale = 0x234 # ParticleAttributeIndex_t
-            m_nManualTField = 0x238 # ParticleAttributeIndex_t
         class C_OP_DistanceCull:
             m_nControlPoint = 0x1D8 # int32
             m_vecPointOffset = 0x1DC # Vector
@@ -2191,23 +1613,6 @@ class Schemas:
             m_bUseRandomCPs = 0x230 # bool
             m_vEndOffset = 0x234 # Vector
             m_bSaveOffset = 0x240 # bool
-        class C_OP_GameDecalRenderer:
-            m_sDecalGroupName = 0x228 # CGlobalSymbol
-            m_nEventType = 0x230 # EventTypeSelection_t
-            m_nInteractionMask = 0x238 # ParticleCollisionMask_t
-            m_nCollisionGroup = 0x240 # ParticleCollisionGroup_t
-            m_vecStartPos = 0x248 # CPerParticleVecInput
-            m_vecEndPos = 0x900 # CPerParticleVecInput
-            m_flTraceBloat = 0xFB8 # CPerParticleFloatInput
-            m_flDecalSize = 0x1128 # CPerParticleFloatInput
-            m_nDecalGroupIndex = 0x1298 # CPerParticleFloatInput
-            m_flDecalRotation = 0x1408 # CPerParticleFloatInput
-            m_vModulationColor = 0x1578 # CPerParticleVecInput
-            m_bUseGameDefaultDecalSize = 0x1C30 # bool
-            m_bRandomDecalRotation = 0x1C31 # bool
-            m_bRandomlySelectDecalInGroup = 0x1C32 # bool
-            m_bNoDecalsOnOwner = 0x1C33 # bool
-            m_bVisualizeTraces = 0x1C34 # bool
         class C_OP_SetControlPointsToModelParticles:
             m_HitboxSetName = 0x1D8 # char[128]
             m_AttachmentName = 0x258 # char[128]
@@ -2246,8 +1651,6 @@ class Schemas:
             m_flTintPerc = 0x208 # float32
             m_nTintBlendMode = 0x20C # ParticleColorBlendMode_t
             m_flLightAmplification = 0x210 # float32
-        class C_OP_RenderPoints:
-            m_hMaterial = 0x228 # CStrongHandle<InfoForResourceTypeIMaterial2>
         class C_INIT_SetAttributeToScalarExpression:
             m_nExpression = 0x1E0 # ScalarExpressionType_t
             m_flInput1 = 0x1E8 # CPerParticleFloatInput
@@ -2270,13 +1673,6 @@ class Schemas:
             m_nOutControlPointNumber = 0x1E0 # int32
             m_vecRateMin = 0x1E4 # Vector
             m_vecRateMax = 0x1F0 # Vector
-        class C_OP_VelocityMatchingForce:
-            m_flDirScale = 0x1D8 # float32
-            m_flSpdScale = 0x1DC # float32
-            m_flNeighborDistance = 0x1E0 # float32
-            m_flFacingStrength = 0x1E4 # float32
-            m_bUseAABB = 0x1E8 # bool
-            m_nCPBroadcast = 0x1EC # int32
         class C_INIT_RandomAlphaWindowThreshold:
             m_flMin = 0x1E0 # float32
             m_flMax = 0x1E4 # float32
@@ -2314,8 +1710,6 @@ class Schemas:
             m_nCPField = 0x1E4 # int32
             m_nChildGroupID = 0x1E8 # int32
             m_bOnlyChildren = 0x1EC # bool
-        class C_OP_RenderClothForce:
-            pass
         class C_OP_RemapVisibilityScalar:
             m_nFieldInput = 0x1D8 # ParticleAttributeIndex_t
             m_nFieldOutput = 0x1DC # ParticleAttributeIndex_t
@@ -2456,11 +1850,6 @@ class Schemas:
             m_nControlPoint = 0x0 # int32
             m_bLocalCoords = 0x4 # bool
             m_vOffset = 0x8 # Vector
-        class C_OP_SetControlPointPositionToRandomActiveCP:
-            m_nCP1 = 0x1E0 # int32
-            m_nHeadLocationMin = 0x1E4 # int32
-            m_nHeadLocationMax = 0x1E8 # int32
-            m_flResetRate = 0x1F0 # CParticleCollectionFloatInput
         class C_OP_Diffusion:
             m_flRadiusScale = 0x1D8 # float32
             m_nFieldOutput = 0x1DC # ParticleAttributeIndex_t
@@ -2550,12 +1939,6 @@ class Schemas:
             m_LocalCoordinateSystemSpeedMax = 0x1038 # CPerParticleVecInput
             m_nFieldOutput = 0x16F0 # ParticleAttributeIndex_t
             m_nFieldVelocity = 0x16F4 # ParticleAttributeIndex_t
-        class C_OP_SetVec:
-            m_InputValue = 0x1D8 # CPerParticleVecInput
-            m_nOutputField = 0x890 # ParticleAttributeIndex_t
-            m_nSetMethod = 0x894 # ParticleSetMethod_t
-            m_Lerp = 0x898 # CPerParticleFloatInput
-            m_bNormalizedOutput = 0xA08 # bool
         class C_INIT_CreateFromParentParticles:
             m_flVelocityScale = 0x1E0 # float32
             m_flIncrement = 0x1E4 # float32
@@ -2570,34 +1953,6 @@ class Schemas:
             m_nSetMethod = 0x4C8 # ParticleSetMethod_t
         class C_INIT_RandomNamedModelBodyPart:
             pass
-        class C_OP_RenderOmni2Light:
-            m_nLightType = 0x228 # ParticleOmni2LightTypeChoiceList_t
-            m_nMaxAllowed = 0x22C # uint16
-            m_vColorBlend = 0x230 # CParticleCollectionVecInput
-            m_nColorBlendType = 0x8E8 # ParticleColorBlendType_t
-            m_strLightStyle = 0x8F0 # CUtlString
-            m_flLightStyleTime = 0x8F8 # CPerParticleFloatInput
-            m_nBrightnessUnit = 0xA68 # ParticleLightUnitChoiceList_t
-            m_flBrightnessLumens = 0xA70 # CPerParticleFloatInput
-            m_flBrightnessCandelas = 0xBE0 # CPerParticleFloatInput
-            m_bCastShadows = 0xD50 # bool
-            m_bDynamicBounce = 0xD51 # bool
-            m_flBounceScale = 0xD58 # CParticleCollectionFloatInput
-            m_bFog = 0xEC8 # bool
-            m_flFogScale = 0xED0 # CPerParticleFloatInput
-            m_flLuminaireRadius = 0x1040 # CPerParticleFloatInput
-            m_flSkirt = 0x11B0 # CPerParticleFloatInput
-            m_flRange = 0x1320 # CPerParticleFloatInput
-            m_flInnerConeAngle = 0x1490 # CPerParticleFloatInput
-            m_flOuterConeAngle = 0x1600 # CPerParticleFloatInput
-            m_hLightCookie = 0x1770 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_bSphericalCookie = 0x1778 # bool
-        class C_OP_ConnectParentParticleToNearest:
-            m_nFirstControlPoint = 0x1D8 # int32
-            m_nSecondControlPoint = 0x1DC # int32
-            m_bUseRadius = 0x1E0 # bool
-            m_flRadiusScale = 0x1E8 # CParticleCollectionFloatInput
-            m_flParentRadiusScale = 0x358 # CParticleCollectionFloatInput
         class CPAssignment_t:
             m_nCPNumber = 0x0 # int32
             m_Pos = 0x8 # CPerParticleVecInput
@@ -2629,9 +1984,6 @@ class Schemas:
             m_nLatencyCP = 0x1DC # int32
             m_nLatencyCPField = 0x1E0 # int32
             m_nDesiredVelocityCPField = 0x1E4 # int32
-        class C_OP_CollideWithSelf:
-            m_flRadiusScale = 0x1D8 # CPerParticleFloatInput
-            m_flMinimumSpeed = 0x348 # CPerParticleFloatInput
         class C_OP_Noise:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_flOutputMin = 0x1DC # float32
@@ -2646,10 +1998,6 @@ class Schemas:
             m_flEndFadeOutTime = 0x1E4 # float32
             m_flStartAlpha = 0x1E8 # float32
             m_flEndAlpha = 0x1EC # float32
-        class C_OP_ColorAdjustHSL:
-            m_flHueAdjust = 0x1D8 # CPerParticleFloatInput
-            m_flSaturationAdjust = 0x348 # CPerParticleFloatInput
-            m_flLightnessAdjust = 0x4B8 # CPerParticleFloatInput
         class CParticleMassCalculationParameters:
             m_nMassMode = 0x0 # ParticleMassMode_t
             m_flRadius = 0x8 # CPerParticleFloatInput
@@ -2666,9 +2014,6 @@ class Schemas:
             m_nSetMethod = 0x1F4 # ParticleSetMethod_t
         class C_OP_AlphaDecay:
             m_flMinAlpha = 0x1D8 # float32
-        class C_OP_RemapDensityGradientToVectorAttribute:
-            m_flRadiusScale = 0x1D8 # float32
-            m_nFieldOutput = 0x1DC # ParticleAttributeIndex_t
         class C_INIT_InitVec:
             m_InputValue = 0x1E0 # CPerParticleVecInput
             m_nOutputField = 0x898 # ParticleAttributeIndex_t
@@ -2730,14 +2075,6 @@ class Schemas:
             m_nSetMethod = 0x1F0 # ParticleSetMethod_t
             m_bActiveRange = 0x1F4 # bool
             m_bSetPreviousParticle = 0x1F5 # bool
-        class C_OP_SetControlPointFieldFromVectorExpression:
-            m_nExpression = 0x1E0 # VectorFloatExpressionType_t
-            m_vecInput1 = 0x1E8 # CParticleCollectionVecInput
-            m_vecInput2 = 0x8A0 # CParticleCollectionVecInput
-            m_flLerp = 0xF58 # CPerParticleFloatInput
-            m_flOutputRemap = 0x10C8 # CParticleRemapFloatInput
-            m_nOutputCP = 0x1238 # int32
-            m_nOutVectorField = 0x123C # int32
         class C_OP_PercentageBetweenTransforms:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_flInputMin = 0x1DC # float32
@@ -2749,10 +2086,6 @@ class Schemas:
             m_nSetMethod = 0x2C0 # ParticleSetMethod_t
             m_bActiveRange = 0x2C4 # bool
             m_bRadialCheck = 0x2C5 # bool
-        class C_INIT_PlaneCull:
-            m_nControlPoint = 0x1E0 # int32
-            m_flDistance = 0x1E8 # CParticleCollectionFloatInput
-            m_bCullInside = 0x358 # bool
         class C_OP_RemapNamedModelSequenceEndCap:
             pass
         class C_INIT_InitFromCPSnapshot:
@@ -2795,26 +2128,9 @@ class Schemas:
         class C_INIT_InheritVelocity:
             m_nControlPointNumber = 0x1E0 # int32
             m_flVelocityScale = 0x1E4 # float32
-        class C_OP_SetControlPointToWaterSurface:
-            m_nSourceCP = 0x1E0 # int32
-            m_nDestCP = 0x1E4 # int32
-            m_nFlowCP = 0x1E8 # int32
-            m_nActiveCP = 0x1EC # int32
-            m_nActiveCPField = 0x1F0 # int32
-            m_flRetestRate = 0x1F8 # CParticleCollectionFloatInput
-            m_bAdaptiveThreshold = 0x368 # bool
-        class C_INIT_PositionOffset:
-            m_OffsetMin = 0x1E0 # CPerParticleVecInput
-            m_OffsetMax = 0x898 # CPerParticleVecInput
-            m_TransformInput = 0xF50 # CParticleTransformInput
-            m_bLocalCoords = 0xFB8 # bool
-            m_bProportional = 0xFB9 # bool
-            m_randomnessParameters = 0xFBC # CRandomNumberGeneratorParameters
         class C_INIT_NormalAlignToCP:
             m_transformInput = 0x1E0 # CParticleTransformInput
             m_nControlPointAxis = 0x248 # ParticleControlPointAxis_t
-        class C_OP_ShapeMatchingConstraint:
-            m_flShapeRestorationTime = 0x1D8 # float32
         class C_OP_SetChildControlPoints:
             m_nChildGroupID = 0x1D8 # int32
             m_nFirstControlPoint = 0x1DC # int32
@@ -2900,10 +2216,6 @@ class Schemas:
             m_nFalloffFunction = 0x4C0 # ParticleFalloffFunction_t
             m_InputFalloffExp = 0x4C8 # CPerParticleFloatInput
             m_nImpulseType = 0x638 # ParticleImpulseType_t
-        class C_OP_DensityForce:
-            m_flRadiusScale = 0x1E8 # float32
-            m_flForceScale = 0x1EC # float32
-            m_flTargetDensity = 0x1F0 # float32
         class C_INIT_CreateInEpitrochoid:
             m_nComponent1 = 0x1E0 # int32
             m_nComponent2 = 0x1E4 # int32
@@ -2915,12 +2227,6 @@ class Schemas:
             m_bUseCount = 0x810 # bool
             m_bUseLocalCoords = 0x811 # bool
             m_bOffsetExistingPos = 0x812 # bool
-        class C_OP_ConstrainDistanceToUserSpecifiedPath:
-            m_fMinDistance = 0x1D8 # float32
-            m_flMaxDistance = 0x1DC # float32
-            m_flTimeScale = 0x1E0 # float32
-            m_bLoopedPath = 0x1E4 # bool
-            m_pointList = 0x1E8 # CUtlVector<PointDefinitionWithTimeValues_t>
         class C_OP_SetControlPointPositions:
             m_bUseWorldLocation = 0x1E0 # bool
             m_bOrient = 0x1E1 # bool
@@ -2946,14 +2252,6 @@ class Schemas:
             m_flRotRate = 0x890 # CParticleCollectionFloatInput
             m_TransformInput = 0xA00 # CParticleTransformInput
             m_bLocalSpace = 0xA68 # bool
-        class C_OP_IntraParticleForce:
-            m_flAttractionMinDistance = 0x1E8 # float32
-            m_flAttractionMaxDistance = 0x1EC # float32
-            m_flAttractionMaxStrength = 0x1F0 # float32
-            m_flRepulsionMinDistance = 0x1F4 # float32
-            m_flRepulsionMaxDistance = 0x1F8 # float32
-            m_flRepulsionMaxStrength = 0x1FC # float32
-            m_bUseAABB = 0x200 # bool
         class C_INIT_InitFloat:
             m_InputValue = 0x1E0 # CPerParticleFloatInput
             m_nOutputField = 0x350 # ParticleAttributeIndex_t
@@ -2981,38 +2279,11 @@ class Schemas:
             m_nFieldInput = 0x1DC # ParticleAttributeIndex_t
             m_nIncrement = 0x1E0 # int32
             m_nGroupID = 0x1E4 # int32
-        class C_OP_PerParticleForce:
-            m_flForceScale = 0x1E8 # CPerParticleFloatInput
-            m_vForce = 0x358 # CPerParticleVecInput
-            m_nCP = 0xA10 # int32
         class C_INIT_RandomNamedModelMeshGroup:
             pass
-        class C_OP_RenderProjected:
-            m_bProjectCharacter = 0x228 # bool
-            m_bProjectWorld = 0x229 # bool
-            m_bProjectWater = 0x22A # bool
-            m_bFlipHorizontal = 0x22B # bool
-            m_bEnableProjectedDepthControls = 0x22C # bool
-            m_flMinProjectionDepth = 0x230 # float32
-            m_flMaxProjectionDepth = 0x234 # float32
-            m_vecProjectedMaterials = 0x238 # CUtlVector<RenderProjectedMaterial_t>
-            m_flMaterialSelection = 0x250 # CPerParticleFloatInput
-            m_flAnimationTimeScale = 0x3C0 # float32
-            m_bOrientToNormal = 0x3C4 # bool
-            m_MaterialVars = 0x3C8 # CUtlVector<MaterialVariable_t>
-            m_flRadiusScale = 0x3E0 # CParticleCollectionFloatInput
-            m_flAlphaScale = 0x550 # CParticleCollectionFloatInput
-            m_flRollScale = 0x6C0 # CParticleCollectionFloatInput
-            m_nAlpha2Field = 0x830 # ParticleAttributeIndex_t
-            m_vecColorScale = 0x838 # CParticleCollectionVecInput
-            m_nColorBlendType = 0xEF0 # ParticleColorBlendType_t
         class C_OP_MaxVelocity:
             m_flMaxVelocity = 0x1D8 # CPerParticleFloatInput
             m_flMinVelocity = 0x348 # CPerParticleFloatInput
-        class C_INIT_VelocityFromNormal:
-            m_fSpeedMin = 0x1E0 # float32
-            m_fSpeedMax = 0x1E4 # float32
-            m_bIgnoreDt = 0x1E8 # bool
         class C_OP_MaintainEmitter:
             m_nParticlesToMaintain = 0x1E0 # CParticleCollectionFloatInput
             m_flStartTime = 0x350 # float32
@@ -3040,12 +2311,6 @@ class Schemas:
             m_flStartAlpha = 0x1E8 # float32
             m_flEndAlpha = 0x1EC # float32
             m_bForcePreserveParticleOrder = 0x1F0 # bool
-        class C_OP_ColorInterpolate:
-            m_ColorFade = 0x1D8 # Color
-            m_flFadeStartTime = 0x1E8 # float32
-            m_flFadeEndTime = 0x1EC # float32
-            m_nFieldOutput = 0x1F0 # ParticleAttributeIndex_t
-            m_bEaseInOut = 0x1F4 # bool
         class C_OP_RampScalarSpline:
             m_RateMin = 0x1D8 # float32
             m_RateMax = 0x1DC # float32
@@ -3059,9 +2324,6 @@ class Schemas:
             m_bEaseOut = 0x225 # bool
         class C_OP_RemapNamedModelSequenceOnceTimed:
             pass
-        class C_OP_SetControlPointFromObjectScale:
-            m_nCPInput = 0x1E0 # int32
-            m_nCPOutput = 0x1E4 # int32
         class C_OP_MaintainSequentialPath:
             m_fMaxDistance = 0x1D8 # float32
             m_flNumToAssign = 0x1DC # float32
@@ -3080,11 +2342,6 @@ class Schemas:
             m_nSpinRateDegrees = 0x1D8 # int32
             m_nSpinRateMinDegrees = 0x1DC # int32
             m_fSpinRateStopTime = 0x1E4 # float32
-        class C_OP_LockToSavedSequentialPath:
-            m_flFadeStart = 0x1DC # float32
-            m_flFadeEnd = 0x1E0 # float32
-            m_bCPPairs = 0x1E4 # bool
-            m_PathParams = 0x1F0 # CPathParameters
         class C_INIT_RemapNamedModelElementToScalar:
             m_hModel = 0x1E0 # CStrongHandle<InfoForResourceTypeCModel>
             m_names = 0x1E8 # CUtlVector<CUtlString>
@@ -3097,24 +2354,6 @@ class Schemas:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_vecOutputMin = 0x1E0 # CPerParticleVecInput
             m_vecOutputMax = 0x898 # CPerParticleVecInput
-        class C_OP_RenderStatusEffectCitadel:
-            m_pTextureColorWarp = 0x228 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureNormal = 0x230 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureMetalness = 0x238 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureRoughness = 0x240 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureSelfIllum = 0x248 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureDetail = 0x250 # CStrongHandle<InfoForResourceTypeCTextureBase>
-        class IParticleSystemDefinition:
-            pass
-        class C_OP_WindForce:
-            m_vForce = 0x1E8 # Vector
-        class C_OP_SetVariable:
-            m_variableReference = 0x1E0 # CParticleVariableRef
-            m_transformInput = 0x230 # CParticleTransformInput
-            m_positionOffset = 0x298 # Vector
-            m_rotationOffset = 0x2A4 # QAngle
-            m_vecInput = 0x2B0 # CParticleCollectionVecInput
-            m_floatInput = 0x968 # CParticleCollectionFloatInput
         class C_OP_RenderStandardLight:
             m_nLightType = 0x228 # ParticleLightTypeChoiceList_t
             m_nMaxAllowed = 0x22C # uint16
@@ -3195,63 +2434,15 @@ class Schemas:
             m_nSetMethod = 0x1F8 # ParticleSetMethod_t
             m_bActiveRange = 0x1FC # bool
             m_bUseParticleNormal = 0x1FD # bool
-        class C_OP_RemapCPtoCP:
-            m_nInputControlPoint = 0x1E0 # int32
-            m_nOutputControlPoint = 0x1E4 # int32
-            m_nInputField = 0x1E8 # int32
-            m_nOutputField = 0x1EC # int32
-            m_flInputMin = 0x1F0 # float32
-            m_flInputMax = 0x1F4 # float32
-            m_flOutputMin = 0x1F8 # float32
-            m_flOutputMax = 0x1FC # float32
-            m_bDerivative = 0x200 # bool
-            m_flInterpRate = 0x204 # float32
-        class C_OP_SetControlPointRotation:
-            m_vecRotAxis = 0x1E0 # CParticleCollectionVecInput
-            m_flRotRate = 0x898 # CParticleCollectionFloatInput
-            m_nCP = 0xA08 # int32
-            m_nLocalCP = 0xA0C # int32
-        class C_OP_CurlNoiseForce:
-            m_nNoiseType = 0x1E8 # ParticleDirectionNoiseType_t
-            m_vecNoiseFreq = 0x1F0 # CPerParticleVecInput
-            m_vecNoiseScale = 0x8A8 # CPerParticleVecInput
-            m_vecOffset = 0xF60 # CPerParticleVecInput
-            m_vecOffsetRate = 0x1618 # CPerParticleVecInput
-            m_flWorleySeed = 0x1CD0 # CPerParticleFloatInput
-            m_flWorleyJitter = 0x1E40 # CPerParticleFloatInput
-            m_nCP = 0x1E8 # int32
         class C_INIT_Orient2DRelToCP:
             m_nCP = 0x1E0 # int32
             m_nFieldOutput = 0x1E4 # ParticleAttributeIndex_t
             m_flRotOffset = 0x1E8 # float32
-        class C_OP_SetSimulationRate:
-            m_flSimulationScale = 0x1E0 # CParticleCollectionFloatInput
         class C_OP_FadeIn:
             m_flFadeInTimeMin = 0x1D8 # float32
             m_flFadeInTimeMax = 0x1DC # float32
             m_flFadeInTimeExp = 0x1E0 # float32
             m_bProportional = 0x1E4 # bool
-        class C_OP_RenderScreenShake:
-            m_flDurationScale = 0x228 # float32
-            m_flRadiusScale = 0x22C # float32
-            m_flFrequencyScale = 0x230 # float32
-            m_flAmplitudeScale = 0x234 # float32
-            m_nRadiusField = 0x238 # ParticleAttributeIndex_t
-            m_nDurationField = 0x23C # ParticleAttributeIndex_t
-            m_nFrequencyField = 0x240 # ParticleAttributeIndex_t
-            m_nAmplitudeField = 0x244 # ParticleAttributeIndex_t
-            m_nFilterCP = 0x248 # int32
-        class C_OP_RemapBoundingVolumetoCP:
-            m_nOutControlPointNumber = 0x1E0 # int32
-            m_flInputMin = 0x1E4 # float32
-            m_flInputMax = 0x1E8 # float32
-            m_flOutputMin = 0x1EC # float32
-            m_flOutputMax = 0x1F0 # float32
-        class C_OP_HSVShiftToCP:
-            m_nColorCP = 0x1E0 # int32
-            m_nColorGemEnableCP = 0x1E4 # int32
-            m_nOutputCP = 0x1E8 # int32
-            m_DefaultHSVColor = 0x1EC # Color
         class C_OP_RemapVectorToRotations:
             m_vecInput = 0x1D8 # CPerParticleVecInput
             m_vecRotation = 0x890 # CPerParticleVecInput
@@ -3290,11 +2481,6 @@ class Schemas:
             m_nTextureBlendMode = 0x30 # ParticleTextureLayerBlendType_t
             m_flTextureBlend = 0x38 # CParticleCollectionRendererFloatInput
             m_TextureControls = 0x1A8 # TextureControls_t
-        class C_OP_TimeVaryingForce:
-            m_flStartLerpTime = 0x1E8 # float32
-            m_StartingForce = 0x1EC # Vector
-            m_flEndLerpTime = 0x1F8 # float32
-            m_EndingForce = 0x1FC # Vector
         class C_OP_SetCPOrientationToGroundNormal:
             m_flInterpRate = 0x1D8 # float32
             m_flMaxTraceLength = 0x1DC # float32
@@ -3369,8 +2555,6 @@ class Schemas:
             m_flWorldNoiseScale = 0x20C # float32
             m_vecOffsetLoc = 0x210 # Vector
             m_flWorldTimeScale = 0x21C # float32
-        class CParticleFunctionInitializer:
-            m_nAssociatedEmitterIndex = 0x1D8 # int32
         class C_OP_SelectivelyEnableChildren:
             m_nChildGroupID = 0x1E0 # CParticleCollectionFloatInput
             m_nFirstChild = 0x350 # CParticleCollectionFloatInput
@@ -3380,27 +2564,11 @@ class Schemas:
         class ModelReference_t:
             m_model = 0x0 # CStrongHandle<InfoForResourceTypeCModel>
             m_flRelativeProbabilityOfSpawn = 0x8 # float32
-        class C_OP_PlanarConstraint:
-            m_PointOnPlane = 0x1D8 # Vector
-            m_PlaneNormal = 0x1E4 # Vector
-            m_nControlPointNumber = 0x1F0 # int32
-            m_bGlobalOrigin = 0x1F4 # bool
-            m_bGlobalNormal = 0x1F5 # bool
-            m_flRadiusScale = 0x1F8 # CPerParticleFloatInput
-            m_flMaximumDistanceToCP = 0x368 # CParticleCollectionFloatInput
-            m_bUseOldCode = 0x4D8 # bool
         class C_INIT_CreateFromCPs:
             m_nIncrement = 0x1E0 # int32
             m_nMinCP = 0x1E4 # int32
             m_nMaxCP = 0x1E8 # int32
             m_nDynamicCPCount = 0x1F0 # CParticleCollectionFloatInput
-        class C_OP_LockPoints:
-            m_nMinCol = 0x1D8 # int32
-            m_nMaxCol = 0x1DC # int32
-            m_nMinRow = 0x1E0 # int32
-            m_nMaxRow = 0x1E4 # int32
-            m_nControlPoint = 0x1E8 # int32
-            m_flBlendValue = 0x1EC # float32
         class C_INIT_CreateSpiralSphere:
             m_TransformInput = 0x1E0 # CParticleTransformInput
             m_flDensity = 0x248 # CPerParticleFloatInput
@@ -3446,24 +2614,6 @@ class Schemas:
             m_nFieldInputFrom = 0x348 # ParticleAttributeIndex_t
             m_nFieldInput = 0x34C # ParticleAttributeIndex_t
             m_nFieldOutput = 0x350 # ParticleAttributeIndex_t
-        class C_INIT_RandomColor:
-            m_ColorMin = 0x1FC # Color
-            m_ColorMax = 0x200 # Color
-            m_TintMin = 0x204 # Color
-            m_TintMax = 0x208 # Color
-            m_flTintPerc = 0x20C # float32
-            m_flUpdateThreshold = 0x210 # float32
-            m_nTintCP = 0x214 # int32
-            m_nFieldOutput = 0x218 # ParticleAttributeIndex_t
-            m_nTintBlendMode = 0x21C # ParticleColorBlendMode_t
-            m_flLightAmplification = 0x220 # float32
-        class C_OP_SetGravityToCP:
-            m_nCPInput = 0x1E0 # int32
-            m_nCPOutput = 0x1E4 # int32
-            m_flScale = 0x1E8 # CParticleCollectionFloatInput
-            m_bSetPosition = 0x358 # bool
-            m_bSetOrientation = 0x359 # bool
-            m_bSetZDown = 0x35A # bool
         class C_INIT_RemapParticleCountToScalar:
             m_nFieldOutput = 0x1E0 # ParticleAttributeIndex_t
             m_nInputMin = 0x1E4 # int32
@@ -3505,42 +2655,6 @@ class Schemas:
             m_nFieldInput = 0x1E4 # ParticleAttributeIndex_t
             m_nFieldOutput = 0x1E8 # ParticleAttributeIndex_t
             m_bOffsetLocal = 0x1EC # bool
-        class C_OP_RenderFlattenGrass:
-            m_flFlattenStrength = 0x228 # float32
-            m_nStrengthFieldOverride = 0x22C # ParticleAttributeIndex_t
-            m_flRadiusScale = 0x230 # float32
-        class C_OP_RenderLightBeam:
-            m_nMaxAllowed = 0x228 # uint16
-            m_vColorBlend = 0x230 # CParticleCollectionVecInput
-            m_nColorBlendType = 0x8E8 # ParticleColorBlendType_t
-            m_strLightStyle = 0x8F0 # CUtlString
-            m_flLightStyleTime = 0x8F8 # CPerParticleFloatInput
-            m_flBrightnessLumensPerMeter = 0xA68 # CParticleCollectionFloatInput
-            m_flNumberOfLightsToCreate = 0xBD8 # CParticleCollectionFloatInput
-            m_bCastShadows = 0xD48 # bool
-            m_bDynamicBounce = 0xD49 # bool
-            m_flBounceScale = 0xD50 # CParticleCollectionFloatInput
-            m_flSkirt = 0xEC0 # CParticleCollectionFloatInput
-            m_flRange = 0x1030 # CParticleCollectionFloatInput
-            m_flThickness = 0x11A0 # CParticleCollectionFloatInput
-            m_flInnerConeAngle = 0x1310 # CParticleCollectionFloatInput
-            m_flOuterConeAngle = 0x1480 # CParticleCollectionFloatInput
-            m_vecConeRotationOffset = 0x15F0 # CParticleCollectionVecInput
-            m_nFogLightingMode = 0x1CA8 # ParticleLightFogLightingMode_t
-            m_flFogContribution = 0x1CB0 # CParticleCollectionRendererFloatInput
-            m_flRenderFilter = 0x1E20 # CPerParticleFloatInput
-            m_bDebugOrientation = 0x1F90 # bool
-        class C_INIT_SkyVisCull:
-            m_vecTestDir = 0x1E0 # CParticleCollectionVecInput
-            m_nTraceSet = 0x898 # ParticleTraceSet_t
-            m_bCullOnSky = 0x89C # bool
-        class C_OP_EnableChildrenFromParentParticleCount:
-            m_nChildGroupID = 0x1E0 # int32
-            m_nFirstChild = 0x1E4 # int32
-            m_nNumChildrenToEnable = 0x1E8 # CParticleCollectionFloatInput
-            m_bDisableChildren = 0x358 # bool
-            m_bPlayEndcapOnStop = 0x359 # bool
-            m_bDestroyImmediately = 0x35A # bool
         class C_INIT_DistanceToCPInit:
             m_nFieldOutput = 0x1E0 # ParticleAttributeIndex_t
             m_flInputMin = 0x1E8 # CPerParticleFloatInput
@@ -3557,24 +2671,8 @@ class Schemas:
             m_bActiveRange = 0x9B0 # bool
             m_vecDistanceScale = 0x9B4 # Vector
             m_flRemapBias = 0x9C0 # float32
-        class CReplicationParameters:
-            m_nReplicationMode = 0x0 # ParticleReplicationMode_t
-            m_bScaleChildParticleRadii = 0x4 # bool
-            m_flMinRandomRadiusScale = 0x8 # CParticleCollectionFloatInput
-            m_flMaxRandomRadiusScale = 0x178 # CParticleCollectionFloatInput
-            m_vMinRandomDisplacement = 0x2E8 # CParticleCollectionVecInput
-            m_vMaxRandomDisplacement = 0x9A0 # CParticleCollectionVecInput
-            m_flModellingScale = 0x1058 # CParticleCollectionFloatInput
         class C_OP_EndCapDecay:
             pass
-        class C_OP_ForceBasedOnDistanceToPlane:
-            m_flMinDist = 0x1E8 # float32
-            m_vecForceAtMinDist = 0x1EC # Vector
-            m_flMaxDist = 0x1F8 # float32
-            m_vecForceAtMaxDist = 0x1FC # Vector
-            m_vecPlaneNormal = 0x208 # Vector
-            m_nControlPointNumber = 0x214 # int32
-            m_flExponent = 0x218 # float32
         class C_OP_RemapDensityToVector:
             m_flRadiusScale = 0x1D8 # float32
             m_nFieldOutput = 0x1DC # ParticleAttributeIndex_t
@@ -3597,8 +2695,6 @@ class Schemas:
             m_strVariable = 0x0 # CUtlString
             m_nVariableField = 0x8 # ParticleAttributeIndex_t
             m_flScale = 0xC # float32
-        class CParticleFunctionConstraint:
-            pass
         class C_OP_RemapSpeed:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_flInputMin = 0x1DC # float32
@@ -3666,23 +2762,8 @@ class Schemas:
             m_nColorBlendType = 0x2C60 # ParticleColorBlendType_t
             m_strLightStyle = 0x2C68 # CUtlString
             m_flLightStyleTime = 0x2C70 # CPerParticleFloatInput
-        class C_OP_RenderClientPhysicsImpulse:
-            m_flRadius = 0x228 # CPerParticleFloatInput
-            m_flMagnitude = 0x398 # CPerParticleFloatInput
-            m_nSimIdFilter = 0x508 # int32
-        class CParticleFunctionEmitter:
-            m_nEmitterIndex = 0x1D8 # int32
         class C_INIT_RemapNamedModelMeshGroupToScalar:
             pass
-        class C_OP_SetControlPointOrientationToCPVelocity:
-            m_nCPInput = 0x1E0 # int32
-            m_nCPOutput = 0x1E4 # int32
-        class C_OP_RopeSpringConstraint:
-            m_flRestLength = 0x1D8 # CParticleCollectionFloatInput
-            m_flMinDistance = 0x348 # CParticleCollectionFloatInput
-            m_flMaxDistance = 0x4B8 # CParticleCollectionFloatInput
-            m_flAdjustmentScale = 0x628 # float32
-            m_flInitialRestingLength = 0x630 # CParticleCollectionFloatInput
         class C_INIT_PositionWarpScalar:
             m_vecWarpMin = 0x1E0 # Vector
             m_vecWarpMax = 0x1EC # Vector
@@ -3711,18 +2792,6 @@ class Schemas:
         class C_INIT_QuantizeFloat:
             m_InputValue = 0x1E0 # CPerParticleFloatInput
             m_nOutputField = 0x350 # ParticleAttributeIndex_t
-        class C_OP_RemapModelVolumetoCP:
-            m_nBBoxType = 0x1E0 # BBoxVolumeType_t
-            m_nInControlPointNumber = 0x1E4 # int32
-            m_nOutControlPointNumber = 0x1E8 # int32
-            m_nOutControlPointMaxNumber = 0x1EC # int32
-            m_nField = 0x1F0 # int32
-            m_flInputMin = 0x1F4 # float32
-            m_flInputMax = 0x1F8 # float32
-            m_flOutputMin = 0x1FC # float32
-            m_flOutputMax = 0x200 # float32
-            m_bBBoxOnly = 0x204 # bool
-            m_bCubeRoot = 0x205 # bool
         class C_OP_SetToCP:
             m_nControlPointNumber = 0x1D8 # int32
             m_vecOffset = 0x1DC # Vector
@@ -3734,10 +2803,6 @@ class Schemas:
             m_vecOffset = 0x20 # Vector
             m_angOffset = 0x2C # QAngle
             m_entityName = 0x38 # CUtlString
-        class C_OP_ParentVortices:
-            m_flForceScale = 0x1E8 # float32
-            m_vecTwistAxis = 0x1EC # Vector
-            m_bFlipBasedOnYaw = 0x1F8 # bool
         class C_OP_SetControlPointToCPVelocity:
             m_nCPInput = 0x1E0 # int32
             m_nCPOutputVel = 0x1E4 # int32
@@ -3745,26 +2810,6 @@ class Schemas:
             m_nCPOutputMag = 0x1EC # int32
             m_nCPField = 0x1F0 # int32
             m_vecComparisonVelocity = 0x1F8 # CParticleCollectionVecInput
-        class C_OP_ClientPhysics:
-            m_strPhysicsType = 0x228 # CUtlString
-            m_bStartAsleep = 0x230 # bool
-            m_flPlayerWakeRadius = 0x238 # CParticleCollectionFloatInput
-            m_flVehicleWakeRadius = 0x3A8 # CParticleCollectionFloatInput
-            m_bUseHighQualitySimulation = 0x518 # bool
-            m_nMaxParticleCount = 0x51C # int32
-            m_bRespectExclusionVolumes = 0x520 # bool
-            m_bKillParticles = 0x521 # bool
-            m_bDeleteSim = 0x522 # bool
-            m_nControlPoint = 0x524 # int32
-            m_nForcedSimId = 0x528 # int32
-            m_nColorBlendType = 0x52C # ParticleColorBlendType_t
-            m_nForcedStatusEffects = 0x530 # ParticleAttrBoxFlags_t
-            m_nNoCollisionAttribute = 0x534 # ParticleAttributeIndex_t
-            m_nZeroGravityAttribute = 0x538 # ParticleAttributeIndex_t
-        class C_OP_SpinYaw:
-            pass
-        class PointDefinitionWithTimeValues_t:
-            m_flTimeDuration = 0x14 # float32
         class RenderProjectedMaterial_t:
             m_hMaterial = 0x0 # CStrongHandle<InfoForResourceTypeIMaterial2>
         class C_INIT_SetFloatAttributeToVectorExpression:
@@ -3774,55 +2819,12 @@ class Schemas:
             m_flOutputRemap = 0xF58 # CParticleRemapFloatInput
             m_nOutputField = 0x10C8 # ParticleAttributeIndex_t
             m_nSetMethod = 0x10CC # ParticleSetMethod_t
-        class C_OP_ExternalWindForce:
-            m_vecSamplePosition = 0x1E8 # CPerParticleVecInput
-            m_vecScale = 0x8A0 # CPerParticleVecInput
-            m_bSampleWind = 0xF58 # bool
-            m_bSampleWater = 0xF59 # bool
-            m_bDampenNearWaterPlane = 0xF5A # bool
-            m_bSampleGravity = 0xF5B # bool
-            m_vecGravityForce = 0xF60 # CPerParticleVecInput
-            m_bUseBasicMovementGravity = 0x1618 # bool
-            m_flLocalGravityScale = 0x1620 # CPerParticleFloatInput
-            m_flLocalBuoyancyScale = 0x1790 # CPerParticleFloatInput
-            m_vecBuoyancyForce = 0x1900 # CPerParticleVecInput
         class C_INIT_ModelCull:
             m_nControlPointNumber = 0x1E0 # int32
             m_bBoundBox = 0x1E4 # bool
             m_bCullOutside = 0x1E5 # bool
             m_bUseBones = 0x1E6 # bool
             m_HitboxSetName = 0x1E7 # char[128]
-        class C_OP_RenderSprites:
-            m_nSequenceOverride = 0x2DF0 # CParticleCollectionRendererFloatInput
-            m_bSequenceNumbersAreRawSequenceIndices = 0x2F60 # bool
-            m_nOrientationType = 0x2F64 # ParticleOrientationChoiceList_t
-            m_nOrientationControlPoint = 0x2F68 # int32
-            m_bUseYawWithNormalAligned = 0x2F6C # bool
-            m_flMinSize = 0x2F70 # CParticleCollectionRendererFloatInput
-            m_flMaxSize = 0x30E0 # CParticleCollectionRendererFloatInput
-            m_flSubPixelAAScale = 0x3250 # CParticleCollectionRendererFloatInput
-            m_flStartFadeSize = 0x33C0 # CParticleCollectionRendererFloatInput
-            m_flEndFadeSize = 0x3530 # CParticleCollectionRendererFloatInput
-            m_flStartFadeDot = 0x36A0 # float32
-            m_flEndFadeDot = 0x36A4 # float32
-            m_bDistanceAlpha = 0x36A8 # bool
-            m_bSoftEdges = 0x36A9 # bool
-            m_flEdgeSoftnessStart = 0x36AC # float32
-            m_flEdgeSoftnessEnd = 0x36B0 # float32
-            m_bOutline = 0x36B4 # bool
-            m_OutlineColor = 0x36B5 # Color
-            m_nOutlineAlpha = 0x36BC # int32
-            m_flOutlineStart0 = 0x36C0 # float32
-            m_flOutlineStart1 = 0x36C4 # float32
-            m_flOutlineEnd0 = 0x36C8 # float32
-            m_flOutlineEnd1 = 0x36CC # float32
-            m_nLightingMode = 0x36D0 # ParticleLightingQuality_t
-            m_vecLightingOverride = 0x36D8 # CParticleCollectionRendererVecInput
-            m_flLightingTessellation = 0x3D90 # CParticleCollectionRendererFloatInput
-            m_flLightingDirectionality = 0x3F00 # CParticleCollectionRendererFloatInput
-            m_bParticleShadows = 0x4070 # bool
-            m_flShadowDensity = 0x4074 # float32
-            m_replicationParameters = 0x4078 # CReplicationParameters
         class C_OP_PercentageBetweenTransformLerpCPs:
             m_nFieldOutput = 0x1D8 # ParticleAttributeIndex_t
             m_flInputMin = 0x1DC # float32
@@ -3845,19 +2847,6 @@ class Schemas:
             m_bSetOrientation = 0x4C8 # bool
             m_nOrientationField = 0x4CC # ParticleAttributeIndex_t
             m_bNumBasedOnParticleCount = 0x4D0 # bool
-        class C_OP_RenderTreeShake:
-            m_flPeakStrength = 0x228 # float32
-            m_nPeakStrengthFieldOverride = 0x22C # ParticleAttributeIndex_t
-            m_flRadius = 0x230 # float32
-            m_nRadiusFieldOverride = 0x234 # ParticleAttributeIndex_t
-            m_flShakeDuration = 0x238 # float32
-            m_flTransitionTime = 0x23C # float32
-            m_flTwistAmount = 0x240 # float32
-            m_flRadialAmount = 0x244 # float32
-            m_flControlPointOrientationAmount = 0x248 # float32
-            m_nControlPointForLinearDirection = 0x24C # int32
-        class C_OP_WorldCollideConstraint:
-            pass
         class C_OP_SetAttributeToScalarExpression:
             m_nExpression = 0x1D8 # ScalarExpressionType_t
             m_flInput1 = 0x1E0 # CPerParticleFloatInput
@@ -3865,17 +2854,6 @@ class Schemas:
             m_flOutputRemap = 0x4C0 # CParticleRemapFloatInput
             m_nOutputField = 0x630 # ParticleAttributeIndex_t
             m_nSetMethod = 0x634 # ParticleSetMethod_t
-        class C_OP_CycleScalar:
-            m_nDestField = 0x1D8 # ParticleAttributeIndex_t
-            m_flStartValue = 0x1DC # float32
-            m_flEndValue = 0x1E0 # float32
-            m_flCycleTime = 0x1E4 # float32
-            m_bDoNotRepeatCycle = 0x1E8 # bool
-            m_bSynchronizeParticles = 0x1E9 # bool
-            m_nCPScale = 0x1EC # int32
-            m_nCPFieldMin = 0x1F0 # int32
-            m_nCPFieldMax = 0x1F4 # int32
-            m_nSetMethod = 0x1F8 # ParticleSetMethod_t
         class C_OP_RenderMaterialProxy:
             m_nMaterialControlPoint = 0x228 # int32
             m_nProxyType = 0x22C # MaterialProxyType_t

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 #pragma once
 
@@ -9,20 +9,9 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: steamaudio.dll
-        // Class count: 17
+        // Class count: 14
         // Enum count: 0
         namespace steamaudio_dll {
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace SteamAudioReverbClusteringSettings_t {
-                constexpr std::ptrdiff_t m_bEnableClustering = 0x0; // bool
-                constexpr std::ptrdiff_t m_nCubeMapResolution = 0x4; // int32
-                constexpr std::ptrdiff_t m_flDepthThreshold = 0x8; // float32
-            }
             // Parent: None
             // Field count: 5
             //
@@ -81,20 +70,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_movables = 0x10; // CSteamAudioMovableBakedData<CSteamAudioBakedPathingData>
             }
             // Parent: None
-            // Field count: 5
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace SteamAudioReverbSettings_t {
-                constexpr std::ptrdiff_t m_nNumRays = 0x0; // int32
-                constexpr std::ptrdiff_t m_nNumBounces = 0x4; // int32
-                constexpr std::ptrdiff_t m_flIRDuration = 0x8; // float32
-                constexpr std::ptrdiff_t m_nAmbisonicsOrder = 0xC; // int32
-                constexpr std::ptrdiff_t m_bExportScene = 0x10; // bool
-            }
-            // Parent: None
             // Field count: 1
             //
             // Metadata:
@@ -103,15 +78,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             namespace CSteamAudioProbeData {
                 constexpr std::ptrdiff_t m_pProbeBatch = 0x0; // IPLProbeBatch
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace SteamAudioReverbCompressionSettings_t {
-                constexpr std::ptrdiff_t m_bEnableCompression = 0x0; // bool
-                constexpr std::ptrdiff_t m_flQuality = 0x4; // float32
             }
             // Parent: None
             // Field count: 3

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: schemasystem.dll
-        // Class count: 7
+        // Class count: 1
         // Enum count: 2
         namespace schemasystem_dll {
             // Alignment: 1
@@ -108,27 +108,6 @@ namespace source2_dumper {
                 TRS_NONE = 0x2
             };
             // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // <invalid>
-            // char
-            // uint8
-            // uint16
-            // uint32
-            // uint64
-            // float64
-            // invalid
-            // bool
-            // uint
-            // string
-            // array
-            namespace InfoForResourceTypeCResourceManifestInternal {
-            }
-            // Parent: None
             // Field count: 23
             namespace CSchemaSystemInternalRegistration {
                 constexpr std::ptrdiff_t m_Vector2D = 0x0; // Vector2D
@@ -154,87 +133,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_stringTokenWithStorage = 0x148; // CUtlStringTokenWithStorage
                 constexpr std::ptrdiff_t m_ResourceTypes = 0x160; // CResourceArray<CResourcePointer<CResourceString>>
                 constexpr std::ptrdiff_t m_KV3 = 0x168; // KeyValues3
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // void
-            // int8
-            // int16
-            // int32
-            // int64
-            // float32
-            // bool
-            // null
-            // int
-            // double
-            // binary_blob
-            // table
-            namespace CExampleSchemaVData_PolymorphicDerivedA {
-                constexpr std::ptrdiff_t m_nDerivedA = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CExampleSchemaVData_PolymorphicBase {
-                constexpr std::ptrdiff_t m_nBase = 0x8; // int32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // void
-            // int8
-            // int16
-            // int32
-            // int64
-            // float32
-            // bool
-            // null
-            // int
-            // double
-            // binary_blob
-            // table
-            namespace CExampleSchemaVData_PolymorphicDerivedB {
-                constexpr std::ptrdiff_t m_nDerivedB = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // vrman
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // void
-            // int8
-            // int16
-            // int32
-            // int64
-            // float32
-            // bool
-            // null
-            // int
-            // double
-            // binary_blob
-            // table
-            namespace ResourceId_t {
-                constexpr std::ptrdiff_t m_Value = 0x0; // uint64
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CExampleSchemaVData_Monomorphic {
-                constexpr std::ptrdiff_t m_nExample1 = 0x0; // int32
-                constexpr std::ptrdiff_t m_nExample2 = 0x4; // int32
             }
         }
     }

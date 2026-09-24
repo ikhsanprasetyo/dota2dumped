@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: engine2.dll
-        // Class count: 58
+        // Class count: 53
         // Enum count: 2
         pub const engine2_dll = struct {
             // Alignment: 4
@@ -32,33 +32,6 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 0
             pub const CEntityComponent = struct {
-            };
-            // Parent: CEntityComponent
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const CScriptComponent = struct {
-                pub const m_scriptClassName: usize = 0x30; // CUtlSymbolLarge
-            };
-            // Parent: None
-            // Field count: 12
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const CEntityIdentity = struct {
-                pub const m_nameStringTableIndex: usize = 0x14; // int32
-                pub const m_name: usize = 0x18; // CUtlSymbolLarge
-                pub const m_designerName: usize = 0x20; // CUtlSymbolLarge
-                pub const m_flags: usize = 0x30; // uint32
-                pub const m_worldGroupId: usize = 0x38; // WorldGroupId_t
-                pub const m_fDataObjectTypes: usize = 0x3C; // uint32
-                pub const m_PathIndex: usize = 0x40; // ChangeAccessorFieldPathIndex_t
-                pub const m_pAttributes: usize = 0x48; // CEntityAttributeTable*
-                pub const m_pPrev: usize = 0x50; // CEntityIdentity*
-                pub const m_pNext: usize = 0x58; // CEntityIdentity*
-                pub const m_pPrevByClass: usize = 0x60; // CEntityIdentity*
-                pub const m_pNextByClass: usize = 0x68; // CEntityIdentity*
             };
             // Parent: None
             // Field count: 0
@@ -111,28 +84,8 @@ pub const source2_dumper = struct {
                 pub const m_pNext: usize = 0x20; // CEntityComponentHelper*
             };
             // Parent: None
-            // Field count: 1
-            pub const GameTime_t = struct {
-                pub const m_Value: usize = 0x0; // float32
-            };
-            // Parent: None
             // Field count: 0
             pub const EventServerBeginSimulate_t = struct {
-            };
-            // Parent: None
-            // Field count: 8
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub const EntityIOQueuePrioritizedEvent_t = struct {
-                pub const m_flFireTime: usize = 0x4; // GameTime_t
-                pub const m_targetType: usize = 0x8; // EntityIOTargetType_t
-                pub const m_pTarget: usize = 0x10; // CUtlSymbolLarge
-                pub const m_pTargetInput: usize = 0x18; // CUtlSymbolLarge
-                pub const m_hActivator: usize = 0x20; // CEntityHandle
-                pub const m_hCaller: usize = 0x24; // CEntityHandle
-                pub const m_hEntTarget: usize = 0x28; // CEntityHandle
-                pub const m_variantValue: usize = 0x30; // CVariantBase<CVariantDefaultAllocator>
             };
             // Parent: None
             // Field count: 0
@@ -163,11 +116,6 @@ pub const source2_dumper = struct {
                 pub const m_flRenderFrameTime: usize = 0x30; // float32
                 pub const m_flRenderFrameTimeUnbounded: usize = 0x34; // float32
                 pub const m_bRenderOnly: usize = 0x38; // bool
-            };
-            // Parent: None
-            // Field count: 1
-            pub const GameTick_t = struct {
-                pub const m_Value: usize = 0x0; // int32
             };
             // Parent: None
             // Field count: 2

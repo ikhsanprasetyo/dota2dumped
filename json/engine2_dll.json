@@ -34,29 +34,6 @@
         "metadata": [],
         "parent": null
       },
-      "CEntityIdentity": {
-        "fields": {
-          "m_PathIndex": 64,
-          "m_designerName": 32,
-          "m_fDataObjectTypes": 60,
-          "m_flags": 48,
-          "m_name": 24,
-          "m_nameStringTableIndex": 20,
-          "m_pAttributes": 72,
-          "m_pNext": 88,
-          "m_pNextByClass": 104,
-          "m_pPrev": 80,
-          "m_pPrevByClass": 96,
-          "m_worldGroupId": 56
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
       "CEntityInstance": {
         "fields": {
           "m_CScriptComponent": 40,
@@ -77,18 +54,6 @@
         },
         "metadata": [],
         "parent": null
-      },
-      "CScriptComponent": {
-        "fields": {
-          "m_scriptClassName": 48
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": "CEntityComponent"
       },
       "CVariantDefaultAllocator": {
         "fields": {},
@@ -121,25 +86,6 @@
       "EntInput_t": {
         "fields": {},
         "metadata": [],
-        "parent": null
-      },
-      "EntityIOQueuePrioritizedEvent_t": {
-        "fields": {
-          "m_flFireTime": 4,
-          "m_hActivator": 32,
-          "m_hCaller": 36,
-          "m_hEntTarget": 40,
-          "m_pTarget": 16,
-          "m_pTargetInput": 24,
-          "m_targetType": 8,
-          "m_variantValue": 48
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
         "parent": null
       },
       "EventAdvanceTick_t": {
@@ -433,20 +379,6 @@
       },
       "EventSplitScreenStateChanged_t": {
         "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "GameTick_t": {
-        "fields": {
-          "m_Value": 0
-        },
-        "metadata": [],
-        "parent": null
-      },
-      "GameTime_t": {
-        "fields": {
-          "m_Value": 0
-        },
         "metadata": [],
         "parent": null
       }

@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-17 12:11:28.864356600 +07:00
+# 2026-09-24 17:35:37.601127800 +07:00
 
 class Schemas:
     # Module: rendersystemdx11.dll
@@ -85,8 +85,6 @@ class Schemas:
             m_bDepthWriteEnable = 0x0 # bitfield:1
             m_depthFunc = 0x0 # bitfield:4
             m_stencilState = 0x2 # RsStencilStateDesc_t
-        class SheetSequenceIntegerId_t:
-            m_Value = 0x0 # uint32
         class RsBlendStateDesc_t:
             m_srcBlendBits = 0x0 # uint32
             m_destBlendBits = 0x4 # uint32

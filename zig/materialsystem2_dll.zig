@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: materialsystem2.dll
-        // Class count: 15
+        // Class count: 7
         // Enum count: 5
         pub const materialsystem2_dll = struct {
             // Alignment: 4
@@ -45,49 +45,6 @@ pub const source2_dumper = struct {
                 HORIZ_JUSTIFICATION_NONE = 0x3
             };
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const MaterialParam_t = struct {
-                pub const m_name: usize = 0x0; // CUtlString
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            pub const MaterialParamVector_t = struct {
-                pub const m_value: usize = 0x8; // Vector4D
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            pub const MaterialParamString_t = struct {
-                pub const m_value: usize = 0x8; // CUtlString
-            };
-            // Parent: None
             // Field count: 15
             //
             // Metadata:
@@ -111,18 +68,6 @@ pub const source2_dumper = struct {
                 pub const m_fogScatteringParams: usize = 0x124; // PostProcessingFogScatteringParameters_t
                 pub const m_bHasLocalExposureParams: usize = 0x144; // bool
                 pub const m_localExposureParams: usize = 0x148; // PostProcessingLocalExposureParameters_t
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            pub const MaterialParamInt_t = struct {
-                pub const m_nValue: usize = 0x8; // int32
             };
             // Parent: None
             // Field count: 6
@@ -193,43 +138,6 @@ pub const source2_dumper = struct {
                 pub const m_fWaterDepthBlurRadius: usize = 0x1C; // float32
             };
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            pub const MaterialParamBuffer_t = struct {
-                pub const m_value: usize = 0x8; // CUtlBinaryBlock
-            };
-            // Parent: None
-            // Field count: 14
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const MaterialResourceData_t = struct {
-                pub const m_materialName: usize = 0x0; // CUtlString
-                pub const m_shaderName: usize = 0x8; // CUtlString
-                pub const m_intParams: usize = 0x10; // CUtlVector<MaterialParamInt_t>
-                pub const m_floatParams: usize = 0x28; // CUtlVector<MaterialParamFloat_t>
-                pub const m_vectorParams: usize = 0x40; // CUtlVector<MaterialParamVector_t>
-                pub const m_textureParams: usize = 0x58; // CUtlVector<MaterialParamTexture_t>
-                pub const m_dynamicParams: usize = 0x70; // CUtlVector<MaterialParamBuffer_t>
-                pub const m_dynamicTextureParams: usize = 0x88; // CUtlVector<MaterialParamBuffer_t>
-                pub const m_intAttributes: usize = 0xA0; // CUtlVector<MaterialParamInt_t>
-                pub const m_floatAttributes: usize = 0xB8; // CUtlVector<MaterialParamFloat_t>
-                pub const m_vectorAttributes: usize = 0xD0; // CUtlVector<MaterialParamVector_t>
-                pub const m_textureAttributes: usize = 0xE8; // CUtlVector<MaterialParamTexture_t>
-                pub const m_stringAttributes: usize = 0x100; // CUtlVector<MaterialParamString_t>
-                pub const m_renderAttributesUsed: usize = 0x118; // CUtlVector<CUtlString>
-            };
-            // Parent: None
             // Field count: 16
             //
             // Metadata:
@@ -255,15 +163,6 @@ pub const source2_dumper = struct {
                 pub const m_vBlurTint: usize = 0x4C; // Vector[5]
             };
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // ,
-            pub const MaterialParamFloat_t = struct {
-                pub const m_flValue: usize = 0x8; // float32
-            };
-            // Parent: None
             // Field count: 4
             //
             // Metadata:
@@ -274,16 +173,6 @@ pub const source2_dumper = struct {
                 pub const m_fHighlightOffsetEV: usize = 0x4; // float32
                 pub const m_fSigma: usize = 0x8; // float32
                 pub const m_fBoostLocalContrast: usize = 0xC; // float32
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            pub const MaterialParamTexture_t = struct {
-                pub const m_pValue: usize = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
             };
         };
     };

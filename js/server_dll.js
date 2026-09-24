@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -8317,36 +8317,31 @@ export const Schemas = {
             MOVETYPE_CUSTOM: 0x9,
             MOVETYPE_LAST: 0xA,
         },
-        _y____: {
+        _y__k_: {
         },
-        ______: {
+        ____k_: {
         },
-        ______: {
-            : 0x0,
+        _T_4k_: {
         },
-        ______: {
+        _h__k_: {
         },
-        ______: {
+        ___4k_: {
         },
-        ______: {
+        ____k_: {
         },
-        ______: {
+        ___4k_: {
         },
-        ______: {
+        ___4k_: {
         },
-        _q____: {
+        _J_4k_: {
         },
-        ______: {
+        ____k_: {
         },
-        _g____: {
+        ____k_: {
         },
-        ______: {
+        _m__k_: {
         },
-        ______: {
-        },
-        ______: {
-        },
-        ______: {
+        ____k_: {
         },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x1A78, // int32
@@ -8768,10 +8763,6 @@ export const Schemas = {
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Lifestealer_4: {
         },
         CDOTA_Ability_Special_Bonus_Gold_Income_180: {
-        },
-        CPulseCell_WaitForCursorsWithTag: {
-            m_bTagSelfWhenComplete: 0x128, // bool
-            m_nDesiredKillPriority: 0x12C, // PulseCursorCancelPriority_t
         },
         CDOTA_Modifier_BigThunderLizard_Wardrums: {
             radius: 0x1A78, // float32
@@ -9489,9 +9480,6 @@ export const Schemas = {
             animation_rate: 0x1A94, // float32
         },
         CDOTA_Ability_AntiMage_Blink: {
-        },
-        CPulseCell_Base: {
-            m_nEditorNodeID: 0x8, // PulseDocNodeID_t
         },
         CDOTA_Unit_Hero_Life_Stealer: {
         },
@@ -10671,8 +10659,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_Unique_Lone_Druid_11: {
         },
-        CTouchExpansionComponent: {
-        },
         CDOTA_Unit_Hero_Silencer: {
         },
         CDOTA_Modifier_Creature_Flamestrike_Ground: {
@@ -11142,10 +11128,6 @@ export const Schemas = {
         },
         CDotaSubquestBuyItems: {
             m_itemList: 0x6F0, // CUtlVector<char*>
-        },
-        CPulseCell_PickBestOutflowSelector: {
-            m_nCheckType: 0x48, // PulseBestOutflowRules_t
-            m_OutflowList: 0x50, // PulseSelectorOutflowList_t
         },
         CIngameEvent_MonsterHunter_DummyModifierHolder: {
         },
@@ -11961,19 +11943,6 @@ export const Schemas = {
         },
         CDOTA_Modifier_Break: {
         },
-        CPrecipitationVData: {
-            m_szParticlePrecipitationEffect: 0x28, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_szParticlePrecipitationPuddleEffect: 0x108, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_szParticlePrecipitationPostEffect: 0x1E8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flInnerDistance: 0x2C8, // float32
-            m_nAttachType: 0x2CC, // ParticleAttachment_t
-            m_bBatchSameVolumeType: 0x2D0, // bool
-            m_nRTEnvCP: 0x2D4, // int32
-            m_nRTEnvCPComponent: 0x2D8, // int32
-            m_szModifier: 0x2E0, // CUtlString
-            m_nUseSnapshotFromSurfaceGraph: 0x2E8, // int32
-            m_snapshotFilter: 0x2EC, // PrecipitationFilter_t
-        },
         CFuncMoveLinear: {
             m_authoredPosition: 0x7F8, // MoveLinearAuthoredPos_t
             m_angMoveEntitySpace: 0x7FC, // QAngle
@@ -12125,10 +12094,6 @@ export const Schemas = {
             m_iShieldRunesGained: 0xEF50, // int32[24]
         },
         CDOTACustomGameEvents: {
-        },
-        CPulseCell_WaitForObservable: {
-            m_Condition: 0xD8, // CPulseObservableExpression<bool>
-            m_OnTrue: 0x150, // CPulse_ResumePoint
         },
         CDOTA_Unit_Hero_Broodmother: {
         },
@@ -12414,9 +12379,6 @@ export const Schemas = {
             m_pSurveyQuestionData: 0x2D18, // KeyValues*
             m_AddonInfoKeyValues: 0x2D20, // KeyValues3
             m_CurrentHeroAvailable: 0x2DD0, // bool[256]
-        },
-        CHitboxComponent: {
-            m_flBoundsExpandRadius: 0x14, // float32
         },
         CDOTA_Unit_Hero_Winter_Wyvern: {
             m_nFXDeath: 0x1F08, // ParticleIndex_t
@@ -12727,8 +12689,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Unique_Mirana_7: {
         },
         CDOTA_Ability_Special_Bonus_Strength_8: {
-        },
-        CPathQueryComponent: {
         },
         CDOTA_Unit_Hero_MonkeyKing: {
             m_nTreeDisguise: 0x1F08, // uint32
@@ -13244,9 +13204,6 @@ export const Schemas = {
         },
         CIngameEvent_Fall2021: {
         },
-        CBodyComponentBaseAnimating: {
-            m_animationController: 0x4E0, // CBaseAnimatingController
-        },
         CDOTA_Unit_Hero_Alchemist: {
         },
         CDOTA_Modifier_AghsFort_TreantMiniboss_NaturesGuise_NearTreeDisplay: {
@@ -13380,22 +13337,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Evasion_8: {
         },
         CDOTA_Ability_Special_Bonus_Respawn_Reduction_35: {
-        },
-        CPulseGraphDef: {
-            m_DomainIdentifier: 0x8, // PulseSymbol_t
-            m_DomainSubType: 0x18, // CPulseValueFullType
-            m_ParentMapName: 0x30, // PulseSymbol_t
-            m_ParentXmlName: 0x40, // PulseSymbol_t
-            m_Chunks: 0x50, // CUtlVector<CPulse_Chunk*>
-            m_Cells: 0x68, // CUtlVector<CPulseCell_Base*>
-            m_Vars: 0x80, // CUtlVector<CPulse_Variable>
-            m_PublicOutputs: 0x98, // CUtlVector<CPulse_PublicOutput>
-            m_InvokeBindings: 0xB0, // CUtlVector<CPulse_InvokeBinding*>
-            m_CallInfos: 0xC8, // CUtlVector<CPulse_CallInfo*>
-            m_Constants: 0xE0, // CUtlVector<CPulse_Constant>
-            m_DomainValues: 0xF8, // CUtlVector<CPulse_DomainValue>
-            m_BlackboardReferences: 0x110, // CUtlVector<CPulse_BlackboardReference>
-            m_OutputConnections: 0x128, // CUtlVector<CPulse_OutputConnection*>
         },
         CDOTA_Modifier_Aghsfort_Hoodwink_ArcingBoomerang: {
             m_vLeftControl: 0x1A78, // VectorWS
@@ -13707,13 +13648,6 @@ export const Schemas = {
             m_vecDrowRangerArcanaTargetPlayerID: 0x30, // int8[24]
             m_vecDrowRangerArcanaDeathTime: 0x48, // GameTime_t[24]
             m_vecDrowRangerArcanaKillTime: 0xA8, // GameTime_t[24]
-        },
-        CRenderComponent: {
-            __m_pChainEntity: 0x10, // CNetworkVarChainer
-            m_bIsRenderingWithViewModels: 0x50, // bool
-            m_nSplitscreenFlags: 0x54, // uint32
-            m_bEnableRendering: 0x58, // bool
-            m_bInterpolationReadyToDraw: 0xA8, // bool
         },
         CDOTA_Unit_Brewmaster_PrimalFire: {
             m_nFXAmbient: 0x18D8, // ParticleIndex_t
@@ -14435,9 +14369,6 @@ export const Schemas = {
             m_bUsePuntSound: 0x920, // bool
             m_bOriginalBlockLOS: 0x921, // bool
         },
-        CLightEntity: {
-            m_CLightComponent: 0x778, // CLightComponent*
-        },
         CInfoDynamicShadowHintBox: {
             m_vBoxMins: 0x4B0, // Vector
             m_vBoxMaxs: 0x4BC, // Vector
@@ -14506,39 +14437,6 @@ export const Schemas = {
             damage_reduction: 0x588, // float32
             damage_reduction_duration: 0x58C, // float32
         },
-        CBaseAnimGraphController: {
-            m_nAnimationAlgorithm: 0x18, // AnimationAlgorithm_t
-            m_nNextExternalGraphHandle: 0x1C, // ExternalAnimGraphHandle_t
-            m_vecSecondarySkeletonSlotIDs: 0x20, // CNetworkUtlVectorBase<CGlobalSymbol>
-            m_vecSecondarySkeletons: 0x38, // CNetworkUtlVectorBase<CHandle<CBaseAnimGraph>>
-            m_nSecondarySkeletonMasterCount: 0x50, // int32
-            m_flSoundSyncTime: 0x54, // float32
-            m_nActiveIKChainMask: 0x58, // uint32
-            m_hSequence: 0x5C, // HSequence
-            m_flSeqStartTime: 0x60, // GameTime_t
-            m_flSeqFixedCycle: 0x64, // float32
-            m_nAnimLoopMode: 0x68, // AnimLoopMode_t
-            m_flPlaybackRate: 0x6C, // CNetworkedQuantizedFloat
-            m_nNotifyState: 0x78, // SequenceFinishNotifyState_t
-            m_bNetworkedAnimationInputsChanged: 0x79, // bool
-            m_bNetworkedSequenceChanged: 0x7A, // bool
-            m_bLastUpdateSkipped: 0x7B, // bool
-            m_bSequenceFinished: 0x7C, // bool
-            m_nPrevAnimUpdateTick: 0x80, // GameTick_t
-            m_hGraphDefinitionAG2: 0x320, // CStrongHandle<InfoForResourceTypeCNmGraphDefinition>
-            m_SerializePoseRecipeAG2Slots: 0x328, // CUtlVectorEmbeddedNetworkVar<AnimGraph2SerializedPoseRecipeSlot_t>
-            m_SerializePoseRecipeAG2Dynamic: 0x390, // CNetworkUtlVectorBase<uint8>
-            m_nSerializePoseRecipeAG2ActiveSlot: 0x3A8, // uint32
-            m_nSerializePoseRecipeVersionAG2: 0x3AC, // int32
-            m_nServerGraphInstanceIteration: 0x3C0, // int32
-            m_nServerSerializationContextIteration: 0x3C4, // int32
-            m_primaryGraphId: 0x3C8, // ResourceId_t
-            m_vecExternalGraphIds: 0x3D0, // CNetworkUtlVectorBase<ResourceId_t>
-            m_vecExternalClipIds: 0x3E8, // CNetworkUtlVectorBase<ResourceId_t>
-            m_sAnimGraph2Identifier: 0x400, // CGlobalSymbol
-            m_pGraphInstanceAG2: 0x408, // CAnimGraph2InstancePtr
-            m_vecExternalGraphs: 0x628, // CExternalAnimGraphList
-        },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Underlord_6: {
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Templar_Assassin: {
@@ -14549,19 +14447,6 @@ export const Schemas = {
         },
         AnimGraph2SerializedPoseRecipeSlot_t: {
             m_topology: 0x30, // CUtlBinaryBlock
-        },
-        CBuoyancyHelper: {
-            m_pController: 0x8, // IPhysicsMotionController*
-            m_nFluidType: 0x18, // CUtlStringToken
-            m_flFluidDensity: 0x1C, // float32
-            m_flNeutrallyBuoyantGravity: 0x20, // float32
-            m_flNeutrallyBuoyantLinearDamping: 0x24, // float32
-            m_flNeutrallyBuoyantAngularDamping: 0x28, // float32
-            m_bNeutrallyBuoyant: 0x2C, // bool
-            m_vecFractionOfWheelSubmergedForWheelFriction: 0x30, // CUtlVector<float32>
-            m_vecWheelFrictionScales: 0x48, // CUtlVector<float32>
-            m_vecFractionOfWheelSubmergedForWheelDrag: 0x60, // CUtlVector<float32>
-            m_vecWheelDrag: 0x78, // CUtlVector<float32>
         },
         CDOTA_Unit_AghsFort_SpectralTusk_Tombstone: {
         },
@@ -14862,11 +14747,6 @@ export const Schemas = {
         },
         CIngameEvent_WM2017: {
         },
-        CPulseCell_FireCursors: {
-            m_Outflows: 0xD8, // CUtlVector<CPulse_OutflowConnection>
-            m_bWaitForChildOutflows: 0xF0, // bool
-            m_OnFinished: 0xF8, // CPulse_ResumePoint
-        },
         CDOTA_Unit_Hero_PrimalBeast: {
         },
         CDOTA_Modifier_Frogmen_Riverborn_Aura_Bonus: {
@@ -15039,9 +14919,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Attack_Damage_16: {
         },
         CDOTA_Ability_Special_Bonus_Armor_9: {
-        },
-        CBodyComponentPoint: {
-            m_sceneNode: 0x80, // CGameSceneNode
         },
         CDOTA_NPC_Treant_EyesInTheForest: {
             m_bIsBlind: 0x18A8, // bool
@@ -15266,10 +15143,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_Spell_Lifesteal_25: {
         },
-        CPulseCell_Timeline__TimelineEvent_t: {
-            m_flTimeFromPrevious: 0x0, // float32
-            m_EventOutflow: 0x8, // CPulse_OutflowConnection
-        },
         CDOTA_Unit_Hero_Ogre_Magi: {
         },
         CDOTA_BaseNPC_Fort: {
@@ -15412,15 +15285,6 @@ export const Schemas = {
         },
         CIngameEvent_10thAnniversary: {
         },
-        CPulseCell_IntervalTimer__CursorState_t: {
-            m_StartTime: 0x0, // GameTime_t
-            m_EndTime: 0x4, // GameTime_t
-            m_flWaitInterval: 0x8, // float32
-            m_flWaitIntervalHigh: 0xC, // float32
-            m_bCompleteOnNextWake: 0x10, // bool
-        },
-        CPulseCell_BaseRequirement: {
-        },
         CDOTA_Item_EldwurmsEdda: {
         },
         CDOTA_Modifier_Item_GaleGuard: {
@@ -15528,14 +15392,6 @@ export const Schemas = {
             m_hEntityIgnore: 0x7C8, // CHandle<CBaseEntity>
         },
         CDOTA_Ability_Special_Bonus_Movement_Speed_Percentage_8: {
-        },
-        CPulseCell_BaseState: {
-        },
-        OutflowWithRequirements_t: {
-            m_Connection: 0x0, // CPulse_OutflowConnection
-            m_DestinationFlowNodeID: 0x48, // PulseDocNodeID_t
-            m_RequirementNodeIDs: 0x50, // CUtlVector<PulseDocNodeID_t>
-            m_nCursorStateBlockIndex: 0x68, // CUtlVector<int32>
         },
         CDOTA_Unit_AghsFort_Creature_DragonKnight: {
         },
@@ -15659,13 +15515,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_HP_700: {
         },
-        CTestPulseIO__ThreeStringArgs_t: {
-            strArg1: 0x0, // CUtlString
-            strArg2: 0x8, // CUtlString
-            strArg3: 0x10, // CUtlString
-        },
-        CPulseCell_IsRequirementValid: {
-        },
         CDOTA_Modifier_Aghsfort_Reward_MagicResistAura_Bonus: {
             bonus_magical_armor: 0x1A78, // int32
         },
@@ -15721,41 +15570,12 @@ export const Schemas = {
         },
         CDOTA_Ability_Greevil_Miniboss_Red_Earthshock: {
         },
-        CPulseCell_Value_Gradient: {
-            m_Gradient: 0x48, // CColorGradient
-        },
         CEnvDeferredSpotLight: {
         },
         CDOTA_Modifier_BlackDrake_MagicAmplification_Aura: {
             radius: 0x1A78, // float32
         },
         CDOTA_Modifier_Neutral_SpellImmunity: {
-        },
-        CParticleSystem: {
-            m_szSnapshotFileName: 0x778, // char[512]
-            m_bActive: 0x978, // bool
-            m_bFrozen: 0x979, // bool
-            m_flFreezeTransitionDuration: 0x97C, // float32
-            m_nStopType: 0x980, // int32
-            m_bAnimateDuringGameplayPause: 0x984, // bool
-            m_iEffectIndex: 0x988, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_flStartTime: 0x990, // GameTime_t
-            m_flPreSimTime: 0x994, // float32
-            m_vServerControlPoints: 0x998, // Vector[4]
-            m_iServerControlPointAssignments: 0x9C8, // uint8[4]
-            m_hControlPointEnts: 0x9CC, // CHandle<CBaseEntity>[64]
-            m_bDataStringLocalized: 0xACC, // bool
-            m_strDataString: 0xAD0, // CUtlString
-            m_bNoSave: 0xAD8, // bool
-            m_bNoFreeze: 0xAD9, // bool
-            m_bNoRamp: 0xADA, // bool
-            m_bStartActive: 0xADB, // bool
-            m_iszEffectName: 0xAE0, // CUtlSymbolLarge
-            m_iszControlPointNames: 0xAE8, // CUtlSymbolLarge[64]
-            m_nDataCP: 0xCE8, // int32
-            m_vecDataCPValue: 0xCEC, // Vector
-            m_nTintCP: 0xCF8, // int32
-            m_clrTint: 0xCFC, // Color
         },
         CDOTA_Modifier_Item_Harpoon_InternalCD: {
         },
@@ -15892,17 +15712,6 @@ export const Schemas = {
             fInitialStockDuration: 0x48, // float32
             iPlayerID: 0x4C, // PlayerID_t
             iBonusDelayedStockCount: 0x50, // int32
-        },
-        IntervalTimer: {
-            m_timestamp: 0x8, // GameTime_t
-            m_nWorldGroupId: 0xC, // WorldGroupId_t
-        },
-        audioparams_t: {
-            localSound: 0x8, // VectorWS[8]
-            soundscapeIndex: 0x68, // int32
-            localBits: 0x6C, // uint8
-            soundscapeEntityListIndex: 0x70, // int32
-            soundEventHash: 0x74, // uint32
         },
         CDOTA_Unit_Hero_Magnataur: {
         },
@@ -16166,15 +15975,6 @@ export const Schemas = {
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Lich_4: {
         },
-        CTimeline: {
-            m_flValues: 0x10, // float32[64]
-            m_nValueCounts: 0x110, // int32[64]
-            m_nBucketCount: 0x210, // int32
-            m_flInterval: 0x214, // float32
-            m_flFinalValue: 0x218, // float32
-            m_nCompressionType: 0x21C, // TimelineCompression_t
-            m_bStopped: 0x220, // bool
-        },
         CDOTA_Unit_Undying_Tombstone: {
         },
         CDOTA_Unit_Hero_BountyHunter: {
@@ -16286,20 +16086,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Agility_15: {
         },
         CDOTA_Ability_Special_Bonus_All_Stats_4: {
-        },
-        CTestPulseIO__FloatStringArgs_t: {
-            flOutFloat: 0x0, // float32
-            strOutString: 0x8, // CUtlSymbolLarge
-        },
-        CountdownTimer: {
-            m_duration: 0x8, // float32
-            m_timestamp: 0xC, // GameTime_t
-            m_timescale: 0x10, // float32
-            m_nWorldGroupId: 0x14, // WorldGroupId_t
-        },
-        PulseNodeDynamicOutflows_t__DynamicOutflow_t: {
-            m_OutflowID: 0x0, // CGlobalSymbol
-            m_Connection: 0x8, // CPulse_OutflowConnection
         },
         CDOTA_BaseNPC_Seasonal_TI11_Balloon_Dire: {
         },
@@ -16758,9 +16544,6 @@ export const Schemas = {
         CDOTA_Ability_Healing_Campfire: {
         },
         CDOTA_Ability_Special_Bonus_Exp_Boost_50: {
-        },
-        CPulseCell_Inflow_GraphHook: {
-            m_HookName: 0x80, // PulseSymbol_t
         },
         CDOTA_Modifier_Filler_Tooltip: {
         },
@@ -17464,37 +17247,6 @@ export const Schemas = {
             m_iCooldownReductionPct: 0x1A78, // int32
             m_iCostReductionPct: 0x1A7C, // int32
         },
-        CEnvCombinedLightProbeVolume: {
-            m_Entity_Color: 0x1510, // Color
-            m_Entity_flBrightness: 0x1514, // float32
-            m_Entity_hCubemapTexture: 0x1518, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_bCustomCubemapTexture: 0x1520, // bool
-            m_Entity_hLightProbeTexture_AmbientCube: 0x1528, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SDF: 0x1530, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SH2_DC: 0x1538, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SH2_R: 0x1540, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SH2_G: 0x1548, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SH2_B: 0x1550, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeDirectLightIndicesTexture: 0x1558, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeDirectLightScalarsTexture: 0x1560, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeDirectLightShadowsTexture: 0x1568, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_vBoxMins: 0x1570, // Vector
-            m_Entity_vBoxMaxs: 0x157C, // Vector
-            m_Entity_bMoveable: 0x1588, // bool
-            m_Entity_nHandshake: 0x158C, // int32
-            m_Entity_nEnvCubeMapArrayIndex: 0x1590, // int32
-            m_Entity_nPriority: 0x1594, // int32
-            m_Entity_bStartDisabled: 0x1598, // bool
-            m_Entity_flEdgeFadeDist: 0x159C, // float32
-            m_Entity_vEdgeFadeDists: 0x15A0, // Vector
-            m_Entity_nLightProbeSizeX: 0x15AC, // int32
-            m_Entity_nLightProbeSizeY: 0x15B0, // int32
-            m_Entity_nLightProbeSizeZ: 0x15B4, // int32
-            m_Entity_nLightProbeAtlasX: 0x15B8, // int32
-            m_Entity_nLightProbeAtlasY: 0x15BC, // int32
-            m_Entity_nLightProbeAtlasZ: 0x15C0, // int32
-            m_Entity_bEnabled: 0x15D9, // bool
-        },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Leshrac_4: {
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Witch_Doctor_2: {
@@ -17864,10 +17616,6 @@ export const Schemas = {
         CDOTAGameManagerProxy: {
             m_pGameManager: 0x498, // CDOTAGameManager*
         },
-        CPulseCell_Inflow_BaseEntrypoint: {
-            m_EntryChunk: 0x48, // PulseRuntimeChunkIndex_t
-            m_RegisterMap: 0x50, // PulseRegisterMap_t
-        },
         CDynamicNavConnectionsVolume: {
             m_iszConnectionTarget: 0x908, // CUtlSymbolLarge
             m_vecConnections: 0x910, // CUtlVector<DynamicVolumeDef_t>
@@ -17986,10 +17734,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Spell_Amplify_16: {
         },
         CDOTA_Ability_Special_Bonus_HP_Regen_5: {
-        },
-        CPulseCell_WaitForCursorsWithTagBase: {
-            m_nCursorsAllowedToWait: 0xD8, // int32
-            m_WaitComplete: 0xE0, // CPulse_ResumePoint
         },
         CDOTA_BaseNPC_ShadowShaman_SerpentWard: {
             m_angle: 0x18A8, // QAngle
@@ -18309,39 +18053,6 @@ export const Schemas = {
             m_flMinY: 0x508, // float32
             m_flMaxY: 0x50C, // float32
             m_flGridSize: 0x510, // float32
-        },
-        CGameSceneNode: {
-            m_nodeToWorld: 0x10, // CTransformWS
-            m_pOwner: 0x30, // CEntityInstance*
-            m_pParent: 0x38, // CGameSceneNode*
-            m_pChild: 0x40, // CGameSceneNode*
-            m_pNextSibling: 0x48, // CGameSceneNode*
-            m_hParent: 0x70, // CGameSceneNodeHandle
-            m_vecOrigin: 0x80, // CNetworkOriginCellCoordQuantizedVector
-            m_angRotation: 0xB8, // QAngle
-            m_flScale: 0xC4, // float32
-            m_vecAbsOrigin: 0xC8, // VectorWS
-            m_angAbsRotation: 0xD4, // QAngle
-            m_flAbsScale: 0xE0, // float32
-            m_nParentAttachmentOrBone: 0xE4, // int16
-            m_bDebugAbsOriginChanges: 0xE6, // bool
-            m_bDormant: 0xE7, // bool
-            m_bForceParentToBeNetworked: 0xE8, // bool
-            m_bDirtyHierarchy: 0x0, // bitfield:1
-            m_bDirtyBoneMergeInfo: 0x0, // bitfield:1
-            m_bNetworkedPositionChanged: 0x0, // bitfield:1
-            m_bNetworkedAnglesChanged: 0x0, // bitfield:1
-            m_bNetworkedScaleChanged: 0x0, // bitfield:1
-            m_bWillBeCallingPostDataUpdate: 0x0, // bitfield:1
-            m_bBoneMergeFlex: 0x0, // bitfield:1
-            m_nLatchAbsOrigin: 0x0, // bitfield:2
-            m_bDirtyBoneMergeBoneToRoot: 0x0, // bitfield:1
-            m_nHierarchicalDepth: 0xEB, // uint8
-            m_nHierarchyType: 0xEC, // uint8
-            m_nDoNotSetAnimTimeInInvalidatePhysicsCount: 0xED, // uint8
-            m_name: 0xF0, // CUtlStringToken
-            m_hierarchyAttachName: 0x104, // CUtlStringToken
-            m_flClientLocalScale: 0x108, // float32
         },
         CDOTA_BaseNPC_Trap_Ward: {
             m_iszDefaultAnim: 0x1A28, // CUtlSymbolLarge
@@ -18688,20 +18399,6 @@ export const Schemas = {
             m_vOuterMins: 0x67C, // Vector
             m_vOuterMaxs: 0x688, // Vector
         },
-        CPostProcessingVolume: {
-            m_hPostSettings: 0x900, // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
-            m_flFadeDuration: 0x908, // float32
-            m_flMinLogExposure: 0x90C, // float32
-            m_flMaxLogExposure: 0x910, // float32
-            m_flMinExposure: 0x914, // float32
-            m_flMaxExposure: 0x918, // float32
-            m_flExposureCompensation: 0x91C, // float32
-            m_flExposureFadeSpeedUp: 0x920, // float32
-            m_flExposureFadeSpeedDown: 0x924, // float32
-            m_flTonemapEVSmoothingRange: 0x928, // float32
-            m_bMaster: 0x92C, // bool
-            m_bExposureControl: 0x92D, // bool
-        },
         CDOTA_Modifier_731_Teaser_Stun: {
         },
         CDOTA_Modifier_Aghsfort_Walrus_Pudge_Harpoon_PathingFix: {
@@ -18782,13 +18479,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_MP_600: {
         },
         CIngameEvent_Frostivus2024: {
-        },
-        CPulse_InvokeBinding: {
-            m_RegisterMap: 0x0, // PulseRegisterMap_t
-            m_FuncName: 0x30, // PulseSymbol_t
-            m_nCellIndex: 0x40, // PulseRuntimeCellIndex_t
-            m_nSrcChunk: 0x44, // PulseRuntimeChunkIndex_t
-            m_nSrcInstruction: 0x48, // int32
         },
         CDOTA_Unit_Hero_Treant: {
         },
@@ -19988,10 +19678,6 @@ export const Schemas = {
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Ursa_2: {
         },
-        CPulseCell_IntervalTimer: {
-            m_Completed: 0xD8, // CPulse_ResumePoint
-            m_OnInterval: 0x120, // SignatureOutflow_Continue
-        },
         CDOTA_Modifier_Gold_Bag_Launch: {
             gold_amount: 0x1AB0, // int32
         },
@@ -20220,25 +19906,6 @@ export const Schemas = {
         CSingleplayRules: {
             m_bSinglePlayerGameEnding: 0xD0, // bool
         },
-        CEnvWindShared: {
-            m_flStartTime: 0x8, // GameTime_t
-            m_iWindSeed: 0xC, // uint32
-            m_iMinWind: 0x10, // uint16
-            m_iMaxWind: 0x12, // uint16
-            m_windRadius: 0x14, // int32
-            m_iMinGust: 0x18, // uint16
-            m_iMaxGust: 0x1A, // uint16
-            m_flMinGustDelay: 0x1C, // float32
-            m_flMaxGustDelay: 0x20, // float32
-            m_flGustDuration: 0x24, // float32
-            m_iGustDirChange: 0x28, // uint16
-            m_iInitialWindDir: 0x2A, // uint16
-            m_flInitialWindSpeed: 0x2C, // float32
-            m_location: 0x30, // VectorWS
-            m_OnGustStart: 0x40, // CEntityIOOutput
-            m_OnGustEnd: 0x58, // CEntityIOOutput
-            m_hEntOwner: 0x70, // CHandle<CBaseEntity>
-        },
         CPointPrefab: {
             m_targetMapName: 0x498, // CUtlSymbolLarge
             m_forceWorldGroupID: 0x4A0, // CUtlSymbolLarge
@@ -20247,9 +19914,6 @@ export const Schemas = {
             m_bLoadDynamic: 0x4B1, // bool
             m_associatedRelayEntity: 0x4B4, // CHandle<CPointPrefab>
             m_ProceduralRelaySources: 0x4B8, // CUtlVector<CHandle<CBaseEntity>>
-        },
-        CPulseCell_BaseLerp: {
-            m_WakeResume: 0xD8, // CPulse_ResumePoint
         },
         CDOTA_Unit_Nian: {
             m_vecRecentDamage: 0x1A28, // CUtlVector<NianDamageTaken_t>
@@ -20669,13 +20333,6 @@ export const Schemas = {
         },
         CChoreoInfoTarget: {
         },
-        CTonemapController2: {
-            m_flAutoExposureMin: 0x498, // float32
-            m_flAutoExposureMax: 0x49C, // float32
-            m_flExposureAdaptationSpeedUp: 0x4A0, // float32
-            m_flExposureAdaptationSpeedDown: 0x4A4, // float32
-            m_flTonemapEVSmoothingRange: 0x4A8, // float32
-        },
         CDOTABehaviorDie: {
             m_timer: 0x60, // CountdownTimer
         },
@@ -20700,16 +20357,6 @@ export const Schemas = {
         },
         CMapSharedEnvironment: {
             m_targetMapName: 0x498, // CUtlSymbolLarge
-        },
-        CNetworkedSequenceOperation: {
-            m_hSequence: 0x8, // HSequence
-            m_flPrevCycle: 0xC, // float32
-            m_flCycle: 0x10, // float32
-            m_flWeight: 0x14, // CNetworkedQuantizedFloat
-            m_bSequenceChangeNetworked: 0x1C, // bool
-            m_bDiscontinuity: 0x1D, // bool
-            m_flPrevCycleFromDiscontinuity: 0x20, // float32
-            m_flPrevCycleForAnimEventDetection: 0x24, // float32
         },
         CDOTA_BaseNPC_Creep_Lane: {
             m_nFoWTeam: 0x18F4, // FowCustomTeams_t
@@ -21423,12 +21070,6 @@ export const Schemas = {
             m_CustomShopName: 0x30, // char[256]
             m_CustomShopItems: 0x130, // CUtlVectorEmbeddedNetworkVar<CDOTACustomShopItemInfo>
         },
-        ActiveModelConfig_t: {
-            m_Handle: 0x30, // ModelConfigHandle_t
-            m_Name: 0x38, // CUtlSymbolLarge
-            m_AssociatedEntities: 0x40, // CNetworkUtlVectorBase<CHandle<CBaseModelEntity>>
-            m_AssociatedEntityNames: 0x58, // CNetworkUtlVectorBase<CUtlSymbolLarge>
-        },
         CDOTA_Modifier_AghsFort_Firefly: {
             pool_duration: 0x1A78, // float32
             radius: 0x1A7C, // int32
@@ -21561,9 +21202,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Unique_Pangolier_5: {
         },
         CDOTA_Ability_Special_Bonus_Gold_lvl10_l: {
-        },
-        CPulseCell_Value_Curve: {
-            m_Curve: 0x48, // CPiecewiseCurve
         },
         CDOTA_Modifier_BotChallenge_SkeletonKing_BoneGuard_DamageTracker: {
             m_hBoneGuardSourceAbility: 0x1A78, // CHandle<CDOTABaseAbility>
@@ -21997,9 +21635,6 @@ export const Schemas = {
             m_iBuffIndex: 0x384, // int32
             m_iLockRefCount: 0x388, // int32
         },
-        CPulseCell_Inflow_EventHandler: {
-            m_EventName: 0x80, // PulseSymbol_t
-        },
         CDOTA_Modifier_Flagbearer_Creep_Aura_Effect: {
             bonus_health_regen: 0x1A78, // int32
             bonus_magic_resistance_per_interval: 0x1A7C, // int32
@@ -22096,8 +21731,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Cooldown_Reduction_65: {
         },
         CDOTA_Ability_Special_Bonus_Movement_Speed_65: {
-        },
-        CPulseCell_BaseFlow: {
         },
         CDOTA_Modifer_Item_WeightedDice: {
             roll_count: 0x1A78, // int32
@@ -22318,16 +21951,6 @@ export const Schemas = {
             m_bStartDisabled: 0x4AE, // bool
             m_bHidden: 0x4AF, // bool
         },
-        CSkeletonInstance: {
-            m_modelState: 0x120, // CModelState
-            m_bUseParentRenderBounds: 0x3B0, // bool
-            m_bDisableSolidCollisionsForHierarchy: 0x3B1, // bool
-            m_bDirtyMotionType: 0x3B2, // bool
-            m_bIsGeneratingLatchedParentSpaceState: 0x3B3, // bool
-            m_materialGroup: 0x3B8, // CUtlStringToken
-            m_nHitboxSet: 0x3BC, // uint8
-            m_bForceServerConstraintsEnabled: 0x41C, // bool
-        },
         CEntityComponent: {
         },
         CDOTA_Unit_Hero_Viper: {
@@ -22530,14 +22153,6 @@ export const Schemas = {
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Pudge_7: {
         },
         CDOTA_Ability_Special_Bonus_Unique_Terrorblade: {
-        },
-        CPulseCell_Outflow_CycleShuffled__InstanceState_t: {
-            m_Shuffle: 0x0, // CUtlVectorFixedGrowable<uint8,8>
-            m_nNextShuffle: 0x20, // int32
-        },
-        CPulseCell_BaseLerp__CursorState_t: {
-            m_StartTime: 0x0, // GameTime_t
-            m_EndTime: 0x4, // GameTime_t
         },
         CDOTA_Modifier_Launchpad_Aura: {
             m_hNextNode: 0x1A78, // CHandle<CBaseEntity>
@@ -22765,8 +22380,6 @@ export const Schemas = {
             burn_damage: 0x1A78, // int32
             building_damage_pct: 0x1A7C, // int32
         },
-        CEconWearable: {
-        },
         CDOTA_Item_Enhancement_Wise: {
         },
         CDOTA_Modifier_Penta_Edged_Sword_Maim: {
@@ -22989,11 +22602,6 @@ export const Schemas = {
         },
         CDOTA_Modifier_Disarmed: {
         },
-        CFogController: {
-            m_fog: 0x498, // fogparams_t
-            m_bUseAngles: 0x500, // bool
-            m_iChangedVariables: 0x504, // int32
-        },
         CDOTA_Ability_Plus_HighFive: {
         },
         CDOTA_Item_Aghsfort_BootsOfTravel: {
@@ -23159,19 +22767,6 @@ export const Schemas = {
             m_vEnd: 0x1EF0, // VectorWS
         },
         CDOTA_Ability_BigThunderLizard_Wardrums: {
-        },
-        CInfoOffscreenPanoramaTexture: {
-            m_bDisabled: 0x498, // bool
-            m_nResolutionX: 0x49C, // int32
-            m_nResolutionY: 0x4A0, // int32
-            m_szPanelType: 0x4A8, // CUtlSymbolLarge
-            m_szLayoutFileName: 0x4B0, // CUtlSymbolLarge
-            m_RenderAttrName: 0x4B8, // CUtlSymbolLarge
-            m_TargetEntities: 0x4C0, // CNetworkUtlVectorBase<CHandle<CBaseModelEntity>>
-            m_nTargetChangeCount: 0x4D8, // int32
-            m_vecCSSClasses: 0x4E0, // CNetworkUtlVectorBase<CUtlSymbolLarge>
-            m_szTargetsName: 0x4F8, // CUtlSymbolLarge
-            m_AdditionalTargetEntities: 0x500, // CUtlVector<CHandle<CBaseModelEntity>>
         },
         CPointAngularVelocitySensor: {
             m_hTargetEntity: 0x498, // CHandle<CBaseEntity>
@@ -23379,8 +22974,6 @@ export const Schemas = {
         CDOTA_Modifier_NPXBuff: {
             m_nCurReduction: 0x1A78, // int32
         },
-        CInfoTarget: {
-        },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Visage_3: {
         },
         CDOTA_Ability_Special_Bonus_Attack_Damage_200: {
@@ -23395,16 +22988,6 @@ export const Schemas = {
             m_flOldPlayerZ: 0x128, // float32
             m_flOldPlayerViewOffsetZ: 0x12C, // float32
             m_hTriggerSoundscapeList: 0x148, // CUtlVector<CHandle<CEnvSoundscapeTriggerable>>
-        },
-        CPulseCell_Timeline: {
-            m_TimelineEvents: 0xD8, // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
-            m_bWaitForChildOutflows: 0xF0, // bool
-            m_OnFinished: 0xF8, // CPulse_ResumePoint
-        },
-        CPulseCell_Inflow_EntOutputHandler: {
-            m_SourceEntity: 0x80, // PulseSymbol_t
-            m_SourceOutput: 0x90, // PulseSymbol_t
-            m_ExpectedParamType: 0xA0, // CPulseValueFullType
         },
         CDOTA_Unit_Hero_Elder_Titan: {
         },
@@ -23730,44 +23313,6 @@ export const Schemas = {
             m_ScriptCallbackScope: 0x4F8, // HSCRIPT
             m_OnEntitySpawned: 0x500, // CEntityOutputTemplate<CUtlVector<CEntityHandle>>
         },
-        CEnvVolumetricFogController: {
-            m_flScattering: 0x498, // float32
-            m_TintColor: 0x49C, // Color
-            m_flAnisotropy: 0x4A0, // float32
-            m_flFadeSpeed: 0x4A4, // float32
-            m_flDrawDistance: 0x4A8, // float32
-            m_flFadeInStart: 0x4AC, // float32
-            m_flFadeInEnd: 0x4B0, // float32
-            m_flIndirectStrength: 0x4B4, // float32
-            m_nVolumeDepth: 0x4B8, // int32
-            m_fFirstVolumeSliceThickness: 0x4BC, // float32
-            m_nIndirectTextureDimX: 0x4C0, // int32
-            m_nIndirectTextureDimY: 0x4C4, // int32
-            m_nIndirectTextureDimZ: 0x4C8, // int32
-            m_vBoxMins: 0x4CC, // Vector
-            m_vBoxMaxs: 0x4D8, // Vector
-            m_bActive: 0x4E4, // bool
-            m_flStartAnisoTime: 0x4E8, // GameTime_t
-            m_flStartScatterTime: 0x4EC, // GameTime_t
-            m_flStartDrawDistanceTime: 0x4F0, // GameTime_t
-            m_flStartAnisotropy: 0x4F4, // float32
-            m_flStartScattering: 0x4F8, // float32
-            m_flStartDrawDistance: 0x4FC, // float32
-            m_flDefaultAnisotropy: 0x500, // float32
-            m_flDefaultScattering: 0x504, // float32
-            m_flDefaultDrawDistance: 0x508, // float32
-            m_bStartDisabled: 0x50C, // bool
-            m_bEnableIndirect: 0x50D, // bool
-            m_bIsMaster: 0x50E, // bool
-            m_hFogIndirectTexture: 0x510, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_nForceRefreshCount: 0x518, // int32
-            m_fNoiseSpeed: 0x51C, // float32
-            m_fNoiseStrength: 0x520, // float32
-            m_vNoiseScale: 0x524, // Vector
-            m_fWindSpeed: 0x530, // float32
-            m_vWindDirection: 0x534, // Vector
-            m_bFirstTime: 0x540, // bool
-        },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_VoidSpirit_3: {
         },
         CDOTA_Ability_Special_Bonus_Gold_Income_300: {
@@ -24084,9 +23629,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_All_Stats_12: {
         },
         CDOTA_Ability_Special_Bonus_Cleave_20: {
-        },
-        CPulseCell_Outflow_CycleOrdered__InstanceState_t: {
-            m_nNextIndex: 0x0, // int32
         },
         CDOTA_Unit_Hero_Hoodwink: {
         },
@@ -24430,10 +23972,6 @@ export const Schemas = {
             m_iObsoleteRankWagersMax: 0xF4, // uint32
             m_iObsoleteEventPointAdjustmentsRemaining: 0xF8, // uint32
             m_iObsoleteEventRanks: 0xFC, // uint16
-        },
-        CTestPulseIO__EntityNameStringArgs_t: {
-            nameA: 0x0, // CEntityNameString
-            strValueB: 0x8, // CUtlSymbolLarge
         },
         CFuncMoverRouter: {
             m_nMoverIndex: 0x498, // int32
@@ -24824,18 +24362,6 @@ export const Schemas = {
             m_hOwner: 0x20, // CHandle<CBaseEntity>
             m_bSetFromDebugHistory: 0x24, // bool
         },
-        CPropDataComponent: {
-            m_flDmgModBullet: 0x10, // float32
-            m_flDmgModClub: 0x14, // float32
-            m_flDmgModExplosive: 0x18, // float32
-            m_flDmgModFire: 0x1C, // float32
-            m_iszPhysicsDamageTableName: 0x20, // CUtlSymbolLarge
-            m_iszBasePropData: 0x28, // CUtlSymbolLarge
-            m_nInteractions: 0x30, // int32
-            m_bSpawnMotionDisabled: 0x34, // bool
-            m_nDisableTakePhysicsDamageSpawnFlag: 0x38, // int32
-            m_nMotionDisabledSpawnFlag: 0x3C, // int32
-        },
         CDOTA_Unit_AghsFort_Creature_Batrider: {
         },
         CScriptTriggerOnce: {
@@ -24947,9 +24473,6 @@ export const Schemas = {
             m_nAbilityID: 0x30, // AbilityID_t
             m_unPlayerID: 0x34, // PlayerID_t
             m_unAbilityPlayerSlot: 0x38, // int32
-        },
-        CPulseCell_LimitCount__InstanceState_t: {
-            m_nCurrentCount: 0x0, // int32
         },
         CDOTA_Unit_Hero_Morphling: {
         },
@@ -25149,11 +24672,6 @@ export const Schemas = {
             unStatValue: 0x34, // TrackedStatValue_t
         },
         CDOTA_Ability_Special_Bonus_Movement_Speed_Percentage_12: {
-        },
-        EngineCountdownTimer: {
-            m_duration: 0x8, // float32
-            m_timestamp: 0xC, // float32
-            m_timescale: 0x10, // float32
         },
         CScriptTriggerMultiple: {
             m_vExtent: 0x908, // Vector
@@ -25406,12 +24924,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_Spell_Block_18: {
         },
-        CBaseModelEntity__OnDamageLevelChangedArgs_t: {
-            nHitGroup: 0x0, // HitGroup_t
-            nDamageLevel: 0x4, // int32
-            nDamageLevelsRemaining: 0x8, // int32
-            nPrevDamageLevel: 0xC, // int32
-        },
         CDOTA_BaseNPC_Phantom_Assassin_GroundDagger: {
             m_nFXIndex: 0x18A8, // ParticleIndex_t
         },
@@ -25478,15 +24990,6 @@ export const Schemas = {
         },
         CFilterLOS: {
         },
-        CPointOrient: {
-            m_iszSpawnTargetName: 0x498, // CUtlSymbolLarge
-            m_hTarget: 0x4A0, // CHandle<CBaseEntity>
-            m_bActive: 0x4A4, // bool
-            m_nGoalDirection: 0x4A8, // PointOrientGoalDirectionType_t
-            m_nConstraint: 0x4AC, // PointOrientConstraint_t
-            m_flMaxTurnRate: 0x4B0, // float32
-            m_flLastGameTime: 0x4B4, // GameTime_t
-        },
         CDOTABehaviorAbilityPhase: {
             m_abilityTimer: 0x60, // CountdownTimer
             m_backSwingTimer: 0x78, // CountdownTimer
@@ -25499,14 +25002,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Unique_Ancient_Apparition_3: {
         },
         CDOTA_Ability_Special_Bonus_Attack_Damage_40: {
-        },
-        sky3dparams_t: {
-            scale: 0x8, // int16
-            origin: 0xC, // VectorWS
-            bClip3DSkyBoxNearToWorldFar: 0x18, // bool
-            flClip3DSkyBoxNearToWorldFarOffset: 0x1C, // float32
-            fog: 0x20, // fogparams_t
-            m_nWorldGroupID: 0x88, // WorldGroupId_t
         },
         CDOTA_NPCSpawner: {
             m_szNPCScriptName: 0x498, // CUtlSymbolLarge
@@ -25669,12 +25164,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_Cast_Speed_30: {
         },
-        CDestructiblePartsComponent: {
-            __m_pChainEntity: 0x0, // CNetworkVarChainer
-            m_vecDamageTakenByHitGroup: 0x48, // CUtlVector<uint16>
-            m_hOwner: 0x60, // CHandle<CBaseModelEntity>
-            m_pAnimGraphDestructibleGraphController: 0x68, // CAnimGraphControllerPtr
-        },
         CDOTA_Unit_Hero_NightStalker: {
         },
         CDOTA_BaseNPC_Warlock_Golem: {
@@ -25805,8 +25294,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Strength_4: {
         },
         CDOTA_Ability_Special_Bonus_Mana_Reduction_11: {
-        },
-        CPulseCell_Step_DebugLog: {
         },
         CColorCorrectionVolume: {
             m_MaxWeight: 0x8F0, // float32
@@ -26016,9 +25503,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_HP_Regen_4: {
         },
-        CBodyComponentBaseAnimGraph: {
-            m_animationController: 0x4E0, // CBaseAnimGraphController
-        },
         CDOTA_NPCSpawnerGoodTop: {
         },
         CDOTA_Modifier_AghsFort_Ascension_MagneticField_Evasion: {
@@ -26125,13 +25609,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Armor_20: {
         },
         CDOTA_Ability_Special_Bonus_Armor_15: {
-        },
-        CPulseCell_BaseYieldingInflow: {
-            m_BaseFlow_OnAfterCancel: 0x48, // CPulse_ResumePoint
-            m_BaseFlow_WhileActive: 0x90, // CPulse_ResumePoint
-        },
-        PulseNodeDynamicOutflows_t: {
-            m_Outflows: 0x0, // CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
         },
         CDOTA_Unit_Hero_Mars: {
         },
@@ -26620,14 +26097,6 @@ export const Schemas = {
             starstruck_blind_pct: 0x1A78, // int32
         },
         CDOTA_Ability_Seasonal_TI11_Rock: {
-        },
-        EntityRenderAttribute_t: {
-            m_ID: 0x30, // CUtlStringToken
-            m_Values: 0x34, // Vector4D
-        },
-        CPulseCell_Inflow_ObservableVariableListener: {
-            m_nBlackboardReference: 0x80, // PulseRuntimeBlackboardReferenceIndex_t
-            m_bSelfReference: 0x82, // bool
         },
         CDOTA_BaseNPC_Largo_Frogling: {
             m_hHeroHandle: 0x18A8, // CHandle<CDOTA_BaseNPC_Hero>
@@ -27456,25 +26925,6 @@ export const Schemas = {
             m_bPrepopulateOnSpawn: 0x548, // bool
             m_iszPathNodeStartName: 0x550, // CUtlSymbolLarge
         },
-        CModelState: {
-            m_hModel: 0xA0, // CStrongHandle<InfoForResourceTypeCModel>
-            m_ModelName: 0xA8, // CUtlSymbolLarge
-            m_pVPhysicsAggregate: 0xE0, // IPhysAggregateInstance*
-            m_flRootBoneOffset_x: 0xE8, // float32
-            m_flRootBoneOffset_y: 0xEC, // float32
-            m_flRootBoneOffset_z: 0xF0, // float32
-            m_nRootBoneOffsetResetSerialNumber: 0xF4, // uint8
-            m_bClientClothCreationSuppressed: 0xF5, // bool
-            m_nAnimStateNoInterpSerialNumber: 0x1E0, // uint8
-            m_MeshGroupMask: 0x1E8, // uint64
-            m_nBodyGroupChoices: 0x238, // CNetworkUtlVectorBase<int32>
-            m_nIdealMotionType: 0x282, // int8
-            m_nForceLOD: 0x283, // int8
-            m_nClothUpdateFlags: 0x284, // int8
-        },
-        CPulseCell_Outflow_CycleOrdered: {
-            m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
-        },
         CDOTA_BaseNPC_Tinker_Turret: {
             m_angle: 0x18A8, // QAngle
             m_iPoseParameterAim: 0x18B4, // int32
@@ -27570,25 +27020,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_HP_650: {
         },
         CIngameEvent_TI2023: {
-        },
-        CCollisionProperty: {
-            m_collisionAttribute: 0x10, // VPhysicsCollisionAttribute_t
-            m_vecMins: 0x40, // Vector
-            m_vecMaxs: 0x4C, // Vector
-            m_usSolidFlags: 0x5A, // uint8
-            m_nSolidType: 0x5B, // SolidType_t
-            m_triggerBloat: 0x5C, // uint8
-            m_nSurroundType: 0x5D, // SurroundingBoundsType_t
-            m_CollisionGroup: 0x5E, // uint8
-            m_nEnablePhysics: 0x5F, // uint8
-            m_flBoundingRadius: 0x60, // float32
-            m_vecSpecifiedSurroundingMins: 0x64, // Vector
-            m_vecSpecifiedSurroundingMaxs: 0x70, // Vector
-            m_vecSurroundingMaxs: 0x7C, // Vector
-            m_vecSurroundingMins: 0x88, // Vector
-            m_vCapsuleCenter1: 0x94, // Vector
-            m_vCapsuleCenter2: 0xA0, // Vector
-            m_flCapsuleRadius: 0xAC, // float32
         },
         CDOTA_Unit_Hero_Slark: {
         },
@@ -28021,9 +27452,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_Evasion_10: {
         },
-        PulseSelectorOutflowList_t: {
-            m_Outflows: 0x0, // CUtlVector<OutflowWithRequirements_t>
-        },
         CFilterContext: {
             m_iFilterContext: 0x4D0, // CUtlSymbolLarge
         },
@@ -28177,37 +27605,6 @@ export const Schemas = {
         CDOTA_Ability_LotusPool: {
             m_hThinker: 0x580, // CHandle<CBaseEntity>
         },
-        CEnvDecal: {
-            m_hDecalMaterial: 0x778, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_flWidth: 0x780, // float32
-            m_flHeight: 0x784, // float32
-            m_flDepth: 0x788, // float32
-            m_nRenderOrder: 0x78C, // uint32
-            m_bProjectOnWorld: 0x790, // bool
-            m_bProjectOnCharacters: 0x791, // bool
-            m_bProjectOnWater: 0x792, // bool
-            m_flDepthSortBias: 0x794, // float32
-        },
-        CEnvVolumetricFogVolume: {
-            m_bActive: 0x498, // bool
-            m_vBoxMins: 0x49C, // Vector
-            m_vBoxMaxs: 0x4A8, // Vector
-            m_bStartDisabled: 0x4B4, // bool
-            m_bIndirectUseLPVs: 0x4B5, // bool
-            m_flStrength: 0x4B8, // float32
-            m_nFalloffShape: 0x4BC, // int32
-            m_flFalloffExponent: 0x4C0, // float32
-            m_flHeightFogDepth: 0x4C4, // float32
-            m_fHeightFogEdgeWidth: 0x4C8, // float32
-            m_fIndirectLightStrength: 0x4CC, // float32
-            m_fSunLightStrength: 0x4D0, // float32
-            m_fNoiseStrength: 0x4D4, // float32
-            m_TintColor: 0x4D8, // Color
-            m_bOverrideTintColor: 0x4DC, // bool
-            m_bOverrideIndirectLightStrength: 0x4DD, // bool
-            m_bOverrideSunLightStrength: 0x4DE, // bool
-            m_bOverrideNoiseStrength: 0x4DF, // bool
-        },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Bloodseeker_4: {
         },
         CDOTA_Ability_Special_Bonus_Unique_Visage_5: {
@@ -28217,9 +27614,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Agility_7: {
         },
         CServerOnlyEntity: {
-        },
-        CBodyComponentSkeletonInstance: {
-            m_skeletonInstance: 0x80, // CSkeletonInstance
         },
         CItemGeneric: {
             m_bHasTriggerRadius: 0x844, // bool
@@ -28707,9 +28101,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Unique_Juggernaut_2: {
         },
         CDOTA_Ability_Special_Bonus_MP_Regen_4: {
-        },
-        CScriptComponent: {
-            m_scriptClassName: 0x30, // CUtlSymbolLarge
         },
         CFuncTrain: {
             m_hCurrentTarget: 0x820, // CHandle<CBaseEntity>
@@ -29917,35 +29308,6 @@ export const Schemas = {
             m_hGripTarget: 0x580, // CHandle<CBaseEntity>
             fiend_grip_damage: 0x584, // int32
         },
-        CPointCamera: {
-            m_FOV: 0x498, // float32
-            m_Resolution: 0x49C, // float32
-            m_bFogEnable: 0x4A0, // bool
-            m_FogColor: 0x4A1, // Color
-            m_flFogStart: 0x4A8, // float32
-            m_flFogEnd: 0x4AC, // float32
-            m_flFogMaxDensity: 0x4B0, // float32
-            m_bActive: 0x4B4, // bool
-            m_bUseScreenAspectRatio: 0x4B5, // bool
-            m_flAspectRatio: 0x4B8, // float32
-            m_bNoSky: 0x4BC, // bool
-            m_fBrightness: 0x4C0, // float32
-            m_flZFar: 0x4C4, // float32
-            m_flZNear: 0x4C8, // float32
-            m_bCanHLTVUse: 0x4CC, // bool
-            m_bAlignWithParent: 0x4CD, // bool
-            m_flOverrideShadowFarZ: 0x4D0, // float32
-            m_bDofEnabled: 0x4D4, // bool
-            m_flDofNearBlurry: 0x4D8, // float32
-            m_flDofNearCrisp: 0x4DC, // float32
-            m_flDofFarCrisp: 0x4E0, // float32
-            m_flDofFarBlurry: 0x4E4, // float32
-            m_flDofTiltToGround: 0x4E8, // float32
-            m_TargetFOV: 0x4EC, // float32
-            m_DegreesPerSecond: 0x4F0, // float32
-            m_bIsOn: 0x4F4, // bool
-            m_pNext: 0x4F8, // CPointCamera*
-        },
         CDOTA_Ability_AghsFort_Creature_Impale: {
             m_nPreviewFX: 0x580, // ParticleIndex_t
             width: 0x584, // int32
@@ -29960,9 +29322,6 @@ export const Schemas = {
         CAttributeList: {
             m_Attributes: 0x8, // CUtlVectorEmbeddedNetworkVar<CEconItemAttribute>
             m_pManager: 0x70, // CAttributeManager*
-        },
-        CPulseCell_Inflow_Wait: {
-            m_WakeResume: 0xD8, // CPulse_ResumePoint
         },
         CDOTA_Modifier_BigThunderLizard_Frenzy: {
             attackspeed_bonus: 0x1A78, // int32
@@ -30247,9 +29606,6 @@ export const Schemas = {
             m_unViewerTeam: 0x498, // uint32
             m_nVisionRange: 0x49C, // int32
         },
-        CPulseCell_Outflow_CycleShuffled: {
-            m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
-        },
         CDOTA_Unit_Hero_ArcWarden: {
             m_nTalkFXIndex: 0x1F08, // ParticleIndex_t
             m_nFXDeath: 0x1F0C, // ParticleIndex_t
@@ -30437,79 +29793,6 @@ export const Schemas = {
         CDOTA_Ability_Seasonal_Summon_TI9_Balloon: {
         },
         CDOTA_Ability_Special_Bonus_20_Bash_2: {
-        },
-        CLightComponent: {
-            __m_pChainEntity: 0x38, // CNetworkVarChainer
-            m_Color: 0x75, // Color
-            m_SecondaryColor: 0x79, // Color
-            m_flBrightness: 0x80, // float32
-            m_flBrightnessScale: 0x84, // float32
-            m_flBrightnessMult: 0x88, // float32
-            m_flRange: 0x8C, // float32
-            m_flFalloff: 0x90, // float32
-            m_flAttenuation0: 0x94, // float32
-            m_flAttenuation1: 0x98, // float32
-            m_flAttenuation2: 0x9C, // float32
-            m_flTheta: 0xA0, // float32
-            m_flPhi: 0xA4, // float32
-            m_hLightCookie: 0xA8, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_nCascades: 0xB0, // int32
-            m_nCastShadows: 0xB4, // int32
-            m_nShadowWidth: 0xB8, // int32
-            m_nShadowHeight: 0xBC, // int32
-            m_bRenderDiffuse: 0xC0, // bool
-            m_nRenderSpecular: 0xC4, // int32
-            m_bRenderTransmissive: 0xC8, // bool
-            m_flOrthoLightWidth: 0xCC, // float32
-            m_flOrthoLightHeight: 0xD0, // float32
-            m_nStyle: 0xD4, // int32
-            m_Pattern: 0xD8, // CUtlString
-            m_nCascadeRenderStaticObjects: 0xE0, // int32
-            m_flShadowCascadeCrossFade: 0xE4, // float32
-            m_flShadowCascadeDistanceFade: 0xE8, // float32
-            m_flShadowCascadeDistance0: 0xEC, // float32
-            m_flShadowCascadeDistance1: 0xF0, // float32
-            m_flShadowCascadeDistance2: 0xF4, // float32
-            m_flShadowCascadeDistance3: 0xF8, // float32
-            m_nShadowCascadeResolution0: 0xFC, // int32
-            m_nShadowCascadeResolution1: 0x100, // int32
-            m_nShadowCascadeResolution2: 0x104, // int32
-            m_nShadowCascadeResolution3: 0x108, // int32
-            m_bUsesBakedShadowing: 0x10C, // bool
-            m_nShadowPriority: 0x110, // int32
-            m_nBakedShadowIndex: 0x114, // int32
-            m_nLightPathUniqueId: 0x118, // int32
-            m_nLightMapUniqueId: 0x11C, // int32
-            m_bRenderToCubemaps: 0x120, // bool
-            m_bAllowSSTGeneration: 0x121, // bool
-            m_nDirectLight: 0x124, // int32
-            m_nBounceLight: 0x128, // int32
-            m_flBounceScale: 0x12C, // float32
-            m_flFadeMinDist: 0x130, // float32
-            m_flFadeMaxDist: 0x134, // float32
-            m_flShadowFadeMinDist: 0x138, // float32
-            m_flShadowFadeMaxDist: 0x13C, // float32
-            m_bEnabled: 0x140, // bool
-            m_bFlicker: 0x141, // bool
-            m_bPrecomputedFieldsValid: 0x142, // bool
-            m_vPrecomputedBoundsMins: 0x144, // Vector
-            m_vPrecomputedBoundsMaxs: 0x150, // Vector
-            m_vPrecomputedOBBOrigin: 0x15C, // Vector
-            m_vPrecomputedOBBAngles: 0x168, // QAngle
-            m_vPrecomputedOBBExtent: 0x174, // Vector
-            m_flPrecomputedMaxRange: 0x180, // float32
-            m_nFogLightingMode: 0x184, // int32
-            m_flFogContributionStength: 0x188, // float32
-            m_flNearClipPlane: 0x18C, // float32
-            m_SkyColor: 0x190, // Color
-            m_flSkyIntensity: 0x194, // float32
-            m_SkyAmbientBounce: 0x198, // Color
-            m_bUseSecondaryColor: 0x19C, // bool
-            m_bMixedShadows: 0x19D, // bool
-            m_flLightStyleStartTime: 0x1A0, // GameTime_t
-            m_flCapsuleLength: 0x1A4, // float32
-            m_flMinRoughness: 0x1A8, // float32
-            m_bPvsModifyEntity: 0x1B8, // bool
         },
         CDOTA_BaseNPC_Creep_Neutral: {
             m_ThinkTimer: 0x18D8, // CountdownTimer
@@ -30714,17 +29997,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Unique_Centaur_5: {
         },
         CDOTA_Ability_Special_Bonus_Strength_20: {
-        },
-        CBodyComponent: {
-            m_pSceneNode: 0x8, // CGameSceneNode*
-            __m_pChainEntity: 0x48, // CNetworkVarChainer
-        },
-        CPulseCell_Inflow_Method: {
-            m_MethodName: 0x80, // PulseSymbol_t
-            m_Description: 0x90, // CUtlString
-            m_bIsPublic: 0x98, // bool
-            m_ReturnType: 0xA0, // CPulseValueFullType
-            m_Args: 0xB8, // CUtlLeanVector<CPulseRuntimeMethodArg>
         },
         CDOTA_Modifier_HillTroll_RallyAura: {
             radius: 0x1A78, // float32
@@ -31032,34 +30304,6 @@ export const Schemas = {
             m_flRoshanPhaseStartTime: 0xC, // GameTime_t
             m_flRoshanPhaseEndTime: 0x10, // GameTime_t
         },
-        fogplayerparams_t: {
-            m_hCtrl: 0x8, // CHandle<CFogController>
-            m_flTransitionTime: 0xC, // float32
-            m_OldColor: 0x10, // Color
-            m_flOldStart: 0x14, // float32
-            m_flOldEnd: 0x18, // float32
-            m_flOldMaxDensity: 0x1C, // float32
-            m_flOldHDRColorScale: 0x20, // float32
-            m_flOldFarZ: 0x24, // float32
-            m_NewColor: 0x28, // Color
-            m_flNewStart: 0x2C, // float32
-            m_flNewEnd: 0x30, // float32
-            m_flNewMaxDensity: 0x34, // float32
-            m_flNewHDRColorScale: 0x38, // float32
-            m_flNewFarZ: 0x3C, // float32
-        },
-        CGlowProperty: {
-            m_fGlowColor: 0x8, // Vector
-            m_iGlowType: 0x30, // int32
-            m_iGlowTeam: 0x34, // int32
-            m_nGlowRange: 0x38, // int32
-            m_nGlowRangeMin: 0x3C, // int32
-            m_glowColorOverride: 0x40, // Color
-            m_bFlashing: 0x44, // bool
-            m_flGlowTime: 0x48, // float32
-            m_flGlowStartTime: 0x4C, // float32
-            m_bGlowing: 0x50, // bool
-        },
         CDOTA_Modifier_MuertaReleaseEvent_RemoveGravestone: {
             m_nParticleIndex: 0x1A78, // ParticleIndex_t
             m_pActiveGravestones: 0x1A80, // CUtlVector<ParticleIndex_t>*
@@ -31135,8 +30379,6 @@ export const Schemas = {
         CDOTA_Ability_Ascension_Bulwark: {
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Ursa_8: {
-        },
-        CPulseCell_BaseValue: {
         },
         CDOTA_Unit_Hero_Ursa: {
         },
@@ -31247,11 +30489,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Attack_Speed_45: {
         },
         CPlayer_WaterServices: {
-        },
-        CPulseCell_BooleanSwitchState: {
-            m_Condition: 0xD8, // CPulseObservableExpression<bool>
-            m_WhenTrue: 0x150, // CPulse_OutflowConnection
-            m_WhenFalse: 0x198, // CPulse_OutflowConnection
         },
         CDOTA_Unit_Hero_Nyx_Assassin: {
         },
@@ -31380,19 +30617,6 @@ export const Schemas = {
             m_nAttachedParticleIndex: 0x0, // ParticleIndex_t
             m_customType: 0x4, // CUtlStringToken
             m_bShouldDestroyImmediately: 0x8, // bool
-        },
-        VPhysicsCollisionAttribute_t: {
-            m_nInteractsAs: 0x8, // uint64
-            m_nInteractsWith: 0x10, // uint64
-            m_nInteractsExclude: 0x18, // uint64
-            m_nEntityId: 0x20, // uint32
-            m_nOwnerId: 0x24, // uint32
-            m_nHierarchyId: 0x28, // uint16
-            m_nDetailLayerMask: 0x2A, // uint16
-            m_nDetailLayerMaskType: 0x2C, // uint8
-            m_nTargetDetailLayer: 0x2D, // uint8
-            m_nCollisionGroup: 0x2E, // uint8
-            m_nCollisionFunctionMask: 0x2F, // uint8
         },
         CDOTA_BaseNPC_HoldoutTower_LightFast: {
         },
@@ -31668,9 +30892,6 @@ export const Schemas = {
         },
         CIngameEvent_MonsterHunter: {
             m_dota_player_spawned_event: 0x1A58, // int32
-        },
-        CPulseCell_Inflow_Yield: {
-            m_UnyieldResume: 0xD8, // CPulse_ResumePoint
         },
         CDOTA_BaseNPC_Seasonal_CNY_Balloon: {
         },
@@ -32051,10 +31272,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_Strength_14: {
         },
-        CGameSceneNodeHandle: {
-            m_hOwner: 0x8, // CEntityHandle
-            m_name: 0xC, // CUtlStringToken
-        },
         CDOTA_Modifier_PineCone_AcornShot_DelayThinker: {
             m_hTarget: 0x1A78, // CHandle<CBaseEntity>
             m_nSourceProjectileHandle: 0x1A7C, // int32
@@ -32424,20 +31641,6 @@ export const Schemas = {
         },
         CDOTA_Modifier_Watch_Tower_Invulnerable_Temporary: {
         },
-        CEnvSky: {
-            m_hSkyMaterial: 0x778, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_hSkyMaterialLightingOnly: 0x780, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_bStartDisabled: 0x788, // bool
-            m_vTintColor: 0x789, // Color
-            m_vTintColorLightingOnly: 0x78D, // Color
-            m_flBrightnessScale: 0x794, // float32
-            m_nFogType: 0x798, // int32
-            m_flFogMinStart: 0x79C, // float32
-            m_flFogMinEnd: 0x7A0, // float32
-            m_flFogMaxStart: 0x7A4, // float32
-            m_flFogMaxEnd: 0x7A8, // float32
-            m_bEnabled: 0x7AC, // bool
-        },
         CDOTA_Modifier_UpgradedBarricade: {
             armor_bonus_per_upgrade: 0x1A78, // int32
             hp_bonus_per_upgrade: 0x1A7C, // int32
@@ -32700,12 +31903,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_MP_700: {
         },
         CIngameEvent_TI7: {
-        },
-        CPulseCell_Outflow_CycleRandom: {
-            m_Outputs: 0x48, // CUtlVector<CPulse_OutflowConnection>
-        },
-        CPulseCell_Step_PublicOutput: {
-            m_OutputIndex: 0x48, // PulseRuntimeOutputIndex_t
         },
         CDOTA_Modifier_Spellslinger_Restore: {
             duration: 0x1A78, // float32
@@ -33226,12 +32423,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_HP_375: {
         },
-        CPulse_BlackboardReference: {
-            m_hBlackboardResource: 0x0, // CStrongHandle<InfoForResourceTypeIPulseGraphDef>
-            m_BlackboardResource: 0x8, // PulseSymbol_t
-            m_nNodeID: 0x18, // PulseDocNodeID_t
-            m_NodeName: 0x20, // CGlobalSymbol
-        },
         CDOTA_BaseNPC_RotatableBuilding: {
         },
         CDOTA_Modifier_Seasonal_TI11_RockPaperScissors: {
@@ -33313,34 +32504,6 @@ export const Schemas = {
         },
         CDOTA_Modifier_PhantomLancer_JuxtaposeIllusionUncontrollable: {
             m_bNoRange: 0x1A78, // bool
-        },
-        CPointClientUIWorldPanel: {
-            m_bIgnoreInput: 0x8D8, // bool
-            m_bLit: 0x8D9, // bool
-            m_bFollowPlayerAcrossTeleport: 0x8DA, // bool
-            m_flWidth: 0x8DC, // float32
-            m_flHeight: 0x8E0, // float32
-            m_flDPI: 0x8E4, // float32
-            m_flWindowUIScale: 0x8E8, // float32
-            m_flInteractDistance: 0x8EC, // float32
-            m_flDepthOffset: 0x8F0, // float32
-            m_unOwnerContext: 0x8F4, // uint32
-            m_unHorizontalAlign: 0x8F8, // uint32
-            m_unVerticalAlign: 0x8FC, // uint32
-            m_unOrientation: 0x900, // uint32
-            m_bAllowInteractionFromAllSceneWorlds: 0x904, // bool
-            m_vecCSSClasses: 0x908, // CNetworkUtlVectorBase<CUtlSymbolLarge>
-            m_bOpaque: 0x920, // bool
-            m_bNoDepth: 0x921, // bool
-            m_bVisibleWhenParentNoDraw: 0x922, // bool
-            m_bRenderBackface: 0x923, // bool
-            m_bUseOffScreenIndicator: 0x924, // bool
-            m_bExcludeFromSaveGames: 0x925, // bool
-            m_bGrabbable: 0x926, // bool
-            m_bOnlyRenderToTexture: 0x927, // bool
-            m_bDisableMipGen: 0x928, // bool
-            m_nExplicitImageLayout: 0x92C, // int32
-            m_bIgnoreParentOrientation: 0x930, // bool
         },
         CSoundEventBoxHelper: {
             m_vMins: 0x498, // Vector
@@ -34286,16 +33449,6 @@ export const Schemas = {
             m_szModel: 0x34, // char[512]
             m_nChangeToken: 0x234, // int32
         },
-        CChoreoComponent: {
-            __m_pChainEntity: 0x8, // CNetworkVarChainer
-            m_hOwner: 0x30, // CHandle<CBaseModelEntity>
-            m_nExernalChoreoGraphCount: 0x34, // int32
-            m_sActiveExternalChoreoGraphSlotID: 0x38, // CGlobalSymbol
-            m_nNextSceneEventId: 0x70, // SceneEventId_t
-            m_flAllowResponsesEndTime: 0x74, // GameTime_t
-        },
-        CPulseCell_Value_RandomInt: {
-        },
         CDOTA_Modifier_AghsFort_DragonKnight_BreatheFire_Debuff: {
         },
         CDOTA_Item_HydrasBreath: {
@@ -34816,11 +33969,6 @@ export const Schemas = {
             m_isOn: 0x4A0, // bool
             m_navProperty: 0x4A4, // navproperties_t
         },
-        CPathSimple: {
-            m_CPathQueryComponent: 0x4A0, // CPathQueryComponent
-            m_pathString: 0x590, // CUtlString
-            m_bClosedLoop: 0x598, // bool
-        },
         CPathParticleRopeAlias_path_particle_rope_clientside: {
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Invoker_11: {
@@ -34934,17 +34082,6 @@ export const Schemas = {
         },
         CDOTA_Modifier_Hide_On_Minimap: {
             m_bEnemiesOnly: 0x1A78, // bool
-        },
-        CEnvWindVolume: {
-            m_bActive: 0x498, // bool
-            m_vBoxMins: 0x49C, // Vector
-            m_vBoxMaxs: 0x4A8, // Vector
-            m_bStartDisabled: 0x4B4, // bool
-            m_nShape: 0x4B8, // int32
-            m_fWindSpeedMultiplier: 0x4BC, // float32
-            m_fWindTurbulenceMultiplier: 0x4C0, // float32
-            m_fWindSpeedVariationMultiplier: 0x4C4, // float32
-            m_fWindDirectionVariationMultiplier: 0x4C8, // float32
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Shadow_Demon_3: {
         },
@@ -35062,33 +34199,6 @@ export const Schemas = {
             m_iszBroadcasterChannelDescription: 0x30, // CUtlSymbolLarge
             m_iszBroadcasterChannelCountryCode: 0x38, // CUtlSymbolLarge
             m_iszBroadcasterChannelLanguageCode: 0x40, // CUtlSymbolLarge
-        },
-        fogparams_t: {
-            dirPrimary: 0x8, // Vector
-            colorPrimary: 0x14, // Color
-            colorSecondary: 0x18, // Color
-            colorPrimaryLerpTo: 0x1C, // Color
-            colorSecondaryLerpTo: 0x20, // Color
-            start: 0x24, // float32
-            end: 0x28, // float32
-            farz: 0x2C, // float32
-            maxdensity: 0x30, // float32
-            exponent: 0x34, // float32
-            HDRColorScale: 0x38, // float32
-            skyboxFogFactor: 0x3C, // float32
-            skyboxFogFactorLerpTo: 0x40, // float32
-            startLerpTo: 0x44, // float32
-            endLerpTo: 0x48, // float32
-            maxdensityLerpTo: 0x4C, // float32
-            lerptime: 0x50, // GameTime_t
-            duration: 0x54, // float32
-            blendtobackground: 0x58, // float32
-            scattering: 0x5C, // float32
-            locallightscale: 0x60, // float32
-            enable: 0x64, // bool
-            blend: 0x65, // bool
-            m_bPadding2: 0x66, // bool
-            m_bPadding: 0x67, // bool
         },
         CDOTA_Modifier_KoboldTunneler_ProspectingAura: {
             radius: 0x1A78, // float32
@@ -35313,13 +34423,6 @@ export const Schemas = {
             m_iOpvarIndex: 0x538, // int32
             m_bUseAutoCompare: 0x53C, // bool
             m_bFastRefresh: 0x53D, // bool
-        },
-        CExplosionTypeData: {
-            m_SoundName: 0x0, // CSoundEventName
-            m_ParticleEffect: 0x10, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_bIsIncindiary: 0xF0, // bool
-            m_bHasForces: 0xF1, // bool
-            m_DecalType: 0xF8, // CGlobalSymbol
         },
         CDOTA_NPC_WitchDoctor_Ward: {
             m_nTargetType: 0x18A8, // int32
@@ -36389,14 +35492,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_Attack_Speed_50: {
         },
-        CPulse_CallInfo: {
-            m_PortName: 0x0, // PulseSymbol_t
-            m_nEditorNodeID: 0x10, // PulseDocNodeID_t
-            m_RegisterMap: 0x18, // PulseRegisterMap_t
-            m_CallMethodID: 0x48, // PulseDocNodeID_t
-            m_nSrcChunk: 0x4C, // PulseRuntimeChunkIndex_t
-            m_nSrcInstruction: 0x50, // int32
-        },
         CDOTA_BaseNPC_Clinkz_Skeleton_Army: {
         },
         CDOTA_Unit_CustomGameAnnouncer: {
@@ -36554,12 +35649,6 @@ export const Schemas = {
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Bloodseeker_6: {
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Spectre: {
-        },
-        CPulseCell_InlineNodeSkipSelector: {
-            m_nFlowNodeID: 0x48, // PulseDocNodeID_t
-            m_bAnd: 0x4C, // bool
-            m_PassOutflow: 0x50, // PulseSelectorOutflowList_t
-            m_FailOutflow: 0x68, // CPulse_OutflowConnection
         },
         CDOTA_BaseNPC_Seasonal_TI9_Drums: {
         },
@@ -37442,16 +36531,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_50_Crit_40: {
         },
         CDOTA_Ability_Special_Bonus_MP_250: {
-        },
-        CPulseCell_LimitCount: {
-            m_nLimitCount: 0x48, // int32
-        },
-        CPulseCell_Step_CallExternalMethod: {
-            m_MethodName: 0xD8, // PulseSymbol_t
-            m_nBlackboardIndex: 0xE8, // PulseRuntimeBlackboardReferenceIndex_t
-            m_ExpectedArgs: 0xF0, // CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode: 0x100, // PulseMethodCallMode_t
-            m_OnFinished: 0x108, // CPulse_ResumePoint
         },
         CPointCommentaryNode: {
             m_iszPreCommands: 0x798, // CUtlSymbolLarge
@@ -38648,20 +37727,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_Attack_Speed_175: {
         },
-        CEntityIdentity: {
-            m_nameStringTableIndex: 0x14, // int32
-            m_name: 0x18, // CUtlSymbolLarge
-            m_designerName: 0x20, // CUtlSymbolLarge
-            m_flags: 0x30, // uint32
-            m_worldGroupId: 0x38, // WorldGroupId_t
-            m_fDataObjectTypes: 0x3C, // uint32
-            m_PathIndex: 0x40, // ChangeAccessorFieldPathIndex_t
-            m_pAttributes: 0x48, // CEntityAttributeTable*
-            m_pPrev: 0x50, // CEntityIdentity*
-            m_pNext: 0x58, // CEntityIdentity*
-            m_pPrevByClass: 0x60, // CEntityIdentity*
-            m_pNextByClass: 0x68, // CEntityIdentity*
-        },
         CPulseCell_LimitCount__Criteria_t: {
             m_bLimitCountPasses: 0x0, // bool
         },
@@ -38980,23 +38045,6 @@ export const Schemas = {
             m_HoldDuration: 0x4A0, // float32
             m_OnBeginFade: 0x4A8, // CEntityIOOutput
         },
-        CBasePlayerVData: {
-            m_sModelName: 0x28, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_sModelNameAg2Override: 0x108, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_flHeadDamageMultiplier: 0x1E8, // CSkillFloat
-            m_flChestDamageMultiplier: 0x1F8, // CSkillFloat
-            m_flStomachDamageMultiplier: 0x208, // CSkillFloat
-            m_flArmDamageMultiplier: 0x218, // CSkillFloat
-            m_flLegDamageMultiplier: 0x228, // CSkillFloat
-            m_flHoldBreathTime: 0x238, // float32
-            m_flDrowningDamageInterval: 0x23C, // float32
-            m_nDrowningDamageInitial: 0x240, // int32
-            m_nDrowningDamageMax: 0x244, // int32
-            m_nWaterSpeed: 0x248, // int32
-            m_flUseRange: 0x24C, // float32
-            m_flUseAngleTolerance: 0x250, // float32
-            m_flCrouchTime: 0x254, // float32
-        },
         CDOTA_Ability_Aghsfort_Wildwing_Tornado_Blast: {
             disable_duration: 0x580, // float32
             damage: 0x584, // float32
@@ -39071,15 +38119,6 @@ export const Schemas = {
         },
         CIngameEvent_TI9: {
         },
-        CTestPulseIO__EntityHandleIntArgs_t: {
-            handleA: 0x0, // CEntityHandle
-            valueB: 0x4, // int32
-        },
-        CPulseCell_CursorQueue: {
-            m_nCursorsAllowedToRunParallel: 0x128, // int32
-        },
-        CPulseCell_Value_RandomFloat: {
-        },
         CPulseExecCursor: {
         },
         CDOTA_Unit_Underlord_Portal: {
@@ -39150,47 +38189,6 @@ export const Schemas = {
         CDOTA_Ability_Special_Bonus_Unique_Lone_Druid_2: {
         },
         CDOTA_Ability_Special_Bonus_Spell_Lifesteal_12: {
-        },
-        CDOTA_GuildBannerDynamic: {
-            m_bRespawnClientEntity: 0x9F0, // bool
-            m_bPlaySpawnAnimation: 0x9F1, // bool
-            m_unGuildTier: 0x9F2, // uint8
-            m_unPrimaryColor: 0x9F3, // uint8
-            m_unSecondaryColor: 0x9F4, // uint8
-            m_unPattern: 0x9F5, // uint8
-            m_unLogo: 0x9F8, // uint64
-            m_unGuildID: 0xA00, // GuildID_t
-            m_unGuildFlags: 0xA04, // uint32
-            m_bUsePanelCache: 0xA08, // bool
-        },
-        CDynamicProp: {
-            m_bRandomAnimator: 0x930, // bool
-            m_flNextRandAnim: 0x934, // GameTime_t
-            m_flMinRandAnimDuration: 0x938, // float32
-            m_flMaxRandAnimDuration: 0x93C, // float32
-            m_bCreateNavObstacle: 0x948, // bool
-            m_bNavObstacleUpdatesOverridden: 0x949, // bool
-            m_bUseHitboxesForRenderBox: 0x94A, // bool
-            m_bUseAnimGraph: 0x94B, // bool
-            m_pOutputAnimBegun: 0x950, // CEntityIOOutput
-            m_pOutputAnimOver: 0x968, // CEntityIOOutput
-            m_pOutputAnimLoopCycleOver: 0x980, // CEntityIOOutput
-            m_OnAnimReachedStart: 0x998, // CEntityIOOutput
-            m_OnAnimReachedEnd: 0x9B0, // CEntityIOOutput
-            m_iszIdleAnim: 0x9C8, // CUtlSymbolLarge
-            m_nIdleAnimLoopMode: 0x9D0, // AnimLoopMode_t
-            m_bRandomizeCycle: 0x9D4, // bool
-            m_bStartDisabled: 0x9D5, // bool
-            m_bFiredStartEndOutput: 0x9D6, // bool
-            m_bForceNpcExclude: 0x9D7, // bool
-            m_bCreateMovableSurfaceGraph: 0x9D8, // bool
-            m_bCreateNonSolid: 0x9D9, // bool
-            m_bIsOverrideProp: 0x9DA, // bool
-            m_iInitialGlowState: 0x9DC, // int32
-            m_nGlowRange: 0x9E0, // int32
-            m_nGlowRangeMin: 0x9E4, // int32
-            m_glowColor: 0x9E8, // Color
-            m_nGlowTeam: 0x9EC, // int32
         },
         CDOTA_Modifier_AghsFort_TreantMiniboss_NaturesGuise_Tree_Walking: {
             movement_bonus: 0x1A78, // int32
@@ -39848,41 +38846,6 @@ export const Schemas = {
             m_vPathingDirection: 0x61C, // Vector
             m_nPathingSourceIndex: 0x628, // int32
         },
-        CBasePlayerWeaponVData: {
-            m_szClassName: 0x10, // CUtlString
-            m_szWorldModel: 0x18, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_szWorldModelAg2Override: 0xF8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_sToolsOnlyOwnerModelName: 0x1D8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_bBuiltRightHanded: 0x2B8, // bool
-            m_bAllowFlipping: 0x2B9, // bool
-            m_sMuzzleAttachment: 0x2C0, // CAttachmentNameSymbolWithStorage
-            m_szMuzzleFlashParticle: 0x2E0, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_szMuzzleFlashParticleConfig: 0x3C0, // CUtlString
-            m_szBarrelSmokeParticle: 0x3C8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nMuzzleSmokeShotThreshold: 0x4A8, // uint8
-            m_flMuzzleSmokeTimeout: 0x4AC, // float32
-            m_flMuzzleSmokeDecrementRate: 0x4B0, // float32
-            m_bGenerateMuzzleLight: 0x4B4, // bool
-            m_bLinkedCooldowns: 0x4B5, // bool
-            m_iFlags: 0x4B6, // ItemFlagTypes_t
-            m_iWeight: 0x4B8, // int32
-            m_bAutoSwitchTo: 0x4BC, // bool
-            m_bAutoSwitchFrom: 0x4BD, // bool
-            m_nPrimaryAmmoType: 0x4BE, // AmmoIndex_t
-            m_nSecondaryAmmoType: 0x4BF, // AmmoIndex_t
-            m_iMaxClip1: 0x4C0, // int32
-            m_iMaxClip2: 0x4C4, // int32
-            m_iDefaultClip1: 0x4C8, // int32
-            m_iDefaultClip2: 0x4CC, // int32
-            m_bReserveAmmoAsClips: 0x4D0, // bool
-            m_bTreatAsSingleClip: 0x4D1, // bool
-            m_bKeepLoadedAmmo: 0x4D2, // bool
-            m_iRumbleEffect: 0x4D4, // RumbleEffect_t
-            m_flDropSpeed: 0x4D8, // float32
-            m_iSlot: 0x4DC, // int32
-            m_iPosition: 0x4E0, // int32
-            m_aShootSounds: 0x4E8, // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
-        },
         CDOTA_Unit_Hero_PhantomAssassin: {
             m_nFXDeath: 0x1F08, // ParticleIndex_t
         },
@@ -40118,28 +39081,6 @@ export const Schemas = {
             m_bGroupByVolume: 0x7B2, // bool
             m_bGroupOtherGroups: 0x7B3, // bool
             m_bIsInGroup: 0x7B4, // bool
-        },
-        CInfoParticleTarget: {
-        },
-        CEnvCubemap: {
-            m_Entity_hCubemapTexture: 0x518, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_bCustomCubemapTexture: 0x520, // bool
-            m_Entity_flInfluenceRadius: 0x524, // float32
-            m_Entity_vBoxProjectMins: 0x528, // Vector
-            m_Entity_vBoxProjectMaxs: 0x534, // Vector
-            m_Entity_bMoveable: 0x540, // bool
-            m_Entity_nHandshake: 0x544, // int32
-            m_Entity_nEnvCubeMapArrayIndex: 0x548, // int32
-            m_Entity_nPriority: 0x54C, // int32
-            m_Entity_flEdgeFadeDist: 0x550, // float32
-            m_Entity_vEdgeFadeDists: 0x554, // Vector
-            m_Entity_flDiffuseScale: 0x560, // float32
-            m_Entity_bStartDisabled: 0x564, // bool
-            m_Entity_bDefaultEnvMap: 0x565, // bool
-            m_Entity_bDefaultSpecEnvMap: 0x566, // bool
-            m_Entity_bIndoorCubeMap: 0x567, // bool
-            m_Entity_bCopyDiffuseFromDefaultCubemap: 0x568, // bool
-            m_Entity_bEnabled: 0x578, // bool
         },
         CDOTA_BaseNPC_Hero__sHeroRecentModifierInfo: {
             nSourcePlayerID: 0x0, // PlayerID_t
@@ -40501,9 +39442,6 @@ export const Schemas = {
         },
         CDOTA_Ability_Special_Bonus_HP_Regen_7: {
         },
-        CRangeFloat: {
-            m_pValue: 0x0, // float32[2]
-        },
         CDestructiblePart: {
             m_DebugName: 0x0, // CGlobalSymbol
             m_nHitGroup: 0x8, // HitGroup_t
@@ -40513,56 +39451,9 @@ export const Schemas = {
             m_sBodyGroupName: 0x30, // CGlobalSymbol
             m_DamageLevels: 0x38, // CUtlVector<CDestructiblePart_DamageLevel>
         },
-        PhysBlockHeader_t: {
-            nSaved: 0x0, // int32
-            pWorldObject: 0x8, // uint64
-        },
-        FantasyLeagueID_t: {
-            m_Value: 0x0, // uint16
-        },
-        GCPlayerSlot_t: {
-            m_Value: 0x0, // uint8
-        },
-        MonsterHunterCodexID_t: {
-            m_Value: 0x0, // uint32
-        },
-        RelationshipOverride_t: {
-            entity: 0x8, // CHandle<CBaseEntity>
-            classType: 0xC, // Class_T
-        },
-        CDOTABattleReportHighlight: {
-            m_nID: 0x8, // uint16
-            m_bEnabled: 0xA, // bool
-            m_eHighlightType: 0xC, // CMsgBattleReport_HighlightType
-            m_eHighlightCategory: 0x10, // CMsgBattleReport_HighlightCategory
-            m_sHeroName: 0x18, // CUtlString
-            m_eHighlightRarity: 0x20, // CMsgBattleReport_HighlightRarity
-            m_sNameToken: 0x28, // CUtlString
-            m_sFlavorToken: 0x30, // CUtlString
-            m_bTooltip: 0x38, // bool
-            m_sTooltipLocString: 0x40, // CUtlString
-            m_eFormat: 0x48, // EHighlightNumberFormat
-            m_vecRoles: 0x50, // CUtlVector<CMsgBattleReport_Role>
-            m_vecTiers: 0x68, // CUtlVector<CDOTABattleReportHighlightTier_t>
-        },
         RemnantData_t: {
             m_hRemnant: 0x0, // CHandle<CBaseEntity>
             m_nProjectileHandle: 0x4, // int32
-        },
-        CCraftworksRecipeDefinition: {
-            m_unRecipeID: 0x0, // CraftworksRecipeID_t
-            m_unRecipeTierID: 0x1, // CraftworksRecipeTierID_t
-            m_strLocName: 0x8, // CUtlString
-            m_strRewardAction: 0x10, // CUtlString
-            m_bSeasonalReward: 0x18, // bool
-            m_vecComponents: 0x20, // CUtlVector<CCraftworksRecipeComponentQuantity>
-        },
-        AutoRoomDoorwayPairs_t: {
-            vP1: 0x0, // VectorWS
-            vP2: 0xC, // VectorWS
-        },
-        NavHull_t: {
-            m_nHullIdx: 0x0, // int32
         },
         DOTAOutgoingBonus_t: {
             m_pszAbilityName: 0x0, // char*
@@ -40570,44 +39461,12 @@ export const Schemas = {
             m_fValue: 0x14, // float32
             m_eOperation: 0x18, // EDOTASpecialBonusOperation
         },
-        CDebugSnapshotData_t: {
-            m_text: 0x0, // CUtlString
-            m_dataType: 0x8, // uint32
-            m_userFlags: 0xC, // uint32
-            m_userData: 0x10, // uint32
-            m_userVector: 0x14, // VectorWS
-            m_userTransform: 0x20, // CTransformWS
-            m_userShape: 0x40, // CGenericShapeProxy
-            m_drawColor: 0xD8, // Color
-            m_vecDebugOverlayData: 0xE0, // CUtlVector<CDebugDrawHistoryData*>
-            m_pStructuredData: 0xF8, // DebugSnapshotBaseStructuredData_t*
-            m_hEntity: 0x100, // CHandle<CBaseEntity>
-            m_sEntityName: 0x108, // CUtlString
-            m_nEntityIndex: 0x110, // CEntityIndex
-            m_children: 0x120, // CUtlLeanVector<CDebugSnapshotData_t>
-        },
-        CRemapFloat: {
-            m_pValue: 0x0, // float32[4]
-        },
         CNavAttribute: {
-        },
-        CMonsterHunterMaterialDefinition: {
-            m_unID: 0x0, // MonsterHunterMaterialID_t
-            m_strName: 0x8, // CUtlString
-            m_eRarity: 0x10, // EMonsterHunterMaterialRarity
-            m_bUniversal: 0x14, // bool
-            m_bHidden: 0x15, // bool
-            m_bDeprecated: 0x16, // bool
         },
         DOTASpecialAbilityBonus_t: {
             m_pszName: 0x0, // char*
             m_fValue: 0x8, // float32
             m_eOperation: 0xC, // EDOTASpecialBonusOperation
-        },
-        FantasyCraftingGemSlotData_t: {
-            m_unGemSlot: 0x0, // FantasyGemSlot_t
-            m_eGemType: 0x4, // Fantasy_Gem_Type
-            m_nRequiredTabletLevel: 0x8, // int32
         },
         CDOTA_Buff: {
             m_name: 0x28, // CUtlSymbolLarge
@@ -40651,26 +39510,6 @@ export const Schemas = {
         },
         dota_minimap_boundary: {
         },
-        AI_GroundRootMotionMotor_DebugSnapshotData_t: {
-            desired_movement_gait_set: 0x8, // CGlobalSymbol
-            desired_movement_gait: 0x10, // CGlobalSymbol
-            current_movement_gait_set: 0x18, // CGlobalSymbol
-            current_movement_gait: 0x20, // CGlobalSymbol
-            movement_setting_id: 0x28, // CGlobalSymbol
-            gait_switch_blocked_reason: 0x30, // CGlobalSymbol
-            b_goal_completion_allowed: 0x38, // bool
-            state: 0x40, // CGlobalSymbol
-            n_state_active_tick_count: 0x48, // int32
-            b_has_path: 0x4C, // bool
-            f_remaining_ground_path_length: 0x50, // float32
-            f_current_speed: 0x54, // float32
-            move_type: 0x58, // CGlobalSymbol
-            f_forward_strafing_angle_actual: 0x60, // float32
-            f_forward_strafing_angle_desired: 0x64, // float32
-            f_current_lean: 0x68, // float32
-            f_target_lean: 0x6C, // float32
-            vec_events: 0x70, // CUtlVector<AI_GroundRootMotionMotor_DebugSnapshotData_t::Event_t>
-        },
         CVerticalMotionController: {
         },
         sGlaiveInfoStorm: {
@@ -40687,51 +39526,19 @@ export const Schemas = {
             m_flEndcapTime: 0x1C, // float32
             m_bMarkedForDelete: 0x20, // bool
         },
-        CFootstepTableHandle: {
-        },
         GameChatLogEntry_t: {
             m_nTeam: 0x0, // int32
             m_nPlayerID: 0x4, // PlayerID_t
             m_sText: 0x8, // CUtlString
             m_flGameTime: 0x10, // GameTime_t
         },
-        CraftworksComponentID_t: {
-            m_Value: 0x0, // uint8
-        },
-        PingWheelMessageID_t: {
-            m_Value: 0x0, // uint32
-        },
-        CDecalGroupVData: {
-            m_vecOptions: 0x0, // CUtlVector<DecalGroupOption_t>
-            m_flTotalProbability: 0x18, // float32
-        },
         CHorizontalMotionController: {
-        },
-        CDOTAFantasyDefinition: {
-            m_vecCraftingSetups: 0x8, // CUtlVector<FantasyCraftSetupData_t>
-            m_vecLeagues: 0x20, // CUtlVector<FantasyLeagueData_t>
         },
         CPlayerControllerComponent: {
             __m_pChainEntity: 0x8, // CNetworkVarChainer
         },
         CResponseQueue: {
             m_ExpresserTargets: 0x38, // CUtlVector<CAI_Expresser*>
-        },
-        FantasyCraftOperation_t: {
-            m_unOperationID: 0x0, // FantasyOperationID_t
-            m_nRollWeight: 0x4, // int32
-            m_eTarget: 0x8, // EFantasyOperationTarget
-            m_sLocDescription: 0x10, // CUtlString
-            m_vecOperations: 0x18, // CUtlVector<FantasyCraftingGemMutation_t>
-        },
-        FantasyPlayerData_t: {
-            m_unAccountID: 0x0, // uint32
-            m_unTeamID: 0x4, // uint32
-            m_strPlayerName: 0x8, // CUtlString
-            m_bIsValid: 0x10, // bool
-        },
-        MonsterHunterCodexStatID_t: {
-            m_Value: 0x0, // uint32
         },
         CodeGenAABB_t: {
             m_vMinBounds: 0x0, // Vector
@@ -40741,49 +39548,14 @@ export const Schemas = {
             m_hScriptScope: 0x8, // HSCRIPT
             m_nInitialSeed: 0x9C, // int32
         },
-        lerpdata_t: {
-            m_hEnt: 0x0, // CHandle<CBaseEntity>
-            m_MoveType: 0x4, // MoveType_t
-            m_flStartTime: 0x8, // GameTime_t
-            m_vecStartOrigin: 0xC, // VectorWS
-            m_qStartRot: 0x20, // Quaternion
-            m_nFXIndex: 0x30, // ParticleIndex_t
-        },
         WeightedAbilitySuggestion_t: {
             nSuggestion: 0x0, // AbilityID_t
             fWeight: 0x4, // float32
-        },
-        WrappedPhysicsJoint_t: {
-            m_pJoint: 0x0, // IPhysicsJoint*
-        },
-        SimpleConstraintSoundProfile: {
-            m_flKeyPointMinSoundThreshold: 0x8, // float32
-            m_flKeyPointMaxSoundThreshold: 0xC, // float32
-            m_reversalSoundThresholdSmall: 0x10, // float32
-            m_reversalSoundThresholdMedium: 0x14, // float32
-            m_reversalSoundThresholdLarge: 0x18, // float32
         },
         DamageShareEvent_t: {
             m_flOriginalDamage: 0x0, // float32
             m_flTakenDamage: 0x4, // float32
             m_nPlayerID: 0x8, // PlayerID_t
-        },
-        CSimpleSimTimer: {
-            m_flNext: 0x0, // GameTime_t
-            m_nWorldGroupId: 0x4, // WorldGroupId_t
-        },
-        AI_BaseNPCAnimGraph_DebugSnapshotData_t: {
-            e_action_desired: 0x0, // CGlobalSymbol
-            e_action_handshake_restart: 0x8, // CGlobalSymbol
-            e_action_handshake_body_authority_current: 0x10, // CGlobalSymbol
-            e_action_handshake_body_authority_desired: 0x18, // CGlobalSymbol
-            e_movement_type_desired: 0x20, // CGlobalSymbol
-            e_movement_handshake_restart: 0x28, // CGlobalSymbol
-            e_movement_handshake_body_authority_current: 0x30, // CGlobalSymbol
-            e_movement_handshake_body_authority_desired: 0x38, // CGlobalSymbol
-        },
-        CraftworksRecipeID_t: {
-            m_Value: 0x0, // uint8
         },
         INextBotBody: {
         },
@@ -40793,60 +39565,20 @@ export const Schemas = {
             m_eOperation: 0x20, // EDOTASpecialBonusOperation
             m_nAghanimID: 0x24, // uint32
         },
-        CPhysicsBodyGameMarkupData: {
-            m_PhysicsBodyMarkupByBoneName: 0x0, // CUtlDict<CPhysicsBodyGameMarkup>
-        },
-        SoundCommand_t: {
-            m_time: 0x8, // float32
-            m_deltaTime: 0xC, // float32
-            m_command: 0x10, // soundcommands_t
-            m_value: 0x14, // float32
-        },
         modifiedconvars_t: {
             pszConvar: 0x0, // char[128]
             pszCurrentValue: 0x80, // char[128]
             pszOrgValue: 0x100, // char[128]
-        },
-        CTestPulseIOComponent_Derived: {
-        },
-        SAVE_HEADER: {
-            m_saveId: 0x0, // int32
-            m_version: 0x4, // int32
-            m_nConnectionCount: 0x8, // int32
-            m_nMapVersion: 0xC, // int32
-            m_sSpawnGroupName: 0x10, // CUtlString
-            m_vecWorldOffset: 0x20, // matrix3x4a_t
-            m_flSaveTime: 0x50, // float32
         },
         RegionTriggerBoxes_t: {
             regionBox: 0x0, // AABB_t
             vRegionBoxOrigin: 0x18, // VectorWS
             strRegionName: 0x28, // CUtlString
         },
-        CSkillDamage: {
-            m_flDamage: 0x0, // CSkillFloat
-            m_flNPCDamageScalarVsNPC: 0x10, // float32
-            m_flPhysicsForceDamage: 0x14, // float32
-        },
-        DebugSnapshotBaseStructuredData_t: {
-        },
-        AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t: {
-            m_nInitialMovementId: 0x0, // CGlobalSymbol
-            m_nCurrentMovementId: 0x8, // CGlobalSymbol
-            m_nMode: 0x10, // CGlobalSymbol
-            m_nType: 0x18, // CGlobalSymbol
-            m_nState: 0x20, // CGlobalSymbol
-        },
         CFloatExponentialMovingAverage: {
         },
         physics_save_sphere_t: {
             radius: 0x0, // float32
-        },
-        MonsterHunterEconItemID_t: {
-            m_Value: 0x0, // uint8
-        },
-        BlessingPathID_t: {
-            m_Value: 0x0, // int32
         },
         CAnimGraph2InstancePtr: {
         },
@@ -40856,83 +39588,14 @@ export const Schemas = {
             m_sLandmark: 0x10, // CUtlString
             m_sRequiredAddons: 0x18, // CUtlString
         },
-        AI_BaseNPC_DebugSnapshotData_t: {
-            npc_state: 0x8, // CGlobalSymbol
-            current_enemy: 0x10, // CHandle<CBaseEntity>
-            s_current_schedule: 0x18, // CUtlString
-            s_current_task: 0x20, // CGlobalSymbol
-            s_prev_schedule: 0x28, // CUtlString
-            s_npc_current_movement: 0x30, // CUtlString
-            s_last_task_end_location: 0x38, // CUtlString
-            conditions: 0x40, // CUtlVector<CGlobalSymbol>
-            anim_events: 0x58, // CUtlVector<CGlobalSymbol>
-            animgraph: 0x70, // AI_BaseNPCAnimGraph_DebugSnapshotData_t
-            navigator: 0xB0, // AI_Navigator_DebugSnapshotData_t
-            motorServices: 0x100, // AI_MotorServices_DebugSnapshotData_t
-            facingServices: 0x130, // AI_FacingServices_DebugSnapshotData_t
-        },
         INextBotComponent: {
             m_lastUpdateTime: 0x8, // GameTime_t
             m_curInterval: 0xC, // float32
-        },
-        CDebugDrawHistoryData: {
-            m_hEntity: 0x0, // CHandle<CBaseEntity>
-            m_etype: 0x4, // ESceneViewDebugOverlaysListenerDataType_t
-            m_vectors: 0x8, // CUtlLeanVector<Vector4D>
-            m_colors: 0x18, // CUtlLeanVector<Color>
-            m_dimensions: 0x28, // CUtlLeanVector<float32>
-            m_times: 0x38, // CUtlLeanVector<float64>
-            m_uint64s: 0x48, // CUtlLeanVector<uint64>
-            m_bools: 0x58, // CUtlLeanVector<bool>
-            m_strings: 0x68, // CUtlLeanVector<CUtlString>
-        },
-        CraftworksQuestID_t: {
-            m_Value: 0x0, // uint16
-        },
-        CNmEventConsumer: {
-        },
-        FantasyGemSlot_t: {
-            m_Value: 0x0, // uint8
-        },
-        OverworldCharacterID_t: {
-            m_Value: 0x0, // uint8
         },
         CNetworkViewOffsetVector: {
             m_vecX: 0x10, // CNetworkedQuantizedFloat
             m_vecY: 0x18, // CNetworkedQuantizedFloat
             m_vecZ: 0x20, // CNetworkedQuantizedFloat
-        },
-        AmmoIndex_t: {
-            m_Value: 0x0, // int8
-        },
-        OverworldEncounterID_t: {
-            m_Value: 0x0, // uint16
-        },
-        TrackedStatExpressionData_t: {
-            strExpression: 0x0, // CUtlString
-        },
-        CDestructiblePartsSystemData: {
-            m_PartsDataByHitGroup: 0x0, // CUtlOrderedMap<HitGroup_t,CDestructiblePart>
-            m_nMinMaxNumberHitGroupsToDestroyWhenGibbing: 0x28, // CRangeInt
-        },
-        CRopeOverlapHit: {
-            m_hEntity: 0x0, // CHandle<CBaseEntity>
-            m_vecOverlappingLinks: 0x8, // CUtlVector<int32>
-        },
-        CDOTAFeaturedGamemodeDefinition: {
-            m_nID: 0x18, // uint16
-            m_eGameMode: 0x1C, // DOTA_GameMode
-            m_sCustomGame: 0x20, // CUtlString
-            m_nShardsPerWin: 0x28, // int32
-            m_nShardsPerLoss: 0x2C, // int32
-            m_sStartTime: 0x30, // CUtlString
-            m_sEndTime: 0x40, // CUtlString
-        },
-        MatchID_t: {
-            m_Value: 0x0, // uint64
-        },
-        OverworldFortuneTellerStoryNodeID_t: {
-            m_Value: 0x0, // uint8
         },
         CModifierParams: {
             ability: 0x0, // CHandle<CDOTABaseAbility>
@@ -41012,31 +39675,6 @@ export const Schemas = {
             vAttemptedKnockbackDirection: 0xE0, // Vector
             flAttemptedKnockbackMagnitude: 0xEC, // float32
         },
-        CMatchTrackedStatDefinition: {
-            m_unStatID: 0x8, // TrackedStatID_t
-            m_eStatImpl: 0xC, // EMatchTrackedStatImpl
-            m_expressionData: 0x10, // TrackedStatExpressionData_t
-            m_aggregateData: 0x20, // TrackedStatAggregateData_t
-        },
-        CDOTALabyrinthBlessingsMap: {
-            m_strBlessingEventAction: 0x8, // CUtlString
-            m_nNextBlessingTypeID: 0x18, // BlessingTypeID_t
-            m_nNextBlessingID: 0x1C, // BlessingID_t
-            m_UnlockHeroBlessingType: 0x20, // CUtlString
-            m_vecHeroNames: 0x30, // CUtlVector<CUtlString>
-            m_nNumStartingHeroesUnlocked: 0x60, // int32
-            m_UnlockLegacyHeroBlessingType: 0x68, // CUtlString
-            m_vecLegacyHeroNames: 0x78, // CUtlVector<CUtlString>
-            m_nNumStartingLegacyHeroesUnlocked: 0xA8, // int32
-            m_mapBlessingTypes: 0xB0, // CUtlDict<BlessingType_t>
-            m_mapBlessings: 0x118, // CUtlDict<Blessing_t>
-            m_vecPaths: 0x168, // CUtlVector<BlessingPath_t>
-        },
-        ResponseContext_t: {
-            m_iszName: 0x0, // CUtlSymbolLarge
-            m_iszValue: 0x8, // CUtlSymbolLarge
-            m_fExpirationTime: 0x10, // GameTime_t
-        },
         CNavVolumeSphericalShell: {
             m_flRadiusInner: 0x88, // float32
         },
@@ -41045,93 +39683,12 @@ export const Schemas = {
             m_flKillValue: 0x4, // float32
             m_nPlayerID: 0x8, // PlayerID_t
         },
-        LeagueID_t: {
-            m_Value: 0x0, // uint32
-        },
-        CPlayerPawnComponent: {
-            __m_pChainEntity: 0x8, // CNetworkVarChainer
-            m_pComponentGraphController: 0x30, // CAnimGraphControllerPtr
-        },
         ItemRecipe_t: {
             m_vecRecipeComponents: 0x0, // CUtlVector<AbilityID_t>
             m_nPrimaryComponentIndex: 0x18, // int32
         },
-        FantasyTabletID_t: {
-            m_Value: 0x0, // uint8
-        },
-        AI_FacingServices_DebugSnapshotData_t: {
-            npc_position: 0x0, // VectorWS
-            facing_target_source: 0x10, // CGlobalSymbol
-            facing_target: 0x18, // VectorWS
-            schedule_facing_priority: 0x28, // CGlobalSymbol
-            strafing_source: 0x30, // CGlobalSymbol
-            strafing_enabled: 0x38, // bool
-            movement_id: 0x40, // CGlobalSymbol
-        },
-        AI_Navigator_DebugSnapshotData_t: {
-            s_movement_id: 0x0, // CGlobalSymbol
-            s_movement_serial_number: 0x8, // uint32
-            s_goal_source_location: 0x10, // CUtlString
-            last_waypoint_pos: 0x18, // VectorWS
-            goal_location: 0x24, // VectorWS
-            waypoints: 0x30, // CUtlVector<AI_Navigator_DebugSnapshotData_t::Waypoint_t>
-            s_arrival_movement_gait_set: 0x48, // CGlobalSymbol
-        },
         CObstructionObject: {
             m_nObstructionProperties: 0x10, // int32
-        },
-        CDecalInstance: {
-            m_sDecalGroup: 0x0, // CGlobalSymbol
-            m_hMaterial: 0x8, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_sSequenceName: 0x10, // CUtlStringToken
-            m_hEntity: 0x14, // CHandle<CBaseEntity>
-            m_nBoneIndex: 0x18, // int32
-            m_nTriangleIndex: 0x1C, // int32
-            m_vPositionLS: 0x20, // Vector
-            m_vPositionOS: 0x2C, // Vector
-            m_vNormalLS: 0x38, // Vector
-            m_vNormalOS: 0x44, // Vector
-            m_vSAxisLS: 0x50, // Vector
-            m_nFlags: 0x5C, // DecalFlags_t
-            m_Color: 0x60, // Color
-            m_flWidth: 0x64, // float32
-            m_flHeight: 0x68, // float32
-            m_flDepth: 0x6C, // float32
-            m_transform: 0x70, // CTransformWS
-            m_flAnimationScale: 0x90, // float32
-            m_flAnimationStartTime: 0x94, // float32
-            m_flPlaceTime: 0x98, // GameTime_t
-            m_flFadeStartTime: 0x9C, // float32
-            m_flFadeDuration: 0xA0, // float32
-            m_flLightingOriginOffset: 0xA4, // float32
-            m_flBoundingRadiusSqr: 0xB0, // float32
-            m_nSequenceIndex: 0xB4, // int16
-            m_bIsAdjacent: 0xB6, // bool
-            m_bDoDecalLightmapping: 0xB7, // bool
-        },
-        PingMinimapIconInfo_t: {
-            m_nIconID: 0x0, // int32
-            m_flSize: 0x4, // float32
-            m_bAlignBottom: 0x8, // bool
-            m_bForceBaseIconWhite: 0x9, // bool
-            m_flAnimStartSize: 0xC, // float32
-            m_flAnimThrobSize: 0x10, // float32
-            m_flAnimThrobRate: 0x14, // float32
-            m_flAnimIntroDuration: 0x18, // float32
-            m_flAnimOutroDuration: 0x1C, // float32
-            m_eDrawCondition: 0x20, // EPingMinimapDrawCondition
-        },
-        CMonsterHunterTradeRecipeDefinition: {
-            m_eTradeConversion: 0x0, // EMonsterHunterMaterialTradeConversion
-            m_nOfferCount: 0x4, // int32
-            m_nResultCount: 0x8, // int32
-            m_bOfferTokensMustBeTheSame: 0xC, // bool
-            m_bCanChooseResult: 0xD, // bool
-            m_strLocTitle: 0x10, // CUtlString
-            m_strDescription: 0x18, // CUtlString
-            m_unUnlockPrerequisiteActionID: 0x20, // uint32
-            m_unResultActionID: 0x24, // uint32
-            m_eRequiredOfferRarity: 0x28, // EMonsterHunterMaterialRarity
         },
         HeroDeathRecord_t: {
             nKillerPlayerID: 0x0, // PlayerID_t
@@ -41139,102 +39696,21 @@ export const Schemas = {
             fTime: 0x8, // float32
             fTimeRespawn: 0xC, // float32
         },
-        CavernCrawlPathID_t: {
-            m_Value: 0x0, // uint8
-        },
-        CDOTABattleReportHighlightCompareContext_t: {
-            m_eCompareContext: 0x0, // CMsgBattleReport_CompareContext
-            m_eComparisonType: 0x4, // EHighlightScoreComparison
-            m_flCompareValue: 0x8, // float32
-        },
-        CGameScriptedMoveData: {
-            m_vAccumulatedRootMotion: 0x0, // Vector
-            m_angAccumulatedRootMotionRotation: 0xC, // QAngle
-            m_vSrc: 0x18, // VectorWS
-            m_angSrc: 0x24, // QAngle
-            m_angCurrent: 0x30, // QAngle
-            m_flLockedSpeed: 0x3C, // float32
-            m_flAngRate: 0x40, // float32
-            m_flDuration: 0x44, // float32
-            m_flStartTime: 0x48, // GameTime_t
-            m_bActive: 0x4C, // bool
-            m_bTeleportOnEnd: 0x4D, // bool
-            m_bIgnoreRotation: 0x4E, // bool
-            m_bSuccess: 0x4F, // bool
-            m_nForcedCrouchState: 0x50, // ForcedCrouchState_t
-            m_bIgnoreCollisions: 0x54, // bool
-            m_vDest: 0x58, // Vector
-            m_angDst: 0x64, // QAngle
-            m_hDestEntity: 0x70, // CHandle<CBaseEntity>
-        },
-        CSkeletonAnimationController: {
-            m_pSkeletonInstance: 0x8, // CSkeletonInstance*
-        },
         CNavVolumeMarkupVolume: {
-        },
-        MonsterHunterMaterialID_t: {
-            m_Value: 0x0, // uint8
         },
         CResponseCriteriaSet: {
             m_nNumPrefixedContexts: 0x30, // int32
             m_bOverrideOnAppend: 0x34, // bool
         },
-        FuncRotatorRotationSummary_t: {
-            nTick: 0x0, // GameTick_t
-            nFlags: 0x4, // FuncRotatorRotationSummaryFlags_t
-        },
-        CAI_Expresser: {
-            m_conceptCooldowns: 0x10, // CUtlDict<GameTime_t>
-            m_ruleCooldowns: 0x38, // CUtlDict<GameTime_t>
-            m_flStopTalkTime: 0x60, // GameTime_t
-            m_flStopTalkTimeWithoutDelay: 0x64, // GameTime_t
-            m_flQueuedSpeechTime: 0x68, // GameTime_t
-            m_flBlockedTalkTime: 0x6C, // GameTime_t
-            m_voicePitch: 0x70, // int32
-            m_flLastTimeAcceptedSpeak: 0x74, // GameTime_t
-            m_bAllowSpeakingInterrupts: 0x78, // bool
-            m_bConsiderSceneInvolvementAsSpeech: 0x79, // bool
-            m_bSceneEntityDisabled: 0x7A, // bool
-            m_nLastSpokenPriority: 0x7C, // int32
-            m_pOuter: 0x98, // CBaseModelEntity*
-        },
         IChoreoServices: {
-        },
-        OverworldClickableID_t: {
-            m_Value: 0x0, // uint16
-        },
-        CPlayerTrackedStatDefinition: {
-            m_unStatID: 0x8, // TrackedStatID_t
-            m_eStatImpl: 0xC, // EPlayerTrackedStatImpl
-            m_killEaterData: 0x10, // TrackedStatKillEaterData_t
-            m_combatQueryData: 0x18, // TrackedStatCombatQueryData_t
-            m_expressionData: 0x20, // TrackedStatExpressionData_t
-            m_heroAdjectiveData: 0x30, // TrackedStatHeroAdjectiveData_t
-        },
-        CNmEventConsumerAttributes: {
         },
         CStopwatch: {
             m_flInterval: 0xC, // float32
-        },
-        FantasyCraftingGemData_t: {
-            m_eType: 0x0, // Fantasy_Gem_Type
-            m_sLocName: 0x8, // CUtlString
-            m_eStats: 0x10, // CUtlVector<Fantasy_Scoring>
         },
         ResponseParams: {
             odds: 0x10, // int16
             flags: 0x12, // int16
             m_pFollowup: 0x18, // ResponseFollowup*
-        },
-        SPAWNGROUP_HEADER: {
-            m_sGroupName: 0x0, // CUtlString
-            m_sEntityLumpName: 0x8, // CUtlString
-            m_vecWorldOffset: 0x10, // matrix3x4a_t
-            m_bClientSpawnGroup: 0x40, // bool
-            m_bSuppressAllEntities: 0x41, // bool
-        },
-        LeagueNodeGroupID_t: {
-            m_Value: 0x0, // uint16
         },
         CFailableAchievement: {
             m_bActivated: 0xC0, // bool
@@ -41245,73 +39721,15 @@ export const Schemas = {
             nIndex: 0x4, // int32
             fTimestamp: 0x8, // GameTime_t
         },
-        globalentity_t: {
-            name: 0x0, // CUtlSymbol
-            levelName: 0x2, // CUtlSymbol
-            state: 0x4, // GLOBALESTATE
-            counter: 0x8, // int32
-        },
         CAnimGraphControllerPtr: {
             m_pController: 0x0, // CAnimGraphControllerBase*
-        },
-        ConstraintSoundInfo: {
-            m_vSampler: 0x8, // VelocitySampler
-            m_soundProfile: 0x20, // SimpleConstraintSoundProfile
-            m_forwardAxis: 0x40, // Vector
-            m_iszTravelSoundFwd: 0x50, // CUtlSymbolLarge
-            m_iszTravelSoundBack: 0x58, // CUtlSymbolLarge
-            m_iszReversalSoundSmall: 0x78, // CUtlSymbolLarge
-            m_iszReversalSoundMedium: 0x80, // CUtlSymbolLarge
-            m_iszReversalSoundLarge: 0x88, // CUtlSymbolLarge
-            m_bPlayTravelSound: 0x90, // bool
-            m_bPlayReversalSound: 0x91, // bool
-        },
-        CPhysicsBodyGameMarkup: {
-            m_TargetBody: 0x0, // CUtlString
-            m_Tag: 0x8, // CGlobalSymbol
-        },
-        FantasyCraftingGemMutation_t: {
-            m_eTarget: 0x0, // EFantasyMutationTarget
-            m_eOperation: 0x4, // EFantasyMutationOperation
-        },
-        CMonsterHunterCraftableRewardDefinition: {
-            m_unActionID: 0x0, // uint32
-            m_mapRequiredMaterials: 0x8, // CUtlOrderedMap<CUtlString,int32>
-            m_bPremium: 0x30, // bool
-        },
-        TrackedStatKillEaterData_t: {
-            unKillEaterEvent: 0x0, // uint32
-        },
-        DebugDrawBoneTransforms_t: {
-            vecBones: 0x10, // CUtlVectorFixedGrowable<CTransform,128>
         },
         DotaAbilityRelationship_t: {
             m_vecTalents: 0x0, // CUtlVector<DOTAAbilityDefinition_t*>
             m_bHasScepter: 0x18, // bool
             m_bHasShard: 0x19, // bool
         },
-        INavPathCost: {
-            m_navHull: 0x8, // NavHull_t
-        },
         CVectorMovingAverage: {
-        },
-        CCraftworksQuestDefinition: {
-            m_unQuestID: 0x0, // CraftworksQuestID_t
-            m_type: 0x4, // CraftworksQuestType_t
-            m_strLocName: 0x8, // CUtlString
-            m_strLocProgress: 0x10, // CUtlString
-            m_flTurboMultiplier: 0x18, // float32
-            m_vecRewards: 0x20, // CUtlVector<CCraftworksQuestComponentReward>
-            m_strTrackedStatName: 0x38, // CUtlString
-            m_unStatMaximum: 0x40, // uint32
-            m_bShowInGameProgressToasts: 0x44, // bool
-        },
-        BlessingType_t: {
-            nID: 0x0, // BlessingTypeID_t
-            szIconImage: 0x10, // CPanoramaImageName
-        },
-        GuildID_t: {
-            m_Value: 0x0, // uint32
         },
         sAcquireHistory: {
             m_nAbilityID: 0x0, // AbilityID_t
@@ -41325,54 +39743,6 @@ export const Schemas = {
             m_vecAvailableNeutralItemList: 0x48, // CUtlVector<AbilityID_t>
             m_bSold: 0x60, // bool
         },
-        HeroID_t: {
-            m_Value: 0x0, // int32
-        },
-        CSoundEnvelope: {
-            m_current: 0x0, // float32
-            m_target: 0x4, // float32
-            m_rate: 0x8, // float32
-            m_forceupdate: 0xC, // bool
-        },
-        dynpitchvol_base_t: {
-            preset: 0x0, // int32
-            pitchrun: 0x4, // int32
-            pitchstart: 0x8, // int32
-            spinup: 0xC, // int32
-            spindown: 0x10, // int32
-            volrun: 0x14, // int32
-            volstart: 0x18, // int32
-            fadein: 0x1C, // int32
-            fadeout: 0x20, // int32
-            lfotype: 0x24, // int32
-            lforate: 0x28, // int32
-            lfomodpitch: 0x2C, // int32
-            lfomodvol: 0x30, // int32
-            cspinup: 0x34, // int32
-            cspincount: 0x38, // int32
-            pitch: 0x3C, // int32
-            spinupsav: 0x40, // int32
-            spindownsav: 0x44, // int32
-            pitchfrac: 0x48, // int32
-            vol: 0x4C, // int32
-            fadeinsav: 0x50, // int32
-            fadeoutsav: 0x54, // int32
-            volfrac: 0x58, // int32
-            lfofrac: 0x5C, // int32
-            lfomult: 0x60, // int32
-        },
-        CStopwatchBase: {
-            m_bIsRunning: 0x8, // bool
-        },
-        FantasyGemQuality_t: {
-            m_Value: 0x0, // uint8
-        },
-        CavernCrawlRoomID_t: {
-            m_Value: 0x0, // uint8
-        },
-        OverworldNodeID_t: {
-            m_Value: 0x0, // uint16
-        },
         CHeadLookParams: {
             m_LookPriority: 0x0, // CHeadLookParams::HeadLookPriority_t
             m_flLookDuration: 0x4, // float32
@@ -41380,29 +39750,6 @@ export const Schemas = {
             m_pReasonStr: 0x10, // char*
             m_bWaitForSteady: 0x18, // bool
             m_flEaseInTime: 0x1C, // float32
-        },
-        CDOTABingoStatDefinition: {
-            m_strExclusiveString: 0x8, // CUtlString
-            m_fStatAverage: 0x10, // float32
-            m_fStatStdDev: 0x14, // float32
-            m_strHeroAdjective: 0x18, // CUtlString
-            m_bNegativeHeroAdjective: 0x20, // bool
-            m_nMinLeaguePhase: 0x24, // int32
-            m_nMaxLeaguePhase: 0x28, // int32
-            m_fPlayoffsStatAverage: 0x2C, // float32
-            m_fPlayoffsStatStdDev: 0x30, // float32
-            m_fMainEventStatAverage: 0x34, // float32
-            m_fMainEventStatStdDev: 0x38, // float32
-            m_sLocName: 0x40, // CUtlString
-            m_sLocTooltip: 0x48, // CUtlString
-        },
-        FantasyPeriodData_t: {
-            m_unPeriod: 0x0, // FantasyPeriod_t
-            m_nTabletLevel: 0x4, // int32
-        },
-        CCraftworksQuestComponentReward: {
-            m_unComponentID: 0x0, // CraftworksComponentID_t
-            m_flStatMultiplier: 0x4, // float32
         },
         CUnitOrders: {
             m_nUnits: 0x0, // CUtlVector<CEntityIndex>
@@ -41414,46 +39761,11 @@ export const Schemas = {
             m_nAbilityIndex: 0x34, // CEntityIndex
             m_nFlags: 0x38, // uint32
         },
-        AI_GroundRootMotionMotor_DebugSnapshotData_t__Event_t: {
-            description: 0x0, // CUtlString
-            location: 0x8, // VectorWS
-        },
-        CMarkupSearch_PathCostAreaFilter: {
-            m_searchHelper: 0x8, // CMarkupSearchHelper
-        },
         CNavVolumeVector: {
             m_bHasBeenPreFiltered: 0x80, // bool
         },
-        NavGravity_t: {
-            m_vGravity: 0x0, // Vector
-            m_bDefault: 0xC, // bool
-        },
-        CChoreo_GraphController: {
-            m_eChoreoState: 0xC0, // CAnimGraph2ParamOptionalRef<CGlobalSymbol>
-            m_tChoreoTargetWarp: 0xD8, // CAnimGraph2ParamOptionalRef<CTransform>
-            m_tChoreoExitWarp: 0xF0, // CAnimGraph2ParamOptionalRef<CTransform>
-        },
-        RotatorQueueEntry_t: {
-            qTarget: 0x0, // Quaternion
-            eSpace: 0x10, // RotatorTargetSpace_t
-        },
-        CBaseAnimGraphDestructibleParts_GraphController: {
-        },
-        ExternalAnimGraphHandle_t: {
-            m_Value: 0x0, // uint32
-        },
         CPhysicsShake: {
             m_force: 0x8, // Vector
-        },
-        CInfoChoreoAnchorPosition: {
-            m_vOriginLS: 0x0, // Vector
-            m_qAnglesLS: 0x10, // Quaternion
-            m_vExtentsMin: 0x20, // Vector
-            m_vExtentsMax: 0x2C, // Vector
-            m_flRadius: 0x38, // float32
-            m_bOnlyWarpPosition: 0x3C, // bool
-            m_hParent: 0x40, // CHandle<CBaseEntity>
-            m_nShapeType: 0x44, // CInfoChoreoLocatorShapeType_t
         },
         NeutralSpawnBoxes_t: {
             neutralSpawnBoxes: 0x0, // AABB_t
@@ -41467,38 +39779,6 @@ export const Schemas = {
             m_fPrevSampleTime: 0xC, // GameTime_t
             m_fIdealSampleRate: 0x10, // float32
         },
-        CTakeDamageResult: {
-            m_pOriginatingInfo: 0x0, // CTakeDamageInfo*
-            m_DestructibleHitGroupRequests: 0x8, // CUtlLeanVector<DestructiblePartDamageRequest_t>
-            m_nHealthLost: 0x18, // int32
-            m_nHealthBefore: 0x1C, // int32
-            m_flDamageDealt: 0x20, // float32
-            m_flPreModifiedDamage: 0x24, // float32
-            m_vDamagePosition: 0x28, // VectorWS
-            m_nTotalledHealthLost: 0x34, // int32
-            m_flTotalledDamageDealt: 0x38, // float32
-            m_flTotalledPreModifiedDamage: 0x3C, // float32
-            m_flNewDamageAccumulatorValue: 0x40, // float32
-            m_nDamageFlags: 0x48, // TakeDamageFlags_t
-            m_bWasDamageSuppressed: 0x50, // bool
-            m_bSuppressFlinch: 0x51, // bool
-            m_nOverrideFlinchHitGroup: 0x54, // HitGroup_t
-        },
-        CMarkupSearchHelper: {
-            m_navHull: 0x0, // NavHull_t
-            m_tagString: 0x8, // CUtlString
-            m_nameString: 0x10, // CUtlString
-            m_vRefPos: 0x18, // VectorWS
-            m_bRefPosSet: 0x24, // bool
-            m_bUseStepHeight: 0x25, // bool
-            m_bActive: 0x26, // bool
-        },
-        CraftworksRecipeTierID_t: {
-            m_Value: 0x0, // uint8
-        },
-        HeroFacetID_t: {
-            m_Value: 0x0, // uint32
-        },
         CDOTA_BuffParticle: {
             m_iIndex: 0x0, // ParticleIndex_t
             m_iPriority: 0x4, // int32
@@ -41506,49 +39786,6 @@ export const Schemas = {
             m_bStatusEffect: 0x9, // bool
             m_bHeroEffect: 0xA, // bool
             m_bOverheadEffectOffset: 0xB, // bool
-        },
-        FantasyRoleData_t: {
-            m_eRole: 0x0, // Fantasy_Roles
-            m_vecPlayers: 0x8, // CUtlVector<FantasyPlayerData_t>
-        },
-        SceneEventId_t: {
-            m_Value: 0x0, // uint32
-        },
-        FantasyCraftingTrackedStat_t: {
-            m_sStatName: 0x0, // CUtlString
-            m_eStatType: 0x8, // EFantasyStatType
-            m_unThresholdValue: 0xC, // uint32
-            m_bThresholdIsMin: 0x10, // bool
-        },
-        PlayerID_t: {
-            m_Value: 0x0, // int32
-        },
-        FantasyLeagueData_t: {
-            m_nFantasyLeagueID: 0x0, // FantasyLeagueID_t
-            m_eEvent: 0x4, // EEvent
-            m_nCraftingID: 0x8, // FantasyCraftDataID_t
-            m_nLeagues: 0x10, // CUtlVector<LeagueID_t>
-            m_vecTeams: 0x28, // CUtlVector<FantasyTeamData_t>
-            m_vecPlayers: 0x40, // CUtlVector<FantasyRoleData_t>
-            m_vecPeriods: 0x58, // CUtlVector<FantasyPeriodData_t>
-        },
-        TrackedStatHeroAdjectiveData_t: {
-            m_strAdjective: 0x0, // CUtlString
-        },
-        TrackedStatValue_t: {
-            m_Value: 0x0, // int32
-        },
-        CCommentarySystem: {
-            m_bCommentaryEnabledMidGame: 0x12, // bool
-            m_flNextTeleportTime: 0x14, // GameTime_t
-            m_iTeleportStage: 0x18, // int32
-            m_bCheatState: 0x1C, // bool
-            m_bIsFirstSpawnGroupToLoad: 0x1D, // bool
-            m_ModifiedConvars: 0x20, // CUtlVector<modifiedconvars_t>
-            m_hCurrentNode: 0x38, // CHandle<CPointCommentaryNode>
-            m_hActiveCommentaryNode: 0x3C, // CHandle<CPointCommentaryNode>
-            m_hLastCommentaryNode: 0x40, // CHandle<CPointCommentaryNode>
-            m_vecNodes: 0x48, // CUtlVector<CHandle<CPointCommentaryNode>>
         },
         sMuertaPartingShotSoulDef: {
             hHeroOwner: 0x0, // CHandle<CBaseEntity>
@@ -41564,43 +39801,6 @@ export const Schemas = {
             followup_entityiodelay: 0x2C, // float32
             bFired: 0x30, // bool
         },
-        AmmoTypeInfo_t: {
-            m_nMaxCarry: 0x10, // int32
-            m_nSplashSize: 0x1C, // CRangeInt
-            m_nFlags: 0x24, // AmmoFlags_t
-            m_flMass: 0x28, // float32
-            m_flSpeed: 0x2C, // CRangeFloat
-        },
-        CNetworkTransmitComponent: {
-            m_nTransmitStateOwnedCounter: 0x184, // uint8
-        },
-        AI_MotorServices_DebugSnapshotData_t: {
-            active_motor: 0x0, // CGlobalSymbol
-            desired_speed: 0x8, // float32
-            motor_velocity: 0xC, // Vector
-            motor_path: 0x18, // CUtlVector<AI_MotorServices_DebugSnapshotData_t::MotorPathWaypoint_t>
-        },
-        CCraftworksRecipeComponentQuantity: {
-            m_unComponentID: 0x0, // CraftworksComponentID_t
-            m_unQuantity: 0x4, // uint32
-        },
-        AbilityID_t: {
-            m_Value: 0x0, // int32
-        },
-        CPathQueryUtil: {
-            m_PathToEntityTransform: 0x10, // CTransform
-            m_vecPathSamplePositions: 0x30, // CUtlVector<Vector>
-            m_vecPathSampleParameters: 0x48, // CUtlVector<float32>
-            m_vecPathSampleDistances: 0x60, // CUtlVector<float32>
-            m_bIsClosedLoop: 0x78, // bool
-        },
-        RagdollCreationParams_t: {
-            m_vForce: 0x0, // Vector
-            m_nForceBone: 0xC, // int32
-            m_bForceCurrentWorldTransform: 0x10, // bool
-            m_bUseLRURetirement: 0x11, // bool
-            m_nHealthToGrant: 0x14, // int32
-        },
         HeroPickRecord_t: {
             eType: 0x0, // HeroPickType
             nHeroID: 0x4, // HeroID_t
@@ -41608,32 +39808,10 @@ export const Schemas = {
         },
         INextBotReply: {
         },
-        MonsterHunterTradeRecipeID_t: {
-            m_Value: 0x0, // uint8
-        },
-        CRelativeTransform: {
-            m_bTransformIsWorldSpace: 0x0, // bool
-            m_transform: 0x10, // CTransform
-            m_transformWS: 0x30, // CTransformWS
-            m_hEntity: 0x50, // CHandle<CBaseEntity>
-        },
         NianDamageTaken_t: {
             nDamage: 0x0, // int32
             nPlayerID: 0x4, // PlayerID_t
             vPos: 0x8, // Vector
-        },
-        FantasyGemShape_t: {
-            m_Value: 0x0, // uint8
-        },
-        CRangeInt: {
-            m_pValue: 0x0, // int32[2]
-        },
-        PingParticleInfo_t: {
-            m_flDuration: 0x0, // float32
-            m_flRadius: 0x4, // float32
-            m_flVerticalOffset: 0x8, // float32
-            m_flBonusVerticalOffsetFromTargetEntity: 0xC, // float32
-            m_bShowDotaPlusBadge: 0x10, // bool
         },
         CBaseAchievement: {
             m_pszName: 0x18, // char*
@@ -41665,53 +39843,6 @@ export const Schemas = {
             m_bShowOnHUD: 0xB8, // bool
             m_iAssetAwardID: 0xBC, // int32
         },
-        globalentitydatabase_t: {
-            m_list: 0x60, // CUtlVector<globalentity_t>
-        },
-        FantasyTitle_t: {
-            m_Value: 0x0, // uint8
-        },
-        CNmEventConsumerPulse: {
-        },
-        CCraftworksDefinition: {
-            m_sName: 0x0, // CUtlString
-            m_unCraftworksID: 0x8, // CraftworksID_t
-            m_eAssociatedEvent: 0xC, // EEvent
-            m_vecComponents: 0x10, // CUtlVector<CCraftworksComponentDefinition>
-            m_vecRecipeTiers: 0x28, // CUtlVector<CCraftworksRecipeTierDefinition>
-            m_vecRecipes: 0x40, // CUtlVector<CCraftworksRecipeDefinition>
-            m_vecQuests: 0x58, // CUtlVector<CCraftworksQuestDefinition>
-        },
-        FantasyCraftingTitleData_t: {
-            m_unTitle: 0x0, // FantasyTitle_t
-            m_sLocName: 0x8, // CUtlString
-            m_sLocNameIndividual: 0x10, // CUtlString
-            m_sLocExplanation: 0x18, // CUtlString
-            m_sLocExplanationMouseOver: 0x20, // CUtlString
-            m_eMode: 0x28, // EFantasyStatMatchMode
-            m_vecStats: 0x30, // CUtlVector<FantasyCraftingTrackedStat_t>
-            m_nBonus: 0x48, // int32
-        },
-        CNMEventPulseState_t: {
-            m_eventID: 0x0, // CGlobalSymbol
-        },
-        CWorldCompositionChunkReferenceElement_t: {
-            m_strMapToLoad: 0x0, // CUtlString
-            m_strLandmarkName: 0x8, // CUtlString
-        },
-        attrib_definition_index_db32_t: {
-            m_Value: 0x0, // uint32
-        },
-        Blessing_t: {
-            nID: 0x0, // BlessingID_t
-            BlessingType: 0x8, // CUtlString
-            nCost: 0x14, // int32
-            nValue: 0x18, // int32
-            bStartNode: 0x1C, // bool
-            vecPos: 0x28, // Vector2D
-            flSize: 0x30, // float32
-            color: 0x34, // Color
-        },
         DotaModifierPathNode_t: {
             m_vPosition: 0x0, // Vector
             m_flRadius: 0xC, // float32
@@ -41724,31 +39855,11 @@ export const Schemas = {
             nReqLevel: 0x1C, // int32
             bMustBeChampion: 0x20, // bool
         },
-        CRandStopwatch: {
-            m_flMinInterval: 0xC, // float32
-            m_flMaxInterval: 0x10, // float32
-        },
-        OverworldPathID_t: {
-            m_Value: 0x0, // uint16
-        },
-        AbilityContributionType_t: {
-            m_Value: 0x0, // uint8
-        },
-        OverworldRoomGroupID_t: {
-            m_Value: 0x0, // uint8
-        },
-        CMovementStatsProperty: {
-            m_nUseCounter: 0x10, // int32
-            m_emaMovementDirection: 0x14, // CVectorExponentialMovingAverage
-        },
         CDOTA_CreepKillInfo: {
             m_flTimeOfDeath: 0x0, // GameTime_t
             m_flDeathFlightDuration: 0x4, // float32
             m_vWsKillDirection: 0x8, // Vector
             m_vWsKillOrigin: 0x14, // VectorWS
-        },
-        itemid_t: {
-            m_Value: 0x0, // uint64
         },
         sPlayerSnapshot: {
             m_nItemAbilityID: 0x0, // AbilityID_t[11]
@@ -41761,53 +39872,9 @@ export const Schemas = {
             unDenies: 0x38, // uint32
             unFlags: 0x3C, // uint8
         },
-        CDOTABattleReportHeroTrackedStatList: {
-            m_nHeroID: 0x0, // HeroID_t
-            m_vecTrackedStatNames: 0x8, // CUtlVector<CUtlString>
-        },
-        CGameChoreoServices: {
-            m_hOwner: 0x8, // CHandle<CBaseModelEntity>
-            m_hScriptedSequence: 0xC, // CHandle<CScriptedSequence>
-            m_scriptState: 0x10, // IChoreoServices::ScriptState_t
-            m_choreoState: 0x14, // IChoreoServices::ChoreoState_t
-            m_flTimeStartedState: 0x18, // GameTime_t
-        },
-        CMonsterHunterHeroDefinition: {
-            m_nHeroID: 0x0, // HeroID_t
-            m_vecMaterialDrops: 0x8, // CUtlVector<CMonsterHunterMaterialDropDefinition>
-        },
-        PhysObjectHeader_t: {
-            type: 0x0, // PhysInterfaceId_t
-            hEntity: 0x4, // CHandle<CBaseEntity>
-            fieldName: 0x8, // CUtlSymbolLarge
-            bSaveObject: 0x10, // bool
-            modelName: 0x18, // CUtlSymbolLarge
-            bbox: 0x20, // AABB_t
-            sphere: 0x38, // physics_save_sphere_t
-            iCollide: 0x3C, // int32
-        },
         CLocomotionBase: {
         },
         CSimpleStopwatch: {
-        },
-        ragdollelement_t: {
-            originParentSpace: 0x0, // Vector
-            parentIndex: 0x20, // int32
-            m_flRadius: 0x24, // float32
-            m_nHeight: 0x28, // int32
-        },
-        PingMinimapIconLayerInfo_t: {
-            m_nIconID: 0x0, // int32
-            m_flSizeScale: 0x4, // float32
-            m_flIntensity: 0x8, // float32
-            m_bAdditive: 0xC, // bool
-            m_bForceBaseIconWhite: 0xD, // bool
-            m_eAnimType: 0x10, // EPingMinimapAnimType
-            m_eDrawCondition: 0x14, // EPingMinimapDrawCondition
-            m_flPulseStartSizeScale: 0x18, // float32
-            m_flPulseBonusIntensity: 0x1C, // float32
-            m_flPulseDuration: 0x20, // float32
-            m_nPulseCount: 0x24, // int32
         },
         CGameScriptedMoveDef_t: {
             m_vDestOffset: 0x0, // Vector
@@ -41820,12 +39887,6 @@ export const Schemas = {
             m_bIgnoreRotation: 0x29, // bool
             m_nForcedCrouchState: 0x2C, // ForcedCrouchState_t
         },
-        FantasyCraftingQualityData_t: {
-            m_unQualityID: 0x0, // FantasyGemQuality_t
-            m_sLocName: 0x8, // CUtlString
-            m_nBonus: 0x10, // int32
-            m_nRollWeight: 0x14, // int32
-        },
         CNetworkOriginCellCoordQuantizedVector: {
             m_cellX: 0x10, // uint16
             m_cellY: 0x12, // uint16
@@ -41834,14 +39895,6 @@ export const Schemas = {
             m_vecX: 0x18, // CNetworkedQuantizedFloat
             m_vecY: 0x20, // CNetworkedQuantizedFloat
             m_vecZ: 0x28, // CNetworkedQuantizedFloat
-        },
-        BlessingTypeID_t: {
-            m_Value: 0x0, // int32
-        },
-        OverworldID_t: {
-            m_Value: 0x0, // uint8
-        },
-        CBaseAnimGraphVariationUserData: {
         },
         DOTASpecialAbility_t: {
             m_pszName: 0x0, // char*
@@ -41868,16 +39921,6 @@ export const Schemas = {
             m_bAffectedByCurio: 0x10F, // bool
             m_bShowAbsoluteValues: 0x110, // bool
         },
-        DynamicVolumeDef_t: {
-            m_source: 0x0, // CHandle<CBaseEntity>
-            m_target: 0x4, // CHandle<CBaseEntity>
-            m_nHullIdx: 0x8, // int32
-            m_vSourceAnchorPos: 0xC, // VectorWS
-            m_vTargetAnchorPos: 0x18, // VectorWS
-            m_nAreaSrc: 0x24, // uint32
-            m_nAreaDst: 0x28, // uint32
-            m_bAttached: 0x2C, // bool
-        },
         CDOTA_ActionRunner: {
             m_pEventContext: 0x8, // CModifierParams*
             m_pCaster: 0x10, // CDOTA_BaseNPC*
@@ -41894,54 +39937,10 @@ export const Schemas = {
             m_vecY: 0x18, // CNetworkedQuantizedFloat
             m_vecZ: 0x20, // CNetworkedQuantizedFloat
         },
-        magnetted_objects_t: {
-            hEntity: 0x8, // CHandle<CBaseEntity>
-        },
-        CavernCrawlRewardType_t: {
-            m_Value: 0x0, // uint8
-        },
-        CSkillInt: {
-            m_pValue: 0x0, // int32[4]
-        },
-        thinkfunc_t: {
-            m_think: 0x0, // BASEPTR
-            m_hFn: 0x8, // HSCRIPT
-            m_nContext: 0x10, // CUtlStringToken
-            m_nNextThinkTick: 0x14, // GameTick_t
-            m_nLastThinkTick: 0x18, // GameTick_t
-        },
         sSharedCooldownInfo: {
             cooldownName: 0x0, // CUtlString
             cooldownLength: 0x8, // float32
             cooldownTime: 0xC, // GameTime_t
-        },
-        CMonsterHunterWorldDefinition: {
-            m_vecMaterials: 0x0, // CUtlVector<CMonsterHunterMaterialDefinition>
-            m_vecEconItems: 0x18, // CUtlVector<CMonsterHunterEconItemDefinition>
-            m_vecCraftableRewards: 0x30, // CUtlVector<CMonsterHunterCraftableRewardDefinition>
-            m_vecHeroes: 0x48, // CUtlVector<CMonsterHunterHeroDefinition>
-            m_vecTradeRecipes: 0x60, // CUtlVector<CMonsterHunterTradeRecipeDefinition>
-            m_mapCodexEntriesLocalized: 0x78, // CUtlOrderedMap<CUtlString,CMonsterHunterHeroCodexDefinition>
-            m_strTokenLocStringPrefix: 0xC8, // CUtlString
-            m_vecSmallRewards: 0xD0, // CUtlVector<CMonsterHunterSmallRewardCategoryDefinition>
-            m_vecHunterRankRewardLine: 0xE8, // CUtlVector<CMonterHunterHunterRankRewardDefinition>
-        },
-        PeriodicResourceID_t: {
-            m_Value: 0x0, // uint32
-        },
-        CNavHullPresetVData: {
-            m_vecNavHulls: 0x0, // CUtlVector<CUtlString>
-        },
-        CSkillFloat: {
-            m_pValue: 0x0, // float32[4]
-        },
-        WaterWheelFrictionScale_t: {
-            m_flFractionOfWheelSubmerged: 0x0, // float32
-            m_flFrictionScale: 0x4, // float32
-        },
-        ragdollhierarchyjoint_t: {
-            parentIndex: 0x0, // int32
-            childIndex: 0x4, // int32
         },
         CSceneEventInfo: {
             m_iLayer: 0x0, // int32
@@ -41985,18 +39984,6 @@ export const Schemas = {
             iBounceCount: 0x4, // int32
             hAlreadyHitList: 0x8, // CUtlVector<CHandle<CBaseEntity>>
         },
-        CDOTABingoGameDefinition: {
-            m_eEvent: 0x0, // EEvent
-            m_unLeagueID: 0x4, // LeagueID_t
-            m_nShuffleCardCost: 0x8, // int32
-            m_nRerollSquareCost: 0xC, // int32
-            m_nUpgradeSquareCost: 0x10, // int32
-            m_nMaxSquareUpgrades: 0x14, // int32
-            m_vecExpectedMatchCountsPerPhase: 0x18, // CUtlVector<float32>
-            m_vecLeaguePhases: 0x30, // CUtlVector<uint32>
-            m_vecValidStatRangesPerPhase: 0x48, // CUtlVector<CUtlVector<int32>>
-            m_mapBingoStatsByName: 0x60, // CUtlOrderedMap<CUtlString,CDOTABingoStatDefinition>
-        },
         SoundeventPathCornerPairNetworked_t: {
             vP1: 0x0, // VectorWS
             vP2: 0xC, // VectorWS
@@ -42018,9 +40005,6 @@ export const Schemas = {
             m_flCloseCaptionDuration: 0xA0, // float32
             m_bUpdatedSoundOrigin: 0xA4, // bool
             m_iszClassName: 0xA8, // CUtlSymbolLarge
-        },
-        style_index_t: {
-            m_Value: 0x0, // uint8
         },
         DOTAAbilityDefinition_t: {
             m_sAbilityName: 0x0, // CUtlString
@@ -42146,49 +40130,13 @@ export const Schemas = {
             nItemID: 0x0, // int32
             flPurchaseTime: 0x4, // float32
         },
-        levellist_t: {
-            m_sMapName: 0x0, // CUtlString
-            m_sLandmarkName: 0x8, // CUtlString
-            m_hEntLandmark: 0x10, // CEntityHandle
-            m_vecLandmarkOrigin: 0x14, // VectorWS
-            m_vecLandmarkAngles: 0x20, // QAngle
-        },
-        OverworldRoomID_t: {
-            m_Value: 0x0, // uint16
-        },
-        locksound_t: {
-            sLockedSound: 0x8, // CGameSoundEventName
-            sUnlockedSound: 0x10, // CGameSoundEventName
-            flwaitSound: 0x18, // GameTime_t
-        },
-        DecalGroupOption_t: {
-            m_hMaterial: 0x0, // CStrongHandleCopyable<InfoForResourceTypeIMaterial2>
-            m_sSequenceName: 0x8, // CGlobalSymbol
-            m_flProbability: 0x10, // float32
-            m_bEnableAngleBetweenNormalAndGravityRange: 0x14, // bool
-            m_flMinAngleBetweenNormalAndGravity: 0x18, // float32
-            m_flMaxAngleBetweenNormalAndGravity: 0x1C, // float32
-        },
         CAnimGraphControllerManager: {
             m_controllers: 0x0, // CUtlVector<CAnimGraphControllerBase*>
             m_bGraphBindingsCreated: 0x90, // bool
         },
-        item_definition_index_t: {
-            m_Value: 0x0, // uint32
-        },
-        CMonterHunterHunterRankRewardDefinition: {
-            m_nHunterRank: 0x0, // int32
-            m_strLocRankName: 0x8, // CUtlString
-            m_unActionID: 0x10, // uint32
-        },
         DOTACavernCrawlMapResult_t: {
             m_nCompletedPathID: 0x0, // CavernCrawlPathID_t
             m_nClaimedRoomID: 0x1, // CavernCrawlRoomID_t
-        },
-        CCopyRecipientFilter: {
-            m_Flags: 0x8, // int32
-            m_Recipients: 0x10, // CUtlVector<CPlayerSlot>
-            m_slotPlayerExcludedDueToPrediction: 0x30, // CPlayerSlot
         },
         CFloatMovingAverage: {
         },
@@ -42202,31 +40150,11 @@ export const Schemas = {
             nTick: 0x18, // GameTick_t
             hPathMover: 0x1C, // CHandle<CPathMover>
         },
-        CSmoothFunc: {
-            m_flSmoothAmplitude: 0x8, // float32
-            m_flSmoothBias: 0xC, // float32
-            m_flSmoothDuration: 0x10, // float32
-            m_flSmoothRemainingTime: 0x14, // float32
-            m_nSmoothDir: 0x18, // int32
-        },
-        LeagueNodeID_t: {
-            m_Value: 0x0, // uint16
-        },
         IHasAttributes: {
-        },
-        OverworldTokenID_t: {
-            m_Value: 0x0, // uint8
         },
         sAbilityHistory: {
             flAppliedTime: 0x0, // GameTime_t
             pAbility: 0x8, // CDOTABaseAbility*
-        },
-        ragdoll_t: {
-            list: 0x0, // CUtlVector<ragdollelement_t>
-            hierarchyJoints: 0x18, // CUtlVector<ragdollhierarchyjoint_t>
-            boneIndex: 0x30, // CUtlVector<int32>
-            allowStretch: 0x48, // bool
-            unused: 0x49, // bool
         },
         HullFlags_t: {
             m_bHull_Human: 0x0, // bool
@@ -42243,72 +40171,18 @@ export const Schemas = {
         CNavFlags: {
             m_Flags: 0x0, // uint64
         },
-        ISkeletonAnimationController: {
-        },
-        RotatorHistoryEntry_t: {
-            qInvChange: 0x0, // Quaternion
-            flTimeRotationStart: 0x10, // GameTime_t
-        },
         CNetworkOriginQuantizedVectorWS: {
             m_vecX: 0x10, // CNetworkedQuantizedFloat
             m_vecY: 0x18, // CNetworkedQuantizedFloat
             m_vecZ: 0x20, // CNetworkedQuantizedFloat
-        },
-        item_steam_cache_version_t: {
-            m_Value: 0x0, // uint8
         },
         sSpiritDef: {
             pSpirit: 0x0, // CDOTA_BaseNPC*
             nSpiritFXIndex: 0x8, // ParticleIndex_t
             nSpiritState: 0xC, // int32
         },
-        FantasyCraftingShapeData_t: {
-            m_unShapeID: 0x0, // FantasyGemShape_t
-            m_eShapeBehavior: 0x4, // EFantasyShapeBehavior
-            m_sLocName: 0x8, // CUtlString
-            m_sLocExplanation: 0x10, // CUtlString
-        },
-        CMotorController: {
-            m_speed: 0x8, // float32
-            m_maxTorque: 0xC, // float32
-            m_axis: 0x10, // Vector
-            m_inertiaFactor: 0x1C, // float32
-        },
-        CDOTATrophyDefinition: {
-            m_nID: 0x8, // uint16
-            m_bObtainable: 0xA, // bool
-            m_bShowProgressBar: 0xB, // bool
-            m_bShowInitialEarn: 0xC, // bool
-            m_sCreationDate: 0x10, // CUtlString
-            m_nBadgePointsPerUnit: 0x1C, // uint32
-            m_nUnitsPerBadgePoint: 0x20, // uint32
-            m_nMaxUnitsForBadgePoints: 0x24, // uint32
-            m_nSortTier: 0x28, // uint32
-            m_sLocCategory: 0x30, // CUtlString
-            m_sLocName: 0x38, // CUtlString
-            m_sLocDescription: 0x40, // CUtlString
-            m_sLocUnitsPluralizable: 0x48, // CUtlString
-            m_vecLevels: 0x50, // CUtlVector<TrophyLevel_t>
-        },
         CSimTimer: {
             m_flInterval: 0x8, // float32
-        },
-        CComicBook: {
-            m_nId: 0x0, // int32
-            m_Name: 0x8, // CUtlString
-            m_strNameToken: 0x10, // CUtlString
-            m_CoverImage: 0x18, // CPanoramaImageName
-            m_nNumberOfImages: 0x28, // int32
-            m_URLForImages: 0x30, // CUtlString
-            m_nNumDigitsInFilename: 0x38, // int32
-            m_ImageFileExtension: 0x40, // CUtlString
-            m_AllowedLanguages: 0x48, // CUtlVector<ELanguage>
-            m_LanguageOverrideMap: 0x60, // CUtlOrderedMap<ELanguage,ELanguage>
-            m_StartPages: 0x88, // CUtlVector<int32>
-            m_nCacheBustingVersion: 0xA0, // int32
-        },
-        CavernCrawlMapVariant_t: {
-            m_Value: 0x0, // uint8
         },
         SummaryTakeDamageInfo_t: {
             nSummarisedCount: 0x0, // int32
@@ -42319,53 +40193,11 @@ export const Schemas = {
         INavObstacle: {
             m_nId: 0x8, // uint64
         },
-        CMonsterHunterHeroCodexDefinition: {
-            m_strLocHeroName: 0x0, // CVDataLocalizedToken
-            m_strLocFieldNotes: 0x10, // CVDataLocalizedToken
-            m_strLocNonHeroName: 0x20, // CVDataLocalizedToken
-            m_strLocPersonaFieldNotes: 0x30, // CVDataLocalizedToken
-            m_strNonHeroStickerName: 0x40, // CUtlString
-            m_strNonHeroStickerDisplayName: 0x48, // CUtlString
-            m_bAlwaysUnlocked: 0x50, // bool
-            m_bIsHero: 0x51, // bool
-            m_bIsForeword: 0x52, // bool
-            m_nUnlocksAtCodexCompletionCount: 0x54, // int32
-            m_eAuthor: 0x6C, // EMonsterHunterCodexAuthor
-            m_ePersonaAuthor: 0x70, // EMonsterHunterCodexAuthor
-        },
-        OverworldTarotCardID_t: {
-            m_Value: 0x0, // uint8
-        },
-        entitytable_t: {
-            id: 0x0, // int32
-            edictindex: 0x4, // CEntityIndex
-            saveentityindex: 0x8, // CEntityIndex
-            bWasSaved: 0x14, // bool
-            flags: 0x18, // SaveRestoreTableFlags_t
-            classname: 0x20, // CUtlSymbolLarge
-            globalname: 0x28, // CUtlSymbolLarge
-            entityname: 0x30, // CUtlSymbolLarge
-            landmarkModelSpace: 0x38, // Vector
-            m_pPrecacheEntityKeys: 0x48, // CEntityKeyValues*
-        },
         sPendingTreeModelChange: {
             nTeam: 0x0, // int32
             nIndex: 0x4, // int32
             strModel: 0x8, // CUtlString
             nChangeToken: 0x10, // int32
-        },
-        TrackedStatCombatQueryData_t: {
-            strCombatQueryPath: 0x0, // CUtlString
-        },
-        AI_MotorServices_DebugSnapshotData_t__MotorPathWaypoint_t: {
-            position: 0x0, // VectorWS
-            nav_type: 0xC, // uint32
-            flags: 0x10, // uint32
-        },
-        CMonsterHunterSmallRewardCategoryDefinition: {
-            m_eCategory: 0x0, // EMonsterHunterSmallRewardCategory
-            m_unActionID: 0x4, // uint32
-            m_strLocName: 0x8, // CUtlString
         },
         CDotaEntityFilterFlags: {
             m_bInvertFilter: 0x0, // bool
@@ -42383,90 +40215,18 @@ export const Schemas = {
             m_bIsCreep: 0x18, // bool
             m_bIsLaneCreep: 0x19, // bool
         },
-        CRR_Response: {
-            m_Type: 0x0, // uint8
-            m_szResponseName: 0x1, // char[192]
-            m_szMatchingRule: 0xC1, // char[128]
-            m_Params: 0x160, // ResponseParams
-            m_fMatchScore: 0x180, // float32
-            m_bAnyMatchingRulesInCooldown: 0x184, // bool
-            m_szSpeakerContext: 0x188, // char*
-            m_szWorldContext: 0x190, // char*
-            m_Followup: 0x198, // ResponseFollowup
-            m_recipientFilter: 0x1CA, // CUtlSymbol
-        },
         CVectorExponentialMovingAverage: {
-        },
-        TrackedStatID_t: {
-            m_Value: 0x0, // uint32
-        },
-        CConstantForceController: {
-            m_linear: 0xC, // Vector
-            m_angular: 0x18, // RotationVector
-            m_linearSave: 0x24, // Vector
-            m_angularSave: 0x30, // RotationVector
-        },
-        WaterWheelDrag_t: {
-            m_flFractionOfWheelSubmerged: 0x0, // float32
-            m_flWheelDrag: 0x4, // float32
-        },
-        CTakeDamageInfo: {
-            m_vecDamageForce: 0x8, // Vector
-            m_vecDamagePosition: 0x14, // VectorWS
-            m_vecReportedPosition: 0x20, // VectorWS
-            m_vecDamageDirection: 0x2C, // Vector
-            m_hInflictor: 0x38, // CHandle<CBaseEntity>
-            m_hAttacker: 0x3C, // CHandle<CBaseEntity>
-            m_hAbility: 0x40, // CHandle<CBaseEntity>
-            m_flDamage: 0x44, // float32
-            m_flTotalledDamage: 0x48, // float32
-            m_bitsDamageType: 0x4C, // DamageTypes_t
-            m_iDamageCustom: 0x50, // int32
-            m_iAmmoType: 0x54, // AmmoIndex_t
-            m_flOriginalDamage: 0x60, // float32
-            m_bShouldBleed: 0x64, // bool
-            m_bShouldSpark: 0x65, // bool
-            m_nDamageFlags: 0x70, // TakeDamageFlags_t
-            m_bitsDotaDamageType: 0x78, // int32
-            m_nDotaDamageCategory: 0x7C, // int32
-            m_flCombatLogCreditFactor: 0x80, // float32
-            m_iRecord: 0x84, // int16
-            m_iHitGroupId: 0x88, // HitGroup_t
-            m_DestructibleHitGroupRequests: 0xB0, // CUtlLeanVector<DestructiblePartDamageRequest_t>
-            m_bInTakeDamageFlow: 0xC0, // bool
-        },
-        CRandSimTimer: {
-            m_flMinInterval: 0x8, // float32
-            m_flMaxInterval: 0xC, // float32
-        },
-        ChatWheelMessageID_t: {
-            m_Value: 0x0, // uint32
         },
         CDOTA_ArcanaDataEntity_Base: {
             __m_pChainEntity: 0x8, // CNetworkVarChainer
-        },
-        CraftworksID_t: {
-            m_Value: 0x0, // uint8
         },
         CDOTAMusicProbabilityEntry: {
             m_flProbabilityElements: 0x8, // CUtlVector<float32>
             m_flProbability: 0x20, // float32
         },
-        BlessingID_t: {
-            m_Value: 0x0, // int32
-        },
-        CRelativeLocation: {
-            m_Type: 0x18, // RelativeLocationType_t
-            m_vRelativeOffset: 0x1C, // Vector
-            m_vWorldSpacePos: 0x28, // VectorWS
-            m_hEntity: 0x34, // CHandle<CBaseEntity>
-        },
         WeightedSuggestion_t: {
             nSuggestion: 0x0, // int32
             fWeight: 0x4, // float32
-        },
-        AttackRecord_t: {
-            m_Value: 0x0, // uint16
         },
         sRevenantDef: {
             pRevenant: 0x0, // CDOTA_BaseNPC*
@@ -42500,24 +40260,6 @@ export const Schemas = {
             lo: 0x0, // VectorWS
             hi: 0xC, // VectorWS
         },
-        sndopvarlatchdata_t: {
-            m_iszStack: 0x8, // CUtlSymbolLarge
-            m_iszOperator: 0x10, // CUtlSymbolLarge
-            m_iszOpvar: 0x18, // CUtlSymbolLarge
-            m_flVal: 0x20, // float32
-            m_vPos: 0x24, // VectorWS
-        },
-        FantasyTeamData_t: {
-            m_unTeamID: 0x0, // uint32
-            m_strTeamName: 0x8, // CUtlString
-            m_eRegion: 0x10, // ELeagueRegion
-        },
-        PrecipitationFilter_t: {
-            m_flMaxRadius: 0x0, // float32
-        },
-        HeroPersona_t: {
-            m_Value: 0x0, // int8
-        },
         sSpiritInfo: {
             vTargetLoc: 0x4, // VectorWS
             hTarget: 0x10, // CHandle<CBaseEntity>
@@ -42528,26 +40270,9 @@ export const Schemas = {
             nFXAmbientIndex: 0x24, // ParticleIndex_t
             hDeadHero: 0x28, // CHandle<CBaseEntity>
         },
-        FantasyPeriod_t: {
-            m_Value: 0x0, // uint32
-        },
         IEconItemInterface: {
         },
         INextBotEventResponder: {
-        },
-        FantasyCraftSetupData_t: {
-            m_unID: 0x0, // FantasyCraftDataID_t
-            m_vecPrefixes: 0x8, // CUtlVector<FantasyCraftingTitleData_t>
-            m_vecSuffixes: 0x20, // CUtlVector<FantasyCraftingTitleData_t>
-            m_vecGems: 0x38, // CUtlVector<FantasyCraftingGemData_t>
-            m_vecShapes: 0x50, // CUtlVector<FantasyCraftingShapeData_t>
-            m_vecQualities: 0x68, // CUtlVector<FantasyCraftingQualityData_t>
-            m_vecTablets: 0x80, // CUtlVector<FantasyCraftingTabletData_t>
-            m_vecOperations: 0x98, // CUtlVector<FantasyCraftOperationBucket_t>
-        },
-        PathMoverEntitySpawn: {
-            hMover: 0x0, // CHandle<CFuncMover>
-            vecOtherEntities: 0x8, // CUtlVector<CHandle<CBaseEntity>>
         },
         CMultiplayer_Expresser: {
             m_bAllowMultipleScenes: 0xA0, // bool
@@ -42580,40 +40305,16 @@ export const Schemas = {
             m_bStartingRoom: 0x15, // bool
             m_bFinalTreasure: 0x16, // bool
         },
-        ParticleIndex_t: {
-            m_Value: 0x0, // int32
-        },
         CAI_ExpresserWithFollowup: {
-        },
-        BlessingPath_t: {
-            Node1: 0x8, // CUtlString
-            Node2: 0x18, // CUtlString
-            bOneWay: 0x24, // bool
-            flCircleInvRadius: 0x28, // float32
-            color: 0x2C, // Color
         },
         CTakeDamageSummaryScopeGuard: {
             m_vecSummaries: 0x8, // CUtlVector<SummaryTakeDamageInfo_t*>
-        },
-        CBaseEventDefinition: {
-            m_bMustBeOwned: 0x8, // bool
-            m_unDefaultEventPoints: 0xC, // uint32
-            m_unEventPointsPerLevel: 0x10, // uint32
         },
         CDOTA_ReconnectInfo: {
             m_playerSteamId: 0x0, // uint64
             m_iTeam: 0x8, // int32
             m_iUnitControlled: 0xC, // CEntityIndex
             m_bWantsRandomHero: 0x10, // bool
-        },
-        INavPathCostAreaFilter: {
-        },
-        CNmEventConsumerSound: {
-        },
-        CNmEventConsumerLegacy: {
-        },
-        HeroFacetKey_t: {
-            m_Value: 0x0, // uint64
         },
         CreatureStateData_t: {
             pszName: 0x0, // char*
@@ -42622,49 +40323,8 @@ export const Schemas = {
             flSupport: 0x10, // float32
             flRoamDistance: 0x14, // float32
         },
-        DestructiblePartDamageRequest_t: {
-            m_nHitGroup: 0x0, // HitGroup_t
-            m_nDamageLevel: 0x4, // int32
-            m_nDesiredHealth: 0x8, // uint16
-            m_nDestroyFlags: 0xC, // EDestructibleParts_DestroyParameterFlags
-            m_nDamageType: 0x10, // DamageTypes_t
-            m_flBreakDamage: 0x14, // float32
-            m_flBreakDamageRadius: 0x18, // float32
-            m_hAttacker: 0x1C, // CHandle<CBaseEntity>
-            m_vWsBreakDamageOrigin: 0x20, // VectorWS
-            m_vWsBreakDamageForce: 0x2C, // Vector
-        },
-        CMonsterHunterEconItemDefinition: {
-            m_unEconItemID: 0x0, // MonsterHunterEconItemID_t
-            m_strEconItemNavigationName: 0x8, // CUtlString
-            m_strCustomClass: 0x10, // CUtlString
-            m_unPreviewItemIndex: 0x18, // item_definition_index_t
-            m_nPreviewPremiumCosmeticGroupIndex: 0x1C, // int32
-            m_vecCosmeticSkinGroups: 0x20, // CUtlVector<CMonsterHunterCosmeticSkinGroup>
-            m_flPreviewModelRotation: 0x38, // float32
-            m_flPreviewModelZoom: 0x3C, // float32
-            m_bHasDetailedView: 0x40, // bool
-            m_bCosmeticGroupsNeedToBeCraftedInOrder: 0x41, // bool
-        },
         CInButtonState: {
             m_pButtonStates: 0x8, // uint64[3]
-        },
-        FantasyCraftDataID_t: {
-            m_Value: 0x0, // uint16
-        },
-        FantasyCraftingTabletData_t: {
-            m_unID: 0x0, // FantasyTabletID_t
-            m_eRole: 0x4, // Fantasy_Roles
-            m_vecGemSlots: 0x8, // CUtlVector<FantasyCraftingGemSlotData_t>
-        },
-        CCraftworksRecipeTierDefinition: {
-            m_unRecipeTierID: 0x0, // CraftworksRecipeTierID_t
-            m_strLocName: 0x8, // CUtlString
-            m_strUnlockAction: 0x28, // CUtlString
-            m_strUnlockLocDesc: 0x30, // CUtlString
-            m_strUnlockLocProgress: 0x38, // CUtlString
-            m_strCraftAction: 0x40, // CUtlString
-            m_strTierClass: 0x48, // CUtlString
         },
         SoundeventBoxHelperNetworked_t: {
             vOrigin: 0x0, // VectorWS
@@ -42733,9 +40393,6 @@ export const Schemas = {
             m_bTrackedRecord: 0x11C, // bool
             m_bDamageImpacted: 0x11D, // bool
         },
-        OverworldHeroID_t: {
-            m_Value: 0x0, // uint8
-        },
         sGlaiveInfo: {
             iAttackIndex: 0x0, // int32
             iBounceCount: 0x4, // int32
@@ -42750,126 +40407,16 @@ export const Schemas = {
             m_vecY: 0x20, // CNetworkedQuantizedFloat
             m_vecZ: 0x28, // CNetworkedQuantizedFloat
         },
-        CNmEventConsumerParticle: {
-        },
-        CNavHullVData: {
-            m_bAgentEnabled: 0x0, // bool
-            m_agentRadius: 0x4, // float32
-            m_agentHeight: 0x8, // float32
-            m_agentShortHeightEnabled: 0xC, // bool
-            m_agentShortHeight: 0x10, // float32
-            m_agentCrawlEnabled: 0x14, // bool
-            m_agentCrawlHeight: 0x18, // float32
-            m_agentMaxClimb: 0x1C, // float32
-            m_agentMaxSlope: 0x20, // int32
-            m_agentMaxJumpDownDist: 0x24, // float32
-            m_agentMaxJumpHorizDistBase: 0x28, // float32
-            m_agentMaxJumpUpDist: 0x2C, // float32
-            m_agentBorderErosion: 0x30, // int32
-            m_flowMapGenerationEnabled: 0x34, // bool
-            m_flowMapNodeMaxRadius: 0x38, // float32
-        },
-        AI_DefaultNPC_DebugSnapshotData_t: {
-            s_npc_current_ability: 0x8, // CGlobalSymbol
-            s_npc_tactic_current: 0x10, // CGlobalSymbol
-            s_npc_tactic_phase: 0x18, // CGlobalSymbol
-            tactic_interrupt_conditions: 0x20, // CUtlVector<CGlobalSymbol>
-            path_query: 0x38, // AI_DefaultNPC_DebugSnapshotData_t::PathQuery_t
-            path_queries_speculative: 0x60, // CUtlVector<AI_DefaultNPC_DebugSnapshotData_t::PathQuery_t>
-        },
-        CNavPathCost: {
-            m_bAllowLadders: 0x10, // bool
-            m_bCanFly: 0x11, // bool
-            m_bCanSwim: 0x12, // bool
-            m_flWaterToGroundMaxHeight: 0x14, // float32
-            m_flGroundToWaterMaxHeight: 0x18, // float32
-            m_flGroundToWaterTransitionDistance: 0x1C, // float32
-            m_flWaterToGroundTransitionDistance: 0x20, // float32
-            m_flFlyingTransitionTolerance: 0x24, // float32
-            m_bOptimizeFlySpacePathfinds: 0x28, // bool
-            m_bStringPullFlySpacePathfinds: 0x29, // bool
-            m_bSupportsTransitions: 0x2A, // bool
-            m_flTransitionPenalty: 0x2C, // float32
-        },
-        SoundOpvarTraceResult_t: {
-            vPos: 0x0, // VectorWS
-            bDidHit: 0xC, // bool
-            flDistSqrToCenter: 0x10, // float32
-        },
-        ActorMapping_t: {
-            m_sActorName: 0x0, // CUtlString
-            m_hEntity: 0x8, // CHandle<CBaseEntity>
-        },
-        TrophyLevel_t: {
-            m_nScore: 0x0, // uint32
-            m_nBadgePoints: 0x4, // int32
-            m_sImage: 0x8, // CPanoramaImageName
-        },
         CNavVolumeCalculatedVector: {
-        },
-        FantasyOperationID_t: {
-            m_Value: 0x0, // uint16
-        },
-        SPingWheelMessageDefinition: {
-            nID: 0xC, // PingWheelMessageID_t
-            nAssociatedID: 0x10, // PingWheelMessageID_t
-            sLocName: 0x18, // CUtlString
-            sParticle: 0x20, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            sParticleTarget: 0x100, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            color: 0x1E0, // Color
-            sImage: 0x1E8, // CPanoramaImageName
-            sSound: 0x1F8, // CUtlString
-            sChat: 0x200, // CUtlString
-            sChatWithTarget: 0x208, // CUtlString
-            eUnlockEvent: 0x210, // EEvent
-            nUnlockEventActionID: 0x214, // uint32
-            m_flMinimapDuration: 0x218, // float32
-            m_bFlashTargetIcon: 0x21C, // bool
-            m_minimapIconInfo: 0x220, // PingMinimapIconInfo_t
-            m_vecAdditionalMinimapLayers: 0x248, // CUtlVector<PingMinimapIconLayerInfo_t>
-            m_particleInfo: 0x260, // PingParticleInfo_t
-            m_bRequiresDotaPlus: 0x274, // bool
-            m_bIsBindable: 0x275, // bool
-        },
-        CCraftworksComponentDefinition: {
-            m_unComponentID: 0x0, // CraftworksComponentID_t
-            m_strComponentLocName: 0x8, // CUtlString
-            m_strComponentLocDesc: 0x10, // CUtlString
-            m_strComponentImageSmall: 0x18, // CPanoramaImageName
-            m_strComponentImageMedium: 0x28, // CPanoramaImageName
-            m_strSound: 0x38, // CUtlString
         },
         CLocalNPCObstructionsCache: {
             m_nLastUpdatedTick: 0x0, // GameTick_t
             m_flRadius: 0x4, // float32
             m_hCachedNPCs: 0x8, // CUtlVector<CHandle<CDOTA_BaseNPC>>
         },
-        CMonsterHunterMaterialDropDefinition: {
-            m_strMaterialName: 0x0, // CUtlString
-            m_nAmount: 0x8, // int32
-        },
-        CNmEventConsumerBodyGroup: {
-        },
-        CEmptyGraphController: {
-        },
-        ModelConfigHandle_t: {
-            m_Value: 0x0, // uint32
-        },
-        CEntitySubclassVDataBase: {
-        },
-        CBreakableStageHelper: {
-            m_nCurrentStage: 0x8, // int32
-            m_nStageCount: 0xC, // int32
-        },
         CNavVolumeBreadthFirstSearch: {
             m_vStartPos: 0xA8, // VectorWS
             m_flSearchDist: 0xB4, // float32
-        },
-        FantasyCraftOperationBucket_t: {
-            m_unOperationCount: 0x0, // uint16
-            m_vecOperations: 0x8, // CUtlVector<FantasyCraftOperation_t>
-        },
-        dynpitchvol_t: {
         },
         CDOTA_Tree: {
             m_bStanding: 0x18, // bool
@@ -42879,30 +40426,11 @@ export const Schemas = {
             m_iTreePlanterTeam: 0x1C, // int32
             m_unOccluderID: 0x20, // uint32
         },
-        AI_Navigator_DebugSnapshotData_t__Waypoint_t: {
-            position: 0x0, // VectorWS
-            nav_type: 0xC, // uint32
-            flags: 0x10, // uint32
-            is_pathcorner: 0x14, // bool
-        },
-        CTeamTrackedStatDefinition: {
-            m_unStatID: 0x8, // TrackedStatID_t
-            m_eStatImpl: 0xC, // ETeamTrackedStatImpl
-            m_expressionData: 0x10, // TrackedStatExpressionData_t
-            m_aggregateData: 0x20, // TrackedStatAggregateData_t
-        },
-        attrib_definition_index_t: {
-            m_Value: 0x0, // uint16
-        },
         CavernCrawlPath_t: {
             m_nStartingRoomID: 0x0, // CavernCrawlRoomID_t
             m_nEndingRoomID: 0x1, // CavernCrawlRoomID_t
             m_pCSSClass: 0x8, // char*
             m_bCannotBeSwapped: 0x10, // bool
-        },
-        CTestPulseIOComponent: {
-            m_ComponentData: 0x8, // CUtlString
-            m_OnComponentTestFunc: 0x10, // CEntityOutputTemplate<CUtlSymbolLarge>
         },
         WearableData_t: {
             nItemDef: 0x0, // item_definition_index_t
@@ -42912,62 +40440,16 @@ export const Schemas = {
         },
         IRagdoll: {
         },
-        hudtextparms_t: {
-            color1: 0x0, // Color
-            color2: 0x4, // Color
-            effect: 0x8, // uint8
-            channel: 0x9, // uint8
-            x: 0xC, // float32
-            y: 0x10, // float32
-        },
-        CAnimGraphControllerBase: {
-            m_hExternalGraph: 0x4C, // ExternalAnimGraphHandle_t
-        },
         CNetworkVelocityVector: {
             m_vecX: 0x10, // CNetworkedQuantizedFloat
             m_vecY: 0x18, // CNetworkedQuantizedFloat
             m_vecZ: 0x20, // CNetworkedQuantizedFloat
         },
-        CDOTABattleReportHighlightTier_t: {
-            m_eTier: 0x0, // CMsgBattleReport_HighlightTier
-            m_vecCompareContexts: 0x8, // CUtlVector<CDOTABattleReportHighlightCompareContext_t>
-        },
-        CDestructiblePart_DamageLevel: {
-            m_sName: 0x0, // CUtlString
-            m_sBreakablePieceName: 0x8, // CGlobalSymbol
-            m_nBodyGroupValue: 0x10, // int32
-            m_nHealth: 0x14, // CSkillInt
-            m_flCriticalDamagePercent: 0x24, // float32
-            m_nDamagePassthroughType: 0x28, // EDestructiblePartDamagePassThroughType
-            m_nDestructionDeathBehavior: 0x2C, // DestructiblePartDestructionDeathBehavior_t
-            m_sCustomDeathHandshake: 0x30, // CGlobalSymbol
-            m_bShouldDestroyOnDeath: 0x38, // bool
-            m_flDeathDestroyTime: 0x3C, // CRangeFloat
-        },
         CNavVolumeAll: {
-        },
-        CMonsterHunterCosmeticSkinGroup: {
-            m_strSetName: 0x0, // CUtlString
-            m_vecActionIDSlots: 0x8, // CUtlVector<uint32>
-            m_bRequiresPremium: 0x20, // bool
-            m_bShowPremiumPurchaseAsCrafting: 0x21, // bool
-            m_strCustomClass: 0x28, // CUtlString
-            m_strCustomStyleSelectAnimation: 0x30, // CUtlString
-            m_flAnimationFreezeTime: 0x38, // float32
-            m_flCustomStyleSelectRotation: 0x3C, // float32
-            m_unPreviewItemIndex: 0x40, // item_definition_index_t
         },
         CNavVolumeSphere: {
             m_vCenter: 0x78, // VectorWS
             m_flRadius: 0x84, // float32
-        },
-        Relationship_t: {
-            disposition: 0x0, // Disposition_t
-            priority: 0x4, // int32
-        },
-        TrackedStatAggregateData_t: {
-            m_strIndividualStat: 0x0, // CUtlString
-            m_eAggregate: 0x8, // ETrackedStatAggregate
         },
     },
 };

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: materialsystem2.dll
-        // Class count: 15
+        // Class count: 7
         // Enum count: 5
         namespace materialsystem2_dll {
             // Alignment: 4
@@ -50,49 +50,6 @@ namespace source2_dumper {
                 HORIZ_JUSTIFICATION_NONE = 0x3
             };
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace MaterialParam_t {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            namespace MaterialParamVector_t {
-                constexpr std::ptrdiff_t m_value = 0x8; // Vector4D
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            namespace MaterialParamString_t {
-                constexpr std::ptrdiff_t m_value = 0x8; // CUtlString
-            }
-            // Parent: None
             // Field count: 15
             //
             // Metadata:
@@ -116,18 +73,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_fogScatteringParams = 0x124; // PostProcessingFogScatteringParameters_t
                 constexpr std::ptrdiff_t m_bHasLocalExposureParams = 0x144; // bool
                 constexpr std::ptrdiff_t m_localExposureParams = 0x148; // PostProcessingLocalExposureParameters_t
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            namespace MaterialParamInt_t {
-                constexpr std::ptrdiff_t m_nValue = 0x8; // int32
             }
             // Parent: None
             // Field count: 6
@@ -198,43 +143,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_fWaterDepthBlurRadius = 0x1C; // float32
             }
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            namespace MaterialParamBuffer_t {
-                constexpr std::ptrdiff_t m_value = 0x8; // CUtlBinaryBlock
-            }
-            // Parent: None
-            // Field count: 14
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace MaterialResourceData_t {
-                constexpr std::ptrdiff_t m_materialName = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_shaderName = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_intParams = 0x10; // CUtlVector<MaterialParamInt_t>
-                constexpr std::ptrdiff_t m_floatParams = 0x28; // CUtlVector<MaterialParamFloat_t>
-                constexpr std::ptrdiff_t m_vectorParams = 0x40; // CUtlVector<MaterialParamVector_t>
-                constexpr std::ptrdiff_t m_textureParams = 0x58; // CUtlVector<MaterialParamTexture_t>
-                constexpr std::ptrdiff_t m_dynamicParams = 0x70; // CUtlVector<MaterialParamBuffer_t>
-                constexpr std::ptrdiff_t m_dynamicTextureParams = 0x88; // CUtlVector<MaterialParamBuffer_t>
-                constexpr std::ptrdiff_t m_intAttributes = 0xA0; // CUtlVector<MaterialParamInt_t>
-                constexpr std::ptrdiff_t m_floatAttributes = 0xB8; // CUtlVector<MaterialParamFloat_t>
-                constexpr std::ptrdiff_t m_vectorAttributes = 0xD0; // CUtlVector<MaterialParamVector_t>
-                constexpr std::ptrdiff_t m_textureAttributes = 0xE8; // CUtlVector<MaterialParamTexture_t>
-                constexpr std::ptrdiff_t m_stringAttributes = 0x100; // CUtlVector<MaterialParamString_t>
-                constexpr std::ptrdiff_t m_renderAttributesUsed = 0x118; // CUtlVector<CUtlString>
-            }
-            // Parent: None
             // Field count: 16
             //
             // Metadata:
@@ -260,15 +168,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_vBlurTint = 0x4C; // Vector[5]
             }
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // ,
-            namespace MaterialParamFloat_t {
-                constexpr std::ptrdiff_t m_flValue = 0x8; // float32
-            }
-            // Parent: None
             // Field count: 4
             //
             // Metadata:
@@ -279,16 +178,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_fHighlightOffsetEV = 0x4; // float32
                 constexpr std::ptrdiff_t m_fSigma = 0x8; // float32
                 constexpr std::ptrdiff_t m_fBoostLocalContrast = 0xC; // float32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // ,
-            namespace MaterialParamTexture_t {
-                constexpr std::ptrdiff_t m_pValue = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
             }
         }
     }

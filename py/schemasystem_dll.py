@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-17 12:11:28.864356600 +07:00
+# 2026-09-24 17:35:37.601127800 +07:00
 
 class Schemas:
     # Module: schemasystem.dll
@@ -93,8 +93,6 @@ class Schemas:
             TRS_FALSE = 0x0
             TRS_TRUE = 0x1
             TRS_NONE = 0x2
-        class InfoForResourceTypeCResourceManifestInternal:
-            pass
         class CSchemaSystemInternalRegistration:
             m_Vector2D = 0x0 # Vector2D
             m_Vector = 0x8 # Vector
@@ -119,14 +117,3 @@ class Schemas:
             m_stringTokenWithStorage = 0x148 # CUtlStringTokenWithStorage
             m_ResourceTypes = 0x160 # CResourceArray<CResourcePointer<CResourceString>>
             m_KV3 = 0x168 # KeyValues3
-        class CExampleSchemaVData_PolymorphicDerivedA:
-            m_nDerivedA = 0x10 # int32
-        class CExampleSchemaVData_PolymorphicBase:
-            m_nBase = 0x8 # int32
-        class CExampleSchemaVData_PolymorphicDerivedB:
-            m_nDerivedB = 0x10 # int32
-        class ResourceId_t:
-            m_Value = 0x0 # uint64
-        class CExampleSchemaVData_Monomorphic:
-            m_nExample1 = 0x0 # int32
-            m_nExample2 = 0x4 # int32

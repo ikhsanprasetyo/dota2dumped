@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: schemasystem.dll
-    // Class count: 7
+    // Class count: 1
     // Enum count: 2
     public static class SchemasystemDll {
         // Alignment: 1
@@ -102,27 +102,6 @@ namespace Source2Dumper.Schemas {
             TRS_NONE = 0x2
         }
         // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MResourceTypeForInfoType
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // <invalid>
-        // char
-        // uint8
-        // uint16
-        // uint32
-        // uint64
-        // float64
-        // invalid
-        // bool
-        // uint
-        // string
-        // array
-        public static class InfoForResourceTypeCResourceManifestInternal {
-        }
-        // Parent: None
         // Field count: 23
         public static class CSchemaSystemInternalRegistration {
             public const nint m_Vector2D = 0x0; // Vector2D
@@ -148,87 +127,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_stringTokenWithStorage = 0x148; // CUtlStringTokenWithStorage
             public const nint m_ResourceTypes = 0x160; // CResourceArray<CResourcePointer<CResourceString>>
             public const nint m_KV3 = 0x168; // KeyValues3
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // void
-        // int8
-        // int16
-        // int32
-        // int64
-        // float32
-        // bool
-        // null
-        // int
-        // double
-        // binary_blob
-        // table
-        public static class CExampleSchemaVData_PolymorphicDerivedA {
-            public const nint m_nDerivedA = 0x10; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CExampleSchemaVData_PolymorphicBase {
-            public const nint m_nBase = 0x8; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // void
-        // int8
-        // int16
-        // int32
-        // int64
-        // float32
-        // bool
-        // null
-        // int
-        // double
-        // binary_blob
-        // table
-        public static class CExampleSchemaVData_PolymorphicDerivedB {
-            public const nint m_nDerivedB = 0x10; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // vrman
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // void
-        // int8
-        // int16
-        // int32
-        // int64
-        // float32
-        // bool
-        // null
-        // int
-        // double
-        // binary_blob
-        // table
-        public static class ResourceId_t {
-            public const nint m_Value = 0x0; // uint64
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CExampleSchemaVData_Monomorphic {
-            public const nint m_nExample1 = 0x0; // int32
-            public const nint m_nExample2 = 0x4; // int32
         }
     }
 }

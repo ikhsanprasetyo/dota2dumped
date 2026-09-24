@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 package schemas
 
@@ -29,19 +29,6 @@ const (
     WorldrendererDll_CEntityInstance_m_iszPrivateVScripts = 0x8 // CUtlSymbolLarge
     WorldrendererDll_CEntityInstance_m_pEntity = 0x10 // CEntityIdentity*
     WorldrendererDll_CEntityInstance_m_CScriptComponent = 0x28 // CScriptComponent*
-    WorldrendererDll_CScriptComponent_m_scriptClassName = 0x30 // CUtlSymbolLarge
-    WorldrendererDll_CEntityIdentity_m_nameStringTableIndex = 0x14 // int32
-    WorldrendererDll_CEntityIdentity_m_name = 0x18 // CUtlSymbolLarge
-    WorldrendererDll_CEntityIdentity_m_designerName = 0x20 // CUtlSymbolLarge
-    WorldrendererDll_CEntityIdentity_m_flags = 0x30 // uint32
-    WorldrendererDll_CEntityIdentity_m_worldGroupId = 0x38 // WorldGroupId_t
-    WorldrendererDll_CEntityIdentity_m_fDataObjectTypes = 0x3C // uint32
-    WorldrendererDll_CEntityIdentity_m_PathIndex = 0x40 // ChangeAccessorFieldPathIndex_t
-    WorldrendererDll_CEntityIdentity_m_pAttributes = 0x48 // CEntityAttributeTable*
-    WorldrendererDll_CEntityIdentity_m_pPrev = 0x50 // CEntityIdentity*
-    WorldrendererDll_CEntityIdentity_m_pNext = 0x58 // CEntityIdentity*
-    WorldrendererDll_CEntityIdentity_m_pPrevByClass = 0x60 // CEntityIdentity*
-    WorldrendererDll_CEntityIdentity_m_pNextByClass = 0x68 // CEntityIdentity*
     WorldrendererDll_RTProxyInstanceInfo_t_m_nFlags = 0x0 // RTProxyInstanceFlags_t
     WorldrendererDll_RTProxyInstanceInfo_t_m_albedoFormat = 0x1 // VertexAlbedoFormat_t
     WorldrendererDll_RTProxyInstanceInfo_t_m_emissiveFormat = 0x2 // VertexAlbedoFormat_t
@@ -51,7 +38,6 @@ const (
     WorldrendererDll_RTProxyInstanceInfo_t_m_nVertexEmissiveByteOffset = 0x10 // uint32
     WorldrendererDll_RTProxyInstanceInfo_t_m_fEmissiveFactor = 0x14 // float32
     WorldrendererDll_RTProxyInstanceInfo_t_m_mWorldFromLocal = 0x18 // matrix3x4_t
-    WorldrendererDll_AggregateVertexAlbedoStreamOnDiskData_t_m_BufferData = 0x0 // CUtlBinaryBlock
     WorldrendererDll_SceneObject_t_m_nObjectID = 0x0 // uint32
     WorldrendererDll_SceneObject_t_m_vTransform = 0x4 // Vector4D[3]
     WorldrendererDll_SceneObject_t_m_flFadeStartDistance = 0x34 // float32
@@ -69,13 +55,6 @@ const (
     WorldrendererDll_AggregateLODSetup_t_m_vLODOrigin = 0x0 // Vector
     WorldrendererDll_AggregateLODSetup_t_m_fMaxObjectScale = 0xC // float32
     WorldrendererDll_AggregateLODSetup_t_m_fSwitchDistances = 0x10 // CUtlVector<float32>
-    WorldrendererDll_ExtraVertexStreamOverride_t_m_nSubSceneObject = 0x4 // uint32
-    WorldrendererDll_ExtraVertexStreamOverride_t_m_nDrawCallIndex = 0x8 // uint32
-    WorldrendererDll_ExtraVertexStreamOverride_t_m_nAdditionalMeshDrawPrimitiveFlags = 0xC // MeshDrawPrimitiveFlags_t
-    WorldrendererDll_ExtraVertexStreamOverride_t_m_extraBufferBinding = 0x10 // CRenderBufferBinding
-    WorldrendererDll_ClutterTile_t_m_nFirstInstance = 0x0 // uint32
-    WorldrendererDll_ClutterTile_t_m_nLastInstance = 0x4 // uint32
-    WorldrendererDll_ClutterTile_t_m_BoundsWs = 0x8 // AABB_t
     WorldrendererDll_AggregateSceneObject_t_m_allFlags = 0x0 // ObjectTypeFlags_t
     WorldrendererDll_AggregateSceneObject_t_m_anyFlags = 0x4 // ObjectTypeFlags_t
     WorldrendererDll_AggregateSceneObject_t_m_nLayer = 0x8 // int16
@@ -87,25 +66,8 @@ const (
     WorldrendererDll_AggregateSceneObject_t_m_visClusterMembership = 0x40 // CUtlVector<uint16>
     WorldrendererDll_AggregateSceneObject_t_m_fragmentTransforms = 0x58 // CUtlVector<matrix3x4_t>
     WorldrendererDll_AggregateSceneObject_t_m_renderableModel = 0x70 // CStrongHandle<InfoForResourceTypeCModel>
-    WorldrendererDll_NodeData_t_m_nParent = 0x0 // int32
-    WorldrendererDll_NodeData_t_m_vOrigin = 0x4 // Vector
-    WorldrendererDll_NodeData_t_m_vMinBounds = 0x10 // Vector
-    WorldrendererDll_NodeData_t_m_vMaxBounds = 0x1C // Vector
-    WorldrendererDll_NodeData_t_m_flMinimumDistance = 0x28 // float32
-    WorldrendererDll_NodeData_t_m_ChildNodeIndices = 0x30 // CUtlVector<int32>
-    WorldrendererDll_NodeData_t_m_worldNodePrefix = 0x48 // CUtlString
     WorldrendererDll_AggregateInstanceStreamOnDiskData_t_m_DecodedSize = 0x0 // uint32
     WorldrendererDll_AggregateInstanceStreamOnDiskData_t_m_BufferData = 0x8 // CUtlBinaryBlock
-    WorldrendererDll_RTProxyBLAS_t_m_nFirstIndex = 0x0 // uint32
-    WorldrendererDll_RTProxyBLAS_t_m_nIndexCount = 0x4 // uint32
-    WorldrendererDll_RTProxyBLAS_t_m_nVBByteOffset = 0x8 // uint32
-    WorldrendererDll_RTProxyBLAS_t_m_nBaseVertex = 0xC // uint32
-    WorldrendererDll_RTProxyBLAS_t_m_nVertexCount = 0x10 // uint16
-    WorldrendererDll_RTProxyBLAS_t_m_albedoFormat = 0x12 // VertexAlbedoFormat_t
-    WorldrendererDll_RTProxyBLAS_t_m_boundLs = 0x14 // AABB_t
-    WorldrendererDll_RTProxyBLAS_t_m_vVertexOriginLs = 0x2C // Vector
-    WorldrendererDll_RTProxyBLAS_t_m_vVertexExtentLs = 0x38 // Vector
-    WorldrendererDll_AggregateVertexEmissiveStreamOnDiskData_t_m_BufferData = 0x0 // CUtlBinaryBlock
     WorldrendererDll_ClutterSceneObject_t_m_Bounds = 0x0 // AABB_t
     WorldrendererDll_ClutterSceneObject_t_m_flags = 0x18 // ObjectTypeFlags_t
     WorldrendererDll_ClutterSceneObject_t_m_nLayer = 0x1C // int16
@@ -117,15 +79,6 @@ const (
     WorldrendererDll_ClutterSceneObject_t_m_materialGroup = 0xA0 // CUtlStringToken
     WorldrendererDll_ClutterSceneObject_t_m_flBeginCullSize = 0xA4 // float32
     WorldrendererDll_ClutterSceneObject_t_m_flEndCullSize = 0xA8 // float32
-    WorldrendererDll_WorldBuilderParams_t_m_flMinDrawVolumeSize = 0x0 // float32
-    WorldrendererDll_WorldBuilderParams_t_m_bBuildBakedLighting = 0x4 // bool
-    WorldrendererDll_WorldBuilderParams_t_m_bAggregateInstanceStreams = 0x5 // bool
-    WorldrendererDll_WorldBuilderParams_t_m_bakedLightingInfo = 0x8 // BakedLightingInfo_t
-    WorldrendererDll_WorldBuilderParams_t_m_nCompileTimestamp = 0x50 // uint64
-    WorldrendererDll_WorldBuilderParams_t_m_nCompileFingerprint = 0x58 // uint64
-    WorldrendererDll_PermEntityLumpData_t_m_name = 0x8 // CUtlString
-    WorldrendererDll_PermEntityLumpData_t_m_childLumps = 0x10 // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-    WorldrendererDll_PermEntityLumpData_t_m_entityKeyValues = 0x28 // CUtlLeanVector<EntityKeyValueData_t>
     WorldrendererDll_WorldNode_t_m_sceneObjects = 0x0 // CUtlVector<SceneObject_t>
     WorldrendererDll_WorldNode_t_m_visClusterMembership = 0x18 // CUtlVector<uint16>
     WorldrendererDll_WorldNode_t_m_aggregateSceneObjects = 0x30 // CUtlVector<AggregateSceneObject_t>
@@ -143,14 +96,6 @@ const (
     WorldrendererDll_WorldNode_t_m_nodeLightingInfo = 0x140 // BakedLightingInfo_t
     WorldrendererDll_WorldNode_t_m_bHasBakedGeometryFlag = 0x188 // bool
     WorldrendererDll_BaseSceneObjectOverride_t_m_nSceneObjectIndex = 0x0 // uint32
-    WorldrendererDll_EntityIOConnectionData_t_m_outputName = 0x0 // CUtlString
-    WorldrendererDll_EntityIOConnectionData_t_m_targetType = 0x8 // uint32
-    WorldrendererDll_EntityIOConnectionData_t_m_targetName = 0x10 // CUtlString
-    WorldrendererDll_EntityIOConnectionData_t_m_inputName = 0x18 // CUtlString
-    WorldrendererDll_EntityIOConnectionData_t_m_overrideParam = 0x20 // CUtlString
-    WorldrendererDll_EntityIOConnectionData_t_m_flDelay = 0x28 // float32
-    WorldrendererDll_EntityIOConnectionData_t_m_nTimesToFire = 0x2C // int32
-    WorldrendererDll_EntityIOConnectionData_t_m_paramMap = 0x30 // KeyValues3
     WorldrendererDll_BakedLightingInfo_t_m_nLightmapVersionNumber = 0x0 // uint32
     WorldrendererDll_BakedLightingInfo_t_m_nLightmapGameVersionNumber = 0x4 // uint32
     WorldrendererDll_BakedLightingInfo_t_m_vLightmapUvScale = 0x8 // Vector2D
@@ -182,17 +127,9 @@ const (
     WorldrendererDll_AggregateMeshInfo_t_m_nVertexEmissiveStreamOffset = 0x20 // uint32
     WorldrendererDll_AggregateMeshInfo_t_m_instanceStreams = 0x24 // AggregateInstanceStream_t
     WorldrendererDll_AggregateMeshInfo_t_m_fEmissiveFactor = 0x28 // float32
-    WorldrendererDll_World_t_m_builderParams = 0x0 // WorldBuilderParams_t
-    WorldrendererDll_World_t_m_worldNodes = 0x60 // CUtlVector<NodeData_t>
-    WorldrendererDll_World_t_m_worldLightingInfo = 0x78 // BakedLightingInfo_t
-    WorldrendererDll_World_t_m_entityLumps = 0xC0 // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
     WorldrendererDll_BakedLightingInfo_t__BakedShadowAssignment_t_m_nLightHash = 0x0 // uint32
     WorldrendererDll_BakedLightingInfo_t__BakedShadowAssignment_t_m_nMapHash = 0x4 // uint32
     WorldrendererDll_BakedLightingInfo_t__BakedShadowAssignment_t_m_nShadowChannel = 0x8 // int8
-    WorldrendererDll_MaterialOverride_t_m_nSubSceneObject = 0x4 // uint32
-    WorldrendererDll_MaterialOverride_t_m_nDrawCallIndex = 0x8 // uint32
-    WorldrendererDll_MaterialOverride_t_m_pMaterial = 0x10 // CStrongHandle<InfoForResourceTypeIMaterial2>
-    WorldrendererDll_MaterialOverride_t_m_vLinearTintColor = 0x18 // Vector
     WorldrendererDll_AggregateRTProxySceneObject_t_m_nLayer = 0x0 // int16
     WorldrendererDll_AggregateRTProxySceneObject_t_m_BLASes = 0x8 // CUtlVector<RTProxyBLAS_t>
     WorldrendererDll_AggregateRTProxySceneObject_t_m_Instances = 0x20 // CUtlVector<RTProxyInstanceInfo_t>
@@ -200,19 +137,4 @@ const (
     WorldrendererDll_AggregateRTProxySceneObject_t_m_IBData = 0x48 // CUtlBinaryBlock
     WorldrendererDll_AggregateRTProxySceneObject_t_m_InstanceAlbedoData = 0x58 // CUtlBinaryBlock
     WorldrendererDll_AggregateRTProxySceneObject_t_m_InstanceEmissiveData = 0x68 // CUtlBinaryBlock
-    WorldrendererDll_EntityKeyValueData_t_m_connections = 0x8 // CUtlVector<EntityIOConnectionData_t>
-    WorldrendererDll_EntityKeyValueData_t_m_keyValuesData = 0x20 // CUtlBinaryBlock
-    WorldrendererDll_CVoxelVisibility_m_nBaseClusterCount = 0x40 // uint32
-    WorldrendererDll_CVoxelVisibility_m_nPVSBytesPerCluster = 0x44 // uint32
-    WorldrendererDll_CVoxelVisibility_m_vMinBounds = 0x48 // Vector
-    WorldrendererDll_CVoxelVisibility_m_vMaxBounds = 0x54 // Vector
-    WorldrendererDll_CVoxelVisibility_m_flGridSize = 0x60 // float32
-    WorldrendererDll_CVoxelVisibility_m_nSkyVisibilityCluster = 0x64 // uint32
-    WorldrendererDll_CVoxelVisibility_m_nSunVisibilityCluster = 0x68 // uint32
-    WorldrendererDll_CVoxelVisibility_m_NodeBlock = 0x6C // VoxelVisBlockOffset_t
-    WorldrendererDll_CVoxelVisibility_m_RegionBlock = 0x74 // VoxelVisBlockOffset_t
-    WorldrendererDll_CVoxelVisibility_m_EnclosedClusterListBlock = 0x7C // VoxelVisBlockOffset_t
-    WorldrendererDll_CVoxelVisibility_m_EnclosedClustersBlock = 0x84 // VoxelVisBlockOffset_t
-    WorldrendererDll_CVoxelVisibility_m_MasksBlock = 0x8C // VoxelVisBlockOffset_t
-    WorldrendererDll_CVoxelVisibility_m_nVisBlocks = 0x94 // VoxelVisBlockOffset_t
 )

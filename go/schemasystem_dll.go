@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 package schemas
 
@@ -114,10 +114,4 @@ const (
     SchemasystemDll_CSchemaSystemInternalRegistration_m_stringTokenWithStorage = 0x148 // CUtlStringTokenWithStorage
     SchemasystemDll_CSchemaSystemInternalRegistration_m_ResourceTypes = 0x160 // CResourceArray<CResourcePointer<CResourceString>>
     SchemasystemDll_CSchemaSystemInternalRegistration_m_KV3 = 0x168 // KeyValues3
-    SchemasystemDll_CExampleSchemaVData_PolymorphicDerivedA_m_nDerivedA = 0x10 // int32
-    SchemasystemDll_CExampleSchemaVData_PolymorphicBase_m_nBase = 0x8 // int32
-    SchemasystemDll_CExampleSchemaVData_PolymorphicDerivedB_m_nDerivedB = 0x10 // int32
-    SchemasystemDll_ResourceId_t_m_Value = 0x0 // uint64
-    SchemasystemDll_CExampleSchemaVData_Monomorphic_m_nExample1 = 0x0 // int32
-    SchemasystemDll_CExampleSchemaVData_Monomorphic_m_nExample2 = 0x4 // int32
 )

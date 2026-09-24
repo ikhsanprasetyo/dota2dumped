@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-17 12:11:28.864356600 +07:00
+# 2026-09-24 17:35:37.601127800 +07:00
 
 class Schemas:
     # Module: materialsystem2.dll
@@ -26,12 +26,6 @@ class Schemas:
             HORIZ_JUSTIFICATION_CENTER = 0x1
             HORIZ_JUSTIFICATION_RIGHT = 0x2
             HORIZ_JUSTIFICATION_NONE = 0x3
-        class MaterialParam_t:
-            m_name = 0x0 # CUtlString
-        class MaterialParamVector_t:
-            m_value = 0x8 # Vector4D
-        class MaterialParamString_t:
-            m_value = 0x8 # CUtlString
         class PostProcessingResource_t:
             m_bHasTonemapParams = 0x0 # bool
             m_toneMapParams = 0x4 # PostProcessingTonemapParameters_t
@@ -48,8 +42,6 @@ class Schemas:
             m_fogScatteringParams = 0x124 # PostProcessingFogScatteringParameters_t
             m_bHasLocalExposureParams = 0x144 # bool
             m_localExposureParams = 0x148 # PostProcessingLocalExposureParameters_t
-        class MaterialParamInt_t:
-            m_nValue = 0x8 # int32
         class PostProcessingVignetteParameters_t:
             m_flVignetteStrength = 0x0 # float32
             m_vCenter = 0x4 # Vector2D
@@ -88,23 +80,6 @@ class Schemas:
             m_fWaterScale = 0x14 # float32
             m_fWaterDensity = 0x18 # float32
             m_fWaterDepthBlurRadius = 0x1C # float32
-        class MaterialParamBuffer_t:
-            m_value = 0x8 # CUtlBinaryBlock
-        class MaterialResourceData_t:
-            m_materialName = 0x0 # CUtlString
-            m_shaderName = 0x8 # CUtlString
-            m_intParams = 0x10 # CUtlVector<MaterialParamInt_t>
-            m_floatParams = 0x28 # CUtlVector<MaterialParamFloat_t>
-            m_vectorParams = 0x40 # CUtlVector<MaterialParamVector_t>
-            m_textureParams = 0x58 # CUtlVector<MaterialParamTexture_t>
-            m_dynamicParams = 0x70 # CUtlVector<MaterialParamBuffer_t>
-            m_dynamicTextureParams = 0x88 # CUtlVector<MaterialParamBuffer_t>
-            m_intAttributes = 0xA0 # CUtlVector<MaterialParamInt_t>
-            m_floatAttributes = 0xB8 # CUtlVector<MaterialParamFloat_t>
-            m_vectorAttributes = 0xD0 # CUtlVector<MaterialParamVector_t>
-            m_textureAttributes = 0xE8 # CUtlVector<MaterialParamTexture_t>
-            m_stringAttributes = 0x100 # CUtlVector<MaterialParamString_t>
-            m_renderAttributesUsed = 0x118 # CUtlVector<CUtlString>
         class PostProcessingBloomParameters_t:
             m_blendMode = 0x0 # BloomBlendMode_t
             m_flBloomStrength = 0x4 # float32
@@ -122,12 +97,8 @@ class Schemas:
             m_flComputeBloomLensDirtBlackLevel = 0x34 # float32
             m_flBlurWeight = 0x38 # float32[5]
             m_vBlurTint = 0x4C # Vector[5]
-        class MaterialParamFloat_t:
-            m_flValue = 0x8 # float32
         class PostProcessingLocalExposureParameters_t:
             m_fShadowOffsetEV = 0x0 # float32
             m_fHighlightOffsetEV = 0x4 # float32
             m_fSigma = 0x8 # float32
             m_fBoostLocalContrast = 0xC # float32
-        class MaterialParamTexture_t:
-            m_pValue = 0x8 # CStrongHandle<InfoForResourceTypeCTextureBase>

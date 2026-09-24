@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: rendersystemdx11.dll
-        // Class count: 8
+        // Class count: 7
         // Enum count: 9
         pub const rendersystemdx11_dll = struct {
             // Alignment: 4
@@ -117,16 +117,6 @@ pub const source2_dumper = struct {
                 pub const m_bDepthWriteEnable: usize = 0x0; // bitfield:1
                 pub const m_depthFunc: usize = 0x0; // bitfield:4
                 pub const m_stencilState: usize = 0x2; // RsStencilStateDesc_t
-            };
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // dius
-            // 1,0x0079/0x0011,0x0e6f/0x012f,0x1a34/0x0802,0x1a34/0x0809,0x0079/0x0006,0x0079/0x181c,0x7545/0x1122,0x06a3/0xf623,0x06a3/0xf51a,
-            // /0x9105,0x0111/0x1431,0x1038/0x1418,0x0111/0x1419,0x19fa/0x0607,0x07b5/0x0312,0x044f/0xb323,0x044f/0xb304,0x044f/0xb300,0x6666/0
-            pub const SheetSequenceIntegerId_t = struct {
-                pub const m_Value: usize = 0x0; // uint32
             };
             // Parent: None
             // Field count: 11

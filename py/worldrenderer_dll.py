@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-17 12:11:28.864356600 +07:00
+# 2026-09-24 17:35:37.601127800 +07:00
 
 class Schemas:
     # Module: worldrenderer.dll
@@ -35,21 +35,6 @@ class Schemas:
             m_CScriptComponent = 0x28 # CScriptComponent*
         class CEntityComponent:
             pass
-        class CScriptComponent:
-            m_scriptClassName = 0x30 # CUtlSymbolLarge
-        class CEntityIdentity:
-            m_nameStringTableIndex = 0x14 # int32
-            m_name = 0x18 # CUtlSymbolLarge
-            m_designerName = 0x20 # CUtlSymbolLarge
-            m_flags = 0x30 # uint32
-            m_worldGroupId = 0x38 # WorldGroupId_t
-            m_fDataObjectTypes = 0x3C # uint32
-            m_PathIndex = 0x40 # ChangeAccessorFieldPathIndex_t
-            m_pAttributes = 0x48 # CEntityAttributeTable*
-            m_pPrev = 0x50 # CEntityIdentity*
-            m_pNext = 0x58 # CEntityIdentity*
-            m_pPrevByClass = 0x60 # CEntityIdentity*
-            m_pNextByClass = 0x68 # CEntityIdentity*
         class RTProxyInstanceInfo_t:
             m_nFlags = 0x0 # RTProxyInstanceFlags_t
             m_albedoFormat = 0x1 # VertexAlbedoFormat_t
@@ -60,8 +45,6 @@ class Schemas:
             m_nVertexEmissiveByteOffset = 0x10 # uint32
             m_fEmissiveFactor = 0x14 # float32
             m_mWorldFromLocal = 0x18 # matrix3x4_t
-        class AggregateVertexAlbedoStreamOnDiskData_t:
-            m_BufferData = 0x0 # CUtlBinaryBlock
         class SceneObject_t:
             m_nObjectID = 0x0 # uint32
             m_vTransform = 0x4 # Vector4D[3]
@@ -81,15 +64,6 @@ class Schemas:
             m_vLODOrigin = 0x0 # Vector
             m_fMaxObjectScale = 0xC # float32
             m_fSwitchDistances = 0x10 # CUtlVector<float32>
-        class ExtraVertexStreamOverride_t:
-            m_nSubSceneObject = 0x4 # uint32
-            m_nDrawCallIndex = 0x8 # uint32
-            m_nAdditionalMeshDrawPrimitiveFlags = 0xC # MeshDrawPrimitiveFlags_t
-            m_extraBufferBinding = 0x10 # CRenderBufferBinding
-        class ClutterTile_t:
-            m_nFirstInstance = 0x0 # uint32
-            m_nLastInstance = 0x4 # uint32
-            m_BoundsWs = 0x8 # AABB_t
         class AggregateSceneObject_t:
             m_allFlags = 0x0 # ObjectTypeFlags_t
             m_anyFlags = 0x4 # ObjectTypeFlags_t
@@ -102,31 +76,11 @@ class Schemas:
             m_visClusterMembership = 0x40 # CUtlVector<uint16>
             m_fragmentTransforms = 0x58 # CUtlVector<matrix3x4_t>
             m_renderableModel = 0x70 # CStrongHandle<InfoForResourceTypeCModel>
-        class NodeData_t:
-            m_nParent = 0x0 # int32
-            m_vOrigin = 0x4 # Vector
-            m_vMinBounds = 0x10 # Vector
-            m_vMaxBounds = 0x1C # Vector
-            m_flMinimumDistance = 0x28 # float32
-            m_ChildNodeIndices = 0x30 # CUtlVector<int32>
-            m_worldNodePrefix = 0x48 # CUtlString
         class VMapResourceData_t:
             pass
         class AggregateInstanceStreamOnDiskData_t:
             m_DecodedSize = 0x0 # uint32
             m_BufferData = 0x8 # CUtlBinaryBlock
-        class RTProxyBLAS_t:
-            m_nFirstIndex = 0x0 # uint32
-            m_nIndexCount = 0x4 # uint32
-            m_nVBByteOffset = 0x8 # uint32
-            m_nBaseVertex = 0xC # uint32
-            m_nVertexCount = 0x10 # uint16
-            m_albedoFormat = 0x12 # VertexAlbedoFormat_t
-            m_boundLs = 0x14 # AABB_t
-            m_vVertexOriginLs = 0x2C # Vector
-            m_vVertexExtentLs = 0x38 # Vector
-        class AggregateVertexEmissiveStreamOnDiskData_t:
-            m_BufferData = 0x0 # CUtlBinaryBlock
         class ClutterSceneObject_t:
             m_Bounds = 0x0 # AABB_t
             m_flags = 0x18 # ObjectTypeFlags_t
@@ -139,17 +93,6 @@ class Schemas:
             m_materialGroup = 0xA0 # CUtlStringToken
             m_flBeginCullSize = 0xA4 # float32
             m_flEndCullSize = 0xA8 # float32
-        class WorldBuilderParams_t:
-            m_flMinDrawVolumeSize = 0x0 # float32
-            m_bBuildBakedLighting = 0x4 # bool
-            m_bAggregateInstanceStreams = 0x5 # bool
-            m_bakedLightingInfo = 0x8 # BakedLightingInfo_t
-            m_nCompileTimestamp = 0x50 # uint64
-            m_nCompileFingerprint = 0x58 # uint64
-        class PermEntityLumpData_t:
-            m_name = 0x8 # CUtlString
-            m_childLumps = 0x10 # CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-            m_entityKeyValues = 0x28 # CUtlLeanVector<EntityKeyValueData_t>
         class WorldNode_t:
             m_sceneObjects = 0x0 # CUtlVector<SceneObject_t>
             m_visClusterMembership = 0x18 # CUtlVector<uint16>
@@ -169,15 +112,6 @@ class Schemas:
             m_bHasBakedGeometryFlag = 0x188 # bool
         class BaseSceneObjectOverride_t:
             m_nSceneObjectIndex = 0x0 # uint32
-        class EntityIOConnectionData_t:
-            m_outputName = 0x0 # CUtlString
-            m_targetType = 0x8 # uint32
-            m_targetName = 0x10 # CUtlString
-            m_inputName = 0x18 # CUtlString
-            m_overrideParam = 0x20 # CUtlString
-            m_flDelay = 0x28 # float32
-            m_nTimesToFire = 0x2C # int32
-            m_paramMap = 0x30 # KeyValues3
         class BakedLightingInfo_t:
             m_nLightmapVersionNumber = 0x0 # uint32
             m_nLightmapGameVersionNumber = 0x4 # uint32
@@ -193,8 +127,6 @@ class Schemas:
         class VoxelVisBlockOffset_t:
             m_nOffset = 0x0 # uint32
             m_nElementCount = 0x4 # uint32
-        class InfoForResourceTypeVMapResourceData_t:
-            pass
         class WorldNodeOnDiskBufferData_t:
             m_nElementCount = 0x0 # int32
             m_nElementSizeInBytes = 0x4 # int32
@@ -215,20 +147,10 @@ class Schemas:
             m_nVertexEmissiveStreamOffset = 0x20 # uint32
             m_instanceStreams = 0x24 # AggregateInstanceStream_t
             m_fEmissiveFactor = 0x28 # float32
-        class World_t:
-            m_builderParams = 0x0 # WorldBuilderParams_t
-            m_worldNodes = 0x60 # CUtlVector<NodeData_t>
-            m_worldLightingInfo = 0x78 # BakedLightingInfo_t
-            m_entityLumps = 0xC0 # CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
         class BakedLightingInfo_t__BakedShadowAssignment_t:
             m_nLightHash = 0x0 # uint32
             m_nMapHash = 0x4 # uint32
             m_nShadowChannel = 0x8 # int8
-        class MaterialOverride_t:
-            m_nSubSceneObject = 0x4 # uint32
-            m_nDrawCallIndex = 0x8 # uint32
-            m_pMaterial = 0x10 # CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_vLinearTintColor = 0x18 # Vector
         class AggregateRTProxySceneObject_t:
             m_nLayer = 0x0 # int16
             m_BLASes = 0x8 # CUtlVector<RTProxyBLAS_t>
@@ -237,20 +159,3 @@ class Schemas:
             m_IBData = 0x48 # CUtlBinaryBlock
             m_InstanceAlbedoData = 0x58 # CUtlBinaryBlock
             m_InstanceEmissiveData = 0x68 # CUtlBinaryBlock
-        class EntityKeyValueData_t:
-            m_connections = 0x8 # CUtlVector<EntityIOConnectionData_t>
-            m_keyValuesData = 0x20 # CUtlBinaryBlock
-        class CVoxelVisibility:
-            m_nBaseClusterCount = 0x40 # uint32
-            m_nPVSBytesPerCluster = 0x44 # uint32
-            m_vMinBounds = 0x48 # Vector
-            m_vMaxBounds = 0x54 # Vector
-            m_flGridSize = 0x60 # float32
-            m_nSkyVisibilityCluster = 0x64 # uint32
-            m_nSunVisibilityCluster = 0x68 # uint32
-            m_NodeBlock = 0x6C # VoxelVisBlockOffset_t
-            m_RegionBlock = 0x74 # VoxelVisBlockOffset_t
-            m_EnclosedClusterListBlock = 0x7C # VoxelVisBlockOffset_t
-            m_EnclosedClustersBlock = 0x84 # VoxelVisBlockOffset_t
-            m_MasksBlock = 0x8C # VoxelVisBlockOffset_t
-            m_nVisBlocks = 0x94 # VoxelVisBlockOffset_t

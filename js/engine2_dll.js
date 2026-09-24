@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 export const Schemas = {
     engine2_dll: {
@@ -20,23 +20,6 @@ export const Schemas = {
             m_CScriptComponent: 0x28, // CScriptComponent*
         },
         CEntityComponent: {
-        },
-        CScriptComponent: {
-            m_scriptClassName: 0x30, // CUtlSymbolLarge
-        },
-        CEntityIdentity: {
-            m_nameStringTableIndex: 0x14, // int32
-            m_name: 0x18, // CUtlSymbolLarge
-            m_designerName: 0x20, // CUtlSymbolLarge
-            m_flags: 0x30, // uint32
-            m_worldGroupId: 0x38, // WorldGroupId_t
-            m_fDataObjectTypes: 0x3C, // uint32
-            m_PathIndex: 0x40, // ChangeAccessorFieldPathIndex_t
-            m_pAttributes: 0x48, // CEntityAttributeTable*
-            m_pPrev: 0x50, // CEntityIdentity*
-            m_pNext: 0x58, // CEntityIdentity*
-            m_pPrevByClass: 0x60, // CEntityIdentity*
-            m_pNextByClass: 0x68, // CEntityIdentity*
         },
         EventClientPostSimulate_t: {
         },
@@ -72,20 +55,7 @@ export const Schemas = {
             m_nPriority: 0x18, // int32
             m_pNext: 0x20, // CEntityComponentHelper*
         },
-        GameTime_t: {
-            m_Value: 0x0, // float32
-        },
         EventServerBeginSimulate_t: {
-        },
-        EntityIOQueuePrioritizedEvent_t: {
-            m_flFireTime: 0x4, // GameTime_t
-            m_targetType: 0x8, // EntityIOTargetType_t
-            m_pTarget: 0x10, // CUtlSymbolLarge
-            m_pTargetInput: 0x18, // CUtlSymbolLarge
-            m_hActivator: 0x20, // CEntityHandle
-            m_hCaller: 0x24, // CEntityHandle
-            m_hEntTarget: 0x28, // CEntityHandle
-            m_variantValue: 0x30, // CVariantBase<CVariantDefaultAllocator>
         },
         EventServerEndAsyncPostTickWork_t: {
         },
@@ -104,9 +74,6 @@ export const Schemas = {
             m_flRenderFrameTime: 0x30, // float32
             m_flRenderFrameTimeUnbounded: 0x34, // float32
             m_bRenderOnly: 0x38, // bool
-        },
-        GameTick_t: {
-            m_Value: 0x0, // int32
         },
         EventClientPollInput_t: {
             m_LoopState: 0x0, // EngineLoopState_t

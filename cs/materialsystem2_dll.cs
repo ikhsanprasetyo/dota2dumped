@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: materialsystem2.dll
-    // Class count: 15
+    // Class count: 7
     // Enum count: 5
     public static class Materialsystem2Dll {
         // Alignment: 4
@@ -44,49 +44,6 @@ namespace Source2Dumper.Schemas {
             HORIZ_JUSTIFICATION_NONE = 0x3
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class MaterialParam_t {
-            public const nint m_name = 0x0; // CUtlString
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // ,
-        public static class MaterialParamVector_t {
-            public const nint m_value = 0x8; // Vector4D
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // ,
-        public static class MaterialParamString_t {
-            public const nint m_value = 0x8; // CUtlString
-        }
-        // Parent: None
         // Field count: 15
         //
         // Metadata:
@@ -110,18 +67,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_fogScatteringParams = 0x124; // PostProcessingFogScatteringParameters_t
             public const nint m_bHasLocalExposureParams = 0x144; // bool
             public const nint m_localExposureParams = 0x148; // PostProcessingLocalExposureParameters_t
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // ,
-        public static class MaterialParamInt_t {
-            public const nint m_nValue = 0x8; // int32
         }
         // Parent: None
         // Field count: 6
@@ -192,43 +137,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_fWaterDepthBlurRadius = 0x1C; // float32
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // ,
-        public static class MaterialParamBuffer_t {
-            public const nint m_value = 0x8; // CUtlBinaryBlock
-        }
-        // Parent: None
-        // Field count: 14
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class MaterialResourceData_t {
-            public const nint m_materialName = 0x0; // CUtlString
-            public const nint m_shaderName = 0x8; // CUtlString
-            public const nint m_intParams = 0x10; // CUtlVector<MaterialParamInt_t>
-            public const nint m_floatParams = 0x28; // CUtlVector<MaterialParamFloat_t>
-            public const nint m_vectorParams = 0x40; // CUtlVector<MaterialParamVector_t>
-            public const nint m_textureParams = 0x58; // CUtlVector<MaterialParamTexture_t>
-            public const nint m_dynamicParams = 0x70; // CUtlVector<MaterialParamBuffer_t>
-            public const nint m_dynamicTextureParams = 0x88; // CUtlVector<MaterialParamBuffer_t>
-            public const nint m_intAttributes = 0xA0; // CUtlVector<MaterialParamInt_t>
-            public const nint m_floatAttributes = 0xB8; // CUtlVector<MaterialParamFloat_t>
-            public const nint m_vectorAttributes = 0xD0; // CUtlVector<MaterialParamVector_t>
-            public const nint m_textureAttributes = 0xE8; // CUtlVector<MaterialParamTexture_t>
-            public const nint m_stringAttributes = 0x100; // CUtlVector<MaterialParamString_t>
-            public const nint m_renderAttributesUsed = 0x118; // CUtlVector<CUtlString>
-        }
-        // Parent: None
         // Field count: 16
         //
         // Metadata:
@@ -254,15 +162,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_vBlurTint = 0x4C; // Vector[5]
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // ,
-        public static class MaterialParamFloat_t {
-            public const nint m_flValue = 0x8; // float32
-        }
-        // Parent: None
         // Field count: 4
         //
         // Metadata:
@@ -273,16 +172,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_fHighlightOffsetEV = 0x4; // float32
             public const nint m_fSigma = 0x8; // float32
             public const nint m_fBoostLocalContrast = 0xC; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // ,
-        public static class MaterialParamTexture_t {
-            public const nint m_pValue = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
         }
     }
 }

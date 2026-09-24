@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: schemasystem.dll
-        // Class count: 7
+        // Class count: 1
         // Enum count: 2
         pub mod schemasystem_dll {
             // Alignment: 1
@@ -107,27 +107,6 @@ pub mod source2_dumper {
                 TRS_NONE = 0x2
             }
             // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // <invalid>
-            // char
-            // uint8
-            // uint16
-            // uint32
-            // uint64
-            // float64
-            // invalid
-            // bool
-            // uint
-            // string
-            // array
-            pub mod InfoForResourceTypeCResourceManifestInternal {
-            }
-            // Parent: None
             // Field count: 23
             pub mod CSchemaSystemInternalRegistration {
                 pub const m_Vector2D: usize = 0x0; // Vector2D
@@ -153,87 +132,6 @@ pub mod source2_dumper {
                 pub const m_stringTokenWithStorage: usize = 0x148; // CUtlStringTokenWithStorage
                 pub const m_ResourceTypes: usize = 0x160; // CResourceArray<CResourcePointer<CResourceString>>
                 pub const m_KV3: usize = 0x168; // KeyValues3
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // void
-            // int8
-            // int16
-            // int32
-            // int64
-            // float32
-            // bool
-            // null
-            // int
-            // double
-            // binary_blob
-            // table
-            pub mod CExampleSchemaVData_PolymorphicDerivedA {
-                pub const m_nDerivedA: usize = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub mod CExampleSchemaVData_PolymorphicBase {
-                pub const m_nBase: usize = 0x8; // int32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // void
-            // int8
-            // int16
-            // int32
-            // int64
-            // float32
-            // bool
-            // null
-            // int
-            // double
-            // binary_blob
-            // table
-            pub mod CExampleSchemaVData_PolymorphicDerivedB {
-                pub const m_nDerivedB: usize = 0x10; // int32
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // vrman
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // void
-            // int8
-            // int16
-            // int32
-            // int64
-            // float32
-            // bool
-            // null
-            // int
-            // double
-            // binary_blob
-            // table
-            pub mod ResourceId_t {
-                pub const m_Value: usize = 0x0; // uint64
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub mod CExampleSchemaVData_Monomorphic {
-                pub const m_nExample1: usize = 0x0; // int32
-                pub const m_nExample2: usize = 0x4; // int32
             }
         }
     }

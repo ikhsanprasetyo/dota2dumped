@@ -1,25 +1,14 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: steamaudio.dll
-        // Class count: 17
+        // Class count: 14
         // Enum count: 0
         pub mod steamaudio_dll {
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub mod SteamAudioReverbClusteringSettings_t {
-                pub const m_bEnableClustering: usize = 0x0; // bool
-                pub const m_nCubeMapResolution: usize = 0x4; // int32
-                pub const m_flDepthThreshold: usize = 0x8; // float32
-            }
             // Parent: None
             // Field count: 5
             //
@@ -78,20 +67,6 @@ pub mod source2_dumper {
                 pub const m_movables: usize = 0x10; // CSteamAudioMovableBakedData<CSteamAudioBakedPathingData>
             }
             // Parent: None
-            // Field count: 5
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub mod SteamAudioReverbSettings_t {
-                pub const m_nNumRays: usize = 0x0; // int32
-                pub const m_nNumBounces: usize = 0x4; // int32
-                pub const m_flIRDuration: usize = 0x8; // float32
-                pub const m_nAmbisonicsOrder: usize = 0xC; // int32
-                pub const m_bExportScene: usize = 0x10; // bool
-            }
-            // Parent: None
             // Field count: 1
             //
             // Metadata:
@@ -100,15 +75,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             pub mod CSteamAudioProbeData {
                 pub const m_pProbeBatch: usize = 0x0; // IPLProbeBatch
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub mod SteamAudioReverbCompressionSettings_t {
-                pub const m_bEnableCompression: usize = 0x0; // bool
-                pub const m_flQuality: usize = 0x4; // float32
             }
             // Parent: None
             // Field count: 3

@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7213
+    // Class count: 6856
     // Enum count: 120
     public static class ClientDll {
         // Alignment: 4
@@ -1986,32 +1986,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_pItemSuggestPreferenceKeyValues = 0x3250; // KeyValues3*
             public const nint m_CurrentHeroAvailable = 0x3258; // bool[256]
         }
-        // Parent: C_BreakableProp
-        // Field count: 19
-        //
-        // Metadata:
-        // n
-        public static class CDarkCarnivalCrateDropEntity {
-            public const nint m_unDefID = 0xC40; // DOTACrateDropObjectDefID_t
-            public const nint m_flAcceleration = 0xC50; // float32
-            public const nint m_flMaxSpeed = 0xC54; // float32
-            public const nint m_nTutorialObject = 0xC6C; // int8
-            public const nint m_nDisableSpawnRotation = 0xC6D; // int8
-            public const nint m_flPoints = 0xC90; // float32
-            public const nint m_flHazardExplosionRadius = 0xC94; // float32
-            public const nint m_flExplosionStrength = 0xC98; // float32
-            public const nint m_flUpkickExplosionStrength = 0xC9C; // float32
-            public const nint m_flTriggerDelay = 0xCA0; // float32
-            public const nint m_flTriggeredGravityScale = 0xCA4; // float32
-            public const nint m_bHasBeenTriggered = 0xCA8; // bool
-            public const nint m_bHazardDefused = 0xCA9; // bool
-            public const nint m_bCurrentlyActivated = 0xCAA; // bool
-            public const nint m_flNextPossibleTriggerTime = 0xCAC; // GameTime_t
-            public const nint m_flCreationTime = 0xCB0; // GameTime_t
-            public const nint pDropEffect = 0xCB8; // CNewParticleEffect*
-            public const nint m_bMarkedForDestroy = 0xCC0; // bool
-            public const nint m_bHazardRotationApplied = 0xCC1; // bool
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Recipe_Mysterious_Hat {
@@ -2382,49 +2356,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Filler_Buff_Icon {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        public static class CPulseCell_WaitForCursorsWithTag {
-            public const nint m_bTagSelfWhenComplete = 0x128; // bool
-            public const nint m_nDesiredKillPriority = 0x12C; // PulseCursorCancelPriority_t
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -3388,28 +3319,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_unOffsetY = 0x140; // uint32
             public const nint m_unCount = 0x144; // uint16
         }
-        // Parent: None
-        // Field count: 15
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class C_EnvWindShared {
-            public const nint m_flStartTime = 0x8; // GameTime_t
-            public const nint m_iWindSeed = 0xC; // uint32
-            public const nint m_iMinWind = 0x10; // uint16
-            public const nint m_iMaxWind = 0x12; // uint16
-            public const nint m_windRadius = 0x14; // int32
-            public const nint m_iMinGust = 0x18; // uint16
-            public const nint m_iMaxGust = 0x1A; // uint16
-            public const nint m_flMinGustDelay = 0x1C; // float32
-            public const nint m_flMaxGustDelay = 0x20; // float32
-            public const nint m_flGustDuration = 0x24; // float32
-            public const nint m_iGustDirChange = 0x28; // uint16
-            public const nint m_iInitialWindDir = 0x2A; // uint16
-            public const nint m_flInitialWindSpeed = 0x2C; // float32
-            public const nint m_location = 0x30; // VectorWS
-            public const nint m_hEntOwner = 0x3C; // CHandle<C_BaseEntity>
-        }
         // Parent: C_BaseEntity
         // Field count: 4
         public static class C_SkyCamera {
@@ -3417,15 +3326,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_skyboxSlotToken = 0x680; // CUtlStringToken
             public const nint m_bUseAngles = 0x684; // bool
             public const nint m_pNext = 0x688; // C_SkyCamera*
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Base {
-            public const nint m_nEditorNodeID = 0x8; // PulseDocNodeID_t
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -4373,28 +4273,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_SatyrTrickster_Purge {
             public const nint purge_rate = 0x1A78; // int32
         }
-        // Parent: C_BaseEntity
-        // Field count: 18
-        public static class C_EnvVolumetricFogVolume {
-            public const nint m_bActive = 0x5F0; // bool
-            public const nint m_vBoxMins = 0x5F4; // Vector
-            public const nint m_vBoxMaxs = 0x600; // Vector
-            public const nint m_bStartDisabled = 0x60C; // bool
-            public const nint m_bIndirectUseLPVs = 0x60D; // bool
-            public const nint m_flStrength = 0x610; // float32
-            public const nint m_nFalloffShape = 0x614; // int32
-            public const nint m_flFalloffExponent = 0x618; // float32
-            public const nint m_flHeightFogDepth = 0x61C; // float32
-            public const nint m_fHeightFogEdgeWidth = 0x620; // float32
-            public const nint m_fIndirectLightStrength = 0x624; // float32
-            public const nint m_fSunLightStrength = 0x628; // float32
-            public const nint m_fNoiseStrength = 0x62C; // float32
-            public const nint m_TintColor = 0x630; // Color
-            public const nint m_bOverrideTintColor = 0x634; // bool
-            public const nint m_bOverrideIndirectLightStrength = 0x635; // bool
-            public const nint m_bOverrideSunLightStrength = 0x636; // bool
-            public const nint m_bOverrideNoiseStrength = 0x637; // bool
-        }
         // Parent: None
         // Field count: 1
         public static class CDOTA_Modifier_Special_Bonus_Status_Resistance {
@@ -4528,19 +4406,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_IngameEvent_Base
         // Field count: 0
         public static class CIngameEvent_Diretide2020 {
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_PlaySequence {
-            public const nint m_SequenceName = 0xD8; // CUtlString
-            public const nint m_PulseAnimEvents = 0xE0; // PulseNodeDynamicOutflows_t
-            public const nint m_OnFinished = 0xF8; // CPulse_ResumePoint
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -4982,25 +4847,6 @@ namespace Source2Dumper.Schemas {
             public const nint siege_number = 0x1A80; // float32
             public const nint lane = 0x1A84; // int32
         }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
-        public static class CPulseCell_LerpCameraSettings {
-            public const nint m_flSeconds = 0x120; // float32
-            public const nint m_Start = 0x124; // PointCameraSettings_t
-            public const nint m_End = 0x134; // PointCameraSettings_t
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 3
         public static class C_DOTA_Unit_Hero_MonkeyKing {
@@ -5341,25 +5187,6 @@ namespace Source2Dumper.Schemas {
             public const nint attack_speed_factor = 0x1A84; // int32
             public const nint drain_armor = 0x1A88; // int32
         }
-        // Parent: C_BaseTrigger
-        // Field count: 12
-        //
-        // Metadata:
-        // generic
-        public static class C_PostProcessingVolume {
-            public const nint m_hPostSettings = 0xB80; // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
-            public const nint m_flFadeDuration = 0xB88; // float32
-            public const nint m_flMinLogExposure = 0xB8C; // float32
-            public const nint m_flMaxLogExposure = 0xB90; // float32
-            public const nint m_flMinExposure = 0xB94; // float32
-            public const nint m_flMaxExposure = 0xB98; // float32
-            public const nint m_flExposureCompensation = 0xB9C; // float32
-            public const nint m_flExposureFadeSpeedUp = 0xBA0; // float32
-            public const nint m_flExposureFadeSpeedDown = 0xBA4; // float32
-            public const nint m_flTonemapEVSmoothingRange = 0xBA8; // float32
-            public const nint m_bMaster = 0xBAC; // bool
-            public const nint m_bExposureControl = 0xBAD; // bool
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Enhancement_Crude {
@@ -5499,18 +5326,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_StormSpirit_ElectricVortex_NoStack {
         }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class C_BaseModelEntity__Emphasized_Phoneme {
-            public const nint m_sClassName = 0x0; // CUtlString
-            public const nint m_flAmount = 0x18; // float32
-            public const nint m_bRequired = 0x1C; // bool
-            public const nint m_bBasechecked = 0x1D; // bool
-            public const nint m_bValid = 0x1E; // bool
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_Axe {
@@ -5631,33 +5446,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_DarkCarnival_Pied {
             public const nint m_nFXIndex = 0x1A78; // ParticleIndex_t
         }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // SORT_BY_OUTFLOW_INDEX
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseSignatureForOutflow
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_PickBestOutflowSelector {
-            public const nint m_nCheckType = 0x48; // PulseBestOutflowRules_t
-            public const nint m_OutflowList = 0x50; // PulseSelectorOutflowList_t
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 3
         public static class C_DOTA_Unit_Hero_Windrunner {
@@ -5757,19 +5545,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_Special_Bonus_Undefined {
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // i
-        public static class CPulseCell_ShmupWaitForDuration {
-            public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
         // Parent: None
         // Field count: 0
@@ -6528,25 +6303,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_Greevil_Miniboss_Black_Nightmare_Invulnerable {
         }
         // Parent: None
-        // Field count: 11
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // b
-        public static class CPrecipitationVData {
-            public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szParticlePrecipitationPuddleEffect = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_szParticlePrecipitationPostEffect = 0x1E8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_flInnerDistance = 0x2C8; // float32
-            public const nint m_nAttachType = 0x2CC; // ParticleAttachment_t
-            public const nint m_bBatchSameVolumeType = 0x2D0; // bool
-            public const nint m_nRTEnvCP = 0x2D4; // int32
-            public const nint m_nRTEnvCPComponent = 0x2D8; // int32
-            public const nint m_szModifier = 0x2E0; // CUtlString
-            public const nint m_nUseSnapshotFromSurfaceGraph = 0x2E8; // int32
-            public const nint m_snapshotFilter = 0x2EC; // PrecipitationFilter_t
-        }
-        // Parent: None
         // Field count: 2
         public static class CDOTA_Modifier_AghsFort_Creature_Venomancer_PoisonSting_Applier {
             public const nint duration = 0x1A78; // float32
@@ -6624,26 +6380,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Break {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPulseEditorHeaderIcon
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // CURSOR_ADD_TAG
-        // CURSOR_REMOVE_TAG
-        // CURSOR_RETIRED
-        // REQUIREMENT_PASS
-        // REQUIREMENT_FAIL
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_WaitForObservable {
-            public const nint m_Condition = 0xD8; // CPulseObservableExpression<bool>
-            public const nint m_OnTrue = 0x150; // CPulse_ResumePoint
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -6824,19 +6560,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_nTotalBarracks = 0x1A78; // int32
             public const nint m_bGameplayStarted = 0x1A7C; // bool
         }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyAttributeSuggestionName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Step_EntFire {
-            public const nint m_Input = 0x48; // CUtlString
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Yasha_And_Kaya {
@@ -6995,15 +6718,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_IngameEvent_Base
         // Field count: 0
         public static class CIngameEvent_FV2023 {
-        }
-        // Parent: CEntityComponent
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CHitboxComponent {
-            public const nint m_flBoundsExpandRadius = 0x14; // float32
         }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 1
@@ -7372,24 +7086,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Unselectable {
-        }
-        // Parent: CEntityComponent
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // o
-        // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
-        // TIMELINE_COMPRESSION_AVERAGE
-        // TIMELINE_COMPRESSION_AVERAGE_BLEND
-        // TIMELINE_COMPRESSION_TOTAL
-        // MGetKV3ClassDefaults
-        // MKV3TransferSaveOpsForField
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPathQueryComponent {
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -8106,46 +7802,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_DOTA_Ability_Juggernaut_Bladeform {
         }
-        // Parent: C_BaseEntity
-        // Field count: 36
-        public static class C_EnvVolumetricFogController {
-            public const nint m_flScattering = 0x5F0; // float32
-            public const nint m_TintColor = 0x5F4; // Color
-            public const nint m_flAnisotropy = 0x5F8; // float32
-            public const nint m_flFadeSpeed = 0x5FC; // float32
-            public const nint m_flDrawDistance = 0x600; // float32
-            public const nint m_flFadeInStart = 0x604; // float32
-            public const nint m_flFadeInEnd = 0x608; // float32
-            public const nint m_flIndirectStrength = 0x60C; // float32
-            public const nint m_nVolumeDepth = 0x610; // int32
-            public const nint m_fFirstVolumeSliceThickness = 0x614; // float32
-            public const nint m_nIndirectTextureDimX = 0x618; // int32
-            public const nint m_nIndirectTextureDimY = 0x61C; // int32
-            public const nint m_nIndirectTextureDimZ = 0x620; // int32
-            public const nint m_vBoxMins = 0x624; // Vector
-            public const nint m_vBoxMaxs = 0x630; // Vector
-            public const nint m_bActive = 0x63C; // bool
-            public const nint m_flStartAnisoTime = 0x640; // GameTime_t
-            public const nint m_flStartScatterTime = 0x644; // GameTime_t
-            public const nint m_flStartDrawDistanceTime = 0x648; // GameTime_t
-            public const nint m_flStartAnisotropy = 0x64C; // float32
-            public const nint m_flStartScattering = 0x650; // float32
-            public const nint m_flStartDrawDistance = 0x654; // float32
-            public const nint m_flDefaultAnisotropy = 0x658; // float32
-            public const nint m_flDefaultScattering = 0x65C; // float32
-            public const nint m_flDefaultDrawDistance = 0x660; // float32
-            public const nint m_bStartDisabled = 0x664; // bool
-            public const nint m_bEnableIndirect = 0x665; // bool
-            public const nint m_bIsMaster = 0x666; // bool
-            public const nint m_hFogIndirectTexture = 0x668; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_nForceRefreshCount = 0x670; // int32
-            public const nint m_fNoiseSpeed = 0x674; // float32
-            public const nint m_fNoiseStrength = 0x678; // float32
-            public const nint m_vNoiseScale = 0x67C; // Vector
-            public const nint m_fWindSpeed = 0x688; // float32
-            public const nint m_vWindDirection = 0x68C; // Vector
-            public const nint m_bFirstTime = 0x698; // bool
-        }
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_AghsFort_TreantMiniboss_NaturesGuise_NearTreeDisplay {
@@ -8310,27 +7966,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_Razor_UnstableCurrent {
             public const nint movespeed_pct = 0x1A78; // int32
-        }
-        // Parent: None
-        // Field count: 14
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulseGraphDef {
-            public const nint m_DomainIdentifier = 0x8; // PulseSymbol_t
-            public const nint m_DomainSubType = 0x18; // CPulseValueFullType
-            public const nint m_ParentMapName = 0x30; // PulseSymbol_t
-            public const nint m_ParentXmlName = 0x40; // PulseSymbol_t
-            public const nint m_Chunks = 0x50; // CUtlVector<CPulse_Chunk*>
-            public const nint m_Cells = 0x68; // CUtlVector<CPulseCell_Base*>
-            public const nint m_Vars = 0x80; // CUtlVector<CPulse_Variable>
-            public const nint m_PublicOutputs = 0x98; // CUtlVector<CPulse_PublicOutput>
-            public const nint m_InvokeBindings = 0xB0; // CUtlVector<CPulse_InvokeBinding*>
-            public const nint m_CallInfos = 0xC8; // CUtlVector<CPulse_CallInfo*>
-            public const nint m_Constants = 0xE0; // CUtlVector<CPulse_Constant>
-            public const nint m_DomainValues = 0xF8; // CUtlVector<CPulse_DomainValue>
-            public const nint m_BlackboardReferences = 0x110; // CUtlVector<CPulse_BlackboardReference>
-            public const nint m_OutputConnections = 0x128; // CUtlVector<CPulse_OutputConnection*>
         }
         // Parent: C_DynamicProp
         // Field count: 1
@@ -8537,26 +8172,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_DOTA_Ability_DeathProphet_Witchcraft {
         }
-        // Parent: C_BaseEntity
-        // Field count: 9
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MPropertyAttributeSuggestionName
-        // MPropertyDescription
-        // MPropertyDescription
-        // l
-        public static class C_EnvWindVolume {
-            public const nint m_bActive = 0x5F0; // bool
-            public const nint m_vBoxMins = 0x5F4; // Vector
-            public const nint m_vBoxMaxs = 0x600; // Vector
-            public const nint m_bStartDisabled = 0x60C; // bool
-            public const nint m_nShape = 0x610; // int32
-            public const nint m_fWindSpeedMultiplier = 0x614; // float32
-            public const nint m_fWindTurbulenceMultiplier = 0x618; // float32
-            public const nint m_fWindSpeedVariationMultiplier = 0x61C; // float32
-            public const nint m_fWindDirectionVariationMultiplier = 0x620; // float32
-        }
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_Special_Bonus_Lifesteal_12 {
@@ -8632,37 +8247,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_Invoker {
-        }
-        // Parent: C_PortraitWorldUnit
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyCustomFGDType
-        // MGetKV3ClassDefaults
-        // MVDataNodeType
-        // S
-        public static class C_CrownfallShmupEnemy {
-        }
-        // Parent: C_DynamicProp
-        // Field count: 11
-        //
-        // Metadata:
-        // S
-        // 6/0x57c7,0x0f30/0x1116,0x0fV
-        // e
-        public static class C_DOTA_GuildBannerDynamic {
-            public const nint m_bRespawnClientEntity = 0xD10; // bool
-            public const nint m_bPlaySpawnAnimation = 0xD11; // bool
-            public const nint m_unGuildTier = 0xD12; // uint8
-            public const nint m_unPrimaryColor = 0xD13; // uint8
-            public const nint m_unSecondaryColor = 0xD14; // uint8
-            public const nint m_unPattern = 0xD15; // uint8
-            public const nint m_unLogo = 0xD18; // uint64
-            public const nint m_unGuildID = 0xD20; // GuildID_t
-            public const nint m_unGuildFlags = 0xD24; // uint32
-            public const nint m_bUsePanelCache = 0xD28; // bool
-            public const nint m_hClientEntity = 0xD2C; // CHandle<C_BaseEntity>
         }
         // Parent: CEnvSoundscape
         // Field count: 0
@@ -8894,18 +8478,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_BaseEntity
         // Field count: 0
         public static class C_GameRulesProxy {
-        }
-        // Parent: CEntityComponent
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CRenderComponent {
-            public const nint __m_pChainEntity = 0x10; // CNetworkVarChainer
-            public const nint m_bIsRenderingWithViewModels = 0x50; // bool
-            public const nint m_nSplitscreenFlags = 0x54; // uint32
-            public const nint m_bEnableRendering = 0x58; // bool
-            public const nint m_bInterpolationReadyToDraw = 0xA8; // bool
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -9837,53 +9409,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_nFXIndex = 0x1A78; // ParticleIndex_t
             public const nint wave_radius = 0x1A7C; // float32
         }
-        // Parent: CSkeletonAnimationController
-        // Field count: 32
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // AMMO_FORCE_DROP_IF_CARRIED
-        // AMMO_RESERVE_STAYS_WITH_WEAPON
-        // AMMO_FLAG_MAX
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        public static class CBaseAnimGraphController {
-            public const nint m_nAnimationAlgorithm = 0x18; // AnimationAlgorithm_t
-            public const nint m_nNextExternalGraphHandle = 0x1C; // ExternalAnimGraphHandle_t
-            public const nint m_vecSecondarySkeletonSlotIDs = 0x20; // C_NetworkUtlVectorBase<CGlobalSymbol>
-            public const nint m_vecSecondarySkeletons = 0x38; // C_NetworkUtlVectorBase<CHandle<CBaseAnimGraph>>
-            public const nint m_nSecondarySkeletonMasterCount = 0x50; // int32
-            public const nint m_flSoundSyncTime = 0x58; // float32
-            public const nint m_nActiveIKChainMask = 0x5C; // uint32
-            public const nint m_hSequence = 0xB0; // HSequence
-            public const nint m_flSeqStartTime = 0xB4; // GameTime_t
-            public const nint m_flSeqFixedCycle = 0xB8; // float32
-            public const nint m_nAnimLoopMode = 0xBC; // AnimLoopMode_t
-            public const nint m_flPlaybackRate = 0xC0; // CNetworkedQuantizedFloat
-            public const nint m_nNotifyState = 0xCC; // SequenceFinishNotifyState_t
-            public const nint m_bNetworkedAnimationInputsChanged = 0xCD; // bool
-            public const nint m_bNetworkedSequenceChanged = 0xCE; // bool
-            public const nint m_bLastUpdateSkipped = 0xCF; // bool
-            public const nint m_bSequenceFinished = 0xD0; // bool
-            public const nint m_nPrevAnimUpdateTick = 0xD4; // GameTick_t
-            public const nint m_hGraphDefinitionAG2 = 0x370; // CStrongHandle<InfoForResourceTypeCNmGraphDefinition>
-            public const nint m_SerializePoseRecipeAG2Slots = 0x378; // C_UtlVectorEmbeddedNetworkVar<AnimGraph2SerializedPoseRecipeSlot_t>
-            public const nint m_SerializePoseRecipeAG2Dynamic = 0x3E0; // C_NetworkUtlVectorBase<uint8>
-            public const nint m_nSerializePoseRecipeAG2ActiveSlot = 0x3F8; // uint32
-            public const nint m_nSerializePoseRecipeVersionAG2 = 0x3FC; // int32
-            public const nint m_nServerGraphInstanceIteration = 0x400; // int32
-            public const nint m_nServerSerializationContextIteration = 0x404; // int32
-            public const nint m_primaryGraphId = 0x408; // ResourceId_t
-            public const nint m_vecExternalGraphIds = 0x410; // C_NetworkUtlVectorBase<ResourceId_t>
-            public const nint m_vecExternalClipIds = 0x428; // C_NetworkUtlVectorBase<ResourceId_t>
-            public const nint m_sAnimGraph2Identifier = 0x440; // CGlobalSymbol
-            public const nint m_pGraphInstanceAG2 = 0x448; // CAnimGraph2InstancePtr
-            public const nint m_vecExternalGraphs = 0x668; // CExternalAnimGraphList
-            public const nint m_nPrevAnimationAlgorithm = 0x699; // AnimationAlgorithm_t
-        }
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Seasonal_Firecrackers {
@@ -10003,24 +9528,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class AnimGraph2SerializedPoseRecipeSlot_t {
             public const nint m_topology = 0x30; // CUtlBinaryBlock
-        }
-        // Parent: None
-        // Field count: 11
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CBuoyancyHelper {
-            public const nint m_pController = 0x8; // IPhysicsMotionController*
-            public const nint m_nFluidType = 0x18; // CUtlStringToken
-            public const nint m_flFluidDensity = 0x1C; // float32
-            public const nint m_flNeutrallyBuoyantGravity = 0x20; // float32
-            public const nint m_flNeutrallyBuoyantLinearDamping = 0x24; // float32
-            public const nint m_flNeutrallyBuoyantAngularDamping = 0x28; // float32
-            public const nint m_bNeutrallyBuoyant = 0x2C; // bool
-            public const nint m_vecFractionOfWheelSubmergedForWheelFriction = 0x30; // CUtlVector<float32>
-            public const nint m_vecWheelFrictionScales = 0x48; // CUtlVector<float32>
-            public const nint m_vecFractionOfWheelSubmergedForWheelDrag = 0x60; // CUtlVector<float32>
-            public const nint m_vecWheelDrag = 0x78; // CUtlVector<float32>
         }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 0
@@ -10432,27 +9939,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_IngameEvent_FM2015 {
         }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // V
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_FireCursors {
-            public const nint m_Outflows = 0xD8; // CUtlVector<CPulse_OutflowConnection>
-            public const nint m_bWaitForChildOutflows = 0xF0; // bool
-            public const nint m_OnFinished = 0xF8; // CPulse_ResumePoint
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class CDOTA_Unit_Hero_PrimalBeast {
@@ -10522,24 +10008,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_SoundEventEntity
         // Field count: 0
         public static class C_SoundEventEntityAlias_snd_event_point {
-        }
-        // Parent: C_BaseEntity
-        // Field count: 3
-        //
-        // Metadata:
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
-        // MGetKV3ClassDefaults
-        public static class C_FogController {
-            public const nint m_fog = 0x5F0; // fogparams_t
-            public const nint m_bUseAngles = 0x658; // bool
-            public const nint m_iChangedVariables = 0x65C; // int32
         }
         // Parent: C_DOTABaseAbility
         // Field count: 0
@@ -10762,16 +10230,6 @@ namespace Source2Dumper.Schemas {
             public const nint aoe_bonus = 0x1A80; // float32
             public const nint proximity_bonus_radius = 0x1A84; // float32
             public const nint self_cast_range_bonus = 0x1A88; // int32
-        }
-        // Parent: CBodyComponent
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CBodyComponentPoint {
-            public const nint m_sceneNode = 0x80; // CGameSceneNode
         }
         // Parent: C_DOTABaseAbility
         // Field count: 0
@@ -11075,15 +10533,6 @@ namespace Source2Dumper.Schemas {
             public const nint front_angle = 0x1A78; // int32
             public const nint front_damage_increase = 0x1A7C; // int32
         }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Timeline__TimelineEvent_t {
-            public const nint m_flTimeFromPrevious = 0x0; // float32
-            public const nint m_EventOutflow = 0x8; // CPulse_OutflowConnection
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 1
         public static class C_DOTA_Unit_Hero_Earthshaker {
@@ -11285,34 +10734,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CIngameEvent_10thAnniversary {
         }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_IntervalTimer__CursorState_t {
-            public const nint m_StartTime = 0x0; // GameTime_t
-            public const nint m_EndTime = 0x4; // GameTime_t
-            public const nint m_flWaitInterval = 0x8; // float32
-            public const nint m_flWaitIntervalHigh = 0xC; // float32
-            public const nint m_bCompleteOnNextWake = 0x10; // bool
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_BaseRequirement {
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Recipe_PhaseBoots {
@@ -11454,32 +10875,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_SandKing_SandStorm_Slow_Aura_Thinker {
             public const nint sand_storm_radius = 0x1A78; // float32
         }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_BaseState {
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class OutflowWithRequirements_t {
-            public const nint m_Connection = 0x0; // CPulse_OutflowConnection
-            public const nint m_DestinationFlowNodeID = 0x48; // PulseDocNodeID_t
-            public const nint m_RequirementNodeIDs = 0x50; // CUtlVector<PulseDocNodeID_t>
-            public const nint m_nCursorStateBlockIndex = 0x68; // CUtlVector<int32>
-        }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 2
         public static class C_DOTA_Unit_Tidehunter_Anchor {
@@ -11594,32 +10989,6 @@ namespace Source2Dumper.Schemas {
             public const nint attack_range_bonus = 0x1A84; // int32
             public const nint m_InFlightAttackRecords = 0x1A88; // CUtlVector<AttackRecord_t>
         }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // SORT_BY_OUTFLOW_INDEX
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseSignatureForOutflow
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_IsRequirementValid {
-        }
         // Parent: C_InfoPlayerStartDota
         // Field count: 0
         public static class C_InfoPlayerStartGoodGuys {
@@ -11728,24 +11097,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_StormSpirit_ElectricVortex_SelfSlow {
             public const nint electric_vortex_self_slow = 0x1A78; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // V
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_Value_Gradient {
-            public const nint m_Gradient = 0x48; // CColorGradient
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -11906,38 +11257,6 @@ namespace Source2Dumper.Schemas {
             public const nint fInitialStockDuration = 0x48; // float32
             public const nint iPlayerID = 0x4C; // PlayerID_t
             public const nint iBonusDelayedStockCount = 0x50; // int32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class IntervalTimer {
-            public const nint m_timestamp = 0x8; // GameTime_t
-            public const nint m_nWorldGroupId = 0xC; // WorldGroupId_t
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // generic
-        public static class audioparams_t {
-            public const nint localSound = 0x8; // VectorWS[8]
-            public const nint soundscapeIndex = 0x68; // int32
-            public const nint localBits = 0x6C; // uint8
-            public const nint soundscapeEntityListIndex = 0x70; // int32
-            public const nint soundEventHash = 0x74; // uint32
-        }
-        // Parent: C_PointCamera
-        // Field count: 0
-        //
-        // Metadata:
-        // MPropertyCustomFGDType
-        // MGetKV3ClassDefaults
-        // MVDataNodeType
-        // S
-        public static class C_CrownfallShmupCamera {
         }
         // Parent: C_DOTA_Item
         // Field count: 1
@@ -12294,20 +11613,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_Earthshaker_Echoslam_Debuff {
         }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CTimeline {
-            public const nint m_flValues = 0x10; // float32[64]
-            public const nint m_nValueCounts = 0x110; // int32[64]
-            public const nint m_nBucketCount = 0x210; // int32
-            public const nint m_flInterval = 0x214; // float32
-            public const nint m_flFinalValue = 0x218; // float32
-            public const nint m_nCompressionType = 0x21C; // TimelineCompression_t
-            public const nint m_bStopped = 0x220; // bool
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Enhancement_Titanic {
@@ -12373,15 +11678,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_CentaurKhan_EnduranceAura_Bonus {
             public const nint bonus_attack_speed = 0x1A78; // int32
-        }
-        // Parent: C_BaseEntity
-        // Field count: 5
-        public static class C_TonemapController2 {
-            public const nint m_flAutoExposureMin = 0x5F0; // float32
-            public const nint m_flAutoExposureMax = 0x5F4; // float32
-            public const nint m_flExposureAdaptationSpeedUp = 0x5F8; // float32
-            public const nint m_flExposureAdaptationSpeedDown = 0x5FC; // float32
-            public const nint m_flTonemapEVSmoothingRange = 0x600; // float32
         }
         // Parent: C_DOTABaseAbility
         // Field count: 0
@@ -12481,26 +11777,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_SandKing_CausticFinaleOrb {
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CountdownTimer {
-            public const nint m_duration = 0x8; // float32
-            public const nint m_timestamp = 0xC; // GameTime_t
-            public const nint m_timescale = 0x10; // float32
-            public const nint m_nWorldGroupId = 0x14; // WorldGroupId_t
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class PulseNodeDynamicOutflows_t__DynamicOutflow_t {
-            public const nint m_OutflowID = 0x0; // CGlobalSymbol
-            public const nint m_Connection = 0x8; // CPulse_OutflowConnection
         }
         // Parent: CDOTA_BaseNPC_Seasonal_TI11_Balloon
         // Field count: 0
@@ -13137,48 +12413,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Puck_PhaseShift {
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MCustomFGDMetadata
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_Inflow_GraphHook {
-            public const nint m_HookName = 0x80; // PulseSymbol_t
         }
         // Parent: C_DOTAWorldParticleSystem
         // Field count: 1
@@ -14242,10 +13476,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_iTempViewer = 0xB80; // int32
             public const nint m_iTeam = 0xB84; // int32
         }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        public static class CDOTA_WhackAMoleGameEffectsEntity {
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Recipe_Ceremonial_Robe {
@@ -14642,23 +13872,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_Creep_Slow {
         }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Inflow_BaseEntrypoint {
-            public const nint m_EntryChunk = 0x48; // PulseRuntimeChunkIndex_t
-            public const nint m_RegisterMap = 0x50; // PulseRegisterMap_t
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_Disruptor {
@@ -14809,28 +14022,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Skeleton_King_Scepter_Tracker {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_WaitForCursorsWithTagBase {
-            public const nint m_nCursorsAllowedToWait = 0xD8; // int32
-            public const nint m_WaitComplete = 0xE0; // CPulse_ResumePoint
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 1
@@ -15107,27 +14298,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_VengefulSpirit_Restitution_EnemyDebuff {
             public const nint nOverheadEffect = 0x1A78; // ParticleIndex_t
         }
-        // Parent: None
-        // Field count: 14
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class C_fogplayerparams_t {
-            public const nint m_hCtrl = 0x8; // CHandle<C_FogController>
-            public const nint m_flTransitionTime = 0xC; // float32
-            public const nint m_OldColor = 0x10; // Color
-            public const nint m_flOldStart = 0x14; // float32
-            public const nint m_flOldEnd = 0x18; // float32
-            public const nint m_flOldMaxDensity = 0x1C; // float32
-            public const nint m_flOldHDRColorScale = 0x20; // float32
-            public const nint m_flOldFarZ = 0x24; // float32
-            public const nint m_NewColor = 0x28; // Color
-            public const nint m_flNewStart = 0x2C; // float32
-            public const nint m_flNewEnd = 0x30; // float32
-            public const nint m_flNewMaxDensity = 0x34; // float32
-            public const nint m_flNewHDRColorScale = 0x38; // float32
-            public const nint m_flNewFarZ = 0x3C; // float32
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Mysterious_Hat {
@@ -15271,49 +14441,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_PhantomLancer_Dopplewalk_Phase {
             public const nint vTargetPosition = 0x1A78; // VectorWS
-        }
-        // Parent: None
-        // Field count: 36
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CGameSceneNode {
-            public const nint m_nodeToWorld = 0x10; // CTransformWS
-            public const nint m_pOwner = 0x30; // CEntityInstance*
-            public const nint m_pParent = 0x38; // CGameSceneNode*
-            public const nint m_pChild = 0x40; // CGameSceneNode*
-            public const nint m_pNextSibling = 0x48; // CGameSceneNode*
-            public const nint m_hParent = 0x70; // CGameSceneNodeHandle
-            public const nint m_vecOrigin = 0x90; // CNetworkOriginCellCoordQuantizedVector
-            public const nint m_angRotation = 0xC8; // QAngle
-            public const nint m_flScale = 0xD4; // float32
-            public const nint m_vecAbsOrigin = 0xD8; // VectorWS
-            public const nint m_angAbsRotation = 0xE4; // QAngle
-            public const nint m_flAbsScale = 0xF0; // float32
-            public const nint m_vecWrappedLocalOrigin = 0xF4; // Vector
-            public const nint m_angWrappedLocalRotation = 0x100; // QAngle
-            public const nint m_flWrappedScale = 0x10C; // float32
-            public const nint m_nParentAttachmentOrBone = 0x110; // int16
-            public const nint m_bDebugAbsOriginChanges = 0x112; // bool
-            public const nint m_bDormant = 0x113; // bool
-            public const nint m_bForceParentToBeNetworked = 0x114; // bool
-            public const nint m_bDirtyHierarchy = 0x0; // bitfield:1
-            public const nint m_bDirtyBoneMergeInfo = 0x0; // bitfield:1
-            public const nint m_bNetworkedPositionChanged = 0x0; // bitfield:1
-            public const nint m_bNetworkedAnglesChanged = 0x0; // bitfield:1
-            public const nint m_bNetworkedScaleChanged = 0x0; // bitfield:1
-            public const nint m_bWillBeCallingPostDataUpdate = 0x0; // bitfield:1
-            public const nint m_bBoneMergeFlex = 0x0; // bitfield:1
-            public const nint m_nLatchAbsOrigin = 0x0; // bitfield:2
-            public const nint m_bDirtyBoneMergeBoneToRoot = 0x0; // bitfield:1
-            public const nint m_nHierarchicalDepth = 0x117; // uint8
-            public const nint m_nHierarchyType = 0x118; // uint8
-            public const nint m_nDoNotSetAnimTimeInInvalidatePhysicsCount = 0x119; // uint8
-            public const nint m_name = 0x11C; // CUtlStringToken
-            public const nint m_hierarchyAttachName = 0x130; // CUtlStringToken
-            public const nint m_flZOffset = 0x134; // float32
-            public const nint m_angLocalOrientation = 0x138; // QAngle
-            public const nint m_flClientLocalScale = 0x144; // float32
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -15636,35 +14763,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_DOTA_BaseNPC_Warlock_Golem {
         }
-        // Parent: C_DOTA_BaseNPC
-        // Field count: 22
-        //
-        // Metadata:
-        // CInlineJob_CMsgGCToClientInFlightChargesUpdated
-        public static class C_PortraitWorldUnit {
-            public const nint m_OutputAnimOver = 0x19B8; // CEntityIOOutput
-            public const nint m_bSuppressIntroEffects = 0x19D0; // bool
-            public const nint m_bIsAlternateLoadout = 0x19D1; // bool
-            public const nint m_bSkipBackgroundEntities = 0x19D2; // bool
-            public const nint m_bSpawnBackgroundModels = 0x19D3; // bool
-            public const nint m_bDeferredPortrait = 0x19D4; // bool
-            public const nint m_bShowParticleAssetModifiers = 0x19D5; // bool
-            public const nint m_bIgnorePortraitInfo = 0x19D6; // bool
-            public const nint m_bFlyingCourier = 0x19D7; // bool
-            public const nint m_bDisableDefaultModifiers = 0x19D8; // bool
-            public const nint m_nEffigyStatusEffect = 0x19DC; // int32
-            public const nint m_effigySequenceName = 0x19E0; // CUtlSymbolLarge
-            public const nint m_flStartingAnimationCycle = 0x19E8; // float32
-            public const nint m_flAnimationPlaybackSpeed = 0x19EC; // float32
-            public const nint m_flRareLoadoutAnimChance = 0x19F0; // float32
-            public const nint m_bSetDefaultActivityOnSequenceFinished = 0x19F4; // bool
-            public const nint m_vecActivityModifiers = 0x19F8; // CUtlVector<CUtlSymbolLarge>
-            public const nint m_environment = 0x1A10; // DOTAPortraitEnvironmentType_t
-            public const nint m_nStartupBehavior = 0x1A18; // StartupBehavior_t
-            public const nint m_cameraName = 0x1C00; // CUtlSymbolLarge
-            public const nint m_nPortraitParticle = 0x1C58; // ParticleIndex_t
-            public const nint m_nCourierType = 0x1C5C; // int32
-        }
         // Parent: CBaseAnimatingActivity
         // Field count: 7
         public static class C_BasePlayerWeapon {
@@ -15835,22 +14933,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CSoundOpvarSetBoxEntity {
         }
-        // Parent: C_BaseModelEntity
-        // Field count: 12
-        public static class C_EnvSky {
-            public const nint m_hSkyMaterial = 0xA88; // CStrongHandle<InfoForResourceTypeIMaterial2>
-            public const nint m_hSkyMaterialLightingOnly = 0xA90; // CStrongHandle<InfoForResourceTypeIMaterial2>
-            public const nint m_bStartDisabled = 0xA98; // bool
-            public const nint m_vTintColor = 0xA99; // Color
-            public const nint m_vTintColorLightingOnly = 0xA9D; // Color
-            public const nint m_flBrightnessScale = 0xAA4; // float32
-            public const nint m_nFogType = 0xAA8; // int32
-            public const nint m_flFogMinStart = 0xAAC; // float32
-            public const nint m_flFogMinEnd = 0xAB0; // float32
-            public const nint m_flFogMaxStart = 0xAB4; // float32
-            public const nint m_flFogMaxEnd = 0xAB8; // float32
-            public const nint m_bEnabled = 0xABC; // bool
-        }
         // Parent: CBaseAnimatingActivity
         // Field count: 6
         public static class C_DOTA_Item_Rune {
@@ -15973,18 +15055,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_IngameEvent_Base
         // Field count: 0
         public static class CIngameEvent_Frostivus2024 {
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulse_InvokeBinding {
-            public const nint m_RegisterMap = 0x0; // PulseRegisterMap_t
-            public const nint m_FuncName = 0x30; // PulseSymbol_t
-            public const nint m_nCellIndex = 0x40; // PulseRuntimeCellIndex_t
-            public const nint m_nSrcChunk = 0x44; // PulseRuntimeChunkIndex_t
-            public const nint m_nSrcInstruction = 0x48; // int32
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -16194,10 +15264,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_DOTA_Ability_Special_Bonus_Movement_Speed_100 {
         }
-        // Parent: C_BaseEntity
-        // Field count: 0
-        public static class C_DOTAPortraitWorldCallbackHandler {
-        }
         // Parent: None
         // Field count: 1
         public static class CDOTA_Modifier_Hurricane_Pike_Active_Alternate {
@@ -16274,30 +15340,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_Activity_Modifier {
             public const nint m_activityModifier = 0x1A78; // CUtlSymbolLarge
-        }
-        // Parent: C_DOTA_BaseNPC
-        // Field count: 17
-        //
-        // Metadata:
-        // S
-        public static class C_DOTA_BaseNPC_Building {
-            public const nint m_iDamageLevel = 0x19B8; // int32
-            public const nint m_nAmbientFXIndex = 0x19BC; // ParticleIndex_t
-            public const nint m_nTPFXIndex = 0x19C0; // ParticleIndex_t
-            public const nint m_nStatusFXIndex = 0x19C4; // ParticleIndex_t
-            public const nint m_nFXIndex = 0x19C8; // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            public const nint m_nFXIndexDestruction = 0x19D0; // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            public const nint m_angInitialAngles = 0x19D8; // QAngle
-            public const nint m_hHeroStatueSequence = 0x19E4; // HSequence
-            public const nint m_hConstantLayerSequence = 0x19E8; // HSequence
-            public const nint m_fHeroStatueCycle = 0x19EC; // float32
-            public const nint m_iHeroStatueStatusEffectIndex = 0x19F0; // int32
-            public const nint m_bHeroStatue = 0x19F4; // bool
-            public const nint m_bBattleCup = 0x19F5; // bool
-            public const nint m_HeroStatueInscription = 0x19F6; // char[32]
-            public const nint m_iHeroStatueOwnerPlayerID = 0x1A18; // PlayerID_t
-            public const nint m_ParticleTintColor = 0x1A1C; // Color
-            public const nint m_nFoWTeam = 0x1A20; // FowCustomTeams_t
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -17411,43 +16453,6 @@ namespace Source2Dumper.Schemas {
             public const nint epicenter_slow = 0x1A78; // int32
             public const nint epicenter_slow_as = 0x1A7C; // int32
         }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        public static class CPulseCell_IntervalTimer {
-            public const nint m_Completed = 0xD8; // CPulse_ResumePoint
-            public const nint m_OnInterval = 0x120; // SignatureOutflow_Continue
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_Skywrath_Mage {
@@ -17767,19 +16772,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_AncientApparition_ChillingTouch_Slow {
         }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // 30/0x1116,0x0fV
-        public static class CPulseCell_BaseLerp {
-            public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
-        }
         // Parent: C_DOTA_BaseNPC_Creep
         // Field count: 2
         public static class C_DOTA_Unit_Brewmaster_PrimalStorm {
@@ -17805,27 +16797,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_closedAngles = 0xD34; // QAngle
             public const nint m_hMaster = 0xD40; // CHandle<C_BasePropDoor>
             public const nint m_vWhereToSetLightingOrigin = 0xD44; // VectorWS
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 14
-        //
-        // Metadata:
-        // generic
-        public static class C_DOTAWorldParticleSystem {
-            public const nint m_nType = 0xA88; // int32
-            public const nint m_iClientEffectIndex = 0xA8C; // ParticleIndex_t
-            public const nint m_szEffectName = 0xA90; // CUtlSymbolLarge
-            public const nint m_szTargetName = 0xA98; // CUtlSymbolLarge
-            public const nint m_szControlPoint = 0xAA0; // CUtlSymbolLarge
-            public const nint m_hOverrideSequence = 0xAA8; // HSequence
-            public const nint m_hOverrideModel = 0xAB0; // CStrongHandle<InfoForResourceTypeCModel>
-            public const nint m_vModelScale = 0xAB8; // Vector
-            public const nint m_nSkinOverride = 0xAC4; // int32
-            public const nint m_bDayTime = 0xAC8; // bool
-            public const nint m_bNightTime = 0xAC9; // bool
-            public const nint m_bShowInFow = 0xACA; // bool
-            public const nint m_bShowWhileDynamicWeatherActive = 0xACB; // bool
-            public const nint m_bAnimateDuringGameplayPause = 0xACC; // bool
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -17894,15 +16865,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_Special_Bonus_MP_125 {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_ShmupWaitForDuration__CursorState_t {
-            public const nint m_hPanel = 0x0; // panorama::CPanelPtr
-            public const nint m_nTargetTick = 0x8; // int32
         }
         // Parent: None
         // Field count: 1
@@ -18332,21 +17294,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_FacelessVoid_Backtrack_Temp {
             public const nint dodge_chance_pct = 0x1A78; // int32
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CNetworkedSequenceOperation {
-            public const nint m_hSequence = 0x8; // HSequence
-            public const nint m_flPrevCycle = 0xC; // float32
-            public const nint m_flCycle = 0x10; // float32
-            public const nint m_flWeight = 0x14; // CNetworkedQuantizedFloat
-            public const nint m_bSequenceChangeNetworked = 0x1C; // bool
-            public const nint m_bDiscontinuity = 0x1D; // bool
-            public const nint m_flPrevCycleFromDiscontinuity = 0x20; // float32
-            public const nint m_flPrevCycleForAnimEventDetection = 0x24; // float32
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -18923,44 +17870,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_Mutation_DeathExplosion_TeamAura {
         }
-        // Parent: C_BaseEntity
-        // Field count: 29
-        //
-        // Metadata:
-        // West
-        // South
-        // Down
-        public static class C_EnvCombinedLightProbeVolume {
-            public const nint m_Entity_Color = 0x1668; // Color
-            public const nint m_Entity_flBrightness = 0x166C; // float32
-            public const nint m_Entity_hCubemapTexture = 0x1670; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_bCustomCubemapTexture = 0x1678; // bool
-            public const nint m_Entity_hLightProbeTexture_AmbientCube = 0x1680; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_hLightProbeTexture_SDF = 0x1688; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_hLightProbeTexture_SH2_DC = 0x1690; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_hLightProbeTexture_SH2_R = 0x1698; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_hLightProbeTexture_SH2_G = 0x16A0; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_hLightProbeTexture_SH2_B = 0x16A8; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_hLightProbeDirectLightIndicesTexture = 0x16B0; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_hLightProbeDirectLightScalarsTexture = 0x16B8; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_hLightProbeDirectLightShadowsTexture = 0x16C0; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_vBoxMins = 0x16C8; // Vector
-            public const nint m_Entity_vBoxMaxs = 0x16D4; // Vector
-            public const nint m_Entity_bMoveable = 0x16E0; // bool
-            public const nint m_Entity_nHandshake = 0x16E4; // int32
-            public const nint m_Entity_nEnvCubeMapArrayIndex = 0x16E8; // int32
-            public const nint m_Entity_nPriority = 0x16EC; // int32
-            public const nint m_Entity_bStartDisabled = 0x16F0; // bool
-            public const nint m_Entity_flEdgeFadeDist = 0x16F4; // float32
-            public const nint m_Entity_vEdgeFadeDists = 0x16F8; // Vector
-            public const nint m_Entity_nLightProbeSizeX = 0x1704; // int32
-            public const nint m_Entity_nLightProbeSizeY = 0x1708; // int32
-            public const nint m_Entity_nLightProbeSizeZ = 0x170C; // int32
-            public const nint m_Entity_nLightProbeAtlasX = 0x1710; // int32
-            public const nint m_Entity_nLightProbeAtlasY = 0x1714; // int32
-            public const nint m_Entity_nLightProbeAtlasZ = 0x1718; // int32
-            public const nint m_Entity_bEnabled = 0x1731; // bool
-        }
         // Parent: None
         // Field count: 1
         public static class CDOTA_Modifier_Aghsfort_Elemental_Wisp_Tether_Slow {
@@ -19422,17 +18331,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_sUniqueHammerID = 0x5E0; // CUtlString
             public const nint m_nBloodType = 0x5E8; // BloodType
         }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ActiveModelConfig_t {
-            public const nint m_Handle = 0x30; // ModelConfigHandle_t
-            public const nint m_Name = 0x38; // CUtlSymbolLarge
-            public const nint m_AssociatedEntities = 0x40; // C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>
-            public const nint m_AssociatedEntityNames = 0x58; // C_NetworkUtlVectorBase<CUtlSymbolLarge>
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class CDOTA_Item_Gossamer_Cape {
@@ -19577,25 +18475,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_FountainInvulnerabilityBuff {
             public const nint m_vecPosition = 0x1A78; // VectorWS
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseSignatureForOutflow
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Value_Curve {
-            public const nint m_Curve = 0x48; // CPiecewiseCurve
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 2
@@ -20311,49 +19190,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_iBuffIndex = 0x384; // int32
             public const nint m_iLockRefCount = 0x388; // int32
         }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MCustomFGDMetadata
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_Inflow_EventHandler {
-            public const nint m_EventName = 0x80; // PulseSymbol_t
-        }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 0
         public static class C_DOTA_Unit_IngisFatuus {
@@ -20543,23 +19379,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_SkeletonKing_Reincarnation_Slow {
             public const nint movespeed = 0x1A78; // int32
             public const nint attackslow = 0x1A7C; // int32
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_BaseFlow {
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -20918,20 +19737,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_AntiMage_Empowered_ManaBreak_Debuff {
         }
-        // Parent: CGameSceneNode
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSkeletonInstance {
-            public const nint m_modelState = 0x160; // CModelState
-            public const nint m_bUseParentRenderBounds = 0x410; // bool
-            public const nint m_bDisableSolidCollisionsForHierarchy = 0x411; // bool
-            public const nint m_bDirtyMotionType = 0x412; // bool
-            public const nint m_bIsGeneratingLatchedParentSpaceState = 0x413; // bool
-            public const nint m_materialGroup = 0x418; // CUtlStringToken
-            public const nint m_nHitboxSet = 0x41C; // uint8
-        }
         // Parent: None
         // Field count: 0
         public static class CEntityComponent {
@@ -21208,26 +20013,6 @@ namespace Source2Dumper.Schemas {
             public const nint fiery_soul_stack_duration = 0x1A88; // float32
             public const nint m_nFXIndex = 0x1A8C; // ParticleIndex_t
             public const nint m_flFierySoulDieTime = 0x1A90; // GameTime_t
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Outflow_CycleShuffled__InstanceState_t {
-            public const nint m_Shuffle = 0x0; // CUtlVectorFixedGrowable<uint8,8>
-            public const nint m_nNextShuffle = 0x20; // int32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_BaseLerp__CursorState_t {
-            public const nint m_StartTime = 0x0; // GameTime_t
-            public const nint m_EndTime = 0x4; // GameTime_t
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -21962,22 +20747,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_WarpineRaider_SeedShot {
             public const nint m_hTarget = 0x1A78; // CHandle<C_BaseEntity>
         }
-        // Parent: C_PointEntity
-        // Field count: 12
-        public static class CInfoOffscreenPanoramaTexture {
-            public const nint m_bDisabled = 0x5F0; // bool
-            public const nint m_nResolutionX = 0x5F4; // int32
-            public const nint m_nResolutionY = 0x5F8; // int32
-            public const nint m_szPanelType = 0x600; // CUtlSymbolLarge
-            public const nint m_szLayoutFileName = 0x608; // CUtlSymbolLarge
-            public const nint m_RenderAttrName = 0x610; // CUtlSymbolLarge
-            public const nint m_TargetEntities = 0x618; // C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>
-            public const nint m_nTargetChangeCount = 0x630; // int32
-            public const nint m_vecCSSClasses = 0x638; // C_NetworkUtlVectorBase<CUtlSymbolLarge>
-            public const nint m_szTargetsName = 0x650; // CUtlSymbolLarge
-            public const nint m_AdditionalTargetEntities = 0x658; // CUtlVector<CHandle<C_BaseModelEntity>>
-            public const nint m_bCheckCSSClasses = 0x7D0; // bool
-        }
         // Parent: None
         // Field count: 10
         public static class CDOTA_Modifier_AghsFort_Spectre_ActiveDispersion_Thinker {
@@ -22215,15 +20984,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_PreventTaunts {
         }
-        // Parent: CBodyComponentSkeletonInstance
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MKV3TransferSaveOpsForField
-        public static class C_BodyComponentBaseAnimating {
-            public const nint m_animationController = 0x530; // C_BaseAnimatingController
-        }
         // Parent: None
         // Field count: 7
         public static class CAttributeManager {
@@ -22253,10 +21013,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_nFXSkullIndex = 0x19B8; // ParticleIndex_t
             public const nint m_nTargetType = 0x19BC; // int32
             public const nint m_nTargetFlags = 0x19C0; // int32
-        }
-        // Parent: C_PortraitWorldUnit
-        // Field count: 0
-        public static class C_Artillery_PortraitWorldUnit {
         }
         // Parent: C_DOTAWearableItem
         // Field count: 0
@@ -22315,16 +21071,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_BigThunderLizard_Slam {
             public const nint movespeed_slow = 0x1A78; // int32
-        }
-        // Parent: C_PointEntity
-        // Field count: 0
-        //
-        // Metadata:
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
-        // MGetKV3ClassDefaults
-        public static class CInfoTarget {
         }
         // Parent: C_DOTABaseAbility
         // Field count: 0
@@ -22422,74 +21168,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_fOverrideFogEnd = 0x1D0; // float32[5]
             public const nint m_hActivePostProcessingVolume = 0x1E4; // CHandle<C_PostProcessingVolume>
             public const nint m_angDemoViewAngles = 0x1E8; // QAngle
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_Timeline {
-            public const nint m_TimelineEvents = 0xD8; // CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
-            public const nint m_bWaitForChildOutflows = 0xF0; // bool
-            public const nint m_OnFinished = 0xF8; // CPulse_ResumePoint
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MCustomFGDMetadata
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_Inflow_EntOutputHandler {
-            public const nint m_SourceEntity = 0x80; // PulseSymbol_t
-            public const nint m_SourceOutput = 0x90; // PulseSymbol_t
-            public const nint m_ExpectedParamType = 0xA0; // CPulseValueFullType
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -23255,14 +21933,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_HP_Regen {
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Outflow_CycleOrdered__InstanceState_t {
-            public const nint m_nNextIndex = 0x0; // int32
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -24415,34 +23085,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_customType = 0x4; // CUtlStringToken
             public const nint m_bShouldDestroyImmediately = 0x8; // bool
         }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // e
-        public static class PhysicsRagdollPose_t {
-            public const nint m_Transforms = 0x8; // C_NetworkUtlVectorBase<CTransform>
-            public const nint m_hOwner = 0x20; // CHandle<C_BaseEntity>
-            public const nint m_bSetFromDebugHistory = 0x24; // bool
-        }
-        // Parent: CEntityComponent
-        // Field count: 10
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPropDataComponent {
-            public const nint m_flDmgModBullet = 0x10; // float32
-            public const nint m_flDmgModClub = 0x14; // float32
-            public const nint m_flDmgModExplosive = 0x18; // float32
-            public const nint m_flDmgModFire = 0x1C; // float32
-            public const nint m_iszPhysicsDamageTableName = 0x20; // CUtlSymbolLarge
-            public const nint m_iszBasePropData = 0x28; // CUtlSymbolLarge
-            public const nint m_nInteractions = 0x30; // int32
-            public const nint m_bSpawnMotionDisabled = 0x34; // bool
-            public const nint m_nDisableTakePhysicsDamageSpawnFlag = 0x38; // int32
-            public const nint m_nMotionDisabledSpawnFlag = 0x3C; // int32
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_Ursa {
@@ -24602,15 +23244,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_nAbilityID = 0x30; // AbilityID_t
             public const nint m_unPlayerID = 0x34; // PlayerID_t
             public const nint m_unAbilityPlayerSlot = 0x38; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_LimitCount__InstanceState_t {
-            public const nint m_nCurrentCount = 0x0; // int32
         }
         // Parent: C_DOTA_BaseNPC
         // Field count: 2
@@ -24858,17 +23491,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_DebuffImmune {
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class EngineCountdownTimer {
-            public const nint m_duration = 0x8; // float32
-            public const nint m_timestamp = 0xC; // float32
-            public const nint m_timescale = 0x10; // float32
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -25516,24 +24138,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CFilterLOS {
         }
-        // Parent: C_BaseEntity
-        // Field count: 7
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MPropertyAttributeSuggestionName
-        // MPropertyDescription
-        // MPropertyDescription
-        // l
-        public static class CPointOrient {
-            public const nint m_iszSpawnTargetName = 0x5F0; // CUtlSymbolLarge
-            public const nint m_hTarget = 0x5F8; // CHandle<C_BaseEntity>
-            public const nint m_bActive = 0x5FC; // bool
-            public const nint m_nGoalDirection = 0x600; // PointOrientGoalDirectionType_t
-            public const nint m_nConstraint = 0x604; // PointOrientConstraint_t
-            public const nint m_flMaxTurnRate = 0x608; // float32
-            public const nint m_flLastGameTime = 0x60C; // GameTime_t
-        }
         // Parent: None
         // Field count: 1
         public static class CDOTA_Modifier_Seasonal_TI11_DuelAccepted {
@@ -25559,15 +24163,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_flDistanceFalloff = 0x28; // float32
             public const nint m_nFlags = 0x2C; // uint32
             public const nint m_ProjectedTextureName = 0x30; // char[512]
-        }
-        // Parent: C_BaseEntity
-        // Field count: 1
-        //
-        // Metadata:
-        // Q
-        // MGetKV3ClassDefaults
-        public static class C_GlobalLight {
-            public const nint m_WindClothForceHandle = 0xB10; // uint16
         }
         // Parent: C_BaseEntity
         // Field count: 1
@@ -25639,27 +24234,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_PhantomLancer_PhantomEdge_Agility {
             public const nint bonus_agility = 0x1A78; // int32
-        }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class sky3dparams_t {
-            public const nint scale = 0x8; // int16
-            public const nint origin = 0xC; // VectorWS
-            public const nint bClip3DSkyBoxNearToWorldFar = 0x18; // bool
-            public const nint flClip3DSkyBoxNearToWorldFarOffset = 0x1C; // float32
-            public const nint fog = 0x20; // fogparams_t
-            public const nint m_nWorldGroupID = 0x88; // WorldGroupId_t
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        //
-        // Metadata:
-        // M
-        // e
-        public static class CDOTA_FightingGame_EffectsEntity {
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -25885,17 +24459,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_SandKing_Impale {
         }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDestructiblePartsComponent {
-            public const nint __m_pChainEntity = 0x0; // CNetworkVarChainer
-            public const nint m_vecDamageTakenByHitGroup = 0x48; // CUtlVector<uint16>
-            public const nint m_hOwner = 0x60; // CHandle<C_BaseModelEntity>
-            public const nint m_pAnimGraphDestructibleGraphController = 0x68; // CAnimGraphControllerPtr
-        }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 2
         public static class C_DOTA_NPC_TechiesMines {
@@ -25905,10 +24468,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_DOTA_Unit_Hero_Beastmaster_Beasts
         // Field count: 0
         public static class C_DOTA_Unit_Hero_Beastmaster_Boar {
-        }
-        // Parent: CBaseAnimatingActivity
-        // Field count: 0
-        public static class C_DOTA_PortraitBaseModel {
         }
         // Parent: C_EnvDeferredLight
         // Field count: 0
@@ -26098,25 +24657,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_Bane_Nightmare_AttackSpeed_Bonus {
             public const nint bonus_attack_speed = 0x1A78; // int32
             public const nint m_hTarget = 0x1A7C; // CHandle<C_BaseEntity>
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Step_DebugLog {
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -26384,24 +24924,6 @@ namespace Source2Dumper.Schemas {
             public const nint heal_regen_to_damage = 0x1A80; // float32
             public const nint m_nFXIndex = 0x1A84; // ParticleIndex_t
         }
-        // Parent: CBodyComponentSkeletonInstance
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MKV3TransferSaveOpsForField
-        // 30/0x1116,0x0fV
-        public static class CBodyComponentBaseAnimGraph {
-            public const nint m_animationController = 0x530; // CBaseAnimGraphController
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        public static class CDOTA_Survivors_EffectsEntity {
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Possessed_Mask {
@@ -26587,56 +25109,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_AncientApparition_BoneChill {
             public const nint str_reduction = 0x1A78; // float32
             public const nint str_reduction_duration = 0x1A7C; // float32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MCustomFGDMetadata
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_BaseYieldingInflow {
-            public const nint m_BaseFlow_OnAfterCancel = 0x48; // CPulse_ResumePoint
-            public const nint m_BaseFlow_WhileActive = 0x90; // CPulse_ResumePoint
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class PulseNodeDynamicOutflows_t {
-            public const nint m_Outflows = 0x0; // CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -27448,29 +25920,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_flWaterRuneSpawnInterval = 0x798; // float32
             public const nint m_vecBigHealthBarUnits = 0x7A0; // C_NetworkUtlVectorBase<CHandle<C_DOTA_BaseNPC>>
             public const nint m_nHUDVisibilityBitsPrevious = 0x7D0; // uint32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class EntityRenderAttribute_t {
-            public const nint m_ID = 0x30; // CUtlStringToken
-            public const nint m_Values = 0x34; // Vector4D
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Inflow_ObservableVariableListener {
-            public const nint m_nBlackboardReference = 0x80; // PulseRuntimeBlackboardReferenceIndex_t
-            public const nint m_bSelfReference = 0x82; // bool
         }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 1
@@ -28368,62 +26817,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CIngameEvent_TI2025 {
         }
-        // Parent: None
-        // Field count: 14
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // o
-        // TIMELINE_COMPRESSION_COUNT_PER_INTERVAL
-        // TIMELINE_COMPRESSION_AVERAGE
-        // TIMELINE_COMPRESSION_AVERAGE_BLEND
-        // TIMELINE_COMPRESSION_TOTAL
-        // MGetKV3ClassDefaults
-        // MKV3TransferSaveOpsForField
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CModelState {
-            public const nint m_hModel = 0xA0; // CStrongHandle<InfoForResourceTypeCModel>
-            public const nint m_ModelName = 0xA8; // CUtlSymbolLarge
-            public const nint m_pVPhysicsAggregate = 0xE0; // IPhysAggregateInstance*
-            public const nint m_flRootBoneOffset_x = 0xE8; // float32
-            public const nint m_flRootBoneOffset_y = 0xEC; // float32
-            public const nint m_flRootBoneOffset_z = 0xF0; // float32
-            public const nint m_nRootBoneOffsetResetSerialNumber = 0xF4; // uint8
-            public const nint m_bClientClothCreationSuppressed = 0x110; // bool
-            public const nint m_nAnimStateNoInterpSerialNumber = 0x200; // uint8
-            public const nint m_MeshGroupMask = 0x208; // uint64
-            public const nint m_nBodyGroupChoices = 0x258; // C_NetworkUtlVectorBase<int32>
-            public const nint m_nIdealMotionType = 0x2A2; // int8
-            public const nint m_nForceLOD = 0x2A3; // int8
-            public const nint m_nClothUpdateFlags = 0x2A4; // int8
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
-        public static class CPulseCell_LerpCameraSettings__CursorState_t {
-            public const nint m_hCamera = 0x8; // CHandle<C_PointCamera>
-            public const nint m_OverlaidStart = 0xC; // PointCameraSettings_t
-            public const nint m_OverlaidEnd = 0x1C; // PointCameraSettings_t
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Outflow_CycleOrdered {
-            public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
-        }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 2
         public static class CDOTA_BaseNPC_Tinker_Turret {
@@ -28619,30 +27012,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_IngameEvent_Base
         // Field count: 0
         public static class CIngameEvent_TI2023 {
-        }
-        // Parent: None
-        // Field count: 17
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CCollisionProperty {
-            public const nint m_collisionAttribute = 0x10; // VPhysicsCollisionAttribute_t
-            public const nint m_vecMins = 0x40; // Vector
-            public const nint m_vecMaxs = 0x4C; // Vector
-            public const nint m_usSolidFlags = 0x5A; // uint8
-            public const nint m_nSolidType = 0x5B; // SolidType_t
-            public const nint m_triggerBloat = 0x5C; // uint8
-            public const nint m_nSurroundType = 0x5D; // SurroundingBoundsType_t
-            public const nint m_CollisionGroup = 0x5E; // uint8
-            public const nint m_nEnablePhysics = 0x5F; // uint8
-            public const nint m_flBoundingRadius = 0x60; // float32
-            public const nint m_vecSpecifiedSurroundingMins = 0x64; // Vector
-            public const nint m_vecSpecifiedSurroundingMaxs = 0x70; // Vector
-            public const nint m_vecSurroundingMaxs = 0x7C; // Vector
-            public const nint m_vecSurroundingMins = 0x88; // Vector
-            public const nint m_vCapsuleCenter1 = 0x94; // Vector
-            public const nint m_vCapsuleCenter2 = 0xA0; // Vector
-            public const nint m_flCapsuleRadius = 0xAC; // float32
         }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 68
@@ -28919,15 +27288,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_Special_Bonus_Attack_Speed_50 {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_WaitForPanelClass__CursorState_t {
-            public const nint m_hPanel = 0x0; // panorama::CPanelPtr
-            public const nint m_Class = 0x8; // CGlobalSymbol
         }
         // Parent: None
         // Field count: 1
@@ -29285,14 +27645,6 @@ namespace Source2Dumper.Schemas {
             public const nint damage_per_second = 0x1A90; // int32
             public const nint aoe = 0x1A94; // float32
         }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class PulseSelectorOutflowList_t {
-            public const nint m_Outflows = 0x0; // CUtlVector<OutflowWithRequirements_t>
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 1
         public static class C_DOTA_Unit_Hero_Legion_Commander {
@@ -29461,14 +27813,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CPulseCell_PlaySequence__CursorState_t {
             public const nint m_hTarget = 0x0; // CHandle<CBaseAnimatingActivity>
-        }
-        // Parent: CBodyComponent
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CBodyComponentSkeletonInstance {
-            public const nint m_skeletonInstance = 0x80; // CSkeletonInstance
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 4
@@ -29993,14 +28337,6 @@ namespace Source2Dumper.Schemas {
             public const nint heal_bonus = 0x1A7C; // int32
             public const nint enemies_negative_heal_bonus_as_pct_of_self = 0x1A80; // float32
         }
-        // Parent: CEntityComponent
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CScriptComponent {
-            public const nint m_scriptClassName = 0x30; // CUtlSymbolLarge
-        }
         // Parent: C_DOTA_BaseNPC_Creature
         // Field count: 0
         public static class C_DOTA_BaseNPC_Trap_Ward {
@@ -30156,48 +28492,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_Tutorial_Disable_Healing {
         }
-        // Parent: C_BaseEntity
-        // Field count: 0
-        public static class C_PortraitWorldCallbackHandler {
-        }
-        // Parent: C_BreakableProp
-        // Field count: 28
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // n
-        public static class C_DynamicProp {
-            public const nint m_bRandomAnimator = 0xC30; // bool
-            public const nint m_flNextRandAnim = 0xC34; // GameTime_t
-            public const nint m_flMinRandAnimDuration = 0xC38; // float32
-            public const nint m_flMaxRandAnimDuration = 0xC3C; // float32
-            public const nint m_bUseHitboxesForRenderBox = 0xC40; // bool
-            public const nint m_bUseAnimGraph = 0xC41; // bool
-            public const nint m_pOutputAnimBegun = 0xC48; // CEntityIOOutput
-            public const nint m_pOutputAnimOver = 0xC60; // CEntityIOOutput
-            public const nint m_pOutputAnimLoopCycleOver = 0xC78; // CEntityIOOutput
-            public const nint m_OnAnimReachedStart = 0xC90; // CEntityIOOutput
-            public const nint m_OnAnimReachedEnd = 0xCA8; // CEntityIOOutput
-            public const nint m_iszIdleAnim = 0xCC0; // CUtlSymbolLarge
-            public const nint m_nIdleAnimLoopMode = 0xCC8; // AnimLoopMode_t
-            public const nint m_bRandomizeCycle = 0xCCC; // bool
-            public const nint m_bStartDisabled = 0xCCD; // bool
-            public const nint m_bFiredStartEndOutput = 0xCCE; // bool
-            public const nint m_bForceNpcExclude = 0xCCF; // bool
-            public const nint m_bCreateMovableSurfaceGraph = 0xCD0; // bool
-            public const nint m_bCreateNonSolid = 0xCD1; // bool
-            public const nint m_bIsOverrideProp = 0xCD2; // bool
-            public const nint m_iInitialGlowState = 0xCD4; // int32
-            public const nint m_nGlowRange = 0xCD8; // int32
-            public const nint m_nGlowRangeMin = 0xCDC; // int32
-            public const nint m_glowColor = 0xCE0; // Color
-            public const nint m_nGlowTeam = 0xCE4; // int32
-            public const nint m_iCachedFrameCount = 0xCE8; // int32
-            public const nint m_vecCachedRenderMins = 0xCEC; // Vector
-            public const nint m_vecCachedRenderMaxs = 0xCF8; // Vector
-        }
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_Special_Bonus_Unique_Batrider_1 {
@@ -30312,13 +28606,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_Jakiro {
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class C_EnvDeferredLight {
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -30769,10 +29056,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_Bonus_Armor {
         }
-        // Parent: C_PortraitWorldUnit
-        // Field count: 0
-        public static class CDOTA_Survivors_UnitEntity {
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Cloak_Of_Flames {
@@ -30845,13 +29128,6 @@ namespace Source2Dumper.Schemas {
         // Parent: CBaseTrackedStatsEntity
         // Field count: 0
         public static class CMatchTrackedStatsEntity {
-        }
-        // Parent: C_BaseEntity
-        // Field count: 0
-        //
-        // Metadata:
-        // generic
-        public static class C_DOTAReflectionSkybox {
         }
         // Parent: None
         // Field count: 1
@@ -31655,18 +29931,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_Attributes = 0x8; // C_UtlVectorEmbeddedNetworkVar<C_EconItemAttribute>
             public const nint m_pManager = 0x70; // CAttributeManager*
         }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_Inflow_Wait {
-            public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
-        }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 5
         public static class C_DOTA_Unit_Scout {
@@ -31839,39 +30103,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_EarthSpirit {
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 26
-        //
-        // Metadata:
-        // binary_bc
-        public static class C_ParticleSystem {
-            public const nint m_szSnapshotFileName = 0xA88; // char[512]
-            public const nint m_bActive = 0xC88; // bool
-            public const nint m_bFrozen = 0xC89; // bool
-            public const nint m_flFreezeTransitionDuration = 0xC8C; // float32
-            public const nint m_nStopType = 0xC90; // int32
-            public const nint m_bAnimateDuringGameplayPause = 0xC94; // bool
-            public const nint m_iEffectIndex = 0xC98; // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            public const nint m_flStartTime = 0xCA0; // GameTime_t
-            public const nint m_flPreSimTime = 0xCA4; // float32
-            public const nint m_vServerControlPoints = 0xCA8; // Vector[4]
-            public const nint m_iServerControlPointAssignments = 0xCD8; // uint8[4]
-            public const nint m_hControlPointEnts = 0xCDC; // CHandle<C_BaseEntity>[64]
-            public const nint m_bDataStringLocalized = 0xDDC; // bool
-            public const nint m_strDataString = 0xDE0; // CUtlString
-            public const nint m_bNoSave = 0xDE8; // bool
-            public const nint m_bNoFreeze = 0xDE9; // bool
-            public const nint m_bNoRamp = 0xDEA; // bool
-            public const nint m_bStartActive = 0xDEB; // bool
-            public const nint m_iszEffectName = 0xDF0; // CUtlSymbolLarge
-            public const nint m_iszControlPointNames = 0xDF8; // CUtlSymbolLarge[64]
-            public const nint m_nDataCP = 0xFF8; // int32
-            public const nint m_vecDataCPValue = 0xFFC; // Vector
-            public const nint m_nTintCP = 0x1008; // int32
-            public const nint m_clrTint = 0x100C; // Color
-            public const nint m_bOldActive = 0x1030; // bool
-            public const nint m_bOldFrozen = 0x1031; // bool
         }
         // Parent: C_DOTA_Ability_Kez_BaseAbility
         // Field count: 14
@@ -32060,53 +30291,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_Tiny_TossTree_Slow {
             public const nint movement_slow = 0x1A78; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MCustomFGDMetadata
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Outflow_CycleShuffled {
-            public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 3
@@ -32387,88 +30571,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_InFlightAttackRecords = 0x1A80; // CUtlVector<AttackRecord_t>
             public const nint m_bBonusAttack = 0x1A98; // bool
         }
-        // Parent: CEntityComponent
-        // Field count: 70
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CLightComponent {
-            public const nint __m_pChainEntity = 0x38; // CNetworkVarChainer
-            public const nint m_Color = 0x75; // Color
-            public const nint m_SecondaryColor = 0x79; // Color
-            public const nint m_flBrightness = 0x80; // float32
-            public const nint m_flBrightnessScale = 0x84; // float32
-            public const nint m_flBrightnessMult = 0x88; // float32
-            public const nint m_flRange = 0x8C; // float32
-            public const nint m_flFalloff = 0x90; // float32
-            public const nint m_flAttenuation0 = 0x94; // float32
-            public const nint m_flAttenuation1 = 0x98; // float32
-            public const nint m_flAttenuation2 = 0x9C; // float32
-            public const nint m_flTheta = 0xA0; // float32
-            public const nint m_flPhi = 0xA4; // float32
-            public const nint m_hLightCookie = 0xA8; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_nCascades = 0xB0; // int32
-            public const nint m_nCastShadows = 0xB4; // int32
-            public const nint m_nShadowWidth = 0xB8; // int32
-            public const nint m_nShadowHeight = 0xBC; // int32
-            public const nint m_bRenderDiffuse = 0xC0; // bool
-            public const nint m_nRenderSpecular = 0xC4; // int32
-            public const nint m_bRenderTransmissive = 0xC8; // bool
-            public const nint m_flOrthoLightWidth = 0xCC; // float32
-            public const nint m_flOrthoLightHeight = 0xD0; // float32
-            public const nint m_nStyle = 0xD4; // int32
-            public const nint m_Pattern = 0xD8; // CUtlString
-            public const nint m_nCascadeRenderStaticObjects = 0xE0; // int32
-            public const nint m_flShadowCascadeCrossFade = 0xE4; // float32
-            public const nint m_flShadowCascadeDistanceFade = 0xE8; // float32
-            public const nint m_flShadowCascadeDistance0 = 0xEC; // float32
-            public const nint m_flShadowCascadeDistance1 = 0xF0; // float32
-            public const nint m_flShadowCascadeDistance2 = 0xF4; // float32
-            public const nint m_flShadowCascadeDistance3 = 0xF8; // float32
-            public const nint m_nShadowCascadeResolution0 = 0xFC; // int32
-            public const nint m_nShadowCascadeResolution1 = 0x100; // int32
-            public const nint m_nShadowCascadeResolution2 = 0x104; // int32
-            public const nint m_nShadowCascadeResolution3 = 0x108; // int32
-            public const nint m_bUsesBakedShadowing = 0x10C; // bool
-            public const nint m_nShadowPriority = 0x110; // int32
-            public const nint m_nBakedShadowIndex = 0x114; // int32
-            public const nint m_nLightPathUniqueId = 0x118; // int32
-            public const nint m_nLightMapUniqueId = 0x11C; // int32
-            public const nint m_bRenderToCubemaps = 0x120; // bool
-            public const nint m_bAllowSSTGeneration = 0x121; // bool
-            public const nint m_nDirectLight = 0x124; // int32
-            public const nint m_nBounceLight = 0x128; // int32
-            public const nint m_flBounceScale = 0x12C; // float32
-            public const nint m_flFadeMinDist = 0x130; // float32
-            public const nint m_flFadeMaxDist = 0x134; // float32
-            public const nint m_flShadowFadeMinDist = 0x138; // float32
-            public const nint m_flShadowFadeMaxDist = 0x13C; // float32
-            public const nint m_bEnabled = 0x140; // bool
-            public const nint m_bFlicker = 0x141; // bool
-            public const nint m_bPrecomputedFieldsValid = 0x142; // bool
-            public const nint m_vPrecomputedBoundsMins = 0x144; // Vector
-            public const nint m_vPrecomputedBoundsMaxs = 0x150; // Vector
-            public const nint m_vPrecomputedOBBOrigin = 0x15C; // Vector
-            public const nint m_vPrecomputedOBBAngles = 0x168; // QAngle
-            public const nint m_vPrecomputedOBBExtent = 0x174; // Vector
-            public const nint m_flPrecomputedMaxRange = 0x180; // float32
-            public const nint m_nFogLightingMode = 0x184; // int32
-            public const nint m_flFogContributionStength = 0x188; // float32
-            public const nint m_flNearClipPlane = 0x18C; // float32
-            public const nint m_SkyColor = 0x190; // Color
-            public const nint m_flSkyIntensity = 0x194; // float32
-            public const nint m_SkyAmbientBounce = 0x198; // Color
-            public const nint m_bUseSecondaryColor = 0x19C; // bool
-            public const nint m_bMixedShadows = 0x19D; // bool
-            public const nint m_flLightStyleStartTime = 0x1A0; // GameTime_t
-            public const nint m_flCapsuleLength = 0x1A4; // float32
-            public const nint m_flMinRoughness = 0x1A8; // float32
-        }
         // Parent: C_DOTABaseAbility
         // Field count: 33
         public static class CDOTA_Ability_Grimstroke_DarkArtistry {
@@ -32640,33 +30742,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_ContextualTips {
         }
-        // Parent: C_BaseEntity
-        // Field count: 18
-        //
-        // Metadata:
-        // West
-        // South
-        // Down
-        public static class C_EnvCubemap {
-            public const nint m_Entity_hCubemapTexture = 0x670; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_Entity_bCustomCubemapTexture = 0x678; // bool
-            public const nint m_Entity_flInfluenceRadius = 0x67C; // float32
-            public const nint m_Entity_vBoxProjectMins = 0x680; // Vector
-            public const nint m_Entity_vBoxProjectMaxs = 0x68C; // Vector
-            public const nint m_Entity_bMoveable = 0x698; // bool
-            public const nint m_Entity_nHandshake = 0x69C; // int32
-            public const nint m_Entity_nEnvCubeMapArrayIndex = 0x6A0; // int32
-            public const nint m_Entity_nPriority = 0x6A4; // int32
-            public const nint m_Entity_flEdgeFadeDist = 0x6A8; // float32
-            public const nint m_Entity_vEdgeFadeDists = 0x6AC; // Vector
-            public const nint m_Entity_flDiffuseScale = 0x6B8; // float32
-            public const nint m_Entity_bStartDisabled = 0x6BC; // bool
-            public const nint m_Entity_bDefaultEnvMap = 0x6BD; // bool
-            public const nint m_Entity_bDefaultSpecEnvMap = 0x6BE; // bool
-            public const nint m_Entity_bIndoorCubeMap = 0x6BF; // bool
-            public const nint m_Entity_bCopyDiffuseFromDefaultCubemap = 0x6C0; // bool
-            public const nint m_Entity_bEnabled = 0x6D0; // bool
-        }
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Witch_Doctor_2 {
@@ -32725,38 +30800,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_BackdoorProtectionInBase {
-        }
-        // Parent: CEntityComponent
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CBodyComponent {
-            public const nint m_pSceneNode = 0x8; // CGameSceneNode*
-            public const nint __m_pChainEntity = 0x48; // CNetworkVarChainer
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Inflow_Method {
-            public const nint m_MethodName = 0x80; // PulseSymbol_t
-            public const nint m_Description = 0x90; // CUtlString
-            public const nint m_bIsPublic = 0x98; // bool
-            public const nint m_ReturnType = 0xA0; // CPulseValueFullType
-            public const nint m_Args = 0xB8; // CUtlLeanVector<CPulseRuntimeMethodArg>
         }
         // Parent: C_DOTA_BaseNPC
         // Field count: 0
@@ -33155,24 +31198,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_flRoshanPhaseStartTime = 0xC; // GameTime_t
             public const nint m_flRoshanPhaseEndTime = 0x10; // GameTime_t
         }
-        // Parent: None
-        // Field count: 10
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // Q
-        public static class CGlowProperty {
-            public const nint m_fGlowColor = 0x8; // Vector
-            public const nint m_iGlowType = 0x30; // int32
-            public const nint m_iGlowTeam = 0x34; // int32
-            public const nint m_nGlowRange = 0x38; // int32
-            public const nint m_nGlowRangeMin = 0x3C; // int32
-            public const nint m_glowColorOverride = 0x40; // Color
-            public const nint m_bFlashing = 0x44; // bool
-            public const nint m_flGlowTime = 0x48; // float32
-            public const nint m_flGlowStartTime = 0x4C; // float32
-            public const nint m_bGlowing = 0x50; // bool
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Enhancement_Dominant {
@@ -33293,15 +31318,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Furion_WrathOfNature_Buff {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_BaseValue {
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -33466,33 +31482,6 @@ namespace Source2Dumper.Schemas {
         // Parent: CPlayerPawnComponent
         // Field count: 0
         public static class CPlayer_WaterServices {
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPulseEditorHeaderIcon
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // CURSOR_ADD_TAG
-        // CURSOR_REMOVE_TAG
-        // CURSOR_RETIRED
-        // REQUIREMENT_PASS
-        // REQUIREMENT_FAIL
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_BooleanSwitchState {
-            public const nint m_Condition = 0xD8; // CPulseObservableExpression<bool>
-            public const nint m_WhenTrue = 0x150; // CPulse_OutflowConnection
-            public const nint m_WhenFalse = 0x198; // CPulse_OutflowConnection
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -33711,24 +31700,6 @@ namespace Source2Dumper.Schemas {
             public const nint nSequenceID = 0x60; // int32
             public const nint nCompleted = 0x64; // int32
             public const nint nRank = 0x68; // int32
-        }
-        // Parent: None
-        // Field count: 11
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class VPhysicsCollisionAttribute_t {
-            public const nint m_nInteractsAs = 0x8; // uint64
-            public const nint m_nInteractsWith = 0x10; // uint64
-            public const nint m_nInteractsExclude = 0x18; // uint64
-            public const nint m_nEntityId = 0x20; // uint32
-            public const nint m_nOwnerId = 0x24; // uint32
-            public const nint m_nHierarchyId = 0x28; // uint16
-            public const nint m_nDetailLayerMask = 0x2A; // uint16
-            public const nint m_nDetailLayerMaskType = 0x2C; // uint8
-            public const nint m_nTargetDetailLayer = 0x2D; // uint8
-            public const nint m_nCollisionGroup = 0x2E; // uint8
-            public const nint m_nCollisionFunctionMask = 0x2F; // uint8
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -34113,19 +32084,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CIngameEvent_MonsterHunter {
         }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_Inflow_Yield {
-            public const nint m_UnyieldResume = 0xD8; // CPulse_ResumePoint
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_Enchantress {
@@ -34145,10 +32103,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_bHasFoundProps = 0x1A50; // bool
             public const nint m_bDidHaveNewItems = 0x1A51; // bool
             public const nint m_vecProps = 0x1A58; // CUtlVector<CHandle<C_DynamicPropClientside>>
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        public static class CDOTA_Artillery_EffectsEntity {
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -34567,15 +32521,6 @@ namespace Source2Dumper.Schemas {
             public const nint percent_instant = 0x1A80; // float32
             public const nint flDamagePerTick = 0x1A84; // float32
         }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CGameSceneNodeHandle {
-            public const nint m_hOwner = 0x8; // CEntityHandle
-            public const nint m_name = 0xC; // CUtlStringToken
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_NightStalker {
@@ -34739,10 +32684,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CPulseCell_Unknown {
             public const nint m_UnknownKeys = 0x48; // KeyValues3
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        public static class CDarkCarnivalCrateDropGameEffectsEntity {
         }
         // Parent: C_DOTA_Item
         // Field count: 1
@@ -35333,39 +33274,9 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_SandKing_SandStorm_Blind {
             public const nint blind_pct = 0x1A78; // int32
         }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Outflow_CycleRandom {
-            public const nint m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Step_PublicOutput {
-            public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
-        }
         // Parent: C_DOTA_BaseNPC
         // Field count: 0
         public static class C_DOTA_BaseNPC_Additive {
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        public static class CDOTA_Match3_EffectsEntity {
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -35899,27 +33810,10 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_IngameEvent_TI7 {
         }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulse_BlackboardReference {
-            public const nint m_hBlackboardResource = 0x0; // CStrongHandle<InfoForResourceTypeIPulseGraphDef>
-            public const nint m_BlackboardResource = 0x8; // PulseSymbol_t
-            public const nint m_nNodeID = 0x18; // PulseDocNodeID_t
-            public const nint m_NodeName = 0x20; // CGlobalSymbol
-        }
         // Parent: C_DOTA_BaseNPC_Creep
         // Field count: 1
         public static class C_DOTA_Unit_VisageFamiliar {
             public const nint m_nFXAmbient = 0x19C0; // ParticleIndex_t
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        public static class CDOTA_Lockpicking_EffectsEntity {
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -36808,64 +34702,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_IngameEvent_WM2017 {
         }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CChoreoComponent {
-            public const nint __m_pChainEntity = 0x8; // CNetworkVarChainer
-            public const nint m_hOwner = 0x30; // CHandle<C_BaseModelEntity>
-            public const nint m_nExernalChoreoGraphCount = 0x34; // int32
-            public const nint m_sActiveExternalChoreoGraphSlotID = 0x38; // CGlobalSymbol
-            public const nint m_nNextSceneEventId = 0x70; // SceneEventId_t
-            public const nint m_flAllowResponsesEndTime = 0x74; // GameTime_t
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MCustomFGDMetadata
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Value_RandomInt {
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_Recipe_Perseverance {
@@ -37524,19 +35360,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_MudGolem_Rock_Shard {
         }
-        // Parent: C_BaseEntity
-        // Field count: 3
-        //
-        // Metadata:
-        // Y
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPathSimple {
-            public const nint m_CPathQueryComponent = 0x600; // CPathQueryComponent
-            public const nint m_pathString = 0x6F0; // CUtlString
-            public const nint m_bClosedLoop = 0x6F8; // bool
-        }
         // Parent: None
         // Field count: 9
         public static class CDOTA_Modifier_AghsFort_ShadowWaveEffectPotion {
@@ -37786,10 +35609,6 @@ namespace Source2Dumper.Schemas {
         public static class C_DOTATurboHeroPickRules {
             public const nint m_Phase = 0x5F0; // DOTACustomHeroPickRulesPhase_t
         }
-        // Parent: C_EconEntity
-        // Field count: 0
-        public static class C_EconWearable {
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class CDOTA_Item_AshLegionShield {
@@ -37823,68 +35642,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_fCyclone_CooldownTime = 0x6BC; // GameTime_t
             public const nint m_fWindWalk_CooldownTime = 0x6C0; // GameTime_t
             public const nint m_bGainedScepterLevels = 0x6C4; // bool
-        }
-        // Parent: C_BaseModelEntity
-        // Field count: 9
-        //
-        // Metadata:
-        // HULL_SMALL_CENTERED
-        // HULL_WIDE_HUMAN
-        // HULL_TINY
-        // HULL_MEDIUM
-        // HULL_TINY_CENTERED
-        // HULL_LARGE
-        // HULL_LARGE_CENTERED
-        // HULL_MEDIUM_TALL
-        // HULL_SMALL
-        // NUM_HULLS
-        // HULL_NONE
-        // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
-        // s\shadercache\570\fozpipelinesv6\steamapprun_pipeline_cache
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MVDataOverlayType
-        // MVDataAssociatedFile
-        // CAN_PLAY_NOW
-        // CAN_PLAY_ENQUEUED
-        // FORCEDCROUCH_CROUCHED
-        // FORCEDCROUCH_UNCROUCHED
-        // SS_ONDEATH_NOT_APPLICABLE
-        // SS_ONDEATH_RAGDOLL
-        // SS_ONDEATH_ANIMATED_DEATH
-        // SCRIPT_WAIT
-        // SCRIPT_POST_IDLE
-        // SCRIPT_CLEANUP
-        // SCRIPT_MOVE_TO_MARK
-        // STATE_WAIT_FOR_SCRIPT
-        // STATE_WALK_TO_MARK
-        // STATE_SYNCHRONIZE_SCRIPT
-        // STATE_PLAY_SCRIPT
-        // STATE_PLAY_SCRIPT_POST_IDLE
-        // STATE_PLAY_SCRIPT_POST_IDLE_DONE
-        // MGetKV3ClassDefaults
-        // HIERARCHY_BONE_MERGE
-        // HIERARCHY_ATTACHMENT
-        // HIERARCHY_ABSORIGIN
-        // HIERARCHY_BONE
-        // HIERARCHY_TYPE_COUNT
-        // IN_ALL
-        // IN_ATTACK
-        // IN_JUMP
-        // IN_DUCK
-        // IN_FORWARD
-        // IN_BACK
-        // IN_USE
-        public static class C_EnvDecal {
-            public const nint m_hDecalMaterial = 0xA88; // CStrongHandle<InfoForResourceTypeIMaterial2>
-            public const nint m_flWidth = 0xA90; // float32
-            public const nint m_flHeight = 0xA94; // float32
-            public const nint m_flDepth = 0xA98; // float32
-            public const nint m_nRenderOrder = 0xA9C; // uint32
-            public const nint m_bProjectOnWorld = 0xAA0; // bool
-            public const nint m_bProjectOnCharacters = 0xAA1; // bool
-            public const nint m_bProjectOnWater = 0xAA2; // bool
-            public const nint m_flDepthSortBias = 0xAA4; // float32
         }
         // Parent: C_DOTABaseAbility
         // Field count: 0
@@ -37984,38 +35741,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_Tidehunter_Gush {
             public const nint movement_speed = 0x1A78; // int32
             public const nint negative_armor = 0x1A7C; // float32
-        }
-        // Parent: None
-        // Field count: 25
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class fogparams_t {
-            public const nint dirPrimary = 0x8; // Vector
-            public const nint colorPrimary = 0x14; // Color
-            public const nint colorSecondary = 0x18; // Color
-            public const nint colorPrimaryLerpTo = 0x1C; // Color
-            public const nint colorSecondaryLerpTo = 0x20; // Color
-            public const nint start = 0x24; // float32
-            public const nint end = 0x28; // float32
-            public const nint farz = 0x2C; // float32
-            public const nint maxdensity = 0x30; // float32
-            public const nint exponent = 0x34; // float32
-            public const nint HDRColorScale = 0x38; // float32
-            public const nint skyboxFogFactor = 0x3C; // float32
-            public const nint skyboxFogFactorLerpTo = 0x40; // float32
-            public const nint startLerpTo = 0x44; // float32
-            public const nint endLerpTo = 0x48; // float32
-            public const nint maxdensityLerpTo = 0x4C; // float32
-            public const nint lerptime = 0x50; // GameTime_t
-            public const nint duration = 0x54; // float32
-            public const nint blendtobackground = 0x58; // float32
-            public const nint scattering = 0x5C; // float32
-            public const nint locallightscale = 0x60; // float32
-            public const nint enable = 0x64; // bool
-            public const nint blend = 0x65; // bool
-            public const nint m_bPadding2 = 0x66; // bool
-            public const nint m_bPadding = 0x67; // bool
         }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
@@ -38361,20 +36086,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Modifier_AttackImmune {
         }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MVDataOverlayType
-        // MVDataAssociatedFile
-        public static class CExplosionTypeData {
-            public const nint m_SoundName = 0x0; // CSoundEventName
-            public const nint m_ParticleEffect = 0x10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_bIsIncindiary = 0xF0; // bool
-            public const nint m_bHasForces = 0xF1; // bool
-            public const nint m_DecalType = 0xF8; // CGlobalSymbol
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class CDOTA_Item_Partisans_Brand {
@@ -38623,11 +36334,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Taunt {
-        }
-        // Parent: C_DOTA_BinaryObject
-        // Field count: 1
-        public static class C_DOTA_MapTree {
-            public const nint m_bInitialized = 0xAF8; // bool
         }
         // Parent: C_DOTABaseAbility
         // Field count: 0
@@ -38912,28 +36618,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Windrunner_Windrun_ChargeCounter {
-        }
-        // Parent: C_DOTA_BaseNPC
-        // Field count: 8
-        //
-        // Metadata:
-        // MPropertyDescription
-        // DOTA_ORDER_ISSUER_CURRENT_UNIT_ONLY
-        // DOTA_ORDER_ISSUER_HERO_ONLY
-        // DOTA_ORDER_ISSUER_PASSED_UNIT_ONLY
-        // DOTA_ORDER_QUEUE_NEVER
-        // DOTA_ORDER_QUEUE_ALWAYS
-        // DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_STACK
-        // DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_PULL
-        public static class C_DOTA_PortraitEntity {
-            public const nint m_PetIdleTimer = 0x19B8; // CountdownTimer
-            public const nint m_nMouthFX = 0x19D0; // ParticleIndex_t
-            public const nint m_nMouthControlPoint = 0x19D4; // int32
-            public const nint m_iPortraitParticle = 0x19D8; // ParticleIndex_t
-            public const nint m_PortraitActivity = 0x19DC; // int32
-            public const nint m_CustomActivityModifiers = 0x19E0; // CUtlVector<CUtlSymbol>
-            public const nint m_bIsSimulationActive = 0x19F8; // bool
-            public const nint m_hAppearanceFromNPC = 0x19FC; // CEntityHandle
         }
         // Parent: C_DOTA_BaseNPC
         // Field count: 0
@@ -39799,21 +37483,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_DOTABaseCustomHeroPickRules {
         }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulse_CallInfo {
-            public const nint m_PortName = 0x0; // PulseSymbol_t
-            public const nint m_nEditorNodeID = 0x10; // PulseDocNodeID_t
-            public const nint m_RegisterMap = 0x18; // PulseRegisterMap_t
-            public const nint m_CallMethodID = 0x48; // PulseDocNodeID_t
-            public const nint m_nSrcChunk = 0x4C; // PulseRuntimeChunkIndex_t
-            public const nint m_nSrcInstruction = 0x50; // int32
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_BountyHunter {
@@ -40070,53 +37739,9 @@ namespace Source2Dumper.Schemas {
             public const nint m_PlayerBountyCount = 0x1930; // int32[10]
             public const nint m_PlayerBountyTimestamp_Obsolete = 0x1958; // int32[24]
         }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // SORT_BY_OUTFLOW_INDEX
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseSignatureForOutflow
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_InlineNodeSkipSelector {
-            public const nint m_nFlowNodeID = 0x48; // PulseDocNodeID_t
-            public const nint m_bAnd = 0x4C; // bool
-            public const nint m_PassOutflow = 0x50; // PulseSelectorOutflowList_t
-            public const nint m_FailOutflow = 0x68; // CPulse_OutflowConnection
-        }
         // Parent: C_DOTA_BaseNPC_Additive
         // Field count: 0
         public static class CDOTA_BaseNPC_Seasonal_TI9_Drums {
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
-        public static class C_LightEntity {
-            public const nint m_CLightComponent = 0xA88; // CLightComponent*
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -40363,27 +37988,6 @@ namespace Source2Dumper.Schemas {
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_Special_Bonus_Spell_Amplify_12 {
-        }
-        // Parent: C_BaseEntity
-        // Field count: 0
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        public static class C_DOTA_LightInfo {
         }
         // Parent: None
         // Field count: 2
@@ -40634,16 +38238,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_SingleplayRules {
         }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        public static class CLogicalEntity {
-        }
         // Parent: C_DOTA_Item_Diffusal_Blade
         // Field count: 0
         public static class C_DOTA_Item_Diffusal_Blade_Level2 {
@@ -40859,15 +38453,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_Special_Bonus_Lifesteal {
             public const nint value = 0x1A78; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        public static class CPulseCell_WaitForPanelClass {
-            public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
         }
         // Parent: None
         // Field count: 1
@@ -41391,55 +38976,6 @@ namespace Source2Dumper.Schemas {
         public static class CDOTA_Modifier_WitchDoctor_DeathWard_SecondaryAttack {
             public const nint secondary_attack_damage_pct = 0x1A78; // int32
         }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // SORT_BY_OUTFLOW_INDEX
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseSignatureForOutflow
-        // MPropertyDescription
-        public static class CPulseCell_LimitCount {
-            public const nint m_nLimitCount = 0x48; // int32
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Step_CallExternalMethod {
-            public const nint m_MethodName = 0xD8; // PulseSymbol_t
-            public const nint m_nBlackboardIndex = 0xE8; // PulseRuntimeBlackboardReferenceIndex_t
-            public const nint m_ExpectedArgs = 0xF0; // CUtlLeanVector<CPulseRuntimeMethodArg>
-            public const nint m_nAsyncCallMode = 0x100; // PulseMethodCallMode_t
-            public const nint m_OnFinished = 0x108; // CPulse_ResumePoint
-        }
         // Parent: C_DOTA_BaseNPC_Hero
         // Field count: 0
         public static class C_DOTA_Unit_Hero_FacelessVoid {
@@ -41588,15 +39124,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_bIsMovable = 0x19B8; // bool
             public const nint m_angle = 0x19BC; // QAngle
             public const nint m_iPoseParameterAim = 0x19C8; // int32
-        }
-        // Parent: C_DynamicProp
-        // Field count: 0
-        //
-        // Metadata:
-        // S
-        // 6/0x57c7,0x0f30/0x1116,0x0fV
-        // e
-        public static class C_DOTA_GuildBannerProp {
         }
         // Parent: C_DOTA_Item
         // Field count: 0
@@ -42114,47 +39641,6 @@ namespace Source2Dumper.Schemas {
         public static class C_PointCameraVFOV {
             public const nint m_flVerticalFOV = 0x658; // float32
         }
-        // Parent: C_BaseEntity
-        // Field count: 27
-        //
-        // Metadata:
-        // ePreserveUpAxis
-        // eCenter
-        // eHead
-        // eForward
-        // eEyesForward
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
-        public static class C_PointCamera {
-            public const nint m_FOV = 0x5F0; // float32
-            public const nint m_Resolution = 0x5F4; // float32
-            public const nint m_bFogEnable = 0x5F8; // bool
-            public const nint m_FogColor = 0x5F9; // Color
-            public const nint m_flFogStart = 0x600; // float32
-            public const nint m_flFogEnd = 0x604; // float32
-            public const nint m_flFogMaxDensity = 0x608; // float32
-            public const nint m_bActive = 0x60C; // bool
-            public const nint m_bUseScreenAspectRatio = 0x60D; // bool
-            public const nint m_flAspectRatio = 0x610; // float32
-            public const nint m_bNoSky = 0x614; // bool
-            public const nint m_fBrightness = 0x618; // float32
-            public const nint m_flZFar = 0x61C; // float32
-            public const nint m_flZNear = 0x620; // float32
-            public const nint m_bCanHLTVUse = 0x624; // bool
-            public const nint m_bAlignWithParent = 0x625; // bool
-            public const nint m_flOverrideShadowFarZ = 0x628; // float32
-            public const nint m_bDofEnabled = 0x62C; // bool
-            public const nint m_flDofNearBlurry = 0x630; // float32
-            public const nint m_flDofNearCrisp = 0x634; // float32
-            public const nint m_flDofFarCrisp = 0x638; // float32
-            public const nint m_flDofFarBlurry = 0x63C; // float32
-            public const nint m_flDofTiltToGround = 0x640; // float32
-            public const nint m_TargetFOV = 0x644; // float32
-            public const nint m_DegreesPerSecond = 0x648; // float32
-            public const nint m_bIsOn = 0x64C; // bool
-            public const nint m_pNext = 0x650; // C_PointCamera*
-        }
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Chen_2 {
@@ -42644,10 +40130,6 @@ namespace Source2Dumper.Schemas {
         public static class C_DOTA_BaseNPC_HallofFame {
             public const nint m_HallofFame = 0x1A28; // int32
         }
-        // Parent: C_BaseModelEntity
-        // Field count: 0
-        public static class CDOTA_Minesweeper_EffectsEntity {
-        }
         // Parent: C_DOTA_Item
         // Field count: 0
         public static class C_DOTA_Item_SpecialistsArray {
@@ -42911,25 +40393,6 @@ namespace Source2Dumper.Schemas {
             public const nint slow_duration = 0x1A80; // float32
             public const nint attack_range_bonus = 0x1A84; // int32
             public const nint m_InFlightAttackRecords = 0x1A88; // CUtlVector<AttackRecord_t>
-        }
-        // Parent: None
-        // Field count: 12
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CEntityIdentity {
-            public const nint m_nameStringTableIndex = 0x14; // int32
-            public const nint m_name = 0x18; // CUtlSymbolLarge
-            public const nint m_designerName = 0x20; // CUtlSymbolLarge
-            public const nint m_flags = 0x30; // uint32
-            public const nint m_worldGroupId = 0x38; // WorldGroupId_t
-            public const nint m_fDataObjectTypes = 0x3C; // uint32
-            public const nint m_PathIndex = 0x40; // ChangeAccessorFieldPathIndex_t
-            public const nint m_pAttributes = 0x48; // CEntityAttributeTable*
-            public const nint m_pPrev = 0x50; // CEntityIdentity*
-            public const nint m_pNext = 0x58; // CEntityIdentity*
-            public const nint m_pPrevByClass = 0x60; // CEntityIdentity*
-            public const nint m_pNextByClass = 0x68; // CEntityIdentity*
         }
         // Parent: None
         // Field count: 1
@@ -43236,29 +40699,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_iRadius = 0x1A78; // int32
         }
         // Parent: None
-        // Field count: 15
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CBasePlayerVData {
-            public const nint m_sModelName = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            public const nint m_sModelNameAg2Override = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            public const nint m_flHeadDamageMultiplier = 0x1E8; // CSkillFloat
-            public const nint m_flChestDamageMultiplier = 0x1F8; // CSkillFloat
-            public const nint m_flStomachDamageMultiplier = 0x208; // CSkillFloat
-            public const nint m_flArmDamageMultiplier = 0x218; // CSkillFloat
-            public const nint m_flLegDamageMultiplier = 0x228; // CSkillFloat
-            public const nint m_flHoldBreathTime = 0x238; // float32
-            public const nint m_flDrowningDamageInterval = 0x23C; // float32
-            public const nint m_nDrowningDamageInitial = 0x240; // int32
-            public const nint m_nDrowningDamageMax = 0x244; // int32
-            public const nint m_nWaterSpeed = 0x248; // int32
-            public const nint m_flUseRange = 0x24C; // float32
-            public const nint m_flUseAngleTolerance = 0x250; // float32
-            public const nint m_flCrouchTime = 0x254; // float32
-        }
-        // Parent: None
         // Field count: 1
         public static class CDOTA_Modifier_Special_Bonus_Gold_Income {
             public const nint value = 0x1A78; // int32
@@ -43388,28 +40828,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class C_DOTA_Ability_Special_Bonus_Magic_Resistance_10 {
         }
-        // Parent: C_BaseEntity
-        // Field count: 6
-        //
-        // Metadata:
-        // BankLeft
-        // Fly
-        // Gesture_Preen1
-        // Gesture_Ruffle
-        // Idle1
-        // Idle3
-        // Land
-        // Talon_Grip
-        // Walk
-        // Startle1
-        public static class CDOTA_DarkCarnival_MurderOfCrows {
-            public const nint m_hCrowModel = 0x5F0; // CStrongHandle<InfoForResourceTypeCModel>
-            public const nint m_sCrowExplodeVFX = 0x5F8; // CUtlSymbolLarge
-            public const nint m_sCrowExplodeSound = 0x600; // CUtlSymbolLarge
-            public const nint m_nCountingCrows = 0x608; // int32
-            public const nint m_flCrowSpeed = 0x60C; // float32
-            public const nint m_flCrowScale = 0x610; // float32
-        }
         // Parent: None
         // Field count: 10
         public static class CDOTA_Modifier_Item_Eternal_Shroud {
@@ -43439,88 +40857,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_Enigma_DemonicConversion_ModelScale {
             public const nint self_modelscale = 0x1A78; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentReturn
-        // MPulsePolymorphicDependentArg
-        public static class CPulseCell_CursorQueue {
-            public const nint m_nCursorsAllowedToRunParallel = 0x128; // int32
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MCustomFGDMetadata
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MPulseLegacyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        public static class CPulseCell_Value_RandomFloat {
         }
         // Parent: None
         // Field count: 0
@@ -44373,16 +41709,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 0
         public static class CDOTA_Ability_Zuus_Thunder_Trail {
         }
-        // Parent: C_PointEntity
-        // Field count: 0
-        //
-        // Metadata:
-        // INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
-        // INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
-        // CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
-        // MGetKV3ClassDefaults
-        public static class CInfoParticleTarget {
-        }
         // Parent: C_DOTABaseAbility
         // Field count: 0
         public static class C_DOTA_Ability_Aghsfort_Pugna_Grandmaster_NetherWard {
@@ -44561,41 +41887,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CDOTA_Modifier_BlackDragon_DragonhideAura {
             public const nint radius = 0x1A78; // float32
-        }
-        // Parent: C_BaseClientUIEntity
-        // Field count: 31
-        public static class C_PointClientUIWorldPanel {
-            public const nint m_bForceRecreateNextUpdate = 0xAC0; // bool
-            public const nint m_bMoveViewToPlayerNextThink = 0xAC1; // bool
-            public const nint m_bCheckCSSClasses = 0xAC2; // bool
-            public const nint m_anchorDeltaTransform = 0xAD0; // CTransform
-            public const nint m_pOffScreenIndicator = 0xC60; // CPointOffScreenIndicatorUi*
-            public const nint m_bIgnoreInput = 0xC88; // bool
-            public const nint m_bLit = 0xC89; // bool
-            public const nint m_bFollowPlayerAcrossTeleport = 0xC8A; // bool
-            public const nint m_flWidth = 0xC8C; // float32
-            public const nint m_flHeight = 0xC90; // float32
-            public const nint m_flDPI = 0xC94; // float32
-            public const nint m_flWindowUIScale = 0xC98; // float32
-            public const nint m_flInteractDistance = 0xC9C; // float32
-            public const nint m_flDepthOffset = 0xCA0; // float32
-            public const nint m_unOwnerContext = 0xCA4; // uint32
-            public const nint m_unHorizontalAlign = 0xCA8; // uint32
-            public const nint m_unVerticalAlign = 0xCAC; // uint32
-            public const nint m_unOrientation = 0xCB0; // uint32
-            public const nint m_bAllowInteractionFromAllSceneWorlds = 0xCB4; // bool
-            public const nint m_vecCSSClasses = 0xCB8; // C_NetworkUtlVectorBase<CUtlSymbolLarge>
-            public const nint m_bOpaque = 0xCD0; // bool
-            public const nint m_bNoDepth = 0xCD1; // bool
-            public const nint m_bVisibleWhenParentNoDraw = 0xCD2; // bool
-            public const nint m_bRenderBackface = 0xCD3; // bool
-            public const nint m_bUseOffScreenIndicator = 0xCD4; // bool
-            public const nint m_bExcludeFromSaveGames = 0xCD5; // bool
-            public const nint m_bGrabbable = 0xCD6; // bool
-            public const nint m_bOnlyRenderToTexture = 0xCD7; // bool
-            public const nint m_bDisableMipGen = 0xCD8; // bool
-            public const nint m_nExplicitImageLayout = 0xCDC; // int32
-            public const nint m_bIgnoreParentOrientation = 0xCE0; // bool
         }
         // Parent: None
         // Field count: 3
@@ -45139,126 +42430,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_nFissureEffectIndex = 0x1AC4; // ParticleIndex_t
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class DOTACrateDropLevelDefID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // 7,0x0f30/0x1116,0x0fV
-        // MGetKV3ClassDefaults
-        public static class ArtyProgressBarDef_t {
-            public const nint m_flNotchSize = 0xB0; // float32
-        }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CDOTACrownfallCreditsMapSceneAnimateableDefinition {
-            public const nint m_strImage = 0x0; // CPanoramaImageName
-            public const nint m_bounds = 0x10; // CrownfallCreditsAABB_t
-            public const nint m_unFrameTime = 0x20; // uint16
-            public const nint m_bClickable = 0x22; // bool
-            public const nint m_nNumFrames = 0x24; // int32
-            public const nint m_strSound = 0x28; // CUtlString
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // k_EArtyOrderFlag_MoveLeft
-        // k_EArtyOrderFlag_MoveRight
-        // k_EArtyOrderFlag_AimUp
-        // k_EArtyOrderFlag_AimDown
-        // k_EArtyOrderFlag_NextWeapon
-        // k_EArtyOrderFlag_PrevWeapon
-        // k_EArtyOrderFlag_FireStart
-        // k_EArtyOrderFlag_FireStop
-        // k_EArtyOrderFlag_FineControl
-        // k_EArtyOrderFlag_PowerUp
-        // k_EArtyOrderFlag_PowerDown
-        // k_EArtyOrderFlag_MoveUp
-        // k_EArtyOrderFlag_MoveDown
-        public static class ArtyWeaponID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 45
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFightingGameActionDefinition {
-            public const nint m_nActionID = 0x0; // EFightingGameActionID
-            public const nint m_strCustomActionName = 0x8; // CUtlString
-            public const nint m_pszSequenceName = 0x10; // CUtlString
-            public const nint m_pszIconFile = 0x18; // CUtlString
-            public const nint m_pszSwingSound = 0x20; // CUtlString
-            public const nint m_pszHitSound = 0x28; // CUtlString
-            public const nint m_nDuration = 0x30; // int32
-            public const nint m_HurtBox = 0x34; // AABB_t
-            public const nint m_HitBox = 0x4C; // AABB_t
-            public const nint m_nHitBoxStart = 0x64; // int32
-            public const nint m_nHitBoxDuration = 0x68; // int32
-            public const nint m_nOnHitFrames = 0x6C; // int32
-            public const nint m_nOnBlockFrames = 0x70; // int32
-            public const nint m_flGuardDamage = 0x74; // float32
-            public const nint m_flChipDamage = 0x78; // float32
-            public const nint m_flHitDamage = 0x7C; // float32
-            public const nint m_flHealOnDamage = 0x80; // float32
-            public const nint m_healOnDamageParticle = 0x88; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_nDashStart = 0x168; // int32
-            public const nint m_nDashDuration = 0x16C; // int32
-            public const nint m_nDamageAmpFrames = 0x170; // int32
-            public const nint m_fDamageAmpPercent = 0x174; // float32
-            public const nint m_damageAmpParticle = 0x178; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_flPushbackOnHit = 0x258; // float32
-            public const nint m_flPushbackOnBlock = 0x25C; // float32
-            public const nint m_projectileParticle = 0x260; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_flProjectileSpeed = 0x340; // float32
-            public const nint m_flProjectileRange = 0x344; // float32
-            public const nint m_flDashSpeedMultiplier = 0x348; // float32
-            public const nint m_installParticle = 0x350; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_nInstallStart = 0x430; // int32
-            public const nint m_nInstallFrames = 0x434; // int32
-            public const nint m_actionParticle = 0x438; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_vActionParticleOffset = 0x518; // Vector2D
-            public const nint m_nActionParticleStart = 0x520; // int32
-            public const nint m_nHitStop = 0x524; // int32
-            public const nint m_nBlockStop = 0x528; // int32
-            public const nint m_nInvulnerabilityFlags = 0x52C; // EFightingGameInvulnerabilityFlags
-            public const nint m_nInvulnerabilityStart = 0x530; // int32
-            public const nint m_nInvulnerabilityDuration = 0x534; // int32
-            public const nint m_vCameraShakeScale = 0x538; // Vector2D
-            public const nint m_bSingleUse = 0x540; // bool
-            public const nint m_bNoAttackerPushback = 0x541; // bool
-            public const nint m_bIsSpecialMove = 0x542; // bool
-            public const nint m_vecCancelOptions = 0x548; // CUtlVector<CDOTAFightingGameCancelOptionDefinition>
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition__PickupChance {
-            public const nint m_sPickupName = 0x0; // CUtlString
-            public const nint m_flChance = 0x8; // float32
-            public const nint m_nExperienceReward = 0xC; // int32
-        }
-        // Parent: None
         // Field count: 6
         public static class sControlGroupElem {
             public const nint m_UnitName = 0x0; // char[260]
@@ -45269,132 +42440,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_IllusionLabel = 0x211; // char[260]
         }
         // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition_Pillar {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldCharacterConditional {
-            public const nint m_eConditionFlags = 0x0; // EOverworldCharacterVisibility
-            public const nint m_vecNodes = 0x8; // CUtlVector<OverworldNodeID_t>
-        }
-        // Parent: None
-        // Field count: 1
-        public static class Match3GameModeID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 24
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupPlayerDefinition {
-            public const nint m_nLives = 0x0; // int32
-            public const nint m_nFirstTimeBonusLives = 0x4; // int32
-            public const nint m_flModelScale = 0x8; // float32
-            public const nint m_flShieldRadius = 0xC; // float32
-            public const nint m_flHeartRadius = 0x10; // float32
-            public const nint m_flMaxSpeed = 0x14; // float32
-            public const nint m_flAccel = 0x18; // float32
-            public const nint m_flAttackLaunchDistance = 0x1C; // float32
-            public const nint m_nModeSwapExtraAttackCooldown = 0x20; // int32
-            public const nint m_nModeSwapTicks = 0x24; // int32
-            public const nint m_nEnemyCollideDamage = 0x28; // int32
-            public const nint m_nFireAttackCooldown = 0x2C; // int32
-            public const nint m_flFireAttackRadius = 0x30; // float32
-            public const nint m_flFireAttackSpeed = 0x34; // float32
-            public const nint m_nIceAttackCooldown = 0x38; // int32
-            public const nint m_flIceAttackRadius = 0x3C; // float32
-            public const nint m_flIceAttackSpeed = 0x40; // float32
-            public const nint m_flSpecialAttackSpeed = 0x44; // float32
-            public const nint m_nSpecialAttackDamage = 0x48; // int32
-            public const nint m_nSpecialAttackAbsorptionCost = 0x4C; // int32
-            public const nint m_nSpecialAttackMax = 0x50; // int32
-            public const nint m_nTicksPerSpecialAttack = 0x54; // int32
-            public const nint m_nMaxBulletAbsorption = 0x58; // int32
-            public const nint m_flBulletSpread = 0x5C; // float32
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // V
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsSpawnerTowerDefinition {
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // 7,0x0f30/0x1116,0x0fV
-        // MGetKV3ClassDefaults
-        public static class ArtyCannonDef_t {
-            public const nint m_bDirectAimAtTarget = 0xB0; // bool
-            public const nint m_vecWeapons = 0xB8; // CUtlVector<CUtlString>
-            public const nint m_vShotOffset = 0xE8; // Vector2D
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CandyShopCandyType_t {
-            public const nint m_unCandyTypeID = 0x0; // CandyShopCandyTypeID_t
-            public const nint m_sLocName = 0x8; // CUtlString
-            public const nint m_sImage = 0x10; // CPanoramaImageName
-        }
-        // Parent: None
         // Field count: 2
         public static class CSurvivorsSpawnerGolem {
             public const nint m_nRoomIndex = 0x178; // int32
             public const nint m_nEnemiesSpawnedCount = 0x17C; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyGameModeInfo_t {
-            public const nint m_vecLevels = 0x8; // CUtlVector<ArtyGameModeLevelInfo_t>
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CandyShopRewardSlot_t {
-            public const nint m_sSlotClass = 0x0; // CUtlString
-            public const nint m_vecSlotRewardOptions = 0x8; // CUtlVector<CandyShopRewardOption_t>
         }
         // Parent: None
         // Field count: 4
@@ -45409,110 +42458,8 @@ namespace Source2Dumper.Schemas {
         public static class C_VerticalMotionController {
         }
         // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_AreaAttack {
-            public const nint m_eOrigin = 0x6A0; // ESurvivorsAreaAttackOrigin
-            public const nint m_flRemoveParticleTimeDelay = 0x6A4; // float32
-            public const nint m_sParticle = 0x6A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sHitImpactParticle = 0x788; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant {
-        }
-        // Parent: None
-        // Field count: 16
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldNode {
-            public const nint m_unID = 0x0; // OverworldNodeID_t
-            public const nint m_sDialogueName = 0x8; // CUtlString
-            public const nint m_sEncounterName = 0x10; // CUtlString
-            public const nint m_sRewardEventAction = 0x20; // CUtlString
-            public const nint m_vPos = 0x28; // Vector2D
-            public const nint m_eNodeFlags = 0x30; // EOverworldNodeFlags
-            public const nint m_bSkipGrantingRewardOnUnlock = 0x34; // bool
-            public const nint m_sHiddenWithoutEventAction = 0x38; // CUtlString
-            public const nint m_sJSEvent = 0x40; // CUtlString
-            public const nint m_sCustomClass = 0x48; // CUtlString
-            public const nint m_flUnlockDelay = 0x50; // float32
-            public const nint m_flModelRotation = 0x58; // float32
-            public const nint m_flModelScalePercentage = 0x5C; // float32
-            public const nint m_vModelOffset = 0x60; // Vector2D
-            public const nint m_vecUnlockMapClasses = 0x68; // CUtlVector<CUtlString>
-            public const nint m_vecVisitMapClasses = 0x80; // CUtlVector<CUtlString>
-        }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACrownfallCreditsDefinition {
-            public const nint m_vecCreditsBlocks = 0x0; // CUtlVector<CDOTACrownfallCreditsBlockDefinition>
-            public const nint m_nPixelScale = 0x18; // int32
-            public const nint m_nWidth = 0x1C; // int32
-            public const nint m_nHeight = 0x20; // int32
-            public const nint m_nDefaultBlockMarginTop = 0x24; // int32
-            public const nint m_flFinalLogoTimeAfterStop = 0x28; // float32
-            public const nint m_flDelayBeforeValveHead = 0x2C; // float32
-        }
-        // Parent: None
         // Field count: 0
         public static class CSurvivorsPowerUp_AreaAttack_Circle {
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFishingGameFish {
-            public const nint m_strLocName = 0x0; // CUtlString
-            public const nint m_strID = 0x8; // CUtlString
-            public const nint m_eCategory = 0x10; // EFishingGameFishCategory
-            public const nint m_flAverageWeight = 0x14; // float32
-            public const nint m_flBaseModelScale = 0x18; // float32
-            public const nint m_flBonusDifficulty = 0x1C; // float32
-            public const nint m_nSceneModelBodyIndex = 0x20; // int32
-            public const nint m_strFlatSceneModel = 0x28; // CUtlString
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupTrackDefinition {
-            public const nint m_strName = 0x0; // CUtlString
-            public const nint m_vecEvents = 0x8; // CUtlVector<CShmupEventTime>
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsLevelDefinition {
-            public const nint m_unLevelID = 0x0; // SurvivorsLevelID_t
-            public const nint m_vecEvents = 0x8; // CUtlVector<CSurvivorsEnemyEventDefinition>
-            public const nint m_vecBossEvents = 0x20; // CUtlVector<CSurvivorsEnemyEventDefinition>
-            public const nint m_vMapBounds = 0x38; // Vector2D
-            public const nint m_vEntityBounds = 0x40; // Vector2D
         }
         // Parent: None
         // Field count: 4
@@ -45521,76 +42468,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_skin = 0x418; // CUtlStringToken
             public const nint m_bHasSetupView = 0xDA8; // bool
             public const nint m_flRotation = 0xDC8; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // text
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class ShmupPathID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MVDataNodeType
-        public static class CDOTAMotionComicFrame {
-            public const nint m_flAutoAdvanceDelay = 0x8; // float32
-            public const nint m_bFireEventOnStart = 0xC; // bool
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // alnum
-        // a
-        // blank
-        // c
-        // d
-        // d
-        // graph
-        // l
-        // print
-        // p
-        // space
-        // s
-        // upper
-        // w
-        // xdigit
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CDOTACrateDropHazardDef {
-            public const nint m_flExplosionRadius = 0xE8; // float32
-            public const nint m_flExplosionStrength = 0xEC; // float32
-            public const nint m_flUpkickExplosionStrength = 0xF0; // float32
-            public const nint m_eHazardType = 0xF4; // EDOTACrateDropHazardType
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MPropertyDescription
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MGetKV3ClassDefaults
-        public static class SettingsSectionIndex_t {
-            public const nint m_Value = 0x0; // int32
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldClickable {
-            public const nint m_sSnippet = 0x8; // CUtlString
-            public const nint m_vPos = 0x10; // Vector2D
-            public const nint m_bBackground = 0x18; // bool
         }
         // Parent: None
         // Field count: 4
@@ -45602,36 +42479,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsGameModeDefinition__SeparationLayerData {
-            public const nint m_eSeparationLayer = 0x0; // ESurvivorsEnemySeparationLayer
-            public const nint m_flSeperationDistance = 0x4; // float32
-        }
-        // Parent: None
-        // Field count: 2
         public static class CSurvivorsSpawnerDestructibles {
             public const nint m_flMinimumDistanceBetween = 0x178; // float32
             public const nint m_flDestroyDistance = 0x17C; // float32
-        }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsGameSnapshot {
-            public const nint m_gameModeID = 0x0; // SurvivorsGameModeID_t
-            public const nint m_playerSnapshot = 0x8; // CSurvivorsPlayerSnapshot
-            public const nint m_enemiesSnapshot = 0x40; // CUtlVector<CSurvivorsEnemySnapshot>
-            public const nint m_pickupsSnapshot = 0x58; // CUtlVector<CSurvivorsPickupSnapshot>
-            public const nint m_flGameTime = 0x70; // float32
-            public const nint m_nCurrentLevelEvent = 0x74; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        public static class Match3AbilityID_t {
-            public const nint m_Value = 0x0; // uint32
         }
         // Parent: None
         // Field count: 3
@@ -45644,166 +42494,14 @@ namespace Source2Dumper.Schemas {
             public const nint m_kvActionParams = 0x10; // KeyValues3
         }
         // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class screenshake_t {
-            public const nint endtime = 0x0; // GameTime_t
-            public const nint duration = 0x4; // float32
-            public const nint amplitude = 0x8; // float32
-            public const nint frequency = 0xC; // float32
-            public const nint nextShake = 0x10; // GameTime_t
-            public const nint offset = 0x14; // Vector
-            public const nint angle = 0x20; // float32
-            public const nint direction = 0x28; // Vector
-            public const nint nShakeType = 0x34; // uint8
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // V
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_ArcaneBolt {
-        }
-        // Parent: None
         // Field count: 1
         public static class C_DotaTree {
             public const nint m_unOccluderID = 0x2C; // uint32
         }
         // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsLootTable__CLootEntry {
-            public const nint m_unPickupID = 0x0; // SurvivorsPickupID_t
-            public const nint m_nMinAmount = 0x4; // int32
-            public const nint m_nMaxAmount = 0x8; // int32
-        }
-        // Parent: None
         // Field count: 1
         public static class CSurvivorsPowerUp_Frostbite {
             public const nint m_flScepterExplodeRadius = 0x6F8; // float32
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFightingGameHeroStyleDefinition {
-            public const nint m_bUseDefault = 0x0; // bool
-            public const nint m_bUseEquipped = 0x1; // bool
-            public const nint m_unStyleIndex = 0x2; // style_index_t
-            public const nint m_strLocName = 0x8; // CUtlString
-            public const nint m_vecItems = 0x10; // CUtlVector<item_definition_index_t>
-        }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTARoadToTIChallengeDefinition {
-            public const nint m_eEvent = 0x0; // EEvent
-            public const nint m_unTotalQuestPeriods = 0x4; // uint32
-            public const nint m_unHeroesPerQuest = 0x8; // uint32
-            public const nint m_vecQuestPattern = 0x10; // CUtlVector<uint32>
-            public const nint m_unCullingBladeItemDef = 0x28; // item_definition_index_t
-            public const nint m_unRerollItemDef = 0x2C; // item_definition_index_t
-            public const nint m_vecQuests = 0x30; // CUtlVector<RoadToTIQuestDefinition_t>
-        }
-        // Parent: None
-        // Field count: 55
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyWeaponInfo_t {
-            public const nint m_unID = 0x8; // ArtyWeaponID_t
-            public const nint m_sWeaponLocName = 0x10; // CUtlString
-            public const nint m_sWeaponLocDesc = 0x18; // CUtlString
-            public const nint m_sWeaponSwapSound = 0x20; // CUtlString
-            public const nint m_sWeaponFireSound = 0x28; // CUtlString
-            public const nint m_sWeaponImage = 0x30; // CPanoramaImageName
-            public const nint m_bIsPlayerWeapon = 0x40; // bool
-            public const nint m_strGraphicInfoName = 0x48; // CUtlString
-            public const nint m_weaponAttackActivity = 0x54; // GameActivity_t
-            public const nint m_flShotCreationTime = 0x58; // float32
-            public const nint m_flDamage = 0x5C; // float32
-            public const nint m_flHitRadius = 0x60; // float32
-            public const nint m_flTerrainCarveRadius = 0x64; // float32
-            public const nint m_flDamageRadius = 0x68; // float32
-            public const nint m_flLockedAngle = 0x6C; // float32
-            public const nint m_flLockedPower = 0x70; // float32
-            public const nint m_flReloadTime = 0x74; // float32
-            public const nint m_nSplitCount = 0x78; // int32
-            public const nint m_flSplitTime = 0x7C; // float32
-            public const nint m_flSplitRepeatTime = 0x80; // float32
-            public const nint m_flSplitDispersion = 0x84; // float32
-            public const nint m_bSplitAtTop = 0x88; // bool
-            public const nint m_bZeroXOnSplit = 0x89; // bool
-            public const nint m_bSplitRepeats = 0x8A; // bool
-            public const nint m_szSplitWeapon = 0x90; // CUtlString
-            public const nint m_flMaxSpeed = 0x9C; // float32
-            public const nint m_flDragMult = 0xA0; // float32
-            public const nint m_flWindMult = 0xA4; // float32
-            public const nint m_bIsRay = 0xA8; // bool
-            public const nint m_flRangeMult = 0xAC; // float32
-            public const nint m_nInitialShotCount = 0xB0; // int32
-            public const nint m_nInitialShotAngleDispersionPer = 0xB4; // float32
-            public const nint m_flManaCost = 0xB8; // float32
-            public const nint m_bDisabled = 0xBC; // bool
-            public const nint m_bBounces = 0xBD; // bool
-            public const nint m_bBounceOffTarget = 0xBE; // bool
-            public const nint m_flFuseTime = 0xC0; // float32
-            public const nint m_flBounceDrag = 0xC4; // float32
-            public const nint m_nMaxReloads = 0xC8; // int32
-            public const nint m_flGravityMult = 0xCC; // float32
-            public const nint m_bProximityFuse = 0xD0; // bool
-            public const nint m_bUseHighArc = 0xD1; // bool
-            public const nint m_bCollides = 0xD2; // bool
-            public const nint m_bDirectAimAtTarget = 0xD3; // bool
-            public const nint m_nWeaponPoints = 0xD4; // int32
-            public const nint m_nRayDigTimes = 0xD8; // int32
-            public const nint m_bNoShootingWhileInAir = 0xDC; // bool
-            public const nint m_bListenForKeypress = 0xDD; // bool
-            public const nint m_vVelocityMultOnKeypress = 0xE0; // Vector2D
-            public const nint m_vVelocityOffsetOnKeypress = 0xE8; // Vector2D
-            public const nint m_bShowTrajectory = 0xF0; // bool
-            public const nint m_vVelocityMultOnExplode = 0xF4; // Vector2D
-            public const nint m_vVelocityOffsetOnExplode = 0xFC; // Vector2D
-            public const nint m_nExplodeTimes = 0x104; // int32
-            public const nint m_flRadiusChangePerExplode = 0x108; // float32
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsSpawnerEliteTurretDefinition {
-            public const nint m_sInvulnerableParticle = 0x148; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sInvulnerableSkinName = 0x228; // CUtlString
-            public const nint m_sLocName = 0x0; // CUtlString
         }
         // Parent: None
         // Field count: 5
@@ -45815,126 +42513,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_nMineTypeIndex = 0x800; // int32
         }
         // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // n
-        public static class CDOTACrateDropTrackLightDef {
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // `S
-        public static class SettingsSubSectionIndex_t {
-            public const nint m_Value = 0x0; // int32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        public static class CDOTAFlappySkywrathInputAction {
-            public const nint eAction = 0x0; // EFlappySkywrathInputAction
-            public const nint vecButtons = 0x8; // CUtlVector<int32>
-        }
-        // Parent: None
-        // Field count: 12
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldTarotCard {
-            public const nint m_unID = 0x0; // OverworldTarotCardID_t
-            public const nint m_sName = 0x8; // CUtlString
-            public const nint m_bIsCardBack = 0x10; // bool
-            public const nint m_eFortuneReward = 0x14; // EOverworldFortuneReward
-            public const nint m_eFortuneRequirement = 0x18; // EOverworldFortuneRequirement
-            public const nint m_eFortuneModifier = 0x1C; // EOverworldFortuneModifier
-            public const nint m_sFortunePosition1 = 0x20; // CUtlString
-            public const nint m_sFortunePosition2 = 0x28; // CUtlString
-            public const nint m_sFortunePosition3 = 0x30; // CUtlString
-            public const nint m_sSoundEventName = 0x38; // CUtlString
-            public const nint m_vecSoundEventOptions = 0x40; // CUtlVector<CUtlString>
-            public const nint m_unUnlockReward = 0x58; // uint32
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsAttributeDefinition {
-            public const nint m_sLocName = 0x0; // CUtlString
-            public const nint m_sLocTooltip = 0x8; // CUtlString
-            public const nint m_sLocDescription = 0x10; // CUtlString
-            public const nint m_sLocMetaUpgradesTooltip = 0x18; // CUtlString
-            public const nint m_sImage = 0x20; // CPanoramaImageName
-            public const nint m_bPrimary = 0x30; // bool
-            public const nint m_bPercentage = 0x31; // bool
-            public const nint m_bShouldUpgradeProgressionText = 0x32; // bool
-            public const nint m_vecMetaProgressionTiers = 0x38; // CUtlVector<CSurvivorsAttributeDefinition::MetaProgressionTier_t>
-        }
-        // Parent: None
         // Field count: 2
         public static class CSurvivorsEnemyPillar {
             public const nint m_bDestroyed = 0x338; // bool
             public const nint m_pPillarEntity = 0x33C; // CHandle<C_BaseModelEntity>
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_Spirits {
-            public const nint m_sParticle = 0x6A0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sExplosionParticle = 0x780; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CrownfallSurvivorsLightingEnvironment_t {
-            public const nint vecLightDirection = 0x0; // Vector
-            public const nint flGlobalLightScale = 0xC; // float32
-            public const nint flPointLightScale = 0x10; // float32
-            public const nint cLightColor = 0x14; // Color
-            public const nint cAmbientColor = 0x18; // Color
-            public const nint cShadowColor = 0x1C; // Color
-            public const nint cShadowSecondaryColor = 0x20; // Color
-            public const nint cSpecularColor = 0x24; // Color
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFlappySkywrathCharacter {
-            public const nint flInitialSpeed = 0x0; // float32
-            public const nint flMaxSpeed = 0x4; // float32
-            public const nint flAcceleration = 0x8; // float32
-            public const nint flActionCooldown = 0xC; // float32
         }
         // Parent: None
         // Field count: 1
@@ -45942,244 +42524,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_nEliteExtraHit = 0x6F0; // int32
         }
         // Parent: None
-        // Field count: 19
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsDifficultyDefinition {
-            public const nint m_sLocDifficultyName = 0x0; // CUtlString
-            public const nint m_sLocDifficultyDescription = 0x8; // CUtlString
-            public const nint m_sLocDifficultyUpgradeText = 0x10; // CUtlString
-            public const nint m_flPlayerMaxHPMultiplier = 0x20; // float32
-            public const nint m_flPlayerHPRegenerationMultiplier = 0x24; // float32
-            public const nint m_flEnemyHealthMultiplier = 0x28; // float32
-            public const nint m_flEnemyDamageMultiplier = 0x2C; // float32
-            public const nint m_flEnemyMovementSpeedMultiplier = 0x30; // float32
-            public const nint m_flEnemyTurnRateMultiplier = 0x34; // float32
-            public const nint m_flEnemySpawnCountMuliplier = 0x38; // float32
-            public const nint m_flEnemyTouchMovementSlowDuration = 0x3C; // float32
-            public const nint m_flXPDropChanceMultiplier = 0x40; // float32
-            public const nint m_flXPLevelUpRequirementMultiplier = 0x44; // float32
-            public const nint m_flAdditionalFirstFloorTime = 0x48; // float32
-            public const nint m_bEnableMeteorModifier = 0x4C; // bool
-            public const nint m_vecAdditionalEnemySpawners = 0x50; // CUtlVector<CSurvivorsSpawnerDefinition>
-            public const nint m_vecAdditionalEnemyEvents = 0x68; // CUtlVector<CSurvivorsEnemyEventDefinition>
-            public const nint m_vecAdditionalStartingPowerUps = 0x80; // CUtlVector<SurvivorsPowerUpID_t>
-            public const nint m_vecOverrideImperiaEnrageHealthThresholds = 0x98; // CUtlVector<float32>
-        }
-        // Parent: None
         // Field count: 2
         public static class CSurvivorsPowerUp_AreaAttack_Line {
             public const nint m_vCachedFacingDirection = 0x800; // Vector
             public const nint m_bUseFacingDirection = 0x80C; // bool
-        }
-        // Parent: None
-        // Field count: 15
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACrateDropLevelDef {
-            public const nint m_unID = 0x8; // DOTACrateDropLevelDefID_t
-            public const nint m_nCratesForGameOver = 0xC; // int32
-            public const nint m_nCratesForNextLevel = 0x10; // int32
-            public const nint m_flCrateSpawnInterval = 0x14; // float32
-            public const nint m_flHazardSpawnIntervalMin = 0x18; // float32
-            public const nint m_flHazardSpawnIntervalMax = 0x1C; // float32
-            public const nint m_flPowerupInterval = 0x20; // float32
-            public const nint m_flPowerupChance = 0x24; // float32
-            public const nint m_nMaxCratesOnLevel = 0x28; // int32
-            public const nint m_vecDropTableCrates = 0x30; // CUtlVector<CDOTACrateDropTable>
-            public const nint m_vecDropTableHazards = 0x48; // CUtlVector<CDOTACrateDropTable>
-            public const nint m_vecDropTablePowerups = 0x60; // CUtlVector<CDOTACrateDropTable>
-            public const nint m_nRotationChance = 0x78; // int32
-            public const nint m_nRotationSpeedMin = 0x7C; // int32
-            public const nint m_nRotationSpeedMax = 0x80; // int32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsSpawnerDestructiblesDefinition {
-            public const nint m_flMinimumDistanceBetween = 0x148; // float32
-            public const nint m_flDestroyDistance = 0x14C; // float32
-        }
-        // Parent: None
-        // Field count: 67
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition {
-            public const nint m_unEnemyID = 0x8; // SurvivorsEnemyID_t
-            public const nint m_vecModelNames = 0x18; // CUtlVector<CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>>
-            public const nint m_sStatsName = 0x30; // CUtlString
-            public const nint m_sDisplayName = 0x38; // CUtlString
-            public const nint m_sImageThumbnail = 0x40; // CPanoramaImageName
-            public const nint m_bUseHeroModel = 0x50; // bool
-            public const nint m_nDOTAHeroID = 0x54; // HeroID_t
-            public const nint m_vecEconItems = 0x58; // CUtlVector<item_definition_index_t>
-            public const nint m_unStyleIndex = 0x70; // style_index_t
-            public const nint m_sSkinName = 0x78; // CUtlString
-            public const nint m_sSkinNames = 0x80; // CUtlVector<CUtlString>
-            public const nint m_flTouchDamage = 0x98; // float32
-            public const nint m_bDieOnTouch = 0x9C; // bool
-            public const nint m_vecAttacks = 0xA0; // CUtlVector<CSurvivorsEnemyDefinition::Attack>
-            public const nint m_vecPickupChances = 0xB8; // CUtlVector<CSurvivorsEnemyDefinition::PickupChance>
-            public const nint m_vecLootTable = 0xD0; // CUtlVector<CSurvivorsEnemyDefinition::PickupChance>
-            public const nint m_fullLootTable = 0xE8; // CSurvivorsLootTable
-            public const nint m_flMaxHealth = 0x100; // float32
-            public const nint m_flMaxHealthPerPlayerLevel = 0x104; // float32
-            public const nint m_flMoveSpeed = 0x108; // float32
-            public const nint m_flModelScale = 0x10C; // float32
-            public const nint m_flMaxModelScaleVariance = 0x110; // float32
-            public const nint m_flCollisionRadius = 0x114; // float32
-            public const nint m_bHasSolidBody = 0x118; // bool
-            public const nint m_bUndespawnable = 0x119; // bool
-            public const nint m_flOverrideDespawnRadiusBuffer = 0x11C; // float32
-            public const nint m_bHasDeathAnimation = 0x120; // bool
-            public const nint m_bDissolveOnDeath = 0x121; // bool
-            public const nint m_flDeathDuration = 0x124; // float32
-            public const nint m_flDeathEffect_DissolveEdgeWidth = 0x128; // float32
-            public const nint m_flDeathEffect_DissolveScale = 0x12C; // float32
-            public const nint m_flDeathEffect_DissolveColor = 0x130; // Vector
-            public const nint m_bRandomFacing = 0x13C; // bool
-            public const nint m_bPlayerFacing = 0x13D; // bool
-            public const nint m_vFixedFacing = 0x140; // Vector2D
-            public const nint m_sDeathEffectParticle = 0x148; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_flMoveAnimPlaybackRate = 0x228; // float32
-            public const nint m_flIdleAnimPlaybackRate = 0x22C; // float32
-            public const nint m_flTurnRate = 0x230; // float32
-            public const nint m_flSinMovementAngle = 0x234; // float32
-            public const nint m_flSinMovementPeriodMultiplier = 0x238; // float32
-            public const nint m_flMass = 0x23C; // float32
-            public const nint m_flKnockbackResistance = 0x240; // float32
-            public const nint m_flStatusResistance = 0x244; // float32
-            public const nint m_bIsElite = 0x248; // bool
-            public const nint m_bIsMiniboss = 0x249; // bool
-            public const nint m_bIsDestructible = 0x24A; // bool
-            public const nint m_bHasGlowOutline = 0x24B; // bool
-            public const nint m_bOverrideGlowColor = 0x24C; // bool
-            public const nint m_cOverriddenGlowColor = 0x24D; // Color
-            public const nint m_bShowHealthBar = 0x251; // bool
-            public const nint m_bCenterRooted = 0x252; // bool
-            public const nint m_bRotates = 0x253; // bool
-            public const nint m_bRandomizeSinTurnTimerOnSpawn = 0x254; // bool
-            public const nint m_bInvulnerable = 0x255; // bool
-            public const nint m_bPlayerFriendly = 0x256; // bool
-            public const nint m_nSplitOnDeathNumUnits = 0x258; // int32
-            public const nint m_unSplitOnDeathEnemyID = 0x25C; // SurvivorsEnemyID_t
-            public const nint m_flSplitOnDeathKnockbackDistance = 0x260; // float32
-            public const nint m_eMovementBehavior = 0x264; // ESurvivorsEnemyMovementBehavior
-            public const nint m_eMovementCapability = 0x268; // ESurvivorsEnemyMovementCapability
-            public const nint m_activityIdle = 0x26C; // GameActivity_t
-            public const nint m_activityMove = 0x270; // GameActivity_t
-            public const nint m_activityDie = 0x274; // GameActivity_t
-            public const nint m_activityDisabled = 0x278; // GameActivity_t
-            public const nint m_bPlayDeathSound = 0x27C; // bool
-            public const nint m_eSeparationLayer = 0x280; // ESurvivorsEnemySeparationLayer
-        }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldRoom {
-            public const nint m_unRoomID = 0x0; // OverworldRoomID_t
-            public const nint m_vPos = 0x4; // Vector2D
-            public const nint m_vSize = 0xC; // Vector2D
-            public const nint m_strBackgroundImage = 0x18; // CPanoramaImageName
-            public const nint m_vecNodes = 0x28; // CUtlVector<OverworldNodeID_t>
-            public const nint m_unUnlockedByNodeID = 0x40; // OverworldNodeID_t
-        }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFishingGameDefinition {
-            public const nint m_strID = 0x0; // CUtlString
-            public const nint m_bBurrowedFish = 0x8; // bool
-            public const nint m_strMapName = 0x10; // CUtlString
-            public const nint m_strBurrowedFishParticle = 0x18; // CUtlString
-            public const nint m_vecFishTypes = 0x20; // CUtlVector<CDOTAFishingGameFish*>
-            public const nint m_mapFishNameToVecIndex = 0x38; // CUtlOrderedMap<CUtlString,int32>
-            public const nint m_mapCategoryToDifficulty = 0x60; // CUtlOrderedMap<EFishingGameFishCategory,float32>
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsSpawnerGolemDefinition {
-        }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // Q
-        public static class CSurvivorsEnemyEventDefinition {
-            public const nint m_sSpawnerName = 0x0; // CUtlString
-            public const nint m_nMinimumEnemyCountOverride = 0x8; // int32
-            public const nint m_nMaxSpawnCountPerIntervalOverride = 0xC; // int32
-            public const nint m_nOverflowEnemySpawnCountOverride = 0x10; // int32
-            public const nint m_flSpawnIntervalOverride = 0x14; // float32
-            public const nint m_flStartTime = 0x18; // float32
-            public const nint m_flEndTime = 0x1C; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SZooSetAnnotationsConfig_t {
-            public const nint m_allAnnotations = 0x0; // CUtlVector<SZooSetAnnotations_t>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // k_EArtyOrderFlag_MoveLeft
-        // k_EArtyOrderFlag_MoveRight
-        // k_EArtyOrderFlag_AimUp
-        // k_EArtyOrderFlag_AimDown
-        // k_EArtyOrderFlag_NextWeapon
-        // k_EArtyOrderFlag_PrevWeapon
-        // k_EArtyOrderFlag_FireStart
-        // k_EArtyOrderFlag_FireStop
-        // k_EArtyOrderFlag_FineControl
-        // k_EArtyOrderFlag_PowerUp
-        // k_EArtyOrderFlag_PowerDown
-        // k_EArtyOrderFlag_MoveUp
-        // k_EArtyOrderFlag_MoveDown
-        public static class ArtyGraphicID_t {
-            public const nint m_Value = 0x0; // uint32
         }
         // Parent: None
         // Field count: 5
@@ -46191,97 +42539,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_nPowerUpID = 0x358; // SurvivorsPowerUpID_t
         }
         // Parent: None
-        // Field count: 15
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyConstants_t {
-            public const nint m_flWindAccel = 0x0; // float32
-            public const nint m_flG0 = 0x4; // float32
-            public const nint m_flDragCoeff = 0x8; // float32
-            public const nint m_bPuzzle = 0xC; // bool
-            public const nint m_flMinVelocityForFallDamage = 0x10; // float32
-            public const nint m_flFallDamageMult = 0x14; // float32
-            public const nint m_flMinAirTimeForDamage = 0x18; // float32
-            public const nint m_bRefillAmmoEachLevel = 0x1C; // bool
-            public const nint m_flMaxClimbHeight = 0x20; // float32
-            public const nint m_bShowPathProjection = 0x24; // bool
-            public const nint m_bShowTrails = 0x25; // bool
-            public const nint m_bClearOldTrailsOnFire = 0x26; // bool
-            public const nint m_flTrailLingerSeconds = 0x28; // float32
-            public const nint m_flVelocityPerChargeSecond = 0x2C; // float32
-            public const nint m_flMinimumGameObjectY = 0x30; // float32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsAttributeDefinition__MetaProgressionTier_t {
-            public const nint m_cost = 0x0; // CSurvivorsAttributeDefinition::MetaProgressionTierCost_t
-            public const nint m_flValue = 0x50; // float32
-        }
-        // Parent: None
         // Field count: 2
         public static class CSurvivorsPowerUp_InstantAttack {
             public const nint m_sParticle = 0x608; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_eTargeting = 0x6E8; // ESurvivorsAttackTargeting
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTALockpickingGameDefinition {
-            public const nint m_vecStages = 0x0; // CUtlVector<CDOTALockpickingStageDefinition>
-            public const nint m_successEffect = 0x18; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_failEffect = 0xF8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_nScorePerUnlock = 0x1D8; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // a
-        // alpha
-        // b
-        // cntrl
-        // d
-        // digit
-        // g
-        // lower
-        // p
-        // punct
-        // s
-        // s
-        // u
-        // w
-        // x
-        // n
-        public static class CDOTACrateDropDroppableDef {
-            public const nint m_flBasePoints = 0xE0; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        public static class Match3OpponentActionID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldPath {
-            public const nint m_unID = 0x0; // OverworldPathID_t
-            public const nint m_unNodeStart = 0x2; // OverworldNodeID_t
-            public const nint m_unNodeEnd = 0x4; // OverworldNodeID_t
-            public const nint m_strPathHiddenUntilEventAction = 0x8; // CUtlString
-            public const nint m_unCost = 0x10; // uint8
-            public const nint m_splineInfo = 0x30; // OverworldSplineInfo_t
-            public const nint m_flCurveAngle = 0x40; // float32
-            public const nint m_vecRequiredTokenNames = 0x48; // CUtlVector<CUtlString>
         }
         // Parent: None
         // Field count: 3
@@ -46292,155 +42553,9 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_InstantAttack {
-            public const nint m_eTargeting = 0x6A0; // ESurvivorsAttackTargeting
-            public const nint m_sParticle = 0x6A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_Frostbite {
-            public const nint m_flScepterExplodeRadius = 0x788; // float32
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldCharacter {
-            public const nint m_appearance = 0x8; // CDOTAOverworldCharacterBase
-            public const nint m_conditions = 0x40; // CDOTAOverworldCharacterConditional
-            public const nint m_unHeroPartyID = 0x60; // OverworldHeroID_t
-            public const nint m_partyConditions = 0x68; // CDOTAOverworldCharacterConditional
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SZooSetAnnotations_t {
-            public const nint m_strSetName = 0x0; // CUtlString
-            public const nint m_annotations = 0x8; // CUtlVector<SZooSetAnnotation_t>
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // V
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_MagicMissile {
-            public const nint m_flShardDamageMultiplier = 0x798; // float32
-            public const nint m_flScepterDamageIncreasePerEnemyKilled = 0x79C; // float32
-            public const nint m_sImpactParticle = 0x7A0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 15
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPickupDefinition {
-            public const nint m_unPickupID = 0x0; // SurvivorsPickupID_t
-            public const nint m_sPowerUpName = 0x8; // CUtlString
-            public const nint m_sParticleEffect = 0x10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_nModelIndex = 0xF0; // int32
-            public const nint m_sDirectionalHelperParticle = 0xF8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sOnPickupOverheadEffect = 0x1D8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_nHealAmount = 0x2B8; // int32
-            public const nint m_nGoldAmount = 0x2BC; // int32
-            public const nint m_bRewardsTreasure = 0x2C0; // bool
-            public const nint m_nTreasureVariant = 0x2C4; // int32
-            public const nint m_bShowInMinimap = 0x2C8; // bool
-            public const nint m_sMinimapIconSnippet = 0x2D0; // CUtlString
-            public const nint m_bCanSpawnWithVelocity = 0x2D8; // bool
-            public const nint m_flMaxSpawnVelocity = 0x2DC; // float32
-            public const nint m_sDropSoundEvent = 0x2E0; // CUtlString
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        public static class CMatch3OpponentActionDefinition {
-            public const nint m_unOpponentActionID = 0x38; // Match3OpponentActionID_t
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldHero {
-            public const nint m_unID = 0x0; // OverworldHeroID_t
-            public const nint m_unStartNodeID = 0x2; // OverworldNodeID_t
-            public const nint m_vecBlockedNodes = 0x8; // CUtlVector<OverworldNodeID_t>
-            public const nint m_baseAppearance = 0x20; // CDOTAOverworldCharacterBase
-            public const nint m_vecOverrides = 0x58; // CUtlVector<DOTAOverworldCharacterOverrideConditional_t>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MVDataUniqueMonotonicInt
-        // MPropertyAttributeEditor
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CDOTAMotionComicImageFrame {
-            public const nint m_Image = 0x10; // CPanoramaImageName
-        }
-        // Parent: None
-        // Field count: 2
         public static class CSurvivorsAttackParticleInfo {
             public const nint unParticleID = 0x0; // SurvivorsParticleID_t
             public const nint flTimeLeft = 0x4; // float32
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class PointCameraSettings_t {
-            public const nint m_flNearBlurryDistance = 0x0; // float32
-            public const nint m_flNearCrispDistance = 0x4; // float32
-            public const nint m_flFarCrispDistance = 0x8; // float32
-            public const nint m_flFarBlurryDistance = 0xC; // float32
         }
         // Parent: None
         // Field count: 2
@@ -46491,281 +42606,12 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CMatch3AbilityParamDefinition {
-            public const nint name = 0x0; // CUtlString
-            public const nint value = 0x8; // float32
-            public const nint str = 0x10; // CUtlString
-            public const nint resource = 0x18; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint desc = 0xF8; // CUtlString
-        }
-        // Parent: None
-        // Field count: 5
         public static class CInterpolatedValue {
             public const nint m_flStartTime = 0x0; // float32
             public const nint m_flEndTime = 0x4; // float32
             public const nint m_flStartValue = 0x8; // float32
             public const nint m_flEndValue = 0xC; // float32
             public const nint m_nInterpType = 0x10; // int32
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // 7,0x0f30/0x1116,0x0fV
-        // MGetKV3ClassDefaults
-        public static class ArtySpawnerDef_t {
-            public const nint m_flInitialDelay = 0xB0; // float32
-            public const nint m_flDelayBetween = 0xB4; // float32
-            public const nint m_nNumToSpawn = 0xB8; // int32
-            public const nint m_eSpawnedUnitTeam = 0xBC; // EArtyTeam
-            public const nint m_szGameObject = 0xC0; // CUtlString
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_MortimerKisses {
-            public const nint m_flMinRange = 0x868; // float32
-            public const nint m_flLaunchDistance = 0x86C; // float32
-            public const nint m_flScepterLaunchDistance = 0x870; // float32
-            public const nint m_flAnglePerShot = 0x874; // float32
-            public const nint m_sArtilleryParticle = 0x878; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // V
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_Track {
-        }
-        // Parent: None
-        // Field count: 12
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // n
-        public static class ArtyLevelObjectInstance_t {
-            public const nint m_szLeftBorderObject = 0x38; // CUtlString
-            public const nint m_flLeftObjectOffset = 0x40; // float32
-            public const nint m_szRightBorderObject = 0x48; // CUtlString
-            public const nint m_flRightObjectOffset = 0x50; // float32
-            public const nint m_bRandomPosition = 0x54; // bool
-            public const nint m_bRepositionToTerrain = 0x55; // bool
-            public const nint m_flLeftBorderWidthMult = 0x58; // float32
-            public const nint m_flRightBorderWidthMult = 0x5C; // float32
-            public const nint m_flAppearanceChance = 0x60; // float32
-            public const nint m_eTeam = 0x64; // EArtyTeam
-            public const nint m_flTimeOffset = 0x68; // float32
-            public const nint m_vecCustomOrders = 0x70; // CUtlVector<ArtyEnemyOrder_t>
-        }
-        // Parent: None
-        // Field count: 21
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACrateDropGameDef {
-            public const nint m_vGravity = 0x0; // Vector
-            public const nint m_flGameOverTime = 0xC; // float32
-            public const nint m_flGameWonTime = 0x10; // float32
-            public const nint m_flLevelWonTime = 0x14; // float32
-            public const nint m_flLevelIntroTime = 0x18; // float32
-            public const nint m_flSecondRowOffset = 0x1C; // float32
-            public const nint m_flAbilityCooldown = 0x20; // float32
-            public const nint m_flHeightVisualizationStep = 0x24; // float32
-            public const nint m_flMultiplierStep = 0x28; // float32
-            public const nint m_flMultiplierFactor = 0x2C; // float32
-            public const nint m_flTutorialCrateSpawnInterval = 0x30; // float32
-            public const nint m_flTutorialStepInvervalTime = 0x34; // float32
-            public const nint m_flShieldDuration = 0x38; // float32
-            public const nint m_flHurtDecayRate = 0x3C; // float32
-            public const nint m_flGoopDuration = 0x40; // float32
-            public const nint m_flGoopSlow = 0x44; // float32
-            public const nint m_nRegenInstances = 0x48; // int32
-            public const nint m_flRegenHealInterval = 0x4C; // float32
-            public const nint m_flHeightBonusToastTime = 0x50; // float32
-            public const nint m_flFallCrateVOChance = 0x54; // float32
-            public const nint m_flHazardSpawnVOChance = 0x58; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsPickupID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 11
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupBossDefinition {
-            public const nint m_vecBodyParts = 0x0; // CUtlVector<CShmupBossBodyPart>
-            public const nint m_flIntroDuration = 0x18; // float32
-            public const nint m_flMouthLaserChargeTime = 0x1C; // float32
-            public const nint m_flMouthLaserDuration = 0x20; // float32
-            public const nint m_flWingBarrageChargeTime = 0x24; // float32
-            public const nint m_flWingBarrageDuration = 0x28; // float32
-            public const nint m_nSplinterBlastCount = 0x2C; // int32
-            public const nint m_fSplinterBlastChargeTime = 0x30; // float32
-            public const nint m_flSplinterBlastDuration = 0x34; // float32
-            public const nint m_flColdEmbraceDuration = 0x38; // float32
-            public const nint m_vIdlePosition = 0x3C; // Vector2D
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // `S
-        public static class NewSettingsID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyCustomFGDType
-        // MGetKV3ClassDefaults
-        public static class ArtyLevelID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 38
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition_ImperiaBoss {
-            public const nint m_flBurningGroundImpactDamage = 0x288; // float32
-            public const nint m_flBurningGroundImpactRadius = 0x28C; // float32
-            public const nint m_flBurningGroundImpactSpawnDelay = 0x290; // float32
-            public const nint m_flBurningGroundFlamesDuration = 0x294; // float32
-            public const nint m_flBurningGroundDoTDuration = 0x298; // float32
-            public const nint m_flBurningGroundDoTDamage = 0x29C; // float32
-            public const nint m_flBurningGroundImpactStunDuration = 0x2A0; // float32
-            public const nint m_nBurningGroundInstancesPerEnrageLevel = 0x2A4; // int32
-            public const nint m_sBurningGroundImpactParticleName = 0x2A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sBurningGroundDoTParticleName = 0x388; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sBurningGroundBurnParticleName = 0x468; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_flRadiateRaysCastStartDuration = 0x548; // float32
-            public const nint m_flRadiateRaysDuration = 0x54C; // float32
-            public const nint m_flRadiateRaysInterval = 0x550; // float32
-            public const nint m_flRadiateRaysAngle = 0x554; // float32
-            public const nint m_flRadiateRaysSpeed = 0x558; // float32
-            public const nint m_flRadiateRaysDamage = 0x55C; // float32
-            public const nint m_flRadiateRaysProjectileRadius = 0x560; // float32
-            public const nint m_sRadiateRaysRayParticle = 0x568; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sRadiateRaysBuffParticle = 0x648; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_nDemonPortalsNumToCreate = 0x728; // float32
-            public const nint m_flDemonPortalDeactivateTime = 0x72C; // float32
-            public const nint m_nMaxDemonPortalCount = 0x730; // int32
-            public const nint m_flDemonPortalDeactivateRadius = 0x734; // float32
-            public const nint m_vecDemonPortalSpawners = 0x738; // CUtlVector<CUtlString>
-            public const nint m_sDemonPortalsPortalParticle = 0x750; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sDemonPortalsTelegraphParticle = 0x830; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_nNumMagicMissiles = 0x910; // int32
-            public const nint m_flMagicMissileProjectileSpeed = 0x914; // float32
-            public const nint m_flMagicMissileProjectileSpeedIncreasePerEnrage = 0x918; // float32
-            public const nint m_flMagicMissileDamage = 0x91C; // float32
-            public const nint m_flMagicMissileProjectileRadius = 0x920; // float32
-            public const nint m_sMagicMissileParticle = 0x928; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_flInitialEnrageTime = 0xA08; // float32
-            public const nint m_flIncrementalEnrageTime = 0xA0C; // float32
-            public const nint m_vecMandatoryEnrageHealthThresholds = 0xA10; // CUtlVector<float32>
-            public const nint m_sImperiaAmbientBody = 0xA28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sImperiaAmbientWings = 0xB08; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 19
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupBulletInfo {
-            public const nint m_pattern = 0x0; // EShmupBulletPattern
-            public const nint m_nCount = 0x4; // int32
-            public const nint m_flSpeed = 0x8; // float32
-            public const nint m_flRadius = 0xC; // float32
-            public const nint m_flRandomTargetingOffsetMin = 0x10; // float32
-            public const nint m_flRandomTargetingOffsetMax = 0x14; // float32
-            public const nint m_nBulletsPerWave = 0x18; // int32
-            public const nint m_flAngleWidth = 0x1C; // float32
-            public const nint m_flAngleOffset = 0x20; // float32
-            public const nint m_flSpeedPerBullet = 0x24; // float32
-            public const nint m_flRadiusPerBullet = 0x28; // float32
-            public const nint m_flAngleOffsetPerBullet = 0x2C; // float32
-            public const nint m_flAngleOffsetPerWave = 0x30; // float32
-            public const nint m_flAngleStaggerPerWave = 0x34; // float32
-            public const nint m_flAngleSinWaveOffset = 0x38; // float32
-            public const nint m_bSwapColorPerBullet = 0x3C; // bool
-            public const nint m_flInterval = 0x40; // float32
-            public const nint m_vFixedDirection = 0x44; // Vector2D
-            public const nint m_bUseStoredPlayerLocation = 0x4C; // bool
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SZooSetAnnotation_t {
-            public const nint m_strSetTag = 0x0; // CUtlString
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsPhysicsBodyID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACrownfallCreditsBlockDefinition {
-            public const nint m_vecCharacters = 0x0; // CUtlVector<CDOTACrownfallCreditsCharacterDefinition>
-            public const nint m_scene = 0x18; // CDOTACrownfallCreditsMapSceneDefinition
-            public const nint m_strCustomPanoramaClass = 0x80; // CUtlString
-            public const nint m_nMarginBottom = 0x88; // int32
-            public const nint m_nMarginTop = 0x8C; // int32
-            public const nint m_bSpecialThanksBlock = 0x90; // bool
-            public const nint m_strLocText = 0x98; // CUtlString
-            public const nint m_bJustText = 0xA0; // bool
-            public const nint m_nStopOffset = 0xA4; // int32
         }
         // Parent: None
         // Field count: 6
@@ -46776,75 +42622,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_eOrigin = 0x7E0; // ESurvivorsAreaAttackOrigin
             public const nint m_flRemoveParticleTimeDelay = 0x7E4; // float32
             public const nint m_vecAttackParticles = 0x7E8; // CUtlVector<CSurvivorsAttackParticleInfo>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsHeroID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldCharacterBase {
-            public const nint m_sImage = 0x0; // CPanoramaImageName
-            public const nint m_sClassName = 0x10; // CUtlString
-            public const nint m_vSize = 0x18; // Vector2D
-            public const nint m_vOffset = 0x20; // Vector2D
-            public const nint m_unFrameWidth = 0x28; // uint16
-            public const nint m_unFrameTime = 0x2A; // uint16
-            public const nint m_bUse3dPreview = 0x2C; // bool
-            public const nint m_nPreviewHeroID = 0x30; // HeroID_t
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // 16,0x0fV
-        // MGetKV3ClassDefaults
-        // Y
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_EchoStrike {
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFlappySkywrathDifficulty {
-            public const nint characterPlayer = 0x0; // CDOTAFlappySkywrathCharacter
-            public const nint characterOpponent = 0x10; // CDOTAFlappySkywrathCharacter
-            public const nint flRaceDistance = 0x20; // float32
-            public const nint flBaseObstacleDistanceInterval = 0x24; // float32
-            public const nint flBaseObstacleGapDistance = 0x28; // float32
-            public const nint flMinObstacleGapDistance = 0x2C; // float32
-            public const nint flCollisionSpeedReduction = 0x30; // float32
-            public const nint flLandedMaxSpeed = 0x34; // float32
-            public const nint flCollisionInputCooldown = 0x38; // float32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class TimedEvent {
-            public const nint m_TimeBetweenEvents = 0x0; // float32
-            public const nint m_fNextEvent = 0x4; // float32
         }
         // Parent: None
         // Field count: 13
@@ -46864,81 +42641,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_textureName = 0x70; // char[64]
         }
         // Parent: None
-        // Field count: 15
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition__Attack {
-            public const nint m_sParticleName = 0x0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_flDamage = 0xE0; // float32
-            public const nint m_flAttackCooldown = 0xE4; // float32
-            public const nint m_flSpeed = 0xE8; // float32
-            public const nint m_flRange = 0xEC; // float32
-            public const nint m_flMaxDistance = 0xF0; // float32
-            public const nint m_flLifeTime = 0xF4; // float32
-            public const nint m_flAttackOffsetUp = 0xF8; // float32
-            public const nint m_flAttackOffsetForward = 0xFC; // float32
-            public const nint m_flRadius = 0x100; // float32
-            public const nint m_activity = 0x104; // GameActivity_t
-            public const nint m_flAttackPoint = 0x108; // float32
-            public const nint m_bHasIndicator = 0x10C; // bool
-            public const nint m_flSpawnDelay = 0x110; // float32
-            public const nint m_eIndicatorShape = 0x114; // SurvivorsAttackIndicatorShape_t
-        }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupGameDefinition {
-            public const nint m_flGameWidth = 0x0; // float32
-            public const nint m_flGameHeight = 0x4; // float32
-            public const nint m_flBossFightDuration = 0x8; // float32
-            public const nint m_nComboBaseScore = 0xC; // int32
-            public const nint m_player = 0x10; // CShmupPlayerDefinition
-            public const nint m_boss = 0x70; // CShmupBossDefinition
-        }
-        // Parent: None
-        // Field count: 20
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsHeroDefinition {
-            public const nint m_unHeroID = 0x0; // SurvivorsHeroID_t
-            public const nint m_nDOTAHeroID = 0x4; // HeroID_t
-            public const nint m_flBaseHealth = 0x10; // float32
-            public const nint m_flBaseSpeed = 0x14; // float32
-            public const nint m_flBasePickupRadius = 0x18; // float32
-            public const nint m_flBaseDashSpeed = 0x1C; // float32
-            public const nint m_flBaseDashDuration = 0x20; // float32
-            public const nint m_flBaseDashCooldown = 0x24; // float32
-            public const nint m_nBaseNumDashes = 0x28; // int32
-            public const nint m_flMass = 0x2C; // float32
-            public const nint m_flCollisionRadius = 0x30; // float32
-            public const nint m_flCollisionHeight = 0x34; // float32
-            public const nint m_flTriggerCollisionRadiusPadding = 0x38; // float32
-            public const nint m_pszPlayerHitSoundEvent = 0x40; // CUtlString
-            public const nint m_sLocDisplayName = 0x48; // CUtlString
-            public const nint m_vecEconItems = 0x50; // CUtlVector<item_definition_index_t>
-            public const nint m_unStyleIndex = 0x68; // style_index_t
-            public const nint m_vecBaseAttributes = 0x70; // CUtlVector<CSurvivorsAttributeValue>
-            public const nint m_vecStartingPowerUps = 0x88; // CUtlVector<SurvivorsPowerUpID_t>
-            public const nint m_vecInnatePowerUps = 0xA0; // CUtlVector<SurvivorsPowerUpID_t>
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // V
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition_Snotty {
-        }
-        // Parent: None
         // Field count: 7
         public static class CSurvivorsPowerUp_MortimerKisses {
             public const nint m_vecQueuedAttackTimers = 0x800; // CUtlVector<float32>
@@ -46950,186 +42652,8 @@ namespace Source2Dumper.Schemas {
             public const nint m_unArtilleryParticleID = 0x908; // SurvivorsParticleID_t
         }
         // Parent: None
-        // Field count: 28
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFlappySkywrathDefinition {
-            public const nint strID = 0x0; // CUtlString
-            public const nint sLayoutPath = 0x8; // CUtlString
-            public const nint sMapFile = 0x10; // CUtlString
-            public const nint sMapLoopingFile = 0x18; // CUtlString
-            public const nint sMapBGFile = 0x20; // CUtlString
-            public const nint vecDifficulties = 0x28; // CUtlVector<CDOTAFlappySkywrathDifficulty>
-            public const nint flMinimumSpeed = 0x40; // float32
-            public const nint flGravity = 0x44; // float32
-            public const nint flJumpPower = 0x48; // float32
-            public const nint flGlideAcceleration = 0x4C; // float32
-            public const nint flGlideFallSpeed = 0x50; // float32
-            public const nint flDashDuration = 0x54; // float32
-            public const nint flDashBoost = 0x58; // float32
-            public const nint flDashSpeed = 0x5C; // float32
-            public const nint flDiveDuration = 0x60; // float32
-            public const nint flDiveSpeed = 0x64; // float32
-            public const nint flTrackDistance = 0x68; // float32
-            public const nint flCameraDistance = 0x6C; // float32
-            public const nint vCameraOffset = 0x70; // Vector
-            public const nint vCameraEdgeThresholds = 0x7C; // Vector2D
-            public const nint flCameraAcceleration = 0x84; // float32
-            public const nint vPlayerSize = 0x88; // Vector2D
-            public const nint vPlayerVerticalBounds = 0x90; // Vector2D
-            public const nint vObstacleVerticalBounds = 0x98; // Vector2D
-            public const nint vObstacleHorizontalBounds = 0xA0; // Vector2D
-            public const nint flTopOffsetToTip = 0xA8; // float32
-            public const nint flBottomOffsetToTip = 0xAC; // float32
-            public const nint vecInputActions = 0xD8; // CUtlVector<CDOTAFlappySkywrathInputAction>
-        }
-        // Parent: None
         // Field count: 0
         public static class CSurvivorsEnemyGolem {
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupPathDefinition {
-            public const nint m_strNameInMap = 0x8; // CUtlString
-            public const nint m_flSpeed = 0x10; // float32
-            public const nint m_vPathOffset = 0x14; // Vector
-            public const nint m_vecPathEvents = 0x20; // CUtlVector<CShmupPathEvent>
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupEventTime {
-            public const nint m_flDelay = 0x0; // float32
-            public const nint m_strEventName = 0x8; // CUtlString
-            public const nint m_bPathFlipped = 0x10; // bool
-            public const nint m_bInvertColors = 0x11; // bool
-            public const nint m_nCount = 0x14; // int32
-            public const nint m_flRepeatInterval = 0x18; // float32
-            public const nint m_vOffset = 0x1C; // Vector
-            public const nint m_vRepeatOffset = 0x28; // Vector
-            public const nint m_children = 0x38; // CUtlVector<CShmupEventTime>
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CMatch3GameModeDefinition {
-            public const nint m_unGameModeID = 0x0; // Match3GameModeID_t
-            public const nint m_sLocName = 0x10; // CUtlString
-            public const nint m_sOpponentScene = 0x18; // CUtlString
-            public const nint m_sBackgroundImage = 0x20; // CPanoramaImageName
-            public const nint m_nBoardRows = 0x30; // int32
-            public const nint m_nBoardCols = 0x34; // int32
-            public const nint m_flPlayerHealth = 0x38; // float32
-            public const nint m_vecHeroes = 0x40; // CUtlVector<CUtlString>
-            public const nint m_vecLevels = 0x58; // CUtlVector<CMatch3Level*>
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        public static class CDOTACrateDropPlatformDef {
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTASlarkJailbreakGameDefinition {
-            public const nint m_nPointsPerBlock = 0x0; // int32
-            public const nint m_nPointsPerBonusBlock = 0x4; // int32
-            public const nint m_nPointsPerCompletedLevel = 0x8; // int32
-            public const nint m_vecStages = 0x10; // CUtlVector<CDOTASlarkJailbreakStageDefinition>
-        }
-        // Parent: None
-        // Field count: 57
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldDefinition {
-            public const nint generic_data_type = 0x0; // CUtlString
-            public const nint m_unID = 0x8; // OverworldID_t
-            public const nint m_sKey = 0x10; // CUtlString
-            public const nint m_eAssociatedEvent = 0x18; // EEvent
-            public const nint m_eProgressionType = 0x1C; // EOverworldProgressionType
-            public const nint m_unOverworldVersion = 0x20; // uint8
-            public const nint m_sTokenTraderEncounterName = 0x28; // CUtlString
-            public const nint m_sNodeUnlockEventAction = 0x30; // CUtlString
-            public const nint m_vGridOffset = 0x38; // Vector2D
-            public const nint m_unGridSize = 0x40; // uint32
-            public const nint m_unNodeGridSize = 0x44; // uint32
-            public const nint m_unMapWidth = 0x48; // uint32
-            public const nint m_unMapHeight = 0x4C; // uint32
-            public const nint m_vecCameraDistances = 0x50; // CUtlVector<float32>
-            public const nint m_flMinCameraDistance = 0x68; // float32
-            public const nint m_flMaxCameraDistance = 0x6C; // float32
-            public const nint m_flInnerCameraDistanceThreshold = 0x70; // float32
-            public const nint m_vMinCameraBounds = 0x74; // Vector2D
-            public const nint m_vMaxCameraBounds = 0x7C; // Vector2D
-            public const nint m_sMapVisualsXmlPath = 0x88; // CUtlString
-            public const nint m_vecReleaseSchedule = 0x90; // CUtlVector<DOTAOverworldReleaseScheduledUnlock_t>
-            public const nint m_vecStartNodeIds = 0xA8; // CUtlVector<OverworldNodeID_t>
-            public const nint m_unEndNodeID = 0xC0; // OverworldNodeID_t
-            public const nint m_sVisualNovelName = 0xC8; // CUtlString
-            public const nint m_sTokenLocStringPrefix = 0xD0; // CUtlString
-            public const nint m_sActNumberLocString = 0xD8; // CUtlString
-            public const nint m_sActTitleLocString = 0xE0; // CUtlString
-            public const nint m_unPremiumItemDef = 0xE8; // item_definition_index_t
-            public const nint m_unFullCompletionItemDef = 0xEC; // item_definition_index_t
-            public const nint m_unScrapTokenID = 0xF0; // OverworldTokenID_t
-            public const nint m_unFortuneDuration = 0xF4; // uint32
-            public const nint m_unPathUnlockerTokenID = 0xF8; // OverworldTokenID_t
-            public const nint m_unFortuneCountForPermanentReward = 0xFC; // int32
-            public const nint m_unTimesFortuneCanBeSeenBeforeRepeats = 0x100; // int32
-            public const nint m_vecFortuneWeightForUnseenAmount = 0x108; // CUtlVector<int32>
-            public const nint m_nMaxTokenCap = 0x120; // int32
-            public const nint m_vecEventActionTriggers = 0x128; // CUtlVector<CDOTAEventActionTrigger>
-            public const nint m_vecEventActionGrantAndClaimPairTriggers = 0x140; // CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
-            public const nint m_vecPathColorRules = 0x158; // CUtlVector<CDOTAOverworldPathColorRule>
-            public const nint m_strNarrationVisualNovel = 0x170; // CUtlString
-            public const nint m_mapNarrationDialogues = 0x178; // CUtlOrderedMap<CUtlString,CUtlString>
-            public const nint m_Theme = 0x370; // CDOTAOverworldTheme
-            public const nint m_vecTokenTypes = 0x3A8; // CUtlVector<CDOTAOverworldToken*>
-            public const nint m_vecTarotCards = 0x3D8; // CUtlVector<CDOTAOverworldTarotCard*>
-            public const nint m_vecFortuneTellerRewards = 0x3F0; // CUtlVector<CDOTAOverworldFortuneTellerReward*>
-            public const nint m_vecFortuneForcedReveals = 0x408; // CUtlVector<CDOTAOverworldFortuneForcedReveal*>
-            public const nint m_vecFortuneTellerFixedReward = 0x420; // CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
-            public const nint m_vecFortuneTellerStoryNodes = 0x438; // CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
-            public const nint m_vecHeroRewards = 0x478; // CUtlVector<CDOTAOverworldHeroReward*>
-            public const nint m_vecNodes = 0x490; // CUtlVector<CDOTAOverworldNode*>
-            public const nint m_vecPaths = 0x4A8; // CUtlVector<CDOTAOverworldPath*>
-            public const nint m_vecRooms = 0x4C0; // CUtlVector<CDOTAOverworldRoom*>
-            public const nint m_vecEncounters = 0x4D8; // CUtlVector<CDOTAOverworldEncounter*>
-            public const nint m_vecHeroes = 0x4F0; // CUtlVector<CDOTAOverworldHero*>
-            public const nint m_vecCharacters = 0x508; // CUtlVector<CDOTAOverworldCharacter*>
-            public const nint m_vecClickables = 0x520; // CUtlVector<CDOTAOverworldClickable*>
-            public const nint m_vecRoomGroups = 0x600; // CUtlVector<CDOTAOverworldRoomGroup*>
-        }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SNewSettingsDefinition {
-            public const nint nID = 0x0; // NewSettingsID_t
-            public const nint m_sTitle = 0x10; // CUtlString
-            public const nint m_sDescription = 0x18; // CUtlString
-            public const nint sIcon = 0x20; // CPanoramaImageName
-            public const nint m_sCreationDate = 0x30; // CUtlString
-            public const nint m_eNewSettingsBadge = 0x3C; // ENewSettingsBadge
         }
         // Parent: None
         // Field count: 5
@@ -47139,41 +42663,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_bActive = 0x7E0; // bool
             public const nint m_flDurationTimer = 0x7E4; // float32
             public const nint m_flRange = 0x7E8; // float32
-        }
-        // Parent: None
-        // Field count: 10
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupEnemyDefinition {
-            public const nint m_strNameInMap = 0x0; // CUtlString
-            public const nint m_nHealth = 0x8; // int32
-            public const nint m_flHitboxRadius = 0xC; // float32
-            public const nint m_vHitboxOffsetWS = 0x10; // Vector
-            public const nint m_nKillScore = 0x1C; // int32
-            public const nint m_flModelScale = 0x20; // float32
-            public const nint m_bIsBoss = 0x24; // bool
-            public const nint m_vecBulletPatterns = 0x28; // CUtlVector<CShmupBulletInfo>
-            public const nint m_vecOnDeathBulletPatterns = 0x40; // CUtlVector<CShmupBulletInfo>
-            public const nint m_vecSelfDestroyBulletPatterns = 0x58; // CUtlVector<CShmupBulletInfo>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CDOTASlarkJailbreakStageDefinition {
-            public const nint m_sLayout = 0x0; // CUtlString
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldFortuneForcedReveal {
-            public const nint m_unID = 0x0; // OverworldTarotCardID_t
-            public const nint m_nForcedRevealCount = 0x4; // int32
         }
         // Parent: None
         // Field count: 32
@@ -47212,135 +42701,12 @@ namespace Source2Dumper.Schemas {
             public const nint m_vSeparationVector = 0x32C; // Vector
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsUpgradeID_t {
-            public const nint m_Value = 0x0; // uint16
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // 7,0x0f30/0x1116,0x0fV
-        // MGetKV3ClassDefaults
-        public static class ArtyUnitDef_t {
-            public const nint m_bRotateReloadBar = 0xB0; // bool
-            public const nint m_flMaxMana = 0xB4; // float32
-            public const nint m_flMovementSpeed = 0xB8; // float32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsLootTable__CLootEntryCollection {
-            public const nint m_flChance = 0x0; // float32
-            public const nint m_vecLootEntries = 0x8; // CUtlVector<CSurvivorsLootTable::CLootEntry>
-        }
-        // Parent: None
-        // Field count: 33
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MVDataNodeType
-        public static class ArtyGameObjectDef_t {
-            public const nint m_unID = 0x10; // ArtyGameObjectID_t
-            public const nint m_szGraphicsDef = 0x18; // CUtlString
-            public const nint m_szDeathSound = 0x28; // CUtlString
-            public const nint m_eHitboxType = 0x30; // EArtyHitboxType
-            public const nint m_vHitboxMin = 0x34; // Vector2D
-            public const nint m_vHitboxMax = 0x3C; // Vector2D
-            public const nint m_flHitboxRadius = 0x44; // float32
-            public const nint m_flHitboxExtents = 0x48; // float32
-            public const nint m_bInheritTransform = 0x4C; // bool
-            public const nint m_bInheritRotation = 0x4D; // bool
-            public const nint m_bInheritVisibility = 0x4E; // bool
-            public const nint m_bInheritState = 0x4F; // bool
-            public const nint m_bDestroyOnFallThrough = 0x50; // bool
-            public const nint m_flFallDamagePerVelocity = 0x54; // float32
-            public const nint m_bDeathCausesExplosion = 0x58; // bool
-            public const nint m_flExplosionDamage = 0x5C; // float32
-            public const nint m_flExplosionRadius = 0x60; // float32
-            public const nint m_flExplosionTerrainRadius = 0x64; // float32
-            public const nint m_flGravityMult = 0x68; // float32
-            public const nint m_flDragMult = 0x6C; // float32
-            public const nint m_flWindMult = 0x70; // float32
-            public const nint m_flDeathMaxScaleFactor = 0x74; // float32
-            public const nint m_bAllowPhysicsInDying = 0x78; // bool
-            public const nint m_eType = 0x79; // EArtyGameObjectType
-            public const nint m_eLayer = 0x7C; // EArtyLayer
-            public const nint m_flMaxHealth = 0x80; // float32
-            public const nint m_flHealth = 0x84; // float32
-            public const nint m_bVisible = 0x88; // bool
-            public const nint m_bCanCollide = 0x89; // bool
-            public const nint m_bDoPhysics = 0x8A; // bool
-            public const nint m_flLifetime = 0x8C; // float32
-            public const nint m_flDieTime = 0x90; // float32
-            public const nint m_vecChildren = 0x98; // CUtlVector<ArtyGameObjectInstance_t>
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupEventEnemySpawn {
-            public const nint m_strEnemyName = 0x0; // CUtlString
-            public const nint m_bRed = 0x8; // bool
-            public const nint m_vOffset = 0xC; // Vector
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsLevelID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
         // Field count: 0
         public static class CSurvivorsPowerUp_EchoStrike {
         }
         // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class DOTAOverworldReleaseScheduledUnlock_t {
-            public const nint m_strLocName = 0x0; // CUtlString
-            public const nint m_strVisualNovelName = 0x8; // CUtlString
-            public const nint m_strRingmasterVisualNovelName = 0x10; // CUtlString
-            public const nint m_unReleaseTime = 0x18; // uint32
-            public const nint m_unGroupID = 0x1C; // OverworldRoomGroupID_t
-        }
-        // Parent: None
         // Field count: 0
         public static class CSurvivorsPowerUp_Track {
-        }
-        // Parent: None
-        // Field count: 10
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class RoadToTIQuestDefinition_t {
-            public const nint m_unID = 0x0; // RoadToTIQuestID_t
-            public const nint m_eQuestType = 0x4; // ERoadToTIQuestType
-            public const nint m_unPeriod = 0x8; // uint32
-            public const nint m_unMatchID = 0x10; // MatchID_t
-            public const nint m_unSeriesID = 0x18; // uint32
-            public const nint m_unLeagueID = 0x1C; // uint32
-            public const nint m_unPlayerID = 0x20; // uint32
-            public const nint m_unTeamID = 0x24; // uint32
-            public const nint m_vecHeroes = 0x28; // CUtlVector<HeroID_t>
-            public const nint m_bDeveloper = 0x40; // bool
-        }
-        // Parent: None
-        // Field count: 1
-        public static class Match3OpponentID_t {
-            public const nint m_Value = 0x0; // uint32
         }
         // Parent: None
         // Field count: 7
@@ -47364,15 +42730,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_nMines = 0x8; // int32
         }
         // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class C_CommandContext {
-            public const nint needsprocessing = 0x0; // bool
-            public const nint command_number = 0x98; // int32
-        }
-        // Parent: None
         // Field count: 11
         public static class CSurvivorsUnit {
             public const nint m_id = 0x28; // SurvivorsUnitID_t
@@ -47392,83 +42749,6 @@ namespace Source2Dumper.Schemas {
         public static class CPortraitData {
             public const nint m_RenderList = 0xDD0; // CUtlVector<CHandle<C_BaseEntity>>
             public const nint m_hHero = 0xDE8; // CHandle<C_BaseEntity>
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // V
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_Stampede {
-            public const nint m_flMovementSpeedPercentDamageMultiplier = 0x6A0; // float32
-            public const nint m_sParticle = 0x6A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyGameModeLevelInfo_t {
-            public const nint m_szLevelName = 0x0; // CUtlString
-            public const nint m_unLevelID = 0x8; // ArtyLevelID_t
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class OverworldSplineInfo_t {
-            public const nint m_flStartTangent = 0x0; // float32
-            public const nint m_flEndTangent = 0x4; // float32
-            public const nint m_flStartOffset = 0x8; // float32
-            public const nint m_flEndOffset = 0xC; // float32
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition_Golem {
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldFortuneTellerStoryNode {
-            public const nint m_unID = 0x0; // OverworldFortuneTellerStoryNodeID_t
-            public const nint m_nFortuneRequestCount = 0x4; // int32
-            public const nint m_sDialogueName = 0x8; // CUtlString
-            public const nint m_sRewardEventAction = 0x10; // CUtlString
         }
         // Parent: None
         // Field count: 6
@@ -47496,230 +42776,12 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // text
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class ShmupEnemyID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 1
         public static class CSurvivorsEntity {
             public const nint m_unPhysicsBodyID = 0x10; // SurvivorsPhysicsBodyID_t
         }
         // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CandyShopDefinitionGC_t {
-            public const nint m_unCandyShopID = 0x8; // CandyShopID_t
-            public const nint m_vecRewards = 0x10; // CUtlVector<CandyShopRewardOptionGC_t>
-        }
-        // Parent: None
-        // Field count: 21
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACandyShopDefinition {
-            public const nint m_unCandyShopID = 0x8; // CandyShopID_t
-            public const nint m_sLocName = 0x10; // CUtlString
-            public const nint m_unDefaultInventorySize = 0x18; // uint32
-            public const nint m_unMaximumInventorySize = 0x1C; // uint32
-            public const nint m_unDefaultRerollCharges = 0x20; // uint32
-            public const nint m_unDefaultMaxRerollCharges = 0x24; // uint32
-            public const nint m_unCandyBagItemDef = 0x28; // item_definition_index_t
-            public const nint m_unFixedExchangeRecipeMaxCandies = 0x2C; // uint8
-            public const nint m_unFixedExchangeRecipeStartDate = 0x30; // uint32
-            public const nint m_unFixedExchangeRecipeUpdateRateInSeconds = 0x34; // uint32
-            public const nint m_unFixedExchangeRecipeDefaultCount = 0x38; // uint8
-            public const nint m_unFixedExchangeRecipeMaximumCount = 0x39; // uint8
-            public const nint m_unVariableExchangeInputCandyCount = 0x3A; // uint8
-            public const nint m_unVariableExchangeOutputCandyCount = 0x3B; // uint8
-            public const nint m_eExpireEvent = 0x3C; // EEvent
-            public const nint m_unRewardSlotsDefaultCount = 0x40; // uint8
-            public const nint m_sAttrLootList = 0x48; // CUtlString
-            public const nint m_sViewPageEvent = 0x50; // CUtlString
-            public const nint m_vecCandyTypes = 0x58; // CUtlVector<CandyShopCandyType_t>
-            public const nint m_vecRewardSlots = 0x70; // CUtlVector<CandyShopRewardSlot_t>
-            public const nint m_vecDefaultRewardOptions = 0x88; // CUtlVector<CandyShopRewardOption_t>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // 3810,0x2dc8/0x5006,0x2dc8/0x0651,0x2dc8/0x9020,0x2dc8/0x9015,0x2dc8/0x2865,0x1235/0xab12,0x2002/0x9000,0x3820/0x0009,0x2dc8/0x38
-        public static class SurvivorsParticleID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyGameObjectInstance_t {
-            public const nint m_szName = 0x8; // CUtlString
-            public const nint m_szGameObject = 0x10; // CUtlString
-            public const nint m_vPosition = 0x1C; // Vector2D
-            public const nint m_flRotation = 0x24; // float32
-            public const nint m_vScale = 0x28; // Vector2D
-            public const nint m_bFacingLeft = 0x30; // bool
-            public const nint m_flYawOffset = 0x34; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCToClientCavernCrawlMapUpdated
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class DOTACrateDropObjectDefID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // `S
-        public static class SettingsSearchDataIndex_t {
-            public const nint m_Value = 0x0; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsDifficultyID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_Snotty {
-            public const nint m_flRotationSpeedDeg = 0x868; // float32
-            public const nint m_flRotationDist = 0x86C; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsLootTable {
-            public const nint m_vecLootEntryCollections = 0x0; // CUtlVector<CSurvivorsLootTable::CLootEntryCollection>
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CMatch3HeroDefinition {
-            public const nint m_nHeroID = 0x0; // HeroID_t
-            public const nint m_sPieceModel = 0x10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            public const nint m_sAttackParticleEffect = 0xF0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sSuperAbility = 0x1D0; // CUtlString
-            public const nint m_sUltraAbility = 0x1D8; // CUtlString
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemySnapshot {
-            public const nint m_enemyID = 0x0; // SurvivorsEnemyID_t
-            public const nint m_flHealth = 0x4; // float32
-            public const nint m_vOrigin = 0x8; // VectorWS
-        }
-        // Parent: None
         // Field count: 0
         public static class CSurvivorsPowerUp_KnifeThrow {
-        }
-        // Parent: None
-        // Field count: 10
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFightingGameCancelOptionDefinition {
-            public const nint m_eCancelInput = 0x0; // EFightingGameButtonBit
-            public const nint m_eCancelInput2 = 0x4; // EFightingGameButtonBit
-            public const nint m_eCancelInput3 = 0x8; // EFightingGameButtonBit
-            public const nint m_nCancelStart = 0xC; // int32
-            public const nint m_nCancelDuration = 0x10; // int32
-            public const nint m_nCancelInputBuffer = 0x14; // int32
-            public const nint m_bRequiresInstall = 0x18; // bool
-            public const nint m_bAllowCancelOnWhiff = 0x19; // bool
-            public const nint m_nCancelActionID = 0x1C; // EFightingGameActionID
-            public const nint m_strCancelActionName = 0x20; // CUtlString
-        }
-        // Parent: None
-        // Field count: 36
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACrateDropObjectDef {
-            public const nint m_unID = 0x10; // DOTACrateDropObjectDefID_t
-            public const nint m_eType = 0x14; // EDOTACrateDropObjectType
-            public const nint m_sParentName = 0x18; // CUtlString
-            public const nint m_sEntityClassName = 0x20; // CUtlString
-            public const nint m_sModel = 0x28; // CUtlString
-            public const nint m_sSearchEntity = 0x30; // CUtlString
-            public const nint m_vSpawnMin = 0x38; // Vector
-            public const nint m_vSpawnMax = 0x44; // Vector
-            public const nint m_vSpawnVelocityMin = 0x50; // Vector
-            public const nint m_vSpawnVelocityMax = 0x5C; // Vector
-            public const nint m_flFriction = 0x68; // float32
-            public const nint m_flFrictionScale = 0x6C; // float32
-            public const nint m_flGravityScale = 0x70; // float32
-            public const nint m_flInertiaInv = 0x74; // float32
-            public const nint m_flAcceleration = 0x78; // float32
-            public const nint m_flMaxSpeed = 0x7C; // float32
-            public const nint m_nMassPriority = 0x80; // int8
-            public const nint m_nNoDraw = 0x81; // int8
-            public const nint m_flMass = 0x84; // float32
-            public const nint m_flScale = 0x88; // float32
-            public const nint m_flTriggerDelay = 0x8C; // float32
-            public const nint m_flTriggeredGravityScale = 0x90; // float32
-            public const nint m_flFirstRowOffset = 0x94; // float32
-            public const nint m_flSecondRowOffset = 0x98; // float32
-            public const nint m_flAbilityCooldown = 0x9C; // float32
-            public const nint m_nFirstRowWeight = 0xA0; // int8
-            public const nint m_nSecondRowWeight = 0xA1; // int8
-            public const nint m_flHeightVisualizationStep = 0xA4; // float32
-            public const nint m_flMultiplierStep = 0xA8; // float32
-            public const nint m_flMultiplierFactor = 0xAC; // float32
-            public const nint m_nDisableSpawnRotation = 0xB0; // int8
-            public const nint m_nTutorialObject = 0xB1; // int8
-            public const nint m_sSpawnSound = 0xB8; // CUtlString
-            public const nint m_sLoopSound = 0xC0; // CUtlString
-            public const nint m_sDestroySound = 0xC8; // CUtlString
-            public const nint m_sCatchSound = 0xD0; // CUtlString
-        }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldTheme {
-            public const nint m_sButtonType = 0x0; // CUtlString
-            public const nint m_sTokenType = 0x8; // CUtlString
-            public const nint m_sTokenReceivedPopupLayout = 0x10; // CUtlString
-            public const nint m_sTokenTraderEncounterLayout = 0x18; // CUtlString
-            public const nint m_sTokenTraderVisualNovelStyle = 0x20; // CUtlString
-            public const nint m_sInventoryPickerLayout = 0x28; // CUtlString
-            public const nint m_sTextPrefix = 0x30; // CUtlString
         }
         // Parent: None
         // Field count: 2
@@ -47735,137 +42797,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_flNextTrailCreationTimer = 0x848; // float32
         }
         // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // V
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition_Resurrector {
-            public const nint m_nNumResurrectionTimes = 0x288; // int32
-            public const nint m_flMovementSpeedMultiplierPerDeath = 0x28C; // float32
-            public const nint m_sResurrectParticleName = 0x290; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupBossPhase {
-            public const nint m_strName = 0x0; // CUtlString
-            public const nint m_flChargeTime = 0x8; // float32
-            public const nint m_flDuration = 0xC; // float32
-            public const nint m_vPosition = 0x10; // Vector2D
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpSnapshot {
-            public const nint m_unPowerUpID = 0x0; // SurvivorsPowerUpID_t
-            public const nint m_vecUpgradeIDs = 0x8; // CUtlVector<SurvivorsUpgradeID_t>
-            public const nint m_bShardUpgraded = 0x20; // bool
-            public const nint m_bScepterUpgraded = 0x21; // bool
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACrateDropTable {
-            public const nint m_sDropType = 0x0; // CUtlString
-            public const nint szDropName = 0x8; // CUtlString
-            public const nint nDropWeight = 0x10; // int32
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupEventDefinition {
-            public const nint m_type = 0x8; // EShmupEventType
-            public const nint m_vecEnemySpawns = 0x10; // CUtlVector<CShmupEventEnemySpawn>
-            public const nint m_strPathName = 0x28; // CUtlString
-            public const nint m_strUIEvent = 0x30; // CUtlString
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        public static class CSurvivorsPowerUpDefinition_KnifeThrow {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsAttributeDefinition__MetaProgressionTierCost_t {
-            public const nint m_nMinigameCurrency = 0x0; // int32
-            public const nint m_vecOverworldTokens = 0x8; // CUtlVector<OverworldTokenID_t>
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // generic
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class ShmupEventID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAMinesweeperPlayerDefinition {
-            public const nint m_nInitialHealth = 0x0; // int32
-            public const nint m_nInitialMana = 0x4; // int32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyLevelWeaponInstance_t {
-            public const nint m_szName = 0x0; // CUtlString
-            public const nint m_nReloads = 0xC; // int32
-        }
-        // Parent: None
         // Field count: 5
         public static class CSurvivorsPowerUp_MagicMissile {
             public const nint m_nEnemiesKilled = 0x730; // int32
@@ -47875,86 +42806,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_sImpactParticle = 0x820; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsGameModeID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPlayerSnapshot {
-            public const nint m_heroID = 0x0; // SurvivorsHeroID_t
-            public const nint m_nCurrentLevel = 0x4; // int32
-            public const nint m_flCurrentExp = 0x8; // float32
-            public const nint m_nRerollsRemaining = 0xC; // int32
-            public const nint m_vecPowerUps = 0x10; // CUtlVector<CSurvivorsPowerUpSnapshot>
-            public const nint m_vOrigin = 0x28; // VectorWS
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CandyShopRewardOption_t {
-            public const nint m_unRewardOptionID = 0x0; // CandyShopRewardOptionID_t
-            public const nint m_sRewardClass = 0x8; // CUtlString
-            public const nint m_bDisplayIfAlreadyOwned = 0x10; // bool
-        }
-        // Parent: None
         // Field count: 2
         public static class CSurvivorsPowerUp_ArcaneBolt {
             public const nint m_flNextShotTimer = 0x730; // float32
             public const nint m_nShotsFired = 0x734; // int32
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupPathEvent {
-            public const nint m_type = 0x0; // EShmupPathEventType
-            public const nint m_nBulletPatternIndex = 0x4; // int32
-            public const nint m_flTime = 0x8; // float32
-            public const nint m_flSpeed = 0xC; // float32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsPowerUpID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldEncounterReward {
-            public const nint m_unRewardData = 0x0; // uint32
-            public const nint m_sEventAction = 0x8; // CUtlString
-            public const nint m_kvRewardExtraData = 0x10; // KeyValues3
-            public const nint m_sRewardTitle = 0x20; // CUtlString
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldRoomGroup {
-            public const nint m_unGroupID = 0x0; // OverworldRoomGroupID_t
-            public const nint m_strLocName = 0x8; // CUtlString
-            public const nint m_strEntityParentName = 0x10; // CUtlString
-            public const nint m_vPosition = 0x18; // Vector2D
-            public const nint m_vSize = 0x20; // Vector2D
-            public const nint m_vecRooms = 0x28; // CUtlVector<OverworldRoomID_t>
-            public const nint m_flTrainCarViewDistance = 0x40; // float32
-            public const nint m_flTrainCarViewOffset = 0x44; // Vector2D
         }
         // Parent: None
         // Field count: 22
@@ -47993,16 +42848,6 @@ namespace Source2Dumper.Schemas {
             public const nint vDirections = 0x28; // CUtlVector<Vector>
         }
         // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldFortuneTellerReward {
-            public const nint m_eReward = 0x0; // EOverworldFortuneReward
-            public const nint m_flWeight = 0x4; // float32
-            public const nint m_unEventActionID = 0x8; // uint32
-        }
-        // Parent: None
         // Field count: 26
         //
         // Metadata:
@@ -48036,306 +42881,8 @@ namespace Source2Dumper.Schemas {
             public const nint m_flFailedChordClickCooldown = 0x760; // int32
         }
         // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CrownfallSurvivorsLightingOverride_t {
-            public const nint flTimeRemaining = 0x0; // float32
-            public const nint bOverrideBackToDefault = 0x4; // bool
-            public const nint Lighting = 0x8; // CrownfallSurvivorsLightingEnvironment_t
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // a
-        // alpha
-        // b
-        // cntrl
-        // d
-        // digit
-        // g
-        // lower
-        // p
-        // punct
-        // s
-        // s
-        // u
-        // w
-        // x
-        // n
-        public static class CDOTACrateDropPowerupDef {
-            public const nint m_ePowerupType = 0xE8; // EDOTACrateDropPowerupType
-        }
-        // Parent: None
-        // Field count: 11
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // DFLAG_SUPPRESS_HEALTH_CHANGES
-        // DFLAG_SUPPRESS_PHYSICS_FORCE
-        // DFLAG_SUPPRESS_EFFECTS
-        // DFLAG_PREVENT_DEATH
-        // DFLAG_FORCE_DEATH
-        // DFLAG_ALWAYS_GIB
-        // DFLAG_NEVER_GIB
-        // DFLAG_REMOVE_NO_RAGDOLL
-        // DFLAG_SUPPRESS_DAMAGE_MODIFICATION
-        // DFLAG_ALWAYS_FIRE_DAMAGE_EVENTS
-        // DFLAG_RADIUS_DMG
-        // DFLAG_FORCEREDUCEARMOR_DMG
-        // DFLAG_SUPPRESS_INTERRUPT_FLINCH
-        // DFLAG_IGNORE_DESTRUCTIBLE_PARTS
-        // DFLAG_SUPPRESS_BREAKABLES
-        // DFLAG_FORCE_PHYSICS_FORCE
-        // DFLAG_SUPPRESS_SCREENSPACE_DAMAGE_FX
-        // DFLAG_ALLOW_NON_AUTHORITATIVE
-        // DMG_LASTDFLAG
-        // DMG_CRUSH
-        // DMG_BULLET
-        // DMG_SLASH
-        // DMG_BURN
-        // DMG_VEHICLE
-        // DMG_FALL
-        // DMG_BLAST
-        // DMG_CLUB
-        // DMG_SHOCK
-        // DMG_SONIC
-        // DMG_ENERGYBEAM
-        // DMG_BUCKSHOT
-        // DMG_BLAST_SURFACE
-        // DMG_DISSOLVE
-        // DMG_DROWN
-        // DMG_POISON
-        // DMG_RADIATION
-        // DMG_DROWNRECOVER
-        // DMG_ACID
-        // DMG_LASTGENERICFLAG
-        // x9105,0x0111/0x1431,0x1038/0x1418,0x0111/0x1419,0x19fa/0x0607,0x07b5/0x0312,0x044f/0xb323,0x044f/0xb304,0x044f/0xb300,0x6666/0x8
-        // DAMAGE_EVENTS_ONLY
-        // DAMAGE_YES
-        public static class CClientAlphaProperty {
-            public const nint m_nDistFadeStart = 0x10; // uint16
-            public const nint m_nDistFadeEnd = 0x12; // uint16
-            public const nint m_nDesyncOffset = 0x0; // bitfield:14
-            public const nint m_bAlphaOverride = 0x0; // bitfield:1
-            public const nint m_bShadowAlphaOverride = 0x0; // bitfield:1
-            public const nint m_nRenderMode = 0x0; // bitfield:3
-            public const nint m_nRenderFX = 0x0; // bitfield:5
-            public const nint m_nAlpha = 0x17; // uint8
-            public const nint m_flFadeScale = 0x18; // float32
-            public const nint m_flRenderFxStartTime = 0x1C; // GameTime_t
-            public const nint m_flRenderFxDuration = 0x20; // float32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        public static class CSurvivorsPowerUpDefinition_CounterHelix {
-            public const nint m_flChanceToCounter = 0x868; // float32
-            public const nint m_flDelayBetweenCounters = 0x86C; // float32
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // k_eGoodkind
-        // k_eMossgrave
-        // k_eQuibbins
-        // k_eQuibbinsDrunk
-        // k_eKerrick
-        // k_eNoAuthor
-        public static class CDOTAMotionComicVideoFrame {
-            public const nint m_bLooping = 0x10; // bool
-            public const nint m_flAllowSkipAfterDelay = 0x14; // float32
-            public const nint m_sVideoPath = 0x18; // CUtlString
-            public const nint m_sSoundEventName = 0x20; // CUtlString
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldHeroReward {
-            public const nint m_unHeroID = 0x0; // HeroID_t
-            public const nint m_vecTokenNames = 0x48; // CUtlVector<CUtlString>
-        }
-        // Parent: None
-        // Field count: 16
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyLevelInfo_t {
-            public const nint m_unID = 0x8; // ArtyLevelID_t
-            public const nint m_sLocLevelName = 0x10; // CUtlString
-            public const nint m_playerInfo = 0x18; // ArtyLevelObjectInstance_t
-            public const nint m_vecGameObjects = 0xA0; // CUtlVector<ArtyLevelObjectInstance_t>
-            public const nint m_vecWeapons = 0xB8; // CUtlVector<ArtyLevelWeaponInstance_t>
-            public const nint m_nLevelCompletePoints = 0xD0; // int32
-            public const nint m_nTimeBonusBasePoints = 0xD4; // int32
-            public const nint m_nTimeBonusMaxPoints = 0xD8; // int32
-            public const nint m_nTimeBonusFastTime = 0xDC; // int32
-            public const nint m_nTimeBonusMaxTime = 0xE0; // int32
-            public const nint m_flBackgroundOffsetX = 0xE4; // float32
-            public const nint m_aryStarPointThresholds = 0xE8; // int32[3]
-            public const nint m_sBackgroundImage = 0xF8; // CPanoramaImageName
-            public const nint m_sTerrainBackgroundImage = 0x108; // CPanoramaImageName
-            public const nint m_sTerrainImage = 0x118; // CPanoramaImageName
-            public const nint m_sTerrainForegroundImage = 0x128; // CPanoramaImageName
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // 16,0x0fV
-        public static class CSurvivorsPowerUpDefinition_AreaAttack_Line {
-            public const nint m_bUseFacingDirection = 0x868; // bool
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldFortuneTellerFixedReward {
-            public const nint m_eReward = 0x0; // EOverworldFortuneReward
-            public const nint m_nFortuneRequestCount = 0x4; // int32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        public static class CSurvivorsPowerUpDefinition_LagunaBlade {
-            public const nint m_nEliteExtraHit = 0x788; // int32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAMotionComicDefinition {
-            public const nint m_flDefaultMinimumTimePerFrame = 0x8; // float32
-            public const nint m_vecFrames = 0x10; // CUtlVector<CDOTAMotionComicFrame*>
-        }
-        // Parent: None
         // Field count: 0
         public static class C_HorizontalMotionController {
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class screenfade_t {
-            public const nint Speed = 0x0; // float32
-            public const nint End = 0x4; // float32
-            public const nint Reset = 0x8; // float32
-            public const nint m_Color = 0xC; // Color
-            public const nint Flags = 0x10; // int32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyEnemyOrder_t {
-            public const nint m_flDuration = 0x0; // float32
-            public const nint m_unOrders = 0x4; // EArtyOrderFlag
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CMatch3Level {
-            public const nint m_sLevelName = 0x0; // CUtlString
-            public const nint m_sOpponentName = 0x8; // CUtlString
-            public const nint m_nCompletionScore = 0x10; // int32
-            public const nint m_eLevelFlags = 0x14; // EMatch3LevelFlags
-        }
-        // Parent: None
-        // Field count: 13
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class ArtyGraphicInfo_t {
-            public const nint m_unID = 0x8; // ArtyGraphicID_t
-            public const nint m_szSnippet = 0x10; // CUtlString
-            public const nint m_szUnit = 0x18; // CUtlString
-            public const nint m_szModel = 0x20; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            public const nint m_szParticle = 0x100; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_eType = 0x1E0; // EArtyGraphicsType
-            public const nint m_vAngles = 0x1E4; // QAngle
-            public const nint m_vPosition = 0x1F0; // Vector
-            public const nint m_vCameraOffset = 0x1FC; // Vector
-            public const nint m_nWidth = 0x208; // int32
-            public const nint m_nHeight = 0x20C; // int32
-            public const nint m_bPlayEndcap = 0x210; // bool
-            public const nint m_flDefaultScale = 0x214; // float32
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CMatch3AbilityBaseDefinition {
-            public const nint m_sLocName = 0x0; // CUtlString
-            public const nint m_sLocDescription = 0x8; // CUtlString
-            public const nint m_sImage = 0x10; // CPanoramaImageName
-            public const nint m_vecParams = 0x20; // CUtlVector<CMatch3AbilityParamDefinition>
         }
         // Parent: None
         // Field count: 45
@@ -48387,65 +42934,12 @@ namespace Source2Dumper.Schemas {
             public const nint m_fSlowSmoothedAmount = 0x4C4; // float32
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsEnemyID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCNotificationsUpdate
-        public static class CMatch3AbilityDefinition {
-            public const nint m_unAbilityID = 0x38; // Match3AbilityID_t
-        }
-        // Parent: None
-        // Field count: 9
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACrownfallCreditsMapSceneDefinition {
-            public const nint m_strImage = 0x0; // CPanoramaImageName
-            public const nint m_strImageMask = 0x10; // CPanoramaImageName
-            public const nint m_vViewStart = 0x20; // Vector2D
-            public const nint m_vViewEnd = 0x28; // Vector2D
-            public const nint m_bounds = 0x30; // CrownfallCreditsAABB_t
-            public const nint m_nAnimOffsetX = 0x40; // int32
-            public const nint m_nAnimOffsetY = 0x44; // int32
-            public const nint m_vecAnimations = 0x48; // CUtlVector<CDOTACrownfallCreditsMapSceneAnimateableDefinition>
-            public const nint m_bScale = 0x60; // bool
-        }
-        // Parent: None
         // Field count: 4
         public static class CSurvivorsSpawnerEliteTurret {
             public const nint m_nRoomIndex = 0x178; // int32
             public const nint m_nEnemiesSpawnedCount = 0x17C; // int32
             public const nint m_sInvulnerableParticle = 0x180; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_sInvulnerableSkinName = 0x260; // CUtlString
-        }
-        // Parent: None
-        // Field count: 10
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CandyShopRewardOptionGC_t {
-            public const nint m_unRewardOptionID = 0x0; // CandyShopRewardOptionID_t
-            public const nint m_unRewardOptionMaxCount = 0x4; // uint32
-            public const nint m_unCandyPrice = 0x8; // uint32
-            public const nint m_unWeight = 0xC; // uint32
-            public const nint m_eOptionType = 0x10; // ECandyShopRewardOptionType
-            public const nint m_unSingleItemDef = 0x14; // item_definition_index_t
-            public const nint m_sLootList = 0x18; // CUtlString
-            public const nint m_eEvent = 0x20; // EEvent
-            public const nint m_unEventActionID = 0x24; // uint32
-            public const nint m_unEventPoints = 0x28; // uint32
         }
         // Parent: None
         // Field count: 8
@@ -48463,204 +42957,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CSurvivorsSpawnerTower {
             public const nint m_vecSpawnedTowers = 0x178; // CUtlVector<SurvivorsUnitID_t>
-        }
-        // Parent: None
-        // Field count: 19
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTACrownfallCreditsCharacterDefinition {
-            public const nint m_strImage = 0x0; // CPanoramaImageName
-            public const nint m_strLocCharacterName = 0x10; // CUtlString
-            public const nint m_strLocCharacterTitle = 0x18; // CUtlString
-            public const nint m_nUniqueClickKey = 0x20; // int32
-            public const nint m_strImageAlt = 0x28; // CPanoramaImageName
-            public const nint m_strLocCharacterNameAlt = 0x38; // CUtlString
-            public const nint m_strLocCharacterTitleAlt = 0x40; // CUtlString
-            public const nint m_bFlipFacing = 0x48; // bool
-            public const nint m_bounds = 0x4C; // CrownfallCreditsAABB_t
-            public const nint m_strLocCharacterTitleAlt2 = 0x60; // CUtlString
-            public const nint m_strLocCharacterTitleAlt3 = 0x68; // CUtlString
-            public const nint m_strLocCharacterTitleAlt4 = 0x70; // CUtlString
-            public const nint m_strLocCharacterTitleAlt5 = 0x78; // CUtlString
-            public const nint m_strLocCharacterTitleAlt6 = 0x80; // CUtlString
-            public const nint m_nAltImageW = 0x88; // int32
-            public const nint m_nAltImageH = 0x8C; // int32
-            public const nint m_nAltImageFrameTime = 0x90; // int32
-            public const nint m_nYOffset = 0x94; // int32
-            public const nint m_unFrameTime = 0x98; // uint16
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // k_EArtyOrderFlag_MoveLeft
-        // k_EArtyOrderFlag_MoveRight
-        // k_EArtyOrderFlag_AimUp
-        // k_EArtyOrderFlag_AimDown
-        // k_EArtyOrderFlag_NextWeapon
-        // k_EArtyOrderFlag_PrevWeapon
-        // k_EArtyOrderFlag_FireStart
-        // k_EArtyOrderFlag_FireStop
-        // k_EArtyOrderFlag_FineControl
-        // k_EArtyOrderFlag_PowerUp
-        // k_EArtyOrderFlag_PowerDown
-        // k_EArtyOrderFlag_MoveUp
-        // k_EArtyOrderFlag_MoveDown
-        public static class ArtyGameObjectID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // Y
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_LandMine {
-            public const nint m_flScepterVacuumRadius = 0x6A0; // float32
-            public const nint m_flScepterVacuumDistance = 0x6A4; // float32
-            public const nint m_sParticle = 0x6A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sExplosionParticle = 0x788; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sStasisTrapParticle = 0x868; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sStasisTrapExplosion = 0x948; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sRemoteMineParticle = 0xA28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sRemoteMineExplosion = 0xB08; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CMatch3OpponentHeroItemDefinition {
-            public const nint m_unItemDef = 0x0; // item_definition_index_t
-            public const nint m_nStyleIndex = 0x4; // style_index_t
-        }
-        // Parent: None
-        // Field count: 21
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTALockpickingStageDefinition {
-            public const nint m_eMode = 0x0; // ELockpickingStageMode
-            public const nint m_nNumUnlocks = 0x4; // int32
-            public const nint m_flInitialSpeed = 0x8; // float32
-            public const nint m_flSpeedIncrementPerUnlock = 0xC; // float32
-            public const nint m_flMinDegreesBetweenUnlocks = 0x10; // float32
-            public const nint m_flTimeLimit = 0x14; // float32
-            public const nint m_flTimerIncreasePerUnlock = 0x18; // float32
-            public const nint m_flSpeedBoostRate = 0x1C; // float32
-            public const nint m_flSpeedBoostPercentage = 0x20; // float32
-            public const nint m_flDecelerationRate = 0x24; // float32
-            public const nint m_flRecoverRate = 0x28; // float32
-            public const nint m_flBaseUnlockAppearRate = 0x2C; // float32
-            public const nint m_flUnlockAppearIncreaseRate = 0x30; // float32
-            public const nint m_flMaxSpeedMultiplier = 0x34; // float32
-            public const nint m_flTimerIncreaseUnlockChance = 0x38; // float32
-            public const nint m_flTimerIncreaseUnlockEscalatingChance = 0x3C; // float32
-            public const nint m_nMaxUnlocksOnBoard = 0x40; // int32
-            public const nint m_nBoardRadius = 0x44; // int32
-            public const nint m_nUnlockRadius = 0x48; // int32
-            public const nint m_flUnlockDegreeDecreaseRate = 0x4C; // float32
-            public const nint m_nScorePerUnlock = 0x50; // int32
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // S
-        // m
-        // m
-        // Y
-        public static class IClientAlphaProperty {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyCustomFGDType
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // k_eCircle
-        // k_eLine
-        // k_eRay
-        // k_eAnimatedSprite
-        // k_eProgressBar
-        // k_eUnit
-        // k_eHero
-        // k_eParticle
-        // k_eTypeShot
-        // k_eTypeTrail
-        // k_eTypeCannon
-        // k_eTypePlayer
-        // k_eTypeEnemy
-        // k_eTypeFX
-        // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
-        // k_eYou
-        // k_eThem
-        // k_eNeutral
-        // k_ePlayers
-        // k_eAllTeams
-        public static class ArtyEnemyDef_t {
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAEventActionTrigger {
-            public const nint m_sEventAction = 0x0; // CUtlString
-            public const nint m_unEventScoreRequired = 0x8; // int32
-            public const nint m_sMapClassToAdd = 0x10; // CUtlString
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsUpgradeDefinition {
-            public const nint m_unRarity = 0x0; // ESurvivorsUpgradeRarity
-            public const nint m_vecUpgradeAttributes = 0x8; // CUtlVector<CSurvivorsAttributeValue>
-            public const nint m_vecGlobalUpgradeAttributes = 0x20; // CUtlVector<CSurvivorsAttributeValue>
         }
         // Parent: None
         // Field count: 41
@@ -48706,68 +43002,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_bSpawnedAmbientParticles = 0xB8C; // bool
             public const nint m_sImperiaAmbientBody = 0xB90; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_sImperiaAmbientWings = 0xC70; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAEventActionGrantAndClaimPair {
-            public const nint m_sEventActionGrant = 0x0; // CUtlString
-            public const nint m_sEventActionClaim = 0x8; // CUtlString
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SurvivorsUnitID_t {
-            public const nint m_Value = 0x0; // uint32
-        }
-        // Parent: None
-        // Field count: 7
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_ProjectileAttack {
-            public const nint m_eTargeting = 0x6A0; // ESurvivorsAttackTargeting
-            public const nint m_eBounceTargeting = 0x6A4; // ESurvivorsAttackTargeting
-            public const nint m_flBounceMinimumLifetime = 0x6A8; // float32
-            public const nint m_flSpawnMinimumLifetime = 0x6AC; // float32
-            public const nint m_bExpireOnWorldCollision = 0x6B0; // bool
-            public const nint m_bAbilityActiveWhileProjectileIsAlive = 0x6B1; // bool
-            public const nint m_sParticle = 0x6B8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 14
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAFightingGameHeroDefinition {
-            public const nint m_nHeroID = 0x0; // HeroID_t
-            public const nint m_flHeroWidth = 0x4; // float32
-            public const nint m_pszBasicSwingSound = 0x8; // CUtlString
-            public const nint m_pszBasicHitSound = 0x10; // CUtlString
-            public const nint m_nVictoryDuration = 0x18; // int32
-            public const nint m_pszHeroNameVO = 0x20; // CUtlString
-            public const nint m_vecHeroStyles = 0x28; // CUtlVector<CDOTAFightingGameHeroStyleDefinition>
-            public const nint m_vecActionDefinitions = 0x40; // CUtlVector<CDOTAFightingGameActionDefinition>
-            public const nint m_HeroPick_HeightOffset = 0x58; // float32
-            public const nint m_HeroPick_XOffset_Right = 0x5C; // float32
-            public const nint m_HeroPick_Angle_Right = 0x60; // float32
-            public const nint m_HeroPick_XOffset_Left = 0x64; // float32
-            public const nint m_HeroPick_Angle_Left = 0x68; // float32
-            public const nint m_HeroPick_Scale = 0x6C; // float32
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAEventActionGrantAndClaimPairTrigger {
-            public const nint m_sMapClassToAdd = 0x0; // CUtlString
-            public const nint m_vecGrantAndClaimActionPairs = 0x8; // CUtlVector<CDOTAEventActionGrantAndClaimPair>
         }
         // Parent: None
         // Field count: 100
@@ -48875,144 +43109,8 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // V
-        public static class CSurvivorsPowerUpDefinition_Swashbuckle {
-            public const nint m_sParticle = 0x6A0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 11
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // Y
-        public static class CDOTAOverworldEncounter {
-            public const nint m_sName = 0x8; // CUtlString
-            public const nint m_sTemplate = 0x10; // CUtlString
-            public const nint m_sLocName = 0x18; // CUtlString
-            public const nint m_sLocDescription = 0x20; // CUtlString
-            public const nint m_sImage = 0x28; // CPanoramaImageName
-            public const nint m_eRewardStyle = 0x38; // EOverworldEncounterRewardStyle
-            public const nint m_vecRewards = 0x40; // CUtlVector<CDOTAOverworldEncounterReward>
-            public const nint m_sDefaultDialogue = 0x58; // CUtlString
-            public const nint m_kvCustomData = 0x60; // KeyValues3
-            public const nint m_bRequiresNodeToBeUnlockedToClaimRewards = 0x70; // bool
-            public const nint m_nLeaderboardCount = 0x74; // int32
-        }
-        // Parent: None
-        // Field count: 18
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsSpawnerDefinition {
-            public const nint m_sEnemyName = 0x10; // CUtlString
-            public const nint m_sEnemyDisplayName = 0x18; // CUtlString
-            public const nint m_nMinimumEnemyCount = 0x20; // int32
-            public const nint m_nMaxSpawnCountPerInterval = 0x24; // int32
-            public const nint m_nOverflowEnemySpawnCount = 0x28; // int32
-            public const nint m_flSpawnInterval = 0x2C; // float32
-            public const nint m_eSpawnBehavior = 0x30; // ESurvivorsEnemySpawnBehavior
-            public const nint m_flFixedDirectionSpawnDistanceVariance = 0x34; // float32
-            public const nint m_bIsPersistant = 0x38; // bool
-            public const nint m_bResetSpawnIntervalOnKill = 0x39; // bool
-            public const nint m_flSpawnChance = 0x3C; // float32
-            public const nint m_sSpawnParticle = 0x40; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_flSpawnOvalRadius = 0x120; // Vector2D
-            public const nint m_sSpawnInfoTargetName = 0x128; // CUtlString
-            public const nint m_sMinimapIconClass = 0x130; // CUtlString
-            public const nint m_flPerpendicularWallSpacing = 0x138; // float32
-            public const nint m_bIgnoreDifficultySpawnMultiplier = 0x13C; // bool
-            public const nint m_eSpawnPositionsLayer = 0x144; // ESurvivorsEnemySpawnPositionsLayer
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class DOTAOverworldCharacterOverrideConditional_t {
-            public const nint m_condition = 0x0; // CDOTAOverworldCharacterConditional
-            public const nint m_character = 0x20; // CDOTAOverworldCharacterBase
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyCustomFGDType
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // k_eCircle
-        // k_eLine
-        // k_eRay
-        // k_eAnimatedSprite
-        // k_eProgressBar
-        // k_eUnit
-        // k_eHero
-        // k_eParticle
-        // k_eTypeShot
-        // k_eTypeTrail
-        // k_eTypeCannon
-        // k_eTypePlayer
-        // k_eTypeEnemy
-        // k_eTypeFX
-        // k_eTypeUI
-        // k_eDefault
-        // k_eTerrain
-        // k_eShots
-        // k_eRays
-        // k_eFX
-        // k_ePhysical
-        // k_eFullObjects
-        // k_eAllLayers
-        // k_eYou
-        // k_eThem
-        // k_eNeutral
-        // k_ePlayers
-        // k_eAllTeams
-        public static class ArtyPlayerDef_t {
-        }
-        // Parent: None
-        // Field count: 8
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // CInlineJob_CMsgGCToClientOverworldUserDataUpdated
-        public static class CDOTAOverworldPathColorRule {
-            public const nint m_eNodeFlags = 0x0; // EOverworldNodeFlags
-            public const nint m_cLockedColor = 0x4; // Color
-            public const nint m_cCompleteColor = 0x8; // Color
-            public const nint m_cActiveColor = 0xC; // Color
-            public const nint m_unLockedThickness = 0x10; // uint8
-            public const nint m_unCompleteThickness = 0x11; // uint8
-            public const nint m_unRoomConnectionThickness = 0x12; // uint8
-            public const nint m_flRoomConnectionBrightness = 0x14; // float32
-        }
-        // Parent: None
-        // Field count: 1
         public static class CSurvivorsPowerUp_Swashbuckle {
             public const nint m_sParticle = 0x648; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAOverworldToken {
-            public const nint m_unID = 0x0; // OverworldTokenID_t
-            public const nint m_sName = 0x8; // CUtlString
-            public const nint m_eTokenType = 0x38; // EOverworldTokenType
         }
         // Parent: None
         // Field count: 5
@@ -49024,267 +43122,24 @@ namespace Source2Dumper.Schemas {
             public const nint m_nAlarmTypes = 0x18; // int32
         }
         // Parent: None
-        // Field count: 6
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // .
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // e
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // Q
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // n
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsEnemyDefinition_Absorber {
-            public const nint m_flModelScaleIncreasePerAbsorb = 0x288; // float32
-            public const nint m_flMaxModelScale = 0x28C; // float32
-            public const nint m_flAbsorbRadius = 0x290; // float32
-            public const nint m_flPercentHealthAbsorbed = 0x294; // float32
-            public const nint m_sAbsorbParticleName = 0x298; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_unHeroID = 0x0; // SurvivorsHeroID_t
+        // Field count: 0
+        public static class __a4__ {
         }
         // Parent: None
         // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition_AreaAttack_Circle {
-        }
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPickupSnapshot {
-            public const nint m_pickupID = 0x0; // SurvivorsPickupID_t
-            public const nint m_nExperienceReward = 0x4; // int32
-            public const nint m_vOrigin = 0x8; // VectorWS
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CDOTAMinesweeperStageProgressionChoice {
-            public const nint m_strLocText = 0x0; // CUtlString
-        }
-        // Parent: None
-        // Field count: 34
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CSurvivorsPowerUpDefinition {
-            public const nint m_unPowerUpID = 0x8; // SurvivorsPowerUpID_t
-            public const nint m_nMaxLevel = 0xC; // int32
-            public const nint m_vecTooltipAttributes = 0x10; // CUtlVector<SurvivorsAttributeType_t>
-            public const nint m_vecScepterTooltipAttributes = 0x28; // CUtlVector<SurvivorsAttributeType_t>
-            public const nint m_vecBaseAttributes = 0x40; // CUtlVector<CSurvivorsAttributeValue>
-            public const nint m_vecRecipeItems = 0x58; // CUtlVector<SurvivorsPowerUpID_t>
-            public const nint m_bIsPassive = 0x70; // bool
-            public const nint m_bIsInnate = 0x71; // bool
-            public const nint m_bIsGold = 0x72; // bool
-            public const nint m_bRollable = 0x73; // bool
-            public const nint m_bIsShardUpgradeable = 0x74; // bool
-            public const nint m_bIsScepterUpgradeable = 0x75; // bool
-            public const nint m_sImage = 0x78; // CPanoramaImageName
-            public const nint m_sSource = 0x90; // CUtlString
-            public const nint m_sHeroImage = 0x98; // CPanoramaImageName
-            public const nint m_sLocAbilityName = 0xA8; // CUtlString
-            public const nint m_sLocAbilityDesc = 0xB0; // CUtlString
-            public const nint m_sLocShardAbilityDesc = 0xB8; // CUtlString
-            public const nint m_sLocScepterAbilityDesc = 0xC0; // CUtlString
-            public const nint m_sLocHeroName = 0xC8; // CUtlString
-            public const nint m_vecMinorUpgradeChoices = 0xD0; // CUtlVector<CSurvivorsUpgradeDefinition>
-            public const nint m_vecAuthoredUpgradeChoices = 0xE8; // CUtlVector<CSurvivorsUpgradeDefinition>
-            public const nint m_scepterUpgradeDefinition = 0x100; // CSurvivorsUpgradeDefinition
-            public const nint m_bModifierParticleUsesOverheadOffset = 0x140; // bool
-            public const nint m_sModifierParticle = 0x148; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sStunParticle = 0x228; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sVulnerableParticle = 0x308; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sFreezeParticle = 0x3E8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sHitStatusEffectParticle = 0x4C8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sWarmupEffectParticle = 0x5A8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_vWarmupEffectColor = 0x688; // Vector
-            public const nint m_flWarmupEffectTime = 0x694; // float32
-            public const nint m_flSpawnPickupOnKillPercent = 0x698; // float32
-            public const nint m_unSpawnPickupOnKillID = 0x69C; // SurvivorsPickupID_t
-        }
-        // Parent: None
-        // Field count: 52
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // OFF
-        // SMALL
-        // LARGE
-        public static class CSurvivorsGameModeDefinition {
-            public const nint m_unGameModeID = 0x0; // SurvivorsGameModeID_t
-            public const nint m_vCameraOffset = 0x10; // Vector
-            public const nint m_flEnemyRadius = 0x1C; // float32
-            public const nint m_flEnemyRadiusVariance = 0x20; // float32
-            public const nint m_flEnemyDespawnBuffer = 0x24; // float32
-            public const nint m_flEnemyDespawnTime = 0x28; // float32
-            public const nint m_sLevelName = 0x30; // CUtlString
-            public const nint m_flRequiredExperienceBase = 0x38; // float32
-            public const nint m_flRequiredExperienceExponent = 0x3C; // float32
-            public const nint m_TimeBasedLightingEnvironments = 0x44; // CrownfallSurvivorsLightingEnvironment_t[3]
-            public const nint m_sDifficultyName = 0xC0; // CUtlString
-            public const nint m_flPlayerReviveTimer = 0xC8; // float32
-            public const nint m_sReviveEffect = 0xD0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_nMaxActiveSlots = 0x1B0; // int32
-            public const nint m_nMaxPassiveSlots = 0x1B4; // int32
-            public const nint m_nLevelUpChoices = 0x1B8; // int32
-            public const nint m_nMaxXPPickupsInWorld = 0x1BC; // int32
-            public const nint m_flKnockbackDuration = 0x1C0; // float32
-            public const nint m_flSeperationVelocityInfluence = 0x1C4; // float32
-            public const nint m_flSeperationVelocityInterpolationSpeed = 0x1C8; // float32
-            public const nint m_flPlayerPositionHistoryBufferDuration = 0x1CC; // float32
-            public const nint m_flExistingItemGenerationWeight = 0x1D0; // float32
-            public const nint m_flNewItemGenerationWeight = 0x1D4; // float32
-            public const nint m_flPassiveItemGenerationWeight = 0x1D8; // float32
-            public const nint m_flFirstFloorTimeLimit = 0x1DC; // float32
-            public const nint m_flEliteRoomTriggerChannelTime = 0x1E0; // float32
-            public const nint m_flEliteRoomTriggerRadius = 0x1E4; // float32
-            public const nint m_nInitialItemSpawns = 0x1E8; // int32
-            public const nint m_nInitialMagnetSpawns = 0x1EC; // int32
-            public const nint m_vecEliteRoomUnlockTimes = 0x1F0; // CUtlVector<float32>
-            public const nint m_sEliteRoomChannelEffect = 0x208; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sEliteRoomDirectionalArrowEffect = 0x2E8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_vecEliteRoomChoices = 0x3C8; // CUtlVector<CUtlString>
-            public const nint m_sHealthBarEffect = 0x3F8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sAttackIndicatorParticleEffect = 0x4D8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sDamageNumbersEffectEnemy = 0x5B8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sDamageNumbersEffectPlayer = 0x698; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sDamageNumbersEffectCriticalStrike = 0x778; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sCollisionIndicatorEffect = 0x858; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_vCollisionIndicatorColorPlayer = 0x938; // Vector
-            public const nint m_vCollisionIndicatorColorEnemy = 0x944; // Vector
-            public const nint m_sPhysicalWeaknessEffect = 0x950; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sGenericStunEffect = 0xA30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_cEliteGlowColor = 0xB10; // Color
-            public const nint m_flLevelUpDelay = 0xB14; // float32
-            public const nint m_flLevelUpKnockbackRadius = 0xB18; // float32
-            public const nint m_flLevelUpKnockbackDistance = 0xB1C; // float32
-            public const nint m_sLevelUpEffect = 0xB20; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sLevelUpKnockbackEffect = 0xC00; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sPlayerHitEffect = 0xCE0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_vecSeperationLayerData = 0xDC0; // CUtlVector<CSurvivorsGameModeDefinition::SeparationLayerData>
-            public const nint m_luckyLootTable = 0xDD8; // CSurvivorsLootTable
-        }
-        // Parent: None
-        // Field count: 18
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CMatch3OpponentDefinition {
-            public const nint m_unOpponentID = 0x0; // Match3OpponentID_t
-            public const nint m_sLocName = 0x10; // CUtlString
-            public const nint m_sLocFlavor = 0x18; // CUtlString
-            public const nint m_sUnitName = 0x20; // CUtlString
-            public const nint m_sModelName = 0x28; // CUtlString
-            public const nint m_nHeroID = 0x30; // HeroID_t
-            public const nint m_vecHeroItems = 0x38; // CUtlVector<CMatch3OpponentHeroItemDefinition>
-            public const nint m_nHeroPrimarySlotIndex = 0x50; // int32
-            public const nint m_nHeroModelIndex = 0x54; // int32
-            public const nint m_nHeroSkinOverride = 0x58; // int32
-            public const nint m_vModelOffset = 0x5C; // Vector
-            public const nint m_flModelScale = 0x68; // float32
-            public const nint m_flMaxHealth = 0x6C; // float32
-            public const nint m_sAttackParticleEffect = 0x70; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            public const nint m_sAttackImpactSound = 0x150; // CUtlString
-            public const nint m_vecIntroActions = 0x158; // CUtlVector<CMatch3OpponentActionInstanceDefinition>
-            public const nint m_vecRepeatingActions = 0x170; // CUtlVector<CMatch3OpponentActionInstanceDefinition>
-            public const nint m_vecOutroActions = 0x188; // CUtlVector<CMatch3OpponentActionInstanceDefinition>
-        }
-        // Parent: None
-        // Field count: 11
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // o
-        public static class PortraitWorldLightConfig_t {
-            public const nint m_strName = 0x0; // CUtlString
-            public const nint m_flLatitude = 0x8; // float32
-            public const nint m_flLongitude = 0xC; // float32
-            public const nint m_flIntensity = 0x10; // float32
-            public const nint m_flAdditionalRadius = 0x14; // float32
-            public const nint m_flSpotFov = 0x18; // float32
-            public const nint m_flAnimatedNoiseFrequency = 0x1C; // float32
-            public const nint m_flAnimatedNoiseMinValue = 0x20; // float32
-            public const nint m_color = 0x24; // Color
-            public const nint m_bShowGizmos = 0x28; // bool
-            public const nint m_bShadows = 0x29; // bool
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CShmupBossBodyPart {
-            public const nint m_strAttachName = 0x0; // CUtlString
-            public const nint m_flRadius = 0x8; // float32
-            public const nint m_nHitRegionIndex = 0xC; // int32
-            public const nint m_nDamageMultiplier = 0x10; // int32
+        public static class k_EMsgGCReportsRemainingRequest {
         }
         // Parent: None
         // Field count: 0
-        public static class L {
+        public static class k_EMsgGCRequestChatChannelListResponse {
         }
         // Parent: None
         // Field count: 0
-        public static class __ {
+        public static class ___D__ {
         }
         // Parent: None
         // Field count: 0
-        public static class ehandle {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class ______ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class __m___ {
+        public static class k_EMsgGCJoinChatChannel {
         }
     }
 }

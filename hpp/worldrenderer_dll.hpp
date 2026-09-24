@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: worldrenderer.dll
-        // Class count: 33
+        // Class count: 17
         // Enum count: 3
         namespace worldrenderer_dll {
             // Alignment: 1
@@ -57,33 +57,6 @@ namespace source2_dumper {
             // Field count: 0
             namespace CEntityComponent {
             }
-            // Parent: CEntityComponent
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CScriptComponent {
-                constexpr std::ptrdiff_t m_scriptClassName = 0x30; // CUtlSymbolLarge
-            }
-            // Parent: None
-            // Field count: 12
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CEntityIdentity {
-                constexpr std::ptrdiff_t m_nameStringTableIndex = 0x14; // int32
-                constexpr std::ptrdiff_t m_name = 0x18; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_designerName = 0x20; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_flags = 0x30; // uint32
-                constexpr std::ptrdiff_t m_worldGroupId = 0x38; // WorldGroupId_t
-                constexpr std::ptrdiff_t m_fDataObjectTypes = 0x3C; // uint32
-                constexpr std::ptrdiff_t m_PathIndex = 0x40; // ChangeAccessorFieldPathIndex_t
-                constexpr std::ptrdiff_t m_pAttributes = 0x48; // CEntityAttributeTable*
-                constexpr std::ptrdiff_t m_pPrev = 0x50; // CEntityIdentity*
-                constexpr std::ptrdiff_t m_pNext = 0x58; // CEntityIdentity*
-                constexpr std::ptrdiff_t m_pPrevByClass = 0x60; // CEntityIdentity*
-                constexpr std::ptrdiff_t m_pNextByClass = 0x68; // CEntityIdentity*
-            }
             // Parent: None
             // Field count: 9
             //
@@ -102,17 +75,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nVertexEmissiveByteOffset = 0x10; // uint32
                 constexpr std::ptrdiff_t m_fEmissiveFactor = 0x14; // float32
                 constexpr std::ptrdiff_t m_mWorldFromLocal = 0x18; // matrix3x4_t
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace AggregateVertexAlbedoStreamOnDiskData_t {
-                constexpr std::ptrdiff_t m_BufferData = 0x0; // CUtlBinaryBlock
             }
             // Parent: None
             // Field count: 14
@@ -154,71 +116,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_fSwitchDistances = 0x10; // CUtlVector<float32>
             }
             // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // OBJECT_TYPE_MODEL
-            // OBJECT_TYPE_BLOCK_LIGHT
-            // OBJECT_TYPE_NO_SHADOWS
-            // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
-            // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-            // OBJECT_TYPE_RENDER_WITH_DYNAMIC
-            // OBJECT_TYPE_RENDER_TO_CUBEMAPS
-            // OBJECT_TYPE_MODEL_HAS_LODS
-            // OBJECT_TYPE_OVERLAY
-            // OBJECT_TYPE_PRECOMPUTED_VISMEMBERS
-            // OBJECT_TYPE_STATIC_CUBE_MAP
-            // OBJECT_TYPE_DISABLE_VIS_CULLING
-            // OBJECT_TYPE_BAKED_GEOMETRY
-            // OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS
-            // OBJECT_TYPE_HAS_AGGREGATE_RTPROXY
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
-            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
-            // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // e
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 2
-            namespace ExtraVertexStreamOverride_t {
-                constexpr std::ptrdiff_t m_nSubSceneObject = 0x4; // uint32
-                constexpr std::ptrdiff_t m_nDrawCallIndex = 0x8; // uint32
-                constexpr std::ptrdiff_t m_nAdditionalMeshDrawPrimitiveFlags = 0xC; // MeshDrawPrimitiveFlags_t
-                constexpr std::ptrdiff_t m_extraBufferBinding = 0x10; // CRenderBufferBinding
-            }
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace ClutterTile_t {
-                constexpr std::ptrdiff_t m_nFirstInstance = 0x0; // uint32
-                constexpr std::ptrdiff_t m_nLastInstance = 0x4; // uint32
-                constexpr std::ptrdiff_t m_BoundsWs = 0x8; // AABB_t
-            }
-            // Parent: None
             // Field count: 11
             //
             // Metadata:
@@ -241,20 +138,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_renderableModel = 0x70; // CStrongHandle<InfoForResourceTypeCModel>
             }
             // Parent: None
-            // Field count: 7
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace NodeData_t {
-                constexpr std::ptrdiff_t m_nParent = 0x0; // int32
-                constexpr std::ptrdiff_t m_vOrigin = 0x4; // Vector
-                constexpr std::ptrdiff_t m_vMinBounds = 0x10; // Vector
-                constexpr std::ptrdiff_t m_vMaxBounds = 0x1C; // Vector
-                constexpr std::ptrdiff_t m_flMinimumDistance = 0x28; // float32
-                constexpr std::ptrdiff_t m_ChildNodeIndices = 0x30; // CUtlVector<int32>
-                constexpr std::ptrdiff_t m_worldNodePrefix = 0x48; // CUtlString
-            }
-            // Parent: None
             // Field count: 0
             namespace VMapResourceData_t {
             }
@@ -270,32 +153,6 @@ namespace source2_dumper {
             namespace AggregateInstanceStreamOnDiskData_t {
                 constexpr std::ptrdiff_t m_DecodedSize = 0x0; // uint32
                 constexpr std::ptrdiff_t m_BufferData = 0x8; // CUtlBinaryBlock
-            }
-            // Parent: None
-            // Field count: 9
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace RTProxyBLAS_t {
-                constexpr std::ptrdiff_t m_nFirstIndex = 0x0; // uint32
-                constexpr std::ptrdiff_t m_nIndexCount = 0x4; // uint32
-                constexpr std::ptrdiff_t m_nVBByteOffset = 0x8; // uint32
-                constexpr std::ptrdiff_t m_nBaseVertex = 0xC; // uint32
-                constexpr std::ptrdiff_t m_nVertexCount = 0x10; // uint16
-                constexpr std::ptrdiff_t m_albedoFormat = 0x12; // VertexAlbedoFormat_t
-                constexpr std::ptrdiff_t m_boundLs = 0x14; // AABB_t
-                constexpr std::ptrdiff_t m_vVertexOriginLs = 0x2C; // Vector
-                constexpr std::ptrdiff_t m_vVertexExtentLs = 0x38; // Vector
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace AggregateVertexEmissiveStreamOnDiskData_t {
-                constexpr std::ptrdiff_t m_BufferData = 0x0; // CUtlBinaryBlock
             }
             // Parent: None
             // Field count: 11
@@ -319,31 +176,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_materialGroup = 0xA0; // CUtlStringToken
                 constexpr std::ptrdiff_t m_flBeginCullSize = 0xA4; // float32
                 constexpr std::ptrdiff_t m_flEndCullSize = 0xA8; // float32
-            }
-            // Parent: None
-            // Field count: 6
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace WorldBuilderParams_t {
-                constexpr std::ptrdiff_t m_flMinDrawVolumeSize = 0x0; // float32
-                constexpr std::ptrdiff_t m_bBuildBakedLighting = 0x4; // bool
-                constexpr std::ptrdiff_t m_bAggregateInstanceStreams = 0x5; // bool
-                constexpr std::ptrdiff_t m_bakedLightingInfo = 0x8; // BakedLightingInfo_t
-                constexpr std::ptrdiff_t m_nCompileTimestamp = 0x50; // uint64
-                constexpr std::ptrdiff_t m_nCompileFingerprint = 0x58; // uint64
-            }
-            // Parent: None
-            // Field count: 3
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace PermEntityLumpData_t {
-                constexpr std::ptrdiff_t m_name = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_childLumps = 0x10; // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-                constexpr std::ptrdiff_t m_entityKeyValues = 0x28; // CUtlLeanVector<EntityKeyValueData_t>
             }
             // Parent: None
             // Field count: 16
@@ -384,22 +216,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nSceneObjectIndex = 0x0; // uint32
             }
             // Parent: None
-            // Field count: 8
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace EntityIOConnectionData_t {
-                constexpr std::ptrdiff_t m_outputName = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_targetType = 0x8; // uint32
-                constexpr std::ptrdiff_t m_targetName = 0x10; // CUtlString
-                constexpr std::ptrdiff_t m_inputName = 0x18; // CUtlString
-                constexpr std::ptrdiff_t m_overrideParam = 0x20; // CUtlString
-                constexpr std::ptrdiff_t m_flDelay = 0x28; // float32
-                constexpr std::ptrdiff_t m_nTimesToFire = 0x2C; // int32
-                constexpr std::ptrdiff_t m_paramMap = 0x30; // KeyValues3
-            }
-            // Parent: None
             // Field count: 11
             //
             // Metadata:
@@ -431,13 +247,6 @@ namespace source2_dumper {
             namespace VoxelVisBlockOffset_t {
                 constexpr std::ptrdiff_t m_nOffset = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nElementCount = 0x4; // uint32
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            namespace InfoForResourceTypeVMapResourceData_t {
             }
             // Parent: None
             // Field count: 4
@@ -479,21 +288,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_fEmissiveFactor = 0x28; // float32
             }
             // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace World_t {
-                constexpr std::ptrdiff_t m_builderParams = 0x0; // WorldBuilderParams_t
-                constexpr std::ptrdiff_t m_worldNodes = 0x60; // CUtlVector<NodeData_t>
-                constexpr std::ptrdiff_t m_worldLightingInfo = 0x78; // BakedLightingInfo_t
-                constexpr std::ptrdiff_t m_entityLumps = 0xC0; // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-            }
-            // Parent: None
             // Field count: 3
             //
             // Metadata:
@@ -503,55 +297,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nLightHash = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nMapHash = 0x4; // uint32
                 constexpr std::ptrdiff_t m_nShadowChannel = 0x8; // int8
-            }
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // OBJECT_TYPE_MODEL
-            // OBJECT_TYPE_BLOCK_LIGHT
-            // OBJECT_TYPE_NO_SHADOWS
-            // OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
-            // OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-            // OBJECT_TYPE_RENDER_WITH_DYNAMIC
-            // OBJECT_TYPE_RENDER_TO_CUBEMAPS
-            // OBJECT_TYPE_MODEL_HAS_LODS
-            // OBJECT_TYPE_OVERLAY
-            // OBJECT_TYPE_PRECOMPUTED_VISMEMBERS
-            // OBJECT_TYPE_STATIC_CUBE_MAP
-            // OBJECT_TYPE_DISABLE_VIS_CULLING
-            // OBJECT_TYPE_BAKED_GEOMETRY
-            // OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS
-            // OBJECT_TYPE_HAS_AGGREGATE_RTPROXY
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
-            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
-            // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // e
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // 2
-            namespace MaterialOverride_t {
-                constexpr std::ptrdiff_t m_nSubSceneObject = 0x4; // uint32
-                constexpr std::ptrdiff_t m_nDrawCallIndex = 0x8; // uint32
-                constexpr std::ptrdiff_t m_pMaterial = 0x10; // CStrongHandle<InfoForResourceTypeIMaterial2>
-                constexpr std::ptrdiff_t m_vLinearTintColor = 0x18; // Vector
             }
             // Parent: None
             // Field count: 7
@@ -570,38 +315,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_IBData = 0x48; // CUtlBinaryBlock
                 constexpr std::ptrdiff_t m_InstanceAlbedoData = 0x58; // CUtlBinaryBlock
                 constexpr std::ptrdiff_t m_InstanceEmissiveData = 0x68; // CUtlBinaryBlock
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace EntityKeyValueData_t {
-                constexpr std::ptrdiff_t m_connections = 0x8; // CUtlVector<EntityIOConnectionData_t>
-                constexpr std::ptrdiff_t m_keyValuesData = 0x20; // CUtlBinaryBlock
-            }
-            // Parent: None
-            // Field count: 13
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace CVoxelVisibility {
-                constexpr std::ptrdiff_t m_nBaseClusterCount = 0x40; // uint32
-                constexpr std::ptrdiff_t m_nPVSBytesPerCluster = 0x44; // uint32
-                constexpr std::ptrdiff_t m_vMinBounds = 0x48; // Vector
-                constexpr std::ptrdiff_t m_vMaxBounds = 0x54; // Vector
-                constexpr std::ptrdiff_t m_flGridSize = 0x60; // float32
-                constexpr std::ptrdiff_t m_nSkyVisibilityCluster = 0x64; // uint32
-                constexpr std::ptrdiff_t m_nSunVisibilityCluster = 0x68; // uint32
-                constexpr std::ptrdiff_t m_NodeBlock = 0x6C; // VoxelVisBlockOffset_t
-                constexpr std::ptrdiff_t m_RegionBlock = 0x74; // VoxelVisBlockOffset_t
-                constexpr std::ptrdiff_t m_EnclosedClusterListBlock = 0x7C; // VoxelVisBlockOffset_t
-                constexpr std::ptrdiff_t m_EnclosedClustersBlock = 0x84; // VoxelVisBlockOffset_t
-                constexpr std::ptrdiff_t m_MasksBlock = 0x8C; // VoxelVisBlockOffset_t
-                constexpr std::ptrdiff_t m_nVisBlocks = 0x94; // VoxelVisBlockOffset_t
             }
         }
     }

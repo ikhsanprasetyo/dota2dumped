@@ -1,22 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: steamaudio.dll
-    // Class count: 17
+    // Class count: 14
     // Enum count: 0
     public static class SteamaudioDll {
-        // Parent: None
-        // Field count: 3
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class SteamAudioReverbClusteringSettings_t {
-            public const nint m_bEnableClustering = 0x0; // bool
-            public const nint m_nCubeMapResolution = 0x4; // int32
-            public const nint m_flDepthThreshold = 0x8; // float32
-        }
         // Parent: None
         // Field count: 5
         //
@@ -75,20 +64,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_movables = 0x10; // CSteamAudioMovableBakedData<CSteamAudioBakedPathingData>
         }
         // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class SteamAudioReverbSettings_t {
-            public const nint m_nNumRays = 0x0; // int32
-            public const nint m_nNumBounces = 0x4; // int32
-            public const nint m_flIRDuration = 0x8; // float32
-            public const nint m_nAmbisonicsOrder = 0xC; // int32
-            public const nint m_bExportScene = 0x10; // bool
-        }
-        // Parent: None
         // Field count: 1
         //
         // Metadata:
@@ -97,15 +72,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CSteamAudioProbeData {
             public const nint m_pProbeBatch = 0x0; // IPLProbeBatch
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class SteamAudioReverbCompressionSettings_t {
-            public const nint m_bEnableCompression = 0x0; // bool
-            public const nint m_flQuality = 0x4; // float32
         }
         // Parent: None
         // Field count: 3

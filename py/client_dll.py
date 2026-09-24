@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-17 12:11:28.864356600 +07:00
+# 2026-09-24 17:35:37.601127800 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1546,26 +1546,6 @@ class Schemas:
             m_pControlGroupsKeyValues = 0x3248 # KeyValues*
             m_pItemSuggestPreferenceKeyValues = 0x3250 # KeyValues3*
             m_CurrentHeroAvailable = 0x3258 # bool[256]
-        class CDarkCarnivalCrateDropEntity:
-            m_unDefID = 0xC40 # DOTACrateDropObjectDefID_t
-            m_flAcceleration = 0xC50 # float32
-            m_flMaxSpeed = 0xC54 # float32
-            m_nTutorialObject = 0xC6C # int8
-            m_nDisableSpawnRotation = 0xC6D # int8
-            m_flPoints = 0xC90 # float32
-            m_flHazardExplosionRadius = 0xC94 # float32
-            m_flExplosionStrength = 0xC98 # float32
-            m_flUpkickExplosionStrength = 0xC9C # float32
-            m_flTriggerDelay = 0xCA0 # float32
-            m_flTriggeredGravityScale = 0xCA4 # float32
-            m_bHasBeenTriggered = 0xCA8 # bool
-            m_bHazardDefused = 0xCA9 # bool
-            m_bCurrentlyActivated = 0xCAA # bool
-            m_flNextPossibleTriggerTime = 0xCAC # GameTime_t
-            m_flCreationTime = 0xCB0 # GameTime_t
-            pDropEffect = 0xCB8 # CNewParticleEffect*
-            m_bMarkedForDestroy = 0xCC0 # bool
-            m_bHazardRotationApplied = 0xCC1 # bool
         class C_DOTA_Item_Recipe_Mysterious_Hat:
             pass
         class C_DOTA_Ability_Phoenix_IcarusDive:
@@ -1806,9 +1786,6 @@ class Schemas:
             buff_duration = 0x1A7C # float32
         class CDOTA_Modifier_Filler_Buff_Icon:
             pass
-        class CPulseCell_WaitForCursorsWithTag:
-            m_bTagSelfWhenComplete = 0x128 # bool
-            m_nDesiredKillPriority = 0x12C # PulseCursorCancelPriority_t
         class C_DOTA_Unit_Hero_Life_Stealer:
             pass
         class C_DOTA_Ability_Pangolier_LuckyShot:
@@ -2337,29 +2314,11 @@ class Schemas:
             m_unOffsetX = 0x13C # uint32
             m_unOffsetY = 0x140 # uint32
             m_unCount = 0x144 # uint16
-        class C_EnvWindShared:
-            m_flStartTime = 0x8 # GameTime_t
-            m_iWindSeed = 0xC # uint32
-            m_iMinWind = 0x10 # uint16
-            m_iMaxWind = 0x12 # uint16
-            m_windRadius = 0x14 # int32
-            m_iMinGust = 0x18 # uint16
-            m_iMaxGust = 0x1A # uint16
-            m_flMinGustDelay = 0x1C # float32
-            m_flMaxGustDelay = 0x20 # float32
-            m_flGustDuration = 0x24 # float32
-            m_iGustDirChange = 0x28 # uint16
-            m_iInitialWindDir = 0x2A # uint16
-            m_flInitialWindSpeed = 0x2C # float32
-            m_location = 0x30 # VectorWS
-            m_hEntOwner = 0x3C # CHandle<C_BaseEntity>
         class C_SkyCamera:
             m_skyboxData = 0x5F0 # sky3dparams_t
             m_skyboxSlotToken = 0x680 # CUtlStringToken
             m_bUseAngles = 0x684 # bool
             m_pNext = 0x688 # C_SkyCamera*
-        class CPulseCell_Base:
-            m_nEditorNodeID = 0x8 # PulseDocNodeID_t
         class C_DOTA_Item_Timeless_Relic:
             pass
         class CDOTA_Ability_Magnataur_Skewer:
@@ -2928,25 +2887,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_SatyrTrickster_Purge:
             purge_rate = 0x1A78 # int32
-        class C_EnvVolumetricFogVolume:
-            m_bActive = 0x5F0 # bool
-            m_vBoxMins = 0x5F4 # Vector
-            m_vBoxMaxs = 0x600 # Vector
-            m_bStartDisabled = 0x60C # bool
-            m_bIndirectUseLPVs = 0x60D # bool
-            m_flStrength = 0x610 # float32
-            m_nFalloffShape = 0x614 # int32
-            m_flFalloffExponent = 0x618 # float32
-            m_flHeightFogDepth = 0x61C # float32
-            m_fHeightFogEdgeWidth = 0x620 # float32
-            m_fIndirectLightStrength = 0x624 # float32
-            m_fSunLightStrength = 0x628 # float32
-            m_fNoiseStrength = 0x62C # float32
-            m_TintColor = 0x630 # Color
-            m_bOverrideTintColor = 0x634 # bool
-            m_bOverrideIndirectLightStrength = 0x635 # bool
-            m_bOverrideSunLightStrength = 0x636 # bool
-            m_bOverrideNoiseStrength = 0x637 # bool
         class CDOTA_Modifier_Special_Bonus_Status_Resistance:
             value = 0x1A78 # int32
         class C_DOTA_Ability_Special_Bonus_Attack_Damage_50:
@@ -3029,10 +2969,6 @@ class Schemas:
             pass
         class CIngameEvent_Diretide2020:
             pass
-        class CPulseCell_PlaySequence:
-            m_SequenceName = 0xD8 # CUtlString
-            m_PulseAnimEvents = 0xE0 # PulseNodeDynamicOutflows_t
-            m_OnFinished = 0xF8 # CPulse_ResumePoint
         class C_DOTA_Item_Keen_Optic:
             pass
         class C_DOTA_Item_BladeOfAlacrity:
@@ -3283,10 +3219,6 @@ class Schemas:
             ranged_number = 0x1A7C # float32
             siege_number = 0x1A80 # float32
             lane = 0x1A84 # int32
-        class CPulseCell_LerpCameraSettings:
-            m_flSeconds = 0x120 # float32
-            m_Start = 0x124 # PointCameraSettings_t
-            m_End = 0x134 # PointCameraSettings_t
         class C_DOTA_Unit_Hero_MonkeyKing:
             m_nTreeDisguise = 0x1D88 # uint32
             m_nPerchedTree = 0x1D8C # uint32
@@ -3483,19 +3415,6 @@ class Schemas:
             drain_length = 0x1A80 # float32
             attack_speed_factor = 0x1A84 # int32
             drain_armor = 0x1A88 # int32
-        class C_PostProcessingVolume:
-            m_hPostSettings = 0xB80 # CStrongHandle<InfoForResourceTypeCPostProcessingResource>
-            m_flFadeDuration = 0xB88 # float32
-            m_flMinLogExposure = 0xB8C # float32
-            m_flMaxLogExposure = 0xB90 # float32
-            m_flMinExposure = 0xB94 # float32
-            m_flMaxExposure = 0xB98 # float32
-            m_flExposureCompensation = 0xB9C # float32
-            m_flExposureFadeSpeedUp = 0xBA0 # float32
-            m_flExposureFadeSpeedDown = 0xBA4 # float32
-            m_flTonemapEVSmoothingRange = 0xBA8 # float32
-            m_bMaster = 0xBAC # bool
-            m_bExposureControl = 0xBAD # bool
         class C_DOTA_Item_Enhancement_Crude:
             pass
         class C_DOTA_Item_Orb_Of_Frost:
@@ -3568,12 +3487,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_StormSpirit_ElectricVortex_NoStack:
             pass
-        class C_BaseModelEntity__Emphasized_Phoneme:
-            m_sClassName = 0x0 # CUtlString
-            m_flAmount = 0x18 # float32
-            m_bRequired = 0x1C # bool
-            m_bBasechecked = 0x1D # bool
-            m_bValid = 0x1E # bool
         class C_DOTA_Unit_Hero_Axe:
             pass
         class C_DOTA_Ability_Kez_TalonToss:
@@ -3644,9 +3557,6 @@ class Schemas:
             blind = 0x1A7C # int32
         class CDOTA_Modifier_DarkCarnival_Pied:
             m_nFXIndex = 0x1A78 # ParticleIndex_t
-        class CPulseCell_PickBestOutflowSelector:
-            m_nCheckType = 0x48 # PulseBestOutflowRules_t
-            m_OutflowList = 0x50 # PulseSelectorOutflowList_t
         class C_DOTA_Unit_Hero_Windrunner:
             m_nTargetAngle = 0x1D88 # int32
             m_iPoseParameterAim = 0x1D8C # int32
@@ -3703,8 +3613,6 @@ class Schemas:
             pass
         class C_DOTA_Ability_Special_Bonus_Undefined:
             pass
-        class CPulseCell_ShmupWaitForDuration:
-            m_WakeResume = 0xD8 # CPulse_ResumePoint
         class CDOTA_Modifier_Dawnbreaker_Unbreakable:
             pass
         class CDOTA_Modifier_Undying_Decay_Buff:
@@ -4124,18 +4032,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_Greevil_Miniboss_Black_Nightmare_Invulnerable:
             pass
-        class CPrecipitationVData:
-            m_szParticlePrecipitationEffect = 0x28 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_szParticlePrecipitationPuddleEffect = 0x108 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_szParticlePrecipitationPostEffect = 0x1E8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flInnerDistance = 0x2C8 # float32
-            m_nAttachType = 0x2CC # ParticleAttachment_t
-            m_bBatchSameVolumeType = 0x2D0 # bool
-            m_nRTEnvCP = 0x2D4 # int32
-            m_nRTEnvCPComponent = 0x2D8 # int32
-            m_szModifier = 0x2E0 # CUtlString
-            m_nUseSnapshotFromSurfaceGraph = 0x2E8 # int32
-            m_snapshotFilter = 0x2EC # PrecipitationFilter_t
         class CDOTA_Modifier_AghsFort_Creature_Venomancer_PoisonSting_Applier:
             duration = 0x1A78 # float32
             damage = 0x1A7C # int32
@@ -4177,9 +4073,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_Break:
             pass
-        class CPulseCell_WaitForObservable:
-            m_Condition = 0xD8 # CPulseObservableExpression<bool>
-            m_OnTrue = 0x150 # CPulse_ResumePoint
         class C_DOTA_Unit_Hero_Furion:
             pass
         class C_DOTA_Item_Recipe_AbyssalBlade:
@@ -4286,8 +4179,6 @@ class Schemas:
         class CDOTA_Modifier_Armor_Per_Barracks:
             m_nTotalBarracks = 0x1A78 # int32
             m_bGameplayStarted = 0x1A7C # bool
-        class CPulseCell_Step_EntFire:
-            m_Input = 0x48 # CUtlString
         class C_DOTA_Item_Yasha_And_Kaya:
             pass
         class C_DOTA_Item_Recipe_HeavensHalberd:
@@ -4382,8 +4273,6 @@ class Schemas:
             pass
         class CIngameEvent_FV2023:
             pass
-        class CHitboxComponent:
-            m_flBoundsExpandRadius = 0x14 # float32
         class C_DOTA_BaseNPC_Creep:
             m_flAim = 0x19B8 # float32
         class CDOTA_Item_Lotus_Orb:
@@ -4591,8 +4480,6 @@ class Schemas:
         class CDOTA_Modifier_Bloodseeker_Bloodbath_Thinker:
             radius = 0x1A78 # float32
         class CDOTA_Modifier_Unselectable:
-            pass
-        class CPathQueryComponent:
             pass
         class C_DOTA_Unit_Hero_Mirana:
             pass
@@ -4999,43 +4886,6 @@ class Schemas:
             m_bGainedScepterLevels = 0x6A8 # bool
         class C_DOTA_Ability_Juggernaut_Bladeform:
             pass
-        class C_EnvVolumetricFogController:
-            m_flScattering = 0x5F0 # float32
-            m_TintColor = 0x5F4 # Color
-            m_flAnisotropy = 0x5F8 # float32
-            m_flFadeSpeed = 0x5FC # float32
-            m_flDrawDistance = 0x600 # float32
-            m_flFadeInStart = 0x604 # float32
-            m_flFadeInEnd = 0x608 # float32
-            m_flIndirectStrength = 0x60C # float32
-            m_nVolumeDepth = 0x610 # int32
-            m_fFirstVolumeSliceThickness = 0x614 # float32
-            m_nIndirectTextureDimX = 0x618 # int32
-            m_nIndirectTextureDimY = 0x61C # int32
-            m_nIndirectTextureDimZ = 0x620 # int32
-            m_vBoxMins = 0x624 # Vector
-            m_vBoxMaxs = 0x630 # Vector
-            m_bActive = 0x63C # bool
-            m_flStartAnisoTime = 0x640 # GameTime_t
-            m_flStartScatterTime = 0x644 # GameTime_t
-            m_flStartDrawDistanceTime = 0x648 # GameTime_t
-            m_flStartAnisotropy = 0x64C # float32
-            m_flStartScattering = 0x650 # float32
-            m_flStartDrawDistance = 0x654 # float32
-            m_flDefaultAnisotropy = 0x658 # float32
-            m_flDefaultScattering = 0x65C # float32
-            m_flDefaultDrawDistance = 0x660 # float32
-            m_bStartDisabled = 0x664 # bool
-            m_bEnableIndirect = 0x665 # bool
-            m_bIsMaster = 0x666 # bool
-            m_hFogIndirectTexture = 0x668 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_nForceRefreshCount = 0x670 # int32
-            m_fNoiseSpeed = 0x674 # float32
-            m_fNoiseStrength = 0x678 # float32
-            m_vNoiseScale = 0x67C # Vector
-            m_fWindSpeed = 0x688 # float32
-            m_vWindDirection = 0x68C # Vector
-            m_bFirstTime = 0x698 # bool
         class CDOTA_Modifier_AghsFort_TreantMiniboss_NaturesGuise_NearTreeDisplay:
             pass
         class C_DOTA_Ability_Seasonal_Festive_Firework:
@@ -5139,21 +4989,6 @@ class Schemas:
             damage_reduction_per_stack = 0x1A78 # int32
         class CDOTA_Modifier_Razor_UnstableCurrent:
             movespeed_pct = 0x1A78 # int32
-        class CPulseGraphDef:
-            m_DomainIdentifier = 0x8 # PulseSymbol_t
-            m_DomainSubType = 0x18 # CPulseValueFullType
-            m_ParentMapName = 0x30 # PulseSymbol_t
-            m_ParentXmlName = 0x40 # PulseSymbol_t
-            m_Chunks = 0x50 # CUtlVector<CPulse_Chunk*>
-            m_Cells = 0x68 # CUtlVector<CPulseCell_Base*>
-            m_Vars = 0x80 # CUtlVector<CPulse_Variable>
-            m_PublicOutputs = 0x98 # CUtlVector<CPulse_PublicOutput>
-            m_InvokeBindings = 0xB0 # CUtlVector<CPulse_InvokeBinding*>
-            m_CallInfos = 0xC8 # CUtlVector<CPulse_CallInfo*>
-            m_Constants = 0xE0 # CUtlVector<CPulse_Constant>
-            m_DomainValues = 0xF8 # CUtlVector<CPulse_DomainValue>
-            m_BlackboardReferences = 0x110 # CUtlVector<CPulse_BlackboardReference>
-            m_OutputConnections = 0x128 # CUtlVector<CPulse_OutputConnection*>
         class C_DynamicPropClientside:
             m_bSetupMaterialProxy = 0xD18 # bool
         class C_DOTA_Item_Recipe_Mind_Breaker:
@@ -5276,16 +5111,6 @@ class Schemas:
             pass
         class C_DOTA_Ability_DeathProphet_Witchcraft:
             pass
-        class C_EnvWindVolume:
-            m_bActive = 0x5F0 # bool
-            m_vBoxMins = 0x5F4 # Vector
-            m_vBoxMaxs = 0x600 # Vector
-            m_bStartDisabled = 0x60C # bool
-            m_nShape = 0x610 # int32
-            m_fWindSpeedMultiplier = 0x614 # float32
-            m_fWindTurbulenceMultiplier = 0x618 # float32
-            m_fWindSpeedVariationMultiplier = 0x61C # float32
-            m_fWindDirectionVariationMultiplier = 0x620 # float32
         class C_DOTA_Ability_Special_Bonus_Lifesteal_12:
             pass
         class C_DOTA_Ability_Special_Bonus_Night_Vision_400:
@@ -5326,20 +5151,6 @@ class Schemas:
             attack_count = 0x1A7C # int32
         class C_DOTA_Unit_Hero_Invoker:
             pass
-        class C_CrownfallShmupEnemy:
-            pass
-        class C_DOTA_GuildBannerDynamic:
-            m_bRespawnClientEntity = 0xD10 # bool
-            m_bPlaySpawnAnimation = 0xD11 # bool
-            m_unGuildTier = 0xD12 # uint8
-            m_unPrimaryColor = 0xD13 # uint8
-            m_unSecondaryColor = 0xD14 # uint8
-            m_unPattern = 0xD15 # uint8
-            m_unLogo = 0xD18 # uint64
-            m_unGuildID = 0xD20 # GuildID_t
-            m_unGuildFlags = 0xD24 # uint32
-            m_bUsePanelCache = 0xD28 # bool
-            m_hClientEntity = 0xD2C # CHandle<C_BaseEntity>
         class CEnvSoundscapeAlias_snd_soundscape:
             pass
         class C_DOTA_Item_Enhancement_Quickened:
@@ -5472,12 +5283,6 @@ class Schemas:
             m_pOwner = 0x150 # C_BaseAnimatingController*
         class C_GameRulesProxy:
             pass
-        class CRenderComponent:
-            __m_pChainEntity = 0x10 # CNetworkVarChainer
-            m_bIsRenderingWithViewModels = 0x50 # bool
-            m_nSplitscreenFlags = 0x54 # uint32
-            m_bEnableRendering = 0x58 # bool
-            m_bInterpolationReadyToDraw = 0xA8 # bool
         class CDOTA_Item_Recipe_Quickening_Charm:
             pass
         class C_DOTA_Item_Arcane_Boots:
@@ -6009,39 +5814,6 @@ class Schemas:
         class CDOTA_Modifier_PushWave:
             m_nFXIndex = 0x1A78 # ParticleIndex_t
             wave_radius = 0x1A7C # float32
-        class CBaseAnimGraphController:
-            m_nAnimationAlgorithm = 0x18 # AnimationAlgorithm_t
-            m_nNextExternalGraphHandle = 0x1C # ExternalAnimGraphHandle_t
-            m_vecSecondarySkeletonSlotIDs = 0x20 # C_NetworkUtlVectorBase<CGlobalSymbol>
-            m_vecSecondarySkeletons = 0x38 # C_NetworkUtlVectorBase<CHandle<CBaseAnimGraph>>
-            m_nSecondarySkeletonMasterCount = 0x50 # int32
-            m_flSoundSyncTime = 0x58 # float32
-            m_nActiveIKChainMask = 0x5C # uint32
-            m_hSequence = 0xB0 # HSequence
-            m_flSeqStartTime = 0xB4 # GameTime_t
-            m_flSeqFixedCycle = 0xB8 # float32
-            m_nAnimLoopMode = 0xBC # AnimLoopMode_t
-            m_flPlaybackRate = 0xC0 # CNetworkedQuantizedFloat
-            m_nNotifyState = 0xCC # SequenceFinishNotifyState_t
-            m_bNetworkedAnimationInputsChanged = 0xCD # bool
-            m_bNetworkedSequenceChanged = 0xCE # bool
-            m_bLastUpdateSkipped = 0xCF # bool
-            m_bSequenceFinished = 0xD0 # bool
-            m_nPrevAnimUpdateTick = 0xD4 # GameTick_t
-            m_hGraphDefinitionAG2 = 0x370 # CStrongHandle<InfoForResourceTypeCNmGraphDefinition>
-            m_SerializePoseRecipeAG2Slots = 0x378 # C_UtlVectorEmbeddedNetworkVar<AnimGraph2SerializedPoseRecipeSlot_t>
-            m_SerializePoseRecipeAG2Dynamic = 0x3E0 # C_NetworkUtlVectorBase<uint8>
-            m_nSerializePoseRecipeAG2ActiveSlot = 0x3F8 # uint32
-            m_nSerializePoseRecipeVersionAG2 = 0x3FC # int32
-            m_nServerGraphInstanceIteration = 0x400 # int32
-            m_nServerSerializationContextIteration = 0x404 # int32
-            m_primaryGraphId = 0x408 # ResourceId_t
-            m_vecExternalGraphIds = 0x410 # C_NetworkUtlVectorBase<ResourceId_t>
-            m_vecExternalClipIds = 0x428 # C_NetworkUtlVectorBase<ResourceId_t>
-            m_sAnimGraph2Identifier = 0x440 # CGlobalSymbol
-            m_pGraphInstanceAG2 = 0x448 # CAnimGraph2InstancePtr
-            m_vecExternalGraphs = 0x668 # CExternalAnimGraphList
-            m_nPrevAnimationAlgorithm = 0x699 # AnimationAlgorithm_t
         class CDOTA_Modifier_Seasonal_Firecrackers:
             pass
         class C_DOTA_Ability_Special_Bonus_Exp_Boost_30:
@@ -6116,18 +5888,6 @@ class Schemas:
             m_flFadeDuration = 0x82C # float32[1]
         class AnimGraph2SerializedPoseRecipeSlot_t:
             m_topology = 0x30 # CUtlBinaryBlock
-        class CBuoyancyHelper:
-            m_pController = 0x8 # IPhysicsMotionController*
-            m_nFluidType = 0x18 # CUtlStringToken
-            m_flFluidDensity = 0x1C # float32
-            m_flNeutrallyBuoyantGravity = 0x20 # float32
-            m_flNeutrallyBuoyantLinearDamping = 0x24 # float32
-            m_flNeutrallyBuoyantAngularDamping = 0x28 # float32
-            m_bNeutrallyBuoyant = 0x2C # bool
-            m_vecFractionOfWheelSubmergedForWheelFriction = 0x30 # CUtlVector<float32>
-            m_vecWheelFrictionScales = 0x48 # CUtlVector<float32>
-            m_vecFractionOfWheelSubmergedForWheelDrag = 0x60 # CUtlVector<float32>
-            m_vecWheelDrag = 0x78 # CUtlVector<float32>
         class CDOTA_Unit_AghsFort_SpectralTusk_Tombstone:
             pass
         class C_DOTA_Ability_MonkeyKing_Boundless_Strike:
@@ -6353,10 +6113,6 @@ class Schemas:
             m_hChilledEntities = 0x1A88 # CUtlVector<CHandle<C_BaseEntity>>
         class C_IngameEvent_FM2015:
             pass
-        class CPulseCell_FireCursors:
-            m_Outflows = 0xD8 # CUtlVector<CPulse_OutflowConnection>
-            m_bWaitForChildOutflows = 0xF0 # bool
-            m_OnFinished = 0xF8 # CPulse_ResumePoint
         class CDOTA_Unit_Hero_PrimalBeast:
             pass
         class C_DOTA_Unit_Hero_Riki:
@@ -6401,10 +6157,6 @@ class Schemas:
             m_soundEventHash = 0x678 # uint32
         class C_SoundEventEntityAlias_snd_event_point:
             pass
-        class C_FogController:
-            m_fog = 0x5F0 # fogparams_t
-            m_bUseAngles = 0x658 # bool
-            m_iChangedVariables = 0x65C # int32
         class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Broodmother_1:
             pass
         class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Phantom_Assassin_4:
@@ -6541,8 +6293,6 @@ class Schemas:
             aoe_bonus = 0x1A80 # float32
             proximity_bonus_radius = 0x1A84 # float32
             self_cast_range_bonus = 0x1A88 # int32
-        class CBodyComponentPoint:
-            m_sceneNode = 0x80 # CGameSceneNode
         class CDOTA_Ability_Techies_LandMines:
             pass
         class CDOTA_Ability_Dazzle_NothlProjection:
@@ -6714,9 +6464,6 @@ class Schemas:
         class CDOTA_Modifier_Juggernaut_Duelist:
             front_angle = 0x1A78 # int32
             front_damage_increase = 0x1A7C # int32
-        class CPulseCell_Timeline__TimelineEvent_t:
-            m_flTimeFromPrevious = 0x0 # float32
-            m_EventOutflow = 0x8 # CPulse_OutflowConnection
         class C_DOTA_Unit_Hero_Earthshaker:
             m_nFXDeath = 0x1D88 # ParticleIndex_t
         class C_DOTA_Item_Recipe_VoidwalkerScythe:
@@ -6836,14 +6583,6 @@ class Schemas:
             pass
         class CIngameEvent_10thAnniversary:
             pass
-        class CPulseCell_IntervalTimer__CursorState_t:
-            m_StartTime = 0x0 # GameTime_t
-            m_EndTime = 0x4 # GameTime_t
-            m_flWaitInterval = 0x8 # float32
-            m_flWaitIntervalHigh = 0xC # float32
-            m_bCompleteOnNextWake = 0x10 # bool
-        class CPulseCell_BaseRequirement:
-            pass
         class C_DOTA_Item_Recipe_PhaseBoots:
             pass
         class C_DOTA_Ability_Terrorblade_Terror_Wave:
@@ -6927,13 +6666,6 @@ class Schemas:
             ally_pct = 0x1A94 # int32
         class CDOTA_Modifier_SandKing_SandStorm_Slow_Aura_Thinker:
             sand_storm_radius = 0x1A78 # float32
-        class CPulseCell_BaseState:
-            pass
-        class OutflowWithRequirements_t:
-            m_Connection = 0x0 # CPulse_OutflowConnection
-            m_DestinationFlowNodeID = 0x48 # PulseDocNodeID_t
-            m_RequirementNodeIDs = 0x50 # CUtlVector<PulseDocNodeID_t>
-            m_nCursorStateBlockIndex = 0x68 # CUtlVector<int32>
         class C_DOTA_Unit_Tidehunter_Anchor:
             m_hTarget = 0x19B8 # CHandle<C_BaseEntity>
             m_vProjectilePosition = 0x19BC # VectorWS
@@ -6995,8 +6727,6 @@ class Schemas:
             slow_duration = 0x1A80 # float32
             attack_range_bonus = 0x1A84 # int32
             m_InFlightAttackRecords = 0x1A88 # CUtlVector<AttackRecord_t>
-        class CPulseCell_IsRequirementValid:
-            pass
         class C_InfoPlayerStartGoodGuys:
             pass
         class CDOTA_Item_SerratedShiv:
@@ -7050,8 +6780,6 @@ class Schemas:
             electric_vortex_pull_tether_range = 0x1A88 # float32
         class CDOTA_Modifier_StormSpirit_ElectricVortex_SelfSlow:
             electric_vortex_self_slow = 0x1A78 # int32
-        class CPulseCell_Value_Gradient:
-            m_Gradient = 0x48 # CColorGradient
         class CDOTA_Item_Recipe_Harpoon:
             pass
         class C_DOTA_Item_Orb_of_Pestilence:
@@ -7147,17 +6875,6 @@ class Schemas:
             fInitialStockDuration = 0x48 # float32
             iPlayerID = 0x4C # PlayerID_t
             iBonusDelayedStockCount = 0x50 # int32
-        class IntervalTimer:
-            m_timestamp = 0x8 # GameTime_t
-            m_nWorldGroupId = 0xC # WorldGroupId_t
-        class audioparams_t:
-            localSound = 0x8 # VectorWS[8]
-            soundscapeIndex = 0x68 # int32
-            localBits = 0x6C # uint8
-            soundscapeEntityListIndex = 0x70 # int32
-            soundEventHash = 0x74 # uint32
-        class C_CrownfallShmupCamera:
-            pass
         class C_DOTA_Item_RiverPainter:
             m_iRiverPaintColor = 0x758 # int32
         class C_DOTA_Ability_Jakiro_DualBreath:
@@ -7348,14 +7065,6 @@ class Schemas:
             damage_reflected_to_self = 0x1A7C # float32
         class CDOTA_Modifier_Earthshaker_Echoslam_Debuff:
             pass
-        class CTimeline:
-            m_flValues = 0x10 # float32[64]
-            m_nValueCounts = 0x110 # int32[64]
-            m_nBucketCount = 0x210 # int32
-            m_flInterval = 0x214 # float32
-            m_flFinalValue = 0x218 # float32
-            m_nCompressionType = 0x21C # TimelineCompression_t
-            m_bStopped = 0x220 # bool
         class C_DOTA_Item_Enhancement_Titanic:
             pass
         class C_DOTA_Item_AsceticCap:
@@ -7388,12 +7097,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_CentaurKhan_EnduranceAura_Bonus:
             bonus_attack_speed = 0x1A78 # int32
-        class C_TonemapController2:
-            m_flAutoExposureMin = 0x5F0 # float32
-            m_flAutoExposureMax = 0x5F4 # float32
-            m_flExposureAdaptationSpeedUp = 0x5F8 # float32
-            m_flExposureAdaptationSpeedDown = 0x5FC # float32
-            m_flTonemapEVSmoothingRange = 0x600 # float32
         class C_DOTA_Ability_Special_Bonus_Unique_Earth_Spirit_6:
             pass
         class C_DOTA_Ability_Special_Bonus_Unique_Lone_Druid_4:
@@ -7449,14 +7152,6 @@ class Schemas:
             bonus_range = 0x1A80 # int32
         class CDOTA_Modifier_SandKing_CausticFinaleOrb:
             pass
-        class CountdownTimer:
-            m_duration = 0x8 # float32
-            m_timestamp = 0xC # GameTime_t
-            m_timescale = 0x10 # float32
-            m_nWorldGroupId = 0x14 # WorldGroupId_t
-        class PulseNodeDynamicOutflows_t__DynamicOutflow_t:
-            m_OutflowID = 0x0 # CGlobalSymbol
-            m_Connection = 0x8 # CPulse_OutflowConnection
         class CDOTA_BaseNPC_Seasonal_TI11_Balloon_Dire:
             pass
         class C_DOTA_Item_Enhancement_Fleetfooted:
@@ -7876,8 +7571,6 @@ class Schemas:
             m_nEidolonSpawnNum = 0x1A88 # int32
         class CDOTA_Modifier_Puck_PhaseShift:
             pass
-        class CPulseCell_Inflow_GraphHook:
-            m_HookName = 0x80 # PulseSymbol_t
         class CAmbientCreatures:
             m_szAnimationName = 0xAD0 # CUtlString
         class C_DOTA_Item_Trickster_Cloak:
@@ -8456,8 +8149,6 @@ class Schemas:
         class CDOTA_Item_Tombstone_Drop:
             m_iTempViewer = 0xB80 # int32
             m_iTeam = 0xB84 # int32
-        class CDOTA_WhackAMoleGameEffectsEntity:
-            pass
         class C_DOTA_Item_Recipe_Ceremonial_Robe:
             pass
         class C_DOTA_Item_DivineRapier:
@@ -8674,9 +8365,6 @@ class Schemas:
             shard_bonus_aura_range = 0x1A78 # float32
         class CDOTA_Modifier_Creep_Slow:
             pass
-        class CPulseCell_Inflow_BaseEntrypoint:
-            m_EntryChunk = 0x48 # PulseRuntimeChunkIndex_t
-            m_RegisterMap = 0x50 # PulseRegisterMap_t
         class C_DOTA_Unit_Hero_Disruptor:
             pass
         class C_DOTA_Item_Enhancement_Mystical:
@@ -8764,9 +8452,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_Skeleton_King_Scepter_Tracker:
             pass
-        class CPulseCell_WaitForCursorsWithTagBase:
-            m_nCursorsAllowedToWait = 0xD8 # int32
-            m_WaitComplete = 0xE0 # CPulse_ResumePoint
         class C_DOTA_Unit_Hero_Oracle:
             m_nFXDeath = 0x1D88 # ParticleIndex_t
         class C_DOTA_Item_Ethereal_Blade:
@@ -8921,21 +8606,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_VengefulSpirit_Restitution_EnemyDebuff:
             nOverheadEffect = 0x1A78 # ParticleIndex_t
-        class C_fogplayerparams_t:
-            m_hCtrl = 0x8 # CHandle<C_FogController>
-            m_flTransitionTime = 0xC # float32
-            m_OldColor = 0x10 # Color
-            m_flOldStart = 0x14 # float32
-            m_flOldEnd = 0x18 # float32
-            m_flOldMaxDensity = 0x1C # float32
-            m_flOldHDRColorScale = 0x20 # float32
-            m_flOldFarZ = 0x24 # float32
-            m_NewColor = 0x28 # Color
-            m_flNewStart = 0x2C # float32
-            m_flNewEnd = 0x30 # float32
-            m_flNewMaxDensity = 0x34 # float32
-            m_flNewHDRColorScale = 0x38 # float32
-            m_flNewFarZ = 0x3C # float32
         class C_DOTA_Item_Mysterious_Hat:
             pass
         class CDOTA_Item_Ocean_Heart:
@@ -9019,43 +8689,6 @@ class Schemas:
             base_attack_damage_pct = 0x1ABC # float32
         class CDOTA_Modifier_PhantomLancer_Dopplewalk_Phase:
             vTargetPosition = 0x1A78 # VectorWS
-        class CGameSceneNode:
-            m_nodeToWorld = 0x10 # CTransformWS
-            m_pOwner = 0x30 # CEntityInstance*
-            m_pParent = 0x38 # CGameSceneNode*
-            m_pChild = 0x40 # CGameSceneNode*
-            m_pNextSibling = 0x48 # CGameSceneNode*
-            m_hParent = 0x70 # CGameSceneNodeHandle
-            m_vecOrigin = 0x90 # CNetworkOriginCellCoordQuantizedVector
-            m_angRotation = 0xC8 # QAngle
-            m_flScale = 0xD4 # float32
-            m_vecAbsOrigin = 0xD8 # VectorWS
-            m_angAbsRotation = 0xE4 # QAngle
-            m_flAbsScale = 0xF0 # float32
-            m_vecWrappedLocalOrigin = 0xF4 # Vector
-            m_angWrappedLocalRotation = 0x100 # QAngle
-            m_flWrappedScale = 0x10C # float32
-            m_nParentAttachmentOrBone = 0x110 # int16
-            m_bDebugAbsOriginChanges = 0x112 # bool
-            m_bDormant = 0x113 # bool
-            m_bForceParentToBeNetworked = 0x114 # bool
-            m_bDirtyHierarchy = 0x0 # bitfield:1
-            m_bDirtyBoneMergeInfo = 0x0 # bitfield:1
-            m_bNetworkedPositionChanged = 0x0 # bitfield:1
-            m_bNetworkedAnglesChanged = 0x0 # bitfield:1
-            m_bNetworkedScaleChanged = 0x0 # bitfield:1
-            m_bWillBeCallingPostDataUpdate = 0x0 # bitfield:1
-            m_bBoneMergeFlex = 0x0 # bitfield:1
-            m_nLatchAbsOrigin = 0x0 # bitfield:2
-            m_bDirtyBoneMergeBoneToRoot = 0x0 # bitfield:1
-            m_nHierarchicalDepth = 0x117 # uint8
-            m_nHierarchyType = 0x118 # uint8
-            m_nDoNotSetAnimTimeInInvalidatePhysicsCount = 0x119 # uint8
-            m_name = 0x11C # CUtlStringToken
-            m_hierarchyAttachName = 0x130 # CUtlStringToken
-            m_flZOffset = 0x134 # float32
-            m_angLocalOrientation = 0x138 # QAngle
-            m_flClientLocalScale = 0x144 # float32
         class C_DOTA_Item_Mage_Slayer:
             pass
         class C_DOTA_Item_Recipe_Fluffy_Hat:
@@ -9239,29 +8872,6 @@ class Schemas:
             m_flPrevHealth = 0x1D9C # float32
         class C_DOTA_BaseNPC_Warlock_Golem:
             pass
-        class C_PortraitWorldUnit:
-            m_OutputAnimOver = 0x19B8 # CEntityIOOutput
-            m_bSuppressIntroEffects = 0x19D0 # bool
-            m_bIsAlternateLoadout = 0x19D1 # bool
-            m_bSkipBackgroundEntities = 0x19D2 # bool
-            m_bSpawnBackgroundModels = 0x19D3 # bool
-            m_bDeferredPortrait = 0x19D4 # bool
-            m_bShowParticleAssetModifiers = 0x19D5 # bool
-            m_bIgnorePortraitInfo = 0x19D6 # bool
-            m_bFlyingCourier = 0x19D7 # bool
-            m_bDisableDefaultModifiers = 0x19D8 # bool
-            m_nEffigyStatusEffect = 0x19DC # int32
-            m_effigySequenceName = 0x19E0 # CUtlSymbolLarge
-            m_flStartingAnimationCycle = 0x19E8 # float32
-            m_flAnimationPlaybackSpeed = 0x19EC # float32
-            m_flRareLoadoutAnimChance = 0x19F0 # float32
-            m_bSetDefaultActivityOnSequenceFinished = 0x19F4 # bool
-            m_vecActivityModifiers = 0x19F8 # CUtlVector<CUtlSymbolLarge>
-            m_environment = 0x1A10 # DOTAPortraitEnvironmentType_t
-            m_nStartupBehavior = 0x1A18 # StartupBehavior_t
-            m_cameraName = 0x1C00 # CUtlSymbolLarge
-            m_nPortraitParticle = 0x1C58 # ParticleIndex_t
-            m_nCourierType = 0x1C5C # int32
         class C_BasePlayerWeapon:
             m_nNextPrimaryAttackTick = 0xAC0 # GameTick_t
             m_flNextPrimaryAttackTickRatio = 0xAC4 # float32
@@ -9362,19 +8972,6 @@ class Schemas:
             bonus_armor = 0x1A78 # int32
         class CSoundOpvarSetBoxEntity:
             pass
-        class C_EnvSky:
-            m_hSkyMaterial = 0xA88 # CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_hSkyMaterialLightingOnly = 0xA90 # CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_bStartDisabled = 0xA98 # bool
-            m_vTintColor = 0xA99 # Color
-            m_vTintColorLightingOnly = 0xA9D # Color
-            m_flBrightnessScale = 0xAA4 # float32
-            m_nFogType = 0xAA8 # int32
-            m_flFogMinStart = 0xAAC # float32
-            m_flFogMinEnd = 0xAB0 # float32
-            m_flFogMaxStart = 0xAB4 # float32
-            m_flFogMaxEnd = 0xAB8 # float32
-            m_bEnabled = 0xABC # bool
         class C_DOTA_Item_Rune:
             m_iRuneType = 0xAD8 # int32
             m_flRuneTime = 0xADC # GameTime_t
@@ -9442,12 +9039,6 @@ class Schemas:
             m_InFlightAttackRecords = 0x1A80 # CUtlVector<AttackRecord_t>
         class CIngameEvent_Frostivus2024:
             pass
-        class CPulse_InvokeBinding:
-            m_RegisterMap = 0x0 # PulseRegisterMap_t
-            m_FuncName = 0x30 # PulseSymbol_t
-            m_nCellIndex = 0x40 # PulseRuntimeCellIndex_t
-            m_nSrcChunk = 0x44 # PulseRuntimeChunkIndex_t
-            m_nSrcInstruction = 0x48 # int32
         class CDOTA_Item_Clumsy_Net:
             pass
         class CDOTA_Item_Recipe_Solar_Crest:
@@ -9557,8 +9148,6 @@ class Schemas:
             pass
         class C_DOTA_Ability_Special_Bonus_Movement_Speed_100:
             pass
-        class C_DOTAPortraitWorldCallbackHandler:
-            pass
         class CDOTA_Modifier_Hurricane_Pike_Active_Alternate:
             enemy_length = 0x1A78 # float32
         class CDOTA_Modifier_Hoodwink_Hunters_Mark:
@@ -9602,24 +9191,6 @@ class Schemas:
             m_nFXStackIndex = 0x1A80 # ParticleIndex_t
         class CDOTA_Modifier_Activity_Modifier:
             m_activityModifier = 0x1A78 # CUtlSymbolLarge
-        class C_DOTA_BaseNPC_Building:
-            m_iDamageLevel = 0x19B8 # int32
-            m_nAmbientFXIndex = 0x19BC # ParticleIndex_t
-            m_nTPFXIndex = 0x19C0 # ParticleIndex_t
-            m_nStatusFXIndex = 0x19C4 # ParticleIndex_t
-            m_nFXIndex = 0x19C8 # CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_nFXIndexDestruction = 0x19D0 # CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_angInitialAngles = 0x19D8 # QAngle
-            m_hHeroStatueSequence = 0x19E4 # HSequence
-            m_hConstantLayerSequence = 0x19E8 # HSequence
-            m_fHeroStatueCycle = 0x19EC # float32
-            m_iHeroStatueStatusEffectIndex = 0x19F0 # int32
-            m_bHeroStatue = 0x19F4 # bool
-            m_bBattleCup = 0x19F5 # bool
-            m_HeroStatueInscription = 0x19F6 # char[32]
-            m_iHeroStatueOwnerPlayerID = 0x1A18 # PlayerID_t
-            m_ParticleTintColor = 0x1A1C # Color
-            m_nFoWTeam = 0x1A20 # FowCustomTeams_t
         class CDOTA_Item_Polliwog_Charm:
             pass
         class C_DOTA_Item_Recipe_Gungir:
@@ -10281,9 +9852,6 @@ class Schemas:
         class CDOTA_Modifier_SandKing_Epicenter_Slow:
             epicenter_slow = 0x1A78 # int32
             epicenter_slow_as = 0x1A7C # int32
-        class CPulseCell_IntervalTimer:
-            m_Completed = 0xD8 # CPulse_ResumePoint
-            m_OnInterval = 0x120 # SignatureOutflow_Continue
         class C_DOTA_Unit_Hero_Skywrath_Mage:
             pass
         class C_DOTA_Item_Kobold_Cup:
@@ -10476,8 +10044,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_AncientApparition_ChillingTouch_Slow:
             pass
-        class CPulseCell_BaseLerp:
-            m_WakeResume = 0xD8 # CPulse_ResumePoint
         class C_DOTA_Unit_Brewmaster_PrimalStorm:
             m_nFXStormAmbient1 = 0x19C0 # ParticleIndex_t
             m_nFXStormAmbient2 = 0x19C4 # ParticleIndex_t
@@ -10494,21 +10060,6 @@ class Schemas:
             m_closedAngles = 0xD34 # QAngle
             m_hMaster = 0xD40 # CHandle<C_BasePropDoor>
             m_vWhereToSetLightingOrigin = 0xD44 # VectorWS
-        class C_DOTAWorldParticleSystem:
-            m_nType = 0xA88 # int32
-            m_iClientEffectIndex = 0xA8C # ParticleIndex_t
-            m_szEffectName = 0xA90 # CUtlSymbolLarge
-            m_szTargetName = 0xA98 # CUtlSymbolLarge
-            m_szControlPoint = 0xAA0 # CUtlSymbolLarge
-            m_hOverrideSequence = 0xAA8 # HSequence
-            m_hOverrideModel = 0xAB0 # CStrongHandle<InfoForResourceTypeCModel>
-            m_vModelScale = 0xAB8 # Vector
-            m_nSkinOverride = 0xAC4 # int32
-            m_bDayTime = 0xAC8 # bool
-            m_bNightTime = 0xAC9 # bool
-            m_bShowInFow = 0xACA # bool
-            m_bShowWhileDynamicWeatherActive = 0xACB # bool
-            m_bAnimateDuringGameplayPause = 0xACC # bool
         class CDOTA_Item_Forage_Base:
             pass
         class C_DOTA_Item_CripplingCrossbow:
@@ -10546,9 +10097,6 @@ class Schemas:
             pass
         class C_DOTA_Ability_Special_Bonus_MP_125:
             pass
-        class CPulseCell_ShmupWaitForDuration__CursorState_t:
-            m_hPanel = 0x0 # panorama::CPanelPtr
-            m_nTargetTick = 0x8 # int32
         class CDOTA_Modifier_Item_DaggerOfRistul:
             aspd = 0x1A78 # int32
         class CDOTA_Modifier_Item_Arcane_Ring:
@@ -10775,15 +10323,6 @@ class Schemas:
             cooldown_acceleration = 0x1A88 # int32
         class CDOTA_Modifier_FacelessVoid_Backtrack_Temp:
             dodge_chance_pct = 0x1A78 # int32
-        class CNetworkedSequenceOperation:
-            m_hSequence = 0x8 # HSequence
-            m_flPrevCycle = 0xC # float32
-            m_flCycle = 0x10 # float32
-            m_flWeight = 0x14 # CNetworkedQuantizedFloat
-            m_bSequenceChangeNetworked = 0x1C # bool
-            m_bDiscontinuity = 0x1D # bool
-            m_flPrevCycleFromDiscontinuity = 0x20 # float32
-            m_flPrevCycleForAnimEventDetection = 0x24 # float32
         class C_DOTA_Item_Chasm_Stone:
             pass
         class C_DOTA_Ability_Muerta_PartingShot:
@@ -11125,36 +10664,6 @@ class Schemas:
             health_regen = 0x1A78 # float32
         class CDOTA_Modifier_Mutation_DeathExplosion_TeamAura:
             pass
-        class C_EnvCombinedLightProbeVolume:
-            m_Entity_Color = 0x1668 # Color
-            m_Entity_flBrightness = 0x166C # float32
-            m_Entity_hCubemapTexture = 0x1670 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_bCustomCubemapTexture = 0x1678 # bool
-            m_Entity_hLightProbeTexture_AmbientCube = 0x1680 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SDF = 0x1688 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SH2_DC = 0x1690 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SH2_R = 0x1698 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SH2_G = 0x16A0 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeTexture_SH2_B = 0x16A8 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeDirectLightIndicesTexture = 0x16B0 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeDirectLightScalarsTexture = 0x16B8 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_hLightProbeDirectLightShadowsTexture = 0x16C0 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_vBoxMins = 0x16C8 # Vector
-            m_Entity_vBoxMaxs = 0x16D4 # Vector
-            m_Entity_bMoveable = 0x16E0 # bool
-            m_Entity_nHandshake = 0x16E4 # int32
-            m_Entity_nEnvCubeMapArrayIndex = 0x16E8 # int32
-            m_Entity_nPriority = 0x16EC # int32
-            m_Entity_bStartDisabled = 0x16F0 # bool
-            m_Entity_flEdgeFadeDist = 0x16F4 # float32
-            m_Entity_vEdgeFadeDists = 0x16F8 # Vector
-            m_Entity_nLightProbeSizeX = 0x1704 # int32
-            m_Entity_nLightProbeSizeY = 0x1708 # int32
-            m_Entity_nLightProbeSizeZ = 0x170C # int32
-            m_Entity_nLightProbeAtlasX = 0x1710 # int32
-            m_Entity_nLightProbeAtlasY = 0x1714 # int32
-            m_Entity_nLightProbeAtlasZ = 0x1718 # int32
-            m_Entity_bEnabled = 0x1731 # bool
         class CDOTA_Modifier_Aghsfort_Elemental_Wisp_Tether_Slow:
             slow = 0x1A78 # int32
         class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Slark_7:
@@ -11447,11 +10956,6 @@ class Schemas:
             m_bSimulationTimeChanged = 0x5D2 # bool
             m_sUniqueHammerID = 0x5E0 # CUtlString
             m_nBloodType = 0x5E8 # BloodType
-        class ActiveModelConfig_t:
-            m_Handle = 0x30 # ModelConfigHandle_t
-            m_Name = 0x38 # CUtlSymbolLarge
-            m_AssociatedEntities = 0x40 # C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>
-            m_AssociatedEntityNames = 0x58 # C_NetworkUtlVectorBase<CUtlSymbolLarge>
         class CDOTA_Item_Gossamer_Cape:
             pass
         class CDOTA_Item_PogoStick:
@@ -11534,8 +11038,6 @@ class Schemas:
             m_hTarget = 0x1A78 # CHandle<C_BaseEntity>
         class CDOTA_Modifier_FountainInvulnerabilityBuff:
             m_vecPosition = 0x1A78 # VectorWS
-        class CPulseCell_Value_Curve:
-            m_Curve = 0x48 # CPiecewiseCurve
         class C_DOTA_Unit_SpiritBear:
             m_bShouldRespawn = 0x1D88 # bool
             m_bStolen = 0x1D89 # bool
@@ -11960,8 +11462,6 @@ class Schemas:
             m_nProvidesFOWPositionForTeamValid = 0x380 # uint16
             m_iBuffIndex = 0x384 # int32
             m_iLockRefCount = 0x388 # int32
-        class CPulseCell_Inflow_EventHandler:
-            m_EventName = 0x80 # PulseSymbol_t
         class C_DOTA_Unit_IngisFatuus:
             pass
         class C_DOTA_BaseNPC_XP_Fountain:
@@ -12066,8 +11566,6 @@ class Schemas:
         class CDOTA_Modifier_SkeletonKing_Reincarnation_Slow:
             movespeed = 0x1A78 # int32
             attackslow = 0x1A7C # int32
-        class CPulseCell_BaseFlow:
-            pass
         class C_DOTA_Unit_Hero_Clinkz:
             pass
         class CDOTA_Ability_Grimstroke_SoulChain:
@@ -12302,14 +11800,6 @@ class Schemas:
             damage = 0x1A7C # int32
         class CDOTA_Modifier_AntiMage_Empowered_ManaBreak_Debuff:
             pass
-        class CSkeletonInstance:
-            m_modelState = 0x160 # CModelState
-            m_bUseParentRenderBounds = 0x410 # bool
-            m_bDisableSolidCollisionsForHierarchy = 0x411 # bool
-            m_bDirtyMotionType = 0x412 # bool
-            m_bIsGeneratingLatchedParentSpaceState = 0x413 # bool
-            m_materialGroup = 0x418 # CUtlStringToken
-            m_nHitboxSet = 0x41C # uint8
         class CEntityComponent:
             pass
         class C_DOTA_BaseNPC_Watch_Tower:
@@ -12463,12 +11953,6 @@ class Schemas:
             fiery_soul_stack_duration = 0x1A88 # float32
             m_nFXIndex = 0x1A8C # ParticleIndex_t
             m_flFierySoulDieTime = 0x1A90 # GameTime_t
-        class CPulseCell_Outflow_CycleShuffled__InstanceState_t:
-            m_Shuffle = 0x0 # CUtlVectorFixedGrowable<uint8,8>
-            m_nNextShuffle = 0x20 # int32
-        class CPulseCell_BaseLerp__CursorState_t:
-            m_StartTime = 0x0 # GameTime_t
-            m_EndTime = 0x4 # GameTime_t
         class CDOTA_Item_Woodland_Striders:
             pass
         class C_DOTA_Item_DemonEdge:
@@ -12898,19 +12382,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_WarpineRaider_SeedShot:
             m_hTarget = 0x1A78 # CHandle<C_BaseEntity>
-        class CInfoOffscreenPanoramaTexture:
-            m_bDisabled = 0x5F0 # bool
-            m_nResolutionX = 0x5F4 # int32
-            m_nResolutionY = 0x5F8 # int32
-            m_szPanelType = 0x600 # CUtlSymbolLarge
-            m_szLayoutFileName = 0x608 # CUtlSymbolLarge
-            m_RenderAttrName = 0x610 # CUtlSymbolLarge
-            m_TargetEntities = 0x618 # C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>
-            m_nTargetChangeCount = 0x630 # int32
-            m_vecCSSClasses = 0x638 # C_NetworkUtlVectorBase<CUtlSymbolLarge>
-            m_szTargetsName = 0x650 # CUtlSymbolLarge
-            m_AdditionalTargetEntities = 0x658 # CUtlVector<CHandle<C_BaseModelEntity>>
-            m_bCheckCSSClasses = 0x7D0 # bool
         class CDOTA_Modifier_AghsFort_Spectre_ActiveDispersion_Thinker:
             m_fDamage = 0x1A78 # float32
             m_fLastRadius = 0x1A7C # float32
@@ -13044,8 +12515,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_PreventTaunts:
             pass
-        class C_BodyComponentBaseAnimating:
-            m_animationController = 0x530 # C_BaseAnimatingController
         class CAttributeManager:
             m_Providers = 0x8 # CUtlVector<CHandle<C_BaseEntity>>
             m_Receivers = 0x20 # CUtlVector<CHandle<C_BaseEntity>>
@@ -13064,8 +12533,6 @@ class Schemas:
             m_nFXSkullIndex = 0x19B8 # ParticleIndex_t
             m_nTargetType = 0x19BC # int32
             m_nTargetFlags = 0x19C0 # int32
-        class C_Artillery_PortraitWorldUnit:
-            pass
         class C_DOTA_Tiny_ScepterTree:
             pass
         class C_DOTA_Item_Physical:
@@ -13097,8 +12564,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_BigThunderLizard_Slam:
             movespeed_slow = 0x1A78 # int32
-        class CInfoTarget:
-            pass
         class C_DOTA_Ability_Special_Bonus_Cleave_140:
             pass
         class CDOTA_Modifier_EldwurmsEdda:
@@ -13157,14 +12622,6 @@ class Schemas:
             m_fOverrideFogEnd = 0x1D0 # float32[5]
             m_hActivePostProcessingVolume = 0x1E4 # CHandle<C_PostProcessingVolume>
             m_angDemoViewAngles = 0x1E8 # QAngle
-        class CPulseCell_Timeline:
-            m_TimelineEvents = 0xD8 # CUtlVector<CPulseCell_Timeline::TimelineEvent_t>
-            m_bWaitForChildOutflows = 0xF0 # bool
-            m_OnFinished = 0xF8 # CPulse_ResumePoint
-        class CPulseCell_Inflow_EntOutputHandler:
-            m_SourceEntity = 0x80 # PulseSymbol_t
-            m_SourceOutput = 0x90 # PulseSymbol_t
-            m_ExpectedParamType = 0xA0 # CPulseValueFullType
         class CDOTA_Unit_Hero_Elder_Titan:
             pass
         class C_DOTA_Unit_Hero_Obsidian_Destroyer:
@@ -13627,8 +13084,6 @@ class Schemas:
             m_flLastSpineTime = 0x1B10 # GameTime_t
         class CDOTA_Modifier_HP_Regen:
             pass
-        class CPulseCell_Outflow_CycleOrdered__InstanceState_t:
-            m_nNextIndex = 0x0 # int32
         class C_DOTA_Item_Recipe_Angels_Demise:
             pass
         class C_DOTA_Item_Recipe_Cornucopia:
@@ -14384,21 +13839,6 @@ class Schemas:
             m_nAttachedParticleIndex = 0x0 # ParticleIndex_t
             m_customType = 0x4 # CUtlStringToken
             m_bShouldDestroyImmediately = 0x8 # bool
-        class PhysicsRagdollPose_t:
-            m_Transforms = 0x8 # C_NetworkUtlVectorBase<CTransform>
-            m_hOwner = 0x20 # CHandle<C_BaseEntity>
-            m_bSetFromDebugHistory = 0x24 # bool
-        class CPropDataComponent:
-            m_flDmgModBullet = 0x10 # float32
-            m_flDmgModClub = 0x14 # float32
-            m_flDmgModExplosive = 0x18 # float32
-            m_flDmgModFire = 0x1C # float32
-            m_iszPhysicsDamageTableName = 0x20 # CUtlSymbolLarge
-            m_iszBasePropData = 0x28 # CUtlSymbolLarge
-            m_nInteractions = 0x30 # int32
-            m_bSpawnMotionDisabled = 0x34 # bool
-            m_nDisableTakePhysicsDamageSpawnFlag = 0x38 # int32
-            m_nMotionDisabledSpawnFlag = 0x3C # int32
         class C_DOTA_Unit_Hero_Ursa:
             pass
         class CDOTA_Item_Guardian_Shell:
@@ -14499,8 +13939,6 @@ class Schemas:
             m_nAbilityID = 0x30 # AbilityID_t
             m_unPlayerID = 0x34 # PlayerID_t
             m_unAbilityPlayerSlot = 0x38 # int32
-        class CPulseCell_LimitCount__InstanceState_t:
-            m_nCurrentCount = 0x0 # int32
         class C_DOTA_BaseNPC_RotatableBuilding:
             m_hObsoleteHeroStatueSequence = 0x19B8 # HSequence
             m_hObsoleteConstantLayerSequence = 0x19BC # HSequence
@@ -14634,10 +14072,6 @@ class Schemas:
             self_cast_range_bonus = 0x1A7C # int32
         class CDOTA_Modifier_DebuffImmune:
             pass
-        class EngineCountdownTimer:
-            m_duration = 0x8 # float32
-            m_timestamp = 0xC # float32
-            m_timescale = 0x10 # float32
         class C_DOTA_Item_WindLace:
             pass
         class C_DOTA_Item_Pipe:
@@ -15099,14 +14533,6 @@ class Schemas:
             bounces = 0x6AC # int32
         class CFilterLOS:
             pass
-        class CPointOrient:
-            m_iszSpawnTargetName = 0x5F0 # CUtlSymbolLarge
-            m_hTarget = 0x5F8 # CHandle<C_BaseEntity>
-            m_bActive = 0x5FC # bool
-            m_nGoalDirection = 0x600 # PointOrientGoalDirectionType_t
-            m_nConstraint = 0x604 # PointOrientConstraint_t
-            m_flMaxTurnRate = 0x608 # float32
-            m_flLastGameTime = 0x60C # GameTime_t
         class CDOTA_Modifier_Seasonal_TI11_DuelAccepted:
             m_nDuelOpponent = 0x1A78 # PlayerID_t
         class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Antimage_3:
@@ -15123,8 +14549,6 @@ class Schemas:
             m_flDistanceFalloff = 0x28 # float32
             m_nFlags = 0x2C # uint32
             m_ProjectedTextureName = 0x30 # char[512]
-        class C_GlobalLight:
-            m_WindClothForceHandle = 0xB10 # uint16
         class C_EnvWindClientside:
             m_EnvWindShared = 0x5F0 # C_EnvWindShared
         class CDOTA_Modifier_HeavensHalberd_Debuff:
@@ -15163,15 +14587,6 @@ class Schemas:
             cloud_radius = 0x1A94 # float32
         class CDOTA_Modifier_PhantomLancer_PhantomEdge_Agility:
             bonus_agility = 0x1A78 # int32
-        class sky3dparams_t:
-            scale = 0x8 # int16
-            origin = 0xC # VectorWS
-            bClip3DSkyBoxNearToWorldFar = 0x18 # bool
-            flClip3DSkyBoxNearToWorldFarOffset = 0x1C # float32
-            fog = 0x20 # fogparams_t
-            m_nWorldGroupID = 0x88 # WorldGroupId_t
-        class CDOTA_FightingGame_EffectsEntity:
-            pass
         class C_DOTA_Item_Enhancement_Vampiric:
             pass
         class C_DOTA_Item_Swift_Blink:
@@ -15304,17 +14719,10 @@ class Schemas:
             quiver_restore = 0x1A80 # int32
         class CDOTA_Modifier_SandKing_Impale:
             pass
-        class CDestructiblePartsComponent:
-            __m_pChainEntity = 0x0 # CNetworkVarChainer
-            m_vecDamageTakenByHitGroup = 0x48 # CUtlVector<uint16>
-            m_hOwner = 0x60 # CHandle<C_BaseModelEntity>
-            m_pAnimGraphDestructibleGraphController = 0x68 # CAnimGraphControllerPtr
         class C_DOTA_NPC_TechiesMines:
             m_iRangeFX = 0x19B8 # ParticleIndex_t
             m_bShowPlacementRadius = 0x19BC # bool
         class C_DOTA_Unit_Hero_Beastmaster_Boar:
-            pass
-        class C_DOTA_PortraitBaseModel:
             pass
         class C_EnvDeferredSpotLightClientOnly:
             pass
@@ -15421,8 +14829,6 @@ class Schemas:
         class CDOTA_Modifier_Bane_Nightmare_AttackSpeed_Bonus:
             bonus_attack_speed = 0x1A78 # int32
             m_hTarget = 0x1A7C # CHandle<C_BaseEntity>
-        class CPulseCell_Step_DebugLog:
-            pass
         class C_DOTA_Unit_Hero_Slardar:
             pass
         class C_DOTA_Item_Bottomless_Chalice:
@@ -15578,10 +14984,6 @@ class Schemas:
             heal_reduction_pct = 0x1A7C # int32
             heal_regen_to_damage = 0x1A80 # float32
             m_nFXIndex = 0x1A84 # ParticleIndex_t
-        class CBodyComponentBaseAnimGraph:
-            m_animationController = 0x530 # CBaseAnimGraphController
-        class CDOTA_Survivors_EffectsEntity:
-            pass
         class C_DOTA_Item_Possessed_Mask:
             pass
         class C_DOTA_Item_Mirror_Shield:
@@ -15685,11 +15087,6 @@ class Schemas:
         class CDOTA_Modifier_AncientApparition_BoneChill:
             str_reduction = 0x1A78 # float32
             str_reduction_duration = 0x1A7C # float32
-        class CPulseCell_BaseYieldingInflow:
-            m_BaseFlow_OnAfterCancel = 0x48 # CPulse_ResumePoint
-            m_BaseFlow_WhileActive = 0x90 # CPulse_ResumePoint
-        class PulseNodeDynamicOutflows_t:
-            m_Outflows = 0x0 # CUtlVector<PulseNodeDynamicOutflows_t::DynamicOutflow_t>
         class CDOTA_Unit_Hero_Mars:
             pass
         class C_DOTA_Item_Harpoon:
@@ -16203,12 +15600,6 @@ class Schemas:
             m_flWaterRuneSpawnInterval = 0x798 # float32
             m_vecBigHealthBarUnits = 0x7A0 # C_NetworkUtlVectorBase<CHandle<C_DOTA_BaseNPC>>
             m_nHUDVisibilityBitsPrevious = 0x7D0 # uint32
-        class EntityRenderAttribute_t:
-            m_ID = 0x30 # CUtlStringToken
-            m_Values = 0x34 # Vector4D
-        class CPulseCell_Inflow_ObservableVariableListener:
-            m_nBlackboardReference = 0x80 # PulseRuntimeBlackboardReferenceIndex_t
-            m_bSelfReference = 0x82 # bool
         class CDOTA_BaseNPC_Largo_Frogling:
             m_hHeroHandle = 0x19B8 # CHandle<C_DOTA_BaseNPC_Hero>
         class C_DOTA_Item_Eternal_Shroud:
@@ -16729,27 +16120,6 @@ class Schemas:
             pass
         class CIngameEvent_TI2025:
             pass
-        class CModelState:
-            m_hModel = 0xA0 # CStrongHandle<InfoForResourceTypeCModel>
-            m_ModelName = 0xA8 # CUtlSymbolLarge
-            m_pVPhysicsAggregate = 0xE0 # IPhysAggregateInstance*
-            m_flRootBoneOffset_x = 0xE8 # float32
-            m_flRootBoneOffset_y = 0xEC # float32
-            m_flRootBoneOffset_z = 0xF0 # float32
-            m_nRootBoneOffsetResetSerialNumber = 0xF4 # uint8
-            m_bClientClothCreationSuppressed = 0x110 # bool
-            m_nAnimStateNoInterpSerialNumber = 0x200 # uint8
-            m_MeshGroupMask = 0x208 # uint64
-            m_nBodyGroupChoices = 0x258 # C_NetworkUtlVectorBase<int32>
-            m_nIdealMotionType = 0x2A2 # int8
-            m_nForceLOD = 0x2A3 # int8
-            m_nClothUpdateFlags = 0x2A4 # int8
-        class CPulseCell_LerpCameraSettings__CursorState_t:
-            m_hCamera = 0x8 # CHandle<C_PointCamera>
-            m_OverlaidStart = 0xC # PointCameraSettings_t
-            m_OverlaidEnd = 0x1C # PointCameraSettings_t
-        class CPulseCell_Outflow_CycleOrdered:
-            m_Outputs = 0x48 # CUtlVector<CPulse_OutflowConnection>
         class CDOTA_BaseNPC_Tinker_Turret:
             m_angle = 0x19B8 # QAngle
             m_iPoseParameterAim = 0x19C4 # int32
@@ -16854,24 +16224,6 @@ class Schemas:
             target_crit_multiplier = 0x1A78 # float32
         class CIngameEvent_TI2023:
             pass
-        class CCollisionProperty:
-            m_collisionAttribute = 0x10 # VPhysicsCollisionAttribute_t
-            m_vecMins = 0x40 # Vector
-            m_vecMaxs = 0x4C # Vector
-            m_usSolidFlags = 0x5A # uint8
-            m_nSolidType = 0x5B # SolidType_t
-            m_triggerBloat = 0x5C # uint8
-            m_nSurroundType = 0x5D # SurroundingBoundsType_t
-            m_CollisionGroup = 0x5E # uint8
-            m_nEnablePhysics = 0x5F # uint8
-            m_flBoundingRadius = 0x60 # float32
-            m_vecSpecifiedSurroundingMins = 0x64 # Vector
-            m_vecSpecifiedSurroundingMaxs = 0x70 # Vector
-            m_vecSurroundingMaxs = 0x7C # Vector
-            m_vecSurroundingMins = 0x88 # Vector
-            m_vCapsuleCenter1 = 0x94 # Vector
-            m_vCapsuleCenter2 = 0xA0 # Vector
-            m_flCapsuleRadius = 0xAC # float32
         class C_DOTA_BaseNPC_Hero:
             m_bDisableWearables = 0x19C0 # bool
             m_iCurrentXP = 0x19C4 # int32
@@ -17059,9 +16411,6 @@ class Schemas:
             pass
         class C_DOTA_Ability_Special_Bonus_Attack_Speed_50:
             pass
-        class CPulseCell_WaitForPanelClass__CursorState_t:
-            m_hPanel = 0x0 # panorama::CPanelPtr
-            m_Class = 0x8 # CGlobalSymbol
         class CDOTA_Modifier_Item_PigletPole:
             all_stats = 0x1A78 # int32
         class CDOTA_Modifier_Item_Angels_Demise_Break:
@@ -17257,8 +16606,6 @@ class Schemas:
             stun_duration = 0x1A8C # float32
             damage_per_second = 0x1A90 # int32
             aoe = 0x1A94 # float32
-        class PulseSelectorOutflowList_t:
-            m_Outflows = 0x0 # CUtlVector<OutflowWithRequirements_t>
         class C_DOTA_Unit_Hero_Legion_Commander:
             m_unDuelsWon = 0x1D88 # uint32
         class C_DOTA_Unit_Hero_Warlock:
@@ -17351,8 +16698,6 @@ class Schemas:
             radius = 0x1A78 # float32
         class CPulseCell_PlaySequence__CursorState_t:
             m_hTarget = 0x0 # CHandle<CBaseAnimatingActivity>
-        class CBodyComponentSkeletonInstance:
-            m_skeletonInstance = 0x80 # CSkeletonInstance
         class C_DOTA_Unit_Hero_Razor:
             m_iPoseParameterAim = 0x1D88 # int32
             m_iPoseParameterRange = 0x1D8C # int32
@@ -17658,8 +17003,6 @@ class Schemas:
             movement_speed = 0x1A78 # int32
             heal_bonus = 0x1A7C # int32
             enemies_negative_heal_bonus_as_pct_of_self = 0x1A80 # float32
-        class CScriptComponent:
-            m_scriptClassName = 0x30 # CUtlSymbolLarge
         class C_DOTA_BaseNPC_Trap_Ward:
             pass
         class C_DOTA_Ability_Pangolier_ShieldCrash:
@@ -17746,37 +17089,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_Tutorial_Disable_Healing:
             pass
-        class C_PortraitWorldCallbackHandler:
-            pass
-        class C_DynamicProp:
-            m_bRandomAnimator = 0xC30 # bool
-            m_flNextRandAnim = 0xC34 # GameTime_t
-            m_flMinRandAnimDuration = 0xC38 # float32
-            m_flMaxRandAnimDuration = 0xC3C # float32
-            m_bUseHitboxesForRenderBox = 0xC40 # bool
-            m_bUseAnimGraph = 0xC41 # bool
-            m_pOutputAnimBegun = 0xC48 # CEntityIOOutput
-            m_pOutputAnimOver = 0xC60 # CEntityIOOutput
-            m_pOutputAnimLoopCycleOver = 0xC78 # CEntityIOOutput
-            m_OnAnimReachedStart = 0xC90 # CEntityIOOutput
-            m_OnAnimReachedEnd = 0xCA8 # CEntityIOOutput
-            m_iszIdleAnim = 0xCC0 # CUtlSymbolLarge
-            m_nIdleAnimLoopMode = 0xCC8 # AnimLoopMode_t
-            m_bRandomizeCycle = 0xCCC # bool
-            m_bStartDisabled = 0xCCD # bool
-            m_bFiredStartEndOutput = 0xCCE # bool
-            m_bForceNpcExclude = 0xCCF # bool
-            m_bCreateMovableSurfaceGraph = 0xCD0 # bool
-            m_bCreateNonSolid = 0xCD1 # bool
-            m_bIsOverrideProp = 0xCD2 # bool
-            m_iInitialGlowState = 0xCD4 # int32
-            m_nGlowRange = 0xCD8 # int32
-            m_nGlowRangeMin = 0xCDC # int32
-            m_glowColor = 0xCE0 # Color
-            m_nGlowTeam = 0xCE4 # int32
-            m_iCachedFrameCount = 0xCE8 # int32
-            m_vecCachedRenderMins = 0xCEC # Vector
-            m_vecCachedRenderMaxs = 0xCF8 # Vector
         class C_DOTA_Ability_Special_Bonus_Unique_Batrider_1:
             pass
         class C_DOTA_Ability_Omniknight_Hammer_Of_Purity:
@@ -17835,8 +17147,6 @@ class Schemas:
         class CDOTA_Modifier_Axe_CullingBlade_JungleWeaponGesture:
             pass
         class C_DOTA_Unit_Hero_Jakiro:
-            pass
-        class C_EnvDeferredLight:
             pass
         class CDOTA_Item_Searing_Signet:
             pass
@@ -18091,8 +17401,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_Bonus_Armor:
             pass
-        class CDOTA_Survivors_UnitEntity:
-            pass
         class C_DOTA_Item_Cloak_Of_Flames:
             pass
         class C_DOTA_Item_Recipe_Timeless_Relic:
@@ -18128,8 +17436,6 @@ class Schemas:
         class C_DOTA_Ability_Special_Bonus_HP_1000:
             pass
         class CMatchTrackedStatsEntity:
-            pass
-        class C_DOTAReflectionSkybox:
             pass
         class CDOTA_Modifier_Item_Bloodstone_Aura:
             aura_spell_vulnerability = 0x1A78 # int32
@@ -18576,8 +17882,6 @@ class Schemas:
         class CAttributeList:
             m_Attributes = 0x8 # C_UtlVectorEmbeddedNetworkVar<C_EconItemAttribute>
             m_pManager = 0x70 # CAttributeManager*
-        class CPulseCell_Inflow_Wait:
-            m_WakeResume = 0xD8 # CPulse_ResumePoint
         class C_DOTA_Unit_Scout:
             m_bUnitRespawned = 0x19B8 # bool
             m_nSoleControllingPlayer = 0x19BC # PlayerID_t
@@ -18683,33 +17987,6 @@ class Schemas:
             m_iEffectName = 0x6C # uint16
         class C_DOTA_Unit_Hero_EarthSpirit:
             pass
-        class C_ParticleSystem:
-            m_szSnapshotFileName = 0xA88 # char[512]
-            m_bActive = 0xC88 # bool
-            m_bFrozen = 0xC89 # bool
-            m_flFreezeTransitionDuration = 0xC8C # float32
-            m_nStopType = 0xC90 # int32
-            m_bAnimateDuringGameplayPause = 0xC94 # bool
-            m_iEffectIndex = 0xC98 # CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_flStartTime = 0xCA0 # GameTime_t
-            m_flPreSimTime = 0xCA4 # float32
-            m_vServerControlPoints = 0xCA8 # Vector[4]
-            m_iServerControlPointAssignments = 0xCD8 # uint8[4]
-            m_hControlPointEnts = 0xCDC # CHandle<C_BaseEntity>[64]
-            m_bDataStringLocalized = 0xDDC # bool
-            m_strDataString = 0xDE0 # CUtlString
-            m_bNoSave = 0xDE8 # bool
-            m_bNoFreeze = 0xDE9 # bool
-            m_bNoRamp = 0xDEA # bool
-            m_bStartActive = 0xDEB # bool
-            m_iszEffectName = 0xDF0 # CUtlSymbolLarge
-            m_iszControlPointNames = 0xDF8 # CUtlSymbolLarge[64]
-            m_nDataCP = 0xFF8 # int32
-            m_vecDataCPValue = 0xFFC # Vector
-            m_nTintCP = 0x1008 # int32
-            m_clrTint = 0x100C # Color
-            m_bOldActive = 0x1030 # bool
-            m_bOldFrozen = 0x1031 # bool
         class CDOTA_Ability_Kez_Echo_Slash:
             m_vInitialDirection = 0x6B0 # Vector
             m_vStartPos = 0x6BC # VectorWS
@@ -18825,8 +18102,6 @@ class Schemas:
             max_dist = 0x1A78 # float32
         class CDOTA_Modifier_Tiny_TossTree_Slow:
             movement_slow = 0x1A78 # int32
-        class CPulseCell_Outflow_CycleShuffled:
-            m_Outputs = 0x48 # CUtlVector<CPulse_OutflowConnection>
         class CDOTA_Unit_Hero_ArcWarden:
             m_nTalkFXIndex = 0x1D88 # ParticleIndex_t
             m_nFXDeath = 0x1D8C # ParticleIndex_t
@@ -18990,77 +18265,6 @@ class Schemas:
             damage_bonus = 0x1A78 # int32
             m_InFlightAttackRecords = 0x1A80 # CUtlVector<AttackRecord_t>
             m_bBonusAttack = 0x1A98 # bool
-        class CLightComponent:
-            __m_pChainEntity = 0x38 # CNetworkVarChainer
-            m_Color = 0x75 # Color
-            m_SecondaryColor = 0x79 # Color
-            m_flBrightness = 0x80 # float32
-            m_flBrightnessScale = 0x84 # float32
-            m_flBrightnessMult = 0x88 # float32
-            m_flRange = 0x8C # float32
-            m_flFalloff = 0x90 # float32
-            m_flAttenuation0 = 0x94 # float32
-            m_flAttenuation1 = 0x98 # float32
-            m_flAttenuation2 = 0x9C # float32
-            m_flTheta = 0xA0 # float32
-            m_flPhi = 0xA4 # float32
-            m_hLightCookie = 0xA8 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_nCascades = 0xB0 # int32
-            m_nCastShadows = 0xB4 # int32
-            m_nShadowWidth = 0xB8 # int32
-            m_nShadowHeight = 0xBC # int32
-            m_bRenderDiffuse = 0xC0 # bool
-            m_nRenderSpecular = 0xC4 # int32
-            m_bRenderTransmissive = 0xC8 # bool
-            m_flOrthoLightWidth = 0xCC # float32
-            m_flOrthoLightHeight = 0xD0 # float32
-            m_nStyle = 0xD4 # int32
-            m_Pattern = 0xD8 # CUtlString
-            m_nCascadeRenderStaticObjects = 0xE0 # int32
-            m_flShadowCascadeCrossFade = 0xE4 # float32
-            m_flShadowCascadeDistanceFade = 0xE8 # float32
-            m_flShadowCascadeDistance0 = 0xEC # float32
-            m_flShadowCascadeDistance1 = 0xF0 # float32
-            m_flShadowCascadeDistance2 = 0xF4 # float32
-            m_flShadowCascadeDistance3 = 0xF8 # float32
-            m_nShadowCascadeResolution0 = 0xFC # int32
-            m_nShadowCascadeResolution1 = 0x100 # int32
-            m_nShadowCascadeResolution2 = 0x104 # int32
-            m_nShadowCascadeResolution3 = 0x108 # int32
-            m_bUsesBakedShadowing = 0x10C # bool
-            m_nShadowPriority = 0x110 # int32
-            m_nBakedShadowIndex = 0x114 # int32
-            m_nLightPathUniqueId = 0x118 # int32
-            m_nLightMapUniqueId = 0x11C # int32
-            m_bRenderToCubemaps = 0x120 # bool
-            m_bAllowSSTGeneration = 0x121 # bool
-            m_nDirectLight = 0x124 # int32
-            m_nBounceLight = 0x128 # int32
-            m_flBounceScale = 0x12C # float32
-            m_flFadeMinDist = 0x130 # float32
-            m_flFadeMaxDist = 0x134 # float32
-            m_flShadowFadeMinDist = 0x138 # float32
-            m_flShadowFadeMaxDist = 0x13C # float32
-            m_bEnabled = 0x140 # bool
-            m_bFlicker = 0x141 # bool
-            m_bPrecomputedFieldsValid = 0x142 # bool
-            m_vPrecomputedBoundsMins = 0x144 # Vector
-            m_vPrecomputedBoundsMaxs = 0x150 # Vector
-            m_vPrecomputedOBBOrigin = 0x15C # Vector
-            m_vPrecomputedOBBAngles = 0x168 # QAngle
-            m_vPrecomputedOBBExtent = 0x174 # Vector
-            m_flPrecomputedMaxRange = 0x180 # float32
-            m_nFogLightingMode = 0x184 # int32
-            m_flFogContributionStength = 0x188 # float32
-            m_flNearClipPlane = 0x18C # float32
-            m_SkyColor = 0x190 # Color
-            m_flSkyIntensity = 0x194 # float32
-            m_SkyAmbientBounce = 0x198 # Color
-            m_bUseSecondaryColor = 0x19C # bool
-            m_bMixedShadows = 0x19D # bool
-            m_flLightStyleStartTime = 0x1A0 # GameTime_t
-            m_flCapsuleLength = 0x1A4 # float32
-            m_flMinRoughness = 0x1A8 # float32
         class CDOTA_Ability_Grimstroke_DarkArtistry:
             m_vCastDir = 0x6A8 # Vector
             m_vVectorTargetEndpoint = 0x6B4 # VectorWS
@@ -19170,25 +18374,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_ContextualTips:
             pass
-        class C_EnvCubemap:
-            m_Entity_hCubemapTexture = 0x670 # CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_Entity_bCustomCubemapTexture = 0x678 # bool
-            m_Entity_flInfluenceRadius = 0x67C # float32
-            m_Entity_vBoxProjectMins = 0x680 # Vector
-            m_Entity_vBoxProjectMaxs = 0x68C # Vector
-            m_Entity_bMoveable = 0x698 # bool
-            m_Entity_nHandshake = 0x69C # int32
-            m_Entity_nEnvCubeMapArrayIndex = 0x6A0 # int32
-            m_Entity_nPriority = 0x6A4 # int32
-            m_Entity_flEdgeFadeDist = 0x6A8 # float32
-            m_Entity_vEdgeFadeDists = 0x6AC # Vector
-            m_Entity_flDiffuseScale = 0x6B8 # float32
-            m_Entity_bStartDisabled = 0x6BC # bool
-            m_Entity_bDefaultEnvMap = 0x6BD # bool
-            m_Entity_bDefaultSpecEnvMap = 0x6BE # bool
-            m_Entity_bIndoorCubeMap = 0x6BF # bool
-            m_Entity_bCopyDiffuseFromDefaultCubemap = 0x6C0 # bool
-            m_Entity_bEnabled = 0x6D0 # bool
         class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Witch_Doctor_2:
             pass
         class CDOTA_Modifier_Item_FlayersBota:
@@ -19218,15 +18403,6 @@ class Schemas:
             shard_radius = 0x1A78 # float32
         class CDOTA_Modifier_BackdoorProtectionInBase:
             pass
-        class CBodyComponent:
-            m_pSceneNode = 0x8 # CGameSceneNode*
-            __m_pChainEntity = 0x48 # CNetworkVarChainer
-        class CPulseCell_Inflow_Method:
-            m_MethodName = 0x80 # PulseSymbol_t
-            m_Description = 0x90 # CUtlString
-            m_bIsPublic = 0x98 # bool
-            m_ReturnType = 0xA0 # CPulseValueFullType
-            m_Args = 0xB8 # CUtlLeanVector<CPulseRuntimeMethodArg>
         class C_DOTA_Wisp_Spirit:
             pass
         class C_DOTA_Unit_Hero_Nyx_Assassin:
@@ -19462,17 +18638,6 @@ class Schemas:
             m_eRoshanPhase = 0x8 # ERoshanSpawnPhase
             m_flRoshanPhaseStartTime = 0xC # GameTime_t
             m_flRoshanPhaseEndTime = 0x10 # GameTime_t
-        class CGlowProperty:
-            m_fGlowColor = 0x8 # Vector
-            m_iGlowType = 0x30 # int32
-            m_iGlowTeam = 0x34 # int32
-            m_nGlowRange = 0x38 # int32
-            m_nGlowRangeMin = 0x3C # int32
-            m_glowColorOverride = 0x40 # Color
-            m_bFlashing = 0x44 # bool
-            m_flGlowTime = 0x48 # float32
-            m_flGlowStartTime = 0x4C # float32
-            m_bGlowing = 0x50 # bool
         class C_DOTA_Item_Enhancement_Dominant:
             pass
         class C_DOTA_Item_Recipe_Wind_Waker:
@@ -19540,8 +18705,6 @@ class Schemas:
             damage = 0x1A7C # int32
             tick_rate = 0x1A80 # float32
         class CDOTA_Modifier_Furion_WrathOfNature_Buff:
-            pass
-        class CPulseCell_BaseValue:
             pass
         class C_DOTA_Item_Seer_Stone:
             pass
@@ -19635,10 +18798,6 @@ class Schemas:
             pass
         class CPlayer_WaterServices:
             pass
-        class CPulseCell_BooleanSwitchState:
-            m_Condition = 0xD8 # CPulseObservableExpression<bool>
-            m_WhenTrue = 0x150 # CPulse_OutflowConnection
-            m_WhenFalse = 0x198 # CPulse_OutflowConnection
         class C_DOTA_Unit_Hero_Sniper:
             pass
         class C_DOTA_Item_Enhancement_Vast:
@@ -19778,18 +18937,6 @@ class Schemas:
             nSequenceID = 0x60 # int32
             nCompleted = 0x64 # int32
             nRank = 0x68 # int32
-        class VPhysicsCollisionAttribute_t:
-            m_nInteractsAs = 0x8 # uint64
-            m_nInteractsWith = 0x10 # uint64
-            m_nInteractsExclude = 0x18 # uint64
-            m_nEntityId = 0x20 # uint32
-            m_nOwnerId = 0x24 # uint32
-            m_nHierarchyId = 0x28 # uint16
-            m_nDetailLayerMask = 0x2A # uint16
-            m_nDetailLayerMaskType = 0x2C # uint8
-            m_nTargetDetailLayer = 0x2D # uint8
-            m_nCollisionGroup = 0x2E # uint8
-            m_nCollisionFunctionMask = 0x2F # uint8
         class C_DOTA_Unit_Hero_DarkWillow:
             pass
         class C_DOTA_Unit_Hero_Pangolier:
@@ -20006,8 +19153,6 @@ class Schemas:
             m_iCount = 0x1A78 # int32
         class CIngameEvent_MonsterHunter:
             pass
-        class CPulseCell_Inflow_Yield:
-            m_UnyieldResume = 0xD8 # CPulse_ResumePoint
         class C_DOTA_Unit_Hero_Enchantress:
             pass
         class C_DOTA_Unit_Hero_Puck:
@@ -20019,8 +19164,6 @@ class Schemas:
             m_bHasFoundProps = 0x1A50 # bool
             m_bDidHaveNewItems = 0x1A51 # bool
             m_vecProps = 0x1A58 # CUtlVector<CHandle<C_DynamicPropClientside>>
-        class CDOTA_Artillery_EffectsEntity:
-            pass
         class CDOTA_Item_Recipe_Clumsy_Net:
             pass
         class C_DOTA_Item_Recipe_WraithPact:
@@ -20255,9 +19398,6 @@ class Schemas:
             damage_tick_interval = 0x1A7C # float32
             percent_instant = 0x1A80 # float32
             flDamagePerTick = 0x1A84 # float32
-        class CGameSceneNodeHandle:
-            m_hOwner = 0x8 # CEntityHandle
-            m_name = 0xC # CUtlStringToken
         class C_DOTA_Unit_Hero_NightStalker:
             pass
         class C_DOTA_NPC_BaseBlocker:
@@ -20353,8 +19493,6 @@ class Schemas:
             m_nNumHeroesPicked = 0x5FC # int32
         class CPulseCell_Unknown:
             m_UnknownKeys = 0x48 # KeyValues3
-        class CDarkCarnivalCrateDropGameEffectsEntity:
-            pass
         class C_DOTA_Item_Aghanims_Shard:
             m_bHasMultipleOptions = 0x758 # bool
         class CDOTA_Ability_Dawnbreaker_Celestial_Hammer:
@@ -20701,13 +19839,7 @@ class Schemas:
             movespeed_slow = 0x1A78 # int32
         class CDOTA_Modifier_SandKing_SandStorm_Blind:
             blind_pct = 0x1A78 # int32
-        class CPulseCell_Outflow_CycleRandom:
-            m_Outputs = 0x48 # CUtlVector<CPulse_OutflowConnection>
-        class CPulseCell_Step_PublicOutput:
-            m_OutputIndex = 0x48 # PulseRuntimeOutputIndex_t
         class C_DOTA_BaseNPC_Additive:
-            pass
-        class CDOTA_Match3_EffectsEntity:
             pass
         class C_DOTA_Item_Enhancement_Thick:
             pass
@@ -21012,15 +20144,8 @@ class Schemas:
             tota_mp_per_second = 0x1A94 # int32
         class C_IngameEvent_TI7:
             pass
-        class CPulse_BlackboardReference:
-            m_hBlackboardResource = 0x0 # CStrongHandle<InfoForResourceTypeIPulseGraphDef>
-            m_BlackboardResource = 0x8 # PulseSymbol_t
-            m_nNodeID = 0x18 # PulseDocNodeID_t
-            m_NodeName = 0x20 # CGlobalSymbol
         class C_DOTA_Unit_VisageFamiliar:
             m_nFXAmbient = 0x19C0 # ParticleIndex_t
-        class CDOTA_Lockpicking_EffectsEntity:
-            pass
         class CDOTA_Item_Enchanters_Bauble:
             pass
         class CDOTA_Item_Octarine_Core:
@@ -21527,15 +20652,6 @@ class Schemas:
             m_vDirection = 0x1A94 # Vector
         class C_IngameEvent_WM2017:
             pass
-        class CChoreoComponent:
-            __m_pChainEntity = 0x8 # CNetworkVarChainer
-            m_hOwner = 0x30 # CHandle<C_BaseModelEntity>
-            m_nExernalChoreoGraphCount = 0x34 # int32
-            m_sActiveExternalChoreoGraphSlotID = 0x38 # CGlobalSymbol
-            m_nNextSceneEventId = 0x70 # SceneEventId_t
-            m_flAllowResponsesEndTime = 0x74 # GameTime_t
-        class CPulseCell_Value_RandomInt:
-            pass
         class C_DOTA_Item_Recipe_Perseverance:
             pass
         class C_DOTA_Ability_Elder_Titan_EchoStomp:
@@ -21913,10 +21029,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_MudGolem_Rock_Shard:
             pass
-        class CPathSimple:
-            m_CPathQueryComponent = 0x600 # CPathQueryComponent
-            m_pathString = 0x6F0 # CUtlString
-            m_bClosedLoop = 0x6F8 # bool
         class CDOTA_Modifier_AghsFort_ShadowWaveEffectPotion:
             m_iCurJumpCount = 0x1A78 # int32
             m_vCurTargetLoc = 0x1A7C # VectorWS
@@ -22052,8 +21164,6 @@ class Schemas:
             m_bEnemiesOnly = 0x1A78 # bool
         class C_DOTATurboHeroPickRules:
             m_Phase = 0x5F0 # DOTACustomHeroPickRulesPhase_t
-        class C_EconWearable:
-            pass
         class CDOTA_Item_AshLegionShield:
             pass
         class C_DOTA_Ability_Winter_Wyvern_Bookwyrm:
@@ -22074,16 +21184,6 @@ class Schemas:
             m_fCyclone_CooldownTime = 0x6BC # GameTime_t
             m_fWindWalk_CooldownTime = 0x6C0 # GameTime_t
             m_bGainedScepterLevels = 0x6C4 # bool
-        class C_EnvDecal:
-            m_hDecalMaterial = 0xA88 # CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_flWidth = 0xA90 # float32
-            m_flHeight = 0xA94 # float32
-            m_flDepth = 0xA98 # float32
-            m_nRenderOrder = 0xA9C # uint32
-            m_bProjectOnWorld = 0xAA0 # bool
-            m_bProjectOnCharacters = 0xAA1 # bool
-            m_bProjectOnWater = 0xAA2 # bool
-            m_flDepthSortBias = 0xAA4 # float32
         class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Skywrath_6:
             pass
         class C_DOTA_Ability_Special_Bonus_Mana_Reduction_10:
@@ -22148,32 +21248,6 @@ class Schemas:
         class CDOTA_Modifier_Tidehunter_Gush:
             movement_speed = 0x1A78 # int32
             negative_armor = 0x1A7C # float32
-        class fogparams_t:
-            dirPrimary = 0x8 # Vector
-            colorPrimary = 0x14 # Color
-            colorSecondary = 0x18 # Color
-            colorPrimaryLerpTo = 0x1C # Color
-            colorSecondaryLerpTo = 0x20 # Color
-            start = 0x24 # float32
-            end = 0x28 # float32
-            farz = 0x2C # float32
-            maxdensity = 0x30 # float32
-            exponent = 0x34 # float32
-            HDRColorScale = 0x38 # float32
-            skyboxFogFactor = 0x3C # float32
-            skyboxFogFactorLerpTo = 0x40 # float32
-            startLerpTo = 0x44 # float32
-            endLerpTo = 0x48 # float32
-            maxdensityLerpTo = 0x4C # float32
-            lerptime = 0x50 # GameTime_t
-            duration = 0x54 # float32
-            blendtobackground = 0x58 # float32
-            scattering = 0x5C # float32
-            locallightscale = 0x60 # float32
-            enable = 0x64 # bool
-            blend = 0x65 # bool
-            m_bPadding2 = 0x66 # bool
-            m_bPadding = 0x67 # bool
         class C_DOTA_Unit_Hero_Undying:
             pass
         class C_EnvDeferredLightClientOnly:
@@ -22386,12 +21460,6 @@ class Schemas:
             flTickRate = 0x1A8C # float32
         class CDOTA_Modifier_AttackImmune:
             pass
-        class CExplosionTypeData:
-            m_SoundName = 0x0 # CSoundEventName
-            m_ParticleEffect = 0x10 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_bIsIncindiary = 0xF0 # bool
-            m_bHasForces = 0xF1 # bool
-            m_DecalType = 0xF8 # CGlobalSymbol
         class CDOTA_Item_Partisans_Brand:
             pass
         class C_DOTA_Item_Recipe_Arcane_Ring:
@@ -22528,8 +21596,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_Taunt:
             pass
-        class C_DOTA_MapTree:
-            m_bInitialized = 0xAF8 # bool
         class CDOTA_Ability_Abyssal_Underling_Archer_AoE:
             pass
         class C_DOTA_Ability_FacelessVoid_Innate_DistortionField:
@@ -22687,15 +21753,6 @@ class Schemas:
             treant_damage_bonus = 0x1A7C # int32
         class CDOTA_Modifier_Windrunner_Windrun_ChargeCounter:
             pass
-        class C_DOTA_PortraitEntity:
-            m_PetIdleTimer = 0x19B8 # CountdownTimer
-            m_nMouthFX = 0x19D0 # ParticleIndex_t
-            m_nMouthControlPoint = 0x19D4 # int32
-            m_iPortraitParticle = 0x19D8 # ParticleIndex_t
-            m_PortraitActivity = 0x19DC # int32
-            m_CustomActivityModifiers = 0x19E0 # CUtlVector<CUtlSymbol>
-            m_bIsSimulationActive = 0x19F8 # bool
-            m_hAppearanceFromNPC = 0x19FC # CEntityHandle
         class C_DOTA_Unit_Earth_Spirit_Stone:
             pass
         class C_DOTA_BaseNPC_Creep_Neutral:
@@ -23186,13 +22243,6 @@ class Schemas:
             m_bRemoveOnDeath = 0x1A78 # bool
         class C_DOTABaseCustomHeroPickRules:
             pass
-        class CPulse_CallInfo:
-            m_PortName = 0x0 # PulseSymbol_t
-            m_nEditorNodeID = 0x10 # PulseDocNodeID_t
-            m_RegisterMap = 0x18 # PulseRegisterMap_t
-            m_CallMethodID = 0x48 # PulseDocNodeID_t
-            m_nSrcChunk = 0x4C # PulseRuntimeChunkIndex_t
-            m_nSrcInstruction = 0x50 # int32
         class C_DOTA_Unit_Hero_BountyHunter:
             pass
         class C_DOTA_Unit_Hero_Beastmaster:
@@ -23350,15 +22400,8 @@ class Schemas:
             m_flPlayerBountyTimestamp = 0x1908 # GameTime_t[10]
             m_PlayerBountyCount = 0x1930 # int32[10]
             m_PlayerBountyTimestamp_Obsolete = 0x1958 # int32[24]
-        class CPulseCell_InlineNodeSkipSelector:
-            m_nFlowNodeID = 0x48 # PulseDocNodeID_t
-            m_bAnd = 0x4C # bool
-            m_PassOutflow = 0x50 # PulseSelectorOutflowList_t
-            m_FailOutflow = 0x68 # CPulse_OutflowConnection
         class CDOTA_BaseNPC_Seasonal_TI9_Drums:
             pass
-        class C_LightEntity:
-            m_CLightComponent = 0xA88 # CLightComponent*
         class C_DOTA_Item_Titan_Sliver:
             pass
         class CDOTA_Item_Recipe_Lotus_Orb:
@@ -23496,8 +22539,6 @@ class Schemas:
         class C_DOTA_Ability_Special_Bonus_Unique_Pangolier:
             pass
         class C_DOTA_Ability_Special_Bonus_Spell_Amplify_12:
-            pass
-        class C_DOTA_LightInfo:
             pass
         class CDOTA_Modifier_Item_Trickster_Cloak:
             evasion = 0x1A78 # int32
@@ -23645,8 +22686,6 @@ class Schemas:
             pass
         class C_SingleplayRules:
             pass
-        class CLogicalEntity:
-            pass
         class C_DOTA_Item_Diffusal_Blade_Level2:
             pass
         class C_DOTA_Item_CraniumBasher:
@@ -23764,8 +22803,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_Special_Bonus_Lifesteal:
             value = 0x1A78 # float32
-        class CPulseCell_WaitForPanelClass:
-            m_WakeResume = 0xD8 # CPulse_ResumePoint
         class CDOTA_Modifier_Item_OgreSealTotem:
             bonus_strength = 0x1A78 # int32
         class CDOTA_Modifier_Item_Overwhelming_Blink:
@@ -24063,14 +23100,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_WitchDoctor_DeathWard_SecondaryAttack:
             secondary_attack_damage_pct = 0x1A78 # int32
-        class CPulseCell_LimitCount:
-            m_nLimitCount = 0x48 # int32
-        class CPulseCell_Step_CallExternalMethod:
-            m_MethodName = 0xD8 # PulseSymbol_t
-            m_nBlackboardIndex = 0xE8 # PulseRuntimeBlackboardReferenceIndex_t
-            m_ExpectedArgs = 0xF0 # CUtlLeanVector<CPulseRuntimeMethodArg>
-            m_nAsyncCallMode = 0x100 # PulseMethodCallMode_t
-            m_OnFinished = 0x108 # CPulse_ResumePoint
         class C_DOTA_Unit_Hero_FacelessVoid:
             pass
         class C_DynamicPropAlias_prop_dynamic_override:
@@ -24151,8 +23180,6 @@ class Schemas:
             m_bIsMovable = 0x19B8 # bool
             m_angle = 0x19BC # QAngle
             m_iPoseParameterAim = 0x19C8 # int32
-        class C_DOTA_GuildBannerProp:
-            pass
         class C_DOTA_Item_Dezun_Bloodrite:
             pass
         class C_DOTA_Item_Safety_Bubble:
@@ -24439,34 +23466,6 @@ class Schemas:
             m_iFilterClass = 0x628 # CUtlSymbolLarge
         class C_PointCameraVFOV:
             m_flVerticalFOV = 0x658 # float32
-        class C_PointCamera:
-            m_FOV = 0x5F0 # float32
-            m_Resolution = 0x5F4 # float32
-            m_bFogEnable = 0x5F8 # bool
-            m_FogColor = 0x5F9 # Color
-            m_flFogStart = 0x600 # float32
-            m_flFogEnd = 0x604 # float32
-            m_flFogMaxDensity = 0x608 # float32
-            m_bActive = 0x60C # bool
-            m_bUseScreenAspectRatio = 0x60D # bool
-            m_flAspectRatio = 0x610 # float32
-            m_bNoSky = 0x614 # bool
-            m_fBrightness = 0x618 # float32
-            m_flZFar = 0x61C # float32
-            m_flZNear = 0x620 # float32
-            m_bCanHLTVUse = 0x624 # bool
-            m_bAlignWithParent = 0x625 # bool
-            m_flOverrideShadowFarZ = 0x628 # float32
-            m_bDofEnabled = 0x62C # bool
-            m_flDofNearBlurry = 0x630 # float32
-            m_flDofNearCrisp = 0x634 # float32
-            m_flDofFarCrisp = 0x638 # float32
-            m_flDofFarBlurry = 0x63C # float32
-            m_flDofTiltToGround = 0x640 # float32
-            m_TargetFOV = 0x644 # float32
-            m_DegreesPerSecond = 0x648 # float32
-            m_bIsOn = 0x64C # bool
-            m_pNext = 0x650 # C_PointCamera*
         class C_DOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Chen_2:
             pass
         class CDOTA_Modifier_Special_Bonus_Spell_Immunity:
@@ -24732,8 +23731,6 @@ class Schemas:
             pass
         class C_DOTA_BaseNPC_HallofFame:
             m_HallofFame = 0x1A28 # int32
-        class CDOTA_Minesweeper_EffectsEntity:
-            pass
         class C_DOTA_Item_SpecialistsArray:
             pass
         class C_DOTA_Item_Recipe_Psychic_Headband:
@@ -24891,19 +23888,6 @@ class Schemas:
             slow_duration = 0x1A80 # float32
             attack_range_bonus = 0x1A84 # int32
             m_InFlightAttackRecords = 0x1A88 # CUtlVector<AttackRecord_t>
-        class CEntityIdentity:
-            m_nameStringTableIndex = 0x14 # int32
-            m_name = 0x18 # CUtlSymbolLarge
-            m_designerName = 0x20 # CUtlSymbolLarge
-            m_flags = 0x30 # uint32
-            m_worldGroupId = 0x38 # WorldGroupId_t
-            m_fDataObjectTypes = 0x3C # uint32
-            m_PathIndex = 0x40 # ChangeAccessorFieldPathIndex_t
-            m_pAttributes = 0x48 # CEntityAttributeTable*
-            m_pPrev = 0x50 # CEntityIdentity*
-            m_pNext = 0x58 # CEntityIdentity*
-            m_pPrevByClass = 0x60 # CEntityIdentity*
-            m_pNextByClass = 0x68 # CEntityIdentity*
         class CPulseCell_LimitCount__Criteria_t:
             m_bLimitCountPasses = 0x0 # bool
         class C_DOTA_Unit_Underlord_Portal:
@@ -25093,22 +24077,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_Mutation_Treecutter:
             m_iRadius = 0x1A78 # int32
-        class CBasePlayerVData:
-            m_sModelName = 0x28 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_sModelNameAg2Override = 0x108 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_flHeadDamageMultiplier = 0x1E8 # CSkillFloat
-            m_flChestDamageMultiplier = 0x1F8 # CSkillFloat
-            m_flStomachDamageMultiplier = 0x208 # CSkillFloat
-            m_flArmDamageMultiplier = 0x218 # CSkillFloat
-            m_flLegDamageMultiplier = 0x228 # CSkillFloat
-            m_flHoldBreathTime = 0x238 # float32
-            m_flDrowningDamageInterval = 0x23C # float32
-            m_nDrowningDamageInitial = 0x240 # int32
-            m_nDrowningDamageMax = 0x244 # int32
-            m_nWaterSpeed = 0x248 # int32
-            m_flUseRange = 0x24C # float32
-            m_flUseAngleTolerance = 0x250 # float32
-            m_flCrouchTime = 0x254 # float32
         class CDOTA_Modifier_Special_Bonus_Gold_Income:
             value = 0x1A78 # int32
         class C_DOTA_Ability_Special_Bonus_Unique_Visage_5:
@@ -25181,13 +24149,6 @@ class Schemas:
             pass
         class C_DOTA_Ability_Special_Bonus_Magic_Resistance_10:
             pass
-        class CDOTA_DarkCarnival_MurderOfCrows:
-            m_hCrowModel = 0x5F0 # CStrongHandle<InfoForResourceTypeCModel>
-            m_sCrowExplodeVFX = 0x5F8 # CUtlSymbolLarge
-            m_sCrowExplodeSound = 0x600 # CUtlSymbolLarge
-            m_nCountingCrows = 0x608 # int32
-            m_flCrowSpeed = 0x60C # float32
-            m_flCrowScale = 0x610 # float32
         class CDOTA_Modifier_Item_Eternal_Shroud:
             bonus_spell_resist = 0x1A78 # int32
             bonus_strength = 0x1A7C # int32
@@ -25206,10 +24167,6 @@ class Schemas:
             speed_bonus = 0x1A78 # int32
         class CDOTA_Modifier_Enigma_DemonicConversion_ModelScale:
             self_modelscale = 0x1A78 # float32
-        class CPulseCell_CursorQueue:
-            m_nCursorsAllowedToRunParallel = 0x128 # int32
-        class CPulseCell_Value_RandomFloat:
-            pass
         class CPulseExecCursor:
             pass
         class C_DOTA_Unit_Brewmaster_PrimalEarth:
@@ -25712,8 +24669,6 @@ class Schemas:
             m_hTarget = 0x6DC # CHandle<C_BaseEntity>
         class CDOTA_Ability_Zuus_Thunder_Trail:
             pass
-        class CInfoParticleTarget:
-            pass
         class C_DOTA_Ability_Aghsfort_Pugna_Grandmaster_NetherWard:
             pass
         class CDOTA_Ability_AghsFort_TreantMiniboss_NaturesGuise:
@@ -25819,38 +24774,6 @@ class Schemas:
             pass
         class CDOTA_Modifier_BlackDragon_DragonhideAura:
             radius = 0x1A78 # float32
-        class C_PointClientUIWorldPanel:
-            m_bForceRecreateNextUpdate = 0xAC0 # bool
-            m_bMoveViewToPlayerNextThink = 0xAC1 # bool
-            m_bCheckCSSClasses = 0xAC2 # bool
-            m_anchorDeltaTransform = 0xAD0 # CTransform
-            m_pOffScreenIndicator = 0xC60 # CPointOffScreenIndicatorUi*
-            m_bIgnoreInput = 0xC88 # bool
-            m_bLit = 0xC89 # bool
-            m_bFollowPlayerAcrossTeleport = 0xC8A # bool
-            m_flWidth = 0xC8C # float32
-            m_flHeight = 0xC90 # float32
-            m_flDPI = 0xC94 # float32
-            m_flWindowUIScale = 0xC98 # float32
-            m_flInteractDistance = 0xC9C # float32
-            m_flDepthOffset = 0xCA0 # float32
-            m_unOwnerContext = 0xCA4 # uint32
-            m_unHorizontalAlign = 0xCA8 # uint32
-            m_unVerticalAlign = 0xCAC # uint32
-            m_unOrientation = 0xCB0 # uint32
-            m_bAllowInteractionFromAllSceneWorlds = 0xCB4 # bool
-            m_vecCSSClasses = 0xCB8 # C_NetworkUtlVectorBase<CUtlSymbolLarge>
-            m_bOpaque = 0xCD0 # bool
-            m_bNoDepth = 0xCD1 # bool
-            m_bVisibleWhenParentNoDraw = 0xCD2 # bool
-            m_bRenderBackface = 0xCD3 # bool
-            m_bUseOffScreenIndicator = 0xCD4 # bool
-            m_bExcludeFromSaveGames = 0xCD5 # bool
-            m_bGrabbable = 0xCD6 # bool
-            m_bOnlyRenderToTexture = 0xCD7 # bool
-            m_bDisableMipGen = 0xCD8 # bool
-            m_nExplicitImageLayout = 0xCDC # int32
-            m_bIgnoreParentOrientation = 0xCE0 # bool
         class CDOTA_Ability_Seasonal_Summon_Dragon_Thinker:
             grace_period = 0x1A78 # float32
             search_distance = 0x1A7C # int32
@@ -26200,69 +25123,6 @@ class Schemas:
             m_flDurationOriginal = 0x1ABC # float32
             m_flTotalDistanceMoved = 0x1AC0 # float32
             m_nFissureEffectIndex = 0x1AC4 # ParticleIndex_t
-        class DOTACrateDropLevelDefID_t:
-            m_Value = 0x0 # uint32
-        class ArtyProgressBarDef_t:
-            m_flNotchSize = 0xB0 # float32
-        class CDOTACrownfallCreditsMapSceneAnimateableDefinition:
-            m_strImage = 0x0 # CPanoramaImageName
-            m_bounds = 0x10 # CrownfallCreditsAABB_t
-            m_unFrameTime = 0x20 # uint16
-            m_bClickable = 0x22 # bool
-            m_nNumFrames = 0x24 # int32
-            m_strSound = 0x28 # CUtlString
-        class ArtyWeaponID_t:
-            m_Value = 0x0 # uint32
-        class CDOTAFightingGameActionDefinition:
-            m_nActionID = 0x0 # EFightingGameActionID
-            m_strCustomActionName = 0x8 # CUtlString
-            m_pszSequenceName = 0x10 # CUtlString
-            m_pszIconFile = 0x18 # CUtlString
-            m_pszSwingSound = 0x20 # CUtlString
-            m_pszHitSound = 0x28 # CUtlString
-            m_nDuration = 0x30 # int32
-            m_HurtBox = 0x34 # AABB_t
-            m_HitBox = 0x4C # AABB_t
-            m_nHitBoxStart = 0x64 # int32
-            m_nHitBoxDuration = 0x68 # int32
-            m_nOnHitFrames = 0x6C # int32
-            m_nOnBlockFrames = 0x70 # int32
-            m_flGuardDamage = 0x74 # float32
-            m_flChipDamage = 0x78 # float32
-            m_flHitDamage = 0x7C # float32
-            m_flHealOnDamage = 0x80 # float32
-            m_healOnDamageParticle = 0x88 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nDashStart = 0x168 # int32
-            m_nDashDuration = 0x16C # int32
-            m_nDamageAmpFrames = 0x170 # int32
-            m_fDamageAmpPercent = 0x174 # float32
-            m_damageAmpParticle = 0x178 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flPushbackOnHit = 0x258 # float32
-            m_flPushbackOnBlock = 0x25C # float32
-            m_projectileParticle = 0x260 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flProjectileSpeed = 0x340 # float32
-            m_flProjectileRange = 0x344 # float32
-            m_flDashSpeedMultiplier = 0x348 # float32
-            m_installParticle = 0x350 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nInstallStart = 0x430 # int32
-            m_nInstallFrames = 0x434 # int32
-            m_actionParticle = 0x438 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_vActionParticleOffset = 0x518 # Vector2D
-            m_nActionParticleStart = 0x520 # int32
-            m_nHitStop = 0x524 # int32
-            m_nBlockStop = 0x528 # int32
-            m_nInvulnerabilityFlags = 0x52C # EFightingGameInvulnerabilityFlags
-            m_nInvulnerabilityStart = 0x530 # int32
-            m_nInvulnerabilityDuration = 0x534 # int32
-            m_vCameraShakeScale = 0x538 # Vector2D
-            m_bSingleUse = 0x540 # bool
-            m_bNoAttackerPushback = 0x541 # bool
-            m_bIsSpecialMove = 0x542 # bool
-            m_vecCancelOptions = 0x548 # CUtlVector<CDOTAFightingGameCancelOptionDefinition>
-        class CSurvivorsEnemyDefinition__PickupChance:
-            m_sPickupName = 0x0 # CUtlString
-            m_flChance = 0x8 # float32
-            m_nExperienceReward = 0xC # int32
         class sControlGroupElem:
             m_UnitName = 0x0 # char[260]
             m_UnitLabel = 0x104 # char[260]
@@ -26270,56 +25130,9 @@ class Schemas:
             m_hEntity = 0x20C # CHandle<C_BaseEntity>
             m_bIsIllusion = 0x210 # bool
             m_IllusionLabel = 0x211 # char[260]
-        class CSurvivorsEnemyDefinition_Pillar:
-            pass
-        class CDOTAOverworldCharacterConditional:
-            m_eConditionFlags = 0x0 # EOverworldCharacterVisibility
-            m_vecNodes = 0x8 # CUtlVector<OverworldNodeID_t>
-        class Match3GameModeID_t:
-            m_Value = 0x0 # uint32
-        class CShmupPlayerDefinition:
-            m_nLives = 0x0 # int32
-            m_nFirstTimeBonusLives = 0x4 # int32
-            m_flModelScale = 0x8 # float32
-            m_flShieldRadius = 0xC # float32
-            m_flHeartRadius = 0x10 # float32
-            m_flMaxSpeed = 0x14 # float32
-            m_flAccel = 0x18 # float32
-            m_flAttackLaunchDistance = 0x1C # float32
-            m_nModeSwapExtraAttackCooldown = 0x20 # int32
-            m_nModeSwapTicks = 0x24 # int32
-            m_nEnemyCollideDamage = 0x28 # int32
-            m_nFireAttackCooldown = 0x2C # int32
-            m_flFireAttackRadius = 0x30 # float32
-            m_flFireAttackSpeed = 0x34 # float32
-            m_nIceAttackCooldown = 0x38 # int32
-            m_flIceAttackRadius = 0x3C # float32
-            m_flIceAttackSpeed = 0x40 # float32
-            m_flSpecialAttackSpeed = 0x44 # float32
-            m_nSpecialAttackDamage = 0x48 # int32
-            m_nSpecialAttackAbsorptionCost = 0x4C # int32
-            m_nSpecialAttackMax = 0x50 # int32
-            m_nTicksPerSpecialAttack = 0x54 # int32
-            m_nMaxBulletAbsorption = 0x58 # int32
-            m_flBulletSpread = 0x5C # float32
-        class CSurvivorsSpawnerTowerDefinition:
-            pass
-        class ArtyCannonDef_t:
-            m_bDirectAimAtTarget = 0xB0 # bool
-            m_vecWeapons = 0xB8 # CUtlVector<CUtlString>
-            m_vShotOffset = 0xE8 # Vector2D
-        class CandyShopCandyType_t:
-            m_unCandyTypeID = 0x0 # CandyShopCandyTypeID_t
-            m_sLocName = 0x8 # CUtlString
-            m_sImage = 0x10 # CPanoramaImageName
         class CSurvivorsSpawnerGolem:
             m_nRoomIndex = 0x178 # int32
             m_nEnemiesSpawnedCount = 0x17C # int32
-        class ArtyGameModeInfo_t:
-            m_vecLevels = 0x8 # CUtlVector<ArtyGameModeLevelInfo_t>
-        class CandyShopRewardSlot_t:
-            m_sSlotClass = 0x0 # CUtlString
-            m_vecSlotRewardOptions = 0x8 # CUtlVector<CandyShopRewardOption_t>
         class CAnnouncerDescriptor:
             m_strAnnouncerName = 0x8 # CUtlString
             m_strAnnouncerVoiceFile = 0x10 # CUtlString
@@ -26327,495 +25140,59 @@ class Schemas:
             m_bItemOwnedByLocalPlayer = 0x20 # bool
         class C_VerticalMotionController:
             pass
-        class CSurvivorsPowerUpDefinition_AreaAttack:
-            m_eOrigin = 0x6A0 # ESurvivorsAreaAttackOrigin
-            m_flRemoveParticleTimeDelay = 0x6A4 # float32
-            m_sParticle = 0x6A8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sHitImpactParticle = 0x788 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CSurvivorsPowerUpDefinition_AreaAttack_CircleConstant:
-            pass
-        class CDOTAOverworldNode:
-            m_unID = 0x0 # OverworldNodeID_t
-            m_sDialogueName = 0x8 # CUtlString
-            m_sEncounterName = 0x10 # CUtlString
-            m_sRewardEventAction = 0x20 # CUtlString
-            m_vPos = 0x28 # Vector2D
-            m_eNodeFlags = 0x30 # EOverworldNodeFlags
-            m_bSkipGrantingRewardOnUnlock = 0x34 # bool
-            m_sHiddenWithoutEventAction = 0x38 # CUtlString
-            m_sJSEvent = 0x40 # CUtlString
-            m_sCustomClass = 0x48 # CUtlString
-            m_flUnlockDelay = 0x50 # float32
-            m_flModelRotation = 0x58 # float32
-            m_flModelScalePercentage = 0x5C # float32
-            m_vModelOffset = 0x60 # Vector2D
-            m_vecUnlockMapClasses = 0x68 # CUtlVector<CUtlString>
-            m_vecVisitMapClasses = 0x80 # CUtlVector<CUtlString>
-        class CDOTACrownfallCreditsDefinition:
-            m_vecCreditsBlocks = 0x0 # CUtlVector<CDOTACrownfallCreditsBlockDefinition>
-            m_nPixelScale = 0x18 # int32
-            m_nWidth = 0x1C # int32
-            m_nHeight = 0x20 # int32
-            m_nDefaultBlockMarginTop = 0x24 # int32
-            m_flFinalLogoTimeAfterStop = 0x28 # float32
-            m_flDelayBeforeValveHead = 0x2C # float32
         class CSurvivorsPowerUp_AreaAttack_Circle:
             pass
-        class CDOTAFishingGameFish:
-            m_strLocName = 0x0 # CUtlString
-            m_strID = 0x8 # CUtlString
-            m_eCategory = 0x10 # EFishingGameFishCategory
-            m_flAverageWeight = 0x14 # float32
-            m_flBaseModelScale = 0x18 # float32
-            m_flBonusDifficulty = 0x1C # float32
-            m_nSceneModelBodyIndex = 0x20 # int32
-            m_strFlatSceneModel = 0x28 # CUtlString
-        class CShmupTrackDefinition:
-            m_strName = 0x0 # CUtlString
-            m_vecEvents = 0x8 # CUtlVector<CShmupEventTime>
-        class CSurvivorsLevelDefinition:
-            m_unLevelID = 0x0 # SurvivorsLevelID_t
-            m_vecEvents = 0x8 # CUtlVector<CSurvivorsEnemyEventDefinition>
-            m_vecBossEvents = 0x20 # CUtlVector<CSurvivorsEnemyEventDefinition>
-            m_vMapBounds = 0x38 # Vector2D
-            m_vEntityBounds = 0x40 # Vector2D
         class CBasePortraitData:
             m_iModelIndex = 0x410 # CStrongHandle<InfoForResourceTypeCModel>
             m_skin = 0x418 # CUtlStringToken
             m_bHasSetupView = 0xDA8 # bool
             m_flRotation = 0xDC8 # float32
-        class ShmupPathID_t:
-            m_Value = 0x0 # uint32
-        class CDOTAMotionComicFrame:
-            m_flAutoAdvanceDelay = 0x8 # float32
-            m_bFireEventOnStart = 0xC # bool
-        class CDOTACrateDropHazardDef:
-            m_flExplosionRadius = 0xE8 # float32
-            m_flExplosionStrength = 0xEC # float32
-            m_flUpkickExplosionStrength = 0xF0 # float32
-            m_eHazardType = 0xF4 # EDOTACrateDropHazardType
-        class SettingsSectionIndex_t:
-            m_Value = 0x0 # int32
-        class CDOTAOverworldClickable:
-            m_sSnippet = 0x8 # CUtlString
-            m_vPos = 0x10 # Vector2D
-            m_bBackground = 0x18 # bool
         class PlayerSeatAssignment_t:
             unAccountID = 0x0 # uint32
             unSeat = 0x4 # uint32
             unReversedSeat = 0x8 # uint32
             unTeamID = 0xC # uint32
-        class CSurvivorsGameModeDefinition__SeparationLayerData:
-            m_eSeparationLayer = 0x0 # ESurvivorsEnemySeparationLayer
-            m_flSeperationDistance = 0x4 # float32
         class CSurvivorsSpawnerDestructibles:
             m_flMinimumDistanceBetween = 0x178 # float32
             m_flDestroyDistance = 0x17C # float32
-        class CSurvivorsGameSnapshot:
-            m_gameModeID = 0x0 # SurvivorsGameModeID_t
-            m_playerSnapshot = 0x8 # CSurvivorsPlayerSnapshot
-            m_enemiesSnapshot = 0x40 # CUtlVector<CSurvivorsEnemySnapshot>
-            m_pickupsSnapshot = 0x58 # CUtlVector<CSurvivorsPickupSnapshot>
-            m_flGameTime = 0x70 # float32
-            m_nCurrentLevelEvent = 0x74 # int32
-        class Match3AbilityID_t:
-            m_Value = 0x0 # uint32
         class CMatch3OpponentActionInstanceDefinition:
             m_sActionName = 0x0 # CUtlString
             m_flCooldown = 0x8 # float32
             m_kvActionParams = 0x10 # KeyValues3
-        class screenshake_t:
-            endtime = 0x0 # GameTime_t
-            duration = 0x4 # float32
-            amplitude = 0x8 # float32
-            frequency = 0xC # float32
-            nextShake = 0x10 # GameTime_t
-            offset = 0x14 # Vector
-            angle = 0x20 # float32
-            direction = 0x28 # Vector
-            nShakeType = 0x34 # uint8
-        class CSurvivorsPowerUpDefinition_ArcaneBolt:
-            pass
         class C_DotaTree:
             m_unOccluderID = 0x2C # uint32
-        class CSurvivorsLootTable__CLootEntry:
-            m_unPickupID = 0x0 # SurvivorsPickupID_t
-            m_nMinAmount = 0x4 # int32
-            m_nMaxAmount = 0x8 # int32
         class CSurvivorsPowerUp_Frostbite:
             m_flScepterExplodeRadius = 0x6F8 # float32
-        class CDOTAFightingGameHeroStyleDefinition:
-            m_bUseDefault = 0x0 # bool
-            m_bUseEquipped = 0x1 # bool
-            m_unStyleIndex = 0x2 # style_index_t
-            m_strLocName = 0x8 # CUtlString
-            m_vecItems = 0x10 # CUtlVector<item_definition_index_t>
-        class CDOTARoadToTIChallengeDefinition:
-            m_eEvent = 0x0 # EEvent
-            m_unTotalQuestPeriods = 0x4 # uint32
-            m_unHeroesPerQuest = 0x8 # uint32
-            m_vecQuestPattern = 0x10 # CUtlVector<uint32>
-            m_unCullingBladeItemDef = 0x28 # item_definition_index_t
-            m_unRerollItemDef = 0x2C # item_definition_index_t
-            m_vecQuests = 0x30 # CUtlVector<RoadToTIQuestDefinition_t>
-        class ArtyWeaponInfo_t:
-            m_unID = 0x8 # ArtyWeaponID_t
-            m_sWeaponLocName = 0x10 # CUtlString
-            m_sWeaponLocDesc = 0x18 # CUtlString
-            m_sWeaponSwapSound = 0x20 # CUtlString
-            m_sWeaponFireSound = 0x28 # CUtlString
-            m_sWeaponImage = 0x30 # CPanoramaImageName
-            m_bIsPlayerWeapon = 0x40 # bool
-            m_strGraphicInfoName = 0x48 # CUtlString
-            m_weaponAttackActivity = 0x54 # GameActivity_t
-            m_flShotCreationTime = 0x58 # float32
-            m_flDamage = 0x5C # float32
-            m_flHitRadius = 0x60 # float32
-            m_flTerrainCarveRadius = 0x64 # float32
-            m_flDamageRadius = 0x68 # float32
-            m_flLockedAngle = 0x6C # float32
-            m_flLockedPower = 0x70 # float32
-            m_flReloadTime = 0x74 # float32
-            m_nSplitCount = 0x78 # int32
-            m_flSplitTime = 0x7C # float32
-            m_flSplitRepeatTime = 0x80 # float32
-            m_flSplitDispersion = 0x84 # float32
-            m_bSplitAtTop = 0x88 # bool
-            m_bZeroXOnSplit = 0x89 # bool
-            m_bSplitRepeats = 0x8A # bool
-            m_szSplitWeapon = 0x90 # CUtlString
-            m_flMaxSpeed = 0x9C # float32
-            m_flDragMult = 0xA0 # float32
-            m_flWindMult = 0xA4 # float32
-            m_bIsRay = 0xA8 # bool
-            m_flRangeMult = 0xAC # float32
-            m_nInitialShotCount = 0xB0 # int32
-            m_nInitialShotAngleDispersionPer = 0xB4 # float32
-            m_flManaCost = 0xB8 # float32
-            m_bDisabled = 0xBC # bool
-            m_bBounces = 0xBD # bool
-            m_bBounceOffTarget = 0xBE # bool
-            m_flFuseTime = 0xC0 # float32
-            m_flBounceDrag = 0xC4 # float32
-            m_nMaxReloads = 0xC8 # int32
-            m_flGravityMult = 0xCC # float32
-            m_bProximityFuse = 0xD0 # bool
-            m_bUseHighArc = 0xD1 # bool
-            m_bCollides = 0xD2 # bool
-            m_bDirectAimAtTarget = 0xD3 # bool
-            m_nWeaponPoints = 0xD4 # int32
-            m_nRayDigTimes = 0xD8 # int32
-            m_bNoShootingWhileInAir = 0xDC # bool
-            m_bListenForKeypress = 0xDD # bool
-            m_vVelocityMultOnKeypress = 0xE0 # Vector2D
-            m_vVelocityOffsetOnKeypress = 0xE8 # Vector2D
-            m_bShowTrajectory = 0xF0 # bool
-            m_vVelocityMultOnExplode = 0xF4 # Vector2D
-            m_vVelocityOffsetOnExplode = 0xFC # Vector2D
-            m_nExplodeTimes = 0x104 # int32
-            m_flRadiusChangePerExplode = 0x108 # float32
-        class CSurvivorsSpawnerEliteTurretDefinition:
-            m_sInvulnerableParticle = 0x148 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sInvulnerableSkinName = 0x228 # CUtlString
-            m_sLocName = 0x0 # CUtlString
         class CSurvivorsPowerUp_LandMine:
             m_sParticle = 0x608 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sExplosionParticle = 0x6E8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_flScepterVacuumRadius = 0x7E0 # float32
             m_flScepterVacuumDistance = 0x7E4 # float32
             m_nMineTypeIndex = 0x800 # int32
-        class CDOTACrateDropTrackLightDef:
-            pass
-        class SettingsSubSectionIndex_t:
-            m_Value = 0x0 # int32
-        class CDOTAFlappySkywrathInputAction:
-            eAction = 0x0 # EFlappySkywrathInputAction
-            vecButtons = 0x8 # CUtlVector<int32>
-        class CDOTAOverworldTarotCard:
-            m_unID = 0x0 # OverworldTarotCardID_t
-            m_sName = 0x8 # CUtlString
-            m_bIsCardBack = 0x10 # bool
-            m_eFortuneReward = 0x14 # EOverworldFortuneReward
-            m_eFortuneRequirement = 0x18 # EOverworldFortuneRequirement
-            m_eFortuneModifier = 0x1C # EOverworldFortuneModifier
-            m_sFortunePosition1 = 0x20 # CUtlString
-            m_sFortunePosition2 = 0x28 # CUtlString
-            m_sFortunePosition3 = 0x30 # CUtlString
-            m_sSoundEventName = 0x38 # CUtlString
-            m_vecSoundEventOptions = 0x40 # CUtlVector<CUtlString>
-            m_unUnlockReward = 0x58 # uint32
-        class CSurvivorsAttributeDefinition:
-            m_sLocName = 0x0 # CUtlString
-            m_sLocTooltip = 0x8 # CUtlString
-            m_sLocDescription = 0x10 # CUtlString
-            m_sLocMetaUpgradesTooltip = 0x18 # CUtlString
-            m_sImage = 0x20 # CPanoramaImageName
-            m_bPrimary = 0x30 # bool
-            m_bPercentage = 0x31 # bool
-            m_bShouldUpgradeProgressionText = 0x32 # bool
-            m_vecMetaProgressionTiers = 0x38 # CUtlVector<CSurvivorsAttributeDefinition::MetaProgressionTier_t>
         class CSurvivorsEnemyPillar:
             m_bDestroyed = 0x338 # bool
             m_pPillarEntity = 0x33C # CHandle<C_BaseModelEntity>
-        class CSurvivorsPowerUpDefinition_Spirits:
-            m_sParticle = 0x6A0 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sExplosionParticle = 0x780 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CrownfallSurvivorsLightingEnvironment_t:
-            vecLightDirection = 0x0 # Vector
-            flGlobalLightScale = 0xC # float32
-            flPointLightScale = 0x10 # float32
-            cLightColor = 0x14 # Color
-            cAmbientColor = 0x18 # Color
-            cShadowColor = 0x1C # Color
-            cShadowSecondaryColor = 0x20 # Color
-            cSpecularColor = 0x24 # Color
-        class CDOTAFlappySkywrathCharacter:
-            flInitialSpeed = 0x0 # float32
-            flMaxSpeed = 0x4 # float32
-            flAcceleration = 0x8 # float32
-            flActionCooldown = 0xC # float32
         class CSurvivorsPowerUp_LagunaBlade:
             m_nEliteExtraHit = 0x6F0 # int32
-        class CSurvivorsDifficultyDefinition:
-            m_sLocDifficultyName = 0x0 # CUtlString
-            m_sLocDifficultyDescription = 0x8 # CUtlString
-            m_sLocDifficultyUpgradeText = 0x10 # CUtlString
-            m_flPlayerMaxHPMultiplier = 0x20 # float32
-            m_flPlayerHPRegenerationMultiplier = 0x24 # float32
-            m_flEnemyHealthMultiplier = 0x28 # float32
-            m_flEnemyDamageMultiplier = 0x2C # float32
-            m_flEnemyMovementSpeedMultiplier = 0x30 # float32
-            m_flEnemyTurnRateMultiplier = 0x34 # float32
-            m_flEnemySpawnCountMuliplier = 0x38 # float32
-            m_flEnemyTouchMovementSlowDuration = 0x3C # float32
-            m_flXPDropChanceMultiplier = 0x40 # float32
-            m_flXPLevelUpRequirementMultiplier = 0x44 # float32
-            m_flAdditionalFirstFloorTime = 0x48 # float32
-            m_bEnableMeteorModifier = 0x4C # bool
-            m_vecAdditionalEnemySpawners = 0x50 # CUtlVector<CSurvivorsSpawnerDefinition>
-            m_vecAdditionalEnemyEvents = 0x68 # CUtlVector<CSurvivorsEnemyEventDefinition>
-            m_vecAdditionalStartingPowerUps = 0x80 # CUtlVector<SurvivorsPowerUpID_t>
-            m_vecOverrideImperiaEnrageHealthThresholds = 0x98 # CUtlVector<float32>
         class CSurvivorsPowerUp_AreaAttack_Line:
             m_vCachedFacingDirection = 0x800 # Vector
             m_bUseFacingDirection = 0x80C # bool
-        class CDOTACrateDropLevelDef:
-            m_unID = 0x8 # DOTACrateDropLevelDefID_t
-            m_nCratesForGameOver = 0xC # int32
-            m_nCratesForNextLevel = 0x10 # int32
-            m_flCrateSpawnInterval = 0x14 # float32
-            m_flHazardSpawnIntervalMin = 0x18 # float32
-            m_flHazardSpawnIntervalMax = 0x1C # float32
-            m_flPowerupInterval = 0x20 # float32
-            m_flPowerupChance = 0x24 # float32
-            m_nMaxCratesOnLevel = 0x28 # int32
-            m_vecDropTableCrates = 0x30 # CUtlVector<CDOTACrateDropTable>
-            m_vecDropTableHazards = 0x48 # CUtlVector<CDOTACrateDropTable>
-            m_vecDropTablePowerups = 0x60 # CUtlVector<CDOTACrateDropTable>
-            m_nRotationChance = 0x78 # int32
-            m_nRotationSpeedMin = 0x7C # int32
-            m_nRotationSpeedMax = 0x80 # int32
-        class CSurvivorsSpawnerDestructiblesDefinition:
-            m_flMinimumDistanceBetween = 0x148 # float32
-            m_flDestroyDistance = 0x14C # float32
-        class CSurvivorsEnemyDefinition:
-            m_unEnemyID = 0x8 # SurvivorsEnemyID_t
-            m_vecModelNames = 0x18 # CUtlVector<CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>>
-            m_sStatsName = 0x30 # CUtlString
-            m_sDisplayName = 0x38 # CUtlString
-            m_sImageThumbnail = 0x40 # CPanoramaImageName
-            m_bUseHeroModel = 0x50 # bool
-            m_nDOTAHeroID = 0x54 # HeroID_t
-            m_vecEconItems = 0x58 # CUtlVector<item_definition_index_t>
-            m_unStyleIndex = 0x70 # style_index_t
-            m_sSkinName = 0x78 # CUtlString
-            m_sSkinNames = 0x80 # CUtlVector<CUtlString>
-            m_flTouchDamage = 0x98 # float32
-            m_bDieOnTouch = 0x9C # bool
-            m_vecAttacks = 0xA0 # CUtlVector<CSurvivorsEnemyDefinition::Attack>
-            m_vecPickupChances = 0xB8 # CUtlVector<CSurvivorsEnemyDefinition::PickupChance>
-            m_vecLootTable = 0xD0 # CUtlVector<CSurvivorsEnemyDefinition::PickupChance>
-            m_fullLootTable = 0xE8 # CSurvivorsLootTable
-            m_flMaxHealth = 0x100 # float32
-            m_flMaxHealthPerPlayerLevel = 0x104 # float32
-            m_flMoveSpeed = 0x108 # float32
-            m_flModelScale = 0x10C # float32
-            m_flMaxModelScaleVariance = 0x110 # float32
-            m_flCollisionRadius = 0x114 # float32
-            m_bHasSolidBody = 0x118 # bool
-            m_bUndespawnable = 0x119 # bool
-            m_flOverrideDespawnRadiusBuffer = 0x11C # float32
-            m_bHasDeathAnimation = 0x120 # bool
-            m_bDissolveOnDeath = 0x121 # bool
-            m_flDeathDuration = 0x124 # float32
-            m_flDeathEffect_DissolveEdgeWidth = 0x128 # float32
-            m_flDeathEffect_DissolveScale = 0x12C # float32
-            m_flDeathEffect_DissolveColor = 0x130 # Vector
-            m_bRandomFacing = 0x13C # bool
-            m_bPlayerFacing = 0x13D # bool
-            m_vFixedFacing = 0x140 # Vector2D
-            m_sDeathEffectParticle = 0x148 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flMoveAnimPlaybackRate = 0x228 # float32
-            m_flIdleAnimPlaybackRate = 0x22C # float32
-            m_flTurnRate = 0x230 # float32
-            m_flSinMovementAngle = 0x234 # float32
-            m_flSinMovementPeriodMultiplier = 0x238 # float32
-            m_flMass = 0x23C # float32
-            m_flKnockbackResistance = 0x240 # float32
-            m_flStatusResistance = 0x244 # float32
-            m_bIsElite = 0x248 # bool
-            m_bIsMiniboss = 0x249 # bool
-            m_bIsDestructible = 0x24A # bool
-            m_bHasGlowOutline = 0x24B # bool
-            m_bOverrideGlowColor = 0x24C # bool
-            m_cOverriddenGlowColor = 0x24D # Color
-            m_bShowHealthBar = 0x251 # bool
-            m_bCenterRooted = 0x252 # bool
-            m_bRotates = 0x253 # bool
-            m_bRandomizeSinTurnTimerOnSpawn = 0x254 # bool
-            m_bInvulnerable = 0x255 # bool
-            m_bPlayerFriendly = 0x256 # bool
-            m_nSplitOnDeathNumUnits = 0x258 # int32
-            m_unSplitOnDeathEnemyID = 0x25C # SurvivorsEnemyID_t
-            m_flSplitOnDeathKnockbackDistance = 0x260 # float32
-            m_eMovementBehavior = 0x264 # ESurvivorsEnemyMovementBehavior
-            m_eMovementCapability = 0x268 # ESurvivorsEnemyMovementCapability
-            m_activityIdle = 0x26C # GameActivity_t
-            m_activityMove = 0x270 # GameActivity_t
-            m_activityDie = 0x274 # GameActivity_t
-            m_activityDisabled = 0x278 # GameActivity_t
-            m_bPlayDeathSound = 0x27C # bool
-            m_eSeparationLayer = 0x280 # ESurvivorsEnemySeparationLayer
-        class CDOTAOverworldRoom:
-            m_unRoomID = 0x0 # OverworldRoomID_t
-            m_vPos = 0x4 # Vector2D
-            m_vSize = 0xC # Vector2D
-            m_strBackgroundImage = 0x18 # CPanoramaImageName
-            m_vecNodes = 0x28 # CUtlVector<OverworldNodeID_t>
-            m_unUnlockedByNodeID = 0x40 # OverworldNodeID_t
-        class CDOTAFishingGameDefinition:
-            m_strID = 0x0 # CUtlString
-            m_bBurrowedFish = 0x8 # bool
-            m_strMapName = 0x10 # CUtlString
-            m_strBurrowedFishParticle = 0x18 # CUtlString
-            m_vecFishTypes = 0x20 # CUtlVector<CDOTAFishingGameFish*>
-            m_mapFishNameToVecIndex = 0x38 # CUtlOrderedMap<CUtlString,int32>
-            m_mapCategoryToDifficulty = 0x60 # CUtlOrderedMap<EFishingGameFishCategory,float32>
-        class CSurvivorsSpawnerGolemDefinition:
-            pass
-        class CSurvivorsEnemyEventDefinition:
-            m_sSpawnerName = 0x0 # CUtlString
-            m_nMinimumEnemyCountOverride = 0x8 # int32
-            m_nMaxSpawnCountPerIntervalOverride = 0xC # int32
-            m_nOverflowEnemySpawnCountOverride = 0x10 # int32
-            m_flSpawnIntervalOverride = 0x14 # float32
-            m_flStartTime = 0x18 # float32
-            m_flEndTime = 0x1C # float32
-        class SZooSetAnnotationsConfig_t:
-            m_allAnnotations = 0x0 # CUtlVector<SZooSetAnnotations_t>
-        class ArtyGraphicID_t:
-            m_Value = 0x0 # uint32
         class CSurvivorsUnit_Snotty:
             m_flRotationSpeedDeg = 0x338 # float32
             m_flRotationDist = 0x33C # float32
             m_flDegCur = 0x340 # float32
             m_flLastPickupRadius = 0x344 # float32
             m_nPowerUpID = 0x358 # SurvivorsPowerUpID_t
-        class ArtyConstants_t:
-            m_flWindAccel = 0x0 # float32
-            m_flG0 = 0x4 # float32
-            m_flDragCoeff = 0x8 # float32
-            m_bPuzzle = 0xC # bool
-            m_flMinVelocityForFallDamage = 0x10 # float32
-            m_flFallDamageMult = 0x14 # float32
-            m_flMinAirTimeForDamage = 0x18 # float32
-            m_bRefillAmmoEachLevel = 0x1C # bool
-            m_flMaxClimbHeight = 0x20 # float32
-            m_bShowPathProjection = 0x24 # bool
-            m_bShowTrails = 0x25 # bool
-            m_bClearOldTrailsOnFire = 0x26 # bool
-            m_flTrailLingerSeconds = 0x28 # float32
-            m_flVelocityPerChargeSecond = 0x2C # float32
-            m_flMinimumGameObjectY = 0x30 # float32
-        class CSurvivorsAttributeDefinition__MetaProgressionTier_t:
-            m_cost = 0x0 # CSurvivorsAttributeDefinition::MetaProgressionTierCost_t
-            m_flValue = 0x50 # float32
         class CSurvivorsPowerUp_InstantAttack:
             m_sParticle = 0x608 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_eTargeting = 0x6E8 # ESurvivorsAttackTargeting
-        class CDOTALockpickingGameDefinition:
-            m_vecStages = 0x0 # CUtlVector<CDOTALockpickingStageDefinition>
-            m_successEffect = 0x18 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_failEffect = 0xF8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nScorePerUnlock = 0x1D8 # int32
-        class CDOTACrateDropDroppableDef:
-            m_flBasePoints = 0xE0 # float32
-        class Match3OpponentActionID_t:
-            m_Value = 0x0 # uint32
-        class CDOTAOverworldPath:
-            m_unID = 0x0 # OverworldPathID_t
-            m_unNodeStart = 0x2 # OverworldNodeID_t
-            m_unNodeEnd = 0x4 # OverworldNodeID_t
-            m_strPathHiddenUntilEventAction = 0x8 # CUtlString
-            m_unCost = 0x10 # uint8
-            m_splineInfo = 0x30 # OverworldSplineInfo_t
-            m_flCurveAngle = 0x40 # float32
-            m_vecRequiredTokenNames = 0x48 # CUtlVector<CUtlString>
         class CSurvivorsPowerUp_Stampede:
             m_sParticle = 0x638 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_unParticleID = 0x718 # SurvivorsParticleID_t
             m_pParticle = 0x720 # CNewParticleEffect*
-        class CSurvivorsPowerUpDefinition_InstantAttack:
-            m_eTargeting = 0x6A0 # ESurvivorsAttackTargeting
-            m_sParticle = 0x6A8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CSurvivorsPowerUpDefinition_Frostbite:
-            m_flScepterExplodeRadius = 0x788 # float32
-        class CDOTAOverworldCharacter:
-            m_appearance = 0x8 # CDOTAOverworldCharacterBase
-            m_conditions = 0x40 # CDOTAOverworldCharacterConditional
-            m_unHeroPartyID = 0x60 # OverworldHeroID_t
-            m_partyConditions = 0x68 # CDOTAOverworldCharacterConditional
-        class SZooSetAnnotations_t:
-            m_strSetName = 0x0 # CUtlString
-            m_annotations = 0x8 # CUtlVector<SZooSetAnnotation_t>
-        class CSurvivorsPowerUpDefinition_MagicMissile:
-            m_flShardDamageMultiplier = 0x798 # float32
-            m_flScepterDamageIncreasePerEnemyKilled = 0x79C # float32
-            m_sImpactParticle = 0x7A0 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CSurvivorsPickupDefinition:
-            m_unPickupID = 0x0 # SurvivorsPickupID_t
-            m_sPowerUpName = 0x8 # CUtlString
-            m_sParticleEffect = 0x10 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nModelIndex = 0xF0 # int32
-            m_sDirectionalHelperParticle = 0xF8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sOnPickupOverheadEffect = 0x1D8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nHealAmount = 0x2B8 # int32
-            m_nGoldAmount = 0x2BC # int32
-            m_bRewardsTreasure = 0x2C0 # bool
-            m_nTreasureVariant = 0x2C4 # int32
-            m_bShowInMinimap = 0x2C8 # bool
-            m_sMinimapIconSnippet = 0x2D0 # CUtlString
-            m_bCanSpawnWithVelocity = 0x2D8 # bool
-            m_flMaxSpawnVelocity = 0x2DC # float32
-            m_sDropSoundEvent = 0x2E0 # CUtlString
-        class CMatch3OpponentActionDefinition:
-            m_unOpponentActionID = 0x38 # Match3OpponentActionID_t
-        class CDOTAOverworldHero:
-            m_unID = 0x0 # OverworldHeroID_t
-            m_unStartNodeID = 0x2 # OverworldNodeID_t
-            m_vecBlockedNodes = 0x8 # CUtlVector<OverworldNodeID_t>
-            m_baseAppearance = 0x20 # CDOTAOverworldCharacterBase
-            m_vecOverrides = 0x58 # CUtlVector<DOTAOverworldCharacterOverrideConditional_t>
-        class CDOTAMotionComicImageFrame:
-            m_Image = 0x10 # CPanoramaImageName
         class CSurvivorsAttackParticleInfo:
             unParticleID = 0x0 # SurvivorsParticleID_t
             flTimeLeft = 0x4 # float32
-        class PointCameraSettings_t:
-            m_flNearBlurryDistance = 0x0 # float32
-            m_flNearCrispDistance = 0x4 # float32
-            m_flFarCrispDistance = 0x8 # float32
-            m_flFarBlurryDistance = 0xC # float32
         class CSurvivorsAttributeValue:
             m_eType = 0x0 # SurvivorsAttributeType_t
             m_flValue = 0x4 # float32
@@ -26848,158 +25225,12 @@ class Schemas:
             m_flWarmupEffectTime = 0x598 # float32
             m_flSpawnPickupOnKillPercent = 0x59C # float32
             m_unSpawnPickupOnKillID = 0x5A0 # SurvivorsPickupID_t
-        class CMatch3AbilityParamDefinition:
-            name = 0x0 # CUtlString
-            value = 0x8 # float32
-            str = 0x10 # CUtlString
-            resource = 0x18 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            desc = 0xF8 # CUtlString
         class CInterpolatedValue:
             m_flStartTime = 0x0 # float32
             m_flEndTime = 0x4 # float32
             m_flStartValue = 0x8 # float32
             m_flEndValue = 0xC # float32
             m_nInterpType = 0x10 # int32
-        class ArtySpawnerDef_t:
-            m_flInitialDelay = 0xB0 # float32
-            m_flDelayBetween = 0xB4 # float32
-            m_nNumToSpawn = 0xB8 # int32
-            m_eSpawnedUnitTeam = 0xBC # EArtyTeam
-            m_szGameObject = 0xC0 # CUtlString
-        class CSurvivorsPowerUpDefinition_MortimerKisses:
-            m_flMinRange = 0x868 # float32
-            m_flLaunchDistance = 0x86C # float32
-            m_flScepterLaunchDistance = 0x870 # float32
-            m_flAnglePerShot = 0x874 # float32
-            m_sArtilleryParticle = 0x878 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CSurvivorsPowerUpDefinition_Track:
-            pass
-        class ArtyLevelObjectInstance_t:
-            m_szLeftBorderObject = 0x38 # CUtlString
-            m_flLeftObjectOffset = 0x40 # float32
-            m_szRightBorderObject = 0x48 # CUtlString
-            m_flRightObjectOffset = 0x50 # float32
-            m_bRandomPosition = 0x54 # bool
-            m_bRepositionToTerrain = 0x55 # bool
-            m_flLeftBorderWidthMult = 0x58 # float32
-            m_flRightBorderWidthMult = 0x5C # float32
-            m_flAppearanceChance = 0x60 # float32
-            m_eTeam = 0x64 # EArtyTeam
-            m_flTimeOffset = 0x68 # float32
-            m_vecCustomOrders = 0x70 # CUtlVector<ArtyEnemyOrder_t>
-        class CDOTACrateDropGameDef:
-            m_vGravity = 0x0 # Vector
-            m_flGameOverTime = 0xC # float32
-            m_flGameWonTime = 0x10 # float32
-            m_flLevelWonTime = 0x14 # float32
-            m_flLevelIntroTime = 0x18 # float32
-            m_flSecondRowOffset = 0x1C # float32
-            m_flAbilityCooldown = 0x20 # float32
-            m_flHeightVisualizationStep = 0x24 # float32
-            m_flMultiplierStep = 0x28 # float32
-            m_flMultiplierFactor = 0x2C # float32
-            m_flTutorialCrateSpawnInterval = 0x30 # float32
-            m_flTutorialStepInvervalTime = 0x34 # float32
-            m_flShieldDuration = 0x38 # float32
-            m_flHurtDecayRate = 0x3C # float32
-            m_flGoopDuration = 0x40 # float32
-            m_flGoopSlow = 0x44 # float32
-            m_nRegenInstances = 0x48 # int32
-            m_flRegenHealInterval = 0x4C # float32
-            m_flHeightBonusToastTime = 0x50 # float32
-            m_flFallCrateVOChance = 0x54 # float32
-            m_flHazardSpawnVOChance = 0x58 # float32
-        class SurvivorsPickupID_t:
-            m_Value = 0x0 # uint32
-        class CShmupBossDefinition:
-            m_vecBodyParts = 0x0 # CUtlVector<CShmupBossBodyPart>
-            m_flIntroDuration = 0x18 # float32
-            m_flMouthLaserChargeTime = 0x1C # float32
-            m_flMouthLaserDuration = 0x20 # float32
-            m_flWingBarrageChargeTime = 0x24 # float32
-            m_flWingBarrageDuration = 0x28 # float32
-            m_nSplinterBlastCount = 0x2C # int32
-            m_fSplinterBlastChargeTime = 0x30 # float32
-            m_flSplinterBlastDuration = 0x34 # float32
-            m_flColdEmbraceDuration = 0x38 # float32
-            m_vIdlePosition = 0x3C # Vector2D
-        class NewSettingsID_t:
-            m_Value = 0x0 # uint32
-        class ArtyLevelID_t:
-            m_Value = 0x0 # uint32
-        class CSurvivorsEnemyDefinition_ImperiaBoss:
-            m_flBurningGroundImpactDamage = 0x288 # float32
-            m_flBurningGroundImpactRadius = 0x28C # float32
-            m_flBurningGroundImpactSpawnDelay = 0x290 # float32
-            m_flBurningGroundFlamesDuration = 0x294 # float32
-            m_flBurningGroundDoTDuration = 0x298 # float32
-            m_flBurningGroundDoTDamage = 0x29C # float32
-            m_flBurningGroundImpactStunDuration = 0x2A0 # float32
-            m_nBurningGroundInstancesPerEnrageLevel = 0x2A4 # int32
-            m_sBurningGroundImpactParticleName = 0x2A8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sBurningGroundDoTParticleName = 0x388 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sBurningGroundBurnParticleName = 0x468 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flRadiateRaysCastStartDuration = 0x548 # float32
-            m_flRadiateRaysDuration = 0x54C # float32
-            m_flRadiateRaysInterval = 0x550 # float32
-            m_flRadiateRaysAngle = 0x554 # float32
-            m_flRadiateRaysSpeed = 0x558 # float32
-            m_flRadiateRaysDamage = 0x55C # float32
-            m_flRadiateRaysProjectileRadius = 0x560 # float32
-            m_sRadiateRaysRayParticle = 0x568 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sRadiateRaysBuffParticle = 0x648 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nDemonPortalsNumToCreate = 0x728 # float32
-            m_flDemonPortalDeactivateTime = 0x72C # float32
-            m_nMaxDemonPortalCount = 0x730 # int32
-            m_flDemonPortalDeactivateRadius = 0x734 # float32
-            m_vecDemonPortalSpawners = 0x738 # CUtlVector<CUtlString>
-            m_sDemonPortalsPortalParticle = 0x750 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sDemonPortalsTelegraphParticle = 0x830 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nNumMagicMissiles = 0x910 # int32
-            m_flMagicMissileProjectileSpeed = 0x914 # float32
-            m_flMagicMissileProjectileSpeedIncreasePerEnrage = 0x918 # float32
-            m_flMagicMissileDamage = 0x91C # float32
-            m_flMagicMissileProjectileRadius = 0x920 # float32
-            m_sMagicMissileParticle = 0x928 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flInitialEnrageTime = 0xA08 # float32
-            m_flIncrementalEnrageTime = 0xA0C # float32
-            m_vecMandatoryEnrageHealthThresholds = 0xA10 # CUtlVector<float32>
-            m_sImperiaAmbientBody = 0xA28 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sImperiaAmbientWings = 0xB08 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CShmupBulletInfo:
-            m_pattern = 0x0 # EShmupBulletPattern
-            m_nCount = 0x4 # int32
-            m_flSpeed = 0x8 # float32
-            m_flRadius = 0xC # float32
-            m_flRandomTargetingOffsetMin = 0x10 # float32
-            m_flRandomTargetingOffsetMax = 0x14 # float32
-            m_nBulletsPerWave = 0x18 # int32
-            m_flAngleWidth = 0x1C # float32
-            m_flAngleOffset = 0x20 # float32
-            m_flSpeedPerBullet = 0x24 # float32
-            m_flRadiusPerBullet = 0x28 # float32
-            m_flAngleOffsetPerBullet = 0x2C # float32
-            m_flAngleOffsetPerWave = 0x30 # float32
-            m_flAngleStaggerPerWave = 0x34 # float32
-            m_flAngleSinWaveOffset = 0x38 # float32
-            m_bSwapColorPerBullet = 0x3C # bool
-            m_flInterval = 0x40 # float32
-            m_vFixedDirection = 0x44 # Vector2D
-            m_bUseStoredPlayerLocation = 0x4C # bool
-        class SZooSetAnnotation_t:
-            m_strSetTag = 0x0 # CUtlString
-        class SurvivorsPhysicsBodyID_t:
-            m_Value = 0x0 # uint32
-        class CDOTACrownfallCreditsBlockDefinition:
-            m_vecCharacters = 0x0 # CUtlVector<CDOTACrownfallCreditsCharacterDefinition>
-            m_scene = 0x18 # CDOTACrownfallCreditsMapSceneDefinition
-            m_strCustomPanoramaClass = 0x80 # CUtlString
-            m_nMarginBottom = 0x88 # int32
-            m_nMarginTop = 0x8C # int32
-            m_bSpecialThanksBlock = 0x90 # bool
-            m_strLocText = 0x98 # CUtlString
-            m_bJustText = 0xA0 # bool
-            m_nStopOffset = 0xA4 # int32
         class CSurvivorsPowerUp_AreaAttack:
             m_sParticle = 0x608 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sHitImpactParticle = 0x6E8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -27007,32 +25238,6 @@ class Schemas:
             m_eOrigin = 0x7E0 # ESurvivorsAreaAttackOrigin
             m_flRemoveParticleTimeDelay = 0x7E4 # float32
             m_vecAttackParticles = 0x7E8 # CUtlVector<CSurvivorsAttackParticleInfo>
-        class SurvivorsHeroID_t:
-            m_Value = 0x0 # uint32
-        class CDOTAOverworldCharacterBase:
-            m_sImage = 0x0 # CPanoramaImageName
-            m_sClassName = 0x10 # CUtlString
-            m_vSize = 0x18 # Vector2D
-            m_vOffset = 0x20 # Vector2D
-            m_unFrameWidth = 0x28 # uint16
-            m_unFrameTime = 0x2A # uint16
-            m_bUse3dPreview = 0x2C # bool
-            m_nPreviewHeroID = 0x30 # HeroID_t
-        class CSurvivorsPowerUpDefinition_EchoStrike:
-            pass
-        class CDOTAFlappySkywrathDifficulty:
-            characterPlayer = 0x0 # CDOTAFlappySkywrathCharacter
-            characterOpponent = 0x10 # CDOTAFlappySkywrathCharacter
-            flRaceDistance = 0x20 # float32
-            flBaseObstacleDistanceInterval = 0x24 # float32
-            flBaseObstacleGapDistance = 0x28 # float32
-            flMinObstacleGapDistance = 0x2C # float32
-            flCollisionSpeedReduction = 0x30 # float32
-            flLandedMaxSpeed = 0x34 # float32
-            flCollisionInputCooldown = 0x38 # float32
-        class TimedEvent:
-            m_TimeBetweenEvents = 0x0 # float32
-            m_fNextEvent = 0x4 # float32
         class CFlashlightEffect:
             m_bIsOn = 0x10 # bool
             m_bMuzzleFlashEnabled = 0x20 # bool
@@ -27047,52 +25252,6 @@ class Schemas:
             m_FlashlightTexture = 0x60 # CStrongHandle<InfoForResourceTypeCTextureBase>
             m_MuzzleFlashTexture = 0x68 # CStrongHandle<InfoForResourceTypeCTextureBase>
             m_textureName = 0x70 # char[64]
-        class CSurvivorsEnemyDefinition__Attack:
-            m_sParticleName = 0x0 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flDamage = 0xE0 # float32
-            m_flAttackCooldown = 0xE4 # float32
-            m_flSpeed = 0xE8 # float32
-            m_flRange = 0xEC # float32
-            m_flMaxDistance = 0xF0 # float32
-            m_flLifeTime = 0xF4 # float32
-            m_flAttackOffsetUp = 0xF8 # float32
-            m_flAttackOffsetForward = 0xFC # float32
-            m_flRadius = 0x100 # float32
-            m_activity = 0x104 # GameActivity_t
-            m_flAttackPoint = 0x108 # float32
-            m_bHasIndicator = 0x10C # bool
-            m_flSpawnDelay = 0x110 # float32
-            m_eIndicatorShape = 0x114 # SurvivorsAttackIndicatorShape_t
-        class CShmupGameDefinition:
-            m_flGameWidth = 0x0 # float32
-            m_flGameHeight = 0x4 # float32
-            m_flBossFightDuration = 0x8 # float32
-            m_nComboBaseScore = 0xC # int32
-            m_player = 0x10 # CShmupPlayerDefinition
-            m_boss = 0x70 # CShmupBossDefinition
-        class CSurvivorsHeroDefinition:
-            m_unHeroID = 0x0 # SurvivorsHeroID_t
-            m_nDOTAHeroID = 0x4 # HeroID_t
-            m_flBaseHealth = 0x10 # float32
-            m_flBaseSpeed = 0x14 # float32
-            m_flBasePickupRadius = 0x18 # float32
-            m_flBaseDashSpeed = 0x1C # float32
-            m_flBaseDashDuration = 0x20 # float32
-            m_flBaseDashCooldown = 0x24 # float32
-            m_nBaseNumDashes = 0x28 # int32
-            m_flMass = 0x2C # float32
-            m_flCollisionRadius = 0x30 # float32
-            m_flCollisionHeight = 0x34 # float32
-            m_flTriggerCollisionRadiusPadding = 0x38 # float32
-            m_pszPlayerHitSoundEvent = 0x40 # CUtlString
-            m_sLocDisplayName = 0x48 # CUtlString
-            m_vecEconItems = 0x50 # CUtlVector<item_definition_index_t>
-            m_unStyleIndex = 0x68 # style_index_t
-            m_vecBaseAttributes = 0x70 # CUtlVector<CSurvivorsAttributeValue>
-            m_vecStartingPowerUps = 0x88 # CUtlVector<SurvivorsPowerUpID_t>
-            m_vecInnatePowerUps = 0xA0 # CUtlVector<SurvivorsPowerUpID_t>
-        class CSurvivorsEnemyDefinition_Snotty:
-            pass
         class CSurvivorsPowerUp_MortimerKisses:
             m_vecQueuedAttackTimers = 0x800 # CUtlVector<float32>
             m_sArtilleryParticle = 0x818 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -27101,156 +25260,14 @@ class Schemas:
             m_flScepterLaunchDistance = 0x900 # float32
             m_flAnglePerShot = 0x904 # float32
             m_unArtilleryParticleID = 0x908 # SurvivorsParticleID_t
-        class CDOTAFlappySkywrathDefinition:
-            strID = 0x0 # CUtlString
-            sLayoutPath = 0x8 # CUtlString
-            sMapFile = 0x10 # CUtlString
-            sMapLoopingFile = 0x18 # CUtlString
-            sMapBGFile = 0x20 # CUtlString
-            vecDifficulties = 0x28 # CUtlVector<CDOTAFlappySkywrathDifficulty>
-            flMinimumSpeed = 0x40 # float32
-            flGravity = 0x44 # float32
-            flJumpPower = 0x48 # float32
-            flGlideAcceleration = 0x4C # float32
-            flGlideFallSpeed = 0x50 # float32
-            flDashDuration = 0x54 # float32
-            flDashBoost = 0x58 # float32
-            flDashSpeed = 0x5C # float32
-            flDiveDuration = 0x60 # float32
-            flDiveSpeed = 0x64 # float32
-            flTrackDistance = 0x68 # float32
-            flCameraDistance = 0x6C # float32
-            vCameraOffset = 0x70 # Vector
-            vCameraEdgeThresholds = 0x7C # Vector2D
-            flCameraAcceleration = 0x84 # float32
-            vPlayerSize = 0x88 # Vector2D
-            vPlayerVerticalBounds = 0x90 # Vector2D
-            vObstacleVerticalBounds = 0x98 # Vector2D
-            vObstacleHorizontalBounds = 0xA0 # Vector2D
-            flTopOffsetToTip = 0xA8 # float32
-            flBottomOffsetToTip = 0xAC # float32
-            vecInputActions = 0xD8 # CUtlVector<CDOTAFlappySkywrathInputAction>
         class CSurvivorsEnemyGolem:
             pass
-        class CShmupPathDefinition:
-            m_strNameInMap = 0x8 # CUtlString
-            m_flSpeed = 0x10 # float32
-            m_vPathOffset = 0x14 # Vector
-            m_vecPathEvents = 0x20 # CUtlVector<CShmupPathEvent>
-        class CShmupEventTime:
-            m_flDelay = 0x0 # float32
-            m_strEventName = 0x8 # CUtlString
-            m_bPathFlipped = 0x10 # bool
-            m_bInvertColors = 0x11 # bool
-            m_nCount = 0x14 # int32
-            m_flRepeatInterval = 0x18 # float32
-            m_vOffset = 0x1C # Vector
-            m_vRepeatOffset = 0x28 # Vector
-            m_children = 0x38 # CUtlVector<CShmupEventTime>
-        class CMatch3GameModeDefinition:
-            m_unGameModeID = 0x0 # Match3GameModeID_t
-            m_sLocName = 0x10 # CUtlString
-            m_sOpponentScene = 0x18 # CUtlString
-            m_sBackgroundImage = 0x20 # CPanoramaImageName
-            m_nBoardRows = 0x30 # int32
-            m_nBoardCols = 0x34 # int32
-            m_flPlayerHealth = 0x38 # float32
-            m_vecHeroes = 0x40 # CUtlVector<CUtlString>
-            m_vecLevels = 0x58 # CUtlVector<CMatch3Level*>
-        class CDOTACrateDropPlatformDef:
-            pass
-        class CDOTASlarkJailbreakGameDefinition:
-            m_nPointsPerBlock = 0x0 # int32
-            m_nPointsPerBonusBlock = 0x4 # int32
-            m_nPointsPerCompletedLevel = 0x8 # int32
-            m_vecStages = 0x10 # CUtlVector<CDOTASlarkJailbreakStageDefinition>
-        class CDOTAOverworldDefinition:
-            generic_data_type = 0x0 # CUtlString
-            m_unID = 0x8 # OverworldID_t
-            m_sKey = 0x10 # CUtlString
-            m_eAssociatedEvent = 0x18 # EEvent
-            m_eProgressionType = 0x1C # EOverworldProgressionType
-            m_unOverworldVersion = 0x20 # uint8
-            m_sTokenTraderEncounterName = 0x28 # CUtlString
-            m_sNodeUnlockEventAction = 0x30 # CUtlString
-            m_vGridOffset = 0x38 # Vector2D
-            m_unGridSize = 0x40 # uint32
-            m_unNodeGridSize = 0x44 # uint32
-            m_unMapWidth = 0x48 # uint32
-            m_unMapHeight = 0x4C # uint32
-            m_vecCameraDistances = 0x50 # CUtlVector<float32>
-            m_flMinCameraDistance = 0x68 # float32
-            m_flMaxCameraDistance = 0x6C # float32
-            m_flInnerCameraDistanceThreshold = 0x70 # float32
-            m_vMinCameraBounds = 0x74 # Vector2D
-            m_vMaxCameraBounds = 0x7C # Vector2D
-            m_sMapVisualsXmlPath = 0x88 # CUtlString
-            m_vecReleaseSchedule = 0x90 # CUtlVector<DOTAOverworldReleaseScheduledUnlock_t>
-            m_vecStartNodeIds = 0xA8 # CUtlVector<OverworldNodeID_t>
-            m_unEndNodeID = 0xC0 # OverworldNodeID_t
-            m_sVisualNovelName = 0xC8 # CUtlString
-            m_sTokenLocStringPrefix = 0xD0 # CUtlString
-            m_sActNumberLocString = 0xD8 # CUtlString
-            m_sActTitleLocString = 0xE0 # CUtlString
-            m_unPremiumItemDef = 0xE8 # item_definition_index_t
-            m_unFullCompletionItemDef = 0xEC # item_definition_index_t
-            m_unScrapTokenID = 0xF0 # OverworldTokenID_t
-            m_unFortuneDuration = 0xF4 # uint32
-            m_unPathUnlockerTokenID = 0xF8 # OverworldTokenID_t
-            m_unFortuneCountForPermanentReward = 0xFC # int32
-            m_unTimesFortuneCanBeSeenBeforeRepeats = 0x100 # int32
-            m_vecFortuneWeightForUnseenAmount = 0x108 # CUtlVector<int32>
-            m_nMaxTokenCap = 0x120 # int32
-            m_vecEventActionTriggers = 0x128 # CUtlVector<CDOTAEventActionTrigger>
-            m_vecEventActionGrantAndClaimPairTriggers = 0x140 # CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
-            m_vecPathColorRules = 0x158 # CUtlVector<CDOTAOverworldPathColorRule>
-            m_strNarrationVisualNovel = 0x170 # CUtlString
-            m_mapNarrationDialogues = 0x178 # CUtlOrderedMap<CUtlString,CUtlString>
-            m_Theme = 0x370 # CDOTAOverworldTheme
-            m_vecTokenTypes = 0x3A8 # CUtlVector<CDOTAOverworldToken*>
-            m_vecTarotCards = 0x3D8 # CUtlVector<CDOTAOverworldTarotCard*>
-            m_vecFortuneTellerRewards = 0x3F0 # CUtlVector<CDOTAOverworldFortuneTellerReward*>
-            m_vecFortuneForcedReveals = 0x408 # CUtlVector<CDOTAOverworldFortuneForcedReveal*>
-            m_vecFortuneTellerFixedReward = 0x420 # CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
-            m_vecFortuneTellerStoryNodes = 0x438 # CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
-            m_vecHeroRewards = 0x478 # CUtlVector<CDOTAOverworldHeroReward*>
-            m_vecNodes = 0x490 # CUtlVector<CDOTAOverworldNode*>
-            m_vecPaths = 0x4A8 # CUtlVector<CDOTAOverworldPath*>
-            m_vecRooms = 0x4C0 # CUtlVector<CDOTAOverworldRoom*>
-            m_vecEncounters = 0x4D8 # CUtlVector<CDOTAOverworldEncounter*>
-            m_vecHeroes = 0x4F0 # CUtlVector<CDOTAOverworldHero*>
-            m_vecCharacters = 0x508 # CUtlVector<CDOTAOverworldCharacter*>
-            m_vecClickables = 0x520 # CUtlVector<CDOTAOverworldClickable*>
-            m_vecRoomGroups = 0x600 # CUtlVector<CDOTAOverworldRoomGroup*>
-        class SNewSettingsDefinition:
-            nID = 0x0 # NewSettingsID_t
-            m_sTitle = 0x10 # CUtlString
-            m_sDescription = 0x18 # CUtlString
-            sIcon = 0x20 # CPanoramaImageName
-            m_sCreationDate = 0x30 # CUtlString
-            m_eNewSettingsBadge = 0x3C # ENewSettingsBadge
         class CSurvivorsPowerUp_Spirits:
             m_sParticle = 0x608 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sExplosionParticle = 0x6E8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_bActive = 0x7E0 # bool
             m_flDurationTimer = 0x7E4 # float32
             m_flRange = 0x7E8 # float32
-        class CShmupEnemyDefinition:
-            m_strNameInMap = 0x0 # CUtlString
-            m_nHealth = 0x8 # int32
-            m_flHitboxRadius = 0xC # float32
-            m_vHitboxOffsetWS = 0x10 # Vector
-            m_nKillScore = 0x1C # int32
-            m_flModelScale = 0x20 # float32
-            m_bIsBoss = 0x24 # bool
-            m_vecBulletPatterns = 0x28 # CUtlVector<CShmupBulletInfo>
-            m_vecOnDeathBulletPatterns = 0x40 # CUtlVector<CShmupBulletInfo>
-            m_vecSelfDestroyBulletPatterns = 0x58 # CUtlVector<CShmupBulletInfo>
-        class CDOTASlarkJailbreakStageDefinition:
-            m_sLayout = 0x0 # CUtlString
-        class CDOTAOverworldFortuneForcedReveal:
-            m_unID = 0x0 # OverworldTarotCardID_t
-            m_nForcedRevealCount = 0x4 # int32
         class CSurvivorsEnemy:
             m_activity = 0x180 # GameActivity_t
             m_pSpawner = 0x188 # CSurvivorsSpawner*
@@ -27284,78 +25301,10 @@ class Schemas:
             m_flSpawnerExpirationTime = 0x324 # float32
             m_flOverrideDespawnRadiusBuffer = 0x328 # float32
             m_vSeparationVector = 0x32C # Vector
-        class SurvivorsUpgradeID_t:
-            m_Value = 0x0 # uint16
-        class ArtyUnitDef_t:
-            m_bRotateReloadBar = 0xB0 # bool
-            m_flMaxMana = 0xB4 # float32
-            m_flMovementSpeed = 0xB8 # float32
-        class CSurvivorsLootTable__CLootEntryCollection:
-            m_flChance = 0x0 # float32
-            m_vecLootEntries = 0x8 # CUtlVector<CSurvivorsLootTable::CLootEntry>
-        class ArtyGameObjectDef_t:
-            m_unID = 0x10 # ArtyGameObjectID_t
-            m_szGraphicsDef = 0x18 # CUtlString
-            m_szDeathSound = 0x28 # CUtlString
-            m_eHitboxType = 0x30 # EArtyHitboxType
-            m_vHitboxMin = 0x34 # Vector2D
-            m_vHitboxMax = 0x3C # Vector2D
-            m_flHitboxRadius = 0x44 # float32
-            m_flHitboxExtents = 0x48 # float32
-            m_bInheritTransform = 0x4C # bool
-            m_bInheritRotation = 0x4D # bool
-            m_bInheritVisibility = 0x4E # bool
-            m_bInheritState = 0x4F # bool
-            m_bDestroyOnFallThrough = 0x50 # bool
-            m_flFallDamagePerVelocity = 0x54 # float32
-            m_bDeathCausesExplosion = 0x58 # bool
-            m_flExplosionDamage = 0x5C # float32
-            m_flExplosionRadius = 0x60 # float32
-            m_flExplosionTerrainRadius = 0x64 # float32
-            m_flGravityMult = 0x68 # float32
-            m_flDragMult = 0x6C # float32
-            m_flWindMult = 0x70 # float32
-            m_flDeathMaxScaleFactor = 0x74 # float32
-            m_bAllowPhysicsInDying = 0x78 # bool
-            m_eType = 0x79 # EArtyGameObjectType
-            m_eLayer = 0x7C # EArtyLayer
-            m_flMaxHealth = 0x80 # float32
-            m_flHealth = 0x84 # float32
-            m_bVisible = 0x88 # bool
-            m_bCanCollide = 0x89 # bool
-            m_bDoPhysics = 0x8A # bool
-            m_flLifetime = 0x8C # float32
-            m_flDieTime = 0x90 # float32
-            m_vecChildren = 0x98 # CUtlVector<ArtyGameObjectInstance_t>
-        class CShmupEventEnemySpawn:
-            m_strEnemyName = 0x0 # CUtlString
-            m_bRed = 0x8 # bool
-            m_vOffset = 0xC # Vector
-        class SurvivorsLevelID_t:
-            m_Value = 0x0 # uint32
         class CSurvivorsPowerUp_EchoStrike:
             pass
-        class DOTAOverworldReleaseScheduledUnlock_t:
-            m_strLocName = 0x0 # CUtlString
-            m_strVisualNovelName = 0x8 # CUtlString
-            m_strRingmasterVisualNovelName = 0x10 # CUtlString
-            m_unReleaseTime = 0x18 # uint32
-            m_unGroupID = 0x1C # OverworldRoomGroupID_t
         class CSurvivorsPowerUp_Track:
             pass
-        class RoadToTIQuestDefinition_t:
-            m_unID = 0x0 # RoadToTIQuestID_t
-            m_eQuestType = 0x4 # ERoadToTIQuestType
-            m_unPeriod = 0x8 # uint32
-            m_unMatchID = 0x10 # MatchID_t
-            m_unSeriesID = 0x18 # uint32
-            m_unLeagueID = 0x1C # uint32
-            m_unPlayerID = 0x20 # uint32
-            m_unTeamID = 0x24 # uint32
-            m_vecHeroes = 0x28 # CUtlVector<HeroID_t>
-            m_bDeveloper = 0x40 # bool
-        class Match3OpponentID_t:
-            m_Value = 0x0 # uint32
         class CSurvivorsEnemyAbsorber:
             m_flPercentHealthAbsorbed = 0x338 # float32
             m_flBaseModelScale = 0x33C # float32
@@ -27368,9 +25317,6 @@ class Schemas:
             m_nBoardRows = 0x0 # int32
             m_nBoardCols = 0x4 # int32
             m_nMines = 0x8 # int32
-        class C_CommandContext:
-            needsprocessing = 0x0 # bool
-            command_number = 0x98 # int32
         class CSurvivorsUnit:
             m_id = 0x28 # SurvivorsUnitID_t
             m_flHealth = 0x2C # float32
@@ -27386,24 +25332,6 @@ class Schemas:
         class CPortraitData:
             m_RenderList = 0xDD0 # CUtlVector<CHandle<C_BaseEntity>>
             m_hHero = 0xDE8 # CHandle<C_BaseEntity>
-        class CSurvivorsPowerUpDefinition_Stampede:
-            m_flMovementSpeedPercentDamageMultiplier = 0x6A0 # float32
-            m_sParticle = 0x6A8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class ArtyGameModeLevelInfo_t:
-            m_szLevelName = 0x0 # CUtlString
-            m_unLevelID = 0x8 # ArtyLevelID_t
-        class OverworldSplineInfo_t:
-            m_flStartTangent = 0x0 # float32
-            m_flEndTangent = 0x4 # float32
-            m_flStartOffset = 0x8 # float32
-            m_flEndOffset = 0xC # float32
-        class CSurvivorsEnemyDefinition_Golem:
-            pass
-        class CDOTAOverworldFortuneTellerStoryNode:
-            m_unID = 0x0 # OverworldFortuneTellerStoryNodeID_t
-            m_nFortuneRequestCount = 0x4 # int32
-            m_sDialogueName = 0x8 # CUtlString
-            m_sRewardEventAction = 0x10 # CUtlString
         class CSurvivorsEnemyResurrector:
             m_nTotalResurrections = 0x338 # int32
             m_nResurrectionsRemaining = 0x33C # int32
@@ -27422,124 +25350,10 @@ class Schemas:
             m_nActiveProjectilesToTrack = 0x6FC # int32
             m_vecQueuedProjectileTimers = 0x700 # CUtlVector<float32>
             m_vecTargetExclusions = 0x718 # CUtlVector<SurvivorsUnitID_t>
-        class ShmupEnemyID_t:
-            m_Value = 0x0 # uint32
         class CSurvivorsEntity:
             m_unPhysicsBodyID = 0x10 # SurvivorsPhysicsBodyID_t
-        class CandyShopDefinitionGC_t:
-            m_unCandyShopID = 0x8 # CandyShopID_t
-            m_vecRewards = 0x10 # CUtlVector<CandyShopRewardOptionGC_t>
-        class CDOTACandyShopDefinition:
-            m_unCandyShopID = 0x8 # CandyShopID_t
-            m_sLocName = 0x10 # CUtlString
-            m_unDefaultInventorySize = 0x18 # uint32
-            m_unMaximumInventorySize = 0x1C # uint32
-            m_unDefaultRerollCharges = 0x20 # uint32
-            m_unDefaultMaxRerollCharges = 0x24 # uint32
-            m_unCandyBagItemDef = 0x28 # item_definition_index_t
-            m_unFixedExchangeRecipeMaxCandies = 0x2C # uint8
-            m_unFixedExchangeRecipeStartDate = 0x30 # uint32
-            m_unFixedExchangeRecipeUpdateRateInSeconds = 0x34 # uint32
-            m_unFixedExchangeRecipeDefaultCount = 0x38 # uint8
-            m_unFixedExchangeRecipeMaximumCount = 0x39 # uint8
-            m_unVariableExchangeInputCandyCount = 0x3A # uint8
-            m_unVariableExchangeOutputCandyCount = 0x3B # uint8
-            m_eExpireEvent = 0x3C # EEvent
-            m_unRewardSlotsDefaultCount = 0x40 # uint8
-            m_sAttrLootList = 0x48 # CUtlString
-            m_sViewPageEvent = 0x50 # CUtlString
-            m_vecCandyTypes = 0x58 # CUtlVector<CandyShopCandyType_t>
-            m_vecRewardSlots = 0x70 # CUtlVector<CandyShopRewardSlot_t>
-            m_vecDefaultRewardOptions = 0x88 # CUtlVector<CandyShopRewardOption_t>
-        class SurvivorsParticleID_t:
-            m_Value = 0x0 # uint32
-        class ArtyGameObjectInstance_t:
-            m_szName = 0x8 # CUtlString
-            m_szGameObject = 0x10 # CUtlString
-            m_vPosition = 0x1C # Vector2D
-            m_flRotation = 0x24 # float32
-            m_vScale = 0x28 # Vector2D
-            m_bFacingLeft = 0x30 # bool
-            m_flYawOffset = 0x34 # float32
-        class DOTACrateDropObjectDefID_t:
-            m_Value = 0x0 # uint32
-        class SettingsSearchDataIndex_t:
-            m_Value = 0x0 # int32
-        class SurvivorsDifficultyID_t:
-            m_Value = 0x0 # uint32
-        class CSurvivorsPowerUpDefinition_Snotty:
-            m_flRotationSpeedDeg = 0x868 # float32
-            m_flRotationDist = 0x86C # float32
-        class CSurvivorsLootTable:
-            m_vecLootEntryCollections = 0x0 # CUtlVector<CSurvivorsLootTable::CLootEntryCollection>
-        class CMatch3HeroDefinition:
-            m_nHeroID = 0x0 # HeroID_t
-            m_sPieceModel = 0x10 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_sAttackParticleEffect = 0xF0 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sSuperAbility = 0x1D0 # CUtlString
-            m_sUltraAbility = 0x1D8 # CUtlString
-        class CSurvivorsEnemySnapshot:
-            m_enemyID = 0x0 # SurvivorsEnemyID_t
-            m_flHealth = 0x4 # float32
-            m_vOrigin = 0x8 # VectorWS
         class CSurvivorsPowerUp_KnifeThrow:
             pass
-        class CDOTAFightingGameCancelOptionDefinition:
-            m_eCancelInput = 0x0 # EFightingGameButtonBit
-            m_eCancelInput2 = 0x4 # EFightingGameButtonBit
-            m_eCancelInput3 = 0x8 # EFightingGameButtonBit
-            m_nCancelStart = 0xC # int32
-            m_nCancelDuration = 0x10 # int32
-            m_nCancelInputBuffer = 0x14 # int32
-            m_bRequiresInstall = 0x18 # bool
-            m_bAllowCancelOnWhiff = 0x19 # bool
-            m_nCancelActionID = 0x1C # EFightingGameActionID
-            m_strCancelActionName = 0x20 # CUtlString
-        class CDOTACrateDropObjectDef:
-            m_unID = 0x10 # DOTACrateDropObjectDefID_t
-            m_eType = 0x14 # EDOTACrateDropObjectType
-            m_sParentName = 0x18 # CUtlString
-            m_sEntityClassName = 0x20 # CUtlString
-            m_sModel = 0x28 # CUtlString
-            m_sSearchEntity = 0x30 # CUtlString
-            m_vSpawnMin = 0x38 # Vector
-            m_vSpawnMax = 0x44 # Vector
-            m_vSpawnVelocityMin = 0x50 # Vector
-            m_vSpawnVelocityMax = 0x5C # Vector
-            m_flFriction = 0x68 # float32
-            m_flFrictionScale = 0x6C # float32
-            m_flGravityScale = 0x70 # float32
-            m_flInertiaInv = 0x74 # float32
-            m_flAcceleration = 0x78 # float32
-            m_flMaxSpeed = 0x7C # float32
-            m_nMassPriority = 0x80 # int8
-            m_nNoDraw = 0x81 # int8
-            m_flMass = 0x84 # float32
-            m_flScale = 0x88 # float32
-            m_flTriggerDelay = 0x8C # float32
-            m_flTriggeredGravityScale = 0x90 # float32
-            m_flFirstRowOffset = 0x94 # float32
-            m_flSecondRowOffset = 0x98 # float32
-            m_flAbilityCooldown = 0x9C # float32
-            m_nFirstRowWeight = 0xA0 # int8
-            m_nSecondRowWeight = 0xA1 # int8
-            m_flHeightVisualizationStep = 0xA4 # float32
-            m_flMultiplierStep = 0xA8 # float32
-            m_flMultiplierFactor = 0xAC # float32
-            m_nDisableSpawnRotation = 0xB0 # int8
-            m_nTutorialObject = 0xB1 # int8
-            m_sSpawnSound = 0xB8 # CUtlString
-            m_sLoopSound = 0xC0 # CUtlString
-            m_sDestroySound = 0xC8 # CUtlString
-            m_sCatchSound = 0xD0 # CUtlString
-        class CDOTAOverworldTheme:
-            m_sButtonType = 0x0 # CUtlString
-            m_sTokenType = 0x8 # CUtlString
-            m_sTokenReceivedPopupLayout = 0x10 # CUtlString
-            m_sTokenTraderEncounterLayout = 0x18 # CUtlString
-            m_sTokenTraderVisualNovelStyle = 0x20 # CUtlString
-            m_sInventoryPickerLayout = 0x28 # CUtlString
-            m_sTextPrefix = 0x30 # CUtlString
         class CSurvivorsPowerUp_CounterHelix:
             m_flChanceToCounter = 0x808 # float32
             m_flDelayBetweenCounters = 0x80C # float32
@@ -27547,85 +25361,15 @@ class Schemas:
             m_mapEnemyDamagedTimers = 0x800 # CUtlOrderedMap<SurvivorsUnitID_t,float32>
             m_pParticleEffect = 0x828 # CNewParticleEffect*
             m_flNextTrailCreationTimer = 0x848 # float32
-        class CSurvivorsEnemyDefinition_Resurrector:
-            m_nNumResurrectionTimes = 0x288 # int32
-            m_flMovementSpeedMultiplierPerDeath = 0x28C # float32
-            m_sResurrectParticleName = 0x290 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CShmupBossPhase:
-            m_strName = 0x0 # CUtlString
-            m_flChargeTime = 0x8 # float32
-            m_flDuration = 0xC # float32
-            m_vPosition = 0x10 # Vector2D
-        class CSurvivorsPowerUpSnapshot:
-            m_unPowerUpID = 0x0 # SurvivorsPowerUpID_t
-            m_vecUpgradeIDs = 0x8 # CUtlVector<SurvivorsUpgradeID_t>
-            m_bShardUpgraded = 0x20 # bool
-            m_bScepterUpgraded = 0x21 # bool
-        class CDOTACrateDropTable:
-            m_sDropType = 0x0 # CUtlString
-            szDropName = 0x8 # CUtlString
-            nDropWeight = 0x10 # int32
-        class CShmupEventDefinition:
-            m_type = 0x8 # EShmupEventType
-            m_vecEnemySpawns = 0x10 # CUtlVector<CShmupEventEnemySpawn>
-            m_strPathName = 0x28 # CUtlString
-            m_strUIEvent = 0x30 # CUtlString
-        class CSurvivorsPowerUpDefinition_KnifeThrow:
-            pass
-        class CSurvivorsAttributeDefinition__MetaProgressionTierCost_t:
-            m_nMinigameCurrency = 0x0 # int32
-            m_vecOverworldTokens = 0x8 # CUtlVector<OverworldTokenID_t>
-        class ShmupEventID_t:
-            m_Value = 0x0 # uint32
-        class CDOTAMinesweeperPlayerDefinition:
-            m_nInitialHealth = 0x0 # int32
-            m_nInitialMana = 0x4 # int32
-        class ArtyLevelWeaponInstance_t:
-            m_szName = 0x0 # CUtlString
-            m_nReloads = 0xC # int32
         class CSurvivorsPowerUp_MagicMissile:
             m_nEnemiesKilled = 0x730 # int32
             m_flShardDamageMultiplier = 0x734 # float32
             m_flScepterDamageIncreasePerEnemyKilled = 0x738 # float32
             m_sPhysicalWeaknessEffect = 0x740 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sImpactParticle = 0x820 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class SurvivorsGameModeID_t:
-            m_Value = 0x0 # uint32
-        class CSurvivorsPlayerSnapshot:
-            m_heroID = 0x0 # SurvivorsHeroID_t
-            m_nCurrentLevel = 0x4 # int32
-            m_flCurrentExp = 0x8 # float32
-            m_nRerollsRemaining = 0xC # int32
-            m_vecPowerUps = 0x10 # CUtlVector<CSurvivorsPowerUpSnapshot>
-            m_vOrigin = 0x28 # VectorWS
-        class CandyShopRewardOption_t:
-            m_unRewardOptionID = 0x0 # CandyShopRewardOptionID_t
-            m_sRewardClass = 0x8 # CUtlString
-            m_bDisplayIfAlreadyOwned = 0x10 # bool
         class CSurvivorsPowerUp_ArcaneBolt:
             m_flNextShotTimer = 0x730 # float32
             m_nShotsFired = 0x734 # int32
-        class CShmupPathEvent:
-            m_type = 0x0 # EShmupPathEventType
-            m_nBulletPatternIndex = 0x4 # int32
-            m_flTime = 0x8 # float32
-            m_flSpeed = 0xC # float32
-        class SurvivorsPowerUpID_t:
-            m_Value = 0x0 # uint32
-        class CDOTAOverworldEncounterReward:
-            m_unRewardData = 0x0 # uint32
-            m_sEventAction = 0x8 # CUtlString
-            m_kvRewardExtraData = 0x10 # KeyValues3
-            m_sRewardTitle = 0x20 # CUtlString
-        class CDOTAOverworldRoomGroup:
-            m_unGroupID = 0x0 # OverworldRoomGroupID_t
-            m_strLocName = 0x8 # CUtlString
-            m_strEntityParentName = 0x10 # CUtlString
-            m_vPosition = 0x18 # Vector2D
-            m_vSize = 0x20 # Vector2D
-            m_vecRooms = 0x28 # CUtlVector<OverworldRoomID_t>
-            m_flTrainCarViewDistance = 0x40 # float32
-            m_flTrainCarViewOffset = 0x44 # Vector2D
         class CSurvivorsSpawner:
             m_vecSpawnedUnitIDs = 0x10 # CUtlVector<SurvivorsUnitID_t>
             m_unEnemyID = 0x30 # SurvivorsEnemyID_t
@@ -27656,10 +25400,6 @@ class Schemas:
             flMagicalDamage = 0x1C # float32
             flPhysicalDamage = 0x20 # float32
             vDirections = 0x28 # CUtlVector<Vector>
-        class CDOTAOverworldFortuneTellerReward:
-            m_eReward = 0x0 # EOverworldFortuneReward
-            m_flWeight = 0x4 # float32
-            m_unEventActionID = 0x8 # uint32
         class CDOTAMinesweeperGameDefinition:
             m_player = 0x0 # CDOTAMinesweeperPlayerDefinition
             m_vecStages = 0x8 # CUtlVector<CDOTAMinesweeperStageDefinition>
@@ -27687,97 +25427,8 @@ class Schemas:
             m_nScorePerSecondsRemaining = 0x758 # int32
             m_nFailedChordClickTimes = 0x75C # int32
             m_flFailedChordClickCooldown = 0x760 # int32
-        class CrownfallSurvivorsLightingOverride_t:
-            flTimeRemaining = 0x0 # float32
-            bOverrideBackToDefault = 0x4 # bool
-            Lighting = 0x8 # CrownfallSurvivorsLightingEnvironment_t
-        class CDOTACrateDropPowerupDef:
-            m_ePowerupType = 0xE8 # EDOTACrateDropPowerupType
-        class CClientAlphaProperty:
-            m_nDistFadeStart = 0x10 # uint16
-            m_nDistFadeEnd = 0x12 # uint16
-            m_nDesyncOffset = 0x0 # bitfield:14
-            m_bAlphaOverride = 0x0 # bitfield:1
-            m_bShadowAlphaOverride = 0x0 # bitfield:1
-            m_nRenderMode = 0x0 # bitfield:3
-            m_nRenderFX = 0x0 # bitfield:5
-            m_nAlpha = 0x17 # uint8
-            m_flFadeScale = 0x18 # float32
-            m_flRenderFxStartTime = 0x1C # GameTime_t
-            m_flRenderFxDuration = 0x20 # float32
-        class CSurvivorsPowerUpDefinition_CounterHelix:
-            m_flChanceToCounter = 0x868 # float32
-            m_flDelayBetweenCounters = 0x86C # float32
-        class CDOTAMotionComicVideoFrame:
-            m_bLooping = 0x10 # bool
-            m_flAllowSkipAfterDelay = 0x14 # float32
-            m_sVideoPath = 0x18 # CUtlString
-            m_sSoundEventName = 0x20 # CUtlString
-        class CDOTAOverworldHeroReward:
-            m_unHeroID = 0x0 # HeroID_t
-            m_vecTokenNames = 0x48 # CUtlVector<CUtlString>
-        class ArtyLevelInfo_t:
-            m_unID = 0x8 # ArtyLevelID_t
-            m_sLocLevelName = 0x10 # CUtlString
-            m_playerInfo = 0x18 # ArtyLevelObjectInstance_t
-            m_vecGameObjects = 0xA0 # CUtlVector<ArtyLevelObjectInstance_t>
-            m_vecWeapons = 0xB8 # CUtlVector<ArtyLevelWeaponInstance_t>
-            m_nLevelCompletePoints = 0xD0 # int32
-            m_nTimeBonusBasePoints = 0xD4 # int32
-            m_nTimeBonusMaxPoints = 0xD8 # int32
-            m_nTimeBonusFastTime = 0xDC # int32
-            m_nTimeBonusMaxTime = 0xE0 # int32
-            m_flBackgroundOffsetX = 0xE4 # float32
-            m_aryStarPointThresholds = 0xE8 # int32[3]
-            m_sBackgroundImage = 0xF8 # CPanoramaImageName
-            m_sTerrainBackgroundImage = 0x108 # CPanoramaImageName
-            m_sTerrainImage = 0x118 # CPanoramaImageName
-            m_sTerrainForegroundImage = 0x128 # CPanoramaImageName
-        class CSurvivorsPowerUpDefinition_AreaAttack_Line:
-            m_bUseFacingDirection = 0x868 # bool
-        class CDOTAOverworldFortuneTellerFixedReward:
-            m_eReward = 0x0 # EOverworldFortuneReward
-            m_nFortuneRequestCount = 0x4 # int32
-        class CSurvivorsPowerUpDefinition_LagunaBlade:
-            m_nEliteExtraHit = 0x788 # int32
-        class CDOTAMotionComicDefinition:
-            m_flDefaultMinimumTimePerFrame = 0x8 # float32
-            m_vecFrames = 0x10 # CUtlVector<CDOTAMotionComicFrame*>
         class C_HorizontalMotionController:
             pass
-        class screenfade_t:
-            Speed = 0x0 # float32
-            End = 0x4 # float32
-            Reset = 0x8 # float32
-            m_Color = 0xC # Color
-            Flags = 0x10 # int32
-        class ArtyEnemyOrder_t:
-            m_flDuration = 0x0 # float32
-            m_unOrders = 0x4 # EArtyOrderFlag
-        class CMatch3Level:
-            m_sLevelName = 0x0 # CUtlString
-            m_sOpponentName = 0x8 # CUtlString
-            m_nCompletionScore = 0x10 # int32
-            m_eLevelFlags = 0x14 # EMatch3LevelFlags
-        class ArtyGraphicInfo_t:
-            m_unID = 0x8 # ArtyGraphicID_t
-            m_szSnippet = 0x10 # CUtlString
-            m_szUnit = 0x18 # CUtlString
-            m_szModel = 0x20 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_szParticle = 0x100 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_eType = 0x1E0 # EArtyGraphicsType
-            m_vAngles = 0x1E4 # QAngle
-            m_vPosition = 0x1F0 # Vector
-            m_vCameraOffset = 0x1FC # Vector
-            m_nWidth = 0x208 # int32
-            m_nHeight = 0x20C # int32
-            m_bPlayEndcap = 0x210 # bool
-            m_flDefaultScale = 0x214 # float32
-        class CMatch3AbilityBaseDefinition:
-            m_sLocName = 0x0 # CUtlString
-            m_sLocDescription = 0x8 # CUtlString
-            m_sImage = 0x10 # CPanoramaImageName
-            m_vecParams = 0x20 # CUtlVector<CMatch3AbilityParamDefinition>
         class CGlobalLightBase:
             m_bSpotLight = 0x10 # bool
             m_SpotLightOrigin = 0x14 # VectorWS
@@ -27824,36 +25475,11 @@ class Schemas:
             m_hEnvSky = 0x4BC # CHandle<C_BaseEntity>
             m_fSmoothedAmount = 0x4C0 # float32
             m_fSlowSmoothedAmount = 0x4C4 # float32
-        class SurvivorsEnemyID_t:
-            m_Value = 0x0 # uint32
-        class CMatch3AbilityDefinition:
-            m_unAbilityID = 0x38 # Match3AbilityID_t
-        class CDOTACrownfallCreditsMapSceneDefinition:
-            m_strImage = 0x0 # CPanoramaImageName
-            m_strImageMask = 0x10 # CPanoramaImageName
-            m_vViewStart = 0x20 # Vector2D
-            m_vViewEnd = 0x28 # Vector2D
-            m_bounds = 0x30 # CrownfallCreditsAABB_t
-            m_nAnimOffsetX = 0x40 # int32
-            m_nAnimOffsetY = 0x44 # int32
-            m_vecAnimations = 0x48 # CUtlVector<CDOTACrownfallCreditsMapSceneAnimateableDefinition>
-            m_bScale = 0x60 # bool
         class CSurvivorsSpawnerEliteTurret:
             m_nRoomIndex = 0x178 # int32
             m_nEnemiesSpawnedCount = 0x17C # int32
             m_sInvulnerableParticle = 0x180 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sInvulnerableSkinName = 0x260 # CUtlString
-        class CandyShopRewardOptionGC_t:
-            m_unRewardOptionID = 0x0 # CandyShopRewardOptionID_t
-            m_unRewardOptionMaxCount = 0x4 # uint32
-            m_unCandyPrice = 0x8 # uint32
-            m_unWeight = 0xC # uint32
-            m_eOptionType = 0x10 # ECandyShopRewardOptionType
-            m_unSingleItemDef = 0x14 # item_definition_index_t
-            m_sLootList = 0x18 # CUtlString
-            m_eEvent = 0x20 # EEvent
-            m_unEventActionID = 0x24 # uint32
-            m_unEventPoints = 0x28 # uint32
         class CSurvivorsPowerUp_Snotty:
             m_vecSnotties = 0x800 # CUtlVector<SurvivorsUnitID_t>
             m_flRotationSpeedDeg = 0x818 # float32
@@ -27865,74 +25491,6 @@ class Schemas:
             m_bFirstSalvo = 0x844 # bool
         class CSurvivorsSpawnerTower:
             m_vecSpawnedTowers = 0x178 # CUtlVector<SurvivorsUnitID_t>
-        class CDOTACrownfallCreditsCharacterDefinition:
-            m_strImage = 0x0 # CPanoramaImageName
-            m_strLocCharacterName = 0x10 # CUtlString
-            m_strLocCharacterTitle = 0x18 # CUtlString
-            m_nUniqueClickKey = 0x20 # int32
-            m_strImageAlt = 0x28 # CPanoramaImageName
-            m_strLocCharacterNameAlt = 0x38 # CUtlString
-            m_strLocCharacterTitleAlt = 0x40 # CUtlString
-            m_bFlipFacing = 0x48 # bool
-            m_bounds = 0x4C # CrownfallCreditsAABB_t
-            m_strLocCharacterTitleAlt2 = 0x60 # CUtlString
-            m_strLocCharacterTitleAlt3 = 0x68 # CUtlString
-            m_strLocCharacterTitleAlt4 = 0x70 # CUtlString
-            m_strLocCharacterTitleAlt5 = 0x78 # CUtlString
-            m_strLocCharacterTitleAlt6 = 0x80 # CUtlString
-            m_nAltImageW = 0x88 # int32
-            m_nAltImageH = 0x8C # int32
-            m_nAltImageFrameTime = 0x90 # int32
-            m_nYOffset = 0x94 # int32
-            m_unFrameTime = 0x98 # uint16
-        class ArtyGameObjectID_t:
-            m_Value = 0x0 # uint32
-        class CSurvivorsPowerUpDefinition_LandMine:
-            m_flScepterVacuumRadius = 0x6A0 # float32
-            m_flScepterVacuumDistance = 0x6A4 # float32
-            m_sParticle = 0x6A8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sExplosionParticle = 0x788 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sStasisTrapParticle = 0x868 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sStasisTrapExplosion = 0x948 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sRemoteMineParticle = 0xA28 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sRemoteMineExplosion = 0xB08 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CMatch3OpponentHeroItemDefinition:
-            m_unItemDef = 0x0 # item_definition_index_t
-            m_nStyleIndex = 0x4 # style_index_t
-        class CDOTALockpickingStageDefinition:
-            m_eMode = 0x0 # ELockpickingStageMode
-            m_nNumUnlocks = 0x4 # int32
-            m_flInitialSpeed = 0x8 # float32
-            m_flSpeedIncrementPerUnlock = 0xC # float32
-            m_flMinDegreesBetweenUnlocks = 0x10 # float32
-            m_flTimeLimit = 0x14 # float32
-            m_flTimerIncreasePerUnlock = 0x18 # float32
-            m_flSpeedBoostRate = 0x1C # float32
-            m_flSpeedBoostPercentage = 0x20 # float32
-            m_flDecelerationRate = 0x24 # float32
-            m_flRecoverRate = 0x28 # float32
-            m_flBaseUnlockAppearRate = 0x2C # float32
-            m_flUnlockAppearIncreaseRate = 0x30 # float32
-            m_flMaxSpeedMultiplier = 0x34 # float32
-            m_flTimerIncreaseUnlockChance = 0x38 # float32
-            m_flTimerIncreaseUnlockEscalatingChance = 0x3C # float32
-            m_nMaxUnlocksOnBoard = 0x40 # int32
-            m_nBoardRadius = 0x44 # int32
-            m_nUnlockRadius = 0x48 # int32
-            m_flUnlockDegreeDecreaseRate = 0x4C # float32
-            m_nScorePerUnlock = 0x50 # int32
-        class IClientAlphaProperty:
-            pass
-        class ArtyEnemyDef_t:
-            pass
-        class CDOTAEventActionTrigger:
-            m_sEventAction = 0x0 # CUtlString
-            m_unEventScoreRequired = 0x8 # int32
-            m_sMapClassToAdd = 0x10 # CUtlString
-        class CSurvivorsUpgradeDefinition:
-            m_unRarity = 0x0 # ESurvivorsUpgradeRarity
-            m_vecUpgradeAttributes = 0x8 # CUtlVector<CSurvivorsAttributeValue>
-            m_vecGlobalUpgradeAttributes = 0x20 # CUtlVector<CSurvivorsAttributeValue>
         class CSurvivorsImperiaBoss:
             m_flBurningGroundImpactDamage = 0x3C4 # float32
             m_flBurningGroundImpactRadius = 0x3C8 # float32
@@ -27975,37 +25533,6 @@ class Schemas:
             m_bSpawnedAmbientParticles = 0xB8C # bool
             m_sImperiaAmbientBody = 0xB90 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sImperiaAmbientWings = 0xC70 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CDOTAEventActionGrantAndClaimPair:
-            m_sEventActionGrant = 0x0 # CUtlString
-            m_sEventActionClaim = 0x8 # CUtlString
-        class SurvivorsUnitID_t:
-            m_Value = 0x0 # uint32
-        class CSurvivorsPowerUpDefinition_ProjectileAttack:
-            m_eTargeting = 0x6A0 # ESurvivorsAttackTargeting
-            m_eBounceTargeting = 0x6A4 # ESurvivorsAttackTargeting
-            m_flBounceMinimumLifetime = 0x6A8 # float32
-            m_flSpawnMinimumLifetime = 0x6AC # float32
-            m_bExpireOnWorldCollision = 0x6B0 # bool
-            m_bAbilityActiveWhileProjectileIsAlive = 0x6B1 # bool
-            m_sParticle = 0x6B8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CDOTAFightingGameHeroDefinition:
-            m_nHeroID = 0x0 # HeroID_t
-            m_flHeroWidth = 0x4 # float32
-            m_pszBasicSwingSound = 0x8 # CUtlString
-            m_pszBasicHitSound = 0x10 # CUtlString
-            m_nVictoryDuration = 0x18 # int32
-            m_pszHeroNameVO = 0x20 # CUtlString
-            m_vecHeroStyles = 0x28 # CUtlVector<CDOTAFightingGameHeroStyleDefinition>
-            m_vecActionDefinitions = 0x40 # CUtlVector<CDOTAFightingGameActionDefinition>
-            m_HeroPick_HeightOffset = 0x58 # float32
-            m_HeroPick_XOffset_Right = 0x5C # float32
-            m_HeroPick_Angle_Right = 0x60 # float32
-            m_HeroPick_XOffset_Left = 0x64 # float32
-            m_HeroPick_Angle_Left = 0x68 # float32
-            m_HeroPick_Scale = 0x6C # float32
-        class CDOTAEventActionGrantAndClaimPairTrigger:
-            m_sMapClassToAdd = 0x0 # CUtlString
-            m_vecGrantAndClaimActionPairs = 0x8 # CUtlVector<CDOTAEventActionGrantAndClaimPair>
         class CLightInfoBase:
             m_origin2D = 0x10 # Vector2D
             m_Color = 0x18 # Color[2]
@@ -28107,219 +25634,21 @@ class Schemas:
             m_flLightningFluctuation = 0x3C0 # float32
             m_flLightningAngle = 0x3C4 # float32
             m_flLightningEventPercentage = 0x3C8 # float32
-        class CSurvivorsPowerUpDefinition_Swashbuckle:
-            m_sParticle = 0x6A0 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CDOTAOverworldEncounter:
-            m_sName = 0x8 # CUtlString
-            m_sTemplate = 0x10 # CUtlString
-            m_sLocName = 0x18 # CUtlString
-            m_sLocDescription = 0x20 # CUtlString
-            m_sImage = 0x28 # CPanoramaImageName
-            m_eRewardStyle = 0x38 # EOverworldEncounterRewardStyle
-            m_vecRewards = 0x40 # CUtlVector<CDOTAOverworldEncounterReward>
-            m_sDefaultDialogue = 0x58 # CUtlString
-            m_kvCustomData = 0x60 # KeyValues3
-            m_bRequiresNodeToBeUnlockedToClaimRewards = 0x70 # bool
-            m_nLeaderboardCount = 0x74 # int32
-        class CSurvivorsSpawnerDefinition:
-            m_sEnemyName = 0x10 # CUtlString
-            m_sEnemyDisplayName = 0x18 # CUtlString
-            m_nMinimumEnemyCount = 0x20 # int32
-            m_nMaxSpawnCountPerInterval = 0x24 # int32
-            m_nOverflowEnemySpawnCount = 0x28 # int32
-            m_flSpawnInterval = 0x2C # float32
-            m_eSpawnBehavior = 0x30 # ESurvivorsEnemySpawnBehavior
-            m_flFixedDirectionSpawnDistanceVariance = 0x34 # float32
-            m_bIsPersistant = 0x38 # bool
-            m_bResetSpawnIntervalOnKill = 0x39 # bool
-            m_flSpawnChance = 0x3C # float32
-            m_sSpawnParticle = 0x40 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_flSpawnOvalRadius = 0x120 # Vector2D
-            m_sSpawnInfoTargetName = 0x128 # CUtlString
-            m_sMinimapIconClass = 0x130 # CUtlString
-            m_flPerpendicularWallSpacing = 0x138 # float32
-            m_bIgnoreDifficultySpawnMultiplier = 0x13C # bool
-            m_eSpawnPositionsLayer = 0x144 # ESurvivorsEnemySpawnPositionsLayer
-        class DOTAOverworldCharacterOverrideConditional_t:
-            m_condition = 0x0 # CDOTAOverworldCharacterConditional
-            m_character = 0x20 # CDOTAOverworldCharacterBase
-        class ArtyPlayerDef_t:
-            pass
-        class CDOTAOverworldPathColorRule:
-            m_eNodeFlags = 0x0 # EOverworldNodeFlags
-            m_cLockedColor = 0x4 # Color
-            m_cCompleteColor = 0x8 # Color
-            m_cActiveColor = 0xC # Color
-            m_unLockedThickness = 0x10 # uint8
-            m_unCompleteThickness = 0x11 # uint8
-            m_unRoomConnectionThickness = 0x12 # uint8
-            m_flRoomConnectionBrightness = 0x14 # float32
         class CSurvivorsPowerUp_Swashbuckle:
             m_sParticle = 0x648 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-        class CDOTAOverworldToken:
-            m_unID = 0x0 # OverworldTokenID_t
-            m_sName = 0x8 # CUtlString
-            m_eTokenType = 0x38 # EOverworldTokenType
         class NeutralCampStackPullAlarm_t:
             m_vPosition = 0x0 # VectorWS
             m_flPullAlarmTime = 0xC # float32
             m_flStackAlarmTime = 0x10 # float32
             m_nCampIndex = 0x14 # int32
             m_nAlarmTypes = 0x18 # int32
-        class CSurvivorsEnemyDefinition_Absorber:
-            m_flModelScaleIncreasePerAbsorb = 0x288 # float32
-            m_flMaxModelScale = 0x28C # float32
-            m_flAbsorbRadius = 0x290 # float32
-            m_flPercentHealthAbsorbed = 0x294 # float32
-            m_sAbsorbParticleName = 0x298 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_unHeroID = 0x0 # SurvivorsHeroID_t
-        class CSurvivorsPowerUpDefinition_AreaAttack_Circle:
+        class __a4__:
             pass
-        class CSurvivorsPickupSnapshot:
-            m_pickupID = 0x0 # SurvivorsPickupID_t
-            m_nExperienceReward = 0x4 # int32
-            m_vOrigin = 0x8 # VectorWS
-        class CDOTAMinesweeperStageProgressionChoice:
-            m_strLocText = 0x0 # CUtlString
-        class CSurvivorsPowerUpDefinition:
-            m_unPowerUpID = 0x8 # SurvivorsPowerUpID_t
-            m_nMaxLevel = 0xC # int32
-            m_vecTooltipAttributes = 0x10 # CUtlVector<SurvivorsAttributeType_t>
-            m_vecScepterTooltipAttributes = 0x28 # CUtlVector<SurvivorsAttributeType_t>
-            m_vecBaseAttributes = 0x40 # CUtlVector<CSurvivorsAttributeValue>
-            m_vecRecipeItems = 0x58 # CUtlVector<SurvivorsPowerUpID_t>
-            m_bIsPassive = 0x70 # bool
-            m_bIsInnate = 0x71 # bool
-            m_bIsGold = 0x72 # bool
-            m_bRollable = 0x73 # bool
-            m_bIsShardUpgradeable = 0x74 # bool
-            m_bIsScepterUpgradeable = 0x75 # bool
-            m_sImage = 0x78 # CPanoramaImageName
-            m_sSource = 0x90 # CUtlString
-            m_sHeroImage = 0x98 # CPanoramaImageName
-            m_sLocAbilityName = 0xA8 # CUtlString
-            m_sLocAbilityDesc = 0xB0 # CUtlString
-            m_sLocShardAbilityDesc = 0xB8 # CUtlString
-            m_sLocScepterAbilityDesc = 0xC0 # CUtlString
-            m_sLocHeroName = 0xC8 # CUtlString
-            m_vecMinorUpgradeChoices = 0xD0 # CUtlVector<CSurvivorsUpgradeDefinition>
-            m_vecAuthoredUpgradeChoices = 0xE8 # CUtlVector<CSurvivorsUpgradeDefinition>
-            m_scepterUpgradeDefinition = 0x100 # CSurvivorsUpgradeDefinition
-            m_bModifierParticleUsesOverheadOffset = 0x140 # bool
-            m_sModifierParticle = 0x148 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sStunParticle = 0x228 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sVulnerableParticle = 0x308 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sFreezeParticle = 0x3E8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sHitStatusEffectParticle = 0x4C8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sWarmupEffectParticle = 0x5A8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_vWarmupEffectColor = 0x688 # Vector
-            m_flWarmupEffectTime = 0x694 # float32
-            m_flSpawnPickupOnKillPercent = 0x698 # float32
-            m_unSpawnPickupOnKillID = 0x69C # SurvivorsPickupID_t
-        class CSurvivorsGameModeDefinition:
-            m_unGameModeID = 0x0 # SurvivorsGameModeID_t
-            m_vCameraOffset = 0x10 # Vector
-            m_flEnemyRadius = 0x1C # float32
-            m_flEnemyRadiusVariance = 0x20 # float32
-            m_flEnemyDespawnBuffer = 0x24 # float32
-            m_flEnemyDespawnTime = 0x28 # float32
-            m_sLevelName = 0x30 # CUtlString
-            m_flRequiredExperienceBase = 0x38 # float32
-            m_flRequiredExperienceExponent = 0x3C # float32
-            m_TimeBasedLightingEnvironments = 0x44 # CrownfallSurvivorsLightingEnvironment_t[3]
-            m_sDifficultyName = 0xC0 # CUtlString
-            m_flPlayerReviveTimer = 0xC8 # float32
-            m_sReviveEffect = 0xD0 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nMaxActiveSlots = 0x1B0 # int32
-            m_nMaxPassiveSlots = 0x1B4 # int32
-            m_nLevelUpChoices = 0x1B8 # int32
-            m_nMaxXPPickupsInWorld = 0x1BC # int32
-            m_flKnockbackDuration = 0x1C0 # float32
-            m_flSeperationVelocityInfluence = 0x1C4 # float32
-            m_flSeperationVelocityInterpolationSpeed = 0x1C8 # float32
-            m_flPlayerPositionHistoryBufferDuration = 0x1CC # float32
-            m_flExistingItemGenerationWeight = 0x1D0 # float32
-            m_flNewItemGenerationWeight = 0x1D4 # float32
-            m_flPassiveItemGenerationWeight = 0x1D8 # float32
-            m_flFirstFloorTimeLimit = 0x1DC # float32
-            m_flEliteRoomTriggerChannelTime = 0x1E0 # float32
-            m_flEliteRoomTriggerRadius = 0x1E4 # float32
-            m_nInitialItemSpawns = 0x1E8 # int32
-            m_nInitialMagnetSpawns = 0x1EC # int32
-            m_vecEliteRoomUnlockTimes = 0x1F0 # CUtlVector<float32>
-            m_sEliteRoomChannelEffect = 0x208 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sEliteRoomDirectionalArrowEffect = 0x2E8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_vecEliteRoomChoices = 0x3C8 # CUtlVector<CUtlString>
-            m_sHealthBarEffect = 0x3F8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sAttackIndicatorParticleEffect = 0x4D8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sDamageNumbersEffectEnemy = 0x5B8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sDamageNumbersEffectPlayer = 0x698 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sDamageNumbersEffectCriticalStrike = 0x778 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sCollisionIndicatorEffect = 0x858 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_vCollisionIndicatorColorPlayer = 0x938 # Vector
-            m_vCollisionIndicatorColorEnemy = 0x944 # Vector
-            m_sPhysicalWeaknessEffect = 0x950 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sGenericStunEffect = 0xA30 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_cEliteGlowColor = 0xB10 # Color
-            m_flLevelUpDelay = 0xB14 # float32
-            m_flLevelUpKnockbackRadius = 0xB18 # float32
-            m_flLevelUpKnockbackDistance = 0xB1C # float32
-            m_sLevelUpEffect = 0xB20 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sLevelUpKnockbackEffect = 0xC00 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sPlayerHitEffect = 0xCE0 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_vecSeperationLayerData = 0xDC0 # CUtlVector<CSurvivorsGameModeDefinition::SeparationLayerData>
-            m_luckyLootTable = 0xDD8 # CSurvivorsLootTable
-        class CMatch3OpponentDefinition:
-            m_unOpponentID = 0x0 # Match3OpponentID_t
-            m_sLocName = 0x10 # CUtlString
-            m_sLocFlavor = 0x18 # CUtlString
-            m_sUnitName = 0x20 # CUtlString
-            m_sModelName = 0x28 # CUtlString
-            m_nHeroID = 0x30 # HeroID_t
-            m_vecHeroItems = 0x38 # CUtlVector<CMatch3OpponentHeroItemDefinition>
-            m_nHeroPrimarySlotIndex = 0x50 # int32
-            m_nHeroModelIndex = 0x54 # int32
-            m_nHeroSkinOverride = 0x58 # int32
-            m_vModelOffset = 0x5C # Vector
-            m_flModelScale = 0x68 # float32
-            m_flMaxHealth = 0x6C # float32
-            m_sAttackParticleEffect = 0x70 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_sAttackImpactSound = 0x150 # CUtlString
-            m_vecIntroActions = 0x158 # CUtlVector<CMatch3OpponentActionInstanceDefinition>
-            m_vecRepeatingActions = 0x170 # CUtlVector<CMatch3OpponentActionInstanceDefinition>
-            m_vecOutroActions = 0x188 # CUtlVector<CMatch3OpponentActionInstanceDefinition>
-        class PortraitWorldLightConfig_t:
-            m_strName = 0x0 # CUtlString
-            m_flLatitude = 0x8 # float32
-            m_flLongitude = 0xC # float32
-            m_flIntensity = 0x10 # float32
-            m_flAdditionalRadius = 0x14 # float32
-            m_flSpotFov = 0x18 # float32
-            m_flAnimatedNoiseFrequency = 0x1C # float32
-            m_flAnimatedNoiseMinValue = 0x20 # float32
-            m_color = 0x24 # Color
-            m_bShowGizmos = 0x28 # bool
-            m_bShadows = 0x29 # bool
-        class CShmupBossBodyPart:
-            m_strAttachName = 0x0 # CUtlString
-            m_flRadius = 0x8 # float32
-            m_nHitRegionIndex = 0xC # int32
-            m_nDamageMultiplier = 0x10 # int32
-        class L:
+        class k_EMsgGCReportsRemainingRequest:
             pass
-        class __:
+        class k_EMsgGCRequestChatChannelListResponse:
             pass
-        class ehandle:
+        class ___D__:
             pass
-        class __:
-            pass
-        class __:
-            pass
-        class __:
-            pass
-        class ______:
-            pass
-        class __:
-            pass
-        class __m___:
+        class k_EMsgGCJoinChatChannel:
             pass

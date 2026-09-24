@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 package schemas
 
@@ -14,19 +14,6 @@ const (
     Engine2Dll_CEntityInstance_m_iszPrivateVScripts = 0x8 // CUtlSymbolLarge
     Engine2Dll_CEntityInstance_m_pEntity = 0x10 // CEntityIdentity*
     Engine2Dll_CEntityInstance_m_CScriptComponent = 0x28 // CScriptComponent*
-    Engine2Dll_CScriptComponent_m_scriptClassName = 0x30 // CUtlSymbolLarge
-    Engine2Dll_CEntityIdentity_m_nameStringTableIndex = 0x14 // int32
-    Engine2Dll_CEntityIdentity_m_name = 0x18 // CUtlSymbolLarge
-    Engine2Dll_CEntityIdentity_m_designerName = 0x20 // CUtlSymbolLarge
-    Engine2Dll_CEntityIdentity_m_flags = 0x30 // uint32
-    Engine2Dll_CEntityIdentity_m_worldGroupId = 0x38 // WorldGroupId_t
-    Engine2Dll_CEntityIdentity_m_fDataObjectTypes = 0x3C // uint32
-    Engine2Dll_CEntityIdentity_m_PathIndex = 0x40 // ChangeAccessorFieldPathIndex_t
-    Engine2Dll_CEntityIdentity_m_pAttributes = 0x48 // CEntityAttributeTable*
-    Engine2Dll_CEntityIdentity_m_pPrev = 0x50 // CEntityIdentity*
-    Engine2Dll_CEntityIdentity_m_pNext = 0x58 // CEntityIdentity*
-    Engine2Dll_CEntityIdentity_m_pPrevByClass = 0x60 // CEntityIdentity*
-    Engine2Dll_CEntityIdentity_m_pNextByClass = 0x68 // CEntityIdentity*
     Engine2Dll_EventSimpleLoopFrameUpdate_t_m_LoopState = 0x0 // EngineLoopState_t
     Engine2Dll_EventSimpleLoopFrameUpdate_t_m_flRealTime = 0x28 // float32
     Engine2Dll_EventSimpleLoopFrameUpdate_t_m_flFrameTime = 0x2C // float32
@@ -45,22 +32,12 @@ const (
     Engine2Dll_CEntityComponentHelper_m_pInfo = 0x10 // EntComponentInfo_t*
     Engine2Dll_CEntityComponentHelper_m_nPriority = 0x18 // int32
     Engine2Dll_CEntityComponentHelper_m_pNext = 0x20 // CEntityComponentHelper*
-    Engine2Dll_GameTime_t_m_Value = 0x0 // float32
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_flFireTime = 0x4 // GameTime_t
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_targetType = 0x8 // EntityIOTargetType_t
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_pTarget = 0x10 // CUtlSymbolLarge
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_pTargetInput = 0x18 // CUtlSymbolLarge
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hActivator = 0x20 // CEntityHandle
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hCaller = 0x24 // CEntityHandle
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_hEntTarget = 0x28 // CEntityHandle
-    Engine2Dll_EntityIOQueuePrioritizedEvent_t_m_variantValue = 0x30 // CVariantBase<CVariantDefaultAllocator>
     Engine2Dll_CNetworkVarChainer_m_PathIndex = 0x20 // ChangeAccessorFieldPathIndex_t
     Engine2Dll_EventClientPostOutput_t_m_LoopState = 0x0 // EngineLoopState_t
     Engine2Dll_EventClientPostOutput_t_m_flRenderTime = 0x28 // float64
     Engine2Dll_EventClientPostOutput_t_m_flRenderFrameTime = 0x30 // float32
     Engine2Dll_EventClientPostOutput_t_m_flRenderFrameTimeUnbounded = 0x34 // float32
     Engine2Dll_EventClientPostOutput_t_m_bRenderOnly = 0x38 // bool
-    Engine2Dll_GameTick_t_m_Value = 0x0 // int32
     Engine2Dll_EventClientPollInput_t_m_LoopState = 0x0 // EngineLoopState_t
     Engine2Dll_EventClientPollInput_t_m_flRealTime = 0x28 // float32
     Engine2Dll_EventPreDataUpdate_t_m_nCount = 0x0 // int32

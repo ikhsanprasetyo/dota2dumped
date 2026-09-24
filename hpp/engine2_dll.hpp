@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-17 12:11:28.864356600 +07:00
+// 2026-09-24 17:35:37.601127800 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: engine2.dll
-        // Class count: 58
+        // Class count: 53
         // Enum count: 2
         namespace engine2_dll {
             // Alignment: 4
@@ -37,33 +37,6 @@ namespace source2_dumper {
             // Parent: None
             // Field count: 0
             namespace CEntityComponent {
-            }
-            // Parent: CEntityComponent
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CScriptComponent {
-                constexpr std::ptrdiff_t m_scriptClassName = 0x30; // CUtlSymbolLarge
-            }
-            // Parent: None
-            // Field count: 12
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CEntityIdentity {
-                constexpr std::ptrdiff_t m_nameStringTableIndex = 0x14; // int32
-                constexpr std::ptrdiff_t m_name = 0x18; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_designerName = 0x20; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_flags = 0x30; // uint32
-                constexpr std::ptrdiff_t m_worldGroupId = 0x38; // WorldGroupId_t
-                constexpr std::ptrdiff_t m_fDataObjectTypes = 0x3C; // uint32
-                constexpr std::ptrdiff_t m_PathIndex = 0x40; // ChangeAccessorFieldPathIndex_t
-                constexpr std::ptrdiff_t m_pAttributes = 0x48; // CEntityAttributeTable*
-                constexpr std::ptrdiff_t m_pPrev = 0x50; // CEntityIdentity*
-                constexpr std::ptrdiff_t m_pNext = 0x58; // CEntityIdentity*
-                constexpr std::ptrdiff_t m_pPrevByClass = 0x60; // CEntityIdentity*
-                constexpr std::ptrdiff_t m_pNextByClass = 0x68; // CEntityIdentity*
             }
             // Parent: None
             // Field count: 0
@@ -116,28 +89,8 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_pNext = 0x20; // CEntityComponentHelper*
             }
             // Parent: None
-            // Field count: 1
-            namespace GameTime_t {
-                constexpr std::ptrdiff_t m_Value = 0x0; // float32
-            }
-            // Parent: None
             // Field count: 0
             namespace EventServerBeginSimulate_t {
-            }
-            // Parent: None
-            // Field count: 8
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace EntityIOQueuePrioritizedEvent_t {
-                constexpr std::ptrdiff_t m_flFireTime = 0x4; // GameTime_t
-                constexpr std::ptrdiff_t m_targetType = 0x8; // EntityIOTargetType_t
-                constexpr std::ptrdiff_t m_pTarget = 0x10; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_pTargetInput = 0x18; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_hActivator = 0x20; // CEntityHandle
-                constexpr std::ptrdiff_t m_hCaller = 0x24; // CEntityHandle
-                constexpr std::ptrdiff_t m_hEntTarget = 0x28; // CEntityHandle
-                constexpr std::ptrdiff_t m_variantValue = 0x30; // CVariantBase<CVariantDefaultAllocator>
             }
             // Parent: None
             // Field count: 0
@@ -168,11 +121,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flRenderFrameTime = 0x30; // float32
                 constexpr std::ptrdiff_t m_flRenderFrameTimeUnbounded = 0x34; // float32
                 constexpr std::ptrdiff_t m_bRenderOnly = 0x38; // bool
-            }
-            // Parent: None
-            // Field count: 1
-            namespace GameTick_t {
-                constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
             // Parent: None
             // Field count: 2
