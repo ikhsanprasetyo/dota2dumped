@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -7,17 +7,17 @@ pub mod source2_dumper {
     pub mod offsets {
         // Module: client.dll
         pub mod client_dll {
-            pub const dwEntityList: usize = 0x653CBA0;
-            pub const dwGameEntitySystem: usize = 0x653CBA0;
+            pub const dwEntityList: usize = 0x653DBB0;
+            pub const dwGameEntitySystem: usize = 0x653DBB0;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
-            pub const dwGlobalVars: usize = 0x5A8B200;
-            pub const dwViewMatrix: usize = 0x61C3FA0;
-            pub const dwViewRender: usize = 0x61C4958;
+            pub const dwGlobalVars: usize = 0x5A8C400;
+            pub const dwViewMatrix: usize = 0x61C4F80;
+            pub const dwViewRender: usize = 0x61C5938;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
-            pub const dwBuildNumber: usize = 0x60ED24;
-            pub const dwNetworkGameClient: usize = 0x90CC10;
+            pub const dwBuildNumber: usize = 0x60FD24;
+            pub const dwNetworkGameClient: usize = 0x90DC30;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x378;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
             pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C141F;
@@ -25,8 +25,8 @@ pub mod source2_dumper {
             pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
-            pub const dwWindowHeight: usize = 0x910FDC;
-            pub const dwWindowWidth: usize = 0x910FD8;
+            pub const dwWindowHeight: usize = 0x911FF4;
+            pub const dwWindowWidth: usize = 0x911FF0;
         }
         // Module: inputsystem.dll
         pub mod inputsystem_dll {
@@ -37,7 +37,7 @@ pub mod source2_dumper {
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
-            pub const dwSoundSystem: usize = 0x552AA0;
+            pub const dwSoundSystem: usize = 0x552A80;
             pub const dwSoundSystem_engineViewData: usize = 0x7C;
         }
     }

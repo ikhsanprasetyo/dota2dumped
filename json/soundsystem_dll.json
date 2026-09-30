@@ -46,41 +46,21 @@
         ],
         "parent": null
       },
-      "CSndBeatPattern": {
+      "CDSPPresetMixgroupModifierTable": {
         "fields": {
-          "m_bLooping": 36,
-          "m_flLength": 32,
-          "m_flPlayBeatMult": 44,
-          "m_flSyncBeatMult": 156,
-          "m_flSyncPriority": 12,
-          "m_name": 0,
-          "m_playEventType": 40,
-          "m_playKeyType": 48,
-          "m_syncEventType": 152,
-          "m_syncStartType": 16,
-          "m_syncType": 20,
-          "m_timeSignature": 24,
-          "m_vecPatternFloats": 80,
-          "m_vecPatternKeys": 56,
-          "m_vecPatternMidi": 128,
-          "m_vecPatternSndEvts": 104,
-          "m_vecSyncPatternKeys": 160
+          "m_table": 0
         },
         "metadata": [
-          {
-            "name": "MPropertyArrayElementNameKey",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataOutlinerNameExpr",
-            "type": "Unknown"
-          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           },
           {
-            "name": "MPropertySuppressExpr",
+            "name": "MVDataNodeType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
@@ -88,11 +68,48 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertySuppressExpr",
+            "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
-            "name": "MPropertyStartGroup",
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSndBeatPatternManager": {
+        "fields": {
+          "m_vecActiveTracks": 112,
+          "m_vecPatterns": 56
+        },
+        "metadata": [
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataPromoteField",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataPromoteField",
             "type": "Unknown"
           }
         ],
@@ -168,6 +185,18 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyAttributeEditor",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyReadonlyExpr",
             "type": "Unknown"
           },
@@ -176,15 +205,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyStartGroup",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
+            "name": "MPropertyReadonlyExpr",
             "type": "Unknown"
           }
         ],
@@ -294,26 +315,6 @@
           },
           {
             "name": "MVDataNodeType",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusNoteOff",
             "type": "Unknown"
           }
         ],

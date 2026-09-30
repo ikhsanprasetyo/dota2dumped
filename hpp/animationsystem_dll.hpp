@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: animationsystem.dll
-        // Class count: 87
+        // Class count: 86
         // Enum count: 143
         namespace animationsystem_dll {
             // Alignment: 4
@@ -2105,16 +2105,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flAngleWeight = 0x4; // float32
                 constexpr std::ptrdiff_t m_nLocalBone = 0x8; // int16
                 constexpr std::ptrdiff_t m_bBonesOrientedAlongPositiveX = 0xA; // bool
-            }
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace ParamSpanSample_t {
-                constexpr std::ptrdiff_t m_value = 0x0; // CAnimVariant
-                constexpr std::ptrdiff_t m_flCycle = 0x14; // float32
             }
             // Parent: None
             // Field count: 0

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 export const Schemas = {
     soundsystem_dll: {
@@ -250,6 +250,9 @@ export const Schemas = {
             m_fadeOut: 0x7C, // float32
             m_mode: 0x80, // EVsndTriggerMode
         },
+        CDSPPresetMixgroupModifierTable: {
+            m_table: 0x0, // CUtlVector<CDspPresetModifierList>
+        },
         SamplerVoice_t: {
             nNoteNum: 0x0, // uint8
         },
@@ -287,6 +290,10 @@ export const Schemas = {
             m_nTranspose: 0x24, // int32
             m_bSyncToVoice: 0x28, // bool
             m_flBPM: 0x2C, // float32
+        },
+        CSndBeatPatternManager: {
+            m_vecPatterns: 0x38, // CUtlVector<CSndBeatPattern>
+            m_vecActiveTracks: 0x70, // CUtlVector<CSndBeatTrack>
         },
         CSoundInfoHeader: {
         },
@@ -329,25 +336,6 @@ export const Schemas = {
         },
         SndBeatEventKeys_t: {
             m_flKey: 0x8, // float32
-        },
-        CSndBeatPattern: {
-            m_name: 0x0, // CUtlString
-            m_flSyncPriority: 0xC, // float32
-            m_syncStartType: 0x10, // SndBeatSyncStartType_t
-            m_syncType: 0x14, // SndBeatSyncType_t
-            m_timeSignature: 0x18, // SndBeatTimeSignature_t
-            m_flLength: 0x20, // float32
-            m_bLooping: 0x24, // bool
-            m_playEventType: 0x28, // SndBeatEventType_t
-            m_flPlayBeatMult: 0x2C, // float32
-            m_playKeyType: 0x30, // SndBeatKeyType_t
-            m_vecPatternKeys: 0x38, // CUtlVector<SndBeatEventKeys_t>
-            m_vecPatternFloats: 0x50, // CUtlVector<SndBeatEventKeyedFloats_t>
-            m_vecPatternSndEvts: 0x68, // CUtlVector<SndBeatEventKeyedSndEvts_t>
-            m_vecPatternMidi: 0x80, // CUtlVector<SndBeatEventKeyedMidiNotes_t>
-            m_syncEventType: 0x98, // SndBeatEventType_t
-            m_flSyncBeatMult: 0x9C, // float32
-            m_vecSyncPatternKeys: 0xA0, // CUtlVector<SndBeatEventKeys_t>
         },
         ISndSeqInstruments: {
         },

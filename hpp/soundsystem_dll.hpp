@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: soundsystem.dll
-        // Class count: 15
+        // Class count: 16
         // Enum count: 28
         namespace soundsystem_dll {
             // Alignment: 4
@@ -334,6 +334,20 @@ namespace source2_dumper {
             }
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MVDataNodeType
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            namespace CDSPPresetMixgroupModifierTable {
+                constexpr std::ptrdiff_t m_table = 0x0; // CUtlVector<CDspPresetModifierList>
+            }
+            // Parent: None
+            // Field count: 1
             namespace SamplerVoice_t {
                 constexpr std::ptrdiff_t nNoteNum = 0x0; // uint8
             }
@@ -346,11 +360,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertySuppressExpr
+            // MPropertyAttributeEditor
             // MPropertyReadonlyExpr
             // MPropertySuppressExpr
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertySuppressExpr
+            // MPropertyReadonlyExpr
             namespace CSosSoundEventGroupSchema {
                 constexpr std::ptrdiff_t m_nGroupType = 0x8; // SosGroupType_t
                 constexpr std::ptrdiff_t m_bBlocksEvents = 0xC; // bool
@@ -406,6 +421,20 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nTranspose = 0x24; // int32
                 constexpr std::ptrdiff_t m_bSyncToVoice = 0x28; // bool
                 constexpr std::ptrdiff_t m_flBPM = 0x2C; // float32
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MVDataPromoteField
+            // MPropertyFriendlyName
+            // MVDataPromoteField
+            namespace CSndBeatPatternManager {
+                constexpr std::ptrdiff_t m_vecPatterns = 0x38; // CUtlVector<CSndBeatPattern>
+                constexpr std::ptrdiff_t m_vecActiveTracks = 0x70; // CUtlVector<CSndBeatTrack>
             }
             // Parent: None
             // Field count: 0
@@ -473,43 +502,8 @@ namespace source2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataNodeType
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // SndSeqMidiStatusNoteOff
             namespace SndBeatEventKeys_t {
                 constexpr std::ptrdiff_t m_flKey = 0x8; // float32
-            }
-            // Parent: None
-            // Field count: 17
-            //
-            // Metadata:
-            // MPropertyArrayElementNameKey
-            // MVDataOutlinerNameExpr
-            // MGetKV3ClassDefaults
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyStartGroup
-            namespace CSndBeatPattern {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_flSyncPriority = 0xC; // float32
-                constexpr std::ptrdiff_t m_syncStartType = 0x10; // SndBeatSyncStartType_t
-                constexpr std::ptrdiff_t m_syncType = 0x14; // SndBeatSyncType_t
-                constexpr std::ptrdiff_t m_timeSignature = 0x18; // SndBeatTimeSignature_t
-                constexpr std::ptrdiff_t m_flLength = 0x20; // float32
-                constexpr std::ptrdiff_t m_bLooping = 0x24; // bool
-                constexpr std::ptrdiff_t m_playEventType = 0x28; // SndBeatEventType_t
-                constexpr std::ptrdiff_t m_flPlayBeatMult = 0x2C; // float32
-                constexpr std::ptrdiff_t m_playKeyType = 0x30; // SndBeatKeyType_t
-                constexpr std::ptrdiff_t m_vecPatternKeys = 0x38; // CUtlVector<SndBeatEventKeys_t>
-                constexpr std::ptrdiff_t m_vecPatternFloats = 0x50; // CUtlVector<SndBeatEventKeyedFloats_t>
-                constexpr std::ptrdiff_t m_vecPatternSndEvts = 0x68; // CUtlVector<SndBeatEventKeyedSndEvts_t>
-                constexpr std::ptrdiff_t m_vecPatternMidi = 0x80; // CUtlVector<SndBeatEventKeyedMidiNotes_t>
-                constexpr std::ptrdiff_t m_syncEventType = 0x98; // SndBeatEventType_t
-                constexpr std::ptrdiff_t m_flSyncBeatMult = 0x9C; // float32
-                constexpr std::ptrdiff_t m_vecSyncPatternKeys = 0xA0; // CUtlVector<SndBeatEventKeys_t>
             }
             // Parent: None
             // Field count: 0

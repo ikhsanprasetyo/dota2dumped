@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -8317,31 +8317,27 @@ export const Schemas = {
             MOVETYPE_CUSTOM: 0x9,
             MOVETYPE_LAST: 0xA,
         },
-        _y__k_: {
+        ______: {
         },
-        ____k_: {
+        ______: {
         },
-        _T_4k_: {
+        ______: {
         },
-        _h__k_: {
+        _Jz___: {
         },
-        ___4k_: {
+        ______: {
         },
-        ____k_: {
+        _5____: {
         },
-        ___4k_: {
+        _7____: {
         },
-        ___4k_: {
+        _d____: {
         },
-        _J_4k_: {
+        _l____: {
         },
-        ____k_: {
+        ______: {
         },
-        ____k_: {
-        },
-        _m__k_: {
-        },
-        ____k_: {
+        ______: {
         },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x1A78, // int32
@@ -25819,7 +25815,8 @@ export const Schemas = {
             hPreviousMeepo: 0x580, // CHandle<CBaseEntity>
             hMegameepoFrame: 0x584, // CHandle<CBaseEntity>
             hListOfMeepos: 0x588, // CUtlVector<CHandle<CBaseEntity>>
-            m_bHasSwappedAbilities: 0x5A0, // bool
+            hFlingHandles: 0x5A0, // CUtlVector<int32>
+            m_bHasSwappedAbilities: 0x5B8, // bool
         },
         CDOTA_Ability_SpiritBreaker_Bulldoze: {
         },
@@ -38846,6 +38843,41 @@ export const Schemas = {
             m_vPathingDirection: 0x61C, // Vector
             m_nPathingSourceIndex: 0x628, // int32
         },
+        CBasePlayerWeaponVData: {
+            m_szClassName: 0x10, // CUtlString
+            m_szWorldModel: 0x18, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            m_szWorldModelAg2Override: 0xF8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            m_sToolsOnlyOwnerModelName: 0x1D8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            m_bBuiltRightHanded: 0x2B8, // bool
+            m_bAllowFlipping: 0x2B9, // bool
+            m_sMuzzleAttachment: 0x2C0, // CAttachmentNameSymbolWithStorage
+            m_szMuzzleFlashParticle: 0x2E0, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            m_szMuzzleFlashParticleConfig: 0x3C0, // CUtlString
+            m_szBarrelSmokeParticle: 0x3C8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            m_nMuzzleSmokeShotThreshold: 0x4A8, // uint8
+            m_flMuzzleSmokeTimeout: 0x4AC, // float32
+            m_flMuzzleSmokeDecrementRate: 0x4B0, // float32
+            m_bGenerateMuzzleLight: 0x4B4, // bool
+            m_bLinkedCooldowns: 0x4B5, // bool
+            m_iFlags: 0x4B6, // ItemFlagTypes_t
+            m_iWeight: 0x4B8, // int32
+            m_bAutoSwitchTo: 0x4BC, // bool
+            m_bAutoSwitchFrom: 0x4BD, // bool
+            m_nPrimaryAmmoType: 0x4BE, // AmmoIndex_t
+            m_nSecondaryAmmoType: 0x4BF, // AmmoIndex_t
+            m_iMaxClip1: 0x4C0, // int32
+            m_iMaxClip2: 0x4C4, // int32
+            m_iDefaultClip1: 0x4C8, // int32
+            m_iDefaultClip2: 0x4CC, // int32
+            m_bReserveAmmoAsClips: 0x4D0, // bool
+            m_bTreatAsSingleClip: 0x4D1, // bool
+            m_bKeepLoadedAmmo: 0x4D2, // bool
+            m_iRumbleEffect: 0x4D4, // RumbleEffect_t
+            m_flDropSpeed: 0x4D8, // float32
+            m_iSlot: 0x4DC, // int32
+            m_iPosition: 0x4E0, // int32
+            m_aShootSounds: 0x4E8, // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
+        },
         CDOTA_Unit_Hero_PhantomAssassin: {
             m_nFXDeath: 0x1F08, // ParticleIndex_t
         },
@@ -39455,6 +39487,10 @@ export const Schemas = {
             m_hRemnant: 0x0, // CHandle<CBaseEntity>
             m_nProjectileHandle: 0x4, // int32
         },
+        AutoRoomDoorwayPairs_t: {
+            vP1: 0x0, // VectorWS
+            vP2: 0xC, // VectorWS
+        },
         DOTAOutgoingBonus_t: {
             m_pszAbilityName: 0x0, // char*
             m_pszSpecialName: 0x8, // char*
@@ -39763,9 +39799,6 @@ export const Schemas = {
         },
         CNavVolumeVector: {
             m_bHasBeenPreFiltered: 0x80, // bool
-        },
-        CPhysicsShake: {
-            m_force: 0x8, // Vector
         },
         NeutralSpawnBoxes_t: {
             neutralSpawnBoxes: 0x0, // AABB_t
@@ -40450,6 +40483,10 @@ export const Schemas = {
         CNavVolumeSphere: {
             m_vCenter: 0x78, // VectorWS
             m_flRadius: 0x84, // float32
+        },
+        Relationship_t: {
+            disposition: 0x0, // Disposition_t
+            priority: 0x4, // int32
         },
     },
 };

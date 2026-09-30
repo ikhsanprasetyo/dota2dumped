@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
-    // Class count: 87
+    // Class count: 86
     // Enum count: 143
     public static class AnimationsystemDll {
         // Alignment: 4
@@ -2099,16 +2099,6 @@ namespace Source2Dumper.Schemas {
             public const nint m_flAngleWeight = 0x4; // float32
             public const nint m_nLocalBone = 0x8; // int16
             public const nint m_bBonesOrientedAlongPositiveX = 0xA; // bool
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class ParamSpanSample_t {
-            public const nint m_value = 0x0; // CAnimVariant
-            public const nint m_flCycle = 0x14; // float32
         }
         // Parent: None
         // Field count: 0

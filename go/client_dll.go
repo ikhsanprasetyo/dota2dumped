@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 package schemas
 
@@ -8835,7 +8835,8 @@ const (
     ClientDll_C_DOTA_Ability_Meepo_MegaMeepo_hPreviousMeepo = 0x6A8 // CHandle<C_BaseEntity>
     ClientDll_C_DOTA_Ability_Meepo_MegaMeepo_hMegameepoFrame = 0x6AC // CHandle<C_BaseEntity>
     ClientDll_C_DOTA_Ability_Meepo_MegaMeepo_hListOfMeepos = 0x6B0 // CUtlVector<CHandle<C_BaseEntity>>
-    ClientDll_C_DOTA_Ability_Meepo_MegaMeepo_m_bHasSwappedAbilities = 0x6C8 // bool
+    ClientDll_C_DOTA_Ability_Meepo_MegaMeepo_hFlingHandles = 0x6C8 // CUtlVector<int32>
+    ClientDll_C_DOTA_Ability_Meepo_MegaMeepo_m_bHasSwappedAbilities = 0x6E0 // bool
     ClientDll_C_DOTA_Ability_Venomancer_Latent_Poison_projectile_speed = 0x6A8 // Vector
     ClientDll_C_DOTA_Ability_Animation_TailSpin_animation_time = 0x6A8 // float32
     ClientDll_C_DOTA_Ability_Greevil_Miniboss_Blue_IceVortex_vision_aoe = 0x6A8 // int32
@@ -14359,39 +14360,6 @@ const (
     ClientDll_CDOTA_Modifier_Animation_TailSpin_damage_radius = 0x1A7C // int32
     ClientDll_CDOTA_Modifier_Animation_TailSpin_m_flPlaybackRate = 0x1A80 // float32
     ClientDll_CDOTA_Modifier_Animation_TailSpin_m_vHitEntities = 0x1A88 // CUtlVector<CHandle<C_BaseEntity>>
-    ClientDll_CBasePlayerWeaponVData_m_szClassName = 0x10 // CUtlString
-    ClientDll_CBasePlayerWeaponVData_m_szWorldModel = 0x18 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-    ClientDll_CBasePlayerWeaponVData_m_szWorldModelAg2Override = 0xF8 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-    ClientDll_CBasePlayerWeaponVData_m_sToolsOnlyOwnerModelName = 0x1D8 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-    ClientDll_CBasePlayerWeaponVData_m_bBuiltRightHanded = 0x2B8 // bool
-    ClientDll_CBasePlayerWeaponVData_m_bAllowFlipping = 0x2B9 // bool
-    ClientDll_CBasePlayerWeaponVData_m_sMuzzleAttachment = 0x2C0 // CAttachmentNameSymbolWithStorage
-    ClientDll_CBasePlayerWeaponVData_m_szMuzzleFlashParticle = 0x2E0 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-    ClientDll_CBasePlayerWeaponVData_m_szMuzzleFlashParticleConfig = 0x3C0 // CUtlString
-    ClientDll_CBasePlayerWeaponVData_m_szBarrelSmokeParticle = 0x3C8 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-    ClientDll_CBasePlayerWeaponVData_m_nMuzzleSmokeShotThreshold = 0x4A8 // uint8
-    ClientDll_CBasePlayerWeaponVData_m_flMuzzleSmokeTimeout = 0x4AC // float32
-    ClientDll_CBasePlayerWeaponVData_m_flMuzzleSmokeDecrementRate = 0x4B0 // float32
-    ClientDll_CBasePlayerWeaponVData_m_bGenerateMuzzleLight = 0x4B4 // bool
-    ClientDll_CBasePlayerWeaponVData_m_bLinkedCooldowns = 0x4B5 // bool
-    ClientDll_CBasePlayerWeaponVData_m_iFlags = 0x4B6 // ItemFlagTypes_t
-    ClientDll_CBasePlayerWeaponVData_m_iWeight = 0x4B8 // int32
-    ClientDll_CBasePlayerWeaponVData_m_bAutoSwitchTo = 0x4BC // bool
-    ClientDll_CBasePlayerWeaponVData_m_bAutoSwitchFrom = 0x4BD // bool
-    ClientDll_CBasePlayerWeaponVData_m_nPrimaryAmmoType = 0x4BE // AmmoIndex_t
-    ClientDll_CBasePlayerWeaponVData_m_nSecondaryAmmoType = 0x4BF // AmmoIndex_t
-    ClientDll_CBasePlayerWeaponVData_m_iMaxClip1 = 0x4C0 // int32
-    ClientDll_CBasePlayerWeaponVData_m_iMaxClip2 = 0x4C4 // int32
-    ClientDll_CBasePlayerWeaponVData_m_iDefaultClip1 = 0x4C8 // int32
-    ClientDll_CBasePlayerWeaponVData_m_iDefaultClip2 = 0x4CC // int32
-    ClientDll_CBasePlayerWeaponVData_m_bReserveAmmoAsClips = 0x4D0 // bool
-    ClientDll_CBasePlayerWeaponVData_m_bTreatAsSingleClip = 0x4D1 // bool
-    ClientDll_CBasePlayerWeaponVData_m_bKeepLoadedAmmo = 0x4D2 // bool
-    ClientDll_CBasePlayerWeaponVData_m_iRumbleEffect = 0x4D4 // RumbleEffect_t
-    ClientDll_CBasePlayerWeaponVData_m_flDropSpeed = 0x4D8 // float32
-    ClientDll_CBasePlayerWeaponVData_m_iSlot = 0x4DC // int32
-    ClientDll_CBasePlayerWeaponVData_m_iPosition = 0x4E0 // int32
-    ClientDll_CBasePlayerWeaponVData_m_aShootSounds = 0x4E8 // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
     ClientDll_CDOTA_Ability_Tusk_Drinking_Buddies_buff_duration = 0x6A8 // float32
     ClientDll_CDOTA_Ability_Tusk_Drinking_Buddies_pull_duration = 0x6AC // float32
     ClientDll_CDOTA_Ability_Tusk_Drinking_Buddies_min_distance = 0x6B0 // float32
@@ -14776,6 +14744,8 @@ const (
     ClientDll_CAnnouncerDescriptor_m_strAnnouncerVoiceFile = 0x10 // CUtlString
     ClientDll_CAnnouncerDescriptor_m_nAnnouncerItemId = 0x18 // itemid_t
     ClientDll_CAnnouncerDescriptor_m_bItemOwnedByLocalPlayer = 0x20 // bool
+    ClientDll_CShmupTrackDefinition_m_strName = 0x0 // CUtlString
+    ClientDll_CShmupTrackDefinition_m_vecEvents = 0x8 // CUtlVector<CShmupEventTime>
     ClientDll_CBasePortraitData_m_iModelIndex = 0x410 // CStrongHandle<InfoForResourceTypeCModel>
     ClientDll_CBasePortraitData_m_skin = 0x418 // CUtlStringToken
     ClientDll_CBasePortraitData_m_bHasSetupView = 0xDA8 // bool
@@ -14847,6 +14817,25 @@ const (
     ClientDll_CInterpolatedValue_m_flStartValue = 0x8 // float32
     ClientDll_CInterpolatedValue_m_flEndValue = 0xC // float32
     ClientDll_CInterpolatedValue_m_nInterpType = 0x10 // int32
+    ClientDll_CShmupBulletInfo_m_pattern = 0x0 // EShmupBulletPattern
+    ClientDll_CShmupBulletInfo_m_nCount = 0x4 // int32
+    ClientDll_CShmupBulletInfo_m_flSpeed = 0x8 // float32
+    ClientDll_CShmupBulletInfo_m_flRadius = 0xC // float32
+    ClientDll_CShmupBulletInfo_m_flRandomTargetingOffsetMin = 0x10 // float32
+    ClientDll_CShmupBulletInfo_m_flRandomTargetingOffsetMax = 0x14 // float32
+    ClientDll_CShmupBulletInfo_m_nBulletsPerWave = 0x18 // int32
+    ClientDll_CShmupBulletInfo_m_flAngleWidth = 0x1C // float32
+    ClientDll_CShmupBulletInfo_m_flAngleOffset = 0x20 // float32
+    ClientDll_CShmupBulletInfo_m_flSpeedPerBullet = 0x24 // float32
+    ClientDll_CShmupBulletInfo_m_flRadiusPerBullet = 0x28 // float32
+    ClientDll_CShmupBulletInfo_m_flAngleOffsetPerBullet = 0x2C // float32
+    ClientDll_CShmupBulletInfo_m_flAngleOffsetPerWave = 0x30 // float32
+    ClientDll_CShmupBulletInfo_m_flAngleStaggerPerWave = 0x34 // float32
+    ClientDll_CShmupBulletInfo_m_flAngleSinWaveOffset = 0x38 // float32
+    ClientDll_CShmupBulletInfo_m_bSwapColorPerBullet = 0x3C // bool
+    ClientDll_CShmupBulletInfo_m_flInterval = 0x40 // float32
+    ClientDll_CShmupBulletInfo_m_vFixedDirection = 0x44 // Vector2D
+    ClientDll_CShmupBulletInfo_m_bUseStoredPlayerLocation = 0x4C // bool
     ClientDll_CSurvivorsPowerUp_AreaAttack_m_sParticle = 0x608 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
     ClientDll_CSurvivorsPowerUp_AreaAttack_m_sHitImpactParticle = 0x6E8 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
     ClientDll_CSurvivorsPowerUp_AreaAttack_m_vecQueuedDamageTicks = 0x7C8 // CUtlVector<CSurvivorsPowerUpDamageTickInfo>
@@ -15065,6 +15054,16 @@ const (
     ClientDll_CSurvivorsSpawnerEliteTurret_m_nEnemiesSpawnedCount = 0x17C // int32
     ClientDll_CSurvivorsSpawnerEliteTurret_m_sInvulnerableParticle = 0x180 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
     ClientDll_CSurvivorsSpawnerEliteTurret_m_sInvulnerableSkinName = 0x260 // CUtlString
+    ClientDll_CandyShopRewardOptionGC_t_m_unRewardOptionID = 0x0 // CandyShopRewardOptionID_t
+    ClientDll_CandyShopRewardOptionGC_t_m_unRewardOptionMaxCount = 0x4 // uint32
+    ClientDll_CandyShopRewardOptionGC_t_m_unCandyPrice = 0x8 // uint32
+    ClientDll_CandyShopRewardOptionGC_t_m_unWeight = 0xC // uint32
+    ClientDll_CandyShopRewardOptionGC_t_m_eOptionType = 0x10 // ECandyShopRewardOptionType
+    ClientDll_CandyShopRewardOptionGC_t_m_unSingleItemDef = 0x14 // item_definition_index_t
+    ClientDll_CandyShopRewardOptionGC_t_m_sLootList = 0x18 // CUtlString
+    ClientDll_CandyShopRewardOptionGC_t_m_eEvent = 0x20 // EEvent
+    ClientDll_CandyShopRewardOptionGC_t_m_unEventActionID = 0x24 // uint32
+    ClientDll_CandyShopRewardOptionGC_t_m_unEventPoints = 0x28 // uint32
     ClientDll_CSurvivorsPowerUp_Snotty_m_vecSnotties = 0x800 // CUtlVector<SurvivorsUnitID_t>
     ClientDll_CSurvivorsPowerUp_Snotty_m_flRotationSpeedDeg = 0x818 // float32
     ClientDll_CSurvivorsPowerUp_Snotty_m_flRotationDist = 0x81C // float32

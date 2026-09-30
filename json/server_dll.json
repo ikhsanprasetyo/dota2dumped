@@ -8,6 +8,19 @@
         "metadata": [],
         "parent": null
       },
+      "AutoRoomDoorwayPairs_t": {
+        "fields": {
+          "vP1": 0,
+          "vP2": 12
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CAI_ChangeHintGroup": {
         "fields": {
           "m_flRadius": 1200,
@@ -520,6 +533,50 @@
         },
         "metadata": [],
         "parent": "CBaseAnimatingActivity"
+      },
+      "CBasePlayerWeaponVData": {
+        "fields": {
+          "m_aShootSounds": 1256,
+          "m_bAllowFlipping": 697,
+          "m_bAutoSwitchFrom": 1213,
+          "m_bAutoSwitchTo": 1212,
+          "m_bBuiltRightHanded": 696,
+          "m_bGenerateMuzzleLight": 1204,
+          "m_bKeepLoadedAmmo": 1234,
+          "m_bLinkedCooldowns": 1205,
+          "m_bReserveAmmoAsClips": 1232,
+          "m_bTreatAsSingleClip": 1233,
+          "m_flDropSpeed": 1240,
+          "m_flMuzzleSmokeDecrementRate": 1200,
+          "m_flMuzzleSmokeTimeout": 1196,
+          "m_iDefaultClip1": 1224,
+          "m_iDefaultClip2": 1228,
+          "m_iFlags": 1206,
+          "m_iMaxClip1": 1216,
+          "m_iMaxClip2": 1220,
+          "m_iPosition": 1248,
+          "m_iRumbleEffect": 1236,
+          "m_iSlot": 1244,
+          "m_iWeight": 1208,
+          "m_nMuzzleSmokeShotThreshold": 1192,
+          "m_nPrimaryAmmoType": 1214,
+          "m_nSecondaryAmmoType": 1215,
+          "m_sMuzzleAttachment": 704,
+          "m_sToolsOnlyOwnerModelName": 472,
+          "m_szBarrelSmokeParticle": 968,
+          "m_szClassName": 16,
+          "m_szMuzzleFlashParticle": 736,
+          "m_szMuzzleFlashParticleConfig": 960,
+          "m_szWorldModel": 24,
+          "m_szWorldModelAg2Override": 248
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CBaseProp": {
         "fields": {
@@ -8189,10 +8246,11 @@
       },
       "CDOTA_Ability_Meepo_MegaMeepo": {
         "fields": {
+          "hFlingHandles": 1440,
           "hListOfMeepos": 1416,
           "hMegameepoFrame": 1412,
           "hPreviousMeepo": 1408,
-          "m_bHasSwappedAbilities": 1440
+          "m_bHasSwappedAbilities": 1464
         },
         "metadata": [],
         "parent": "CDOTABaseAbility"
@@ -54390,18 +54448,6 @@
         "metadata": [],
         "parent": "CPhysicsProp"
       },
-      "CPhysicsShake": {
-        "fields": {
-          "m_force": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
       "CPhysicsSpring": {
         "fields": {
           "m_end": 1228,
@@ -57085,6 +57131,19 @@
           "vRegionBoxOrigin": 24
         },
         "metadata": [],
+        "parent": null
+      },
+      "Relationship_t": {
+        "fields": {
+          "disposition": 0,
+          "priority": 4
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "RemnantData_t": {
@@ -66797,37 +66856,32 @@
         },
         "type": "uint32"
       },
-      "_J_4k_": {
+      "_5____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_T_4k_": {
+      "_7____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "___4k_": {
+      "_Jz___": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "____k_": {
+      "______": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_h__k_": {
-        "alignment": 0,
+      "_d____": {
+        "alignment": 97,
         "members": {},
         "type": "unknown"
       },
-      "_m__k_": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_y__k_": {
+      "_l____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

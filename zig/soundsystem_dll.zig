@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: soundsystem.dll
-        // Class count: 15
+        // Class count: 16
         // Enum count: 28
         pub const soundsystem_dll = struct {
             // Alignment: 4
@@ -324,6 +324,20 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MVDataNodeType
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MPropertyDescription
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            pub const CDSPPresetMixgroupModifierTable = struct {
+                pub const m_table: usize = 0x0; // CUtlVector<CDspPresetModifierList>
+            };
+            // Parent: None
+            // Field count: 1
             pub const SamplerVoice_t = struct {
                 pub const nNoteNum: usize = 0x0; // uint8
             };
@@ -336,11 +350,12 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyStartGroup
+            // MPropertySuppressExpr
+            // MPropertyAttributeEditor
             // MPropertyReadonlyExpr
             // MPropertySuppressExpr
-            // MPropertyStartGroup
-            // MPropertyStartGroup
-            // MPropertySuppressExpr
+            // MPropertyReadonlyExpr
             pub const CSosSoundEventGroupSchema = struct {
                 pub const m_nGroupType: usize = 0x8; // SosGroupType_t
                 pub const m_bBlocksEvents: usize = 0xC; // bool
@@ -396,6 +411,20 @@ pub const source2_dumper = struct {
                 pub const m_nTranspose: usize = 0x24; // int32
                 pub const m_bSyncToVoice: usize = 0x28; // bool
                 pub const m_flBPM: usize = 0x2C; // float32
+            };
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MVDataPromoteField
+            // MPropertyFriendlyName
+            // MVDataPromoteField
+            pub const CSndBeatPatternManager = struct {
+                pub const m_vecPatterns: usize = 0x38; // CUtlVector<CSndBeatPattern>
+                pub const m_vecActiveTracks: usize = 0x70; // CUtlVector<CSndBeatTrack>
             };
             // Parent: None
             // Field count: 0
@@ -463,43 +492,8 @@ pub const source2_dumper = struct {
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataNodeType
-            // MPropertyFriendlyName
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // SndSeqMidiStatusNoteOff
             pub const SndBeatEventKeys_t = struct {
                 pub const m_flKey: usize = 0x8; // float32
-            };
-            // Parent: None
-            // Field count: 17
-            //
-            // Metadata:
-            // MPropertyArrayElementNameKey
-            // MVDataOutlinerNameExpr
-            // MGetKV3ClassDefaults
-            // MPropertySuppressExpr
-            // MPropertyFriendlyName
-            // MPropertySuppressExpr
-            // MPropertyStartGroup
-            pub const CSndBeatPattern = struct {
-                pub const m_name: usize = 0x0; // CUtlString
-                pub const m_flSyncPriority: usize = 0xC; // float32
-                pub const m_syncStartType: usize = 0x10; // SndBeatSyncStartType_t
-                pub const m_syncType: usize = 0x14; // SndBeatSyncType_t
-                pub const m_timeSignature: usize = 0x18; // SndBeatTimeSignature_t
-                pub const m_flLength: usize = 0x20; // float32
-                pub const m_bLooping: usize = 0x24; // bool
-                pub const m_playEventType: usize = 0x28; // SndBeatEventType_t
-                pub const m_flPlayBeatMult: usize = 0x2C; // float32
-                pub const m_playKeyType: usize = 0x30; // SndBeatKeyType_t
-                pub const m_vecPatternKeys: usize = 0x38; // CUtlVector<SndBeatEventKeys_t>
-                pub const m_vecPatternFloats: usize = 0x50; // CUtlVector<SndBeatEventKeyedFloats_t>
-                pub const m_vecPatternSndEvts: usize = 0x68; // CUtlVector<SndBeatEventKeyedSndEvts_t>
-                pub const m_vecPatternMidi: usize = 0x80; // CUtlVector<SndBeatEventKeyedMidiNotes_t>
-                pub const m_syncEventType: usize = 0x98; // SndBeatEventType_t
-                pub const m_flSyncBeatMult: usize = 0x9C; // float32
-                pub const m_vecSyncPatternKeys: usize = 0xA0; // CUtlVector<SndBeatEventKeys_t>
             };
             // Parent: None
             // Field count: 0

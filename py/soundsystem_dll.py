@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-24 17:35:37.601127800 +07:00
+# 2026-09-30 23:53:47.474156300 +07:00
 
 class Schemas:
     # Module: soundsystem.dll
@@ -222,6 +222,8 @@ class Schemas:
             m_volume = 0x78 # float32
             m_fadeOut = 0x7C # float32
             m_mode = 0x80 # EVsndTriggerMode
+        class CDSPPresetMixgroupModifierTable:
+            m_table = 0x0 # CUtlVector<CDspPresetModifierList>
         class SamplerVoice_t:
             nNoteNum = 0x0 # uint8
         class CSndSeqInstruments:
@@ -256,6 +258,9 @@ class Schemas:
             m_nTranspose = 0x24 # int32
             m_bSyncToVoice = 0x28 # bool
             m_flBPM = 0x2C # float32
+        class CSndBeatPatternManager:
+            m_vecPatterns = 0x38 # CUtlVector<CSndBeatPattern>
+            m_vecActiveTracks = 0x70 # CUtlVector<CSndBeatTrack>
         class CSoundInfoHeader:
             pass
         class CVMixSubmix:
@@ -292,23 +297,5 @@ class Schemas:
             m_bPeakMode = 0x24 # bool
         class SndBeatEventKeys_t:
             m_flKey = 0x8 # float32
-        class CSndBeatPattern:
-            m_name = 0x0 # CUtlString
-            m_flSyncPriority = 0xC # float32
-            m_syncStartType = 0x10 # SndBeatSyncStartType_t
-            m_syncType = 0x14 # SndBeatSyncType_t
-            m_timeSignature = 0x18 # SndBeatTimeSignature_t
-            m_flLength = 0x20 # float32
-            m_bLooping = 0x24 # bool
-            m_playEventType = 0x28 # SndBeatEventType_t
-            m_flPlayBeatMult = 0x2C # float32
-            m_playKeyType = 0x30 # SndBeatKeyType_t
-            m_vecPatternKeys = 0x38 # CUtlVector<SndBeatEventKeys_t>
-            m_vecPatternFloats = 0x50 # CUtlVector<SndBeatEventKeyedFloats_t>
-            m_vecPatternSndEvts = 0x68 # CUtlVector<SndBeatEventKeyedSndEvts_t>
-            m_vecPatternMidi = 0x80 # CUtlVector<SndBeatEventKeyedMidiNotes_t>
-            m_syncEventType = 0x98 # SndBeatEventType_t
-            m_flSyncBeatMult = 0x9C # float32
-            m_vecSyncPatternKeys = 0xA0 # CUtlVector<SndBeatEventKeys_t>
         class ISndSeqInstruments:
             pass

@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 6856
+        // Class count: 6853
         // Enum count: 120
         pub mod client_dll {
             // Alignment: 4
@@ -24388,12 +24388,13 @@ pub mod source2_dumper {
             pub mod CDOTA_Ability_NagaSiren_RipTide {
             }
             // Parent: C_DOTABaseAbility
-            // Field count: 4
+            // Field count: 5
             pub mod C_DOTA_Ability_Meepo_MegaMeepo {
                 pub const hPreviousMeepo: usize = 0x6A8; // CHandle<C_BaseEntity>
                 pub const hMegameepoFrame: usize = 0x6AC; // CHandle<C_BaseEntity>
                 pub const hListOfMeepos: usize = 0x6B0; // CUtlVector<CHandle<C_BaseEntity>>
-                pub const m_bHasSwappedAbilities: usize = 0x6C8; // bool
+                pub const hFlingHandles: usize = 0x6C8; // CUtlVector<int32>
+                pub const m_bHasSwappedAbilities: usize = 0x6E0; // bool
             }
             // Parent: C_DOTABaseAbility
             // Field count: 0
@@ -41557,46 +41558,6 @@ pub mod source2_dumper {
             // Field count: 0
             pub mod CDOTA_Modifier_StormSpirit_BallLightning {
             }
-            // Parent: None
-            // Field count: 33
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub mod CBasePlayerWeaponVData {
-                pub const m_szClassName: usize = 0x10; // CUtlString
-                pub const m_szWorldModel: usize = 0x18; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                pub const m_szWorldModelAg2Override: usize = 0xF8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                pub const m_sToolsOnlyOwnerModelName: usize = 0x1D8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                pub const m_bBuiltRightHanded: usize = 0x2B8; // bool
-                pub const m_bAllowFlipping: usize = 0x2B9; // bool
-                pub const m_sMuzzleAttachment: usize = 0x2C0; // CAttachmentNameSymbolWithStorage
-                pub const m_szMuzzleFlashParticle: usize = 0x2E0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_szMuzzleFlashParticleConfig: usize = 0x3C0; // CUtlString
-                pub const m_szBarrelSmokeParticle: usize = 0x3C8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_nMuzzleSmokeShotThreshold: usize = 0x4A8; // uint8
-                pub const m_flMuzzleSmokeTimeout: usize = 0x4AC; // float32
-                pub const m_flMuzzleSmokeDecrementRate: usize = 0x4B0; // float32
-                pub const m_bGenerateMuzzleLight: usize = 0x4B4; // bool
-                pub const m_bLinkedCooldowns: usize = 0x4B5; // bool
-                pub const m_iFlags: usize = 0x4B6; // ItemFlagTypes_t
-                pub const m_iWeight: usize = 0x4B8; // int32
-                pub const m_bAutoSwitchTo: usize = 0x4BC; // bool
-                pub const m_bAutoSwitchFrom: usize = 0x4BD; // bool
-                pub const m_nPrimaryAmmoType: usize = 0x4BE; // AmmoIndex_t
-                pub const m_nSecondaryAmmoType: usize = 0x4BF; // AmmoIndex_t
-                pub const m_iMaxClip1: usize = 0x4C0; // int32
-                pub const m_iMaxClip2: usize = 0x4C4; // int32
-                pub const m_iDefaultClip1: usize = 0x4C8; // int32
-                pub const m_iDefaultClip2: usize = 0x4CC; // int32
-                pub const m_bReserveAmmoAsClips: usize = 0x4D0; // bool
-                pub const m_bTreatAsSingleClip: usize = 0x4D1; // bool
-                pub const m_bKeepLoadedAmmo: usize = 0x4D2; // bool
-                pub const m_iRumbleEffect: usize = 0x4D4; // RumbleEffect_t
-                pub const m_flDropSpeed: usize = 0x4D8; // float32
-                pub const m_iSlot: usize = 0x4DC; // int32
-                pub const m_iPosition: usize = 0x4E0; // int32
-                pub const m_aShootSounds: usize = 0x4E8; // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
-            }
             // Parent: C_DOTA_Item_TierToken
             // Field count: 0
             pub mod C_DOTA_Item_Tier3Token {
@@ -42582,6 +42543,15 @@ pub mod source2_dumper {
             pub mod CSurvivorsPowerUp_AreaAttack_Circle {
             }
             // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub mod CShmupTrackDefinition {
+                pub const m_strName: usize = 0x0; // CUtlString
+                pub const m_vecEvents: usize = 0x8; // CUtlVector<CShmupEventTime>
+            }
+            // Parent: None
             // Field count: 4
             pub mod CBasePortraitData {
                 pub const m_iModelIndex: usize = 0x410; // CStrongHandle<InfoForResourceTypeCModel>
@@ -42732,6 +42702,32 @@ pub mod source2_dumper {
                 pub const m_flStartValue: usize = 0x8; // float32
                 pub const m_flEndValue: usize = 0xC; // float32
                 pub const m_nInterpType: usize = 0x10; // int32
+            }
+            // Parent: None
+            // Field count: 19
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub mod CShmupBulletInfo {
+                pub const m_pattern: usize = 0x0; // EShmupBulletPattern
+                pub const m_nCount: usize = 0x4; // int32
+                pub const m_flSpeed: usize = 0x8; // float32
+                pub const m_flRadius: usize = 0xC; // float32
+                pub const m_flRandomTargetingOffsetMin: usize = 0x10; // float32
+                pub const m_flRandomTargetingOffsetMax: usize = 0x14; // float32
+                pub const m_nBulletsPerWave: usize = 0x18; // int32
+                pub const m_flAngleWidth: usize = 0x1C; // float32
+                pub const m_flAngleOffset: usize = 0x20; // float32
+                pub const m_flSpeedPerBullet: usize = 0x24; // float32
+                pub const m_flRadiusPerBullet: usize = 0x28; // float32
+                pub const m_flAngleOffsetPerBullet: usize = 0x2C; // float32
+                pub const m_flAngleOffsetPerWave: usize = 0x30; // float32
+                pub const m_flAngleStaggerPerWave: usize = 0x34; // float32
+                pub const m_flAngleSinWaveOffset: usize = 0x38; // float32
+                pub const m_bSwapColorPerBullet: usize = 0x3C; // bool
+                pub const m_flInterval: usize = 0x40; // float32
+                pub const m_vFixedDirection: usize = 0x44; // Vector2D
+                pub const m_bUseStoredPlayerLocation: usize = 0x4C; // bool
             }
             // Parent: None
             // Field count: 6
@@ -43062,6 +43058,23 @@ pub mod source2_dumper {
                 pub const m_sInvulnerableSkinName: usize = 0x260; // CUtlString
             }
             // Parent: None
+            // Field count: 10
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub mod CandyShopRewardOptionGC_t {
+                pub const m_unRewardOptionID: usize = 0x0; // CandyShopRewardOptionID_t
+                pub const m_unRewardOptionMaxCount: usize = 0x4; // uint32
+                pub const m_unCandyPrice: usize = 0x8; // uint32
+                pub const m_unWeight: usize = 0xC; // uint32
+                pub const m_eOptionType: usize = 0x10; // ECandyShopRewardOptionType
+                pub const m_unSingleItemDef: usize = 0x14; // item_definition_index_t
+                pub const m_sLootList: usize = 0x18; // CUtlString
+                pub const m_eEvent: usize = 0x20; // EEvent
+                pub const m_unEventActionID: usize = 0x24; // uint32
+                pub const m_unEventPoints: usize = 0x28; // uint32
+            }
+            // Parent: None
             // Field count: 8
             pub mod CSurvivorsPowerUp_Snotty {
                 pub const m_vecSnotties: usize = 0x800; // CUtlVector<SurvivorsUnitID_t>
@@ -43240,26 +43253,6 @@ pub mod source2_dumper {
                 pub const m_flStackAlarmTime: usize = 0x10; // float32
                 pub const m_nCampIndex: usize = 0x14; // int32
                 pub const m_nAlarmTypes: usize = 0x18; // int32
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod __a4__ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod k_EMsgGCReportsRemainingRequest {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod k_EMsgGCRequestChatChannelListResponse {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod ___D__ {
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod k_EMsgGCJoinChatChannel {
             }
         }
     }

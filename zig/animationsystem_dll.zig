@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: animationsystem.dll
-        // Class count: 87
+        // Class count: 86
         // Enum count: 143
         pub const animationsystem_dll = struct {
             // Alignment: 4
@@ -2100,16 +2100,6 @@ pub const source2_dumper = struct {
                 pub const m_flAngleWeight: usize = 0x4; // float32
                 pub const m_nLocalBone: usize = 0x8; // int16
                 pub const m_bBonesOrientedAlongPositiveX: usize = 0xA; // bool
-            };
-            // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const ParamSpanSample_t = struct {
-                pub const m_value: usize = 0x0; // CAnimVariant
-                pub const m_flCycle: usize = 0x14; // float32
             };
             // Parent: None
             // Field count: 0

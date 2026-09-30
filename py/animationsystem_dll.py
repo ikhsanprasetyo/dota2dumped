@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-09-24 17:35:37.601127800 +07:00
+# 2026-09-30 23:53:47.474156300 +07:00
 
 class Schemas:
     # Module: animationsystem.dll
@@ -1287,9 +1287,6 @@ class Schemas:
             m_flAngleWeight = 0x4 # float32
             m_nLocalBone = 0x8 # int16
             m_bBonesOrientedAlongPositiveX = 0xA # bool
-        class ParamSpanSample_t:
-            m_value = 0x0 # CAnimVariant
-            m_flCycle = 0x14 # float32
         class CNmFollowBoneTask:
             pass
         class CNmTargetValueNode__CDefinition:

@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 7168
-    // Enum count: 440
+    // Class count: 7170
+    // Enum count: 438
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -34813,12 +34813,13 @@ namespace Source2Dumper.Schemas {
             public const nint minimum_mana = 0x1A78; // int32
         }
         // Parent: CDOTABaseAbility
-        // Field count: 4
+        // Field count: 5
         public static class CDOTA_Ability_Meepo_MegaMeepo {
             public const nint hPreviousMeepo = 0x580; // CHandle<CBaseEntity>
             public const nint hMegameepoFrame = 0x584; // CHandle<CBaseEntity>
             public const nint hListOfMeepos = 0x588; // CUtlVector<CHandle<CBaseEntity>>
-            public const nint m_bHasSwappedAbilities = 0x5A0; // bool
+            public const nint hFlingHandles = 0x5A0; // CUtlVector<int32>
+            public const nint m_bHasSwappedAbilities = 0x5B8; // bool
         }
         // Parent: CDOTABaseAbility
         // Field count: 0
@@ -53507,6 +53508,46 @@ namespace Source2Dumper.Schemas {
             public const nint m_vPathingDirection = 0x61C; // Vector
             public const nint m_nPathingSourceIndex = 0x628; // int32
         }
+        // Parent: None
+        // Field count: 33
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CBasePlayerWeaponVData {
+            public const nint m_szClassName = 0x10; // CUtlString
+            public const nint m_szWorldModel = 0x18; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            public const nint m_szWorldModelAg2Override = 0xF8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            public const nint m_sToolsOnlyOwnerModelName = 0x1D8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+            public const nint m_bBuiltRightHanded = 0x2B8; // bool
+            public const nint m_bAllowFlipping = 0x2B9; // bool
+            public const nint m_sMuzzleAttachment = 0x2C0; // CAttachmentNameSymbolWithStorage
+            public const nint m_szMuzzleFlashParticle = 0x2E0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            public const nint m_szMuzzleFlashParticleConfig = 0x3C0; // CUtlString
+            public const nint m_szBarrelSmokeParticle = 0x3C8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+            public const nint m_nMuzzleSmokeShotThreshold = 0x4A8; // uint8
+            public const nint m_flMuzzleSmokeTimeout = 0x4AC; // float32
+            public const nint m_flMuzzleSmokeDecrementRate = 0x4B0; // float32
+            public const nint m_bGenerateMuzzleLight = 0x4B4; // bool
+            public const nint m_bLinkedCooldowns = 0x4B5; // bool
+            public const nint m_iFlags = 0x4B6; // ItemFlagTypes_t
+            public const nint m_iWeight = 0x4B8; // int32
+            public const nint m_bAutoSwitchTo = 0x4BC; // bool
+            public const nint m_bAutoSwitchFrom = 0x4BD; // bool
+            public const nint m_nPrimaryAmmoType = 0x4BE; // AmmoIndex_t
+            public const nint m_nSecondaryAmmoType = 0x4BF; // AmmoIndex_t
+            public const nint m_iMaxClip1 = 0x4C0; // int32
+            public const nint m_iMaxClip2 = 0x4C4; // int32
+            public const nint m_iDefaultClip1 = 0x4C8; // int32
+            public const nint m_iDefaultClip2 = 0x4CC; // int32
+            public const nint m_bReserveAmmoAsClips = 0x4D0; // bool
+            public const nint m_bTreatAsSingleClip = 0x4D1; // bool
+            public const nint m_bKeepLoadedAmmo = 0x4D2; // bool
+            public const nint m_iRumbleEffect = 0x4D4; // RumbleEffect_t
+            public const nint m_flDropSpeed = 0x4D8; // float32
+            public const nint m_iSlot = 0x4DC; // int32
+            public const nint m_iPosition = 0x4E0; // int32
+            public const nint m_aShootSounds = 0x4E8; // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
+        }
         // Parent: CDOTA_BaseNPC_Hero
         // Field count: 1
         public static class CDOTA_Unit_Hero_PhantomAssassin {
@@ -54412,6 +54453,15 @@ namespace Source2Dumper.Schemas {
             public const nint m_nProjectileHandle = 0x4; // int32
         }
         // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class AutoRoomDoorwayPairs_t {
+            public const nint vP1 = 0x0; // VectorWS
+            public const nint vP2 = 0xC; // VectorWS
+        }
+        // Parent: None
         // Field count: 4
         public static class DOTAOutgoingBonus_t {
             public const nint m_pszAbilityName = 0x0; // char*
@@ -54825,14 +54875,6 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CNavVolumeVector {
             public const nint m_bHasBeenPreFiltered = 0x80; // bool
-        }
-        // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class CPhysicsShake {
-            public const nint m_force = 0x8; // Vector
         }
         // Parent: None
         // Field count: 5
@@ -55686,6 +55728,15 @@ namespace Source2Dumper.Schemas {
         public static class CNavVolumeSphere {
             public const nint m_vCenter = 0x78; // VectorWS
             public const nint m_flRadius = 0x84; // float32
+        }
+        // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class Relationship_t {
+            public const nint disposition = 0x0; // Disposition_t
+            public const nint priority = 0x4; // int32
         }
     }
 }

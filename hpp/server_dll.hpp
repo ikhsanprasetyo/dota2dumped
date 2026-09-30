@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
-        // Class count: 7168
-        // Enum count: 440
+        // Class count: 7170
+        // Enum count: 438
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -34819,12 +34819,13 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t minimum_mana = 0x1A78; // int32
             }
             // Parent: CDOTABaseAbility
-            // Field count: 4
+            // Field count: 5
             namespace CDOTA_Ability_Meepo_MegaMeepo {
                 constexpr std::ptrdiff_t hPreviousMeepo = 0x580; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t hMegameepoFrame = 0x584; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t hListOfMeepos = 0x588; // CUtlVector<CHandle<CBaseEntity>>
-                constexpr std::ptrdiff_t m_bHasSwappedAbilities = 0x5A0; // bool
+                constexpr std::ptrdiff_t hFlingHandles = 0x5A0; // CUtlVector<int32>
+                constexpr std::ptrdiff_t m_bHasSwappedAbilities = 0x5B8; // bool
             }
             // Parent: CDOTABaseAbility
             // Field count: 0
@@ -53513,6 +53514,46 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_vPathingDirection = 0x61C; // Vector
                 constexpr std::ptrdiff_t m_nPathingSourceIndex = 0x628; // int32
             }
+            // Parent: None
+            // Field count: 33
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CBasePlayerWeaponVData {
+                constexpr std::ptrdiff_t m_szClassName = 0x10; // CUtlString
+                constexpr std::ptrdiff_t m_szWorldModel = 0x18; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+                constexpr std::ptrdiff_t m_szWorldModelAg2Override = 0xF8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+                constexpr std::ptrdiff_t m_sToolsOnlyOwnerModelName = 0x1D8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+                constexpr std::ptrdiff_t m_bBuiltRightHanded = 0x2B8; // bool
+                constexpr std::ptrdiff_t m_bAllowFlipping = 0x2B9; // bool
+                constexpr std::ptrdiff_t m_sMuzzleAttachment = 0x2C0; // CAttachmentNameSymbolWithStorage
+                constexpr std::ptrdiff_t m_szMuzzleFlashParticle = 0x2E0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                constexpr std::ptrdiff_t m_szMuzzleFlashParticleConfig = 0x3C0; // CUtlString
+                constexpr std::ptrdiff_t m_szBarrelSmokeParticle = 0x3C8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+                constexpr std::ptrdiff_t m_nMuzzleSmokeShotThreshold = 0x4A8; // uint8
+                constexpr std::ptrdiff_t m_flMuzzleSmokeTimeout = 0x4AC; // float32
+                constexpr std::ptrdiff_t m_flMuzzleSmokeDecrementRate = 0x4B0; // float32
+                constexpr std::ptrdiff_t m_bGenerateMuzzleLight = 0x4B4; // bool
+                constexpr std::ptrdiff_t m_bLinkedCooldowns = 0x4B5; // bool
+                constexpr std::ptrdiff_t m_iFlags = 0x4B6; // ItemFlagTypes_t
+                constexpr std::ptrdiff_t m_iWeight = 0x4B8; // int32
+                constexpr std::ptrdiff_t m_bAutoSwitchTo = 0x4BC; // bool
+                constexpr std::ptrdiff_t m_bAutoSwitchFrom = 0x4BD; // bool
+                constexpr std::ptrdiff_t m_nPrimaryAmmoType = 0x4BE; // AmmoIndex_t
+                constexpr std::ptrdiff_t m_nSecondaryAmmoType = 0x4BF; // AmmoIndex_t
+                constexpr std::ptrdiff_t m_iMaxClip1 = 0x4C0; // int32
+                constexpr std::ptrdiff_t m_iMaxClip2 = 0x4C4; // int32
+                constexpr std::ptrdiff_t m_iDefaultClip1 = 0x4C8; // int32
+                constexpr std::ptrdiff_t m_iDefaultClip2 = 0x4CC; // int32
+                constexpr std::ptrdiff_t m_bReserveAmmoAsClips = 0x4D0; // bool
+                constexpr std::ptrdiff_t m_bTreatAsSingleClip = 0x4D1; // bool
+                constexpr std::ptrdiff_t m_bKeepLoadedAmmo = 0x4D2; // bool
+                constexpr std::ptrdiff_t m_iRumbleEffect = 0x4D4; // RumbleEffect_t
+                constexpr std::ptrdiff_t m_flDropSpeed = 0x4D8; // float32
+                constexpr std::ptrdiff_t m_iSlot = 0x4DC; // int32
+                constexpr std::ptrdiff_t m_iPosition = 0x4E0; // int32
+                constexpr std::ptrdiff_t m_aShootSounds = 0x4E8; // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
+            }
             // Parent: CDOTA_BaseNPC_Hero
             // Field count: 1
             namespace CDOTA_Unit_Hero_PhantomAssassin {
@@ -54418,6 +54459,15 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nProjectileHandle = 0x4; // int32
             }
             // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace AutoRoomDoorwayPairs_t {
+                constexpr std::ptrdiff_t vP1 = 0x0; // VectorWS
+                constexpr std::ptrdiff_t vP2 = 0xC; // VectorWS
+            }
+            // Parent: None
             // Field count: 4
             namespace DOTAOutgoingBonus_t {
                 constexpr std::ptrdiff_t m_pszAbilityName = 0x0; // char*
@@ -54831,14 +54881,6 @@ namespace source2_dumper {
             // Field count: 1
             namespace CNavVolumeVector {
                 constexpr std::ptrdiff_t m_bHasBeenPreFiltered = 0x80; // bool
-            }
-            // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CPhysicsShake {
-                constexpr std::ptrdiff_t m_force = 0x8; // Vector
             }
             // Parent: None
             // Field count: 5
@@ -55692,6 +55734,15 @@ namespace source2_dumper {
             namespace CNavVolumeSphere {
                 constexpr std::ptrdiff_t m_vCenter = 0x78; // VectorWS
                 constexpr std::ptrdiff_t m_flRadius = 0x84; // float32
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace Relationship_t {
+                constexpr std::ptrdiff_t disposition = 0x0; // Disposition_t
+                constexpr std::ptrdiff_t priority = 0x4; // int32
             }
         }
     }

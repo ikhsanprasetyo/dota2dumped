@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 package schemas
 
@@ -16811,7 +16811,8 @@ const (
     ServerDll_CDOTA_Ability_Meepo_MegaMeepo_hPreviousMeepo = 0x580 // CHandle<CBaseEntity>
     ServerDll_CDOTA_Ability_Meepo_MegaMeepo_hMegameepoFrame = 0x584 // CHandle<CBaseEntity>
     ServerDll_CDOTA_Ability_Meepo_MegaMeepo_hListOfMeepos = 0x588 // CUtlVector<CHandle<CBaseEntity>>
-    ServerDll_CDOTA_Ability_Meepo_MegaMeepo_m_bHasSwappedAbilities = 0x5A0 // bool
+    ServerDll_CDOTA_Ability_Meepo_MegaMeepo_hFlingHandles = 0x5A0 // CUtlVector<int32>
+    ServerDll_CDOTA_Ability_Meepo_MegaMeepo_m_bHasSwappedAbilities = 0x5B8 // bool
     ServerDll_CDOTA_Modifier_NightStalker_CripplingFear_dps = 0x1A8C // int32
     ServerDll_CDOTA_Modifier_NightStalker_CripplingFear_tick_rate = 0x1A90 // float32
     ServerDll_CDOTA_Modifier_Dazzle_Poison_Touch_Split_m_nAttacksLanded = 0x1A78 // int32
@@ -24175,6 +24176,39 @@ const (
     ServerDll_CSoundOpvarSetPointEntity_m_vPathingListenerPos = 0x610 // VectorWS
     ServerDll_CSoundOpvarSetPointEntity_m_vPathingDirection = 0x61C // Vector
     ServerDll_CSoundOpvarSetPointEntity_m_nPathingSourceIndex = 0x628 // int32
+    ServerDll_CBasePlayerWeaponVData_m_szClassName = 0x10 // CUtlString
+    ServerDll_CBasePlayerWeaponVData_m_szWorldModel = 0x18 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+    ServerDll_CBasePlayerWeaponVData_m_szWorldModelAg2Override = 0xF8 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+    ServerDll_CBasePlayerWeaponVData_m_sToolsOnlyOwnerModelName = 0x1D8 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
+    ServerDll_CBasePlayerWeaponVData_m_bBuiltRightHanded = 0x2B8 // bool
+    ServerDll_CBasePlayerWeaponVData_m_bAllowFlipping = 0x2B9 // bool
+    ServerDll_CBasePlayerWeaponVData_m_sMuzzleAttachment = 0x2C0 // CAttachmentNameSymbolWithStorage
+    ServerDll_CBasePlayerWeaponVData_m_szMuzzleFlashParticle = 0x2E0 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+    ServerDll_CBasePlayerWeaponVData_m_szMuzzleFlashParticleConfig = 0x3C0 // CUtlString
+    ServerDll_CBasePlayerWeaponVData_m_szBarrelSmokeParticle = 0x3C8 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
+    ServerDll_CBasePlayerWeaponVData_m_nMuzzleSmokeShotThreshold = 0x4A8 // uint8
+    ServerDll_CBasePlayerWeaponVData_m_flMuzzleSmokeTimeout = 0x4AC // float32
+    ServerDll_CBasePlayerWeaponVData_m_flMuzzleSmokeDecrementRate = 0x4B0 // float32
+    ServerDll_CBasePlayerWeaponVData_m_bGenerateMuzzleLight = 0x4B4 // bool
+    ServerDll_CBasePlayerWeaponVData_m_bLinkedCooldowns = 0x4B5 // bool
+    ServerDll_CBasePlayerWeaponVData_m_iFlags = 0x4B6 // ItemFlagTypes_t
+    ServerDll_CBasePlayerWeaponVData_m_iWeight = 0x4B8 // int32
+    ServerDll_CBasePlayerWeaponVData_m_bAutoSwitchTo = 0x4BC // bool
+    ServerDll_CBasePlayerWeaponVData_m_bAutoSwitchFrom = 0x4BD // bool
+    ServerDll_CBasePlayerWeaponVData_m_nPrimaryAmmoType = 0x4BE // AmmoIndex_t
+    ServerDll_CBasePlayerWeaponVData_m_nSecondaryAmmoType = 0x4BF // AmmoIndex_t
+    ServerDll_CBasePlayerWeaponVData_m_iMaxClip1 = 0x4C0 // int32
+    ServerDll_CBasePlayerWeaponVData_m_iMaxClip2 = 0x4C4 // int32
+    ServerDll_CBasePlayerWeaponVData_m_iDefaultClip1 = 0x4C8 // int32
+    ServerDll_CBasePlayerWeaponVData_m_iDefaultClip2 = 0x4CC // int32
+    ServerDll_CBasePlayerWeaponVData_m_bReserveAmmoAsClips = 0x4D0 // bool
+    ServerDll_CBasePlayerWeaponVData_m_bTreatAsSingleClip = 0x4D1 // bool
+    ServerDll_CBasePlayerWeaponVData_m_bKeepLoadedAmmo = 0x4D2 // bool
+    ServerDll_CBasePlayerWeaponVData_m_iRumbleEffect = 0x4D4 // RumbleEffect_t
+    ServerDll_CBasePlayerWeaponVData_m_flDropSpeed = 0x4D8 // float32
+    ServerDll_CBasePlayerWeaponVData_m_iSlot = 0x4DC // int32
+    ServerDll_CBasePlayerWeaponVData_m_iPosition = 0x4E0 // int32
+    ServerDll_CBasePlayerWeaponVData_m_aShootSounds = 0x4E8 // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
     ServerDll_CDOTA_Unit_Hero_PhantomAssassin_m_nFXDeath = 0x1F08 // ParticleIndex_t
     ServerDll_CDOTA_Modifier_AlphaWolf_CommandAura_radius = 0x1A78 // float32
     ServerDll_CDOTA_Modifier_AghsFort_Lifestealer_Enraged_Pulse_slow = 0x1A78 // int32
@@ -24494,6 +24528,8 @@ const (
     ServerDll_CDestructiblePart_m_DamageLevels = 0x38 // CUtlVector<CDestructiblePart_DamageLevel>
     ServerDll_RemnantData_t_m_hRemnant = 0x0 // CHandle<CBaseEntity>
     ServerDll_RemnantData_t_m_nProjectileHandle = 0x4 // int32
+    ServerDll_AutoRoomDoorwayPairs_t_vP1 = 0x0 // VectorWS
+    ServerDll_AutoRoomDoorwayPairs_t_vP2 = 0xC // VectorWS
     ServerDll_DOTAOutgoingBonus_t_m_pszAbilityName = 0x0 // char*
     ServerDll_DOTAOutgoingBonus_t_m_pszSpecialName = 0x8 // char*
     ServerDll_DOTAOutgoingBonus_t_m_fValue = 0x14 // float32
@@ -24711,7 +24747,6 @@ const (
     ServerDll_CUnitOrders_m_nAbilityIndex = 0x34 // CEntityIndex
     ServerDll_CUnitOrders_m_nFlags = 0x38 // uint32
     ServerDll_CNavVolumeVector_m_bHasBeenPreFiltered = 0x80 // bool
-    ServerDll_CPhysicsShake_m_force = 0x8 // Vector
     ServerDll_NeutralSpawnBoxes_t_neutralSpawnBoxes = 0x0 // AABB_t
     ServerDll_NeutralSpawnBoxes_t_vSpawnBoxOrigin = 0x18 // VectorWS
     ServerDll_NeutralSpawnBoxes_t_strCampName = 0x28 // CUtlString
@@ -25236,4 +25271,6 @@ const (
     ServerDll_CNetworkVelocityVector_m_vecZ = 0x20 // CNetworkedQuantizedFloat
     ServerDll_CNavVolumeSphere_m_vCenter = 0x78 // VectorWS
     ServerDll_CNavVolumeSphere_m_flRadius = 0x84 // float32
+    ServerDll_Relationship_t_disposition = 0x0 // Disposition_t
+    ServerDll_Relationship_t_priority = 0x4 // int32
 )

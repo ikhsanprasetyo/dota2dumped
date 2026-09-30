@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 6856
+        // Class count: 6853
         // Enum count: 120
         namespace client_dll {
             // Alignment: 4
@@ -24274,12 +24274,13 @@ namespace source2_dumper {
             namespace CDOTA_Ability_NagaSiren_RipTide {
             }
             // Parent: C_DOTABaseAbility
-            // Field count: 4
+            // Field count: 5
             namespace C_DOTA_Ability_Meepo_MegaMeepo {
                 constexpr std::ptrdiff_t hPreviousMeepo = 0x6A8; // CHandle<C_BaseEntity>
                 constexpr std::ptrdiff_t hMegameepoFrame = 0x6AC; // CHandle<C_BaseEntity>
                 constexpr std::ptrdiff_t hListOfMeepos = 0x6B0; // CUtlVector<CHandle<C_BaseEntity>>
-                constexpr std::ptrdiff_t m_bHasSwappedAbilities = 0x6C8; // bool
+                constexpr std::ptrdiff_t hFlingHandles = 0x6C8; // CUtlVector<int32>
+                constexpr std::ptrdiff_t m_bHasSwappedAbilities = 0x6E0; // bool
             }
             // Parent: C_DOTABaseAbility
             // Field count: 0
@@ -41443,46 +41444,6 @@ namespace source2_dumper {
             // Field count: 0
             namespace CDOTA_Modifier_StormSpirit_BallLightning {
             }
-            // Parent: None
-            // Field count: 33
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace CBasePlayerWeaponVData {
-                constexpr std::ptrdiff_t m_szClassName = 0x10; // CUtlString
-                constexpr std::ptrdiff_t m_szWorldModel = 0x18; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                constexpr std::ptrdiff_t m_szWorldModelAg2Override = 0xF8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                constexpr std::ptrdiff_t m_sToolsOnlyOwnerModelName = 0x1D8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                constexpr std::ptrdiff_t m_bBuiltRightHanded = 0x2B8; // bool
-                constexpr std::ptrdiff_t m_bAllowFlipping = 0x2B9; // bool
-                constexpr std::ptrdiff_t m_sMuzzleAttachment = 0x2C0; // CAttachmentNameSymbolWithStorage
-                constexpr std::ptrdiff_t m_szMuzzleFlashParticle = 0x2E0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_szMuzzleFlashParticleConfig = 0x3C0; // CUtlString
-                constexpr std::ptrdiff_t m_szBarrelSmokeParticle = 0x3C8; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                constexpr std::ptrdiff_t m_nMuzzleSmokeShotThreshold = 0x4A8; // uint8
-                constexpr std::ptrdiff_t m_flMuzzleSmokeTimeout = 0x4AC; // float32
-                constexpr std::ptrdiff_t m_flMuzzleSmokeDecrementRate = 0x4B0; // float32
-                constexpr std::ptrdiff_t m_bGenerateMuzzleLight = 0x4B4; // bool
-                constexpr std::ptrdiff_t m_bLinkedCooldowns = 0x4B5; // bool
-                constexpr std::ptrdiff_t m_iFlags = 0x4B6; // ItemFlagTypes_t
-                constexpr std::ptrdiff_t m_iWeight = 0x4B8; // int32
-                constexpr std::ptrdiff_t m_bAutoSwitchTo = 0x4BC; // bool
-                constexpr std::ptrdiff_t m_bAutoSwitchFrom = 0x4BD; // bool
-                constexpr std::ptrdiff_t m_nPrimaryAmmoType = 0x4BE; // AmmoIndex_t
-                constexpr std::ptrdiff_t m_nSecondaryAmmoType = 0x4BF; // AmmoIndex_t
-                constexpr std::ptrdiff_t m_iMaxClip1 = 0x4C0; // int32
-                constexpr std::ptrdiff_t m_iMaxClip2 = 0x4C4; // int32
-                constexpr std::ptrdiff_t m_iDefaultClip1 = 0x4C8; // int32
-                constexpr std::ptrdiff_t m_iDefaultClip2 = 0x4CC; // int32
-                constexpr std::ptrdiff_t m_bReserveAmmoAsClips = 0x4D0; // bool
-                constexpr std::ptrdiff_t m_bTreatAsSingleClip = 0x4D1; // bool
-                constexpr std::ptrdiff_t m_bKeepLoadedAmmo = 0x4D2; // bool
-                constexpr std::ptrdiff_t m_iRumbleEffect = 0x4D4; // RumbleEffect_t
-                constexpr std::ptrdiff_t m_flDropSpeed = 0x4D8; // float32
-                constexpr std::ptrdiff_t m_iSlot = 0x4DC; // int32
-                constexpr std::ptrdiff_t m_iPosition = 0x4E0; // int32
-                constexpr std::ptrdiff_t m_aShootSounds = 0x4E8; // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
-            }
             // Parent: C_DOTA_Item_TierToken
             // Field count: 0
             namespace C_DOTA_Item_Tier3Token {
@@ -42468,6 +42429,15 @@ namespace source2_dumper {
             namespace CSurvivorsPowerUp_AreaAttack_Circle {
             }
             // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CShmupTrackDefinition {
+                constexpr std::ptrdiff_t m_strName = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_vecEvents = 0x8; // CUtlVector<CShmupEventTime>
+            }
+            // Parent: None
             // Field count: 4
             namespace CBasePortraitData {
                 constexpr std::ptrdiff_t m_iModelIndex = 0x410; // CStrongHandle<InfoForResourceTypeCModel>
@@ -42618,6 +42588,32 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flStartValue = 0x8; // float32
                 constexpr std::ptrdiff_t m_flEndValue = 0xC; // float32
                 constexpr std::ptrdiff_t m_nInterpType = 0x10; // int32
+            }
+            // Parent: None
+            // Field count: 19
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CShmupBulletInfo {
+                constexpr std::ptrdiff_t m_pattern = 0x0; // EShmupBulletPattern
+                constexpr std::ptrdiff_t m_nCount = 0x4; // int32
+                constexpr std::ptrdiff_t m_flSpeed = 0x8; // float32
+                constexpr std::ptrdiff_t m_flRadius = 0xC; // float32
+                constexpr std::ptrdiff_t m_flRandomTargetingOffsetMin = 0x10; // float32
+                constexpr std::ptrdiff_t m_flRandomTargetingOffsetMax = 0x14; // float32
+                constexpr std::ptrdiff_t m_nBulletsPerWave = 0x18; // int32
+                constexpr std::ptrdiff_t m_flAngleWidth = 0x1C; // float32
+                constexpr std::ptrdiff_t m_flAngleOffset = 0x20; // float32
+                constexpr std::ptrdiff_t m_flSpeedPerBullet = 0x24; // float32
+                constexpr std::ptrdiff_t m_flRadiusPerBullet = 0x28; // float32
+                constexpr std::ptrdiff_t m_flAngleOffsetPerBullet = 0x2C; // float32
+                constexpr std::ptrdiff_t m_flAngleOffsetPerWave = 0x30; // float32
+                constexpr std::ptrdiff_t m_flAngleStaggerPerWave = 0x34; // float32
+                constexpr std::ptrdiff_t m_flAngleSinWaveOffset = 0x38; // float32
+                constexpr std::ptrdiff_t m_bSwapColorPerBullet = 0x3C; // bool
+                constexpr std::ptrdiff_t m_flInterval = 0x40; // float32
+                constexpr std::ptrdiff_t m_vFixedDirection = 0x44; // Vector2D
+                constexpr std::ptrdiff_t m_bUseStoredPlayerLocation = 0x4C; // bool
             }
             // Parent: None
             // Field count: 6
@@ -42948,6 +42944,23 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_sInvulnerableSkinName = 0x260; // CUtlString
             }
             // Parent: None
+            // Field count: 10
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CandyShopRewardOptionGC_t {
+                constexpr std::ptrdiff_t m_unRewardOptionID = 0x0; // CandyShopRewardOptionID_t
+                constexpr std::ptrdiff_t m_unRewardOptionMaxCount = 0x4; // uint32
+                constexpr std::ptrdiff_t m_unCandyPrice = 0x8; // uint32
+                constexpr std::ptrdiff_t m_unWeight = 0xC; // uint32
+                constexpr std::ptrdiff_t m_eOptionType = 0x10; // ECandyShopRewardOptionType
+                constexpr std::ptrdiff_t m_unSingleItemDef = 0x14; // item_definition_index_t
+                constexpr std::ptrdiff_t m_sLootList = 0x18; // CUtlString
+                constexpr std::ptrdiff_t m_eEvent = 0x20; // EEvent
+                constexpr std::ptrdiff_t m_unEventActionID = 0x24; // uint32
+                constexpr std::ptrdiff_t m_unEventPoints = 0x28; // uint32
+            }
+            // Parent: None
             // Field count: 8
             namespace CSurvivorsPowerUp_Snotty {
                 constexpr std::ptrdiff_t m_vecSnotties = 0x800; // CUtlVector<SurvivorsUnitID_t>
@@ -43126,26 +43139,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flStackAlarmTime = 0x10; // float32
                 constexpr std::ptrdiff_t m_nCampIndex = 0x14; // int32
                 constexpr std::ptrdiff_t m_nAlarmTypes = 0x18; // int32
-            }
-            // Parent: None
-            // Field count: 0
-            namespace __a4__ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace k_EMsgGCReportsRemainingRequest {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace k_EMsgGCRequestChatChannelListResponse {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace ___D__ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace k_EMsgGCJoinChatChannel {
             }
         }
     }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 package schemas
 
@@ -1046,8 +1046,6 @@ const (
     AnimationsystemDll_CSeqIKLock_m_flAngleWeight = 0x4 // float32
     AnimationsystemDll_CSeqIKLock_m_nLocalBone = 0x8 // int16
     AnimationsystemDll_CSeqIKLock_m_bBonesOrientedAlongPositiveX = 0xA // bool
-    AnimationsystemDll_ParamSpanSample_t_m_value = 0x0 // CAnimVariant
-    AnimationsystemDll_ParamSpanSample_t_m_flCycle = 0x14 // float32
     AnimationsystemDll_CPoseHandle_m_nIndex = 0x0 // uint16
     AnimationsystemDll_CPoseHandle_m_eType = 0x2 // PoseType_t
     AnimationsystemDll_CSeqCmdSeqDesc_m_sName = 0x0 // CBufferString

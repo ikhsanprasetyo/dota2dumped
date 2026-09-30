@@ -158,50 +158,6 @@
         "metadata": [],
         "parent": "C_BaseEntity"
       },
-      "CBasePlayerWeaponVData": {
-        "fields": {
-          "m_aShootSounds": 1256,
-          "m_bAllowFlipping": 697,
-          "m_bAutoSwitchFrom": 1213,
-          "m_bAutoSwitchTo": 1212,
-          "m_bBuiltRightHanded": 696,
-          "m_bGenerateMuzzleLight": 1204,
-          "m_bKeepLoadedAmmo": 1234,
-          "m_bLinkedCooldowns": 1205,
-          "m_bReserveAmmoAsClips": 1232,
-          "m_bTreatAsSingleClip": 1233,
-          "m_flDropSpeed": 1240,
-          "m_flMuzzleSmokeDecrementRate": 1200,
-          "m_flMuzzleSmokeTimeout": 1196,
-          "m_iDefaultClip1": 1224,
-          "m_iDefaultClip2": 1228,
-          "m_iFlags": 1206,
-          "m_iMaxClip1": 1216,
-          "m_iMaxClip2": 1220,
-          "m_iPosition": 1248,
-          "m_iRumbleEffect": 1236,
-          "m_iSlot": 1244,
-          "m_iWeight": 1208,
-          "m_nMuzzleSmokeShotThreshold": 1192,
-          "m_nPrimaryAmmoType": 1214,
-          "m_nSecondaryAmmoType": 1215,
-          "m_sMuzzleAttachment": 704,
-          "m_sToolsOnlyOwnerModelName": 472,
-          "m_szBarrelSmokeParticle": 968,
-          "m_szClassName": 16,
-          "m_szMuzzleFlashParticle": 736,
-          "m_szMuzzleFlashParticleConfig": 960,
-          "m_szWorldModel": 24,
-          "m_szWorldModelAg2Override": 248
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
       "CBasePortraitData": {
         "fields": {
           "m_bHasSetupView": 3496,
@@ -33374,6 +33330,49 @@
         "metadata": [],
         "parent": null
       },
+      "CShmupBulletInfo": {
+        "fields": {
+          "m_bSwapColorPerBullet": 60,
+          "m_bUseStoredPlayerLocation": 76,
+          "m_flAngleOffset": 32,
+          "m_flAngleOffsetPerBullet": 44,
+          "m_flAngleOffsetPerWave": 48,
+          "m_flAngleSinWaveOffset": 56,
+          "m_flAngleStaggerPerWave": 52,
+          "m_flAngleWidth": 28,
+          "m_flInterval": 64,
+          "m_flRadius": 12,
+          "m_flRadiusPerBullet": 40,
+          "m_flRandomTargetingOffsetMax": 20,
+          "m_flRandomTargetingOffsetMin": 16,
+          "m_flSpeed": 8,
+          "m_flSpeedPerBullet": 36,
+          "m_nBulletsPerWave": 24,
+          "m_nCount": 4,
+          "m_pattern": 0,
+          "m_vFixedDirection": 68
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CShmupTrackDefinition": {
+        "fields": {
+          "m_strName": 0,
+          "m_vecEvents": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CSkyboxReference": {
         "fields": {
           "m_hSkyCamera": 1524,
@@ -39564,10 +39563,11 @@
       },
       "C_DOTA_Ability_Meepo_MegaMeepo": {
         "fields": {
+          "hFlingHandles": 1736,
           "hListOfMeepos": 1712,
           "hMegameepoFrame": 1708,
           "hPreviousMeepo": 1704,
-          "m_bHasSwappedAbilities": 1736
+          "m_bHasSwappedAbilities": 1760
         },
         "metadata": [],
         "parent": "C_DOTABaseAbility"
@@ -51070,6 +51070,27 @@
         "metadata": [],
         "parent": null
       },
+      "CandyShopRewardOptionGC_t": {
+        "fields": {
+          "m_eEvent": 32,
+          "m_eOptionType": 16,
+          "m_sLootList": 24,
+          "m_unCandyPrice": 8,
+          "m_unEventActionID": 36,
+          "m_unEventPoints": 40,
+          "m_unRewardOptionID": 0,
+          "m_unRewardOptionMaxCount": 4,
+          "m_unSingleItemDef": 20,
+          "m_unWeight": 12
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "ClientQuickBuyItemState": {
         "fields": {
           "bPurchasable": 50,
@@ -51590,31 +51611,6 @@
           "m_nBinaryObjectID": 48,
           "m_szModel": 52
         },
-        "metadata": [],
-        "parent": null
-      },
-      "___D__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "__a4__": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "k_EMsgGCJoinChatChannel": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "k_EMsgGCReportsRemainingRequest": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
-      "k_EMsgGCRequestChatChannelListResponse": {
-        "fields": {},
         "metadata": [],
         "parent": null
       },
@@ -53364,7 +53360,7 @@
         "type": "uint32"
       },
       "H____WH___H__H_ڹ__": {
-        "alignment": 134,
+        "alignment": 149,
         "members": {},
         "type": "unknown"
       },

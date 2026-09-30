@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-24 17:35:37.601127800 +07:00
+// 2026-09-30 23:53:47.474156300 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -16555,7 +16555,8 @@ export const Schemas = {
             hPreviousMeepo: 0x6A8, // CHandle<C_BaseEntity>
             hMegameepoFrame: 0x6AC, // CHandle<C_BaseEntity>
             hListOfMeepos: 0x6B0, // CUtlVector<CHandle<C_BaseEntity>>
-            m_bHasSwappedAbilities: 0x6C8, // bool
+            hFlingHandles: 0x6C8, // CUtlVector<int32>
+            m_bHasSwappedAbilities: 0x6E0, // bool
         },
         C_DOTA_Ability_Pugna_Oblivion_Savant: {
         },
@@ -27898,41 +27899,6 @@ export const Schemas = {
         },
         CDOTA_Modifier_StormSpirit_BallLightning: {
         },
-        CBasePlayerWeaponVData: {
-            m_szClassName: 0x10, // CUtlString
-            m_szWorldModel: 0x18, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_szWorldModelAg2Override: 0xF8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_sToolsOnlyOwnerModelName: 0x1D8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            m_bBuiltRightHanded: 0x2B8, // bool
-            m_bAllowFlipping: 0x2B9, // bool
-            m_sMuzzleAttachment: 0x2C0, // CAttachmentNameSymbolWithStorage
-            m_szMuzzleFlashParticle: 0x2E0, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_szMuzzleFlashParticleConfig: 0x3C0, // CUtlString
-            m_szBarrelSmokeParticle: 0x3C8, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-            m_nMuzzleSmokeShotThreshold: 0x4A8, // uint8
-            m_flMuzzleSmokeTimeout: 0x4AC, // float32
-            m_flMuzzleSmokeDecrementRate: 0x4B0, // float32
-            m_bGenerateMuzzleLight: 0x4B4, // bool
-            m_bLinkedCooldowns: 0x4B5, // bool
-            m_iFlags: 0x4B6, // ItemFlagTypes_t
-            m_iWeight: 0x4B8, // int32
-            m_bAutoSwitchTo: 0x4BC, // bool
-            m_bAutoSwitchFrom: 0x4BD, // bool
-            m_nPrimaryAmmoType: 0x4BE, // AmmoIndex_t
-            m_nSecondaryAmmoType: 0x4BF, // AmmoIndex_t
-            m_iMaxClip1: 0x4C0, // int32
-            m_iMaxClip2: 0x4C4, // int32
-            m_iDefaultClip1: 0x4C8, // int32
-            m_iDefaultClip2: 0x4CC, // int32
-            m_bReserveAmmoAsClips: 0x4D0, // bool
-            m_bTreatAsSingleClip: 0x4D1, // bool
-            m_bKeepLoadedAmmo: 0x4D2, // bool
-            m_iRumbleEffect: 0x4D4, // RumbleEffect_t
-            m_flDropSpeed: 0x4D8, // float32
-            m_iSlot: 0x4DC, // int32
-            m_iPosition: 0x4E0, // int32
-            m_aShootSounds: 0x4E8, // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
-        },
         C_DOTA_Item_Tier3Token: {
         },
         C_DOTA_Item_Recipe_Hood_Of_Defiance: {
@@ -28617,6 +28583,10 @@ export const Schemas = {
         },
         CSurvivorsPowerUp_AreaAttack_Circle: {
         },
+        CShmupTrackDefinition: {
+            m_strName: 0x0, // CUtlString
+            m_vecEvents: 0x8, // CUtlVector<CShmupEventTime>
+        },
         CBasePortraitData: {
             m_iModelIndex: 0x410, // CStrongHandle<InfoForResourceTypeCModel>
             m_skin: 0x418, // CUtlStringToken
@@ -28723,6 +28693,27 @@ export const Schemas = {
             m_flStartValue: 0x8, // float32
             m_flEndValue: 0xC, // float32
             m_nInterpType: 0x10, // int32
+        },
+        CShmupBulletInfo: {
+            m_pattern: 0x0, // EShmupBulletPattern
+            m_nCount: 0x4, // int32
+            m_flSpeed: 0x8, // float32
+            m_flRadius: 0xC, // float32
+            m_flRandomTargetingOffsetMin: 0x10, // float32
+            m_flRandomTargetingOffsetMax: 0x14, // float32
+            m_nBulletsPerWave: 0x18, // int32
+            m_flAngleWidth: 0x1C, // float32
+            m_flAngleOffset: 0x20, // float32
+            m_flSpeedPerBullet: 0x24, // float32
+            m_flRadiusPerBullet: 0x28, // float32
+            m_flAngleOffsetPerBullet: 0x2C, // float32
+            m_flAngleOffsetPerWave: 0x30, // float32
+            m_flAngleStaggerPerWave: 0x34, // float32
+            m_flAngleSinWaveOffset: 0x38, // float32
+            m_bSwapColorPerBullet: 0x3C, // bool
+            m_flInterval: 0x40, // float32
+            m_vFixedDirection: 0x44, // Vector2D
+            m_bUseStoredPlayerLocation: 0x4C, // bool
         },
         CSurvivorsPowerUp_AreaAttack: {
             m_sParticle: 0x608, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
@@ -28994,6 +28985,18 @@ export const Schemas = {
             m_sInvulnerableParticle: 0x180, // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sInvulnerableSkinName: 0x260, // CUtlString
         },
+        CandyShopRewardOptionGC_t: {
+            m_unRewardOptionID: 0x0, // CandyShopRewardOptionID_t
+            m_unRewardOptionMaxCount: 0x4, // uint32
+            m_unCandyPrice: 0x8, // uint32
+            m_unWeight: 0xC, // uint32
+            m_eOptionType: 0x10, // ECandyShopRewardOptionType
+            m_unSingleItemDef: 0x14, // item_definition_index_t
+            m_sLootList: 0x18, // CUtlString
+            m_eEvent: 0x20, // EEvent
+            m_unEventActionID: 0x24, // uint32
+            m_unEventPoints: 0x28, // uint32
+        },
         CSurvivorsPowerUp_Snotty: {
             m_vecSnotties: 0x800, // CUtlVector<SurvivorsUnitID_t>
             m_flRotationSpeedDeg: 0x818, // float32
@@ -29161,16 +29164,6 @@ export const Schemas = {
             m_flStackAlarmTime: 0x10, // float32
             m_nCampIndex: 0x14, // int32
             m_nAlarmTypes: 0x18, // int32
-        },
-        __a4__: {
-        },
-        k_EMsgGCReportsRemainingRequest: {
-        },
-        k_EMsgGCRequestChatChannelListResponse: {
-        },
-        ___D__: {
-        },
-        k_EMsgGCJoinChatChannel: {
         },
     },
 };
