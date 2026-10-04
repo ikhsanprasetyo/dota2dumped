@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-30 23:53:47.474156300 +07:00
+// 2026-10-04 12:25:34.881424700 +07:00
 
 #pragma once
 
@@ -22,7 +22,7 @@ namespace source2_dumper {
             constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5B27D90;
             constexpr std::ptrdiff_t PlayButtonService001 = 0x5B08E40;
             constexpr std::ptrdiff_t Source2Client002 = 0x61BB2A0;
-            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x6163A40;
+            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x6163A30;
             constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5A951C0;
             constexpr std::ptrdiff_t Source2ClientUI001 = 0x587E5C0;
         }
@@ -166,7 +166,7 @@ namespace source2_dumper {
             constexpr std::ptrdiff_t Source2GameDirector001 = 0x5033D30;
             constexpr std::ptrdiff_t Source2GameEntities001 = 0x495B3B0;
             constexpr std::ptrdiff_t Source2Server001 = 0x495B200;
-            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F5E548;
+            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x4F5E588;
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {

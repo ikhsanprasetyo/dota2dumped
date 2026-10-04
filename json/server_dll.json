@@ -66856,17 +66856,7 @@
         },
         "type": "uint32"
       },
-      "_5____": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_7____": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_Jz___": {
+      "_1____": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
@@ -66876,13 +66866,8 @@
         "members": {},
         "type": "unknown"
       },
-      "_d____": {
-        "alignment": 97,
-        "members": {},
-        "type": "unknown"
-      },
-      "_l____": {
-        "alignment": 0,
+      "__n___": {
+        "alignment": 101,
         "members": {},
         "type": "unknown"
       },

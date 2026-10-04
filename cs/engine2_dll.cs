@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-09-30 23:53:47.474156300 +07:00
+// 2026-10-04 12:25:34.881424700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll

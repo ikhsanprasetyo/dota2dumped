@@ -11,7 +11,7 @@
     "PanoramaUIClient001": 95583632,
     "PlayButtonService001": 95456832,
     "Source2Client002": 102478496,
-    "Source2ClientConfig001": 102120000,
+    "Source2ClientConfig001": 102119984,
     "Source2ClientPrediction001": 94982592,
     "Source2ClientUI001": 92792256
   },
@@ -135,7 +135,7 @@
     "Source2GameDirector001": 84098352,
     "Source2GameEntities001": 76919728,
     "Source2Server001": 76919296,
-    "Source2ServerConfig001": 83223880
+    "Source2ServerConfig001": 83223944
   },
   "soundsystem.dll": {
     "SoundBugBugService001_Client": 5583408,
