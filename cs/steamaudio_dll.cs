@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: steamaudio.dll
@@ -7,7 +7,7 @@ namespace Source2Dumper.Schemas {
     // Enum count: 0
     public static class SteamaudioDll {
         // Parent: None
-        // Field count: 5
+        // Field count: 10
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -20,6 +20,11 @@ namespace Source2Dumper.Schemas {
             public const nint m_flOutsideThreshold = 0x8; // float32
             public const nint m_flSizeThreshold = 0xC; // float32
             public const nint m_flInsideThreshold = 0x10; // float32
+            public const nint m_nInOutMode = 0x14; // int32
+            public const nint m_nNumRays = 0x18; // int32
+            public const nint m_nInOutMaxBounces = 0x1C; // int32
+            public const nint m_flInOutMaxPathLength = 0x20; // float32
+            public const nint m_flInOutBounceLoss = 0x24; // float32
         }
         // Parent: None
         // Field count: 4
@@ -173,12 +178,12 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CSteamAudioBakedDimensionsData {
             public const nint m_settings = 0x0; // SteamAudioCustomDataDimensionsSettings_t
-            public const nint m_probes = 0x18; // CSteamAudioProbeData
-            public const nint m_vecInOut = 0x20; // CUtlVector<float32>
-            public const nint m_vecSize = 0x38; // CUtlVector<float32>
-            public const nint m_vecOutsideField = 0x50; // CUtlVector<CSteamAudioAmbisonicsField>
-            public const nint m_vecInsideSmallSizeField = 0x68; // CUtlVector<CSteamAudioAmbisonicsField>
-            public const nint m_movables = 0x80; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+            public const nint m_probes = 0x28; // CSteamAudioProbeData
+            public const nint m_vecInOut = 0x30; // CUtlVector<float32>
+            public const nint m_vecSize = 0x48; // CUtlVector<float32>
+            public const nint m_vecOutsideField = 0x60; // CUtlVector<CSteamAudioAmbisonicsField>
+            public const nint m_vecInsideSmallSizeField = 0x78; // CUtlVector<CSteamAudioAmbisonicsField>
+            public const nint m_movables = 0x90; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
         }
         // Parent: None
         // Field count: 2

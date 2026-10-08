@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 package schemas
 
@@ -98,29 +98,30 @@ const (
     AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CONTROL_POINT_COMPONENT = 0x6
     AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CONTROL_POINT_CHANGE_AGE = 0x7
     AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CONTROL_POINT_SPEED = 0x8
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_DETAIL_LEVEL = 0x9
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CONCURRENT_DEF_COUNT = 0xA
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CLOSEST_CAMERA_DISTANCE = 0xB
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_SNAPSHOT_COUNT = 0xC
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_SNAPSHOT_CHANGED = 0xD
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CONTROL_POINT_IS_SET = 0xE
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_RENDERER_CAMERA_DISTANCE = 0xF
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0x10
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_NOISE = 0x11
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_AGE = 0x12
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x13
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_FLOAT = 0x14
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x15
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x16
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x17
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_SPEED = 0x18
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_NUMBER = 0x19
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x1A
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x1B
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1C
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1D
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1E
-    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_COUNT = 0x1F
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CONTROL_POINT_DISTANCE = 0x9
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_DETAIL_LEVEL = 0xA
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CONCURRENT_DEF_COUNT = 0xB
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CLOSEST_CAMERA_DISTANCE = 0xC
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_SNAPSHOT_COUNT = 0xD
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_SNAPSHOT_CHANGED = 0xE
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_CONTROL_POINT_IS_SET = 0xF
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_RENDERER_CAMERA_DISTANCE = 0x10
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0x11
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_NOISE = 0x12
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_AGE = 0x13
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x14
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_FLOAT = 0x15
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x16
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x17
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x18
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_SPEED = 0x19
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_NUMBER = 0x1A
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x1B
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x1C
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1D
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1E
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1F
+    AnimationsystemDll_ParticleFloatType_t_PF_TYPE_COUNT = 0x20
     AnimationsystemDll_CNmFloatAngleMathNode__Operation_t_ClampTo180 = 0x0
     AnimationsystemDll_CNmFloatAngleMathNode__Operation_t_ClampTo360 = 0x1
     AnimationsystemDll_CNmFloatAngleMathNode__Operation_t_FlipHemisphere = 0x2
@@ -203,6 +204,8 @@ const (
     AnimationsystemDll_ModelMeshBufferUsage_t_MESH_BUFFER_USAGE_RT_PROXY = 0x10
     AnimationsystemDll_ModelMeshBufferUsage_t_MESH_BUFFER_USAGE_VERTEX_ALBEDO = 0x20
     AnimationsystemDll_ModelMeshBufferUsage_t_MESH_BUFFER_USAGE_VERTEX_EMISSIVE = 0x40
+    AnimationsystemDll_ModelMeshBufferUsage_t_MESH_BUFFER_USAGE_MESHLETS = 0x80
+    AnimationsystemDll_ModelMeshBufferUsage_t_MESH_BUFFER_USAGE_ALIAS_TABLE = 0x100
     AnimationsystemDll_NmGraphDebugMode_t_Off = 0x0
     AnimationsystemDll_NmGraphDebugMode_t_On = 0x1
     AnimationsystemDll_TargetWarpTimingMethod_ReachDestinationOnRootMotionEnd = 0x0
@@ -348,6 +351,8 @@ const (
     AnimationsystemDll_PoseType_t_POSETYPE_STATIC = 0x0
     AnimationsystemDll_PoseType_t_POSETYPE_DYNAMIC = 0x1
     AnimationsystemDll_PoseType_t_POSETYPE_INVALID = 0xFF
+    AnimationsystemDll_CNmClothEvent__Type_t_Stiffen = 0x0
+    AnimationsystemDll_CNmClothEvent__Type_t_Effect = 0x1
     AnimationsystemDll_CNmRootMotionData__SamplingMode_t_Delta = 0x0
     AnimationsystemDll_CNmRootMotionData__SamplingMode_t_WorldSpace = 0x1
     AnimationsystemDll_NmEventConditionRules_t_LimitSearchToSourceState = 0x0
@@ -439,7 +444,10 @@ const (
     AnimationsystemDll_ParticleFloatMapType_t_PF_MAP_TYPE_CURVE = 0x4
     AnimationsystemDll_ParticleFloatMapType_t_PF_MAP_TYPE_NOTCHED = 0x5
     AnimationsystemDll_ParticleFloatMapType_t_PF_MAP_TYPE_ROUND = 0x6
-    AnimationsystemDll_ParticleFloatMapType_t_PF_MAP_TYPE_COUNT = 0x7
+    AnimationsystemDll_ParticleFloatMapType_t_PF_MAP_TYPE_MIN = 0x7
+    AnimationsystemDll_ParticleFloatMapType_t_PF_MAP_TYPE_MAX = 0x8
+    AnimationsystemDll_ParticleFloatMapType_t_PF_MAP_TYPE_MOD = 0x9
+    AnimationsystemDll_ParticleFloatMapType_t_PF_MAP_TYPE_COUNT = 0xA
     AnimationsystemDll_AnimParamVectorType_t_ANIMPARAM_VECTOR_TYPE_NONE = 0x0
     AnimationsystemDll_AnimParamVectorType_t_ANIMPARAM_VECTOR_TYPE_POSITION_WS = 0x1
     AnimationsystemDll_AnimParamVectorType_t_ANIMPARAM_VECTOR_TYPE_POSITION_LS = 0x2
@@ -490,6 +498,8 @@ const (
     AnimationsystemDll_ModelSkeletonData_t__BoneFlags_t_BLEND_PREALIGNED = 0x100000
     AnimationsystemDll_ModelSkeletonData_t__BoneFlags_t_FLAG_RIGIDLENGTH = 0x200000
     AnimationsystemDll_ModelSkeletonData_t__BoneFlags_t_FLAG_PROCEDURAL = 0x400000
+    AnimationsystemDll_CNmOrientationWarpNode__AlignmentMode_t_MovementDirection = 0x0
+    AnimationsystemDll_CNmOrientationWarpNode__AlignmentMode_t_AnimationEndFacing = 0x1
     AnimationsystemDll_GPUParticleCollisionMode_t_PARTICLE_GPU_COLLISION_MODE_RT = 0x0
     AnimationsystemDll_GPUParticleCollisionMode_t_PARTICLE_GPU_COLLISION_MODE_DEPTH = 0x1
     AnimationsystemDll_GPUParticleCollisionMode_t_PARTICLE_GPU_COLLISION_MODE_HYBRID = 0x2
@@ -779,7 +789,8 @@ const (
     AnimationsystemDll_MovementCapability_t_ePlantedTurn = 0x6
     AnimationsystemDll_MovementCapability_t_eUseStartAsPlantedTurn = 0x7
     AnimationsystemDll_MovementCapability_t_eLean = 0x8
-    AnimationsystemDll_MovementCapability_t_eCount = 0x9
+    AnimationsystemDll_MovementCapability_t_eForwardStartOnly = 0x9
+    AnimationsystemDll_MovementCapability_t_eCount = 0xA
     AnimationsystemDll_ModelConfigAttachmentType_t_MODEL_CONFIG_ATTACHMENT_INVALID = 0xFFFFFFFFFFFFFFFF
     AnimationsystemDll_ModelConfigAttachmentType_t_MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0x0
     AnimationsystemDll_ModelConfigAttachmentType_t_MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE = 0x1
@@ -850,7 +861,8 @@ const (
     AnimationsystemDll_CSeqTransition_m_flFadeOutTime = 0x4 // float32
     AnimationsystemDll_CAnimParamHandle_m_type = 0x0 // AnimParamType_t
     AnimationsystemDll_CAnimParamHandle_m_index = 0x1 // uint8
-    AnimationsystemDll_AnimNodeID_m_id = 0x0 // uint32
+    AnimationsystemDll_WeightList_m_name = 0x0 // CUtlString
+    AnimationsystemDll_WeightList_m_weights = 0x8 // CUtlVector<float32>
     AnimationsystemDll_CSeqAutoLayerFlag_m_bPost = 0x0 // bool
     AnimationsystemDll_CSeqAutoLayerFlag_m_bSpline = 0x1 // bool
     AnimationsystemDll_CSeqAutoLayerFlag_m_bXFade = 0x2 // bool
@@ -917,6 +929,7 @@ const (
     AnimationsystemDll_CSeqSynthAnimDesc_m_nLocalBaseReference = 0x24 // int16
     AnimationsystemDll_CSeqSynthAnimDesc_m_nLocalBoneMask = 0x26 // int16
     AnimationsystemDll_CSeqSynthAnimDesc_m_activityArray = 0x28 // CUtlVector<CAnimActivity>
+    AnimationsystemDll_CParamSpanUpdater_m_spans = 0x0 // CUtlVector<ParamSpan_t>
     AnimationsystemDll_AnimationSnapshotBase_t_m_flRealTime = 0x0 // float32
     AnimationsystemDll_AnimationSnapshotBase_t_m_rootToWorld = 0x10 // matrix3x4a_t
     AnimationsystemDll_AnimationSnapshotBase_t_m_bBonesInWorldSpace = 0x40 // bool
@@ -1035,13 +1048,6 @@ const (
     AnimationsystemDll_CNmTwoBoneIKTask_m_nEffectorBoneIdx = 0x70 // int32
     AnimationsystemDll_CNmTwoBoneIKTask_m_nEffectorTargetBoneIdx = 0x74 // int32
     AnimationsystemDll_CNmTwoBoneIKTask_m_targetTransform = 0x80 // CTransform
-    AnimationsystemDll_CNmTwoBoneIKTask_m_effectorTarget = 0xA0 // CNmTarget
-    AnimationsystemDll_CNmTwoBoneIKTask_m_blendMode = 0xD0 // NmIKBlendMode_t
-    AnimationsystemDll_CNmTwoBoneIKTask_m_flBlendWeight = 0xD4 // float32
-    AnimationsystemDll_CNmTwoBoneIKTask_m_bIsTargetInWorldSpace = 0xD8 // bool
-    AnimationsystemDll_CNmTwoBoneIKTask_m_bIsRunningFromDeserializedData = 0xD9 // bool
-    AnimationsystemDll_CNmTwoBoneIKTask_m_flChainRotationWeight = 0xDC // float32
-    AnimationsystemDll_CNmTwoBoneIKTask_m_debugEffectorBoneID = 0xE0 // CGlobalSymbol
     AnimationsystemDll_CSeqIKLock_m_flPosWeight = 0x0 // float32
     AnimationsystemDll_CSeqIKLock_m_flAngleWeight = 0x4 // float32
     AnimationsystemDll_CSeqIKLock_m_nLocalBone = 0x8 // int16
@@ -1060,6 +1066,7 @@ const (
     AnimationsystemDll_CSeqCmdSeqDesc_m_eventArray = 0x48 // CUtlVector<CAnimEventDefinition>
     AnimationsystemDll_CSeqCmdSeqDesc_m_activityArray = 0x60 // CUtlVector<CAnimActivity>
     AnimationsystemDll_CSeqCmdSeqDesc_m_poseSettingArray = 0x78 // CUtlVector<CSeqPoseSetting>
+    AnimationsystemDll_AnimParamID_m_id = 0x0 // uint32
     AnimationsystemDll_AnimationDecodeDebugDump_t_m_processingType = 0x0 // AnimationProcessingType_t
     AnimationsystemDll_AnimationDecodeDebugDump_t_m_elems = 0x8 // CUtlVector<AnimationDecodeDebugDumpElement_t>
     AnimationsystemDll_CSeqScaleSet_m_sName = 0x0 // CBufferString

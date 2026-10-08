@@ -1,51 +1,6 @@
 {
   "soundsystem.dll": {
     "classes": {
-      "CDSPMixgroupModifier": {
-        "fields": {
-          "m_flListenerReverbModifierWhenSourceReverbIsActive": 24,
-          "m_flModifier": 8,
-          "m_flModifierMin": 12,
-          "m_flSourceModifier": 16,
-          "m_flSourceModifierMin": 20,
-          "m_mixgroup": 0
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
       "CDSPPresetMixgroupModifierTable": {
         "fields": {
           "m_table": 0
@@ -68,48 +23,15 @@
             "type": "Unknown"
           },
           {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CSndBeatPatternManager": {
-        "fields": {
-          "m_vecActiveTracks": 112,
-          "m_vecPatterns": 56
-        },
-        "metadata": [
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataPromoteField",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataPromoteField",
             "type": "Unknown"
           }
         ],
@@ -185,6 +107,14 @@
             "type": "Unknown"
           },
           {
+            "name": "MPropertyReadonlyExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
             "name": "MPropertyStartGroup",
             "type": "Unknown"
           },
@@ -197,15 +127,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertyReadonlyExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyReadonlyExpr",
+            "name": "MPropertyStartGroup",
             "type": "Unknown"
           }
         ],
@@ -221,14 +143,9 @@
         ],
         "parent": null
       },
-      "CVMixSubmix": {
+      "CVMixDataOffset": {
         "fields": {
-          "m_SendNames": 16,
-          "m_nChannels": 52,
-          "m_nMixDownRule": 56,
-          "m_nSoloNameHash": 48,
-          "m_name": 0,
-          "m_sendOperator": 8
+          "m_nOffset": 0
         },
         "metadata": [],
         "parent": null
@@ -316,6 +233,22 @@
           {
             "name": "MVDataNodeType",
             "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "SndSeqMidiStatusNoteOff",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -333,18 +266,23 @@
         ],
         "parent": null
       },
-      "VMixVocoderDesc_t": {
+      "VMixPannerDesc_t": {
         "fields": {
-          "m_bPeakMode": 36,
-          "m_flAttackTimeMS": 24,
-          "m_flBandwidth": 4,
-          "m_flFreqRangeEnd": 16,
-          "m_flFreqRangeStart": 12,
-          "m_flReleaseTimeMS": 28,
-          "m_fldBModGain": 8,
-          "m_fldBUnvoicedGain": 20,
-          "m_nBandCount": 0,
-          "m_nDebugBand": 32
+          "m_flStrength": 4,
+          "m_type": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "VMixPointerFixupEntry_t": {
+        "fields": {
+          "m_nIndex": 0,
+          "m_offset": 4
         },
         "metadata": [
           {
@@ -566,6 +504,26 @@
         },
         "type": "uint32"
       },
+      "VMixAutoControlType_t": {
+        "alignment": 1,
+        "members": {
+          "VMIX_AUTO_DISTANCE": 3,
+          "VMIX_AUTO_LISTENER_PITCH_COS": 11,
+          "VMIX_AUTO_LISTENER_PITCH_SIN": 10,
+          "VMIX_AUTO_LISTENER_ROLL_COS": 13,
+          "VMIX_AUTO_LISTENER_ROLL_SIN": 12,
+          "VMIX_AUTO_LISTENER_YAW_COS": 9,
+          "VMIX_AUTO_LISTENER_YAW_SIN": 8,
+          "VMIX_AUTO_PLAYTIME": 2,
+          "VMIX_AUTO_POSITION_VECTOR": 7,
+          "VMIX_AUTO_POSITION_X": 4,
+          "VMIX_AUTO_POSITION_Y": 5,
+          "VMIX_AUTO_POSITION_Z": 6,
+          "VMIX_AUTO_SEND_LEVEL": 0,
+          "VMIX_AUTO_STACK_VAR": 1
+        },
+        "type": "uint8"
+      },
       "VMixChannelOperation_t": {
         "alignment": 4,
         "members": {
@@ -577,6 +535,18 @@
           "VMIX_CHAN_SWAP": 3
         },
         "type": "uint32"
+      },
+      "VMixFilterChannelSet_t": {
+        "alignment": 1,
+        "members": {
+          "FILTER_ALL_CHANNELS": 0,
+          "FILTER_CHANNEL_SET_MAX": 5,
+          "FILTER_LEFT_ONLY": 1,
+          "FILTER_MID_ONLY": 3,
+          "FILTER_RIGHT_ONLY": 2,
+          "FILTER_SIDE_ONLY": 4
+        },
+        "type": "uint8"
       },
       "VMixFilterSlope_t": {
         "alignment": 1,
@@ -594,7 +564,7 @@
         "type": "uint8"
       },
       "VMixFilterType_t": {
-        "alignment": 2,
+        "alignment": 1,
         "members": {
           "FILTER_ALLPASS": 7,
           "FILTER_BANDPASS": 2,
@@ -607,51 +577,45 @@
           "FILTER_PEAKING_EQ": 4,
           "FILTER_UNKNOWN": -1
         },
-        "type": "uint16"
+        "type": "uint8"
       },
       "VMixGraphCommandID_t": {
         "alignment": 4,
         "members": {
-          "CMD_BLEND_VSNDS_TO_IMPULSERESPONSE": 38,
-          "CMD_CONTROL_COND_COPY_IF_NEGATIVE": 8,
-          "CMD_CONTROL_COPY": 7,
-          "CMD_CONTROL_EVALUATE_CURVE": 6,
-          "CMD_CONTROL_EVAL_ENVELOPE": 15,
-          "CMD_CONTROL_INCREMENT_TIMER": 14,
-          "CMD_CONTROL_INPUT_STORE": 1,
-          "CMD_CONTROL_INPUT_STORE_DB": 2,
-          "CMD_CONTROL_MAX": 12,
-          "CMD_CONTROL_OUTPUT_STORE": 5,
-          "CMD_CONTROL_REMAP_LINEAR": 9,
-          "CMD_CONTROL_REMAP_LOGLINEAR": 11,
-          "CMD_CONTROL_REMAP_SINE": 10,
-          "CMD_CONTROL_RESET_TIMER": 13,
-          "CMD_CONTROL_SINE_BLEND": 16,
-          "CMD_CONTROL_TRANSIENT_INPUT_RESET": 4,
-          "CMD_CONTROL_TRANSIENT_INPUT_STORE": 3,
-          "CMD_IMPULSERESPONSE_DELAY": 39,
-          "CMD_IMPULSERESPONSE_INPUT_STORE": 34,
-          "CMD_IMPULSERESPONSE_RESET": 37,
+          "CMD_BLEND_VSNDS_TO_IMPULSERESPONSE": 32,
+          "CMD_CONTROL_COND_COPY_IF_NEGATIVE": 7,
+          "CMD_CONTROL_CONVERT_DB_TO_GAIN": 1,
+          "CMD_CONTROL_COPY": 6,
+          "CMD_CONTROL_EVALUATE_CURVE": 5,
+          "CMD_CONTROL_EVAL_ENVELOPE": 14,
+          "CMD_CONTROL_INCREMENT_TIMER": 13,
+          "CMD_CONTROL_MAX": 11,
+          "CMD_CONTROL_OUTPUT_STORE": 4,
+          "CMD_CONTROL_REMAP_LINEAR": 8,
+          "CMD_CONTROL_REMAP_LOGLINEAR": 10,
+          "CMD_CONTROL_REMAP_SINE": 9,
+          "CMD_CONTROL_RESET_TIMER": 12,
+          "CMD_CONTROL_SINE_BLEND": 15,
+          "CMD_CONTROL_TRANSIENT_INPUT_RESET": 3,
+          "CMD_CONTROL_TRANSIENT_INPUT_STORE": 2,
+          "CMD_IMPULSERESPONSE_DELAY": 33,
+          "CMD_IMPULSERESPONSE_INPUT_STORE": 28,
+          "CMD_IMPULSERESPONSE_RESET": 31,
           "CMD_INVALID": -1,
-          "CMD_PROCESSOR_SET_CONTROL_ARRAYVALUE": 19,
-          "CMD_PROCESSOR_SET_CONTROL_VALUE": 17,
-          "CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE": 35,
-          "CMD_PROCESSOR_SET_NAME_INPUT": 18,
-          "CMD_PROCESSOR_SET_VSND_VALUE": 21,
-          "CMD_PROCESSOR_STORE_CONTROL_VALUE": 20,
-          "CMD_REMAP_VSND_TO_IMPULSERESPONSE": 36,
-          "CMD_SUBMIX_ACCUMULATE": 31,
-          "CMD_SUBMIX_COPY": 30,
-          "CMD_SUBMIX_DEBUG": 26,
-          "CMD_SUBMIX_EXTRACTCONTAINER": 25,
-          "CMD_SUBMIX_GENERATE": 23,
-          "CMD_SUBMIX_GENERATE_SIDECHAIN": 24,
-          "CMD_SUBMIX_METER": 32,
-          "CMD_SUBMIX_METER_SPECTRUM": 33,
-          "CMD_SUBMIX_MIX2x1": 27,
-          "CMD_SUBMIX_OUTPUT": 28,
-          "CMD_SUBMIX_OUTPUTx2": 29,
-          "CMD_SUBMIX_PROCESS": 22
+          "CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE": 29,
+          "CMD_REMAP_VSND_TO_IMPULSERESPONSE": 30,
+          "CMD_SUBMIX_ACCUMULATE": 25,
+          "CMD_SUBMIX_COPY": 24,
+          "CMD_SUBMIX_DEBUG": 20,
+          "CMD_SUBMIX_EXTRACTCONTAINER": 19,
+          "CMD_SUBMIX_GENERATE": 17,
+          "CMD_SUBMIX_GENERATE_SIDECHAIN": 18,
+          "CMD_SUBMIX_METER": 26,
+          "CMD_SUBMIX_METER_SPECTRUM": 27,
+          "CMD_SUBMIX_MIX2x1": 21,
+          "CMD_SUBMIX_OUTPUT": 22,
+          "CMD_SUBMIX_OUTPUTx2": 23,
+          "CMD_SUBMIX_PROCESS": 16
         },
         "type": "uint32"
       },
@@ -666,6 +630,46 @@
         },
         "type": "uint32"
       },
+      "VMixMixDownRule_t": {
+        "alignment": 1,
+        "members": {
+          "LEFT": 1,
+          "MID": 3,
+          "RIGHT": 2,
+          "SIDE": 4,
+          "SUM": 0
+        },
+        "type": "uint8"
+      },
+      "VMixOffsetCategory_t": {
+        "alignment": 4,
+        "members": {
+          "HEAP_OFFSET": 1,
+          "INPUT_INDEX": 2,
+          "NULL_POINTER": 0,
+          "SUBMIX_INDEX": 3
+        },
+        "type": "uint32"
+      },
+      "VMixOffsetType_t": {
+        "alignment": 4,
+        "members": {
+          "VO_ARRAY": 1,
+          "VO_BOOL": 2,
+          "VO_CHAR": 0,
+          "VO_CUBIC_SPLINE": 8,
+          "VO_FLOAT": 3,
+          "VO_FLOAT_UTLVECTOR": 10,
+          "VO_INT32": 5,
+          "VO_QUATERNION": 7,
+          "VO_SHAREDPTR_IR": 11,
+          "VO_TYPE_COUNT": 12,
+          "VO_UINT32": 4,
+          "VO_VECTOR": 6,
+          "VO_VSND_INPUT": 9
+        },
+        "type": "uint32"
+      },
       "VMixPannerType_t": {
         "alignment": 4,
         "members": {
@@ -673,6 +677,22 @@
           "PANNER_TYPE_LINEAR": 0
         },
         "type": "uint32"
+      },
+      "VMixSendOperator_t": {
+        "alignment": 2,
+        "members": {
+          "ALL_MAX_SEND": 7,
+          "ALL_VOICES": 0,
+          "FACING_VOICES": 2,
+          "INVERSE_NAMED_SENDS": 5,
+          "INVERSE_TOTAL_SEND": 6,
+          "MIXGROUP_VOICES": 3,
+          "NAMED_SEND": 4,
+          "NO_VOICES": -1,
+          "ROOM_VOICES": 1,
+          "TRACK": 8
+        },
+        "type": "uint16"
       },
       "VMixSubgraphSwitchInterpolationType_t": {
         "alignment": 4,

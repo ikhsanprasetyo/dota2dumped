@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 #pragma once
 
@@ -36,8 +36,8 @@ namespace source2_dumper {
                 FIELD_INPUT = 0x12,
                 FIELD_FUNCTION = 0x13,
                 FIELD_VMATRIX = 0x14,
-                FIELD_VMATRIX_WORLDSPACE = 0x15,
-                FIELD_MATRIX3X4_WORLDSPACE = 0x16,
+                FIELD_xxxAvail1 = 0x15,
+                FIELD_xxxAvail2 = 0x16,
                 FIELD_INTERVAL = 0x17,
                 FIELD_UNUSED = 0x18,
                 FIELD_VECTOR2D = 0x19,

@@ -59,6 +59,39 @@
           "UINT8": 5
         },
         "type": "uint8"
+      },
+      "NoiseStreamModifier_t": {
+        "alignment": 4,
+        "members": {
+          "NOISE_STREAM_MODIFIER_CLUMPS": 2,
+          "NOISE_STREAM_MODIFIER_LINES": 1,
+          "NOISE_STREAM_MODIFIER_NONE": 0,
+          "NOISE_STREAM_MODIFIER_RINGS": 3
+        },
+        "type": "uint32"
+      },
+      "NoiseStreamTurbulence_t": {
+        "alignment": 4,
+        "members": {
+          "NOISE_STREAM_TURB_ALTERNATE": 5,
+          "NOISE_STREAM_TURB_CONTRAST": 4,
+          "NOISE_STREAM_TURB_FEEDBACK": 2,
+          "NOISE_STREAM_TURB_HIGHLIGHT": 1,
+          "NOISE_STREAM_TURB_LOOPY": 3,
+          "NOISE_STREAM_TURB_NONE": 0
+        },
+        "type": "uint32"
+      },
+      "NoiseStreamType_t": {
+        "alignment": 4,
+        "members": {
+          "NOISE_STREAM_TYPE_CURL": 3,
+          "NOISE_STREAM_TYPE_NONE": 4,
+          "NOISE_STREAM_TYPE_PERLIN": 0,
+          "NOISE_STREAM_TYPE_SIMPLEX": 1,
+          "NOISE_STREAM_TYPE_WORLEY": 2
+        },
+        "type": "uint32"
       }
     }
   }

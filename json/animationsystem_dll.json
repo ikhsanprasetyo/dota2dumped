@@ -1,7 +1,7 @@
 {
   "animationsystem.dll": {
     "classes": {
-      "AnimNodeID": {
+      "AnimNodeOutputID": {
         "fields": {
           "m_id": 0
         },
@@ -25,11 +25,15 @@
         ],
         "parent": null
       },
-      "AnimNodeOutputID": {
+      "AnimParamID": {
         "fields": {
           "m_id": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -50,6 +54,10 @@
           "m_id": 0
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -579,6 +587,26 @@
         "metadata": [],
         "parent": null
       },
+      "CNmContactAudioActionVData": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CNmContactAudioTypeVData": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CNmFloatValueNode__CDefinition": {
         "fields": {},
         "metadata": [],
@@ -659,13 +687,6 @@
       },
       "CNmTwoBoneIKTask": {
         "fields": {
-          "m_bIsRunningFromDeserializedData": 217,
-          "m_bIsTargetInWorldSpace": 216,
-          "m_blendMode": 208,
-          "m_debugEffectorBoneID": 224,
-          "m_effectorTarget": 160,
-          "m_flBlendWeight": 212,
-          "m_flChainRotationWeight": 220,
           "m_nEffectorBoneIdx": 112,
           "m_nEffectorTargetBoneIdx": 116,
           "m_targetTransform": 128
@@ -686,6 +707,18 @@
       "CNmZeroPoseTask": {
         "fields": {},
         "metadata": [],
+        "parent": null
+      },
+      "CParamSpanUpdater": {
+        "fields": {
+          "m_spans": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CParticleBindingRealPulse": {
@@ -1472,6 +1505,19 @@
         "fields": {},
         "metadata": [],
         "parent": null
+      },
+      "WeightList": {
+        "fields": {
+          "m_name": 0,
+          "m_weights": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       }
     },
     "enums": {
@@ -1719,6 +1765,14 @@
         },
         "type": "uint32"
       },
+      "CNmClothEvent__Type_t": {
+        "alignment": 4,
+        "members": {
+          "Effect": 1,
+          "Stiffen": 0
+        },
+        "type": "uint32"
+      },
       "CNmCurrentSyncEventNode__InfoType_t": {
         "alignment": 1,
         "members": {
@@ -1791,6 +1845,14 @@
         "members": {
           "DoesntMatch": 1,
           "Matches": 0
+        },
+        "type": "uint8"
+      },
+      "CNmOrientationWarpNode__AlignmentMode_t": {
+        "alignment": 1,
+        "members": {
+          "AnimationEndFacing": 1,
+          "MovementDirection": 0
         },
         "type": "uint8"
       },
@@ -2233,10 +2295,12 @@
         "type": "uint32"
       },
       "ModelMeshBufferUsage_t": {
-        "alignment": 1,
+        "alignment": 2,
         "members": {
           "MESH_BUFFER_USAGE_ADJACENCY": 4,
+          "MESH_BUFFER_USAGE_ALIAS_TABLE": 256,
           "MESH_BUFFER_USAGE_IB": 2,
+          "MESH_BUFFER_USAGE_MESHLETS": 128,
           "MESH_BUFFER_USAGE_MESHLET_TRIS": 8,
           "MESH_BUFFER_USAGE_NONE": 0,
           "MESH_BUFFER_USAGE_RT_PROXY": 16,
@@ -2244,7 +2308,7 @@
           "MESH_BUFFER_USAGE_VERTEX_ALBEDO": 32,
           "MESH_BUFFER_USAGE_VERTEX_EMISSIVE": 64
         },
-        "type": "uint8"
+        "type": "uint16"
       },
       "ModelSkeletonData_t__BoneFlags_t": {
         "alignment": 4,
@@ -2305,7 +2369,8 @@
       "MovementCapability_t": {
         "alignment": 4,
         "members": {
-          "eCount": 9,
+          "eCount": 10,
+          "eForwardStartOnly": 9,
           "eIdleTurn": 1,
           "eInstantStop": 4,
           "eLean": 8,
@@ -2688,10 +2753,13 @@
       "ParticleFloatMapType_t": {
         "alignment": 4,
         "members": {
-          "PF_MAP_TYPE_COUNT": 7,
+          "PF_MAP_TYPE_COUNT": 10,
           "PF_MAP_TYPE_CURVE": 4,
           "PF_MAP_TYPE_DIRECT": 0,
           "PF_MAP_TYPE_INVALID": -1,
+          "PF_MAP_TYPE_MAX": 8,
+          "PF_MAP_TYPE_MIN": 7,
+          "PF_MAP_TYPE_MOD": 9,
           "PF_MAP_TYPE_MULT": 1,
           "PF_MAP_TYPE_NOTCHED": 5,
           "PF_MAP_TYPE_REMAP": 2,
@@ -2724,39 +2792,40 @@
       "ParticleFloatType_t": {
         "alignment": 4,
         "members": {
-          "PF_TYPE_CLOSEST_CAMERA_DISTANCE": 11,
+          "PF_TYPE_CLOSEST_CAMERA_DISTANCE": 12,
           "PF_TYPE_COLLECTION_AGE": 4,
-          "PF_TYPE_CONCURRENT_DEF_COUNT": 10,
+          "PF_TYPE_CONCURRENT_DEF_COUNT": 11,
           "PF_TYPE_CONTROL_POINT_CHANGE_AGE": 7,
           "PF_TYPE_CONTROL_POINT_COMPONENT": 6,
-          "PF_TYPE_CONTROL_POINT_IS_SET": 14,
+          "PF_TYPE_CONTROL_POINT_DISTANCE": 9,
+          "PF_TYPE_CONTROL_POINT_IS_SET": 15,
           "PF_TYPE_CONTROL_POINT_SPEED": 8,
-          "PF_TYPE_COUNT": 31,
+          "PF_TYPE_COUNT": 32,
           "PF_TYPE_ENDCAP_AGE": 5,
           "PF_TYPE_INVALID": -1,
           "PF_TYPE_LITERAL": 0,
           "PF_TYPE_NAMED_VALUE": 1,
-          "PF_TYPE_PARTICLE_AGE": 18,
-          "PF_TYPE_PARTICLE_AGE_NORMALIZED": 19,
-          "PF_TYPE_PARTICLE_DETAIL_LEVEL": 9,
-          "PF_TYPE_PARTICLE_FLOAT": 20,
-          "PF_TYPE_PARTICLE_INITIAL_FLOAT": 21,
-          "PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT": 23,
-          "PF_TYPE_PARTICLE_NOISE": 17,
-          "PF_TYPE_PARTICLE_NUMBER": 25,
-          "PF_TYPE_PARTICLE_NUMBER_NORMALIZED": 26,
-          "PF_TYPE_PARTICLE_ROPE_SEGMENT": 27,
-          "PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED": 28,
-          "PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE": 29,
-          "PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT": 30,
-          "PF_TYPE_PARTICLE_SPEED": 24,
-          "PF_TYPE_PARTICLE_VECTOR_COMPONENT": 22,
+          "PF_TYPE_PARTICLE_AGE": 19,
+          "PF_TYPE_PARTICLE_AGE_NORMALIZED": 20,
+          "PF_TYPE_PARTICLE_DETAIL_LEVEL": 10,
+          "PF_TYPE_PARTICLE_FLOAT": 21,
+          "PF_TYPE_PARTICLE_INITIAL_FLOAT": 22,
+          "PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT": 24,
+          "PF_TYPE_PARTICLE_NOISE": 18,
+          "PF_TYPE_PARTICLE_NUMBER": 26,
+          "PF_TYPE_PARTICLE_NUMBER_NORMALIZED": 27,
+          "PF_TYPE_PARTICLE_ROPE_SEGMENT": 28,
+          "PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED": 29,
+          "PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE": 30,
+          "PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT": 31,
+          "PF_TYPE_PARTICLE_SPEED": 25,
+          "PF_TYPE_PARTICLE_VECTOR_COMPONENT": 23,
           "PF_TYPE_RANDOM_BIASED": 3,
           "PF_TYPE_RANDOM_UNIFORM": 2,
-          "PF_TYPE_RENDERER_CAMERA_DISTANCE": 15,
-          "PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT": 16,
-          "PF_TYPE_SNAPSHOT_CHANGED": 13,
-          "PF_TYPE_SNAPSHOT_COUNT": 12
+          "PF_TYPE_RENDERER_CAMERA_DISTANCE": 16,
+          "PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT": 17,
+          "PF_TYPE_SNAPSHOT_CHANGED": 14,
+          "PF_TYPE_SNAPSHOT_COUNT": 13
         },
         "type": "uint32"
       },

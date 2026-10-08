@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -8,7 +8,7 @@ pub const source2_dumper = struct {
         // Enum count: 0
         pub const steamaudio_dll = struct {
             // Parent: None
-            // Field count: 5
+            // Field count: 10
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -21,6 +21,11 @@ pub const source2_dumper = struct {
                 pub const m_flOutsideThreshold: usize = 0x8; // float32
                 pub const m_flSizeThreshold: usize = 0xC; // float32
                 pub const m_flInsideThreshold: usize = 0x10; // float32
+                pub const m_nInOutMode: usize = 0x14; // int32
+                pub const m_nNumRays: usize = 0x18; // int32
+                pub const m_nInOutMaxBounces: usize = 0x1C; // int32
+                pub const m_flInOutMaxPathLength: usize = 0x20; // float32
+                pub const m_flInOutBounceLoss: usize = 0x24; // float32
             };
             // Parent: None
             // Field count: 4
@@ -174,12 +179,12 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             pub const CSteamAudioBakedDimensionsData = struct {
                 pub const m_settings: usize = 0x0; // SteamAudioCustomDataDimensionsSettings_t
-                pub const m_probes: usize = 0x18; // CSteamAudioProbeData
-                pub const m_vecInOut: usize = 0x20; // CUtlVector<float32>
-                pub const m_vecSize: usize = 0x38; // CUtlVector<float32>
-                pub const m_vecOutsideField: usize = 0x50; // CUtlVector<CSteamAudioAmbisonicsField>
-                pub const m_vecInsideSmallSizeField: usize = 0x68; // CUtlVector<CSteamAudioAmbisonicsField>
-                pub const m_movables: usize = 0x80; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+                pub const m_probes: usize = 0x28; // CSteamAudioProbeData
+                pub const m_vecInOut: usize = 0x30; // CUtlVector<float32>
+                pub const m_vecSize: usize = 0x48; // CUtlVector<float32>
+                pub const m_vecOutsideField: usize = 0x60; // CUtlVector<CSteamAudioAmbisonicsField>
+                pub const m_vecInsideSmallSizeField: usize = 0x78; // CUtlVector<CSteamAudioAmbisonicsField>
+                pub const m_movables: usize = 0x90; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
             };
             // Parent: None
             // Field count: 2

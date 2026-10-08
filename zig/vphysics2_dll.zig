@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: vphysics2.dll
-        // Class count: 24
+        // Class count: 30
         // Enum count: 5
         pub const vphysics2_dll = struct {
             // Alignment: 4
@@ -83,6 +83,26 @@ pub const source2_dumper = struct {
                 pub const m_nIndex: usize = 0x0; // int32[3]
             };
             // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const FeProxyVertexMap_t = struct {
+                pub const m_Name: usize = 0x0; // CUtlString
+                pub const m_flWeight: usize = 0x8; // float32
+            };
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const FePrism_t = struct {
+                pub const nNode: usize = 0x0; // uint16[6]
+            };
+            // Parent: None
             // Field count: 12
             //
             // Metadata:
@@ -112,10 +132,21 @@ pub const source2_dumper = struct {
             pub const IPhysicsRagdollControl = struct {
             };
             // Parent: None
-            // Field count: 3
+            // Field count: 4
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const FeCtrlSoftOffset_t = struct {
+                pub const nCtrlParent: usize = 0x0; // uint16
+                pub const nCtrlChild: usize = 0x2; // uint16
+                pub const vOffset: usize = 0x4; // Vector
+                pub const flAlpha: usize = 0x10; // float32
+            };
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
             // MGetKV3ClassDefaults
             pub const FeAnimStrayRadius_t = struct {
                 pub const nNode: usize = 0x0; // uint16[2]
@@ -155,6 +186,15 @@ pub const source2_dumper = struct {
                 pub const flAngleExtents: usize = 0x1C; // float32
             };
             // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const FeWeightedNode_t = struct {
+                pub const nNode: usize = 0x0; // uint16
+                pub const nWeight: usize = 0x2; // uint16
+            };
+            // Parent: None
             // Field count: 0
             pub const IPhysicsPlayerController = struct {
             };
@@ -187,6 +227,24 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             pub const RnFace_t = struct {
                 pub const m_nEdge: usize = 0x0; // uint8
+            };
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const FeSimdPrism_t = struct {
+                pub const nNode: usize = 0x0; // uint16[4][6]
+            };
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            pub const FeSourceEdge_t = struct {
+                pub const nNode: usize = 0x0; // uint16[2]
             };
             // Parent: None
             // Field count: 4

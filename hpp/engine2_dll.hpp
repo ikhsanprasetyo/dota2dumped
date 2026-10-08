@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: engine2.dll
-        // Class count: 53
+        // Class count: 52
         // Enum count: 2
         namespace engine2_dll {
             // Alignment: 4
@@ -99,10 +99,6 @@ namespace source2_dumper {
             // Parent: None
             // Field count: 0
             namespace EventClientAdvanceTick_t {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace EntInput_t {
             }
             // Parent: None
             // Field count: 1
@@ -287,7 +283,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_pNetworkDataReferencedPtrPropDescription = 0x18; // char*
                 constexpr std::ptrdiff_t m_nRuntimeIndex = 0x20; // int32
                 constexpr std::ptrdiff_t m_nFlags = 0x24; // uint32
-                constexpr std::ptrdiff_t m_pBaseClassComponentHelper = 0x60; // CEntityComponentHelper*
+                constexpr std::ptrdiff_t m_pBaseClassComponentHelper = 0x58; // CEntityComponentHelper*
             }
             // Parent: None
             // Field count: 4

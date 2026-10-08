@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 #pragma once
 
@@ -13,7 +13,7 @@ namespace source2_dumper {
         // Enum count: 0
         namespace steamaudio_dll {
             // Parent: None
-            // Field count: 5
+            // Field count: 10
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -26,6 +26,11 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flOutsideThreshold = 0x8; // float32
                 constexpr std::ptrdiff_t m_flSizeThreshold = 0xC; // float32
                 constexpr std::ptrdiff_t m_flInsideThreshold = 0x10; // float32
+                constexpr std::ptrdiff_t m_nInOutMode = 0x14; // int32
+                constexpr std::ptrdiff_t m_nNumRays = 0x18; // int32
+                constexpr std::ptrdiff_t m_nInOutMaxBounces = 0x1C; // int32
+                constexpr std::ptrdiff_t m_flInOutMaxPathLength = 0x20; // float32
+                constexpr std::ptrdiff_t m_flInOutBounceLoss = 0x24; // float32
             }
             // Parent: None
             // Field count: 4
@@ -179,12 +184,12 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             namespace CSteamAudioBakedDimensionsData {
                 constexpr std::ptrdiff_t m_settings = 0x0; // SteamAudioCustomDataDimensionsSettings_t
-                constexpr std::ptrdiff_t m_probes = 0x18; // CSteamAudioProbeData
-                constexpr std::ptrdiff_t m_vecInOut = 0x20; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecSize = 0x38; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecOutsideField = 0x50; // CUtlVector<CSteamAudioAmbisonicsField>
-                constexpr std::ptrdiff_t m_vecInsideSmallSizeField = 0x68; // CUtlVector<CSteamAudioAmbisonicsField>
-                constexpr std::ptrdiff_t m_movables = 0x80; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+                constexpr std::ptrdiff_t m_probes = 0x28; // CSteamAudioProbeData
+                constexpr std::ptrdiff_t m_vecInOut = 0x30; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecSize = 0x48; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecOutsideField = 0x60; // CUtlVector<CSteamAudioAmbisonicsField>
+                constexpr std::ptrdiff_t m_vecInsideSmallSizeField = 0x78; // CUtlVector<CSteamAudioAmbisonicsField>
+                constexpr std::ptrdiff_t m_movables = 0x90; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
             }
             // Parent: None
             // Field count: 2

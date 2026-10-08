@@ -1,9 +1,27 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-04 12:25:34.881424700 +07:00
+# 2026-10-08 20:27:02.884074100 +07:00
 
 class Schemas:
     # Module: resourcesystem.dll
     class ResourcesystemDll:
+        class NoiseStreamModifier_t:
+            NOISE_STREAM_MODIFIER_NONE = 0x0
+            NOISE_STREAM_MODIFIER_LINES = 0x1
+            NOISE_STREAM_MODIFIER_CLUMPS = 0x2
+            NOISE_STREAM_MODIFIER_RINGS = 0x3
+        class NoiseStreamTurbulence_t:
+            NOISE_STREAM_TURB_NONE = 0x0
+            NOISE_STREAM_TURB_HIGHLIGHT = 0x1
+            NOISE_STREAM_TURB_FEEDBACK = 0x2
+            NOISE_STREAM_TURB_LOOPY = 0x3
+            NOISE_STREAM_TURB_CONTRAST = 0x4
+            NOISE_STREAM_TURB_ALTERNATE = 0x5
+        class NoiseStreamType_t:
+            NOISE_STREAM_TYPE_PERLIN = 0x0
+            NOISE_STREAM_TYPE_SIMPLEX = 0x1
+            NOISE_STREAM_TYPE_WORLEY = 0x2
+            NOISE_STREAM_TYPE_CURL = 0x3
+            NOISE_STREAM_TYPE_NONE = 0x4
         class FuseVariableType_t:
             INVALID = 0x0
             BOOL = 0x1

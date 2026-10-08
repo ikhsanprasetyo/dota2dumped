@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,8 +7,38 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: resourcesystem.dll
         // Class count: 4
-        // Enum count: 2
+        // Enum count: 5
         pub mod resourcesystem_dll {
+            // Alignment: 4
+            // Member count: 4
+            #[repr(u32)]
+            pub enum NoiseStreamModifier_t {
+                NOISE_STREAM_MODIFIER_NONE = 0x0,
+                NOISE_STREAM_MODIFIER_LINES = 0x1,
+                NOISE_STREAM_MODIFIER_CLUMPS = 0x2,
+                NOISE_STREAM_MODIFIER_RINGS = 0x3
+            }
+            // Alignment: 4
+            // Member count: 6
+            #[repr(u32)]
+            pub enum NoiseStreamTurbulence_t {
+                NOISE_STREAM_TURB_NONE = 0x0,
+                NOISE_STREAM_TURB_HIGHLIGHT = 0x1,
+                NOISE_STREAM_TURB_FEEDBACK = 0x2,
+                NOISE_STREAM_TURB_LOOPY = 0x3,
+                NOISE_STREAM_TURB_CONTRAST = 0x4,
+                NOISE_STREAM_TURB_ALTERNATE = 0x5
+            }
+            // Alignment: 4
+            // Member count: 5
+            #[repr(u32)]
+            pub enum NoiseStreamType_t {
+                NOISE_STREAM_TYPE_PERLIN = 0x0,
+                NOISE_STREAM_TYPE_SIMPLEX = 0x1,
+                NOISE_STREAM_TYPE_WORLEY = 0x2,
+                NOISE_STREAM_TYPE_CURL = 0x3,
+                NOISE_STREAM_TYPE_NONE = 0x4
+            }
             // Alignment: 1
             // Member count: 9
             #[repr(u8)]

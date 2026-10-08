@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 export const Schemas = {
     vphysics2_dll: {
@@ -53,6 +53,13 @@ export const Schemas = {
         RnTriangle_t: {
             m_nIndex: 0x0, // int32[3]
         },
+        FeProxyVertexMap_t: {
+            m_Name: 0x0, // CUtlString
+            m_flWeight: 0x8, // float32
+        },
+        FePrism_t: {
+            nNode: 0x0, // uint16[6]
+        },
         OldFeEdge_t: {
             m_flK: 0x0, // float32[3]
             invA: 0xC, // float32
@@ -72,6 +79,12 @@ export const Schemas = {
             m_vNormal: 0xC, // Vector
         },
         IPhysicsRagdollControl: {
+        },
+        FeCtrlSoftOffset_t: {
+            nCtrlParent: 0x0, // uint16
+            nCtrlChild: 0x2, // uint16
+            vOffset: 0x4, // Vector
+            flAlpha: 0x10, // float32
         },
         FeAnimStrayRadius_t: {
             nNode: 0x0, // uint16[2]
@@ -96,6 +109,10 @@ export const Schemas = {
             flAngleCenter: 0x18, // float32
             flAngleExtents: 0x1C, // float32
         },
+        FeWeightedNode_t: {
+            nNode: 0x0, // uint16
+            nWeight: 0x2, // uint16
+        },
         IPhysicsPlayerController: {
         },
         RnVertex_t: {
@@ -109,6 +126,12 @@ export const Schemas = {
         },
         RnFace_t: {
             m_nEdge: 0x0, // uint8
+        },
+        FeSimdPrism_t: {
+            nNode: 0x0, // uint16[4][6]
+        },
+        FeSourceEdge_t: {
+            nNode: 0x0, // uint16[2]
         },
         FeNodeWindBase_t: {
             nNodeX0: 0x0, // uint16

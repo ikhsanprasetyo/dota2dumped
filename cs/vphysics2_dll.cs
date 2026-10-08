@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: vphysics2.dll
-    // Class count: 24
+    // Class count: 30
     // Enum count: 5
     public static class Vphysics2Dll {
         // Alignment: 4
@@ -82,6 +82,26 @@ namespace Source2Dumper.Schemas {
             public const nint m_nIndex = 0x0; // int32[3]
         }
         // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class FeProxyVertexMap_t {
+            public const nint m_Name = 0x0; // CUtlString
+            public const nint m_flWeight = 0x8; // float32
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class FePrism_t {
+            public const nint nNode = 0x0; // uint16[6]
+        }
+        // Parent: None
         // Field count: 12
         //
         // Metadata:
@@ -111,10 +131,21 @@ namespace Source2Dumper.Schemas {
         public static class IPhysicsRagdollControl {
         }
         // Parent: None
-        // Field count: 3
+        // Field count: 4
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class FeCtrlSoftOffset_t {
+            public const nint nCtrlParent = 0x0; // uint16
+            public const nint nCtrlChild = 0x2; // uint16
+            public const nint vOffset = 0x4; // Vector
+            public const nint flAlpha = 0x10; // float32
+        }
+        // Parent: None
+        // Field count: 3
+        //
+        // Metadata:
         // MGetKV3ClassDefaults
         public static class FeAnimStrayRadius_t {
             public const nint nNode = 0x0; // uint16[2]
@@ -154,6 +185,15 @@ namespace Source2Dumper.Schemas {
             public const nint flAngleExtents = 0x1C; // float32
         }
         // Parent: None
+        // Field count: 2
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class FeWeightedNode_t {
+            public const nint nNode = 0x0; // uint16
+            public const nint nWeight = 0x2; // uint16
+        }
+        // Parent: None
         // Field count: 0
         public static class IPhysicsPlayerController {
         }
@@ -186,6 +226,24 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class RnFace_t {
             public const nint m_nEdge = 0x0; // uint8
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class FeSimdPrism_t {
+            public const nint nNode = 0x0; // uint16[4][6]
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class FeSourceEdge_t {
+            public const nint nNode = 0x0; // uint16[2]
         }
         // Parent: None
         // Field count: 4

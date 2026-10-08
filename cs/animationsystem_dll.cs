@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: animationsystem.dll
-    // Class count: 86
-    // Enum count: 143
+    // Class count: 90
+    // Enum count: 145
     public static class AnimationsystemDll {
         // Alignment: 4
         // Member count: 2
@@ -167,7 +167,7 @@ namespace Source2Dumper.Schemas {
             IKTARGETCOORDINATESYSTEM_COUNT = 0x2
         }
         // Alignment: 4
-        // Member count: 33
+        // Member count: 34
         public enum ParticleFloatType_t : uint {
             PF_TYPE_INVALID = unchecked((uint)-1),
             PF_TYPE_LITERAL = 0x0,
@@ -179,29 +179,30 @@ namespace Source2Dumper.Schemas {
             PF_TYPE_CONTROL_POINT_COMPONENT = 0x6,
             PF_TYPE_CONTROL_POINT_CHANGE_AGE = 0x7,
             PF_TYPE_CONTROL_POINT_SPEED = 0x8,
-            PF_TYPE_PARTICLE_DETAIL_LEVEL = 0x9,
-            PF_TYPE_CONCURRENT_DEF_COUNT = 0xA,
-            PF_TYPE_CLOSEST_CAMERA_DISTANCE = 0xB,
-            PF_TYPE_SNAPSHOT_COUNT = 0xC,
-            PF_TYPE_SNAPSHOT_CHANGED = 0xD,
-            PF_TYPE_CONTROL_POINT_IS_SET = 0xE,
-            PF_TYPE_RENDERER_CAMERA_DISTANCE = 0xF,
-            PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0x10,
-            PF_TYPE_PARTICLE_NOISE = 0x11,
-            PF_TYPE_PARTICLE_AGE = 0x12,
-            PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x13,
-            PF_TYPE_PARTICLE_FLOAT = 0x14,
-            PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x15,
-            PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x16,
-            PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x17,
-            PF_TYPE_PARTICLE_SPEED = 0x18,
-            PF_TYPE_PARTICLE_NUMBER = 0x19,
-            PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x1A,
-            PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x1B,
-            PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1C,
-            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1D,
-            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1E,
-            PF_TYPE_COUNT = 0x1F
+            PF_TYPE_CONTROL_POINT_DISTANCE = 0x9,
+            PF_TYPE_PARTICLE_DETAIL_LEVEL = 0xA,
+            PF_TYPE_CONCURRENT_DEF_COUNT = 0xB,
+            PF_TYPE_CLOSEST_CAMERA_DISTANCE = 0xC,
+            PF_TYPE_SNAPSHOT_COUNT = 0xD,
+            PF_TYPE_SNAPSHOT_CHANGED = 0xE,
+            PF_TYPE_CONTROL_POINT_IS_SET = 0xF,
+            PF_TYPE_RENDERER_CAMERA_DISTANCE = 0x10,
+            PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0x11,
+            PF_TYPE_PARTICLE_NOISE = 0x12,
+            PF_TYPE_PARTICLE_AGE = 0x13,
+            PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x14,
+            PF_TYPE_PARTICLE_FLOAT = 0x15,
+            PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x16,
+            PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x17,
+            PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x18,
+            PF_TYPE_PARTICLE_SPEED = 0x19,
+            PF_TYPE_PARTICLE_NUMBER = 0x1A,
+            PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x1B,
+            PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x1C,
+            PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1D,
+            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1E,
+            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1F,
+            PF_TYPE_COUNT = 0x20
         }
         // Alignment: 1
         // Member count: 4
@@ -321,9 +322,9 @@ namespace Source2Dumper.Schemas {
             ConditionallyAllowed = 0x2,
             Blocked = 0x3
         }
-        // Alignment: 1
-        // Member count: 8
-        public enum ModelMeshBufferUsage_t : byte {
+        // Alignment: 2
+        // Member count: 10
+        public enum ModelMeshBufferUsage_t : ushort {
             MESH_BUFFER_USAGE_NONE = 0x0,
             MESH_BUFFER_USAGE_VB = 0x1,
             MESH_BUFFER_USAGE_IB = 0x2,
@@ -331,7 +332,9 @@ namespace Source2Dumper.Schemas {
             MESH_BUFFER_USAGE_MESHLET_TRIS = 0x8,
             MESH_BUFFER_USAGE_RT_PROXY = 0x10,
             MESH_BUFFER_USAGE_VERTEX_ALBEDO = 0x20,
-            MESH_BUFFER_USAGE_VERTEX_EMISSIVE = 0x40
+            MESH_BUFFER_USAGE_VERTEX_EMISSIVE = 0x40,
+            MESH_BUFFER_USAGE_MESHLETS = 0x80,
+            MESH_BUFFER_USAGE_ALIAS_TABLE = 0x100
         }
         // Alignment: 4
         // Member count: 2
@@ -586,6 +589,12 @@ namespace Source2Dumper.Schemas {
             POSETYPE_DYNAMIC = 0x1,
             POSETYPE_INVALID = 0xFF
         }
+        // Alignment: 4
+        // Member count: 2
+        public enum CNmClothEvent__Type_t : uint {
+            Stiffen = 0x0,
+            Effect = 0x1
+        }
         // Alignment: 1
         // Member count: 2
         public enum CNmRootMotionData__SamplingMode_t : byte {
@@ -730,7 +739,7 @@ namespace Source2Dumper.Schemas {
             FLAG0_SHIFT_BREAKABLE_TORQUE = 0x3
         }
         // Alignment: 4
-        // Member count: 9
+        // Member count: 12
         public enum ParticleFloatMapType_t : uint {
             PF_MAP_TYPE_INVALID = unchecked((uint)-1),
             PF_MAP_TYPE_DIRECT = 0x0,
@@ -740,7 +749,10 @@ namespace Source2Dumper.Schemas {
             PF_MAP_TYPE_CURVE = 0x4,
             PF_MAP_TYPE_NOTCHED = 0x5,
             PF_MAP_TYPE_ROUND = 0x6,
-            PF_MAP_TYPE_COUNT = 0x7
+            PF_MAP_TYPE_MIN = 0x7,
+            PF_MAP_TYPE_MAX = 0x8,
+            PF_MAP_TYPE_MOD = 0x9,
+            PF_MAP_TYPE_COUNT = 0xA
         }
         // Alignment: 4
         // Member count: 5
@@ -819,6 +831,12 @@ namespace Source2Dumper.Schemas {
             BLEND_PREALIGNED = 0x100000,
             FLAG_RIGIDLENGTH = 0x200000,
             FLAG_PROCEDURAL = 0x400000
+        }
+        // Alignment: 1
+        // Member count: 2
+        public enum CNmOrientationWarpNode__AlignmentMode_t : byte {
+            MovementDirection = 0x0,
+            AnimationEndFacing = 0x1
         }
         // Alignment: 4
         // Member count: 3
@@ -1321,7 +1339,7 @@ namespace Source2Dumper.Schemas {
             BlendSpace_Model_TranslationOnly = 0x3
         }
         // Alignment: 4
-        // Member count: 10
+        // Member count: 11
         public enum MovementCapability_t : uint {
             eStrafe = 0x0,
             eIdleTurn = 0x1,
@@ -1332,7 +1350,8 @@ namespace Source2Dumper.Schemas {
             ePlantedTurn = 0x6,
             eUseStartAsPlantedTurn = 0x7,
             eLean = 0x8,
-            eCount = 0x9
+            eForwardStartOnly = 0x9,
+            eCount = 0xA
         }
         // Alignment: 4
         // Member count: 5
@@ -1459,6 +1478,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class AnimNodeOutputID {
             public const nint m_id = 0x0; // uint32
         }
@@ -1573,15 +1593,13 @@ namespace Source2Dumper.Schemas {
             public const nint m_index = 0x1; // uint8
         }
         // Parent: None
-        // Field count: 1
+        // Field count: 2
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class AnimNodeID {
-            public const nint m_id = 0x0; // uint32
+        public static class WeightList {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_weights = 0x8; // CUtlVector<float32>
         }
         // Parent: None
         // Field count: 8
@@ -1602,6 +1620,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -1733,6 +1752,21 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class IAnimationGraphInstance {
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CParamSpanUpdater {
+            public const nint m_spans = 0x0; // CUtlVector<ParamSpan_t>
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CNmContactAudioTypeVData {
         }
         // Parent: None
         // Field count: 9
@@ -2074,18 +2108,18 @@ namespace Source2Dumper.Schemas {
         public static class CNmFloatValueNode__CDefinition {
         }
         // Parent: None
-        // Field count: 10
+        // Field count: 3
         public static class CNmTwoBoneIKTask {
             public const nint m_nEffectorBoneIdx = 0x70; // int32
             public const nint m_nEffectorTargetBoneIdx = 0x74; // int32
             public const nint m_targetTransform = 0x80; // CTransform
-            public const nint m_effectorTarget = 0xA0; // CNmTarget
-            public const nint m_blendMode = 0xD0; // NmIKBlendMode_t
-            public const nint m_flBlendWeight = 0xD4; // float32
-            public const nint m_bIsTargetInWorldSpace = 0xD8; // bool
-            public const nint m_bIsRunningFromDeserializedData = 0xD9; // bool
-            public const nint m_flChainRotationWeight = 0xDC; // float32
-            public const nint m_debugEffectorBoneID = 0xE0; // CGlobalSymbol
+        }
+        // Parent: None
+        // Field count: 0
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CNmContactAudioActionVData {
         }
         // Parent: None
         // Field count: 4
@@ -2150,6 +2184,17 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CNmModelSpaceBlendTask {
+        }
+        // Parent: None
+        // Field count: 1
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class AnimParamID {
+            public const nint m_id = 0x0; // uint32
         }
         // Parent: None
         // Field count: 2

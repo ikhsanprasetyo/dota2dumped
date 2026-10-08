@@ -83,7 +83,6 @@
           "FIELD_INT64": 26,
           "FIELD_INTERVAL": 23,
           "FIELD_MATRIX3X4": 62,
-          "FIELD_MATRIX3X4_WORLDSPACE": 22,
           "FIELD_MODIFIER_HANDLE": 70,
           "FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_POSITION_VECTOR": 54,
           "FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_VECTOR": 40,
@@ -125,9 +124,10 @@
           "FIELD_VECTOR2D": 25,
           "FIELD_VECTOR4D": 27,
           "FIELD_VMATRIX": 20,
-          "FIELD_VMATRIX_WORLDSPACE": 21,
           "FIELD_VOID": 0,
-          "FIELD_WORLD_GROUP_ID": 78
+          "FIELD_WORLD_GROUP_ID": 78,
+          "FIELD_xxxAvail1": 21,
+          "FIELD_xxxAvail2": 22
         },
         "type": "uint8"
       }

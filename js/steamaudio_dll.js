@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 export const Schemas = {
     steamaudio_dll: {
@@ -9,6 +9,11 @@ export const Schemas = {
             m_flOutsideThreshold: 0x8, // float32
             m_flSizeThreshold: 0xC, // float32
             m_flInsideThreshold: 0x10, // float32
+            m_nInOutMode: 0x14, // int32
+            m_nNumRays: 0x18, // int32
+            m_nInOutMaxBounces: 0x1C, // int32
+            m_flInOutMaxPathLength: 0x20, // float32
+            m_flInOutBounceLoss: 0x24, // float32
         },
         SteamAudioPathSettings_t: {
             m_nNumVisSamples: 0x0, // int32
@@ -67,12 +72,12 @@ export const Schemas = {
         },
         CSteamAudioBakedDimensionsData: {
             m_settings: 0x0, // SteamAudioCustomDataDimensionsSettings_t
-            m_probes: 0x18, // CSteamAudioProbeData
-            m_vecInOut: 0x20, // CUtlVector<float32>
-            m_vecSize: 0x38, // CUtlVector<float32>
-            m_vecOutsideField: 0x50, // CUtlVector<CSteamAudioAmbisonicsField>
-            m_vecInsideSmallSizeField: 0x68, // CUtlVector<CSteamAudioAmbisonicsField>
-            m_movables: 0x80, // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+            m_probes: 0x28, // CSteamAudioProbeData
+            m_vecInOut: 0x30, // CUtlVector<float32>
+            m_vecSize: 0x48, // CUtlVector<float32>
+            m_vecOutsideField: 0x60, // CUtlVector<CSteamAudioAmbisonicsField>
+            m_vecInsideSmallSizeField: 0x78, // CUtlVector<CSteamAudioAmbisonicsField>
+            m_movables: 0x90, // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
         },
         CSteamAudioSceneData: {
             m_pScene: 0x0, // IPLScene

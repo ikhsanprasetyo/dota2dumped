@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
-    // Class count: 53
+    // Class count: 52
     // Enum count: 2
     public static class Engine2Dll {
         // Alignment: 4
@@ -93,10 +93,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class EventClientAdvanceTick_t {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class EntInput_t {
         }
         // Parent: None
         // Field count: 1
@@ -281,7 +277,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_pNetworkDataReferencedPtrPropDescription = 0x18; // char*
             public const nint m_nRuntimeIndex = 0x20; // int32
             public const nint m_nFlags = 0x24; // uint32
-            public const nint m_pBaseClassComponentHelper = 0x60; // CEntityComponentHelper*
+            public const nint m_pBaseClassComponentHelper = 0x58; // CEntityComponentHelper*
         }
         // Parent: None
         // Field count: 4

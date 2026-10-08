@@ -74,17 +74,12 @@
         "fields": {
           "m_nFlags": 36,
           "m_nRuntimeIndex": 32,
-          "m_pBaseClassComponentHelper": 96,
+          "m_pBaseClassComponentHelper": 88,
           "m_pCPPClassname": 8,
           "m_pName": 0,
           "m_pNetworkDataReferencedDescription": 16,
           "m_pNetworkDataReferencedPtrPropDescription": 24
         },
-        "metadata": [],
-        "parent": null
-      },
-      "EntInput_t": {
-        "fields": {},
         "metadata": [],
         "parent": null
       },

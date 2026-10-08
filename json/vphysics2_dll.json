@@ -18,6 +18,21 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "FeCtrlSoftOffset_t": {
+        "fields": {
+          "flAlpha": 16,
+          "nCtrlChild": 2,
+          "nCtrlParent": 0,
+          "vOffset": 4
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
           },
           {
             "name": "MGetKV3ClassDefaults",
@@ -93,9 +108,91 @@
         ],
         "parent": null
       },
+      "FePrism_t": {
+        "fields": {
+          "nNode": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "FeProxyVertexMap_t": {
+        "fields": {
+          "m_Name": 0,
+          "m_flWeight": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "FeSimdPrism_t": {
+        "fields": {
+          "nNode": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "FeSourceEdge_t": {
+        "fields": {
+          "nNode": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "FeTreeChildren_t": {
         "fields": {
           "nChild": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "FeWeightedNode_t": {
+        "fields": {
+          "nNode": 0,
+          "nWeight": 2
         },
         "metadata": [
           {

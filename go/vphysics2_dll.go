@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 package schemas
 
@@ -34,6 +34,9 @@ const (
     Vphysics2Dll_constraint_axislimit_t_flMotorTargetAngSpeed = 0x8 // float32
     Vphysics2Dll_constraint_axislimit_t_flMotorMaxTorque = 0xC // float32
     Vphysics2Dll_RnTriangle_t_m_nIndex = 0x0 // int32[3]
+    Vphysics2Dll_FeProxyVertexMap_t_m_Name = 0x0 // CUtlString
+    Vphysics2Dll_FeProxyVertexMap_t_m_flWeight = 0x8 // float32
+    Vphysics2Dll_FePrism_t_nNode = 0x0 // uint16[6]
     Vphysics2Dll_OldFeEdge_t_m_flK = 0x0 // float32[3]
     Vphysics2Dll_OldFeEdge_t_invA = 0xC // float32
     Vphysics2Dll_OldFeEdge_t_t = 0x10 // float32
@@ -48,6 +51,10 @@ const (
     Vphysics2Dll_OldFeEdge_t_m_nNode = 0x40 // uint16[4]
     Vphysics2Dll_VertexPositionNormal_t_m_vPosition = 0x0 // Vector
     Vphysics2Dll_VertexPositionNormal_t_m_vNormal = 0xC // Vector
+    Vphysics2Dll_FeCtrlSoftOffset_t_nCtrlParent = 0x0 // uint16
+    Vphysics2Dll_FeCtrlSoftOffset_t_nCtrlChild = 0x2 // uint16
+    Vphysics2Dll_FeCtrlSoftOffset_t_vOffset = 0x4 // Vector
+    Vphysics2Dll_FeCtrlSoftOffset_t_flAlpha = 0x10 // float32
     Vphysics2Dll_FeAnimStrayRadius_t_nNode = 0x0 // uint16[2]
     Vphysics2Dll_FeAnimStrayRadius_t_flMaxDist = 0x4 // float32
     Vphysics2Dll_FeAnimStrayRadius_t_flRelaxationFactor = 0x8 // float32
@@ -61,10 +68,14 @@ const (
     Vphysics2Dll_FeHingeLimit_t_flWeight5 = 0x14 // float32
     Vphysics2Dll_FeHingeLimit_t_flAngleCenter = 0x18 // float32
     Vphysics2Dll_FeHingeLimit_t_flAngleExtents = 0x1C // float32
+    Vphysics2Dll_FeWeightedNode_t_nNode = 0x0 // uint16
+    Vphysics2Dll_FeWeightedNode_t_nWeight = 0x2 // uint16
     Vphysics2Dll_RnVertex_t_m_nEdge = 0x0 // uint8
     Vphysics2Dll_FeDynKinLink_t_m_nParent = 0x0 // uint16
     Vphysics2Dll_FeDynKinLink_t_m_nChild = 0x2 // uint16
     Vphysics2Dll_RnFace_t_m_nEdge = 0x0 // uint8
+    Vphysics2Dll_FeSimdPrism_t_nNode = 0x0 // uint16[4][6]
+    Vphysics2Dll_FeSourceEdge_t_nNode = 0x0 // uint16[2]
     Vphysics2Dll_FeNodeWindBase_t_nNodeX0 = 0x0 // uint16
     Vphysics2Dll_FeNodeWindBase_t_nNodeX1 = 0x2 // uint16
     Vphysics2Dll_FeNodeWindBase_t_nNodeY0 = 0x4 // uint16

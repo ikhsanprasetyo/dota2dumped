@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: engine2.dll
-        // Class count: 53
+        // Class count: 52
         // Enum count: 2
         pub const engine2_dll = struct {
             // Alignment: 4
@@ -94,10 +94,6 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 0
             pub const EventClientAdvanceTick_t = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const EntInput_t = struct {
             };
             // Parent: None
             // Field count: 1
@@ -282,7 +278,7 @@ pub const source2_dumper = struct {
                 pub const m_pNetworkDataReferencedPtrPropDescription: usize = 0x18; // char*
                 pub const m_nRuntimeIndex: usize = 0x20; // int32
                 pub const m_nFlags: usize = 0x24; // uint32
-                pub const m_pBaseClassComponentHelper: usize = 0x60; // CEntityComponentHelper*
+                pub const m_pBaseClassComponentHelper: usize = 0x58; // CEntityComponentHelper*
             };
             // Parent: None
             // Field count: 4

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: soundsystem.dll
-        // Class count: 16
-        // Enum count: 28
+        // Class count: 15
+        // Enum count: 34
         namespace soundsystem_dll {
             // Alignment: 4
             // Member count: 3
@@ -37,48 +37,42 @@ namespace source2_dumper {
                 SndSeqMidiStatusPitchBend = 0xE
             };
             // Alignment: 4
-            // Member count: 40
+            // Member count: 34
             enum class VMixGraphCommandID_t : uint32_t {
                 CMD_INVALID = 0xFFFFFFFF,
-                CMD_CONTROL_INPUT_STORE = 0x1,
-                CMD_CONTROL_INPUT_STORE_DB = 0x2,
-                CMD_CONTROL_TRANSIENT_INPUT_STORE = 0x3,
-                CMD_CONTROL_TRANSIENT_INPUT_RESET = 0x4,
-                CMD_CONTROL_OUTPUT_STORE = 0x5,
-                CMD_CONTROL_EVALUATE_CURVE = 0x6,
-                CMD_CONTROL_COPY = 0x7,
-                CMD_CONTROL_COND_COPY_IF_NEGATIVE = 0x8,
-                CMD_CONTROL_REMAP_LINEAR = 0x9,
-                CMD_CONTROL_REMAP_SINE = 0xA,
-                CMD_CONTROL_REMAP_LOGLINEAR = 0xB,
-                CMD_CONTROL_MAX = 0xC,
-                CMD_CONTROL_RESET_TIMER = 0xD,
-                CMD_CONTROL_INCREMENT_TIMER = 0xE,
-                CMD_CONTROL_EVAL_ENVELOPE = 0xF,
-                CMD_CONTROL_SINE_BLEND = 0x10,
-                CMD_PROCESSOR_SET_CONTROL_VALUE = 0x11,
-                CMD_PROCESSOR_SET_NAME_INPUT = 0x12,
-                CMD_PROCESSOR_SET_CONTROL_ARRAYVALUE = 0x13,
-                CMD_PROCESSOR_STORE_CONTROL_VALUE = 0x14,
-                CMD_PROCESSOR_SET_VSND_VALUE = 0x15,
-                CMD_SUBMIX_PROCESS = 0x16,
-                CMD_SUBMIX_GENERATE = 0x17,
-                CMD_SUBMIX_GENERATE_SIDECHAIN = 0x18,
-                CMD_SUBMIX_EXTRACTCONTAINER = 0x19,
-                CMD_SUBMIX_DEBUG = 0x1A,
-                CMD_SUBMIX_MIX2x1 = 0x1B,
-                CMD_SUBMIX_OUTPUT = 0x1C,
-                CMD_SUBMIX_OUTPUTx2 = 0x1D,
-                CMD_SUBMIX_COPY = 0x1E,
-                CMD_SUBMIX_ACCUMULATE = 0x1F,
-                CMD_SUBMIX_METER = 0x20,
-                CMD_SUBMIX_METER_SPECTRUM = 0x21,
-                CMD_IMPULSERESPONSE_INPUT_STORE = 0x22,
-                CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE = 0x23,
-                CMD_REMAP_VSND_TO_IMPULSERESPONSE = 0x24,
-                CMD_IMPULSERESPONSE_RESET = 0x25,
-                CMD_BLEND_VSNDS_TO_IMPULSERESPONSE = 0x26,
-                CMD_IMPULSERESPONSE_DELAY = 0x27
+                CMD_CONTROL_CONVERT_DB_TO_GAIN = 0x1,
+                CMD_CONTROL_TRANSIENT_INPUT_STORE = 0x2,
+                CMD_CONTROL_TRANSIENT_INPUT_RESET = 0x3,
+                CMD_CONTROL_OUTPUT_STORE = 0x4,
+                CMD_CONTROL_EVALUATE_CURVE = 0x5,
+                CMD_CONTROL_COPY = 0x6,
+                CMD_CONTROL_COND_COPY_IF_NEGATIVE = 0x7,
+                CMD_CONTROL_REMAP_LINEAR = 0x8,
+                CMD_CONTROL_REMAP_SINE = 0x9,
+                CMD_CONTROL_REMAP_LOGLINEAR = 0xA,
+                CMD_CONTROL_MAX = 0xB,
+                CMD_CONTROL_RESET_TIMER = 0xC,
+                CMD_CONTROL_INCREMENT_TIMER = 0xD,
+                CMD_CONTROL_EVAL_ENVELOPE = 0xE,
+                CMD_CONTROL_SINE_BLEND = 0xF,
+                CMD_SUBMIX_PROCESS = 0x10,
+                CMD_SUBMIX_GENERATE = 0x11,
+                CMD_SUBMIX_GENERATE_SIDECHAIN = 0x12,
+                CMD_SUBMIX_EXTRACTCONTAINER = 0x13,
+                CMD_SUBMIX_DEBUG = 0x14,
+                CMD_SUBMIX_MIX2x1 = 0x15,
+                CMD_SUBMIX_OUTPUT = 0x16,
+                CMD_SUBMIX_OUTPUTx2 = 0x17,
+                CMD_SUBMIX_COPY = 0x18,
+                CMD_SUBMIX_ACCUMULATE = 0x19,
+                CMD_SUBMIX_METER = 0x1A,
+                CMD_SUBMIX_METER_SPECTRUM = 0x1B,
+                CMD_IMPULSERESPONSE_INPUT_STORE = 0x1C,
+                CMD_PROCESSOR_SET_IMPULSERESPONSE_VALUE = 0x1D,
+                CMD_REMAP_VSND_TO_IMPULSERESPONSE = 0x1E,
+                CMD_IMPULSERESPONSE_RESET = 0x1F,
+                CMD_BLEND_VSNDS_TO_IMPULSERESPONSE = 0x20,
+                CMD_IMPULSERESPONSE_DELAY = 0x21
             };
             // Alignment: 1
             // Member count: 5
@@ -89,6 +83,16 @@ namespace source2_dumper {
                 Triangle = 0x3,
                 Noise = 0x4
             };
+            // Alignment: 1
+            // Member count: 6
+            enum class VMixFilterChannelSet_t : uint8_t {
+                FILTER_ALL_CHANNELS = 0x0,
+                FILTER_LEFT_ONLY = 0x1,
+                FILTER_RIGHT_ONLY = 0x2,
+                FILTER_MID_ONLY = 0x3,
+                FILTER_SIDE_ONLY = 0x4,
+                FILTER_CHANNEL_SET_MAX = 0x5
+            };
             // Alignment: 4
             // Member count: 5
             enum class VMixLFOShape_t : uint32_t {
@@ -98,10 +102,36 @@ namespace source2_dumper {
                 LFO_SHAPE_SAW = 0x3,
                 LFO_SHAPE_NOISE = 0x4
             };
-            // Alignment: 2
+            // Alignment: 4
+            // Member count: 13
+            enum class VMixOffsetType_t : uint32_t {
+                VO_CHAR = 0x0,
+                VO_ARRAY = 0x1,
+                VO_BOOL = 0x2,
+                VO_FLOAT = 0x3,
+                VO_UINT32 = 0x4,
+                VO_INT32 = 0x5,
+                VO_VECTOR = 0x6,
+                VO_QUATERNION = 0x7,
+                VO_CUBIC_SPLINE = 0x8,
+                VO_VSND_INPUT = 0x9,
+                VO_FLOAT_UTLVECTOR = 0xA,
+                VO_SHAREDPTR_IR = 0xB,
+                VO_TYPE_COUNT = 0xC
+            };
+            // Alignment: 1
+            // Member count: 5
+            enum class VMixMixDownRule_t : uint8_t {
+                SUM = 0x0,
+                LEFT = 0x1,
+                RIGHT = 0x2,
+                MID = 0x3,
+                SIDE = 0x4
+            };
+            // Alignment: 1
             // Member count: 10
-            enum class VMixFilterType_t : uint16_t {
-                FILTER_UNKNOWN = 0xFFFF,
+            enum class VMixFilterType_t : uint8_t {
+                FILTER_UNKNOWN = 0xFF,
                 FILTER_LOWPASS = 0x0,
                 FILTER_HIGHPASS = 0x1,
                 FILTER_BANDPASS = 0x2,
@@ -117,6 +147,20 @@ namespace source2_dumper {
             enum class SndBeatTrackPlaybackType_t : uint32_t {
                 eSndBeatTrackPlaybackTypeStep = 0x0,
                 eSndBeatTrackPlaybackTypeFwd = 0x1
+            };
+            // Alignment: 2
+            // Member count: 10
+            enum class VMixSendOperator_t : uint16_t {
+                NO_VOICES = 0xFFFF,
+                ALL_VOICES = 0x0,
+                ROOM_VOICES = 0x1,
+                FACING_VOICES = 0x2,
+                MIXGROUP_VOICES = 0x3,
+                NAMED_SEND = 0x4,
+                INVERSE_NAMED_SENDS = 0x5,
+                INVERSE_TOTAL_SEND = 0x6,
+                ALL_MAX_SEND = 0x7,
+                TRACK = 0x8
             };
             // Alignment: 4
             // Member count: 6
@@ -251,6 +295,24 @@ namespace source2_dumper {
                 Count = 0xC
             };
             // Alignment: 1
+            // Member count: 14
+            enum class VMixAutoControlType_t : uint8_t {
+                VMIX_AUTO_SEND_LEVEL = 0x0,
+                VMIX_AUTO_STACK_VAR = 0x1,
+                VMIX_AUTO_PLAYTIME = 0x2,
+                VMIX_AUTO_DISTANCE = 0x3,
+                VMIX_AUTO_POSITION_X = 0x4,
+                VMIX_AUTO_POSITION_Y = 0x5,
+                VMIX_AUTO_POSITION_Z = 0x6,
+                VMIX_AUTO_POSITION_VECTOR = 0x7,
+                VMIX_AUTO_LISTENER_YAW_SIN = 0x8,
+                VMIX_AUTO_LISTENER_YAW_COS = 0x9,
+                VMIX_AUTO_LISTENER_PITCH_SIN = 0xA,
+                VMIX_AUTO_LISTENER_PITCH_COS = 0xB,
+                VMIX_AUTO_LISTENER_ROLL_SIN = 0xC,
+                VMIX_AUTO_LISTENER_ROLL_COS = 0xD
+            };
+            // Alignment: 1
             // Member count: 4
             enum class CVSoundFormat_t : uint8_t {
                 PCM16 = 0x0,
@@ -289,6 +351,14 @@ namespace source2_dumper {
             enum class SosGroupType_t : uint32_t {
                 SOS_GROUPTYPE_DYNAMIC = 0x0,
                 SOS_GROUPTYPE_STATIC = 0x1
+            };
+            // Alignment: 4
+            // Member count: 4
+            enum class VMixOffsetCategory_t : uint32_t {
+                NULL_POINTER = 0x0,
+                HEAP_OFFSET = 0x1,
+                INPUT_INDEX = 0x2,
+                SUBMIX_INDEX = 0x3
             };
             // Alignment: 4
             // Member count: 3
@@ -340,9 +410,9 @@ namespace source2_dumper {
             // MVDataNodeType
             // MPropertyDescription
             // MPropertyFriendlyName
+            // MGetKV3ClassDefaults
             // MPropertyDescription
             // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
             namespace CDSPPresetMixgroupModifierTable {
                 constexpr std::ptrdiff_t m_table = 0x0; // CUtlVector<CDspPresetModifierList>
             }
@@ -350,6 +420,15 @@ namespace source2_dumper {
             // Field count: 1
             namespace SamplerVoice_t {
                 constexpr std::ptrdiff_t nNoteNum = 0x0; // uint8
+            }
+            // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace VMixPannerDesc_t {
+                constexpr std::ptrdiff_t m_type = 0x0; // VMixPannerType_t
+                constexpr std::ptrdiff_t m_flStrength = 0x4; // float32
             }
             // Parent: None
             // Field count: 0
@@ -360,12 +439,12 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MPropertyReadonlyExpr
+            // MPropertySuppressExpr
             // MPropertyStartGroup
             // MPropertySuppressExpr
             // MPropertyAttributeEditor
-            // MPropertyReadonlyExpr
-            // MPropertySuppressExpr
-            // MPropertyReadonlyExpr
+            // MPropertyStartGroup
             namespace CSosSoundEventGroupSchema {
                 constexpr std::ptrdiff_t m_nGroupType = 0x8; // SosGroupType_t
                 constexpr std::ptrdiff_t m_bBlocksEvents = 0xC; // bool
@@ -385,24 +464,13 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_vActions = 0x58; // CUtlVector<CSosGroupActionSchema*>
             }
             // Parent: None
-            // Field count: 6
+            // Field count: 2
             //
             // Metadata:
             // MGetKV3ClassDefaults
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            // MPropertyFriendlyName
-            // MPropertyDescription
-            namespace CDSPMixgroupModifier {
-                constexpr std::ptrdiff_t m_mixgroup = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_flModifier = 0x8; // float32
-                constexpr std::ptrdiff_t m_flModifierMin = 0xC; // float32
-                constexpr std::ptrdiff_t m_flSourceModifier = 0x10; // float32
-                constexpr std::ptrdiff_t m_flSourceModifierMin = 0x14; // float32
-                constexpr std::ptrdiff_t m_flListenerReverbModifierWhenSourceReverbIsActive = 0x18; // float32
+            namespace VMixPointerFixupEntry_t {
+                constexpr std::ptrdiff_t m_nIndex = 0x0; // uint32
+                constexpr std::ptrdiff_t m_offset = 0x4; // CVMixDataOffset
             }
             // Parent: None
             // Field count: 5
@@ -423,35 +491,11 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flBPM = 0x2C; // float32
             }
             // Parent: None
-            // Field count: 2
-            //
-            // Metadata:
-            // MPropertyFriendlyName
-            // MGetKV3ClassDefaults
-            // MPropertyFriendlyName
-            // MVDataPromoteField
-            // MPropertyFriendlyName
-            // MVDataPromoteField
-            namespace CSndBeatPatternManager {
-                constexpr std::ptrdiff_t m_vecPatterns = 0x38; // CUtlVector<CSndBeatPattern>
-                constexpr std::ptrdiff_t m_vecActiveTracks = 0x70; // CUtlVector<CSndBeatTrack>
-            }
-            // Parent: None
             // Field count: 0
             //
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CSoundInfoHeader {
-            }
-            // Parent: None
-            // Field count: 6
-            namespace CVMixSubmix {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_sendOperator = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_SendNames = 0x10; // CUtlString[4]
-                constexpr std::ptrdiff_t m_nSoloNameHash = 0x30; // uint32
-                constexpr std::ptrdiff_t m_nChannels = 0x34; // int32
-                constexpr std::ptrdiff_t m_nMixDownRule = 0x38; // int32
             }
             // Parent: None
             // Field count: 5
@@ -461,6 +505,11 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t nMaxNote = 0x2; // uint8
                 constexpr std::ptrdiff_t nNumVelocityZones = 0x3; // uint8
                 constexpr std::ptrdiff_t pVelocityZones = 0x8; // VelocityZone_t*
+            }
+            // Parent: None
+            // Field count: 1
+            namespace CVMixDataOffset {
+                constexpr std::ptrdiff_t m_nOffset = 0x0; // uint32
             }
             // Parent: None
             // Field count: 2
@@ -480,28 +529,15 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t pSamples = 0x4; // uint32[4]
             }
             // Parent: None
-            // Field count: 10
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace VMixVocoderDesc_t {
-                constexpr std::ptrdiff_t m_nBandCount = 0x0; // int32
-                constexpr std::ptrdiff_t m_flBandwidth = 0x4; // float32
-                constexpr std::ptrdiff_t m_fldBModGain = 0x8; // float32
-                constexpr std::ptrdiff_t m_flFreqRangeStart = 0xC; // float32
-                constexpr std::ptrdiff_t m_flFreqRangeEnd = 0x10; // float32
-                constexpr std::ptrdiff_t m_fldBUnvoicedGain = 0x14; // float32
-                constexpr std::ptrdiff_t m_flAttackTimeMS = 0x18; // float32
-                constexpr std::ptrdiff_t m_flReleaseTimeMS = 0x1C; // float32
-                constexpr std::ptrdiff_t m_nDebugBand = 0x20; // int32
-                constexpr std::ptrdiff_t m_bPeakMode = 0x24; // bool
-            }
-            // Parent: None
             // Field count: 1
             //
             // Metadata:
             // MGetKV3ClassDefaults
             // MVDataNodeType
+            // MGetKV3ClassDefaults
+            // MPropertyFriendlyName
+            // MPropertyFriendlyName
+            // SndSeqMidiStatusNoteOff
             namespace SndBeatEventKeys_t {
                 constexpr std::ptrdiff_t m_flKey = 0x8; // float32
             }

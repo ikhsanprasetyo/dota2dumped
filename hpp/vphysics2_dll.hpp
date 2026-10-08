@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: vphysics2.dll
-        // Class count: 24
+        // Class count: 30
         // Enum count: 5
         namespace vphysics2_dll {
             // Alignment: 4
@@ -88,6 +88,26 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nIndex = 0x0; // int32[3]
             }
             // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace FeProxyVertexMap_t {
+                constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_flWeight = 0x8; // float32
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace FePrism_t {
+                constexpr std::ptrdiff_t nNode = 0x0; // uint16[6]
+            }
+            // Parent: None
             // Field count: 12
             //
             // Metadata:
@@ -117,10 +137,21 @@ namespace source2_dumper {
             namespace IPhysicsRagdollControl {
             }
             // Parent: None
-            // Field count: 3
+            // Field count: 4
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace FeCtrlSoftOffset_t {
+                constexpr std::ptrdiff_t nCtrlParent = 0x0; // uint16
+                constexpr std::ptrdiff_t nCtrlChild = 0x2; // uint16
+                constexpr std::ptrdiff_t vOffset = 0x4; // Vector
+                constexpr std::ptrdiff_t flAlpha = 0x10; // float32
+            }
+            // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
             // MGetKV3ClassDefaults
             namespace FeAnimStrayRadius_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
@@ -160,6 +191,15 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t flAngleExtents = 0x1C; // float32
             }
             // Parent: None
+            // Field count: 2
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace FeWeightedNode_t {
+                constexpr std::ptrdiff_t nNode = 0x0; // uint16
+                constexpr std::ptrdiff_t nWeight = 0x2; // uint16
+            }
+            // Parent: None
             // Field count: 0
             namespace IPhysicsPlayerController {
             }
@@ -192,6 +232,24 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             namespace RnFace_t {
                 constexpr std::ptrdiff_t m_nEdge = 0x0; // uint8
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace FeSimdPrism_t {
+                constexpr std::ptrdiff_t nNode = 0x0; // uint16[4][6]
+            }
+            // Parent: None
+            // Field count: 1
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace FeSourceEdge_t {
+                constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
             }
             // Parent: None
             // Field count: 4

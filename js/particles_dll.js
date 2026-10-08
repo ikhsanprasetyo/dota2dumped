@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 export const Schemas = {
     particles_dll: {
@@ -55,10 +55,6 @@ export const Schemas = {
             PARTICLE_VRHAND_RIGHT: 0x1,
             PARTICLE_VRHAND_CP: 0x2,
             PARTICLE_VRHAND_CP_OBJECT: 0x3,
-        },
-        ParticleReplicationMode_t: {
-            PARTICLE_REPLICATIONMODE_NONE: 0x0,
-            PARTICLE_REPLICATIONMODE_REPLICATE_FOR_EACH_PARENT_PARTICLE: 0x1,
         },
         ParticleEntityPos_t: {
             PARTICLE_ABS_ORIGIN: 0x0,
@@ -356,6 +352,13 @@ export const Schemas = {
             PARTICLE_MULTISEGMENT_SPECIAL_COLON: 0x1,
             PARTICLE_MULTISEGMENT_SPECIAL_DEGREES: 0x2,
         },
+        ParticleOmni2LighOrientationChoiceList_t: {
+            PARTICLE_OMNI2_LIGHT_ORIENTATION_ROTATIONS: 0x0,
+            PARTICLE_OMNI2_LIGHT_ORIENTATION_NORMAL: 0x1,
+            PARTICLE_OMNI2_LIGHT_ORIENTATION_NORMAL_ROLL: 0x2,
+            PARTICLE_OMNI2_LIGHT_ORIENTATION_TARGET: 0x3,
+            PARTICLE_OMNI2_LIGHT_ORIENTATION_TARGET_ROLL: 0x4,
+        },
         ParticleFalloffFunction_t: {
             PARTICLE_FALLOFF_CONSTANT: 0x0,
             PARTICLE_FALLOFF_LINEAR: 0x1,
@@ -377,6 +380,7 @@ export const Schemas = {
             BBOX_DIMENSIONS: 0x1,
             BBOX_MINS_MAXS: 0x2,
             BBOX_RADIUS: 0x3,
+            BBOX_SURFACE_AREA: 0x4,
         },
         SpriteCardTextureType_t: {
             SPRITECARD_TEXTURE_DIFFUSE: 0x0,
@@ -480,6 +484,7 @@ export const Schemas = {
         ParticleOmni2LightTypeChoiceList_t: {
             PARTICLE_OMNI2_LIGHT_TYPE_POINT: 0x0,
             PARTICLE_OMNI2_LIGHT_TYPE_SPHERE: 0x1,
+            PARTICLE_OMNI2_LIGHT_TYPE_BARN: 0x2,
         },
         ParticleLightFogLightingMode_t: {
             PARTICLE_LIGHT_FOG_LIGHTING_MODE_NONE: 0x0,
@@ -545,72 +550,81 @@ export const Schemas = {
         },
         IParticleCollection: {
         },
-        C_OP_Decay: {
-            m_bRopeDecay: 0x1D8, // bool
-            m_bForcePreserveParticleOrder: 0x1D9, // bool
+        C_OP_RemapGravityToVector: {
+            m_vInput1: 0x1E0, // CPerParticleVecInput
+            m_nOutputField: 0x8B8, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x8BC, // ParticleSetMethod_t
+            m_bNormalizedOutput: 0x8C0, // bool
         },
         C_OP_RenderDeferredLight: {
-            m_bUseAlphaTestWindow: 0x228, // bool
-            m_bUseTexture: 0x229, // bool
-            m_flRadiusScale: 0x22C, // float32
-            m_flAlphaScale: 0x230, // float32
-            m_nAlpha2Field: 0x234, // ParticleAttributeIndex_t
-            m_vecColorScale: 0x238, // CParticleCollectionVecInput
-            m_nColorBlendType: 0x8F0, // ParticleColorBlendType_t
-            m_flLightDistance: 0x8F4, // float32
-            m_flStartFalloff: 0x8F8, // float32
-            m_flDistanceFalloff: 0x8FC, // float32
-            m_flSpotFoV: 0x900, // float32
-            m_nAlphaTestPointField: 0x904, // ParticleAttributeIndex_t
-            m_nAlphaTestRangeField: 0x908, // ParticleAttributeIndex_t
-            m_nAlphaTestSharpnessField: 0x90C, // ParticleAttributeIndex_t
-            m_hTexture: 0x910, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_nHSVShiftControlPoint: 0x918, // int32
+            m_flRadiusScale: 0x230, // float32
+            m_flAlphaScale: 0x234, // float32
+            m_nAlpha2Field: 0x238, // ParticleAttributeIndex_t
+            m_vecColorScale: 0x240, // CParticleCollectionVecInput
+            m_nColorBlendType: 0x918, // ParticleColorBlendType_t
+            m_bUseTexture: 0x91C, // bool
+            m_bUseAlphaTestWindow: 0x91D, // bool
+            m_hTexture: 0x920, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_nAlphaTestPointField: 0x928, // ParticleAttributeIndex_t
+            m_nAlphaTestRangeField: 0x92C, // ParticleAttributeIndex_t
+            m_nAlphaTestSharpnessField: 0x930, // ParticleAttributeIndex_t
+            m_flLightDistance: 0x934, // float32
+            m_flStartFalloff: 0x938, // float32
+            m_flDistanceFalloff: 0x93C, // float32
+            m_flSpotFoV: 0x940, // float32
+            m_nHSVShiftControlPoint: 0x944, // int32
         },
         C_OP_RemapTransformToVelocity: {
-            m_TransformInput: 0x1D8, // CParticleTransformInput
+            m_TransformInput: 0x1E0, // CParticleTransformInput
         },
         CollisionGroupContext_t: {
             m_nCollisionGroupNumber: 0x0, // int32
         },
         C_OP_FadeOutSimple: {
-            m_flFadeOutTime: 0x1D8, // float32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
+            m_flFadeOutTime: 0x1E0, // float32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+        },
+        C_OP_SpringToVectorConstraint: {
+            m_flRestLength: 0x1E0, // CPerParticleFloatInput
+            m_flMinDistance: 0x358, // CPerParticleFloatInput
+            m_flMaxDistance: 0x4D0, // CPerParticleFloatInput
+            m_flRestingLength: 0x648, // CPerParticleFloatInput
+            m_vecAnchorVector: 0x7C0, // CPerParticleVecInput
         },
         C_INIT_StatusEffectCitadel: {
-            m_flSFXColorWarpAmount: 0x1E0, // float32
-            m_flSFXNormalAmount: 0x1E4, // float32
-            m_flSFXMetalnessAmount: 0x1E8, // float32
-            m_flSFXRoughnessAmount: 0x1EC, // float32
-            m_flSFXSelfIllumAmount: 0x1F0, // float32
-            m_flSFXSScale: 0x1F4, // float32
-            m_flSFXSScrollX: 0x1F8, // float32
-            m_flSFXSScrollY: 0x1FC, // float32
-            m_flSFXSScrollZ: 0x200, // float32
-            m_flSFXSOffsetX: 0x204, // float32
-            m_flSFXSOffsetY: 0x208, // float32
-            m_flSFXSOffsetZ: 0x20C, // float32
-            m_nDetailCombo: 0x210, // DetailCombo_t
-            m_flSFXSDetailAmount: 0x214, // float32
-            m_flSFXSDetailScale: 0x218, // float32
-            m_flSFXSDetailScrollX: 0x21C, // float32
-            m_flSFXSDetailScrollY: 0x220, // float32
-            m_flSFXSDetailScrollZ: 0x224, // float32
-            m_flSFXSUseModelUVs: 0x228, // float32
+            m_flSFXColorWarpAmount: 0x1E8, // float32
+            m_flSFXNormalAmount: 0x1EC, // float32
+            m_flSFXMetalnessAmount: 0x1F0, // float32
+            m_flSFXRoughnessAmount: 0x1F4, // float32
+            m_flSFXSelfIllumAmount: 0x1F8, // float32
+            m_flSFXSScale: 0x1FC, // float32
+            m_flSFXSScrollX: 0x200, // float32
+            m_flSFXSScrollY: 0x204, // float32
+            m_flSFXSScrollZ: 0x208, // float32
+            m_flSFXSOffsetX: 0x20C, // float32
+            m_flSFXSOffsetY: 0x210, // float32
+            m_flSFXSOffsetZ: 0x214, // float32
+            m_nDetailCombo: 0x218, // DetailCombo_t
+            m_flSFXSDetailAmount: 0x21C, // float32
+            m_flSFXSDetailScale: 0x220, // float32
+            m_flSFXSDetailScrollX: 0x224, // float32
+            m_flSFXSDetailScrollY: 0x228, // float32
+            m_flSFXSDetailScrollZ: 0x22C, // float32
+            m_flSFXSUseModelUVs: 0x230, // float32
         },
         C_OP_RenderSound: {
-            m_flDurationScale: 0x228, // float32
-            m_flSndLvlScale: 0x22C, // float32
-            m_flPitchScale: 0x230, // float32
-            m_flVolumeScale: 0x234, // float32
-            m_nSndLvlField: 0x238, // ParticleAttributeIndex_t
-            m_nDurationField: 0x23C, // ParticleAttributeIndex_t
-            m_nPitchField: 0x240, // ParticleAttributeIndex_t
-            m_nVolumeField: 0x244, // ParticleAttributeIndex_t
-            m_nChannel: 0x248, // int32
-            m_nCPReference: 0x24C, // int32
-            m_pszSoundName: 0x250, // char[256]
-            m_bSuppressStopSoundEvent: 0x350, // bool
+            m_flDurationScale: 0x230, // float32
+            m_flSndLvlScale: 0x234, // float32
+            m_flPitchScale: 0x238, // float32
+            m_flVolumeScale: 0x23C, // float32
+            m_nSndLvlField: 0x240, // ParticleAttributeIndex_t
+            m_nDurationField: 0x244, // ParticleAttributeIndex_t
+            m_nPitchField: 0x248, // ParticleAttributeIndex_t
+            m_nVolumeField: 0x24C, // ParticleAttributeIndex_t
+            m_nChannel: 0x250, // int32
+            m_nCPReference: 0x254, // int32
+            m_pszSoundName: 0x258, // char[256]
+            m_bSuppressStopSoundEvent: 0x358, // bool
         },
         CParticleVisibilityInputs: {
             m_flCameraBias: 0x0, // float32
@@ -634,439 +648,421 @@ export const Schemas = {
             m_bRightEye: 0x44, // bool
         },
         C_OP_SetControlPointsToParticle: {
-            m_nChildGroupID: 0x1D8, // int32
-            m_nFirstControlPoint: 0x1DC, // int32
-            m_nNumControlPoints: 0x1E0, // int32
-            m_nFirstSourcePoint: 0x1E4, // int32
-            m_bReverse: 0x1E8, // bool
-            m_bSetOrientation: 0x1E9, // bool
-            m_nOrientationMode: 0x1EC, // ParticleOrientationSetMode_t
-            m_nSetParent: 0x1F0, // ParticleParentSetMode_t
+            m_nChildGroupID: 0x1E0, // int32
+            m_nFirstControlPoint: 0x1E4, // int32
+            m_nNumControlPoints: 0x1E8, // int32
+            m_nFirstSourcePoint: 0x1EC, // int32
+            m_bReverse: 0x1F0, // bool
+            m_bSetOrientation: 0x1F1, // bool
+            m_nOrientationMode: 0x1F4, // ParticleOrientationSetMode_t
+            m_nSetParent: 0x1F8, // ParticleParentSetMode_t
         },
         C_OP_RemapCPVelocityToVector: {
-            m_nControlPoint: 0x1D8, // int32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_flScale: 0x1E0, // float32
-            m_bNormalize: 0x1E4, // bool
+            m_nControlPoint: 0x1E0, // int32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_flScale: 0x1E8, // float32
+            m_bNormalize: 0x1EC, // bool
         },
         C_OP_PointVectorAtNextParticle: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flInterpolation: 0x1E0, // CPerParticleFloatInput
-            m_bPrevious: 0x350, // bool
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flInterpolation: 0x1E8, // CPerParticleFloatInput
+            m_bPrevious: 0x360, // bool
         },
         ParticlePreviewBodyGroup_t: {
             m_bodyGroupName: 0x0, // CUtlString
             m_nValue: 0x8, // int32
         },
         C_OP_OscillateScalarSimple: {
-            m_Rate: 0x1D8, // float32
-            m_Frequency: 0x1DC, // float32
-            m_nField: 0x1E0, // ParticleAttributeIndex_t
-            m_flOscMult: 0x1E4, // float32
-            m_flOscAdd: 0x1E8, // float32
+            m_Rate: 0x1E0, // float32
+            m_Frequency: 0x1E4, // float32
+            m_nField: 0x1E8, // ParticleAttributeIndex_t
+            m_flOscMult: 0x1EC, // float32
+            m_flOscAdd: 0x1F0, // float32
         },
         C_INIT_StatusEffect: {
-            m_nDetail2Combo: 0x1E0, // Detail2Combo_t
-            m_flDetail2Rotation: 0x1E4, // float32
-            m_flDetail2Scale: 0x1E8, // float32
-            m_flDetail2BlendFactor: 0x1EC, // float32
-            m_flColorWarpIntensity: 0x1F0, // float32
-            m_flDiffuseWarpBlendToFull: 0x1F4, // float32
-            m_flEnvMapIntensity: 0x1F8, // float32
-            m_flAmbientScale: 0x1FC, // float32
-            m_specularColor: 0x200, // Color
-            m_flSpecularScale: 0x204, // float32
-            m_flSpecularExponent: 0x208, // float32
-            m_flSpecularExponentBlendToFull: 0x20C, // float32
-            m_flSpecularBlendToFull: 0x210, // float32
-            m_rimLightColor: 0x214, // Color
-            m_flRimLightScale: 0x218, // float32
-            m_flReflectionsTintByBaseBlendToNone: 0x21C, // float32
-            m_flMetalnessBlendToFull: 0x220, // float32
-            m_flSelfIllumBlendToFull: 0x224, // float32
-        },
-        C_OP_ConstrainDistance: {
-            m_fMinDistance: 0x1D8, // CParticleCollectionFloatInput
-            m_fMaxDistance: 0x348, // CParticleCollectionFloatInput
-            m_nControlPointNumber: 0x4B8, // int32
-            m_CenterOffset: 0x4BC, // Vector
-            m_bGlobalCenter: 0x4C8, // bool
+            m_nDetail2Combo: 0x1E8, // Detail2Combo_t
+            m_flDetail2Rotation: 0x1EC, // float32
+            m_flDetail2Scale: 0x1F0, // float32
+            m_flDetail2BlendFactor: 0x1F4, // float32
+            m_flColorWarpIntensity: 0x1F8, // float32
+            m_flDiffuseWarpBlendToFull: 0x1FC, // float32
+            m_flEnvMapIntensity: 0x200, // float32
+            m_flAmbientScale: 0x204, // float32
+            m_specularColor: 0x208, // Color
+            m_flSpecularScale: 0x20C, // float32
+            m_flSpecularExponent: 0x210, // float32
+            m_flSpecularExponentBlendToFull: 0x214, // float32
+            m_flSpecularBlendToFull: 0x218, // float32
+            m_rimLightColor: 0x21C, // Color
+            m_flRimLightScale: 0x220, // float32
+            m_flReflectionsTintByBaseBlendToNone: 0x224, // float32
+            m_flMetalnessBlendToFull: 0x228, // float32
+            m_flSelfIllumBlendToFull: 0x22C, // float32
         },
         C_INIT_RandomVector: {
-            m_vecMin: 0x1E0, // Vector
-            m_vecMax: 0x1EC, // Vector
-            m_nFieldOutput: 0x1F8, // ParticleAttributeIndex_t
-            m_randomnessParameters: 0x1FC, // CRandomNumberGeneratorParameters
+            m_vecMin: 0x1E8, // Vector
+            m_vecMax: 0x1F4, // Vector
+            m_nFieldOutput: 0x200, // ParticleAttributeIndex_t
+            m_randomnessParameters: 0x204, // CRandomNumberGeneratorParameters
         },
         C_INIT_InitialVelocityNoise: {
-            m_vecAbsVal: 0x1E0, // Vector
-            m_vecAbsValInv: 0x1EC, // Vector
-            m_vecOffsetLoc: 0x1F8, // CPerParticleVecInput
-            m_flOffset: 0x8B0, // CPerParticleFloatInput
-            m_vecOutputMin: 0xA20, // CPerParticleVecInput
-            m_vecOutputMax: 0x10D8, // CPerParticleVecInput
-            m_flNoiseScale: 0x1790, // CPerParticleFloatInput
-            m_flNoiseScaleLoc: 0x1900, // CPerParticleFloatInput
-            m_TransformInput: 0x1A70, // CParticleTransformInput
-            m_bIgnoreDt: 0x1AD8, // bool
+            m_vecAbsVal: 0x1E8, // Vector
+            m_vecAbsValInv: 0x1F4, // Vector
+            m_vecOffsetLoc: 0x200, // CPerParticleVecInput
+            m_flOffset: 0x8D8, // CPerParticleFloatInput
+            m_vecOutputMin: 0xA50, // CPerParticleVecInput
+            m_vecOutputMax: 0x1128, // CPerParticleVecInput
+            m_flNoiseScale: 0x1800, // CPerParticleFloatInput
+            m_flNoiseScaleLoc: 0x1978, // CPerParticleFloatInput
+            m_TransformInput: 0x1AF0, // CParticleTransformInput
+            m_bIgnoreDt: 0x1B58, // bool
         },
         C_OP_RemapScalarOnceTimed: {
-            m_bProportional: 0x1D8, // bool
-            m_nFieldInput: 0x1DC, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E4, // float32
-            m_flInputMax: 0x1E8, // float32
-            m_flOutputMin: 0x1EC, // float32
-            m_flOutputMax: 0x1F0, // float32
-            m_flRemapTime: 0x1F4, // float32
+            m_bProportional: 0x1E0, // bool
+            m_nFieldInput: 0x1E4, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1EC, // float32
+            m_flInputMax: 0x1F0, // float32
+            m_flOutputMin: 0x1F4, // float32
+            m_flOutputMax: 0x1F8, // float32
+            m_flRemapTime: 0x1FC, // float32
         },
         C_INIT_RandomNamedModelSequence: {
         },
         C_OP_PlaneCull: {
-            m_nPlaneControlPoint: 0x1D8, // int32
-            m_vecPlaneDirection: 0x1E0, // CParticleCollectionVecInput
-            m_bLocalSpace: 0x898, // bool
-            m_flPlaneOffset: 0x89C, // float32
-        },
-        C_INIT_VelocityRandom: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_fSpeedMin: 0x1E8, // CPerParticleFloatInput
-            m_fSpeedMax: 0x358, // CPerParticleFloatInput
-            m_LocalCoordinateSystemSpeedMin: 0x4C8, // CPerParticleVecInput
-            m_LocalCoordinateSystemSpeedMax: 0xB80, // CPerParticleVecInput
-            m_bIgnoreDT: 0x1238, // bool
-            m_randomnessParameters: 0x123C, // CRandomNumberGeneratorParameters
+            m_nPlaneControlPoint: 0x1E0, // int32
+            m_vecPlaneDirection: 0x1E8, // CParticleCollectionVecInput
+            m_bLocalSpace: 0x8C0, // bool
+            m_flPlaneOffset: 0x8C4, // float32
         },
         C_OP_ModelDampenMovement: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_bBoundBox: 0x1DC, // bool
-            m_bOutside: 0x1DD, // bool
-            m_bUseBones: 0x1DE, // bool
-            m_HitboxSetName: 0x1DF, // char[128]
-            m_vecPosOffset: 0x260, // CPerParticleVecInput
-            m_fDrag: 0x918, // float32
+            m_nControlPointNumber: 0x1E0, // int32
+            m_bBoundBox: 0x1E4, // bool
+            m_bOutside: 0x1E5, // bool
+            m_bUseBones: 0x1E6, // bool
+            m_HitboxSetName: 0x1E7, // char[128]
+            m_vecPosOffset: 0x268, // CPerParticleVecInput
+            m_fDrag: 0x940, // float32
+        },
+        C_OP_TwistAroundAxis: {
+            m_fForceAmount: 0x1F0, // float32
+            m_TwistAxis: 0x1F4, // Vector
+            m_bLocalSpace: 0x200, // bool
+            m_nControlPointNumber: 0x204, // int32
         },
         CSpinUpdateBase: {
         },
         C_OP_OrientTo2dDirection: {
-            m_vecInput: 0x1D8, // CPerParticleVecInput
-            m_flRotOffset: 0x890, // float32
-            m_flSpinStrength: 0x894, // float32
-            m_nFieldOutput: 0x898, // ParticleAttributeIndex_t
+            m_vecInput: 0x1E0, // CPerParticleVecInput
+            m_flRotOffset: 0x8B8, // float32
+            m_flSpinStrength: 0x8BC, // float32
+            m_nFieldOutput: 0x8C0, // ParticleAttributeIndex_t
         },
         C_OP_RemapDotProductToCP: {
-            m_nInputCP1: 0x1E0, // int32
-            m_nInputCP2: 0x1E4, // int32
-            m_nOutputCP: 0x1E8, // int32
-            m_nOutVectorField: 0x1EC, // int32
-            m_flInputMin: 0x1F0, // CParticleCollectionFloatInput
-            m_flInputMax: 0x360, // CParticleCollectionFloatInput
-            m_flOutputMin: 0x4D0, // CParticleCollectionFloatInput
-            m_flOutputMax: 0x640, // CParticleCollectionFloatInput
+            m_nInputCP1: 0x1E8, // int32
+            m_nInputCP2: 0x1EC, // int32
+            m_nOutputCP: 0x1F0, // int32
+            m_nOutVectorField: 0x1F4, // int32
+            m_flInputMin: 0x1F8, // CParticleCollectionFloatInput
+            m_flInputMax: 0x370, // CParticleCollectionFloatInput
+            m_flOutputMin: 0x4E8, // CParticleCollectionFloatInput
+            m_flOutputMax: 0x660, // CParticleCollectionFloatInput
         },
         C_INIT_RemapParticleCountToNamedModelElementScalar: {
-            m_hModel: 0x210, // CStrongHandle<InfoForResourceTypeCModel>
-            m_outputMinName: 0x218, // CUtlString
-            m_outputMaxName: 0x220, // CUtlString
-            m_bModelFromRenderer: 0x228, // bool
+            m_hModel: 0x218, // CStrongHandle<InfoForResourceTypeCModel>
+            m_outputMinName: 0x220, // CUtlString
+            m_outputMaxName: 0x228, // CUtlString
+            m_bModelFromRenderer: 0x230, // bool
         },
         C_OP_RenderTrails: {
-            m_bEnableFadingAndClamping: 0x3258, // bool
-            m_flStartFadeDot: 0x325C, // float32
-            m_flEndFadeDot: 0x3260, // float32
-            m_nPrevPntSource: 0x3264, // ParticleAttributeIndex_t
-            m_flMaxLength: 0x3268, // float32
-            m_flMinLength: 0x326C, // float32
-            m_bIgnoreDT: 0x3270, // bool
-            m_flConstrainRadiusToLengthRatio: 0x3274, // float32
-            m_flLengthScale: 0x3278, // float32
-            m_flLengthFadeInTime: 0x327C, // float32
-            m_flRadiusHeadTaper: 0x3280, // CPerParticleFloatInput
-            m_vecHeadColorScale: 0x33F0, // CParticleCollectionVecInput
-            m_flHeadAlphaScale: 0x3AA8, // CPerParticleFloatInput
-            m_flRadiusTaper: 0x3C18, // CPerParticleFloatInput
-            m_vecTailColorScale: 0x3D88, // CParticleCollectionVecInput
-            m_flTailAlphaScale: 0x4440, // CPerParticleFloatInput
-            m_nHorizCropField: 0x45B0, // ParticleAttributeIndex_t
-            m_nVertCropField: 0x45B4, // ParticleAttributeIndex_t
-            m_flForwardShift: 0x45B8, // float32
-            m_bFlipUVBasedOnPitchYaw: 0x45BC, // bool
+            m_bEnableFadingAndClamping: 0x3358, // bool
+            m_flStartFadeDot: 0x335C, // float32
+            m_flEndFadeDot: 0x3360, // float32
+            m_nPrevPntSource: 0x3364, // ParticleAttributeIndex_t
+            m_flMaxLength: 0x3368, // float32
+            m_flMinLength: 0x336C, // float32
+            m_bIgnoreDT: 0x3370, // bool
+            m_flConstrainRadiusToLengthRatio: 0x3374, // float32
+            m_flLengthScale: 0x3378, // float32
+            m_flLengthFadeInTime: 0x337C, // float32
+            m_flRadiusHeadTaper: 0x3380, // CPerParticleFloatInput
+            m_vecHeadColorScale: 0x34F8, // CParticleCollectionVecInput
+            m_flHeadAlphaScale: 0x3BD0, // CPerParticleFloatInput
+            m_flRadiusTaper: 0x3D48, // CPerParticleFloatInput
+            m_vecTailColorScale: 0x3EC0, // CParticleCollectionVecInput
+            m_flTailAlphaScale: 0x4598, // CPerParticleFloatInput
+            m_nHorizCropField: 0x4710, // ParticleAttributeIndex_t
+            m_nVertCropField: 0x4714, // ParticleAttributeIndex_t
+            m_flForwardShift: 0x4718, // float32
+            m_bFlipUVBasedOnPitchYaw: 0x471C, // bool
         },
         C_OP_SetControlPointPositionToTimeOfDayValue: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_pszTimeOfDayParameter: 0x1E4, // char[128]
-            m_vecDefaultValue: 0x264, // Vector
+            m_nControlPointNumber: 0x1E8, // int32
+            m_pszTimeOfDayParameter: 0x1EC, // char[128]
+            m_vecDefaultValue: 0x26C, // Vector
         },
         C_OP_DecayMaintainCount: {
-            m_nParticlesToMaintain: 0x1D8, // int32
-            m_flDecayDelay: 0x1DC, // float32
-            m_nSnapshotControlPoint: 0x1E0, // int32
-            m_strSnapshotSubset: 0x1E8, // CUtlString
-            m_bLifespanDecay: 0x1F0, // bool
-            m_flScale: 0x1F8, // CParticleCollectionFloatInput
-            m_bKillNewest: 0x368, // bool
+            m_nParticlesToMaintain: 0x1E0, // int32
+            m_flDecayDelay: 0x1E4, // float32
+            m_nSnapshotControlPoint: 0x1E8, // int32
+            m_strSnapshotSubset: 0x1F0, // CUtlString
+            m_bLifespanDecay: 0x1F8, // bool
+            m_flScale: 0x200, // CParticleCollectionFloatInput
+            m_bKillNewest: 0x378, // bool
         },
         C_INIT_RandomModelSequence: {
-            m_ActivityName: 0x1E0, // char[256]
-            m_SequenceName: 0x2E0, // char[256]
-            m_hModel: 0x3E0, // CStrongHandle<InfoForResourceTypeCModel>
+            m_ActivityName: 0x1E8, // char[256]
+            m_SequenceName: 0x2E8, // char[256]
+            m_hModel: 0x3E8, // CStrongHandle<InfoForResourceTypeCModel>
         },
         C_OP_ExternalGameImpulseForce: {
-            m_flForceScale: 0x1E8, // CPerParticleFloatInput
-            m_bRopes: 0x358, // bool
-            m_bRopesZOnly: 0x359, // bool
-            m_bExplosions: 0x35A, // bool
-            m_bParticles: 0x35B, // bool
+            m_flForceScale: 0x1F0, // CPerParticleFloatInput
+            m_bRopes: 0x368, // bool
+            m_bRopesZOnly: 0x369, // bool
+            m_bExplosions: 0x36A, // bool
+            m_bParticles: 0x36B, // bool
         },
         C_OP_RemapAverageHitboxSpeedtoCP: {
-            m_nInControlPointNumber: 0x1E0, // int32
-            m_nOutControlPointNumber: 0x1E4, // int32
-            m_nField: 0x1E8, // int32
-            m_nHitboxDataType: 0x1EC, // ParticleHitboxDataSelection_t
-            m_flInputMin: 0x1F0, // CParticleCollectionFloatInput
-            m_flInputMax: 0x360, // CParticleCollectionFloatInput
-            m_flOutputMin: 0x4D0, // CParticleCollectionFloatInput
-            m_flOutputMax: 0x640, // CParticleCollectionFloatInput
-            m_nHeightControlPointNumber: 0x7B0, // int32
-            m_vecComparisonVelocity: 0x7B8, // CParticleCollectionVecInput
-            m_HitboxSetName: 0xE70, // char[128]
+            m_nInControlPointNumber: 0x1E8, // int32
+            m_nOutControlPointNumber: 0x1EC, // int32
+            m_nField: 0x1F0, // int32
+            m_nHitboxDataType: 0x1F4, // ParticleHitboxDataSelection_t
+            m_flInputMin: 0x1F8, // CParticleCollectionFloatInput
+            m_flInputMax: 0x370, // CParticleCollectionFloatInput
+            m_flOutputMin: 0x4E8, // CParticleCollectionFloatInput
+            m_flOutputMax: 0x660, // CParticleCollectionFloatInput
+            m_nHeightControlPointNumber: 0x7D8, // int32
+            m_vecComparisonVelocity: 0x7E0, // CParticleCollectionVecInput
+            m_HitboxSetName: 0xEB8, // char[128]
         },
         C_INIT_RandomAlpha: {
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_nAlphaMin: 0x1E4, // int32
-            m_nAlphaMax: 0x1E8, // int32
-            m_flAlphaRandExponent: 0x1F4, // float32
+            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
+            m_nAlphaMin: 0x1EC, // int32
+            m_nAlphaMax: 0x1F0, // int32
+            m_flAlphaRandExponent: 0x1FC, // float32
         },
         C_OP_NormalizeVector: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flScale: 0x1DC, // float32
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flScale: 0x1E4, // float32
         },
         C_OP_RepeatedTriggerChildGroup: {
-            m_nChildGroupID: 0x1E0, // int32
-            m_flClusterRefireTime: 0x1E8, // CParticleCollectionFloatInput
-            m_flClusterSize: 0x358, // CParticleCollectionFloatInput
-            m_flClusterCooldown: 0x4C8, // CParticleCollectionFloatInput
-            m_bLimitChildCount: 0x638, // bool
+            m_nChildGroupID: 0x1E8, // int32
+            m_flClusterRefireTime: 0x1F0, // CParticleCollectionFloatInput
+            m_flClusterSize: 0x368, // CParticleCollectionFloatInput
+            m_flClusterCooldown: 0x4E0, // CParticleCollectionFloatInput
+            m_bLimitChildCount: 0x658, // bool
         },
         C_OP_RemapVelocityToVector: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flScale: 0x1DC, // float32
-            m_bNormalize: 0x1E0, // bool
-        },
-        C_INIT_SetHitboxToClosest: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_nDesiredHitbox: 0x1E4, // int32
-            m_vecHitBoxScale: 0x1E8, // CParticleCollectionVecInput
-            m_HitboxSetName: 0x8A0, // char[128]
-            m_bUseBones: 0x920, // bool
-            m_bUseClosestPointOnHitbox: 0x921, // bool
-            m_nTestType: 0x924, // ClosestPointTestType_t
-            m_flHybridRatio: 0x928, // CParticleCollectionFloatInput
-            m_bUpdatePosition: 0xA98, // bool
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flScale: 0x1E4, // float32
+            m_bNormalize: 0x1E8, // bool
         },
         C_INIT_RingWave: {
-            m_TransformInput: 0x1E0, // CParticleTransformInput
-            m_flParticlesPerOrbit: 0x248, // CParticleCollectionFloatInput
-            m_flInitialRadius: 0x3B8, // CPerParticleFloatInput
-            m_flThickness: 0x528, // CPerParticleFloatInput
-            m_flInitialSpeedMin: 0x698, // CPerParticleFloatInput
-            m_flInitialSpeedMax: 0x808, // CPerParticleFloatInput
-            m_flRoll: 0x978, // CPerParticleFloatInput
-            m_flPitch: 0xAE8, // CPerParticleFloatInput
-            m_flYaw: 0xC58, // CPerParticleFloatInput
-            m_bEvenDistribution: 0xDC8, // bool
-            m_bXYVelocityOnly: 0xDC9, // bool
+            m_TransformInput: 0x1E8, // CParticleTransformInput
+            m_flParticlesPerOrbit: 0x250, // CParticleCollectionFloatInput
+            m_flInitialRadius: 0x3C8, // CPerParticleFloatInput
+            m_flThickness: 0x540, // CPerParticleFloatInput
+            m_flInitialSpeedMin: 0x6B8, // CPerParticleFloatInput
+            m_flInitialSpeedMax: 0x830, // CPerParticleFloatInput
+            m_flRoll: 0x9A8, // CPerParticleFloatInput
+            m_flPitch: 0xB20, // CPerParticleFloatInput
+            m_flYaw: 0xC98, // CPerParticleFloatInput
+            m_bEvenDistribution: 0xE10, // bool
+            m_bXYVelocityOnly: 0xE11, // bool
+            m_nControlPoint: 0x1E8, // int32
         },
         C_INIT_RandomTrailLength: {
-            m_flMinLength: 0x1E0, // float32
-            m_flMaxLength: 0x1E4, // float32
-            m_flLengthRandExponent: 0x1E8, // float32
+            m_flMinLength: 0x1E8, // float32
+            m_flMaxLength: 0x1EC, // float32
+            m_flLengthRandExponent: 0x1F0, // float32
         },
         C_OP_RemapScalar: {
-            m_nFieldInput: 0x1D8, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E0, // float32
-            m_flInputMax: 0x1E4, // float32
-            m_flOutputMin: 0x1E8, // float32
-            m_flOutputMax: 0x1EC, // float32
-            m_bOldCode: 0x1F0, // bool
+            m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E8, // float32
+            m_flInputMax: 0x1EC, // float32
+            m_flOutputMin: 0x1F0, // float32
+            m_flOutputMax: 0x1F4, // float32
+            m_bOldCode: 0x1F8, // bool
         },
         C_OP_DistanceBetweenTransforms: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_TransformStart: 0x1E0, // CParticleTransformInput
-            m_TransformEnd: 0x248, // CParticleTransformInput
-            m_flInputMin: 0x2B0, // CPerParticleFloatInput
-            m_flInputMax: 0x420, // CPerParticleFloatInput
-            m_flOutputMin: 0x590, // CPerParticleFloatInput
-            m_flOutputMax: 0x700, // CPerParticleFloatInput
-            m_flMaxTraceLength: 0x870, // float32
-            m_flLOSScale: 0x874, // float32
-            m_CollisionGroupName: 0x878, // char[128]
-            m_nTraceSet: 0x8F8, // ParticleTraceSet_t
-            m_bLOS: 0x8FC, // bool
-            m_nSetMethod: 0x900, // ParticleSetMethod_t
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_TransformStart: 0x1E8, // CParticleTransformInput
+            m_TransformEnd: 0x250, // CParticleTransformInput
+            m_flInputMin: 0x2B8, // CPerParticleFloatInput
+            m_flInputMax: 0x430, // CPerParticleFloatInput
+            m_flOutputMin: 0x5A8, // CPerParticleFloatInput
+            m_flOutputMax: 0x720, // CPerParticleFloatInput
+            m_flMaxTraceLength: 0x898, // float32
+            m_flLOSScale: 0x89C, // float32
+            m_CollisionGroupName: 0x8A0, // char[128]
+            m_nTraceSet: 0x920, // ParticleTraceSet_t
+            m_bLOS: 0x924, // bool
+            m_nSetMethod: 0x928, // ParticleSetMethod_t
         },
         C_OP_DecayOffscreen: {
-            m_flOffscreenTime: 0x1D8, // CParticleCollectionFloatInput
+            m_flOffscreenTime: 0x1E0, // CParticleCollectionFloatInput
         },
         C_INIT_CreateSequentialPath: {
-            m_fMaxDistance: 0x1E0, // float32
-            m_flNumToAssign: 0x1E4, // float32
-            m_bLoop: 0x1E8, // bool
-            m_bCPPairs: 0x1E9, // bool
-            m_bSaveOffset: 0x1EA, // bool
-            m_PathParams: 0x1F0, // CPathParameters
-        },
-        C_OP_EndCapTimedDecay: {
-            m_flDecayTime: 0x1D8, // float32
-        },
-        C_OP_ContinuousEmitter: {
-            m_flEmissionDuration: 0x1E0, // CParticleCollectionFloatInput
-            m_flStartTime: 0x350, // CParticleCollectionFloatInput
-            m_flEmitRate: 0x4C0, // CParticleCollectionFloatInput
-            m_flEmissionScale: 0x630, // float32
-            m_flScalePerParentParticle: 0x634, // float32
-            m_bInitFromKilledParentParticles: 0x638, // bool
-            m_nEventType: 0x63C, // EventTypeSelection_t
-            m_nSnapshotControlPoint: 0x640, // int32
-            m_strSnapshotSubset: 0x648, // CUtlString
-            m_nLimitPerUpdate: 0x650, // int32
-            m_bForceEmitOnFirstUpdate: 0x654, // bool
-            m_bForceEmitOnLastUpdate: 0x655, // bool
+            m_fMaxDistance: 0x1E8, // float32
+            m_flNumToAssign: 0x1EC, // float32
+            m_bLoop: 0x1F0, // bool
+            m_bCPPairs: 0x1F1, // bool
+            m_bSaveOffset: 0x1F2, // bool
+            m_PathParams: 0x200, // CPathParameters
+            m_bKillUnused: 0x1E8, // bool
         },
         C_OP_OscillateVectorSimple: {
-            m_Rate: 0x1D8, // Vector
-            m_Frequency: 0x1E4, // Vector
-            m_nField: 0x1F0, // ParticleAttributeIndex_t
-            m_flOscMult: 0x1F4, // float32
-            m_flOscAdd: 0x1F8, // float32
-            m_bOffset: 0x1FC, // bool
-        },
-        C_INIT_SequenceLifeTime: {
-            m_flFramerate: 0x1E0, // float32
+            m_Rate: 0x1E0, // Vector
+            m_Frequency: 0x1EC, // Vector
+            m_nField: 0x1F8, // ParticleAttributeIndex_t
+            m_flOscMult: 0x1FC, // float32
+            m_flOscAdd: 0x200, // float32
+            m_bOffset: 0x204, // bool
         },
         C_INIT_MoveBetweenPoints: {
-            m_flSpeedMin: 0x1E0, // CPerParticleFloatInput
-            m_flSpeedMax: 0x350, // CPerParticleFloatInput
-            m_flEndSpread: 0x4C0, // CPerParticleFloatInput
-            m_flStartOffset: 0x630, // CPerParticleFloatInput
-            m_flEndOffset: 0x7A0, // CPerParticleFloatInput
-            m_nEndControlPointNumber: 0x910, // int32
-            m_bTrailBias: 0x914, // bool
+            m_flSpeedMin: 0x1E8, // CPerParticleFloatInput
+            m_flSpeedMax: 0x360, // CPerParticleFloatInput
+            m_flEndSpread: 0x4D8, // CPerParticleFloatInput
+            m_flStartOffset: 0x650, // CPerParticleFloatInput
+            m_flEndOffset: 0x7C8, // CPerParticleFloatInput
+            m_nEndControlPointNumber: 0x940, // int32
+            m_bTrailBias: 0x944, // bool
+        },
+        C_INIT_StatusEffectTf: {
+            m_flSFXColorWarpAmount: 0x1E8, // float32
+            m_flSFXNormalAmount: 0x1EC, // float32
+            m_flSFXMetalnessAmount: 0x1F0, // float32
+            m_flSFXRoughnessAmount: 0x1F4, // float32
+            m_flSFXSelfIllumAmount: 0x1F8, // float32
+            m_flSFXSScale: 0x1FC, // float32
+            m_flSFXSScrollX: 0x200, // float32
+            m_flSFXSScrollY: 0x204, // float32
+            m_flSFXSScrollZ: 0x208, // float32
+            m_flSFXSOffsetX: 0x20C, // float32
+            m_flSFXSOffsetY: 0x210, // float32
+            m_flSFXSOffsetZ: 0x214, // float32
+            m_nDetailCombo: 0x218, // DetailCombo_t
+            m_flSFXSDetailAmount: 0x21C, // float32
+            m_flSFXSDetailScale: 0x220, // float32
+            m_flSFXSDetailScrollX: 0x224, // float32
+            m_flSFXSDetailScrollY: 0x228, // float32
+            m_flSFXSDetailScrollZ: 0x22C, // float32
+            m_bAnimatedDetail: 0x230, // bool
+            m_flSFXDetailAnimationTimePerFrame: 0x234, // float32
+            m_flSFXDetailAnimationTimeOffset: 0x238, // float32
+            m_flSFXSUseModelUVs: 0x23C, // float32
+            m_flSFXEnvMapAmount: 0x240, // float32
         },
         C_OP_SetUserEvent: {
-            m_flInput: 0x1D8, // CPerParticleFloatInput
-            m_flRisingEdge: 0x348, // CPerParticleFloatInput
-            m_nRisingEventType: 0x4B8, // EventTypeSelection_t
-            m_flFallingEdge: 0x4C0, // CPerParticleFloatInput
-            m_nFallingEventType: 0x630, // EventTypeSelection_t
+            m_flInput: 0x1E0, // CPerParticleFloatInput
+            m_flRisingEdge: 0x358, // CPerParticleFloatInput
+            m_nRisingEventType: 0x4D0, // EventTypeSelection_t
+            m_flFallingEdge: 0x4D8, // CPerParticleFloatInput
+            m_nFallingEventType: 0x650, // EventTypeSelection_t
         },
         C_OP_QuantizeFloat: {
-            m_InputValue: 0x1D8, // CPerParticleFloatInput
-            m_nOutputField: 0x348, // ParticleAttributeIndex_t
+            m_InputValue: 0x1E0, // CPerParticleFloatInput
+            m_nOutputField: 0x358, // ParticleAttributeIndex_t
         },
         C_INIT_RandomNamedModelElement: {
-            m_hModel: 0x1E0, // CStrongHandle<InfoForResourceTypeCModel>
-            m_names: 0x1E8, // CUtlVector<CUtlString>
-            m_bShuffle: 0x200, // bool
-            m_bLinear: 0x201, // bool
-            m_bModelFromRenderer: 0x202, // bool
-            m_nFieldOutput: 0x204, // ParticleAttributeIndex_t
-        },
-        C_INIT_InitFromParentKilled: {
-            m_nAttributeToCopy: 0x1E0, // ParticleAttributeIndex_t
-            m_nEventType: 0x1E4, // EventTypeSelection_t
+            m_hModel: 0x1E8, // CStrongHandle<InfoForResourceTypeCModel>
+            m_names: 0x1F0, // CUtlVector<CUtlString>
+            m_bShuffle: 0x208, // bool
+            m_bLinear: 0x209, // bool
+            m_bModelFromRenderer: 0x20A, // bool
+            m_nFieldOutput: 0x20C, // ParticleAttributeIndex_t
         },
         C_OP_Callback: {
         },
         C_OP_GlobalLight: {
-            m_flScale: 0x1D8, // float32
-            m_bClampLowerRange: 0x1DC, // bool
-            m_bClampUpperRange: 0x1DD, // bool
+            m_flScale: 0x1E0, // float32
+            m_bClampLowerRange: 0x1E4, // bool
+            m_bClampUpperRange: 0x1E5, // bool
         },
         C_INIT_OffsetVectorToVector: {
-            m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
-            m_vecOutputMin: 0x1E8, // Vector
-            m_vecOutputMax: 0x1F4, // Vector
-            m_randomnessParameters: 0x200, // CRandomNumberGeneratorParameters
+            m_nFieldInput: 0x1E8, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
+            m_vecOutputMin: 0x1F0, // Vector
+            m_vecOutputMax: 0x1FC, // Vector
+            m_randomnessParameters: 0x208, // CRandomNumberGeneratorParameters
         },
         C_OP_SetPerChildControlPointFromAttribute: {
-            m_nChildGroupID: 0x1D8, // int32
-            m_nFirstControlPoint: 0x1DC, // int32
-            m_nNumControlPoints: 0x1E0, // int32
-            m_nParticleIncrement: 0x1E4, // int32
-            m_nFirstSourcePoint: 0x1E8, // int32
-            m_bNumBasedOnParticleCount: 0x1EC, // bool
-            m_nAttributeToRead: 0x1F0, // ParticleAttributeIndex_t
-            m_nCPField: 0x1F4, // int32
+            m_nChildGroupID: 0x1E0, // int32
+            m_nFirstControlPoint: 0x1E4, // int32
+            m_nNumControlPoints: 0x1E8, // int32
+            m_nParticleIncrement: 0x1EC, // int32
+            m_nFirstSourcePoint: 0x1F0, // int32
+            m_bNumBasedOnParticleCount: 0x1F4, // bool
+            m_nAttributeToRead: 0x1F8, // ParticleAttributeIndex_t
+            m_nCPField: 0x1FC, // int32
         },
         C_OP_SetParentControlPointsToChildCP: {
-            m_nChildGroupID: 0x1E0, // int32
-            m_nChildControlPoint: 0x1E4, // int32
-            m_nNumControlPoints: 0x1E8, // int32
-            m_nFirstSourcePoint: 0x1EC, // int32
-            m_bSetOrientation: 0x1F0, // bool
+            m_nChildGroupID: 0x1E8, // int32
+            m_nChildControlPoint: 0x1EC, // int32
+            m_nNumControlPoints: 0x1F0, // int32
+            m_nFirstSourcePoint: 0x1F4, // int32
+            m_bSetOrientation: 0x1F8, // bool
         },
         C_OP_BoxConstraint: {
-            m_vecMin: 0x1D8, // CParticleCollectionVecInput
-            m_vecMax: 0x890, // CParticleCollectionVecInput
-            m_nCP: 0xF48, // int32
-            m_bLocalSpace: 0xF4C, // bool
-            m_bAccountForRadius: 0xF4D, // bool
+            m_vecMin: 0x1E0, // CParticleCollectionVecInput
+            m_vecMax: 0x8B8, // CParticleCollectionVecInput
+            m_nCP: 0xF90, // int32
+            m_bLocalSpace: 0xF94, // bool
+            m_bAccountForRadius: 0xF95, // bool
         },
         C_INIT_CreatePhyllotaxis: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_nScaleCP: 0x1E4, // int32
-            m_nComponent: 0x1E8, // int32
-            m_fRadCentCore: 0x1EC, // float32
-            m_fRadPerPoint: 0x1F0, // float32
-            m_fRadPerPointTo: 0x1F4, // float32
-            m_fpointAngle: 0x1F8, // float32
-            m_fsizeOverall: 0x1FC, // float32
-            m_fRadBias: 0x200, // float32
-            m_fMinRad: 0x204, // float32
-            m_fDistBias: 0x208, // float32
-            m_bUseLocalCoords: 0x20C, // bool
-            m_bUseWithContEmit: 0x20D, // bool
-            m_bUseOrigRadius: 0x20E, // bool
+            m_nControlPointNumber: 0x1E8, // int32
+            m_nScaleCP: 0x1EC, // int32
+            m_nComponent: 0x1F0, // int32
+            m_fRadCentCore: 0x1F4, // float32
+            m_fRadPerPoint: 0x1F8, // float32
+            m_fRadPerPointTo: 0x1FC, // float32
+            m_fpointAngle: 0x200, // float32
+            m_fsizeOverall: 0x204, // float32
+            m_fRadBias: 0x208, // float32
+            m_fMinRad: 0x20C, // float32
+            m_fDistBias: 0x210, // float32
+            m_bUseLocalCoords: 0x214, // bool
+            m_bUseWithContEmit: 0x215, // bool
+            m_bUseOrigRadius: 0x216, // bool
         },
         C_OP_AttractToControlPoint: {
-            m_vecComponentScale: 0x1E8, // Vector
-            m_fForceAmount: 0x1F8, // CPerParticleFloatInput
-            m_fMinimumDistance: 0x368, // CPerParticleFloatInput
-            m_fFalloffPower: 0x4D8, // float32
-            m_TransformInput: 0x4E0, // CParticleTransformInput
-            m_fForceAmountMin: 0x548, // CPerParticleFloatInput
-            m_bApplyMinForce: 0x6B8, // bool
+            m_vecComponentScale: 0x1F0, // Vector
+            m_fForceAmount: 0x200, // CPerParticleFloatInput
+            m_fMinimumDistance: 0x378, // CPerParticleFloatInput
+            m_fFalloffPower: 0x4F0, // float32
+            m_TransformInput: 0x4F8, // CParticleTransformInput
+            m_fForceAmountMin: 0x560, // CPerParticleFloatInput
+            m_bApplyMinForce: 0x6D8, // bool
         },
         C_INIT_RandomLifeTime: {
-            m_fLifetimeMin: 0x1E0, // float32
-            m_fLifetimeMax: 0x1E4, // float32
-            m_fLifetimeRandExponent: 0x1E8, // float32
+            m_fLifetimeMin: 0x1E8, // float32
+            m_fLifetimeMax: 0x1EC, // float32
+            m_fLifetimeRandExponent: 0x1F0, // float32
         },
         C_INIT_RemapParticleCountToNamedModelSequenceScalar: {
         },
         C_INIT_VelocityRadialRandom: {
-            m_bPerParticleCenter: 0x1E0, // bool
-            m_nControlPointNumber: 0x1E4, // int32
-            m_vecPosition: 0x1E8, // CPerParticleVecInput
-            m_vecFwd: 0x8A0, // CPerParticleVecInput
-            m_fSpeedMin: 0xF58, // CPerParticleFloatInput
-            m_fSpeedMax: 0x10C8, // CPerParticleFloatInput
-            m_vecLocalCoordinateSystemSpeedScale: 0x1238, // Vector
-            m_bIgnoreDelta: 0x1245, // bool
+            m_bPerParticleCenter: 0x1E8, // bool
+            m_nControlPointNumber: 0x1EC, // int32
+            m_vecPosition: 0x1F0, // CPerParticleVecInput
+            m_vecFwd: 0x8C8, // CPerParticleVecInput
+            m_fSpeedMin: 0xFA0, // CPerParticleFloatInput
+            m_fSpeedMax: 0x1118, // CPerParticleFloatInput
+            m_vecLocalCoordinateSystemSpeedScale: 0x1290, // Vector
+            m_bIgnoreDelta: 0x129D, // bool
         },
         C_INIT_RandomRadius: {
-            m_flRadiusMin: 0x1E0, // float32
-            m_flRadiusMax: 0x1E4, // float32
-            m_flRadiusRandExponent: 0x1E8, // float32
+            m_flRadiusMin: 0x1E8, // float32
+            m_flRadiusMax: 0x1EC, // float32
+            m_flRadiusRandExponent: 0x1F0, // float32
         },
         C_OP_Orient2DRelToCP: {
-            m_flRotOffset: 0x1D8, // float32
-            m_flSpinStrength: 0x1DC, // float32
-            m_nCP: 0x1E0, // int32
-            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_flRotOffset: 0x1E0, // float32
+            m_flSpinStrength: 0x1E4, // float32
+            m_nCP: 0x1E8, // int32
+            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
         },
         ControlPointReference_t: {
             m_controlPointNameString: 0x0, // int32
@@ -1074,695 +1070,610 @@ export const Schemas = {
             m_bOffsetInLocalSpace: 0x10, // bool
         },
         C_OP_LightningSnapshotGenerator: {
-            m_nCPSnapshot: 0x1E0, // int32
-            m_nCPStartPnt: 0x1E4, // int32
-            m_nCPEndPnt: 0x1E8, // int32
-            m_flSegments: 0x1F0, // CParticleCollectionFloatInput
-            m_flOffset: 0x360, // CParticleCollectionFloatInput
-            m_flOffsetDecay: 0x4D0, // CParticleCollectionFloatInput
-            m_flRecalcRate: 0x640, // CParticleCollectionFloatInput
-            m_flUVScale: 0x7B0, // CParticleCollectionFloatInput
-            m_flUVOffset: 0x920, // CParticleCollectionFloatInput
-            m_flSplitRate: 0xA90, // CParticleCollectionFloatInput
-            m_flRecursionSplitScale: 0xC00, // CParticleCollectionFloatInput
-            m_bScaleBranchDistance: 0xD70, // bool
-            m_flBranchDistanceScale: 0xD78, // CParticleCollectionFloatInput
-            m_bScaleBranchOffset: 0xEE8, // bool
-            m_flBranchOffsetScale: 0xEF0, // CParticleCollectionFloatInput
-            m_flBranchTwist: 0x1060, // CParticleCollectionFloatInput
-            m_nBranchBehavior: 0x11D0, // ParticleLightnintBranchBehavior_t
-            m_flRadiusStart: 0x11D8, // CParticleCollectionFloatInput
-            m_flRadiusEnd: 0x1348, // CParticleCollectionFloatInput
-            m_flDedicatedPool: 0x14B8, // CParticleCollectionFloatInput
+            m_nCPSnapshot: 0x1E8, // int32
+            m_nCPStartPnt: 0x1EC, // int32
+            m_nCPEndPnt: 0x1F0, // int32
+            m_flSegments: 0x1F8, // CParticleCollectionFloatInput
+            m_flOffset: 0x370, // CParticleCollectionFloatInput
+            m_flOffsetDecay: 0x4E8, // CParticleCollectionFloatInput
+            m_flRecalcRate: 0x660, // CParticleCollectionFloatInput
+            m_flUVScale: 0x7D8, // CParticleCollectionFloatInput
+            m_flUVOffset: 0x950, // CParticleCollectionFloatInput
+            m_flSplitRate: 0xAC8, // CParticleCollectionFloatInput
+            m_flRecursionSplitScale: 0xC40, // CParticleCollectionFloatInput
+            m_bScaleBranchDistance: 0xDB8, // bool
+            m_flBranchDistanceScale: 0xDC0, // CParticleCollectionFloatInput
+            m_bScaleBranchOffset: 0xF38, // bool
+            m_flBranchOffsetScale: 0xF40, // CParticleCollectionFloatInput
+            m_flBranchTwist: 0x10B8, // CParticleCollectionFloatInput
+            m_nBranchBehavior: 0x1230, // ParticleLightnintBranchBehavior_t
+            m_flRadiusStart: 0x1238, // CParticleCollectionFloatInput
+            m_flRadiusEnd: 0x13B0, // CParticleCollectionFloatInput
+            m_flDedicatedPool: 0x1528, // CParticleCollectionFloatInput
         },
         C_OP_RemapNamedModelMeshGroupOnceTimed: {
         },
         C_INIT_RemapQAnglesToRotation: {
-            m_TransformInput: 0x1E0, // CParticleTransformInput
-        },
-        C_INIT_PositionWarp: {
-            m_vecWarpMin: 0x1E0, // CParticleCollectionVecInput
-            m_vecWarpMax: 0x898, // CParticleCollectionVecInput
-            m_nScaleControlPointNumber: 0xF50, // int32
-            m_nControlPointNumber: 0xF54, // int32
-            m_nRadiusComponent: 0xF58, // int32
-            m_flWarpTime: 0xF5C, // float32
-            m_flWarpStartTime: 0xF60, // float32
-            m_flPrevPosScale: 0xF64, // float32
-            m_bInvertWarp: 0xF68, // bool
-            m_bUseCount: 0xF69, // bool
+            m_TransformInput: 0x1E8, // CParticleTransformInput
         },
         C_OP_SetControlPointFieldToScalarExpression: {
-            m_nExpression: 0x1E0, // ScalarExpressionType_t
-            m_flInput1: 0x1E8, // CParticleCollectionFloatInput
-            m_flInput2: 0x358, // CParticleCollectionFloatInput
-            m_flOutputRemap: 0x4C8, // CParticleRemapFloatInput
-            m_nOutputCP: 0x638, // int32
-            m_nOutVectorField: 0x63C, // int32
-            m_flInterpolation: 0x640, // CParticleCollectionFloatInput
+            m_nExpression: 0x1E8, // ScalarExpressionType_t
+            m_flInput1: 0x1F0, // CParticleCollectionFloatInput
+            m_flInput2: 0x368, // CParticleCollectionFloatInput
+            m_flOutputRemap: 0x4E0, // CParticleRemapFloatInput
+            m_nOutputCP: 0x658, // int32
+            m_nOutVectorField: 0x65C, // int32
+            m_flInterpolation: 0x660, // CParticleCollectionFloatInput
         },
         C_OP_CreateParticleSystemRenderer: {
-            m_hEffect: 0x228, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_nEventType: 0x230, // EventTypeSelection_t
-            m_vecCPs: 0x238, // CUtlLeanVector<CPAssignment_t>
-            m_szParticleConfig: 0x248, // CUtlString
-            m_AggregationPos: 0x250, // CPerParticleVecInput
+            m_hEffect: 0x230, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
+            m_nEventType: 0x238, // EventTypeSelection_t
+            m_vecCPs: 0x240, // CUtlLeanVector<CPAssignment_t>
+            m_szParticleConfig: 0x250, // CUtlString
+            m_AggregationPos: 0x258, // CPerParticleVecInput
         },
         C_INIT_RandomVectorComponent: {
-            m_flMin: 0x1E0, // float32
-            m_flMax: 0x1E4, // float32
-            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
-            m_nComponent: 0x1EC, // int32
+            m_flMin: 0x1E8, // float32
+            m_flMax: 0x1EC, // float32
+            m_nFieldOutput: 0x1F0, // ParticleAttributeIndex_t
+            m_nComponent: 0x1F4, // int32
         },
         C_OP_InheritFromParentParticles: {
-            m_flScale: 0x1D8, // float32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_nIncrement: 0x1E0, // int32
-            m_bRandomDistribution: 0x1E4, // bool
+            m_flScale: 0x1E0, // float32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_nIncrement: 0x1E8, // int32
+            m_bRandomDistribution: 0x1EC, // bool
         },
         C_INIT_SetVectorAttributeToVectorExpression: {
-            m_nExpression: 0x1E0, // VectorExpressionType_t
-            m_vInput1: 0x1E8, // CPerParticleVecInput
-            m_vInput2: 0x8A0, // CPerParticleVecInput
-            m_flLerp: 0xF58, // CPerParticleFloatInput
-            m_nOutputField: 0x10C8, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x10CC, // ParticleSetMethod_t
-            m_bNormalizedOutput: 0x10D0, // bool
+            m_nExpression: 0x1E8, // VectorExpressionType_t
+            m_vInput1: 0x1F0, // CPerParticleVecInput
+            m_vInput2: 0x8C8, // CPerParticleVecInput
+            m_flLerp: 0xFA0, // CPerParticleFloatInput
+            m_nOutputField: 0x1118, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x111C, // ParticleSetMethod_t
+            m_bNormalizedOutput: 0x1120, // bool
         },
         C_OP_RemapTransformVisibilityToVector: {
-            m_nSetMethod: 0x1D8, // ParticleSetMethod_t
-            m_TransformInput: 0x1E0, // CParticleTransformInput
-            m_nFieldOutput: 0x248, // ParticleAttributeIndex_t
-            m_flInputMin: 0x24C, // float32
-            m_flInputMax: 0x250, // float32
-            m_vecOutputMin: 0x254, // Vector
-            m_vecOutputMax: 0x260, // Vector
-            m_flRadius: 0x26C, // float32
+            m_nSetMethod: 0x1E0, // ParticleSetMethod_t
+            m_TransformInput: 0x1E8, // CParticleTransformInput
+            m_nFieldOutput: 0x250, // ParticleAttributeIndex_t
+            m_flInputMin: 0x254, // float32
+            m_flInputMax: 0x258, // float32
+            m_vecOutputMin: 0x25C, // Vector
+            m_vecOutputMax: 0x268, // Vector
+            m_flRadius: 0x274, // float32
+        },
+        C_OP_DirectionBetweenVecsToVec: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_vecPoint1: 0x1E8, // CPerParticleVecInput
+            m_vecPoint2: 0x8C0, // CPerParticleVecInput
         },
         C_OP_MovementLoopInsideSphere: {
-            m_nCP: 0x1D8, // int32
-            m_flDistance: 0x1E0, // CParticleCollectionFloatInput
-            m_vecScale: 0x350, // CParticleCollectionVecInput
-            m_nDistSqrAttr: 0xA08, // ParticleAttributeIndex_t
+            m_nCP: 0x1E0, // int32
+            m_flDistance: 0x1E8, // CParticleCollectionFloatInput
+            m_vecScale: 0x360, // CParticleCollectionVecInput
+            m_nDistSqrAttr: 0xA38, // ParticleAttributeIndex_t
         },
         C_OP_RenderSimpleModelCollection: {
-            m_bCenterOffset: 0x228, // bool
-            m_hModel: 0x230, // CStrongHandle<InfoForResourceTypeCModel>
-            m_modelInput: 0x238, // CParticleModelInput
-            m_fSizeCullScale: 0x298, // CParticleCollectionFloatInput
-            m_bDisableShadows: 0x408, // bool
-            m_bDisableMotionBlur: 0x409, // bool
-            m_bAcceptsDecals: 0x40A, // bool
-            m_fDrawFilter: 0x410, // CPerParticleFloatInput
-            m_nAngularVelocityField: 0x580, // ParticleAttributeIndex_t
+            m_bCenterOffset: 0x230, // bool
+            m_hModel: 0x238, // CStrongHandle<InfoForResourceTypeCModel>
+            m_modelInput: 0x240, // CParticleModelInput
+            m_fSizeCullScale: 0x2A0, // CParticleCollectionFloatInput
+            m_bDisableShadows: 0x418, // bool
+            m_bDisableMotionBlur: 0x419, // bool
+            m_bAcceptsDecals: 0x41A, // bool
+            m_fDrawFilter: 0x420, // CPerParticleFloatInput
+            m_nAngularVelocityField: 0x598, // ParticleAttributeIndex_t
         },
         C_INIT_InitFloatCollection: {
-            m_InputValue: 0x1E0, // CParticleCollectionFloatInput
-            m_nOutputField: 0x350, // ParticleAttributeIndex_t
+            m_InputValue: 0x1E8, // CParticleCollectionFloatInput
+            m_nOutputField: 0x360, // ParticleAttributeIndex_t
         },
         CPathParameters: {
             m_nStartControlPointNumber: 0x0, // int32
-            m_nEndControlPointNumber: 0x4, // int32
-            m_nBulgeControl: 0x8, // int32
-            m_flBulge: 0xC, // float32
-            m_flMidPoint: 0x10, // float32
-            m_vStartPointOffset: 0x14, // Vector
-            m_vMidPointOffset: 0x20, // Vector
-            m_vEndOffset: 0x2C, // Vector
+            m_nMidControlPointNumber: 0x4, // int32
+            m_nEndControlPointNumber: 0x8, // int32
+            m_nBulgeControl: 0xC, // int32
+            m_flBulge: 0x10, // float32
+            m_flMidPoint: 0x14, // float32
+            m_vStartPointOffset: 0x18, // Vector
+            m_vMidPointOffset: 0x24, // Vector
+            m_vEndOffset: 0x30, // Vector
         },
         C_OP_RemapScalarEndCap: {
-            m_nFieldInput: 0x1D8, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E0, // float32
-            m_flInputMax: 0x1E4, // float32
-            m_flOutputMin: 0x1E8, // float32
-            m_flOutputMax: 0x1EC, // float32
-        },
-        C_INIT_CreateFromPlaneCache: {
-            m_vecOffsetMin: 0x1E0, // Vector
-            m_vecOffsetMax: 0x1EC, // Vector
-            m_bUseNormal: 0x1F9, // bool
-        },
-        C_OP_LazyCullCompareFloat: {
-            m_flComparsion1: 0x1D8, // CPerParticleFloatInput
-            m_flComparsion2: 0x348, // CPerParticleFloatInput
-            m_flCullTime: 0x4B8, // CPerParticleFloatInput
-        },
-        C_OP_ControlPointToRadialScreenSpace: {
-            m_nCPIn: 0x1E0, // int32
-            m_vecCP1Pos: 0x1E4, // Vector
-            m_nCPOut: 0x1F0, // int32
-            m_nCPOutField: 0x1F4, // int32
-            m_nCPSSPosOut: 0x1F8, // int32
-        },
-        C_INIT_NormalOffset: {
-            m_OffsetMin: 0x1E0, // Vector
-            m_OffsetMax: 0x1EC, // Vector
-            m_nControlPointNumber: 0x1F8, // int32
-            m_bLocalCoords: 0x1FC, // bool
-            m_bNormalize: 0x1FD, // bool
-        },
-        C_INIT_CreationNoise: {
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_bAbsVal: 0x1E4, // bool
-            m_bAbsValInv: 0x1E5, // bool
-            m_flOffset: 0x1E8, // float32
-            m_flOutputMin: 0x1EC, // float32
-            m_flOutputMax: 0x1F0, // float32
-            m_flNoiseScale: 0x1F4, // float32
-            m_flNoiseScaleLoc: 0x1F8, // float32
-            m_vecOffsetLoc: 0x1FC, // Vector
-            m_flWorldTimeScale: 0x208, // float32
-        },
-        C_OP_Spin: {
-        },
-        C_OP_GameLiquidSpill: {
-            m_flLiquidContentsField: 0x228, // CParticleCollectionFloatInput
-            m_flExpirationTime: 0x398, // CParticleCollectionFloatInput
-            m_flRadius: 0x508, // CParticleCollectionFloatInput
-            m_bCheckExposedToSky: 0x678, // bool
-            m_nAmountAttribute: 0x67C, // ParticleAttributeIndex_t
-        },
-        C_OP_InstantaneousEmitter: {
-            m_nParticlesToEmit: 0x1E0, // CParticleCollectionFloatInput
-            m_flStartTime: 0x350, // CParticleCollectionFloatInput
-            m_flInitFromKilledParentParticles: 0x4C0, // float32
-            m_nEventType: 0x4C4, // EventTypeSelection_t
-            m_flParentParticleScale: 0x4C8, // CParticleCollectionFloatInput
-            m_nMaxEmittedPerFrame: 0x638, // int32
-            m_nSnapshotControlPoint: 0x63C, // int32
-            m_strSnapshotSubset: 0x640, // CUtlString
-        },
-        C_INIT_LifespanFromVelocity: {
-            m_vecComponentScale: 0x1E0, // Vector
-            m_flTraceOffset: 0x1EC, // float32
-            m_flMaxTraceLength: 0x1F0, // float32
-            m_flTraceTolerance: 0x1F4, // float32
-            m_nMaxPlanes: 0x1F8, // int32
-            m_CollisionGroupName: 0x200, // char[128]
-            m_nTraceSet: 0x280, // ParticleTraceSet_t
-            m_bIncludeWater: 0x290, // bool
-        },
-        C_INIT_VelocityFromCP: {
-            m_velocityInput: 0x1E0, // CParticleCollectionVecInput
-            m_transformInput: 0x898, // CParticleTransformInput
-            m_flVelocityScale: 0x900, // float32
-            m_bDirectionOnly: 0x904, // bool
-        },
-        C_OP_MovementSkinnedPositionFromCPSnapshot: {
-            m_nSnapshotControlPointNumber: 0x1D8, // int32
-            m_nControlPointNumber: 0x1DC, // int32
-            m_bRandom: 0x1E0, // bool
-            m_nRandomSeed: 0x1E4, // int32
-            m_bSetNormal: 0x1E8, // bool
-            m_bSetRadius: 0x1E9, // bool
-            m_nIndexType: 0x1EC, // SnapshotIndexType_t
-            m_flReadIndex: 0x1F0, // CPerParticleFloatInput
-            m_flIncrement: 0x360, // CParticleCollectionFloatInput
-            m_nFullLoopIncrement: 0x4D0, // CParticleCollectionFloatInput
-            m_nSnapShotStartPoint: 0x640, // CParticleCollectionFloatInput
-            m_flInterpolation: 0x7B0, // CPerParticleFloatInput
-        },
-        C_OP_OscillateVector: {
-            m_RateMin: 0x1D8, // Vector
-            m_RateMax: 0x1E4, // Vector
-            m_FrequencyMin: 0x1F0, // Vector
-            m_FrequencyMax: 0x1FC, // Vector
-            m_nField: 0x208, // ParticleAttributeIndex_t
-            m_bProportional: 0x20C, // bool
-            m_bProportionalOp: 0x20D, // bool
-            m_bOffset: 0x20E, // bool
-            m_flStartTime_min: 0x210, // float32
-            m_flStartTime_max: 0x214, // float32
-            m_flEndTime_min: 0x218, // float32
-            m_flEndTime_max: 0x21C, // float32
-            m_flOscMult: 0x220, // CPerParticleFloatInput
-            m_flOscAdd: 0x390, // CPerParticleFloatInput
-            m_flRateScale: 0x500, // CPerParticleFloatInput
-        },
-        C_OP_PositionLock: {
-            m_TransformInput: 0x1D8, // CParticleTransformInput
-            m_flStartTime_min: 0x240, // float32
-            m_flStartTime_max: 0x244, // float32
-            m_flStartTime_exp: 0x248, // float32
-            m_flEndTime_min: 0x24C, // float32
-            m_flEndTime_max: 0x250, // float32
-            m_flEndTime_exp: 0x254, // float32
-            m_flRange: 0x258, // float32
-            m_flRangeBias: 0x260, // CParticleCollectionFloatInput
-            m_flJumpThreshold: 0x3D0, // float32
-            m_flPrevPosScale: 0x3D4, // float32
-            m_bLockRot: 0x3D8, // bool
-            m_vecScale: 0x3E0, // CParticleCollectionVecInput
-            m_nFieldOutput: 0xA98, // ParticleAttributeIndex_t
-            m_nFieldOutputPrev: 0xA9C, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-        },
-        C_OP_RenderVRHapticEvent: {
-            m_nHand: 0x228, // ParticleVRHandChoiceList_t
-            m_nOutputHandCP: 0x22C, // int32
-            m_nOutputField: 0x230, // int32
-            m_flAmplitude: 0x238, // CPerParticleFloatInput
-        },
-        C_OP_SetControlPointToImpactPoint: {
-            m_nCPOut: 0x1E0, // int32
-            m_nCPIn: 0x1E4, // int32
-            m_flUpdateRate: 0x1E8, // float32
-            m_flTraceLength: 0x1F0, // CParticleCollectionFloatInput
-            m_flStartOffset: 0x360, // float32
-            m_flOffset: 0x364, // float32
-            m_vecTraceDir: 0x368, // Vector
-            m_CollisionGroupName: 0x374, // char[128]
-            m_nTraceSet: 0x3F4, // ParticleTraceSet_t
-            m_bSetToEndpoint: 0x3F8, // bool
-            m_bTraceToClosestSurface: 0x3F9, // bool
-            m_bIncludeWater: 0x3FA, // bool
-        },
-        C_OP_ReinitializeScalarEndCap: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flOutputMin: 0x1DC, // float32
-            m_flOutputMax: 0x1E0, // float32
-        },
-        C_OP_TurbulenceForce: {
-            m_flNoiseCoordScale0: 0x1E8, // float32
-            m_flNoiseCoordScale1: 0x1EC, // float32
-            m_flNoiseCoordScale2: 0x1F0, // float32
-            m_flNoiseCoordScale3: 0x1F4, // float32
-            m_vecNoiseAmount0: 0x1F8, // Vector
-            m_vecNoiseAmount1: 0x204, // Vector
-            m_vecNoiseAmount2: 0x210, // Vector
-            m_vecNoiseAmount3: 0x21C, // Vector
-        },
-        C_OP_RemapNamedModelElementOnceTimed: {
-            m_hModel: 0x1D8, // CStrongHandle<InfoForResourceTypeCModel>
-            m_inNames: 0x1E0, // CUtlVector<CUtlString>
-            m_outNames: 0x1F8, // CUtlVector<CUtlString>
-            m_fallbackNames: 0x210, // CUtlVector<CUtlString>
-            m_bModelFromRenderer: 0x228, // bool
-            m_bProportional: 0x229, // bool
-            m_nFieldInput: 0x22C, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x230, // ParticleAttributeIndex_t
-            m_flRemapTime: 0x234, // float32
-        },
-        C_OP_SetControlPointToPlayer: {
-            m_nCP1: 0x1E0, // int32
-            m_vecCP1Pos: 0x1E4, // Vector
-            m_bOrientToEyes: 0x1F0, // bool
-            m_nPosition: 0x1F4, // ParticleEntityPos_t
-            m_nRadiusCP: 0x1F8, // int32
-            m_nRadiusCPField: 0x1FC, // int32
-        },
-        C_OP_EndCapTimedFreeze: {
-            m_flFreezeTime: 0x1D8, // CParticleCollectionFloatInput
-        },
-        C_OP_SetRandomControlPointPosition: {
-            m_bUseWorldLocation: 0x1E0, // bool
-            m_bOrient: 0x1E1, // bool
-            m_nCP1: 0x1E4, // int32
-            m_nHeadLocation: 0x1E8, // int32
-            m_flReRandomRate: 0x1F0, // CParticleCollectionFloatInput
-            m_vecCPMinPos: 0x360, // Vector
-            m_vecCPMaxPos: 0x36C, // Vector
-            m_flInterpolation: 0x378, // CParticleCollectionFloatInput
-        },
-        C_OP_RenderVolumetricEmitter: {
-            m_strChannelType: 0x228, // CUtlString
-            m_nType: 0x230, // ParticleVolumetricSmokeType_t
-            m_nCreationType: 0x234, // ParticleVolumetricSmokeCreationType_t
-            m_nEventType: 0x238, // EventTypeSelection_t
-            m_vecPos: 0x240, // CPerParticleVecInput
-            m_vecVelocity: 0x8F8, // CPerParticleVecInput
-            m_vPrevPosition: 0xFB0, // CPerParticleVecInput
-            m_flSpeed: 0x1668, // CPerParticleFloatInput
-            m_flRadius: 0x17D8, // CPerParticleFloatInput
-            m_flDensity: 0x1948, // CPerParticleFloatInput
-            m_flTemperature: 0x1AB8, // CPerParticleFloatInput
-            m_flMagnitude: 0x1C28, // CPerParticleFloatInput
-            m_flKillRadius: 0x1D98, // CPerParticleFloatInput
-            m_flKillDensityScale: 0x1F08, // CPerParticleFloatInput
-            m_flFalloff: 0x2078, // CPerParticleFloatInput
-        },
-        C_OP_RemapTransformVisibilityToScalar: {
-            m_nSetMethod: 0x1D8, // ParticleSetMethod_t
-            m_TransformInput: 0x1E0, // CParticleTransformInput
-            m_nFieldOutput: 0x248, // ParticleAttributeIndex_t
-            m_flInputMin: 0x24C, // float32
-            m_flInputMax: 0x250, // float32
-            m_flOutputMin: 0x254, // float32
-            m_flOutputMax: 0x258, // float32
-            m_flRadius: 0x25C, // float32
-        },
-        C_OP_RemapControlPointDirectionToVector: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flScale: 0x1DC, // float32
-            m_nControlPointNumber: 0x1E0, // int32
-        },
-        C_OP_ScreenSpacePositionOfTarget: {
-            m_vecTargetPosition: 0x1D8, // CPerParticleVecInput
-            m_bOututBehindness: 0x890, // bool
-            m_nBehindFieldOutput: 0x894, // ParticleAttributeIndex_t
-            m_flBehindOutputRemap: 0x898, // CParticleRemapFloatInput
-            m_nBehindSetMethod: 0xA08, // ParticleSetMethod_t
-        },
-        C_OP_DragRelativeToPlane: {
-            m_flDragAtPlane: 0x1D8, // CParticleCollectionFloatInput
-            m_flFalloff: 0x348, // CParticleCollectionFloatInput
-            m_bDirectional: 0x4B8, // bool
-            m_vecPlaneNormal: 0x4C0, // CParticleCollectionVecInput
-            m_nControlPointNumber: 0xB78, // int32
-        },
-        C_OP_SetCPtoVector: {
-            m_nCPInput: 0x1D8, // int32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-        },
-        C_INIT_RandomYaw: {
-        },
-        C_OP_SnapshotRigidSkinToBones: {
-            m_bTransformNormals: 0x1D8, // bool
-            m_bTransformRadii: 0x1D9, // bool
-            m_nControlPointNumber: 0x1DC, // int32
-        },
-        C_OP_SetSingleControlPointPosition: {
-            m_bSetOnce: 0x1E0, // bool
-            m_nCP1: 0x1E4, // int32
-            m_vecCP1Pos: 0x1E8, // CParticleCollectionVecInput
-            m_transformInput: 0x8A0, // CParticleTransformInput
-        },
-        C_INIT_DistanceToNeighborCull: {
-            m_flDistance: 0x1E0, // CPerParticleFloatInput
-            m_bIncludeRadii: 0x350, // bool
-            m_flLifespanOverlap: 0x358, // CPerParticleFloatInput
-            m_nFieldModify: 0x4C8, // ParticleAttributeIndex_t
-            m_flModify: 0x4D0, // CPerParticleFloatInput
-            m_nSetMethod: 0x640, // ParticleSetMethod_t
-            m_bUseNeighbor: 0x644, // bool
-        },
-        C_OP_RemapCPtoScalar: {
-            m_nCPInput: 0x1D8, // int32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_nField: 0x1E0, // int32
-            m_flInputMin: 0x1E4, // float32
-            m_flInputMax: 0x1E8, // float32
-            m_flOutputMin: 0x1EC, // float32
-            m_flOutputMax: 0x1F0, // float32
-            m_flStartTime: 0x1F4, // float32
-            m_flEndTime: 0x1F8, // float32
-            m_flInterpRate: 0x1FC, // float32
-            m_nSetMethod: 0x200, // ParticleSetMethod_t
-        },
-        CParticleSystemDefinition: {
-            m_nBehaviorVersion: 0x8, // int32
-            m_PreEmissionOperators: 0x10, // CUtlVector<CParticleFunctionPreEmission*>
-            m_Emitters: 0x28, // CUtlVector<CParticleFunctionEmitter*>
-            m_Initializers: 0x40, // CUtlVector<CParticleFunctionInitializer*>
-            m_Operators: 0x58, // CUtlVector<CParticleFunctionOperator*>
-            m_ForceGenerators: 0x70, // CUtlVector<CParticleFunctionForce*>
-            m_Constraints: 0x88, // CUtlVector<CParticleFunctionConstraint*>
-            m_Renderers: 0xA0, // CUtlVector<CParticleFunctionRenderer*>
-            m_Children: 0xB8, // CUtlVector<ParticleChildrenInfo_t>
-            m_nFirstMultipleOverride_BackwardCompat: 0x178, // int32
-            m_nInitialParticles: 0x258, // int32
-            m_nMaxParticles: 0x25C, // int32
-            m_nGroupID: 0x260, // int32
-            m_BoundingBoxMin: 0x264, // Vector
-            m_BoundingBoxMax: 0x270, // Vector
-            m_flDepthSortBias: 0x27C, // float32
-            m_nSortOverridePositionCP: 0x280, // int32
-            m_bInfiniteBounds: 0x284, // bool
-            m_bEnableNamedValues: 0x285, // bool
-            m_NamedValueDomain: 0x288, // CUtlString
-            m_NamedValueLocals: 0x290, // CUtlVector<ParticleNamedValueSource_t*>
-            m_ConstantColor: 0x2A8, // Color
-            m_ConstantNormal: 0x2AC, // Vector
-            m_flConstantRadius: 0x2B8, // float32
-            m_flConstantRotation: 0x2BC, // float32
-            m_flConstantRotationSpeed: 0x2C0, // float32
-            m_flConstantLifespan: 0x2C4, // float32
-            m_nConstantSequenceNumber: 0x2C8, // int32
-            m_nConstantSequenceNumber1: 0x2CC, // int32
-            m_nSnapshotControlPoint: 0x2D0, // int32
-            m_hSnapshot: 0x2D8, // CStrongHandle<InfoForResourceTypeIParticleSnapshot>
-            m_pszCullReplacementName: 0x2E0, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_flCullRadius: 0x2E8, // float32
-            m_flCullFillCost: 0x2EC, // float32
-            m_nCullControlPoint: 0x2F0, // int32
-            m_hFallback: 0x2F8, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_nFallbackMaxCount: 0x300, // int32
-            m_hLowViolenceDef: 0x308, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_hReferenceReplacement: 0x310, // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
-            m_flPreSimulationTime: 0x318, // float32
-            m_flStopSimulationAfterTime: 0x31C, // float32
-            m_flMaximumTimeStep: 0x320, // float32
-            m_flMaximumSimTime: 0x324, // float32
-            m_flMinimumSimTime: 0x328, // float32
-            m_flMinimumTimeStep: 0x32C, // float32
-            m_nMinimumFrames: 0x330, // int32
-            m_bIsGPUParticleSystem: 0x334, // bool
-            m_nMinCPULevel: 0x338, // int32
-            m_nMinGPULevel: 0x33C, // int32
-            m_flNoDrawTimeToGoToSleep: 0x340, // float32
-            m_flMaxDrawDistance: 0x344, // float32
-            m_flStartFadeDistance: 0x348, // float32
-            m_flMaxCreationDistance: 0x34C, // float32
-            m_nAggregationMinAvailableParticles: 0x350, // int32
-            m_flAggregateRadius: 0x354, // float32
-            m_bShouldBatch: 0x358, // bool
-            m_bShouldHitboxesFallbackToRenderBounds: 0x359, // bool
-            m_bShouldHitboxesFallbackToSnapshot: 0x35A, // bool
-            m_bShouldHitboxesFallbackToCollisionHulls: 0x35B, // bool
-            m_nViewModelEffect: 0x35C, // InheritableBoolType_t
-            m_bScreenSpaceEffect: 0x360, // bool
-            m_pszTargetLayerID: 0x368, // CUtlSymbolLarge
-            m_nSkipRenderControlPoint: 0x370, // int32
-            m_nAllowRenderControlPoint: 0x374, // int32
-            m_bShouldSort: 0x378, // bool
-            m_controlPointConfigurations: 0x3C0, // CUtlVector<ParticleControlPointConfiguration_t>
-        },
-        C_OP_RemapNamedModelMeshGroupEndCap: {
-        },
-        C_OP_PercentageBetweenTransformsVector: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1DC, // float32
-            m_flInputMax: 0x1E0, // float32
-            m_vecOutputMin: 0x1E4, // Vector
-            m_vecOutputMax: 0x1F0, // Vector
-            m_TransformStart: 0x200, // CParticleTransformInput
-            m_TransformEnd: 0x268, // CParticleTransformInput
-            m_nSetMethod: 0x2D0, // ParticleSetMethod_t
-            m_bActiveRange: 0x2D4, // bool
-            m_bRadialCheck: 0x2D5, // bool
-        },
-        C_INIT_CreateWithinBox: {
-            m_vecMin: 0x1E0, // CPerParticleVecInput
-            m_vecMax: 0x898, // CPerParticleVecInput
-            m_nControlPointNumber: 0xF50, // int32
-            m_bLocalSpace: 0xF54, // bool
-            m_randomnessParameters: 0xF58, // CRandomNumberGeneratorParameters
-            m_bUseNewCode: 0xF60, // bool
-        },
-        C_OP_ChooseRandomChildrenInGroup: {
-            m_nChildGroupID: 0x1E0, // int32
-            m_flNumberOfChildren: 0x1E8, // CParticleCollectionFloatInput
-        },
-        C_OP_ControlpointLight: {
-            m_flScale: 0x1D8, // float32
-            m_nControlPoint1: 0x660, // int32
-            m_nControlPoint2: 0x664, // int32
-            m_nControlPoint3: 0x668, // int32
-            m_nControlPoint4: 0x66C, // int32
-            m_vecCPOffset1: 0x670, // Vector
-            m_vecCPOffset2: 0x67C, // Vector
-            m_vecCPOffset3: 0x688, // Vector
-            m_vecCPOffset4: 0x694, // Vector
-            m_LightFiftyDist1: 0x6A0, // float32
-            m_LightZeroDist1: 0x6A4, // float32
-            m_LightFiftyDist2: 0x6A8, // float32
-            m_LightZeroDist2: 0x6AC, // float32
-            m_LightFiftyDist3: 0x6B0, // float32
-            m_LightZeroDist3: 0x6B4, // float32
-            m_LightFiftyDist4: 0x6B8, // float32
-            m_LightZeroDist4: 0x6BC, // float32
-            m_LightColor1: 0x6C0, // Color
-            m_LightColor2: 0x6C4, // Color
-            m_LightColor3: 0x6C8, // Color
-            m_LightColor4: 0x6CC, // Color
-            m_bLightType1: 0x6D0, // bool
-            m_bLightType2: 0x6D1, // bool
-            m_bLightType3: 0x6D2, // bool
-            m_bLightType4: 0x6D3, // bool
-            m_bLightDynamic1: 0x6D4, // bool
-            m_bLightDynamic2: 0x6D5, // bool
-            m_bLightDynamic3: 0x6D6, // bool
-            m_bLightDynamic4: 0x6D7, // bool
-            m_bUseNormal: 0x6D8, // bool
-            m_bUseHLambert: 0x6D9, // bool
-            m_bClampLowerRange: 0x6DE, // bool
-            m_bClampUpperRange: 0x6DF, // bool
-        },
-        C_OP_VectorFieldSnapshot: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_nAttributeToWrite: 0x1DC, // ParticleAttributeIndex_t
-            m_nLocalSpaceCP: 0x1E0, // int32
-            m_flInterpolation: 0x1E8, // CPerParticleFloatInput
-            m_vecScale: 0x358, // CPerParticleVecInput
-            m_flBoundaryDampening: 0xA10, // float32
-            m_bSetVelocity: 0xA14, // bool
-            m_bLockToSurface: 0xA15, // bool
-            m_flGridSpacing: 0xA18, // float32
-        },
-        C_OP_CylindricalDistanceToTransform: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E0, // CPerParticleFloatInput
-            m_flInputMax: 0x350, // CPerParticleFloatInput
-            m_flOutputMin: 0x4C0, // CPerParticleFloatInput
-            m_flOutputMax: 0x630, // CPerParticleFloatInput
-            m_TransformStart: 0x7A0, // CParticleTransformInput
-            m_TransformEnd: 0x808, // CParticleTransformInput
-            m_nSetMethod: 0x870, // ParticleSetMethod_t
-            m_bActiveRange: 0x874, // bool
-            m_bAdditive: 0x875, // bool
-            m_bCapsule: 0x876, // bool
-        },
-        C_INIT_PositionPlaceOnGround: {
-            m_flOffset: 0x1E0, // CPerParticleFloatInput
-            m_flMaxTraceLength: 0x350, // CPerParticleFloatInput
-            m_vecTraceDir: 0x4C0, // CPerParticleVecInput
-            m_CollisionGroupName: 0xB78, // char[128]
-            m_nTraceSet: 0xBF8, // ParticleTraceSet_t
-            m_nTraceMissBehavior: 0xC08, // ParticleTraceMissBehavior_t
-            m_bIncludeWater: 0xC0C, // bool
-            m_nAttribute: 0xC10, // ParticleAttributeIndex_t
-            m_bSetPXYZOnly: 0xC14, // bool
-            m_bSetNormal: 0xC15, // bool
-            m_nGroundNormalAttribute: 0xC18, // ParticleAttributeIndex_t
-            m_bOffsetonColOnly: 0xC1C, // bool
-            m_flOffsetByRadiusFactor: 0xC20, // float32
-            m_nPreserveOffsetCP: 0xC24, // int32
-            m_nIgnoreCP: 0xC28, // int32
             m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
-        },
-        C_INIT_RandomScalar: {
-            m_flMin: 0x1E0, // float32
-            m_flMax: 0x1E4, // float32
-            m_flExponent: 0x1E8, // float32
-            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
-        },
-        C_OP_RenderPostProcessing: {
-            m_flPostProcessStrength: 0x228, // CPerParticleFloatInput
-            m_hPostTexture: 0x398, // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
-            m_nPriority: 0x3A0, // ParticlePostProcessPriorityGroup_t
-        },
-        C_OP_OscillateScalar: {
-            m_RateMin: 0x1D8, // float32
-            m_RateMax: 0x1DC, // float32
-            m_FrequencyMin: 0x1E0, // float32
-            m_FrequencyMax: 0x1E4, // float32
-            m_nField: 0x1E8, // ParticleAttributeIndex_t
-            m_bProportional: 0x1EC, // bool
-            m_bProportionalOp: 0x1ED, // bool
-            m_flStartTime_min: 0x1F0, // float32
-            m_flStartTime_max: 0x1F4, // float32
-            m_flEndTime_min: 0x1F8, // float32
-            m_flEndTime_max: 0x1FC, // float32
-            m_flOscMult: 0x200, // float32
-            m_flOscAdd: 0x204, // float32
-        },
-        C_OP_FadeOut: {
-            m_flFadeOutTimeMin: 0x1D8, // float32
-            m_flFadeOutTimeMax: 0x1DC, // float32
-            m_flFadeOutTimeExp: 0x1E0, // float32
-            m_flFadeBias: 0x1E4, // float32
-            m_bProportional: 0x220, // bool
-            m_bEaseInAndOut: 0x221, // bool
-        },
-        C_OP_WaterImpulseRenderer: {
-            m_vecPos: 0x228, // CPerParticleVecInput
-            m_flRadius: 0x8E0, // CPerParticleFloatInput
-            m_flMagnitude: 0xA50, // CPerParticleFloatInput
-            m_flShape: 0xBC0, // CPerParticleFloatInput
-            m_flWindSpeed: 0xD30, // CPerParticleFloatInput
-            m_flWobble: 0xEA0, // CPerParticleFloatInput
-            m_bIsRadialWind: 0x1010, // bool
-            m_nEventType: 0x1014, // EventTypeSelection_t
-        },
-        C_INIT_RandomSequence: {
-            m_nSequenceMin: 0x1E0, // int32
-            m_nSequenceMax: 0x1E4, // int32
-            m_bShuffle: 0x1E8, // bool
-            m_bLinear: 0x1E9, // bool
-            m_WeightedList: 0x1F0, // CUtlVector<SequenceWeightedList_t>
-        },
-        C_OP_RampScalarSplineSimple: {
-            m_Rate: 0x1D8, // float32
-            m_flStartTime: 0x1DC, // float32
-            m_flEndTime: 0x1E0, // float32
-            m_nField: 0x210, // ParticleAttributeIndex_t
-            m_bEaseOut: 0x214, // bool
-        },
-        C_INIT_DistanceCull: {
-            m_nControlPoint: 0x1E0, // int32
-            m_flDistance: 0x1E8, // CParticleCollectionFloatInput
-            m_bCullInside: 0x358, // bool
-        },
-        C_INIT_InitFromVectorFieldSnapshot: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_nLocalSpaceCP: 0x1E4, // int32
-            m_nWeightUpdateCP: 0x1E8, // int32
-            m_bUseVerticalVelocity: 0x1EC, // bool
-            m_vecScale: 0x1F0, // CPerParticleVecInput
-        },
-        C_OP_SetVectorAttributeToVectorExpression: {
-            m_nExpression: 0x1D8, // VectorExpressionType_t
-            m_vInput1: 0x1E0, // CPerParticleVecInput
-            m_vInput2: 0x898, // CPerParticleVecInput
-            m_flLerp: 0xF50, // CPerParticleFloatInput
-            m_nOutputField: 0x10C0, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x10C4, // ParticleSetMethod_t
-            m_bNormalizedOutput: 0x10C8, // bool
-        },
-        C_INIT_AddVectorToVector: {
-            m_vecScale: 0x1E0, // Vector
-            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
-            m_nFieldInput: 0x1F0, // ParticleAttributeIndex_t
-            m_vOffsetMin: 0x1F4, // Vector
-            m_vOffsetMax: 0x200, // Vector
-            m_randomnessParameters: 0x20C, // CRandomNumberGeneratorParameters
-        },
-        C_INIT_RemapInitialVisibilityScalar: {
             m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
             m_flInputMin: 0x1E8, // float32
             m_flInputMax: 0x1EC, // float32
             m_flOutputMin: 0x1F0, // float32
             m_flOutputMax: 0x1F4, // float32
         },
-        C_OP_RemapTransformOrientationToYaw: {
-            m_TransformInput: 0x1D8, // CParticleTransformInput
-            m_nFieldOutput: 0x240, // ParticleAttributeIndex_t
-            m_flRotOffset: 0x244, // float32
-            m_flSpinStrength: 0x248, // float32
+        C_INIT_CreateFromPlaneCache: {
+            m_vecOffsetMin: 0x1E8, // Vector
+            m_vecOffsetMax: 0x1F4, // Vector
+            m_bUseNormal: 0x201, // bool
         },
-        C_OP_RenderStatusEffect: {
-            m_pTextureColorWarp: 0x228, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureDetail2: 0x230, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureDiffuseWarp: 0x238, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureFresnelColorWarp: 0x240, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureFresnelWarp: 0x248, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureSpecularWarp: 0x250, // CStrongHandle<InfoForResourceTypeCTextureBase>
-            m_pTextureEnvMap: 0x258, // CStrongHandle<InfoForResourceTypeCTextureBase>
+        C_OP_LazyCullCompareFloat: {
+            m_flComparsion1: 0x1E0, // CPerParticleFloatInput
+            m_flComparsion2: 0x358, // CPerParticleFloatInput
+            m_flCullTime: 0x4D0, // CPerParticleFloatInput
         },
-        C_OP_RandomForce: {
-            m_MinForce: 0x1E8, // Vector
-            m_MaxForce: 0x1F4, // Vector
-            m_flStartLerpTime: 0x1E8, // float32
+        C_OP_ControlPointToRadialScreenSpace: {
+            m_nCPIn: 0x1E8, // int32
+            m_vecCP1Pos: 0x1EC, // Vector
+            m_nCPOut: 0x1F8, // int32
+            m_nCPOutField: 0x1FC, // int32
+            m_nCPSSPosOut: 0x200, // int32
         },
-        C_OP_RemapParticleCountOnScalarEndCap: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_nInputMin: 0x1DC, // int32
-            m_nInputMax: 0x1E0, // int32
+        C_OP_SpinUpdate: {
+        },
+        C_INIT_NormalOffset: {
+            m_OffsetMin: 0x1E8, // Vector
+            m_OffsetMax: 0x1F4, // Vector
+            m_nControlPointNumber: 0x200, // int32
+            m_bLocalCoords: 0x204, // bool
+            m_bNormalize: 0x205, // bool
+        },
+        C_INIT_CreationNoise: {
+            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
+            m_bAbsVal: 0x1EC, // bool
+            m_bAbsValInv: 0x1ED, // bool
+            m_flOffset: 0x1F0, // float32
+            m_flOutputMin: 0x1F4, // float32
+            m_flOutputMax: 0x1F8, // float32
+            m_flNoiseScale: 0x1FC, // float32
+            m_flNoiseScaleLoc: 0x200, // float32
+            m_vecOffsetLoc: 0x204, // Vector
+            m_flWorldTimeScale: 0x210, // float32
+        },
+        C_OP_Spin: {
+        },
+        C_OP_GameLiquidSpill: {
+            m_flLiquidContentsField: 0x230, // CParticleCollectionFloatInput
+            m_flExpirationTime: 0x3A8, // CParticleCollectionFloatInput
+            m_flRadius: 0x520, // CParticleCollectionFloatInput
+            m_bCheckExposedToSky: 0x698, // bool
+            m_nAmountAttribute: 0x69C, // ParticleAttributeIndex_t
+        },
+        C_OP_ConstrainLineLength: {
+            m_flMinDistance: 0x1E0, // float32
+            m_flMaxDistance: 0x1E4, // float32
+        },
+        C_INIT_LifespanFromVelocity: {
+            m_vecComponentScale: 0x1E8, // Vector
+            m_flTraceOffset: 0x1F4, // float32
+            m_flMaxTraceLength: 0x1F8, // float32
+            m_flTraceTolerance: 0x1FC, // float32
+            m_nMaxPlanes: 0x200, // int32
+            m_CollisionGroupName: 0x208, // char[128]
+            m_nTraceSet: 0x288, // ParticleTraceSet_t
+            m_bIncludeWater: 0x298, // bool
+        },
+        C_INIT_VelocityFromCP: {
+            m_velocityInput: 0x1E8, // CParticleCollectionVecInput
+            m_transformInput: 0x8C0, // CParticleTransformInput
+            m_flVelocityScale: 0x928, // float32
+            m_bDirectionOnly: 0x92C, // bool
+        },
+        C_OP_MovementSkinnedPositionFromCPSnapshot: {
+            m_nSnapshotControlPointNumber: 0x1E0, // int32
+            m_nControlPointNumber: 0x1E4, // int32
+            m_bRandom: 0x1E8, // bool
+            m_nRandomSeed: 0x1EC, // int32
+            m_bSetNormal: 0x1F0, // bool
+            m_bSetRadius: 0x1F1, // bool
+            m_nIndexType: 0x1F4, // SnapshotIndexType_t
+            m_flReadIndex: 0x1F8, // CPerParticleFloatInput
+            m_flIncrement: 0x370, // CParticleCollectionFloatInput
+            m_nFullLoopIncrement: 0x4E8, // CParticleCollectionFloatInput
+            m_nSnapShotStartPoint: 0x660, // CParticleCollectionFloatInput
+            m_flInterpolation: 0x7D8, // CPerParticleFloatInput
+        },
+        C_OP_OscillateVector: {
+            m_RateMin: 0x1E0, // Vector
+            m_RateMax: 0x1EC, // Vector
+            m_FrequencyMin: 0x1F8, // Vector
+            m_FrequencyMax: 0x204, // Vector
+            m_nField: 0x210, // ParticleAttributeIndex_t
+            m_bProportional: 0x214, // bool
+            m_bProportionalOp: 0x215, // bool
+            m_bOffset: 0x216, // bool
+            m_flStartTime_min: 0x218, // float32
+            m_flStartTime_max: 0x21C, // float32
+            m_flEndTime_min: 0x220, // float32
+            m_flEndTime_max: 0x224, // float32
+            m_flOscMult: 0x228, // CPerParticleFloatInput
+            m_flOscAdd: 0x3A0, // CPerParticleFloatInput
+            m_flRateScale: 0x518, // CPerParticleFloatInput
+        },
+        C_OP_PositionLock: {
+            m_TransformInput: 0x1E0, // CParticleTransformInput
+            m_flStartTime_min: 0x248, // float32
+            m_flStartTime_max: 0x24C, // float32
+            m_flStartTime_exp: 0x250, // float32
+            m_flEndTime_min: 0x254, // float32
+            m_flEndTime_max: 0x258, // float32
+            m_flEndTime_exp: 0x25C, // float32
+            m_flRange: 0x260, // float32
+            m_flRangeBias: 0x268, // CParticleCollectionFloatInput
+            m_flJumpThreshold: 0x3E0, // float32
+            m_flPrevPosScale: 0x3E4, // float32
+            m_bLockRot: 0x3E8, // bool
+            m_vecScale: 0x3F0, // CParticleCollectionVecInput
+            m_nFieldOutput: 0xAC8, // ParticleAttributeIndex_t
+            m_nFieldOutputPrev: 0xACC, // ParticleAttributeIndex_t
+        },
+        C_OP_RenderVRHapticEvent: {
+            m_nHand: 0x230, // ParticleVRHandChoiceList_t
+            m_nOutputHandCP: 0x234, // int32
+            m_nOutputField: 0x238, // int32
+            m_flAmplitude: 0x240, // CPerParticleFloatInput
+        },
+        C_OP_SetControlPointToImpactPoint: {
+            m_nCPOut: 0x1E8, // int32
+            m_nCPIn: 0x1EC, // int32
+            m_flUpdateRate: 0x1F0, // float32
+            m_flTraceLength: 0x1F8, // CParticleCollectionFloatInput
+            m_flStartOffset: 0x370, // float32
+            m_flOffset: 0x374, // float32
+            m_vecTraceDir: 0x378, // Vector
+            m_CollisionGroupName: 0x384, // char[128]
+            m_nTraceSet: 0x404, // ParticleTraceSet_t
+            m_bSetToEndpoint: 0x408, // bool
+            m_bTraceToClosestSurface: 0x409, // bool
+            m_bIncludeWater: 0x40A, // bool
+        },
+        C_OP_ReinitializeScalarEndCap: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
             m_flOutputMin: 0x1E4, // float32
             m_flOutputMax: 0x1E8, // float32
-            m_bBackwards: 0x1EC, // bool
-            m_nSetMethod: 0x1F0, // ParticleSetMethod_t
+        },
+        C_OP_TurbulenceForce: {
+            m_flNoiseCoordScale0: 0x1F0, // float32
+            m_flNoiseCoordScale1: 0x1F4, // float32
+            m_flNoiseCoordScale2: 0x1F8, // float32
+            m_flNoiseCoordScale3: 0x1FC, // float32
+            m_vecNoiseAmount0: 0x200, // Vector
+            m_vecNoiseAmount1: 0x20C, // Vector
+            m_vecNoiseAmount2: 0x218, // Vector
+            m_vecNoiseAmount3: 0x224, // Vector
+        },
+        C_OP_RemapNamedModelElementOnceTimed: {
+            m_hModel: 0x1E0, // CStrongHandle<InfoForResourceTypeCModel>
+            m_inNames: 0x1E8, // CUtlVector<CUtlString>
+            m_outNames: 0x200, // CUtlVector<CUtlString>
+            m_fallbackNames: 0x218, // CUtlVector<CUtlString>
+            m_bModelFromRenderer: 0x230, // bool
+            m_bProportional: 0x231, // bool
+            m_nFieldInput: 0x234, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x238, // ParticleAttributeIndex_t
+            m_flRemapTime: 0x23C, // float32
+        },
+        C_OP_SetControlPointToPlayer: {
+            m_nCP1: 0x1E8, // int32
+            m_vecCP1Pos: 0x1EC, // Vector
+            m_bOrientToEyes: 0x1F8, // bool
+            m_nPosition: 0x1FC, // ParticleEntityPos_t
+            m_nRadiusCP: 0x200, // int32
+            m_nRadiusCPField: 0x204, // int32
+        },
+        C_OP_EndCapTimedFreeze: {
+            m_flFreezeTime: 0x1E0, // CParticleCollectionFloatInput
+        },
+        C_OP_RenderGpuImplicit: {
+            m_bUsePerParticleRadius: 0x230, // bool
+            m_nVertexCountKb: 0x234, // uint32
+            m_nIndexCountKb: 0x238, // uint32
+            m_fGridSize: 0x240, // CParticleCollectionRendererFloatInput
+            m_fRadiusScale: 0x3B8, // CParticleCollectionRendererFloatInput
+            m_fIsosurfaceThreshold: 0x530, // CParticleCollectionRendererFloatInput
+            m_nScaleCP: 0x6A8, // int32
+            m_hMaterial: 0x6B0, // CStrongHandle<InfoForResourceTypeIMaterial2>
+        },
+        C_OP_RenderVolumetricEmitter: {
+            m_strChannelType: 0x230, // CUtlString
+            m_nType: 0x238, // ParticleVolumetricSmokeType_t
+            m_nCreationType: 0x23C, // ParticleVolumetricSmokeCreationType_t
+            m_nEventType: 0x240, // EventTypeSelection_t
+            m_vecPos: 0x248, // CPerParticleVecInput
+            m_vecVelocity: 0x920, // CPerParticleVecInput
+            m_vPrevPosition: 0xFF8, // CPerParticleVecInput
+            m_flSpeed: 0x16D0, // CPerParticleFloatInput
+            m_flRadius: 0x1848, // CPerParticleFloatInput
+            m_flDensity: 0x19C0, // CPerParticleFloatInput
+            m_flTemperature: 0x1B38, // CPerParticleFloatInput
+            m_flMagnitude: 0x1CB0, // CPerParticleFloatInput
+            m_flKillRadius: 0x1E28, // CPerParticleFloatInput
+            m_flKillDensityScale: 0x1FA0, // CPerParticleFloatInput
+            m_flFalloff: 0x2118, // CPerParticleFloatInput
+        },
+        C_OP_RemapTransformVisibilityToScalar: {
+            m_nSetMethod: 0x1E0, // ParticleSetMethod_t
+            m_TransformInput: 0x1E8, // CParticleTransformInput
+            m_nFieldOutput: 0x250, // ParticleAttributeIndex_t
+            m_flInputMin: 0x254, // float32
+            m_flInputMax: 0x258, // float32
+            m_flOutputMin: 0x25C, // float32
+            m_flOutputMax: 0x260, // float32
+            m_flRadius: 0x264, // float32
+        },
+        C_OP_RemapControlPointDirectionToVector: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flScale: 0x1E4, // float32
+            m_nControlPointNumber: 0x1E8, // int32
+        },
+        C_OP_ScreenSpacePositionOfTarget: {
+            m_vecTargetPosition: 0x1E0, // CPerParticleVecInput
+            m_bOututBehindness: 0x8B8, // bool
+            m_nBehindFieldOutput: 0x8BC, // ParticleAttributeIndex_t
+            m_flBehindOutputRemap: 0x8C0, // CParticleRemapFloatInput
+            m_nBehindSetMethod: 0xA38, // ParticleSetMethod_t
+        },
+        C_OP_DragRelativeToPlane: {
+            m_flDragAtPlane: 0x1E0, // CParticleCollectionFloatInput
+            m_flFalloff: 0x358, // CParticleCollectionFloatInput
+            m_bDirectional: 0x4D0, // bool
+            m_vecPlaneNormal: 0x4D8, // CParticleCollectionVecInput
+            m_nControlPointNumber: 0xBB0, // int32
+        },
+        C_OP_SetCPtoVector: {
+            m_nCPInput: 0x1E0, // int32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+        },
+        C_INIT_RandomYaw: {
+        },
+        C_OP_SnapshotRigidSkinToBones: {
+            m_bTransformNormals: 0x1E0, // bool
+            m_bTransformRadii: 0x1E1, // bool
+            m_nControlPointNumber: 0x1E4, // int32
+        },
+        C_OP_SetSingleControlPointPosition: {
+            m_bSetOnce: 0x1E8, // bool
+            m_nCP1: 0x1EC, // int32
+            m_vecCP1Pos: 0x1F0, // CParticleCollectionVecInput
+            m_transformInput: 0x8C8, // CParticleTransformInput
+        },
+        C_OP_RemapCPtoScalar: {
+            m_nCPInput: 0x1E0, // int32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_nField: 0x1E8, // int32
+            m_flInputMin: 0x1EC, // float32
+            m_flInputMax: 0x1F0, // float32
+            m_flOutputMin: 0x1F4, // float32
+            m_flOutputMax: 0x1F8, // float32
+            m_flStartTime: 0x1FC, // float32
+            m_flEndTime: 0x200, // float32
+            m_flInterpRate: 0x204, // float32
+            m_nSetMethod: 0x208, // ParticleSetMethod_t
+        },
+        C_OP_RemapNamedModelMeshGroupEndCap: {
+        },
+        C_OP_PercentageBetweenTransformsVector: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E4, // float32
+            m_flInputMax: 0x1E8, // float32
+            m_vecOutputMin: 0x1EC, // Vector
+            m_vecOutputMax: 0x1F8, // Vector
+            m_TransformStart: 0x208, // CParticleTransformInput
+            m_TransformEnd: 0x270, // CParticleTransformInput
+            m_nSetMethod: 0x2D8, // ParticleSetMethod_t
+            m_bActiveRange: 0x2DC, // bool
+            m_bRadialCheck: 0x2DD, // bool
+        },
+        C_OP_RenderScreenVelocityRotate: {
+            m_flRotateRateDegrees: 0x230, // float32
+            m_flForwardDegrees: 0x234, // float32
+        },
+        C_OP_UpdateLightSource: {
+            m_vColorTint: 0x1E0, // Color
+            m_flBrightnessScale: 0x1E4, // float32
+            m_flRadiusScale: 0x1E8, // float32
+            m_flMinimumLightingRadius: 0x1EC, // float32
+            m_flMaximumLightingRadius: 0x1F0, // float32
+            m_flPositionDampingConstant: 0x1F4, // float32
+        },
+        C_INIT_CreateWithinBox: {
+            m_vecMin: 0x1E8, // CPerParticleVecInput
+            m_vecMax: 0x8C0, // CPerParticleVecInput
+            m_nControlPointNumber: 0xF98, // int32
+            m_bLocalSpace: 0xF9C, // bool
+            m_randomnessParameters: 0xFA0, // CRandomNumberGeneratorParameters
+            m_bUseNewCode: 0xFA8, // bool
+        },
+        C_OP_ChooseRandomChildrenInGroup: {
+            m_nChildGroupID: 0x1E8, // int32
+            m_flNumberOfChildren: 0x1F0, // CParticleCollectionFloatInput
+        },
+        C_OP_ControlpointLight: {
+            m_flScale: 0x1E0, // float32
+            m_nControlPoint1: 0x670, // int32
+            m_nControlPoint2: 0x674, // int32
+            m_nControlPoint3: 0x678, // int32
+            m_nControlPoint4: 0x67C, // int32
+            m_vecCPOffset1: 0x680, // Vector
+            m_vecCPOffset2: 0x68C, // Vector
+            m_vecCPOffset3: 0x698, // Vector
+            m_vecCPOffset4: 0x6A4, // Vector
+            m_LightFiftyDist1: 0x6B0, // float32
+            m_LightZeroDist1: 0x6B4, // float32
+            m_LightFiftyDist2: 0x6B8, // float32
+            m_LightZeroDist2: 0x6BC, // float32
+            m_LightFiftyDist3: 0x6C0, // float32
+            m_LightZeroDist3: 0x6C4, // float32
+            m_LightFiftyDist4: 0x6C8, // float32
+            m_LightZeroDist4: 0x6CC, // float32
+            m_LightColor1: 0x6D0, // Color
+            m_LightColor2: 0x6D4, // Color
+            m_LightColor3: 0x6D8, // Color
+            m_LightColor4: 0x6DC, // Color
+            m_bLightType1: 0x6E0, // bool
+            m_bLightType2: 0x6E1, // bool
+            m_bLightType3: 0x6E2, // bool
+            m_bLightType4: 0x6E3, // bool
+            m_bLightDynamic1: 0x6E4, // bool
+            m_bLightDynamic2: 0x6E5, // bool
+            m_bLightDynamic3: 0x6E6, // bool
+            m_bLightDynamic4: 0x6E7, // bool
+            m_bUseNormal: 0x6E8, // bool
+            m_bUseHLambert: 0x6E9, // bool
+            m_bClampLowerRange: 0x6EE, // bool
+            m_bClampUpperRange: 0x6EF, // bool
+        },
+        C_OP_VectorFieldSnapshot: {
+            m_nControlPointNumber: 0x1E0, // int32
+            m_nAttributeToWrite: 0x1E4, // ParticleAttributeIndex_t
+            m_nLocalSpaceCP: 0x1E8, // int32
+            m_flInterpolation: 0x1F0, // CPerParticleFloatInput
+            m_vecScale: 0x368, // CPerParticleVecInput
+            m_flBoundaryDampening: 0xA40, // float32
+            m_bSetVelocity: 0xA44, // bool
+            m_bLockToSurface: 0xA45, // bool
+            m_flGridSpacing: 0xA48, // float32
+        },
+        C_OP_CylindricalDistanceToTransform: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E8, // CPerParticleFloatInput
+            m_flInputMax: 0x360, // CPerParticleFloatInput
+            m_flOutputMin: 0x4D8, // CPerParticleFloatInput
+            m_flOutputMax: 0x650, // CPerParticleFloatInput
+            m_TransformStart: 0x7C8, // CParticleTransformInput
+            m_TransformEnd: 0x830, // CParticleTransformInput
+            m_nSetMethod: 0x898, // ParticleSetMethod_t
+            m_bActiveRange: 0x89C, // bool
+            m_bAdditive: 0x89D, // bool
+            m_bCapsule: 0x89E, // bool
+        },
+        C_INIT_PositionPlaceOnGround: {
+            m_flOffset: 0x1E8, // CPerParticleFloatInput
+            m_flMaxTraceLength: 0x360, // CPerParticleFloatInput
+            m_vecTraceDir: 0x4D8, // CPerParticleVecInput
+            m_CollisionGroupName: 0xBB0, // char[128]
+            m_nTraceSet: 0xC30, // ParticleTraceSet_t
+            m_nTraceMissBehavior: 0xC40, // ParticleTraceMissBehavior_t
+            m_bIncludeWater: 0xC44, // bool
+            m_nAttribute: 0xC48, // ParticleAttributeIndex_t
+            m_bSetPXYZOnly: 0xC4C, // bool
+            m_bSetNormal: 0xC4D, // bool
+            m_nGroundNormalAttribute: 0xC50, // ParticleAttributeIndex_t
+            m_bOffsetonColOnly: 0xC54, // bool
+            m_flOffsetByRadiusFactor: 0xC58, // float32
+            m_nPreserveOffsetCP: 0xC5C, // int32
+            m_nIgnoreCP: 0xC60, // int32
+        },
+        C_INIT_RandomScalar: {
+            m_flMin: 0x1E8, // float32
+            m_flMax: 0x1EC, // float32
+            m_flExponent: 0x1F0, // float32
+            m_nFieldOutput: 0x1F4, // ParticleAttributeIndex_t
+        },
+        C_OP_RenderPostProcessing: {
+            m_flPostProcessStrength: 0x230, // CPerParticleFloatInput
+            m_hPostTexture: 0x3A8, // CStrongHandle<InfoForResourceTypeCPostProcessingResource>
+            m_nPriority: 0x3B0, // ParticlePostProcessPriorityGroup_t
+        },
+        C_OP_OscillateScalar: {
+            m_RateMin: 0x1E0, // float32
+            m_RateMax: 0x1E4, // float32
+            m_FrequencyMin: 0x1E8, // float32
+            m_FrequencyMax: 0x1EC, // float32
+            m_nField: 0x1F0, // ParticleAttributeIndex_t
+            m_bProportional: 0x1F4, // bool
+            m_bProportionalOp: 0x1F5, // bool
+            m_flStartTime_min: 0x1F8, // float32
+            m_flStartTime_max: 0x1FC, // float32
+            m_flEndTime_min: 0x200, // float32
+            m_flEndTime_max: 0x204, // float32
+            m_flOscMult: 0x208, // float32
+            m_flOscAdd: 0x20C, // float32
+        },
+        C_OP_FadeOut: {
+            m_flFadeOutTimeMin: 0x1E0, // float32
+            m_flFadeOutTimeMax: 0x1E4, // float32
+            m_flFadeOutTimeExp: 0x1E8, // float32
+            m_flFadeBias: 0x1EC, // float32
+            m_bProportional: 0x220, // bool
+            m_bEaseInAndOut: 0x221, // bool
+        },
+        C_OP_WaterImpulseRenderer: {
+            m_vecPos: 0x230, // CPerParticleVecInput
+            m_flRadius: 0x908, // CPerParticleFloatInput
+            m_flMagnitude: 0xA80, // CPerParticleFloatInput
+            m_flShape: 0xBF8, // CPerParticleFloatInput
+            m_flWindSpeed: 0xD70, // CPerParticleFloatInput
+            m_flWobble: 0xEE8, // CPerParticleFloatInput
+            m_bIsRadialWind: 0x1060, // bool
+            m_nEventType: 0x1064, // EventTypeSelection_t
+        },
+        C_OP_RampScalarSplineSimple: {
+            m_Rate: 0x1E0, // float32
+            m_flStartTime: 0x1E4, // float32
+            m_flEndTime: 0x1E8, // float32
+            m_nField: 0x210, // ParticleAttributeIndex_t
+            m_bEaseOut: 0x214, // bool
+        },
+        C_INIT_DistanceCull: {
+            m_nControlPoint: 0x1E8, // int32
+            m_flDistance: 0x1F0, // CParticleCollectionFloatInput
+            m_bCullInside: 0x368, // bool
+        },
+        C_INIT_InitFromVectorFieldSnapshot: {
+            m_nControlPointNumber: 0x1E8, // int32
+            m_nLocalSpaceCP: 0x1EC, // int32
+            m_nWeightUpdateCP: 0x1F0, // int32
+            m_bUseVerticalVelocity: 0x1F4, // bool
+            m_vecScale: 0x1F8, // CPerParticleVecInput
+        },
+        C_OP_SetVectorAttributeToVectorExpression: {
+            m_nExpression: 0x1E0, // VectorExpressionType_t
+            m_vInput1: 0x1E8, // CPerParticleVecInput
+            m_vInput2: 0x8C0, // CPerParticleVecInput
+            m_flLerp: 0xF98, // CPerParticleFloatInput
+            m_nOutputField: 0x1110, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x1114, // ParticleSetMethod_t
+            m_bNormalizedOutput: 0x1118, // bool
+        },
+        C_INIT_AddVectorToVector: {
+            m_vecScale: 0x1E8, // Vector
+            m_nFieldOutput: 0x1F4, // ParticleAttributeIndex_t
+            m_nFieldInput: 0x1F8, // ParticleAttributeIndex_t
+            m_vOffsetMin: 0x1FC, // Vector
+            m_vOffsetMax: 0x208, // Vector
+            m_randomnessParameters: 0x214, // CRandomNumberGeneratorParameters
+        },
+        C_INIT_RemapInitialVisibilityScalar: {
+            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1F0, // float32
+            m_flInputMax: 0x1F4, // float32
+            m_flOutputMin: 0x1F8, // float32
+            m_flOutputMax: 0x1FC, // float32
+        },
+        C_OP_RemapTransformOrientationToYaw: {
+            m_TransformInput: 0x1E0, // CParticleTransformInput
+            m_nFieldOutput: 0x248, // ParticleAttributeIndex_t
+            m_flRotOffset: 0x24C, // float32
+            m_flSpinStrength: 0x250, // float32
+        },
+        C_OP_RenderStatusEffect: {
+            m_pTextureColorWarp: 0x230, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureDetail2: 0x238, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureDiffuseWarp: 0x240, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureFresnelColorWarp: 0x248, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureFresnelWarp: 0x250, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureSpecularWarp: 0x258, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureEnvMap: 0x260, // CStrongHandle<InfoForResourceTypeCTextureBase>
+        },
+        C_OP_RandomForce: {
+            m_MinForce: 0x1F0, // Vector
+            m_MaxForce: 0x1FC, // Vector
+        },
+        C_OP_RemapParticleCountOnScalarEndCap: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_nInputMin: 0x1E4, // int32
+            m_nInputMax: 0x1E8, // int32
+            m_flOutputMin: 0x1EC, // float32
+            m_flOutputMax: 0x1F0, // float32
+            m_bBackwards: 0x1F4, // bool
+            m_nSetMethod: 0x1F8, // ParticleSetMethod_t
         },
         ParticlePreviewState_t: {
             m_previewModel: 0x0, // CUtlString
@@ -1784,632 +1695,61 @@ export const Schemas = {
             m_vecPreviewGravity: 0x58, // Vector
             m_vecPreviewWind: 0x64, // Vector
         },
+        C_OP_LocalAccelerationForce: {
+            m_nCP: 0x1F0, // int32
+            m_nScaleCP: 0x1F4, // int32
+            m_vecAccel: 0x1F8, // CParticleCollectionVecInput
+        },
         C_OP_ModelCull: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_bBoundBox: 0x1DC, // bool
-            m_bCullOutside: 0x1DD, // bool
-            m_bUseBones: 0x1DE, // bool
-            m_HitboxSetName: 0x1DF, // char[128]
+            m_nControlPointNumber: 0x1E0, // int32
+            m_bBoundBox: 0x1E4, // bool
+            m_bCullOutside: 0x1E5, // bool
+            m_bUseBones: 0x1E6, // bool
+            m_HitboxSetName: 0x1E7, // char[128]
         },
         C_OP_SetFloat: {
-            m_InputValue: 0x1D8, // CPerParticleFloatInput
-            m_nOutputField: 0x348, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x34C, // ParticleSetMethod_t
-            m_Lerp: 0x350, // CPerParticleFloatInput
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
+            m_InputValue: 0x1E0, // CPerParticleFloatInput
+            m_nOutputField: 0x358, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x35C, // ParticleSetMethod_t
+            m_Lerp: 0x360, // CPerParticleFloatInput
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
         },
         C_INIT_RemapTransformToVector: {
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_vInputMin: 0x1E4, // Vector
-            m_vInputMax: 0x1F0, // Vector
-            m_vOutputMin: 0x1FC, // Vector
-            m_vOutputMax: 0x208, // Vector
-            m_TransformInput: 0x218, // CParticleTransformInput
-            m_LocalSpaceTransform: 0x280, // CParticleTransformInput
-            m_flStartTime: 0x2E8, // float32
-            m_flEndTime: 0x2EC, // float32
-            m_nSetMethod: 0x2F0, // ParticleSetMethod_t
-            m_bOffset: 0x2F4, // bool
-            m_bAccelerate: 0x2F5, // bool
-            m_flRemapBias: 0x2F8, // float32
+            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
+            m_vInputMin: 0x1EC, // Vector
+            m_vInputMax: 0x1F8, // Vector
+            m_vOutputMin: 0x204, // Vector
+            m_vOutputMax: 0x210, // Vector
+            m_TransformInput: 0x220, // CParticleTransformInput
+            m_LocalSpaceTransform: 0x288, // CParticleTransformInput
+            m_flStartTime: 0x2F0, // float32
+            m_flEndTime: 0x2F4, // float32
+            m_nSetMethod: 0x2F8, // ParticleSetMethod_t
+            m_bOffset: 0x2FC, // bool
+            m_bAccelerate: 0x2FD, // bool
+            m_flRemapBias: 0x300, // float32
         },
         C_OP_ScreenSpaceDistanceToEdge: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flMaxDistFromEdge: 0x1E0, // CPerParticleFloatInput
-            m_flOutputRemap: 0x350, // CParticleRemapFloatInput
-            m_nSetMethod: 0x4C0, // ParticleSetMethod_t
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flMaxDistFromEdge: 0x1E8, // CPerParticleFloatInput
+            m_flOutputRemap: 0x360, // CParticleRemapFloatInput
+            m_nSetMethod: 0x4D8, // ParticleSetMethod_t
+        },
+        C_OP_RenderStatusEffectTf: {
+            m_pTextureColorWarp: 0x230, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureNormal: 0x238, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureMetalness: 0x240, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureRoughness: 0x248, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureSelfIllum: 0x250, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureDetail: 0x258, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureEnvMap: 0x260, // CStrongHandle<InfoForResourceTypeCTextureBase>
         },
         C_OP_RemapVectortoCP: {
-            m_nOutControlPointNumber: 0x1D8, // int32
-            m_nFieldInput: 0x1DC, // ParticleAttributeIndex_t
-            m_nParticleNumber: 0x1E0, // int32
+            m_nOutControlPointNumber: 0x1E0, // int32
+            m_nFieldInput: 0x1E4, // ParticleAttributeIndex_t
+            m_nParticleNumber: 0x1E8, // int32
         },
         C_OP_SetFromCPSnapshot: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_strSnapshotSubset: 0x1E0, // CUtlString
-            m_nAttributeToRead: 0x1E8, // ParticleAttributeIndex_t
-            m_nAttributeToWrite: 0x1EC, // ParticleAttributeIndex_t
-            m_nLocalSpaceCP: 0x1F0, // int32
-            m_bRandom: 0x1F4, // bool
-            m_bReverse: 0x1F5, // bool
-            m_nRandomSeed: 0x1F8, // int32
-            m_nSnapShotStartPoint: 0x200, // CParticleCollectionFloatInput
-            m_nSnapShotIncrement: 0x370, // CParticleCollectionFloatInput
-            m_flInterpolation: 0x4E0, // CPerParticleFloatInput
-            m_bSubSample: 0x650, // bool
-            m_bPrev: 0x651, // bool
-        },
-        C_OP_DistanceBetweenCPsToCP: {
-            m_nStartCP: 0x1E0, // int32
-            m_nEndCP: 0x1E4, // int32
-            m_nOutputCP: 0x1E8, // int32
-            m_nOutputCPField: 0x1EC, // int32
-            m_bSetOnce: 0x1F0, // bool
-            m_flInputMin: 0x1F4, // float32
-            m_flInputMax: 0x1F8, // float32
-            m_flOutputMin: 0x1FC, // float32
-            m_flOutputMax: 0x200, // float32
-            m_flMaxTraceLength: 0x204, // float32
-            m_flLOSScale: 0x208, // float32
-            m_bLOS: 0x20C, // bool
-            m_CollisionGroupName: 0x20D, // char[128]
-            m_nTraceSet: 0x290, // ParticleTraceSet_t
-            m_nSetParent: 0x294, // ParticleParentSetMode_t
-        },
-        C_OP_SetControlPointToHand: {
-            m_nCP1: 0x1E0, // int32
-            m_nHand: 0x1E4, // int32
-            m_vecCP1Pos: 0x1E8, // Vector
-            m_bOrientToHand: 0x1F4, // bool
-        },
-        C_OP_DistanceCull: {
-            m_nControlPoint: 0x1D8, // int32
-            m_vecPointOffset: 0x1DC, // Vector
-            m_flDistance: 0x1E8, // CParticleCollectionFloatInput
-            m_bCullInside: 0x358, // bool
-            m_nAttribute: 0x35C, // ParticleAttributeIndex_t
-        },
-        C_INIT_CreateAlongPath: {
-            m_fMaxDistance: 0x1E0, // float32
-            m_PathParams: 0x1F0, // CPathParameters
-            m_bUseRandomCPs: 0x230, // bool
-            m_vEndOffset: 0x234, // Vector
-            m_bSaveOffset: 0x240, // bool
-        },
-        C_OP_SetControlPointsToModelParticles: {
-            m_HitboxSetName: 0x1D8, // char[128]
-            m_AttachmentName: 0x258, // char[128]
-            m_nFirstControlPoint: 0x2D8, // int32
-            m_nNumControlPoints: 0x2DC, // int32
-            m_nFirstSourcePoint: 0x2E0, // int32
-            m_bSkin: 0x2E4, // bool
-            m_bAttachment: 0x2E5, // bool
-        },
-        C_OP_ColorInterpolateRandom: {
-            m_ColorFadeMin: 0x1D8, // Color
-            m_ColorFadeMax: 0x1F4, // Color
-            m_flFadeStartTime: 0x204, // float32
-            m_flFadeEndTime: 0x208, // float32
-            m_nFieldOutput: 0x20C, // ParticleAttributeIndex_t
-            m_bEaseInOut: 0x210, // bool
-        },
-        C_INIT_RemapNamedModelSequenceToScalar: {
-        },
-        C_OP_DecayClampCount: {
-            m_nCount: 0x1D8, // CParticleCollectionFloatInput
-        },
-        CRandomNumberGeneratorParameters: {
-            m_bDistributeEvenly: 0x0, // bool
-            m_nSeed: 0x4, // int32
-        },
-        C_INIT_ColorLitPerParticle: {
-            m_ColorMin: 0x1F8, // Color
-            m_ColorMax: 0x1FC, // Color
-            m_TintMin: 0x200, // Color
-            m_TintMax: 0x204, // Color
-            m_flTintPerc: 0x208, // float32
-            m_nTintBlendMode: 0x20C, // ParticleColorBlendMode_t
-            m_flLightAmplification: 0x210, // float32
-        },
-        C_INIT_SetAttributeToScalarExpression: {
-            m_nExpression: 0x1E0, // ScalarExpressionType_t
-            m_flInput1: 0x1E8, // CPerParticleFloatInput
-            m_flInput2: 0x358, // CPerParticleFloatInput
-            m_flOutputRemap: 0x4C8, // CParticleRemapFloatInput
-            m_nOutputField: 0x638, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x63C, // ParticleSetMethod_t
-        },
-        C_INIT_CreateOnGrid: {
-            m_nXCount: 0x1E0, // CParticleCollectionFloatInput
-            m_nYCount: 0x350, // CParticleCollectionFloatInput
-            m_nZCount: 0x4C0, // CParticleCollectionFloatInput
-            m_nXSpacing: 0x630, // CParticleCollectionFloatInput
-            m_nYSpacing: 0x7A0, // CParticleCollectionFloatInput
-            m_nZSpacing: 0x910, // CParticleCollectionFloatInput
-            m_nControlPointNumber: 0xA80, // int32
-            m_bLocalSpace: 0xA84, // bool
-            m_bCenter: 0xA85, // bool
-            m_bHollow: 0xA86, // bool
-        },
-        C_OP_RampCPLinearRandom: {
-            m_nOutControlPointNumber: 0x1E0, // int32
-            m_vecRateMin: 0x1E4, // Vector
-            m_vecRateMax: 0x1F0, // Vector
-        },
-        C_INIT_RandomAlphaWindowThreshold: {
-            m_flMin: 0x1E0, // float32
-            m_flMax: 0x1E4, // float32
-            m_flExponent: 0x1E8, // float32
-        },
-        C_INIT_CreateOnModelAtHeight: {
-            m_bUseBones: 0x1E0, // bool
-            m_bForceZ: 0x1E1, // bool
-            m_nControlPointNumber: 0x1E4, // int32
-            m_nHeightCP: 0x1E8, // int32
-            m_bUseWaterHeight: 0x1EC, // bool
-            m_flDesiredHeight: 0x1F0, // CParticleCollectionFloatInput
-            m_vecHitBoxScale: 0x360, // CParticleCollectionVecInput
-            m_vecDirectionBias: 0xA18, // CParticleCollectionVecInput
-            m_nBiasType: 0x10D0, // ParticleHitboxBiasType_t
-            m_bLocalCoords: 0x10D4, // bool
-            m_bPreferMovingBoxes: 0x10D5, // bool
-            m_HitboxSetName: 0x10D6, // char[128]
-            m_flHitboxVelocityScale: 0x1158, // CParticleCollectionFloatInput
-            m_flMaxBoneVelocity: 0x12C8, // CParticleCollectionFloatInput
-        },
-        C_OP_ModelSurfaceSnapshotGenerator: {
-            m_nCPSnapshot: 0x1E0, // int32
-            m_modelInput: 0x1E8, // CParticleModelInput
-            m_flRecalcRate: 0x248, // CParticleCollectionFloatInput
-            m_flUSpacing: 0x3B8, // CParticleCollectionFloatInput
-            m_flVSpacing: 0x528, // CParticleCollectionFloatInput
-            m_flSurfaceOffset: 0x698, // CParticleCollectionFloatInput
-            m_bSetNormal: 0x808, // bool
-            m_bSetUp: 0x809, // bool
-            m_bSetGravity: 0x80A, // bool
-            m_bSetUV: 0x80B, // bool
-        },
-        C_OP_RestartAfterDuration: {
-            m_flDurationMin: 0x1D8, // float32
-            m_flDurationMax: 0x1DC, // float32
-            m_nCP: 0x1E0, // int32
-            m_nCPField: 0x1E4, // int32
-            m_nChildGroupID: 0x1E8, // int32
-            m_bOnlyChildren: 0x1EC, // bool
-        },
-        C_OP_RenderClothForce: {
-        },
-        C_OP_RemapVisibilityScalar: {
-            m_nFieldInput: 0x1D8, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E0, // float32
-            m_flInputMax: 0x1E4, // float32
-            m_flOutputMin: 0x1E8, // float32
-            m_flOutputMax: 0x1EC, // float32
-            m_flRadiusScale: 0x1F0, // float32
-        },
-        C_INIT_CreateSequentialPathV2: {
-            m_fMaxDistance: 0x1E0, // CPerParticleFloatInput
-            m_flNumToAssign: 0x350, // CParticleCollectionFloatInput
-            m_bLoop: 0x4C0, // bool
-            m_bCPPairs: 0x4C1, // bool
-            m_bSaveOffset: 0x4C2, // bool
-            m_PathParams: 0x4D0, // CPathParameters
-        },
-        VecInputMaterialVariable_t: {
-            m_strVariable: 0x0, // CUtlString
-            m_vecInput: 0x8, // CParticleCollectionVecInput
-        },
-        C_INIT_RemapInitialDirectionToTransformToVector: {
-            m_TransformInput: 0x1E0, // CParticleTransformInput
-            m_nFieldOutput: 0x248, // ParticleAttributeIndex_t
-            m_flScale: 0x24C, // float32
-            m_flOffsetRot: 0x250, // float32
-            m_vecOffsetAxis: 0x254, // Vector
-            m_bNormalize: 0x260, // bool
-        },
-        C_OP_LockToSavedSequentialPathV2: {
-            m_flFadeStart: 0x1D8, // float32
-            m_flFadeEnd: 0x1DC, // float32
-            m_bCPPairs: 0x1E0, // bool
-            m_PathParams: 0x1F0, // CPathParameters
-        },
-        C_OP_NormalLock: {
-            m_nControlPointNumber: 0x1D8, // int32
-        },
-        C_INIT_RemapTransformOrientationToRotations: {
-            m_TransformInput: 0x1E0, // CParticleTransformInput
-            m_vecRotation: 0x248, // Vector
-            m_bUseQuat: 0x254, // bool
-            m_bWriteNormal: 0x255, // bool
-        },
-        C_OP_Cull: {
-            m_flCullPerc: 0x1D8, // float32
-            m_flCullStart: 0x1DC, // float32
-            m_flCullEnd: 0x1E0, // float32
-            m_flCullExp: 0x1E4, // float32
-        },
-        C_INIT_RandomYawFlip: {
-            m_flPercent: 0x1E0, // float32
-        },
-        SequenceWeightedList_t: {
-            m_nSequence: 0x0, // int32
-            m_flRelativeWeight: 0x4, // float32
-        },
-        C_OP_ReadFromNeighboringParticle: {
-            m_nFieldInput: 0x1D8, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_nIncrement: 0x1E0, // int32
-            m_DistanceCheck: 0x1E8, // CPerParticleFloatInput
-            m_flInterpolation: 0x358, // CPerParticleFloatInput
-        },
-        C_OP_RenderText: {
-            m_OutlineColor: 0x228, // Color
-            m_DefaultText: 0x230, // CUtlString
-        },
-        C_OP_LerpToInitialPosition: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_flInterpolation: 0x1E0, // CPerParticleFloatInput
-            m_nCacheField: 0x350, // ParticleAttributeIndex_t
-            m_flScale: 0x358, // CParticleCollectionFloatInput
-            m_vecScale: 0x4C8, // CParticleCollectionVecInput
-        },
-        C_INIT_RandomRotation: {
-        },
-        C_OP_LerpEndCapVector: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_vecOutput: 0x1DC, // Vector
-            m_flLerpTime: 0x1E8, // float32
-        },
-        C_OP_VelocityDecay: {
-            m_flMinVelocity: 0x1D8, // float32
-        },
-        C_OP_SetCPOrientationToPointAtCP: {
-            m_nInputCP: 0x1E0, // int32
-            m_nOutputCP: 0x1E4, // int32
-            m_flInterpolation: 0x1E8, // CParticleCollectionFloatInput
-            m_b2DOrientation: 0x358, // bool
-            m_bAvoidSingularity: 0x359, // bool
-            m_bPointAway: 0x35A, // bool
-        },
-        C_OP_LockToPointList: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_pointList: 0x1E0, // CUtlVector<PointDefinition_t>
-            m_bPlaceAlongPath: 0x1F8, // bool
-            m_bClosedLoop: 0x1F9, // bool
-            m_nNumPointsAlongPath: 0x1FC, // int32
-        },
-        C_OP_MovementPlaceOnGround: {
-            m_flOffset: 0x1D8, // CPerParticleFloatInput
-            m_flMaxTraceLength: 0x348, // float32
-            m_flTolerance: 0x34C, // float32
-            m_vecTraceDir: 0x350, // CPerParticleVecInput
-            m_flTraceOffset: 0xA08, // float32
-            m_flLerpRate: 0xA0C, // float32
-            m_CollisionGroupName: 0xA10, // char[128]
-            m_nTraceSet: 0xA90, // ParticleTraceSet_t
-            m_nRefCP1: 0xA94, // int32
-            m_nRefCP2: 0xA98, // int32
-            m_nLerpCP: 0xA9C, // int32
-            m_nTraceMissBehavior: 0xAA8, // ParticleTraceMissBehavior_t
-            m_bIncludeShotHull: 0xAAC, // bool
-            m_bIncludeWater: 0xAAD, // bool
-            m_bSetNormal: 0xAB0, // bool
-            m_bScaleOffset: 0xAB1, // bool
-            m_nPreserveOffsetCP: 0xAB4, // int32
-            m_nIgnoreCP: 0xAB8, // int32
-        },
-        C_OP_SetCPOrientationToDirection: {
-            m_nInputControlPoint: 0x1D8, // int32
-            m_nOutputControlPoint: 0x1DC, // int32
-        },
-        C_OP_RemapCrossProductOfTwoVectorsToVector: {
-            m_InputVec1: 0x1D8, // CPerParticleVecInput
-            m_InputVec2: 0x890, // CPerParticleVecInput
-            m_nFieldOutput: 0xF48, // ParticleAttributeIndex_t
-            m_bNormalize: 0xF4C, // bool
-        },
-        C_OP_RemapTransformOrientationToRotations: {
-            m_TransformInput: 0x1D8, // CParticleTransformInput
-            m_vecRotation: 0x240, // Vector
-            m_bUseQuat: 0x24C, // bool
-            m_bWriteNormal: 0x24D, // bool
-        },
-        C_INIT_RandomRotationSpeed: {
-        },
-        C_OP_InheritFromParentParticlesV2: {
-            m_flScale: 0x1D8, // CPerParticleFloatInput
-            m_nFieldOutput: 0x348, // ParticleAttributeIndex_t
-            m_nIncrement: 0x350, // CPerParticleFloatInput
-            m_bSubSample: 0x4C0, // bool
-            m_bRandomDistribution: 0x4C1, // bool
-            m_bReverse: 0x4C2, // bool
-            m_nMissingParentBehavior: 0x4C4, // MissingParentInheritBehavior_t
-            m_flInterpolation: 0x4C8, // CPerParticleFloatInput
-        },
-        C_INIT_RandomSecondSequence: {
-            m_nSequenceMin: 0x1E0, // int32
-            m_nSequenceMax: 0x1E4, // int32
-        },
-        C_OP_SetFloatCollection: {
-            m_InputValue: 0x1D8, // CParticleCollectionFloatInput
-            m_nOutputField: 0x348, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x34C, // ParticleSetMethod_t
-            m_Lerp: 0x350, // CParticleCollectionFloatInput
-        },
-        PointDefinition_t: {
-            m_nControlPoint: 0x0, // int32
-            m_bLocalCoords: 0x4, // bool
-            m_vOffset: 0x8, // Vector
-        },
-        C_OP_Diffusion: {
-            m_flRadiusScale: 0x1D8, // float32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_nVoxelGridResolution: 0x1E0, // int32
-        },
-        C_INIT_AgeNoise: {
-            m_bAbsVal: 0x1E0, // bool
-            m_bAbsValInv: 0x1E1, // bool
-            m_flOffset: 0x1E4, // float32
-            m_flAgeMin: 0x1E8, // float32
-            m_flAgeMax: 0x1EC, // float32
-            m_flNoiseScale: 0x1F0, // float32
-            m_flNoiseScaleLoc: 0x1F4, // float32
-            m_vecOffsetLoc: 0x1F8, // Vector
-        },
-        C_OP_RemapVectorComponentToScalar: {
-            m_nFieldInput: 0x1D8, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_nComponent: 0x1E0, // int32
-        },
-        CGeneralRandomRotation: {
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_flDegrees: 0x1E4, // float32
-            m_flDegreesMin: 0x1E8, // float32
-            m_flDegreesMax: 0x1EC, // float32
-            m_flRotationRandExponent: 0x1F0, // float32
-            m_bRandomlyFlipDirection: 0x1F4, // bool
-        },
-        C_OP_DistanceBetweenVecs: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_vecPoint1: 0x1E0, // CPerParticleVecInput
-            m_vecPoint2: 0x898, // CPerParticleVecInput
-            m_flInputMin: 0xF50, // CPerParticleFloatInput
-            m_flInputMax: 0x10C0, // CPerParticleFloatInput
-            m_flOutputMin: 0x1230, // CPerParticleFloatInput
-            m_flOutputMax: 0x13A0, // CPerParticleFloatInput
-            m_nSetMethod: 0x1510, // ParticleSetMethod_t
-            m_bDeltaTime: 0x1514, // bool
-        },
-        C_OP_DampenToCP: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_flRange: 0x1DC, // float32
-            m_flScale: 0x1E0, // float32
-        },
-        C_OP_CalculateVectorAttribute: {
-            m_vStartValue: 0x1D8, // Vector
-            m_nFieldInput1: 0x1E4, // ParticleAttributeIndex_t
-            m_flInputScale1: 0x1E8, // float32
-            m_nFieldInput2: 0x1EC, // ParticleAttributeIndex_t
-            m_flInputScale2: 0x1F0, // float32
-            m_nControlPointInput1: 0x1F4, // ControlPointReference_t
-            m_flControlPointScale1: 0x208, // float32
-            m_nControlPointInput2: 0x20C, // ControlPointReference_t
-            m_flControlPointScale2: 0x220, // float32
-            m_nFieldOutput: 0x224, // ParticleAttributeIndex_t
-            m_vFinalOutputScale: 0x228, // Vector
-        },
-        C_OP_LockToBone: {
-            m_modelInput: 0x1D8, // CParticleModelInput
-            m_transformInput: 0x238, // CParticleTransformInput
-            m_flLifeTimeFadeStart: 0x2A0, // float32
-            m_flLifeTimeFadeEnd: 0x2A4, // float32
-            m_flJumpThreshold: 0x2A8, // float32
-            m_flPrevPosScale: 0x2AC, // float32
-            m_HitboxSetName: 0x2B0, // char[128]
-            m_bRigid: 0x330, // bool
-            m_bUseBones: 0x331, // bool
-            m_nFieldOutput: 0x334, // ParticleAttributeIndex_t
-            m_nFieldOutputPrev: 0x338, // ParticleAttributeIndex_t
-            m_nRotationSetType: 0x33C, // ParticleRotationLockType_t
-            m_bRigidRotationLock: 0x340, // bool
-            m_vecRotation: 0x348, // CPerParticleVecInput
-            m_flRotLerp: 0xA00, // CPerParticleFloatInput
-        },
-        C_OP_RemapNamedModelBodyPartOnceTimed: {
-        },
-        C_OP_ScreenSpaceRotateTowardTarget: {
-            m_vecTargetPosition: 0x1D8, // CPerParticleVecInput
-            m_flOutputRemap: 0x890, // CParticleRemapFloatInput
-            m_nSetMethod: 0xA00, // ParticleSetMethod_t
-            m_flScreenEdgeAlignmentDistance: 0xA08, // CPerParticleFloatInput
-        },
-        C_OP_MovementMaintainOffset: {
-            m_vecOffset: 0x1D8, // Vector
-            m_nCP: 0x1E4, // int32
-            m_bRadiusScale: 0x1E8, // bool
-        },
-        C_INIT_CreateWithinCapsuleTransform: {
-            m_fRadiusMin: 0x1E0, // CPerParticleFloatInput
-            m_fRadiusMax: 0x350, // CPerParticleFloatInput
-            m_fHeight: 0x4C0, // CPerParticleFloatInput
-            m_TransformInput: 0x630, // CParticleTransformInput
-            m_fSpeedMin: 0x698, // CPerParticleFloatInput
-            m_fSpeedMax: 0x808, // CPerParticleFloatInput
-            m_fSpeedRandExp: 0x978, // float32
-            m_LocalCoordinateSystemSpeedMin: 0x980, // CPerParticleVecInput
-            m_LocalCoordinateSystemSpeedMax: 0x1038, // CPerParticleVecInput
-            m_nFieldOutput: 0x16F0, // ParticleAttributeIndex_t
-            m_nFieldVelocity: 0x16F4, // ParticleAttributeIndex_t
-        },
-        C_OP_SetVec: {
-            m_InputValue: 0x1D8, // CPerParticleVecInput
-            m_nOutputField: 0x890, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x894, // ParticleSetMethod_t
-            m_Lerp: 0x898, // CPerParticleFloatInput
-            m_bNormalizedOutput: 0xA08, // bool
-        },
-        C_INIT_CreateFromParentParticles: {
-            m_flVelocityScale: 0x1E0, // float32
-            m_flIncrement: 0x1E4, // float32
-            m_bRandomDistribution: 0x1E8, // bool
-            m_nRandomSeed: 0x1EC, // int32
-            m_bSubFrame: 0x1F0, // bool
-            m_bSetRopeSegmentID: 0x1F1, // bool
-        },
-        C_INIT_CheckParticleForWater: {
-            m_flRadius: 0x1E0, // CPerParticleFloatInput
-            m_nFieldOutput: 0x350, // ParticleAttributeIndex_t
-            m_flOutputRemap: 0x358, // CParticleRemapFloatInput
-            m_nSetMethod: 0x4C8, // ParticleSetMethod_t
-        },
-        C_INIT_RandomNamedModelBodyPart: {
-        },
-        CPAssignment_t: {
-            m_nCPNumber: 0x0, // int32
-            m_Pos: 0x8, // CPerParticleVecInput
-            m_nOrientationMode: 0x6C0, // ParticleOrientationSetMode_t
-        },
-        C_INIT_RemapParticleCountToNamedModelBodyPartScalar: {
-        },
-        C_INIT_InitSkinnedPositionFromCPSnapshot: {
-            m_nSnapshotControlPointNumber: 0x1E0, // int32
-            m_nControlPointNumber: 0x1E4, // int32
-            m_bRandom: 0x1E8, // bool
-            m_nRandomSeed: 0x1EC, // int32
-            m_bRigid: 0x1F0, // bool
-            m_bSetNormal: 0x1F1, // bool
-            m_bIgnoreDt: 0x1F2, // bool
-            m_flMinNormalVelocity: 0x1F4, // float32
-            m_flMaxNormalVelocity: 0x1F8, // float32
-            m_nIndexType: 0x1FC, // SnapshotIndexType_t
-            m_flReadIndex: 0x200, // CPerParticleFloatInput
-            m_flIncrement: 0x370, // float32
-            m_nFullLoopIncrement: 0x374, // int32
-            m_nSnapShotStartPoint: 0x378, // int32
-            m_flBoneVelocity: 0x37C, // float32
-            m_flBoneVelocityMax: 0x380, // float32
-            m_bCopyColor: 0x384, // bool
-            m_bCopyAlpha: 0x385, // bool
-            m_bSetRadius: 0x386, // bool
-        },
-        C_OP_LagCompensation: {
-            m_nDesiredVelocityCP: 0x1D8, // int32
-            m_nLatencyCP: 0x1DC, // int32
-            m_nLatencyCPField: 0x1E0, // int32
-            m_nDesiredVelocityCPField: 0x1E4, // int32
-        },
-        C_OP_FadeAndKillForTracers: {
-            m_flStartFadeInTime: 0x1D8, // float32
-            m_flEndFadeInTime: 0x1DC, // float32
-            m_flStartFadeOutTime: 0x1E0, // float32
-            m_flEndFadeOutTime: 0x1E4, // float32
-            m_flStartAlpha: 0x1E8, // float32
-            m_flEndAlpha: 0x1EC, // float32
-        },
-        CParticleMassCalculationParameters: {
-            m_nMassMode: 0x0, // ParticleMassMode_t
-            m_flRadius: 0x8, // CPerParticleFloatInput
-            m_flNominalRadius: 0x178, // CPerParticleFloatInput
-            m_flScale: 0x2E8, // CPerParticleFloatInput
-        },
-        C_OP_SequenceFromModel: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_nFieldOutputAnim: 0x1E0, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E4, // float32
-            m_flInputMax: 0x1E8, // float32
-            m_flOutputMin: 0x1EC, // float32
-            m_flOutputMax: 0x1F0, // float32
-            m_nSetMethod: 0x1F4, // ParticleSetMethod_t
-        },
-        C_OP_AlphaDecay: {
-            m_flMinAlpha: 0x1D8, // float32
-        },
-        C_INIT_InitVec: {
-            m_InputValue: 0x1E0, // CPerParticleVecInput
-            m_nOutputField: 0x898, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x89C, // ParticleSetMethod_t
-            m_bNormalizedOutput: 0x8A0, // bool
-            m_bWritePreviousPosition: 0x8A1, // bool
-        },
-        C_INIT_SetHitboxToModel: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_nForceInModel: 0x1E4, // int32
-            m_bEvenDistribution: 0x1E8, // bool
-            m_nDesiredHitbox: 0x1EC, // int32
-            m_vecHitBoxScale: 0x1F0, // CParticleCollectionVecInput
-            m_vecDirectionBias: 0x8A8, // Vector
-            m_bMaintainHitbox: 0x8B4, // bool
-            m_bUseBones: 0x8B5, // bool
-            m_HitboxSetName: 0x8B6, // char[128]
-            m_flShellSize: 0x938, // CParticleCollectionFloatInput
-        },
-        C_OP_MovementMoveAlongSkinnedCPSnapshot: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_nSnapshotControlPointNumber: 0x1DC, // int32
-            m_bSetNormal: 0x1E0, // bool
-            m_bSetRadius: 0x1E1, // bool
-            m_flInterpolation: 0x1E8, // CPerParticleFloatInput
-            m_flTValue: 0x358, // CPerParticleFloatInput
-        },
-        C_OP_LerpScalar: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flOutput: 0x1E0, // CPerParticleFloatInput
-            m_flStartTime: 0x350, // float32
-            m_flEndTime: 0x354, // float32
-        },
-        C_INIT_InitialRepulsionVelocity: {
-            m_CollisionGroupName: 0x1E0, // char[128]
-            m_nTraceSet: 0x260, // ParticleTraceSet_t
-            m_vecOutputMin: 0x264, // Vector
-            m_vecOutputMax: 0x270, // Vector
-            m_nControlPointNumber: 0x27C, // int32
-            m_bPerParticle: 0x280, // bool
-            m_bTranslate: 0x281, // bool
-            m_bProportional: 0x282, // bool
-            m_flTraceLength: 0x284, // float32
-            m_bPerParticleTR: 0x288, // bool
-            m_bInherit: 0x289, // bool
-            m_nChildCP: 0x28C, // int32
-            m_nChildGroupID: 0x290, // int32
-        },
-        C_OP_ClampScalar: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flOutputMin: 0x1E0, // CPerParticleFloatInput
-            m_flOutputMax: 0x350, // CPerParticleFloatInput
-        },
-        C_OP_SetControlPointToHMD: {
-            m_nCP1: 0x1E0, // int32
-            m_vecCP1Pos: 0x1E4, // Vector
-            m_bOrientToHMD: 0x1F0, // bool
-        },
-        C_OP_DifferencePreviousParticle: {
-            m_nFieldInput: 0x1D8, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E0, // float32
-            m_flInputMax: 0x1E4, // float32
-            m_flOutputMin: 0x1E8, // float32
-            m_flOutputMax: 0x1EC, // float32
-            m_nSetMethod: 0x1F0, // ParticleSetMethod_t
-            m_bActiveRange: 0x1F4, // bool
-            m_bSetPreviousParticle: 0x1F5, // bool
-        },
-        C_OP_PercentageBetweenTransforms: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1DC, // float32
-            m_flInputMax: 0x1E0, // float32
-            m_flOutputMin: 0x1E4, // float32
-            m_flOutputMax: 0x1E8, // float32
-            m_TransformStart: 0x1F0, // CParticleTransformInput
-            m_TransformEnd: 0x258, // CParticleTransformInput
-            m_nSetMethod: 0x2C0, // ParticleSetMethod_t
-            m_bActiveRange: 0x2C4, // bool
-            m_bRadialCheck: 0x2C5, // bool
-        },
-        C_OP_RemapNamedModelSequenceEndCap: {
-        },
-        C_INIT_InitFromCPSnapshot: {
             m_nControlPointNumber: 0x1E0, // int32
             m_strSnapshotSubset: 0x1E8, // CUtlString
             m_nAttributeToRead: 0x1F0, // ParticleAttributeIndex_t
@@ -2417,203 +1757,831 @@ export const Schemas = {
             m_nLocalSpaceCP: 0x1F8, // int32
             m_bRandom: 0x1FC, // bool
             m_bReverse: 0x1FD, // bool
-            m_nSnapShotIncrement: 0x200, // CParticleCollectionFloatInput
-            m_nManualSnapshotIndex: 0x370, // CPerParticleFloatInput
-            m_nRandomSeed: 0x4E0, // int32
-            m_bLocalSpaceAngles: 0x4E4, // bool
+            m_nRandomSeed: 0x200, // int32
+            m_nSnapShotStartPoint: 0x208, // CParticleCollectionFloatInput
+            m_nSnapShotIncrement: 0x380, // CParticleCollectionFloatInput
+            m_flInterpolation: 0x4F8, // CPerParticleFloatInput
+            m_bSubSample: 0x670, // bool
+            m_bPrev: 0x671, // bool
         },
-        C_INIT_InheritVelocity: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_flVelocityScale: 0x1E4, // float32
+        C_OP_DistanceBetweenCPsToCP: {
+            m_nStartCP: 0x1E8, // int32
+            m_nEndCP: 0x1EC, // int32
+            m_nOutputCP: 0x1F0, // int32
+            m_nOutputCPField: 0x1F4, // int32
+            m_bSetOnce: 0x1F8, // bool
+            m_flInputMin: 0x1FC, // float32
+            m_flInputMax: 0x200, // float32
+            m_flOutputMin: 0x204, // float32
+            m_flOutputMax: 0x208, // float32
+            m_flMaxTraceLength: 0x20C, // float32
+            m_flLOSScale: 0x210, // float32
+            m_bLOS: 0x214, // bool
+            m_CollisionGroupName: 0x215, // char[128]
+            m_nTraceSet: 0x298, // ParticleTraceSet_t
+            m_nSetParent: 0x29C, // ParticleParentSetMode_t
         },
-        C_INIT_PositionOffset: {
-            m_OffsetMin: 0x1E0, // CPerParticleVecInput
-            m_OffsetMax: 0x898, // CPerParticleVecInput
-            m_TransformInput: 0xF50, // CParticleTransformInput
-            m_bLocalCoords: 0xFB8, // bool
-            m_bProportional: 0xFB9, // bool
-            m_randomnessParameters: 0xFBC, // CRandomNumberGeneratorParameters
+        C_OP_SetControlPointToHand: {
+            m_nCP1: 0x1E8, // int32
+            m_nHand: 0x1EC, // int32
+            m_vecCP1Pos: 0x1F0, // Vector
+            m_bOrientToHand: 0x1FC, // bool
         },
-        C_INIT_NormalAlignToCP: {
-            m_transformInput: 0x1E0, // CParticleTransformInput
-            m_nControlPointAxis: 0x248, // ParticleControlPointAxis_t
+        C_OP_DistanceCull: {
+            m_nControlPoint: 0x1E0, // int32
+            m_vecPointOffset: 0x1E4, // Vector
+            m_flDistance: 0x1F0, // CParticleCollectionFloatInput
+            m_bCullInside: 0x368, // bool
+            m_nAttribute: 0x36C, // ParticleAttributeIndex_t
         },
-        C_OP_SetChildControlPoints: {
-            m_nChildGroupID: 0x1D8, // int32
-            m_nFirstControlPoint: 0x1DC, // int32
-            m_nNumControlPoints: 0x1E0, // int32
-            m_nFirstSourcePoint: 0x1E8, // CParticleCollectionFloatInput
-            m_bReverse: 0x358, // bool
-            m_bSetOrientation: 0x359, // bool
-            m_nOrientation: 0x35C, // ParticleOrientationType_t
+        C_INIT_CreateAlongPath: {
+            m_fMaxDistance: 0x1E8, // CPerParticleFloatInput
+            m_fT: 0x360, // CPerParticleFloatInput
+            m_PathParams: 0x4E0, // CPathParameters
+            m_bUseRandomCPs: 0x520, // bool
+            m_vEndOffset: 0x524, // Vector
+            m_bSaveOffset: 0x530, // bool
+            m_nXCount: 0x1E8, // CParticleCollectionFloatInput
         },
-        C_OP_ChladniWave: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E0, // CPerParticleFloatInput
-            m_flInputMax: 0x350, // CPerParticleFloatInput
-            m_flOutputMin: 0x4C0, // CPerParticleFloatInput
-            m_flOutputMax: 0x630, // CPerParticleFloatInput
-            m_vecWaveLength: 0x7A0, // CPerParticleVecInput
-            m_vecHarmonics: 0xE58, // CPerParticleVecInput
-            m_nSetMethod: 0x1510, // ParticleSetMethod_t
-            m_nLocalSpaceControlPoint: 0x1514, // int32
-            m_b3D: 0x1518, // bool
+        C_OP_SetControlPointsToModelParticles: {
+            m_HitboxSetName: 0x1E0, // char[128]
+            m_AttachmentName: 0x260, // char[128]
+            m_nFirstControlPoint: 0x2E0, // int32
+            m_nNumControlPoints: 0x2E4, // int32
+            m_nFirstSourcePoint: 0x2E8, // int32
+            m_bSkin: 0x2EC, // bool
+            m_bAttachment: 0x2ED, // bool
         },
-        C_OP_RemapDirectionToCPToVector: {
-            m_nCP: 0x1D8, // int32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_flScale: 0x1E0, // float32
-            m_flOffsetRot: 0x1E4, // float32
-            m_vecOffsetAxis: 0x1E8, // Vector
-            m_bNormalize: 0x1F4, // bool
-            m_nFieldStrength: 0x1F8, // ParticleAttributeIndex_t
+        C_OP_ColorInterpolateRandom: {
+            m_ColorFadeMin: 0x1E0, // Color
+            m_ColorFadeMax: 0x1FC, // Color
+            m_flFadeStartTime: 0x20C, // float32
+            m_flFadeEndTime: 0x210, // float32
+            m_nFieldOutput: 0x214, // ParticleAttributeIndex_t
+            m_bEaseInOut: 0x218, // bool
         },
-        C_OP_DriveCPFromGlobalSoundFloat: {
-            m_nOutputControlPoint: 0x1E0, // int32
-            m_nOutputField: 0x1E4, // int32
+        C_INIT_RemapNamedModelSequenceToScalar: {
+        },
+        C_OP_RenderLights: {
+            m_flAnimationRate: 0x238, // float32
+            m_nAnimationType: 0x23C, // AnimationType_t
+            m_bAnimateInFPS: 0x240, // bool
+            m_flMinSize: 0x244, // float32
+            m_flMaxSize: 0x248, // float32
+            m_flStartFadeSize: 0x24C, // float32
+            m_flEndFadeSize: 0x250, // float32
+        },
+        C_OP_DecayClampCount: {
+            m_nCount: 0x1E0, // CParticleCollectionFloatInput
+        },
+        CRandomNumberGeneratorParameters: {
+            m_bDistributeEvenly: 0x0, // bool
+            m_nSeed: 0x4, // int32
+        },
+        C_INIT_ColorLitPerParticle: {
+            m_ColorMin: 0x200, // Color
+            m_ColorMax: 0x204, // Color
+            m_TintMin: 0x208, // Color
+            m_TintMax: 0x20C, // Color
+            m_flTintPerc: 0x210, // float32
+            m_nTintBlendMode: 0x214, // ParticleColorBlendMode_t
+            m_flLightAmplification: 0x218, // float32
+        },
+        C_INIT_CreateOnGrid: {
+            m_nXCount: 0x1E8, // CParticleCollectionFloatInput
+            m_nYCount: 0x360, // CParticleCollectionFloatInput
+            m_nZCount: 0x4D8, // CParticleCollectionFloatInput
+            m_nXSpacing: 0x650, // CParticleCollectionFloatInput
+            m_nYSpacing: 0x7C8, // CParticleCollectionFloatInput
+            m_nZSpacing: 0x940, // CParticleCollectionFloatInput
+            m_nControlPointNumber: 0xAB8, // int32
+            m_bLocalSpace: 0xABC, // bool
+            m_bCenter: 0xABD, // bool
+            m_bHollow: 0xABE, // bool
+        },
+        C_OP_RampCPLinearRandom: {
+            m_nOutControlPointNumber: 0x1E8, // int32
+            m_vecRateMin: 0x1EC, // Vector
+            m_vecRateMax: 0x1F8, // Vector
+        },
+        C_OP_VelocityMatchingForce: {
+            m_flDirScale: 0x1E0, // float32
+            m_flSpdScale: 0x1E4, // float32
+            m_flNeighborDistance: 0x1E8, // float32
+            m_flFacingStrength: 0x1EC, // float32
+            m_bUseAABB: 0x1F0, // bool
+            m_nCPBroadcast: 0x1F4, // int32
+        },
+        C_INIT_RandomAlphaWindowThreshold: {
+            m_flMin: 0x1E8, // float32
+            m_flMax: 0x1EC, // float32
+            m_flExponent: 0x1F0, // float32
+        },
+        C_INIT_CreateOnModelAtHeight: {
+            m_bUseBones: 0x1E8, // bool
+            m_bForceZ: 0x1E9, // bool
+            m_nControlPointNumber: 0x1EC, // int32
+            m_nHeightCP: 0x1F0, // int32
+            m_bUseWaterHeight: 0x1F4, // bool
+            m_flDesiredHeight: 0x1F8, // CParticleCollectionFloatInput
+            m_vecHitBoxScale: 0x370, // CParticleCollectionVecInput
+            m_vecDirectionBias: 0xA48, // CParticleCollectionVecInput
+            m_nBiasType: 0x1120, // ParticleHitboxBiasType_t
+            m_bLocalCoords: 0x1124, // bool
+            m_bPreferMovingBoxes: 0x1125, // bool
+            m_HitboxSetName: 0x1126, // char[128]
+            m_flHitboxVelocityScale: 0x11A8, // CParticleCollectionFloatInput
+            m_flMaxBoneVelocity: 0x1320, // CParticleCollectionFloatInput
+        },
+        C_OP_ModelSurfaceSnapshotGenerator: {
+            m_nCPSnapshot: 0x1E8, // int32
+            m_modelInput: 0x1F0, // CParticleModelInput
+            m_flRecalcRate: 0x250, // CParticleCollectionFloatInput
+            m_flUSpacing: 0x3C8, // CParticleCollectionFloatInput
+            m_flVSpacing: 0x540, // CParticleCollectionFloatInput
+            m_flSurfaceOffset: 0x6B8, // CParticleCollectionFloatInput
+            m_bSetNormal: 0x830, // bool
+            m_bSetUp: 0x831, // bool
+            m_bSetGravity: 0x832, // bool
+            m_bSetUV: 0x833, // bool
+        },
+        C_OP_RestartAfterDuration: {
+            m_flDurationMin: 0x1E0, // float32
+            m_flDurationMax: 0x1E4, // float32
+            m_nCP: 0x1E8, // int32
+            m_nCPField: 0x1EC, // int32
+            m_nChildGroupID: 0x1F0, // int32
+            m_bOnlyChildren: 0x1F4, // bool
+        },
+        C_OP_RenderClothForce: {
+        },
+        C_OP_RemapVisibilityScalar: {
+            m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
             m_flInputMin: 0x1E8, // float32
             m_flInputMax: 0x1EC, // float32
             m_flOutputMin: 0x1F0, // float32
             m_flOutputMax: 0x1F4, // float32
-            m_StackName: 0x1F8, // CUtlString
-            m_OperatorName: 0x200, // CUtlString
-            m_FieldName: 0x208, // CUtlString
+            m_flRadiusScale: 0x1F8, // float32
+        },
+        C_INIT_CreateSequentialPathV2: {
+            m_fMaxDistance: 0x1E8, // CPerParticleFloatInput
+            m_flNumToAssign: 0x360, // CParticleCollectionFloatInput
+            m_bLoop: 0x4D8, // bool
+            m_bCPPairs: 0x4D9, // bool
+            m_bSaveOffset: 0x4DA, // bool
+            m_PathParams: 0x4E0, // CPathParameters
+        },
+        VecInputMaterialVariable_t: {
+            m_strVariable: 0x0, // CUtlString
+            m_vecInput: 0x8, // CParticleCollectionVecInput
+        },
+        C_INIT_RemapInitialDirectionToTransformToVector: {
+            m_TransformInput: 0x1E8, // CParticleTransformInput
+            m_nFieldOutput: 0x250, // ParticleAttributeIndex_t
+            m_flScale: 0x254, // float32
+            m_flOffsetRot: 0x258, // float32
+            m_vecOffsetAxis: 0x25C, // Vector
+            m_bNormalize: 0x268, // bool
+        },
+        C_OP_LockToSavedSequentialPathV2: {
+            m_flFadeStart: 0x1E0, // float32
+            m_flFadeEnd: 0x1E4, // float32
+            m_bCPPairs: 0x1E8, // bool
+            m_PathParams: 0x1F0, // CPathParameters
+        },
+        C_OP_NormalLock: {
+            m_nControlPointNumber: 0x1E0, // int32
+        },
+        C_INIT_RemapTransformOrientationToRotations: {
+            m_TransformInput: 0x1E8, // CParticleTransformInput
+            m_vecRotation: 0x250, // Vector
+            m_bUseQuat: 0x25C, // bool
+            m_bWriteNormal: 0x25D, // bool
+        },
+        C_OP_Cull: {
+            m_flCullPerc: 0x1E0, // float32
+            m_flCullStart: 0x1E4, // float32
+            m_flCullEnd: 0x1E8, // float32
+            m_flCullExp: 0x1EC, // float32
+        },
+        SequenceWeightedList_t: {
+            m_nSequence: 0x0, // int32
+            m_flRelativeWeight: 0x4, // float32
+        },
+        C_OP_ReadFromNeighboringParticle: {
+            m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_nIncrement: 0x1E8, // int32
+            m_DistanceCheck: 0x1F0, // CPerParticleFloatInput
+            m_flInterpolation: 0x368, // CPerParticleFloatInput
+        },
+        C_OP_RenderText: {
+            m_OutlineColor: 0x230, // Color
+            m_DefaultText: 0x238, // CUtlString
+        },
+        C_OP_LerpToInitialPosition: {
+            m_nControlPointNumber: 0x1E0, // int32
+            m_flInterpolation: 0x1E8, // CPerParticleFloatInput
+            m_nCacheField: 0x360, // ParticleAttributeIndex_t
+            m_flScale: 0x368, // CParticleCollectionFloatInput
+            m_vecScale: 0x4E0, // CParticleCollectionVecInput
+        },
+        C_INIT_RandomRotation: {
+        },
+        C_OP_LerpEndCapVector: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_vecOutput: 0x1E4, // Vector
+            m_flLerpTime: 0x1F0, // float32
+        },
+        C_OP_VelocityDecay: {
+            m_flMinVelocity: 0x1E0, // float32
+        },
+        C_OP_SetCPOrientationToPointAtCP: {
+            m_nInputCP: 0x1E8, // int32
+            m_nOutputCP: 0x1EC, // int32
+            m_flInterpolation: 0x1F0, // CParticleCollectionFloatInput
+            m_b2DOrientation: 0x368, // bool
+            m_bAvoidSingularity: 0x369, // bool
+            m_bPointAway: 0x36A, // bool
+        },
+        C_OP_LockToPointList: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_pointList: 0x1E8, // CUtlVector<PointDefinition_t>
+            m_bPlaceAlongPath: 0x200, // bool
+            m_bClosedLoop: 0x201, // bool
+            m_nNumPointsAlongPath: 0x204, // int32
+        },
+        C_OP_MovementPlaceOnGround: {
+            m_flOffset: 0x1E0, // CPerParticleFloatInput
+            m_flMaxTraceLength: 0x358, // float32
+            m_flTolerance: 0x35C, // float32
+            m_vecTraceDir: 0x360, // CPerParticleVecInput
+            m_flTraceOffset: 0xA38, // float32
+            m_flLerpRate: 0xA3C, // float32
+            m_CollisionGroupName: 0xA40, // char[128]
+            m_nTraceSet: 0xAC0, // ParticleTraceSet_t
+            m_nRefCP1: 0xAC4, // int32
+            m_nRefCP2: 0xAC8, // int32
+            m_nLerpCP: 0xACC, // int32
+            m_nTraceMissBehavior: 0xAD8, // ParticleTraceMissBehavior_t
+            m_bIncludeShotHull: 0xADC, // bool
+            m_bIncludeWater: 0xADD, // bool
+            m_bSetNormal: 0xAE0, // bool
+            m_bScaleOffset: 0xAE1, // bool
+            m_nPreserveOffsetCP: 0xAE4, // int32
+            m_nIgnoreCP: 0xAE8, // int32
+        },
+        C_OP_SetCPOrientationToDirection: {
+            m_nInputControlPoint: 0x1E0, // int32
+            m_nOutputControlPoint: 0x1E4, // int32
+        },
+        C_OP_RemapCrossProductOfTwoVectorsToVector: {
+            m_InputVec1: 0x1E0, // CPerParticleVecInput
+            m_InputVec2: 0x8B8, // CPerParticleVecInput
+            m_nFieldOutput: 0xF90, // ParticleAttributeIndex_t
+            m_bNormalize: 0xF94, // bool
+        },
+        C_OP_RemapTransformOrientationToRotations: {
+            m_TransformInput: 0x1E0, // CParticleTransformInput
+            m_vecRotation: 0x248, // Vector
+            m_bUseQuat: 0x254, // bool
+            m_bWriteNormal: 0x255, // bool
+        },
+        C_INIT_RandomRotationSpeed: {
+        },
+        C_OP_InheritFromParentParticlesV2: {
+            m_flScale: 0x1E0, // CPerParticleFloatInput
+            m_nFieldOutput: 0x358, // ParticleAttributeIndex_t
+            m_nIncrement: 0x360, // CPerParticleFloatInput
+            m_bSubSample: 0x4D8, // bool
+            m_bRandomDistribution: 0x4D9, // bool
+            m_bReverse: 0x4DA, // bool
+            m_nMissingParentBehavior: 0x4DC, // MissingParentInheritBehavior_t
+            m_flInterpolation: 0x4E0, // CPerParticleFloatInput
+        },
+        C_INIT_RandomSecondSequence: {
+            m_nSequenceMin: 0x1E8, // int32
+            m_nSequenceMax: 0x1EC, // int32
+        },
+        C_OP_SetFloatCollection: {
+            m_InputValue: 0x1E0, // CParticleCollectionFloatInput
+            m_nOutputField: 0x358, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x35C, // ParticleSetMethod_t
+            m_Lerp: 0x360, // CParticleCollectionFloatInput
+        },
+        PointDefinition_t: {
+            m_nControlPoint: 0x0, // int32
+            m_bLocalCoords: 0x4, // bool
+            m_vOffset: 0x8, // Vector
+        },
+        C_OP_Diffusion: {
+            m_flRadiusScale: 0x1E0, // float32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_nVoxelGridResolution: 0x1E8, // int32
+        },
+        C_INIT_AgeNoise: {
+            m_bAbsVal: 0x1E8, // bool
+            m_bAbsValInv: 0x1E9, // bool
+            m_flOffset: 0x1EC, // float32
+            m_flAgeMin: 0x1F0, // float32
+            m_flAgeMax: 0x1F4, // float32
+            m_flNoiseScale: 0x1F8, // float32
+            m_flNoiseScaleLoc: 0x1FC, // float32
+            m_vecOffsetLoc: 0x200, // Vector
+        },
+        C_OP_RemapVectorComponentToScalar: {
+            m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_nComponent: 0x1E8, // int32
+        },
+        CGeneralRandomRotation: {
+            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
+            m_flDegrees: 0x1EC, // float32
+            m_flDegreesMin: 0x1F0, // float32
+            m_flDegreesMax: 0x1F4, // float32
+            m_flRotationRandExponent: 0x1F8, // float32
+            m_bRandomlyFlipDirection: 0x1FC, // bool
+        },
+        C_OP_DistanceBetweenVecs: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_vecPoint1: 0x1E8, // CPerParticleVecInput
+            m_vecPoint2: 0x8C0, // CPerParticleVecInput
+            m_flInputMin: 0xF98, // CPerParticleFloatInput
+            m_flInputMax: 0x1110, // CPerParticleFloatInput
+            m_flOutputMin: 0x1288, // CPerParticleFloatInput
+            m_flOutputMax: 0x1400, // CPerParticleFloatInput
+            m_nSetMethod: 0x1578, // ParticleSetMethod_t
+            m_bDeltaTime: 0x157C, // bool
+        },
+        C_OP_DampenToCP: {
+            m_nControlPointNumber: 0x1E0, // int32
+            m_flRange: 0x1E4, // float32
+            m_flScale: 0x1E8, // float32
+        },
+        C_OP_RemapNamedModelBodyPartOnceTimed: {
+        },
+        C_OP_ScreenSpaceRotateTowardTarget: {
+            m_vecTargetPosition: 0x1E0, // CPerParticleVecInput
+            m_flOutputRemap: 0x8B8, // CParticleRemapFloatInput
+            m_nSetMethod: 0xA30, // ParticleSetMethod_t
+            m_flScreenEdgeAlignmentDistance: 0xA38, // CPerParticleFloatInput
+        },
+        C_OP_MovementMaintainOffset: {
+            m_vecOffset: 0x1E0, // Vector
+            m_nCP: 0x1EC, // int32
+            m_bRadiusScale: 0x1F0, // bool
+        },
+        C_INIT_CreateWithinCapsuleTransform: {
+            m_fRadiusMin: 0x1E8, // CPerParticleFloatInput
+            m_fRadiusMax: 0x360, // CPerParticleFloatInput
+            m_fHeight: 0x4D8, // CPerParticleFloatInput
+            m_TransformInput: 0x650, // CParticleTransformInput
+            m_fSpeedMin: 0x6B8, // CPerParticleFloatInput
+            m_fSpeedMax: 0x830, // CPerParticleFloatInput
+            m_fSpeedRandExp: 0x9A8, // float32
+            m_LocalCoordinateSystemSpeedMin: 0x9B0, // CPerParticleVecInput
+            m_LocalCoordinateSystemSpeedMax: 0x1088, // CPerParticleVecInput
+            m_nFieldOutput: 0x1760, // ParticleAttributeIndex_t
+            m_nFieldVelocity: 0x1764, // ParticleAttributeIndex_t
+        },
+        C_OP_SetVec: {
+            m_InputValue: 0x1E0, // CPerParticleVecInput
+            m_nOutputField: 0x8B8, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x8BC, // ParticleSetMethod_t
+            m_Lerp: 0x8C0, // CPerParticleFloatInput
+            m_bNormalizedOutput: 0xA38, // bool
+        },
+        C_INIT_CreateFromParentParticles: {
+            m_flVelocityScale: 0x1E8, // float32
+            m_flIncrement: 0x1EC, // float32
+            m_bRandomDistribution: 0x1F0, // bool
+            m_nRandomSeed: 0x1F4, // int32
+            m_bSubFrame: 0x1F8, // bool
+            m_bSetRopeSegmentID: 0x1F9, // bool
+        },
+        C_INIT_CheckParticleForWater: {
+            m_flRadius: 0x1E8, // CPerParticleFloatInput
+            m_nFieldOutput: 0x360, // ParticleAttributeIndex_t
+            m_flOutputRemap: 0x368, // CParticleRemapFloatInput
+            m_nSetMethod: 0x4E0, // ParticleSetMethod_t
+        },
+        C_INIT_RandomNamedModelBodyPart: {
+        },
+        C_OP_RenderOmni2Light: {
+            m_nLightType: 0x230, // ParticleOmni2LightTypeChoiceList_t
+            m_nMaxAllowed: 0x234, // uint16
+            m_vColorBlend: 0x238, // CParticleCollectionVecInput
+            m_nColorBlendType: 0x910, // ParticleColorBlendType_t
+            m_strLightStyle: 0x918, // CUtlString
+            m_flLightStyleTime: 0x920, // CPerParticleFloatInput
+            m_nBrightnessUnit: 0xA98, // ParticleLightUnitChoiceList_t
+            m_flBrightnessLumens: 0xAA0, // CPerParticleFloatInput
+            m_flBrightnessCandelas: 0xC18, // CPerParticleFloatInput
+            m_bCastShadows: 0xD90, // bool
+            m_bDynamicBounce: 0xD91, // bool
+            m_flBounceScale: 0xD98, // CParticleCollectionFloatInput
+            m_bFog: 0xF10, // bool
+            m_flFogScale: 0xF18, // CPerParticleFloatInput
+            m_flLuminaireRadius: 0x1090, // CPerParticleFloatInput
+            m_nOrientationType: 0x1208, // ParticleOmni2LighOrientationChoiceList_t
+            m_vNormal: 0x1210, // CPerParticleVecInput
+            m_vTarget: 0x18E8, // CPerParticleVecInput
+            m_flFOVAngle: 0x1FC0, // CPerParticleFloatInput
+            m_flBarnShape: 0x2138, // CPerParticleFloatInput
+            m_flBarnNearSizeX: 0x22B0, // CPerParticleFloatInput
+            m_flBarnNearSizeY: 0x2428, // CPerParticleFloatInput
+            m_flBarnSoftX: 0x25A0, // CPerParticleFloatInput
+            m_flBarnSoftY: 0x2718, // CPerParticleFloatInput
+            m_flSkirt: 0x2890, // CPerParticleFloatInput
+            m_flRange: 0x2A08, // CPerParticleFloatInput
+            m_flInnerConeAngle: 0x2B80, // CPerParticleFloatInput
+            m_flOuterConeAngle: 0x2CF8, // CPerParticleFloatInput
+            m_hLightCookie: 0x2E70, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_bSphericalCookie: 0x2E78, // bool
+        },
+        CPAssignment_t: {
+            m_nCPNumber: 0x0, // int32
+            m_Pos: 0x8, // CPerParticleVecInput
+            m_nOrientationMode: 0x6E0, // ParticleOrientationSetMode_t
+        },
+        C_INIT_RemapParticleCountToNamedModelBodyPartScalar: {
+        },
+        C_OP_LagCompensation: {
+            m_nDesiredVelocityCP: 0x1E0, // int32
+            m_nLatencyCP: 0x1E4, // int32
+            m_nLatencyCPField: 0x1E8, // int32
+            m_nDesiredVelocityCPField: 0x1EC, // int32
+        },
+        C_OP_CollideWithSelf: {
+            m_flRadiusScale: 0x1E0, // CPerParticleFloatInput
+            m_flMinimumSpeed: 0x358, // CPerParticleFloatInput
+        },
+        C_OP_Noise: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flOutputMin: 0x1E4, // float32
+            m_flOutputMax: 0x1E8, // float32
+            m_fl4NoiseScale: 0x1EC, // float32
+            m_bAdditive: 0x1F0, // bool
+            m_flNoiseAnimationTimeScale: 0x1F4, // float32
+        },
+        C_OP_FadeAndKillForTracers: {
+            m_flStartFadeInTime: 0x1E0, // float32
+            m_flEndFadeInTime: 0x1E4, // float32
+            m_flStartFadeOutTime: 0x1E8, // float32
+            m_flEndFadeOutTime: 0x1EC, // float32
+            m_flStartAlpha: 0x1F0, // float32
+            m_flEndAlpha: 0x1F4, // float32
+        },
+        CParticleMassCalculationParameters: {
+            m_nMassMode: 0x0, // ParticleMassMode_t
+            m_flRadius: 0x8, // CPerParticleFloatInput
+            m_flNominalRadius: 0x180, // CPerParticleFloatInput
+            m_flScale: 0x2F8, // CPerParticleFloatInput
+        },
+        C_OP_SequenceFromModel: {
+            m_nControlPointNumber: 0x1E0, // int32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_nFieldOutputAnim: 0x1E8, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1EC, // float32
+            m_flInputMax: 0x1F0, // float32
+            m_flOutputMin: 0x1F4, // float32
+            m_flOutputMax: 0x1F8, // float32
+            m_nSetMethod: 0x1FC, // ParticleSetMethod_t
+        },
+        C_OP_AlphaDecay: {
+            m_flMinAlpha: 0x1E0, // float32
+        },
+        C_INIT_InitVec: {
+            m_InputValue: 0x1E8, // CPerParticleVecInput
+            m_nOutputField: 0x8C0, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x8C4, // ParticleSetMethod_t
+            m_bNormalizedOutput: 0x8C8, // bool
+            m_bWritePreviousPosition: 0x8C9, // bool
+        },
+        C_INIT_SetHitboxToModel: {
+            m_nControlPointNumber: 0x1E8, // int32
+            m_nForceInModel: 0x1EC, // int32
+            m_bEvenDistribution: 0x1F0, // bool
+            m_nDesiredHitbox: 0x1F4, // int32
+            m_vecHitBoxScale: 0x1F8, // CParticleCollectionVecInput
+            m_vecDirectionBias: 0x8D0, // Vector
+            m_bMaintainHitbox: 0x8DC, // bool
+            m_bUseBones: 0x8DD, // bool
+            m_HitboxSetName: 0x8DE, // char[128]
+            m_flShellSize: 0x960, // CParticleCollectionFloatInput
+        },
+        C_OP_MovementMoveAlongSkinnedCPSnapshot: {
+            m_nControlPointNumber: 0x1E0, // int32
+            m_nSnapshotControlPointNumber: 0x1E4, // int32
+            m_bSetNormal: 0x1E8, // bool
+            m_bSetRadius: 0x1E9, // bool
+            m_flInterpolation: 0x1F0, // CPerParticleFloatInput
+            m_flTValue: 0x368, // CPerParticleFloatInput
+        },
+        C_OP_LerpScalar: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flOutput: 0x1E8, // CPerParticleFloatInput
+            m_flStartTime: 0x360, // float32
+            m_flEndTime: 0x364, // float32
+        },
+        C_INIT_InitialRepulsionVelocity: {
+            m_CollisionGroupName: 0x1E8, // char[128]
+            m_nTraceSet: 0x268, // ParticleTraceSet_t
+            m_vecOutputMin: 0x26C, // Vector
+            m_vecOutputMax: 0x278, // Vector
+            m_nControlPointNumber: 0x284, // int32
+            m_bPerParticle: 0x288, // bool
+            m_bTranslate: 0x289, // bool
+            m_bProportional: 0x28A, // bool
+            m_flTraceLength: 0x28C, // float32
+            m_bPerParticleTR: 0x290, // bool
+            m_bInherit: 0x291, // bool
+            m_nChildCP: 0x294, // int32
+            m_nChildGroupID: 0x298, // int32
+        },
+        C_OP_ClampScalar: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flOutputMin: 0x1E8, // CPerParticleFloatInput
+            m_flOutputMax: 0x360, // CPerParticleFloatInput
+        },
+        C_OP_SetControlPointToHMD: {
+            m_nCP1: 0x1E8, // int32
+            m_vecCP1Pos: 0x1EC, // Vector
+            m_bOrientToHMD: 0x1F8, // bool
+        },
+        C_OP_DifferencePreviousParticle: {
+            m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E8, // float32
+            m_flInputMax: 0x1EC, // float32
+            m_flOutputMin: 0x1F0, // float32
+            m_flOutputMax: 0x1F4, // float32
+            m_nSetMethod: 0x1F8, // ParticleSetMethod_t
+            m_bActiveRange: 0x1FC, // bool
+            m_bSetPreviousParticle: 0x1FD, // bool
+        },
+        C_OP_PercentageBetweenTransforms: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E4, // float32
+            m_flInputMax: 0x1E8, // float32
+            m_flOutputMin: 0x1EC, // float32
+            m_flOutputMax: 0x1F0, // float32
+            m_TransformStart: 0x1F8, // CParticleTransformInput
+            m_TransformEnd: 0x260, // CParticleTransformInput
+            m_nSetMethod: 0x2C8, // ParticleSetMethod_t
+            m_bActiveRange: 0x2CC, // bool
+            m_bRadialCheck: 0x2CD, // bool
+        },
+        C_INIT_PlaneCull: {
+            m_nControlPoint: 0x1E8, // int32
+            m_flDistance: 0x1F0, // CParticleCollectionFloatInput
+            m_bCullInside: 0x368, // bool
+        },
+        C_OP_RemapNamedModelSequenceEndCap: {
+        },
+        C_INIT_InitFromCPSnapshot: {
+            m_nControlPointNumber: 0x1E8, // int32
+            m_strSnapshotSubset: 0x1F0, // CUtlString
+            m_nAttributeToRead: 0x1F8, // ParticleAttributeIndex_t
+            m_nAttributeToWrite: 0x1FC, // ParticleAttributeIndex_t
+            m_nLocalSpaceCP: 0x200, // int32
+            m_bRandom: 0x204, // bool
+            m_bReverse: 0x205, // bool
+            m_nSnapShotIncrement: 0x208, // CParticleCollectionFloatInput
+            m_bResetSnapshotIndexOnChanges: 0x380, // bool
+            m_nManualSnapshotIndex: 0x388, // CPerParticleFloatInput
+            m_nRandomSeed: 0x500, // int32
+            m_bLocalSpaceAngles: 0x504, // bool
+        },
+        C_OP_RenderCables: {
+            m_flRadiusScale: 0x230, // CParticleCollectionFloatInput
+            m_flAlphaScale: 0x3A8, // CParticleCollectionFloatInput
+            m_vecColorScale: 0x520, // CParticleCollectionVecInput
+            m_nColorBlendType: 0xBF8, // ParticleColorBlendType_t
+            m_hMaterial: 0xC00, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_nTextureRepetitionMode: 0xC08, // TextureRepetitionMode_t
+            m_flTextureRepeatsPerSegment: 0xC10, // CParticleCollectionFloatInput
+            m_flTextureRepeatsCircumference: 0xD88, // CParticleCollectionFloatInput
+            m_flColorMapOffsetV: 0xF00, // CParticleCollectionFloatInput
+            m_flColorMapOffsetU: 0x1078, // CParticleCollectionFloatInput
+            m_flNormalMapOffsetV: 0x11F0, // CParticleCollectionFloatInput
+            m_flNormalMapOffsetU: 0x1368, // CParticleCollectionFloatInput
+            m_bDrawCableCaps: 0x14E0, // bool
+            m_flCapRoundness: 0x14E4, // float32
+            m_flCapOffsetAmount: 0x14E8, // float32
+            m_flTessScale: 0x14EC, // float32
+            m_nMinTesselation: 0x14F0, // int32
+            m_nMaxTesselation: 0x14F4, // int32
+            m_nRoundness: 0x14F8, // int32
+            m_nForceRoundnessFixed: 0x14FC, // bool
+            m_bOnlyRenderInEffectsBloomPass: 0x14FD, // bool
+            m_LightingTransform: 0x1500, // CParticleTransformInput
+            m_MaterialFloatVars: 0x1568, // CUtlLeanVector<FloatInputMaterialVariable_t>
+            m_MaterialVecVars: 0x1588, // CUtlLeanVector<VecInputMaterialVariable_t>
+        },
+        C_OP_SetChildControlPoints: {
+            m_nChildGroupID: 0x1E0, // int32
+            m_nFirstControlPoint: 0x1E4, // int32
+            m_nNumControlPoints: 0x1E8, // int32
+            m_nFirstSourcePoint: 0x1F0, // CParticleCollectionFloatInput
+            m_bReverse: 0x368, // bool
+            m_bSetOrientation: 0x369, // bool
+            m_nOrientation: 0x36C, // ParticleOrientationType_t
+        },
+        C_OP_ChladniWave: {
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E8, // CPerParticleFloatInput
+            m_flInputMax: 0x360, // CPerParticleFloatInput
+            m_flOutputMin: 0x4D8, // CPerParticleFloatInput
+            m_flOutputMax: 0x650, // CPerParticleFloatInput
+            m_vecWaveLength: 0x7C8, // CPerParticleVecInput
+            m_vecHarmonics: 0xEA0, // CPerParticleVecInput
+            m_nSetMethod: 0x1578, // ParticleSetMethod_t
+            m_nLocalSpaceControlPoint: 0x157C, // int32
+            m_b3D: 0x1580, // bool
+        },
+        C_OP_RemapDirectionToCPToVector: {
+            m_nCP: 0x1E0, // int32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_flScale: 0x1E8, // float32
+            m_flOffsetRot: 0x1EC, // float32
+            m_vecOffsetAxis: 0x1F0, // Vector
+            m_bNormalize: 0x1FC, // bool
+            m_nFieldStrength: 0x200, // ParticleAttributeIndex_t
+        },
+        C_OP_DriveCPFromGlobalSoundFloat: {
+            m_nOutputControlPoint: 0x1E8, // int32
+            m_nOutputField: 0x1EC, // int32
+            m_flInputMin: 0x1F0, // float32
+            m_flInputMax: 0x1F4, // float32
+            m_flOutputMin: 0x1F8, // float32
+            m_flOutputMax: 0x1FC, // float32
+            m_StackName: 0x200, // CUtlString
+            m_OperatorName: 0x208, // CUtlString
+            m_FieldName: 0x210, // CUtlString
         },
         C_INIT_ScreenSpacePositionOfTarget: {
-            m_vecTargetPosition: 0x1E0, // CPerParticleVecInput
-            m_bOututBehindness: 0x898, // bool
-            m_nBehindFieldOutput: 0x89C, // ParticleAttributeIndex_t
-            m_flBehindOutputRemap: 0x8A0, // CParticleRemapFloatInput
+            m_vecTargetPosition: 0x1E8, // CPerParticleVecInput
+            m_bOututBehindness: 0x8C0, // bool
+            m_nBehindFieldOutput: 0x8C4, // ParticleAttributeIndex_t
+            m_flBehindOutputRemap: 0x8C8, // CParticleRemapFloatInput
+        },
+        C_OP_RtEnvCull: {
+            m_vecTestDir: 0x1E0, // Vector
+            m_vecTestNormal: 0x1EC, // Vector
+            m_bCullOnMiss: 0x1F8, // bool
+            m_bStickInsteadOfCull: 0x1F9, // bool
+            m_RtEnvName: 0x1FA, // char[128]
+            m_nRTEnvCP: 0x27C, // int32
+            m_nComponent: 0x280, // int32
         },
         C_OP_PinParticleToCP: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_vecOffset: 0x1E0, // CParticleCollectionVecInput
-            m_bOffsetLocal: 0x898, // bool
-            m_nParticleSelection: 0x89C, // ParticleSelection_t
-            m_nParticleNumber: 0x8A0, // CParticleCollectionFloatInput
-            m_nPinBreakType: 0xA10, // ParticlePinDistance_t
-            m_flBreakDistance: 0xA18, // CParticleCollectionFloatInput
-            m_flBreakSpeed: 0xB88, // CParticleCollectionFloatInput
-            m_flAge: 0xCF8, // CParticleCollectionFloatInput
-            m_nBreakControlPointNumber: 0xE68, // int32
-            m_nBreakControlPointNumber2: 0xE6C, // int32
-            m_flBreakValue: 0xE70, // CParticleCollectionFloatInput
-            m_flInterpolation: 0xFE0, // CPerParticleFloatInput
-            m_bRetainInitialVelocity: 0x1150, // bool
+            m_nControlPointNumber: 0x1E0, // int32
+            m_vecOffset: 0x1E8, // CParticleCollectionVecInput
+            m_bOffsetLocal: 0x8C0, // bool
+            m_nParticleSelection: 0x8C4, // ParticleSelection_t
+            m_nParticleNumber: 0x8C8, // CParticleCollectionFloatInput
+            m_nPinBreakType: 0xA40, // ParticlePinDistance_t
+            m_flBreakDistance: 0xA48, // CParticleCollectionFloatInput
+            m_flBreakSpeed: 0xBC0, // CParticleCollectionFloatInput
+            m_flAge: 0xD38, // CParticleCollectionFloatInput
+            m_nBreakControlPointNumber: 0xEB0, // int32
+            m_nBreakControlPointNumber2: 0xEB4, // int32
+            m_flBreakValue: 0xEB8, // CParticleCollectionFloatInput
+            m_flInterpolation: 0x1030, // CPerParticleFloatInput
+            m_bRetainInitialVelocity: 0x11A8, // bool
         },
         C_OP_RemapCPtoVector: {
-            m_nCPInput: 0x1D8, // int32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_nLocalSpaceCP: 0x1E0, // int32
-            m_vInputMin: 0x1E4, // Vector
-            m_vInputMax: 0x1F0, // Vector
-            m_vOutputMin: 0x1FC, // Vector
-            m_vOutputMax: 0x208, // Vector
-            m_flStartTime: 0x214, // float32
-            m_flEndTime: 0x218, // float32
-            m_flInterpRate: 0x21C, // float32
-            m_nSetMethod: 0x220, // ParticleSetMethod_t
-            m_bOffset: 0x224, // bool
-            m_bAccelerate: 0x225, // bool
+            m_nCPInput: 0x1E0, // int32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_nLocalSpaceCP: 0x1E8, // int32
+            m_vInputMin: 0x1EC, // Vector
+            m_vInputMax: 0x1F8, // Vector
+            m_vOutputMin: 0x204, // Vector
+            m_vOutputMax: 0x210, // Vector
+            m_flStartTime: 0x21C, // float32
+            m_flEndTime: 0x220, // float32
+            m_flInterpRate: 0x224, // float32
+            m_nSetMethod: 0x228, // ParticleSetMethod_t
+            m_bOffset: 0x22C, // bool
+            m_bAccelerate: 0x22D, // bool
         },
-        C_INIT_CreateParticleImpulse: {
-            m_InputRadius: 0x1E0, // CPerParticleFloatInput
-            m_InputMagnitude: 0x350, // CPerParticleFloatInput
-            m_nFalloffFunction: 0x4C0, // ParticleFalloffFunction_t
-            m_InputFalloffExp: 0x4C8, // CPerParticleFloatInput
-            m_nImpulseType: 0x638, // ParticleImpulseType_t
+        C_OP_DensityForce: {
+            m_flRadiusScale: 0x1F0, // float32
+            m_flForceScale: 0x1F4, // float32
+            m_flTargetDensity: 0x1F8, // float32
         },
         C_INIT_CreateInEpitrochoid: {
-            m_nComponent1: 0x1E0, // int32
-            m_nComponent2: 0x1E4, // int32
-            m_TransformInput: 0x1E8, // CParticleTransformInput
-            m_flParticleDensity: 0x250, // CPerParticleFloatInput
-            m_flOffset: 0x3C0, // CPerParticleFloatInput
-            m_flRadius1: 0x530, // CPerParticleFloatInput
-            m_flRadius2: 0x6A0, // CPerParticleFloatInput
-            m_bUseCount: 0x810, // bool
-            m_bUseLocalCoords: 0x811, // bool
-            m_bOffsetExistingPos: 0x812, // bool
+            m_nComponent1: 0x1E8, // int32
+            m_nComponent2: 0x1EC, // int32
+            m_TransformInput: 0x1F0, // CParticleTransformInput
+            m_flParticleDensity: 0x258, // CPerParticleFloatInput
+            m_flOffset: 0x3D0, // CPerParticleFloatInput
+            m_flRadius1: 0x548, // CPerParticleFloatInput
+            m_flRadius2: 0x6C0, // CPerParticleFloatInput
+            m_bUseCount: 0x838, // bool
+            m_bUseLocalCoords: 0x839, // bool
+            m_bOffsetExistingPos: 0x83A, // bool
         },
         C_OP_SetControlPointPositions: {
-            m_bUseWorldLocation: 0x1E0, // bool
-            m_bOrient: 0x1E1, // bool
-            m_bSetOnce: 0x1E2, // bool
-            m_nCP1: 0x1E4, // int32
-            m_nCP2: 0x1E8, // int32
-            m_nCP3: 0x1EC, // int32
-            m_nCP4: 0x1F0, // int32
-            m_vecCP1Pos: 0x1F4, // Vector
-            m_vecCP2Pos: 0x200, // Vector
-            m_vecCP3Pos: 0x20C, // Vector
-            m_vecCP4Pos: 0x218, // Vector
-            m_nHeadLocation: 0x224, // int32
+            m_bUseWorldLocation: 0x1E8, // bool
+            m_bOrient: 0x1E9, // bool
+            m_bSetOnce: 0x1EA, // bool
+            m_nCP1: 0x1EC, // int32
+            m_nCP2: 0x1F0, // int32
+            m_nCP3: 0x1F4, // int32
+            m_nCP4: 0x1F8, // int32
+            m_vecCP1Pos: 0x1FC, // Vector
+            m_vecCP2Pos: 0x208, // Vector
+            m_vecCP3Pos: 0x214, // Vector
+            m_vecCP4Pos: 0x220, // Vector
+            m_nHeadLocation: 0x22C, // int32
         },
         C_OP_SetFloatAttributeToVectorExpression: {
-            m_nExpression: 0x1D8, // VectorFloatExpressionType_t
-            m_vInput1: 0x1E0, // CPerParticleVecInput
-            m_vInput2: 0x898, // CPerParticleVecInput
-            m_flOutputRemap: 0xF50, // CParticleRemapFloatInput
-            m_nOutputField: 0x10C0, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x10C4, // ParticleSetMethod_t
+            m_nExpression: 0x1E0, // VectorFloatExpressionType_t
+            m_vInput1: 0x1E8, // CPerParticleVecInput
+            m_vInput2: 0x8C0, // CPerParticleVecInput
+            m_flOutputRemap: 0xF98, // CParticleRemapFloatInput
+            m_nOutputField: 0x1110, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x1114, // ParticleSetMethod_t
         },
         C_OP_MovementRotateParticleAroundAxis: {
-            m_vecRotAxis: 0x1D8, // CParticleCollectionVecInput
-            m_flRotRate: 0x890, // CParticleCollectionFloatInput
-            m_TransformInput: 0xA00, // CParticleTransformInput
-            m_bLocalSpace: 0xA68, // bool
+            m_vecRotAxis: 0x1E0, // CParticleCollectionVecInput
+            m_flRotRate: 0x8B8, // CParticleCollectionFloatInput
+            m_TransformInput: 0xA30, // CParticleTransformInput
+            m_bLocalSpace: 0xA98, // bool
+        },
+        C_OP_IntraParticleForce: {
+            m_flAttractionMinDistance: 0x1F0, // float32
+            m_flAttractionMaxDistance: 0x1F4, // float32
+            m_flAttractionMaxStrength: 0x1F8, // float32
+            m_flRepulsionMinDistance: 0x1FC, // float32
+            m_flRepulsionMaxDistance: 0x200, // float32
+            m_flRepulsionMaxStrength: 0x204, // float32
+            m_bUseAABB: 0x208, // bool
+        },
+        C_INIT_InitFloat: {
+            m_InputValue: 0x1E8, // CPerParticleFloatInput
+            m_nOutputField: 0x360, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x364, // ParticleSetMethod_t
+            m_InputStrength: 0x368, // CPerParticleFloatInput
         },
         C_OP_InheritFromPeerSystem: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_nFieldInput: 0x1DC, // ParticleAttributeIndex_t
-            m_nIncrement: 0x1E0, // int32
-            m_nGroupID: 0x1E4, // int32
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_nFieldInput: 0x1E4, // ParticleAttributeIndex_t
+            m_nIncrement: 0x1E8, // int32
+            m_nGroupID: 0x1EC, // int32
         },
-        C_INIT_RandomNamedModelMeshGroup: {
+        C_OP_PerParticleForce: {
+            m_flForceScale: 0x1F0, // CPerParticleFloatInput
+            m_vForce: 0x368, // CPerParticleVecInput
+            m_nCP: 0xA40, // int32
         },
         C_OP_MaxVelocity: {
-            m_flMaxVelocity: 0x1D8, // CPerParticleFloatInput
-            m_flMinVelocity: 0x348, // CPerParticleFloatInput
+            m_flMaxVelocity: 0x1E0, // CPerParticleFloatInput
+            m_flMinVelocity: 0x358, // CPerParticleFloatInput
         },
-        C_OP_MaintainEmitter: {
-            m_nParticlesToMaintain: 0x1E0, // CParticleCollectionFloatInput
-            m_flStartTime: 0x350, // float32
-            m_flEmissionDuration: 0x358, // CParticleCollectionFloatInput
-            m_flEmissionRate: 0x4C8, // float32
-            m_nSnapshotControlPoint: 0x4CC, // int32
-            m_strSnapshotSubset: 0x4D0, // CUtlString
-            m_bEmitInstantaneously: 0x4D8, // bool
-            m_bFinalEmitOnStop: 0x4D9, // bool
-            m_flScale: 0x4E0, // CParticleCollectionFloatInput
+        C_INIT_VelocityFromNormal: {
+            m_fSpeedMin: 0x1E8, // float32
+            m_fSpeedMax: 0x1EC, // float32
+            m_bIgnoreDt: 0x1F0, // bool
         },
         C_INIT_PositionOffsetToCP: {
-            m_nControlPointNumberStart: 0x1E0, // int32
-            m_nControlPointNumberEnd: 0x1E4, // int32
-            m_bLocalCoords: 0x1E8, // bool
+            m_nControlPointNumberStart: 0x1E8, // int32
+            m_nControlPointNumberEnd: 0x1EC, // int32
+            m_bLocalCoords: 0x1F0, // bool
         },
         C_INIT_RemapInitialTransformDirectionToRotation: {
-            m_TransformInput: 0x1E0, // CParticleTransformInput
-            m_nFieldOutput: 0x248, // ParticleAttributeIndex_t
-            m_flOffsetRot: 0x24C, // float32
-            m_nComponent: 0x250, // int32
+            m_TransformInput: 0x1E8, // CParticleTransformInput
+            m_nFieldOutput: 0x250, // ParticleAttributeIndex_t
+            m_flOffsetRot: 0x254, // float32
+            m_nComponent: 0x258, // int32
         },
         C_OP_FadeAndKill: {
-            m_flStartFadeInTime: 0x1D8, // float32
-            m_flEndFadeInTime: 0x1DC, // float32
-            m_flStartFadeOutTime: 0x1E0, // float32
-            m_flEndFadeOutTime: 0x1E4, // float32
-            m_flStartAlpha: 0x1E8, // float32
-            m_flEndAlpha: 0x1EC, // float32
-            m_bForcePreserveParticleOrder: 0x1F0, // bool
+            m_flStartFadeInTime: 0x1E0, // float32
+            m_flEndFadeInTime: 0x1E4, // float32
+            m_flStartFadeOutTime: 0x1E8, // float32
+            m_flEndFadeOutTime: 0x1EC, // float32
+            m_flStartAlpha: 0x1F0, // float32
+            m_flEndAlpha: 0x1F4, // float32
+            m_bForcePreserveParticleOrder: 0x1F8, // bool
+        },
+        C_OP_ColorInterpolate: {
+            m_ColorFade: 0x1E0, // Color
+            m_flFadeStartTime: 0x1F0, // float32
+            m_flFadeEndTime: 0x1F4, // float32
+            m_nFieldOutput: 0x1F8, // ParticleAttributeIndex_t
+            m_bEaseInOut: 0x1FC, // bool
         },
         C_OP_RampScalarSpline: {
-            m_RateMin: 0x1D8, // float32
-            m_RateMax: 0x1DC, // float32
-            m_flStartTime_min: 0x1E0, // float32
-            m_flStartTime_max: 0x1E4, // float32
-            m_flEndTime_min: 0x1E8, // float32
-            m_flEndTime_max: 0x1EC, // float32
-            m_flBias: 0x1F0, // float32
+            m_RateMin: 0x1E0, // float32
+            m_RateMax: 0x1E4, // float32
+            m_flStartTime_min: 0x1E8, // float32
+            m_flStartTime_max: 0x1EC, // float32
+            m_flEndTime_min: 0x1F0, // float32
+            m_flEndTime_max: 0x1F4, // float32
+            m_flBias: 0x1F8, // float32
             m_nField: 0x220, // ParticleAttributeIndex_t
             m_bProportionalOp: 0x224, // bool
             m_bEaseOut: 0x225, // bool
@@ -2621,176 +2589,196 @@ export const Schemas = {
         C_OP_RemapNamedModelSequenceOnceTimed: {
         },
         C_OP_MaintainSequentialPath: {
-            m_fMaxDistance: 0x1D8, // float32
-            m_flNumToAssign: 0x1DC, // float32
-            m_flCohesionStrength: 0x1E0, // float32
-            m_flTolerance: 0x1E4, // float32
-            m_bLoop: 0x1E8, // bool
-            m_bUseParticleCount: 0x1E9, // bool
-            m_PathParams: 0x1F0, // CPathParameters
+            m_fMaxDistance: 0x1E0, // CParticleCollectionFloatInput
+            m_flNumToAssign: 0x358, // CParticleCollectionFloatInput
+            m_flCohesionStrength: 0x4D0, // CParticleCollectionFloatInput
+            m_flTolerance: 0x648, // float32
+            m_bLoop: 0x64C, // bool
+            m_bUseParticleCount: 0x64D, // bool
+            m_PathParams: 0x650, // CPathParameters
         },
         C_OP_RemapNamedModelBodyPartEndCap: {
         },
         C_OP_StopAfterCPDuration: {
-            m_flDuration: 0x1E0, // CParticleCollectionFloatInput
-            m_bDestroyImmediately: 0x350, // bool
-            m_bPlayEndCap: 0x351, // bool
+            m_flDuration: 0x1E8, // CParticleCollectionFloatInput
+            m_bDestroyImmediately: 0x360, // bool
+            m_bPlayEndCap: 0x361, // bool
         },
         CGeneralSpin: {
-            m_nSpinRateDegrees: 0x1D8, // int32
-            m_nSpinRateMinDegrees: 0x1DC, // int32
-            m_fSpinRateStopTime: 0x1E4, // float32
-        },
-        C_OP_LockToSavedSequentialPath: {
-            m_flFadeStart: 0x1DC, // float32
-            m_flFadeEnd: 0x1E0, // float32
-            m_bCPPairs: 0x1E4, // bool
-            m_PathParams: 0x1F0, // CPathParameters
+            m_nSpinRateDegrees: 0x1E0, // int32
+            m_nSpinRateMinDegrees: 0x1E4, // int32
+            m_fSpinRateStopTime: 0x1EC, // float32
         },
         C_INIT_RemapNamedModelElementToScalar: {
-            m_hModel: 0x1E0, // CStrongHandle<InfoForResourceTypeCModel>
-            m_names: 0x1E8, // CUtlVector<CUtlString>
-            m_values: 0x200, // CUtlVector<float32>
-            m_nFieldInput: 0x218, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x21C, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x220, // ParticleSetMethod_t
-            m_bModelFromRenderer: 0x224, // bool
+            m_hModel: 0x1E8, // CStrongHandle<InfoForResourceTypeCModel>
+            m_names: 0x1F0, // CUtlVector<CUtlString>
+            m_values: 0x208, // CUtlVector<float32>
+            m_nFieldInput: 0x220, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x224, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x228, // ParticleSetMethod_t
+            m_bModelFromRenderer: 0x22C, // bool
         },
         C_OP_ClampVector: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_vecOutputMin: 0x1E0, // CPerParticleVecInput
-            m_vecOutputMax: 0x898, // CPerParticleVecInput
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_vecOutputMin: 0x1E8, // CPerParticleVecInput
+            m_vecOutputMax: 0x8C0, // CPerParticleVecInput
+        },
+        C_OP_RenderStatusEffectCitadel: {
+            m_pTextureColorWarp: 0x230, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureNormal: 0x238, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureMetalness: 0x240, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureRoughness: 0x248, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureSelfIllum: 0x250, // CStrongHandle<InfoForResourceTypeCTextureBase>
+            m_pTextureDetail: 0x258, // CStrongHandle<InfoForResourceTypeCTextureBase>
+        },
+        C_INIT_VelocityFromWind: {
+            m_vecSamplePosition: 0x1E8, // CPerParticleVecInput
+            m_flScale: 0x8C0, // CPerParticleFloatInput
+            m_bSampleFans: 0xA38, // bool
+        },
+        C_OP_WindForce: {
+            m_vForce: 0x1F0, // Vector
         },
         C_OP_RenderStandardLight: {
-            m_nLightType: 0x228, // ParticleLightTypeChoiceList_t
-            m_nMaxAllowed: 0x22C, // uint16
-            m_vecColorScale: 0x230, // CParticleCollectionVecInput
-            m_nColorBlendType: 0x8E8, // ParticleColorBlendType_t
-            m_strLightStyle: 0x8F0, // CUtlString
-            m_flLightStyleTime: 0x8F8, // CPerParticleFloatInput
-            m_flIntensity: 0xA68, // CPerParticleFloatInput
-            m_bCastShadows: 0xBD8, // bool
-            m_bDynamicBounce: 0xBD9, // bool
-            m_flBounceScale: 0xBE0, // CParticleCollectionFloatInput
-            m_flTheta: 0xD50, // CParticleCollectionFloatInput
-            m_flPhi: 0xEC0, // CParticleCollectionFloatInput
-            m_flRadiusMultiplier: 0x1030, // CParticleCollectionFloatInput
-            m_nAttenuationStyle: 0x11A0, // StandardLightingAttenuationStyle_t
-            m_flFalloffLinearity: 0x11A8, // CParticleCollectionFloatInput
-            m_flFiftyPercentFalloff: 0x1318, // CParticleCollectionFloatInput
-            m_flZeroPercentFalloff: 0x1488, // CParticleCollectionFloatInput
-            m_bRenderDiffuse: 0x15F8, // bool
-            m_bRenderSpecular: 0x15F9, // bool
-            m_lightCookie: 0x1600, // CUtlString
-            m_nPriority: 0x1608, // int32
-            m_nFogLightingMode: 0x160C, // ParticleLightFogLightingMode_t
-            m_flFogContribution: 0x1610, // CParticleCollectionRendererFloatInput
-            m_nCapsuleLightBehavior: 0x1780, // ParticleLightBehaviorChoiceList_t
-            m_flCapsuleLength: 0x1784, // float32
-            m_bReverseOrder: 0x1788, // bool
-            m_bClosedLoop: 0x1789, // bool
-            m_nPrevPntSource: 0x178C, // ParticleAttributeIndex_t
-            m_flMaxLength: 0x1790, // float32
-            m_flMinLength: 0x1794, // float32
-            m_bIgnoreDT: 0x1798, // bool
-            m_flConstrainRadiusToLengthRatio: 0x179C, // float32
-            m_flLengthScale: 0x17A0, // float32
-            m_flLengthFadeInTime: 0x17A4, // float32
+            m_nLightType: 0x230, // ParticleLightTypeChoiceList_t
+            m_nMaxAllowed: 0x234, // uint16
+            m_vecColorScale: 0x238, // CParticleCollectionVecInput
+            m_nColorBlendType: 0x910, // ParticleColorBlendType_t
+            m_strLightStyle: 0x918, // CUtlString
+            m_flLightStyleTime: 0x920, // CPerParticleFloatInput
+            m_flIntensity: 0xA98, // CPerParticleFloatInput
+            m_bCastShadows: 0xC10, // bool
+            m_bDynamicBounce: 0xC11, // bool
+            m_flBounceScale: 0xC18, // CParticleCollectionFloatInput
+            m_flTheta: 0xD90, // CParticleCollectionFloatInput
+            m_flPhi: 0xF08, // CParticleCollectionFloatInput
+            m_flRadiusMultiplier: 0x1080, // CParticleCollectionFloatInput
+            m_nAttenuationStyle: 0x11F8, // StandardLightingAttenuationStyle_t
+            m_flFalloffLinearity: 0x1200, // CParticleCollectionFloatInput
+            m_flFiftyPercentFalloff: 0x1378, // CParticleCollectionFloatInput
+            m_flZeroPercentFalloff: 0x14F0, // CParticleCollectionFloatInput
+            m_bRenderDiffuse: 0x1668, // bool
+            m_bRenderSpecular: 0x1669, // bool
+            m_lightCookie: 0x1670, // CUtlString
+            m_nPriority: 0x1678, // int32
+            m_nFogLightingMode: 0x167C, // ParticleLightFogLightingMode_t
+            m_flFogContribution: 0x1680, // CParticleCollectionRendererFloatInput
+            m_nCapsuleLightBehavior: 0x17F8, // ParticleLightBehaviorChoiceList_t
+            m_flCapsuleLength: 0x17FC, // float32
+            m_bReverseOrder: 0x1800, // bool
+            m_bClosedLoop: 0x1801, // bool
+            m_nPrevPntSource: 0x1804, // ParticleAttributeIndex_t
+            m_flMaxLength: 0x1808, // float32
+            m_flMinLength: 0x180C, // float32
+            m_bIgnoreDT: 0x1810, // bool
+            m_flConstrainRadiusToLengthRatio: 0x1814, // float32
+            m_flLengthScale: 0x1818, // float32
+            m_flLengthFadeInTime: 0x181C, // float32
         },
         C_OP_DistanceToTransform: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E0, // CPerParticleFloatInput
-            m_flInputMax: 0x350, // CPerParticleFloatInput
-            m_flOutputMin: 0x4C0, // CPerParticleFloatInput
-            m_flOutputMax: 0x630, // CPerParticleFloatInput
-            m_TransformStart: 0x7A0, // CParticleTransformInput
-            m_bLOS: 0x808, // bool
-            m_CollisionGroupName: 0x809, // char[128]
-            m_nTraceSet: 0x88C, // ParticleTraceSet_t
-            m_flMaxTraceLength: 0x890, // float32
-            m_flLOSScale: 0x894, // float32
-            m_nSetMethod: 0x898, // ParticleSetMethod_t
-            m_bActiveRange: 0x89C, // bool
-            m_bAdditive: 0x89D, // bool
-            m_vecComponentScale: 0x8A0, // CPerParticleVecInput
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E8, // CPerParticleFloatInput
+            m_flInputMax: 0x360, // CPerParticleFloatInput
+            m_flOutputMin: 0x4D8, // CPerParticleFloatInput
+            m_flOutputMax: 0x650, // CPerParticleFloatInput
+            m_TransformStart: 0x7C8, // CParticleTransformInput
+            m_bLOS: 0x830, // bool
+            m_CollisionGroupName: 0x831, // char[128]
+            m_nTraceSet: 0x8B4, // ParticleTraceSet_t
+            m_flMaxTraceLength: 0x8B8, // float32
+            m_flLOSScale: 0x8BC, // float32
+            m_nSetMethod: 0x8C0, // ParticleSetMethod_t
+            m_bActiveRange: 0x8C4, // bool
+            m_bAdditive: 0x8C5, // bool
+            m_vecComponentScale: 0x8C8, // CPerParticleVecInput
         },
         C_OP_RemapControlPointOrientationToRotation: {
-            m_nCP: 0x1D8, // int32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_flOffsetRot: 0x1E0, // float32
-            m_nComponent: 0x1E4, // int32
-        },
-        C_OP_SetControlPointToCenter: {
-            m_nCP1: 0x1E0, // int32
-            m_vecCP1Pos: 0x1E4, // Vector
-            m_bUseAvgParticlePos: 0x1F0, // bool
-            m_nSetParent: 0x1F4, // ParticleParentSetMode_t
-        },
-        C_OP_RemapAverageScalarValuetoCP: {
-            m_nExpression: 0x1E0, // SetStatisticExpressionType_t
-            m_flDecimalPlaces: 0x1E8, // CParticleCollectionFloatInput
-            m_nOutControlPointNumber: 0x358, // int32
-            m_nOutVectorField: 0x35C, // int32
-            m_nField: 0x360, // ParticleAttributeIndex_t
-            m_flOutputRemap: 0x368, // CParticleRemapFloatInput
-        },
-        C_OP_RemapDotProductToScalar: {
-            m_nInputCP1: 0x1D8, // int32
-            m_nInputCP2: 0x1DC, // int32
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E4, // float32
-            m_flInputMax: 0x1E8, // float32
-            m_flOutputMin: 0x1EC, // float32
-            m_flOutputMax: 0x1F0, // float32
-            m_bUseParticleVelocity: 0x1F4, // bool
-            m_nSetMethod: 0x1F8, // ParticleSetMethod_t
-            m_bActiveRange: 0x1FC, // bool
-            m_bUseParticleNormal: 0x1FD, // bool
-        },
-        C_INIT_Orient2DRelToCP: {
             m_nCP: 0x1E0, // int32
             m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
-            m_flRotOffset: 0x1E8, // float32
+            m_flOffsetRot: 0x1E8, // float32
+            m_nComponent: 0x1EC, // int32
+        },
+        C_OP_SetControlPointToCenter: {
+            m_nCP1: 0x1E8, // int32
+            m_vecCP1Pos: 0x1EC, // Vector
+            m_bUseAvgParticlePos: 0x1F8, // bool
+            m_nSetParent: 0x1FC, // ParticleParentSetMode_t
+        },
+        C_OP_RemapAverageScalarValuetoCP: {
+            m_nExpression: 0x1E8, // SetStatisticExpressionType_t
+            m_flDecimalPlaces: 0x1F0, // CParticleCollectionFloatInput
+            m_nOutControlPointNumber: 0x368, // int32
+            m_nOutVectorField: 0x36C, // int32
+            m_nField: 0x370, // ParticleAttributeIndex_t
+            m_flOutputRemap: 0x378, // CParticleRemapFloatInput
+        },
+        C_OP_RemapDotProductToScalar: {
+            m_nInputCP1: 0x1E0, // int32
+            m_nInputCP2: 0x1E4, // int32
+            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1EC, // float32
+            m_flInputMax: 0x1F0, // float32
+            m_flOutputMin: 0x1F4, // float32
+            m_flOutputMax: 0x1F8, // float32
+            m_bUseParticleVelocity: 0x1FC, // bool
+            m_nSetMethod: 0x200, // ParticleSetMethod_t
+            m_bActiveRange: 0x204, // bool
+            m_bUseParticleNormal: 0x205, // bool
+        },
+        C_OP_CurlNoiseForce: {
+            m_nNoiseType: 0x1F0, // ParticleDirectionNoiseType_t
+            m_vecNoiseFreq: 0x1F8, // CPerParticleVecInput
+            m_vecNoiseScale: 0x8D0, // CPerParticleVecInput
+            m_vecOffset: 0xFA8, // CPerParticleVecInput
+            m_vecOffsetRate: 0x1680, // CPerParticleVecInput
+            m_flWorleySeed: 0x1D58, // CPerParticleFloatInput
+            m_flWorleyJitter: 0x1ED0, // CPerParticleFloatInput
+            m_nCP: 0x1F0, // int32
+        },
+        C_INIT_Orient2DRelToCP: {
+            m_nCP: 0x1E8, // int32
+            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
+            m_flRotOffset: 0x1F0, // float32
         },
         C_OP_FadeIn: {
-            m_flFadeInTimeMin: 0x1D8, // float32
-            m_flFadeInTimeMax: 0x1DC, // float32
-            m_flFadeInTimeExp: 0x1E0, // float32
-            m_bProportional: 0x1E4, // bool
+            m_flFadeInTimeMin: 0x1E0, // float32
+            m_flFadeInTimeMax: 0x1E4, // float32
+            m_flFadeInTimeExp: 0x1E8, // float32
+            m_bProportional: 0x1EC, // bool
         },
         C_OP_RemapVectorToRotations: {
-            m_vecInput: 0x1D8, // CPerParticleVecInput
-            m_vecRotation: 0x890, // CPerParticleVecInput
+            m_vecInput: 0x1E0, // CPerParticleVecInput
+            m_vecRotation: 0x8B8, // CPerParticleVecInput
         },
         C_INIT_GlobalScale: {
-            m_flScale: 0x1E0, // float32
-            m_nScaleControlPointNumber: 0x1E4, // int32
-            m_nControlPointNumber: 0x1E8, // int32
-            m_bScaleRadius: 0x1EC, // bool
-            m_bScalePosition: 0x1ED, // bool
-            m_bScaleVelocity: 0x1EE, // bool
+            m_flScale: 0x1E8, // float32
+            m_nScaleControlPointNumber: 0x1EC, // int32
+            m_nControlPointNumber: 0x1F0, // int32
+            m_bScaleRadius: 0x1F4, // bool
+            m_bScalePosition: 0x1F5, // bool
+            m_bScaleVelocity: 0x1F6, // bool
         },
         C_INIT_RadiusFromCPObject: {
-            m_nControlPoint: 0x1E0, // int32
+            m_nControlPoint: 0x1E8, // int32
         },
         C_INIT_InitialVelocityFromHitbox: {
-            m_flVelocityMin: 0x1E0, // float32
-            m_flVelocityMax: 0x1E4, // float32
-            m_nControlPointNumber: 0x1E8, // int32
-            m_HitboxSetName: 0x1EC, // char[128]
-            m_bUseBones: 0x26C, // bool
+            m_flVelocityMin: 0x1E8, // float32
+            m_flVelocityMax: 0x1EC, // float32
+            m_nControlPointNumber: 0x1F0, // int32
+            m_HitboxSetName: 0x1F4, // char[128]
+            m_bUseBones: 0x274, // bool
         },
         C_OP_LerpVector: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_vecOutput: 0x1DC, // Vector
-            m_flStartTime: 0x1E8, // float32
-            m_flEndTime: 0x1EC, // float32
-            m_nSetMethod: 0x1F0, // ParticleSetMethod_t
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_vecOutput: 0x1E4, // Vector
+            m_flStartTime: 0x1F0, // float32
+            m_flEndTime: 0x1F4, // float32
+            m_nSetMethod: 0x1F8, // ParticleSetMethod_t
         },
         C_OP_SetControlPointFieldToWater: {
-            m_nSourceCP: 0x1E0, // int32
-            m_nDestCP: 0x1E4, // int32
-            m_nCPField: 0x1E8, // int32
+            m_nSourceCP: 0x1E8, // int32
+            m_nDestCP: 0x1EC, // int32
+            m_nCPField: 0x1F0, // int32
         },
         TextureGroup_t: {
             m_bEnabled: 0x0, // bool
@@ -2801,238 +2789,217 @@ export const Schemas = {
             m_nTextureChannels: 0x2C, // SpriteCardTextureChannel_t
             m_nTextureBlendMode: 0x30, // ParticleTextureLayerBlendType_t
             m_flTextureBlend: 0x38, // CParticleCollectionRendererFloatInput
-            m_TextureControls: 0x1A8, // TextureControls_t
+            m_TextureControls: 0x1B0, // TextureControls_t
+        },
+        C_OP_TimeVaryingForce: {
+            m_flStartLerpTime: 0x1F0, // float32
+            m_StartingForce: 0x1F4, // Vector
+            m_flEndLerpTime: 0x200, // float32
+            m_EndingForce: 0x204, // Vector
         },
         C_OP_SetCPOrientationToGroundNormal: {
-            m_flInterpRate: 0x1D8, // float32
-            m_flMaxTraceLength: 0x1DC, // float32
-            m_flTolerance: 0x1E0, // float32
-            m_flTraceOffset: 0x1E4, // float32
-            m_CollisionGroupName: 0x1E8, // char[128]
-            m_nTraceSet: 0x268, // ParticleTraceSet_t
-            m_nInputCP: 0x26C, // int32
-            m_nOutputCP: 0x270, // int32
-            m_bIncludeWater: 0x280, // bool
-        },
-        C_OP_SnapshotSkinToBones: {
-            m_bTransformNormals: 0x1D8, // bool
-            m_bTransformRadii: 0x1D9, // bool
-            m_nControlPointNumber: 0x1DC, // int32
-            m_flLifeTimeFadeStart: 0x1E0, // float32
-            m_flLifeTimeFadeEnd: 0x1E4, // float32
-            m_flJumpThreshold: 0x1E8, // float32
-            m_flPrevPosScale: 0x1EC, // float32
+            m_flInterpRate: 0x1E0, // float32
+            m_flMaxTraceLength: 0x1E4, // float32
+            m_flTolerance: 0x1E8, // float32
+            m_flTraceOffset: 0x1EC, // float32
+            m_CollisionGroupName: 0x1F0, // char[128]
+            m_nTraceSet: 0x270, // ParticleTraceSet_t
+            m_nInputCP: 0x274, // int32
+            m_nOutputCP: 0x278, // int32
+            m_bIncludeWater: 0x288, // bool
         },
         C_INIT_CreateWithinSphereTransform: {
-            m_fRadiusMin: 0x1E0, // CPerParticleFloatInput
-            m_fRadiusMax: 0x350, // CPerParticleFloatInput
-            m_vecDistanceBias: 0x4C0, // CPerParticleVecInput
-            m_vecDistanceBiasAbs: 0xB78, // Vector
-            m_TransformInput: 0xB88, // CParticleTransformInput
-            m_fSpeedMin: 0xBF0, // CPerParticleFloatInput
-            m_fSpeedMax: 0xD60, // CPerParticleFloatInput
-            m_fSpeedRandExp: 0xED0, // float32
-            m_bLocalCoords: 0xED4, // bool
-            m_LocalCoordinateSystemSpeedMin: 0xED8, // CPerParticleVecInput
-            m_LocalCoordinateSystemSpeedMax: 0x1590, // CPerParticleVecInput
-            m_nFieldOutput: 0x1C48, // ParticleAttributeIndex_t
-            m_nFieldVelocity: 0x1C4C, // ParticleAttributeIndex_t
+            m_fRadiusMin: 0x1E8, // CPerParticleFloatInput
+            m_fRadiusMax: 0x360, // CPerParticleFloatInput
+            m_vecDistanceBias: 0x4D8, // CPerParticleVecInput
+            m_vecDistanceBiasAbs: 0xBB0, // Vector
+            m_TransformInput: 0xBC0, // CParticleTransformInput
+            m_fSpeedMin: 0xC28, // CPerParticleFloatInput
+            m_fSpeedMax: 0xDA0, // CPerParticleFloatInput
+            m_fSpeedRandExp: 0xF18, // float32
+            m_bLocalCoords: 0xF1C, // bool
+            m_LocalCoordinateSystemSpeedMin: 0xF20, // CPerParticleVecInput
+            m_LocalCoordinateSystemSpeedMax: 0x15F8, // CPerParticleVecInput
+            m_nFieldOutput: 0x1CD0, // ParticleAttributeIndex_t
+            m_nFieldVelocity: 0x1CD4, // ParticleAttributeIndex_t
         },
         C_OP_RadiusDecay: {
-            m_flMinRadius: 0x1D8, // float32
+            m_flMinRadius: 0x1E0, // float32
         },
         C_INIT_RemapNamedModelBodyPartToScalar: {
         },
         C_INIT_RemapScalarToVector: {
-            m_nFieldInput: 0x1E0, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E8, // float32
-            m_flInputMax: 0x1EC, // float32
-            m_vecOutputMin: 0x1F0, // Vector
-            m_vecOutputMax: 0x1FC, // Vector
-            m_flStartTime: 0x208, // float32
-            m_flEndTime: 0x20C, // float32
-            m_nSetMethod: 0x210, // ParticleSetMethod_t
-            m_nControlPointNumber: 0x214, // int32
-            m_bLocalCoords: 0x218, // bool
-            m_flRemapBias: 0x21C, // float32
+            m_nFieldInput: 0x1E8, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1F0, // float32
+            m_flInputMax: 0x1F4, // float32
+            m_vecOutputMin: 0x1F8, // Vector
+            m_vecOutputMax: 0x204, // Vector
+            m_flStartTime: 0x210, // float32
+            m_flEndTime: 0x214, // float32
+            m_nSetMethod: 0x218, // ParticleSetMethod_t
+            m_nControlPointNumber: 0x21C, // int32
+            m_bLocalCoords: 0x220, // bool
+            m_flRemapBias: 0x224, // float32
         },
         C_INIT_InitialSequenceFromModel: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
-            m_nFieldOutputAnim: 0x1E8, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1EC, // float32
-            m_flInputMax: 0x1F0, // float32
-            m_flOutputMin: 0x1F4, // float32
-            m_flOutputMax: 0x1F8, // float32
-            m_nSetMethod: 0x1FC, // ParticleSetMethod_t
-        },
-        C_OP_NoiseEmitter: {
-            m_flEmissionDuration: 0x1E0, // float32
-            m_flStartTime: 0x1E4, // float32
-            m_flEmissionScale: 0x1E8, // float32
-            m_nScaleControlPoint: 0x1EC, // int32
-            m_nScaleControlPointField: 0x1F0, // int32
-            m_nWorldNoisePoint: 0x1F4, // int32
-            m_bAbsVal: 0x1F8, // bool
-            m_bAbsValInv: 0x1F9, // bool
-            m_flOffset: 0x1FC, // float32
-            m_flOutputMin: 0x200, // float32
-            m_flOutputMax: 0x204, // float32
-            m_flNoiseScale: 0x208, // float32
-            m_flWorldNoiseScale: 0x20C, // float32
-            m_vecOffsetLoc: 0x210, // Vector
-            m_flWorldTimeScale: 0x21C, // float32
+            m_nControlPointNumber: 0x1E8, // int32
+            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
+            m_nFieldOutputAnim: 0x1F0, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1F4, // float32
+            m_flInputMax: 0x1F8, // float32
+            m_flOutputMin: 0x1FC, // float32
+            m_flOutputMax: 0x200, // float32
+            m_nSetMethod: 0x204, // ParticleSetMethod_t
         },
         C_OP_SelectivelyEnableChildren: {
-            m_nChildGroupID: 0x1E0, // CParticleCollectionFloatInput
-            m_nFirstChild: 0x350, // CParticleCollectionFloatInput
-            m_nNumChildrenToEnable: 0x4C0, // CParticleCollectionFloatInput
-            m_bPlayEndcapOnStop: 0x630, // bool
-            m_bDestroyImmediately: 0x631, // bool
+            m_nChildGroupID: 0x1E8, // CParticleCollectionFloatInput
+            m_nFirstChild: 0x360, // CParticleCollectionFloatInput
+            m_nNumChildrenToEnable: 0x4D8, // CParticleCollectionFloatInput
+            m_bPlayEndcapOnStop: 0x650, // bool
+            m_bDestroyImmediately: 0x651, // bool
         },
         ModelReference_t: {
             m_model: 0x0, // CStrongHandle<InfoForResourceTypeCModel>
             m_flRelativeProbabilityOfSpawn: 0x8, // float32
         },
         C_INIT_CreateFromCPs: {
-            m_nIncrement: 0x1E0, // int32
-            m_nMinCP: 0x1E4, // int32
-            m_nMaxCP: 0x1E8, // int32
-            m_nDynamicCPCount: 0x1F0, // CParticleCollectionFloatInput
+            m_nIncrement: 0x1E8, // int32
+            m_nMinCP: 0x1EC, // int32
+            m_nMaxCP: 0x1F0, // int32
+            m_nDynamicCPCount: 0x1F8, // CParticleCollectionFloatInput
         },
         C_INIT_CreateSpiralSphere: {
-            m_TransformInput: 0x1E0, // CParticleTransformInput
-            m_flDensity: 0x248, // CPerParticleFloatInput
-            m_flInitialRadius: 0x3B8, // CPerParticleFloatInput
-            m_flInitialSpeedMin: 0x528, // CPerParticleFloatInput
-            m_flInitialSpeedMax: 0x698, // CPerParticleFloatInput
-            m_bUseParticleCount: 0x808, // bool
+            m_TransformInput: 0x1E8, // CParticleTransformInput
+            m_flDensity: 0x250, // CPerParticleFloatInput
+            m_flInitialRadius: 0x3C8, // CPerParticleFloatInput
+            m_flInitialSpeedMin: 0x540, // CPerParticleFloatInput
+            m_flInitialSpeedMax: 0x6B8, // CPerParticleFloatInput
+            m_bUseParticleCount: 0x830, // bool
         },
         C_OP_CPVelocityForce: {
-            m_nControlPointNumber: 0x1E8, // int32
-            m_flScale: 0x1F0, // CPerParticleFloatInput
-        },
-        C_OP_RemapNamedModelElementEndCap: {
-            m_hModel: 0x1D8, // CStrongHandle<InfoForResourceTypeCModel>
-            m_inNames: 0x1E0, // CUtlVector<CUtlString>
-            m_outNames: 0x1F8, // CUtlVector<CUtlString>
-            m_fallbackNames: 0x210, // CUtlVector<CUtlString>
-            m_bModelFromRenderer: 0x228, // bool
-            m_nFieldInput: 0x22C, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x230, // ParticleAttributeIndex_t
+            m_nControlPointNumber: 0x1F0, // int32
+            m_flScale: 0x1F8, // CPerParticleFloatInput
         },
         C_INIT_ScaleVelocity: {
-            m_vecScale: 0x1E0, // CParticleCollectionVecInput
+            m_vecScale: 0x1E8, // CPerParticleVecInput
         },
         C_OP_MoveToHitbox: {
-            m_modelInput: 0x1D8, // CParticleModelInput
-            m_transformInput: 0x238, // CParticleTransformInput
-            m_flLifeTimeLerpStart: 0x2A4, // float32
-            m_flLifeTimeLerpEnd: 0x2A8, // float32
-            m_flPrevPosScale: 0x2AC, // float32
-            m_HitboxSetName: 0x2B0, // char[128]
-            m_bUseBones: 0x330, // bool
-            m_nLerpType: 0x334, // HitboxLerpType_t
-            m_flInterpolation: 0x338, // CPerParticleFloatInput
+            m_modelInput: 0x1E0, // CParticleModelInput
+            m_transformInput: 0x240, // CParticleTransformInput
+            m_flLifeTimeLerpStart: 0x2AC, // float32
+            m_flLifeTimeLerpEnd: 0x2B0, // float32
+            m_flPrevPosScale: 0x2B4, // float32
+            m_HitboxSetName: 0x2B8, // char[128]
+            m_bUseBones: 0x338, // bool
+            m_nLerpType: 0x33C, // HitboxLerpType_t
+            m_flInterpolation: 0x340, // CPerParticleFloatInput
         },
         C_OP_PinRopeSegmentParticleToParent: {
-            m_nParticleSelection: 0x1D8, // ParticleSelection_t
-            m_nParticleNumber: 0x1E0, // CParticleCollectionFloatInput
-            m_flInterpolation: 0x350, // CPerParticleFloatInput
+            m_nParticleSelection: 0x1E0, // ParticleSelection_t
+            m_nParticleNumber: 0x1E8, // CParticleCollectionFloatInput
+            m_flInterpolation: 0x360, // CPerParticleFloatInput
         },
         C_INIT_PointList: {
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_pointList: 0x1E8, // CUtlVector<PointDefinition_t>
-            m_bPlaceAlongPath: 0x200, // bool
-            m_bClosedLoop: 0x201, // bool
-            m_nNumPointsAlongPath: 0x204, // int32
+            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
+            m_pointList: 0x1F0, // CUtlVector<PointDefinition_t>
+            m_bPlaceAlongPath: 0x208, // bool
+            m_bClosedLoop: 0x209, // bool
+            m_nNumPointsAlongPath: 0x20C, // int32
         },
         C_OP_LerpToOtherAttribute: {
-            m_flInterpolation: 0x1D8, // CPerParticleFloatInput
-            m_nFieldInputFrom: 0x348, // ParticleAttributeIndex_t
-            m_nFieldInput: 0x34C, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x350, // ParticleAttributeIndex_t
+            m_flInterpolation: 0x1E0, // CPerParticleFloatInput
+            m_nFieldInputFrom: 0x358, // ParticleAttributeIndex_t
+            m_nFieldInput: 0x35C, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x360, // ParticleAttributeIndex_t
         },
-        C_INIT_RemapParticleCountToScalar: {
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_nInputMin: 0x1E4, // int32
-            m_nInputMax: 0x1E8, // int32
-            m_nScaleControlPoint: 0x1EC, // int32
-            m_nScaleControlPointField: 0x1F0, // int32
-            m_flOutputMin: 0x1F4, // float32
-            m_flOutputMax: 0x1F8, // float32
-            m_nSetMethod: 0x1FC, // ParticleSetMethod_t
-            m_bActiveRange: 0x200, // bool
-            m_bInvert: 0x201, // bool
-            m_bWrap: 0x202, // bool
-            m_flRemapBias: 0x204, // float32
+        C_INIT_RandomColor: {
+            m_ColorMin: 0x204, // Color
+            m_ColorMax: 0x208, // Color
+            m_TintMin: 0x20C, // Color
+            m_TintMax: 0x210, // Color
+            m_flTintPerc: 0x214, // float32
+            m_flUpdateThreshold: 0x218, // float32
+            m_nTintCP: 0x21C, // int32
+            m_nFieldOutput: 0x220, // ParticleAttributeIndex_t
+            m_nTintBlendMode: 0x224, // ParticleColorBlendMode_t
+            m_flLightAmplification: 0x228, // float32
         },
         C_INIT_InheritFromParentParticles: {
-            m_flScale: 0x1E0, // float32
-            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
-            m_nIncrement: 0x1E8, // int32
-            m_bRandomDistribution: 0x1EC, // bool
-            m_nRandomSeed: 0x1F0, // int32
+            m_flScale: 0x1E8, // float32
+            m_nFieldOutput: 0x1EC, // ParticleAttributeIndex_t
+            m_nIncrement: 0x1F0, // int32
+            m_bRandomDistribution: 0x1F4, // bool
+            m_nRandomSeed: 0x1F8, // int32
         },
         C_OP_RampScalarLinearSimple: {
-            m_Rate: 0x1D8, // float32
-            m_flStartTime: 0x1DC, // float32
-            m_flEndTime: 0x1E0, // float32
+            m_Rate: 0x1E0, // float32
+            m_flStartTime: 0x1E4, // float32
+            m_flEndTime: 0x1E8, // float32
             m_nField: 0x210, // ParticleAttributeIndex_t
         },
         C_INIT_ChaoticAttractor: {
-            m_flAParm: 0x1E0, // float32
-            m_flBParm: 0x1E4, // float32
-            m_flCParm: 0x1E8, // float32
-            m_flDParm: 0x1EC, // float32
-            m_flScale: 0x1F0, // float32
-            m_flSpeedMin: 0x1F4, // float32
-            m_flSpeedMax: 0x1F8, // float32
-            m_nBaseCP: 0x1FC, // int32
-            m_bUniformSpeed: 0x200, // bool
+            m_flAParm: 0x1E8, // float32
+            m_flBParm: 0x1EC, // float32
+            m_flCParm: 0x1F0, // float32
+            m_flDParm: 0x1F4, // float32
+            m_flScale: 0x1F8, // float32
+            m_flSpeedMin: 0x1FC, // float32
+            m_flSpeedMax: 0x200, // float32
+            m_nBaseCP: 0x204, // int32
+            m_bUniformSpeed: 0x208, // bool
         },
         C_OP_MovementRigidAttachToCP: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_nScaleControlPoint: 0x1DC, // int32
-            m_nScaleCPField: 0x1E0, // int32
-            m_nFieldInput: 0x1E4, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
-            m_bOffsetLocal: 0x1EC, // bool
+            m_nControlPointNumber: 0x1E0, // int32
+            m_nScaleControlPoint: 0x1E4, // int32
+            m_nScaleCPField: 0x1E8, // int32
+            m_nFieldInput: 0x1EC, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1F0, // ParticleAttributeIndex_t
+            m_bOffsetLocal: 0x1F4, // bool
         },
         C_INIT_SkyVisCull: {
-            m_vecTestDir: 0x1E0, // CParticleCollectionVecInput
-            m_nTraceSet: 0x898, // ParticleTraceSet_t
-            m_bCullOnSky: 0x89C, // bool
+            m_vecTestPosition: 0x1E8, // CPerParticleVecInput
+            m_vecTestDir: 0x8C0, // CParticleCollectionVecInput
+            m_nTraceSet: 0xF98, // ParticleTraceSet_t
+            m_bCullOnSky: 0xF9C, // bool
         },
         C_INIT_DistanceToCPInit: {
-            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1E8, // CPerParticleFloatInput
-            m_flInputMax: 0x358, // CPerParticleFloatInput
-            m_flOutputMin: 0x4C8, // CPerParticleFloatInput
-            m_flOutputMax: 0x638, // CPerParticleFloatInput
-            m_nStartCP: 0x7A8, // int32
-            m_bLOS: 0x7AC, // bool
-            m_CollisionGroupName: 0x7AD, // char[128]
-            m_nTraceSet: 0x830, // ParticleTraceSet_t
-            m_flMaxTraceLength: 0x838, // CPerParticleFloatInput
-            m_flLOSScale: 0x9A8, // float32
-            m_nSetMethod: 0x9AC, // ParticleSetMethod_t
-            m_bActiveRange: 0x9B0, // bool
-            m_vecDistanceScale: 0x9B4, // Vector
-            m_flRemapBias: 0x9C0, // float32
+            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1F0, // CPerParticleFloatInput
+            m_flInputMax: 0x368, // CPerParticleFloatInput
+            m_flOutputMin: 0x4E0, // CPerParticleFloatInput
+            m_flOutputMax: 0x658, // CPerParticleFloatInput
+            m_nStartCP: 0x7D0, // int32
+            m_bLOS: 0x7D4, // bool
+            m_CollisionGroupName: 0x7D5, // char[128]
+            m_nTraceSet: 0x858, // ParticleTraceSet_t
+            m_flMaxTraceLength: 0x860, // CPerParticleFloatInput
+            m_flLOSScale: 0x9D8, // float32
+            m_nSetMethod: 0x9DC, // ParticleSetMethod_t
+            m_bActiveRange: 0x9E0, // bool
+            m_vecDistanceScale: 0x9E4, // Vector
+            m_flRemapBias: 0x9F0, // float32
         },
         C_OP_EndCapDecay: {
         },
+        C_OP_ForceBasedOnDistanceToPlane: {
+            m_flMinDist: 0x1F0, // float32
+            m_vecForceAtMinDist: 0x1F4, // Vector
+            m_flMaxDist: 0x200, // float32
+            m_vecForceAtMaxDist: 0x204, // Vector
+            m_vecPlaneNormal: 0x210, // Vector
+            m_nControlPointNumber: 0x21C, // int32
+            m_flExponent: 0x220, // float32
+        },
         C_OP_RemapDensityToVector: {
-            m_flRadiusScale: 0x1D8, // float32
-            m_nFieldOutput: 0x1DC, // ParticleAttributeIndex_t
-            m_flDensityMin: 0x1E0, // float32
-            m_flDensityMax: 0x1E4, // float32
-            m_vecOutputMin: 0x1E8, // Vector
-            m_vecOutputMax: 0x1F4, // Vector
-            m_bUseParentDensity: 0x200, // bool
-            m_nVoxelGridResolution: 0x204, // int32
+            m_flRadiusScale: 0x1E0, // float32
+            m_nFieldOutput: 0x1E4, // ParticleAttributeIndex_t
+            m_flDensityMin: 0x1E8, // float32
+            m_flDensityMax: 0x1EC, // float32
+            m_vecOutputMin: 0x1F0, // Vector
+            m_vecOutputMax: 0x1FC, // Vector
+            m_bUseParentDensity: 0x208, // bool
+            m_nVoxelGridResolution: 0x20C, // int32
         },
         ParticleControlPointConfiguration_t: {
             m_name: 0x0, // CUtlString
@@ -3040,10 +3007,10 @@ export const Schemas = {
             m_previewState: 0x20, // ParticlePreviewState_t
         },
         C_INIT_SetRigidAttachment: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_nFieldInput: 0x1E4, // ParticleAttributeIndex_t
-            m_nFieldOutput: 0x1E8, // ParticleAttributeIndex_t
-            m_bLocalSpace: 0x1EC, // bool
+            m_nControlPointNumber: 0x1E8, // int32
+            m_nFieldInput: 0x1EC, // ParticleAttributeIndex_t
+            m_nFieldOutput: 0x1F0, // ParticleAttributeIndex_t
+            m_bLocalSpace: 0x1F4, // bool
         },
         MaterialVariable_t: {
             m_strVariable: 0x0, // CUtlString
@@ -3051,113 +3018,120 @@ export const Schemas = {
             m_flScale: 0xC, // float32
         },
         C_OP_RemapSpeed: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1DC, // float32
-            m_flInputMax: 0x1E0, // float32
-            m_flOutputMin: 0x1E4, // float32
-            m_flOutputMax: 0x1E8, // float32
-            m_nSetMethod: 0x1EC, // ParticleSetMethod_t
-            m_bIgnoreDelta: 0x1F0, // bool
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E4, // float32
+            m_flInputMax: 0x1E8, // float32
+            m_flOutputMin: 0x1EC, // float32
+            m_flOutputMax: 0x1F0, // float32
+            m_nSetMethod: 0x1F4, // ParticleSetMethod_t
+            m_bIgnoreDelta: 0x1F8, // bool
         },
         C_OP_RenderModels: {
-            m_bOnlyRenderInEffectsBloomPass: 0x228, // bool
-            m_bOnlyRenderInEffectsWaterPass: 0x229, // bool
-            m_bUseMixedResolutionRendering: 0x22A, // bool
-            m_bOnlyRenderInEffecsGameOverlay: 0x22B, // bool
-            m_ModelList: 0x230, // CUtlVector<ModelReference_t>
-            m_nBodyGroupField: 0x248, // ParticleAttributeIndex_t
-            m_nSubModelField: 0x24C, // ParticleAttributeIndex_t
-            m_bIgnoreNormal: 0x250, // bool
-            m_bOrientZ: 0x251, // bool
-            m_bCenterOffset: 0x252, // bool
-            m_vecLocalOffset: 0x258, // CPerParticleVecInput
-            m_vecLocalRotation: 0x910, // CPerParticleVecInput
-            m_bIgnoreRadius: 0xFC8, // bool
-            m_nModelScaleCP: 0xFCC, // int32
-            m_vecComponentScale: 0xFD0, // CPerParticleVecInput
-            m_bLocalScale: 0x1688, // bool
-            m_nSizeCullBloat: 0x168C, // int32
-            m_bAnimated: 0x1690, // bool
-            m_flAnimationRate: 0x1698, // CPerParticleFloatInput
-            m_bScaleAnimationRate: 0x1808, // bool
-            m_bForceLoopingAnimation: 0x1809, // bool
-            m_bResetAnimOnStop: 0x180A, // bool
-            m_bManualAnimFrame: 0x180B, // bool
-            m_nAnimationScaleField: 0x180C, // ParticleAttributeIndex_t
-            m_nAnimationField: 0x1810, // ParticleAttributeIndex_t
-            m_nManualFrameField: 0x1814, // ParticleAttributeIndex_t
-            m_ActivityName: 0x1818, // char[256]
-            m_SequenceName: 0x1918, // char[256]
-            m_bEnableClothSimulation: 0x1A18, // bool
-            m_bDisableClothGroundCollision: 0x1A19, // bool
-            m_ClothEffectName: 0x1A1A, // char[64]
-            m_hOverrideMaterial: 0x1A60, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_bOverrideTranslucentMaterials: 0x1A68, // bool
-            m_nSkin: 0x1A70, // CPerParticleFloatInput
-            m_MaterialVars: 0x1BE0, // CUtlVector<MaterialVariable_t>
-            m_flRenderFilter: 0x1BF8, // CPerParticleFloatInput
-            m_flManualModelSelection: 0x1D68, // CPerParticleFloatInput
-            m_modelInput: 0x1ED8, // CParticleModelInput
-            m_nLOD: 0x1F38, // int32
-            m_EconSlotName: 0x1F3C, // char[256]
-            m_bOriginalModel: 0x203C, // bool
-            m_bSuppressTint: 0x203D, // bool
-            m_nSubModelFieldType: 0x2040, // RenderModelSubModelFieldType_t
-            m_bDisableShadows: 0x2044, // bool
-            m_bDisableDepthPrepass: 0x2045, // bool
-            m_bAcceptsDecals: 0x2046, // bool
-            m_bForceDrawInterlevedWithSiblings: 0x2047, // bool
-            m_bDoNotDrawInParticlePass: 0x2048, // bool
-            m_bAllowApproximateTransforms: 0x2049, // bool
-            m_szRenderAttribute: 0x204A, // char[260]
-            m_flRadiusScale: 0x2150, // CParticleCollectionFloatInput
-            m_flAlphaScale: 0x22C0, // CParticleCollectionFloatInput
-            m_flRollScale: 0x2430, // CParticleCollectionFloatInput
-            m_nAlpha2Field: 0x25A0, // ParticleAttributeIndex_t
-            m_vecColorScale: 0x25A8, // CParticleCollectionVecInput
-            m_nColorBlendType: 0x2C60, // ParticleColorBlendType_t
-            m_strLightStyle: 0x2C68, // CUtlString
-            m_flLightStyleTime: 0x2C70, // CPerParticleFloatInput
+            m_bOnlyRenderInEffectsBloomPass: 0x230, // bool
+            m_bOnlyRenderInEffectsWaterPass: 0x231, // bool
+            m_bUseMixedResolutionRendering: 0x232, // bool
+            m_bOnlyRenderInEffecsGameOverlay: 0x233, // bool
+            m_ModelList: 0x238, // CUtlVector<ModelReference_t>
+            m_nBodyGroupField: 0x250, // ParticleAttributeIndex_t
+            m_nSubModelField: 0x254, // ParticleAttributeIndex_t
+            m_bIgnoreNormal: 0x258, // bool
+            m_bOrientZ: 0x259, // bool
+            m_bCenterOffset: 0x25A, // bool
+            m_vecLocalOffset: 0x260, // CPerParticleVecInput
+            m_vecLocalRotation: 0x938, // CPerParticleVecInput
+            m_bIgnoreRadius: 0x1010, // bool
+            m_nModelScaleCP: 0x1014, // int32
+            m_vecComponentScale: 0x1018, // CPerParticleVecInput
+            m_bLocalScale: 0x16F0, // bool
+            m_nSizeCullBloat: 0x16F4, // int32
+            m_bAnimated: 0x16F8, // bool
+            m_flAnimationRate: 0x1700, // CPerParticleFloatInput
+            m_bScaleAnimationRate: 0x1878, // bool
+            m_bForceLoopingAnimation: 0x1879, // bool
+            m_bResetAnimOnStop: 0x187A, // bool
+            m_bManualAnimFrame: 0x187B, // bool
+            m_nAnimationScaleField: 0x187C, // ParticleAttributeIndex_t
+            m_nAnimationField: 0x1880, // ParticleAttributeIndex_t
+            m_nManualFrameField: 0x1884, // ParticleAttributeIndex_t
+            m_ActivityName: 0x1888, // char[256]
+            m_SequenceName: 0x1988, // char[256]
+            m_bEnableClothSimulation: 0x1A88, // bool
+            m_bDisableClothGroundCollision: 0x1A89, // bool
+            m_ClothEffectName: 0x1A8A, // char[64]
+            m_hOverrideMaterial: 0x1AD0, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_bOverrideTranslucentMaterials: 0x1AD8, // bool
+            m_nSkin: 0x1AE0, // CPerParticleFloatInput
+            m_MaterialVars: 0x1C58, // CUtlVector<MaterialVariable_t>
+            m_flRenderFilter: 0x1C70, // CPerParticleFloatInput
+            m_flManualModelSelection: 0x1DE8, // CPerParticleFloatInput
+            m_modelInput: 0x1F60, // CParticleModelInput
+            m_nLOD: 0x1FC0, // int32
+            m_EconSlotName: 0x1FC4, // char[256]
+            m_bOriginalModel: 0x20C4, // bool
+            m_bSuppressTint: 0x20C5, // bool
+            m_nSubModelFieldType: 0x20C8, // RenderModelSubModelFieldType_t
+            m_bDisableShadows: 0x20CC, // bool
+            m_bDisableDepthPrepass: 0x20CD, // bool
+            m_bAcceptsDecals: 0x20CE, // bool
+            m_bForceDrawInterlevedWithSiblings: 0x20CF, // bool
+            m_bDoNotDrawInParticlePass: 0x20D0, // bool
+            m_bAllowApproximateTransforms: 0x20D1, // bool
+            m_szRenderAttribute: 0x20D2, // char[260]
+            m_flRadiusScale: 0x21D8, // CParticleCollectionFloatInput
+            m_flAlphaScale: 0x2350, // CParticleCollectionFloatInput
+            m_flRollScale: 0x24C8, // CParticleCollectionFloatInput
+            m_nAlpha2Field: 0x2640, // ParticleAttributeIndex_t
+            m_vecColorScale: 0x2648, // CParticleCollectionVecInput
+            m_nColorBlendType: 0x2D20, // ParticleColorBlendType_t
+            m_strLightStyle: 0x2D28, // CUtlString
+            m_flLightStyleTime: 0x2D30, // CPerParticleFloatInput
         },
         C_INIT_RemapNamedModelMeshGroupToScalar: {
         },
+        C_OP_RopeSpringConstraint: {
+            m_flRestLength: 0x1E0, // CParticleCollectionFloatInput
+            m_flMinDistance: 0x358, // CParticleCollectionFloatInput
+            m_flMaxDistance: 0x4D0, // CParticleCollectionFloatInput
+            m_flAdjustmentScale: 0x648, // float32
+            m_flInitialRestingLength: 0x650, // CParticleCollectionFloatInput
+        },
         C_INIT_PositionWarpScalar: {
-            m_vecWarpMin: 0x1E0, // Vector
-            m_vecWarpMax: 0x1EC, // Vector
-            m_InputValue: 0x1F8, // CPerParticleFloatInput
-            m_flPrevPosScale: 0x368, // float32
-            m_nScaleControlPointNumber: 0x36C, // int32
-            m_nControlPointNumber: 0x370, // int32
+            m_vecWarpMin: 0x1E8, // Vector
+            m_vecWarpMax: 0x1F4, // Vector
+            m_InputValue: 0x200, // CPerParticleFloatInput
+            m_flPrevPosScale: 0x378, // float32
+            m_nScaleControlPointNumber: 0x37C, // int32
+            m_nControlPointNumber: 0x380, // int32
         },
         C_OP_ForceControlPointStub: {
-            m_ControlPoint: 0x1E0, // int32
+            m_ControlPoint: 0x1E8, // int32
         },
         C_OP_VectorNoise: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_vecOutputMin: 0x1DC, // Vector
-            m_vecOutputMax: 0x1E8, // Vector
-            m_fl4NoiseScale: 0x1F4, // float32
-            m_bAdditive: 0x1F8, // bool
-            m_bOffset: 0x1F9, // bool
-            m_flNoiseAnimationTimeScale: 0x1FC, // float32
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_vecOutputMin: 0x1E4, // Vector
+            m_vecOutputMax: 0x1F0, // Vector
+            m_fl4NoiseScale: 0x1FC, // float32
+            m_bAdditive: 0x200, // bool
+            m_bOffset: 0x201, // bool
+            m_flNoiseAnimationTimeScale: 0x204, // float32
         },
         C_OP_RemapParticleCountToScalar: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_nInputMin: 0x1E0, // CParticleCollectionFloatInput
-            m_nInputMax: 0x350, // CParticleCollectionFloatInput
-            m_flOutputMin: 0x4C0, // CParticleCollectionFloatInput
-            m_flOutputMax: 0x630, // CParticleCollectionFloatInput
-            m_bActiveRange: 0x7A0, // bool
-            m_nSetMethod: 0x7A4, // ParticleSetMethod_t
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_nInputMin: 0x1E8, // CParticleCollectionFloatInput
+            m_nInputMax: 0x360, // CParticleCollectionFloatInput
+            m_flOutputMin: 0x4D8, // CParticleCollectionFloatInput
+            m_flOutputMax: 0x650, // CParticleCollectionFloatInput
+            m_bActiveRange: 0x7C8, // bool
+            m_nSetMethod: 0x7CC, // ParticleSetMethod_t
         },
         C_INIT_QuantizeFloat: {
-            m_InputValue: 0x1E0, // CPerParticleFloatInput
-            m_nOutputField: 0x350, // ParticleAttributeIndex_t
+            m_InputValue: 0x1E8, // CPerParticleFloatInput
+            m_nOutputField: 0x360, // ParticleAttributeIndex_t
         },
         C_OP_SetToCP: {
-            m_nControlPointNumber: 0x1D8, // int32
-            m_vecOffset: 0x1DC, // Vector
-            m_bOffsetLocal: 0x1E8, // bool
+            m_nControlPointNumber: 0x1E0, // int32
+            m_vecOffset: 0x1E4, // Vector
+            m_bOffsetLocal: 0x1F0, // bool
         },
         ParticleControlPointDriver_t: {
             m_iControlPoint: 0x0, // ParticleParamID_t
@@ -3167,126 +3141,130 @@ export const Schemas = {
             m_angOffset: 0x2C, // QAngle
             m_entityName: 0x38, // CUtlString
         },
+        C_OP_ParentVortices: {
+            m_flForceScale: 0x1F0, // float32
+            m_vecTwistAxis: 0x1F4, // Vector
+            m_bFlipBasedOnYaw: 0x200, // bool
+        },
         C_OP_SetControlPointToCPVelocity: {
-            m_nCPInput: 0x1E0, // int32
-            m_nCPOutputVel: 0x1E4, // int32
-            m_bNormalize: 0x1E8, // bool
-            m_nCPOutputMag: 0x1EC, // int32
-            m_nCPField: 0x1F0, // int32
-            m_vecComparisonVelocity: 0x1F8, // CParticleCollectionVecInput
+            m_nCPInput: 0x1E8, // int32
+            m_nCPOutputVel: 0x1EC, // int32
+            m_bNormalize: 0x1F0, // bool
+            m_nCPOutputMag: 0x1F4, // int32
+            m_nCPField: 0x1F8, // int32
+            m_vecComparisonVelocity: 0x200, // CParticleCollectionVecInput
+        },
+        C_OP_SpinYaw: {
         },
         RenderProjectedMaterial_t: {
             m_hMaterial: 0x0, // CStrongHandle<InfoForResourceTypeIMaterial2>
         },
         C_INIT_SetFloatAttributeToVectorExpression: {
-            m_nExpression: 0x1E0, // VectorFloatExpressionType_t
-            m_vInput1: 0x1E8, // CPerParticleVecInput
-            m_vInput2: 0x8A0, // CPerParticleVecInput
-            m_flOutputRemap: 0xF58, // CParticleRemapFloatInput
-            m_nOutputField: 0x10C8, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x10CC, // ParticleSetMethod_t
+            m_nExpression: 0x1E8, // VectorFloatExpressionType_t
+            m_vInput1: 0x1F0, // CPerParticleVecInput
+            m_vInput2: 0x8C8, // CPerParticleVecInput
+            m_flOutputRemap: 0xFA0, // CParticleRemapFloatInput
+            m_nOutputField: 0x1118, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x111C, // ParticleSetMethod_t
         },
         C_INIT_ModelCull: {
-            m_nControlPointNumber: 0x1E0, // int32
-            m_bBoundBox: 0x1E4, // bool
-            m_bCullOutside: 0x1E5, // bool
-            m_bUseBones: 0x1E6, // bool
-            m_HitboxSetName: 0x1E7, // char[128]
+            m_nControlPointNumber: 0x1E8, // int32
+            m_bBoundBox: 0x1EC, // bool
+            m_bCullOutside: 0x1ED, // bool
+            m_bUseBones: 0x1EE, // bool
+            m_HitboxSetName: 0x1EF, // char[128]
         },
         C_OP_PercentageBetweenTransformLerpCPs: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flInputMin: 0x1DC, // float32
-            m_flInputMax: 0x1E0, // float32
-            m_TransformStart: 0x1E8, // CParticleTransformInput
-            m_TransformEnd: 0x250, // CParticleTransformInput
-            m_nOutputStartCP: 0x2B8, // int32
-            m_nOutputStartField: 0x2BC, // int32
-            m_nOutputEndCP: 0x2C0, // int32
-            m_nOutputEndField: 0x2C4, // int32
-            m_nSetMethod: 0x2C8, // ParticleSetMethod_t
-            m_bActiveRange: 0x2CC, // bool
-            m_bRadialCheck: 0x2CD, // bool
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_flInputMin: 0x1E4, // float32
+            m_flInputMax: 0x1E8, // float32
+            m_TransformStart: 0x1F0, // CParticleTransformInput
+            m_TransformEnd: 0x258, // CParticleTransformInput
+            m_nOutputStartCP: 0x2C0, // int32
+            m_nOutputStartField: 0x2C4, // int32
+            m_nOutputEndCP: 0x2C8, // int32
+            m_nOutputEndField: 0x2CC, // int32
+            m_nSetMethod: 0x2D0, // ParticleSetMethod_t
+            m_bActiveRange: 0x2D4, // bool
+            m_bRadialCheck: 0x2D5, // bool
         },
         C_OP_SetPerChildControlPoint: {
-            m_nChildGroupID: 0x1D8, // int32
-            m_nFirstControlPoint: 0x1DC, // int32
-            m_nNumControlPoints: 0x1E0, // int32
-            m_nParticleIncrement: 0x1E8, // CParticleCollectionFloatInput
-            m_nFirstSourcePoint: 0x358, // CParticleCollectionFloatInput
-            m_bSetOrientation: 0x4C8, // bool
-            m_nOrientationField: 0x4CC, // ParticleAttributeIndex_t
-            m_bNumBasedOnParticleCount: 0x4D0, // bool
+            m_nChildGroupID: 0x1E0, // int32
+            m_nFirstControlPoint: 0x1E4, // int32
+            m_nNumControlPoints: 0x1E8, // int32
+            m_nParticleIncrement: 0x1F0, // CParticleCollectionFloatInput
+            m_nFirstSourcePoint: 0x368, // CParticleCollectionFloatInput
+            m_bSetOrientation: 0x4E0, // bool
+            m_nOrientationField: 0x4E4, // ParticleAttributeIndex_t
+            m_bNumBasedOnParticleCount: 0x4E8, // bool
+        },
+        C_OP_WorldCollideConstraint: {
         },
         C_OP_SetAttributeToScalarExpression: {
-            m_nExpression: 0x1D8, // ScalarExpressionType_t
-            m_flInput1: 0x1E0, // CPerParticleFloatInput
-            m_flInput2: 0x350, // CPerParticleFloatInput
-            m_flOutputRemap: 0x4C0, // CParticleRemapFloatInput
-            m_nOutputField: 0x630, // ParticleAttributeIndex_t
-            m_nSetMethod: 0x634, // ParticleSetMethod_t
+            m_nExpression: 0x1E0, // ScalarExpressionType_t
+            m_flInput1: 0x1E8, // CPerParticleFloatInput
+            m_flInput2: 0x360, // CPerParticleFloatInput
+            m_flOutputRemap: 0x4D8, // CParticleRemapFloatInput
+            m_nOutputField: 0x650, // ParticleAttributeIndex_t
+            m_nSetMethod: 0x654, // ParticleSetMethod_t
         },
         C_OP_RenderMaterialProxy: {
-            m_nMaterialControlPoint: 0x228, // int32
-            m_nProxyType: 0x22C, // MaterialProxyType_t
-            m_MaterialVars: 0x230, // CUtlVector<MaterialVariable_t>
-            m_hOverrideMaterial: 0x248, // CStrongHandle<InfoForResourceTypeIMaterial2>
-            m_flMaterialOverrideEnabled: 0x250, // CParticleCollectionFloatInput
-            m_vecColorScale: 0x3C0, // CParticleCollectionVecInput
-            m_flAlpha: 0xA78, // CPerParticleFloatInput
-            m_nColorBlendType: 0xBE8, // ParticleColorBlendType_t
+            m_nMaterialControlPoint: 0x230, // int32
+            m_nProxyType: 0x234, // MaterialProxyType_t
+            m_MaterialVars: 0x238, // CUtlVector<MaterialVariable_t>
+            m_hOverrideMaterial: 0x250, // CStrongHandle<InfoForResourceTypeIMaterial2>
+            m_flMaterialOverrideEnabled: 0x258, // CParticleCollectionFloatInput
+            m_vecColorScale: 0x3D0, // CParticleCollectionVecInput
+            m_flAlpha: 0xAA8, // CPerParticleFloatInput
+            m_nColorBlendType: 0xC20, // ParticleColorBlendType_t
         },
         FloatInputMaterialVariable_t: {
             m_strVariable: 0x0, // CUtlString
             m_flInput: 0x8, // CParticleCollectionFloatInput
         },
         C_OP_RampScalarLinear: {
-            m_RateMin: 0x1D8, // float32
-            m_RateMax: 0x1DC, // float32
-            m_flStartTime_min: 0x1E0, // float32
-            m_flStartTime_max: 0x1E4, // float32
-            m_flEndTime_min: 0x1E8, // float32
-            m_flEndTime_max: 0x1EC, // float32
-            m_nField: 0x210, // ParticleAttributeIndex_t
-            m_bProportionalOp: 0x214, // bool
+            m_RateMin: 0x1E0, // float32
+            m_RateMax: 0x1E4, // float32
+            m_flStartTime_min: 0x1E8, // float32
+            m_flStartTime_max: 0x1EC, // float32
+            m_flEndTime_min: 0x1F0, // float32
+            m_flEndTime_max: 0x1F4, // float32
+            m_nField: 0x220, // ParticleAttributeIndex_t
+            m_bProportionalOp: 0x224, // bool
         },
         C_OP_RotateVector: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_vecRotAxisMin: 0x1DC, // Vector
-            m_vecRotAxisMax: 0x1E8, // Vector
-            m_flRotRateMin: 0x1F4, // float32
-            m_flRotRateMax: 0x1F8, // float32
-            m_bNormalize: 0x1FC, // bool
-            m_flScale: 0x200, // CPerParticleFloatInput
+            m_nFieldOutput: 0x1E0, // ParticleAttributeIndex_t
+            m_vecRotAxisMin: 0x1E4, // Vector
+            m_vecRotAxisMax: 0x1F0, // Vector
+            m_flRotRateMin: 0x1FC, // float32
+            m_flRotRateMax: 0x200, // float32
+            m_bNormalize: 0x204, // bool
+            m_flScale: 0x208, // CPerParticleFloatInput
         },
         C_INIT_InitVecCollection: {
-            m_InputValue: 0x1E0, // CParticleCollectionVecInput
-            m_nOutputField: 0x898, // ParticleAttributeIndex_t
+            m_InputValue: 0x1E8, // CParticleCollectionVecInput
+            m_nOutputField: 0x8C0, // ParticleAttributeIndex_t
         },
         C_INIT_RemapParticleCountToNamedModelMeshGroupScalar: {
         },
         C_INIT_SequenceFromCP: {
-            m_bKillUnused: 0x1E0, // bool
-            m_bRadiusScale: 0x1E1, // bool
-            m_nCP: 0x1E4, // int32
-            m_vecOffset: 0x1E8, // Vector
+            m_bKillUnused: 0x1E8, // bool
+            m_bRadiusScale: 0x1E9, // bool
+            m_nCP: 0x1EC, // int32
+            m_vecOffset: 0x1F0, // Vector
         },
         C_OP_CPOffsetToPercentageBetweenCPs: {
-            m_flInputMin: 0x1D8, // float32
-            m_flInputMax: 0x1DC, // float32
-            m_flInputBias: 0x1E0, // float32
-            m_nStartCP: 0x1E4, // int32
-            m_nEndCP: 0x1E8, // int32
-            m_nOffsetCP: 0x1EC, // int32
-            m_nOuputCP: 0x1F0, // int32
-            m_nInputCP: 0x1F4, // int32
-            m_bRadialCheck: 0x1F8, // bool
-            m_bScaleOffset: 0x1F9, // bool
-            m_vecOffset: 0x1FC, // Vector
-        },
-        C_OP_LerpEndCapScalar: {
-            m_nFieldOutput: 0x1D8, // ParticleAttributeIndex_t
-            m_flOutput: 0x1DC, // float32
-            m_flLerpTime: 0x1E0, // float32
+            m_flInputMin: 0x1E0, // float32
+            m_flInputMax: 0x1E4, // float32
+            m_flInputBias: 0x1E8, // float32
+            m_nStartCP: 0x1EC, // int32
+            m_nEndCP: 0x1F0, // int32
+            m_nOffsetCP: 0x1F4, // int32
+            m_nOuputCP: 0x1F8, // int32
+            m_nInputCP: 0x1FC, // int32
+            m_bRadialCheck: 0x200, // bool
+            m_bScaleOffset: 0x201, // bool
+            m_vecOffset: 0x204, // Vector
         },
     },
 };

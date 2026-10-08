@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-04 12:25:34.881424700 +07:00
+# 2026-10-08 20:27:02.884074100 +07:00
 
 class Schemas:
     # Module: vphysics2.dll
@@ -46,6 +46,11 @@ class Schemas:
             pass
         class RnTriangle_t:
             m_nIndex = 0x0 # int32[3]
+        class FeProxyVertexMap_t:
+            m_Name = 0x0 # CUtlString
+            m_flWeight = 0x8 # float32
+        class FePrism_t:
+            nNode = 0x0 # uint16[6]
         class OldFeEdge_t:
             m_flK = 0x0 # float32[3]
             invA = 0xC # float32
@@ -64,6 +69,11 @@ class Schemas:
             m_vNormal = 0xC # Vector
         class IPhysicsRagdollControl:
             pass
+        class FeCtrlSoftOffset_t:
+            nCtrlParent = 0x0 # uint16
+            nCtrlChild = 0x2 # uint16
+            vOffset = 0x4 # Vector
+            flAlpha = 0x10 # float32
         class FeAnimStrayRadius_t:
             nNode = 0x0 # uint16[2]
             flMaxDist = 0x4 # float32
@@ -83,6 +93,9 @@ class Schemas:
             flWeight5 = 0x14 # float32
             flAngleCenter = 0x18 # float32
             flAngleExtents = 0x1C # float32
+        class FeWeightedNode_t:
+            nNode = 0x0 # uint16
+            nWeight = 0x2 # uint16
         class IPhysicsPlayerController:
             pass
         class RnVertex_t:
@@ -94,6 +107,10 @@ class Schemas:
             m_nChild = 0x2 # uint16
         class RnFace_t:
             m_nEdge = 0x0 # uint8
+        class FeSimdPrism_t:
+            nNode = 0x0 # uint16[4][6]
+        class FeSourceEdge_t:
+            nNode = 0x0 # uint16[2]
         class FeNodeWindBase_t:
             nNodeX0 = 0x0 # uint16
             nNodeX1 = 0x2 # uint16

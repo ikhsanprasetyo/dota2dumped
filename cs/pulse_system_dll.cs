@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: pulse_system.dll
-    // Class count: 26
+    // Class count: 22
     // Enum count: 15
     public static class PulseSystemDll {
         // Alignment: 4
@@ -79,17 +79,20 @@ namespace Source2Dumper.Schemas {
             MM_SS_LEADING_ZERO = 0x0
         }
         // Alignment: 4
-        // Member count: 6
+        // Member count: 9
         public enum EPulseGraphExecutionHistoryFlag : uint {
             NO_FLAGS = 0x0,
             CURSOR_ADD_TAG = 0x1,
             CURSOR_REMOVE_TAG = 0x2,
             CURSOR_RETIRED = 0x4,
-            REQUIREMENT_PASS = 0x8,
-            REQUIREMENT_FAIL = 0x10
+            CURSOR_CREATE_CHILD = 0x8,
+            REQUIREMENT_PASS = 0x10,
+            REQUIREMENT_FAIL = 0x20,
+            CALL_TO_PULSE = 0x40,
+            RETURN = 0x80
         }
         // Alignment: 4
-        // Member count: 35
+        // Member count: 32
         public enum PulseValueType_t : uint {
             PVAL_VOID = unchecked((uint)-1),
             PVAL_BOOL = 0x0,
@@ -111,21 +114,18 @@ namespace Source2Dumper.Schemas {
             PVAL_SNDEVT_GUID = 0x10,
             PVAL_SNDEVT_NAME = 0x11,
             PVAL_ENTITY_NAME = 0x12,
-            PVAL_OPAQUE_HANDLE = 0x13,
-            PVAL_TYPESAFE_INT = 0x14,
-            PVAL_MODEL_MATERIAL_GROUP = 0x15,
-            PVAL_CURSOR_FLOW = 0x16,
-            PVAL_VARIANT = 0x17,
-            PVAL_UNKNOWN = 0x18,
-            PVAL_SCHEMA_ENUM = 0x19,
-            PVAL_PANORAMA_PANEL_HANDLE = 0x1A,
-            PVAL_TEST_HANDLE = 0x1B,
-            PVAL_ARRAY = 0x1C,
-            PVAL_TYPESAFE_INT64 = 0x1D,
-            PVAL_PARTICLE_EHANDLE = 0x1E,
-            PVAL_ANIM_SEQUENCE = 0x1F,
-            PVAL_VDATA_CHOICE = 0x20,
-            PVAL_COUNT = 0x21
+            PVAL_LEAF = 0x13,
+            PVAL_MODEL_MATERIAL_GROUP = 0x14,
+            PVAL_CURSOR_FLOW = 0x15,
+            PVAL_VARIANT = 0x16,
+            PVAL_UNKNOWN = 0x17,
+            PVAL_ENUM = 0x18,
+            PVAL_PANORAMA_PANEL_HANDLE = 0x19,
+            PVAL_ARRAY = 0x1A,
+            PVAL_PARTICLE_EHANDLE = 0x1B,
+            PVAL_ANIM_SEQUENCE = 0x1C,
+            PVAL_VDATA_CHOICE = 0x1D,
+            PVAL_COUNT = 0x1E
         }
         // Alignment: 4
         // Member count: 6
@@ -138,134 +138,136 @@ namespace Source2Dumper.Schemas {
             AF_SELECTORS_WITHOUT_REQUIREMENTS = 0x20
         }
         // Alignment: 2
-        // Member count: 126
+        // Member count: 128
         public enum PulseInstructionCode_t : ushort {
             INVALID = 0x0,
             IMMEDIATE_HALT = 0x1,
             RETURN_VOID = 0x2,
             RETURN_VALUE = 0x3,
-            NOP = 0x4,
-            JUMP = 0x5,
-            JUMP_COND = 0x6,
-            CHUNK_LEAP = 0x7,
-            CHUNK_LEAP_COND = 0x8,
-            PULSE_CALL_SYNC = 0x9,
-            PULSE_CALL_ASYNC_FIRE = 0xA,
-            CREATE_CHILD_CURSOR_OUTFLOW = 0xB,
-            CELL_INVOKE = 0xC,
-            LIBRARY_INVOKE = 0xD,
-            SET_VAR = 0xE,
-            GET_VAR = 0xF,
-            GET_VAR_DETACH = 0x10,
-            DETACH_REGISTER = 0x11,
-            SET_VAR_ARRAY_ELEMENT_1D = 0x12,
-            SET_VAR_OBSERVABLE = 0x13,
-            GET_CONST = 0x14,
-            GET_ARRAY_ELEMENT = 0x15,
-            GET_DOMAIN_VALUE = 0x16,
-            COPY = 0x17,
-            NOT = 0x18,
-            NEGATE = 0x19,
-            ADD = 0x1A,
-            SUB = 0x1B,
-            MUL = 0x1C,
-            DIV = 0x1D,
-            MOD = 0x1E,
-            LT = 0x1F,
-            LTE = 0x20,
-            EQ = 0x21,
-            NE = 0x22,
-            AND = 0x23,
-            OR = 0x24,
-            SCALE = 0x25,
-            SCALE_INV = 0x26,
-            ELEMENT_ACCESS = 0x27,
-            CONVERT_VALUE = 0x28,
-            REINTERPRET_INSTANCE = 0x29,
-            GET_BLACKBOARD_REFERENCE = 0x2A,
-            SET_BLACKBOARD_REFERENCE = 0x2B,
-            LAST_SERIALIZED_CODE = 0x2C,
-            NEGATE_INT = 0x2D,
-            NEGATE_FLOAT = 0x2E,
-            NEGATE_VEC2 = 0x2F,
-            NEGATE_VEC3 = 0x30,
-            NEGATE_VEC4 = 0x31,
-            ADD_INT = 0x32,
-            ADD_FLOAT = 0x33,
-            ADD_STRING = 0x34,
-            ADD_VEC2 = 0x35,
-            ADD_VEC3 = 0x36,
-            ADD_VEC3WS_VEC3 = 0x37,
-            ADD_VEC3_VEC3WS = 0x38,
-            ADD_VEC4 = 0x39,
-            ADD_GAMETIME_FLOAT = 0x3A,
-            ADD_FLOAT_GAMETIME = 0x3B,
-            SUB_INT = 0x3C,
-            SUB_FLOAT = 0x3D,
-            SUB_VEC2 = 0x3E,
-            SUB_VEC3 = 0x3F,
-            SUB_VEC3WS_VEC3 = 0x40,
-            SUB_VEC3WS_VEC3WS = 0x41,
-            SUB_VEC4 = 0x42,
-            SUB_GAMETIME_FLOAT = 0x43,
-            SUB_GAMETIME = 0x44,
-            MUL_INT = 0x45,
-            MUL_FLOAT = 0x46,
-            DIV_FLOAT = 0x47,
-            MOD_INT = 0x48,
-            MOD_FLOAT = 0x49,
-            LT_INT = 0x4A,
-            LT_FLOAT = 0x4B,
-            LT_GAMETIME = 0x4C,
-            LTE_INT = 0x4D,
-            LTE_FLOAT = 0x4E,
-            LTE_GAMETIME = 0x4F,
-            EQ_BOOL = 0x50,
-            EQ_INT = 0x51,
-            EQ_FLOAT = 0x52,
-            EQ_VEC2 = 0x53,
-            EQ_VEC3 = 0x54,
-            EQ_VEC3WS = 0x55,
-            EQ_VEC4 = 0x56,
-            EQ_STRING = 0x57,
-            EQ_ENTITY_NAME = 0x58,
-            EQ_SCHEMA_ENUM = 0x59,
-            EQ_EHANDLE = 0x5A,
-            EQ_PANEL_HANDLE = 0x5B,
-            EQ_OPAQUE_HANDLE = 0x5C,
-            EQ_TEST_HANDLE = 0x5D,
-            EQ_COLOR_RGB = 0x5E,
-            EQ_ARRAY = 0x5F,
-            EQ_GAMETIME = 0x60,
-            NE_BOOL = 0x61,
-            NE_INT = 0x62,
-            NE_FLOAT = 0x63,
-            NE_VEC2 = 0x64,
-            NE_VEC3 = 0x65,
-            NE_VEC3WS = 0x66,
-            NE_VEC4 = 0x67,
-            NE_STRING = 0x68,
-            NE_ENTITY_NAME = 0x69,
-            NE_SCHEMA_ENUM = 0x6A,
-            NE_EHANDLE = 0x6B,
-            NE_PANEL_HANDLE = 0x6C,
-            NE_OPAQUE_HANDLE = 0x6D,
-            NE_TEST_HANDLE = 0x6E,
-            NE_COLOR_RGB = 0x6F,
-            NE_ARRAY = 0x70,
-            NE_GAMETIME = 0x71,
-            SCALE_VEC3 = 0x72,
-            SCALE_VEC2 = 0x73,
-            SCALE_VEC4 = 0x74,
-            SCALE_INV_VEC3 = 0x75,
-            SCALE_INV_VEC2 = 0x76,
-            SCALE_INV_VEC4 = 0x77,
-            ELEMENT_ACCESS_VEC2 = 0x78,
-            ELEMENT_ACCESS_VEC3 = 0x79,
-            ELEMENT_ACCESS_VEC3WS = 0x7A,
-            ELEMENT_ACCESS_VEC4 = 0x7B,
-            ELEMENT_ACCESS_COLOR_RGB = 0x7C,
-            GET_CONST_INLINE_STORAGE = 0x7D
+            LOOP_BREAK = 0x4,
+            NOP = 0x5,
+            JUMP = 0x6,
+            JUMP_COND = 0x7,
+            CHUNK_LEAP = 0x8,
+            CHUNK_LEAP_COND = 0x9,
+            PULSE_CALL_SYNC = 0xA,
+            PULSE_CALL_ASYNC_FIRE = 0xB,
+            CREATE_CHILD_CURSOR_OUTFLOW = 0xC,
+            CELL_INVOKE = 0xD,
+            LIBRARY_INVOKE = 0xE,
+            SET_VAR = 0xF,
+            GET_VAR = 0x10,
+            GET_VAR_DETACH = 0x11,
+            DETACH_REGISTER = 0x12,
+            SET_VAR_ARRAY_ELEMENT_1D = 0x13,
+            SET_VAR_OBSERVABLE = 0x14,
+            GET_CONST = 0x15,
+            GET_ARRAY_ELEMENT = 0x16,
+            GET_DOMAIN_VALUE = 0x17,
+            COPY = 0x18,
+            NOT = 0x19,
+            NEGATE = 0x1A,
+            ADD = 0x1B,
+            SUB = 0x1C,
+            MUL = 0x1D,
+            DIV = 0x1E,
+            MOD = 0x1F,
+            LT = 0x20,
+            LTE = 0x21,
+            EQ = 0x22,
+            NE = 0x23,
+            AND = 0x24,
+            OR = 0x25,
+            SCALE = 0x26,
+            SCALE_INV = 0x27,
+            ELEMENT_ACCESS = 0x28,
+            CONVERT_VALUE = 0x29,
+            REINTERPRET_INSTANCE = 0x2A,
+            GET_BLACKBOARD_REFERENCE = 0x2B,
+            SET_BLACKBOARD_REFERENCE = 0x2C,
+            GET_TEMPVAR = 0x2D,
+            SET_TEMPVAR = 0x2E,
+            SET_TEMPVAR_OBSERVABLE = 0x2F,
+            LAST_SERIALIZED_CODE = 0x30,
+            NEGATE_INT = 0x31,
+            NEGATE_FLOAT = 0x32,
+            NEGATE_VEC2 = 0x33,
+            NEGATE_VEC3 = 0x34,
+            NEGATE_VEC4 = 0x35,
+            ADD_INT = 0x36,
+            ADD_FLOAT = 0x37,
+            ADD_STRING = 0x38,
+            ADD_VEC2 = 0x39,
+            ADD_VEC3 = 0x3A,
+            ADD_VEC3WS_VEC3 = 0x3B,
+            ADD_VEC3_VEC3WS = 0x3C,
+            ADD_VEC4 = 0x3D,
+            ADD_GAMETIME_FLOAT = 0x3E,
+            ADD_FLOAT_GAMETIME = 0x3F,
+            SUB_INT = 0x40,
+            SUB_FLOAT = 0x41,
+            SUB_VEC2 = 0x42,
+            SUB_VEC3 = 0x43,
+            SUB_VEC3WS_VEC3 = 0x44,
+            SUB_VEC3WS_VEC3WS = 0x45,
+            SUB_VEC4 = 0x46,
+            SUB_GAMETIME_FLOAT = 0x47,
+            SUB_GAMETIME = 0x48,
+            MUL_INT = 0x49,
+            MUL_FLOAT = 0x4A,
+            DIV_FLOAT = 0x4B,
+            MOD_INT = 0x4C,
+            MOD_FLOAT = 0x4D,
+            LT_INT = 0x4E,
+            LT_FLOAT = 0x4F,
+            LT_GAMETIME = 0x50,
+            LTE_INT = 0x51,
+            LTE_FLOAT = 0x52,
+            LTE_GAMETIME = 0x53,
+            EQ_BOOL = 0x54,
+            EQ_INT = 0x55,
+            EQ_FLOAT = 0x56,
+            EQ_VEC2 = 0x57,
+            EQ_VEC3 = 0x58,
+            EQ_VEC3WS = 0x59,
+            EQ_VEC4 = 0x5A,
+            EQ_STRING = 0x5B,
+            EQ_ENTITY_NAME = 0x5C,
+            EQ_ENUM = 0x5D,
+            EQ_EHANDLE = 0x5E,
+            EQ_PANEL_HANDLE = 0x5F,
+            EQ_LEAF = 0x60,
+            EQ_COLOR_RGB = 0x61,
+            EQ_ARRAY = 0x62,
+            EQ_GAMETIME = 0x63,
+            NE_BOOL = 0x64,
+            NE_INT = 0x65,
+            NE_FLOAT = 0x66,
+            NE_VEC2 = 0x67,
+            NE_VEC3 = 0x68,
+            NE_VEC3WS = 0x69,
+            NE_VEC4 = 0x6A,
+            NE_STRING = 0x6B,
+            NE_ENTITY_NAME = 0x6C,
+            NE_ENUM = 0x6D,
+            NE_EHANDLE = 0x6E,
+            NE_PANEL_HANDLE = 0x6F,
+            NE_LEAF = 0x70,
+            NE_COLOR_RGB = 0x71,
+            NE_ARRAY = 0x72,
+            NE_GAMETIME = 0x73,
+            SCALE_VEC3 = 0x74,
+            SCALE_VEC2 = 0x75,
+            SCALE_VEC4 = 0x76,
+            SCALE_INV_VEC3 = 0x77,
+            SCALE_INV_VEC2 = 0x78,
+            SCALE_INV_VEC4 = 0x79,
+            ELEMENT_ACCESS_VEC2 = 0x7A,
+            ELEMENT_ACCESS_VEC3 = 0x7B,
+            ELEMENT_ACCESS_VEC3WS = 0x7C,
+            ELEMENT_ACCESS_VEC4 = 0x7D,
+            ELEMENT_ACCESS_COLOR_RGB = 0x7E,
+            GET_CONST_INLINE_STORAGE = 0x7F
         }
         // Alignment: 4
         // Member count: 4
@@ -323,9 +325,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
         // MPropertyFriendlyName
-        // MPulseEditorHeaderText
         public static class CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t {
             public const nint nTestStep = 0x0; // int32
         }
@@ -342,6 +342,9 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MPropertyFriendlyName
+        // MGetKV3ClassDefaults
         public static class CPulseCell_TestWaitWithCursorState__CursorState_t {
             public const nint flWaitValue = 0x0; // float32
             public const nint bFail = 0x4; // bool
@@ -350,184 +353,26 @@ namespace Source2Dumper.Schemas {
             public const nint m_hSelfCellInstance = 0x1C; // HPulseCell<CPulseCell_TestWaitWithCursorState>
         }
         // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // FIRST
-        // WHITE
-        // RED
-        // GREEN
-        // BLUE
-        // MPropertyFriendlyName
-        // MPulseSignatureForOutflow
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // FIRST
-        // SECOND
-        // THIRD
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPulseEditorHeaderText
-        // MPropertyFriendlyName
-        // CIRCLE
-        // SQUARE
-        // TRIANGLE
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        public static class CPulseCell_Test_MultiInflow_NoDefault {
-        }
-        // Parent: None
-        // Field count: 5
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPulseSignatureForOutflow
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MPulseSignatureForOutflow
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyFriendlyName
-        // MPulseSignatureForOutflow
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseSignatureForOutflow
-        // MPulseSignatureForOutflow
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPulseExpressionAlias
-        // MPulseLegacyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseLegacyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyLeafSuggestionProviderFn
-        // MPulseExpressionAlias
-        // MGetKV3ClassDefaults
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        public static class CPulseCell_Test_MultiOutflow_WithParams_Yielding {
-            public const nint m_Out1 = 0xD8; // SignatureOutflow_Continue
-            public const nint m_AsyncChild1 = 0x120; // SignatureOutflow_Continue
-            public const nint m_AsyncChild2 = 0x168; // SignatureOutflow_Continue
-            public const nint m_YieldResume1 = 0x1B0; // SignatureOutflow_Resume
-            public const nint m_YieldResume2 = 0x1F8; // SignatureOutflow_Resume
-        }
-        // Parent: None
         // Field count: 1
         public static class CPulseGraphInstance_TestDomain_Derived {
-            public const nint m_nInstanceValueX = 0x158; // int32
+            public const nint m_nInstanceValueX = 0xD8; // int32
         }
         // Parent: None
         // Field count: 9
         public static class CPulseGraphInstance_TestDomain {
-            public const nint m_bIsRunningUnitTests = 0x128; // bool
-            public const nint m_bExplicitTimeStepping = 0x129; // bool
-            public const nint m_bExpectingToDestroyWithYieldedCursors = 0x12A; // bool
-            public const nint m_bQuietTracepoints = 0x12B; // bool
-            public const nint m_bExpectingCursorTerminatedDueToMaxInstructions = 0x12C; // bool
-            public const nint m_nCursorsTerminatedDueToMaxInstructions = 0x130; // int32
-            public const nint m_nNextValidateIndex = 0x134; // int32
-            public const nint m_Tracepoints = 0x138; // CUtlVector<CUtlString>
-            public const nint m_bTestYesOrNoPath = 0x150; // bool
+            public const nint m_bIsRunningUnitTests = 0xA8; // bool
+            public const nint m_bExplicitTimeStepping = 0xA9; // bool
+            public const nint m_bExpectingToDestroyWithYieldedCursors = 0xAA; // bool
+            public const nint m_bQuietTracepoints = 0xAB; // bool
+            public const nint m_bExpectingCursorTerminatedDueToMaxInstructions = 0xAC; // bool
+            public const nint m_nCursorsTerminatedDueToMaxInstructions = 0xB0; // int32
+            public const nint m_nNextValidateIndex = 0xB4; // int32
+            public const nint m_Tracepoints = 0xB8; // CUtlVector<CUtlString>
+            public const nint m_bTestYesOrNoPath = 0xD0; // bool
         }
         // Parent: None
         // Field count: 0
         public static class SignatureOutflow_Continue {
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // FIRST
-        // WHITE
-        // RED
-        // GREEN
-        // BLUE
-        // MPropertyFriendlyName
-        // MPulseSignatureForOutflow
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // FIRST
-        // SECOND
-        // THIRD
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPulseEditorHeaderText
-        // MPropertyFriendlyName
-        // CIRCLE
-        // SQUARE
-        // TRIANGLE
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        public static class CPulseCell_Outflow_TestExplicitYesNo {
-            public const nint m_Yes = 0x48; // CPulse_OutflowConnection
-            public const nint m_No = 0x90; // CPulse_OutflowConnection
-            public const nint m_Out1 = 0xD8; // SignatureOutflow_Continue
-            public const nint m_AsyncChild1 = 0x120; // SignatureOutflow_Continue
         }
         // Parent: None
         // Field count: 1
@@ -537,61 +382,6 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CPulseGraphInstance_TurtleGraphics {
-        }
-        // Parent: None
-        // Field count: 2
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPropertyDescription
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // FIRST
-        // WHITE
-        // RED
-        // GREEN
-        // BLUE
-        // MPropertyFriendlyName
-        // MPulseSignatureForOutflow
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // FIRST
-        // SECOND
-        // THIRD
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPulseEditorHeaderText
-        // MPropertyFriendlyName
-        // CIRCLE
-        // SQUARE
-        // TRIANGLE
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        // MPropertyFriendlyName
-        // MPropertyDescription
-        // MPulseEditorHeaderIcon
-        // MPulseEditorCanvasItemSpecKV3
-        // MPropertyDescription
-        public static class CPulseCell_TestWaitWithCursorState {
-            public const nint m_WakeResume = 0xD8; // CPulse_ResumePoint
-            public const nint m_WakeFail = 0x120; // CPulse_ResumePoint
         }
         // Parent: None
         // Field count: 1

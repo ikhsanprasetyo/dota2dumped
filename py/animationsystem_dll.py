@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-04 12:25:34.881424700 +07:00
+# 2026-10-08 20:27:02.884074100 +07:00
 
 class Schemas:
     # Module: animationsystem.dll
@@ -118,29 +118,30 @@ class Schemas:
             PF_TYPE_CONTROL_POINT_COMPONENT = 0x6
             PF_TYPE_CONTROL_POINT_CHANGE_AGE = 0x7
             PF_TYPE_CONTROL_POINT_SPEED = 0x8
-            PF_TYPE_PARTICLE_DETAIL_LEVEL = 0x9
-            PF_TYPE_CONCURRENT_DEF_COUNT = 0xA
-            PF_TYPE_CLOSEST_CAMERA_DISTANCE = 0xB
-            PF_TYPE_SNAPSHOT_COUNT = 0xC
-            PF_TYPE_SNAPSHOT_CHANGED = 0xD
-            PF_TYPE_CONTROL_POINT_IS_SET = 0xE
-            PF_TYPE_RENDERER_CAMERA_DISTANCE = 0xF
-            PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0x10
-            PF_TYPE_PARTICLE_NOISE = 0x11
-            PF_TYPE_PARTICLE_AGE = 0x12
-            PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x13
-            PF_TYPE_PARTICLE_FLOAT = 0x14
-            PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x15
-            PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x16
-            PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x17
-            PF_TYPE_PARTICLE_SPEED = 0x18
-            PF_TYPE_PARTICLE_NUMBER = 0x19
-            PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x1A
-            PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x1B
-            PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1C
-            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1D
-            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1E
-            PF_TYPE_COUNT = 0x1F
+            PF_TYPE_CONTROL_POINT_DISTANCE = 0x9
+            PF_TYPE_PARTICLE_DETAIL_LEVEL = 0xA
+            PF_TYPE_CONCURRENT_DEF_COUNT = 0xB
+            PF_TYPE_CLOSEST_CAMERA_DISTANCE = 0xC
+            PF_TYPE_SNAPSHOT_COUNT = 0xD
+            PF_TYPE_SNAPSHOT_CHANGED = 0xE
+            PF_TYPE_CONTROL_POINT_IS_SET = 0xF
+            PF_TYPE_RENDERER_CAMERA_DISTANCE = 0x10
+            PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT = 0x11
+            PF_TYPE_PARTICLE_NOISE = 0x12
+            PF_TYPE_PARTICLE_AGE = 0x13
+            PF_TYPE_PARTICLE_AGE_NORMALIZED = 0x14
+            PF_TYPE_PARTICLE_FLOAT = 0x15
+            PF_TYPE_PARTICLE_INITIAL_FLOAT = 0x16
+            PF_TYPE_PARTICLE_VECTOR_COMPONENT = 0x17
+            PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT = 0x18
+            PF_TYPE_PARTICLE_SPEED = 0x19
+            PF_TYPE_PARTICLE_NUMBER = 0x1A
+            PF_TYPE_PARTICLE_NUMBER_NORMALIZED = 0x1B
+            PF_TYPE_PARTICLE_ROPE_SEGMENT = 0x1C
+            PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED = 0x1D
+            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE = 0x1E
+            PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT = 0x1F
+            PF_TYPE_COUNT = 0x20
         class CNmFloatAngleMathNode__Operation_t:
             ClampTo180 = 0x0
             ClampTo360 = 0x1
@@ -235,6 +236,8 @@ class Schemas:
             MESH_BUFFER_USAGE_RT_PROXY = 0x10
             MESH_BUFFER_USAGE_VERTEX_ALBEDO = 0x20
             MESH_BUFFER_USAGE_VERTEX_EMISSIVE = 0x40
+            MESH_BUFFER_USAGE_MESHLETS = 0x80
+            MESH_BUFFER_USAGE_ALIAS_TABLE = 0x100
         class NmGraphDebugMode_t:
             Off = 0x0
             On = 0x1
@@ -407,6 +410,9 @@ class Schemas:
             POSETYPE_STATIC = 0x0
             POSETYPE_DYNAMIC = 0x1
             POSETYPE_INVALID = 0xFF
+        class CNmClothEvent__Type_t:
+            Stiffen = 0x0
+            Effect = 0x1
         class CNmRootMotionData__SamplingMode_t:
             Delta = 0x0
             WorldSpace = 0x1
@@ -514,7 +520,10 @@ class Schemas:
             PF_MAP_TYPE_CURVE = 0x4
             PF_MAP_TYPE_NOTCHED = 0x5
             PF_MAP_TYPE_ROUND = 0x6
-            PF_MAP_TYPE_COUNT = 0x7
+            PF_MAP_TYPE_MIN = 0x7
+            PF_MAP_TYPE_MAX = 0x8
+            PF_MAP_TYPE_MOD = 0x9
+            PF_MAP_TYPE_COUNT = 0xA
         class AnimParamVectorType_t:
             ANIMPARAM_VECTOR_TYPE_NONE = 0x0
             ANIMPARAM_VECTOR_TYPE_POSITION_WS = 0x1
@@ -572,6 +581,9 @@ class Schemas:
             BLEND_PREALIGNED = 0x100000
             FLAG_RIGIDLENGTH = 0x200000
             FLAG_PROCEDURAL = 0x400000
+        class CNmOrientationWarpNode__AlignmentMode_t:
+            MovementDirection = 0x0
+            AnimationEndFacing = 0x1
         class GPUParticleCollisionMode_t:
             PARTICLE_GPU_COLLISION_MODE_RT = 0x0
             PARTICLE_GPU_COLLISION_MODE_DEPTH = 0x1
@@ -917,7 +929,8 @@ class Schemas:
             ePlantedTurn = 0x6
             eUseStartAsPlantedTurn = 0x7
             eLean = 0x8
-            eCount = 0x9
+            eForwardStartOnly = 0x9
+            eCount = 0xA
         class ModelConfigAttachmentType_t:
             MODEL_CONFIG_ATTACHMENT_INVALID = 0xFFFFFFFFFFFFFFFF
             MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0x0
@@ -1034,8 +1047,9 @@ class Schemas:
         class CAnimParamHandle:
             m_type = 0x0 # AnimParamType_t
             m_index = 0x1 # uint8
-        class AnimNodeID:
-            m_id = 0x0 # uint32
+        class WeightList:
+            m_name = 0x0 # CUtlString
+            m_weights = 0x8 # CUtlVector<float32>
         class CSeqAutoLayerFlag:
             m_bPost = 0x0 # bool
             m_bSpline = 0x1 # bool
@@ -1117,6 +1131,10 @@ class Schemas:
             m_nLocalBoneMask = 0x26 # int16
             m_activityArray = 0x28 # CUtlVector<CAnimActivity>
         class IAnimationGraphInstance:
+            pass
+        class CParamSpanUpdater:
+            m_spans = 0x0 # CUtlVector<ParamSpan_t>
+        class CNmContactAudioTypeVData:
             pass
         class AnimationSnapshotBase_t:
             m_flRealTime = 0x0 # float32
@@ -1275,13 +1293,8 @@ class Schemas:
             m_nEffectorBoneIdx = 0x70 # int32
             m_nEffectorTargetBoneIdx = 0x74 # int32
             m_targetTransform = 0x80 # CTransform
-            m_effectorTarget = 0xA0 # CNmTarget
-            m_blendMode = 0xD0 # NmIKBlendMode_t
-            m_flBlendWeight = 0xD4 # float32
-            m_bIsTargetInWorldSpace = 0xD8 # bool
-            m_bIsRunningFromDeserializedData = 0xD9 # bool
-            m_flChainRotationWeight = 0xDC # float32
-            m_debugEffectorBoneID = 0xE0 # CGlobalSymbol
+        class CNmContactAudioActionVData:
+            pass
         class CSeqIKLock:
             m_flPosWeight = 0x0 # float32
             m_flAngleWeight = 0x4 # float32
@@ -1311,6 +1324,8 @@ class Schemas:
             pass
         class CNmModelSpaceBlendTask:
             pass
+        class AnimParamID:
+            m_id = 0x0 # uint32
         class AnimationDecodeDebugDump_t:
             m_processingType = 0x0 # AnimationProcessingType_t
             m_elems = 0x8 # CUtlVector<AnimationDecodeDebugDumpElement_t>

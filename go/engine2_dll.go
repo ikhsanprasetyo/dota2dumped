@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-04 12:25:34.881424700 +07:00
+// 2026-10-08 20:27:02.884074100 +07:00
 
 package schemas
 
@@ -84,7 +84,7 @@ const (
     Engine2Dll_EntComponentInfo_t_m_pNetworkDataReferencedPtrPropDescription = 0x18 // char*
     Engine2Dll_EntComponentInfo_t_m_nRuntimeIndex = 0x20 // int32
     Engine2Dll_EntComponentInfo_t_m_nFlags = 0x24 // uint32
-    Engine2Dll_EntComponentInfo_t_m_pBaseClassComponentHelper = 0x60 // CEntityComponentHelper*
+    Engine2Dll_EntComponentInfo_t_m_pBaseClassComponentHelper = 0x58 // CEntityComponentHelper*
     Engine2Dll_EngineLoopState_t_m_nPlatWindowWidth = 0x18 // int32
     Engine2Dll_EngineLoopState_t_m_nPlatWindowHeight = 0x1C // int32
     Engine2Dll_EngineLoopState_t_m_nRenderWidth = 0x20 // int32

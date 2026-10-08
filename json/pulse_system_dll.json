@@ -29,398 +29,6 @@
         "metadata": [],
         "parent": null
       },
-      "CPulseCell_Outflow_TestExplicitYesNo": {
-        "fields": {
-          "m_AsyncChild1": 288,
-          "m_No": 144,
-          "m_Out1": 216,
-          "m_Yes": 72
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIRST",
-            "type": "Unknown"
-          },
-          {
-            "name": "WHITE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RED",
-            "type": "Unknown"
-          },
-          {
-            "name": "GREEN",
-            "type": "Unknown"
-          },
-          {
-            "name": "BLUE",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIRST",
-            "type": "Unknown"
-          },
-          {
-            "name": "SECOND",
-            "type": "Unknown"
-          },
-          {
-            "name": "THIRD",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderText",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "CIRCLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SQUARE",
-            "type": "Unknown"
-          },
-          {
-            "name": "TRIANGLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CPulseCell_TestWaitWithCursorState": {
-        "fields": {
-          "m_WakeFail": 288,
-          "m_WakeResume": 216
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIRST",
-            "type": "Unknown"
-          },
-          {
-            "name": "WHITE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RED",
-            "type": "Unknown"
-          },
-          {
-            "name": "GREEN",
-            "type": "Unknown"
-          },
-          {
-            "name": "BLUE",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIRST",
-            "type": "Unknown"
-          },
-          {
-            "name": "SECOND",
-            "type": "Unknown"
-          },
-          {
-            "name": "THIRD",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderText",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "CIRCLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SQUARE",
-            "type": "Unknown"
-          },
-          {
-            "name": "TRIANGLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
       "CPulseCell_TestWaitWithCursorState__CursorState_t": {
         "fields": {
           "bFail": 4,
@@ -430,6 +38,18 @@
           "m_hSelfCursor": 8
         },
         "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
@@ -453,364 +73,6 @@
         ],
         "parent": null
       },
-      "CPulseCell_Test_MultiInflow_NoDefault": {
-        "fields": {},
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIRST",
-            "type": "Unknown"
-          },
-          {
-            "name": "WHITE",
-            "type": "Unknown"
-          },
-          {
-            "name": "RED",
-            "type": "Unknown"
-          },
-          {
-            "name": "GREEN",
-            "type": "Unknown"
-          },
-          {
-            "name": "BLUE",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "FIRST",
-            "type": "Unknown"
-          },
-          {
-            "name": "SECOND",
-            "type": "Unknown"
-          },
-          {
-            "name": "THIRD",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderText",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "CIRCLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "SQUARE",
-            "type": "Unknown"
-          },
-          {
-            "name": "TRIANGLE",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderIcon",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorCanvasItemSpecKV3",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "CPulseCell_Test_MultiOutflow_WithParams_Yielding": {
-        "fields": {
-          "m_AsyncChild1": 288,
-          "m_AsyncChild2": 360,
-          "m_Out1": 216,
-          "m_YieldResume1": 432,
-          "m_YieldResume2": 504
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseSignatureForOutflow",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseLegacyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyLeafSuggestionProviderFn",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseExpressionAlias",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyDescription",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
       "CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t": {
         "fields": {
           "nTestStep": 0
@@ -821,15 +83,7 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPulseEditorHeaderText",
             "type": "Unknown"
           }
         ],
@@ -849,22 +103,22 @@
       },
       "CPulseGraphInstance_TestDomain": {
         "fields": {
-          "m_Tracepoints": 312,
-          "m_bExpectingCursorTerminatedDueToMaxInstructions": 300,
-          "m_bExpectingToDestroyWithYieldedCursors": 298,
-          "m_bExplicitTimeStepping": 297,
-          "m_bIsRunningUnitTests": 296,
-          "m_bQuietTracepoints": 299,
-          "m_bTestYesOrNoPath": 336,
-          "m_nCursorsTerminatedDueToMaxInstructions": 304,
-          "m_nNextValidateIndex": 308
+          "m_Tracepoints": 184,
+          "m_bExpectingCursorTerminatedDueToMaxInstructions": 172,
+          "m_bExpectingToDestroyWithYieldedCursors": 170,
+          "m_bExplicitTimeStepping": 169,
+          "m_bIsRunningUnitTests": 168,
+          "m_bQuietTracepoints": 171,
+          "m_bTestYesOrNoPath": 208,
+          "m_nCursorsTerminatedDueToMaxInstructions": 176,
+          "m_nNextValidateIndex": 180
         },
         "metadata": [],
         "parent": null
       },
       "CPulseGraphInstance_TestDomain_Derived": {
         "fields": {
-          "m_nInstanceValueX": 344
+          "m_nInstanceValueX": 216
         },
         "metadata": [],
         "parent": null
@@ -948,12 +202,15 @@
       "EPulseGraphExecutionHistoryFlag": {
         "alignment": 4,
         "members": {
+          "CALL_TO_PULSE": 64,
           "CURSOR_ADD_TAG": 1,
+          "CURSOR_CREATE_CHILD": 8,
           "CURSOR_REMOVE_TAG": 2,
           "CURSOR_RETIRED": 4,
           "NO_FLAGS": 0,
-          "REQUIREMENT_FAIL": 16,
-          "REQUIREMENT_PASS": 8
+          "REQUIREMENT_FAIL": 32,
+          "REQUIREMENT_PASS": 16,
+          "RETURN": 128
         },
         "type": "uint32"
       },
@@ -1015,132 +272,134 @@
       "PulseInstructionCode_t": {
         "alignment": 2,
         "members": {
-          "ADD": 26,
-          "ADD_FLOAT": 51,
-          "ADD_FLOAT_GAMETIME": 59,
-          "ADD_GAMETIME_FLOAT": 58,
-          "ADD_INT": 50,
-          "ADD_STRING": 52,
-          "ADD_VEC2": 53,
-          "ADD_VEC3": 54,
-          "ADD_VEC3WS_VEC3": 55,
-          "ADD_VEC3_VEC3WS": 56,
-          "ADD_VEC4": 57,
-          "AND": 35,
-          "CELL_INVOKE": 12,
-          "CHUNK_LEAP": 7,
-          "CHUNK_LEAP_COND": 8,
-          "CONVERT_VALUE": 40,
-          "COPY": 23,
-          "CREATE_CHILD_CURSOR_OUTFLOW": 11,
-          "DETACH_REGISTER": 17,
-          "DIV": 29,
-          "DIV_FLOAT": 71,
-          "ELEMENT_ACCESS": 39,
-          "ELEMENT_ACCESS_COLOR_RGB": 124,
-          "ELEMENT_ACCESS_VEC2": 120,
-          "ELEMENT_ACCESS_VEC3": 121,
-          "ELEMENT_ACCESS_VEC3WS": 122,
-          "ELEMENT_ACCESS_VEC4": 123,
-          "EQ": 33,
-          "EQ_ARRAY": 95,
-          "EQ_BOOL": 80,
-          "EQ_COLOR_RGB": 94,
-          "EQ_EHANDLE": 90,
-          "EQ_ENTITY_NAME": 88,
-          "EQ_FLOAT": 82,
-          "EQ_GAMETIME": 96,
-          "EQ_INT": 81,
-          "EQ_OPAQUE_HANDLE": 92,
-          "EQ_PANEL_HANDLE": 91,
-          "EQ_SCHEMA_ENUM": 89,
-          "EQ_STRING": 87,
-          "EQ_TEST_HANDLE": 93,
-          "EQ_VEC2": 83,
-          "EQ_VEC3": 84,
-          "EQ_VEC3WS": 85,
-          "EQ_VEC4": 86,
-          "GET_ARRAY_ELEMENT": 21,
-          "GET_BLACKBOARD_REFERENCE": 42,
-          "GET_CONST": 20,
-          "GET_CONST_INLINE_STORAGE": 125,
-          "GET_DOMAIN_VALUE": 22,
-          "GET_VAR": 15,
-          "GET_VAR_DETACH": 16,
+          "ADD": 27,
+          "ADD_FLOAT": 55,
+          "ADD_FLOAT_GAMETIME": 63,
+          "ADD_GAMETIME_FLOAT": 62,
+          "ADD_INT": 54,
+          "ADD_STRING": 56,
+          "ADD_VEC2": 57,
+          "ADD_VEC3": 58,
+          "ADD_VEC3WS_VEC3": 59,
+          "ADD_VEC3_VEC3WS": 60,
+          "ADD_VEC4": 61,
+          "AND": 36,
+          "CELL_INVOKE": 13,
+          "CHUNK_LEAP": 8,
+          "CHUNK_LEAP_COND": 9,
+          "CONVERT_VALUE": 41,
+          "COPY": 24,
+          "CREATE_CHILD_CURSOR_OUTFLOW": 12,
+          "DETACH_REGISTER": 18,
+          "DIV": 30,
+          "DIV_FLOAT": 75,
+          "ELEMENT_ACCESS": 40,
+          "ELEMENT_ACCESS_COLOR_RGB": 126,
+          "ELEMENT_ACCESS_VEC2": 122,
+          "ELEMENT_ACCESS_VEC3": 123,
+          "ELEMENT_ACCESS_VEC3WS": 124,
+          "ELEMENT_ACCESS_VEC4": 125,
+          "EQ": 34,
+          "EQ_ARRAY": 98,
+          "EQ_BOOL": 84,
+          "EQ_COLOR_RGB": 97,
+          "EQ_EHANDLE": 94,
+          "EQ_ENTITY_NAME": 92,
+          "EQ_ENUM": 93,
+          "EQ_FLOAT": 86,
+          "EQ_GAMETIME": 99,
+          "EQ_INT": 85,
+          "EQ_LEAF": 96,
+          "EQ_PANEL_HANDLE": 95,
+          "EQ_STRING": 91,
+          "EQ_VEC2": 87,
+          "EQ_VEC3": 88,
+          "EQ_VEC3WS": 89,
+          "EQ_VEC4": 90,
+          "GET_ARRAY_ELEMENT": 22,
+          "GET_BLACKBOARD_REFERENCE": 43,
+          "GET_CONST": 21,
+          "GET_CONST_INLINE_STORAGE": 127,
+          "GET_DOMAIN_VALUE": 23,
+          "GET_TEMPVAR": 45,
+          "GET_VAR": 16,
+          "GET_VAR_DETACH": 17,
           "IMMEDIATE_HALT": 1,
           "INVALID": 0,
-          "JUMP": 5,
-          "JUMP_COND": 6,
-          "LAST_SERIALIZED_CODE": 44,
-          "LIBRARY_INVOKE": 13,
-          "LT": 31,
-          "LTE": 32,
-          "LTE_FLOAT": 78,
-          "LTE_GAMETIME": 79,
-          "LTE_INT": 77,
-          "LT_FLOAT": 75,
-          "LT_GAMETIME": 76,
-          "LT_INT": 74,
-          "MOD": 30,
-          "MOD_FLOAT": 73,
-          "MOD_INT": 72,
-          "MUL": 28,
-          "MUL_FLOAT": 70,
-          "MUL_INT": 69,
-          "NE": 34,
-          "NEGATE": 25,
-          "NEGATE_FLOAT": 46,
-          "NEGATE_INT": 45,
-          "NEGATE_VEC2": 47,
-          "NEGATE_VEC3": 48,
-          "NEGATE_VEC4": 49,
-          "NE_ARRAY": 112,
-          "NE_BOOL": 97,
-          "NE_COLOR_RGB": 111,
-          "NE_EHANDLE": 107,
-          "NE_ENTITY_NAME": 105,
-          "NE_FLOAT": 99,
-          "NE_GAMETIME": 113,
-          "NE_INT": 98,
-          "NE_OPAQUE_HANDLE": 109,
-          "NE_PANEL_HANDLE": 108,
-          "NE_SCHEMA_ENUM": 106,
-          "NE_STRING": 104,
-          "NE_TEST_HANDLE": 110,
-          "NE_VEC2": 100,
-          "NE_VEC3": 101,
-          "NE_VEC3WS": 102,
-          "NE_VEC4": 103,
-          "NOP": 4,
-          "NOT": 24,
-          "OR": 36,
-          "PULSE_CALL_ASYNC_FIRE": 10,
-          "PULSE_CALL_SYNC": 9,
-          "REINTERPRET_INSTANCE": 41,
+          "JUMP": 6,
+          "JUMP_COND": 7,
+          "LAST_SERIALIZED_CODE": 48,
+          "LIBRARY_INVOKE": 14,
+          "LOOP_BREAK": 4,
+          "LT": 32,
+          "LTE": 33,
+          "LTE_FLOAT": 82,
+          "LTE_GAMETIME": 83,
+          "LTE_INT": 81,
+          "LT_FLOAT": 79,
+          "LT_GAMETIME": 80,
+          "LT_INT": 78,
+          "MOD": 31,
+          "MOD_FLOAT": 77,
+          "MOD_INT": 76,
+          "MUL": 29,
+          "MUL_FLOAT": 74,
+          "MUL_INT": 73,
+          "NE": 35,
+          "NEGATE": 26,
+          "NEGATE_FLOAT": 50,
+          "NEGATE_INT": 49,
+          "NEGATE_VEC2": 51,
+          "NEGATE_VEC3": 52,
+          "NEGATE_VEC4": 53,
+          "NE_ARRAY": 114,
+          "NE_BOOL": 100,
+          "NE_COLOR_RGB": 113,
+          "NE_EHANDLE": 110,
+          "NE_ENTITY_NAME": 108,
+          "NE_ENUM": 109,
+          "NE_FLOAT": 102,
+          "NE_GAMETIME": 115,
+          "NE_INT": 101,
+          "NE_LEAF": 112,
+          "NE_PANEL_HANDLE": 111,
+          "NE_STRING": 107,
+          "NE_VEC2": 103,
+          "NE_VEC3": 104,
+          "NE_VEC3WS": 105,
+          "NE_VEC4": 106,
+          "NOP": 5,
+          "NOT": 25,
+          "OR": 37,
+          "PULSE_CALL_ASYNC_FIRE": 11,
+          "PULSE_CALL_SYNC": 10,
+          "REINTERPRET_INSTANCE": 42,
           "RETURN_VALUE": 3,
           "RETURN_VOID": 2,
-          "SCALE": 37,
-          "SCALE_INV": 38,
-          "SCALE_INV_VEC2": 118,
-          "SCALE_INV_VEC3": 117,
-          "SCALE_INV_VEC4": 119,
-          "SCALE_VEC2": 115,
-          "SCALE_VEC3": 114,
-          "SCALE_VEC4": 116,
-          "SET_BLACKBOARD_REFERENCE": 43,
-          "SET_VAR": 14,
-          "SET_VAR_ARRAY_ELEMENT_1D": 18,
-          "SET_VAR_OBSERVABLE": 19,
-          "SUB": 27,
-          "SUB_FLOAT": 61,
-          "SUB_GAMETIME": 68,
-          "SUB_GAMETIME_FLOAT": 67,
-          "SUB_INT": 60,
-          "SUB_VEC2": 62,
-          "SUB_VEC3": 63,
-          "SUB_VEC3WS_VEC3": 64,
-          "SUB_VEC3WS_VEC3WS": 65,
-          "SUB_VEC4": 66
+          "SCALE": 38,
+          "SCALE_INV": 39,
+          "SCALE_INV_VEC2": 120,
+          "SCALE_INV_VEC3": 119,
+          "SCALE_INV_VEC4": 121,
+          "SCALE_VEC2": 117,
+          "SCALE_VEC3": 116,
+          "SCALE_VEC4": 118,
+          "SET_BLACKBOARD_REFERENCE": 44,
+          "SET_TEMPVAR": 46,
+          "SET_TEMPVAR_OBSERVABLE": 47,
+          "SET_VAR": 15,
+          "SET_VAR_ARRAY_ELEMENT_1D": 19,
+          "SET_VAR_OBSERVABLE": 20,
+          "SUB": 28,
+          "SUB_FLOAT": 65,
+          "SUB_GAMETIME": 72,
+          "SUB_GAMETIME_FLOAT": 71,
+          "SUB_INT": 64,
+          "SUB_VEC2": 66,
+          "SUB_VEC3": 67,
+          "SUB_VEC3WS_VEC3": 68,
+          "SUB_VEC3WS_VEC3WS": 69,
+          "SUB_VEC4": 70
         },
         "type": "uint16"
       },
@@ -1193,36 +452,33 @@
       "PulseValueType_t": {
         "alignment": 4,
         "members": {
-          "PVAL_ANIM_SEQUENCE": 31,
-          "PVAL_ARRAY": 28,
+          "PVAL_ANIM_SEQUENCE": 28,
+          "PVAL_ARRAY": 26,
           "PVAL_BOOL": 0,
           "PVAL_COLOR_RGB": 11,
-          "PVAL_COUNT": 33,
-          "PVAL_CURSOR_FLOW": 22,
+          "PVAL_COUNT": 30,
+          "PVAL_CURSOR_FLOW": 21,
           "PVAL_EHANDLE": 13,
           "PVAL_ENTITY_NAME": 18,
+          "PVAL_ENUM": 24,
           "PVAL_FLOAT": 2,
           "PVAL_GAMETIME": 12,
           "PVAL_INT": 1,
-          "PVAL_MODEL_MATERIAL_GROUP": 21,
-          "PVAL_OPAQUE_HANDLE": 19,
-          "PVAL_PANORAMA_PANEL_HANDLE": 26,
-          "PVAL_PARTICLE_EHANDLE": 30,
+          "PVAL_LEAF": 19,
+          "PVAL_MODEL_MATERIAL_GROUP": 20,
+          "PVAL_PANORAMA_PANEL_HANDLE": 25,
+          "PVAL_PARTICLE_EHANDLE": 27,
           "PVAL_QANGLE": 6,
           "PVAL_RESOURCE": 14,
           "PVAL_RESOURCE_NAME": 15,
-          "PVAL_SCHEMA_ENUM": 25,
           "PVAL_SNDEVT_GUID": 16,
           "PVAL_SNDEVT_NAME": 17,
           "PVAL_STRING": 3,
-          "PVAL_TEST_HANDLE": 27,
           "PVAL_TRANSFORM": 9,
           "PVAL_TRANSFORM_WORLDSPACE": 10,
-          "PVAL_TYPESAFE_INT": 20,
-          "PVAL_TYPESAFE_INT64": 29,
-          "PVAL_UNKNOWN": 24,
-          "PVAL_VARIANT": 23,
-          "PVAL_VDATA_CHOICE": 32,
+          "PVAL_UNKNOWN": 23,
+          "PVAL_VARIANT": 22,
+          "PVAL_VDATA_CHOICE": 29,
           "PVAL_VEC2": 4,
           "PVAL_VEC3": 5,
           "PVAL_VEC3_WORLDSPACE": 7,
