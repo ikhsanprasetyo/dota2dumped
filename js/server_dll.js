@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-08 20:27:02.884074100 +07:00
+// 2026-10-09 13:46:49.828411900 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -8487,6 +8487,9 @@ export const Schemas = {
             MOVETYPE_OBSERVER: 0x8,
             MOVETYPE_CUSTOM: 0x9,
             MOVETYPE_LAST: 0xA,
+        },
+        special_bonus_unique_tusk_5: {
+            : 0x0,
         },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x1AA8, // int32
@@ -40650,8 +40653,6 @@ export const Schemas = {
         CNavVolumeSphere: {
             m_vCenter: 0x78, // VectorWS
             m_flRadius: 0x84, // float32
-        },
-        _Yd_Z_: {
         },
     },
 };

@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-08 20:27:02.884074100 +07:00
+// 2026-10-09 13:46:49.828411900 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 7168
-    // Enum count: 438
+    // Class count: 7167
+    // Enum count: 439
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -55919,10 +55919,6 @@ namespace Source2Dumper.Schemas {
         public static class CNavVolumeSphere {
             public const nint m_vCenter = 0x78; // VectorWS
             public const nint m_flRadius = 0x84; // float32
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _Yd_Z_ {
         }
     }
 }

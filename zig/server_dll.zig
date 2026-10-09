@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-08 20:27:02.884074100 +07:00
+// 2026-10-09 13:46:49.828411900 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
-        // Class count: 7168
-        // Enum count: 438
+        // Class count: 7167
+        // Enum count: 439
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -55888,10 +55888,6 @@ pub const source2_dumper = struct {
             pub const CNavVolumeSphere = struct {
                 pub const m_vCenter: usize = 0x78; // VectorWS
                 pub const m_flRadius: usize = 0x84; // float32
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _Yd_Z_ = struct {
             };
         };
     };

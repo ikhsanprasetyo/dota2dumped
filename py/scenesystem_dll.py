@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-08 20:27:02.884074100 +07:00
+# 2026-10-09 13:46:49.828411900 +07:00
 
 class Schemas:
     # Module: scenesystem.dll

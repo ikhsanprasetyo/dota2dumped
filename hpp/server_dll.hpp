@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-08 20:27:02.884074100 +07:00
+// 2026-10-09 13:46:49.828411900 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
-        // Class count: 7168
-        // Enum count: 438
+        // Class count: 7167
+        // Enum count: 439
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -55925,10 +55925,6 @@ namespace source2_dumper {
             namespace CNavVolumeSphere {
                 constexpr std::ptrdiff_t m_vCenter = 0x78; // VectorWS
                 constexpr std::ptrdiff_t m_flRadius = 0x84; // float32
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _Yd_Z_ {
             }
         }
     }
