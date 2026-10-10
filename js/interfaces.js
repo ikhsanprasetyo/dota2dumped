@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-09 13:46:49.828411900 +07:00
+// 2026-10-10 12:12:06.506827800 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -7,16 +7,16 @@ export const Interfaces = {
         AnimationSystem_001: 0x832658,
     },
     client_dll: {
-        ClientToolsInfo_001: 0x5B2C8F0,
-        DOTA_CLIENT_GCCLIENT: 0x63CA7C0,
-        GameClientExports001: 0x5B28620,
-        LegacyGameUI001: 0x5B89150,
-        PanoramaUIClient001: 0x5BB42A0,
-        PlayButtonService001: 0x5B96A38,
-        Source2Client002: 0x6213E20,
-        Source2ClientConfig001: 0x61B11A0,
-        Source2ClientPrediction001: 0x5B2F490,
-        Source2ClientUI001: 0x5945BC0,
+        ClientToolsInfo_001: 0x5B2E8F0,
+        DOTA_CLIENT_GCCLIENT: 0x63CC8C0,
+        GameClientExports001: 0x5B2A620,
+        LegacyGameUI001: 0x5B8B150,
+        PanoramaUIClient001: 0x5BB62C0,
+        PlayButtonService001: 0x5B98A48,
+        Source2Client002: 0x6215F20,
+        Source2ClientConfig001: 0x61B32A0,
+        Source2ClientPrediction001: 0x5B31490,
+        Source2ClientUI001: 0x5947BC0,
     },
     engine2_dll: {
         BenchmarkService001: 0x5BDD80,
@@ -132,7 +132,7 @@ export const Interfaces = {
     },
     server_dll: {
         EntitySubclassUtilsV001: 0x48C61C0,
-        NavGameTest001: 0x4B19E08,
+        NavGameTest001: 0x4B19E18,
         ServerToolsInfo_001: 0x4AA98D8,
         Source2GameClients001: 0x4AA8670,
         Source2GameDirector001: 0x5165700,
@@ -158,9 +158,6 @@ export const Interfaces = {
     },
     v8system_dll: {
         Source2V8System001: 0x34790,
-    },
-    vconcomm_dll: {
-        VConComm001: 0x3C750,
     },
     vphysics2_dll: {
         VPhysics2_Interface_001: 0x472F10,

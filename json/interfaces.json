@@ -4,16 +4,16 @@
     "AnimationSystem_001": 8595032
   },
   "client.dll": {
-    "ClientToolsInfo_001": 95602928,
-    "DOTA_CLIENT_GCCLIENT": 104638400,
-    "GameClientExports001": 95585824,
-    "LegacyGameUI001": 95981904,
-    "PanoramaUIClient001": 96158368,
-    "PlayButtonService001": 96037432,
-    "Source2Client002": 102841888,
-    "Source2ClientConfig001": 102437280,
-    "Source2ClientPrediction001": 95614096,
-    "Source2ClientUI001": 93608896
+    "ClientToolsInfo_001": 95611120,
+    "DOTA_CLIENT_GCCLIENT": 104646848,
+    "GameClientExports001": 95594016,
+    "LegacyGameUI001": 95990096,
+    "PanoramaUIClient001": 96166592,
+    "PlayButtonService001": 96045640,
+    "Source2Client002": 102850336,
+    "Source2ClientConfig001": 102445728,
+    "Source2ClientPrediction001": 95622288,
+    "Source2ClientUI001": 93617088
   },
   "engine2.dll": {
     "BenchmarkService001": 6020480,
@@ -129,7 +129,7 @@
   },
   "server.dll": {
     "EntitySubclassUtilsV001": 76308928,
-    "NavGameTest001": 78749192,
+    "NavGameTest001": 78749208,
     "ServerToolsInfo_001": 78289112,
     "Source2GameClients001": 78284400,
     "Source2GameDirector001": 85350144,
@@ -155,9 +155,6 @@
   },
   "v8system.dll": {
     "Source2V8System001": 214928
-  },
-  "vconcomm.dll": {
-    "VConComm001": 247632
   },
   "vphysics2.dll": {
     "VPhysics2_Interface_001": 4665104

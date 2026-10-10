@@ -1,21 +1,21 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-09 13:46:49.828411900 +07:00
+// 2026-10-10 12:12:06.506827800 +07:00
 
 package interfaces
 
 const (
     AnimationsystemDll_AnimationSystemUtils_001 = 0x83A738
     AnimationsystemDll_AnimationSystem_001 = 0x832658
-    ClientDll_ClientToolsInfo_001 = 0x5B2C8F0
-    ClientDll_DOTA_CLIENT_GCCLIENT = 0x63CA7C0
-    ClientDll_GameClientExports001 = 0x5B28620
-    ClientDll_LegacyGameUI001 = 0x5B89150
-    ClientDll_PanoramaUIClient001 = 0x5BB42A0
-    ClientDll_PlayButtonService001 = 0x5B96A38
-    ClientDll_Source2Client002 = 0x6213E20
-    ClientDll_Source2ClientConfig001 = 0x61B11A0
-    ClientDll_Source2ClientPrediction001 = 0x5B2F490
-    ClientDll_Source2ClientUI001 = 0x5945BC0
+    ClientDll_ClientToolsInfo_001 = 0x5B2E8F0
+    ClientDll_DOTA_CLIENT_GCCLIENT = 0x63CC8C0
+    ClientDll_GameClientExports001 = 0x5B2A620
+    ClientDll_LegacyGameUI001 = 0x5B8B150
+    ClientDll_PanoramaUIClient001 = 0x5BB62C0
+    ClientDll_PlayButtonService001 = 0x5B98A48
+    ClientDll_Source2Client002 = 0x6215F20
+    ClientDll_Source2ClientConfig001 = 0x61B32A0
+    ClientDll_Source2ClientPrediction001 = 0x5B31490
+    ClientDll_Source2ClientUI001 = 0x5947BC0
     Engine2Dll_BenchmarkService001 = 0x5BDD80
     Engine2Dll_BugBugService001 = 0x5BDE80
     Engine2Dll_BugService001 = 0x874490
@@ -91,7 +91,7 @@ const (
     ScenesystemDll_SceneUtils_001 = 0x6AC310
     SchemasystemDll_SchemaSystem_001 = 0x76610
     ServerDll_EntitySubclassUtilsV001 = 0x48C61C0
-    ServerDll_NavGameTest001 = 0x4B19E08
+    ServerDll_NavGameTest001 = 0x4B19E18
     ServerDll_ServerToolsInfo_001 = 0x4AA98D8
     ServerDll_Source2GameClients001 = 0x4AA8670
     ServerDll_Source2GameDirector001 = 0x5165700
@@ -109,7 +109,6 @@ const (
     Tier0Dll_VProcessUtils002 = 0x3A1820
     Tier0Dll_VStringTokenSystem001 = 0x3D3340
     V8systemDll_Source2V8System001 = 0x34790
-    VconcommDll_VConComm001 = 0x3C750
     Vphysics2Dll_VPhysics2_Interface_001 = 0x472F10
     VscriptDll_VScriptManager010 = 0x13E430
     WorldrendererDll_WorldRendererMgr001 = 0x1D9680

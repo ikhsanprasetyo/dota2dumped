@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-09 13:46:49.828411900 +07:00
+// 2026-10-10 12:12:06.506827800 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -12,16 +12,16 @@ pub mod source2_dumper {
         }
         // Module: client.dll
         pub mod client_dll {
-            pub const ClientToolsInfo_001: usize = 0x5B2C8F0;
-            pub const DOTA_CLIENT_GCCLIENT: usize = 0x63CA7C0;
-            pub const GameClientExports001: usize = 0x5B28620;
-            pub const LegacyGameUI001: usize = 0x5B89150;
-            pub const PanoramaUIClient001: usize = 0x5BB42A0;
-            pub const PlayButtonService001: usize = 0x5B96A38;
-            pub const Source2Client002: usize = 0x6213E20;
-            pub const Source2ClientConfig001: usize = 0x61B11A0;
-            pub const Source2ClientPrediction001: usize = 0x5B2F490;
-            pub const Source2ClientUI001: usize = 0x5945BC0;
+            pub const ClientToolsInfo_001: usize = 0x5B2E8F0;
+            pub const DOTA_CLIENT_GCCLIENT: usize = 0x63CC8C0;
+            pub const GameClientExports001: usize = 0x5B2A620;
+            pub const LegacyGameUI001: usize = 0x5B8B150;
+            pub const PanoramaUIClient001: usize = 0x5BB62C0;
+            pub const PlayButtonService001: usize = 0x5B98A48;
+            pub const Source2Client002: usize = 0x6215F20;
+            pub const Source2ClientConfig001: usize = 0x61B32A0;
+            pub const Source2ClientPrediction001: usize = 0x5B31490;
+            pub const Source2ClientUI001: usize = 0x5947BC0;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
@@ -157,7 +157,7 @@ pub mod source2_dumper {
         // Module: server.dll
         pub mod server_dll {
             pub const EntitySubclassUtilsV001: usize = 0x48C61C0;
-            pub const NavGameTest001: usize = 0x4B19E08;
+            pub const NavGameTest001: usize = 0x4B19E18;
             pub const ServerToolsInfo_001: usize = 0x4AA98D8;
             pub const Source2GameClients001: usize = 0x4AA8670;
             pub const Source2GameDirector001: usize = 0x5165700;
@@ -187,10 +187,6 @@ pub mod source2_dumper {
         // Module: v8system.dll
         pub mod v8system_dll {
             pub const Source2V8System001: usize = 0x34790;
-        }
-        // Module: vconcomm.dll
-        pub mod vconcomm_dll {
-            pub const VConComm001: usize = 0x3C750;
         }
         // Module: vphysics2.dll
         pub mod vphysics2_dll {

@@ -1,22 +1,22 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-09 13:46:49.828411900 +07:00
+// 2026-10-10 12:12:06.506827800 +07:00
 
 pub const source2_dumper = struct {
     // Module: client.dll
     pub const buttons = struct {
-        pub const attack: usize = 0x5B2D0E0;
-        pub const attack2: usize = 0x5B2D170;
-        pub const back: usize = 0x5B2D3B0;
-        pub const duck: usize = 0x5B2D680;
-        pub const forward: usize = 0x5B2D320;
-        pub const jump: usize = 0x5B2D5F0;
-        pub const left: usize = 0x5B2D440;
-        pub const query: usize = 0x62533F0;
-        pub const reload: usize = 0x5B2D050;
-        pub const right: usize = 0x5B2D4D0;
-        pub const sprint: usize = 0x5B2CFC0;
-        pub const turnleft: usize = 0x5B2D200;
-        pub const turnright: usize = 0x5B2D290;
-        pub const use: usize = 0x5B2D560;
+        pub const attack: usize = 0x5B2F0E0;
+        pub const attack2: usize = 0x5B2F170;
+        pub const back: usize = 0x5B2F3B0;
+        pub const duck: usize = 0x5B2F680;
+        pub const forward: usize = 0x5B2F320;
+        pub const jump: usize = 0x5B2F5F0;
+        pub const left: usize = 0x5B2F440;
+        pub const query: usize = 0x62554F0;
+        pub const reload: usize = 0x5B2F050;
+        pub const right: usize = 0x5B2F4D0;
+        pub const sprint: usize = 0x5B2EFC0;
+        pub const turnleft: usize = 0x5B2F200;
+        pub const turnright: usize = 0x5B2F290;
+        pub const use: usize = 0x5B2F560;
     };
 };

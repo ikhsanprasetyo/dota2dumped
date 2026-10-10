@@ -67687,13 +67687,6 @@
         },
         "type": "uint32"
       },
-      "special_bonus_unique_tusk_5": {
-        "alignment": 78,
-        "members": {
-          "": 0
-        },
-        "type": "unknown"
-      },
       "subquest_player_stat_types_t": {
         "alignment": 4,
         "members": {

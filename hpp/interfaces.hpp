@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-09 13:46:49.828411900 +07:00
+// 2026-10-10 12:12:06.506827800 +07:00
 
 #pragma once
 
@@ -15,16 +15,16 @@ namespace source2_dumper {
         }
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x5B2C8F0;
-            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x63CA7C0;
-            constexpr std::ptrdiff_t GameClientExports001 = 0x5B28620;
-            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5B89150;
-            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5BB42A0;
-            constexpr std::ptrdiff_t PlayButtonService001 = 0x5B96A38;
-            constexpr std::ptrdiff_t Source2Client002 = 0x6213E20;
-            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x61B11A0;
-            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5B2F490;
-            constexpr std::ptrdiff_t Source2ClientUI001 = 0x5945BC0;
+            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x5B2E8F0;
+            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x63CC8C0;
+            constexpr std::ptrdiff_t GameClientExports001 = 0x5B2A620;
+            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5B8B150;
+            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5BB62C0;
+            constexpr std::ptrdiff_t PlayButtonService001 = 0x5B98A48;
+            constexpr std::ptrdiff_t Source2Client002 = 0x6215F20;
+            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x61B32A0;
+            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5B31490;
+            constexpr std::ptrdiff_t Source2ClientUI001 = 0x5947BC0;
         }
         // Module: engine2.dll
         namespace engine2_dll {
@@ -160,7 +160,7 @@ namespace source2_dumper {
         // Module: server.dll
         namespace server_dll {
             constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x48C61C0;
-            constexpr std::ptrdiff_t NavGameTest001 = 0x4B19E08;
+            constexpr std::ptrdiff_t NavGameTest001 = 0x4B19E18;
             constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x4AA98D8;
             constexpr std::ptrdiff_t Source2GameClients001 = 0x4AA8670;
             constexpr std::ptrdiff_t Source2GameDirector001 = 0x5165700;
@@ -190,10 +190,6 @@ namespace source2_dumper {
         // Module: v8system.dll
         namespace v8system_dll {
             constexpr std::ptrdiff_t Source2V8System001 = 0x34790;
-        }
-        // Module: vconcomm.dll
-        namespace vconcomm_dll {
-            constexpr std::ptrdiff_t VConComm001 = 0x3C750;
         }
         // Module: vphysics2.dll
         namespace vphysics2_dll {
