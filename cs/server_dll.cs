@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-10 12:12:06.506827800 +07:00
+// 2026-10-12 20:40:52.071180200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
     // Class count: 7167
-    // Enum count: 438
+    // Enum count: 439
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4

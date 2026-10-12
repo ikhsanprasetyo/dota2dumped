@@ -67654,6 +67654,13 @@
         },
         "type": "uint32"
       },
+      "npc_dota_neutral_spawner": {
+        "alignment": 75,
+        "members": {
+          "": 0
+        },
+        "type": "unknown"
+      },
       "quest_hud_types_t": {
         "alignment": 4,
         "members": {

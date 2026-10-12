@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-10 12:12:06.506827800 +07:00
+// 2026-10-12 20:40:52.071180200 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -187,6 +187,10 @@ pub mod source2_dumper {
         // Module: v8system.dll
         pub mod v8system_dll {
             pub const Source2V8System001: usize = 0x34790;
+        }
+        // Module: vconcomm.dll
+        pub mod vconcomm_dll {
+            pub const VConComm001: usize = 0x3C750;
         }
         // Module: vphysics2.dll
         pub mod vphysics2_dll {

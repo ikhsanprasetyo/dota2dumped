@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-10 12:12:06.506827800 +07:00
+// 2026-10-12 20:40:52.071180200 +07:00
 
 package interfaces
 
@@ -109,6 +109,7 @@ const (
     Tier0Dll_VProcessUtils002 = 0x3A1820
     Tier0Dll_VStringTokenSystem001 = 0x3D3340
     V8systemDll_Source2V8System001 = 0x34790
+    VconcommDll_VConComm001 = 0x3C750
     Vphysics2Dll_VPhysics2_Interface_001 = 0x472F10
     VscriptDll_VScriptManager010 = 0x13E430
     WorldrendererDll_WorldRendererMgr001 = 0x1D9680

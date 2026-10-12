@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-10 12:12:06.506827800 +07:00
+# 2026-10-12 20:40:52.071180200 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -159,6 +159,9 @@ class Interfaces:
     # Module: v8system.dll
     class V8systemDll:
         Source2V8System001 = 0x34790
+    # Module: vconcomm.dll
+    class VconcommDll:
+        VConComm001 = 0x3C750
     # Module: vphysics2.dll
     class Vphysics2Dll:
         VPhysics2_Interface_001 = 0x472F10

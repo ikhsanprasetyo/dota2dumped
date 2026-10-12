@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-10 12:12:06.506827800 +07:00
+// 2026-10-12 20:40:52.071180200 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -158,6 +158,9 @@ export const Interfaces = {
     },
     v8system_dll: {
         Source2V8System001: 0x34790,
+    },
+    vconcomm_dll: {
+        VConComm001: 0x3C750,
     },
     vphysics2_dll: {
         VPhysics2_Interface_001: 0x472F10,
