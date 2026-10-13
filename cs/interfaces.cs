@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-12 20:40:52.071180200 +07:00
+// 2026-10-13 10:18:55.984120300 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -10,11 +10,11 @@ namespace Source2Dumper.Interfaces {
     // Module: client.dll
     public static class ClientDll {
         public const nint ClientToolsInfo_001 = 0x5B2E8F0;
-        public const nint DOTA_CLIENT_GCCLIENT = 0x63CC8C0;
+        public const nint DOTA_CLIENT_GCCLIENT = 0x63CC920;
         public const nint GameClientExports001 = 0x5B2A620;
-        public const nint LegacyGameUI001 = 0x5B8B150;
-        public const nint PanoramaUIClient001 = 0x5BB62C0;
-        public const nint PlayButtonService001 = 0x5B98A48;
+        public const nint LegacyGameUI001 = 0x5B8B170;
+        public const nint PanoramaUIClient001 = 0x5BB62E0;
+        public const nint PlayButtonService001 = 0x5B98A68;
         public const nint Source2Client002 = 0x6215F20;
         public const nint Source2ClientConfig001 = 0x61B32A0;
         public const nint Source2ClientPrediction001 = 0x5B31490;

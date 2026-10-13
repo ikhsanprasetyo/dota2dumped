@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-12 20:40:52.071180200 +07:00
+// 2026-10-13 10:18:55.984120300 +07:00
 
 namespace Source2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
-        public const nint dwEntityList = 0x65A91C8;
-        public const nint dwGameEntitySystem = 0x65A91C8;
+        public const nint dwEntityList = 0x65A9228;
+        public const nint dwGameEntitySystem = 0x65A9228;
         public const nint dwGameEntitySystem_highestEntityIndex = 0x20C0;
         public const nint dwGlobalVars = 0x5B2A3D8;
         public const nint dwLocalPlayerPawn = 0x5B31568;
