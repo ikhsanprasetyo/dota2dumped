@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -12,16 +12,16 @@ pub mod source2_dumper {
         }
         // Module: client.dll
         pub mod client_dll {
-            pub const ClientToolsInfo_001: usize = 0x5B2E8F0;
-            pub const DOTA_CLIENT_GCCLIENT: usize = 0x63CC920;
-            pub const GameClientExports001: usize = 0x5B2A620;
+            pub const ClientToolsInfo_001: usize = 0x5B2E900;
+            pub const DOTA_CLIENT_GCCLIENT: usize = 0x63CC9C0;
+            pub const GameClientExports001: usize = 0x5B2A630;
             pub const LegacyGameUI001: usize = 0x5B8B170;
-            pub const PanoramaUIClient001: usize = 0x5BB62E0;
-            pub const PlayButtonService001: usize = 0x5B98A68;
-            pub const Source2Client002: usize = 0x6215F20;
-            pub const Source2ClientConfig001: usize = 0x61B32A0;
+            pub const PanoramaUIClient001: usize = 0x5BB62A0;
+            pub const PlayButtonService001: usize = 0x5B98A50;
+            pub const Source2Client002: usize = 0x6215FA0;
+            pub const Source2ClientConfig001: usize = 0x61B3420;
             pub const Source2ClientPrediction001: usize = 0x5B31490;
-            pub const Source2ClientUI001: usize = 0x5947BC0;
+            pub const Source2ClientUI001: usize = 0x5947BD0;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
@@ -160,7 +160,7 @@ pub mod source2_dumper {
             pub const NavGameTest001: usize = 0x4B19E18;
             pub const ServerToolsInfo_001: usize = 0x4AA98D8;
             pub const Source2GameClients001: usize = 0x4AA8670;
-            pub const Source2GameDirector001: usize = 0x5165700;
+            pub const Source2GameDirector001: usize = 0x5165710;
             pub const Source2GameEntities001: usize = 0x4AA9080;
             pub const Source2Server001: usize = 0x4AA8ED0;
             pub const Source2ServerConfig001: usize = 0x5041F88;

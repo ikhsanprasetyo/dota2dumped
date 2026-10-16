@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 package schemas
 
@@ -24924,6 +24924,15 @@ const (
     ServerDll_CUnitOrders_m_nAbilityIndex = 0x34 // CEntityIndex
     ServerDll_CUnitOrders_m_nFlags = 0x38 // uint32
     ServerDll_CNavVolumeVector_m_bHasBeenPreFiltered = 0x80 // bool
+    ServerDll_CInfoChoreoAnchorPosition_m_vOriginLS = 0x0 // Vector
+    ServerDll_CInfoChoreoAnchorPosition_m_qAnglesLS = 0x10 // Quaternion
+    ServerDll_CInfoChoreoAnchorPosition_m_vExtentsMin = 0x20 // Vector
+    ServerDll_CInfoChoreoAnchorPosition_m_vExtentsMax = 0x2C // Vector
+    ServerDll_CInfoChoreoAnchorPosition_m_flRadius = 0x38 // float32
+    ServerDll_CInfoChoreoAnchorPosition_m_flToleranceAngle = 0x3C // float32
+    ServerDll_CInfoChoreoAnchorPosition_m_bOnlyWarpPosition = 0x40 // bool
+    ServerDll_CInfoChoreoAnchorPosition_m_hParent = 0x44 // CHandle<CBaseEntity>
+    ServerDll_CInfoChoreoAnchorPosition_m_nShapeType = 0x48 // CInfoChoreoLocatorShapeType_t
     ServerDll_NeutralSpawnBoxes_t_neutralSpawnBoxes = 0x0 // AABB_t
     ServerDll_NeutralSpawnBoxes_t_vSpawnBoxOrigin = 0x18 // VectorWS
     ServerDll_NeutralSpawnBoxes_t_strCampName = 0x28 // CUtlString

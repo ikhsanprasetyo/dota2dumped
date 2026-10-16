@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: scenesystem.dll

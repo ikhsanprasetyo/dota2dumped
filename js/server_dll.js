@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -39972,6 +39972,17 @@ export const Schemas = {
         },
         CNavVolumeVector: {
             m_bHasBeenPreFiltered: 0x80, // bool
+        },
+        CInfoChoreoAnchorPosition: {
+            m_vOriginLS: 0x0, // Vector
+            m_qAnglesLS: 0x10, // Quaternion
+            m_vExtentsMin: 0x20, // Vector
+            m_vExtentsMax: 0x2C, // Vector
+            m_flRadius: 0x38, // float32
+            m_flToleranceAngle: 0x3C, // float32
+            m_bOnlyWarpPosition: 0x40, // bool
+            m_hParent: 0x44, // CHandle<CBaseEntity>
+            m_nShapeType: 0x48, // CInfoChoreoLocatorShapeType_t
         },
         NeutralSpawnBoxes_t: {
             neutralSpawnBoxes: 0x0, // AABB_t

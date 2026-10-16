@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -9,16 +9,16 @@ namespace Source2Dumper.Interfaces {
     }
     // Module: client.dll
     public static class ClientDll {
-        public const nint ClientToolsInfo_001 = 0x5B2E8F0;
-        public const nint DOTA_CLIENT_GCCLIENT = 0x63CC920;
-        public const nint GameClientExports001 = 0x5B2A620;
+        public const nint ClientToolsInfo_001 = 0x5B2E900;
+        public const nint DOTA_CLIENT_GCCLIENT = 0x63CC9C0;
+        public const nint GameClientExports001 = 0x5B2A630;
         public const nint LegacyGameUI001 = 0x5B8B170;
-        public const nint PanoramaUIClient001 = 0x5BB62E0;
-        public const nint PlayButtonService001 = 0x5B98A68;
-        public const nint Source2Client002 = 0x6215F20;
-        public const nint Source2ClientConfig001 = 0x61B32A0;
+        public const nint PanoramaUIClient001 = 0x5BB62A0;
+        public const nint PlayButtonService001 = 0x5B98A50;
+        public const nint Source2Client002 = 0x6215FA0;
+        public const nint Source2ClientConfig001 = 0x61B3420;
         public const nint Source2ClientPrediction001 = 0x5B31490;
-        public const nint Source2ClientUI001 = 0x5947BC0;
+        public const nint Source2ClientUI001 = 0x5947BD0;
     }
     // Module: engine2.dll
     public static class Engine2Dll {
@@ -157,7 +157,7 @@ namespace Source2Dumper.Interfaces {
         public const nint NavGameTest001 = 0x4B19E18;
         public const nint ServerToolsInfo_001 = 0x4AA98D8;
         public const nint Source2GameClients001 = 0x4AA8670;
-        public const nint Source2GameDirector001 = 0x5165700;
+        public const nint Source2GameDirector001 = 0x5165710;
         public const nint Source2GameEntities001 = 0x4AA9080;
         public const nint Source2Server001 = 0x4AA8ED0;
         public const nint Source2ServerConfig001 = 0x5041F88;

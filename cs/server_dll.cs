@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 7167
+    // Class count: 7168
     // Enum count: 438
     public static class ServerDll {
         // Alignment: 4
@@ -55072,6 +55072,22 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         public static class CNavVolumeVector {
             public const nint m_bHasBeenPreFiltered = 0x80; // bool
+        }
+        // Parent: None
+        // Field count: 9
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CInfoChoreoAnchorPosition {
+            public const nint m_vOriginLS = 0x0; // Vector
+            public const nint m_qAnglesLS = 0x10; // Quaternion
+            public const nint m_vExtentsMin = 0x20; // Vector
+            public const nint m_vExtentsMax = 0x2C; // Vector
+            public const nint m_flRadius = 0x38; // float32
+            public const nint m_flToleranceAngle = 0x3C; // float32
+            public const nint m_bOnlyWarpPosition = 0x40; // bool
+            public const nint m_hParent = 0x44; // CHandle<CBaseEntity>
+            public const nint m_nShapeType = 0x48; // CInfoChoreoLocatorShapeType_t
         }
         // Parent: None
         // Field count: 5

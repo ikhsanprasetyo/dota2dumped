@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
-        // Class count: 7167
+        // Class count: 7168
         // Enum count: 438
         namespace server_dll {
             // Alignment: 4
@@ -55078,6 +55078,22 @@ namespace source2_dumper {
             // Field count: 1
             namespace CNavVolumeVector {
                 constexpr std::ptrdiff_t m_bHasBeenPreFiltered = 0x80; // bool
+            }
+            // Parent: None
+            // Field count: 9
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CInfoChoreoAnchorPosition {
+                constexpr std::ptrdiff_t m_vOriginLS = 0x0; // Vector
+                constexpr std::ptrdiff_t m_qAnglesLS = 0x10; // Quaternion
+                constexpr std::ptrdiff_t m_vExtentsMin = 0x20; // Vector
+                constexpr std::ptrdiff_t m_vExtentsMax = 0x2C; // Vector
+                constexpr std::ptrdiff_t m_flRadius = 0x38; // float32
+                constexpr std::ptrdiff_t m_flToleranceAngle = 0x3C; // float32
+                constexpr std::ptrdiff_t m_bOnlyWarpPosition = 0x40; // bool
+                constexpr std::ptrdiff_t m_hParent = 0x44; // CHandle<CBaseEntity>
+                constexpr std::ptrdiff_t m_nShapeType = 0x48; // CInfoChoreoLocatorShapeType_t
             }
             // Parent: None
             // Field count: 5

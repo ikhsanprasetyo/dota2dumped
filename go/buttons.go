@@ -1,21 +1,21 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 package buttons
 
 const (
-    Attack = 0x5B2F0E0
-    Attack2 = 0x5B2F170
-    Back = 0x5B2F3B0
-    Duck = 0x5B2F680
-    Forward = 0x5B2F320
-    Jump = 0x5B2F5F0
-    Left = 0x5B2F440
-    Query = 0x62554F0
-    Reload = 0x5B2F050
-    Right = 0x5B2F4D0
-    Sprint = 0x5B2EFC0
-    Turnleft = 0x5B2F200
-    Turnright = 0x5B2F290
-    Use = 0x5B2F560
+    Attack = 0x5B2F0F0
+    Attack2 = 0x5B2F180
+    Back = 0x5B2F3C0
+    Duck = 0x5B2F690
+    Forward = 0x5B2F330
+    Jump = 0x5B2F600
+    Left = 0x5B2F450
+    Query = 0x6255590
+    Reload = 0x5B2F060
+    Right = 0x5B2F4E0
+    Sprint = 0x5B2EFD0
+    Turnleft = 0x5B2F210
+    Turnright = 0x5B2F2A0
+    Use = 0x5B2F570
 )

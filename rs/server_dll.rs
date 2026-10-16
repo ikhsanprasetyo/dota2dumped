@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-13 10:18:55.984120300 +07:00
+// 2026-10-16 22:49:31.088095700 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
-        // Class count: 7167
+        // Class count: 7168
         // Enum count: 438
         pub mod server_dll {
             // Alignment: 4
@@ -55481,6 +55481,22 @@ pub mod source2_dumper {
             // Field count: 1
             pub mod CNavVolumeVector {
                 pub const m_bHasBeenPreFiltered: usize = 0x80; // bool
+            }
+            // Parent: None
+            // Field count: 9
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub mod CInfoChoreoAnchorPosition {
+                pub const m_vOriginLS: usize = 0x0; // Vector
+                pub const m_qAnglesLS: usize = 0x10; // Quaternion
+                pub const m_vExtentsMin: usize = 0x20; // Vector
+                pub const m_vExtentsMax: usize = 0x2C; // Vector
+                pub const m_flRadius: usize = 0x38; // float32
+                pub const m_flToleranceAngle: usize = 0x3C; // float32
+                pub const m_bOnlyWarpPosition: usize = 0x40; // bool
+                pub const m_hParent: usize = 0x44; // CHandle<CBaseEntity>
+                pub const m_nShapeType: usize = 0x48; // CInfoChoreoLocatorShapeType_t
             }
             // Parent: None
             // Field count: 5

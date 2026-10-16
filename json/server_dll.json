@@ -52643,6 +52643,26 @@
         "metadata": [],
         "parent": null
       },
+      "CInfoChoreoAnchorPosition": {
+        "fields": {
+          "m_bOnlyWarpPosition": 64,
+          "m_flRadius": 56,
+          "m_flToleranceAngle": 60,
+          "m_hParent": 68,
+          "m_nShapeType": 72,
+          "m_qAnglesLS": 16,
+          "m_vExtentsMax": 44,
+          "m_vExtentsMin": 32,
+          "m_vOriginLS": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CInfoCourierSpawn": {
         "fields": {},
         "metadata": [],
