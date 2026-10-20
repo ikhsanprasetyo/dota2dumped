@@ -53602,11 +53602,6 @@
           "k_eVisualNovelDialogueLineType_Video": 5
         },
         "type": "uint32"
-      },
-      "___3s_": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
       }
     }
   }

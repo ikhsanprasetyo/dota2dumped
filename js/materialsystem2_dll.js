@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:43:04.308743300 +07:00
+// 2026-10-20 09:43:33.153190300 +07:00
 
 export const Schemas = {
     materialsystem2_dll: {

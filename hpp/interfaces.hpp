@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:43:04.308743300 +07:00
+// 2026-10-20 09:43:33.153190300 +07:00
 
 #pragma once
 
@@ -22,7 +22,7 @@ namespace source2_dumper {
             constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5BB62A0;
             constexpr std::ptrdiff_t PlayButtonService001 = 0x5B98A50;
             constexpr std::ptrdiff_t Source2Client002 = 0x6215FA0;
-            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x61B3420;
+            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x61B3410;
             constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5B31490;
             constexpr std::ptrdiff_t Source2ClientUI001 = 0x5947BD0;
         }
@@ -159,14 +159,14 @@ namespace source2_dumper {
         }
         // Module: server.dll
         namespace server_dll {
-            constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x48C61C0;
-            constexpr std::ptrdiff_t NavGameTest001 = 0x4B19E18;
-            constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x4AA98D8;
-            constexpr std::ptrdiff_t Source2GameClients001 = 0x4AA8670;
-            constexpr std::ptrdiff_t Source2GameDirector001 = 0x5165710;
-            constexpr std::ptrdiff_t Source2GameEntities001 = 0x4AA9080;
-            constexpr std::ptrdiff_t Source2Server001 = 0x4AA8ED0;
-            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x5041F88;
+            constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x48C71C0;
+            constexpr std::ptrdiff_t NavGameTest001 = 0x4B1AE18;
+            constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x4AAA8D8;
+            constexpr std::ptrdiff_t Source2GameClients001 = 0x4AA9670;
+            constexpr std::ptrdiff_t Source2GameDirector001 = 0x5166710;
+            constexpr std::ptrdiff_t Source2GameEntities001 = 0x4AAA080;
+            constexpr std::ptrdiff_t Source2Server001 = 0x4AA9ED0;
+            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x5042F88;
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {

@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:43:04.308743300 +07:00
+// 2026-10-20 09:43:33.153190300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
         // Class count: 6852
-        // Enum count: 119
+        // Enum count: 118
         pub const client_dll = struct {
             // Alignment: 4
             // Member count: 5

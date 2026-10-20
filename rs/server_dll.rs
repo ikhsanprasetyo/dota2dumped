@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-18 21:43:04.308743300 +07:00
+// 2026-10-20 09:43:33.153190300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 7168
-        // Enum count: 438
+        // Enum count: 439
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
