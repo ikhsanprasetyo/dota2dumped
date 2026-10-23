@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-21 09:18:20.047517600 +07:00
+// 2026-10-23 09:25:42.286661400 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 6852
-    // Enum count: 121
+    // Class count: 6853
+    // Enum count: 118
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -43101,6 +43101,10 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CDOTAMinesweeperStageProgressionChoice {
             public const nint m_strLocText = 0x0; // CUtlString
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
         }
     }
 }

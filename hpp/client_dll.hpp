@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-21 09:18:20.047517600 +07:00
+// 2026-10-23 09:25:42.286661400 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 6852
-        // Enum count: 121
+        // Class count: 6853
+        // Enum count: 118
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -43107,6 +43107,10 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             namespace CDOTAMinesweeperStageProgressionChoice {
                 constexpr std::ptrdiff_t m_strLocText = 0x0; // CUtlString
+            }
+            // Parent: None
+            // Field count: 0
+            namespace _ {
             }
         }
     }

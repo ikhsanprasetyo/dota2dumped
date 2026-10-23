@@ -51559,6 +51559,11 @@
         "metadata": [],
         "parent": null
       },
+      "_": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "sControlGroupElem": {
         "fields": {
           "m_IllusionLabel": 529,
@@ -53602,16 +53607,6 @@
           "k_eVisualNovelDialogueLineType_Video": 5
         },
         "type": "uint32"
-      },
-      "_G____": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "______": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
       }
     }
   }

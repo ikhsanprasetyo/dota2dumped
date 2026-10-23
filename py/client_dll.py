@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-21 09:18:20.047517600 +07:00
+# 2026-10-23 09:25:42.286661400 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1443,12 +1443,6 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
-        class ______:
-            pass
-        class ______:
-            pass
-        class _G____:
-            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1B28 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1B50 # ParticleIndex_t
@@ -25627,3 +25621,5 @@ class Schemas:
             m_nAlarmTypes = 0x18 # int32
         class CDOTAMinesweeperStageProgressionChoice:
             m_strLocText = 0x0 # CUtlString
+        class _:
+            pass

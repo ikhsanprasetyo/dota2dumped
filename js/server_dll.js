@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-21 09:18:20.047517600 +07:00
+// 2026-10-23 09:25:42.286661400 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -8487,6 +8487,9 @@ export const Schemas = {
             MOVETYPE_OBSERVER: 0x8,
             MOVETYPE_CUSTOM: 0x9,
             MOVETYPE_LAST: 0xA,
+        },
+        npc_dota_neutral_spawner: {
+            : 0x0,
         },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x1AA8, // int32

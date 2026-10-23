@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-21 09:18:20.047517600 +07:00
+// 2026-10-23 09:25:42.286661400 +07:00
 
 #pragma once
 
@@ -159,14 +159,14 @@ namespace source2_dumper {
         }
         // Module: server.dll
         namespace server_dll {
-            constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x48C71C0;
-            constexpr std::ptrdiff_t NavGameTest001 = 0x4B1AE18;
-            constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x4AAA8D8;
-            constexpr std::ptrdiff_t Source2GameClients001 = 0x4AA9670;
-            constexpr std::ptrdiff_t Source2GameDirector001 = 0x5166710;
-            constexpr std::ptrdiff_t Source2GameEntities001 = 0x4AAA080;
-            constexpr std::ptrdiff_t Source2Server001 = 0x4AA9ED0;
-            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x5042F88;
+            constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x48C61C0;
+            constexpr std::ptrdiff_t NavGameTest001 = 0x4B19E18;
+            constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x4AA98D8;
+            constexpr std::ptrdiff_t Source2GameClients001 = 0x4AA8670;
+            constexpr std::ptrdiff_t Source2GameDirector001 = 0x5165690;
+            constexpr std::ptrdiff_t Source2GameEntities001 = 0x4AA9080;
+            constexpr std::ptrdiff_t Source2Server001 = 0x4AA8ED0;
+            constexpr std::ptrdiff_t Source2ServerConfig001 = 0x5041F18;
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {
