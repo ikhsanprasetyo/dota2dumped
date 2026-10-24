@@ -51559,11 +51559,6 @@
         "metadata": [],
         "parent": null
       },
-      "_": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "sControlGroupElem": {
         "fields": {
           "m_IllusionLabel": 529,
@@ -53607,6 +53602,39 @@
           "k_eVisualNovelDialogueLineType_Video": 5
         },
         "type": "uint32"
+      },
+      "_F_S8_": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_Z_S8_": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "___S8_": {
+        "alignment": 0,
+        "members": {
+          "@7G_8\u0005": 5739674927296,
+          "`6G_8\u0005": 5739674809664,
+          "`�{S8\u0005": 5739480223104,
+          "�4F_8\u0005": 5739674773536,
+          "�6G_8\u0005": 5740250781920,
+          "��L8\u0005": 5739359768256
+        },
+        "type": "unknown"
+      },
+      "_a_S8_": {
+        "alignment": 0,
+        "members": {
+          "": 5740251290112,
+          " K��8\u0005": 5740251539584,
+          " �4_8\u0005": 5739364038752,
+          "`\u0015�L8\u0005": 5739480244672,
+          "�p��8\u0005": 5740251290336
+        },
+        "type": "unknown"
       }
     }
   }

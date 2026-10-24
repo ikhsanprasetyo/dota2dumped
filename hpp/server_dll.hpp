@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-23 09:25:42.286661400 +07:00
+// 2026-10-24 22:18:58.839528200 +07:00
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace source2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 7168
-        // Enum count: 439
+        // Enum count: 438
         namespace server_dll {
             // Alignment: 4
             // Member count: 4

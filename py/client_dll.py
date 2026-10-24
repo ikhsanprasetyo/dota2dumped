@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-23 09:25:42.286661400 +07:00
+# 2026-10-24 22:18:58.839528200 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1443,6 +1443,26 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
+        class _Z_S8_:
+            pass
+        class ___S8_:
+            pass
+        class ___S8_:
+            `�{S8 = 0x53853AE0D80
+            �4F_8 = 0x5385F46A820
+            ��L8 = 0x5384C800EC0
+            `6G_8 = 0x5385F473540
+            �6G_8 = 0x538819BD8E0
+            @7G_8 = 0x5385F4900C0
+        class _a_S8_:
+            `�L8 = 0x53853AE61C0
+             = 0x1
+             K��8 = 0x53881A76880
+            �p��8 = 0x53881A39AE0
+             = 0x53881A39A00
+             �4_8 = 0x5384CC13860
+        class _F_S8_:
+            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1B28 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1B50 # ParticleIndex_t
@@ -25621,5 +25641,3 @@ class Schemas:
             m_nAlarmTypes = 0x18 # int32
         class CDOTAMinesweeperStageProgressionChoice:
             m_strLocText = 0x0 # CUtlString
-        class _:
-            pass

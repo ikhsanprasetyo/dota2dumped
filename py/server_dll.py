@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-23 09:25:42.286661400 +07:00
+# 2026-10-24 22:18:58.839528200 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -8051,8 +8051,6 @@ class Schemas:
             MOVETYPE_OBSERVER = 0x8
             MOVETYPE_CUSTOM = 0x9
             MOVETYPE_LAST = 0xA
-        class npc_dota_neutral_spawner:
-             = 0x0
         class CDOTA_Modifier_AghsFort_Arcanist_Potion:
             m_nCooldownReductionPct = 0x1AA8 # int32
             m_nManaCostReductionPct = 0x1AAC # int32

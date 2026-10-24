@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-23 09:25:42.286661400 +07:00
+// 2026-10-24 22:18:58.839528200 +07:00
 
 package schemas
 
@@ -1325,6 +1325,18 @@ const (
     ClientDll_DotaCustomUIType_t_DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
     ClientDll_DotaCustomUIType_t_DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
     ClientDll_DotaCustomUIType_t_DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
+    ClientDll____S8__`�{S8 = 0x53853AE0D80
+    ClientDll____S8__�4F_8 = 0x5385F46A820
+    ClientDll____S8__��L8 = 0x5384C800EC0
+    ClientDll____S8__`6G_8 = 0x5385F473540
+    ClientDll____S8__�6G_8 = 0x538819BD8E0
+    ClientDll____S8__@7G_8 = 0x5385F4900C0
+    ClientDll__a_S8__`�L8 = 0x53853AE61C0
+    ClientDll__a_S8__ = 0x1
+    ClientDll__a_S8__ K��8 = 0x53881A76880
+    ClientDll__a_S8__�p��8 = 0x53881A39AE0
+    ClientDll__a_S8__ = 0x53881A39A00
+    ClientDll__a_S8__ �4_8 = 0x5384CC13860
     ClientDll_C_DOTA_BaseNPC_Shop_m_ShopType = 0x1B28 // DOTA_SHOP_TYPE
     ClientDll_C_DOTA_BaseNPC_Shop_m_nShopFX = 0x1B50 // ParticleIndex_t
     ClientDll_C_DOTA_BaseNPC_Shop_m_vShopFXOrigin = 0x1B54 // VectorWS

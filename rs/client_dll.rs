@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-23 09:25:42.286661400 +07:00
+// 2026-10-24 22:18:58.839528200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 6853
-        // Enum count: 118
+        // Class count: 6852
+        // Enum count: 123
         pub mod client_dll {
             // Alignment: 4
             // Member count: 5
@@ -43221,10 +43221,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             pub mod CDOTAMinesweeperStageProgressionChoice {
                 pub const m_strLocText: usize = 0x0; // CUtlString
-            }
-            // Parent: None
-            // Field count: 0
-            pub mod _ {
             }
         }
     }
