@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-24 22:18:58.839528200 +07:00
+// 2026-10-25 21:40:42.084517800 +07:00
 
 package schemas
 
@@ -1325,18 +1325,18 @@ const (
     ClientDll_DotaCustomUIType_t_DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
     ClientDll_DotaCustomUIType_t_DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
     ClientDll_DotaCustomUIType_t_DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
-    ClientDll____S8__`�{S8 = 0x53853AE0D80
-    ClientDll____S8__�4F_8 = 0x5385F46A820
-    ClientDll____S8__��L8 = 0x5384C800EC0
-    ClientDll____S8__`6G_8 = 0x5385F473540
-    ClientDll____S8__�6G_8 = 0x538819BD8E0
-    ClientDll____S8__@7G_8 = 0x5385F4900C0
-    ClientDll__a_S8__`�L8 = 0x53853AE61C0
-    ClientDll__a_S8__ = 0x1
-    ClientDll__a_S8__ K��8 = 0x53881A76880
-    ClientDll__a_S8__�p��8 = 0x53881A39AE0
-    ClientDll__a_S8__ = 0x53881A39A00
-    ClientDll__a_S8__ �4_8 = 0x5384CC13860
+    ClientDll____q___�Y�|� = 0x2AB71C50DC0
+    ClientDll____q___���|� = 0x2AB7D4F0060
+    ClientDll____q___ �j� = 0x2AB6A8A0F40
+    ClientDll____q___��O}� = 0x2AB7D4F8E80
+    ClientDll____q___ = 0x2AB9B84E960
+    ClientDll____q___��O}� = 0x2AB7D515CE0
+    ClientDll__a_q___��j� = 0x2AB71C56200
+    ClientDll__a_q___@�r�� = 0x2AB9B9753A0
+    ClientDll__a_q___ \r�� = 0x2AB9B728240
+    ClientDll__a_q___@銛� = 0x2AB9B8ADC40
+    ClientDll__a_q___`�r�� = 0x2AB9B728540
+    ClientDll__a_q___�[��� = 0x2AB9B9778C0
     ClientDll_C_DOTA_BaseNPC_Shop_m_ShopType = 0x1B28 // DOTA_SHOP_TYPE
     ClientDll_C_DOTA_BaseNPC_Shop_m_nShopFX = 0x1B50 // ParticleIndex_t
     ClientDll_C_DOTA_BaseNPC_Shop_m_vShopFXOrigin = 0x1B54 // VectorWS

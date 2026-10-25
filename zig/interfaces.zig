@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-24 22:18:58.839528200 +07:00
+// 2026-10-25 21:40:42.084517800 +07:00
 
 pub const source2_dumper = struct {
     pub const interfaces = struct {
@@ -154,14 +154,14 @@ pub const source2_dumper = struct {
         };
         // Module: server.dll
         pub const server_dll = struct {
-            pub const EntitySubclassUtilsV001: usize = 0x48C61C0;
-            pub const NavGameTest001: usize = 0x4B19E18;
-            pub const ServerToolsInfo_001: usize = 0x4AA98D8;
-            pub const Source2GameClients001: usize = 0x4AA8670;
-            pub const Source2GameDirector001: usize = 0x5165690;
-            pub const Source2GameEntities001: usize = 0x4AA9080;
-            pub const Source2Server001: usize = 0x4AA8ED0;
-            pub const Source2ServerConfig001: usize = 0x5041F18;
+            pub const EntitySubclassUtilsV001: usize = 0x48C71C0;
+            pub const NavGameTest001: usize = 0x4B1AE98;
+            pub const ServerToolsInfo_001: usize = 0x4AAA958;
+            pub const Source2GameClients001: usize = 0x4AA96F0;
+            pub const Source2GameDirector001: usize = 0x5166710;
+            pub const Source2GameEntities001: usize = 0x4AAA100;
+            pub const Source2Server001: usize = 0x4AA9F50;
+            pub const Source2ServerConfig001: usize = 0x5042F98;
         };
         // Module: soundsystem.dll
         pub const soundsystem_dll = struct {

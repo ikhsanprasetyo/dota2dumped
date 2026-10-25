@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-24 22:18:58.839528200 +07:00
+# 2026-10-25 21:40:42.084517800 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1443,26 +1443,22 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
-        class _Z_S8_:
+        class _Z_q__:
             pass
-        class ___S8_:
-            pass
-        class ___S8_:
-            `�{S8 = 0x53853AE0D80
-            �4F_8 = 0x5385F46A820
-            ��L8 = 0x5384C800EC0
-            `6G_8 = 0x5385F473540
-            �6G_8 = 0x538819BD8E0
-            @7G_8 = 0x5385F4900C0
-        class _a_S8_:
-            `�L8 = 0x53853AE61C0
-             = 0x1
-             K��8 = 0x53881A76880
-            �p��8 = 0x53881A39AE0
-             = 0x53881A39A00
-             �4_8 = 0x5384CC13860
-        class _F_S8_:
-            pass
+        class ___q__:
+            �Y�|� = 0x2AB71C50DC0
+            ���|� = 0x2AB7D4F0060
+             �j� = 0x2AB6A8A0F40
+            ��O}� = 0x2AB7D4F8E80
+             = 0x2AB9B84E960
+            ��O}� = 0x2AB7D515CE0
+        class _a_q__:
+            ��j� = 0x2AB71C56200
+            @�r�� = 0x2AB9B9753A0
+             \r�� = 0x2AB9B728240
+            @銛� = 0x2AB9B8ADC40
+            `�r�� = 0x2AB9B728540
+            �[��� = 0x2AB9B9778C0
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1B28 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1B50 # ParticleIndex_t
