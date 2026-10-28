@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-25 21:40:42.084517800 +07:00
+// 2026-10-28 12:15:59.494848300 +07:00
 
 export const Schemas = {
     client_dll: {
@@ -1559,24 +1559,6 @@ export const Schemas = {
             DOTA_CUSTOM_UI_TYPE_END_SCREEN: 0x7,
             DOTA_CUSTOM_UI_TYPE_COUNT: 0x8,
             DOTA_CUSTOM_UI_TYPE_INVALID: 0xFFFFFFFFFFFFFFFF,
-        },
-        _Z_q__: {
-        },
-        ___q__: {
-            �Y�|�: 0x2AB71C50DC0,
-            ���|�: 0x2AB7D4F0060,
-             �j�: 0x2AB6A8A0F40,
-            ��O}�: 0x2AB7D4F8E80,
-            : 0x2AB9B84E960,
-            ��O}�: 0x2AB7D515CE0,
-        },
-        _a_q__: {
-            ��j�: 0x2AB71C56200,
-            @�r��: 0x2AB9B9753A0,
-             \r��: 0x2AB9B728240,
-            @銛�: 0x2AB9B8ADC40,
-            `�r��: 0x2AB9B728540,
-            �[���: 0x2AB9B9778C0,
         },
         C_DOTA_BaseNPC_Shop: {
             m_ShopType: 0x1B28, // DOTA_SHOP_TYPE

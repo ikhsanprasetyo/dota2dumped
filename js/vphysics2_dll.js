@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-25 21:40:42.084517800 +07:00
+// 2026-10-28 12:15:59.494848300 +07:00
 
 export const Schemas = {
     vphysics2_dll: {

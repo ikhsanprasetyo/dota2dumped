@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-10-25 21:40:42.084517800 +07:00
+# 2026-10-28 12:15:59.494848300 +07:00
 
 class Interfaces:
     # Module: animationsystem.dll
@@ -139,7 +139,7 @@ class Interfaces:
         Source2GameDirector001 = 0x5166710
         Source2GameEntities001 = 0x4AAA100
         Source2Server001 = 0x4AA9F50
-        Source2ServerConfig001 = 0x5042F98
+        Source2ServerConfig001 = 0x5042FB8
     # Module: soundsystem.dll
     class SoundsystemDll:
         SoundBugBugService001_Client = 0x536A10

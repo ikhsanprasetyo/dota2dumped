@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-25 21:40:42.084517800 +07:00
+// 2026-10-28 12:15:59.494848300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
     // Class count: 6852
-    // Enum count: 121
+    // Enum count: 118
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5

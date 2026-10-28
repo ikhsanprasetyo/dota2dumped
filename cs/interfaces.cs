@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-25 21:40:42.084517800 +07:00
+// 2026-10-28 12:15:59.494848300 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -160,7 +160,7 @@ namespace Source2Dumper.Interfaces {
         public const nint Source2GameDirector001 = 0x5166710;
         public const nint Source2GameEntities001 = 0x4AAA100;
         public const nint Source2Server001 = 0x4AA9F50;
-        public const nint Source2ServerConfig001 = 0x5042F98;
+        public const nint Source2ServerConfig001 = 0x5042FB8;
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {
