@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-10-28 12:15:59.494848300 +07:00
+// 2026-11-01 22:18:50.538068200 +07:00
 
 export const Buttons = {
     attack: 0x5B2F0F0,
