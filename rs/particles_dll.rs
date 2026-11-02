@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-01 22:18:50.538068200 +07:00
+// 2026-11-02 23:34:33.685698200 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2012,6 +2012,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // PO
             pub mod C_OP_TwistAroundAxis {
                 pub const m_fForceAmount: usize = 0x1F0; // float32
                 pub const m_TwistAxis: usize = 0x1F4; // Vector
@@ -2430,6 +2431,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            //  8
+            // @1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3736,6 +3739,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            //  8
+            // @1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5841,6 +5846,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // PO
             pub mod C_OP_TurbulenceForce {
                 pub const m_flNoiseCoordScale0: usize = 0x1F0; // float32
                 pub const m_flNoiseCoordScale1: usize = 0x1F4; // float32
@@ -7744,6 +7750,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // PO
             pub mod C_OP_RandomForce {
                 pub const m_MinForce: usize = 0x1F0; // Vector
                 pub const m_MaxForce: usize = 0x1FC; // Vector
@@ -13073,6 +13080,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // PO
             pub mod C_OP_DensityForce {
                 pub const m_flRadiusScale: usize = 0x1F0; // float32
                 pub const m_flForceScale: usize = 0x1F4; // float32
@@ -13499,6 +13507,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // PO
             pub mod C_OP_PerParticleForce {
                 pub const m_flForceScale: usize = 0x1F0; // CPerParticleFloatInput
                 pub const m_vForce: usize = 0x368; // CPerParticleVecInput
@@ -14786,6 +14795,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // PO
             pub mod C_OP_CurlNoiseForce {
                 pub const m_nNoiseType: usize = 0x1F0; // ParticleDirectionNoiseType_t
                 pub const m_vecNoiseFreq: usize = 0x1F8; // CPerParticleVecInput
@@ -15335,6 +15345,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // PO
             pub mod C_OP_TimeVaryingForce {
                 pub const m_flStartLerpTime: usize = 0x1F0; // float32
                 pub const m_StartingForce: usize = 0x1F4; // Vector
@@ -15924,6 +15935,8 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            //  8
+            // @1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17811,6 +17824,7 @@ pub mod source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
+            // PO
             pub mod C_OP_ParentVortices {
                 pub const m_flForceScale: usize = 0x1F0; // float32
                 pub const m_vecTwistAxis: usize = 0x1F4; // Vector

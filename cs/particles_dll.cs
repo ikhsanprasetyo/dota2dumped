@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-01 22:18:50.538068200 +07:00
+// 2026-11-02 23:34:33.685698200 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: particles.dll
@@ -1932,6 +1932,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // PO
         public static class C_OP_TwistAroundAxis {
             public const nint m_fForceAmount = 0x1F0; // float32
             public const nint m_TwistAxis = 0x1F4; // Vector
@@ -2350,6 +2351,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        //  8
+        // @1
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -3656,6 +3659,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        //  8
+        // @1
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -5761,6 +5766,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // PO
         public static class C_OP_TurbulenceForce {
             public const nint m_flNoiseCoordScale0 = 0x1F0; // float32
             public const nint m_flNoiseCoordScale1 = 0x1F4; // float32
@@ -7664,6 +7670,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // PO
         public static class C_OP_RandomForce {
             public const nint m_MinForce = 0x1F0; // Vector
             public const nint m_MaxForce = 0x1FC; // Vector
@@ -12993,6 +13000,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // PO
         public static class C_OP_DensityForce {
             public const nint m_flRadiusScale = 0x1F0; // float32
             public const nint m_flForceScale = 0x1F4; // float32
@@ -13419,6 +13427,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // PO
         public static class C_OP_PerParticleForce {
             public const nint m_flForceScale = 0x1F0; // CPerParticleFloatInput
             public const nint m_vForce = 0x368; // CPerParticleVecInput
@@ -14706,6 +14715,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // PO
         public static class C_OP_CurlNoiseForce {
             public const nint m_nNoiseType = 0x1F0; // ParticleDirectionNoiseType_t
             public const nint m_vecNoiseFreq = 0x1F8; // CPerParticleVecInput
@@ -15255,6 +15265,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // PO
         public static class C_OP_TimeVaryingForce {
             public const nint m_flStartLerpTime = 0x1F0; // float32
             public const nint m_StartingForce = 0x1F4; // Vector
@@ -15844,6 +15855,8 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        //  8
+        // @1
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
@@ -17731,6 +17744,7 @@ namespace Source2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyFriendlyName
         // MPropertyFriendlyName
+        // PO
         public static class C_OP_ParentVortices {
             public const nint m_flForceScale = 0x1F0; // float32
             public const nint m_vecTwistAxis = 0x1F4; // Vector
