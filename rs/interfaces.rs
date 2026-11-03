@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-02 23:34:33.685698200 +07:00
+// 2026-11-03 09:58:51.848358700 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -12,16 +12,16 @@ pub mod source2_dumper {
         }
         // Module: client.dll
         pub mod client_dll {
-            pub const ClientToolsInfo_001: usize = 0x5B2E900;
-            pub const DOTA_CLIENT_GCCLIENT: usize = 0x63CC9C0;
-            pub const GameClientExports001: usize = 0x5B2A630;
-            pub const LegacyGameUI001: usize = 0x5B8B170;
-            pub const PanoramaUIClient001: usize = 0x5BB62A0;
-            pub const PlayButtonService001: usize = 0x5B98A50;
-            pub const Source2Client002: usize = 0x6215FA0;
-            pub const Source2ClientConfig001: usize = 0x61B3410;
-            pub const Source2ClientPrediction001: usize = 0x5B31490;
-            pub const Source2ClientUI001: usize = 0x5947BD0;
+            pub const ClientToolsInfo_001: usize = 0x5B2F900;
+            pub const DOTA_CLIENT_GCCLIENT: usize = 0x63CD9C0;
+            pub const GameClientExports001: usize = 0x5B2B630;
+            pub const LegacyGameUI001: usize = 0x5B8C170;
+            pub const PanoramaUIClient001: usize = 0x5BB72A0;
+            pub const PlayButtonService001: usize = 0x5B99A50;
+            pub const Source2Client002: usize = 0x6216FA0;
+            pub const Source2ClientConfig001: usize = 0x61B4410;
+            pub const Source2ClientPrediction001: usize = 0x5B32490;
+            pub const Source2ClientUI001: usize = 0x5948BD0;
         }
         // Module: engine2.dll
         pub mod engine2_dll {

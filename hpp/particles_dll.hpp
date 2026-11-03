@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-02 23:34:33.685698200 +07:00
+// 2026-11-03 09:58:51.848358700 +07:00
 
 #pragma once
 
@@ -1938,7 +1938,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PO
             namespace C_OP_TwistAroundAxis {
                 constexpr std::ptrdiff_t m_fForceAmount = 0x1F0; // float32
                 constexpr std::ptrdiff_t m_TwistAxis = 0x1F4; // Vector
@@ -2357,8 +2356,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  8
-            // @1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -3665,8 +3662,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  8
-            // @1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -5772,7 +5767,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PO
             namespace C_OP_TurbulenceForce {
                 constexpr std::ptrdiff_t m_flNoiseCoordScale0 = 0x1F0; // float32
                 constexpr std::ptrdiff_t m_flNoiseCoordScale1 = 0x1F4; // float32
@@ -7676,7 +7670,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PO
             namespace C_OP_RandomForce {
                 constexpr std::ptrdiff_t m_MinForce = 0x1F0; // Vector
                 constexpr std::ptrdiff_t m_MaxForce = 0x1FC; // Vector
@@ -13006,7 +12999,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PO
             namespace C_OP_DensityForce {
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x1F0; // float32
                 constexpr std::ptrdiff_t m_flForceScale = 0x1F4; // float32
@@ -13433,7 +13425,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PO
             namespace C_OP_PerParticleForce {
                 constexpr std::ptrdiff_t m_flForceScale = 0x1F0; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_vForce = 0x368; // CPerParticleVecInput
@@ -14721,7 +14712,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PO
             namespace C_OP_CurlNoiseForce {
                 constexpr std::ptrdiff_t m_nNoiseType = 0x1F0; // ParticleDirectionNoiseType_t
                 constexpr std::ptrdiff_t m_vecNoiseFreq = 0x1F8; // CPerParticleVecInput
@@ -15271,7 +15261,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PO
             namespace C_OP_TimeVaryingForce {
                 constexpr std::ptrdiff_t m_flStartLerpTime = 0x1F0; // float32
                 constexpr std::ptrdiff_t m_StartingForce = 0x1F4; // Vector
@@ -15861,8 +15850,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            //  8
-            // @1
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
@@ -17750,7 +17737,6 @@ namespace source2_dumper {
             // MPropertyFriendlyName
             // MPropertyFriendlyName
             // MPropertyFriendlyName
-            // PO
             namespace C_OP_ParentVortices {
                 constexpr std::ptrdiff_t m_flForceScale = 0x1F0; // float32
                 constexpr std::ptrdiff_t m_vecTwistAxis = 0x1F4; // Vector

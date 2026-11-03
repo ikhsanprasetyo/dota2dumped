@@ -4,16 +4,16 @@
     "AnimationSystem_001": 8595032
   },
   "client.dll": {
-    "ClientToolsInfo_001": 95611136,
-    "DOTA_CLIENT_GCCLIENT": 104647104,
-    "GameClientExports001": 95594032,
-    "LegacyGameUI001": 95990128,
-    "PanoramaUIClient001": 96166560,
-    "PlayButtonService001": 96045648,
-    "Source2Client002": 102850464,
-    "Source2ClientConfig001": 102446096,
-    "Source2ClientPrediction001": 95622288,
-    "Source2ClientUI001": 93617104
+    "ClientToolsInfo_001": 95615232,
+    "DOTA_CLIENT_GCCLIENT": 104651200,
+    "GameClientExports001": 95598128,
+    "LegacyGameUI001": 95994224,
+    "PanoramaUIClient001": 96170656,
+    "PlayButtonService001": 96049744,
+    "Source2Client002": 102854560,
+    "Source2ClientConfig001": 102450192,
+    "Source2ClientPrediction001": 95626384,
+    "Source2ClientUI001": 93621200
   },
   "engine2.dll": {
     "BenchmarkService001": 6020480,

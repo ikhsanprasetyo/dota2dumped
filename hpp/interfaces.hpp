@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-02 23:34:33.685698200 +07:00
+// 2026-11-03 09:58:51.848358700 +07:00
 
 #pragma once
 
@@ -15,16 +15,16 @@ namespace source2_dumper {
         }
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x5B2E900;
-            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x63CC9C0;
-            constexpr std::ptrdiff_t GameClientExports001 = 0x5B2A630;
-            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5B8B170;
-            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5BB62A0;
-            constexpr std::ptrdiff_t PlayButtonService001 = 0x5B98A50;
-            constexpr std::ptrdiff_t Source2Client002 = 0x6215FA0;
-            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x61B3410;
-            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5B31490;
-            constexpr std::ptrdiff_t Source2ClientUI001 = 0x5947BD0;
+            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x5B2F900;
+            constexpr std::ptrdiff_t DOTA_CLIENT_GCCLIENT = 0x63CD9C0;
+            constexpr std::ptrdiff_t GameClientExports001 = 0x5B2B630;
+            constexpr std::ptrdiff_t LegacyGameUI001 = 0x5B8C170;
+            constexpr std::ptrdiff_t PanoramaUIClient001 = 0x5BB72A0;
+            constexpr std::ptrdiff_t PlayButtonService001 = 0x5B99A50;
+            constexpr std::ptrdiff_t Source2Client002 = 0x6216FA0;
+            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x61B4410;
+            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x5B32490;
+            constexpr std::ptrdiff_t Source2ClientUI001 = 0x5948BD0;
         }
         // Module: engine2.dll
         namespace engine2_dll {

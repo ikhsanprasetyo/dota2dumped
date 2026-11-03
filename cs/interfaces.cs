@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-02 23:34:33.685698200 +07:00
+// 2026-11-03 09:58:51.848358700 +07:00
 
 namespace Source2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -9,16 +9,16 @@ namespace Source2Dumper.Interfaces {
     }
     // Module: client.dll
     public static class ClientDll {
-        public const nint ClientToolsInfo_001 = 0x5B2E900;
-        public const nint DOTA_CLIENT_GCCLIENT = 0x63CC9C0;
-        public const nint GameClientExports001 = 0x5B2A630;
-        public const nint LegacyGameUI001 = 0x5B8B170;
-        public const nint PanoramaUIClient001 = 0x5BB62A0;
-        public const nint PlayButtonService001 = 0x5B98A50;
-        public const nint Source2Client002 = 0x6215FA0;
-        public const nint Source2ClientConfig001 = 0x61B3410;
-        public const nint Source2ClientPrediction001 = 0x5B31490;
-        public const nint Source2ClientUI001 = 0x5947BD0;
+        public const nint ClientToolsInfo_001 = 0x5B2F900;
+        public const nint DOTA_CLIENT_GCCLIENT = 0x63CD9C0;
+        public const nint GameClientExports001 = 0x5B2B630;
+        public const nint LegacyGameUI001 = 0x5B8C170;
+        public const nint PanoramaUIClient001 = 0x5BB72A0;
+        public const nint PlayButtonService001 = 0x5B99A50;
+        public const nint Source2Client002 = 0x6216FA0;
+        public const nint Source2ClientConfig001 = 0x61B4410;
+        public const nint Source2ClientPrediction001 = 0x5B32490;
+        public const nint Source2ClientUI001 = 0x5948BD0;
     }
     // Module: engine2.dll
     public static class Engine2Dll {
