@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 09:58:51.848358700 +07:00
+// 2026-11-04 11:10:50.528711700 +07:00
 
 export const Interfaces = {
     animationsystem_dll: {
@@ -132,13 +132,13 @@ export const Interfaces = {
     },
     server_dll: {
         EntitySubclassUtilsV001: 0x48C71C0,
-        NavGameTest001: 0x4B1AE98,
-        ServerToolsInfo_001: 0x4AAA958,
-        Source2GameClients001: 0x4AA96F0,
-        Source2GameDirector001: 0x5166710,
-        Source2GameEntities001: 0x4AAA100,
-        Source2Server001: 0x4AA9F50,
-        Source2ServerConfig001: 0x5042FB8,
+        NavGameTest001: 0x4B1AE18,
+        ServerToolsInfo_001: 0x4AAA8D8,
+        Source2GameClients001: 0x4AA9670,
+        Source2GameDirector001: 0x5166690,
+        Source2GameEntities001: 0x4AAA080,
+        Source2Server001: 0x4AA9ED0,
+        Source2ServerConfig001: 0x5042F28,
     },
     soundsystem_dll: {
         SoundBugBugService001_Client: 0x536A10,

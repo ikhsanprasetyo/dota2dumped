@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 09:58:51.848358700 +07:00
+// 2026-11-04 11:10:50.528711700 +07:00
 
 package interfaces
 
@@ -91,13 +91,13 @@ const (
     ScenesystemDll_SceneUtils_001 = 0x6AC310
     SchemasystemDll_SchemaSystem_001 = 0x76610
     ServerDll_EntitySubclassUtilsV001 = 0x48C71C0
-    ServerDll_NavGameTest001 = 0x4B1AE98
-    ServerDll_ServerToolsInfo_001 = 0x4AAA958
-    ServerDll_Source2GameClients001 = 0x4AA96F0
-    ServerDll_Source2GameDirector001 = 0x5166710
-    ServerDll_Source2GameEntities001 = 0x4AAA100
-    ServerDll_Source2Server001 = 0x4AA9F50
-    ServerDll_Source2ServerConfig001 = 0x5042FB8
+    ServerDll_NavGameTest001 = 0x4B1AE18
+    ServerDll_ServerToolsInfo_001 = 0x4AAA8D8
+    ServerDll_Source2GameClients001 = 0x4AA9670
+    ServerDll_Source2GameDirector001 = 0x5166690
+    ServerDll_Source2GameEntities001 = 0x4AAA080
+    ServerDll_Source2Server001 = 0x4AA9ED0
+    ServerDll_Source2ServerConfig001 = 0x5042F28
     SoundsystemDll_SoundBugBugService001_Client = 0x536A10
     SoundsystemDll_SoundOpSystem001 = 0x5368F0
     SoundsystemDll_SoundOpSystemEdit001 = 0x536800

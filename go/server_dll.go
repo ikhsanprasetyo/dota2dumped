@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-03 09:58:51.848358700 +07:00
+// 2026-11-04 11:10:50.528711700 +07:00
 
 package schemas
 
@@ -7613,6 +7613,7 @@ const (
     ServerDll_MoveType_t_MOVETYPE_OBSERVER = 0x8
     ServerDll_MoveType_t_MOVETYPE_CUSTOM = 0x9
     ServerDll_MoveType_t_MOVETYPE_LAST = 0xA
+    ServerDll_special_bonus_unique_tusk_5_ = 0x0
     ServerDll_CDOTA_Modifier_AghsFort_Arcanist_Potion_m_nCooldownReductionPct = 0x1AA8 // int32
     ServerDll_CDOTA_Modifier_AghsFort_Arcanist_Potion_m_nManaCostReductionPct = 0x1AAC // int32
     ServerDll_CDOTA_Modifier_Special_Bonus_Reincarnation_value = 0x1AA8 // float32

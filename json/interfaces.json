@@ -129,13 +129,13 @@
   },
   "server.dll": {
     "EntitySubclassUtilsV001": 76313024,
-    "NavGameTest001": 78753432,
-    "ServerToolsInfo_001": 78293336,
-    "Source2GameClients001": 78288624,
-    "Source2GameDirector001": 85354256,
-    "Source2GameEntities001": 78291200,
-    "Source2Server001": 78290768,
-    "Source2ServerConfig001": 84160440
+    "NavGameTest001": 78753304,
+    "ServerToolsInfo_001": 78293208,
+    "Source2GameClients001": 78288496,
+    "Source2GameDirector001": 85354128,
+    "Source2GameEntities001": 78291072,
+    "Source2Server001": 78290640,
+    "Source2ServerConfig001": 84160296
   },
   "soundsystem.dll": {
     "SoundBugBugService001_Client": 5466640,
