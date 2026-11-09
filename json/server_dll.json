@@ -67002,6 +67002,16 @@
         },
         "type": "uint32"
       },
+      "___V__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_p_4__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
       "attackfail": {
         "alignment": 4,
         "members": {
@@ -67706,13 +67716,6 @@
           "SOUNDCTRL_STOP": 2
         },
         "type": "uint32"
-      },
-      "special_bonus_unique_tusk_5": {
-        "alignment": 78,
-        "members": {
-          "": 0
-        },
-        "type": "unknown"
       },
       "subquest_player_stat_types_t": {
         "alignment": 4,
