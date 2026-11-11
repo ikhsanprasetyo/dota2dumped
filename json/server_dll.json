@@ -67002,12 +67002,22 @@
         },
         "type": "uint32"
       },
-      "___V__": {
+      "__X__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
       },
-      "_p_4__": {
+      "___X__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "______": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_p_X__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
