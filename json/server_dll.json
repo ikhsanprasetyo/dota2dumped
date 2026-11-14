@@ -67002,26 +67002,6 @@
         },
         "type": "uint32"
       },
-      "__X__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "___X__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "______": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_p_X__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
       "attackfail": {
         "alignment": 4,
         "members": {
