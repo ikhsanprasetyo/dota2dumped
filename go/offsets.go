@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 20:29:28.877315100 +07:00
+// 2026-11-18 23:45:20.938748200 +07:00
 
 package offsets
 
@@ -25,4 +25,5 @@ const (
     Engine2Dll_dwWindowWidth = 0x8B8010
     InputsystemDll_dwInputSystem = 0x46BC0
     SoundsystemDll_dwSoundSystem = 0x64AF00
+    SoundsystemDll_dwSoundSystem_engineViewData = 0x6C
 )

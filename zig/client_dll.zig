@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 20:29:28.877315100 +07:00
+// 2026-11-18 23:45:20.938748200 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 6854
+        // Class count: 6852
         // Enum count: 118
         pub const client_dll = struct {
             // Alignment: 4
@@ -43101,14 +43101,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             pub const CDOTAMinesweeperStageProgressionChoice = struct {
                 pub const m_strLocText: usize = 0x0; // CUtlString
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const @"_Ҹ_" = struct {
             };
         };
     };

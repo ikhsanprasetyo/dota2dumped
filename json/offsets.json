@@ -27,6 +27,7 @@
   },
   "panorama.dll": {},
   "soundsystem.dll": {
-    "dwSoundSystem": 6598400
+    "dwSoundSystem": 6598400,
+    "dwSoundSystem_engineViewData": 108
   }
 }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 20:29:28.877315100 +07:00
+// 2026-11-18 23:45:20.938748200 +07:00
 
 namespace Source2Dumper.Offsets {
     // Module: client.dll
@@ -37,5 +37,6 @@ namespace Source2Dumper.Offsets {
     // Module: soundsystem.dll
     public static class SoundsystemDll {
         public const nint dwSoundSystem = 0x64AF00;
+        public const nint dwSoundSystem_engineViewData = 0x6C;
     }
 }

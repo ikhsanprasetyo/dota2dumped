@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 20:29:28.877315100 +07:00
+// 2026-11-18 23:45:20.938748200 +07:00
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -40,6 +40,7 @@ pub mod source2_dumper {
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
             pub const dwSoundSystem: usize = 0x64AF00;
+            pub const dwSoundSystem_engineViewData: usize = 0x6C;
         }
     }
 }
