@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: vphysics2.dll
-        // Class count: 30
+        // Class count: 29
         // Enum count: 5
         pub const vphysics2_dll = struct {
             // Alignment: 4
@@ -148,6 +148,7 @@ pub const source2_dumper = struct {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub const FeAnimStrayRadius_t = struct {
                 pub const nNode: usize = 0x0; // uint16[2]
                 pub const flMaxDist: usize = 0x4; // float32
@@ -245,18 +246,6 @@ pub const source2_dumper = struct {
             // MGetKV3ClassDefaults
             pub const FeSourceEdge_t = struct {
                 pub const nNode: usize = 0x0; // uint16[2]
-            };
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub const FeNodeWindBase_t = struct {
-                pub const nNodeX0: usize = 0x0; // uint16
-                pub const nNodeX1: usize = 0x2; // uint16
-                pub const nNodeY0: usize = 0x4; // uint16
-                pub const nNodeY1: usize = 0x6; // uint16
             };
             // Parent: None
             // Field count: 5

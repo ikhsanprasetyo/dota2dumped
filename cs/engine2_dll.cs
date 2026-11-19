@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: engine2.dll
-    // Class count: 52
+    // Class count: 53
     // Enum count: 2
     public static class Engine2Dll {
         // Alignment: 4
@@ -111,6 +111,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_flRenderFrameTime = 0x30; // float32
             public const nint m_flRenderFrameTimeUnbounded = 0x34; // float32
             public const nint m_bRenderOnly = 0x38; // bool
+        }
+        // Parent: None
+        // Field count: 0
+        public static class EventPlayerConsoleCommand_t {
         }
         // Parent: None
         // Field count: 2
@@ -257,8 +261,9 @@ namespace Source2Dumper.Schemas {
         public static class CEntityKeyValues {
         }
         // Parent: None
-        // Field count: 0
+        // Field count: 1
         public static class EventClientAdvanceNonRenderedFrame_t {
+            public const nint m_bRenderOnly = 0x0; // bool
         }
         // Parent: None
         // Field count: 0
@@ -277,7 +282,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_pNetworkDataReferencedPtrPropDescription = 0x18; // char*
             public const nint m_nRuntimeIndex = 0x20; // int32
             public const nint m_nFlags = 0x24; // uint32
-            public const nint m_pBaseClassComponentHelper = 0x58; // CEntityComponentHelper*
+            public const nint m_pBaseClassComponentHelper = 0x78; // CEntityComponentHelper*
         }
         // Parent: None
         // Field count: 4
@@ -288,9 +293,10 @@ namespace Source2Dumper.Schemas {
             public const nint m_nRenderHeight = 0x24; // int32
         }
         // Parent: None
-        // Field count: 1
+        // Field count: 2
         public static class EventClientPollNetworking_t {
             public const nint m_nTickCount = 0x0; // int32
+            public const nint m_nTotalTicks = 0x4; // int32
         }
         // Parent: None
         // Field count: 1

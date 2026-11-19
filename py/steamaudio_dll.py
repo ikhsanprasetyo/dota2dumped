@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-18 23:45:20.938748200 +07:00
+# 2026-11-19 23:35:14.355654500 +07:00
 
 class Schemas:
     # Module: steamaudio.dll
@@ -34,10 +34,12 @@ class Schemas:
             m_vecMaterialWeights = 0x20 # CUtlVector<float32>
         class CSteamAudioBakedOcclusionData:
             m_settings = 0x0 # SteamAudioCustomDataOcclusionSettings_t
-            m_probes = 0x10 # CSteamAudioProbeData
-            m_vecPathingRatio = 0x18 # CUtlVector<float32>
-            m_vecPathingDeviation = 0x30 # CUtlVector<float32>
-            m_vecReflectionEnergy = 0x48 # CUtlVector<float32>
+            m_probes = 0x18 # CSteamAudioProbeData
+            m_vecPathingRatio = 0x20 # CUtlVector<float32>
+            m_vecPathingDeviation = 0x38 # CUtlVector<float32>
+            m_vecReflectionEnergy = 0x50 # CUtlVector<float32>
+            m_vecDynamicObjects = 0x68 # CUtlVector<CSteamAudioBakedOcclusionDynamicObject>
+            m_vecDynamicObjectPairs = 0x80 # CUtlVector<CSteamAudioBakedOcclusionDynamicObjectPair>
         class CSteamAudioBakedReverbData:
             m_nBands = 0x0 # int32
             m_scene = 0x8 # CSteamAudioSceneData
@@ -61,6 +63,8 @@ class Schemas:
             m_bEnableReflections = 0x1 # bool
             m_nReflectionRays = 0x4 # int32
             m_nReflectionBounces = 0x8 # int32
+            m_nSpatialFilterMode = 0xC # int32
+            m_flSpatialFilterRadiusFactor = 0x10 # float32
         class CSteamAudioBakedDimensionsData:
             m_settings = 0x0 # SteamAudioCustomDataDimensionsSettings_t
             m_probes = 0x28 # CSteamAudioProbeData
@@ -69,9 +73,25 @@ class Schemas:
             m_vecOutsideField = 0x60 # CUtlVector<CSteamAudioAmbisonicsField>
             m_vecInsideSmallSizeField = 0x78 # CUtlVector<CSteamAudioAmbisonicsField>
             m_movables = 0x90 # CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+        class CSteamAudioBakedOcclusionDynamicObject:
+            m_sName = 0x0 # CUtlString
+            m_sHammerId = 0x8 # CUtlString
+            m_nHammerIdHash = 0x10 # uint32
+            m_vecPairs = 0x18 # CUtlVector<uint32>
+            m_vecPathingRatioDeltas = 0x30 # CUtlVector<float32>
+            m_vecPathingDeviationDeltas = 0x48 # CUtlVector<float32>
+            m_vecReflectionEnergyDeltas = 0x60 # CUtlVector<float32>
         class CSteamAudioSceneData:
             m_pScene = 0x0 # IPLScene
             m_pStaticMesh = 0x8 # IPLStaticMesh
+        class CSteamAudioBakedOcclusionDynamicObjectPair:
+            m_sName = 0x0 # CUtlString
+            m_nHammerIdHashA = 0x8 # uint32
+            m_nHammerIdHashB = 0xC # uint32
+            m_vecPairs = 0x10 # CUtlVector<uint32>
+            m_vecPathingRatioResiduals = 0x28 # CUtlVector<float32>
+            m_vecPathingDeviationResiduals = 0x40 # CUtlVector<float32>
+            m_vecReflectionEnergyResiduals = 0x58 # CUtlVector<float32>
         class CSteamAudioProbeGrid:
             m_aabb = 0x0 # AABB_t
             m_flSpacing = 0x18 # float32

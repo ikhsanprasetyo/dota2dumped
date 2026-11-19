@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 export const Schemas = {
     engine2_dll: {
@@ -72,6 +72,8 @@ export const Schemas = {
             m_flRenderFrameTime: 0x30, // float32
             m_flRenderFrameTimeUnbounded: 0x34, // float32
             m_bRenderOnly: 0x38, // bool
+        },
+        EventPlayerConsoleCommand_t: {
         },
         EventClientPollInput_t: {
             m_LoopState: 0x0, // EngineLoopState_t
@@ -166,6 +168,7 @@ export const Schemas = {
         CEntityKeyValues: {
         },
         EventClientAdvanceNonRenderedFrame_t: {
+            m_bRenderOnly: 0x0, // bool
         },
         EventServerProcessNetworking_t: {
         },
@@ -178,7 +181,7 @@ export const Schemas = {
             m_pNetworkDataReferencedPtrPropDescription: 0x18, // char*
             m_nRuntimeIndex: 0x20, // int32
             m_nFlags: 0x24, // uint32
-            m_pBaseClassComponentHelper: 0x58, // CEntityComponentHelper*
+            m_pBaseClassComponentHelper: 0x78, // CEntityComponentHelper*
         },
         EngineLoopState_t: {
             m_nPlatWindowWidth: 0x18, // int32
@@ -188,6 +191,7 @@ export const Schemas = {
         },
         EventClientPollNetworking_t: {
             m_nTickCount: 0x0, // int32
+            m_nTotalTicks: 0x4, // int32
         },
         EventServerBeginAsyncPostTickWork_t: {
             m_bIsOncePerFrameAsyncWorkPhase: 0x0, // bool

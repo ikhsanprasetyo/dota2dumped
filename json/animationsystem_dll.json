@@ -462,18 +462,6 @@
         ],
         "parent": null
       },
-      "CAnimTagManagerUpdater": {
-        "fields": {
-          "m_tags": 56
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
       "CBasePulseGraphInstance": {
         "fields": {},
         "metadata": [],
@@ -495,6 +483,19 @@
         "metadata": [],
         "parent": null
       },
+      "CCycleClipInstanceData": {
+        "fields": {
+          "m_flCycle": 0,
+          "m_flPrevCycle": 12
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CDrawCullingData": {
         "fields": {
           "m_ConeAxis": 0,
@@ -512,7 +513,7 @@
         "fields": {
           "m_LastMax": 136,
           "m_LastMin": 124,
-          "m_RefCount": 208,
+          "m_RefCount": 200,
           "m_bAllocated": 0,
           "m_bAutoUpdateBBox": 0,
           "m_bCanFreeze": 0,
@@ -535,14 +536,13 @@
           "m_flFreezeTransitionStart": 112,
           "m_flScale": 76,
           "m_hOwner": 80,
-          "m_nSplitScreenUser": 148,
           "m_pDebugName": 40,
           "m_pNext": 16,
           "m_pOwningParticleProperty": 88,
           "m_pParticles": 32,
           "m_pPrev": 24,
           "m_vSortOrigin": 64,
-          "m_vecAggregationCenter": 152
+          "m_vecAggregationCenter": 148
         },
         "metadata": [],
         "parent": null
@@ -707,18 +707,6 @@
       "CNmZeroPoseTask": {
         "fields": {},
         "metadata": [],
-        "parent": null
-      },
-      "CParamSpanUpdater": {
-        "fields": {
-          "m_spans": 0
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
         "parent": null
       },
       "CParticleBindingRealPulse": {
@@ -1426,6 +1414,20 @@
         "metadata": [],
         "parent": null
       },
+      "ModelMeshDNARig_t": {
+        "fields": {
+          "m_bBlendShapes": 8,
+          "m_nBlock": 4,
+          "m_nRig": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "MoodAnimationLayer_t": {
         "fields": {
           "m_bActiveListening": 8,
@@ -1504,19 +1506,6 @@
       "SignatureOutflow_Resume": {
         "fields": {},
         "metadata": [],
-        "parent": null
-      },
-      "WeightList": {
-        "fields": {
-          "m_name": 0,
-          "m_weights": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
         "parent": null
       }
     },
@@ -1883,7 +1872,7 @@
         },
         "type": "uint8"
       },
-      "CNmSoundEvent__Position_t": {
+      "CNmSoundEventBase__Position_t": {
         "alignment": 4,
         "members": {
           "EntityAttachment": 4,
@@ -2369,8 +2358,9 @@
       "MovementCapability_t": {
         "alignment": 4,
         "members": {
-          "eCount": 10,
-          "eForwardStartOnly": 9,
+          "eAim": 10,
+          "eCount": 12,
+          "eForwardStopOnly": 11,
           "eIdleTurn": 1,
           "eInstantStop": 4,
           "eLean": 8,
@@ -2379,6 +2369,7 @@
           "eStart": 2,
           "eStop": 3,
           "eStrafe": 0,
+          "eTurnToStart": 9,
           "eUseStartAsPlantedTurn": 7
         },
         "type": "uint32"
@@ -2792,40 +2783,41 @@
       "ParticleFloatType_t": {
         "alignment": 4,
         "members": {
-          "PF_TYPE_CLOSEST_CAMERA_DISTANCE": 12,
+          "PF_TYPE_CLOSEST_CAMERA_DISTANCE": 13,
           "PF_TYPE_COLLECTION_AGE": 4,
-          "PF_TYPE_CONCURRENT_DEF_COUNT": 11,
+          "PF_TYPE_CONCURRENT_DEF_COUNT": 12,
           "PF_TYPE_CONTROL_POINT_CHANGE_AGE": 7,
           "PF_TYPE_CONTROL_POINT_COMPONENT": 6,
           "PF_TYPE_CONTROL_POINT_DISTANCE": 9,
-          "PF_TYPE_CONTROL_POINT_IS_SET": 15,
+          "PF_TYPE_CONTROL_POINT_IS_SET": 16,
+          "PF_TYPE_CONTROL_POINT_PLANE_DISTANCE": 10,
           "PF_TYPE_CONTROL_POINT_SPEED": 8,
-          "PF_TYPE_COUNT": 32,
+          "PF_TYPE_COUNT": 33,
           "PF_TYPE_ENDCAP_AGE": 5,
           "PF_TYPE_INVALID": -1,
           "PF_TYPE_LITERAL": 0,
           "PF_TYPE_NAMED_VALUE": 1,
-          "PF_TYPE_PARTICLE_AGE": 19,
-          "PF_TYPE_PARTICLE_AGE_NORMALIZED": 20,
-          "PF_TYPE_PARTICLE_DETAIL_LEVEL": 10,
-          "PF_TYPE_PARTICLE_FLOAT": 21,
-          "PF_TYPE_PARTICLE_INITIAL_FLOAT": 22,
-          "PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT": 24,
-          "PF_TYPE_PARTICLE_NOISE": 18,
-          "PF_TYPE_PARTICLE_NUMBER": 26,
-          "PF_TYPE_PARTICLE_NUMBER_NORMALIZED": 27,
-          "PF_TYPE_PARTICLE_ROPE_SEGMENT": 28,
-          "PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED": 29,
-          "PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE": 30,
-          "PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT": 31,
-          "PF_TYPE_PARTICLE_SPEED": 25,
-          "PF_TYPE_PARTICLE_VECTOR_COMPONENT": 23,
+          "PF_TYPE_PARTICLE_AGE": 20,
+          "PF_TYPE_PARTICLE_AGE_NORMALIZED": 21,
+          "PF_TYPE_PARTICLE_DETAIL_LEVEL": 11,
+          "PF_TYPE_PARTICLE_FLOAT": 22,
+          "PF_TYPE_PARTICLE_INITIAL_FLOAT": 23,
+          "PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT": 25,
+          "PF_TYPE_PARTICLE_NOISE": 19,
+          "PF_TYPE_PARTICLE_NUMBER": 27,
+          "PF_TYPE_PARTICLE_NUMBER_NORMALIZED": 28,
+          "PF_TYPE_PARTICLE_ROPE_SEGMENT": 29,
+          "PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED": 30,
+          "PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE": 31,
+          "PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT": 32,
+          "PF_TYPE_PARTICLE_SPEED": 26,
+          "PF_TYPE_PARTICLE_VECTOR_COMPONENT": 24,
           "PF_TYPE_RANDOM_BIASED": 3,
           "PF_TYPE_RANDOM_UNIFORM": 2,
-          "PF_TYPE_RENDERER_CAMERA_DISTANCE": 16,
-          "PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT": 17,
-          "PF_TYPE_SNAPSHOT_CHANGED": 14,
-          "PF_TYPE_SNAPSHOT_COUNT": 13
+          "PF_TYPE_RENDERER_CAMERA_DISTANCE": 17,
+          "PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT": 18,
+          "PF_TYPE_SNAPSHOT_CHANGED": 15,
+          "PF_TYPE_SNAPSHOT_COUNT": 14
         },
         "type": "uint32"
       },
@@ -2945,6 +2937,169 @@
           "WakeImmediate": 1
         },
         "type": "uint32"
+      },
+      "PulseInstructionCode_t": {
+        "alignment": 2,
+        "members": {
+          "ADD": 28,
+          "ADD_FLOAT": 57,
+          "ADD_FLOAT_GAMETIME": 65,
+          "ADD_GAMETIME_FLOAT": 64,
+          "ADD_INT": 56,
+          "ADD_STRING": 58,
+          "ADD_VEC2": 59,
+          "ADD_VEC3": 60,
+          "ADD_VEC3WS_VEC3": 61,
+          "ADD_VEC3_VEC3WS": 62,
+          "ADD_VEC4": 63,
+          "AND": 37,
+          "BIND_LAMBDA": 49,
+          "BROADCAST_INVOKE": 15,
+          "BROADCAST_INVOKE_ARRAY_DOMAIN": 156,
+          "BROADCAST_INVOKE_ARRAY_SIMPLE": 155,
+          "BROADCAST_INVOKE_DOMAIN": 154,
+          "CELL_INVOKE": 13,
+          "CHUNK_LEAP": 8,
+          "CHUNK_LEAP_COND": 9,
+          "CONVERT_VALUE": 42,
+          "COPY": 25,
+          "CREATE_CHILD_CURSOR_OUTFLOW": 12,
+          "DETACH_REGISTER": 19,
+          "DIV": 31,
+          "DIV_FLOAT": 77,
+          "ELEMENT_ACCESS": 41,
+          "ELEMENT_ACCESS_COLOR_RGB": 152,
+          "ELEMENT_ACCESS_VEC2": 148,
+          "ELEMENT_ACCESS_VEC3": 149,
+          "ELEMENT_ACCESS_VEC3WS": 150,
+          "ELEMENT_ACCESS_VEC4": 151,
+          "EQ": 35,
+          "EQ_ANIM_SEQUENCE": 138,
+          "EQ_ARRAY": 134,
+          "EQ_BOOL": 86,
+          "EQ_COLOR_RGB": 108,
+          "EQ_EHANDLE": 112,
+          "EQ_ENTITY_NAME": 122,
+          "EQ_ENUM": 130,
+          "EQ_FLOAT": 90,
+          "EQ_GAMETIME": 110,
+          "EQ_INT": 88,
+          "EQ_LEAF": 124,
+          "EQ_MODEL_MATERIAL_GROUP": 126,
+          "EQ_PANEL_HANDLE": 132,
+          "EQ_PARTICLE_EHANDLE": 136,
+          "EQ_QANGLE": 98,
+          "EQ_RESOURCE": 114,
+          "EQ_RESOURCE_NAME": 116,
+          "EQ_SNDEVT_GUID": 118,
+          "EQ_SNDEVT_NAME": 120,
+          "EQ_STRING": 92,
+          "EQ_TRANSFORM": 104,
+          "EQ_TRANSFORMWS": 106,
+          "EQ_VARIANT": 128,
+          "EQ_VDATA_CHOICE": 140,
+          "EQ_VEC2": 94,
+          "EQ_VEC3": 96,
+          "EQ_VEC3WS": 100,
+          "EQ_VEC4": 102,
+          "GET_ARRAY_ELEMENT": 23,
+          "GET_BLACKBOARD_REFERENCE": 44,
+          "GET_CONST": 22,
+          "GET_CONST_INLINE_STORAGE": 153,
+          "GET_DOMAIN_VALUE": 24,
+          "GET_TEMPVAR": 46,
+          "GET_VAR": 17,
+          "GET_VAR_DETACH": 18,
+          "IMMEDIATE_HALT": 1,
+          "INVALID": 0,
+          "JUMP": 6,
+          "JUMP_COND": 7,
+          "LAST_SERIALIZED_CODE": 50,
+          "LIBRARY_INVOKE": 14,
+          "LOOP_BREAK": 4,
+          "LT": 33,
+          "LTE": 34,
+          "LTE_FLOAT": 84,
+          "LTE_GAMETIME": 85,
+          "LTE_INT": 83,
+          "LT_FLOAT": 81,
+          "LT_GAMETIME": 82,
+          "LT_INT": 80,
+          "MOD": 32,
+          "MOD_FLOAT": 79,
+          "MOD_INT": 78,
+          "MUL": 30,
+          "MUL_FLOAT": 76,
+          "MUL_INT": 75,
+          "NE": 36,
+          "NEGATE": 27,
+          "NEGATE_FLOAT": 52,
+          "NEGATE_INT": 51,
+          "NEGATE_VEC2": 53,
+          "NEGATE_VEC3": 54,
+          "NEGATE_VEC4": 55,
+          "NE_ANIM_SEQUENCE": 139,
+          "NE_ARRAY": 135,
+          "NE_BOOL": 87,
+          "NE_COLOR_RGB": 109,
+          "NE_EHANDLE": 113,
+          "NE_ENTITY_NAME": 123,
+          "NE_ENUM": 131,
+          "NE_FLOAT": 91,
+          "NE_GAMETIME": 111,
+          "NE_INT": 89,
+          "NE_LEAF": 125,
+          "NE_MODEL_MATERIAL_GROUP": 127,
+          "NE_PANEL_HANDLE": 133,
+          "NE_PARTICLE_EHANDLE": 137,
+          "NE_QANGLE": 99,
+          "NE_RESOURCE": 115,
+          "NE_RESOURCE_NAME": 117,
+          "NE_SNDEVT_GUID": 119,
+          "NE_SNDEVT_NAME": 121,
+          "NE_STRING": 93,
+          "NE_TRANSFORM": 105,
+          "NE_TRANSFORMWS": 107,
+          "NE_VARIANT": 129,
+          "NE_VDATA_CHOICE": 141,
+          "NE_VEC2": 95,
+          "NE_VEC3": 97,
+          "NE_VEC3WS": 101,
+          "NE_VEC4": 103,
+          "NOP": 5,
+          "NOT": 26,
+          "OR": 38,
+          "PULSE_CALL_ASYNC_FIRE": 11,
+          "PULSE_CALL_SYNC": 10,
+          "REINTERPRET_INSTANCE": 43,
+          "RETURN_VALUE": 3,
+          "RETURN_VOID": 2,
+          "SCALE": 39,
+          "SCALE_INV": 40,
+          "SCALE_INV_VEC2": 146,
+          "SCALE_INV_VEC3": 145,
+          "SCALE_INV_VEC4": 147,
+          "SCALE_VEC2": 143,
+          "SCALE_VEC3": 142,
+          "SCALE_VEC4": 144,
+          "SET_BLACKBOARD_REFERENCE": 45,
+          "SET_TEMPVAR": 47,
+          "SET_TEMPVAR_OBSERVABLE": 48,
+          "SET_VAR": 16,
+          "SET_VAR_ARRAY_ELEMENT_1D": 20,
+          "SET_VAR_OBSERVABLE": 21,
+          "SUB": 29,
+          "SUB_FLOAT": 67,
+          "SUB_GAMETIME": 74,
+          "SUB_GAMETIME_FLOAT": 73,
+          "SUB_INT": 66,
+          "SUB_VEC2": 68,
+          "SUB_VEC3": 69,
+          "SUB_VEC3WS_VEC3": 70,
+          "SUB_VEC3WS_VEC3WS": 71,
+          "SUB_VEC4": 72
+        },
+        "type": "uint16"
       },
       "PulseMethodCallMode_t": {
         "alignment": 4,

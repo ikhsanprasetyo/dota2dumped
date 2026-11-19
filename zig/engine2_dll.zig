@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: engine2.dll
-        // Class count: 52
+        // Class count: 53
         // Enum count: 2
         pub const engine2_dll = struct {
             // Alignment: 4
@@ -112,6 +112,10 @@ pub const source2_dumper = struct {
                 pub const m_flRenderFrameTime: usize = 0x30; // float32
                 pub const m_flRenderFrameTimeUnbounded: usize = 0x34; // float32
                 pub const m_bRenderOnly: usize = 0x38; // bool
+            };
+            // Parent: None
+            // Field count: 0
+            pub const EventPlayerConsoleCommand_t = struct {
             };
             // Parent: None
             // Field count: 2
@@ -258,8 +262,9 @@ pub const source2_dumper = struct {
             pub const CEntityKeyValues = struct {
             };
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             pub const EventClientAdvanceNonRenderedFrame_t = struct {
+                pub const m_bRenderOnly: usize = 0x0; // bool
             };
             // Parent: None
             // Field count: 0
@@ -278,7 +283,7 @@ pub const source2_dumper = struct {
                 pub const m_pNetworkDataReferencedPtrPropDescription: usize = 0x18; // char*
                 pub const m_nRuntimeIndex: usize = 0x20; // int32
                 pub const m_nFlags: usize = 0x24; // uint32
-                pub const m_pBaseClassComponentHelper: usize = 0x58; // CEntityComponentHelper*
+                pub const m_pBaseClassComponentHelper: usize = 0x78; // CEntityComponentHelper*
             };
             // Parent: None
             // Field count: 4
@@ -289,9 +294,10 @@ pub const source2_dumper = struct {
                 pub const m_nRenderHeight: usize = 0x24; // int32
             };
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             pub const EventClientPollNetworking_t = struct {
                 pub const m_nTickCount: usize = 0x0; // int32
+                pub const m_nTotalTicks: usize = 0x4; // int32
             };
             // Parent: None
             // Field count: 1

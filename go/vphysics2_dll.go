@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 package schemas
 
@@ -76,10 +76,6 @@ const (
     Vphysics2Dll_RnFace_t_m_nEdge = 0x0 // uint8
     Vphysics2Dll_FeSimdPrism_t_nNode = 0x0 // uint16[4][6]
     Vphysics2Dll_FeSourceEdge_t_nNode = 0x0 // uint16[2]
-    Vphysics2Dll_FeNodeWindBase_t_nNodeX0 = 0x0 // uint16
-    Vphysics2Dll_FeNodeWindBase_t_nNodeX1 = 0x2 // uint16
-    Vphysics2Dll_FeNodeWindBase_t_nNodeY0 = 0x4 // uint16
-    Vphysics2Dll_FeNodeWindBase_t_nNodeY1 = 0x6 // uint16
     Vphysics2Dll_constraint_breakableparams_t_strength = 0x0 // float32
     Vphysics2Dll_constraint_breakableparams_t_forceLimit = 0x4 // float32
     Vphysics2Dll_constraint_breakableparams_t_torqueLimit = 0x8 // float32

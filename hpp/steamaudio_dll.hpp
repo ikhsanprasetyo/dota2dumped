@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: steamaudio.dll
-        // Class count: 14
+        // Class count: 16
         // Enum count: 0
         namespace steamaudio_dll {
             // Parent: None
@@ -55,6 +55,8 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace CSteamAudioAmbisonicsField {
                 constexpr std::ptrdiff_t m_field = 0x0; // CUtlVector<float32>
             }
@@ -62,6 +64,7 @@ namespace source2_dumper {
             // Field count: 3
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -78,6 +81,8 @@ namespace source2_dumper {
             // Field count: 1
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -102,7 +107,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_vecMaterialWeights = 0x20; // CUtlVector<float32>
             }
             // Parent: None
-            // Field count: 5
+            // Field count: 7
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -115,15 +120,19 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             namespace CSteamAudioBakedOcclusionData {
                 constexpr std::ptrdiff_t m_settings = 0x0; // SteamAudioCustomDataOcclusionSettings_t
-                constexpr std::ptrdiff_t m_probes = 0x10; // CSteamAudioProbeData
-                constexpr std::ptrdiff_t m_vecPathingRatio = 0x18; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecPathingDeviation = 0x30; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecReflectionEnergy = 0x48; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_probes = 0x18; // CSteamAudioProbeData
+                constexpr std::ptrdiff_t m_vecPathingRatio = 0x20; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecPathingDeviation = 0x38; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecReflectionEnergy = 0x50; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecDynamicObjects = 0x68; // CUtlVector<CSteamAudioBakedOcclusionDynamicObject>
+                constexpr std::ptrdiff_t m_vecDynamicObjectPairs = 0x80; // CUtlVector<CSteamAudioBakedOcclusionDynamicObjectPair>
             }
             // Parent: None
             // Field count: 12
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CSteamAudioBakedReverbData {
@@ -159,7 +168,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_vecProbeIndices = 0x30; // CUtlVector<int32>
             }
             // Parent: None
-            // Field count: 4
+            // Field count: 6
             //
             // Metadata:
             // MGetKV3ClassDefaults
@@ -171,11 +180,15 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_bEnableReflections = 0x1; // bool
                 constexpr std::ptrdiff_t m_nReflectionRays = 0x4; // int32
                 constexpr std::ptrdiff_t m_nReflectionBounces = 0x8; // int32
+                constexpr std::ptrdiff_t m_nSpatialFilterMode = 0xC; // int32
+                constexpr std::ptrdiff_t m_flSpatialFilterRadiusFactor = 0x10; // float32
             }
             // Parent: None
             // Field count: 7
             //
             // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -190,6 +203,22 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_vecOutsideField = 0x60; // CUtlVector<CSteamAudioAmbisonicsField>
                 constexpr std::ptrdiff_t m_vecInsideSmallSizeField = 0x78; // CUtlVector<CSteamAudioAmbisonicsField>
                 constexpr std::ptrdiff_t m_movables = 0x90; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+            }
+            // Parent: None
+            // Field count: 7
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            namespace CSteamAudioBakedOcclusionDynamicObject {
+                constexpr std::ptrdiff_t m_sName = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_sHammerId = 0x8; // CUtlString
+                constexpr std::ptrdiff_t m_nHammerIdHash = 0x10; // uint32
+                constexpr std::ptrdiff_t m_vecPairs = 0x18; // CUtlVector<uint32>
+                constexpr std::ptrdiff_t m_vecPathingRatioDeltas = 0x30; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecPathingDeviationDeltas = 0x48; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecReflectionEnergyDeltas = 0x60; // CUtlVector<float32>
             }
             // Parent: None
             // Field count: 2
@@ -212,6 +241,22 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            namespace CSteamAudioBakedOcclusionDynamicObjectPair {
+                constexpr std::ptrdiff_t m_sName = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_nHammerIdHashA = 0x8; // uint32
+                constexpr std::ptrdiff_t m_nHammerIdHashB = 0xC; // uint32
+                constexpr std::ptrdiff_t m_vecPairs = 0x10; // CUtlVector<uint32>
+                constexpr std::ptrdiff_t m_vecPathingRatioResiduals = 0x28; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecPathingDeviationResiduals = 0x40; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecReflectionEnergyResiduals = 0x58; // CUtlVector<float32>
+            }
+            // Parent: None
+            // Field count: 7
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
@@ -228,6 +273,7 @@ namespace source2_dumper {
             // Field count: 8
             //
             // Metadata:
+            // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             namespace CSteamAudioCompressedReverb {
                 constexpr std::ptrdiff_t m_nChannels = 0x0; // int32

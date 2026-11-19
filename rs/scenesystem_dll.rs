@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -164,6 +164,9 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
+            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
+            // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
             pub mod SceneObject_t {
                 pub const m_nObjectID: usize = 0x0; // uint32
                 pub const m_vTransform: usize = 0x4; // Vector4D[3]
@@ -359,6 +362,7 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
             pub mod BakedLightingInfo_t {
                 pub const m_nLightmapVersionNumber: usize = 0x0; // uint32
                 pub const m_nLightmapGameVersionNumber: usize = 0x4; // uint32

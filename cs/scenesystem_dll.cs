@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: scenesystem.dll
@@ -153,6 +153,9 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
+        // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
+        // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
         public static class SceneObject_t {
             public const nint m_nObjectID = 0x0; // uint32
             public const nint m_vTransform = 0x4; // Vector4D[3]
@@ -348,6 +351,7 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
         public static class BakedLightingInfo_t {
             public const nint m_nLightmapVersionNumber = 0x0; // uint32
             public const nint m_nLightmapGameVersionNumber = 0x4; // uint32

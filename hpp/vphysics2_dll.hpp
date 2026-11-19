@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: vphysics2.dll
-        // Class count: 30
+        // Class count: 29
         // Enum count: 5
         namespace vphysics2_dll {
             // Alignment: 4
@@ -153,6 +153,7 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             namespace FeAnimStrayRadius_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
                 constexpr std::ptrdiff_t flMaxDist = 0x4; // float32
@@ -250,18 +251,6 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             namespace FeSourceEdge_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
-            }
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            namespace FeNodeWindBase_t {
-                constexpr std::ptrdiff_t nNodeX0 = 0x0; // uint16
-                constexpr std::ptrdiff_t nNodeX1 = 0x2; // uint16
-                constexpr std::ptrdiff_t nNodeY0 = 0x4; // uint16
-                constexpr std::ptrdiff_t nNodeY1 = 0x6; // uint16
             }
             // Parent: None
             // Field count: 5

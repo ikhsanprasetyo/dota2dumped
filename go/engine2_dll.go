@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 package schemas
 
@@ -78,18 +78,20 @@ const (
     Engine2Dll_EventSimulate_t_m_LoopState = 0x0 // EngineLoopState_t
     Engine2Dll_EventSimulate_t_m_bFirstTick = 0x28 // bool
     Engine2Dll_EventSimulate_t_m_bLastTick = 0x29 // bool
+    Engine2Dll_EventClientAdvanceNonRenderedFrame_t_m_bRenderOnly = 0x0 // bool
     Engine2Dll_EntComponentInfo_t_m_pName = 0x0 // char*
     Engine2Dll_EntComponentInfo_t_m_pCPPClassname = 0x8 // char*
     Engine2Dll_EntComponentInfo_t_m_pNetworkDataReferencedDescription = 0x10 // char*
     Engine2Dll_EntComponentInfo_t_m_pNetworkDataReferencedPtrPropDescription = 0x18 // char*
     Engine2Dll_EntComponentInfo_t_m_nRuntimeIndex = 0x20 // int32
     Engine2Dll_EntComponentInfo_t_m_nFlags = 0x24 // uint32
-    Engine2Dll_EntComponentInfo_t_m_pBaseClassComponentHelper = 0x58 // CEntityComponentHelper*
+    Engine2Dll_EntComponentInfo_t_m_pBaseClassComponentHelper = 0x78 // CEntityComponentHelper*
     Engine2Dll_EngineLoopState_t_m_nPlatWindowWidth = 0x18 // int32
     Engine2Dll_EngineLoopState_t_m_nPlatWindowHeight = 0x1C // int32
     Engine2Dll_EngineLoopState_t_m_nRenderWidth = 0x20 // int32
     Engine2Dll_EngineLoopState_t_m_nRenderHeight = 0x24 // int32
     Engine2Dll_EventClientPollNetworking_t_m_nTickCount = 0x0 // int32
+    Engine2Dll_EventClientPollNetworking_t_m_nTotalTicks = 0x4 // int32
     Engine2Dll_EventServerBeginAsyncPostTickWork_t_m_bIsOncePerFrameAsyncWorkPhase = 0x0 // bool
     Engine2Dll_EventClientProcessInput_t_m_LoopState = 0x0 // EngineLoopState_t
     Engine2Dll_EventClientProcessInput_t_m_flRealTime = 0x28 // float32

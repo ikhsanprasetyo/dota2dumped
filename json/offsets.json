@@ -1,17 +1,16 @@
 {
   "client.dll": {
-    "dwEntityList": 106603224,
-    "dwGameEntitySystem": 106603224,
+    "dwEntityList": 108476592,
+    "dwGameEntitySystem": 108476592,
     "dwGameEntitySystem_highestEntityIndex": 8384,
-    "dwGlobalVars": 95597544,
-    "dwLocalPlayerPawn": 95626600,
-    "dwPrediction": 95626384,
-    "dwViewMatrix": 102898864,
-    "dwViewRender": 102901736
+    "dwGlobalVars": 97256856,
+    "dwLocalPlayerPawn": 104750808,
+    "dwPrediction": 104750576,
+    "dwViewRender": 104760984
   },
   "engine2.dll": {
-    "dwBuildNumber": 5996792,
-    "dwNetworkGameClient": 9124960,
+    "dwBuildNumber": 6387768,
+    "dwNetworkGameClient": 9499792,
     "dwNetworkGameClient_clientTickCount": 920,
     "dwNetworkGameClient_deltaTick": 588,
     "dwNetworkGameClient_isBackgroundMap": 2888767,
@@ -19,15 +18,14 @@
     "dwNetworkGameClient_maxClients": 576,
     "dwNetworkGameClient_serverTickCount": 588,
     "dwNetworkGameClient_signOnState": 560,
-    "dwWindowHeight": 9142292,
-    "dwWindowWidth": 9142288
+    "dwWindowHeight": 9518012,
+    "dwWindowWidth": 9518008
   },
   "inputsystem.dll": {
-    "dwInputSystem": 289728
+    "dwInputSystem": 290112
   },
   "panorama.dll": {},
   "soundsystem.dll": {
-    "dwSoundSystem": 6598400,
     "dwSoundSystem_engineViewData": 108
   }
 }

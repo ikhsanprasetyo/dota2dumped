@@ -1,9 +1,12 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-18 23:45:20.938748200 +07:00
+# 2026-11-19 23:35:14.355654500 +07:00
 
 class Schemas:
     # Module: soundsystem.dll
     class SoundsystemDll:
+        class VMixUpMixRule_t:
+            DIVIDE = 0x0
+            BROADCAST = 0x1
         class SndSeqInstrumentType_t:
             eSndSeqInstNull = 0x0
             eSndSeqInstSndEvt = 0x1
@@ -73,6 +76,9 @@ class Schemas:
             LFO_SHAPE_TRI = 0x2
             LFO_SHAPE_SAW = 0x3
             LFO_SHAPE_NOISE = 0x4
+        class VMixCompressorType_t:
+            MixBus = 0x0
+            Smooth = 0x1
         class VMixOffsetType_t:
             VO_CHAR = 0x0
             VO_ARRAY = 0x1
@@ -278,9 +284,6 @@ class Schemas:
             m_table = 0x0 # CUtlVector<CDspPresetModifierList>
         class SamplerVoice_t:
             nNoteNum = 0x0 # uint8
-        class VMixPannerDesc_t:
-            m_type = 0x0 # VMixPannerType_t
-            m_flStrength = 0x4 # float32
         class CSndSeqInstruments:
             pass
         class CSosSoundEventGroupSchema:
@@ -300,9 +303,16 @@ class Schemas:
             m_Behavior_String = 0x48 # SosGroupFieldBehavior_t
             m_opvarString = 0x50 # CUtlString
             m_vActions = 0x58 # CUtlVector<CSosGroupActionSchema*>
-        class VMixPointerFixupEntry_t:
-            m_nIndex = 0x0 # uint32
-            m_offset = 0x4 # CVMixDataOffset
+        class CDSPMixgroupModifier:
+            m_mixgroup = 0x0 # CUtlString
+            m_flListenerReverbFar = 0x8 # float32
+            m_flListenerReverbNear = 0xC # float32
+            m_flSourceReverbFar = 0x10 # float32
+            m_flSourceReverbNear = 0x14 # float32
+            m_flListenerReverbModifierWhenSourceReverbIsActive = 0x18 # float32
+            m_flTailVolume = 0x1C # float32
+        class CVMixParameterFloat:
+            m_offset = 0x0 # CVMixDataOffset
         class CSndBeatTrack:
             m_name = 0x0 # CUtlString
             m_playbackType = 0x20 # SndBeatTrackPlaybackType_t
@@ -327,7 +337,23 @@ class Schemas:
             nNextSelection = 0x1 # uint8
             nNumSamples = 0x2 # uint8
             pSamples = 0x4 # uint32[4]
-        class SndBeatEventKeys_t:
-            m_flKey = 0x8 # float32
+        class CSndBeatPattern:
+            m_name = 0x0 # CUtlString
+            m_flSyncPriority = 0xC # float32
+            m_syncStartType = 0x10 # SndBeatSyncStartType_t
+            m_syncType = 0x14 # SndBeatSyncType_t
+            m_timeSignature = 0x18 # SndBeatTimeSignature_t
+            m_flLength = 0x20 # float32
+            m_bLooping = 0x24 # bool
+            m_playEventType = 0x28 # SndBeatEventType_t
+            m_flPlayBeatMult = 0x2C # float32
+            m_playKeyType = 0x30 # SndBeatKeyType_t
+            m_vecPatternKeys = 0x38 # CUtlVector<SndBeatEventKeys_t>
+            m_vecPatternFloats = 0x50 # CUtlVector<SndBeatEventKeyedFloats_t>
+            m_vecPatternSndEvts = 0x68 # CUtlVector<SndBeatEventKeyedSndEvts_t>
+            m_vecPatternMidi = 0x80 # CUtlVector<SndBeatEventKeyedMidiNotes_t>
+            m_syncEventType = 0x98 # SndBeatEventType_t
+            m_flSyncBeatMult = 0x9C # float32
+            m_vecSyncPatternKeys = 0xA0 # CUtlVector<SndBeatEventKeys_t>
         class ISndSeqInstruments:
             pass

@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: steamaudio.dll
-    // Class count: 14
+    // Class count: 16
     // Enum count: 0
     public static class SteamaudioDll {
         // Parent: None
@@ -49,6 +49,8 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class CSteamAudioAmbisonicsField {
             public const nint m_field = 0x0; // CUtlVector<float32>
         }
@@ -56,6 +58,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 3
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -72,6 +75,8 @@ namespace Source2Dumper.Schemas {
         // Field count: 1
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -96,7 +101,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_vecMaterialWeights = 0x20; // CUtlVector<float32>
         }
         // Parent: None
-        // Field count: 5
+        // Field count: 7
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -109,15 +114,19 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CSteamAudioBakedOcclusionData {
             public const nint m_settings = 0x0; // SteamAudioCustomDataOcclusionSettings_t
-            public const nint m_probes = 0x10; // CSteamAudioProbeData
-            public const nint m_vecPathingRatio = 0x18; // CUtlVector<float32>
-            public const nint m_vecPathingDeviation = 0x30; // CUtlVector<float32>
-            public const nint m_vecReflectionEnergy = 0x48; // CUtlVector<float32>
+            public const nint m_probes = 0x18; // CSteamAudioProbeData
+            public const nint m_vecPathingRatio = 0x20; // CUtlVector<float32>
+            public const nint m_vecPathingDeviation = 0x38; // CUtlVector<float32>
+            public const nint m_vecReflectionEnergy = 0x50; // CUtlVector<float32>
+            public const nint m_vecDynamicObjects = 0x68; // CUtlVector<CSteamAudioBakedOcclusionDynamicObject>
+            public const nint m_vecDynamicObjectPairs = 0x80; // CUtlVector<CSteamAudioBakedOcclusionDynamicObjectPair>
         }
         // Parent: None
         // Field count: 12
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CSteamAudioBakedReverbData {
@@ -153,7 +162,7 @@ namespace Source2Dumper.Schemas {
             public const nint m_vecProbeIndices = 0x30; // CUtlVector<int32>
         }
         // Parent: None
-        // Field count: 4
+        // Field count: 6
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -165,11 +174,15 @@ namespace Source2Dumper.Schemas {
             public const nint m_bEnableReflections = 0x1; // bool
             public const nint m_nReflectionRays = 0x4; // int32
             public const nint m_nReflectionBounces = 0x8; // int32
+            public const nint m_nSpatialFilterMode = 0xC; // int32
+            public const nint m_flSpatialFilterRadiusFactor = 0x10; // float32
         }
         // Parent: None
         // Field count: 7
         //
         // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -184,6 +197,22 @@ namespace Source2Dumper.Schemas {
             public const nint m_vecOutsideField = 0x60; // CUtlVector<CSteamAudioAmbisonicsField>
             public const nint m_vecInsideSmallSizeField = 0x78; // CUtlVector<CSteamAudioAmbisonicsField>
             public const nint m_movables = 0x90; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
+        }
+        // Parent: None
+        // Field count: 7
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        public static class CSteamAudioBakedOcclusionDynamicObject {
+            public const nint m_sName = 0x0; // CUtlString
+            public const nint m_sHammerId = 0x8; // CUtlString
+            public const nint m_nHammerIdHash = 0x10; // uint32
+            public const nint m_vecPairs = 0x18; // CUtlVector<uint32>
+            public const nint m_vecPathingRatioDeltas = 0x30; // CUtlVector<float32>
+            public const nint m_vecPathingDeviationDeltas = 0x48; // CUtlVector<float32>
+            public const nint m_vecReflectionEnergyDeltas = 0x60; // CUtlVector<float32>
         }
         // Parent: None
         // Field count: 2
@@ -206,6 +235,22 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        public static class CSteamAudioBakedOcclusionDynamicObjectPair {
+            public const nint m_sName = 0x0; // CUtlString
+            public const nint m_nHammerIdHashA = 0x8; // uint32
+            public const nint m_nHammerIdHashB = 0xC; // uint32
+            public const nint m_vecPairs = 0x10; // CUtlVector<uint32>
+            public const nint m_vecPathingRatioResiduals = 0x28; // CUtlVector<float32>
+            public const nint m_vecPathingDeviationResiduals = 0x40; // CUtlVector<float32>
+            public const nint m_vecReflectionEnergyResiduals = 0x58; // CUtlVector<float32>
+        }
+        // Parent: None
+        // Field count: 7
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
@@ -222,6 +267,7 @@ namespace Source2Dumper.Schemas {
         // Field count: 8
         //
         // Metadata:
+        // MGetKV3ClassDefaults
         // MGetKV3ClassDefaults
         public static class CSteamAudioCompressedReverb {
             public const nint m_nChannels = 0x0; // int32

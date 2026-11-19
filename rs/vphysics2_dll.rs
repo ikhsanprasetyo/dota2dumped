@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: vphysics2.dll
-        // Class count: 30
+        // Class count: 29
         // Enum count: 5
         pub mod vphysics2_dll {
             // Alignment: 4
@@ -155,6 +155,7 @@ pub mod source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // MGetKV3ClassDefaults
             pub mod FeAnimStrayRadius_t {
                 pub const nNode: usize = 0x0; // uint16[2]
                 pub const flMaxDist: usize = 0x4; // float32
@@ -252,18 +253,6 @@ pub mod source2_dumper {
             // MGetKV3ClassDefaults
             pub mod FeSourceEdge_t {
                 pub const nNode: usize = 0x0; // uint16[2]
-            }
-            // Parent: None
-            // Field count: 4
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            // MGetKV3ClassDefaults
-            pub mod FeNodeWindBase_t {
-                pub const nNodeX0: usize = 0x0; // uint16
-                pub const nNodeX1: usize = 0x2; // uint16
-                pub const nNodeY0: usize = 0x4; // uint16
-                pub const nNodeY1: usize = 0x6; // uint16
             }
             // Parent: None
             // Field count: 5

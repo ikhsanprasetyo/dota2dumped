@@ -332,6 +332,10 @@
           {
             "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -540,6 +544,18 @@
         "metadata": [
           {
             "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8",
+            "type": "Unknown"
+          },
+          {
+            "name": "AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8",
             "type": "Unknown"
           }
         ],

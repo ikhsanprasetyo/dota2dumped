@@ -1,9 +1,9 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: vphysics2.dll
-    // Class count: 30
+    // Class count: 29
     // Enum count: 5
     public static class Vphysics2Dll {
         // Alignment: 4
@@ -147,6 +147,7 @@ namespace Source2Dumper.Schemas {
         //
         // Metadata:
         // MGetKV3ClassDefaults
+        // MGetKV3ClassDefaults
         public static class FeAnimStrayRadius_t {
             public const nint nNode = 0x0; // uint16[2]
             public const nint flMaxDist = 0x4; // float32
@@ -244,18 +245,6 @@ namespace Source2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class FeSourceEdge_t {
             public const nint nNode = 0x0; // uint16[2]
-        }
-        // Parent: None
-        // Field count: 4
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        // MGetKV3ClassDefaults
-        public static class FeNodeWindBase_t {
-            public const nint nNodeX0 = 0x0; // uint16
-            public const nint nNodeX1 = 0x2; // uint16
-            public const nint nNodeY0 = 0x4; // uint16
-            public const nint nNodeY1 = 0x6; // uint16
         }
         // Parent: None
         // Field count: 5

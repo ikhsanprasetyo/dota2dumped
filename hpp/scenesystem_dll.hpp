@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 #pragma once
 
@@ -159,6 +159,9 @@ namespace source2_dumper {
             //
             // Metadata:
             // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
+            // AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8
+            // AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8
             namespace SceneObject_t {
                 constexpr std::ptrdiff_t m_nObjectID = 0x0; // uint32
                 constexpr std::ptrdiff_t m_vTransform = 0x4; // Vector4D[3]
@@ -354,6 +357,7 @@ namespace source2_dumper {
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
             // MGetKV3ClassDefaults
+            // AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16
             namespace BakedLightingInfo_t {
                 constexpr std::ptrdiff_t m_nLightmapVersionNumber = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nLightmapGameVersionNumber = 0x4; // uint32

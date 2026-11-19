@@ -74,7 +74,7 @@
         "fields": {
           "m_nFlags": 36,
           "m_nRuntimeIndex": 32,
-          "m_pBaseClassComponentHelper": 88,
+          "m_pBaseClassComponentHelper": 120,
           "m_pCPPClassname": 8,
           "m_pName": 0,
           "m_pNetworkDataReferencedDescription": 16,
@@ -113,7 +113,9 @@
         "parent": null
       },
       "EventClientAdvanceNonRenderedFrame_t": {
-        "fields": {},
+        "fields": {
+          "m_bRenderOnly": 0
+        },
         "metadata": [],
         "parent": null
       },
@@ -158,7 +160,8 @@
       },
       "EventClientPollNetworking_t": {
         "fields": {
-          "m_nTickCount": 0
+          "m_nTickCount": 0,
+          "m_nTotalTicks": 4
         },
         "metadata": [],
         "parent": null
@@ -252,6 +255,11 @@
         "parent": null
       },
       "EventModInitialized_t": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "EventPlayerConsoleCommand_t": {
         "fields": {},
         "metadata": [],
         "parent": null

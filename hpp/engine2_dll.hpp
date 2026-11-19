@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: engine2.dll
-        // Class count: 52
+        // Class count: 53
         // Enum count: 2
         namespace engine2_dll {
             // Alignment: 4
@@ -117,6 +117,10 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flRenderFrameTime = 0x30; // float32
                 constexpr std::ptrdiff_t m_flRenderFrameTimeUnbounded = 0x34; // float32
                 constexpr std::ptrdiff_t m_bRenderOnly = 0x38; // bool
+            }
+            // Parent: None
+            // Field count: 0
+            namespace EventPlayerConsoleCommand_t {
             }
             // Parent: None
             // Field count: 2
@@ -263,8 +267,9 @@ namespace source2_dumper {
             namespace CEntityKeyValues {
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             namespace EventClientAdvanceNonRenderedFrame_t {
+                constexpr std::ptrdiff_t m_bRenderOnly = 0x0; // bool
             }
             // Parent: None
             // Field count: 0
@@ -283,7 +288,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_pNetworkDataReferencedPtrPropDescription = 0x18; // char*
                 constexpr std::ptrdiff_t m_nRuntimeIndex = 0x20; // int32
                 constexpr std::ptrdiff_t m_nFlags = 0x24; // uint32
-                constexpr std::ptrdiff_t m_pBaseClassComponentHelper = 0x58; // CEntityComponentHelper*
+                constexpr std::ptrdiff_t m_pBaseClassComponentHelper = 0x78; // CEntityComponentHelper*
             }
             // Parent: None
             // Field count: 4
@@ -294,9 +299,10 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_nRenderHeight = 0x24; // int32
             }
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             namespace EventClientPollNetworking_t {
                 constexpr std::ptrdiff_t m_nTickCount = 0x0; // int32
+                constexpr std::ptrdiff_t m_nTotalTicks = 0x4; // int32
             }
             // Parent: None
             // Field count: 1

@@ -1,12 +1,12 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: engine2.dll
-        // Class count: 52
+        // Class count: 53
         // Enum count: 2
         pub mod engine2_dll {
             // Alignment: 4
@@ -116,6 +116,10 @@ pub mod source2_dumper {
                 pub const m_flRenderFrameTime: usize = 0x30; // float32
                 pub const m_flRenderFrameTimeUnbounded: usize = 0x34; // float32
                 pub const m_bRenderOnly: usize = 0x38; // bool
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod EventPlayerConsoleCommand_t {
             }
             // Parent: None
             // Field count: 2
@@ -262,8 +266,9 @@ pub mod source2_dumper {
             pub mod CEntityKeyValues {
             }
             // Parent: None
-            // Field count: 0
+            // Field count: 1
             pub mod EventClientAdvanceNonRenderedFrame_t {
+                pub const m_bRenderOnly: usize = 0x0; // bool
             }
             // Parent: None
             // Field count: 0
@@ -282,7 +287,7 @@ pub mod source2_dumper {
                 pub const m_pNetworkDataReferencedPtrPropDescription: usize = 0x18; // char*
                 pub const m_nRuntimeIndex: usize = 0x20; // int32
                 pub const m_nFlags: usize = 0x24; // uint32
-                pub const m_pBaseClassComponentHelper: usize = 0x58; // CEntityComponentHelper*
+                pub const m_pBaseClassComponentHelper: usize = 0x78; // CEntityComponentHelper*
             }
             // Parent: None
             // Field count: 4
@@ -293,9 +298,10 @@ pub mod source2_dumper {
                 pub const m_nRenderHeight: usize = 0x24; // int32
             }
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             pub mod EventClientPollNetworking_t {
                 pub const m_nTickCount: usize = 0x0; // int32
+                pub const m_nTotalTicks: usize = 0x4; // int32
             }
             // Parent: None
             // Field count: 1

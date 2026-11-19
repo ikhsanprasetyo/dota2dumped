@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-18 23:45:20.938748200 +07:00
+# 2026-11-19 23:35:14.355654500 +07:00
 
 class Schemas:
     # Module: engine2.dll
@@ -63,6 +63,8 @@ class Schemas:
             m_flRenderFrameTime = 0x30 # float32
             m_flRenderFrameTimeUnbounded = 0x34 # float32
             m_bRenderOnly = 0x38 # bool
+        class EventPlayerConsoleCommand_t:
+            pass
         class EventClientPollInput_t:
             m_LoopState = 0x0 # EngineLoopState_t
             m_flRealTime = 0x28 # float32
@@ -140,7 +142,7 @@ class Schemas:
         class CEntityKeyValues:
             pass
         class EventClientAdvanceNonRenderedFrame_t:
-            pass
+            m_bRenderOnly = 0x0 # bool
         class EventServerProcessNetworking_t:
             pass
         class CEmptyEntityInstance:
@@ -152,7 +154,7 @@ class Schemas:
             m_pNetworkDataReferencedPtrPropDescription = 0x18 # char*
             m_nRuntimeIndex = 0x20 # int32
             m_nFlags = 0x24 # uint32
-            m_pBaseClassComponentHelper = 0x58 # CEntityComponentHelper*
+            m_pBaseClassComponentHelper = 0x78 # CEntityComponentHelper*
         class EngineLoopState_t:
             m_nPlatWindowWidth = 0x18 # int32
             m_nPlatWindowHeight = 0x1C # int32
@@ -160,6 +162,7 @@ class Schemas:
             m_nRenderHeight = 0x24 # int32
         class EventClientPollNetworking_t:
             m_nTickCount = 0x0 # int32
+            m_nTotalTicks = 0x4 # int32
         class EventServerBeginAsyncPostTickWork_t:
             m_bIsOncePerFrameAsyncWorkPhase = 0x0 # bool
         class EventClientProcessInput_t:

@@ -1,6 +1,52 @@
 {
   "soundsystem.dll": {
     "classes": {
+      "CDSPMixgroupModifier": {
+        "fields": {
+          "m_flListenerReverbFar": 8,
+          "m_flListenerReverbModifierWhenSourceReverbIsActive": 24,
+          "m_flListenerReverbNear": 12,
+          "m_flSourceReverbFar": 16,
+          "m_flSourceReverbNear": 20,
+          "m_flTailVolume": 28,
+          "m_mixgroup": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CDSPPresetMixgroupModifierTable": {
         "fields": {
           "m_table": 0
@@ -23,15 +69,67 @@
             "type": "Unknown"
           },
           {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyDescription",
             "type": "Unknown"
           },
           {
             "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSndBeatPattern": {
+        "fields": {
+          "m_bLooping": 36,
+          "m_flLength": 32,
+          "m_flPlayBeatMult": 44,
+          "m_flSyncBeatMult": 156,
+          "m_flSyncPriority": 12,
+          "m_name": 0,
+          "m_playEventType": 40,
+          "m_playKeyType": 48,
+          "m_syncEventType": 152,
+          "m_syncStartType": 16,
+          "m_syncType": 20,
+          "m_timeSignature": 24,
+          "m_vecPatternFloats": 80,
+          "m_vecPatternKeys": 56,
+          "m_vecPatternMidi": 128,
+          "m_vecPatternSndEvts": 104,
+          "m_vecSyncPatternKeys": 160
+        },
+        "metadata": [
+          {
+            "name": "MPropertyArrayElementNameKey",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerNameExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyStartGroup",
             "type": "Unknown"
           }
         ],
@@ -119,15 +217,11 @@
             "type": "Unknown"
           },
           {
-            "name": "MPropertySuppressExpr",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyAttributeEditor",
-            "type": "Unknown"
-          },
-          {
             "name": "MPropertyStartGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressExpr",
             "type": "Unknown"
           }
         ],
@@ -148,6 +242,18 @@
           "m_nOffset": 0
         },
         "metadata": [],
+        "parent": null
+      },
+      "CVMixParameterFloat": {
+        "fields": {
+          "m_offset": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CVsndTriggerSlot": {
@@ -221,68 +327,10 @@
         "metadata": [],
         "parent": null
       },
-      "SndBeatEventKeys_t": {
-        "fields": {
-          "m_flKey": 8
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MVDataNodeType",
-            "type": "Unknown"
-          },
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "MPropertyFriendlyName",
-            "type": "Unknown"
-          },
-          {
-            "name": "SndSeqMidiStatusNoteOff",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
       "SndBeatTimeSignature_t": {
         "fields": {
           "nDenominator": 1,
           "nNumerator": 0
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "VMixPannerDesc_t": {
-        "fields": {
-          "m_flStrength": 4,
-          "m_type": 0
-        },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
-      },
-      "VMixPointerFixupEntry_t": {
-        "fields": {
-          "m_nIndex": 0,
-          "m_offset": 4
         },
         "metadata": [
           {
@@ -536,6 +584,14 @@
         },
         "type": "uint32"
       },
+      "VMixCompressorType_t": {
+        "alignment": 1,
+        "members": {
+          "MixBus": 0,
+          "Smooth": 1
+        },
+        "type": "uint8"
+      },
       "VMixFilterChannelSet_t": {
         "alignment": 1,
         "members": {
@@ -702,6 +758,14 @@
           "SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT": 1
         },
         "type": "uint32"
+      },
+      "VMixUpMixRule_t": {
+        "alignment": 1,
+        "members": {
+          "BROADCAST": 1,
+          "DIVIDE": 0
+        },
+        "type": "uint8"
       },
       "soundlevel_t": {
         "alignment": 4,

@@ -1,19 +1,18 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-18 23:45:20.938748200 +07:00
+// 2026-11-19 23:35:14.355654500 +07:00
 
 package offsets
 
 const (
-    ClientDll_dwEntityList = 0x65AA2D8
-    ClientDll_dwGameEntitySystem = 0x65AA2D8
+    ClientDll_dwEntityList = 0x67738B0
+    ClientDll_dwGameEntitySystem = 0x67738B0
     ClientDll_dwGameEntitySystem_highestEntityIndex = 0x20C0
-    ClientDll_dwGlobalVars = 0x5B2B3E8
-    ClientDll_dwLocalPlayerPawn = 0x5B32568
-    ClientDll_dwPrediction = 0x5B32490
-    ClientDll_dwViewMatrix = 0x6221CB0
-    ClientDll_dwViewRender = 0x62227E8
-    Engine2Dll_dwBuildNumber = 0x5B80F8
-    Engine2Dll_dwNetworkGameClient = 0x8B3C60
+    ClientDll_dwGlobalVars = 0x5CC0598
+    ClientDll_dwLocalPlayerPawn = 0x63E5ED8
+    ClientDll_dwPrediction = 0x63E5DF0
+    ClientDll_dwViewRender = 0x63E8698
+    Engine2Dll_dwBuildNumber = 0x617838
+    Engine2Dll_dwNetworkGameClient = 0x90F490
     Engine2Dll_dwNetworkGameClient_clientTickCount = 0x398
     Engine2Dll_dwNetworkGameClient_deltaTick = 0x24C
     Engine2Dll_dwNetworkGameClient_isBackgroundMap = 0x2C143F
@@ -21,9 +20,8 @@ const (
     Engine2Dll_dwNetworkGameClient_maxClients = 0x240
     Engine2Dll_dwNetworkGameClient_serverTickCount = 0x24C
     Engine2Dll_dwNetworkGameClient_signOnState = 0x230
-    Engine2Dll_dwWindowHeight = 0x8B8014
-    Engine2Dll_dwWindowWidth = 0x8B8010
-    InputsystemDll_dwInputSystem = 0x46BC0
-    SoundsystemDll_dwSoundSystem = 0x64AF00
+    Engine2Dll_dwWindowHeight = 0x913BBC
+    Engine2Dll_dwWindowWidth = 0x913BB8
+    InputsystemDll_dwInputSystem = 0x46D40
     SoundsystemDll_dwSoundSystem_engineViewData = 0x6C
 )

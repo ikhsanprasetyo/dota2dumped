@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-18 23:45:20.938748200 +07:00
+# 2026-11-19 23:35:14.355654500 +07:00
 
 class Schemas:
     # Module: vphysics2.dll
@@ -111,11 +111,6 @@ class Schemas:
             nNode = 0x0 # uint16[4][6]
         class FeSourceEdge_t:
             nNode = 0x0 # uint16[2]
-        class FeNodeWindBase_t:
-            nNodeX0 = 0x0 # uint16
-            nNodeX1 = 0x2 # uint16
-            nNodeY0 = 0x4 # uint16
-            nNodeY1 = 0x6 # uint16
         class constraint_breakableparams_t:
             strength = 0x0 # float32
             forceLimit = 0x4 # float32
