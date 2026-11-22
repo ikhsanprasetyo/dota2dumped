@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-19 23:35:14.355654500 +07:00
+# 2026-11-22 15:00:19.948492600 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -8295,7 +8295,7 @@ class Schemas:
             damage = 0x1B08 # float32
             attack_effectiveness = 0x1B0C # float32
             m_iLastRolledRecord = 0x1B10 # AttackRecord_t
-            m_bLastRollSuccess = 0x1B12 # bool
+            m_vecSuccessfulRolls = 0x1B18 # CUtlVector<AttackRecord_t>
         class CDOTA_Ability_Riki_SmokeScreen:
             pass
         class CDOTA_Ability_Lich_Sinister_Gaze:
@@ -20349,14 +20349,17 @@ class Schemas:
             m_flMovementSlow = 0x1B08 # float32
             m_flAttackSlow = 0x1B0C # float32
         class CDOTA_Modifier_Morphling_Replicate_Echo_Source:
-            scepter_echo_count = 0x1AF8 # int32
-            scepter_echo_cast_delay = 0x1AFC # float32
-            scepter_echo_appear_distance = 0x1B00 # float32
-            scepter_echo_visible_duration = 0x1B04 # float32
-            scepter_echo_retarget_radius = 0x1B08 # float32
-            scepter_echo_damage_outgoing_pct = 0x1B0C # float32
-            scepter_echo_damage_falloff_pct = 0x1B10 # float32
-            scepter_echo_min_model_scale = 0x1B14 # float32
+            m_hPendingSnowball = 0x1AF8 # CHandle<CBaseEntity>
+            m_hPendingSnowballTarget = 0x1AFC # CHandle<CBaseEntity>
+            m_flPendingSnowballWindupEnd = 0x1B00 # GameTime_t
+            scepter_echo_count = 0x1B04 # int32
+            scepter_echo_cast_delay = 0x1B08 # float32
+            scepter_echo_appear_distance = 0x1B0C # float32
+            scepter_echo_visible_duration = 0x1B10 # float32
+            scepter_echo_retarget_radius = 0x1B14 # float32
+            scepter_echo_damage_outgoing_pct = 0x1B18 # float32
+            scepter_echo_damage_falloff_pct = 0x1B1C # float32
+            scepter_echo_min_model_scale = 0x1B20 # float32
         class CDOTA_Modifier_DrowRanger_WaveOfSilence_Knockback:
             pass
         class CDOTA_Modifier_StormSpirit_Overload_Passive:
@@ -35348,8 +35351,9 @@ class Schemas:
             m_flExpireTime = 0x1B08 # GameTime_t
             m_hChannelAbility = 0x1B0C # CHandle<CBaseEntity>
             m_flLastChannelThinkTime = 0x1B10 # GameTime_t
-            echo_power = 0x1B14 # float32
-            scepter_echo_visible_duration = 0x1B18 # float32
+            m_hDebuffTarget = 0x1B14 # CHandle<CBaseEntity>
+            echo_power = 0x1B30 # float32
+            scepter_echo_visible_duration = 0x1B34 # float32
         class CDOTA_Ability_Special_Bonus_Unique_Lina_3:
             pass
         class CDOTA_Modifier_VengefulSpirit_Arcana:

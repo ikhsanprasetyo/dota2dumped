@@ -1,16 +1,16 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:35:14.355654500 +07:00
+// 2026-11-22 15:00:19.948492600 +07:00
 
 package offsets
 
 const (
-    ClientDll_dwEntityList = 0x67738B0
-    ClientDll_dwGameEntitySystem = 0x67738B0
+    ClientDll_dwEntityList = 0x67758F0
+    ClientDll_dwGameEntitySystem = 0x67758F0
     ClientDll_dwGameEntitySystem_highestEntityIndex = 0x20C0
-    ClientDll_dwGlobalVars = 0x5CC0598
-    ClientDll_dwLocalPlayerPawn = 0x63E5ED8
-    ClientDll_dwPrediction = 0x63E5DF0
-    ClientDll_dwViewRender = 0x63E8698
+    ClientDll_dwGlobalVars = 0x5CC2598
+    ClientDll_dwLocalPlayerPawn = 0x63E7ED8
+    ClientDll_dwPrediction = 0x63E7DF0
+    ClientDll_dwViewRender = 0x63EA698
     Engine2Dll_dwBuildNumber = 0x617838
     Engine2Dll_dwNetworkGameClient = 0x90F490
     Engine2Dll_dwNetworkGameClient_clientTickCount = 0x398

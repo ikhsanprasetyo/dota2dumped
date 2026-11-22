@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-19 23:35:14.355654500 +07:00
+# 2026-11-22 15:00:19.948492600 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1593,16 +1593,17 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
-        class ______:
+        class _k_K__:
             pass
         class ______:
-            ��v� = 0x3BD0A821F80
-            ��v� = 0x3BCF27B5840
-            ��p	� = 0x3BD09701BC0
-            ��{� = 0x3BCF27BE500
-            ��{� = 0x3BD36C491C0
-             = 0x3BCF27BE5E0
-        class ______:
+            pass
+        class ___K__:
+            pass
+        class _r_K__:
+            pass
+        class ___L__:
+            pass
+        class _A_K__:
             pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1BB0 # DOTA_SHOP_TYPE
@@ -1684,7 +1685,7 @@ class Schemas:
             damage = 0x1B08 # float32
             attack_effectiveness = 0x1B0C # float32
             m_iLastRolledRecord = 0x1B10 # AttackRecord_t
-            m_bLastRollSuccess = 0x1B12 # bool
+            m_vecSuccessfulRolls = 0x1B18 # CUtlVector<AttackRecord_t>
         class CDOTA_Modifier_Tiny_Tree_Channel_Bonus:
             bonus_damage = 0x1AF8 # int32
         class CDOTA_Modifier_Razor_EyeOfTheStorm:
@@ -26005,6 +26006,65 @@ class Schemas:
             m_unArtilleryParticleID = 0x908 # SurvivorsParticleID_t
         class CSurvivorsEnemyGolem:
             pass
+        class CDOTAOverworldDefinition:
+            generic_data_type = 0x0 # CUtlString
+            m_unID = 0x8 # OverworldID_t
+            m_sKey = 0x10 # CUtlString
+            m_eAssociatedEvent = 0x18 # EEvent
+            m_eProgressionType = 0x1C # EOverworldProgressionType
+            m_unOverworldVersion = 0x20 # uint8
+            m_sTokenTraderEncounterName = 0x28 # CUtlString
+            m_sNodeUnlockEventAction = 0x30 # CUtlString
+            m_vGridOffset = 0x38 # Vector2D
+            m_unGridSize = 0x40 # uint32
+            m_unNodeGridSize = 0x44 # uint32
+            m_unMapWidth = 0x48 # uint32
+            m_unMapHeight = 0x4C # uint32
+            m_vecCameraDistances = 0x50 # CUtlVector<float32>
+            m_flMinCameraDistance = 0x68 # float32
+            m_flMaxCameraDistance = 0x6C # float32
+            m_flInnerCameraDistanceThreshold = 0x70 # float32
+            m_vMinCameraBounds = 0x74 # Vector2D
+            m_vMaxCameraBounds = 0x7C # Vector2D
+            m_flRoomUIScale = 0x84 # float32
+            m_sMapVisualsXmlPath = 0x88 # CUtlString
+            m_vecReleaseSchedule = 0x90 # CUtlVector<DOTAOverworldReleaseScheduledUnlock_t>
+            m_vecStartNodeIds = 0xA8 # CUtlVector<OverworldNodeID_t>
+            m_unEndNodeID = 0xC0 # OverworldNodeID_t
+            m_sVisualNovelName = 0xC8 # CUtlString
+            m_sTokenLocStringPrefix = 0xD0 # CUtlString
+            m_sActNumberLocString = 0xD8 # CUtlString
+            m_sActTitleLocString = 0xE0 # CUtlString
+            m_unPremiumItemDef = 0xE8 # item_definition_index_t
+            m_unFullCompletionItemDef = 0xEC # item_definition_index_t
+            m_unScrapTokenID = 0xF0 # OverworldTokenID_t
+            m_unFortuneDuration = 0xF4 # uint32
+            m_unPathUnlockerTokenID = 0xF8 # OverworldTokenID_t
+            m_unFortuneCountForPermanentReward = 0xFC # int32
+            m_unTimesFortuneCanBeSeenBeforeRepeats = 0x100 # int32
+            m_vecFortuneWeightForUnseenAmount = 0x108 # CUtlVector<int32>
+            m_nMaxTokenCap = 0x120 # int32
+            m_vecEventActionTriggers = 0x128 # CUtlVector<CDOTAEventActionTrigger>
+            m_vecEventActionGrantAndClaimPairTriggers = 0x140 # CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
+            m_vecPathColorRules = 0x158 # CUtlVector<CDOTAOverworldPathColorRule>
+            m_strNarrationVisualNovel = 0x170 # CUtlString
+            m_mapNarrationDialogues = 0x178 # CUtlOrderedMap<CUtlString,CUtlString>
+            m_Theme = 0x370 # CDOTAOverworldTheme
+            m_vecTokenTypes = 0x3A8 # CUtlVector<CDOTAOverworldToken*>
+            m_vecTarotCards = 0x3D8 # CUtlVector<CDOTAOverworldTarotCard*>
+            m_vecFortuneTellerRewards = 0x3F0 # CUtlVector<CDOTAOverworldFortuneTellerReward*>
+            m_vecFortuneForcedReveals = 0x408 # CUtlVector<CDOTAOverworldFortuneForcedReveal*>
+            m_vecFortuneTellerFixedReward = 0x420 # CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
+            m_vecFortuneTellerStoryNodes = 0x438 # CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
+            m_vecHeroRewards = 0x478 # CUtlVector<CDOTAOverworldHeroReward*>
+            m_vecNodes = 0x490 # CUtlVector<CDOTAOverworldNode*>
+            m_vecPaths = 0x4A8 # CUtlVector<CDOTAOverworldPath*>
+            m_vecRooms = 0x4C0 # CUtlVector<CDOTAOverworldRoom*>
+            m_vecEncounters = 0x4D8 # CUtlVector<CDOTAOverworldEncounter*>
+            m_vecHeroes = 0x4F0 # CUtlVector<CDOTAOverworldHero*>
+            m_vecCharacters = 0x508 # CUtlVector<CDOTAOverworldCharacter*>
+            m_vecClickables = 0x520 # CUtlVector<CDOTAOverworldClickable*>
+            m_vecRoomGroups = 0x600 # CUtlVector<CDOTAOverworldRoomGroup*>
         class CSurvivorsPowerUp_Spirits:
             m_sParticle = 0x608 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sExplosionParticle = 0x6E8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>

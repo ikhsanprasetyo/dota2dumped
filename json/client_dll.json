@@ -341,6 +341,75 @@
         ],
         "parent": null
       },
+      "CDOTAOverworldDefinition": {
+        "fields": {
+          "generic_data_type": 0,
+          "m_Theme": 880,
+          "m_eAssociatedEvent": 24,
+          "m_eProgressionType": 28,
+          "m_flInnerCameraDistanceThreshold": 112,
+          "m_flMaxCameraDistance": 108,
+          "m_flMinCameraDistance": 104,
+          "m_flRoomUIScale": 132,
+          "m_mapNarrationDialogues": 376,
+          "m_nMaxTokenCap": 288,
+          "m_sActNumberLocString": 216,
+          "m_sActTitleLocString": 224,
+          "m_sKey": 16,
+          "m_sMapVisualsXmlPath": 136,
+          "m_sNodeUnlockEventAction": 48,
+          "m_sTokenLocStringPrefix": 208,
+          "m_sTokenTraderEncounterName": 40,
+          "m_sVisualNovelName": 200,
+          "m_strNarrationVisualNovel": 368,
+          "m_unEndNodeID": 192,
+          "m_unFortuneCountForPermanentReward": 252,
+          "m_unFortuneDuration": 244,
+          "m_unFullCompletionItemDef": 236,
+          "m_unGridSize": 64,
+          "m_unID": 8,
+          "m_unMapHeight": 76,
+          "m_unMapWidth": 72,
+          "m_unNodeGridSize": 68,
+          "m_unOverworldVersion": 32,
+          "m_unPathUnlockerTokenID": 248,
+          "m_unPremiumItemDef": 232,
+          "m_unScrapTokenID": 240,
+          "m_unTimesFortuneCanBeSeenBeforeRepeats": 256,
+          "m_vGridOffset": 56,
+          "m_vMaxCameraBounds": 124,
+          "m_vMinCameraBounds": 116,
+          "m_vecCameraDistances": 80,
+          "m_vecCharacters": 1288,
+          "m_vecClickables": 1312,
+          "m_vecEncounters": 1240,
+          "m_vecEventActionGrantAndClaimPairTriggers": 320,
+          "m_vecEventActionTriggers": 296,
+          "m_vecFortuneForcedReveals": 1032,
+          "m_vecFortuneTellerFixedReward": 1056,
+          "m_vecFortuneTellerRewards": 1008,
+          "m_vecFortuneTellerStoryNodes": 1080,
+          "m_vecFortuneWeightForUnseenAmount": 264,
+          "m_vecHeroRewards": 1144,
+          "m_vecHeroes": 1264,
+          "m_vecNodes": 1168,
+          "m_vecPathColorRules": 344,
+          "m_vecPaths": 1192,
+          "m_vecReleaseSchedule": 144,
+          "m_vecRoomGroups": 1536,
+          "m_vecRooms": 1216,
+          "m_vecStartNodeIds": 168,
+          "m_vecTarotCards": 984,
+          "m_vecTokenTypes": 936
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CDOTAPlayerPawn": {
         "fields": {
           "m_nPlayerID": 3624
@@ -28360,8 +28429,8 @@
           "bonus_damage_creeps": 6916,
           "damage": 6920,
           "knockback_distance": 6912,
-          "m_bLastRollSuccess": 6930,
           "m_iLastRolledRecord": 6928,
+          "m_vecSuccessfulRolls": 6936,
           "proc_chance": 6904,
           "slow_duration": 6908
         },
@@ -54942,7 +55011,32 @@
         },
         "type": "uint32"
       },
+      "_A_K__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "___K__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "___L__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
       "______": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_k_K__": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_r_K__": {
         "alignment": 0,
         "members": {},
         "type": "unknown"

@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:35:14.355654500 +07:00
+// 2026-11-22 15:00:19.948492600 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 7010
-    // Enum count: 121
+    // Class count: 7011
+    // Enum count: 124
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -2100,7 +2100,7 @@ namespace Source2Dumper.Schemas {
             public const nint damage = 0x1B08; // float32
             public const nint attack_effectiveness = 0x1B0C; // float32
             public const nint m_iLastRolledRecord = 0x1B10; // AttackRecord_t
-            public const nint m_bLastRollSuccess = 0x1B12; // bool
+            public const nint m_vecSuccessfulRolls = 0x1B18; // CUtlVector<AttackRecord_t>
         }
         // Parent: None
         // Field count: 1
@@ -43770,6 +43770,71 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CSurvivorsEnemyGolem {
+        }
+        // Parent: None
+        // Field count: 58
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class CDOTAOverworldDefinition {
+            public const nint generic_data_type = 0x0; // CUtlString
+            public const nint m_unID = 0x8; // OverworldID_t
+            public const nint m_sKey = 0x10; // CUtlString
+            public const nint m_eAssociatedEvent = 0x18; // EEvent
+            public const nint m_eProgressionType = 0x1C; // EOverworldProgressionType
+            public const nint m_unOverworldVersion = 0x20; // uint8
+            public const nint m_sTokenTraderEncounterName = 0x28; // CUtlString
+            public const nint m_sNodeUnlockEventAction = 0x30; // CUtlString
+            public const nint m_vGridOffset = 0x38; // Vector2D
+            public const nint m_unGridSize = 0x40; // uint32
+            public const nint m_unNodeGridSize = 0x44; // uint32
+            public const nint m_unMapWidth = 0x48; // uint32
+            public const nint m_unMapHeight = 0x4C; // uint32
+            public const nint m_vecCameraDistances = 0x50; // CUtlVector<float32>
+            public const nint m_flMinCameraDistance = 0x68; // float32
+            public const nint m_flMaxCameraDistance = 0x6C; // float32
+            public const nint m_flInnerCameraDistanceThreshold = 0x70; // float32
+            public const nint m_vMinCameraBounds = 0x74; // Vector2D
+            public const nint m_vMaxCameraBounds = 0x7C; // Vector2D
+            public const nint m_flRoomUIScale = 0x84; // float32
+            public const nint m_sMapVisualsXmlPath = 0x88; // CUtlString
+            public const nint m_vecReleaseSchedule = 0x90; // CUtlVector<DOTAOverworldReleaseScheduledUnlock_t>
+            public const nint m_vecStartNodeIds = 0xA8; // CUtlVector<OverworldNodeID_t>
+            public const nint m_unEndNodeID = 0xC0; // OverworldNodeID_t
+            public const nint m_sVisualNovelName = 0xC8; // CUtlString
+            public const nint m_sTokenLocStringPrefix = 0xD0; // CUtlString
+            public const nint m_sActNumberLocString = 0xD8; // CUtlString
+            public const nint m_sActTitleLocString = 0xE0; // CUtlString
+            public const nint m_unPremiumItemDef = 0xE8; // item_definition_index_t
+            public const nint m_unFullCompletionItemDef = 0xEC; // item_definition_index_t
+            public const nint m_unScrapTokenID = 0xF0; // OverworldTokenID_t
+            public const nint m_unFortuneDuration = 0xF4; // uint32
+            public const nint m_unPathUnlockerTokenID = 0xF8; // OverworldTokenID_t
+            public const nint m_unFortuneCountForPermanentReward = 0xFC; // int32
+            public const nint m_unTimesFortuneCanBeSeenBeforeRepeats = 0x100; // int32
+            public const nint m_vecFortuneWeightForUnseenAmount = 0x108; // CUtlVector<int32>
+            public const nint m_nMaxTokenCap = 0x120; // int32
+            public const nint m_vecEventActionTriggers = 0x128; // CUtlVector<CDOTAEventActionTrigger>
+            public const nint m_vecEventActionGrantAndClaimPairTriggers = 0x140; // CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
+            public const nint m_vecPathColorRules = 0x158; // CUtlVector<CDOTAOverworldPathColorRule>
+            public const nint m_strNarrationVisualNovel = 0x170; // CUtlString
+            public const nint m_mapNarrationDialogues = 0x178; // CUtlOrderedMap<CUtlString,CUtlString>
+            public const nint m_Theme = 0x370; // CDOTAOverworldTheme
+            public const nint m_vecTokenTypes = 0x3A8; // CUtlVector<CDOTAOverworldToken*>
+            public const nint m_vecTarotCards = 0x3D8; // CUtlVector<CDOTAOverworldTarotCard*>
+            public const nint m_vecFortuneTellerRewards = 0x3F0; // CUtlVector<CDOTAOverworldFortuneTellerReward*>
+            public const nint m_vecFortuneForcedReveals = 0x408; // CUtlVector<CDOTAOverworldFortuneForcedReveal*>
+            public const nint m_vecFortuneTellerFixedReward = 0x420; // CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
+            public const nint m_vecFortuneTellerStoryNodes = 0x438; // CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
+            public const nint m_vecHeroRewards = 0x478; // CUtlVector<CDOTAOverworldHeroReward*>
+            public const nint m_vecNodes = 0x490; // CUtlVector<CDOTAOverworldNode*>
+            public const nint m_vecPaths = 0x4A8; // CUtlVector<CDOTAOverworldPath*>
+            public const nint m_vecRooms = 0x4C0; // CUtlVector<CDOTAOverworldRoom*>
+            public const nint m_vecEncounters = 0x4D8; // CUtlVector<CDOTAOverworldEncounter*>
+            public const nint m_vecHeroes = 0x4F0; // CUtlVector<CDOTAOverworldHero*>
+            public const nint m_vecCharacters = 0x508; // CUtlVector<CDOTAOverworldCharacter*>
+            public const nint m_vecClickables = 0x520; // CUtlVector<CDOTAOverworldClickable*>
+            public const nint m_vecRoomGroups = 0x600; // CUtlVector<CDOTAOverworldRoomGroup*>
         }
         // Parent: None
         // Field count: 5

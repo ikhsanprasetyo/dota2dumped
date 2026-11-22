@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:35:14.355654500 +07:00
+// 2026-11-22 15:00:19.948492600 +07:00
 
 #pragma once
 
@@ -9708,7 +9708,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t damage = 0x1B08; // float32
                 constexpr std::ptrdiff_t attack_effectiveness = 0x1B0C; // float32
                 constexpr std::ptrdiff_t m_iLastRolledRecord = 0x1B10; // AttackRecord_t
-                constexpr std::ptrdiff_t m_bLastRollSuccess = 0x1B12; // bool
+                constexpr std::ptrdiff_t m_vecSuccessfulRolls = 0x1B18; // CUtlVector<AttackRecord_t>
             }
             // Parent: None
             // Field count: 0
@@ -29753,16 +29753,19 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flAttackSlow = 0x1B0C; // float32
             }
             // Parent: None
-            // Field count: 8
+            // Field count: 11
             namespace CDOTA_Modifier_Morphling_Replicate_Echo_Source {
-                constexpr std::ptrdiff_t scepter_echo_count = 0x1AF8; // int32
-                constexpr std::ptrdiff_t scepter_echo_cast_delay = 0x1AFC; // float32
-                constexpr std::ptrdiff_t scepter_echo_appear_distance = 0x1B00; // float32
-                constexpr std::ptrdiff_t scepter_echo_visible_duration = 0x1B04; // float32
-                constexpr std::ptrdiff_t scepter_echo_retarget_radius = 0x1B08; // float32
-                constexpr std::ptrdiff_t scepter_echo_damage_outgoing_pct = 0x1B0C; // float32
-                constexpr std::ptrdiff_t scepter_echo_damage_falloff_pct = 0x1B10; // float32
-                constexpr std::ptrdiff_t scepter_echo_min_model_scale = 0x1B14; // float32
+                constexpr std::ptrdiff_t m_hPendingSnowball = 0x1AF8; // CHandle<CBaseEntity>
+                constexpr std::ptrdiff_t m_hPendingSnowballTarget = 0x1AFC; // CHandle<CBaseEntity>
+                constexpr std::ptrdiff_t m_flPendingSnowballWindupEnd = 0x1B00; // GameTime_t
+                constexpr std::ptrdiff_t scepter_echo_count = 0x1B04; // int32
+                constexpr std::ptrdiff_t scepter_echo_cast_delay = 0x1B08; // float32
+                constexpr std::ptrdiff_t scepter_echo_appear_distance = 0x1B0C; // float32
+                constexpr std::ptrdiff_t scepter_echo_visible_duration = 0x1B10; // float32
+                constexpr std::ptrdiff_t scepter_echo_retarget_radius = 0x1B14; // float32
+                constexpr std::ptrdiff_t scepter_echo_damage_outgoing_pct = 0x1B18; // float32
+                constexpr std::ptrdiff_t scepter_echo_damage_falloff_pct = 0x1B1C; // float32
+                constexpr std::ptrdiff_t scepter_echo_min_model_scale = 0x1B20; // float32
             }
             // Parent: None
             // Field count: 0
@@ -54345,7 +54348,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_FXIndex = 0x1B30; // CUtlVector<ParticleIndex_t>
             }
             // Parent: None
-            // Field count: 9
+            // Field count: 10
             namespace CDOTA_Modifier_Morphling_Replicate_Echo {
                 constexpr std::ptrdiff_t m_hTarget = 0x1AF8; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_hEchoAbility = 0x1AFC; // CHandle<CBaseEntity>
@@ -54354,8 +54357,9 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t m_flExpireTime = 0x1B08; // GameTime_t
                 constexpr std::ptrdiff_t m_hChannelAbility = 0x1B0C; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_flLastChannelThinkTime = 0x1B10; // GameTime_t
-                constexpr std::ptrdiff_t echo_power = 0x1B14; // float32
-                constexpr std::ptrdiff_t scepter_echo_visible_duration = 0x1B18; // float32
+                constexpr std::ptrdiff_t m_hDebuffTarget = 0x1B14; // CHandle<CBaseEntity>
+                constexpr std::ptrdiff_t echo_power = 0x1B30; // float32
+                constexpr std::ptrdiff_t scepter_echo_visible_duration = 0x1B34; // float32
             }
             // Parent: None
             // Field count: 0

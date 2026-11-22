@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:35:14.355654500 +07:00
+// 2026-11-22 15:00:19.948492600 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7010
-        // Enum count: 121
+        // Class count: 7011
+        // Enum count: 124
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -2106,7 +2106,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t damage = 0x1B08; // float32
                 constexpr std::ptrdiff_t attack_effectiveness = 0x1B0C; // float32
                 constexpr std::ptrdiff_t m_iLastRolledRecord = 0x1B10; // AttackRecord_t
-                constexpr std::ptrdiff_t m_bLastRollSuccess = 0x1B12; // bool
+                constexpr std::ptrdiff_t m_vecSuccessfulRolls = 0x1B18; // CUtlVector<AttackRecord_t>
             }
             // Parent: None
             // Field count: 1
@@ -43776,6 +43776,71 @@ namespace source2_dumper {
             // Parent: None
             // Field count: 0
             namespace CSurvivorsEnemyGolem {
+            }
+            // Parent: None
+            // Field count: 58
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CDOTAOverworldDefinition {
+                constexpr std::ptrdiff_t generic_data_type = 0x0; // CUtlString
+                constexpr std::ptrdiff_t m_unID = 0x8; // OverworldID_t
+                constexpr std::ptrdiff_t m_sKey = 0x10; // CUtlString
+                constexpr std::ptrdiff_t m_eAssociatedEvent = 0x18; // EEvent
+                constexpr std::ptrdiff_t m_eProgressionType = 0x1C; // EOverworldProgressionType
+                constexpr std::ptrdiff_t m_unOverworldVersion = 0x20; // uint8
+                constexpr std::ptrdiff_t m_sTokenTraderEncounterName = 0x28; // CUtlString
+                constexpr std::ptrdiff_t m_sNodeUnlockEventAction = 0x30; // CUtlString
+                constexpr std::ptrdiff_t m_vGridOffset = 0x38; // Vector2D
+                constexpr std::ptrdiff_t m_unGridSize = 0x40; // uint32
+                constexpr std::ptrdiff_t m_unNodeGridSize = 0x44; // uint32
+                constexpr std::ptrdiff_t m_unMapWidth = 0x48; // uint32
+                constexpr std::ptrdiff_t m_unMapHeight = 0x4C; // uint32
+                constexpr std::ptrdiff_t m_vecCameraDistances = 0x50; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_flMinCameraDistance = 0x68; // float32
+                constexpr std::ptrdiff_t m_flMaxCameraDistance = 0x6C; // float32
+                constexpr std::ptrdiff_t m_flInnerCameraDistanceThreshold = 0x70; // float32
+                constexpr std::ptrdiff_t m_vMinCameraBounds = 0x74; // Vector2D
+                constexpr std::ptrdiff_t m_vMaxCameraBounds = 0x7C; // Vector2D
+                constexpr std::ptrdiff_t m_flRoomUIScale = 0x84; // float32
+                constexpr std::ptrdiff_t m_sMapVisualsXmlPath = 0x88; // CUtlString
+                constexpr std::ptrdiff_t m_vecReleaseSchedule = 0x90; // CUtlVector<DOTAOverworldReleaseScheduledUnlock_t>
+                constexpr std::ptrdiff_t m_vecStartNodeIds = 0xA8; // CUtlVector<OverworldNodeID_t>
+                constexpr std::ptrdiff_t m_unEndNodeID = 0xC0; // OverworldNodeID_t
+                constexpr std::ptrdiff_t m_sVisualNovelName = 0xC8; // CUtlString
+                constexpr std::ptrdiff_t m_sTokenLocStringPrefix = 0xD0; // CUtlString
+                constexpr std::ptrdiff_t m_sActNumberLocString = 0xD8; // CUtlString
+                constexpr std::ptrdiff_t m_sActTitleLocString = 0xE0; // CUtlString
+                constexpr std::ptrdiff_t m_unPremiumItemDef = 0xE8; // item_definition_index_t
+                constexpr std::ptrdiff_t m_unFullCompletionItemDef = 0xEC; // item_definition_index_t
+                constexpr std::ptrdiff_t m_unScrapTokenID = 0xF0; // OverworldTokenID_t
+                constexpr std::ptrdiff_t m_unFortuneDuration = 0xF4; // uint32
+                constexpr std::ptrdiff_t m_unPathUnlockerTokenID = 0xF8; // OverworldTokenID_t
+                constexpr std::ptrdiff_t m_unFortuneCountForPermanentReward = 0xFC; // int32
+                constexpr std::ptrdiff_t m_unTimesFortuneCanBeSeenBeforeRepeats = 0x100; // int32
+                constexpr std::ptrdiff_t m_vecFortuneWeightForUnseenAmount = 0x108; // CUtlVector<int32>
+                constexpr std::ptrdiff_t m_nMaxTokenCap = 0x120; // int32
+                constexpr std::ptrdiff_t m_vecEventActionTriggers = 0x128; // CUtlVector<CDOTAEventActionTrigger>
+                constexpr std::ptrdiff_t m_vecEventActionGrantAndClaimPairTriggers = 0x140; // CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
+                constexpr std::ptrdiff_t m_vecPathColorRules = 0x158; // CUtlVector<CDOTAOverworldPathColorRule>
+                constexpr std::ptrdiff_t m_strNarrationVisualNovel = 0x170; // CUtlString
+                constexpr std::ptrdiff_t m_mapNarrationDialogues = 0x178; // CUtlOrderedMap<CUtlString,CUtlString>
+                constexpr std::ptrdiff_t m_Theme = 0x370; // CDOTAOverworldTheme
+                constexpr std::ptrdiff_t m_vecTokenTypes = 0x3A8; // CUtlVector<CDOTAOverworldToken*>
+                constexpr std::ptrdiff_t m_vecTarotCards = 0x3D8; // CUtlVector<CDOTAOverworldTarotCard*>
+                constexpr std::ptrdiff_t m_vecFortuneTellerRewards = 0x3F0; // CUtlVector<CDOTAOverworldFortuneTellerReward*>
+                constexpr std::ptrdiff_t m_vecFortuneForcedReveals = 0x408; // CUtlVector<CDOTAOverworldFortuneForcedReveal*>
+                constexpr std::ptrdiff_t m_vecFortuneTellerFixedReward = 0x420; // CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
+                constexpr std::ptrdiff_t m_vecFortuneTellerStoryNodes = 0x438; // CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
+                constexpr std::ptrdiff_t m_vecHeroRewards = 0x478; // CUtlVector<CDOTAOverworldHeroReward*>
+                constexpr std::ptrdiff_t m_vecNodes = 0x490; // CUtlVector<CDOTAOverworldNode*>
+                constexpr std::ptrdiff_t m_vecPaths = 0x4A8; // CUtlVector<CDOTAOverworldPath*>
+                constexpr std::ptrdiff_t m_vecRooms = 0x4C0; // CUtlVector<CDOTAOverworldRoom*>
+                constexpr std::ptrdiff_t m_vecEncounters = 0x4D8; // CUtlVector<CDOTAOverworldEncounter*>
+                constexpr std::ptrdiff_t m_vecHeroes = 0x4F0; // CUtlVector<CDOTAOverworldHero*>
+                constexpr std::ptrdiff_t m_vecCharacters = 0x508; // CUtlVector<CDOTAOverworldCharacter*>
+                constexpr std::ptrdiff_t m_vecClickables = 0x520; // CUtlVector<CDOTAOverworldClickable*>
+                constexpr std::ptrdiff_t m_vecRoomGroups = 0x600; // CUtlVector<CDOTAOverworldRoomGroup*>
             }
             // Parent: None
             // Field count: 5

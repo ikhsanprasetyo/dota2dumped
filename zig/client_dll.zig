@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:35:14.355654500 +07:00
+// 2026-11-22 15:00:19.948492600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 7010
-        // Enum count: 121
+        // Class count: 7011
+        // Enum count: 124
         pub const client_dll = struct {
             // Alignment: 4
             // Member count: 5
@@ -2100,7 +2100,7 @@ pub const source2_dumper = struct {
                 pub const damage: usize = 0x1B08; // float32
                 pub const attack_effectiveness: usize = 0x1B0C; // float32
                 pub const m_iLastRolledRecord: usize = 0x1B10; // AttackRecord_t
-                pub const m_bLastRollSuccess: usize = 0x1B12; // bool
+                pub const m_vecSuccessfulRolls: usize = 0x1B18; // CUtlVector<AttackRecord_t>
             };
             // Parent: None
             // Field count: 1
@@ -43770,6 +43770,71 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 0
             pub const CSurvivorsEnemyGolem = struct {
+            };
+            // Parent: None
+            // Field count: 58
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CDOTAOverworldDefinition = struct {
+                pub const generic_data_type: usize = 0x0; // CUtlString
+                pub const m_unID: usize = 0x8; // OverworldID_t
+                pub const m_sKey: usize = 0x10; // CUtlString
+                pub const m_eAssociatedEvent: usize = 0x18; // EEvent
+                pub const m_eProgressionType: usize = 0x1C; // EOverworldProgressionType
+                pub const m_unOverworldVersion: usize = 0x20; // uint8
+                pub const m_sTokenTraderEncounterName: usize = 0x28; // CUtlString
+                pub const m_sNodeUnlockEventAction: usize = 0x30; // CUtlString
+                pub const m_vGridOffset: usize = 0x38; // Vector2D
+                pub const m_unGridSize: usize = 0x40; // uint32
+                pub const m_unNodeGridSize: usize = 0x44; // uint32
+                pub const m_unMapWidth: usize = 0x48; // uint32
+                pub const m_unMapHeight: usize = 0x4C; // uint32
+                pub const m_vecCameraDistances: usize = 0x50; // CUtlVector<float32>
+                pub const m_flMinCameraDistance: usize = 0x68; // float32
+                pub const m_flMaxCameraDistance: usize = 0x6C; // float32
+                pub const m_flInnerCameraDistanceThreshold: usize = 0x70; // float32
+                pub const m_vMinCameraBounds: usize = 0x74; // Vector2D
+                pub const m_vMaxCameraBounds: usize = 0x7C; // Vector2D
+                pub const m_flRoomUIScale: usize = 0x84; // float32
+                pub const m_sMapVisualsXmlPath: usize = 0x88; // CUtlString
+                pub const m_vecReleaseSchedule: usize = 0x90; // CUtlVector<DOTAOverworldReleaseScheduledUnlock_t>
+                pub const m_vecStartNodeIds: usize = 0xA8; // CUtlVector<OverworldNodeID_t>
+                pub const m_unEndNodeID: usize = 0xC0; // OverworldNodeID_t
+                pub const m_sVisualNovelName: usize = 0xC8; // CUtlString
+                pub const m_sTokenLocStringPrefix: usize = 0xD0; // CUtlString
+                pub const m_sActNumberLocString: usize = 0xD8; // CUtlString
+                pub const m_sActTitleLocString: usize = 0xE0; // CUtlString
+                pub const m_unPremiumItemDef: usize = 0xE8; // item_definition_index_t
+                pub const m_unFullCompletionItemDef: usize = 0xEC; // item_definition_index_t
+                pub const m_unScrapTokenID: usize = 0xF0; // OverworldTokenID_t
+                pub const m_unFortuneDuration: usize = 0xF4; // uint32
+                pub const m_unPathUnlockerTokenID: usize = 0xF8; // OverworldTokenID_t
+                pub const m_unFortuneCountForPermanentReward: usize = 0xFC; // int32
+                pub const m_unTimesFortuneCanBeSeenBeforeRepeats: usize = 0x100; // int32
+                pub const m_vecFortuneWeightForUnseenAmount: usize = 0x108; // CUtlVector<int32>
+                pub const m_nMaxTokenCap: usize = 0x120; // int32
+                pub const m_vecEventActionTriggers: usize = 0x128; // CUtlVector<CDOTAEventActionTrigger>
+                pub const m_vecEventActionGrantAndClaimPairTriggers: usize = 0x140; // CUtlVector<CDOTAEventActionGrantAndClaimPairTrigger>
+                pub const m_vecPathColorRules: usize = 0x158; // CUtlVector<CDOTAOverworldPathColorRule>
+                pub const m_strNarrationVisualNovel: usize = 0x170; // CUtlString
+                pub const m_mapNarrationDialogues: usize = 0x178; // CUtlOrderedMap<CUtlString,CUtlString>
+                pub const m_Theme: usize = 0x370; // CDOTAOverworldTheme
+                pub const m_vecTokenTypes: usize = 0x3A8; // CUtlVector<CDOTAOverworldToken*>
+                pub const m_vecTarotCards: usize = 0x3D8; // CUtlVector<CDOTAOverworldTarotCard*>
+                pub const m_vecFortuneTellerRewards: usize = 0x3F0; // CUtlVector<CDOTAOverworldFortuneTellerReward*>
+                pub const m_vecFortuneForcedReveals: usize = 0x408; // CUtlVector<CDOTAOverworldFortuneForcedReveal*>
+                pub const m_vecFortuneTellerFixedReward: usize = 0x420; // CUtlVector<CDOTAOverworldFortuneTellerFixedReward*>
+                pub const m_vecFortuneTellerStoryNodes: usize = 0x438; // CUtlVector<CDOTAOverworldFortuneTellerStoryNode*>
+                pub const m_vecHeroRewards: usize = 0x478; // CUtlVector<CDOTAOverworldHeroReward*>
+                pub const m_vecNodes: usize = 0x490; // CUtlVector<CDOTAOverworldNode*>
+                pub const m_vecPaths: usize = 0x4A8; // CUtlVector<CDOTAOverworldPath*>
+                pub const m_vecRooms: usize = 0x4C0; // CUtlVector<CDOTAOverworldRoom*>
+                pub const m_vecEncounters: usize = 0x4D8; // CUtlVector<CDOTAOverworldEncounter*>
+                pub const m_vecHeroes: usize = 0x4F0; // CUtlVector<CDOTAOverworldHero*>
+                pub const m_vecCharacters: usize = 0x508; // CUtlVector<CDOTAOverworldCharacter*>
+                pub const m_vecClickables: usize = 0x520; // CUtlVector<CDOTAOverworldClickable*>
+                pub const m_vecRoomGroups: usize = 0x600; // CUtlVector<CDOTAOverworldRoomGroup*>
             };
             // Parent: None
             // Field count: 5

@@ -38860,29 +38860,33 @@
       },
       "CDOTA_Modifier_Morphling_Replicate_Echo": {
         "fields": {
-          "echo_power": 6932,
+          "echo_power": 6960,
           "m_bSpent": 6916,
           "m_flExpireTime": 6920,
           "m_flLastChannelThinkTime": 6928,
           "m_hChannelAbility": 6924,
+          "m_hDebuffTarget": 6932,
           "m_hEchoAbility": 6908,
           "m_hTarget": 6904,
           "m_nEchoIndex": 6912,
-          "scepter_echo_visible_duration": 6936
+          "scepter_echo_visible_duration": 6964
         },
         "metadata": [],
         "parent": null
       },
       "CDOTA_Modifier_Morphling_Replicate_Echo_Source": {
         "fields": {
-          "scepter_echo_appear_distance": 6912,
-          "scepter_echo_cast_delay": 6908,
-          "scepter_echo_count": 6904,
-          "scepter_echo_damage_falloff_pct": 6928,
-          "scepter_echo_damage_outgoing_pct": 6924,
-          "scepter_echo_min_model_scale": 6932,
-          "scepter_echo_retarget_radius": 6920,
-          "scepter_echo_visible_duration": 6916
+          "m_flPendingSnowballWindupEnd": 6912,
+          "m_hPendingSnowball": 6904,
+          "m_hPendingSnowballTarget": 6908,
+          "scepter_echo_appear_distance": 6924,
+          "scepter_echo_cast_delay": 6920,
+          "scepter_echo_count": 6916,
+          "scepter_echo_damage_falloff_pct": 6940,
+          "scepter_echo_damage_outgoing_pct": 6936,
+          "scepter_echo_min_model_scale": 6944,
+          "scepter_echo_retarget_radius": 6932,
+          "scepter_echo_visible_duration": 6928
         },
         "metadata": [],
         "parent": null
@@ -45762,8 +45766,8 @@
           "bonus_damage_creeps": 6916,
           "damage": 6920,
           "knockback_distance": 6912,
-          "m_bLastRollSuccess": 6930,
           "m_iLastRolledRecord": 6928,
+          "m_vecSuccessfulRolls": 6936,
           "proc_chance": 6904,
           "slow_duration": 6908
         },

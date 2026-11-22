@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-19 23:35:14.355654500 +07:00
+// 2026-11-22 15:00:19.948492600 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
@@ -9671,7 +9671,7 @@ pub const source2_dumper = struct {
                 pub const damage: usize = 0x1B08; // float32
                 pub const attack_effectiveness: usize = 0x1B0C; // float32
                 pub const m_iLastRolledRecord: usize = 0x1B10; // AttackRecord_t
-                pub const m_bLastRollSuccess: usize = 0x1B12; // bool
+                pub const m_vecSuccessfulRolls: usize = 0x1B18; // CUtlVector<AttackRecord_t>
             };
             // Parent: None
             // Field count: 0
@@ -29716,16 +29716,19 @@ pub const source2_dumper = struct {
                 pub const m_flAttackSlow: usize = 0x1B0C; // float32
             };
             // Parent: None
-            // Field count: 8
+            // Field count: 11
             pub const CDOTA_Modifier_Morphling_Replicate_Echo_Source = struct {
-                pub const scepter_echo_count: usize = 0x1AF8; // int32
-                pub const scepter_echo_cast_delay: usize = 0x1AFC; // float32
-                pub const scepter_echo_appear_distance: usize = 0x1B00; // float32
-                pub const scepter_echo_visible_duration: usize = 0x1B04; // float32
-                pub const scepter_echo_retarget_radius: usize = 0x1B08; // float32
-                pub const scepter_echo_damage_outgoing_pct: usize = 0x1B0C; // float32
-                pub const scepter_echo_damage_falloff_pct: usize = 0x1B10; // float32
-                pub const scepter_echo_min_model_scale: usize = 0x1B14; // float32
+                pub const m_hPendingSnowball: usize = 0x1AF8; // CHandle<CBaseEntity>
+                pub const m_hPendingSnowballTarget: usize = 0x1AFC; // CHandle<CBaseEntity>
+                pub const m_flPendingSnowballWindupEnd: usize = 0x1B00; // GameTime_t
+                pub const scepter_echo_count: usize = 0x1B04; // int32
+                pub const scepter_echo_cast_delay: usize = 0x1B08; // float32
+                pub const scepter_echo_appear_distance: usize = 0x1B0C; // float32
+                pub const scepter_echo_visible_duration: usize = 0x1B10; // float32
+                pub const scepter_echo_retarget_radius: usize = 0x1B14; // float32
+                pub const scepter_echo_damage_outgoing_pct: usize = 0x1B18; // float32
+                pub const scepter_echo_damage_falloff_pct: usize = 0x1B1C; // float32
+                pub const scepter_echo_min_model_scale: usize = 0x1B20; // float32
             };
             // Parent: None
             // Field count: 0
@@ -54308,7 +54311,7 @@ pub const source2_dumper = struct {
                 pub const m_FXIndex: usize = 0x1B30; // CUtlVector<ParticleIndex_t>
             };
             // Parent: None
-            // Field count: 9
+            // Field count: 10
             pub const CDOTA_Modifier_Morphling_Replicate_Echo = struct {
                 pub const m_hTarget: usize = 0x1AF8; // CHandle<CBaseEntity>
                 pub const m_hEchoAbility: usize = 0x1AFC; // CHandle<CBaseEntity>
@@ -54317,8 +54320,9 @@ pub const source2_dumper = struct {
                 pub const m_flExpireTime: usize = 0x1B08; // GameTime_t
                 pub const m_hChannelAbility: usize = 0x1B0C; // CHandle<CBaseEntity>
                 pub const m_flLastChannelThinkTime: usize = 0x1B10; // GameTime_t
-                pub const echo_power: usize = 0x1B14; // float32
-                pub const scepter_echo_visible_duration: usize = 0x1B18; // float32
+                pub const m_hDebuffTarget: usize = 0x1B14; // CHandle<CBaseEntity>
+                pub const echo_power: usize = 0x1B30; // float32
+                pub const scepter_echo_visible_duration: usize = 0x1B34; // float32
             };
             // Parent: None
             // Field count: 0
