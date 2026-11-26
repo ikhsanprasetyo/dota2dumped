@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-22 15:00:19.948492600 +07:00
+# 2026-11-26 21:46:41.980512300 +07:00
 
 class Schemas:
     # Module: server.dll
@@ -8237,6 +8237,10 @@ class Schemas:
             MOVETYPE_OBSERVER = 0x8
             MOVETYPE_CUSTOM = 0x9
             MOVETYPE_LAST = 0xA
+        class PQ____:
+            pass
+        class _u____:
+            pass
         class CDOTA_Modifier_AghsFort_Arcanist_Potion:
             m_nCooldownReductionPct = 0x1AF8 # int32
             m_nManaCostReductionPct = 0x1AFC # int32
@@ -13126,6 +13130,8 @@ class Schemas:
             pass
         class CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3:
             pass
+        class CDOTA_Ability_Special_Bonus_HP_Regen_4_5:
+            pass
         class CDOTA_Unit_Hero_Lich:
             pass
         class CDOTA_Modifier_Morty_Hop:
@@ -17075,7 +17081,7 @@ class Schemas:
             total_damage = 0x1AFC # float32
             channel_time = 0x1B00 # float32
         class CDOTA_Modifier_Special_Bonus_HP_Regen:
-            value = 0x1AF8 # int32
+            value = 0x1AF8 # float32
         class CDOTA_Modifier_Giant_Maul:
             crit_multiplier = 0x1AF8 # float32
             debuff_duration = 0x1AFC # float32
@@ -23056,7 +23062,7 @@ class Schemas:
             base_slow_resist = 0x1AFC # int32
             base_aoe = 0x1B00 # int32
             hp_per_threshold = 0x1B04 # int32
-            slow_resistance_per_threshold = 0x1B08 # int32
+            slow_resistance_per_threshold = 0x1B08 # float32
             aoe_per_threshold = 0x1B0C # float32
             trample_bonus = 0x1B10 # float32
         class CDOTA_Modifier_PrimalBeast_Uproar_Slow:
@@ -29457,8 +29463,6 @@ class Schemas:
             m_flCurTime = 0x1B20 # float32
         class CDOTA_Modifier_Shadow_Demon_Menace:
             duration = 0x1AF8 # float32
-        class CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range:
-            attack_range = 0x1AF8 # int32
         class CDOTA_Modifier_Clinkz_BurningBarrage_DamageReduction:
             pass
         class CDOTA_Modifier_Leshrac_Lightning_Storm_Slow:
@@ -32545,6 +32549,7 @@ class Schemas:
             damage_reduction_pct = 0x1AF8 # int32
         class CDOTA_Modifier_Lycan_Pack_Hunter:
             mark_duration = 0x1AF8 # float32
+            mark_range = 0x1AFC # float32
         class CDOTA_Ability_Animation_LeftClawSwipe:
             pass
         class CDOTA_Modifier_Animation_RightClawSwipe:
@@ -37339,3 +37344,5 @@ class Schemas:
         class CNavVolumeSphere:
             m_vCenter = 0x78 # VectorWS
             m_flRadius = 0x84 # float32
+        class __J___:
+            pass

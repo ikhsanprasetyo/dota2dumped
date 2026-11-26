@@ -1,10 +1,10 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-22 15:00:19.948492600 +07:00
+// 2026-11-26 21:46:41.980512300 +07:00
 
 namespace Source2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 7350
-    // Enum count: 441
+    // Class count: 7351
+    // Enum count: 443
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -17605,6 +17605,10 @@ namespace Source2Dumper.Schemas {
         }
         // Parent: None
         // Field count: 0
+        public static class CDOTA_Ability_Special_Bonus_HP_Regen_4_5 {
+        }
+        // Parent: None
+        // Field count: 0
         public static class CDOTA_Unit_Hero_Lich {
         }
         // Parent: None
@@ -24304,7 +24308,7 @@ namespace Source2Dumper.Schemas {
         // Parent: None
         // Field count: 1
         public static class CDOTA_Modifier_Special_Bonus_HP_Regen {
-            public const nint value = 0x1AF8; // int32
+            public const nint value = 0x1AF8; // float32
         }
         // Parent: None
         // Field count: 3
@@ -34302,7 +34306,7 @@ namespace Source2Dumper.Schemas {
             public const nint base_slow_resist = 0x1AFC; // int32
             public const nint base_aoe = 0x1B00; // int32
             public const nint hp_per_threshold = 0x1B04; // int32
-            public const nint slow_resistance_per_threshold = 0x1B08; // int32
+            public const nint slow_resistance_per_threshold = 0x1B08; // float32
             public const nint aoe_per_threshold = 0x1B0C; // float32
             public const nint trample_bonus = 0x1B10; // float32
         }
@@ -44777,11 +44781,6 @@ namespace Source2Dumper.Schemas {
             public const nint duration = 0x1AF8; // float32
         }
         // Parent: None
-        // Field count: 1
-        public static class CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range {
-            public const nint attack_range = 0x1AF8; // int32
-        }
-        // Parent: None
         // Field count: 0
         public static class CDOTA_Modifier_Clinkz_BurningBarrage_DamageReduction {
         }
@@ -49723,9 +49722,10 @@ namespace Source2Dumper.Schemas {
             public const nint damage_reduction_pct = 0x1AF8; // int32
         }
         // Parent: None
-        // Field count: 1
+        // Field count: 2
         public static class CDOTA_Modifier_Lycan_Pack_Hunter {
             public const nint mark_duration = 0x1AF8; // float32
+            public const nint mark_range = 0x1AFC; // float32
         }
         // Parent: None
         // Field count: 0
@@ -57311,6 +57311,10 @@ namespace Source2Dumper.Schemas {
         public static class CNavVolumeSphere {
             public const nint m_vCenter = 0x78; // VectorWS
             public const nint m_flRadius = 0x84; // float32
+        }
+        // Parent: None
+        // Field count: 0
+        public static class __J___ {
         }
     }
 }

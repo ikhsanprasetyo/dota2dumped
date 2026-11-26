@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-22 15:00:19.948492600 +07:00
+// 2026-11-26 21:46:41.980512300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
-        // Class count: 7350
-        // Enum count: 441
+        // Class count: 7351
+        // Enum count: 443
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -17574,6 +17574,10 @@ pub const source2_dumper = struct {
             };
             // Parent: None
             // Field count: 0
+            pub const CDOTA_Ability_Special_Bonus_HP_Regen_4_5 = struct {
+            };
+            // Parent: None
+            // Field count: 0
             pub const CDOTA_Unit_Hero_Lich = struct {
             };
             // Parent: None
@@ -24273,7 +24277,7 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 1
             pub const CDOTA_Modifier_Special_Bonus_HP_Regen = struct {
-                pub const value: usize = 0x1AF8; // int32
+                pub const value: usize = 0x1AF8; // float32
             };
             // Parent: None
             // Field count: 3
@@ -34271,7 +34275,7 @@ pub const source2_dumper = struct {
                 pub const base_slow_resist: usize = 0x1AFC; // int32
                 pub const base_aoe: usize = 0x1B00; // int32
                 pub const hp_per_threshold: usize = 0x1B04; // int32
-                pub const slow_resistance_per_threshold: usize = 0x1B08; // int32
+                pub const slow_resistance_per_threshold: usize = 0x1B08; // float32
                 pub const aoe_per_threshold: usize = 0x1B0C; // float32
                 pub const trample_bonus: usize = 0x1B10; // float32
             };
@@ -44746,11 +44750,6 @@ pub const source2_dumper = struct {
                 pub const duration: usize = 0x1AF8; // float32
             };
             // Parent: None
-            // Field count: 1
-            pub const CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range = struct {
-                pub const attack_range: usize = 0x1AF8; // int32
-            };
-            // Parent: None
             // Field count: 0
             pub const CDOTA_Modifier_Clinkz_BurningBarrage_DamageReduction = struct {
             };
@@ -49692,9 +49691,10 @@ pub const source2_dumper = struct {
                 pub const damage_reduction_pct: usize = 0x1AF8; // int32
             };
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             pub const CDOTA_Modifier_Lycan_Pack_Hunter = struct {
                 pub const mark_duration: usize = 0x1AF8; // float32
+                pub const mark_range: usize = 0x1AFC; // float32
             };
             // Parent: None
             // Field count: 0
@@ -57280,6 +57280,10 @@ pub const source2_dumper = struct {
             pub const CNavVolumeSphere = struct {
                 pub const m_vCenter: usize = 0x78; // VectorWS
                 pub const m_flRadius: usize = 0x84; // float32
+            };
+            // Parent: None
+            // Field count: 0
+            pub const __J___ = struct {
             };
         };
     };

@@ -1,11 +1,11 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-22 15:00:19.948492600 +07:00
+// 2026-11-26 21:46:41.980512300 +07:00
 
 pub const source2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 7011
-        // Enum count: 124
+        // Class count: 7012
+        // Enum count: 118
         pub const client_dll = struct {
             // Alignment: 4
             // Member count: 5
@@ -15081,7 +15081,7 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 1
             pub const CDOTA_Modifier_Special_Bonus_HP_Regen = struct {
-                pub const value: usize = 0x1AF8; // int32
+                pub const value: usize = 0x1AF8; // float32
             };
             // Parent: None
             // Field count: 0
@@ -24341,7 +24341,7 @@ pub const source2_dumper = struct {
                 pub const base_slow_resist: usize = 0x1AFC; // int32
                 pub const base_aoe: usize = 0x1B00; // int32
                 pub const hp_per_threshold: usize = 0x1B04; // int32
-                pub const slow_resistance_per_threshold: usize = 0x1B08; // int32
+                pub const slow_resistance_per_threshold: usize = 0x1B08; // float32
                 pub const aoe_per_threshold: usize = 0x1B0C; // float32
                 pub const trample_bonus: usize = 0x1B10; // float32
             };
@@ -28441,6 +28441,10 @@ pub const source2_dumper = struct {
             // Parent: None
             // Field count: 0
             pub const C_DOTA_Ability_Special_Bonus_MP_Regen_150 = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            pub const C_DOTA_Ability_Special_Bonus_HP_Regen_4_5 = struct {
             };
             // Parent: None
             // Field count: 2
@@ -34198,11 +34202,6 @@ pub const source2_dumper = struct {
                 pub const duration: usize = 0x1AF8; // float32
             };
             // Parent: None
-            // Field count: 1
-            pub const CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range = struct {
-                pub const attack_range: usize = 0x1AF8; // int32
-            };
-            // Parent: None
             // Field count: 0
             pub const CDOTA_Modifier_Clinkz_BurningBarrage_DamageReduction = struct {
             };
@@ -38247,9 +38246,10 @@ pub const source2_dumper = struct {
                 pub const damage_reduction_pct: usize = 0x1AF8; // int32
             };
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             pub const CDOTA_Modifier_Lycan_Pack_Hunter = struct {
                 pub const mark_duration: usize = 0x1AF8; // float32
+                pub const mark_range: usize = 0x1AFC; // float32
             };
             // Parent: None
             // Field count: 4
@@ -43638,6 +43638,20 @@ pub const source2_dumper = struct {
             // Field count: 1
             pub const CSurvivorsPowerUp_Frostbite = struct {
                 pub const m_flScepterExplodeRadius: usize = 0x6F8; // float32
+            };
+            // Parent: None
+            // Field count: 7
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const CDOTARoadToTIChallengeDefinition = struct {
+                pub const m_eEvent: usize = 0x0; // EEvent
+                pub const m_unTotalQuestPeriods: usize = 0x4; // uint32
+                pub const m_unHeroesPerQuest: usize = 0x8; // uint32
+                pub const m_vecQuestPattern: usize = 0x10; // CUtlVector<uint32>
+                pub const m_unCullingBladeItemDef: usize = 0x28; // item_definition_index_t
+                pub const m_unRerollItemDef: usize = 0x2C; // item_definition_index_t
+                pub const m_vecQuests: usize = 0x30; // CUtlVector<RoadToTIQuestDefinition_t>
             };
             // Parent: None
             // Field count: 5

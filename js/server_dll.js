@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-22 15:00:19.948492600 +07:00
+// 2026-11-26 21:46:41.980512300 +07:00
 
 export const Schemas = {
     server_dll: {
@@ -8677,6 +8677,10 @@ export const Schemas = {
             MOVETYPE_CUSTOM: 0x9,
             MOVETYPE_LAST: 0xA,
         },
+        PQ____: {
+        },
+        _u____: {
+        },
         CDOTA_Modifier_AghsFort_Arcanist_Potion: {
             m_nCooldownReductionPct: 0x1AF8, // int32
             m_nManaCostReductionPct: 0x1AFC, // int32
@@ -14200,6 +14204,8 @@ export const Schemas = {
         },
         CDOTA_Ability_CDOTA_Ability_Special_Bonus_Unique_Grimstroke_3: {
         },
+        CDOTA_Ability_Special_Bonus_HP_Regen_4_5: {
+        },
         CDOTA_Unit_Hero_Lich: {
         },
         CDOTA_Modifier_Morty_Hop: {
@@ -18717,7 +18723,7 @@ export const Schemas = {
             channel_time: 0x1B00, // float32
         },
         CDOTA_Modifier_Special_Bonus_HP_Regen: {
-            value: 0x1AF8, // int32
+            value: 0x1AF8, // float32
         },
         CDOTA_Modifier_Giant_Maul: {
             crit_multiplier: 0x1AF8, // float32
@@ -25541,7 +25547,7 @@ export const Schemas = {
             base_slow_resist: 0x1AFC, // int32
             base_aoe: 0x1B00, // int32
             hp_per_threshold: 0x1B04, // int32
-            slow_resistance_per_threshold: 0x1B08, // int32
+            slow_resistance_per_threshold: 0x1B08, // float32
             aoe_per_threshold: 0x1B0C, // float32
             trample_bonus: 0x1B10, // float32
         },
@@ -32813,9 +32819,6 @@ export const Schemas = {
         CDOTA_Modifier_Shadow_Demon_Menace: {
             duration: 0x1AF8, // float32
         },
-        CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range: {
-            attack_range: 0x1AF8, // int32
-        },
         CDOTA_Modifier_Clinkz_BurningBarrage_DamageReduction: {
         },
         CDOTA_Modifier_Leshrac_Lightning_Storm_Slow: {
@@ -36275,6 +36278,7 @@ export const Schemas = {
         },
         CDOTA_Modifier_Lycan_Pack_Hunter: {
             mark_duration: 0x1AF8, // float32
+            mark_range: 0x1AFC, // float32
         },
         CDOTA_Ability_Animation_LeftClawSwipe: {
         },
@@ -41667,6 +41671,8 @@ export const Schemas = {
         CNavVolumeSphere: {
             m_vCenter: 0x78, // VectorWS
             m_flRadius: 0x84, // float32
+        },
+        __J___: {
         },
     },
 };

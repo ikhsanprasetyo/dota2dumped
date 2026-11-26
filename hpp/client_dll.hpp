@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-22 15:00:19.948492600 +07:00
+// 2026-11-26 21:46:41.980512300 +07:00
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace source2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 7011
-        // Enum count: 124
+        // Class count: 7012
+        // Enum count: 118
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -15087,7 +15087,7 @@ namespace source2_dumper {
             // Parent: None
             // Field count: 1
             namespace CDOTA_Modifier_Special_Bonus_HP_Regen {
-                constexpr std::ptrdiff_t value = 0x1AF8; // int32
+                constexpr std::ptrdiff_t value = 0x1AF8; // float32
             }
             // Parent: None
             // Field count: 0
@@ -24347,7 +24347,7 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t base_slow_resist = 0x1AFC; // int32
                 constexpr std::ptrdiff_t base_aoe = 0x1B00; // int32
                 constexpr std::ptrdiff_t hp_per_threshold = 0x1B04; // int32
-                constexpr std::ptrdiff_t slow_resistance_per_threshold = 0x1B08; // int32
+                constexpr std::ptrdiff_t slow_resistance_per_threshold = 0x1B08; // float32
                 constexpr std::ptrdiff_t aoe_per_threshold = 0x1B0C; // float32
                 constexpr std::ptrdiff_t trample_bonus = 0x1B10; // float32
             }
@@ -28447,6 +28447,10 @@ namespace source2_dumper {
             // Parent: None
             // Field count: 0
             namespace C_DOTA_Ability_Special_Bonus_MP_Regen_150 {
+            }
+            // Parent: None
+            // Field count: 0
+            namespace C_DOTA_Ability_Special_Bonus_HP_Regen_4_5 {
             }
             // Parent: None
             // Field count: 2
@@ -34204,11 +34208,6 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t duration = 0x1AF8; // float32
             }
             // Parent: None
-            // Field count: 1
-            namespace CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range {
-                constexpr std::ptrdiff_t attack_range = 0x1AF8; // int32
-            }
-            // Parent: None
             // Field count: 0
             namespace CDOTA_Modifier_Clinkz_BurningBarrage_DamageReduction {
             }
@@ -38253,9 +38252,10 @@ namespace source2_dumper {
                 constexpr std::ptrdiff_t damage_reduction_pct = 0x1AF8; // int32
             }
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             namespace CDOTA_Modifier_Lycan_Pack_Hunter {
                 constexpr std::ptrdiff_t mark_duration = 0x1AF8; // float32
+                constexpr std::ptrdiff_t mark_range = 0x1AFC; // float32
             }
             // Parent: None
             // Field count: 4
@@ -43644,6 +43644,20 @@ namespace source2_dumper {
             // Field count: 1
             namespace CSurvivorsPowerUp_Frostbite {
                 constexpr std::ptrdiff_t m_flScepterExplodeRadius = 0x6F8; // float32
+            }
+            // Parent: None
+            // Field count: 7
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace CDOTARoadToTIChallengeDefinition {
+                constexpr std::ptrdiff_t m_eEvent = 0x0; // EEvent
+                constexpr std::ptrdiff_t m_unTotalQuestPeriods = 0x4; // uint32
+                constexpr std::ptrdiff_t m_unHeroesPerQuest = 0x8; // uint32
+                constexpr std::ptrdiff_t m_vecQuestPattern = 0x10; // CUtlVector<uint32>
+                constexpr std::ptrdiff_t m_unCullingBladeItemDef = 0x28; // item_definition_index_t
+                constexpr std::ptrdiff_t m_unRerollItemDef = 0x2C; // item_definition_index_t
+                constexpr std::ptrdiff_t m_vecQuests = 0x30; // CUtlVector<RoadToTIQuestDefinition_t>
             }
             // Parent: None
             // Field count: 5

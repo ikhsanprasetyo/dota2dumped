@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-22 15:00:19.948492600 +07:00
+// 2026-11-26 21:46:41.980512300 +07:00
 
 package schemas
 
@@ -5563,7 +5563,7 @@ const (
     ClientDll_CDOTA_Modifier_AghsFort_ShadowShaman_Shackles_tick_interval = 0x1AF8 // float32
     ClientDll_CDOTA_Modifier_AghsFort_ShadowShaman_Shackles_total_damage = 0x1AFC // float32
     ClientDll_CDOTA_Modifier_AghsFort_ShadowShaman_Shackles_channel_time = 0x1B00 // float32
-    ClientDll_CDOTA_Modifier_Special_Bonus_HP_Regen_value = 0x1AF8 // int32
+    ClientDll_CDOTA_Modifier_Special_Bonus_HP_Regen_value = 0x1AF8 // float32
     ClientDll_CDOTA_Modifier_Giant_Maul_crit_multiplier = 0x1AF8 // float32
     ClientDll_CDOTA_Modifier_Giant_Maul_debuff_duration = 0x1AFC // float32
     ClientDll_CDOTA_Modifier_Item_Fallen_Sky_Burn_burn_dps_buildings = 0x1AF8 // int32
@@ -8811,7 +8811,7 @@ const (
     ClientDll_CDOTA_Modifier_Primal_Beast_Colossal_base_slow_resist = 0x1AFC // int32
     ClientDll_CDOTA_Modifier_Primal_Beast_Colossal_base_aoe = 0x1B00 // int32
     ClientDll_CDOTA_Modifier_Primal_Beast_Colossal_hp_per_threshold = 0x1B04 // int32
-    ClientDll_CDOTA_Modifier_Primal_Beast_Colossal_slow_resistance_per_threshold = 0x1B08 // int32
+    ClientDll_CDOTA_Modifier_Primal_Beast_Colossal_slow_resistance_per_threshold = 0x1B08 // float32
     ClientDll_CDOTA_Modifier_Primal_Beast_Colossal_aoe_per_threshold = 0x1B0C // float32
     ClientDll_CDOTA_Modifier_Primal_Beast_Colossal_trample_bonus = 0x1B10 // float32
     ClientDll_CDOTA_Modifier_PrimalBeast_Uproar_Slow_move_slow_per_stack = 0x1AF8 // int32
@@ -12251,7 +12251,6 @@ const (
     ClientDll_CDOTA_Modifier_Magnataur_Skewer_Impact_skewer_damage = 0x1AFC // int32
     ClientDll_CDOTA_Modifier_Magnataur_Skewer_Impact_damage_distance_pct = 0x1B00 // int32
     ClientDll_CDOTA_Modifier_Shadow_Demon_Menace_duration = 0x1AF8 // float32
-    ClientDll_CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range_attack_range = 0x1AF8 // int32
     ClientDll_CDOTA_Modifier_Leshrac_Lightning_Storm_Slow_movespeed_slow = 0x1AF8 // int32
     ClientDll_CDOTA_Modifier_SandKing_SandStorm_Blind_blind_pct = 0x1AF8 // int32
     ClientDll_C_DOTA_Item_UltimateScepter_2_m_bIsFromAlchemistScepter = 0x760 // bool
@@ -13489,6 +13488,7 @@ const (
     ClientDll_CDOTA_Modifier_Elder_Titan_Momentum_attack_speed_from_movespeed = 0x1AFC // float32
     ClientDll_CDOTA_Modifier_Chaos_Knight_Illusions_Damage_Reduction_damage_reduction_pct = 0x1AF8 // int32
     ClientDll_CDOTA_Modifier_Lycan_Pack_Hunter_mark_duration = 0x1AF8 // float32
+    ClientDll_CDOTA_Modifier_Lycan_Pack_Hunter_mark_range = 0x1AFC // float32
     ClientDll_CDOTA_Modifier_Animation_RightClawSwipe_damage = 0x1AF8 // int32
     ClientDll_CDOTA_Modifier_Animation_RightClawSwipe_damage_radius = 0x1AFC // int32
     ClientDll_CDOTA_Modifier_Animation_RightClawSwipe_m_flScalar = 0x1B00 // float32
@@ -15286,6 +15286,13 @@ const (
     ClientDll_CSurvivorsSpawnerDestructibles_m_flDestroyDistance = 0x17C // float32
     ClientDll_C_DotaTree_m_unOccluderID = 0x2C // uint32
     ClientDll_CSurvivorsPowerUp_Frostbite_m_flScepterExplodeRadius = 0x6F8 // float32
+    ClientDll_CDOTARoadToTIChallengeDefinition_m_eEvent = 0x0 // EEvent
+    ClientDll_CDOTARoadToTIChallengeDefinition_m_unTotalQuestPeriods = 0x4 // uint32
+    ClientDll_CDOTARoadToTIChallengeDefinition_m_unHeroesPerQuest = 0x8 // uint32
+    ClientDll_CDOTARoadToTIChallengeDefinition_m_vecQuestPattern = 0x10 // CUtlVector<uint32>
+    ClientDll_CDOTARoadToTIChallengeDefinition_m_unCullingBladeItemDef = 0x28 // item_definition_index_t
+    ClientDll_CDOTARoadToTIChallengeDefinition_m_unRerollItemDef = 0x2C // item_definition_index_t
+    ClientDll_CDOTARoadToTIChallengeDefinition_m_vecQuests = 0x30 // CUtlVector<RoadToTIQuestDefinition_t>
     ClientDll_CSurvivorsPowerUp_LandMine_m_sParticle = 0x608 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
     ClientDll_CSurvivorsPowerUp_LandMine_m_sExplosionParticle = 0x6E8 // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
     ClientDll_CSurvivorsPowerUp_LandMine_m_flScepterVacuumRadius = 0x7E0 // float32

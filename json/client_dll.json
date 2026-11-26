@@ -450,6 +450,24 @@
         "metadata": [],
         "parent": null
       },
+      "CDOTARoadToTIChallengeDefinition": {
+        "fields": {
+          "m_eEvent": 0,
+          "m_unCullingBladeItemDef": 40,
+          "m_unHeroesPerQuest": 8,
+          "m_unRerollItemDef": 44,
+          "m_unTotalQuestPeriods": 4,
+          "m_vecQuestPattern": 16,
+          "m_vecQuests": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "CDOTASubChallengeInfo": {
         "fields": {
           "nCompleted": 88,
@@ -20154,7 +20172,8 @@
       },
       "CDOTA_Modifier_Lycan_Pack_Hunter": {
         "fields": {
-          "mark_duration": 6904
+          "mark_duration": 6904,
+          "mark_range": 6908
         },
         "metadata": [],
         "parent": null
@@ -20296,13 +20315,6 @@
           "model_scale": 6960,
           "side_distance": 6932,
           "wolf_index": 6924
-        },
-        "metadata": [],
-        "parent": null
-      },
-      "CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range": {
-        "fields": {
-          "attack_range": 6904
         },
         "metadata": [],
         "parent": null
@@ -43716,6 +43728,11 @@
         "metadata": [],
         "parent": null
       },
+      "C_DOTA_Ability_Special_Bonus_HP_Regen_4_5": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "C_DOTA_Ability_Special_Bonus_HP_Regen_5": {
         "fields": {},
         "metadata": [],
@@ -55010,36 +55027,6 @@
           "k_eVisualNovelDialogueLineType_Video": 5
         },
         "type": "uint32"
-      },
-      "_A_K__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "___K__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "___L__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "______": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_k_K__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
-      },
-      "_r_K__": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
       }
     }
   }

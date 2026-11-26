@@ -1,5 +1,5 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-22 15:00:19.948492600 +07:00
+// 2026-11-26 21:46:41.980512300 +07:00
 
 package schemas
 
@@ -13173,7 +13173,7 @@ const (
     ServerDll_CDOTA_Modifier_AghsFort_ShadowShaman_Shackles_tick_interval = 0x1AF8 // float32
     ServerDll_CDOTA_Modifier_AghsFort_ShadowShaman_Shackles_total_damage = 0x1AFC // float32
     ServerDll_CDOTA_Modifier_AghsFort_ShadowShaman_Shackles_channel_time = 0x1B00 // float32
-    ServerDll_CDOTA_Modifier_Special_Bonus_HP_Regen_value = 0x1AF8 // int32
+    ServerDll_CDOTA_Modifier_Special_Bonus_HP_Regen_value = 0x1AF8 // float32
     ServerDll_CDOTA_Modifier_Giant_Maul_crit_multiplier = 0x1AF8 // float32
     ServerDll_CDOTA_Modifier_Giant_Maul_debuff_duration = 0x1AFC // float32
     ServerDll_CDOTA_Modifier_Giant_Maul_m_iInFlightRecord = 0x1B00 // AttackRecord_t
@@ -16829,7 +16829,7 @@ const (
     ServerDll_CDOTA_Modifier_Primal_Beast_Colossal_base_slow_resist = 0x1AFC // int32
     ServerDll_CDOTA_Modifier_Primal_Beast_Colossal_base_aoe = 0x1B00 // int32
     ServerDll_CDOTA_Modifier_Primal_Beast_Colossal_hp_per_threshold = 0x1B04 // int32
-    ServerDll_CDOTA_Modifier_Primal_Beast_Colossal_slow_resistance_per_threshold = 0x1B08 // int32
+    ServerDll_CDOTA_Modifier_Primal_Beast_Colossal_slow_resistance_per_threshold = 0x1B08 // float32
     ServerDll_CDOTA_Modifier_Primal_Beast_Colossal_aoe_per_threshold = 0x1B0C // float32
     ServerDll_CDOTA_Modifier_Primal_Beast_Colossal_trample_bonus = 0x1B10 // float32
     ServerDll_CDOTA_Modifier_PrimalBeast_Uproar_Slow_move_slow_per_stack = 0x1AF8 // int32
@@ -20898,7 +20898,6 @@ const (
     ServerDll_CDOTA_Modifier_Magnataur_Skewer_Impact_m_flEndTime = 0x1B1C // float32
     ServerDll_CDOTA_Modifier_Magnataur_Skewer_Impact_m_flCurTime = 0x1B20 // float32
     ServerDll_CDOTA_Modifier_Shadow_Demon_Menace_duration = 0x1AF8 // float32
-    ServerDll_CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range_attack_range = 0x1AF8 // int32
     ServerDll_CDOTA_Modifier_Leshrac_Lightning_Storm_Slow_movespeed_slow = 0x1AF8 // int32
     ServerDll_CDOTA_Modifier_SandKing_SandStorm_Blind_blind_pct = 0x1AF8 // int32
     ServerDll_CDOTA_Ability_Juggernaut_BladeFury_blade_fury_damage = 0x580 // int32
@@ -22873,6 +22872,7 @@ const (
     ServerDll_CDOTA_Ability_Skywrath_Mage_Arcane_Bolt_m_nFXIndex = 0x58C // int32
     ServerDll_CDOTA_Modifier_Chaos_Knight_Illusions_Damage_Reduction_damage_reduction_pct = 0x1AF8 // int32
     ServerDll_CDOTA_Modifier_Lycan_Pack_Hunter_mark_duration = 0x1AF8 // float32
+    ServerDll_CDOTA_Modifier_Lycan_Pack_Hunter_mark_range = 0x1AFC // float32
     ServerDll_CDOTA_Modifier_Animation_RightClawSwipe_damage = 0x1AF8 // int32
     ServerDll_CDOTA_Modifier_Animation_RightClawSwipe_damage_radius = 0x1AFC // int32
     ServerDll_CDOTA_Modifier_Animation_RightClawSwipe_m_flScalar = 0x1B00 // float32

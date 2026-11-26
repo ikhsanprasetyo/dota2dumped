@@ -1,5 +1,5 @@
 # Generated using https://github.com/ikhsanprasetyo/source2-dumper
-# 2026-11-22 15:00:19.948492600 +07:00
+# 2026-11-26 21:46:41.980512300 +07:00
 
 class Schemas:
     # Module: client.dll
@@ -1593,18 +1593,6 @@ class Schemas:
             DOTA_CUSTOM_UI_TYPE_END_SCREEN = 0x7
             DOTA_CUSTOM_UI_TYPE_COUNT = 0x8
             DOTA_CUSTOM_UI_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF
-        class _k_K__:
-            pass
-        class ______:
-            pass
-        class ___K__:
-            pass
-        class _r_K__:
-            pass
-        class ___L__:
-            pass
-        class _A_K__:
-            pass
         class C_DOTA_BaseNPC_Shop:
             m_ShopType = 0x1BB0 # DOTA_SHOP_TYPE
             m_nShopFX = 0x1BD8 # ParticleIndex_t
@@ -9127,7 +9115,7 @@ class Schemas:
             total_damage = 0x1AFC # float32
             channel_time = 0x1B00 # float32
         class CDOTA_Modifier_Special_Bonus_HP_Regen:
-            value = 0x1AF8 # int32
+            value = 0x1AF8 # float32
         class C_DOTA_Ability_Special_Bonus_Movement_Speed_10:
             pass
         class CDOTA_Modifier_Giant_Maul:
@@ -14633,7 +14621,7 @@ class Schemas:
             base_slow_resist = 0x1AFC # int32
             base_aoe = 0x1B00 # int32
             hp_per_threshold = 0x1B04 # int32
-            slow_resistance_per_threshold = 0x1B08 # int32
+            slow_resistance_per_threshold = 0x1B08 # float32
             aoe_per_threshold = 0x1B0C # float32
             trample_bonus = 0x1B10 # float32
         class CDOTA_Modifier_PrimalBeast_Uproar_Slow:
@@ -17147,6 +17135,8 @@ class Schemas:
         class C_DOTA_Ability_Special_Bonus_Agility_25:
             pass
         class C_DOTA_Ability_Special_Bonus_MP_Regen_150:
+            pass
+        class C_DOTA_Ability_Special_Bonus_HP_Regen_4_5:
             pass
         class ClientQuickBuyItemState:
             nItemType = 0x30 # int16
@@ -20468,8 +20458,6 @@ class Schemas:
             damage_distance_pct = 0x1B00 # int32
         class CDOTA_Modifier_Shadow_Demon_Menace:
             duration = 0x1AF8 # float32
-        class CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range:
-            attack_range = 0x1AF8 # int32
         class CDOTA_Modifier_Clinkz_BurningBarrage_DamageReduction:
             pass
         class CDOTA_Modifier_Leshrac_Lightning_Storm_Slow:
@@ -22781,6 +22769,7 @@ class Schemas:
             damage_reduction_pct = 0x1AF8 # int32
         class CDOTA_Modifier_Lycan_Pack_Hunter:
             mark_duration = 0x1AF8 # float32
+            mark_range = 0x1AFC # float32
         class CDOTA_Modifier_Animation_RightClawSwipe:
             damage = 0x1AF8 # int32
             damage_radius = 0x1AFC # int32
@@ -25915,6 +25904,14 @@ class Schemas:
             m_unOccluderID = 0x2C # uint32
         class CSurvivorsPowerUp_Frostbite:
             m_flScepterExplodeRadius = 0x6F8 # float32
+        class CDOTARoadToTIChallengeDefinition:
+            m_eEvent = 0x0 # EEvent
+            m_unTotalQuestPeriods = 0x4 # uint32
+            m_unHeroesPerQuest = 0x8 # uint32
+            m_vecQuestPattern = 0x10 # CUtlVector<uint32>
+            m_unCullingBladeItemDef = 0x28 # item_definition_index_t
+            m_unRerollItemDef = 0x2C # item_definition_index_t
+            m_vecQuests = 0x30 # CUtlVector<RoadToTIQuestDefinition_t>
         class CSurvivorsPowerUp_LandMine:
             m_sParticle = 0x608 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             m_sExplosionParticle = 0x6E8 # CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>

@@ -1,13 +1,13 @@
 // Generated using https://github.com/ikhsanprasetyo/source2-dumper
-// 2026-11-22 15:00:19.948492600 +07:00
+// 2026-11-26 21:46:41.980512300 +07:00
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod source2_dumper {
     pub mod schemas {
         // Module: server.dll
-        // Class count: 7350
-        // Enum count: 441
+        // Class count: 7351
+        // Enum count: 443
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -18017,6 +18017,10 @@ pub mod source2_dumper {
             }
             // Parent: None
             // Field count: 0
+            pub mod CDOTA_Ability_Special_Bonus_HP_Regen_4_5 {
+            }
+            // Parent: None
+            // Field count: 0
             pub mod CDOTA_Unit_Hero_Lich {
             }
             // Parent: None
@@ -24716,7 +24720,7 @@ pub mod source2_dumper {
             // Parent: None
             // Field count: 1
             pub mod CDOTA_Modifier_Special_Bonus_HP_Regen {
-                pub const value: usize = 0x1AF8; // int32
+                pub const value: usize = 0x1AF8; // float32
             }
             // Parent: None
             // Field count: 3
@@ -34714,7 +34718,7 @@ pub mod source2_dumper {
                 pub const base_slow_resist: usize = 0x1AFC; // int32
                 pub const base_aoe: usize = 0x1B00; // int32
                 pub const hp_per_threshold: usize = 0x1B04; // int32
-                pub const slow_resistance_per_threshold: usize = 0x1B08; // int32
+                pub const slow_resistance_per_threshold: usize = 0x1B08; // float32
                 pub const aoe_per_threshold: usize = 0x1B0C; // float32
                 pub const trample_bonus: usize = 0x1B10; // float32
             }
@@ -45189,11 +45193,6 @@ pub mod source2_dumper {
                 pub const duration: usize = 0x1AF8; // float32
             }
             // Parent: None
-            // Field count: 1
-            pub mod CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range {
-                pub const attack_range: usize = 0x1AF8; // int32
-            }
-            // Parent: None
             // Field count: 0
             pub mod CDOTA_Modifier_Clinkz_BurningBarrage_DamageReduction {
             }
@@ -50135,9 +50134,10 @@ pub mod source2_dumper {
                 pub const damage_reduction_pct: usize = 0x1AF8; // int32
             }
             // Parent: None
-            // Field count: 1
+            // Field count: 2
             pub mod CDOTA_Modifier_Lycan_Pack_Hunter {
                 pub const mark_duration: usize = 0x1AF8; // float32
+                pub const mark_range: usize = 0x1AFC; // float32
             }
             // Parent: None
             // Field count: 0
@@ -57723,6 +57723,10 @@ pub mod source2_dumper {
             pub mod CNavVolumeSphere {
                 pub const m_vCenter: usize = 0x78; // VectorWS
                 pub const m_flRadius: usize = 0x84; // float32
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod __J___ {
             }
         }
     }

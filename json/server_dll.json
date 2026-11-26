@@ -12121,6 +12121,11 @@
         "metadata": [],
         "parent": null
       },
+      "CDOTA_Ability_Special_Bonus_HP_Regen_4_5": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "CDOTA_Ability_Special_Bonus_HP_Regen_5": {
         "fields": {},
         "metadata": [],
@@ -36986,7 +36991,8 @@
       },
       "CDOTA_Modifier_Lycan_Pack_Hunter": {
         "fields": {
-          "mark_duration": 6904
+          "mark_duration": 6904,
+          "mark_range": 6908
         },
         "metadata": [],
         "parent": null
@@ -37128,13 +37134,6 @@
           "model_scale": 6960,
           "side_distance": 6932,
           "wolf_index": 6924
-        },
-        "metadata": [],
-        "parent": null
-      },
-      "CDOTA_Modifier_Lycan_Wolf_Bite_Attack_Range": {
-        "fields": {
-          "attack_range": 6904
         },
         "metadata": [],
         "parent": null
@@ -58787,6 +58786,11 @@
         "metadata": [],
         "parent": null
       },
+      "__J___": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "dota_minimap_boundary": {
         "fields": {},
         "metadata": [],
@@ -67660,6 +67664,11 @@
         },
         "type": "uint32"
       },
+      "PQ____": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
       "PartnerAccountType": {
         "alignment": 4,
         "members": {
@@ -68672,6 +68681,11 @@
           "WORLDTEXT_VERTICAL_ALIGN_TOP": 0
         },
         "type": "uint32"
+      },
+      "_u____": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
       },
       "attackfail": {
         "alignment": 4,
